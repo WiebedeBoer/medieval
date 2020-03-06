@@ -18,6 +18,7 @@
 					
 					<div class="links">
 						<a href="/forum">Forum</a>
+						<a href="/news">News</a>
 						<a href="/manual">Manual</a>
 					</div>				
 					

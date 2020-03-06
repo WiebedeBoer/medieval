@@ -3,12 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Medieval</title>
-
+		<meta name="description" content="Free browser based games, with such games as Roma and Shugo, Middle, and Three Kingdoms."/>
+		<meta name="keywords" content="romegames, roma, shugo, middle ages, medieval, online game, pbbg, mmo, mmorts, mmorpg, browser based game, browser game, shugo.nl, romegames.nl">
+		<meta http-equiv="Content-Language" content="en-us">
+		<meta name="author" content="Wiebe Eling de Boer">
+		<meta name="copyright" content="2020 Wiebe Eling de Boer">
+		<meta name="date" content="2020-3-6">
+		<meta name="robots" content="INDEX, FOLLOW">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
         <!-- Styles -->
         <style>
             html, body {
@@ -86,8 +90,16 @@
 
                 <div class="links">
                     <a href="/forum">Forum</a>
+					<a href="/news">News</a>
 					<a href="/manual">Manual</a>
                 </div>
+				
+                <div class="links">
+                    <a href="/rules">Rules</a>
+					<a href="/terms">Terms &amp; Conditions</a>
+					<a href="/privacy">Privacy Policy</a>
+                </div>				
+				
             </div>
         </div>
     </body>

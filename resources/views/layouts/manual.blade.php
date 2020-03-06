@@ -85,6 +85,10 @@
                 </div>
             </div>
         </nav>
+		
+        <main class="py-4">
+            @include('manual.submenu')
+        </main>		
 		<!--content-->
         <main class="py-4">
             @yield('content')
