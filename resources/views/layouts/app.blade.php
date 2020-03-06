@@ -17,17 +17,13 @@
 	<meta name="robots" content="INDEX, FOLLOW">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
     <!--laravel app Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-	  <!-- Styles -->
+	<!-- Styles -->
 	<link href="{{ asset('css/main.css') }}" rel="stylesheet">
    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--jquery-->
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
     <!--bootstrap-->
@@ -47,12 +43,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+						
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -81,14 +73,26 @@
                                 </div>
                             </li>
                         @endguest
+						
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
                     </ul>
                 </div>
             </div>
         </nav>
 		<!--content-->
+		<div class="vh-100">
         <main class="py-4">
             @yield('content')
         </main>
+		</div>
+		@include('layouts.footer')
     </div>
+	        <!--bootstrap jquery script-->
+        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{ asset('js/jquery-ui.min.js') }}"></script>	
 </body>
 </html>

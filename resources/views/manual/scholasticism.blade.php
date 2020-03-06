@@ -10,8 +10,16 @@ Manual
                 <div class="card-header">Manual</div>
                 <div class="card-body">
 					<div class="container">
-					<h1>Manual</h1>
+					<h1>Scholasticism</h1>
+<h2>Academy</h2>
 
+<p>A ruler who owns a vill with an academy can conduct science.</p>
+
+<h2>Science</h2>
+
+<p>Science points can be spend on various technologies.</p>
+
+<p>Technologies are divided into six different eras.</p>
 					</div>
                 </div>
             </div>

@@ -10,8 +10,13 @@ Manual
                 <div class="card-header">Manual</div>
                 <div class="card-body">
 					<div class="container">
-					<h1>Manual</h1>
+					<h1>Heraldry</h1>
+<h2>Feudal Heraldry</h2>
 
+<p>Holders of a title are entitled to insignia to denote their rank.</p>
+
+
+<h2>Feudal Ranks</h2>
 					</div>
                 </div>
             </div>

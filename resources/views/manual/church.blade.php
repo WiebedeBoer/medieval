@@ -10,8 +10,10 @@ Manual
                 <div class="card-header">Manual</div>
                 <div class="card-body">
 					<div class="container">
-					<h1>Manual</h1>
+					<h1>Church</h1>
+<h2>Beliefs</h2>
 
+<p>There are five different faiths. Most faiths have a primate leader.</p>
 					</div>
                 </div>
             </div>

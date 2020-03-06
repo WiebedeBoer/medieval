@@ -61,7 +61,7 @@
 						
 						<div class="form-group row">
 						<div class="col-md-6">
-						Registering means you have read and agreed with the <a href="/terms">terms &amp; conditions</a>, <a href="/rules">rules</a>, <a href="/privacy">privacy policy</a>, and all cookies of this site.
+						Registering means you have read and agreed with the <a href="/terms">terms &amp; conditions</a>, <a href="/rules">rules</a>, and <a href="/privacy">privacy policy</a>, and accept all cookies of this site.
 						</div>
 						</div>
 						<!--submit-->

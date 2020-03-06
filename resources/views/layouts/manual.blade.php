@@ -17,6 +17,8 @@
 	<meta name="robots" content="INDEX, FOLLOW">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -33,7 +35,7 @@
     <!--bootstrap-->
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 </head>
-<body class="body-cards">
+<body class="manual-cards">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -47,11 +49,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -82,6 +79,11 @@
                             </li>
                         @endguest
                     </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -93,6 +95,12 @@
         <main class="py-4">
             @yield('content')
         </main>
+		@include('layouts.footer')
     </div>
+	
+        <!--bootstrap jquery script-->
+        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{ asset('js/jquery-ui.min.js') }}"></script>		
+	
 </body>
 </html>
