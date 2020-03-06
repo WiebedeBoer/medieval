@@ -20,3 +20,34 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//users
+Route::get('users', 'UserController@index');
+Route::get('users/{user}', 'UserController@show');
+Route::get('users/{user}/edit', 'UserController@edit');
+Route::patch('users/{user}', 'UserController@update');
+Route::delete('users/{user}', 'UserController@destroy');
+
+//persons
+Route::get('persons', 'PersonController@index');
+Route::get('persons/create','PersonController@create');
+Route::post('persons','PersonController@store');
+Route::get('persons/{person}', 'PersonController@show');
+Route::get('persons/{person}/edit', 'PersonController@edit');
+Route::delete('persons/{person}', 'PersonController@destroy');
+Route::patch('persons/{person}', 'PersonController@update');
+
+//costs
+Route::get('costs', 'CostController@index');
+Route::get('costs/{costs}', 'CostController@show');
+Route::delete('costs/{costs}', 'CostController@destroy');
+Route::get('costs/export','CostController@export');
+
+//region
+Route::get('region', 'RegionController@index');
+Route::get('region/region','RegionController@create');
+Route::post('region','RegionController@store');
+Route::get('region/{region}', 'RegionController@show');
+Route::get('region/{region}/edit', 'RegionController@edit');
+Route::delete('region/{region}', 'RegionController@destroy');
+Route::patch('region/{region}', 'RegionController@update');
