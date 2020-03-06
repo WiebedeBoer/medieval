@@ -21,6 +21,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//manual
+Route::get('manual', 'ManualController@index');
+//forum
+Route::get('forum', 'ForumController@index');
 //users
 Route::get('users', 'UserController@index');
 Route::get('users/{user}', 'UserController@show');

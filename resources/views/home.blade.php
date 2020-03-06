@@ -15,6 +15,12 @@
                     @endif
 
                     You are logged in!
+					
+					<div class="links">
+						<a href="/forum">Forum</a>
+						<a href="/manual">Manual</a>
+					</div>				
+					
                 </div>
             </div>
         </div>
