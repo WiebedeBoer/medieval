@@ -192,6 +192,10 @@ td.se {
     background-color: #4e784e;
 }
 
+td.r {
+	text-align:right;
+}
+
 th.c {
 	text-align:center;
 	color: #fdfdfd;

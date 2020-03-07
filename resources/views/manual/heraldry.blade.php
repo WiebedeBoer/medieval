@@ -20,10 +20,10 @@ Manual
 
 
 
-<div class="py-3 border-top">
+<div class="py-5 border-top">
 <h2>Feudal Ranks</h2>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Ranks (Catholic)</h3>
 
 <table class="tablesorter table">
@@ -110,7 +110,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Ranks (Greek Orthodox)</h3>
 
 <table class="tablesorter table">
@@ -194,7 +194,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Ranks (Russian Orthodox)</h3>
 
 <table class="tablesorter table">
@@ -269,7 +269,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Ranks (Serbian Orthodox)</h3>
 
 <table class="tablesorter table">
@@ -347,7 +347,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Ranks (Islam)</h3>
 
 <table class="tablesorter table">
@@ -423,10 +423,10 @@ Manual
 </div>
 </div>
 
-<div class="py-3 border-top">
+<div class="py-5 border-top">
 <h2>Feudal Insignia</h2>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Insignia (Catholic - Feudal)</h3>
 <table class="tablesorter table">
 <thead>
@@ -482,7 +482,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Insignia (Catholic - Eclessiastical)</h3>
 <table class="tablesorter table">
 <thead>
@@ -544,7 +544,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Insignia (Catholic - Burgher)</h3>
 <table class="tablesorter table">
 <thead>
@@ -591,7 +591,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Insignia (Orthodox - Temporal)</h3>
 <table class="tablesorter table">
 <thead>
@@ -647,7 +647,7 @@ Manual
 </table>
 </div>
 
-<div class="py-5">
+<div class="py-3">
 <h3>Feudal Insignia (Orthodox - Eclessiastical)</h3>
 <table class="tablesorter table">
 <thead>
