@@ -22,7 +22,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 //manual
 Route::get('manual', 'ManualController@index');
-Route::get('manual/roles', 'ManualController@roles');
 Route::get('manual/feudalism', 'ManualController@feudalism');
 Route::get('manual/heraldry', 'ManualController@heraldry');
 Route::get('manual/chivalry', 'ManualController@chivalry');

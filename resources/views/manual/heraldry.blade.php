@@ -21,11 +21,11 @@ Manual
 
 
 <div class="py-5 border-top">
-<h2>Feudal Ranks</h2>
+<h2><a name="ranks">Feudal Ranks</a></h2>
 
 <div class="py-3">
 <h3>Feudal Ranks (Catholic)</h3>
-
+<img src="{{ asset('img/images/belief_catholic.png') }}" width="30" height="30" alt="belief">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Feudal Division</th><th class="ma">Gentry</th><th class="ma">Clergy</th><th class="ma">Monastic</th><th class="ma">Crusader</th><th class="ma">Courtier</th><th class="ma">Burgher</th><th class="ma">Commerce</th><th class="ma">Peasantry</th></tr>
@@ -112,7 +112,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Ranks (Greek Orthodox)</h3>
-
+<img src="{{ asset('img/images/belief_orthodox.png') }}" width="30" height="30" alt="belief">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Feudal Division</th><th class="ma">Gentry</th><th class="ma">Clergy</th><th class="ma">Monastic</th><th class="ma">Crusader</th><th class="ma">Courtier</th><th class="ma">Burgher</th><th class="ma">Commerce</th><th class="ma">Peasantry</th></tr>
@@ -196,7 +196,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Ranks (Russian Orthodox)</h3>
-
+<img src="{{ asset('img/images/belief_orthodox.png') }}" width="30" height="30" alt="belief">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Feudal Division</th><th class="ma">Gentry</th><th class="ma">Clergy</th><th class="ma">Monastic</th><th class="ma">Crusader</th><th class="ma">Courtier</th><th class="ma">Burgher</th><th class="ma">Commerce</th><th class="ma">Peasantry</th></tr>
@@ -271,7 +271,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Ranks (Serbian Orthodox)</h3>
-
+<img src="{{ asset('img/images/belief_orthodox.png') }}" width="30" height="30" alt="belief">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Feudal Division</th><th class="ma">Gentry</th><th class="ma">Clergy</th><th class="ma">Monastic</th><th class="ma">Crusader</th><th class="ma">Courtier</th><th class="ma">Burgher</th><th class="ma">Commerce</th><th class="ma">Peasantry</th></tr>
@@ -284,7 +284,7 @@ Manual
 <th class="ma">Kingdom</th><td class="ge">Tsar</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
-<th class="ma">Grand Duchy</th><td class="ge">Veliki Knyaz</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="bu">Rector</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
+<th class="ma">Grand Duchy</th><td class="ge">Veliki Knyaz</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
 <th class="l">Tenant-in-Chief</th><th colspan="8" class="c">Non-Sovereign</th>
@@ -296,13 +296,13 @@ Manual
 <th class="ma">March</th><td class="co">Voivode</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
-<th class="ma">March</th><td class="ge">Ban</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="bu">Viceroy</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
+<th class="ma">March</th><td class="ge">Ban</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
-<th class="ma">County</th><td class="ge">Count</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="co">Steward</td><td class="u">&nbsp;</td><td class="pe">Sheriff</td>
+<th class="ma">County</th><td class="ge">Count</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="pe">Sheriff</td>
 </tr>
 <tr>
-<th class="ma">Castellany</th><td class="ca">Castellan</td><td class="cl">Patriarch</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="bu">Captain General</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
+<th class="ma">Castellany</th><td class="ca">Castellan</td><td class="cl">Patriarch</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="bu">Gross Schenker</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
 <th class="l">Mesne Lord</th><th colspan="8" class="c">Court Baron</th>
@@ -349,7 +349,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Ranks (Islam)</h3>
-
+<img src="{{ asset('img/images/belief_islam.png') }}" width="30" height="30" alt="belief">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Feudal Division</th><th class="ma">Gentry</th><th class="ma">Clergy</th><th class="ma">Monastic</th><th class="ma">Crusader</th><th class="ma">Courtier</th><th class="ma">Burgher</th><th class="ma">Commerce</th><th class="ma">Peasantry</th></tr>
@@ -424,10 +424,11 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2>Feudal Insignia</h2>
+<h2><a name="insignia">Feudal Insignia</a></h2>
 
 <div class="py-3">
 <h3>Feudal Insignia (Catholic - Feudal)</h3>
+<img src="{{ asset('img/images/misc_lion.png') }}" width="40" height="40" alt="misc">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Territory</th><th class="ma">Helm</th><th class="ma">Escutcheon</th><th class="ma">Coronet</th><th class="ma">Orb</th></tr>
@@ -484,6 +485,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Insignia (Catholic - Eclessiastical)</h3>
+<img src="{{ asset('img/images/misc_mitre.png') }}" width="40" height="40" alt="misc">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Territory</th><th class="ma">Rank</th><th class="ma">Escutcheon</th><th class="ma">Coronet</th><th class="ma">Galero</th><th class="ma">Mitre</th><th class="ma">Orb</th></tr>
@@ -546,6 +548,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Insignia (Catholic - Burgher)</h3>
+<img src="{{ asset('img/images/misc_anchor.png') }}" width="40" height="40" alt="misc">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Territory</th><th class="ma">Helm</th><th class="ma">Escutcheon</th><th class="ma">Coronet</th></tr>
@@ -593,6 +596,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Insignia (Orthodox - Temporal)</h3>
+<img src="{{ asset('img/images/misc_crown.png') }}" width="40" height="40" alt="misc">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Territory</th><th class="ma">Escutcheon</th><th class="ma">Monomakh</th><th class="ma">Orb</th></tr>
@@ -649,6 +653,7 @@ Manual
 
 <div class="py-3">
 <h3>Feudal Insignia (Orthodox - Eclessiastical)</h3>
+<img src="{{ asset('img/images/misc_mitre.png') }}" width="40" height="40" alt="misc">
 <table class="tablesorter table">
 <thead>
 <tr><th class="ma">Territory</th><th class="ma">Rank</th><th class="ma">Escutcheon</th><th class="ma">Galero</th><th class="ma">Mitre</th></tr>

@@ -13,8 +13,7 @@ Manual
 					<h1>Feudalism</h1>
 
 <div class="py-5 border-top">
-<H2>Units of Land</H2>
-
+<H2><a name="units">Units of Land</a></H2>
 
 <div class="py-3">
 <H3>Territorial Subdivisions</H3>
@@ -84,7 +83,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<H2>Territorial Divisions</H2>
+<H2><a name="divisions">Territorial Divisions</a></H2>
 
 <div class="py-3">
 <H3>Bailiwick</H3>
@@ -162,7 +161,7 @@ Manual
 <tbody>
 <tr><th class="ma">Lord Paramount</th><td class="u">&nbsp;</td><td class="cl">Prince-Archbishop</td></tr>
 <tr><th class="ma">Tenant-in-chief</th><td class="cl">Prince-Bishop</td><td class="cl">Prince-Archbishop</td></tr>
-<tr><th class="ma">Mesne Lord</th><td class="cl">Lord-Bishop</td><td class="cl">Lord-Archbishop</td></tr>
+<tr><th class="ma">Mesne Lord</th><td class="cl">Bishop</td><td class="cl">Archbishop</td></tr>
 <tr><th class="ma">Tenant Paravail</th><td class="u">&nbsp;</td><td class="u">&nbsp;</td></tr>
 </tbody>
 </table>
@@ -192,7 +191,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2>Feudal Ranks</h2>
+<h2><a name="ranks">Feudal Ranks</a></h2>
 
 <div class="py-3">
 <P>A landlord is a person who owns a unit of land. A person who rents the land is known as a tenant. If a tenant pays homage to a landlord, then this tenant is known as a vassal to that landlord. Likewise the landlord who leases the land to a tenant is known as a liege to that tenant.</P>
@@ -225,6 +224,12 @@ Manual
 <P>A tenant paravail is a kind of tenant who holds lands of a mesne lord or a tenant-in-chief or a lord paramount under various forms of tenure. A tenant paravail is ranked at the bottom of a feudal hierarchy. In the feudal hierarchy a tenant paravail is thus ranked below a mesne lord and below a tenant-chief and below a lord paramount.</P>
 </div>
 </div>
+
+<div class="py-5 border-top">
+<h2><a name="court">Court</h2>
+<img src="{{ asset('img/images/misc_throne.png') }}" width="40" height="40" alt="misc">
+<p>Some characters with particular titles can be made members of a court. These courtiers make information available and assist in the developmenbt of the manorial economy.</p>
+</div>	
 
 					</div>
                 </div>
