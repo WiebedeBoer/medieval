@@ -91,8 +91,6 @@
 		</div>
 		@include('layouts.footer')
     </div>
-	        <!--bootstrap jquery script-->
-        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
-        <script src="{{ asset('js/jquery-ui.min.js') }}"></script>	
+
 </body>
 </html>
