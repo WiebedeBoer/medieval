@@ -1,3 +1,8 @@
+## About Medieval
+
+Medieval was made using laravel, three.js, jquery, and bootstrap.
+
+##laravel
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -9,10 +14,3 @@
 
 </p>
 
-## About Medieval
-
-Medieval was made using laravel and three.js.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
