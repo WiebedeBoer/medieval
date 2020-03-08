@@ -55,6 +55,14 @@ Route::get('persons/{person}', 'PersonController@show');
 Route::get('persons/{person}/edit', 'PersonController@edit');
 Route::delete('persons/{person}', 'PersonController@destroy');
 Route::patch('persons/{person}', 'PersonController@update');
+//dynasty
+Route::get('dynasty', 'DynastyController@index');
+Route::get('dynasty/create','DynastyController@create');
+Route::post('dynasty','DynastyController@store');
+Route::get('dynasty/{dynasty}', 'DynastyController@show');
+Route::get('dynasty/{dynasty}/edit', 'DynastyController@edit');
+Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
+Route::patch('dynasty/{dynasty}', 'DynastyController@update');
 //costs
 Route::get('costs', 'CostController@index');
 Route::get('costs/{costs}', 'CostController@show');
@@ -62,9 +70,6 @@ Route::delete('costs/{costs}', 'CostController@destroy');
 Route::get('costs/export','CostController@export');
 //region
 Route::get('region', 'RegionController@index');
-Route::get('region/region','RegionController@create');
-Route::post('region','RegionController@store');
 Route::get('region/{region}', 'RegionController@show');
 Route::get('region/{region}/edit', 'RegionController@edit');
-Route::delete('region/{region}', 'RegionController@destroy');
 Route::patch('region/{region}', 'RegionController@update');
