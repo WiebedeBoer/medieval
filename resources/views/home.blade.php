@@ -18,8 +18,10 @@
 					
 					<div class="links">
 						<a href="/forum">Forum</a>
-						<a href="/news">News</a>
 						<a href="/manual">Manual</a>
+						<a href="/dynasty">Dynasties</a>
+						<a href="/region">Regions</a>
+						<a href="/place">Places</a>
 					</div>				
 					
                 </div>

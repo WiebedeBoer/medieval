@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,12 +30,18 @@ class fkeySeeder extends Seeder
 	//foreign keys
     public function run()
     {
-        Schema::table('places', function (Blueprint $table) {
+        
+		Schema::table('places', function (Blueprint $table) {
             $table->foreign('region')->references('region_id')->on('regions');
         });
+		
         Schema::table('regions', function (Blueprint $table) {
             $table->foreign('culture')->references('culture_id')->on('cultures');
         });  
+		
+		Schema::table('dynasties', function (Blueprint $table) {
+            $table->foreign('culture')->references('culture_id')->on('cultures');
+        }); 
 		
     }
 }
