@@ -63,13 +63,18 @@ Route::get('dynasty/{dynasty}', 'DynastyController@show');
 Route::get('dynasty/{dynasty}/edit', 'DynastyController@edit');
 Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
 Route::patch('dynasty/{dynasty}', 'DynastyController@update');
-//costs
-Route::get('costs', 'CostController@index');
-Route::get('costs/{costs}', 'CostController@show');
-Route::delete('costs/{costs}', 'CostController@destroy');
-Route::get('costs/export','CostController@export');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
 Route::get('region/{region}/edit', 'RegionController@edit');
 Route::patch('region/{region}', 'RegionController@update');
+//culture
+Route::get('culture', 'CultureController@index');
+Route::get('culture/{culture}', 'CultureController@show');
+Route::get('culture/{culture}/edit', 'CultureController@edit');
+Route::patch('culture/{culture}', 'CultureController@update');
+//place
+Route::get('place', 'PlaceController@index');
+Route::get('place/{place}', 'PlaceController@show');
+Route::get('place/{place}/edit', 'PlaceController@edit');
+Route::patch('place/{place}', 'PlaceController@update');

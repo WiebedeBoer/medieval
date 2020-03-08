@@ -9,9 +9,8 @@ use App\Culture;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
-class RegionController extends Controller
+class PlaceController extends Controller
 {
-	
     //authenticate
     public function __construct()
     {
@@ -21,32 +20,31 @@ class RegionController extends Controller
 	//main
     public function index()
     {            
-		$regiondata = Region::all();
-		return view('region.index', compact('regiondata'));        
+		$placedata = Place::all();
+		return view('place.index', compact('placedata'));        
     }
 	
 	//show
     public function show($id)
     {       
-        $regiondata = Region::where('region_id', $id)->firstOrFail();
-		return view('region.show', compact('regiondata'));        
+        $placedata = Place::where('place_id', $id)->firstOrFail();
+		return view('place.show', compact('placedata'));        
     }
 	
     //update function
     public function update(Request $request, $id)
     {
         $data = $request->validate([
-            'region_description' => 'nullable'        
+            'place_description' => 'nullable'        
         ]);
-        Region::where('region_id', $id)->update($data);
-        return redirect('/region/'.$id)->with('message', 'Updated');
+        Place::where('place_id', $id)->update($data);
+        return redirect('/place/'.$id)->with('message', 'Updated');
     }
 	
 	//edit form
     public function edit($id)
     {       
-        $regiondata = Region::where('region_id', $id)->firstOrFail();
-		return view('region.edit', compact('regiondata'));        
-    }	
-	
+        $placedata = Place::where('place_id', $id)->firstOrFail();
+		return view('place.edit', compact('placedata'));        
+    }
 }
