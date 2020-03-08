@@ -12,7 +12,7 @@ class Culture extends Model
 	
     public function regions()
     {
-        return $this->hasMany('App\Region','region_id');
+        return $this->hasMany('App\Region','culture');
     }	
 	
 }

@@ -95,6 +95,17 @@ body.news-cards,body.manual-cards {
     margin-bottom: 30px;
 }
 
+/*worldmap*/
+.worldmap {
+    width: 100%;
+    height: auto;
+}
+
+.wmin {
+    width: 100%;
+    min-height: 600px;
+}
+
 /*manual table*/
 td.u {
     padding: 3px;

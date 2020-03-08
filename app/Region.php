@@ -17,7 +17,7 @@ class Region extends Model
 
     public function places()
     {
-        return $this->hasMany('App\Place','place_id');
+        return $this->hasMany('App\Place','region');
     }
 
 	public function owners()

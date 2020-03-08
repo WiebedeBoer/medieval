@@ -20,6 +20,7 @@
 						<a href="/forum">Forum</a>
 						<a href="/manual">Manual</a>
 						<a href="/dynasty">Dynasties</a>
+						<a href="/culture">Cultures</a>
 						<a href="/region">Regions</a>
 						<a href="/place">Places</a>
 					</div>				

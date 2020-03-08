@@ -29,6 +29,9 @@ class CreateRegionsTable extends Migration
 			$table->string('style');
 			$table->string('ride');
 			$table->string('cycle');
+			$table->string('goat')->default('none');
+			$table->string('sheep')->default('none');
+			$table->string('cattle')->default('none');
 			$table->integer('region_x')->default(0); //default = 0
             $table->integer('region_y')->default(0); //default = 0
 			$table->text('region_description')->nullable();

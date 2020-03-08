@@ -28,8 +28,9 @@ class RegionController extends Controller
 	//show
     public function show($id)
     {       
-        $regiondata = Region::where('region_id', $id)->firstOrFail();
-		return view('region.show', compact('regiondata'));        
+        $regiondata = Region::with('places','cultures')->where('region_id', $id)->firstOrFail();
+		$places = $this->countPlaces($id);
+		return view('region.show', compact('regiondata','places'));        
     }
 	
     //update function
@@ -45,8 +46,16 @@ class RegionController extends Controller
 	//edit form
     public function edit($id)
     {       
-        $regiondata = Region::where('region_id', $id)->firstOrFail();
-		return view('region.edit', compact('regiondata'));        
-    }	
+        $regiondata = Region::with('places','cultures')->where('region_id', $id)->firstOrFail();
+		$places = $this->countPlaces($id);
+		return view('region.edit', compact('regiondata','places'));         
+    }
+
+    //count region
+    public function countPlaces($id)
+    {
+        $placecount = Place::where('region', $id)->count();
+        return $placecount;
+    }		
 	
 }

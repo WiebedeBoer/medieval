@@ -555,13 +555,16 @@ Manual
 <th class="ma">Maghreb</th><td class="b">Arabic</td><td class="b">Arabic</td><td class="b">Muslim</td><td class="b"><img src="{{ asset('img/images/belief_islam.png') }}" width="40" height="40" alt="building"></td><td class="b">Oriental</td>
 </tr>
 <tr>
+<th class="ma">Gharb</th><td class="b">Arabic</td><td class="b">Arabic</td><td class="b">Muslim</td><td class="b"><img src="{{ asset('img/images/belief_islam.png') }}" width="40" height="40" alt="building"></td><td class="b">Oriental</td>
+</tr>
+<tr>
 <th colspan="6" class="c">Turco Persian</th>
 </tr>
 <tr>
 <th class="ma">Turkish</th><td class="b">Turkish</td><td class="b">Steppe</td><td class="b">Muslim</td><td class="b"><img src="{{ asset('img/images/belief_islam.png') }}" width="40" height="40" alt="building"></td><td class="b">Oriental</td>
 </tr>
 <tr>
-<th class="ma">Persian</th><td class="b">Arabic</td><td class="b">Steppe</td><td class="b">Muslim</td><td class="b"><img src="{{ asset('img/images/belief_islam.png') }}" width="40" height="40" alt="building"></td><td class="b">Oriental</td>
+<th class="ma">Persian</th><td class="b">Turkish</td><td class="b">Steppe</td><td class="b">Muslim</td><td class="b"><img src="{{ asset('img/images/belief_islam.png') }}" width="40" height="40" alt="building"></td><td class="b">Oriental</td>
 </tr>
 <tr>
 <th colspan="6" class="c">Steppe</th>

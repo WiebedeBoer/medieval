@@ -27,8 +27,12 @@ class PlaceController extends Controller
 	//show
     public function show($id)
     {       
-        $placedata = Place::where('place_id', $id)->firstOrFail();
-		return view('place.show', compact('placedata'));        
+        $placedata = Place::with('regions')->where('place_id', $id)->firstOrFail();
+		$region_id = $placedata->regions->region_id;
+		$region = Region::where('region_id', $region_id)->firstOrFail();
+		$culture_id = $region->culture;
+		$culture = Culture::where('culture_id', $culture_id)->firstOrFail();
+		return view('place.show', compact('placedata','culture'));        
     }
 	
     //update function
@@ -44,7 +48,11 @@ class PlaceController extends Controller
 	//edit form
     public function edit($id)
     {       
-        $placedata = Place::where('place_id', $id)->firstOrFail();
-		return view('place.edit', compact('placedata'));        
+        $placedata = Place::with('regions')->where('place_id', $id)->firstOrFail();
+		$region_id = $placedata->regions->region_id;
+		$region = Region::where('region_id', $region_id)->firstOrFail();
+		$culture_id = $region->culture;
+		$culture = Culture::where('culture_id', $culture_id)->firstOrFail();
+		return view('place.edit', compact('placedata','culture'));        
     }
 }

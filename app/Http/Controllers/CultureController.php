@@ -27,9 +27,17 @@ class CultureController extends Controller
 	//show
     public function show($id)
     {       
-        $culturedata = Culture::where('culture_id', $id)->firstOrFail();
-		return view('culture.show', compact('culturedata'));        
+        $culturedata = Culture::with('regions')->where('culture_id', $id)->firstOrFail();
+		$regions = $this->countRegion($id);
+		return view('culture.show', compact('culturedata','regions'));        
     }
+	
+    //count region
+    public function countRegion($id)
+    {
+        $regioncount = Region::where('culture', $id)->count();
+        return $regioncount;
+    }		
 	
     //update function
     public function update(Request $request, $id)
@@ -44,7 +52,12 @@ class CultureController extends Controller
 	//edit form
     public function edit($id)
     {       
-        $culturedata = Culture::where('culture_id', $id)->firstOrFail();
-		return view('culture.edit', compact('culturedata'));        
+        $culturedata = Culture::with('regions')->where('culture_id', $id)->firstOrFail();
+		$regions = $this->countRegion($id);
+		return view('culture.edit', compact('culturedata','regions'));     
     }
+	
+
+	
+	
 }
