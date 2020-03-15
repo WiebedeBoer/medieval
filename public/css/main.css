@@ -1,7 +1,16 @@
 @font-face {font-family: 'BedaFont'; src: url('../fonts/JMH_Beda.ttf') format('truetype'); font-weight: normal; font-style: normal;}
 
 body, body.body-cards {
-    background-color:#ffffdd;
+    background-color:#d0c8b0;
+    color: #636b6f;
+    font-family: "Bedafont", Georgia;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+body, body.forum-cards {
+    background-color:#d0c8b0;
     color: #636b6f;
     font-family: "Bedafont", Georgia;
     font-weight: 100;
@@ -10,7 +19,7 @@ body, body.body-cards {
 }
 
 body.news-cards,body.manual-cards {
-    background-color:#ffffdd;
+    background-color:#ebd5b3;
     color: #636b6f;
     font-family: Georgia;
     font-weight: 100;
@@ -93,6 +102,14 @@ body.news-cards,body.manual-cards {
 
 .m-b-md {
     margin-bottom: 30px;
+}
+
+/*game menu*/
+.game-menu{
+	width: 100%;
+    height: auto;
+	background-color:#ebd5b3;
+	text-align: center;
 }
 
 /*worldmap*/

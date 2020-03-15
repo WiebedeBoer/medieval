@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<!--title-->
-    <title>Medieval @yield('title', 'Medieval Game')</title>
+    <title>Medieval @yield('title', 'Medieval')</title>
 	<!--meta-->
 	<meta name="description" content="Free browser based games, with such games as Roma and Shugo, Middle, and Three Kingdoms."/>
 	<meta name="keywords" content="romegames, roma, shugo, middle ages, medieval, online game, pbbg, mmo, mmorts, mmorpg, browser based game, browser game, shugo.nl, romegames.nl">
@@ -29,7 +29,7 @@
     <!--bootstrap-->
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 </head>
-<body class="body-cards">
+<body class="forum-cards">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -55,10 +55,8 @@
                                 </li>
                             @endif
                         @else
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">Dashboard</a></li>   
-						<li class="nav-item dropdown">
-								
-						
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">Dashboard</a></li>
+							<li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
@@ -76,9 +74,7 @@
                                         @csrf
                                     </form>
                                 </div>
-								
                             </li>
-							
                         @endguest
 						
                     </ul>
@@ -100,7 +96,7 @@
 						<a href="/region">Worldmap</a>
 						<a href="/users/{{ Auth::user()->id }}">Account</a>
 					</div>			
-		</div>
+		</div>		
 		
 		
 		<!--content-->
@@ -109,6 +105,7 @@
             @yield('content')
         </main>
 		</div>
+		
     </div>
 
 </body>
