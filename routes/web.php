@@ -34,8 +34,23 @@ Route::get('manual/farming', 'ManualController@farming');
 Route::get('manual/construction', 'ManualController@construction');
 Route::get('manual/culture', 'ManualController@culture');
 Route::get('manual/church', 'ManualController@church');
-//forum
+//forum main
 Route::get('forum', 'ForumController@index');
+//forum thread
+Route::get('forum/create','ForumController@create');
+Route::post('forum','ForumController@store');
+Route::get('forum/thread/{thread}', 'ForumController@thread');
+Route::delete('forum/{thread}', 'ForumController@destroy');
+//forum post
+Route::get('forum/{forum}/edit', 'ForumController@edit');
+Route::patch('forum/{forum}', 'ForumController@update');
+//subforum
+Route::get('forum/open','ForumController@open');
+Route::get('forum/tavern','ForumController@tavern');
+Route::get('forum/intro','ForumController@intro');
+Route::get('forum/kingdom','ForumController@kingdom');
+Route::get('forum/region','ForumController@region');
+Route::get('forum/war','ForumController@war');
 //news
 Route::get('news', 'NewsController@index');
 Route::get('rules', 'NewsController@rules');

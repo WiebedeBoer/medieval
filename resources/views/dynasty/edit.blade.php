@@ -3,14 +3,10 @@
 Game
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Game</div>
-                <div class="card-body">
-					<div class="container">
-					<h1>{{ $dynastydata->place_name }} Dynasty</h1>
+<h1>{{ $dynastydata->place_name }} Dynasty</h1>
+	<div class="row">
+		<div class="col-12 d-flex justify-content-center py-3">	
+	
 
 	<div>{{ $dynastydata->place_name }}</div>
 	
@@ -34,10 +30,7 @@ Game
 </form>
 </div>
 
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+</div>
+
 @endsection

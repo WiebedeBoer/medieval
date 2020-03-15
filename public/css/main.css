@@ -104,11 +104,22 @@ body.news-cards,body.manual-cards {
     margin-bottom: 30px;
 }
 
+/*game-text*/
+h1,h2.c,p.c {
+	text-align: center;
+}
+
 /*game menu*/
 .game-menu{
 	width: 100%;
     height: auto;
 	background-color:#ebd5b3;
+	text-align: center;
+}
+
+.map-menu{
+	width: 100%;
+    height: auto;
 	text-align: center;
 }
 

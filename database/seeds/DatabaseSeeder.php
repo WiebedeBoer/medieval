@@ -43,5 +43,15 @@ class fkeySeeder extends Seeder
             $table->foreign('culture')->references('culture_id')->on('cultures');
         }); 
 		
+		Schema::table('threads', function (Blueprint $table) {
+            $table->foreign('region')->references('region_id')->on('regions');
+			$table->foreign('creator')->references('id')->on('users');
+        }); 
+		
+		Schema::table('posts', function (Blueprint $table) {
+            $table->foreign('thread')->references('thread_id')->on('threads');
+			$table->foreign('creator')->references('id')->on('users');
+        }); 
+		
     }
 }

@@ -3,14 +3,8 @@
 Game
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Game</div>
-                <div class="card-body">
-					<div class="container">
-					<h1>{{ $dynastydata->dynasty_name }} Dynasty</h1>
+
+	<h1>{{ $dynastydata->dynasty_name }} Dynasty</h1>
 
 	<div>{{ $dynastydata->dynasty_name }}</div>
 	
@@ -18,10 +12,5 @@ Game
 	
 	<div>{{ $dynastydata->cultures->culture_name }}</div>
 
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection
