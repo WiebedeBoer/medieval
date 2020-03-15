@@ -17,11 +17,11 @@ class CultureController extends Controller
         $this->middleware('auth');
     }	
 	
-	//main
+	//main culture map
     public function index()
-    {            
-		$culturedata = Culture::all();
-		return view('culture.index', compact('culturedata'));        
+    {            	
+		$regionalculture = Region::with('cultures')->get();
+		return view('culture.index', compact('regionalculture'));        
     }
 	
 	//show

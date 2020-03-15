@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title')
+Dashboard
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -13,18 +15,14 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
-					
+                    You are logged in!					
 					<div class="links">
 						<a href="/forum">Forum</a>
 						<a href="/manual">Manual</a>
-						<a href="/dynasty">Dynasties</a>
-						<a href="/culture">Cultures</a>
-						<a href="/region">Regions</a>
-						<a href="/place">Places</a>
-					</div>				
-					
+						<a href="/dynasty">Dynasty</a>
+						<a href="/region">Worldmap</a>
+						<a href="/users/{{ Auth::user()->id }}">Account</a>
+					</div>								
                 </div>
             </div>
         </div>

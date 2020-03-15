@@ -10,7 +10,7 @@ Game
                 <div class="card-header">Game</div>
                 <div class="card-body">
 					<div class="container">
-					<h1>Main</h1>
+					<h1>Dynasty</h1>
 @foreach($dynastydata as $dynasty)
 	<div><a href="dynasty/{{ $dynasty->dynasty_id }}">{{ $dynasty->dynasty_name }}</a></div>
 @endforeach

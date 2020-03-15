@@ -48,7 +48,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '1',
 'place_name' => 'Hamburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -111,7 +111,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '2',
 'place_name' => 'Erfurt',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -174,7 +174,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '3',
 'place_name' => 'Halberstadt',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'iron',
@@ -237,7 +237,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '4',
 'place_name' => 'Lubeck',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'town_hall',
 'commerce' => 'grain',
@@ -300,7 +300,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '5',
 'place_name' => 'Havelberg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -363,7 +363,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '6',
 'place_name' => 'Kolberg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'duck',
@@ -426,7 +426,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '7',
 'place_name' => 'Osnabruck',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -489,7 +489,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '8',
 'place_name' => 'Wurzburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -552,7 +552,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '9',
 'place_name' => 'Hallstat',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'salt',
@@ -615,7 +615,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '10',
 'place_name' => 'Sankt Polten',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'fruit',
@@ -678,7 +678,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '11',
 'place_name' => 'Styraburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -741,7 +741,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '12',
 'place_name' => 'Trent',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -804,7 +804,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '13',
 'place_name' => 'Freiburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'honey',
@@ -867,7 +867,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '14',
 'place_name' => 'Basel',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -930,7 +930,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '15',
 'place_name' => 'Strassbourg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -993,7 +993,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '16',
 'place_name' => 'Pilsen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -1056,7 +1056,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '17',
 'place_name' => 'Olmutz',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
@@ -1119,7 +1119,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '18',
 'place_name' => 'Frankfurt',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -1182,7 +1182,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '19',
 'place_name' => 'Liege',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'lead',
@@ -1245,7 +1245,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '20',
 'place_name' => 'Metz',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'salt',
@@ -1308,7 +1308,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '21',
 'place_name' => 'Nimeguen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
@@ -1371,7 +1371,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '22',
 'place_name' => 'Utrecht',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
@@ -1434,7 +1434,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '23',
 'place_name' => 'Groningen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
@@ -1497,7 +1497,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '24',
 'place_name' => 'Antwerp',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'flax',
@@ -1560,7 +1560,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '25',
 'place_name' => 'Cambrai',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'flax',
@@ -1623,7 +1623,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '26',
 'place_name' => 'Gorizia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -1686,7 +1686,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '27',
 'place_name' => 'Laibach',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -1749,7 +1749,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '28',
 'place_name' => 'Quimper',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'flax',
@@ -1812,7 +1812,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '29',
 'place_name' => 'Chartres',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -1875,7 +1875,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '30',
 'place_name' => 'Verdun',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -1938,7 +1938,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '31',
 'place_name' => 'Laon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -2001,7 +2001,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '32',
 'place_name' => 'Lisieux',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -2064,7 +2064,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '33',
 'place_name' => 'Reims',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'chancery',
 'commerce' => 'wine',
@@ -2127,7 +2127,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '34',
 'place_name' => 'Blois',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -2190,7 +2190,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '35',
 'place_name' => 'Chinon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
@@ -2253,7 +2253,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '36',
 'place_name' => 'Mans',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -2316,7 +2316,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '37',
 'place_name' => 'Montmorillon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -2379,7 +2379,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '38',
 'place_name' => 'Nevers',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'iron',
@@ -2442,7 +2442,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '39',
 'place_name' => 'Gueret',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
@@ -2505,7 +2505,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '40',
 'place_name' => 'Puy en Velay',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'poultry',
@@ -2568,7 +2568,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '41',
 'place_name' => 'Marseille',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'olive_oil',
@@ -2631,7 +2631,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '42',
 'place_name' => 'Narbonne',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
@@ -2694,7 +2694,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '43',
 'place_name' => 'Auch',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -2757,7 +2757,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '44',
 'place_name' => 'Perigeux',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -2820,7 +2820,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '45',
 'place_name' => 'Lyon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
@@ -2883,7 +2883,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '46',
 'place_name' => 'Chalon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -2946,7 +2946,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '47',
 'place_name' => 'Guildford',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
@@ -3009,7 +3009,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '48',
 'place_name' => 'Ashford',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'cheese',
@@ -3072,7 +3072,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '49',
 'place_name' => 'Wells',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'silver',
@@ -3135,7 +3135,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '50',
 'place_name' => 'Saint German',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'tin',
@@ -3198,7 +3198,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '51',
 'place_name' => 'Saint Edmunds',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wool',
@@ -3261,7 +3261,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '52',
 'place_name' => 'Scarborough',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
@@ -3324,7 +3324,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '53',
 'place_name' => 'Bristol',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'grain',
@@ -3387,7 +3387,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '54',
 'place_name' => 'Oxford',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'pigs',
@@ -3450,7 +3450,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '55',
 'place_name' => 'Stafford',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -3513,7 +3513,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '56',
 'place_name' => 'Boston',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
@@ -3576,7 +3576,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '57',
 'place_name' => 'Bangor',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
@@ -3639,7 +3639,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '58',
 'place_name' => 'Glasbury',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'fruit',
@@ -3702,7 +3702,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '59',
 'place_name' => 'Cardiff',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'water_castle',
 'commerce' => 'duck',
@@ -3765,7 +3765,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '60',
 'place_name' => 'Hamar',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
@@ -3828,7 +3828,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '61',
 'place_name' => 'Stavanger',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
@@ -3891,7 +3891,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '62',
 'place_name' => 'Roskilde',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'chancery',
 'commerce' => 'grain',
@@ -3954,7 +3954,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '63',
 'place_name' => 'Halmstad',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -4017,7 +4017,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '64',
 'place_name' => 'Ripen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
@@ -4080,7 +4080,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '65',
 'place_name' => 'Uppsala',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -4143,7 +4143,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '66',
 'place_name' => 'Vaxjo',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'pigs',
@@ -4206,7 +4206,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '67',
 'place_name' => 'Jonkoping',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'pigs',
@@ -4269,7 +4269,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '68',
 'place_name' => 'Walk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'flax',
@@ -4332,7 +4332,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '69',
 'place_name' => 'Goldingen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -4395,7 +4395,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '70',
 'place_name' => 'Danzig',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -4458,7 +4458,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '71',
 'place_name' => 'Tilsit',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -4521,7 +4521,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '72',
 'place_name' => 'Arensburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
@@ -4584,7 +4584,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '73',
 'place_name' => 'Dunbar',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
@@ -4647,7 +4647,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '74',
 'place_name' => 'Berwick',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -4710,7 +4710,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '75',
 'place_name' => 'Glasgow',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -4773,7 +4773,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '76',
 'place_name' => 'Whithorn',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
@@ -4836,7 +4836,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '77',
 'place_name' => 'Dunaverty',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
@@ -4899,7 +4899,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '78',
 'place_name' => 'Saint Andrews',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'rubies',
@@ -4962,7 +4962,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '79',
 'place_name' => 'Mortlach',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -5025,7 +5025,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '80',
 'place_name' => 'Scone',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -5088,7 +5088,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '81',
 'place_name' => 'Rosemarkie',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'pigs',
@@ -5151,7 +5151,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '82',
 'place_name' => 'Kildare',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -5214,7 +5214,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '83',
 'place_name' => 'Derry',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'pigs',
@@ -5277,7 +5277,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '84',
 'place_name' => 'Waterford',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -5340,7 +5340,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '85',
 'place_name' => 'Cork',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -5403,7 +5403,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '86',
 'place_name' => 'Tuam',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -5466,7 +5466,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '87',
 'place_name' => 'Tudela',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -5529,7 +5529,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '88',
 'place_name' => 'Bilbao',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'iron',
@@ -5592,7 +5592,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '89',
 'place_name' => 'Huesca',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -5655,7 +5655,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '90',
 'place_name' => 'Albarracin',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
@@ -5718,7 +5718,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '91',
 'place_name' => 'Emporda',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -5781,7 +5781,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '92',
 'place_name' => 'Manresa',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -5844,7 +5844,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '93',
 'place_name' => 'Castellon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'olive_oil',
@@ -5907,7 +5907,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '94',
 'place_name' => 'Alicante',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -5970,7 +5970,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '95',
 'place_name' => 'Menorca',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -6033,7 +6033,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '96',
 'place_name' => 'San Guillermo',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'bishop_palace',
 'commerce' => 'wool',
@@ -6096,7 +6096,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '97',
 'place_name' => 'Gijon',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
@@ -6159,7 +6159,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '98',
 'place_name' => 'Segovia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
@@ -6222,7 +6222,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '99',
 'place_name' => 'Palencia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -6285,7 +6285,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '100',
 'place_name' => 'Coruna',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -6348,7 +6348,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '101',
 'place_name' => 'Santarem',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'cheese',
@@ -6411,7 +6411,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '102',
 'place_name' => 'Viana',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
@@ -6474,7 +6474,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '103',
 'place_name' => 'Verin',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -6537,7 +6537,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '104',
 'place_name' => 'Leiria',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
@@ -6600,7 +6600,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '105',
 'place_name' => 'Moura',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -6663,7 +6663,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '106',
 'place_name' => 'Alvor',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'abbey_grange',
 'commerce' => 'olive_oil',
@@ -6726,7 +6726,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '107',
 'place_name' => 'Jaen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
@@ -6789,7 +6789,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '108',
 'place_name' => 'Cadiz',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'honey',
@@ -6852,7 +6852,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '109',
 'place_name' => 'Merida',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'water_castle',
 'commerce' => 'wine',
@@ -6915,7 +6915,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '110',
 'place_name' => 'Consuegra',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
@@ -6978,7 +6978,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '111',
 'place_name' => 'Antquera',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'bishop_palace',
 'commerce' => 'olive_oil',
@@ -7041,7 +7041,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '112',
 'place_name' => 'Motril',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
@@ -7104,7 +7104,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '113',
 'place_name' => 'Alicante',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -7167,7 +7167,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '114',
 'place_name' => 'Marbella',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'silk',
@@ -7230,7 +7230,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '115',
 'place_name' => 'Pavia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
@@ -7293,7 +7293,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '116',
 'place_name' => 'Vicenza',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
@@ -7356,7 +7356,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '117',
 'place_name' => 'Aleria',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -7419,7 +7419,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '118',
 'place_name' => 'Chioggia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'salt',
@@ -7482,7 +7482,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '119',
 'place_name' => 'Forli',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
@@ -7545,7 +7545,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '120',
 'place_name' => 'Ferrara',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -7608,7 +7608,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '121',
 'place_name' => 'Udine',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
@@ -7671,7 +7671,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '122',
 'place_name' => 'Asti',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'fruit',
@@ -7734,7 +7734,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '123',
 'place_name' => 'Arezzo',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'poultry',
@@ -7797,7 +7797,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '124',
 'place_name' => 'Ancona',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'ducal_residence',
 'commerce' => 'poultry',
@@ -7860,7 +7860,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '125',
 'place_name' => 'Tivoli',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
@@ -7923,7 +7923,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '126',
 'place_name' => 'Lucca',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'silk',
@@ -7986,7 +7986,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '127',
 'place_name' => 'Amalfi',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wine',
@@ -8049,7 +8049,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '128',
 'place_name' => 'Siponto',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -8112,7 +8112,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '129',
 'place_name' => 'Tropea',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'olive_oil',
@@ -8175,7 +8175,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '130',
 'place_name' => 'Potenza',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'cheese',
@@ -8238,7 +8238,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '131',
 'place_name' => 'Bosa',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'olive_oil',
@@ -8301,7 +8301,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '132',
 'place_name' => 'Dolia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
@@ -8364,7 +8364,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '133',
 'place_name' => 'Cefalu',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
@@ -8427,7 +8427,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '134',
 'place_name' => 'Catania',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'iron',
@@ -8490,7 +8490,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '135',
 'place_name' => 'Valletta',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -8553,7 +8553,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '136',
 'place_name' => 'Ouazzane',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -8616,7 +8616,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '137',
 'place_name' => 'Sale',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -8679,7 +8679,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '138',
 'place_name' => 'Taza',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -8742,7 +8742,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '139',
 'place_name' => 'Mogador',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
@@ -8805,7 +8805,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '140',
 'place_name' => 'Tindouf',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -8868,7 +8868,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '141',
 'place_name' => 'Tinghir',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -8931,7 +8931,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '142',
 'place_name' => 'Mellila',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'iron',
@@ -8994,7 +8994,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '143',
 'place_name' => 'Tiaret',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -9057,7 +9057,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '144',
 'place_name' => 'Ghardaia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9120,7 +9120,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '145',
 'place_name' => 'Ouargla',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9183,7 +9183,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '146',
 'place_name' => 'Tedelles',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -9246,7 +9246,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '147',
 'place_name' => 'Setif',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -9309,7 +9309,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '148',
 'place_name' => 'Jendouba',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -9372,7 +9372,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '149',
 'place_name' => 'Hammamet',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -9435,7 +9435,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '150',
 'place_name' => 'Sfax',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -9498,7 +9498,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '151',
 'place_name' => 'Kebili',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9561,7 +9561,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '152',
 'place_name' => 'Tamanrasset',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -9624,7 +9624,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '153',
 'place_name' => 'Misrata',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9687,7 +9687,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '154',
 'place_name' => 'Zouila',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9750,7 +9750,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '155',
 'place_name' => 'Awjila',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9813,7 +9813,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '156',
 'place_name' => 'Tobruk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -9876,7 +9876,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '157',
 'place_name' => 'Damietta',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -9939,7 +9939,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '158',
 'place_name' => 'Fayum',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -10002,7 +10002,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '159',
 'place_name' => 'Farafra',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -10065,7 +10065,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '160',
 'place_name' => 'Aswan',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'emeralds',
@@ -10128,7 +10128,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '161',
 'place_name' => 'Breslau',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'honey',
@@ -10191,7 +10191,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '162',
 'place_name' => 'Tarnau',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -10254,7 +10254,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '163',
 'place_name' => 'Konin',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'honey',
@@ -10317,7 +10317,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '164',
 'place_name' => 'Leslau',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -10380,7 +10380,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '165',
 'place_name' => 'Kobryn',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -10443,7 +10443,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '166',
 'place_name' => 'Kauen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'honey',
@@ -10506,7 +10506,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '167',
 'place_name' => 'Vikla',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -10569,7 +10569,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '168',
 'place_name' => 'Split',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -10632,7 +10632,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '169',
 'place_name' => 'Konjic',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
@@ -10695,7 +10695,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '170',
 'place_name' => 'Nitra',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -10758,7 +10758,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '171',
 'place_name' => 'Egerszeg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -10821,7 +10821,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '172',
 'place_name' => 'Krupina',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'gold',
@@ -10884,7 +10884,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '173',
 'place_name' => 'Bartfeld',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'grain',
@@ -10947,7 +10947,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '174',
 'place_name' => 'Debrecen',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
@@ -11010,7 +11010,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '175',
 'place_name' => 'Kalocsa',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'flax',
@@ -11073,7 +11073,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '176',
 'place_name' => 'Klausenburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
@@ -11136,7 +11136,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '177',
 'place_name' => 'Curtea Arges',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
@@ -11199,7 +11199,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '178',
 'place_name' => 'Torzburg',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'poultry',
@@ -11262,7 +11262,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '179',
 'place_name' => 'Tulcea',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -11325,7 +11325,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '180',
 'place_name' => 'Odessa',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -11388,7 +11388,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '181',
 'place_name' => 'Stip',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -11451,7 +11451,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '182',
 'place_name' => 'Preslav',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
@@ -11514,7 +11514,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '183',
 'place_name' => 'Sebrenik',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -11577,7 +11577,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '184',
 'place_name' => 'Valjevo',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'iron',
@@ -11640,7 +11640,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '185',
 'place_name' => 'Krusevac',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'pigs',
@@ -11703,7 +11703,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '186',
 'place_name' => 'Skopje',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -11766,7 +11766,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '187',
 'place_name' => 'Pec',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
@@ -11829,7 +11829,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '188',
 'place_name' => 'Poltava',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'roadside_inn',
 'commerce' => 'cheese',
@@ -11892,7 +11892,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '189',
 'place_name' => 'Kaniv',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -11955,7 +11955,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '190',
 'place_name' => 'Yuriev',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -12018,7 +12018,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '191',
 'place_name' => 'Lviv',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'poultry',
@@ -12081,7 +12081,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '192',
 'place_name' => 'Slutsk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
@@ -12144,7 +12144,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '193',
 'place_name' => 'Gomel',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -12207,7 +12207,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '194',
 'place_name' => 'Vitebsk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -12270,7 +12270,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '195',
 'place_name' => 'Vyazma',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -12333,7 +12333,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '196',
 'place_name' => 'Kasimov',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -12396,7 +12396,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '197',
 'place_name' => 'Zvenigorod',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'honey',
@@ -12459,7 +12459,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '198',
 'place_name' => 'Ostrov',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -12522,7 +12522,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '199',
 'place_name' => 'Ladoga',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -12585,7 +12585,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '200',
 'place_name' => 'Kazan',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'flax',
@@ -12648,7 +12648,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '201',
 'place_name' => 'Suzdal',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'flax',
@@ -12711,7 +12711,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '202',
 'place_name' => 'Cherepovets',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'abbey_grange',
 'commerce' => 'grain',
@@ -12774,7 +12774,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '203',
 'place_name' => 'Kromy',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -12837,7 +12837,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '204',
 'place_name' => 'Kursk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
@@ -12900,7 +12900,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '205',
 'place_name' => 'Saraiberke',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wool',
@@ -12963,7 +12963,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '206',
 'place_name' => 'Saraidzhuk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'ducal_residence',
 'commerce' => 'wool',
@@ -13026,7 +13026,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '207',
 'place_name' => 'Edirne',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -13089,7 +13089,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '208',
 'place_name' => 'Melnik',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
@@ -13152,7 +13152,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '209',
 'place_name' => 'Thebes',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'silk',
@@ -13215,7 +13215,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '210',
 'place_name' => 'Corinth',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
@@ -13278,7 +13278,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '211',
 'place_name' => 'Ioannina',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -13341,7 +13341,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '212',
 'place_name' => 'Ohrid',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
@@ -13404,7 +13404,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '213',
 'place_name' => 'Prilep',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'bishop_palace',
 'commerce' => 'rubies',
@@ -13467,7 +13467,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '214',
 'place_name' => 'Chania',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -13530,7 +13530,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '215',
 'place_name' => 'Chios',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -13593,7 +13593,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '216',
 'place_name' => 'Efese',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -13656,7 +13656,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '217',
 'place_name' => 'Bursa',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
@@ -13719,7 +13719,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '218',
 'place_name' => 'Laranda',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
@@ -13782,7 +13782,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '219',
 'place_name' => 'Attalia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -13845,7 +13845,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '220',
 'place_name' => 'Cotyaeum',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
@@ -13908,7 +13908,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '221',
 'place_name' => 'Amasra',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'honey',
@@ -13971,7 +13971,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '222',
 'place_name' => 'Nicosia',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -14034,7 +14034,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '223',
 'place_name' => 'Magida',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'iron',
@@ -14097,7 +14097,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '224',
 'place_name' => 'Riza',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'flax',
@@ -14160,7 +14160,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '225',
 'place_name' => 'Amouda',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
@@ -14223,7 +14223,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '226',
 'place_name' => 'Corum',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -14286,7 +14286,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '227',
 'place_name' => 'Erzincan',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'silver',
@@ -14349,7 +14349,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '228',
 'place_name' => 'Albistan',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'gold',
@@ -14412,7 +14412,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '229',
 'place_name' => 'Pitsunda',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
@@ -14475,7 +14475,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '230',
 'place_name' => 'Gori',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
@@ -14538,7 +14538,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '231',
 'place_name' => 'Mingecevir',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -14601,7 +14601,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '232',
 'place_name' => 'Ghars',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -14664,7 +14664,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '233',
 'place_name' => 'Ordubad',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'silk',
@@ -14727,7 +14727,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '234',
 'place_name' => 'Bitlis',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'silver',
@@ -14790,7 +14790,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '235',
 'place_name' => 'Cepha',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
@@ -14853,7 +14853,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '236',
 'place_name' => 'Archesh',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -14916,7 +14916,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '237',
 'place_name' => 'Mashhad',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'roadside_inn',
 'commerce' => 'silk',
@@ -14979,7 +14979,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '238',
 'place_name' => 'Tabas',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -15042,7 +15042,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '239',
 'place_name' => 'Rafsanjan',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -15105,7 +15105,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '240',
 'place_name' => 'Hormuz',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'royal_court',
 'commerce' => 'iron',
@@ -15168,7 +15168,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '241',
 'place_name' => 'Yazd',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'roadside_inn',
 'commerce' => 'silk',
@@ -15231,7 +15231,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '242',
 'place_name' => 'Ghom',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silver',
@@ -15294,7 +15294,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '243',
 'place_name' => 'Amol',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
@@ -15357,7 +15357,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '244',
 'place_name' => 'Zanjan',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'silver',
@@ -15420,7 +15420,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '245',
 'place_name' => 'Falak',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '120',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
@@ -15483,7 +15483,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '246',
 'place_name' => 'Hadjar',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -15546,7 +15546,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '247',
 'place_name' => 'Jeddah',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -15609,7 +15609,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '248',
 'place_name' => 'Tayma',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
@@ -15672,7 +15672,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '249',
 'place_name' => 'Hebron',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
@@ -15735,7 +15735,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '250',
 'place_name' => 'Nablus',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
@@ -15798,7 +15798,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '251',
 'place_name' => 'Irbid',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'honey',
@@ -15861,7 +15861,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '252',
 'place_name' => 'Palmyra',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'dates',
@@ -15924,7 +15924,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '253',
 'place_name' => 'Salamiyah',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -15987,7 +15987,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '254',
 'place_name' => 'Beirut',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -16050,7 +16050,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '255',
 'place_name' => 'Idlib',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
@@ -16113,7 +16113,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '256',
 'place_name' => 'Bab',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
@@ -16176,7 +16176,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '257',
 'place_name' => 'Rhesaina',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -16239,7 +16239,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '258',
 'place_name' => 'Kirkuk',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
@@ -16302,7 +16302,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '259',
 'place_name' => 'Anbar',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
@@ -16365,7 +16365,7 @@ DB::table('places')->insert([
 DB::table('places')->insert([
 'region' => '260',
 'place_name' => 'Kufah',
-'place_type' => '600',
+'place_type' => 'city',
 'population' => '2000',
 'fortification' => 'chancery',
 'commerce' => 'dates',

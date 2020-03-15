@@ -10,7 +10,7 @@ Game
                 <div class="card-header">Game</div>
                 <div class="card-body">
 					<div class="container">
-					<h1>Main</h1>
+					<h1>{{ $dynastydata->place_name }} Dynasty</h1>
 
 	<div>{{ $dynastydata->place_name }}</div>
 	

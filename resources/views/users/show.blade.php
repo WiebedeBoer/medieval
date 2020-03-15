@@ -10,14 +10,10 @@ Game
                 <div class="card-header">Game</div>
                 <div class="card-body">
 					<div class="container">
-					<h1>{{ $dynastydata->dynasty_name }} Dynasty</h1>
+					<h1>{{ $userdata->name }}</h1>
 
-	<div>{{ $dynastydata->dynasty_name }}</div>
-	
-	<div>{{ $dynastydata->dynasty_description }}</div>
-	
-	<div>{{ $dynastydata->cultures->culture_name }}</div>
-
+	<div>{{ $userdata->name }}</div>
+	<div>{{ $userdata->email }}</div>
 					</div>
                 </div>
             </div>

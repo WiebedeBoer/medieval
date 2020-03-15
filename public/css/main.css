@@ -106,6 +106,29 @@ body.news-cards,body.manual-cards {
     min-height: 600px;
 }
 
+/*game table*/
+td.ri {
+	text-align:right;
+	padding: 3px;
+}
+
+td.pl {
+	text-align:left;
+	padding: 3px;	
+}
+
+th.cg {
+	text-align:center;
+	color: #fdfdfd;
+	background-color:#a0a0a0;
+}
+
+th.lg {
+	text-align:left;
+	color: #fdfdfd;
+	background-color:#a0a0a0;
+}
+
 /*manual table*/
 td.u {
     padding: 3px;

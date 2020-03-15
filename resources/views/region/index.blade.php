@@ -3,10 +3,8 @@
 Game
 @endsection
 @section('content')
-
-
-					<h1>World Map</h1>
-
+					<h1>World Map (Regional View)</h1>
+@include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -16,8 +14,8 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	<a xlink:href="region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
-	<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,0,0)" stroke-width="2" fill="rgb(0,255,255)" />
+	<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
+	<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,255,0)" stroke-width="2" fill="rgb(255,0,0)" />
 	</a>
 	</g>
 @endforeach

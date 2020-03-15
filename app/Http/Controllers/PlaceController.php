@@ -20,7 +20,7 @@ class PlaceController extends Controller
 	//main
     public function index()
     {            
-		$placedata = Place::all();
+		$placedata = Place::with('regions')->orderBy('place_name', 'asc')->paginate(50);
 		return view('place.index', compact('placedata'));        
     }
 	
