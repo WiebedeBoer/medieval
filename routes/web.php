@@ -79,6 +79,8 @@ Route::get('dynasty/{dynasty}/edit', 'DynastyController@edit');
 Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
 Route::patch('dynasty/{dynasty}', 'DynastyController@update');
 //region
+Route::get('religion', 'ReligionController@index');
+//region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
 Route::get('region/{region}/edit', 'RegionController@edit');

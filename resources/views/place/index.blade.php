@@ -6,6 +6,11 @@ Game
 <div class="card-body">
 					<h1>Places List</h1>
 @include('region.mapmenu')	
+<div class="row">
+<div class="col-12 d-flex justify-content-center pt-5">
+    {{ $placedata->links() }}
+</div>
+</div>
 	<div class="d-flex justify-content-center col-md-8 py-5">	
 	<table class="table-striped tablesorter table">
 	<thead>
@@ -21,8 +26,8 @@ Game
 	<tbody>						
 @foreach($placedata as $place)
 	<tr>
-	<td class="pl"><a href="place/{{ $place->place_id }}">{{ $place->place_name }}</a></td>
-	<td class="pl"><a href="place/{{ $place->region }}">{{ $place->regions->region_name }}</a></td>
+	<td class="pl"><a href="/place/{{ $place->place_id }}">{{ $place->place_name }}</a></td>
+	<td class="pl"><a href="/place/{{ $place->region }}">{{ $place->regions->region_name }}</a></td>
 	<td class="ri">{{ $place->population }}</td>
 	@if($place->fortification =="mountain_castle")
 		<td class="pl"><img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="fortification" title="castle"></td>

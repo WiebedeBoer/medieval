@@ -12,7 +12,32 @@ Game
 	<tbody>
 	<tr><th>Place</th><td class="pl" colspan="3">{{ $placedata->place_name }}</td></tr>
 	<tr><th>Region</th><td class="pl" colspan="3"><a href="/region/{{ $placedata->region}}">{{ $placedata->regions->region_name }}</a></td></tr>
-	<tr><th>Culture</th><td class="pl" colspan="3"><a href="/culture/{{ $culture->culture_id }}">{{ $culture->culture_name }}</a></td></tr>
+	<tr><th>Culture</th><td class="pl"><a href="/culture/{{ $culture->culture_id }}">{{ $culture->culture_name }}</a></td>
+	
+@if($culture->manorial_culture =="Muslim")
+<td class="pl" colspan="2">
+<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
+</td>
+@elseif($culture->manorial_culture =="Greek Orthodox")
+<td class="pl" colspan="2">
+<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
+</td>
+@elseif($culture->manorial_culture =="Serbian Orthodox")
+<td class="pl" colspan="2">
+<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
+</td>
+@elseif($culture->manorial_culture =="Russian Orthodox")
+<td class="pl" colspan="2">
+<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
+</td>
+@else
+<td class="pl" colspan="2">
+<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
+</td>
+@endif	
+	
+	
+	</tr>
 	<tr><th>Population</th><td class="pl" colspan="3">{{ $placedata->population }}</td></tr>			
 	
 	<tr><th>Fortification</th>
