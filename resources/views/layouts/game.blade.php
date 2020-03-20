@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
     <!--bootstrap-->
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+	<!--music-->
 </head>
 <body class="body-cards">
     <div id="app">
@@ -110,6 +111,5 @@
         </main>
 		</div>
     </div>
-
 </body>
 </html>

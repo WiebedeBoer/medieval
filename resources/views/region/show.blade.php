@@ -3,9 +3,14 @@
 Game
 @endsection
 @section('content')
-
-					<div class="py-3">
-					
+<!--audio-->
+@if($user->audio ==1)
+	<audio id="imperia" autoplay loop>
+	<source id="parade" src="{{ asset('music/1300_saltarello.mp3') }}" type="audio/mp3">
+	</audio> 
+@endif
+<!--culture-->
+	<div class="py-3">				
 <div class="float-left ml-3">
 <div class="inline-block"><a href="/culture/{{ $regiondata->cultures->culture_id }}">{{ $regiondata->cultures->culture_name }}</a></div>
 @if($regiondata->cultures->manorial_culture =="Muslim")
@@ -31,13 +36,9 @@ Game
 @endif
 </div>
 </div>					
-					
-					
-					<h1>{{$regiondata->region_name}}</h1>
-
-
-
-								
+<!--name-->				
+<h1>{{$regiondata->region_name}}</h1>
+<!--places-->								
 @if($places >=1)
 	<div class="d-flex justify-content-center col-8 py-3">	
 	<table class="table-striped tablesorter table">
@@ -233,6 +234,7 @@ Game
 	</tr>
 	</thead>
 </table>
+</div>
 @endif		
 
 

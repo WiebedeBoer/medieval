@@ -16,12 +16,12 @@ class CreatePlacesTable extends Migration
         Schema::create('places', function (Blueprint $table) {
             $table->bigIncrements('place_id');
 			$table->unsignedBigInteger('region');
-			$table->unsignedBigInteger('lord_paramount')->default(0);
-			$table->unsignedBigInteger('tenant_in_chief')->default(0);
-			$table->unsignedBigInteger('mesne_lord')->default(0);
-			$table->unsignedBigInteger('tenant_paravail')->default(0);
-			$table->unsignedBigInteger('allodial_owner')->default(0);
-			$table->unsignedBigInteger('tenure_owner')->default(0);				
+			$table->unsignedBigInteger('lord_paramount')->nullable();
+			$table->unsignedBigInteger('tenant_in_chief')->nullable();
+			$table->unsignedBigInteger('mesne_lord')->nullable();
+			$table->unsignedBigInteger('tenant_paravail')->nullable();
+			$table->unsignedBigInteger('allodial_owner')->nullable();
+			$table->unsignedBigInteger('tenure_owner')->nullable();			
 			$table->string('place_name');
 			$table->string('place_type');
 			$table->integer('population')->default(0); //default = 0
