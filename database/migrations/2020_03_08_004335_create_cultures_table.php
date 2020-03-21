@@ -20,6 +20,7 @@ class CreateCulturesTable extends Migration
 			$table->string('chivalry_culture');
 			$table->string('manorial_culture');
 			$table->string('commercial_culture');
+			$table->string('troubadour');
 			$table->text('culture_description')->nullable();
             $table->timestamps();
         });

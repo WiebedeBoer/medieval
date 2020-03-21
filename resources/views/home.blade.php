@@ -3,6 +3,7 @@
 Dashboard
 @endsection
 @section('content')
+@include('warning')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -15,7 +16,9 @@ Dashboard
                             {{ session('status') }}
                         </div>
                     @endif
-                    You are logged in!					
+					<div class="alert alert-info" role="alert">
+                    You are logged in!
+					</div>					
 					<div class="links">
 						<a href="/forum">Forum</a>
 						<a href="/manual">Manual</a>

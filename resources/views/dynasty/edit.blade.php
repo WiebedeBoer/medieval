@@ -3,14 +3,15 @@
 Game
 @endsection
 @section('content')
-<h1>{{ $dynastydata->place_name }} Dynasty</h1>
+<h1>{{ $dynastydata->dynasty_name }} Dynasty</h1>
 	<div class="row">
-		<div class="col-12 d-flex justify-content-center py-3">	
+		<div class="container">	
 	
 
-	<div>{{ $dynastydata->place_name }}</div>
+	<div class="py-3"><h3>Dynasty:</h3> {{ $dynastydata->dynasty_name }}</div>
 	
-	<div>{{ $dynastydata->cultures->culture_name }}</div>
+	<div class="py-3"><h3>Culture:</h3> {{ $dynastydata->cultures->culture_name }}</div>
+<div class="py-3">
 
 <div class="editform">
 <form method="POST" action="/dynasty/{{ $dynastydata->dynasty_id }}" class="pb-3">
@@ -18,16 +19,18 @@ Game
 
 <!--description-->
 <div class="dscription">
-<h3>Description</h3>
+<h3>Description:</h3>
 <div class="input-group">
-<textarea id="dynasty_description" name="dynasty_description" rows="4" cols="50">{{ old('dynasty_description')  ?? $dynasty->dynasty_description }}</textarea>
+<textarea id="dynasty_description" name="dynasty_description" class="form-control rounded-0" rows="10">{{ old('dynasty_description')  ?? $dynastydata->dynasty_description }}</textarea>
 </div>
 <div>{{$errors->first('dynasty_description')}}</div>
 </div>
 
-<input type="submit" value="edit dynasty" class="btn btn-primary">
+<div class="py-1"><input type="submit" value="edit dynasty" class="btn btn-primary"></div>
 @csrf
 </form>
+
+</div>
 </div>
 
 </div>

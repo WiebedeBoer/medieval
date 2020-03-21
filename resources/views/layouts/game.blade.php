@@ -106,6 +106,7 @@
 		
 		<!--content-->
 		<div class="vh-100">
+		@include('session')
         <main class="py-4">
             @yield('content')
         </main>
