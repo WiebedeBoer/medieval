@@ -4,38 +4,36 @@ Game
 @endsection
 @section('content')
 
+<!--audio-->
+@if($user->audio ==1)
+	<audio id="imperia" autoplay loop>
+			<source id="parade" src="{{ asset('music/'.$culture->troubadour.'.mp3') }}" type="audio/mp3">
+	</audio> 
+@endif
+
                 <div class="card-body">
 
 					<h1>{{ $placedata->place_name }}</h1>
+<div class="container">
 	<div class="d-flex justify-content-center col-md-8 py-5">
 	<table class="table-striped tablesorter table">
 	<tbody>
 	<tr><th>Place</th><td class="pl" colspan="3">{{ $placedata->place_name }}</td></tr>
 	<tr><th>Region</th><td class="pl" colspan="3"><a href="/region/{{ $placedata->region}}">{{ $placedata->regions->region_name }}</a></td></tr>
 	<tr><th>Culture</th><td class="pl"><a href="/culture/{{ $culture->culture_id }}">{{ $culture->culture_name }}</a></td>
-	
+	<th>Religion</th><td class="pl">
 @if($culture->manorial_culture =="Muslim")
-<td class="pl" colspan="2">
-<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
-</td>
+<a href="/religion/2"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
 @elseif($culture->manorial_culture =="Greek Orthodox")
-<td class="pl" colspan="2">
-<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
-</td>
+<a href="/religion/4"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
 @elseif($culture->manorial_culture =="Serbian Orthodox")
-<td class="pl" colspan="2">
-<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
-</td>
+<a href="/religion/3"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
 @elseif($culture->manorial_culture =="Russian Orthodox")
-<td class="pl" colspan="2">
-<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
-</td>
+<a href="/religion/5"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
 @else
-<td class="pl" colspan="2">
-<a href="/culture/{{ $culture->culture_id }}"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
-</td>
+<a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $culture->manorial_culture }}"></a>
 @endif	
-	
+</td>	
 	
 	</tr>
 	<tr><th>Population</th><td class="pl" colspan="3">{{ $placedata->population }}</td></tr>			
@@ -219,7 +217,7 @@ Game
 	</tbody>
 	</table>
 	
-       
+ </div>      
     </div>
 </div>
 @endsection

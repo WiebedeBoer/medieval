@@ -11,6 +11,7 @@ Game
     {{ $placedata->links() }}
 </div>
 </div>
+<div class="container">
 	<div class="d-flex justify-content-center col-md-8 py-5">	
 	<table class="table-striped tablesorter table">
 	<thead>
@@ -205,6 +206,7 @@ Game
 	</tr>
 	</thead>
 </table>
+</div>
 </div>
 </div>
 <div class="row">

@@ -30,8 +30,14 @@ class RegionController extends Controller
     {       
         $regiondata = Region::with('places','cultures')->where('region_id', $id)->firstOrFail();
 		$places = $this->countPlaces($id);
+		if($places >=1){
+			$placedata = Place::orderBy('place_name','ASC')->where('region', $id)->get();
+		}
+		else {
+			$placedata =[];
+		}
 		$user = auth()->user();
-		return view('region.show', compact('regiondata','places','user'));        
+		return view('region.show', compact('regiondata','places','placedata','user'));        
     }
 	
     //update function

@@ -10,36 +10,39 @@ Game
 	</audio> 
 @endif
 <!--culture-->
+<div class="container">
 	<div class="py-3">				
 <div class="float-left ml-3">
 <div class="inline-block"><a href="/culture/{{ $regiondata->cultures->culture_id }}">{{ $regiondata->cultures->culture_name }}</a></div>
 @if($regiondata->cultures->manorial_culture =="Muslim")
 <div class="inline-block">
-<a href="/culture/{{ $regiondata->cultures->culture_id }}"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/2"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
 </div>
 @elseif($regiondata->cultures->manorial_culture =="Greek Orthodox")
 <div class="inline-block">
-<a href="/culture/{{ $regiondata->cultures->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/4"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
 </div>
 @elseif($regiondata->cultures->manorial_culture =="Serbian Orthodox")
 <div class="inline-block">
-<a href="/culture/{{ $regiondata->cultures->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/3"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
 </div>
 @elseif($regiondata->cultures->manorial_culture =="Russian Orthodox")
 <div class="inline-block">
-<a href="/culture/{{ $regiondata->cultures->culture_id }}"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/5"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
 </div>
 @else
 <div class="inline-block">
-<a href="/culture/{{ $regiondata->cultures->culture_id }}"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
 </div>
 @endif
 </div>
 </div>					
 <!--name-->				
 <h1>{{$regiondata->region_name}}</h1>
+</div>
 <!--places-->								
 @if($places >=1)
+	<div class="container">
 	<div class="d-flex justify-content-center col-8 py-3">	
 	<table class="table-striped tablesorter table">
 	<thead>
@@ -53,7 +56,7 @@ Game
 	</tr>
 	</thead>
 	<tbody>	
-	@foreach($regiondata->places as $place) 
+	@foreach($placedata as $place) 
 	<tr>
 	<td class="pl"><a href="/place/{{ $place->place_id }}">{{ $place->place_name }}</a></td>
 	<td class="pl"><a href="/region/{{ $place->region }}">{{ $place->regions->region_name }}</a></td>
@@ -234,6 +237,7 @@ Game
 	</tr>
 	</thead>
 </table>
+</div>
 </div>
 @endif		
 

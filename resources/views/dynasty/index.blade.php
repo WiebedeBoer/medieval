@@ -20,8 +20,9 @@ Game
     {{ $dynastydata->links() }}
 </div>
 </div>	
-	
-	
+
+@if($dynastycount >=1)	
+<div class="container">	
 	<div class="row">
 		<div class="col-12 d-flex justify-content-center py-3">	
 	<table class="table-striped tablesorter table">
@@ -52,6 +53,8 @@ Game
 </table>
 		</div>		
 	</div>
+</div>
+@endif
 	
 <div class="row">
 <div class="col-12 d-flex justify-content-center pt-5">

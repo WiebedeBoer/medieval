@@ -32,7 +32,8 @@ class PlaceController extends Controller
 		$region = Region::where('region_id', $region_id)->firstOrFail();
 		$culture_id = $region->culture;
 		$culture = Culture::where('culture_id', $culture_id)->firstOrFail();
-		return view('place.show', compact('placedata','culture'));        
+		$user = auth()->user();
+		return view('place.show', compact('placedata','culture','user'));        
     }
 	
     //update function

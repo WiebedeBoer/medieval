@@ -80,6 +80,15 @@ Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
 Route::patch('dynasty/{dynasty}', 'DynastyController@update');
 //region
 Route::get('religion', 'ReligionController@index');
+Route::get('religion/{religion}', 'ReligionController@show');
+//maps
+Route::get('map/cattle','MapController@cattle');
+Route::get('map/goat','MapController@goat');
+Route::get('map/herb','MapController@herb');
+Route::get('map/ride','MapController@ride');
+Route::get('map/sheep','MapController@sheep');
+Route::get('map/style','MapController@style');
+Route::get('map/literature','MapController@literature');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
