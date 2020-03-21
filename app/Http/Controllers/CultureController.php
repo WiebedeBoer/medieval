@@ -29,7 +29,8 @@ class CultureController extends Controller
     {       
         $culturedata = Culture::with('regions')->where('culture_id', $id)->firstOrFail();
 		$regions = $this->countRegion($id);
-		return view('culture.show', compact('culturedata','regions'));        
+		$user = auth()->user();
+		return view('culture.show', compact('culturedata','regions','user'));        
     }
 	
     //count region

@@ -3,7 +3,12 @@
 Game
 @endsection
 @section('content')
-
+<!--audio-->
+@if($user->audio ==1)
+	<audio id="imperia" autoplay loop>
+			<source id="parade" src="{{ asset('music/'.$culturedata->troubadour.'.mp3') }}" type="audio/mp3">
+	</audio> 
+@endif
 <div class="py-3">					
 <div class="float-left ml-3">
 @if($culturedata->manorial_culture =="Muslim")

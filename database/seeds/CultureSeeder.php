@@ -19,7 +19,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Nordic',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1000_viking_folk_Helvegen'	         
+'troubadour' => '1500_dizzi_jig'	         
 ]); 
 //2
 DB::table('cultures')->insert([            
@@ -28,7 +28,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Nordic',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1000_viking_folk_Helvegen'	         
+'troubadour' => '1500_dizzi_jig'	         
 ]); 
 //3
 DB::table('cultures')->insert([            
@@ -37,7 +37,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Nordic',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1000_viking_folk_Helvegen'	         
+'troubadour' => '1500_dizzi_jig'	         
 ]); 
 //4
 DB::table('cultures')->insert([            
@@ -46,7 +46,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1400_rokatanc'	         
+'troubadour' => '1400_la_suite_meurtriere'	         
 ]);
 //5
 DB::table('cultures')->insert([            
@@ -64,7 +64,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1400_rokatanc'	         
+'troubadour' => '1400_la_suite_meurtriere'	         
 ]); 
 //7
 DB::table('cultures')->insert([            
@@ -73,7 +73,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1400_rokatanc'	         
+'troubadour' => '1400_la_suite_meurtriere'	         
 ]); 
 //8
 DB::table('cultures')->insert([            
@@ -163,7 +163,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1300_virelai_Dame_Jolie'	         
 ]); 
 //18
 DB::table('cultures')->insert([            
@@ -172,7 +172,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1300_scarborough_fair'	         
 ]);
 //19
 DB::table('cultures')->insert([            
@@ -181,7 +181,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1500_morrisons_jig'	         
 ]); 
 //20
 DB::table('cultures')->insert([            
@@ -190,7 +190,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1500_morrisons_jig'	         
 ]); 
 //21
 DB::table('cultures')->insert([            
@@ -199,7 +199,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1500_morrisons_jig'	         
 ]); 
 //22
 DB::table('cultures')->insert([            
@@ -208,7 +208,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1500_morrisons_jig'	         
 ]); 
 //23
 DB::table('cultures')->insert([            
@@ -325,7 +325,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1500_dizzi_jig'	         
 ]); 
 //36
 DB::table('cultures')->insert([            
@@ -334,7 +334,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'		         
+'troubadour' => '1500_dizzi_jig'		         
 ]); 
 //37
 DB::table('cultures')->insert([            
@@ -343,7 +343,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Western',	
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
-'troubadour' => '1100_estampie_La_Quarte'	         
+'troubadour' => '1400_la_suite_meurtriere'	         
 ]); 
 //38
 DB::table('cultures')->insert([            
@@ -388,7 +388,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Steppe',	
 'manorial_culture' => 'Russian Orthodox',
 'commercial_culture' => 'Western',
-'troubadour' => '1000_viking_folk_Helvegen'	         
+'troubadour' => '1500_russian_winter'	         
 ]);
 //43
 DB::table('cultures')->insert([            
@@ -496,7 +496,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Steppe',	
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
-'troubadour' => '1000_maqam_rast_Shuruq'	         
+'troubadour' => '1000_maqam_bayati_Taqsim'	         
 ]);
 //55
 DB::table('cultures')->insert([            
@@ -505,7 +505,7 @@ DB::table('cultures')->insert([
 'chivalry_culture' => 'Steppe',	
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
-'troubadour' => '1000_maqam_rast_Shuruq'	         
+'troubadour' => '1000_maqam_bayati_Taqsim'	         
 ]);
 //56
 DB::table('cultures')->insert([            
