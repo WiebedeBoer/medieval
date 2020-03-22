@@ -22,7 +22,7 @@ class Title extends Model
 
     public function regions()
     {
-        return $this->belongsTo('App\Region','reion');
+        return $this->belongsTo('App\Region','region');
     } 
 
 	public function places()

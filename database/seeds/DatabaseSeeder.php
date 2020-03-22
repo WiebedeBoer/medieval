@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('CultureSeeder');
 		$this->call('RegionSeeder');
 		$this->call('PlaceSeeder');
+		$this->call('TitleSeeder');
 		//admin user
 		$this->call('userSeeder');
     }
@@ -103,6 +104,13 @@ class fkeySeeder extends Seeder
 			$table->foreign('lieutenant')->references('person_id')->on('people');
 			$table->foreign('owner')->references('dynasty_id')->on('dynasties');
 			$table->foreign('location')->references('place_id')->on('places');
+        }); 
+
+		Schema::table('titles', function (Blueprint $table) {
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('holder')->references('person_id')->on('people');
+			$table->foreign('region')->references('region_id')->on('regions');
+			$table->foreign('place')->references('place_id')->on('places');
         }); 		
 		
     }
