@@ -39,6 +39,17 @@
 </div>
 </div>
 
+<div class="d-inline-block px-5 mw-25">
+<div class="links">
+<ul class="nav navbar-nav py-3">
+<li  class="nav-item"><a class="nav-link" href="/manual/development" title="Development">Character Development</a></li>
+<li  class="nav-item"><a class="nav-link" href="/manual/stats" title="Statistics">Character Statistics</a></li>
+<li  class="nav-item"><a class="nav-link" href="/manual/skills" title="Skills">Character Skills</a></li>
+<li  class="nav-item"><a class="nav-link" href="/manual/economy" title="Economy">Settlements Economy</a></li>
+</ul>
+</div>
+</div>
+
 </div>
 </div>
 

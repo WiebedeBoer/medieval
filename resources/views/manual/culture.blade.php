@@ -13,7 +13,7 @@ Manual
 					<h1>Culture</h1>
 					
 <div class="py-5 border-top">					
-<h2><a name="roles">Roles</a></h2>					
+<h2 class="m"><a name="roles">Roles</a></h2>					
 <div class="py-3">				
 <p>Some roles are limited to a culture.</p>
 <?xml version="1.0" standalone="no"?>
@@ -338,7 +338,7 @@ Manual
 <div>
 					
 <div class="py-5 border-top">					
-<h2><a name="culture">Culture</a></h2>					
+<h2 class="m"><a name="culture">Culture</a></h2>					
 <div class="py-3">
 <h3>Manor Culture</h3>
 <p>A role may have several beliefs or start positions available to it.</p>

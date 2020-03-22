@@ -25,6 +25,7 @@ class CreatePlacesTable extends Migration
 			$table->string('place_name');
 			$table->string('place_type');
 			$table->integer('population')->default(0); //default = 0
+			//businesses
 			$table->string('fortification');
 			$table->string('commerce');
 			$table->string('feudal');
@@ -34,7 +35,17 @@ class CreatePlacesTable extends Migration
 			$table->string('factory');
 			$table->string('arms');
 			$table->string('education');
+			//stats
+			$table->integer('agr')->default(1);
+			$table->integer('com')->default(1);
+			$table->integer('def')->default(1);
+			$table->integer('jus')->default(1);
+			$table->integer('mor')->default(1);
+			$table->integer('tra')->default(1);
+			$table->integer('sol')->default(1);
+			//description
 			$table->text('place_description')->nullable();
+			//timestamp
             $table->timestamps();
         });
     }

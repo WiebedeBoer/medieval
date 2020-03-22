@@ -17,7 +17,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">						
-<h2><a name="transportation">Trade &amp; Production</a></h2>
+<h2 class="m"><a name="transportation">Trade &amp; Production</a></h2>
 <div class="py-3">
 <p>A whole range of workshops and businesses can produce goods from resources.</p>
 <img src="{{ asset('img/trees/businesses.png') }}" width="100%" height="auto" alt="business tree" title="business tree">
@@ -25,7 +25,7 @@ Manual
 
 						
 <div class="py-5 border-top">						
-<h2><a name="transportation">Transportation</a></h2>
+<h2 class="m"><a name="transportation">Transportation</a></h2>
 <p>Transportation is required to haul trade goods across land and sea.</p>
 <div class="py-3">
 <h3>Trade</h3>

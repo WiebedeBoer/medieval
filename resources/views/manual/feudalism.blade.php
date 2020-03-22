@@ -13,7 +13,7 @@ Manual
 					<h1>Feudalism</h1>
 
 <div class="py-5 border-top">
-<H2><a name="units">Units of Land</a></H2>
+<H2 class="m"><a name="units">Units of Land</a></H2>
 
 <div class="py-3">
 <H3>Territorial Subdivisions</H3>
@@ -83,7 +83,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<H2><a name="divisions">Territorial Divisions</a></H2>
+<H2 class="m"><a name="divisions">Territorial Divisions</a></H2>
 
 <div class="py-3">
 <H3>Bailiwick</H3>
@@ -191,7 +191,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="ranks">Feudal Ranks</a></h2>
+<h2 class="m"><a name="ranks">Feudal Ranks</a></h2>
 
 <div class="py-3">
 <P>A landlord is a person who owns a unit of land. A person who rents the land is known as a tenant. If a tenant pays homage to a landlord, then this tenant is known as a vassal to that landlord. Likewise the landlord who leases the land to a tenant is known as a liege to that tenant.</P>
@@ -226,7 +226,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="court">Court</h2>
+<h2 class="m"><a name="court">Court</h2>
 <img src="{{ asset('img/images/misc_throne.png') }}" width="40" height="40" alt="misc">
 <p>Some characters with particular titles can be made members of a court. These courtiers make information available and assist in the developmenbt of the manorial economy.</p>
 </div>	

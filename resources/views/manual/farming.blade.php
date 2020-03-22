@@ -12,13 +12,13 @@ Manual
 					<div class="container">
 					<h1>Farming</h1>
 <div class="py-5 border-top">
-<h2><a name="climate">Climate</a></h2>
+<h2 class="m"><a name="climate">Climate</a></h2>
 <p>The presence of forest or fallow fields varies according to the climate.</p>
 <img src="{{ asset('img/trees/zones.png') }}" width="100%" height="auto" alt="climate zones tree" title="climate zones tree">
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="crops">Crops</a></h2>
+<h2 class="m"><a name="crops">Crops</a></h2>
 <p>Crops can be grown on fields. Wheat can be grown everywhere, but the yield is higher in vills with a <i>grain farm</i> speciality.</p>
 <div class="py-3">
 <h3>Vineyards</h3>
@@ -27,7 +27,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="livestock">Livestock</a></h2>
+<h2 class="m"><a name="livestock">Livestock</a></h2>
 <p>Livestock can be kept on pastures. Livestock is kept for cheese, meat, wool and as draught animals. Leather can also be produced in vills that have a <i>leatherwork</i> speciality. The yield for wool is higher in vills with the <i>sheep pasture</i> speciality.</p>
 
 <div class="py-3">

@@ -13,12 +13,12 @@ Manual
 					<h1>Manorialism</h1>
 
 <div class="py-5 border-top">
-<h2><a name="manor">Manor</a></h2>
+<h2 class="m"><a name="manor">Manor</a></h2>
 <p>Exactly what kind of manor you can gain, is determined by what culture, belief, and estate you start with.</p>
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="demesne">Demesne</a></h2>
+<h2 class="m"><a name="demesne">Demesne</a></h2>
 
 <p>Attached to a feudal rank is the manor and all the land attached to the manor or feudal title is known as a demesne. The name of a demesne varies according to the feudal rank and the category of the <i>vill</i>.</p>
 <p>A <i>vill</i> can be a:</p> 
@@ -37,7 +37,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="settlers">Settlers</a></h2>
+<h2 class="m"><a name="settlers">Settlers</a></h2>
 <p>Settlers are specialists that work for a <i>vill</i>. You can get a maximum of 4 settlers per <i>hide</i>.</p>
 <div class="py-3">
 <h3>Settler Requirements</h3>

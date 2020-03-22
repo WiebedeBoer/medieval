@@ -13,7 +13,7 @@ Manual
 					<h1>Heraldry</h1>
 
 <div class="py-3 border-top">
-<h2>Feudal Heraldry</h2>
+<h2 class="m">Feudal Heraldry</h2>
 <p>Holders of a title are entitled to insignia to denote their rank.</p>
 </div>
 
@@ -21,7 +21,7 @@ Manual
 
 
 <div class="py-5 border-top">
-<h2><a name="ranks">Feudal Ranks</a></h2>
+<h2 class="m"><a name="ranks">Feudal Ranks</a></h2>
 
 <div class="py-3">
 <h3>Feudal Ranks (Catholic)</h3>
@@ -424,7 +424,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="insignia">Feudal Insignia</a></h2>
+<h2 class="m"><a name="insignia">Feudal Insignia</a></h2>
 
 <div class="py-3">
 <h3>Feudal Insignia (Catholic - Feudal)</h3>

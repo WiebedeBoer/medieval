@@ -89,7 +89,21 @@ class fkeySeeder extends Seeder
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('spouse')->references('person_id')->on('people');
+			$table->foreign('father')->references('person_id')->on('people');
+			$table->foreign('mother')->references('person_id')->on('people');
+        }); 
+
+		Schema::table('skills', function (Blueprint $table) {
+			$table->foreign('person')->references('person_id')->on('people');
         }); 	
+
+		Schema::table('armies', function (Blueprint $table) {
+			$table->foreign('marshall')->references('person_id')->on('people');
+			$table->foreign('general')->references('person_id')->on('people');
+			$table->foreign('lieutenant')->references('person_id')->on('people');
+			$table->foreign('owner')->references('dynasty_id')->on('dynasties');
+			$table->foreign('location')->references('place_id')->on('places');
+        }); 		
 		
     }
 }

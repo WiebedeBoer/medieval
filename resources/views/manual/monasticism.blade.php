@@ -11,14 +11,15 @@ Manual
                 <div class="card-body">
 					<div class="container">
 					<h1>Monasticism</h1>
-<div class="py-5 border-top">					
+<div class="py-5 border-top">	
+<h2 class="m">Monks &amp; Crusaders</h2>				
 <p>Monks are only available to the <i>Catholic</i> and <i>Orthodox</i> beliefs, while <Ii>Muslims</i> have <i>Dervishes</i>. Orthodox have only regular monks and abbots. Therefore settlers such as the crusader, the grandmaster, and the friar are unique to Catholics.</p>
 <p>This means that only Catholics can create <i>crusader states</i>.</p>
 <p>The ruler of an abbey is never <i>Lord Paramount</i> in the feudal hierarchy.</p>
 </div>
 
 <div class="py-5 border-top">
-<h2>Monastic Orders</h2>
+<h2 class="m">Monastic Orders</h2>
 
 <p>Every <i>Catholic</i> abbey belongs to a monastic order. There are 3 categories of monastic orders, namely: mendicant, monastic, and chivalric. Each type of order attracts a different kind of settler.</p>
 

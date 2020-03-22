@@ -13,7 +13,7 @@ Manual
 					<h1>Church</h1>
 
 <div class="py-5 border-top">
-<h2><a name="beliefs">Beliefs</a></h2>
+<h2 class="m"><a name="beliefs">Beliefs</a></h2>
 <p>There are several different faiths. Faiths have a primate leader.</p>
 <table class="tablesorter table">
 <thead>
@@ -43,7 +43,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="worship">Place of Worship</a></h2>
+<h2 class="m"><a name="worship">Place of Worship</a></h2>
 <p>All faiths except for pagans can construct places of worship.</p>
 <table class="tablesorter table">
 <thead>
@@ -67,7 +67,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="settlers">Settlers</a></h2>
+<h2 class="m"><a name="settlers">Settlers</a></h2>
 <img src="{{ asset('img/images/misc_incense_burner.png') }}" width="40" height="40" alt="misc">
 <p>Settlers of the clergy or monastic order primarily work on health, culture, piety and science in a vill.</p>
 </div>

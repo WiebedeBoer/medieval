@@ -465,6 +465,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
     );
 
     public static $classMap = array (
+        'App\\Army' => __DIR__ . '/../..' . '/app/Army.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Culture' => __DIR__ . '/../..' . '/app/Culture.php',
         'App\\Dynasty' => __DIR__ . '/../..' . '/app/Dynasty.php',
@@ -481,6 +482,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'App\\Http\\Controllers\\ForumController' => __DIR__ . '/../..' . '/app/Http/Controllers/ForumController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\ManualController' => __DIR__ . '/../..' . '/app/Http/Controllers/ManualController.php',
+        'App\\Http\\Controllers\\MapController' => __DIR__ . '/../..' . '/app/Http/Controllers/MapController.php',
         'App\\Http\\Controllers\\NewsController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewsController.php',
         'App\\Http\\Controllers\\PlaceController' => __DIR__ . '/../..' . '/app/Http/Controllers/PlaceController.php',
         'App\\Http\\Controllers\\RegionController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegionController.php',
@@ -504,7 +506,9 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Realm' => __DIR__ . '/../..' . '/app/Realm.php',
         'App\\Region' => __DIR__ . '/../..' . '/app/Region.php',
+        'App\\Skill' => __DIR__ . '/../..' . '/app/Skill.php',
         'App\\Thread' => __DIR__ . '/../..' . '/app/Thread.php',
+        'App\\Title' => __DIR__ . '/../..' . '/app/Title.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
@@ -4522,6 +4526,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+        'TitleSeeder' => __DIR__ . '/../..' . '/database/seeds/TitleSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
@@ -4615,6 +4620,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'userSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
     );
 

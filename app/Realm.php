@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Realm extends Model
 {
-    //places tabel
+    //realm tabel
     protected $table = 'realms';
     protected $primaryKey = 'realm_id';
 	

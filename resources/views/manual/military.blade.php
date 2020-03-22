@@ -13,7 +13,7 @@ Manual
 					<h1>Military</h1>
 
 <div class="py-5 border-top">
-<h2><a name="recruitment">Military Recruitment</a></h2>
+<h2 class="m"><a name="recruitment">Military Recruitment</a></h2>
 <div class="py-3">
 <h3>Settlers</h3>
 <p>All of the cavalry units are limited to gentry settlers.</p>
@@ -23,7 +23,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="equipment">Military Equipment</a></h2>
+<h2 class="m"><a name="equipment">Military Equipment</a></h2>
 <p>The availability of some military equipment varies according to the culture.</p>
 <div class="py-3">
 <h3>Weapons &amp; Armor</h3>
@@ -66,7 +66,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="units">Military Units</a></h2>
+<h2 class="m"><a name="units">Military Units</a></h2>
 <p>The availability of military units varies according to the culture. Some cultures have unique military units. These special units are only available to that particular culture. Other common units are available to all cultures, though their equipment may vary.</p>
 <div class="py-3">
 <h3>Unit Statistics &amp; Requirements</h3>

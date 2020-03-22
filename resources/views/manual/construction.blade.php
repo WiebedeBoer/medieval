@@ -12,7 +12,7 @@ Manual
 					<div class="container">
 					<h1>Construction</h1>
 <div class="py-5 border-top">
-<h2><a name="manor">Manor Upgrades</a></h2>
+<h2 class="m"><a name="manor">Manor Upgrades</a></h2>
 <img src="{{ asset('img/images/building_castle.png') }}" width="40" height="40" alt="misc">
 <p>Manor upgrades require resources for construction.</p>
 <div class="py-3">
@@ -23,7 +23,7 @@ Manual
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="settlement">Settlement Upgrades</a></h2>
+<h2 class="m"><a name="settlement">Settlement Upgrades</a></h2>
 <p>Trade goods are used in the construction of buildings, rooms, and furnishings.</p>
 <p>Each type of vill has a variety of upgrades.</p>
 <div class="py-3">

@@ -34,6 +34,10 @@ Route::get('manual/farming', 'ManualController@farming');
 Route::get('manual/construction', 'ManualController@construction');
 Route::get('manual/culture', 'ManualController@culture');
 Route::get('manual/church', 'ManualController@church');
+Route::get('manual/stats', 'ManualController@stats');
+Route::get('manual/skills', 'ManualController@skills');
+Route::get('manual/development', 'ManualController@development');
+Route::get('manual/economy', 'ManualController@economy');
 //forum main
 Route::get('forum', 'ForumController@index');
 //forum thread

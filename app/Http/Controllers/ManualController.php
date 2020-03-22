@@ -75,6 +75,26 @@ class ManualController extends Controller
     public function church()
     {       
         return view('manual.church');        
+    }
+
+    public function stats()
+    {       
+        return view('manual.stats');        
+    }
+
+    public function skills()
+    {       
+        return view('manual.skills');        
     }	
+
+    public function development()
+    {       
+        return view('manual.development');        
+    }		
+	
+    public function economy()
+    {       
+        return view('manual.economy');        
+    }		
 	
 }

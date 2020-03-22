@@ -12,12 +12,12 @@ Manual
 					<div class="container">
 					<h1>Scholasticism</h1>
 <div class="py-5 border-top">
-<h2><a name="academy">Academy</a></h2>
+<h2 class="m"><a name="academy">Academy</a></h2>
 <p>A ruler who owns a vill with an academy can conduct science.</p>
 </div>
 
 <div class="py-5 border-top">
-<h2><a name="science">Science</a></h2>
+<h2 class="m"><a name="science">Science</a></h2>
 <img src="{{ asset('img/images/misc_book.png') }}" width="40" height="40" alt="misc">
 <p>Science points can be spend on various technologies.</p>
 <div class="py-3">
