@@ -175,7 +175,7 @@ DB::table('places')->insert([
 'region' => '3',
 'place_name' => 'Halberstadt',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'iron',
 'feudal' => 'knight',

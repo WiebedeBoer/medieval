@@ -93,6 +93,7 @@ Route::get('map/ride','MapController@ride');
 Route::get('map/sheep','MapController@sheep');
 Route::get('map/style','MapController@style');
 Route::get('map/literature','MapController@literature');
+Route::get('map/universities','MapController@universities');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
