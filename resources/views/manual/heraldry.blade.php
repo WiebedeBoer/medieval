@@ -17,9 +17,6 @@ Manual
 <p>Holders of a title are entitled to insignia to denote their rank.</p>
 </div>
 
-
-
-
 <div class="py-5 border-top">
 <h2 class="m"><a name="ranks">Feudal Ranks</a></h2>
 
@@ -42,6 +39,9 @@ Manual
 </tr>
 <tr>
 <th class="ma">Grand Duchy</th><td class="ge">Grand Duke</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="cr">Grandmaster</td><td class="u">&nbsp;</td><td class="bu">Doge</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
+</tr>
+<tr>
+<th class="ma">Grand Duchy</th><td class="ge">Prince</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td><td class="u">&nbsp;</td>
 </tr>
 <tr>
 <th class="l">Tenant-in-Chief</th><th colspan="8" class="c">Non-Sovereign</th>

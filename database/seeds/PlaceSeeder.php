@@ -14069,7 +14069,7 @@ DB::table('places')->insert([
 'population' => '600',
 'fortification' => 'burgh',
 'commerce' => 'silver',
-'feudal' => 'count',
+'feudal' => 'grand_duke',
 'church' => 'lord_archbishop',
 'civil' => 'lord_mayor',
 'monastic' => 'lord_abbot',
