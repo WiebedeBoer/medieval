@@ -6695,7 +6695,7 @@ DB::table('places')->insert([
 'region' => '107',
 'place_name' => 'Cordoba',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '450000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'king',
@@ -6704,7 +6704,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6758,7 +6759,7 @@ DB::table('places')->insert([
 'region' => '108',
 'place_name' => 'Sevilla',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '90000',
 'fortification' => 'royal_court',
 'commerce' => 'sugar',
 'feudal' => 'prince',
@@ -6767,7 +6768,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7325,7 +7327,7 @@ DB::table('places')->insert([
 'region' => '117',
 'place_name' => 'Genoa',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '80000',
 'fortification' => 'ducal_residence',
 'commerce' => 'silk',
 'feudal' => 'knight',
@@ -7334,7 +7336,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7388,7 +7391,7 @@ DB::table('places')->insert([
 'region' => '118',
 'place_name' => 'Venice',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '60000',
 'fortification' => 'ducal_residence',
 'commerce' => 'silk',
 'feudal' => 'knight',
@@ -7397,7 +7400,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7987,7 +7991,7 @@ DB::table('places')->insert([
 'region' => '127',
 'place_name' => 'Amalfi',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '80000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7996,7 +8000,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8333,7 +8338,7 @@ DB::table('places')->insert([
 'region' => '133',
 'place_name' => 'Palermo',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '350000',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
 'feudal' => 'king',
@@ -8342,7 +8347,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'glasswork',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12995,7 +13001,7 @@ DB::table('places')->insert([
 'region' => '207',
 'place_name' => 'Constantinople',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '500000',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
 'feudal' => 'king',
@@ -13004,7 +13010,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([

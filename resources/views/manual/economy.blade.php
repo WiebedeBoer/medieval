@@ -63,7 +63,7 @@ Manual
 <tr><th class="ma">Fortification</th><th class="ma">Minimum Defense</th></tr>
 </thead>
 <tbody>
-<tr><th class="ma">stone wall</th><td class="r">700</td></tr>
+<tr><th class="ma">stone wall</th><td class="r">600</td></tr>
 <tr><th class="ma">pallisade</th><td class="r">200</td></tr>
 <tr><th class="ma">earthwork</th><td class="r">50</td></tr>
 </tbody>
