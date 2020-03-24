@@ -26,14 +26,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '1',
 'place_name' => 'Oldenburg',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '300',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -42,7 +43,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -75,7 +77,8 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '2',
@@ -90,14 +93,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '2',
 'place_name' => 'Dresden',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'margrave',
@@ -106,14 +110,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '2',
 'place_name' => 'Erfurt',
 'place_type' => 'city',
-'population' => '600',
+'population' => '12000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'margrave',
@@ -122,7 +127,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -144,7 +150,7 @@ DB::table('places')->insert([
 'region' => '3',
 'place_name' => 'Magdeburg',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'burgh',
 'commerce' => 'salt',
 'feudal' => 'knight',
@@ -153,7 +159,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -169,7 +176,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -185,7 +193,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -201,7 +210,8 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '4',
@@ -223,7 +233,7 @@ DB::table('places')->insert([
 'region' => '4',
 'place_name' => 'Rostock',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'lord',
@@ -232,7 +242,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -280,7 +291,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -334,7 +346,7 @@ DB::table('places')->insert([
 'region' => '6',
 'place_name' => 'Stettin',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'duck',
 'feudal' => 'knight',
@@ -343,7 +355,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -359,7 +372,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -375,7 +389,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -397,7 +412,7 @@ DB::table('places')->insert([
 'region' => '7',
 'place_name' => 'Munster',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'knight',
@@ -406,7 +421,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -422,14 +438,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '7',
 'place_name' => 'Osnabruck',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -438,7 +455,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -494,7 +512,7 @@ DB::table('places')->insert([
 'region' => '8',
 'place_name' => 'Wurzburg',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -503,14 +521,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '8',
 'place_name' => 'Nuremberg',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '18000',
 'fortification' => 'chancery',
 'commerce' => 'grain',
 'feudal' => 'burgrave',
@@ -519,13 +538,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '9',
 'place_name' => 'Salzburg',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -534,7 +554,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -550,7 +571,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -582,13 +604,14 @@ DB::table('places')->insert([
 'monastic' => 'prince-provost',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '10',
 'place_name' => 'Vienna',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '12000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'duke',
@@ -597,7 +620,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -613,14 +637,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '10',
 'place_name' => 'Sankt Polten',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'fruit',
 'feudal' => 'knight',
@@ -629,7 +654,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -645,13 +671,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'glasswork',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '11',
 'place_name' => 'Graz',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'iron',
 'feudal' => 'duke',
@@ -660,7 +687,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -676,14 +704,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '11',
 'place_name' => 'Styraburg',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'margrave',
@@ -692,7 +721,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -730,7 +760,7 @@ DB::table('places')->insert([
 'region' => '12',
 'place_name' => 'Bozen',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -739,14 +769,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '12',
 'place_name' => 'Trent',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -755,14 +786,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '12',
 'place_name' => 'Brixen',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -771,13 +803,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '13',
 'place_name' => 'Ulm',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -786,7 +819,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -802,14 +836,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '13',
 'place_name' => 'Freiburg',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'honey',
 'feudal' => 'count',
@@ -818,7 +853,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -834,13 +870,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '14',
 'place_name' => 'Bern',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'town_hall',
 'commerce' => 'cheese',
 'feudal' => 'knight',
@@ -849,14 +886,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'leather',
 'arms' => 'smithy',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '14',
 'place_name' => 'Zurich',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -865,14 +903,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '14',
 'place_name' => 'Basel',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -881,7 +920,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'bookbinder',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -897,7 +937,8 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '15',
@@ -912,7 +953,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -935,7 +977,7 @@ DB::table('places')->insert([
 'region' => '15',
 'place_name' => 'Strassbourg',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -944,7 +986,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -960,13 +1003,14 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '16',
 'place_name' => 'Prague',
 'place_type' => 'capital',
-'population' => '18000',
+'population' => '28000',
 'fortification' => 'royal_court',
 'commerce' => 'poultry',
 'feudal' => 'king',
@@ -992,14 +1036,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '16',
 'place_name' => 'Pilsen',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'burgrave',
@@ -1008,7 +1053,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1039,7 +1085,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'glasswork',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -1110,7 +1157,7 @@ DB::table('places')->insert([
 'region' => '18',
 'place_name' => 'Heidelberg',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -1119,14 +1166,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '18',
 'place_name' => 'Frankfurt',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -1135,14 +1183,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '18',
 'place_name' => 'Fulda',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '600',
 'fortification' => 'fortified_abbey',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -1151,7 +1200,8 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '19',
@@ -1174,7 +1224,7 @@ DB::table('places')->insert([
 'region' => '19',
 'place_name' => 'Aachen',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '7000',
 'fortification' => 'town_hall',
 'commerce' => 'lead',
 'feudal' => 'king',
@@ -1183,14 +1233,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '19',
 'place_name' => 'Liege',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'lead',
 'feudal' => 'knight',
@@ -1199,7 +1250,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'watermill',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1215,7 +1267,8 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '20',
@@ -1238,7 +1291,7 @@ DB::table('places')->insert([
 'region' => '20',
 'place_name' => 'Luxembourg',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -1247,14 +1300,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'watermill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '20',
 'place_name' => 'Metz',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '25000',
 'fortification' => 'bishop_palace',
 'commerce' => 'salt',
 'feudal' => 'knight',
@@ -1263,14 +1317,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '20',
 'place_name' => 'Pruem',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '300',
 'fortification' => 'fortified_abbey',
 'commerce' => 'fruit',
 'feudal' => 'knight',
@@ -1279,13 +1334,14 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '21',
 'place_name' => 'Guelders',
 'place_type' => 'capital',
-'population' => '120',
+'population' => '300',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
 'feudal' => 'duke',
@@ -1294,7 +1350,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -1310,14 +1367,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '21',
 'place_name' => 'Nimeguen',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -1326,7 +1384,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1348,7 +1407,7 @@ DB::table('places')->insert([
 'region' => '22',
 'place_name' => 'Dorestad',
 'place_type' => 'capital',
-'population' => '20000',
+'population' => '15000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'lord',
@@ -1365,7 +1424,7 @@ DB::table('places')->insert([
 'region' => '22',
 'place_name' => 'Gouda',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'lord',
@@ -1374,14 +1433,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'bookbinder',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '22',
 'place_name' => 'Utrecht',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
 'feudal' => 'knight',
@@ -1390,7 +1450,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1422,7 +1483,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -1438,14 +1500,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '23',
 'place_name' => 'Groningen',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'baron',
@@ -1454,7 +1517,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1470,13 +1534,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '24',
 'place_name' => 'Louvain',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '15000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'count',
@@ -1485,7 +1550,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1501,7 +1567,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -1534,13 +1601,14 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '25',
 'place_name' => 'Bruges',
 'place_type' => 'capital',
-'population' => '40000',
+'population' => '65000',
 'fortification' => 'mountain_castle',
 'commerce' => 'poultry',
 'feudal' => 'burgrave',
@@ -1574,7 +1642,7 @@ DB::table('places')->insert([
 'region' => '25',
 'place_name' => 'Cambrai',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'flax',
 'feudal' => 'knight',
@@ -1583,14 +1651,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '25',
 'place_name' => 'Ypres',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '40000',
 'fortification' => 'mountain_castle',
 'commerce' => 'flax',
 'feudal' => 'burgrave',
@@ -1599,7 +1668,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '26',
@@ -1621,7 +1691,7 @@ DB::table('places')->insert([
 'region' => '26',
 'place_name' => 'Treffen',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '300',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -1630,14 +1700,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '26',
 'place_name' => 'Gorizia',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -1646,7 +1717,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1662,13 +1734,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '27',
 'place_name' => 'Krainburg',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'honey',
 'feudal' => 'margrave',
@@ -1677,7 +1750,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1693,14 +1767,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '27',
 'place_name' => 'Laibach',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -1709,7 +1784,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1740,14 +1816,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '28',
 'place_name' => 'Rohan',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '300',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
 'feudal' => 'burgrave',
@@ -1756,14 +1833,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '28',
 'place_name' => 'Quimper',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'flax',
 'feudal' => 'knight',
@@ -1772,7 +1850,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1794,7 +1873,7 @@ DB::table('places')->insert([
 'region' => '29',
 'place_name' => 'Paris',
 'place_type' => 'capital',
-'population' => '25000',
+'population' => '45000',
 'fortification' => 'royal_court',
 'commerce' => 'poultry',
 'feudal' => 'king',
@@ -1811,7 +1890,7 @@ DB::table('places')->insert([
 'region' => '29',
 'place_name' => 'Meaux',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
 'feudal' => 'knight',
@@ -1820,14 +1899,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '29',
 'place_name' => 'Chartres',
 'place_type' => 'city',
-'population' => '600',
+'population' => '7000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -1836,14 +1916,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '29',
 'place_name' => 'Saint Denis',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'fortified_abbey',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -1852,13 +1933,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '30',
 'place_name' => 'Bar',
 'place_type' => 'capital',
-'population' => '120',
+'population' => '300',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -1867,14 +1949,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '30',
 'place_name' => 'Neufchateau',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '200',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'baron',
@@ -1883,14 +1966,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '30',
 'place_name' => 'Verdun',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -1899,7 +1983,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -1921,7 +2006,7 @@ DB::table('places')->insert([
 'region' => '31',
 'place_name' => 'Amiens',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '5000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'count',
@@ -1930,14 +2015,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '31',
 'place_name' => 'Boulogne',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -1946,14 +2032,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '31',
 'place_name' => 'Laon',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '28000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -1962,14 +2049,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '31',
 'place_name' => 'Saint Omer',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '20000',
 'fortification' => 'burgh',
 'commerce' => 'flax',
 'feudal' => 'burgrave',
@@ -1978,13 +2066,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '32',
 'place_name' => 'Rouen',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '35000',
 'fortification' => 'chancery',
 'commerce' => 'duck',
 'feudal' => 'duke',
@@ -1993,7 +2082,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2009,14 +2099,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '32',
 'place_name' => 'Lisieux',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -2025,14 +2116,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '32',
 'place_name' => 'Bayeux',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'flax',
 'feudal' => 'burgrave',
@@ -2041,13 +2133,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '33',
 'place_name' => 'Troyes',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'flax',
 'feudal' => 'count',
@@ -2056,14 +2149,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '33',
 'place_name' => 'Thierry',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '200',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2072,14 +2166,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '33',
 'place_name' => 'Reims',
 'place_type' => 'city',
-'population' => '600',
+'population' => '30000',
 'fortification' => 'chancery',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -2088,14 +2183,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '33',
 'place_name' => 'Clairvaux',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '350',
 'fortification' => 'abbey_grange',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -2110,7 +2206,7 @@ DB::table('places')->insert([
 'region' => '34',
 'place_name' => 'Orleans',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '12000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -2119,14 +2215,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '34',
 'place_name' => 'Chateaudun',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '200',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2135,7 +2232,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2151,14 +2249,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '34',
 'place_name' => 'Vendome',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2167,13 +2266,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '35',
 'place_name' => 'Tours',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '20000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2182,7 +2282,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'armorer',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2198,7 +2299,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2214,7 +2316,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2230,7 +2333,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '36',
@@ -2245,14 +2349,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '36',
 'place_name' => 'Gontier',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '200',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'burgrave',
@@ -2261,14 +2366,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '36',
 'place_name' => 'Mans',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2277,14 +2383,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '36',
 'place_name' => 'Laval',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -2293,13 +2400,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '37',
 'place_name' => 'Poitiers',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '12000',
 'fortification' => 'burgh',
 'commerce' => 'iron',
 'feudal' => 'count',
@@ -2308,7 +2416,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2324,7 +2433,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2340,14 +2450,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '37',
 'place_name' => 'Vauclair',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'lord',
@@ -2356,13 +2467,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '38',
 'place_name' => 'Bourges',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2371,7 +2483,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2387,14 +2500,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '38',
 'place_name' => 'Nevers',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'iron',
 'feudal' => 'count',
@@ -2403,7 +2517,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2419,7 +2534,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '39',
@@ -2434,7 +2550,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2450,7 +2567,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2466,7 +2584,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2482,7 +2601,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '40',
@@ -2497,7 +2617,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'watermill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2513,7 +2634,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2529,7 +2651,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2551,7 +2674,7 @@ DB::table('places')->insert([
 'region' => '41',
 'place_name' => 'Arles',
 'place_type' => 'capital',
-'population' => '6000',
+'population' => '12000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'king',
@@ -2568,7 +2691,7 @@ DB::table('places')->insert([
 'region' => '41',
 'place_name' => 'Aix',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'knight',
@@ -2577,14 +2700,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '41',
 'place_name' => 'Marseille',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '6000',
 'fortification' => 'bishop_palace',
 'commerce' => 'olive_oil',
 'feudal' => 'knight',
@@ -2593,14 +2717,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'soapmaker',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '41',
 'place_name' => 'Avignon',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -2609,13 +2734,14 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '42',
 'place_name' => 'Toulouse',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '30000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -2624,14 +2750,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '42',
 'place_name' => 'Carcasonne',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -2640,14 +2767,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '800'
 ]);
 
 DB::table('places')->insert([
 'region' => '42',
 'place_name' => 'Narbonne',
 'place_type' => 'city',
-'population' => '600',
+'population' => '30000',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
 'feudal' => 'burgrave',
@@ -2656,7 +2784,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2695,7 +2824,7 @@ DB::table('places')->insert([
 'region' => '43',
 'place_name' => 'Cahors',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -2704,7 +2833,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2758,7 +2888,7 @@ DB::table('places')->insert([
 'region' => '44',
 'place_name' => 'Limoges',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '600',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -2767,7 +2897,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2783,7 +2914,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2814,7 +2946,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2830,7 +2963,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2879,14 +3013,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '46',
 'place_name' => 'Besancon',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'cheese',
 'feudal' => 'knight',
@@ -2895,7 +3030,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -2911,7 +3047,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2950,7 +3087,7 @@ DB::table('places')->insert([
 'region' => '47',
 'place_name' => 'Windsor',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'duck',
 'feudal' => 'baron',
@@ -2959,7 +3096,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'watermill',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2975,7 +3113,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -2991,7 +3130,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '48',
@@ -3023,7 +3163,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3070,14 +3211,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '49',
 'place_name' => 'Southampton',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'pigs',
 'feudal' => 'baron',
@@ -3086,7 +3228,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3133,7 +3276,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3149,7 +3293,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3213,7 +3358,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3229,7 +3375,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3277,14 +3424,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '52',
 'place_name' => 'Scarborough',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -3293,7 +3441,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -3309,7 +3458,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '53',
@@ -3324,7 +3474,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3340,7 +3491,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3372,7 +3524,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '54',
@@ -3403,7 +3556,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'watermill',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3419,7 +3573,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3435,7 +3590,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '55',
@@ -3450,7 +3606,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3466,7 +3623,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3482,7 +3640,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3498,7 +3657,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '56',
@@ -3513,14 +3673,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '56',
 'place_name' => 'Nottingham',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -3529,14 +3690,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '56',
 'place_name' => 'Boston',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'burgrave',
@@ -3545,7 +3707,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -3576,7 +3739,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3592,7 +3756,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3624,7 +3789,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '58',
@@ -3639,7 +3805,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3655,7 +3822,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3702,7 +3870,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3718,7 +3887,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3734,7 +3904,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3765,14 +3936,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '60',
 'place_name' => 'Tonsborg',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '420',
 'fortification' => 'chancery',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -3781,7 +3953,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3797,7 +3970,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3819,7 +3993,7 @@ DB::table('places')->insert([
 'region' => '61',
 'place_name' => 'Bergen',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -3828,7 +4002,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -3844,7 +4019,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3860,7 +4036,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3882,7 +4059,7 @@ DB::table('places')->insert([
 'region' => '62',
 'place_name' => 'Copenhagen',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -3891,7 +4068,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -3907,7 +4085,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3945,7 +4124,7 @@ DB::table('places')->insert([
 'region' => '63',
 'place_name' => 'Lund',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -3954,7 +4133,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -3970,7 +4150,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -3986,7 +4167,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4017,7 +4199,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4033,14 +4216,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '64',
 'place_name' => 'Ripen',
 'place_type' => 'city',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -4049,7 +4233,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4071,7 +4256,7 @@ DB::table('places')->insert([
 'region' => '65',
 'place_name' => 'Stockholm',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
 'feudal' => 'king',
@@ -4080,7 +4265,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4103,7 +4289,7 @@ DB::table('places')->insert([
 'region' => '65',
 'place_name' => 'Uppsala',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -4112,7 +4298,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4134,7 +4321,7 @@ DB::table('places')->insert([
 'region' => '66',
 'place_name' => 'Visby',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'chancery',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -4143,14 +4330,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '66',
 'place_name' => 'Kalmar',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '240',
 'fortification' => 'water_castle',
 'commerce' => 'duck',
 'feudal' => 'count',
@@ -4159,7 +4347,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4175,7 +4364,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4206,14 +4396,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '67',
 'place_name' => 'Dalaborg',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'pigs',
 'feudal' => 'count',
@@ -4222,7 +4413,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4238,7 +4430,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4260,7 +4453,7 @@ DB::table('places')->insert([
 'region' => '68',
 'place_name' => 'Riga',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'bishop_palace',
 'commerce' => 'honey',
 'feudal' => 'knight',
@@ -4269,7 +4462,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4285,7 +4479,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4301,7 +4496,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4317,7 +4513,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '69',
@@ -4332,7 +4529,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4348,7 +4546,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4364,7 +4563,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4380,13 +4580,14 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '70',
 'place_name' => 'Marienburg',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'chancery',
 'commerce' => 'grain',
 'feudal' => 'duke',
@@ -4395,7 +4596,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4411,7 +4613,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4435,7 +4638,7 @@ DB::table('places')->insert([
 'region' => '70',
 'place_name' => 'Koningsberg',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'knight',
@@ -4444,7 +4647,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '71',
@@ -4459,7 +4663,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4475,7 +4680,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4491,7 +4697,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4507,13 +4714,14 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '72',
 'place_name' => 'Reval',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'duke',
@@ -4522,7 +4730,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4538,7 +4747,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4554,7 +4764,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4576,7 +4787,7 @@ DB::table('places')->insert([
 'region' => '73',
 'place_name' => 'Edinburgh',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -4585,7 +4796,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4601,7 +4813,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4617,7 +4830,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4648,14 +4862,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '74',
 'place_name' => 'Alnwick',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'margrave',
@@ -4664,14 +4879,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '74',
 'place_name' => 'Berwick',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'baron',
@@ -4680,14 +4896,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '74',
 'place_name' => 'Jedburgh',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -4696,7 +4913,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '75',
@@ -4711,7 +4929,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4727,14 +4946,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '75',
 'place_name' => 'Glasgow',
 'place_type' => 'city',
-'population' => '600',
+'population' => '1500',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'baron',
@@ -4743,7 +4963,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -4759,13 +4980,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '76',
 'place_name' => 'Carlisle',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '1600',
 'fortification' => 'burgh',
 'commerce' => 'silver',
 'feudal' => 'margrave',
@@ -4774,7 +4996,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4790,7 +5013,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4837,7 +5061,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4853,7 +5078,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4869,7 +5095,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4891,7 +5118,7 @@ DB::table('places')->insert([
 'region' => '78',
 'place_name' => 'Perth',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '1600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -4900,14 +5127,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '78',
 'place_name' => 'Stirling',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '1200',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -4916,14 +5144,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '78',
 'place_name' => 'Saint Andrews',
 'place_type' => 'city',
-'population' => '600',
+'population' => '1200',
 'fortification' => 'bishop_palace',
 'commerce' => 'rubies',
 'feudal' => 'knight',
@@ -4932,7 +5161,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -4948,7 +5178,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '79',
@@ -4963,14 +5194,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '79',
 'place_name' => 'Nairn',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'pigs',
 'feudal' => 'count',
@@ -4979,7 +5211,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5002,7 +5235,7 @@ DB::table('places')->insert([
 'region' => '79',
 'place_name' => 'Aberdeen',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '900',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -5011,13 +5244,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '80',
 'place_name' => 'Dundee',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '700',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'burgrave',
@@ -5026,7 +5260,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5042,7 +5277,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5089,7 +5325,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5105,7 +5342,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5169,7 +5407,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5185,7 +5424,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5201,13 +5441,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '83',
 'place_name' => 'Armagh',
 'place_type' => 'capital',
-'population' => '120',
+'population' => '520',
 'fortification' => 'mountain_castle',
 'commerce' => 'pigs',
 'feudal' => 'king',
@@ -5216,14 +5457,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '83',
 'place_name' => 'Carrickfergus',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '420',
 'fortification' => 'mountain_castle',
 'commerce' => 'salt',
 'feudal' => 'baron',
@@ -5232,7 +5474,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5248,7 +5491,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5279,7 +5523,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5302,7 +5547,7 @@ DB::table('places')->insert([
 'region' => '84',
 'place_name' => 'Waterford',
 'place_type' => 'city',
-'population' => '600',
+'population' => '900',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'baron',
@@ -5311,7 +5556,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'watermill',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5342,14 +5588,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '85',
 'place_name' => 'Limerick',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '820',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -5358,14 +5605,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '85',
 'place_name' => 'Cork',
 'place_type' => 'city',
-'population' => '600',
+'population' => '800',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -5374,7 +5622,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'watermill',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5390,13 +5639,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '86',
 'place_name' => 'Galway',
 'place_type' => 'capital',
-'population' => '120',
+'population' => '620',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -5405,7 +5655,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5421,7 +5672,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'watermill',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5459,7 +5711,7 @@ DB::table('places')->insert([
 'region' => '87',
 'place_name' => 'Pamplona',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'king',
@@ -5468,7 +5720,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -5484,7 +5737,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5547,7 +5801,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5563,14 +5818,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '88',
 'place_name' => 'Gastehiz',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '1600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -5579,13 +5835,14 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '89',
 'place_name' => 'Jaca',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -5594,7 +5851,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5617,7 +5875,7 @@ DB::table('places')->insert([
 'region' => '89',
 'place_name' => 'Huesca',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2300',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -5626,7 +5884,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5648,7 +5907,7 @@ DB::table('places')->insert([
 'region' => '90',
 'place_name' => 'Zaragoza',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'prince',
@@ -5657,14 +5916,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '90',
 'place_name' => 'Molina de Aragon',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -5673,14 +5933,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '90',
 'place_name' => 'Albarracin',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2200',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
 'feudal' => 'prince',
@@ -5689,7 +5950,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5711,7 +5973,7 @@ DB::table('places')->insert([
 'region' => '91',
 'place_name' => 'Gerona',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -5720,14 +5982,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '91',
 'place_name' => 'Ripoll',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'iron',
 'feudal' => 'count',
@@ -5736,14 +5999,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fuller',
 'arms' => 'armorer',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '91',
 'place_name' => 'Emporda',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -5752,7 +6016,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -5774,7 +6039,7 @@ DB::table('places')->insert([
 'region' => '92',
 'place_name' => 'Barcelona',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '26000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'prince',
@@ -5783,7 +6048,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'madder',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -5799,7 +6065,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5815,7 +6082,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5837,7 +6105,7 @@ DB::table('places')->insert([
 'region' => '93',
 'place_name' => 'Valencia',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
 'feudal' => 'prince',
@@ -5846,14 +6114,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'mint',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '93',
 'place_name' => 'Sagunto',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '520',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
 'feudal' => 'baron',
@@ -5862,7 +6131,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5878,7 +6148,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5900,7 +6171,7 @@ DB::table('places')->insert([
 'region' => '94',
 'place_name' => 'Denia',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'prince',
@@ -5909,7 +6180,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -5925,7 +6197,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5941,7 +6214,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -5963,7 +6237,7 @@ DB::table('places')->insert([
 'region' => '95',
 'place_name' => 'Palma',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -5972,7 +6246,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'mint',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -5988,7 +6263,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6004,7 +6280,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6020,13 +6297,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '96',
 'place_name' => 'Leon',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '5000',
 'fortification' => 'royal_court',
 'commerce' => 'honey',
 'feudal' => 'king',
@@ -6035,7 +6313,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6051,14 +6330,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '96',
 'place_name' => 'San Guillermo',
 'place_type' => 'city',
-'population' => '120',
+'population' => '320',
 'fortification' => 'bishop_palace',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -6067,7 +6347,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6089,7 +6370,7 @@ DB::table('places')->insert([
 'region' => '97',
 'place_name' => 'Oviedo',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'prince',
@@ -6098,7 +6379,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6114,7 +6396,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6130,7 +6413,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6152,7 +6436,7 @@ DB::table('places')->insert([
 'region' => '98',
 'place_name' => 'Valladolid',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'king',
@@ -6161,7 +6445,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6177,14 +6462,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '98',
 'place_name' => 'Segovia',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -6193,14 +6479,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'soapmaker',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '98',
 'place_name' => 'Salamanca',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '800',
 'fortification' => 'abbey_grange',
 'commerce' => 'pigs',
 'feudal' => 'count',
@@ -6209,13 +6496,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '99',
 'place_name' => 'Burgos',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -6224,14 +6512,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '99',
 'place_name' => 'Santo Domingo de Silos',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'fortified_abbey',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -6240,14 +6529,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '99',
 'place_name' => 'Palencia',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -6256,7 +6546,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6278,7 +6569,7 @@ DB::table('places')->insert([
 'region' => '100',
 'place_name' => 'Santiago',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '2400',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'king',
@@ -6287,7 +6578,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6303,7 +6595,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6319,14 +6612,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '100',
 'place_name' => 'Ponferrada',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '420',
 'fortification' => 'mountain_castle',
 'commerce' => 'gold',
 'feudal' => 'lord',
@@ -6335,7 +6629,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '101',
@@ -6367,7 +6662,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6383,7 +6679,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6405,7 +6702,7 @@ DB::table('places')->insert([
 'region' => '102',
 'place_name' => 'Porto',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'duke',
@@ -6414,7 +6711,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6430,7 +6728,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6446,7 +6745,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6462,7 +6762,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '103',
@@ -6477,7 +6778,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6493,7 +6795,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6509,7 +6812,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6525,13 +6829,14 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '104',
 'place_name' => 'Coimbra',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'chancery',
 'commerce' => 'olive_oil',
 'feudal' => 'knight',
@@ -6540,14 +6845,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '104',
 'place_name' => 'Tomar',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
 'feudal' => 'lord',
@@ -6556,14 +6862,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '104',
 'place_name' => 'Leiria',
 'place_type' => 'city',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'baron',
@@ -6572,14 +6879,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '104',
 'place_name' => 'Pombal',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'margrave',
@@ -6588,13 +6896,14 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '105',
 'place_name' => 'Evora',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'chancery',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -6603,14 +6912,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '105',
 'place_name' => 'Alcacer',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
 'feudal' => 'baron',
@@ -6619,7 +6929,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6635,7 +6946,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6657,7 +6969,7 @@ DB::table('places')->insert([
 'region' => '106',
 'place_name' => 'Faro',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -6666,14 +6978,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '106',
 'place_name' => 'Paderne',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
 'feudal' => 'lord',
@@ -6682,7 +6995,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6714,7 +7028,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '107',
@@ -6746,14 +7061,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '107',
 'place_name' => 'Jaen',
 'place_type' => 'city',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'mountain_castle',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -6762,7 +7078,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6784,7 +7101,7 @@ DB::table('places')->insert([
 'region' => '108',
 'place_name' => 'Sevilla',
 'place_type' => 'capital',
-'population' => '90000',
+'population' => '70000',
 'fortification' => 'royal_court',
 'commerce' => 'sugar',
 'feudal' => 'prince',
@@ -6810,7 +7127,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6849,7 +7167,7 @@ DB::table('places')->insert([
 'region' => '109',
 'place_name' => 'Badajoz',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'prince',
@@ -6858,7 +7176,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6874,7 +7193,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6890,14 +7210,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '109',
 'place_name' => 'Olivenza',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -6906,13 +7227,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '110',
 'place_name' => 'Toledo',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '28000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -6921,7 +7243,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -6937,14 +7260,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '110',
 'place_name' => 'Consuegra',
 'place_type' => 'city',
-'population' => '120',
+'population' => '520',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'baron',
@@ -6953,7 +7277,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -6975,7 +7300,7 @@ DB::table('places')->insert([
 'region' => '111',
 'place_name' => 'Granada',
 'place_type' => 'capital',
-'population' => '25000',
+'population' => '50000',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
 'feudal' => 'prince',
@@ -7001,7 +7326,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7033,7 +7359,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '112',
@@ -7048,7 +7375,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7064,7 +7392,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7080,7 +7409,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7096,13 +7426,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '113',
 'place_name' => 'Murcia',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'iron',
 'feudal' => 'prince',
@@ -7111,7 +7442,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7127,7 +7459,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7143,7 +7476,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7159,13 +7493,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '114',
 'place_name' => 'Malaga',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'prince',
@@ -7174,14 +7509,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '114',
 'place_name' => 'Loja',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'lord',
@@ -7190,7 +7526,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7206,7 +7543,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7222,13 +7560,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '115',
 'place_name' => 'Milan',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '90000',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'duke',
@@ -7237,14 +7576,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '115',
 'place_name' => 'Brescia',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '13000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -7253,14 +7593,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '115',
 'place_name' => 'Pavia',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '15000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -7269,14 +7610,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '115',
 'place_name' => 'Cremona',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '17000',
 'fortification' => 'town_hall',
 'commerce' => 'pigs',
 'feudal' => 'knight',
@@ -7285,13 +7627,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '116',
 'place_name' => 'Verona',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '25000',
 'fortification' => 'mountain_castle',
 'commerce' => 'flax',
 'feudal' => 'margrave',
@@ -7300,14 +7643,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '116',
 'place_name' => 'Padua',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '40000',
 'fortification' => 'town_hall',
 'commerce' => 'poultry',
 'feudal' => 'burgrave',
@@ -7316,14 +7660,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '116',
 'place_name' => 'Vicenza',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'town_hall',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -7332,14 +7677,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '116',
 'place_name' => 'Mantua',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '14000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
 'feudal' => 'duke',
@@ -7348,7 +7694,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '117',
@@ -7371,7 +7718,7 @@ DB::table('places')->insert([
 'region' => '117',
 'place_name' => 'Noli',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'ducal_residence',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7380,14 +7727,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '117',
 'place_name' => 'Aleria',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -7396,7 +7744,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7418,7 +7767,7 @@ DB::table('places')->insert([
 'region' => '118',
 'place_name' => 'Venice',
 'place_type' => 'capital',
-'population' => '60000',
+'population' => '80000',
 'fortification' => 'ducal_residence',
 'commerce' => 'silk',
 'feudal' => 'knight',
@@ -7435,7 +7784,7 @@ DB::table('places')->insert([
 'region' => '118',
 'place_name' => 'Treviso',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '700',
 'fortification' => 'burgh',
 'commerce' => 'flax',
 'feudal' => 'margrave',
@@ -7444,14 +7793,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '118',
 'place_name' => 'Chioggia',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'town_hall',
 'commerce' => 'salt',
 'feudal' => 'knight',
@@ -7460,14 +7810,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '118',
 'place_name' => 'Belluno',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'wool',
 'feudal' => 'knight',
@@ -7476,13 +7827,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '119',
 'place_name' => 'Ravenna',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '50000',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
 'feudal' => 'lord',
@@ -7491,14 +7843,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '119',
 'place_name' => 'Cesena',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2800',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7507,14 +7860,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '119',
 'place_name' => 'Forli',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7523,7 +7877,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7545,7 +7900,7 @@ DB::table('places')->insert([
 'region' => '120',
 'place_name' => 'Modena',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '9000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'duke',
@@ -7554,14 +7909,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'smithy',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '120',
 'place_name' => 'Parma',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '8000',
 'fortification' => 'town_hall',
 'commerce' => 'cheese',
 'feudal' => 'knight',
@@ -7570,14 +7926,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '120',
 'place_name' => 'Ferrara',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '2800',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -7586,7 +7943,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7635,14 +7993,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '121',
 'place_name' => 'Udine',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'bishop_palace',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7651,14 +8010,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '121',
 'place_name' => 'Gemona',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'town_hall',
 'commerce' => 'iron',
 'feudal' => 'knight',
@@ -7667,13 +8027,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '122',
 'place_name' => 'Turin',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'margrave',
@@ -7682,14 +8043,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '122',
 'place_name' => 'Ivrea',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '1600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7698,14 +8060,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '122',
 'place_name' => 'Asti',
 'place_type' => 'city',
-'population' => '600',
+'population' => '8000',
 'fortification' => 'bishop_palace',
 'commerce' => 'fruit',
 'feudal' => 'knight',
@@ -7714,14 +8077,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '122',
 'place_name' => 'Pinerollo',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '220',
 'fortification' => 'fortified_abbey',
 'commerce' => 'cheese',
 'feudal' => 'knight',
@@ -7730,7 +8094,8 @@ DB::table('places')->insert([
 'monastic' => 'prince-abbot',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '123',
@@ -7753,7 +8118,7 @@ DB::table('places')->insert([
 'region' => '123',
 'place_name' => 'Siena',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '50000',
 'fortification' => 'ducal_residence',
 'commerce' => 'olive_oil',
 'feudal' => 'knight',
@@ -7762,14 +8127,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'potterer',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '123',
 'place_name' => 'Arezzo',
 'place_type' => 'city',
-'population' => '600',
+'population' => '16000',
 'fortification' => 'town_hall',
 'commerce' => 'poultry',
 'feudal' => 'knight',
@@ -7778,7 +8144,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7794,13 +8161,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '124',
 'place_name' => 'Spoleto',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7809,14 +8177,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '124',
 'place_name' => 'Aquila',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '40000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
 'feudal' => 'lord',
@@ -7825,7 +8194,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'saffron',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7841,7 +8211,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7857,7 +8228,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '125',
@@ -7889,7 +8261,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -7905,14 +8278,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '125',
 'place_name' => 'Subiaco',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '320',
 'fortification' => 'abbey_grange',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -7927,7 +8301,7 @@ DB::table('places')->insert([
 'region' => '126',
 'place_name' => 'Pisa',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '12000',
 'fortification' => 'ducal_residence',
 'commerce' => 'olive_oil',
 'feudal' => 'knight',
@@ -7936,14 +8310,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '126',
 'place_name' => 'Carrara',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'duke',
@@ -7952,14 +8327,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '126',
 'place_name' => 'Lucca',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '7000',
 'fortification' => 'mountain_castle',
 'commerce' => 'silk',
 'feudal' => 'duke',
@@ -7968,7 +8344,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'smithy',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -7984,7 +8361,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '127',
@@ -8007,7 +8385,7 @@ DB::table('places')->insert([
 'region' => '127',
 'place_name' => 'Gaeta',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'ducal_residence',
 'commerce' => 'silk',
 'feudal' => 'knight',
@@ -8016,7 +8394,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8040,7 +8419,7 @@ DB::table('places')->insert([
 'region' => '127',
 'place_name' => 'Cassino',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '520',
 'fortification' => 'abbey_scriptorium',
 'commerce' => 'olive_oil',
 'feudal' => 'knight',
@@ -8055,7 +8434,7 @@ DB::table('places')->insert([
 'region' => '128',
 'place_name' => 'Taranto',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'iron',
 'feudal' => 'prince',
@@ -8064,7 +8443,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fuller',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8080,7 +8460,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8096,14 +8477,15 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '128',
 'place_name' => 'Brindisi',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -8112,13 +8494,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '129',
 'place_name' => 'Cosenza',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'duke',
@@ -8127,7 +8510,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'bookbinder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8143,7 +8527,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8159,7 +8544,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8181,7 +8567,7 @@ DB::table('places')->insert([
 'region' => '130',
 'place_name' => 'Benevento',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'prince',
@@ -8190,7 +8576,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8206,7 +8593,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8222,7 +8610,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8253,7 +8642,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8269,7 +8659,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8285,7 +8676,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8301,13 +8693,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '132',
 'place_name' => 'Cagliari',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -8316,7 +8709,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8332,7 +8726,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8348,7 +8743,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8364,7 +8760,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '133',
@@ -8387,7 +8784,7 @@ DB::table('places')->insert([
 'region' => '133',
 'place_name' => 'Agrigento',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'burgh',
 'commerce' => 'salt',
 'feudal' => 'count',
@@ -8396,14 +8793,15 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '133',
 'place_name' => 'Cefalu',
 'place_type' => 'city',
-'population' => '600',
+'population' => '4600',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'baron',
@@ -8412,14 +8810,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '133',
 'place_name' => 'Marsala',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'town_hall',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -8428,13 +8827,14 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '134',
 'place_name' => 'Messina',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '8000',
 'fortification' => 'mountain_castle',
 'commerce' => 'pigs',
 'feudal' => 'count',
@@ -8443,14 +8843,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '134',
 'place_name' => 'Taormina',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'baron',
@@ -8459,14 +8860,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '134',
 'place_name' => 'Catania',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'iron',
 'feudal' => 'baron',
@@ -8475,14 +8877,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '134',
 'place_name' => 'Troina',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'baron',
@@ -8491,13 +8894,14 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '135',
 'place_name' => 'Siracusa',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '80000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -8506,14 +8910,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'mint',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '135',
 'place_name' => 'Caltagirone',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'lord',
@@ -8522,14 +8927,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '135',
 'place_name' => 'Valletta',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -8538,14 +8944,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '135',
 'place_name' => 'Modica',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -8554,13 +8961,14 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '136',
 'place_name' => 'Tangiers',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -8569,14 +8977,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '136',
 'place_name' => 'Ceuta',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -8585,14 +8994,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '136',
 'place_name' => 'Ouazzane',
 'place_type' => 'city',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -8601,7 +9011,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8617,7 +9028,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '137',
@@ -8632,7 +9044,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8648,14 +9061,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cloth',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '137',
 'place_name' => 'Sale',
 'place_type' => 'city',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'baron',
@@ -8664,7 +9078,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'cloth',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8680,13 +9095,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '138',
 'place_name' => 'Fez',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '75000',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'king',
@@ -8695,7 +9111,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8711,7 +9128,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8727,14 +9145,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '138',
 'place_name' => 'Meknes',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '16000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -8743,13 +9162,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'scriptorium',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '139',
 'place_name' => 'Marrakesh',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '150000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'king',
@@ -8758,14 +9178,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '139',
 'place_name' => 'Ouarzazate',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -8774,14 +9195,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '139',
 'place_name' => 'Mogador',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -8790,7 +9212,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8806,13 +9229,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '140',
 'place_name' => 'Taroudant',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'sugar',
 'feudal' => 'prince',
@@ -8821,7 +9245,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'woad',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8837,7 +9262,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8853,7 +9279,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'ivory',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8869,7 +9296,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '141',
@@ -8884,7 +9312,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8900,7 +9329,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8916,7 +9346,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -8947,7 +9378,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -8963,14 +9395,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '142',
 'place_name' => 'Mellila',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'iron',
 'feudal' => 'count',
@@ -8979,14 +9412,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '142',
 'place_name' => 'Taourirt',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '320',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'baron',
@@ -8995,13 +9429,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '143',
 'place_name' => 'Oran',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -9010,7 +9445,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9026,7 +9462,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9042,7 +9479,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9058,7 +9496,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '144',
@@ -9073,7 +9512,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9089,7 +9529,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9105,7 +9546,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9121,7 +9563,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '145',
@@ -9136,7 +9579,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9152,7 +9596,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9168,7 +9613,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9190,7 +9636,7 @@ DB::table('places')->insert([
 'region' => '146',
 'place_name' => 'Algiers',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -9199,7 +9645,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9215,14 +9662,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '146',
 'place_name' => 'Tedelles',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'baron',
@@ -9231,7 +9679,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9247,7 +9696,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '147',
@@ -9262,7 +9712,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9278,7 +9729,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9294,7 +9746,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9310,7 +9763,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '148',
@@ -9325,7 +9779,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9341,7 +9796,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9357,7 +9813,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9373,13 +9830,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '149',
 'place_name' => 'Tunis',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '15000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -9388,7 +9846,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9404,7 +9863,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9420,14 +9880,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '149',
 'place_name' => 'Bizerte',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -9436,13 +9897,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '150',
 'place_name' => 'Kairouan',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '30000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'king',
@@ -9451,14 +9913,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '150',
 'place_name' => 'Sousse',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -9467,7 +9930,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9483,14 +9947,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '150',
 'place_name' => 'Mahdia',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'baron',
@@ -9499,13 +9964,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '151',
 'place_name' => 'Gabes',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -9514,14 +9980,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '151',
 'place_name' => 'Gafsa',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'dates',
 'feudal' => 'count',
@@ -9530,7 +9997,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9546,7 +10014,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9562,13 +10031,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '152',
 'place_name' => 'Ghadames',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'salt',
 'feudal' => 'count',
@@ -9577,7 +10047,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9593,7 +10064,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9609,7 +10081,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'ivory',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9625,7 +10098,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'ivory',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '153',
@@ -9640,7 +10114,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9656,7 +10131,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9672,7 +10148,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9688,7 +10165,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '154',
@@ -9703,7 +10181,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9719,7 +10198,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9735,7 +10215,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9782,7 +10263,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9798,7 +10280,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9814,7 +10297,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '156',
@@ -9829,7 +10313,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9845,7 +10330,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9861,7 +10347,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -9877,13 +10364,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '157',
 'place_name' => 'Alexandria',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '90000',
 'fortification' => 'burgh',
 'commerce' => 'poultry',
 'feudal' => 'count',
@@ -9892,14 +10380,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '157',
 'place_name' => 'Rosetta',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -9908,14 +10397,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '157',
 'place_name' => 'Damietta',
 'place_type' => 'city',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -9924,14 +10414,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '157',
 'place_name' => 'Mansoura',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'flax',
 'feudal' => 'count',
@@ -9940,13 +10431,14 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '158',
 'place_name' => 'Cairo',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '135000',
 'fortification' => 'royal_court',
 'commerce' => 'sugar',
 'feudal' => 'king',
@@ -9955,7 +10447,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'potterer',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9971,7 +10464,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -9987,7 +10481,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10018,7 +10513,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10034,7 +10530,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10050,7 +10547,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10081,7 +10579,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10097,14 +10596,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'ivory',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '160',
 'place_name' => 'Aswan',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'emeralds',
 'feudal' => 'count',
@@ -10113,7 +10613,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10131,6 +10632,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '161',
 'place_name' => 'Liegnitz',
@@ -10144,7 +10646,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10160,14 +10663,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '161',
 'place_name' => 'Breslau',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'bishop_palace',
 'commerce' => 'honey',
 'feudal' => 'knight',
@@ -10176,7 +10680,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10198,7 +10703,7 @@ DB::table('places')->insert([
 'region' => '162',
 'place_name' => 'Krakow',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '12000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -10207,7 +10712,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'glasswork',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10223,7 +10729,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10239,7 +10746,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10255,7 +10763,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '163',
@@ -10270,7 +10779,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10286,7 +10796,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10302,7 +10813,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10318,7 +10830,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 DB::table('places')->insert([
 'region' => '164',
@@ -10333,14 +10846,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '164',
 'place_name' => 'Warsaw',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '1600',
 'fortification' => 'mountain_castle',
 'commerce' => 'honey',
 'feudal' => 'count',
@@ -10349,7 +10863,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10365,7 +10880,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10381,8 +10897,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '165',
 'place_name' => 'Brest',
@@ -10396,7 +10914,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10412,7 +10931,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10446,11 +10966,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '166',
 'place_name' => 'Tracken',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '15000',
 'fortification' => 'mountain_castle',
 'commerce' => 'poultry',
 'feudal' => 'grand_duke',
@@ -10459,14 +10980,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fuller',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '166',
 'place_name' => 'Vilnius',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'chancery',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -10475,14 +10997,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '166',
 'place_name' => 'Kauen',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'honey',
 'feudal' => 'count',
@@ -10491,14 +11014,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '166',
 'place_name' => 'Minsk',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -10507,8 +11031,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '167',
 'place_name' => 'Pula',
@@ -10570,13 +11096,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '168',
 'place_name' => 'Ragusa',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -10585,14 +11113,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '168',
 'place_name' => 'Zadar',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'knight',
@@ -10601,14 +11130,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '168',
 'place_name' => 'Split',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -10617,7 +11147,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10633,13 +11164,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '169',
 'place_name' => 'Knin',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'king',
@@ -10648,7 +11181,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10664,7 +11198,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10698,11 +11233,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'hospice'
 ]);
+
 DB::table('places')->insert([
 'region' => '170',
 'place_name' => 'Gyor',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -10711,7 +11247,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10759,8 +11296,10 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '171',
 'place_name' => 'Veszprem',
@@ -10781,7 +11320,7 @@ DB::table('places')->insert([
 'region' => '171',
 'place_name' => 'Fehervar',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'chancery',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -10790,7 +11329,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10813,7 +11353,7 @@ DB::table('places')->insert([
 'region' => '171',
 'place_name' => 'Pecs',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -10822,13 +11362,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '172',
 'place_name' => 'Esztergom',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'cheese',
 'feudal' => 'king',
@@ -10837,7 +11379,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10885,13 +11428,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '173',
 'place_name' => 'Eger',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'baron',
@@ -10900,7 +11445,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -10916,7 +11462,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -10950,11 +11497,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '174',
 'place_name' => 'Buda',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '12000',
 'fortification' => 'chancery',
 'commerce' => 'cheese',
 'feudal' => 'duke',
@@ -10963,7 +11511,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11013,11 +11562,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '175',
 'place_name' => 'Pecs',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -11026,7 +11576,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11042,7 +11593,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11076,6 +11628,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '176',
 'place_name' => 'Alba Julia',
@@ -11089,7 +11642,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11105,7 +11659,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11121,7 +11676,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'cooper',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11139,6 +11695,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '177',
 'place_name' => 'Targu Jiu',
@@ -11152,7 +11709,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11168,14 +11726,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '177',
 'place_name' => 'Curtea Arges',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -11184,7 +11743,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11202,11 +11762,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '178',
 'place_name' => 'Targoviste',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '25000',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -11215,7 +11776,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11239,7 +11801,7 @@ DB::table('places')->insert([
 'region' => '178',
 'place_name' => 'Torzburg',
 'place_type' => 'city',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'poultry',
 'feudal' => 'burgrave',
@@ -11248,14 +11810,15 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'mint',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '178',
 'place_name' => 'Kronstadt',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '220',
 'fortification' => 'mountain_castle',
 'commerce' => 'poultry',
 'feudal' => 'burgrave',
@@ -11264,8 +11827,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '179',
 'place_name' => 'Constanta',
@@ -11333,7 +11898,7 @@ DB::table('places')->insert([
 'region' => '180',
 'place_name' => 'Suceava',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -11342,7 +11907,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11358,14 +11924,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '180',
 'place_name' => 'Odessa',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -11374,7 +11941,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11392,11 +11960,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '181',
 'place_name' => 'Sofia',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -11405,14 +11974,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '181',
 'place_name' => 'Pleven',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2800',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -11421,7 +11991,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11437,7 +12008,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11455,11 +12027,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '182',
 'place_name' => 'Varna',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -11468,14 +12041,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'shipyard',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '182',
 'place_name' => 'Pliska',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '34000',
 'fortification' => 'mountain_castle',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -11484,14 +12058,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '182',
 'place_name' => 'Preslav',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '60000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -11500,14 +12075,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '182',
 'place_name' => 'Tarnovo',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '48000',
 'fortification' => 'mountain_castle',
 'commerce' => 'salt',
 'feudal' => 'count',
@@ -11516,7 +12092,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 DB::table('places')->insert([
 'region' => '183',
@@ -11531,7 +12108,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11547,7 +12125,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11563,7 +12142,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11579,13 +12159,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '184',
 'place_name' => 'Belgrade',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -11594,7 +12176,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11626,7 +12209,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11644,11 +12228,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '185',
 'place_name' => 'Rashka',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -11657,7 +12242,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11689,7 +12275,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11707,6 +12294,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '186',
 'place_name' => 'Prizren',
@@ -11720,14 +12308,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '186',
 'place_name' => 'Kumanovo',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '420',
 'fortification' => 'mountain_castle',
 'commerce' => 'lead',
 'feudal' => 'count',
@@ -11736,7 +12325,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11752,7 +12342,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11770,6 +12361,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '187',
 'place_name' => 'Pristina',
@@ -11783,7 +12375,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11799,7 +12392,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11833,6 +12427,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '188',
 'place_name' => 'Monastyrski',
@@ -11862,7 +12457,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11878,7 +12474,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11894,13 +12491,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '189',
 'place_name' => 'Pereyaslav',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -11909,7 +12508,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -11925,7 +12525,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11941,7 +12542,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -11957,8 +12559,10 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '190',
 'place_name' => 'Kiev',
@@ -11989,7 +12593,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12005,7 +12610,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12023,11 +12629,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '191',
 'place_name' => 'Halych',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -12036,7 +12643,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12052,7 +12660,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12068,7 +12677,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12084,13 +12694,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '192',
 'place_name' => 'Turov',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -12099,7 +12711,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12115,7 +12728,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12131,7 +12745,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12147,13 +12762,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '193',
 'place_name' => 'Tchernigov',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -12162,7 +12779,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12178,7 +12796,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12194,7 +12813,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12212,11 +12832,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '194',
 'place_name' => 'Polotsk',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'prince',
@@ -12225,7 +12846,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12241,7 +12863,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12257,7 +12880,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12273,13 +12897,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '195',
 'place_name' => 'Smolensk',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '20000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -12288,7 +12914,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12304,7 +12931,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12320,7 +12948,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12336,13 +12965,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '196',
 'place_name' => 'Ryazan',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'cheese',
 'feudal' => 'prince',
@@ -12351,7 +12982,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12367,7 +12999,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12383,7 +13016,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12401,11 +13035,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '197',
 'place_name' => 'Moscow',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '15000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -12414,7 +13049,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12446,7 +13082,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12464,11 +13101,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '198',
 'place_name' => 'Pleskov',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '17000',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'prince',
@@ -12477,7 +13115,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12493,7 +13132,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12509,7 +13149,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12525,8 +13166,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '199',
 'place_name' => 'Novgorod',
@@ -12557,7 +13200,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12573,7 +13217,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12589,8 +13234,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '200',
 'place_name' => 'Bolgar',
@@ -12604,7 +13251,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12620,7 +13268,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12636,7 +13285,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12654,11 +13304,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '201',
 'place_name' => 'Vladimir',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -12667,7 +13318,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fur',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12683,14 +13335,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '201',
 'place_name' => 'Suzdal',
 'place_type' => 'city',
-'population' => '600',
+'population' => '900',
 'fortification' => 'burgh',
 'commerce' => 'flax',
 'feudal' => 'baron',
@@ -12699,7 +13352,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12715,8 +13369,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '202',
 'place_name' => 'Vologda',
@@ -12730,7 +13386,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12746,7 +13403,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12780,6 +13438,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '203',
 'place_name' => 'Oryol',
@@ -12793,7 +13452,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12809,7 +13469,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12825,7 +13486,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12841,8 +13503,10 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '204',
 'place_name' => 'Sevsk',
@@ -12856,7 +13520,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12872,7 +13537,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12888,7 +13554,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -12904,13 +13571,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '205',
 'place_name' => 'Atil',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '600000',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
 'feudal' => 'king',
@@ -12919,14 +13588,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '205',
 'place_name' => 'Saraibatu',
 'place_type' => 'castle',
-'population' => '10000',
+'population' => '150000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -12935,14 +13605,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '205',
 'place_name' => 'Saraiberke',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '150000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -12951,7 +13622,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -12967,13 +13639,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '206',
 'place_name' => 'Gurganj',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '150000',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
 'feudal' => 'king',
@@ -12982,14 +13656,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '206',
 'place_name' => 'Khiva',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '60000',
 'fortification' => 'ducal_residence',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -12998,14 +13673,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '206',
 'place_name' => 'Saraidzhuk',
 'place_type' => 'city',
-'population' => '600',
+'population' => '150000',
 'fortification' => 'ducal_residence',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -13014,7 +13690,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13030,8 +13707,10 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '207',
 'place_name' => 'Constantinople',
@@ -13062,7 +13741,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13097,6 +13777,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '208',
 'place_name' => 'Thessaloniki',
@@ -13127,14 +13808,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '208',
 'place_name' => 'Melnik',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'prince',
@@ -13143,7 +13825,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13161,6 +13844,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '209',
 'place_name' => 'Athens',
@@ -13191,14 +13875,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '209',
 'place_name' => 'Thebes',
 'place_type' => 'city',
-'population' => '600',
+'population' => '6000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -13207,14 +13892,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '209',
 'place_name' => 'Larissa',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -13223,13 +13909,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '210',
 'place_name' => 'Mystras',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'prince',
@@ -13238,7 +13926,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13254,7 +13943,8 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13289,11 +13979,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '211',
 'place_name' => 'Arta',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'cheese',
 'feudal' => 'prince',
@@ -13302,7 +13993,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'woad',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13318,14 +14010,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '211',
 'place_name' => 'Ioannina',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -13334,7 +14027,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13350,13 +14044,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '212',
 'place_name' => 'Kruja',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'honey',
 'feudal' => 'prince',
@@ -13365,7 +14061,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13381,14 +14078,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '212',
 'place_name' => 'Ohrid',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
 'feudal' => 'baron',
@@ -13397,7 +14095,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13415,6 +14114,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '213',
 'place_name' => 'Kastoria',
@@ -13428,7 +14128,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13444,7 +14145,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13460,7 +14162,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fur',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13478,6 +14181,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '214',
 'place_name' => 'Iraklion',
@@ -13491,7 +14195,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'saffron',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13507,7 +14212,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13523,7 +14229,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'saffron',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13539,13 +14246,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '215',
 'place_name' => 'Smyrna',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '9000',
 'fortification' => 'royal_court',
 'commerce' => 'cheese',
 'feudal' => 'prince',
@@ -13554,7 +14263,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13570,7 +14280,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13604,11 +14315,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+
 DB::table('places')->insert([
 'region' => '216',
 'place_name' => 'Tralles',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'prince',
@@ -13617,14 +14329,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '216',
 'place_name' => 'Miletus',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -13633,14 +14346,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '216',
 'place_name' => 'Efese',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -13649,14 +14363,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '216',
 'place_name' => 'Sardes',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -13665,13 +14380,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '217',
 'place_name' => 'Nicaea',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '5000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'prince',
@@ -13680,7 +14397,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'glasswork',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13696,14 +14414,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '217',
 'place_name' => 'Bursa',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '45000',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
 'feudal' => 'prince',
@@ -13712,14 +14431,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'cooper',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '217',
 'place_name' => 'Pergamum',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -13728,13 +14448,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '218',
 'place_name' => 'Ikonion',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'prince',
@@ -13743,14 +14465,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '218',
 'place_name' => 'Mistheia',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -13759,14 +14482,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '218',
 'place_name' => 'Laranda',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -13775,7 +14499,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'armorer',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13791,13 +14516,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '219',
 'place_name' => 'Coracesium',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'fruit',
 'feudal' => 'prince',
@@ -13806,14 +14533,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '219',
 'place_name' => 'Rhodos',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'duke',
@@ -13822,14 +14550,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '219',
 'place_name' => 'Attalia',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -13838,7 +14567,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13854,13 +14584,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '220',
 'place_name' => 'Ancyra',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'prince',
@@ -13869,7 +14601,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13885,7 +14618,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13901,7 +14635,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13917,13 +14652,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '221',
 'place_name' => 'Sinope',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '5000',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'prince',
@@ -13932,7 +14669,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -13948,7 +14686,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13964,7 +14703,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -13980,13 +14720,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '222',
 'place_name' => 'Tarsus',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '1600',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -13995,7 +14737,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'potterer',
 'arms' => 'shipyard',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14011,14 +14754,15 @@ DB::table('places')->insert([
 'monastic' => 'teutonic',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '222',
 'place_name' => 'Nicosia',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'baron',
@@ -14027,7 +14771,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14043,8 +14788,10 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'mint',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '223',
 'place_name' => 'Caesarea',
@@ -14058,7 +14805,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'leather',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14074,7 +14822,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14090,7 +14839,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14106,13 +14856,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '224',
 'place_name' => 'Trebizond',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'burgh',
 'commerce' => 'silver',
 'feudal' => 'grand_duke',
@@ -14121,7 +14873,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14137,7 +14890,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14153,7 +14907,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14169,13 +14924,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '225',
 'place_name' => 'Edessa',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '25000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -14184,7 +14941,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14200,14 +14958,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'glasswork',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '225',
 'place_name' => 'Amouda',
 'place_type' => 'city',
-'population' => '120',
+'population' => '320',
 'fortification' => 'mountain_castle',
 'commerce' => 'fruit',
 'feudal' => 'baron',
@@ -14216,14 +14975,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '225',
 'place_name' => 'Antep',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '420',
 'fortification' => 'mountain_castle',
 'commerce' => 'cheese',
 'feudal' => 'lord',
@@ -14232,13 +14992,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '226',
 'place_name' => 'Amasia',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -14247,7 +15009,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'smithy',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14263,7 +15026,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14279,7 +15043,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14295,13 +15060,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '227',
 'place_name' => 'Diyarbakir',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'iron',
 'feudal' => 'prince',
@@ -14310,7 +15077,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14326,14 +15094,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '227',
 'place_name' => 'Erzincan',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'silver',
 'feudal' => 'prince',
@@ -14342,7 +15111,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14358,13 +15128,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '228',
 'place_name' => 'Sivas',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'royal_court',
 'commerce' => 'silk',
 'feudal' => 'prince',
@@ -14373,7 +15145,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14389,7 +15162,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14405,7 +15179,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14421,8 +15196,10 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '229',
 'place_name' => 'Batumi',
@@ -14436,7 +15213,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14452,7 +15230,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14468,14 +15247,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '229',
 'place_name' => 'Kutais',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'knight',
@@ -14484,13 +15264,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '230',
 'place_name' => 'Tiflis',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '120000',
 'fortification' => 'royal_court',
 'commerce' => 'iron',
 'feudal' => 'king',
@@ -14499,7 +15281,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'armorer',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14515,7 +15298,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14531,7 +15315,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14549,11 +15334,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '231',
 'place_name' => 'Derbent',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -14562,7 +15348,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14578,7 +15365,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14594,7 +15382,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14610,13 +15399,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '232',
 'place_name' => 'Ani',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '120000',
 'fortification' => 'royal_court',
 'commerce' => 'cheese',
 'feudal' => 'king',
@@ -14625,14 +15416,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '232',
 'place_name' => 'Yerevan',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -14641,14 +15433,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '232',
 'place_name' => 'Ghars',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -14657,7 +15450,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14675,11 +15469,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '233',
 'place_name' => 'Nakhichevan',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2800',
 'fortification' => 'royal_court',
 'commerce' => 'flax',
 'feudal' => 'prince',
@@ -14688,7 +15483,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14704,14 +15500,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '233',
 'place_name' => 'Ordubad',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -14720,7 +15517,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14736,8 +15534,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '234',
 'place_name' => 'Tatvan',
@@ -14751,7 +15551,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14767,14 +15568,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'madder',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '234',
 'place_name' => 'Bitlis',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'silver',
 'feudal' => 'prince',
@@ -14783,7 +15585,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14801,11 +15604,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '235',
 'place_name' => 'Mardin',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'prince',
@@ -14814,7 +15618,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14830,14 +15635,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '235',
 'place_name' => 'Cepha',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'royal_court',
 'commerce' => 'wool',
 'feudal' => 'prince',
@@ -14846,7 +15652,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'scriptorium',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14864,6 +15671,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '236',
 'place_name' => 'Van',
@@ -14877,7 +15685,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14893,7 +15702,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14909,7 +15719,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14925,13 +15736,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '237',
 'place_name' => 'Nishapur',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '125000',
 'fortification' => 'chancery',
 'commerce' => 'sapphire',
 'feudal' => 'count',
@@ -14940,7 +15753,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -14956,7 +15770,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fuller',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -14972,14 +15787,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '237',
 'place_name' => 'Konjikala',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -14988,13 +15804,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '238',
 'place_name' => 'Kashmar',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -15003,14 +15821,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '238',
 'place_name' => 'Gonabad',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -15019,7 +15838,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'saffron',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15035,14 +15855,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '238',
 'place_name' => 'Birjand',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -15051,8 +15872,10 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'saffron',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '239',
 'place_name' => 'Kerman',
@@ -15066,7 +15889,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15082,7 +15906,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15098,7 +15923,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15114,13 +15940,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '240',
 'place_name' => 'Shiraz',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'wine',
 'feudal' => 'king',
@@ -15129,7 +15957,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15145,14 +15974,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '240',
 'place_name' => 'Hormuz',
 'place_type' => 'city',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'royal_court',
 'commerce' => 'iron',
 'feudal' => 'prince',
@@ -15161,7 +15991,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15177,13 +16008,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '241',
 'place_name' => 'Isfahan',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '19000',
 'fortification' => 'royal_court',
 'commerce' => 'dates',
 'feudal' => 'prince',
@@ -15192,7 +16025,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'tailor',
 'arms' => 'armorer',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15208,7 +16042,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15224,7 +16059,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15240,13 +16076,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '242',
 'place_name' => 'Rhages',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -15255,14 +16093,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '242',
 'place_name' => 'Kashan',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -15271,14 +16110,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '242',
 'place_name' => 'Ghom',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '3000',
 'fortification' => 'burgh',
 'commerce' => 'silver',
 'feudal' => 'count',
@@ -15287,7 +16127,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15303,13 +16144,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '243',
 'place_name' => 'Astarabad',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -15318,7 +16161,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15334,14 +16178,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'scriptorium',
 'arms' => 'smithy',
-'education' => 'library'
+'education' => 'library',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '243',
 'place_name' => 'Amol',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'fruit',
 'feudal' => 'count',
@@ -15350,14 +16195,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '243',
 'place_name' => 'Rasht',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -15366,13 +16212,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '244',
 'place_name' => 'Tabriz',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '60000',
 'fortification' => 'burgh',
 'commerce' => 'cheese',
 'feudal' => 'count',
@@ -15381,7 +16229,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'library'
+'education' => 'library',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15397,14 +16246,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '244',
 'place_name' => 'Zanjan',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'silver',
 'feudal' => 'count',
@@ -15413,14 +16263,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '244',
 'place_name' => 'Ardabil',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'silk',
 'feudal' => 'count',
@@ -15429,13 +16280,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '245',
 'place_name' => 'Hamadan',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'wool',
 'feudal' => 'count',
@@ -15444,7 +16297,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15460,7 +16314,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15476,7 +16331,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15492,13 +16348,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '246',
 'place_name' => 'Hajr',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2400',
 'fortification' => 'royal_court',
 'commerce' => 'gold',
 'feudal' => 'prince',
@@ -15507,7 +16365,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fuller',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15523,7 +16382,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15539,7 +16399,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15555,13 +16416,15 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '247',
 'place_name' => 'Mecca',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'dates',
 'feudal' => 'prince',
@@ -15570,7 +16433,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15586,14 +16450,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '247',
 'place_name' => 'Jeddah',
 'place_type' => 'city',
-'population' => '600',
+'population' => '3000',
 'fortification' => 'burgh',
 'commerce' => 'dates',
 'feudal' => 'count',
@@ -15602,14 +16467,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '247',
 'place_name' => 'Medina',
 'place_type' => 'abbey',
-'population' => '120',
+'population' => '5000',
 'fortification' => 'chancery',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -15618,8 +16484,10 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'mint',
 'arms' => 'none',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '248',
 'place_name' => 'Dedan',
@@ -15633,7 +16501,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15649,7 +16518,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15665,7 +16535,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15681,13 +16552,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '249',
 'place_name' => 'Jerusalem',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '20000',
 'fortification' => 'royal_court',
 'commerce' => 'grain',
 'feudal' => 'king',
@@ -15696,14 +16569,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '249',
 'place_name' => 'Ascalon',
 'place_type' => 'castle',
-'population' => '120',
+'population' => '520',
 'fortification' => 'mountain_castle',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -15712,14 +16586,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '249',
 'place_name' => 'Hebron',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -15728,14 +16603,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '249',
 'place_name' => 'Jaffa',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -15744,13 +16620,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'windmill',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '250',
 'place_name' => 'Acre',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'mountain_castle',
 'commerce' => 'sugar',
 'feudal' => 'duke',
@@ -15759,7 +16637,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15798,7 +16677,7 @@ DB::table('places')->insert([
 'region' => '250',
 'place_name' => 'Tyre',
 'place_type' => 'abbey',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -15807,8 +16686,10 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'glasswork',
 'arms' => 'shipyard',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '251',
 'place_name' => 'Bosra',
@@ -15822,7 +16703,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'vintner',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15838,7 +16720,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'mint',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15854,7 +16737,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15870,13 +16754,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '252',
 'place_name' => 'Damascus',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '60000',
 'fortification' => 'royal_court',
 'commerce' => 'dates',
 'feudal' => 'king',
@@ -15885,7 +16771,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'hospice'
+'education' => 'hospice',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15901,7 +16788,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15935,11 +16823,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '253',
 'place_name' => 'Homs',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2600',
 'fortification' => 'burgh',
 'commerce' => 'wine',
 'feudal' => 'count',
@@ -15948,7 +16837,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -15964,7 +16854,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -15998,11 +16889,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'university'
 ]);
+
 DB::table('places')->insert([
 'region' => '254',
 'place_name' => 'Tripoli',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -16011,7 +16903,8 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'tailor',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16027,14 +16920,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'windmill',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '254',
 'place_name' => 'Beirut',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -16043,7 +16937,8 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'woad',
 'arms' => 'shipyard',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16059,13 +16954,15 @@ DB::table('places')->insert([
 'monastic' => 'hospitaller',
 'factory' => 'leather',
 'arms' => 'armorer',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '255',
 'place_name' => 'Antioch',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '40000',
 'fortification' => 'royal_court',
 'commerce' => 'olive_oil',
 'feudal' => 'prince',
@@ -16074,14 +16971,15 @@ DB::table('places')->insert([
 'monastic' => 'templar',
 'factory' => 'mint',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '255',
 'place_name' => 'Alexandretta',
 'place_type' => 'castle',
-'population' => '600',
+'population' => '3600',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -16090,7 +16988,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fishery',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16106,7 +17005,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -16124,11 +17024,12 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+
 DB::table('places')->insert([
 'region' => '256',
 'place_name' => 'Aleppo',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '72000',
 'fortification' => 'burgh',
 'commerce' => 'olive_oil',
 'feudal' => 'count',
@@ -16137,7 +17038,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'soapmaker',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16153,7 +17055,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -16169,7 +17072,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -16185,13 +17089,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '257',
 'place_name' => 'Raqqa',
 'place_type' => 'capital',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -16200,7 +17106,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16216,14 +17123,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '257',
 'place_name' => 'Rhesaina',
 'place_type' => 'city',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -16232,7 +17140,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16248,13 +17157,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '258',
 'place_name' => 'Erbil',
 'place_type' => 'capital',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -16263,7 +17174,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16279,7 +17191,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'smithy',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -16295,7 +17208,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'woad',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -16311,13 +17225,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'fuller',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
+
 DB::table('places')->insert([
 'region' => '259',
 'place_name' => 'Baghdad',
 'place_type' => 'capital',
-'population' => '10000',
+'population' => '150000',
 'fortification' => 'royal_court',
 'commerce' => 'sugar',
 'feudal' => 'king',
@@ -16326,7 +17242,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'mint',
 'arms' => 'smithy',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
@@ -16342,7 +17259,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
@@ -16358,14 +17276,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '259',
 'place_name' => 'Samarra',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'grain',
 'feudal' => 'count',
@@ -16374,8 +17293,10 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'potterer',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
+
 DB::table('places')->insert([
 'region' => '260',
 'place_name' => 'Samawah',
@@ -16389,14 +17310,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '300'
 ]);
 
 DB::table('places')->insert([
 'region' => '260',
 'place_name' => 'Karbala',
 'place_type' => 'castle',
-'population' => '2000',
+'population' => '4000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -16405,14 +17327,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'granary',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '260',
 'place_name' => 'Kufah',
 'place_type' => 'city',
-'population' => '2000',
+'population' => '5000',
 'fortification' => 'chancery',
 'commerce' => 'dates',
 'feudal' => 'count',
@@ -16421,14 +17344,15 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'scriptorium',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([
 'region' => '260',
 'place_name' => 'Najaf',
 'place_type' => 'abbey',
-'population' => '600',
+'population' => '2000',
 'fortification' => 'burgh',
 'commerce' => 'sugar',
 'feudal' => 'count',
@@ -16437,7 +17361,8 @@ DB::table('places')->insert([
 'monastic' => 'none',
 'factory' => 'tailor',
 'arms' => 'none',
-'education' => 'university'
+'education' => 'university',
+'def' => '700'
 ]);        
     }
 }
