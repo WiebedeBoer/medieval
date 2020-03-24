@@ -77,16 +77,28 @@ class MapController extends Controller
 		12 = empire		
 		*/		
 		
-		$what ="teutonic";
-		$fort ="mountain_castle";
-		$moat ="water_castle";
-		$burgh ="burgh";
-		//$placedata = Place::with('regions')->where('feudal',$what)->orWhere('fortification', $fort)->orWhere('fortification', $moat)->get();
+		$what ="hospice";
+		$ora ="hospice";
+		$orb ="library";
+		$orc ="university";
+		$whera ="";
+		$wherb ="";
+		$wherc ="";
+		//$placedata = Place::with('regions')->where('monastic',$what)->orWhere('education', $ora)->orWhere('education', $orb)->orWhere('education', $orc)->orWhere('monastic', $whera)->orWhere('monastic', $wherb)->orWhere('monastic', $wherc)->get();
+		//$placedata = Place::with('regions')->where('fortification',$what)->orWhere('place_type', $ora)->orWhere('feudal', $orb)->orWhere('feudal', $orc)->get();
+		//$placedata = Place::with('regions')->where('education',$what)->get();
+		$placedata = Place::with('regions')->get();
+		
+		//distinct
+		$fortdata = DB::table('places')->distinct('fortification')->select('fortification')->get();
 		$disdata = DB::table('places')->distinct('church')->select('church')->get();
 		$civdata = DB::table('places')->distinct('civil')->select('civil')->get();
 		$mondata = DB::table('places')->distinct('monastic')->select('monastic')->get();
-		$placedata = Place::with('regions')->where('monastic',$what)->get();
-		return view('map.universities', compact('placedata','disdata','civdata','mondata'));        
+		$fuedata = DB::table('places')->distinct('feudal')->select('feudal')->get();
+		
+		
+		//return
+		return view('map.universities', compact('placedata','disdata','civdata','mondata','fortdata','fuedata'));        
     }
 	
 }

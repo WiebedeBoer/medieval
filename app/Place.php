@@ -10,6 +10,7 @@ class Place extends Model
     protected $table = 'places';
     protected $primaryKey = 'place_id';
 	
+	//fk
     public function regions()
     {
         return $this->belongsTo('App\Region','region');
@@ -44,5 +45,11 @@ class Place extends Model
     {
         return $this->belongsTo('App\User','tenure_owner');
     } 
+	
+	//titles
+    public function titles()
+    {
+        return $this->hasMany('App\Title','place');
+    }
 	
 }

@@ -10,16 +10,12 @@ class Region extends Model
     protected $table = 'regions';
     protected $primaryKey = 'region_id';
 	
+	//fk
     public function cultures()
     {
         return $this->belongsTo('App\Culture','culture');
-    } 
-
-    public function places()
-    {
-        return $this->hasMany('App\Place','region');
-    }
-
+    } 	
+	
 	public function owners()
     {
         return $this->belongsTo('App\User','dynasty_owner');
@@ -53,6 +49,18 @@ class Region extends Model
 	public function tenureowner()
     {
         return $this->belongsTo('App\User','tenure_owner');
-    } 	
+    } 
+
+	//titles
+    public function titles()
+    {
+        return $this->hasMany('App\Title','region');
+    }	
+
+	//places
+    public function places()
+    {
+        return $this->hasMany('App\Place','region');
+    }	
 	
 }

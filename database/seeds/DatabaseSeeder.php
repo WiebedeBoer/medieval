@@ -18,10 +18,23 @@ class DatabaseSeeder extends Seeder
     {
         //foreign keys
 		$this->call('fkeySeeder');
-		//tables
+		//cultures
 		$this->call('CultureSeeder');
+		//regions
 		$this->call('RegionSeeder');
+		//places
 		$this->call('PlaceSeeder');
+		//titles
+		$this->call('RealmTitlesSeeder');
+		$this->call('CourtTitlesSeeder');
+		$this->call('NobleTitlesSeeder');
+		$this->call('ClergyTitlesSeeder');
+		$this->call('CrusaderTitlesSeeder');
+		$this->call('MonasticTitlesSeeder');
+		$this->call('BurgherTitlesSeeder');
+		$this->call('InnTitlesSeeder');
+		$this->call('CommonTitlesSeeder');
+		//titles
 		$this->call('TitleSeeder');
 		//admin user
 		$this->call('userSeeder');
