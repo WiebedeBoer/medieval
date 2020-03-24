@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-<div class="card-body">
+
 
 <!--audio-->
 @if($user->audio ==1)
@@ -24,6 +24,8 @@ Game
 
 <!--image-->
 <div class="container">
+
+<div class="crb">
 @if($religion =="Muslim")
 <a href="/religion/2"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @elseif($religion =="Greek Orthodox")
@@ -35,10 +37,13 @@ Game
 @else
 <a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @endif	
+</div>
 
 
+		<h1>{{ $religion }} Religion</h1>
+</div>
 
-					<h1>{{ $religion }} Religion</h1>
+<div class="container-fluid justify-content-center">
 					
 <!--religion variance-->					
 <div class="py-3">					
@@ -59,7 +64,7 @@ Game
 <div class="py-1">	
 	<h3>Cultures</h3>
 	</div>
-	<div class="d-flex justify-content-center col-md-8 py-3">
+	<div class="d-flex justify-content-center py-3">
 
 	<table class="table-striped tablesorter table">
 	<thead>
@@ -75,59 +80,59 @@ Game
 		<td class="pl"><a href="/culture/{{ $religion_culture->culture_id }}">{{ $religion_culture->culture_name }}</a></td>
 		<td class="pl">
 			@if($religion_culture->chivalry_culture =="Eastern")
-				<img src="{{ asset('img/images/shield_2.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture }}">
+				<img class="tbi" src="{{ asset('img/images/shield_2.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture }}">
 			@elseif($religion_culture->chivalry_culture =="Arabic")
-				<img src="{{ asset('img/images/shield_2.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture }}">
+				<img class="tbi" src="{{ asset('img/images/shield_2.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture }}">
 			@elseif($religion_culture->chivalry_culture =="Nordic")
-				<img src="{{ asset('img/images/shield_1.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture}}">
+				<img class="tbi" src="{{ asset('img/images/shield_1.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture}}">
 			@elseif($religion_culture->chivalry_culture =="Steppe")
-				<img src="{{ asset('img/images/shield_2.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture}}">
+				<img class="tbi" src="{{ asset('img/images/shield_2.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture}}">
 			@else
-				<img src="{{ asset('img/images/shield_1.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture }}">
+				<img class="tbi" src="{{ asset('img/images/shield_1.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->chivalry_culture }}">
 			@endif			
 		</td>		
 		<td class="pl">
 			@if($religion_culture->warrior_culture =="Anglo-Saxon")
-				<img src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Arabic")
-				<img src="{{ asset('img/images/style_moorish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_moorish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Balkan")
-				<img src="{{ asset('img/images/style_byzantine.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_byzantine.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Byzantine")
-				<img src="{{ asset('img/images/style_byzantine.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_byzantine.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Celtic")
-				<img src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Croatian")
-				<img src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Frankish")
-				<img src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="German")
-				<img src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Hungarian")
-				<img src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Italian")
-				<img src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Kievan Rus")
-				<img src="{{ asset('img/images/style_nordic.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_nordic.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Mongol")
-				<img src="{{ asset('img/images/style_mongol.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_mongol.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Polish")
-				<img src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Scandinavian")
-				<img src="{{ asset('img/images/style_nordic.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_nordic.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Spanish")
-				<img src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_frankish.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@elseif($religion_culture->warrior_culture =="Turkish")
-				<img src="{{ asset('img/images/style_mongol.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_mongol.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@else
-				<img src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
+				<img class="tbi" src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="armour" title="{{ $religion_culture->warrior_culture }}">
 			@endif			
 		</td>
 		<td class="pl">		
 			@if($religion_culture->commercial_culture =="Oriental")
-				<img src="{{ asset('img/images/weapon_composite_bow.png') }}" width="48" height="48" alt="merchant" title="{{ $religion_culture->commercial_culture }}">
+				<img class="tbi" src="{{ asset('img/images/weapon_composite_bow.png') }}" width="48" height="48" alt="merchant" title="{{ $religion_culture->commercial_culture }}">
 			@else
-				<img src="{{ asset('img/images/weapon_crossbow.png') }}" width="48" height="48" alt="merchant" title="{{ $religion_culture->commercial_culture }}">
+				<img class="tbi" src="{{ asset('img/images/weapon_crossbow.png') }}" width="48" height="48" alt="merchant" title="{{ $religion_culture->commercial_culture }}">
 			@endif	
 		</td>
 		<td class="pl">		
@@ -146,5 +151,5 @@ Game
 </table>
 </div>
 </div>
-</div>
+
 @endsection

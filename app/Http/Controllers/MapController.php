@@ -60,45 +60,21 @@ class MapController extends Controller
 	
 	public function universities()
     {            
+		$edu ="university";
+		$lib ="library";
+		$regiondata = Region::all();
 		
-		/*
-		title ranks
-		1 = virgate
-		2 = hide
-		3 = tithing
-		4 = parish
-		5 = barony
-		6 = castellany
-		7 = county
-		8 = march
-		9 = duchy
-		10 = grand duchy
-		11 = kingdom
-		12 = empire		
-		*/		
-		
-		$what ="hospice";
-		$ora ="hospice";
-		$orb ="library";
-		$orc ="university";
-		$whera ="";
-		$wherb ="";
-		$wherc ="";
-		//$placedata = Place::with('regions')->where('monastic',$what)->orWhere('education', $ora)->orWhere('education', $orb)->orWhere('education', $orc)->orWhere('monastic', $whera)->orWhere('monastic', $wherb)->orWhere('monastic', $wherc)->get();
-		//$placedata = Place::with('regions')->where('fortification',$what)->orWhere('place_type', $ora)->orWhere('feudal', $orb)->orWhere('feudal', $orc)->get();
-		//$placedata = Place::with('regions')->where('education',$what)->get();
-		$placedata = Place::with('regions')->get();
-		
-		//distinct
-		$fortdata = DB::table('places')->distinct('fortification')->select('fortification')->get();
-		$disdata = DB::table('places')->distinct('church')->select('church')->get();
-		$civdata = DB::table('places')->distinct('civil')->select('civil')->get();
-		$mondata = DB::table('places')->distinct('monastic')->select('monastic')->get();
-		$fuedata = DB::table('places')->distinct('feudal')->select('feudal')->get();
-		
-		
-		//return
-		return view('map.universities', compact('placedata','disdata','civdata','mondata','fortdata','fuedata'));        
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $university_count = Place::where('region', $region_id)->where('education', $edu)->count();				
+			$region->university_count = $university_count;	
+            $library_count = Place::where('region', $region_id)->where('education', $lib)->count();				
+			$region->library_count = $library_count;					
+        }		
+			
+		return view('map.universities', compact('regiondata'));   
+      
     }
 	
 }

@@ -144,6 +144,55 @@ h2.m {
     min-height: 600px;
 }
 
+.wml{
+	display:inline-block;
+	padding: 3px;
+	margin:5px;
+	min-width:200px;
+	height:auto;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius:5px;
+	background-color: #ebd5b3;
+	box-shadow: 3px 3px;	
+}
+
+a.wmlink {
+    color: #636b6f;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;	
+}
+
+/*culture religion*/
+.crb{
+	display:inline-block;
+	padding: 3px;
+	margin:5px;
+	width:auto;
+	height:auto;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius:5px;
+	background-color: #ffffff;
+	box-shadow: 3px 3px;	
+}
+
+/*table image*/
+.tbi {
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius:3px;
+	padding:6px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px;
+}
+
 /*population*/
 td.rimetro {
 	text-align:right;

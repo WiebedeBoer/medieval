@@ -5,133 +5,34 @@ Game
 @section('content')
 					<h1>World Map (View)</h1>
 @include('region.mapmenu')
-
-<div class="wmin py-1">
-@foreach($fortdata as $fort)
-<br>{{ $fort->fortification }}
-@endforeach
-<br>
-@foreach($fuedata as $feudal)
-<br>{{ $feudal->feudal }}
-@endforeach
-<br>
-@foreach($disdata as $church)
-<br>{{ $church->church }}
-@endforeach
-<br>
-@foreach($civdata as $civ)
-<br>{{ $civ->civil }}
-@endforeach
-<br>
-@foreach($mondata as $mon)
-<br>{{ $mon->monastic }}
-@endforeach
-</div>
-
 <div class="wmin">
-@foreach($placedata as $place)
-
-	
-<!--sheriff-->
-@if ($place->feudal =="count" || $place->feudal =="margrave" ||$place->feudal =="duke")
-	<!--
-<br>DB::table('titles')->insert([
-<br>&nbsp;'title_name' => '[sheriff] of {{ $place->place_name }}',
-<br>&nbsp;'region' => '{{ $place->region }}',
-<br>&nbsp;'place' => '{{ $place->place_id }}',
-@if($place->regions->culture ==42)
-<br>&nbsp;'religion' => 'Russian Orthodox',
-@elseif($place->regions->culture ==39 || $place->regions->culture ==40 || $place->regions->culture ==41)
-<br>&nbsp;'religion' => 'Serbian Orthodox',
-@elseif($place->regions->culture ==43 || $place->regions->culture ==44 || $place->regions->culture ==45)
-<br>&nbsp;'religion' => 'Greek Orthodox',
-@elseif($place->regions->culture >=46)
-<br>&nbsp;'religion' => 'Muslim',
-@else
-<br>&nbsp;'religion' => 'Catholic',
-@endif
-<br>&nbsp;'rank' => '7',
-<br>&nbsp;'career' => 'fixed_peasantry'
-<br>]);
-<br>
--->
-<!--bailiff-->
-@elseif ($place->feudal =="baron"  || $place->feudal =="burgrave")
-<!--
-<br>DB::table('titles')->insert([
-<br>&nbsp;'title_name' => '[bailiff] of {{ $place->place_name }}',
-<br>&nbsp;'region' => '{{ $place->region }}',
-<br>&nbsp;'place' => '{{ $place->place_id }}',
-@if($place->regions->culture ==42)
-<br>&nbsp;'religion' => 'Russian Orthodox',
-@elseif($place->regions->culture ==39 || $place->regions->culture ==40 || $place->regions->culture ==41)
-<br>&nbsp;'religion' => 'Serbian Orthodox',
-@elseif($place->regions->culture ==43 || $place->regions->culture ==44 || $place->regions->culture ==45)
-<br>&nbsp;'religion' => 'Greek Orthodox',
-@elseif($place->regions->culture >=46)
-<br>&nbsp;'religion' => 'Muslim',
-@else
-<br>&nbsp;'religion' => 'Catholic',
-@endif
-<br>&nbsp;'rank' => '5',
-<br>&nbsp;'career' => 'fixed_peasantry'
-<br>]);
-<br>
--->
-@else
-	
-<!--mayor-->
-
-@if ($place->population >=600)
-<!--
-<br>DB::table('titles')->insert([
-<br>&nbsp;'title_name' => '[mayor] of {{ $place->place_name }}',
-<br>&nbsp;'region' => '{{ $place->region }}',
-<br>&nbsp;'place' => '{{ $place->place_id }}',
-@if($place->regions->culture ==42)
-<br>&nbsp;'religion' => 'Russian Orthodox',
-@elseif($place->regions->culture ==39 || $place->regions->culture ==40 || $place->regions->culture ==41)
-<br>&nbsp;'religion' => 'Serbian Orthodox',
-@elseif($place->regions->culture ==43 || $place->regions->culture ==44 || $place->regions->culture ==45)
-<br>&nbsp;'religion' => 'Greek Orthodox',
-@elseif($place->regions->culture >=46)
-<br>&nbsp;'religion' => 'Muslim',
-@else
-<br>&nbsp;'religion' => 'Catholic',
-@endif
-<br>&nbsp;'rank' => '4',
-<br>&nbsp;'career' => 'fixed_burgher'
-<br>]);
-<br>
--->
-@else
-<!--reeve-->
-
-<br>DB::table('titles')->insert([
-<br>&nbsp;'title_name' => '[reeve] of {{ $place->place_name }}',
-<br>&nbsp;'region' => '{{ $place->region }}',
-<br>&nbsp;'place' => '{{ $place->place_id }}',
-@if($place->regions->culture ==42)
-<br>&nbsp;'religion' => 'Russian Orthodox',
-@elseif($place->regions->culture ==39 || $place->regions->culture ==40 || $place->regions->culture ==41)
-<br>&nbsp;'religion' => 'Serbian Orthodox',
-@elseif($place->regions->culture ==43 || $place->regions->culture ==44 || $place->regions->culture ==45)
-<br>&nbsp;'religion' => 'Greek Orthodox',
-@elseif($place->regions->culture >=46)
-<br>&nbsp;'religion' => 'Muslim',
-@else
-<br>&nbsp;'religion' => 'Catholic',
-@endif
-<br>&nbsp;'rank' => '4',
-<br>&nbsp;'career' => 'fixed_peasantry'
-<br>]);
-<br>
-
-@endif
-	
-@endif
-
-	
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="3000" height="2516" viewBox="0 0 3000 2516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="map" class="worldmap" zoomAndPan="magnify">
+<g z-index="1">
+<image xlink:href="{{ asset('img/maps/good.png') }}" x="0" y="0" width="auto" height="auto">
+</g>
+@foreach($regiondata as $region)
+	<g z-index="2">
+	@if($region->university_count >=1 && $region->library_count >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->university_count }} universities and {{ $region->library_count }} libaries)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(255,0,0)" stroke-width="2" fill="rgb(255,255,0)" />
+		</a>
+	@elseif($region->university_count >=1 && $region->library_count ==0)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->university_count }} universities)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(192,0,0)" />
+		</a>
+	@elseif($region->university_count ==0 && $region->library_count >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->library_count }} libraries)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,0,255)" />
+		</a>
+	@else
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
+		</a>
+	@endif
+	</g>		
 @endforeach
+</svg>
 </div>
 @endsection

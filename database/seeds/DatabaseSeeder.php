@@ -138,6 +138,7 @@ class userSeeder extends Seeder
 			'name' => 'Wiebe',
 			'email' => 'wiebe81@gmail.com',
 			'password' => '$2y$10$cGxbdYZ84Jd1iBerxc4YcOSSUmu6JeIFc5JhrPe5Fh9MRTQcl3xwO',
+			'audio' => '0',
 			'admin' => '1'
 	]);
 	
