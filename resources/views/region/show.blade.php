@@ -42,8 +42,8 @@ Game
 </div>
 <!--places-->								
 @if($places >=1)
-	<div class="container">
-	<div class="d-flex justify-content-center col-8 py-3">	
+	<div class="container-fluid justify-content-center">
+	<div class="py-3">	
 	<table class="table-striped tablesorter table">
 	<thead>
 	<tr>
@@ -58,14 +58,29 @@ Game
 	<tbody>	
 	@foreach($placedata as $place) 
 	<tr>
-	<td class="pl"><a href="/place/{{ $place->place_id }}">{{ $place->place_name }}</a></td>
+	<td class="plname"><a href="/place/{{ $place->place_id }}">{{ $place->place_name }}</a></td>
 	<td class="pl"><a href="/region/{{ $place->region }}">{{ $place->regions->region_name }}</a></td>
-	<td class="ri">{{ $place->population }}</td>
+	
+	
+	<!--population-->
+	@if ($place->population >=10000)
+		<td class="rimetro">{{ $place->population }}</td>
+	@elseif ($place->population >=2000 && $place->population <10000)
+		<td class="ricity">{{ $place->population }}</td>
+	@elseif ($place->population >=600 && $place->population <2000)
+		<td class="ritown">{{ $place->population }}</td>
+	@elseif ($place->population >=120 && $place->population <600)
+		<td class="rivillage">{{ $place->population }}</td>
+	@else
+		<td class="rihamlet">{{ $place->population }}</td>
+	@endif	
+	
+	<!--fortification-->
 	@if($place->fortification =="mountain_castle")
 		<td class="pl"><img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="fortification" title="castle"></td>
 	@elseif($place->fortification =="water_castle")
 		<td class="pl"><img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="fortification" title="castle"></td>
-	@elseif($place->fortification =="bishop_palace")
+	@elseif($place->fortification =="bishop_palace" || $place->fortification =="papal_palace")
 		<td class="pl"><img src="{{ asset('img/images/misc_incense_burner.png') }}" width="48" height="48" alt="fortification" title="city"></td>
 	@elseif($place->fortification =="abbey_grange")
 		<td class="pl"><img src="{{ asset('img/images/misc_leadlight_window.png') }}" width="48" height="48" alt="fortification" title="abbey"></td>

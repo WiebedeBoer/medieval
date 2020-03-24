@@ -46,7 +46,7 @@ Game
 		<td class="pl"><img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="fortification" title="castle"></td>
 	@elseif($place->fortification =="water_castle")
 		<td class="pl"><img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="fortification" title="castle"></td>
-	@elseif($place->fortification =="bishop_palace")
+	@elseif($place->fortification =="bishop_palace" || $place->fortification =="papal_palace")
 		<td class="pl"><img src="{{ asset('img/images/misc_incense_burner.png') }}" width="48" height="48" alt="fortification" title="city"></td>
 	@elseif($place->fortification =="abbey_grange")
 		<td class="pl"><img src="{{ asset('img/images/misc_leadlight_window.png') }}" width="48" height="48" alt="fortification" title="abbey"></td>

@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Character Statistics</h1>
 					
 <div class="py-5 border-top">
@@ -117,10 +111,4 @@ Manual
 </div>
 </div>
 
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

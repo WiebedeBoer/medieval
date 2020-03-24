@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Character Development</h1>
 					
 <div class="py-5 border-top">
@@ -47,10 +41,5 @@ Manual
 <p>If you don't have any more living characters, nor an heir, a random new main character, supposedly a new distant relative or adopted dynasty member will appear.</p>
 </div>
 </div>
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection

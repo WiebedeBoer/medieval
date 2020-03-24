@@ -36,7 +36,10 @@ Game
 </td>	
 	
 	</tr>
-	<tr><th>Population</th><td class="pl" colspan="3">{{ $placedata->population }}</td></tr>			
+	<tr><th>Population</th><td class="pl" colspan="3">{{ $placedata->population }}</td></tr>	
+
+
+	
 	
 	<tr><th>Fortification</th>
 	@if($placedata->fortification =="mountain_castle")

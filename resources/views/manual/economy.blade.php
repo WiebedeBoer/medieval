@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Settlements Economy</h1>
 					
 
@@ -117,10 +111,5 @@ Manual
 
 </div>
 
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection

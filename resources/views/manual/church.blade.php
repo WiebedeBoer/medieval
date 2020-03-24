@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Church</h1>
 
 <div class="py-5 border-top">
@@ -71,10 +65,5 @@ Manual
 <img src="{{ asset('img/images/misc_incense_burner.png') }}" width="40" height="40" alt="misc">
 <p>Settlers of the clergy or monastic order primarily work on health, culture, piety and science in a vill.</p>
 </div>
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection

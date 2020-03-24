@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Farming</h1>
 <div class="py-5 border-top">
 <h2 class="m"><a name="climate">Climate</a></h2>
@@ -82,10 +76,5 @@ Manual
 </table>
 </div>
 </div>
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection

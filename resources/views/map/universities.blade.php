@@ -30,31 +30,11 @@ Game
 
 <div class="wmin">
 @foreach($placedata as $place)
-<!--mayor-->
-@if ($place->population >=600)
-<br>DB::table('titles')->insert([
-<br>&nbsp;'title_name' => '[lord-mayor] of {{ $place->place_name }}',
-<br>&nbsp;'region' => '{{ $place->region }}',
-<br>&nbsp;'place' => '{{ $place->place_id }}',
-@if($place->regions->culture ==42)
-<br>&nbsp;'religion' => 'Russian Orthodox',
-@elseif($place->regions->culture ==39 || $place->regions->culture ==40 || $place->regions->culture ==41)
-<br>&nbsp;'religion' => 'Serbian Orthodox',
-@elseif($place->regions->culture ==43 || $place->regions->culture ==44 || $place->regions->culture ==45)
-<br>&nbsp;'religion' => 'Greek Orthodox',
-@elseif($place->regions->culture >=46)
-<br>&nbsp;'religion' => 'Muslim',
-@else
-<br>&nbsp;'religion' => 'Catholic',
-@endif
-<br>&nbsp;'rank' => '3',
-<br>&nbsp;'career' => 'fixed_burgher'
-<br>]);
-<br>
-@else
+
 	
 <!--sheriff-->
-@if ($place->feudal =="count")
+@if ($place->feudal =="count" || $place->feudal =="margrave" ||$place->feudal =="duke")
+	<!--
 <br>DB::table('titles')->insert([
 <br>&nbsp;'title_name' => '[sheriff] of {{ $place->place_name }}',
 <br>&nbsp;'region' => '{{ $place->region }}',
@@ -70,12 +50,14 @@ Game
 @else
 <br>&nbsp;'religion' => 'Catholic',
 @endif
-<br>&nbsp;'rank' => '3',
+<br>&nbsp;'rank' => '7',
 <br>&nbsp;'career' => 'fixed_peasantry'
 <br>]);
 <br>
+-->
 <!--bailiff-->
-@elseif ($place->feudal =="baron")
+@elseif ($place->feudal =="baron"  || $place->feudal =="burgrave")
+<!--
 <br>DB::table('titles')->insert([
 <br>&nbsp;'title_name' => '[bailiff] of {{ $place->place_name }}',
 <br>&nbsp;'region' => '{{ $place->region }}',
@@ -91,11 +73,40 @@ Game
 @else
 <br>&nbsp;'religion' => 'Catholic',
 @endif
-<br>&nbsp;'rank' => '3',
+<br>&nbsp;'rank' => '5',
 <br>&nbsp;'career' => 'fixed_peasantry'
 <br>]);
 <br>
+-->
 @else
+	
+<!--mayor-->
+
+@if ($place->population >=600)
+<!--
+<br>DB::table('titles')->insert([
+<br>&nbsp;'title_name' => '[mayor] of {{ $place->place_name }}',
+<br>&nbsp;'region' => '{{ $place->region }}',
+<br>&nbsp;'place' => '{{ $place->place_id }}',
+@if($place->regions->culture ==42)
+<br>&nbsp;'religion' => 'Russian Orthodox',
+@elseif($place->regions->culture ==39 || $place->regions->culture ==40 || $place->regions->culture ==41)
+<br>&nbsp;'religion' => 'Serbian Orthodox',
+@elseif($place->regions->culture ==43 || $place->regions->culture ==44 || $place->regions->culture ==45)
+<br>&nbsp;'religion' => 'Greek Orthodox',
+@elseif($place->regions->culture >=46)
+<br>&nbsp;'religion' => 'Muslim',
+@else
+<br>&nbsp;'religion' => 'Catholic',
+@endif
+<br>&nbsp;'rank' => '4',
+<br>&nbsp;'career' => 'fixed_burgher'
+<br>]);
+<br>
+-->
+@else
+<!--reeve-->
+
 <br>DB::table('titles')->insert([
 <br>&nbsp;'title_name' => '[reeve] of {{ $place->place_name }}',
 <br>&nbsp;'region' => '{{ $place->region }}',
@@ -111,17 +122,14 @@ Game
 @else
 <br>&nbsp;'religion' => 'Catholic',
 @endif
-<br>&nbsp;'rank' => '3',
+<br>&nbsp;'rank' => '4',
 <br>&nbsp;'career' => 'fixed_peasantry'
 <br>]);
-<br>	
-@endif
+<br>
 
+@endif
 	
 @endif
-
-
-
 
 	
 @endforeach

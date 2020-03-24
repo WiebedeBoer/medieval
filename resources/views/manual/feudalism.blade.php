@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Feudalism</h1>
 
 <div class="py-5 border-top">
@@ -231,10 +225,4 @@ Manual
 <p>Some characters with particular titles can be made members of a court. These courtiers make information available and assist in the developmenbt of the manorial economy.</p>
 </div>	
 
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

@@ -8,7 +8,8 @@
 					<a href="/terms">Terms &amp; Conditions</a>
 					<a href="/privacy">Privacy Policy</a>
                 </div>		
-			<div class="footer-copyright text-center py-3">&copy; {{ date('Y') }} Wiebe de Boer</div>
+				<div class="footer-copyright text-center py-3">&copy; {{ date('Y') }} Wiebe de Boer</div>				
+			</div>
 		</div>
 	</div>
 </footer>	

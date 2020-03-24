@@ -96,17 +96,18 @@
             @include('manual.submenu')
         </main>		
 		<!--content-->
-        <main class="py-4">
-            @yield('content')
+        <main class="p-4">
+            <div class="card">
+                <div class="card-header">Manual</div>	
+				<div class="card-body">	
+					@yield('content')
+				</div>
+            </div>
         </main>
         <main class="py-4">
-            @include('manual.submenu')
-        </main>		
-		
+            @include('manual.submenu')		
+        </main>			
 		@include('layouts.footer')
     </div>
-	
-	
-	
 </body>
 </html>

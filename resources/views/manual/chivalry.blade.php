@@ -3,13 +3,7 @@
 Manual
 @endsection
 @section('content')
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Manual</div>
-                <div class="card-body">
-					<div class="container">
+
 					<h1>Chivalry</h1>
 					
 <div class="py-5 border-top">
@@ -35,10 +29,5 @@ Manual
 <p>Settlers of the gentry class are suitable for the recruitment of cavalry units and primarily work on creating armies.</p>
 <p>Gentry protect the vill. A few types of gentry settlers are limited to a culture. The appearance of other gentry is specific to a culture.</p>
 </div>
-					</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 @endsection
