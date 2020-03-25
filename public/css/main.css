@@ -194,6 +194,50 @@ a.wmlink {
 	box-shadow: 3px 3px;	
 }
 
+/*dynasty crests*/
+.crest{
+	position:relative;
+	width:100px;
+	height:100px;
+	margin:8px;
+}
+
+.crestup {
+	position:absolute;
+	width:100px;
+	height:100px;	
+}
+
+.crestlow {
+	position:absolute;
+	width:100px;
+	height:100px;	
+}
+
+.crestback{
+	position:relative;
+	left: 0px;
+	top: 0px;
+	z-index:3;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-bottom-right-radius: 45px 40px;
+	border-bottom-left-radius: 45px 40px;
+}
+
+.crestemblem {
+	position:relative;
+	left: 0px;
+	top: 0px;
+	z-index:5;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-bottom-right-radius: 45px 40px;
+	border-bottom-left-radius: 45px 40px;
+}
+
 /*culture religion*/
 .crb{
 	display:inline-block;

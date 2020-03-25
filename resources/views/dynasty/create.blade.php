@@ -35,12 +35,42 @@ Game
 </div>
 
 <!--description-->
-<div class="dscription">
+<div class="description">
 <h3>Description</h3>
 <div class="input-group">
 <textarea id="dynasty_description" name="dynasty_description" rows="4" cols="50">{{ old('dynasty_description')  ?? $dynasty->dynasty_description }}</textarea>
 </div>
 <div>{{$errors->first('dynasty_description')}}</div>
+</div>
+
+<!--crest-->
+<div class="armorial">
+<h3>Crest:</h3>
+<div class="crest">
+<!--crest back-->
+<div class="crestlow">
+<img src="{{ asset('img/crests/crest_emblems/gold_eagle.png') }}" width="100" height="100" alt="crest" class="crestemblem">
+</div>
+<!--cest emblem-->
+<div class="crestup">
+<img src="{{ asset('img/crests/crest_backs/back_ochre.png') }}" width="100" height="100" alt="crest" class="crestback">
+</div>
+
+</div>
+
+<div class="input-group py-1">
+<div class="text-center">
+<a href="/dynasty/create?color=previouscolor&emblem=last">&#8592;</a> Color <a href="/dynasty/create?color=nextcolor&emblem=first">&#8594;</a>
+</div>
+</div>
+<div></div>
+<div class="input-group  py-1">
+<div class="text-center">
+<a href="/dynasty/create?color=this&emblem=previous">&#8592;</a> Emblem <a href="/dynasty/create?color=this&emblem=next">&#8594;</a>
+</div>
+</div>
+<div></div>
+
 </div>
 
 <input type="submit" value="create dynasty" class="btn btn-primary">

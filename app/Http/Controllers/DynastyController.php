@@ -122,10 +122,28 @@ class DynastyController extends Controller
     public function create()
     {      
         $ownercount = $this->ownercount();
+		//not allowed
 		if ($ownercount >=1){
 			return redirect('/home')->with('message', 'Not allowed');
 		}
+		//create allowed
 		else {
+			//armorials array
+			//back colors
+			$back_colors = array
+			(
+			"black"=>"back_black", 
+			"blue_dark"=>"back_darkblue", 
+			"yellow"=>"back_gold", 
+			"green"=>"back_green", 
+			"blue_light"=>"back_greyblue", 
+			"white"=>"back_greylight", 
+			"red"=>"back_ochre", 
+			"purple"=>"back_purple"
+			);
+			//available color per backs
+			//emblems per color
+			//new dynasty
 			$dynasty = new Dynasty();
 			$place = Place::all();
 			$region = Region::all();
