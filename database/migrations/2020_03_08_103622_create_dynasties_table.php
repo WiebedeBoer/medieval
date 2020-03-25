@@ -18,6 +18,9 @@ class CreateDynastiesTable extends Migration
 			$table->unsignedBigInteger('dynasty_owner');
 			$table->unsignedBigInteger('culture')->default(0);
 			$table->string('dynasty_name');
+			$table->string('crest_back')->default('black');
+			$table->string('crest_emblem')->default('greylight_vh');
+			$table->string('crest_shape')->default('shield');
 			$table->text('dynasty_description')->nullable();
             $table->timestamps();
         });
