@@ -20,7 +20,9 @@ Game
 @method('PATCH')
 <div class="col-sm-3">
 <div class="form-group">
-<h3>Music:</h3> <select name="audio" class="selectpicker form-control">
+
+<h3>Music:</h3> <img src="{{ asset('img/images/trumpet.png') }}" class="tbi" width="48" height="48" alt="audio" title="audio">
+<select name="audio" class="selectpicker form-control">
 <optgroup label="music">
     <option value="1" {{ $userdata->audio ==1 ? 'selected' : '' }}>on</option>
     <option value="0" {{ $userdata->audio ==0 ? 'selected' : '' }}>off</option>
