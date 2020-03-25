@@ -55,6 +55,7 @@ Manual
 </div>
 <div class="py-3">
 <h3>Medicine</h3>
+<img src="{{ asset('img/images/asclepius.png') }}" width="40" height="40" alt="misc">
 <p>A character with the medicine skill has a greater ability to heal soldiers and other characters.</p>
 </div>
 </div>

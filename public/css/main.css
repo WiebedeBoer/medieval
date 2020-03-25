@@ -158,6 +158,20 @@ h2.m {
 	box-shadow: 3px 3px;	
 }
 
+.wmli{
+	display:inline-block;
+	padding: 3px;
+	margin:5px;
+	min-width:200px;
+	height:auto;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius:5px;
+	background-color: #ffffff;
+	box-shadow: 3px 3px;	
+}
+
 a.wmlink {
     color: #636b6f;
     font-size: 1.5em;
@@ -165,6 +179,19 @@ a.wmlink {
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;	
+}
+
+.plw{
+	padding: 3px;
+	margin:5px;
+	min-width:200px;
+	height:auto;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius:5px;
+	background-color: #ffffff;
+	box-shadow: 3px 3px;	
 }
 
 /*culture religion*/
