@@ -14,6 +14,9 @@ Game
 						<h1>{{ $userdata->name }}</h1>
 						<div class="py-3"><div class="col-sm-3"><h3>Name:</h3> {{ $userdata->name }}</div></div>
 						<div class="py-3"><div class="col-sm-3"><h3>Email:</h3> {{ $userdata->email }}</div></div>
+						@if($dynastycount ==1)
+							<div class="py-3"><div class="col-sm-3"><h3>Dynasty:</h3> <a href="/dynasty/{{$dynastydata->dynasty_id}}">{{$dynastydata->dynasty_name}}</a></div></div>
+						@endif
 						<div class="py-3">
 						
 <form method="POST" action="/users/{{$userdata->id}}" enctype="multipart/form-data" class="pb-3">

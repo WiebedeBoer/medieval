@@ -238,6 +238,29 @@ a.wmlink {
 	border-bottom-left-radius: 45px 40px;
 }
 
+.crestbackround{
+	position:relative;
+	left: 0px;
+	top: 0px;
+	z-index:3;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius: 50px;
+}
+
+.crestemblemround {
+	position:relative;
+	left: 0px;
+	top: 0px;
+	z-index:5;
+	border-width:2px;
+	border-style:solid;
+	border-color:#636b6f;
+	border-radius: 50px;
+
+}
+
 /*culture religion*/
 .crb{
 	display:inline-block;

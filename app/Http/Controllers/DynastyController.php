@@ -133,6 +133,7 @@ class DynastyController extends Controller
 			//fetch
 			$color = $request->query('color');
 			$emblem = $request->query('emblem');
+			$shape = $request->query('shape');
 			//back colors
 			$back_colors = $this->back_colors();
 			//color key
@@ -211,7 +212,7 @@ class DynastyController extends Controller
 			$region = Region::all();
 			$culture = Culture::orderBy('culture_name', 'ASC')->get();
 			$users = User::all();   
-			return view('dynasty.create', compact('color_keys','emblem_keys','emblen_no','nextcolor','dynasty','place','region','culture','users','color','nextcolor','prevcolor','emblem','nextemblem','prevemblem','firstemblem','lastemblem'));    			
+			return view('dynasty.create', compact('shape','dynasty','place','region','culture','users','color','nextcolor','prevcolor','emblem','nextemblem','prevemblem','firstemblem','lastemblem'));    			
 		}
     
     }
@@ -239,144 +240,144 @@ class DynastyController extends Controller
 		if($color_keys ==1){
 			$available_emblems = array(
 			//red
-			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_dragon"=>"ochre_dragon","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
 			//gold
-			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",			
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_grains"=>"gold_grains","gold_harp"=>"gold_harp","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",			
 			//white
-			"greylight_bear"=>"greylight_bear","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			"greylight_bear"=>"greylight_bear","greylight_clover"=>"greylight_clover","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_swan"=>"greylight_swan","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
 			);
 		}
 		//gold
 		elseif($color_keys ==2){
 			$available_emblems = array(
 			//black
-			"black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
+			"black_axe"=>"black_axe","black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_dragon"=>"black_dragon","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_gate"=>"black_gate","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_raven"=>"black_raven","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
 			//red
-			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_dragon"=>"ochre_dragon","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
 			//brown
-			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_deer"=>"brown_deer","brown_hare"=>"brown_hare","brown_horse"=>"brown_horse",
 			//dark grey
-			"greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
+			"greydark_axe"=>"greydark_axe","greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
 			//light blue
 			"greyblue_cross"=>"greyblue_cross","greyblue_db1"=>"greyblue_db1","greyblue_fish"=>"greyblue_fish","greyblue_fleur"=>"greyblue_fleur","greyblue_hb3"=>"greyblue_hb3","greyblue_vb4"=>"greyblue_vb4","greyblue_vh"=>"greyblue_vh",
 			//green
-			"green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
+			"green_clover"=>"green_clover","green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_dragon"=>"green_dragon","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
 			//dark blue
 			"darkblue_cross"=>"darkblue_cross","darkblue_db1"=>"darkblue_db1","darkblue_hb3"=>"darkblue_hb3","darkblue_vb4"=>"darkblue_vb4","darkblue_vh"=>"darkblue_vh",
 			//purple
 			"purple_cross"=>"purple_cross","purple_db1"=>"purple_db1","purple_hb3"=>"purple_hb3","purple_vb4"=>"purple_vb4","purple_vh"=>"purple_vh",
 			//white
-			"greylight_bear"=>"greylight_bear","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			"greylight_bear"=>"greylight_bear","greylight_clover"=>"greylight_clover","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_swan"=>"greylight_swan","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
 			);
 		}
 		//green
 		elseif($color_keys ==3){
 			$available_emblems = array(
 			//black
-			"black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
+			"black_axe"=>"black_axe","black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_dragon"=>"black_dragon","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_gate"=>"black_gate","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_raven"=>"black_raven","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
 			//red
-			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_dragon"=>"ochre_dragon","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
 			//brown
-			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_deer"=>"brown_deer","brown_hare"=>"brown_hare","brown_horse"=>"brown_horse",
 			//dark grey
-			"greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
+			"greydark_axe"=>"greydark_axe","greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
 			//gold
-			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_grains"=>"gold_grains","gold_harp"=>"gold_harp","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
 			//dark blue
 			"darkblue_cross"=>"darkblue_cross","darkblue_db1"=>"darkblue_db1","darkblue_hb3"=>"darkblue_hb3","darkblue_vb4"=>"darkblue_vb4","darkblue_vh"=>"darkblue_vh",
 			//purple
 			"purple_cross"=>"purple_cross","purple_db1"=>"purple_db1","purple_hb3"=>"purple_hb3","purple_vb4"=>"purple_vb4","purple_vh"=>"purple_vh",
 			//white
-			"greylight_bear"=>"greylight_bear","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			"greylight_bear"=>"greylight_bear","greylight_clover"=>"greylight_clover","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_swan"=>"greylight_swan","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
 			);
 		}
 		//light blue
 		elseif($color_keys ==4){
 			$available_emblems = array(
 			//black
-			"black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
+			"black_axe"=>"black_axe","black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_dragon"=>"black_dragon","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_gate"=>"black_gate","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_raven"=>"black_raven","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
 			//red
-			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_dragon"=>"ochre_dragon","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
 			//green
-			"green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
+			"green_clover"=>"green_clover","green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_dragon"=>"green_dragon","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
 			//brown
-			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse"
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_deer"=>"brown_deer","brown_hare"=>"brown_hare","brown_horse"=>"brown_horse"
 			);
 		}
 		//white
 		elseif($color_keys ==5){
 			$available_emblems = array(
 			//black
-			"black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
+			"black_axe"=>"black_axe","black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_dragon"=>"black_dragon","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_gate"=>"black_gate","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_raven"=>"black_raven","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
 			//brown
-			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_deer"=>"brown_deer","brown_hare"=>"brown_hare","brown_horse"=>"brown_horse",
 			//dark grey
-			"greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
+			"greydark_axe"=>"greydark_axe","greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
 			//light blue
 			"greyblue_cross"=>"greyblue_cross","greyblue_db1"=>"greyblue_db1","greyblue_fish"=>"greyblue_fish","greyblue_fleur"=>"greyblue_fleur","greyblue_hb3"=>"greyblue_hb3","greyblue_vb4"=>"greyblue_vb4","greyblue_vh"=>"greyblue_vh",
 			//red
-			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_dragon"=>"ochre_dragon","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
 			//dark blue
 			"darkblue_cross"=>"darkblue_cross","darkblue_db1"=>"darkblue_db1","darkblue_hb3"=>"darkblue_hb3","darkblue_vb4"=>"darkblue_vb4","darkblue_vh"=>"darkblue_vh",
 			//green
-			"green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
+			"green_clover"=>"green_clover","green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_dragon"=>"green_dragon","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
 			//purple
 			"purple_cross"=>"purple_cross","purple_db1"=>"purple_db1","purple_hb3"=>"purple_hb3","purple_vb4"=>"purple_vb4","purple_vh"=>"purple_vh",
 			//gold
-			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh"
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_grains"=>"gold_grains","gold_harp"=>"gold_harp","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh"
 			);
 		}
 		//red
 		elseif($color_keys ==6){
 			$available_emblems = array(
 			//black
-			"black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
+			"black_axe"=>"black_axe","black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_dragon"=>"black_dragon","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_gate"=>"black_gate","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_raven"=>"black_raven","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
 			//brown
-			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_deer"=>"brown_deer","brown_hare"=>"brown_hare","brown_horse"=>"brown_horse",
 			//dark grey
-			"greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
+			"greydark_axe"=>"greydark_axe","greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
 			//gold
-			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_grains"=>"gold_grains","gold_harp"=>"gold_harp","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
 			//green
-			"green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
+			"green_clover"=>"green_clover","green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_dragon"=>"green_dragon","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
 			//dark blue
 			"darkblue_cross"=>"darkblue_cross","darkblue_db1"=>"darkblue_db1","darkblue_hb3"=>"darkblue_hb3","darkblue_vb4"=>"darkblue_vb4","darkblue_vh"=>"darkblue_vh",
 			//white
-			"greylight_bear"=>"greylight_bear","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			"greylight_bear"=>"greylight_bear","greylight_clover"=>"greylight_clover","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_swan"=>"greylight_swan","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
 			);
 		}
 		//purple
 		elseif($color_keys ==7){
 			$available_emblems = array(
 			//black
-			"black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
+			"black_axe"=>"black_axe","black_bear"=>"black_bear","black_boar"=>"black_boar","black_bow"=>"black_bow","black_chalice"=>"black_chalice","black_cross"=>"black_cross","black_crown"=>"black_crown","black_db1"=>"black_db1","black_dragon"=>"black_dragon","black_eagle"=>"black_eagle","black_fish"=>"black_fish","black_fleur"=>"black_fleur","black_gate"=>"black_gate","black_hb3"=>"black_hb3","black_heaume"=>"black_heaume","black_helmet"=>"black_helmet","black_horse"=>"black_horse","black_key"=>"black_key","black_lion"=>"black_lion","black_mitre"=>"black_mitre","black_raven"=>"black_raven","black_ship"=>"black_ship","black_sword"=>"black_sword","black_vb4"=>"black_vb4","black_vh"=>"black_vh",
 			//brown
-			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_deer"=>"brown_deer","brown_hare"=>"brown_hare","brown_horse"=>"brown_horse",
 			//dark grey
-			"greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
+			"greydark_axe"=>"greydark_axe","greydark_heaume"=>"greydark_heaume","greydark_helmet"=>"greydark_helmet","greydark_sword"=>"greydark_sword",
 			//gold
-			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_grains"=>"gold_grains","gold_harp"=>"gold_harp","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
 			//green
-			"green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
+			"green_clover"=>"green_clover","green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_dragon"=>"green_dragon","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
 			//white
-			"greylight_bear"=>"greylight_bear","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			"greylight_bear"=>"greylight_bear","greylight_clover"=>"greylight_clover","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_swan"=>"greylight_swan","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
 			);
 		}
 		//black
 		else {
 			$available_emblems = array(
 			//gold
-			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_grains"=>"gold_grains","gold_harp"=>"gold_harp","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
 			//light blue
 			"greyblue_cross"=>"greyblue_cross","greyblue_db1"=>"greyblue_db1","greyblue_fish"=>"greyblue_fish","greyblue_fleur"=>"greyblue_fleur","greyblue_hb3"=>"greyblue_hb3","greyblue_vb4"=>"greyblue_vb4","greyblue_vh"=>"greyblue_vh",
 			//red
-			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			"ochre_bear"=>"ochre_bear","ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_dragon"=>"ochre_dragon","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
 			//green
-			"green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
+			"green_clover"=>"green_clover","green_cross"=>"green_cross","green_db1"=>"green_db1","green_hb3"=>"green_hb3","green_dragon"=>"green_dragon","green_vb4"=>"green_vb4","green_vh"=>"green_vh",
 			//purple
 			"purple_cross"=>"purple_cross","purple_db1"=>"purple_db1","purple_hb3"=>"purple_hb3","purple_vb4"=>"purple_vb4","purple_vh"=>"purple_vh",
 			//white
-			"greylight_bear"=>"greylight_bear","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			"greylight_bear"=>"greylight_bear","greylight_clover"=>"greylight_clover","greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_swan"=>"greylight_swan","greylight_ship"=>"greylight_ship","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
 			);
 		}
 		//return
@@ -428,7 +429,8 @@ class DynastyController extends Controller
 				'dynasty_name' => 'required|min:3',
 				'dynasty_description' => 'nullable',
 				'crest_back' => 'required',
-				'crest_emblem' => 'required'
+				'crest_emblem' => 'required',
+				'crest_shape' =>'required'
 			]); 	
 			
 			//user id
@@ -443,6 +445,7 @@ class DynastyController extends Controller
 			
 			$dynasty->crest_back = request('crest_back');
 			$dynasty->crest_emblem = request('crest_emblem');
+			$dynasty->crest_shape = request('crest_shape');
 			
 			//fetch
 			$color = $dynasty->crest_back;

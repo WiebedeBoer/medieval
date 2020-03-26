@@ -15,6 +15,16 @@ Game
 <div class="armorial">
 <h3>Crest: </h3> 
 <div class="crest">
+@if($shape =="round")
+<!--crest back-->
+<div class="crestup">
+<img src="{{ asset('img/crests/crest_emblems/'.$emblem.'.png') }}" width="100" height="100" alt="crest" class="crestemblemround">
+</div>
+<!--cest emblem-->
+<div class="crestlow">
+<img src="{{ asset('img/crests/crest_backs/'.$color.'.png') }}" width="100" height="100" alt="crest" class="crestbackround">
+</div>
+@else
 <!--crest back-->
 <div class="crestup">
 <img src="{{ asset('img/crests/crest_emblems/'.$emblem.'.png') }}" width="100" height="100" alt="crest" class="crestemblem">
@@ -22,24 +32,35 @@ Game
 <!--cest emblem-->
 <div class="crestlow">
 <img src="{{ asset('img/crests/crest_backs/'.$color.'.png') }}" width="100" height="100" alt="crest" class="crestback">
+</div>	
+@endif
 </div>
 
-</div>
-
+<!--emblem-->
 <div class="input-group py-1">
 <div class="text-center">
-<a href="/dynasty/create?color={{$prevcolor}}&emblem={{$lastemblem}}">&#8592;</a> Color <a href="/dynasty/create?color={{$nextcolor}}&emblem={{$firstemblem}}">&#8594;</a>
+<a href="/dynasty/create?color={{$prevcolor}}&emblem={{$lastemblem}}&shape={{$shape}}">&#8592;</a> Color <a href="/dynasty/create?color={{$nextcolor}}&emblem={{$firstemblem}}&shape={{$shape}}">&#8594;</a>
 <input type="hidden" name="crest_back" value="{{old('crest_back') ?? $color}}">
 </div>
 </div>
 <div>{{$errors->first('crest_emblem')}}</div>
+<!--back-->
 <div class="input-group  py-1">
 <div class="text-center">
-<a href="/dynasty/create?color={{$color}}&emblem={{$nextemblem}}">&#8592;</a> Emblem <a href="/dynasty/create?color={{$color}}&emblem={{$prevemblem}}">&#8594;</a>
+<a href="/dynasty/create?color={{$color}}&emblem={{$nextemblem}}&shape={{$shape}}">&#8592;</a> Emblem <a href="/dynasty/create?color={{$color}}&emblem={{$prevemblem}}&shape={{$shape}}">&#8594;</a>
 <input type="hidden" name="crest_emblem" value="{{old('crest_emblem') ?? $emblem}}">
 </div>
 </div>
 <div>{{$errors->first('crest_back')}}</div>
+<!--shape-->
+<div class="input-group  py-1">
+<div class="text-center">
+<a href="/dynasty/create?color={{$color}}&emblem={{$emblem}}&shape=shield">Shield</a> Shape <a href="/dynasty/create?color={{$color}}&emblem={{$emblem}}&shape=round">Round</a>
+<input type="hidden" name="crest_shape" value="{{old('crest_shape') ?? $shape}}">
+</div>
+</div>
+<div>{{$errors->first('crest_shape')}}</div>
+
 
 </div>
 
