@@ -11,6 +11,38 @@ Game
 <div class="createform">
 <form method="POST" action="/dynasty" class="pb-3">
 
+<!--crest-->
+<div class="armorial">
+<h3>Crest: </h3> 
+<div class="crest">
+<!--crest back-->
+<div class="crestup">
+<img src="{{ asset('img/crests/crest_emblems/'.$emblem.'.png') }}" width="100" height="100" alt="crest" class="crestemblem">
+</div>
+<!--cest emblem-->
+<div class="crestlow">
+<img src="{{ asset('img/crests/crest_backs/'.$color.'.png') }}" width="100" height="100" alt="crest" class="crestback">
+</div>
+
+</div>
+
+<div class="input-group py-1">
+<div class="text-center">
+<a href="/dynasty/create?color={{$prevcolor}}&emblem={{$lastemblem}}">&#8592;</a> Color <a href="/dynasty/create?color={{$nextcolor}}&emblem={{$firstemblem}}">&#8594;</a>
+<input type="hidden" name="crest_back" value="{{old('crest_back') ?? $color}}">
+</div>
+</div>
+<div>{{$errors->first('crest_emblem')}}</div>
+<div class="input-group  py-1">
+<div class="text-center">
+<a href="/dynasty/create?color={{$color}}&emblem={{$nextemblem}}">&#8592;</a> Emblem <a href="/dynasty/create?color={{$color}}&emblem={{$prevemblem}}">&#8594;</a>
+<input type="hidden" name="crest_emblem" value="{{old('crest_emblem') ?? $emblem}}">
+</div>
+</div>
+<div>{{$errors->first('crest_back')}}</div>
+
+</div>
+
 <!--naam-->
 <div class="general">
 <h3>Dynasty name:</h3>
@@ -43,37 +75,7 @@ Game
 <div>{{$errors->first('dynasty_description')}}</div>
 </div>
 
-<!--crest-->
-<div class="armorial">
-<h3>Crest: </h3> 
-<div class="crest">
-<!--crest back-->
-<div class="crestup">
-<img src="{{ asset('img/crests/crest_emblems/'.$emblem.'.png') }}" width="100" height="100" alt="crest" class="crestemblem">
-</div>
-<!--cest emblem-->
-<div class="crestlow">
-<img src="{{ asset('img/crests/crest_backs/'.$color.'.png') }}" width="100" height="100" alt="crest" class="crestback">
-</div>
 
-</div>
-
-<div class="input-group py-1">
-<div class="text-center">
-<a href="/dynasty/create?color={{$prevcolor}}&emblem={{$lastemblem}}">&#8592;</a> Color <a href="/dynasty/create?color={{$nextcolor}}&emblem={{$firstemblem}}">&#8594;</a>
-<input type="hidden" name="crest_back" value="{{old('crest_back') ?? $color}}">
-</div>
-</div>
-<div>{{$errors->first('crest_emblem')}}</div>
-<div class="input-group  py-1">
-<div class="text-center">
-<a href="/dynasty/create?color={{$color}}&emblem={{$nextemblem}}">&#8592;</a> Emblem <a href="/dynasty/create?color={{$color}}&emblem={{$prevemblem}}">&#8594;</a>
-<input type="hidden" name="crest_emblem" value="{{old('crest_emblem') ?? $emblem}}">
-</div>
-</div>
-<div>{{$errors->first('crest_back')}}</div>
-
-</div>
 
 <input type="submit" value="create dynasty" class="btn btn-primary">
 @csrf

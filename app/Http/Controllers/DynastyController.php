@@ -133,19 +133,8 @@ class DynastyController extends Controller
 			//fetch
 			$color = $request->query('color');
 			$emblem = $request->query('emblem');
-			//armorials array
 			//back colors
-			$back_colors = array
-			(
-			"back_black"=>"back_black", 
-			"back_darkblue"=>"back_darkblue", 
-			"back_gold"=>"back_gold", 
-			"back_green"=>"back_green", 
-			"back_greyblue"=>"back_greyblue", 
-			"back_greylight"=>"back_greylight", 
-			"back_ochre"=>"back_ochre", 
-			"back_purple"=>"back_purple"
-			);
+			$back_colors = $this->back_colors();
 			//color key
 			$color_no = array_search($color, array_keys($back_colors));
 			//check if exist
@@ -226,129 +215,152 @@ class DynastyController extends Controller
 		}
     
     }
-		
+	
+	//back colors
+	public function back_colors()
+	{
+		$back_colors = array(
+			"back_black"=>"back_black", 
+			"back_darkblue"=>"back_darkblue", 
+			"back_gold"=>"back_gold", 
+			"back_green"=>"back_green", 
+			"back_greyblue"=>"back_greyblue", 
+			"back_greylight"=>"back_greylight", 
+			"back_ochre"=>"back_ochre", 
+			"back_purple"=>"back_purple"
+		);	
+		return $back_colors;
+	}
+	
+	//available emblems
+	public function available_emblems($color_keys)
+	{
+		//dark blue
+		if($color_keys ==1){
+			$available_emblems = array(
+			//red
+			"ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			//gold
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",			
+			//white
+			"greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			);
+		}
+		//gold
+		elseif($color_keys ==2){
+			$available_emblems = array(
+			//red
+			"ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			//brown
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			//light blue
+			"greyblue_cross"=>"greyblue_cross","greyblue_db1"=>"greyblue_db1","greyblue_fish"=>"greyblue_fish","greyblue_fleur"=>"greyblue_fleur","greyblue_hb3"=>"greyblue_hb3","greyblue_vb4"=>"greyblue_vb4","greyblue_vh"=>"greyblue_vh",
+			//white
+			"greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			);
+		}
+		//green
+		elseif($color_keys ==3){
+			$available_emblems = array(
+			//red
+			"ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			//brown
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			//gold
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			//white
+			"greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			);
+		}
+		//light blue
+		elseif($color_keys ==4){
+			$available_emblems = array(
+			//red
+			"ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			//brown
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse"
+			);
+		}
+		//white
+		elseif($color_keys ==5){
+			$available_emblems = array(
+			//brown
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			//light blue
+			"greyblue_cross"=>"greyblue_cross","greyblue_db1"=>"greyblue_db1","greyblue_fish"=>"greyblue_fish","greyblue_fleur"=>"greyblue_fleur","greyblue_hb3"=>"greyblue_hb3","greyblue_vb4"=>"greyblue_vb4","greyblue_vh"=>"greyblue_vh",
+			//red
+			"ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			//gold
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh"
+			);
+		}
+		//red
+		elseif($color_keys ==6){
+			$available_emblems = array(
+			//brown
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			//gold
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			//white
+			"greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			);
+		}
+		//purple
+		elseif($color_keys ==7){
+			$available_emblems = array(
+			//brown
+			"brown_boar"=>"brown_boar","brown_chalice"=>"brown_chalice","brown_horse"=>"brown_horse",
+			//gold
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			//white
+			"greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			);
+		}
+		//black
+		else {
+			$available_emblems = array(
+			//gold
+			"gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross","gold_crown"=>"gold_crown","gold_db1"=>"gold_db1","gold_eagle"=>"gold_eagle","gold_fleur"=>"gold_fleur","gold_hb3"=>"gold_hb3","gold_key"=>"gold_key","gold_lion"=>"gold_lion","gold_mitre"=>"gold_mitre","gold_vb4"=>"gold_vb4","gold_vh"=>"gold_vh",
+			//light blue
+			"greyblue_cross"=>"greyblue_cross","greyblue_db1"=>"greyblue_db1","greyblue_fish"=>"greyblue_fish","greyblue_fleur"=>"greyblue_fleur","greyblue_hb3"=>"greyblue_hb3","greyblue_vb4"=>"greyblue_vb4","greyblue_vh"=>"greyblue_vh",
+			//red
+			"ochre_chalice"=>"ochre_chalice","ochre_cross"=>"ochre_cross","ochre_db1"=>"ochre_db1","ochre_fleur"=>"ochre_fleur","ochre_hb3"=>"ochre_hb3","ochre_lion"=>"ochre_lion","ochre_mitre"=>"ochre_mitre","ochre_vb4"=>"ochre_vb4","ochre_vh"=>"ochre_vh",
+			//white
+			"greylight_cross"=>"greylight_cross","greylight_db1"=>"greylight_db1","greylight_fleur"=>"greylight_fleur","greylight_hb3"=>"greylight_hb3","greylight_horse"=>"greylight_horse","greylight_lion"=>"greylight_lion","greylight_mitre"=>"greylight_mitre","greylight_vb4"=>"greylight_vb4","greylight_vh"=>"greylight_vh"
+			);
+		}
+		//return
+		return $available_emblems;
+	}
+	
 	//emblem key picker
 	public function emblemkey($color_keys,$emblem){
 
-			//dark blue
-			if($color_keys ==1){
-				$available_emblems = array("gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//gold
-			elseif($color_keys ==2){
-				$available_emblems = array("brown_boar"=>"brown_boar");
-			}
-			//green
-			elseif($color_keys ==3){
-				$available_emblems = array("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//light blue
-			elseif($color_keys ==4){
-				$available_emblems = array("brown_boar"=>"brown_boar");
-			}
-			//white
-			elseif($color_keys ==5){
-				$available_emblems = array("brown_boar"=>"brown_boar");
-			}
-			//red
-			elseif($color_keys ==6){
-				$available_emblems = array("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//purple
-			elseif($color_keys ==7){
-				$available_emblems = array("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//black
-			else {
-				$available_emblems = array("gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//$color_no = array_search($color, array_keys($back_colors));
-			$emblem_no = array_search($emblem, array_keys($available_emblems));
-			if ($emblem_no ==false){
-				$emblem_keys =999999999;
-			}
-			else {
-				$emblem_keys = $emblem_no;
-			}
-			return $emblem_no;
+		$available_emblems = $this->available_emblems($color_keys);
+		$emblem_no = array_search($emblem, array_keys($available_emblems));
+		if ($emblem_no ==false){
+			$emblem_keys =999999999;
+		}
+		else {
+			$emblem_keys = $emblem_no;
+		}
+		return $emblem_no;
 	}
 	
 	//emblem value picker
 	public function emblemvalue($emblemkey,$color_keys){
-			//dark blue
-			if($color_keys ==1){
-				$available_emblems = array ("gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//gold
-			elseif($color_keys ==2){
-				$available_emblems = array ("brown_boar"=>"brown_boar");
-			}
-			//green
-			elseif($color_keys ==3){
-				$available_emblems = array ("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//light blue
-			elseif($color_keys ==4){
-				$available_emblems = array ("brown_boar"=>"brown_boar");
-			}
-			//white
-			elseif($color_keys ==5){
-				$available_emblems = array ("brown_boar"=>"brown_boar");
-			}
-			//red
-			elseif($color_keys ==6){
-				$available_emblems = array ("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//purple
-			elseif($color_keys ==7){
-				$available_emblems = array ("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//black
-			else {
-				$available_emblems = array ("gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//array keys
-			$e_keys = array_values($available_emblems);			
-			$emblemvalue = $e_keys[$emblemkey]; 
-			return $emblemvalue;
+		$available_emblems = $this->available_emblems($color_keys);
+		//array keys
+		$e_keys = array_values($available_emblems);			
+		$emblemvalue = $e_keys[$emblemkey]; 
+		return $emblemvalue;
 	}	
 	
 	//emblem count
 	public function emblemcount($color_keys){
-			//dark blue
-			if($color_keys ==1){
-				$available_emblems = array ("gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//gold
-			elseif($color_keys ==2){
-				$available_emblems = array ("brown_boar"=>"brown_boar");
-			}
-			//green
-			elseif($color_keys ==3){
-				$available_emblems = array ("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//light blue
-			elseif($color_keys ==4){
-				$available_emblems = array ("brown_boar"=>"brown_boar");
-			}
-			//white
-			elseif($color_keys ==5){
-				$available_emblems = array ("brown_boar"=>"brown_boar");
-			}
-			//red
-			elseif($color_keys ==6){
-				$available_emblems = array ("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//purple
-			elseif($color_keys ==7){
-				$available_emblems = array ("brown_boar"=>"brown_boar","gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			//black
-			else {
-				$available_emblems = array ("gold_chalice"=>"gold_chalice","gold_cross"=>"gold_cross");
-			}
-			$emblem_array_count = count($available_emblems);
-			return $emblem_array_count;
+		$available_emblems = $this->available_emblems($color_keys);
+		$emblem_array_count = count($available_emblems);
+		return $emblem_array_count;
 	}	
 	
 
@@ -387,17 +399,7 @@ class DynastyController extends Controller
 			$emblem = $dynasty->crest_emblem;
 
 			//back colors
-			$back_colors = array
-			(
-			"back_black"=>"back_black", 
-			"back_darkblue"=>"back_darkblue", 
-			"back_gold"=>"back_gold", 
-			"back_green"=>"back_green", 
-			"back_greyblue"=>"back_greyblue", 
-			"back_greylight"=>"back_greylight", 
-			"back_ochre"=>"back_ochre", 
-			"back_purple"=>"back_purple"
-			);
+			$back_colors = $this->back_colors();
 			//checking
 			$color_no = array_search($color, array_keys($back_colors));
 			
