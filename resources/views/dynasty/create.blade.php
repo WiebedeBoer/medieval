@@ -45,31 +45,33 @@ Game
 
 <!--crest-->
 <div class="armorial">
-<h3>Crest:</h3>
+<h3>Crest: </h3> 
 <div class="crest">
 <!--crest back-->
-<div class="crestlow">
-<img src="{{ asset('img/crests/crest_emblems/gold_eagle.png') }}" width="100" height="100" alt="crest" class="crestemblem">
+<div class="crestup">
+<img src="{{ asset('img/crests/crest_emblems/'.$emblem.'.png') }}" width="100" height="100" alt="crest" class="crestemblem">
 </div>
 <!--cest emblem-->
-<div class="crestup">
-<img src="{{ asset('img/crests/crest_backs/back_ochre.png') }}" width="100" height="100" alt="crest" class="crestback">
+<div class="crestlow">
+<img src="{{ asset('img/crests/crest_backs/'.$color.'.png') }}" width="100" height="100" alt="crest" class="crestback">
 </div>
 
 </div>
 
 <div class="input-group py-1">
 <div class="text-center">
-<a href="/dynasty/create?color=previouscolor&emblem=last">&#8592;</a> Color <a href="/dynasty/create?color=nextcolor&emblem=first">&#8594;</a>
+<a href="/dynasty/create?color={{$prevcolor}}&emblem={{$lastemblem}}">&#8592;</a> Color <a href="/dynasty/create?color={{$nextcolor}}&emblem={{$firstemblem}}">&#8594;</a>
+<input type="hidden" name="crest_back" value="{{old('crest_back') ?? $color}}">
 </div>
 </div>
-<div></div>
+<div>{{$errors->first('crest_emblem')}}</div>
 <div class="input-group  py-1">
 <div class="text-center">
-<a href="/dynasty/create?color=this&emblem=previous">&#8592;</a> Emblem <a href="/dynasty/create?color=this&emblem=next">&#8594;</a>
+<a href="/dynasty/create?color={{$color}}&emblem={{$nextemblem}}">&#8592;</a> Emblem <a href="/dynasty/create?color={{$color}}&emblem={{$prevemblem}}">&#8594;</a>
+<input type="hidden" name="crest_emblem" value="{{old('crest_emblem') ?? $emblem}}">
 </div>
 </div>
-<div></div>
+<div>{{$errors->first('crest_back')}}</div>
 
 </div>
 
