@@ -9,7 +9,7 @@ Game
             <div class="card">			
                 <div class="card-header">Game Account</div>
                 <div class="card-body">
-					@include('session')
+					
 					<div class="container">
 						<h1>{{ $userdata->name }}</h1>
 						<div class="py-3"><div class="col-sm-3"><h3>Name:</h3> {{ $userdata->name }}</div></div>
