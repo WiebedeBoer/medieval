@@ -1,0 +1,51 @@
+kleurbalans
+
+neutrals
+select hair
+curves
+x54
+y160
+
+midtones
+magentea-20
+yellow-50
+
+
+cyan -5
+magenta -15
+yellow -55
+
+
+
+
+cyaan -37
+magenta -21
+yellow -13
+black +18
+
+blacks
+cyaan -24
+magenta -21
+yellow -4
+black +28
+
+blonde
+red 250	-5 98% +42 106/255=42
+green 240 -10 94% +62 69/255=27
+blue 190 -55 74% +60 154/255=60
+
+brunette
+144 -111 56% -42
+84 -171 32% -62
+36 -219 14% -60
+
+-95
+-94
+-25
+
+
+106
+156
+154
+
+
