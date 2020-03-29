@@ -17,6 +17,7 @@ class CreatePeopleTable extends Migration
             $table->bigIncrements('person_id');
 			//name
 			$table->string('person_name');
+			$table->string('portrait');
 			//belonging
 			$table->unsignedBigInteger('owner');
 			$table->unsignedBigInteger('dynasty');

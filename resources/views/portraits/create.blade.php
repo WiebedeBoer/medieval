@@ -26,17 +26,11 @@ Game
 @endif
 </div>
 
-<!--hair color-->
-<div class="input-group py-1">
-<div class="text-center">
-<a href="/portraits/create?haircolor={{$prevcolor}}&portrait={{$lastportrait}}&gender={{$gender}}">&#8592;</a> Hair <a href="/portraits/create?color={{$nextcolor}}&portrait={{$firstportrait}}&gender={{$gender}}">&#8594;</a>
-</div>
-</div>
-<div>{{$errors->first('color')}}</div>
+
 <!--portrait-->
 <div class="input-group  py-1">
 <div class="text-center">
-<a href="/portraits/create?haircolor={{$color}}&portrait={{$nextportrait}}&gender={{$gender}}">&#8592;</a> Portrait <a href="/portraits/create?color={{$color}}&portrait={{$prevportrait}}&gender={{$gender}}">&#8594;</a>
+<a href="/portraits/create?portrait={{$nextportrait}}&gender={{$gender}}">&#8592;</a> Portrait <a href="/portraits/create?portrait={{$prevportrait}}&gender={{$gender}}">&#8594;</a>
 <input type="hidden" name="portrait" value="{{old('portrait') ?? $portrait}}">
 </div>
 </div>
@@ -44,7 +38,7 @@ Game
 <!--gender-->
 <div class="input-group  py-1">
 <div class="text-center">
-<a href="/portraits/create?color={{$color}}&portrait={{$portrait}}&gender=male">Male</a> Sex <a href="/portraits/create?color={{$color}}&portrait={{$portrait}}&gender=female">Female</a>
+<a href="/portraits/create?portrait={{$firstmaleportrait}}&gender=male">Male</a> or <a href="/portraits/create?portrait={{$firstfemaleportrait}}&gender=female">Female</a>
 <input type="hidden" name="gender" value="{{old('gender') ?? $gender}}">
 </div>
 </div>
@@ -55,15 +49,20 @@ Game
 
 <!--naam-->
 <div class="general">
-<h3>Person name:</h3>
+<h3>Name:</h3>
 <div class="input-group">
-<input type="text" name="person_name" value="{{old('person_name')}}">
+<select name="person_name">
+<optgroup label="name">
+@foreach($names as $pcname) 
+    <option value="{{ $pcname->person_name }}">{{ $pcname->person_name }}</option>
+@endforeach
+</select>
 </div>
 <div>{{$errors->first('person_name')}}</div>
 </div>
 
 
-<input type="submit" value="create person" class="btn btn-primary">
+<div class="py-1"><input type="submit" value="create person" class="btn btn-primary"></div>
 @csrf
 </form>
 </div>

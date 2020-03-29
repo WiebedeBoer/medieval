@@ -9,22 +9,18 @@ Game
 	<div class="row">
 		<div class="col-12 d-flex justify-content-center py-3">	
 			<div>				
-				<a href="/portraits/create?color=brown&portrait=f001_brown&gender=female" class="btn btn-primary">Create Character</a>
+				<a href="/portraits/create?portrait=f002_brown&gender=female" class="btn btn-primary">Create Character</a>
 			</div>
 		</div>		
 	</div>
 @endif
 
-
-
 	<div class="row">
 		<div class="container">	
-	
 
 	<div class="py-3"><h3>Dynasty:</h3> {{ $dynastydata->dynasty_name }}</div>
 	
 	<div class="py-3"><h3>Culture:</h3><a href="/culture/{{$dynastydata->culture}}">{{ $dynastydata->cultures->culture_name }}</a></div>
-	
 	
 <!--crest-->
 <div class="armorial">

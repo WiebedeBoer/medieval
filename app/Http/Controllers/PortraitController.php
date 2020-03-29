@@ -10,6 +10,7 @@ use App\Dynasty;
 use App\User;
 use App\Culture;
 use App\Person;
+use App\MedievalName;
 
 class PortraitController extends Controller
 {
@@ -37,13 +38,87 @@ class PortraitController extends Controller
 		return $dynasty_count;
 	}
 	
+	//get portrait culture
+	public function portraitculture()
+	{
+		//user id
+		$user = auth()->user();
+		$user_id = $user->id;
+		//dynasty data
+		$dynasty = Dynasty::where('dynasty_owner',$user_id)->firstOrFail();	
+		//culture
+		$manor_culture = $dynasty->cultures->manorial_culture;
+		$region_culture = $dynasty->cultures->warrior_culture;
+		if ($region_culture =="Scandinavian" || $region_culture =="German" || $region_culture =="Anglo-Saxon" || $region_culture =="Celtic" || $region_culture =="Polish" || $region_culture =="Kievan Rus"){
+			$portrait_culture ="Nordic";
+		}
+		else {
+			if ($manor_culture =="Muslim"){
+				$portrait_culture ="Muslim";
+			}
+			else {
+				$portrait_culture ="Catholic";
+			}
+		}
+		return $portrait_culture;
+	}
+	
+	//get naming convention
+	public function namingculture($gender)
+	{
+		//user id
+		$user = auth()->user();
+		$user_id = $user->id;
+		//dynasty data
+		$dynasty = Dynasty::where('dynasty_owner',$user_id)->firstOrFail();	
+		//culture
+		$main_culture = $dynasty->cultures->culture_name;
+		$region_culture = $dynasty->cultures->warrior_culture;
+		
+		if ($region_culture =="Scandinavian"){
+			$naming_culture ="scandinavian";
+		}
+		elseif ($region_culture =="Spanish"){
+			$naming_culture ="iberian";
+		}
+		elseif ($region_culture =="German"){
+			$naming_culture ="german";
+		}
+		elseif ($region_culture =="Italian"){
+			$naming_culture ="italian";
+		}
+		elseif ($region_culture =="Frankish"){
+			$naming_culture ="french";
+		}
+		elseif ($region_culture =="Anglo-Saxon" || $region_culture =="Celtic"){
+			$naming_culture ="british";
+		}
+		elseif ($region_culture =="Hungarian"){
+			$naming_culture ="hungarian";
+		}
+		elseif ($region_culture =="Croatian" || $region_culture =="Polish" || $region_culture =="Kievan Rus" || $region_culture =="Balkan"){
+			$naming_culture ="slavic";
+		}
+		elseif ($region_culture =="Arabic"){
+			$naming_culture ="arabic";
+		}
+		elseif ($region_culture =="Turkish"){
+			$naming_culture ="turkish";
+		}
+		else {
+			$naming_culture ="mongol";
+		}
+
+		$names = MedievalName::where('culture',$naming_culture)->where('gender',$gender)->get();			
+		
+		return $names;
+	}
 	
     //create form
     public function create(Request $request)
     {      
         $charactercount = $this->charactercount();
 		$dynastycount = $this->dynastycount();
-
 		//not allowed
 		if ($charactercount >=4 || $dynastycount <1){
 			return redirect('/home')->with('message', 'Not allowed1');
@@ -54,76 +129,19 @@ class PortraitController extends Controller
 			$color = $request->query('haircolor');
 			$portrait = $request->query('portrait');
 			$gender = $request->query('gender');
-			//user data
-			$user = auth()->user();
-			$user_id = $user->id;			
-			//dynasty data
-			$dynasty = Dynasty::where('dynasty_owner',$user_id)->firstOrFail();
-			//culture
-			$manor_culture = $dynasty->cultures->manorial_culture;
-			$region_culture = $dynasty->cultures->warrior_culture;
-			if ($region_culture =="Scandinavian" || $region_culture =="German" || $region_culture =="Anglo-Saxon" || $region_culture =="Celtic" || $region_culture =="Polish" || $region_culture =="Kievan Rus"){
-				$portrait_culture ="Nordic";
-			}
-			else {
-				if ($manor_culture =="Muslim"){
-					$portrait_culture ="Muslim";
-				}
-				else {
-					$portrait_culture ="Catholic";
-				}
-			}
-
-			
-			//hair colors
-			$hair_colors = $this->hair_colors($portrait_culture,$gender);
-			//color key
-			$color_no = array_search($color, array_keys($hair_colors));
-			//check if exist
-			if ($color_no ==false){
-				$color_keys =0;
-				$color ="dark";
-			}
-			else {
-				$color_keys = $color_no;
-			}
-			$color_array_count = count($hair_colors);
-			$color_key_next = $color_keys + 1;
-			$color_key_prev = $color_keys - 1;
-			//color next 
-			if ($color_key_next ==$color_array_count ){
-				$color_key_next =0;
-			}
-			else {
-				$color_key_next = $color_key_next;
-			}
-			//color previous
-			if ($color_key_prev <0){
-				$color_key_prev = $color_array_count - 1;
-			}
-			else {
-				$color_key_prev = $color_key_prev;
-			}
-			//array keys
-			$a_keys = array_values($hair_colors);
-			//next color
-			$nextcolor = $a_keys[$color_key_next]; 
-			//previous color
-			$prevcolor = $a_keys[$color_key_prev]; 		
+			$portrait_culture = $this->portraitculture();				
 			//portrait key
-			$emblen_no = $this->portraitkey($color_keys,$portrait,$portrait_culture,$gender);
+			$portrait_no = $this->portraitkey($portrait,$portrait_culture,$gender);
 			//check if exist		
-			if (is_int($emblen_no) || $emblen_no ==0){
-				$portrait_keys = $emblen_no;
-				$color = $color;
-				$portrait = $this->portraitvalue($portrait_keys,$color_keys,$portrait_culture,$gender);
+			if (is_int($portrait_no) || $portrait_no ==0){
+				$portrait_keys = $portrait_no;
+				$portrait = $this->portraitvalue($portrait_keys,$portrait_culture,$gender);
 			}
 			else {
-				$color ="dark";
-				$portrait_keys =0;
-				$portrait ="f001_dark";
+				$portrait_keys = 0;
+				$portrait = $this->portraitvalue(0,$portrait_culture,$gender);
 			}
-			$portrait_array_count = $this->portraitcount($color_keys,$portrait_culture,$gender);
+			$portrait_array_count = $this->portraitcount($portrait_culture,$gender);
 			$portrait_key_next = $portrait_keys + 1;
 			$portrait_key_prev = $portrait_keys - 1;
 			//portrait next 
@@ -141,90 +159,24 @@ class PortraitController extends Controller
 				$portrait_key_prev = $portrait_key_prev;
 			}
 			//next portrait
-			$nextportrait = $this->portraitvalue($portrait_key_next,$color_keys,$portrait_culture,$gender);
+			$nextportrait = $this->portraitvalue($portrait_key_next,$portrait_culture,$gender);
 			//previous portrait
-			$prevportrait = $this->portraitvalue($portrait_key_prev,$color_keys,$portrait_culture,$gender);
+			$prevportrait = $this->portraitvalue($portrait_key_prev,$portrait_culture,$gender);
 			//first and last portrait when changing color
-			$firstportrait = $this->portraitvalue(0,$color_key_next,$portrait_culture,$gender);
-			$lastportrait = $this->portraitvalue(0,$color_key_prev,$portrait_culture,$gender); 
-			return view('portraits.create', compact('gender','dynasty','portrait_culture','users','color','nextcolor','prevcolor','portrait','nextportrait','prevportrait','firstportrait','lastportrait'));    			
+			$firstmaleportrait = $this->portraitvalue(0,$portrait_culture,"male");
+			$firstfemaleportrait = $this->portraitvalue(0,$portrait_culture,"female");
+			//naming culture
+			$names = $this->namingculture($gender);
+			return view('portraits.create', compact('gender','dynasty','portrait_culture','users','portrait','nextportrait','prevportrait','firstmaleportrait','firstfemaleportrait','names'));    			
 		}
     
     }
 
-	//hair colors
-	public function hair_colors($portrait_culture,$gender)
-	{
-
-		//arabic
-		if($portrait_culture =="Muslim")
-		{
-			if($gender =="male")
-			{
-				$hair_colors = array(
-					"dark"=>"dark",
-					"brown"=>"brown"
-				);				
-			}
-			else 
-			{
-				$hair_colors = array(
-					"dark"=>"dark", 
-					"brown"=>"brown",
-					"red"=>"red"
-				);				
-			}
-		}
-		//nordic
-		elseif ($portrait_culture =="Nordic") 
-		{
-			if($gender =="female")
-			{
-				$hair_colors = array( 
-					"brown"=>"brown", 
-					"blonde"=>"blonde", 
-					"red"=>"red"
-				);				
-			}
-			else 
-			{
-				$hair_colors = array(
-					"brown"=>"brown", 
-					"blonde"=>"blonde", 
-					"red"=>"red"
-				);			
-			}			
-		}				
-		//southern european
-		else 
-		{
-			if($gender =="female")
-			{
-				$hair_colors = array(
-					"dark"=>"dark", 
-					"brown"=>"brown", 
-					"blonde"=>"blonde", 
-					"red"=>"red"
-				);				
-			}
-			else 
-			{
-				$hair_colors = array(
-					"dark"=>"dark", 
-					"brown"=>"brown", 
-					"blonde"=>"blonde",  
-					"red"=>"red"
-				);			
-			}			
-		}
-
-		return $hair_colors;
-	}
 
 	//portrait key picker
-	public function portraitkey($color_keys,$portrait,$portrait_culture,$gender){
+	public function portraitkey($portrait,$portrait_culture,$gender){
 
-		$available_portraits = $this->available_portraits($color_keys,$portrait_culture,$gender);
+		$available_portraits = $this->available_portraits($portrait_culture,$gender);
 		$portrait_no = array_search($portrait, array_keys($available_portraits));
 		if ($portrait_no ==false){
 			$portrait_keys =999999999;
@@ -236,8 +188,8 @@ class PortraitController extends Controller
 	}
 	
 	//portrait value picker
-	public function portraitvalue($portraitkey,$color_keys,$portrait_culture,$gender){
-		$available_portraits = $this->available_portraits($color_keys,$portrait_culture,$gender);
+	public function portraitvalue($portraitkey,$portrait_culture,$gender){
+		$available_portraits = $this->available_portraits($portrait_culture,$gender);
 		//array keys
 		$e_keys = array_values($available_portraits);			
 		$portraitvalue = $e_keys[$portraitkey]; 
@@ -245,14 +197,14 @@ class PortraitController extends Controller
 	}	
 	
 	//portrait count
-	public function portraitcount($color_keys,$portrait_culture,$gender){
-		$available_portraits = $this->available_portraits($color_keys,$portrait_culture,$gender);
+	public function portraitcount($portrait_culture,$gender){
+		$available_portraits = $this->available_portraits($portrait_culture,$gender);
 		$portrait_array_count = count($available_portraits);
 		return $portrait_array_count;
 	}	
 	
 	//available portraits
-	public function available_portraits($color_keys,$portrait_culture,$gender)
+	public function available_portraits($portrait_culture,$gender)
 	{
 
 		//muslim
@@ -261,47 +213,26 @@ class PortraitController extends Controller
 			//male
 			if($gender =="male")
 			{
-				//dark
-				if($color_keys ==1){
 					$available_portraits = array(
-						"m001_dark"=>"m001_dark","m004_dark"=>"m004_dark","m007_dark"=>"m007_dark","m008_dark"=>"m008_dark","m009_dark"=>"m009_dark"
-					);
-				}
-				//brown
-				elseif($color_keys ==2){
-					$available_portraits = array(
-					"m004_brown"=>"m004_brown","m007_brown"=>"m007_brown"
-					);
-				}
-			
+						//dark
+						"m001_dark"=>"m001_dark","m004_dark"=>"m004_dark","m007_dark"=>"m007_dark","m008_dark"=>"m008_dark","m009_dark"=>"m009_dark",
+						//brown
+						"m004_brown"=>"m004_brown","m007_brown"=>"m007_brown"
+					);		
 			}
 			//female
 			else 
 			{
-				//dark
-				if($color_keys ==1){
 					$available_portraits = array(
-						"f002_dark"=>"f002_dark","f003_dark"=>"f003_dark","f004_dark"=>"f004_dark","f005_dark"=>"f005_dark","f006_dark"=>"f006_dark","f007_dark"=>"f007_dark","f009_dark"=>"f009_dark","f011_dark"=>"f011_dark"
-					);
-				}
-				//brown
-				elseif($color_keys ==2){
-					$available_portraits = array(
-					"f002_brown"=>"f002_brown","f004_brown"=>"f004_brown","f005_brown"=>"f005_brown","f006_brown"=>"f006_brown","f011_brown"=>"f011_brown"
-					);
-				}
-				//blonde
-				elseif($color_keys ==3){
-					$available_portraits = array(
-					"f002_ashblonde"=>"f002_ashblonde","f005_ashblonde"=>"f005_ashblonde","f004_ashblonde"=>"f004_ashblonde","f011_blonde"=>"f011_blonde"
-					);
-				}
-				//red
-				else {
-					$available_portraits = array(
-					"f002_red"=>"f002_red","f003_red"=>"f003_red","f004_red"=>"f004_red","f005_red"=>"f005_red"
-					);
-				}			
+						//dark
+						"f002_dark"=>"f002_dark","f003_dark"=>"f003_dark","f004_dark"=>"f004_dark","f005_dark"=>"f005_dark","f006_dark"=>"f006_dark","f007_dark"=>"f007_dark","f009_dark"=>"f009_dark","f011_dark"=>"f011_dark",
+						//brown
+						"f002_brown"=>"f002_brown","f004_brown"=>"f004_brown","f005_brown"=>"f005_brown","f006_brown"=>"f006_brown","f011_brown"=>"f011_brown",
+						//blonde
+						"f002_ashblonde"=>"f002_ashblonde","f005_ashblonde"=>"f005_ashblonde","f004_ashblonde"=>"f004_ashblonde","f011_blonde"=>"f011_blonde",
+						//red
+						"f002_red"=>"f002_red","f003_red"=>"f003_red","f004_red"=>"f004_red","f005_red"=>"f005_red"
+					);	
 			}
 		}
 		//nordic
@@ -310,47 +241,26 @@ class PortraitController extends Controller
 			//female
 			if($gender =="female")
 			{
-				//brown
-				if($color_keys ==1){
 					$available_portraits = array(
-					"f001_brown"=>"f001_brown","f002_brown"=>"f002_brown","f004_brown"=>"f004_brown","f007_brown"=>"f007_brown","f008_brown"=>"f008_brown","f009_brown"=>"f009_brown","f010_brown"=>"f010_brown","f011_brown"=>"f011_brown","f012_brown"=>"f012_brown"
-					);
-				}
-				//blonde
-				elseif($color_keys ==2){
-					$available_portraits = array(
-					"f002_ashblonde"=>"f002_ashblonde","f004_ashblonde"=>"f004_ashblonde","f005_ashblonde"=>"f005_ashblonde","f008_ashblonde"=>"f008_ashblonde","f009_ashblonde"=>"f009_ashblonde","f001_blonde"=>"f001_blonde","f007_blonde"=>"f007_blonde","f008_blonde"=>"f008_blonde","f010_blonde"=>"f010_blonde","f011_blonde"=>"f011_blonde","f012_blonde"=>"f012_blonde","f008_highblonde"=>"f008_highblonde","f010_highblonde"=>"f010_highblonde"
-					);
-				}
-				//red
-				else {
-					$available_portraits = array(
+					//brown
+					"f001_brown"=>"f001_brown","f002_brown"=>"f002_brown","f004_brown"=>"f004_brown","f007_brown"=>"f007_brown","f008_brown"=>"f008_brown","f009_brown"=>"f009_brown","f010_brown"=>"f010_brown","f011_brown"=>"f011_brown","f012_brown"=>"f012_brown",
+					//blonde
+					"f002_ashblonde"=>"f002_ashblonde","f004_ashblonde"=>"f004_ashblonde","f005_ashblonde"=>"f005_ashblonde","f008_ashblonde"=>"f008_ashblonde","f009_ashblonde"=>"f009_ashblonde","f001_blonde"=>"f001_blonde","f007_blonde"=>"f007_blonde","f008_blonde"=>"f008_blonde","f010_blonde"=>"f010_blonde","f011_blonde"=>"f011_blonde","f012_blonde"=>"f012_blonde","f008_highblonde"=>"f008_highblonde","f010_highblonde"=>"f010_highblonde",
+					//red
 					"f008_strawberryblonde"=>"f008_strawberryblonde","f010_strawberryblonde"=>"f010_strawberryblonde","f001_red"=>"f001_red","f002_red"=>"f002_red","f003_red"=>"f003_red","f004_red"=>"f004_red","f005_red"=>"f005_red","f009_red"=>"f009_red","f011_red"=>"f011_red","f012_red"=>"f012_red"
-					);
-				}			
+					);		
 			}
 			//male
 			else 
 			{
-
-				//brown
-				if($color_keys ==1){
 					$available_portraits = array(
-					"m002_brown"=>"m002_brown","m005_brown"=>"m005_brown","m006_brown"=>"m006_brown","m007_brown"=>"m007_brown","m011_brown"=>"m011_brown"
-					);
-				}
-				//blonde
-				elseif($color_keys ==2){
-					$available_portraits = array(
-					"m003_ashblonde"=>"m003_ashblonde","m004_ashblonde"=>"m004_ashblonde","m002_blonde"=>"m002_blonde","m006_blonde"=>"m006_blonde","m010_blonde"=>"m010_blonde","m012_blonde"=>"m012_blonde"
-					);
-				}
-				//red
-				else {
-					$available_portraits = array(
+					//brown
+					"m002_brown"=>"m002_brown","m005_brown"=>"m005_brown","m006_brown"=>"m006_brown","m007_brown"=>"m007_brown","m011_brown"=>"m011_brown",
+					//blonde
+					"m003_ashblonde"=>"m003_ashblonde","m004_ashblonde"=>"m004_ashblonde","m002_blonde"=>"m002_blonde","m006_blonde"=>"m006_blonde","m010_blonde"=>"m010_blonde","m012_blonde"=>"m012_blonde",
+					//red
 					"m006_red"=>"m006_red"
-					);
-				}			
+					);			
 			}			
 		}	
 		//southern european
@@ -359,64 +269,92 @@ class PortraitController extends Controller
 			//female
 			if($gender =="female")
 			{
-				//dark
-				if($color_keys ==1){
 					$available_portraits = array(
-						"f001_dark"=>"f001_dark","f002_dark"=>"f002_dark","f003_dark"=>"f003_dark","f004_dark"=>"f004_dark","f005_dark"=>"f005_dark","f006_dark"=>"f006_dark","f007_dark"=>"f007_dark","f009_dark"=>"f009_dark","f011_dark"=>"f011_dark"
-					);
-				}
-				//brown
-				elseif($color_keys ==2){
-					$available_portraits = array(
-					"f001_brown"=>"f001_brown","f002_brown"=>"f002_brown","f004_brown"=>"f004_brown","f005_brown"=>"f005_brown","f006_brown"=>"f006_brown","f007_brown"=>"f007_brown","f008_brown"=>"f008_brown","f009_brown"=>"f009_brown","f010_brown"=>"f010_brown","f011_brown"=>"f011_brown","f012_brown"=>"f012_brown"
-					);
-				}
-				//blonde
-				elseif($color_keys ==3){
-					$available_portraits = array(
-					"f002_ashblonde"=>"f002_ashblonde","f004_ashblonde"=>"f004_ashblonde","f005_ashblonde"=>"f005_ashblonde","f008_ashblonde"=>"f008_ashblonde","f009_ashblonde"=>"f009_ashblonde","f001_blonde"=>"f001_blonde","f007_blonde"=>"f007_blonde","f008_blonde"=>"f008_blonde","f010_blonde"=>"f010_blonde","f011_blonde"=>"f011_blonde","f012_blonde"=>"f012_blonde","f008_highblonde"=>"f008_highblonde","f010_highblonde"=>"f010_highblonde"
-					);
-				}
-				//red
-				else {
-					$available_portraits = array(
-					"f008_strawberryblonde"=>"f008_strawberryblonde","f010_strawberryblonde"=>"f010_strawberryblonde","f001_red"=>"f001_red","f002_red"=>"f002_red","f003_red"=>"f003_red","f004_red"=>"f004_red","f005_red"=>"f005_red","f009_red"=>"f009_red","f011_red"=>"f011_red","f012_red"=>"f012_red"
-					);
-				}			
+						//dark
+						"f001_dark"=>"f001_dark","f002_dark"=>"f002_dark","f003_dark"=>"f003_dark","f004_dark"=>"f004_dark","f005_dark"=>"f005_dark","f006_dark"=>"f006_dark","f007_dark"=>"f007_dark","f009_dark"=>"f009_dark","f011_dark"=>"f011_dark",
+						//brown
+						"f001_brown"=>"f001_brown","f002_brown"=>"f002_brown","f004_brown"=>"f004_brown","f005_brown"=>"f005_brown","f006_brown"=>"f006_brown","f007_brown"=>"f007_brown","f008_brown"=>"f008_brown","f009_brown"=>"f009_brown","f010_brown"=>"f010_brown","f011_brown"=>"f011_brown","f012_brown"=>"f012_brown",
+						//blonde
+						"f002_ashblonde"=>"f002_ashblonde","f004_ashblonde"=>"f004_ashblonde","f005_ashblonde"=>"f005_ashblonde","f008_ashblonde"=>"f008_ashblonde","f009_ashblonde"=>"f009_ashblonde","f001_blonde"=>"f001_blonde","f007_blonde"=>"f007_blonde","f008_blonde"=>"f008_blonde","f010_blonde"=>"f010_blonde","f011_blonde"=>"f011_blonde","f012_blonde"=>"f012_blonde","f008_highblonde"=>"f008_highblonde","f010_highblonde"=>"f010_highblonde",
+						//red
+						"f008_strawberryblonde"=>"f008_strawberryblonde","f010_strawberryblonde"=>"f010_strawberryblonde","f001_red"=>"f001_red","f002_red"=>"f002_red","f003_red"=>"f003_red","f004_red"=>"f004_red","f005_red"=>"f005_red","f009_red"=>"f009_red","f011_red"=>"f011_red","f012_red"=>"f012_red"
+					);		
 			}
 			//male
 			else 
 			{
-				//dark
-				if($color_keys ==1){
 					$available_portraits = array(
-						"m001_dark"=>"m001_dark","m003_dark"=>"m003_dark","m004_dark"=>"m004_dark","m005_dark"=>"m005_dark","m007_dark"=>"m007_dark","m008_dark"=>"m008_dark","m009_dark"=>"m009_dark"
-					);
-				}
-				//brown
-				elseif($color_keys ==2){
-					$available_portraits = array(
-					"m002_brown"=>"m002_brown","m004_brown"=>"m004_brown","m005_brown"=>"m005_brown","m006_brown"=>"m006_brown","m007_brown"=>"m007_brown","m011_brown"=>"m011_brown"
-					);
-				}
-				//blonde
-				elseif($color_keys ==3){
-					$available_portraits = array(
-					"m003_ashblonde"=>"m003_ashblonde","m004_ashblonde"=>"m004_ashblonde","m002_blonde"=>"m002_blonde","m006_blonde"=>"m006_blonde","m010_blonde"=>"m010_blonde","m012_blonde"=>"m012_blonde"
-					);
-				}
-				//red
-				else {
-					$available_portraits = array(
-					"m006_red"=>"m006_red"
-					);
-				}				
+						//dark
+						"m001_dark"=>"m001_dark","m003_dark"=>"m003_dark","m004_dark"=>"m004_dark","m005_dark"=>"m005_dark","m007_dark"=>"m007_dark","m008_dark"=>"m008_dark","m009_dark"=>"m009_dark",
+						//brown
+						"m002_brown"=>"m002_brown","m004_brown"=>"m004_brown","m005_brown"=>"m005_brown","m006_brown"=>"m006_brown","m007_brown"=>"m007_brown","m011_brown"=>"m011_brown",
+						//blonde
+						"m003_ashblonde"=>"m003_ashblonde","m004_ashblonde"=>"m004_ashblonde","m002_blonde"=>"m002_blonde","m006_blonde"=>"m006_blonde","m010_blonde"=>"m010_blonde","m012_blonde"=>"m012_blonde",
+						//red
+						"m006_red"=>"m006_red"
+					);			
 			}			
 		}
-
 		//return
 		return $available_portraits;
-	}	
+	}
+
+
+    //store function
+    public function store()
+    {     
+        $charactercount = $this->charactercount();
+		$dynastycount = $this->dynastycount();
+
+		//not allowed
+		if ($charactercount >=4 || $dynastycount <1){
+			return redirect('/home')->with('message', 'Not allowed1');
+		}
+		//create allowed
+		else {
+			$data = request()->validate([
+				'portrait' => 'required',
+				'person_name' => 'required|min:3',
+				'gender' => 'required'
+			]); 			
+			//user id
+			$user = auth()->user();
+			$user_id = $user->id;
+			//dynasty data
+			$dynasty = Dynasty::where('dynasty_owner',$user_id)->firstOrFail();	
+			//gender
+			$request_gender = request('gender');
+			if ($request_gender =="male"){
+				$gender =1;
+			}
+			elseif($request_gender =="female"){
+				$gender =0;	
+			}
+			else {
+				$gender =1;
+			}
+			//saving
+			$person = new Person(); 
+			$person->owner = $user_id;	
+			$person->dynasty = $dynasty->dynasty_id;		
+			$person->culture = $dynasty->culture;				
+			$portrait_culture = $this->portraitculture();		
+			$person->person_name = request('person_name');
+			$person->portrait = request('portrait');					
+			$portrait = $person->portrait;			
+			$emblen_no = $this->portraitkey($color_keys,$portrait,$portrait_culture,$request_gender);
+			if (is_int($emblen_no) || $emblen_no ==0){
+				//saving
+				$person->save();       
+				//return
+				return redirect('/dynasty/'.$dynasty->dynasty_id)->with('message', 'Added');
+			}
+			else {
+				return redirect('/home')->with('message', 'Not allowed portrait');
+			}	
+			
+		}
+    }	
 	
 	
 }

@@ -38,6 +38,8 @@ class DatabaseSeeder extends Seeder
 		$this->call('TitleSeeder');
 		//admin user
 		$this->call('userSeeder');
+		//player character names
+		$this->call('NamesSeeder');
     }
 }
 
