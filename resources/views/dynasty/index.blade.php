@@ -9,7 +9,7 @@ Game
 	<div class="row">
 		<div class="col-12 d-flex justify-content-center py-3">	
 			<div>				
-				<a href="/dynasty/create?color=back_ochre&emblem=brown_boar&shape=shield">Create Dynasty</a>
+				<a href="/dynasty/create?color=back_ochre&emblem=brown_boar&shape=shield" class="btn btn-primary">Create Dynasty</a>
 			</div>
 		</div>		
 	</div>

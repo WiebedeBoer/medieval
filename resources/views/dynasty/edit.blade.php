@@ -4,6 +4,19 @@ Game
 @endsection
 @section('content')
 <h1>{{ $dynastydata->dynasty_name }} Dynasty</h1>
+
+@if($charactercount <4)
+	<div class="row">
+		<div class="col-12 d-flex justify-content-center py-3">	
+			<div>				
+				<a href="/portraits/create?color=brown&portrait=f001_brown&gender=female" class="btn btn-primary">Create Character</a>
+			</div>
+		</div>		
+	</div>
+@endif
+
+
+
 	<div class="row">
 		<div class="container">	
 	

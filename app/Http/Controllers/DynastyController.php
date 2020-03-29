@@ -8,6 +8,7 @@ use App\Region;
 use App\Culture;
 use App\Dynasty;
 use App\User;
+use App\Person;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
@@ -88,6 +89,15 @@ class DynastyController extends Controller
 
     }
 	
+	//portrait count
+	public function portraitcount()
+	{
+		$user = auth()->user();
+		$user_id = $user->id;	
+		$portrait_count = Person::where('owner', $user_id)->where('alive',1)->count();
+		return $portrait_count;
+	}
+	
 	//edit form
     public function edit($id)
     {       
@@ -96,7 +106,8 @@ class DynastyController extends Controller
 		{
 		$dynastydata = Dynasty::where('dynasty_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('dynasty.edit', compact('dynastydata','user')); 
+		$charactercount = $this->portraitcount();
+		return view('dynasty.edit', compact('dynastydata','user','charactercount')); 
 		}
 		else 
 		{

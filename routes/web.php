@@ -66,6 +66,10 @@ Route::get('users/{user}', 'UserController@show');
 Route::get('users/{user}/edit', 'UserController@edit');
 Route::patch('users/{user}', 'UserController@update');
 Route::delete('users/{user}', 'UserController@destroy');
+//tutorials
+Route::get('tutorial/dynasty', 'TutorialController@dynasty');
+Route::get('tutorial/character', 'TutorialController@character');
+Route::get('tutorial/estate', 'TutorialController@estate');
 //persons
 Route::get('persons', 'PersonController@index');
 Route::get('persons/create','PersonController@create');
@@ -82,6 +86,8 @@ Route::get('dynasty/{dynasty}', 'DynastyController@show');
 Route::get('dynasty/{dynasty}/edit', 'DynastyController@edit');
 Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
 Route::patch('dynasty/{dynasty}', 'DynastyController@update');
+//portraits
+Route::get('portraits/create','PortraitController@create');
 //region
 Route::get('religion', 'ReligionController@index');
 Route::get('religion/{religion}', 'ReligionController@show');
