@@ -2528,6 +2528,12 @@ class NamesSeeder extends Seeder
 		]);
 		
 		DB::table('medieval_names')->insert([            
+			'person_name' => 'Ringala',	
+			'culture' => 'slavic',	
+			'gender' => 'female'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
 			'person_name' => 'Rogneda',	
 			'culture' => 'slavic',	
 			'gender' => 'female'	         
@@ -2792,6 +2798,242 @@ class NamesSeeder extends Seeder
 			'culture' => 'hungarian',	
 			'gender' => 'female'	         
 		]);
+		
+		//wallachian male
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Alexandru',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Balc',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 		
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Basarab',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Bogdan',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Dan',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Dragos',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]);
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Ilias',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 		
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Iuga',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Latcu',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Litovoi',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Mihail',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Mihnea',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Mircea',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Nicholae',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Petru',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Radu',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Roman',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Stefan',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Teoctist',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Tihomir',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Tudor',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Vlad',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Vlaicu',	
+			'culture' => 'wallachian',	
+			'gender' => 'male'	         
+		]); 
+		
+		//wallachian female	
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Anastasiya',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);			
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Anna',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);				
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Calina',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);				
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Clara',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Cneajna',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Elena',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);			
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Jelena',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Justina',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);			
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Margareta',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Maria',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Milica',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Neacsa',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Oltea',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Rada',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Theodora',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Voica',	
+			'culture' => 'wallachian',	
+			'gender' => 'female'	         
+		]);			
 		
         //byzantine male
 		DB::table('medieval_names')->insert([            
