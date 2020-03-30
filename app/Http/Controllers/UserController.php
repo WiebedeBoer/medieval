@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use App\Dynasty;
+use App\Person;
 use Illuminate\Http\Request;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -16,7 +17,6 @@ class UserController extends Controller
         $this->middleware('auth');
     }	
 	
-	
 	//show
     public function show($id)
     {       
@@ -28,11 +28,13 @@ class UserController extends Controller
 			$dynastycount = Dynasty::where('dynasty_owner', $id)->count();
 			if($dynastycount ==1){
 				$dynastydata = Dynasty::where('dynasty_owner', $id)->first();
-				return view('users.show', compact('userdata','dynastycount','dynastydata'));
+				$portraitcount = Person::where('owner', $id)->where('alive',1)->count();
+				return view('users.show', compact('userdata','dynastycount','dynastydata','portraitcount'));
 			}
 			else {
 				$dynastydata = [];
-				return view('users.show', compact('userdata','dynastycount','dynastydata'));				
+				$portraitcount = 5;
+				return view('users.show', compact('userdata','dynastycount','dynastydata','portraitcount'));				
 			}
 			
 		}

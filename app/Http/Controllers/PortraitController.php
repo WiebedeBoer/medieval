@@ -100,7 +100,12 @@ class PortraitController extends Controller
 			$naming_culture ="scandinavian";
 		}
 		elseif ($region_culture =="Croatian" || $region_culture =="Polish" || $region_culture =="Kievan Rus"){
-			$naming_culture ="slavic";
+			if ($main_culture =="Lithuanian"){
+				$naming_culture ="lithuanian";
+			}
+			else {
+				$naming_culture ="slavic";
+			}
 		}
 		elseif ($region_culture =="Balkan"){
 			if ($main_culture =="Wallachian"){

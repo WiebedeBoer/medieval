@@ -3,7 +3,8 @@
 Game
 @endsection
 @section('content')
-<h1>(Step 1) Create Dynasty</h1>
+<h1>Tutorial</h1>
+<h2 class="c">(Step 1) Set up a Dynasty</h2>
 	
 	<div class="row">
 		<div class="col-12 d-flex justify-content-center py-3">	

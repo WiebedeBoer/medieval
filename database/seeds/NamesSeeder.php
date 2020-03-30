@@ -2478,13 +2478,7 @@ class NamesSeeder extends Seeder
 			'culture' => 'slavic',	
 			'gender' => 'female'	         
 		]);	
-		
-		DB::table('medieval_names')->insert([            
-			'person_name' => 'Jewna',	
-			'culture' => 'slavic',	
-			'gender' => 'female'	         
-		]);
-		
+				
 		DB::table('medieval_names')->insert([            
 			'person_name' => 'Jadwiga',	
 			'culture' => 'slavic',	
@@ -2574,6 +2568,236 @@ class NamesSeeder extends Seeder
 			'culture' => 'slavic',	
 			'gender' => 'female'	         
 		]);
+		
+		//lithuanian male
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Algirdas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 		
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Dausprungas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Gedvydas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Gimbutas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Jaunutis',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Jogaila',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Kestutis',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Kukovaitis',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 		
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Mindaugas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Mingaila',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Montvilas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Rimantas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Ringaudas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Skirmantas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Svitrigaila',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Tautvilas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Traidenis',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Vaisvilkas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 		
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Vykintas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Vytautas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Vytenis',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Zvelgaitis',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Zygimantas',	
+			'culture' => 'lithuanian',	
+			'gender' => 'male'	         
+		]); 
+		
+		//lithuanian female	
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Aldona',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Birute',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);			
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Charitina',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Danute',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Gaudemunda',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Ievna',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Jadwiga',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);			
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Jewna',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Maria',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);			
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Morta',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Olga',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Ona',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Rimgaile',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+		
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Sofija',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);	
+
+		DB::table('medieval_names')->insert([            
+			'person_name' => 'Uliana',	
+			'culture' => 'lithuanian',	
+			'gender' => 'female'	         
+		]);			
 		
         //hungarian male
 		DB::table('medieval_names')->insert([            
