@@ -19,7 +19,7 @@ class CreateMedievalNamesTable extends Migration
 			$table->string('person_name');
 			//data		
 			$table->string('culture');			
-			$table->integer('gender');
+			$table->string('gender');
 			$table->string('portrait')->nullable();
         });
     }

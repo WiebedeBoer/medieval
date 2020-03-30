@@ -75,29 +75,38 @@ class PortraitController extends Controller
 		$main_culture = $dynasty->cultures->culture_name;
 		$region_culture = $dynasty->cultures->warrior_culture;
 		
-		if ($region_culture =="Scandinavian"){
-			$naming_culture ="scandinavian";
-		}
-		elseif ($region_culture =="Spanish"){
+
+		if ($region_culture =="Spanish"){
 			$naming_culture ="iberian";
 		}
 		elseif ($region_culture =="German"){
 			$naming_culture ="german";
-		}
+		}		
 		elseif ($region_culture =="Italian"){
 			$naming_culture ="italian";
+		}	
+		elseif ($region_culture =="Anglo-Saxon" || $region_culture =="Celtic"){
+			$naming_culture ="british";
 		}
 		elseif ($region_culture =="Frankish"){
 			$naming_culture ="french";
+		}		
+		elseif ($region_culture =="Scandinavian"){
+			$naming_culture ="scandinavian";
 		}
-		elseif ($region_culture =="Anglo-Saxon" || $region_culture =="Celtic"){
-			$naming_culture ="british";
+		elseif ($region_culture =="Croatian" || $region_culture =="Polish" || $region_culture =="Kievan Rus" || $region_culture =="Balkan"){
+			$naming_culture ="slavic";
 		}
 		elseif ($region_culture =="Hungarian"){
 			$naming_culture ="hungarian";
 		}
-		elseif ($region_culture =="Croatian" || $region_culture =="Polish" || $region_culture =="Kievan Rus" || $region_culture =="Balkan"){
-			$naming_culture ="slavic";
+		elseif ($region_culture =="Byzantine"){
+			if ($main_culture =="Byzantine"){
+				$naming_culture ="byzantine";
+			}
+			else {
+				$naming_culture ="georgian";
+			}			
 		}
 		elseif ($region_culture =="Arabic"){
 			$naming_culture ="arabic";
@@ -105,6 +114,7 @@ class PortraitController extends Controller
 		elseif ($region_culture =="Turkish"){
 			$naming_culture ="turkish";
 		}
+		
 		else {
 			$naming_culture ="mongol";
 		}
