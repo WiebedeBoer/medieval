@@ -343,7 +343,24 @@ class PortraitController extends Controller
 			$data = request()->validate([
 				'portrait' => 'required',
 				'person_name' => 'required|min:3',
-				'gender' => 'required'
+				'gender' => 'required',
+				'jud' => 'required',
+				'eng' => 'required',
+				'com' => 'required',
+				'agr' => 'required',
+				'tac' => 'required',
+				'lea' => 'required',
+				'cha' => 'required',
+				'bra' => 'required',
+				'str' => 'required',
+				'agi' => 'required',
+				'pol' => 'required',
+				'swo' => 'required',
+				'arc' => 'required',
+				'rid' => 'required',
+				'sai' => 'required',
+				'rai' => 'required',
+				'tra' => 'required'
 			]); 			
 			//user id
 			$user = auth()->user();
@@ -369,7 +386,26 @@ class PortraitController extends Controller
 			$portrait_culture = $this->portraitculture();		
 			$person->person_name = request('person_name');
 			$person->portrait = request('portrait');					
-			$portrait = $person->portrait;			
+			$portrait = $person->portrait;	
+			//stats
+			$person->jud = request('jud');
+			$person->eng = request('eng');
+			$person->com = request('com');
+			$person->agr = request('agr');
+			$person->tac = request('tac');
+			$person->lea = request('lea');
+			$person->cha = request('cha');
+			$person->bra = request('bra');
+			$person->str = request('str');
+			$person->agi = request('agi');
+			$person->pol = request('pol');
+			$person->swo = request('swo');
+			$person->arc = request('arc');
+			$person->rid = request('rid');
+			$person->sai = request('sai');
+			$person->rai = request('rai');
+			$person->tra = request('tra');
+			//portrait
 			$emblen_no = $this->portraitkey($color_keys,$portrait,$portrait_culture,$request_gender);
 			if (is_int($emblen_no) || $emblen_no ==0){
 				//saving

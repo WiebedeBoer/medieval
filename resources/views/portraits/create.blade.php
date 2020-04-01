@@ -28,7 +28,7 @@ Game
 
 
 <!--portrait-->
-<div class="input-group  py-1">
+<div class="input-group py-1">
 <div class="text-center">
 <a href="/portraits/create?portrait={{$nextportrait}}&gender={{$gender}}">&#8592;</a> Portrait <a href="/portraits/create?portrait={{$prevportrait}}&gender={{$gender}}">&#8594;</a>
 <input type="hidden" name="portrait" value="{{old('portrait') ?? $portrait}}">
@@ -59,6 +59,336 @@ Game
 </select>
 </div>
 <div>{{$errors->first('person_name')}}</div>
+</div>
+
+
+<!--stats-->
+<div class="py-3">
+<h2>Statistics</h2>
+
+<h3>Judgement:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="jud">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('jud')}}</div>
+
+<h3>Engineering:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="eng">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('eng')}}</div>
+
+<h3>Commerce:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="com">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('com')}}</div>
+
+<h3>Agriculture:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="agr">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('agr')}}</div>
+
+<h3>Tactics:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="tac">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('tac')}}</div>
+
+<h3>Leadership:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="lea">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('lea')}}</div>
+
+<h3>Charima:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="cha">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('cha')}}</div>
+
+<h3>Brawn:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="bra">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('bra')}}</div>
+
+<h3>Strength:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="str">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('str')}}</div>
+
+<h3>Agility:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="agi">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('agi')}}</div>
+
+<h3>Polearms:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="pol">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('pol')}}</div>
+
+<h3>Swordsmanship:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="swo">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('swo')}}</div>
+
+<h3>Archery:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="arc">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('arc')}}</div>
+
+<h3>Riding:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="rid">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('rid')}}</div>
+
+<h3>Sailing:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="sai">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('sai')}}</div>
+
+<h3>Raiding:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="rai">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('rai')}}</div>
+
+<h3>Tracking:</h3>
+<div class="input-group py-1">
+<div class="text-center">
+<select name="tra">
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+</div>
+</div>
+<div>{{$errors->first('tra')}}</div>
+
 </div>
 
 
