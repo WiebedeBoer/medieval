@@ -30,13 +30,15 @@ Game
 <div class="row">
 	<div class="col-12 d-flex justify-content-center py-3">	
 <h2 class="c">About Creating a Dynasty</h2>
-<p></p>	
+<p>Setting up a dynasty is the first step. It is recommended that you pick a crest before you fill in an unique name for your dynasty and before you fill in a decription. A description is not required.</p>	
+<p>Picking a culture is the only important choice in this this step, because the culture determines the available starting positions for your estate. A culture also determines things such as the religion, the available units, buildings, and so on. For more information about a particular culture, before making your choice, please read further below.</p>
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-12 d-flex justify-content-center py-3">	
-	
+<div>
+</div>	
 	</div>
 </div>
 
