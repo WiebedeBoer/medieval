@@ -15,7 +15,7 @@ Game
 </div>	
 
 <div class="row">
-	<div class="col-12 d-flex justify-content-center py-3">	
+	<div class="justify-content-center p-3 mx-1">	
 <h2 class="c">Getting started</h2>
 <p>Congratulations on registering for Medieval. Three basic steps need to be completed before you can fully play Medieval. These steps are:</p>
  <ul>
@@ -28,7 +28,7 @@ Game
 </div>
 	
 <div class="row">
-	<div class="col-12 d-flex justify-content-center py-3">	
+	<div class="justify-content-center p-3 mx-1">	
 <h2 class="c">About Creating a Dynasty</h2>
 <p>Setting up a dynasty is the first step. It is recommended that you pick a crest before you fill in an unique name for your dynasty and before you fill in a decription. A description is not required.</p>	
 <p>Picking a culture is the only important choice in this this step, because the culture determines the available starting positions for your estate. A culture also determines things such as the religion, the available units, buildings, and so on. For more information about a particular culture, before making your choice, please read further below.</p>
@@ -36,9 +36,14 @@ Game
 </div>
 
 <div class="row">
-	<div class="col-12 d-flex justify-content-center py-3">	
-<div>
-</div>	
+	<div class="justify-content-center p-3 mx-1">
+		<h2 class="c">Cultures</h2>
+		@foreach($cultures as $culture)
+			<div class="py-1">
+				<h3>{{ $culture->culture_name }}</h3>
+					{{$culture->culture_description}}
+			</div>
+		@endforeach
 	</div>
 </div>
 

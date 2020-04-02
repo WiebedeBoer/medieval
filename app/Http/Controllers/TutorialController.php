@@ -3,13 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Culture;
+use App\Support\Collection;
+use Illuminate\Support\Facades\DB;
 
 class TutorialController extends Controller
 {
     //tutorials
 	public function dynasty()
     {       
-        return view('tutorial.dynasty');        
+        $cultures = Culture::orderBy('culture_name','ASC')->get();	
+		return view('tutorial.dynasty', compact('cultures'));        
     }
 	
     public function character()
