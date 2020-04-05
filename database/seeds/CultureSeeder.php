@@ -61,7 +61,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'Franconia emerged after conquests by early Frankish and became one of the tribal duchies of the Eastern Franks. The Babenbergs and Conradines fought for power in Franconia. Ultimately this discord led to the Babenberg Feud which was fuelled and controlled by the crown. The outcome of this feud meant the loss of power for the Babenbergs, but indirectly resulted in the Conradines winning the crown of East Francia. The region did not become a strong regional force such as those which formed in Saxony, Bavaria and Swabia. Nuremberg Castle was the seat of the Burgraviate of Nuremberg. The burgraviate was ruled by the Zollerns, the Franconian line of the later House of Hohenzollern. Under the Hohenstaufen kings, Franconia became the centre of power in the Empire. Franconia too played a role in the rise of the House of the Habsburgs. The Teutonic Order was formed in the region, taking much possession in Franconia.'	     	         
 ]); 
 //6
 DB::table('cultures')->insert([            
@@ -71,7 +71,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The Saxons were a group of early Germanic peoples whose name was given in the early Middle Ages to a large country near the North Sea coast of what is now Germany. Together with Frisians, Jutish, and Angles they settled large parts of what became England. Together with the Lombards they settled parts of modern northern Italy and with the Franks settled parts of what is modern France. The Saxon duchy of Hamaland played an important role in the formation of the duchy of Guelders. Charlemagne and Louis the Pious supported Christian vernacular works in order to evangelise the Saxons more efficiently. The Saxon nobility became vigorous supporters of monasticism and formed a bulwark of Christianity against paganism to the east and north. Notable monastic centres were Fulda, Corvey and verden.'	     	         
 ]); 
 //7
 DB::table('cultures')->insert([            
@@ -81,7 +81,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The Bavarians were a group of early Germanic peoples. The Duchy of Bavaria was a stem duchy of the Holy Roman Empire and the Margraviate of Austria was formed an eastern march to the Duchy of Bavaria and ultimately became a duchy in its own right, the Duchy of Austria. Austria ultimately falling under the dominion of the House of Habsburg. '	     	         
 ]); 
 //8
 DB::table('cultures')->insert([            
@@ -91,7 +91,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The swabians were a group of early Germanic peoples. The Duchy of Swabia was a stem duchy of the Holy Roman Empire. Swabian cities formed a league of Swabian citiesd in the high middle ages. A Swiss confederacy was formed too in the high middle ages and became de facto independent following the Burgundian wars and Swabian wars.'	     	         
 ]); 
 //9
 DB::table('cultures')->insert([            
@@ -101,7 +101,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The march of Carinthia arose from the territory that was bequeathed by Louis the German his son Carloman, king of Bavaria, to his natural son Arnulf of Carinthia. The march ultimately became a Duchy with the march of Carniola seperating from it. Much of the area was ruled by the House of Sponheim and later by the Habsburg dynasty.'	     	         
 ]); 
 //10
 DB::table('cultures')->insert([            
@@ -111,7 +111,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The Flemish are a Germanic group in the region of Flanders in what is modern Belgium.The county of Flanders was a feudal fief in West Francia. The first count was Baldwin I of Flanders, eloped with a daughter of his king Charles the Bald. Flanders developed as a medieval economic power with a large degree of political autonomy. While its trading cities remained strong, it was weakened and divided when districts fell under direct French royal rule. During the late Middle Ages Flemish trading towns made it one of the richest and most urbanized parts of Europe, weaving the wool of neighbouring lands into cloth for both domestic use and export. As a consequence, a sophisticated culture developed, with impressive art and architecture, rivaling those of northern Italy. Increasingly powerful in the high middle ages the urban communes were instrumental in defeating a French attempt at annexation, finally defeating the French in the Battle of the Golden Spurs. Two years later, the uprising was defeated and Flanders indirectly remained part of the French Crown. Flemish prosperity waned in the late middle ages, due to widespread European population decline following the Black Death and the disruption of trade during the Hundred Years War.'	     	         
 ]); 
 //11
 DB::table('cultures')->insert([            
@@ -121,7 +121,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The kingdom of Bohemia was in what is the modern Czech republic. The kingdom of Bohemia was established by the Premyslid dynasty from the Duchy of Bohemia and later ruled by the House of Luxembourg and then the Jagiellonian dynasty. Numerous kings of Bohemia were also elected Holy Roman Emperors. King Ottokar II married a German princess, Margaret of Babenberg, and became duke of Austria. He thereby acquired Upper Austria, Lower Austria, and part of Styria. He conquered the rest of Styria, most of Carinthia, and parts of Carniola. He was called the king of iron and gold, because of his conquests and wealth. Bohemia entered its golden age during the reign of the House of Luxembourg. Extensive building projects were undertaken by king Charles IV, including the royal castle in Prague and the university of Prague.'	     	         
 ]); 
 //12
 DB::table('cultures')->insert([            
@@ -131,7 +131,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The Lombards or Longobards are a Germanic group in what is now the northern part of modern Italy. Lombard nobles ruled southern parts of the Italian peninsula. The resulting wars between Guelphs and Ghibellines, the anti-imperialist and imperialist factions, respectively, were characteristic of Italian politics in the middle ages. The absence of an Italian monarch in later years led to the rise of Italian city-states. Some cities like Venice, Genoa, and Milan became great trading metropoles. In the late middle ages just as the Italian Renaissance was beginning, Italy was the economic capital of Western Europe and the Italian States were the top manufacturers of finished woolen products. It also traded luxury items like ceramics, glassware, lace and silk and it was the birthplace of merchant banks.'	     	         
 ]); 
 //13
 DB::table('cultures')->insert([            
@@ -141,7 +141,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'What started out as the march of Tuscany became home to some large and influential Italian city-states such as Pisa and Florence. Pilgrims travelling along the Via Francigena between Rome and France brought wealth and development during the medieval period. Communes grew rich from trade in silk and fine wines and established merchants banks. One family from Florence who benefitted from the growing wealth and power was the ruling Medici family.'	     	         
 ]); 
 //14
 DB::table('cultures')->insert([            
@@ -151,7 +151,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_virelai_Dame_Jolie',
-'culture_description' => ''	     	         
+'culture_description' => 'Though French is a Romance language, the Franks were a Germanic group from the middle and lower Rhine region. The Carolingian empire of Charlemagne unified much of western Europe in the early middle ages. Though fragmented throughout much the middle ages, France came under increasing control of the House of Capet and later the house of Valois and Anjou. It remained one of the most powerful kingdoms in Europe. The Capetian-Plantagenet rivalry fuelled the Hundred Years war. A French peasant by the name of Joan of Arc helped stem the tide in favor of France. France was at the center and often originator of a vibrant cultural production that extended across much of western Europe, including the transition from Romanesque architecture to Gothic architecture and Gothic art and the foundation of medieval universities.'	     	         
 ]);
 //15
 DB::table('cultures')->insert([            
@@ -161,7 +161,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_virelai_Dame_Jolie',
-'culture_description' => ''	     	         
+'culture_description' => 'Arpitan is a Gallo-Romance group in what is now modern France, Switzerland and part of northern Italy. Often part of Burgundian lands. Much of the area was gradually ruled over by the House of Savoy, or broke off into the Swiss confederacy. The region was heavily involved in the textile trade between France and Italy and produced a lot of wine, cheese, and meat.'	     	         
 ]);  
 //16
 DB::table('cultures')->insert([            
