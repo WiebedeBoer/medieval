@@ -171,7 +171,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1100_troubadour_A_Chanter_M_er',
-'culture_description' => ''	     	         
+'culture_description' => 'Occitan is a Gallo-Romance group in what is now modern France and Spain. Troubadours who were composers of music and poetry began in the region. Eleanor of Aquitaine, queen consort of first France and then England, was born in Poitiers and was one of the richest women in the whole of western Europe. Places like Bordeaux grew rich in the wine trade and Toulouse was inmensely wealthy dye to the dyes trade. The region is also home to Carcassonne a renowned heavily fortified city.'	     	         
 ]);  
 //17
 DB::table('cultures')->insert([            
@@ -181,7 +181,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_virelai_Dame_Jolie',
-'culture_description' => ''	     	         
+'culture_description' => 'Britanny is a region in the west of modern France. The war of the Breton succession was a conflict between the Counts of Blois and the Montforts of Brittany for control of the duchy of Brittany, then a fief of the kingdom of France. The conflict formed an integral part of the Hundred Years War between England and France. After another war called the Mad War it ultimately led to union of Brittany and France and the loss of Breton independence. In the late middle ages Brittany saw an economic golden age and grew wealthy in shipbuilding and the manufacture of hemp and linen.'	     	         
 ]); 
 //18
 DB::table('cultures')->insert([            
@@ -191,7 +191,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_scarborough_fair',
-'culture_description' => ''	     	         
+'culture_description' => 'The name England is derived from the Angles, a Germanic tribe. Anglo-Saxon petty kingdoms gradually coalesced into the kingdom of England. Much of England during the Viking was subject to the Danelaw, an area held by Vikings. The Normans under william the Conqueror conquered England after Harold Godwinson was defeated in the battle of Hastings. English kings build many castles in Wales to subjugate the land and there were frequent border skirmishes with the Scots and held large parts of modern Ireland under the lordship of Ireland and large swathes of modern France such as the duchy of Aquitaine. England fought the Hundred Years War with France which started out of a Capetian-Plantagenet rivalry, it ended with the House of Valois retaining the French throne. Monasticism flourished, providing philosophers, and the universities of Oxford and Cambridge were founded with royal patronage. English trade in wool flourished. In the late middle ages England saw a civil war between the Yorkist and Lancastrian branches of the English royal family, known as the war of the Roses. '	     	         
 ]);
 //19
 DB::table('cultures')->insert([            
@@ -201,7 +201,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_morrisons_jig',
-'culture_description' => ''	     	         
+'culture_description' => 'The Welsh are a Celtic group. A series of dynastic marriages led to much of Wales gradually merging into what became known as the principality of Wales. After the conquest of England by the Normans, a series of lordships were established on the borders with Wales. These lordships known as the marcher lords gradually began conquering Wales. To help maintain his dominance, king Edward constructed a series of great stone castles. A Welsh nobleman, Owain Glyndwr, revolted against King Henry IV of England. Owain inflicted a number of defeats on the English forces and for a few years controlled most of Wales. Eventually the English forces were able to regain control of Wales and the rebellion died out, but Owain himself was never captured.'	     	         
 ]); 
 //20
 DB::table('cultures')->insert([            
