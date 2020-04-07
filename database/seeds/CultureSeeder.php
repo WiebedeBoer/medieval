@@ -221,7 +221,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_morrisons_jig',
-'culture_description' => ''	     	         
+'culture_description' => 'The Picts are a Celtic group that was found in modern Scotland. By the high middle ages they were gradually replaced by the Scots. The kingdom of Alba the largest of the Pictish petty kingdoms of Scotland was for most of the early medieval period by the Alpinid dynasty untill they were replaced by the House of Dunkeld.'	     	         
 ]); 
 //22
 DB::table('cultures')->insert([            
