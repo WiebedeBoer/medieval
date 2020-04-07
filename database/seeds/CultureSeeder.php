@@ -201,7 +201,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_morrisons_jig',
-'culture_description' => 'The Welsh are a Celtic group. A series of dynastic marriages led to much of Wales gradually merging into what became known as the principality of Wales. After the conquest of England by the Normans, a series of lordships were established on the borders with Wales. These lordships known as the marcher lords gradually began conquering Wales. To help maintain his dominance, king Edward constructed a series of great stone castles. A Welsh nobleman, Owain Glyndwr, revolted against King Henry IV of England. Owain inflicted a number of defeats on the English forces and for a few years controlled most of Wales. Eventually the English forces were able to regain control of Wales and the rebellion died out, but Owain himself was never captured.'	     	         
+'culture_description' => 'The Welsh are a Celtic group. A series of dynastic marriages led to much of Wales gradually merging into what became known as the principality of Wales. After the conquest of England by the Normans, a series of lordships were established on the borders with Wales. These lordships known as the marcher lords gradually began conquering Wales. To help maintain his dominance, king Edward constructed a series of great stone castles. A Welsh nobleman, Owain Glyndwr, revolted against King Henry IV of England. Owain inflicted a number of defeats on the English forces and for a few years controlled most of Wales. Eventually the English forces were able to regain control of Wales and the rebellion died out, but Owain himself was never captured. Welsh bards were influential in songs and poetry.'	     	         
 ]); 
 //20
 DB::table('cultures')->insert([            
@@ -211,7 +211,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_morrisons_jig',
-'culture_description' => ''	     	         
+'culture_description' => 'The Scots are a Celtic group. Petty kingdoms gradually merged to form the kingdom of Scotland. Vikings frequently raided Scotland in the early middle ages. A patchwork of Scottish clans ruled different parts of Scotland, but were gradually centralized under royal power. The death of king Alexander III  broke the line of succession and led to the Scottish war of independence with the English and ended with Robert the Bruce crowned as king of Scotland. A civil war and lack of an heir meant the House of Stewart came to the throne for the remainder of the middle ages. Scotland experienced greater prosperity in the late middle ages and grew wealthy from the trade in wool, cheese and fish.'	     	         
 ]); 
 //21
 DB::table('cultures')->insert([            
@@ -231,7 +231,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_morrisons_jig',
-'culture_description' => ''	     	         
+'culture_description' => 'The Irish are a Celtic group. Irish missionaries and scholars exerted great influence throughout much of western Europe in the spread of Christianity and medieval philosophy. Early medieval Ireland was ruled by several petty kings and a high king. Vikings frequently raided along the Irish coast and also founded towns. In the high middle ages Ireland was invaded by the Normans and much of the land was eventually under the reign of the Lordship of Ireland. The economy was mainly driven by livestock farming and metal working.'	     	         
 ]); 
 //23
 DB::table('cultures')->insert([            
@@ -241,7 +241,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_saltarello',
-'culture_description' => ''	     	         
+'culture_description' => 'Despite repeatedly being in union with the kingdom of Sicily, the kingdom of Naples was an independent kingdom in its own right. Aragonese and Angevin and Norman influence was great in what is now the southern part of modern Italy as well as Byzantine influence in the farthest parts in the south. Other powerful entities were the maritime city states of Amalfi and Gaeta, the duchy of Benevento and the principality of Taranto. Amalfi was one of the first city-states to grow rich in the maritime trade, but declined when it was conquered by the Pisans.'	     	         
 ]);  
 //24
 DB::table('cultures')->insert([            
@@ -251,7 +251,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_saltarello',
-'culture_description' => ''	     	         
+'culture_description' => 'The influence of the Byzantine empire was great in early medieval Sardinia. Eventually several smaller kingdoms emerged known as Judicates. Many of these smaller kingdoms or republics were allied with maritime city-states on the mainland such as Genoa or Pisa. The Aragonese arrived in the late middle ages and took control of the island.'	     	         
 ]); 
 //25
 DB::table('cultures')->insert([            
@@ -261,7 +261,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1300_saltarello',
-'culture_description' => ''	     	         
+'culture_description' => 'The Byzantines held sway in Sicily in the early middle ages, untill the island was conquered by the Moors. By the high middle ages Norman mercenaries gradually took control over the island, untill the Hauteville dynasty was replaced by the Swabian Hohenstaufen dynasty. The latter reign ended in the war of the Sicilian Vespers when the Angevins attempted to take control, after which a period of Aragonese reign started, when the island became part of the crown of Aragon. The Sicilian economy grew rich, despite the continual upheaval. Sicily exported large quantities of grains and cloth.'	     	         
 ]);  
 //26
 DB::table('cultures')->insert([            
@@ -271,7 +271,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The Catalans are a Romance group. Catalan rulers expanded north up the Ebro river and south near Valencia and also conquered the Balearic islands. The Catalans were important in the development of early medieval smelting techniques with the Catalan forge. By the high middle ages the county of Barcelona entered into a dynastic union with the kingdom or Aragon, to form the Crown of Aragon. This allowed the Aragonese o gradually conquer muslim held lands in what is nowadays the southern of part of modern Spain in a process known as the reconquista. '	     	         
 ]); 
 //27
 DB::table('cultures')->insert([            
@@ -281,7 +281,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The kingdom of Aragon originally started out as a Carolingian county on the southern borders of the empire. With the death of Sancho III of Navarre his kingdom was divided amongst his sons. Ramiro received Aragon and by defeating his elder brother, Ramiro achieved independence for Aragon. The Kingdom of Aragon gave the name to the Crown of Aragon, with the dynastic union resulting from the marriage of the Princess of Aragon, Petronilla, and the Count of Barcelona, Ramon Berenguer IV. Their son Alfonso II inherited all of the territories within the House of Aragon and within the House of Barcelona. The Crown of Aragon became a part of the Spanish monarchy after the dynastic union with Castile. These unions ensured strengthening of Christian ties, that allowed for the gradual conquest of muslim held Spain in the process known as the reconquista.'	     	         
 ]); 
 //28
 DB::table('cultures')->insert([            
@@ -291,7 +291,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Navarre was a kingdom that occupied lands on either side of the western Pyrenees mountains along the Atlantic coast in present-day Spain and France. The medieval state took form around the city of Pamplona during the first centuries of the Iberian Reconquista. A series of partitions and dynastic changes led to a diminution of its territory and to periods of rule by the kings of Aragon and later France. Another dynastic dispute led to internal divisions and the eventual conquest of the southern part of the kingdom.'	     	         
 ]); 
 //29
 DB::table('cultures')->insert([            
