@@ -301,7 +301,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The kingdom of Castile was a kingdom located on the Iberian peninsula. The kingdom united with the kingdom of Leon. Throughout the middle ages the Castilian kings made extensive conquests in the southern parts of Iberian peninsula at the expense of the islamic principalities. The Kingdoms of Castile and of Leon, with their southern acquisitions, came to be known collectively as the Crown of Castile. In the late middle ages much of Castile was ruled by the house of Trastamara. The high central plateau within the kingdom was a vast sheep pasturage and Castile grew wealthy in the trade of wool. '	     	         
 ]); 
 //30
 DB::table('cultures')->insert([            
@@ -311,7 +311,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Leon was a kingdom situated in the northwest region of the Iberian Peninsula. The kingdom was founded when the Christian princes of Asturias along the northern coast of the peninsula shifted their capital from Oviedo to the city of Leon. The kings of Leon fought civil wars, wars against neighbouring kingdoms as well as campaigns to repel invasions by both the Moors and the Vikings. In the high middle ages the kingdom of Leon formed an union with the kingdom of Castile as the Crown of Castile.'	     	         
 ]); 
 //31
 DB::table('cultures')->insert([            
@@ -321,7 +321,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Galicia was kingdom in the northwest of the Iberian Peninsula. Compostela became capital of Galicia in the high middle ages. Its capital was also an important catholic pelgrimage site. Queen Urraca, married a Burgundian nobleman, Raymond of Burgundy, who had participated in the Crusades against the Almoravids. His military victories as well as his Anscarid lineage justified this union. This union gave rise to the House of Burgundy, which would rule in Galicia, Leon, and Castile until the death of King Peter.'	     	         
 ]); 
 //32
 DB::table('cultures')->insert([            
