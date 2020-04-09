@@ -381,7 +381,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The kingdom of Hungary came into existence in central Europe when Stephen I was crowned king. Civil wars and uprisings, along with attempts by the Holy Roman Emperors to expand their authority over Hungary, jeopardized the new monarchy. The monarchy stabilized during the reigns of Ladislaus I and Coloman. These Hungarian rulers of the House of Arpad occupied Croatia and Dalmatia. The successors of Ladislaus and Coloman continued this policy of expansion towards the Balkan Peninsula and the lands east of the Carpathian Mountains, transforming their kingdom into one of the major powers of medieval Europe. Rich in silver, gold, and salt deposits, Hungary became the preferred destination of mainly German, Italian and French settlers. '	     	         
 ]); 
 //38
 DB::table('cultures')->insert([            
@@ -391,7 +391,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1400_la_suite_meurtriere',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Croatia entered in a personal union with the Kingdom of Hungary, after a period of rule of kings from the Trpimirovic and Svetoslavic dynasties and a succession crisis following the death of king Demetrius Zvonimir. With the coronation of king Coloman of Hungary as king of Croatia and Dalmatia in Biograd, the realm passed to the Arpad dynasty. The region struggled with Venice and the Byzantine empire over control of the lands.'	     	         
 ]); 
 //39
 DB::table('cultures')->insert([            
@@ -401,7 +401,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Serbian Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1000_gregorian_Byzantine',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Serbia or Serbian Kingdom, was a medieval Serbian state. The kingdom was ruled by the Nemanjic dynasty and the prior prinicipality by the Vojislavljevic dynasty. The Grand Principality of Serbia was elevated with the coronation of Stefan Nemanjic as king by his brother, archbishop Sava, after inheriting all territories unified by their father, grand prince Stefan Nemanja. The kingdom was proclaimed an empire in the late middle ages. During the reign of king Stefan Milutin many churches were build, such as the Graganica monastery. '	     	         
 ]); 
 //40
 DB::table('cultures')->insert([            
@@ -411,7 +411,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Serbian Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1000_gregorian_Byzantine',
-'culture_description' => ''	     	         
+'culture_description' => 'The First Bulgarian Empire was a medieval Bulgarian state that existed in southeastern Europe. It was founded when Bulgar tribes led by Asparuh moved to the northeastern Balkans. There they secured Byzantine recognition of their right to settle south of the Danube. As the state solidified its position in the Balkans, it entered into a centuries-long interaction, sometimes friendly and sometimes hostile, with the Byzantine Empire. '	     	         
 ]);
 //41
 DB::table('cultures')->insert([            
@@ -421,7 +421,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Serbian Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1000_gregorian_Byzantine',
-'culture_description' => ''	     	         
+'culture_description' => 'Wallachia is a historical and geographical region of modern Romania. Situated north of the Lower Danube and south of the Southern Carpathians. Wallachia is traditionally divided into two sections, Muntenia or Greater Wallachia and Oltenia or Lesser Wallachia. Wallachia was founded as a principality in the late middle ages by Basarab I, after a rebellion against Charles I of Hungary.'	     	         
 ]);
 //42
 DB::table('cultures')->insert([            
@@ -431,7 +431,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Russian Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_russian_winter',
-'culture_description' => ''	     	         
+'culture_description' => 'Kievan Rus was a loose federation of East Slavic peoples in Europe under the reign of the Varangian Rurik dynasty. At its greatest extent it stretched from the White Sea in the north to the Black Sea in the south and from the headwaters of the Vistula in the west to the Taman Peninsula in the east. The first ruler to start uniting East Slavic lands into what has become known as Kievan Rus was Prince Oleg. He extended his control from Novgorod south along the Dnieper river valley to protect trade from Khazar incursions from the east and he moved his capital to the more strategic Kiev. The state declined beginning in the high middle ages, disintegrating into various rival regional powers. The most important of which Kiev and the Novgorod republic. It was further weakened by economic factors, such as the collapse of Rus commercial ties to the Byzantine Empire and the accompanying diminution of trade routes through its territory, but remained important in the fur trade throughout the middle ages. The state finally fell to the Mongol invasion, but gradually the Tatar Yoke was broken by the grand principality of Moscow.'	     	         
 ]);
 //43
 DB::table('cultures')->insert([            
@@ -441,7 +441,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Greek Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1000_gregorian_Byzantine',
-'culture_description' => ''	     	         
+'culture_description' => 'The Byzantine Empire, also referred to as the Eastern Roman Empire, or Byzantium, was the continuation of the Roman Empire in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople also known as modern Istanbul, or formerly Byzantium. It survived the fragmentation and fall of the Western Roman Empire and continued to exist for an additional thousand years until it fell to the Ottoman Empire.'	     	         
 ]);
 //44
 DB::table('cultures')->insert([            
@@ -451,7 +451,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Greek Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1000_gregorian_Byzantine',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Georgia also known as the Georgian Empire was a medieval state near the Caucasus mountains. It reached its Golden Age of political and economic strength during the reign of king David IV and queen Tamar the Great. Georgia became one of the pre-eminent nations of the Christian East, her pan-Caucasian empire stretching, at its largest extent, from eastern Europe and the north Caucasus to the northern portion of modern Iran and the region of Anatolia, while also maintaining religious possessions abroad, such as the Monastery of the Cross in Jerusalem and the Monastery of Iviron in modern Greece. Lasting for several centuries, the kingdom fell to the Mongol invasions, but managed to re-assert sovereignty by the late middle ages. The Black Death, as well as numerous invasions under the leadership of Timur, devastated the economy, population, and urban centers. The geopolitical situation further worsened after the fall of the Byzantine and then Empire of Trebizond. As a result of these processes Georgia turned into a fractured entity.'	     	         
 ]);
 //45
 DB::table('cultures')->insert([            
@@ -461,7 +461,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Greek Orthodox',
 'commercial_culture' => 'Western',
 'troubadour' => '1000_gregorian_Byzantine',
-'culture_description' => ''	     	         
+'culture_description' => 'The Bagratid Kingdom of Armenia, also known as Bagratid Armenia or kingdom of the Bagratunis, was an independent state established by Ashot I Bagratuni. The establishment of the Bagratuni kingdom later led to the founding of several other Armenian principalities and kingdoms: Taron, Vaspurakan, Kars, Khachen and Syunik. Unity among all these states was sometimes difficult to maintain while the Byzantines and Arabs lost no time in exploiting any weaknesses. During the reign of Ashot III, the city of Ani became the capital of the kingdom and grew into a thriving economic and cultural centre.'	     	         
 ]);
 //46
 DB::table('cultures')->insert([            
@@ -471,7 +471,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1200_tarab_andalusi',
-'culture_description' => ''	     	         
+'culture_description' => 'The caliphate of Cordoba was a state in the south of the Iberian peninsula. The region was formerly dominated by the Umayyad emirate of Cordoba. The period was characterized by an expansion of trade and culture, and saw the construction of masterpieces of al-Andalus architecture. The caliphate disintegrated during the Fitna of al-Andalus, a civil war between the descendants of the last caliph, Hisham II, and the successors of his court official Al-Mansur. After years of infighting, the caliphate fractured into a number of independent muslim kingdoms known as taifa. These were gradually conquered by various christian kingdoms to the north. The last of the taifa to fall was the emirate of Granada. '	     	         
 ]);
 //47
 DB::table('cultures')->insert([            
@@ -481,17 +481,17 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_rast_Shuruq',
-'culture_description' => ''	     	         
+'culture_description' => 'Poetically called the place of sunrise, the Mashriq region was for a large period controlled by various Arabic caliphates, untill much of it was controlled by various Turkic sultanates. The Mongols sacked the city of Baghdad during the Mongol raids, having the foremost schlarly place within the islamic world, after which much of the region fell into decline. Another important city was Damascus which was important in the trade of cloth and manufacture of steel. The region was wealthy from the trade in exotic goods with far flung places in the far east. Crusaders too fought many battles in the Levant at various times taking control of important cities such as Jerusalem. These crusader incursions were dealth with by Salah ad Din better known in Europe as Saladin. '	     	         
 ]);
 //48
 DB::table('cultures')->insert([            
-'culture_name' => 'Nadj',	
+'culture_name' => 'Najd',	
 'warrior_culture' => 'Arabic',
 'chivalry_culture' => 'Arabic',	
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_rast_Shuruq',
-'culture_description' => ''	     	         
+'culture_description' => 'Najd or Nejd is a geographical region in what is modern Saudi Arabia. The Arabs expanded the territory under muslim rule beyond Arabia, conquering huge swathes of territory, from the Iberian peninsula in west to modern day Pakistan in the east in a matter of decades. In doing so, Arabia became a politically peripheral region of the muslim world as the focus shifted to the more developed conquered lands. The area were under the control of a local Arab emir, but often owed allegiance to the ruler of one of the major islamic empires based in Baghdad, Cairo or Istanbul. Most of the remainder reverted to traditional tribal rule.'	     	         
 ]);
 //49
 DB::table('cultures')->insert([            
@@ -501,7 +501,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_rast_Shuruq',
-'culture_description' => ''	     	         
+'culture_description' => 'Hejaz is a geographical region in what is modern Saudi Arabia. The Arabs expanded the territory under muslim rule beyond Arabia, conquering huge swathes of territory, from the Iberian peninsula in west to modern day Pakistan in the east in a matter of decades. In doing so, Arabia became a politically peripheral region of the muslim world as the focus shifted to the more developed conquered lands. Mecca and Medina became an important sites of pelgrimage. Both cities were under the control of a local Arab ruler known as the Sharif of Mecca, but at most times the Sharif owed allegiance to the ruler of one of the major islamic empires based in Baghdad, Cairo or Istanbul.'	     	         
 ]);
 //50
 DB::table('cultures')->insert([            
@@ -511,7 +511,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_rast_Shuruq',
-'culture_description' => ''	     	         
+'culture_description' => 'Misr is the Arabic name for Egypt. Egypt was dominated by the Fatimid caliphate, that was originally from modern Tunisia, but later moved to Egypt. Later the Mamluk sultunate was established in Egypt. The Mamluk state reached its height under Turkic rule with Arabic culture and then fell into a prolonged phase of decline.'	     	         
 ]);
 //51
 DB::table('cultures')->insert([            
@@ -521,7 +521,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_rast_Shuruq',
-'culture_description' => ''	     	         
+'culture_description' => 'Ifriqiya known professionally as el-Maghrib el-Adna, was the area during medieval history comprising what is today Tunisia, the region of Tripolitania or western Libya and the Constantinois or eastern Algeria, all part of what was previously included in the Africa Province of the Roman Empire. The Aghlabids, from their base in Kairouan, initiated the invasion of southern Italy, and established the Emirate of Sicily and Bari which lasted until it was conquered by the Normans. The Fatimid caliphate too initially started in the region untill it moved to Egypt. Much of the region was in the late middle ages ruled by the Hafsid dynasty.'	     	         
 ]);
 //52
 DB::table('cultures')->insert([            
@@ -531,7 +531,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_rast_Shuruq',
-'culture_description' => ''	     	         
+'culture_description' => 'The Maghreb also known as Northwest Africa the Arab Maghreb, and Barbary, is a subregion of North Africa. Several caliphates and emirates held control of much of the region through the period. The most prominent in the high middle ages being the Almoravid dynasty and the Alhomad caliphate. Both controlling large parts of the south of the Iberian peninsula in what was then muslim Spain.'	     	         
 ]);
 //53
 DB::table('cultures')->insert([            
@@ -541,7 +541,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1200_tarab_andalusi',
-'culture_description' => ''	     	         
+'culture_description' => 'Gharb or the Algarve is the southernmost region of continental Portugal. The region was held by muslim caliphs till the realm disintegrated into various petty kingdoms or taifa. Ultimately the region was conquered by the kingdom of Portugal, forming the kingdom of Portugal and the Algarves.'	     	         
 ]);
 //54
 DB::table('cultures')->insert([            
@@ -551,7 +551,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_bayati_Taqsim',
-'culture_description' => ''	     	         
+'culture_description' => 'Various Gokturk and other Turkic tribes arrived in the western parts of the Eurasian steppes in the early middle ages. A branch of Oghuz Turks conquered vast swathes of Persia and the Caucasus and the Anatolian peninsula in the high middle ages, forming the Seljuk empire. When the Seljuk empire collapsed, various Anatolian principalities known as beyliks gradually were conquered and united into the Ottoman empire. Guns and gunpowder allowed the Ottoman empire to become large and powerful, conquering large parts of previous Arabic held lands, and also the Balkans, and defeating the Byzantine empire.'	     	         
 ]);
 //55
 DB::table('cultures')->insert([            
@@ -561,7 +561,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_maqam_bayati_Taqsim',
-'culture_description' => ''	     	         
+'culture_description' => 'Medieval Persia was conquered by Arab caliphates in the early middle ages. By the high middle ages Abbasid caliphate control began to wane and various Persianite dynasties took control of parts of the lands. Parts of the land were also conquered by the kingdom of Georgia. These dynasties and rulers in turn were defeated by the Seljuk Turks untill they too were defeated by a Mongol invasion.'	     	         
 ]);
 //56
 DB::table('cultures')->insert([            
@@ -571,7 +571,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Muslim',
 'commercial_culture' => 'Oriental',
 'troubadour' => '1000_mongol_throat_Tes_Goliin_Magtaal',
-'culture_description' => ''	     	         
+'culture_description' => 'The Mongol hordes united in the high middle ages for the first time under the rule of Genghis Khan. He and his successors conquered a vast empire in much of Asia and eastern Europe, in brutal and deadly wars of conquest, the most deadly ever seen till then, conquering the largest empire the world had ever seen till then. The later khans ruled their own vast indepedent realms, untill through infighting and various other circumstances these gradually weakened and declined in importance.'	     	         
 ]);
     }
 }
