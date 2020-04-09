@@ -321,7 +321,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => 'The Kingdom of Galicia was kingdom in the northwest of the Iberian Peninsula. Compostela became capital of Galicia in the high middle ages. Its capital was also an important catholic pelgrimage site. Queen Urraca, married a Burgundian nobleman, Raymond of Burgundy, who had participated in the Crusades against the Almoravids. His military victories as well as his Anscarid lineage justified this union. This union gave rise to the House of Burgundy, which would rule in Galicia, Leon, and Castile until the death of King Peter.'	     	         
+'culture_description' => 'The Kingdom of Galicia was a kingdom in the northwest of the Iberian Peninsula. Compostela became capital of Galicia in the high middle ages. Its capital was also an important catholic pelgrimage site. Queen Urraca, married a Burgundian nobleman, Raymond of Burgundy, who had participated in the Crusades against the Almoravids. His military victories as well as his Anscarid lineage justified this union. This union gave rise to the House of Burgundy, which would rule in Galicia, Leon, and Castile until the death of King Peter.'	     	         
 ]); 
 //32
 DB::table('cultures')->insert([            
@@ -331,7 +331,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_ductia_Alfonso_el_Sabio',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Portugal was a kingdom in the west of the Iberian peninsula. In the late middle ages it was also known as the Kingdom of Portugal and the Algarves. Reinforced by the Templars and the Knights Hospitaller after it and the moorish chiefs divided into petty taifas, it conquered lands to the south in a process known as the reconquista. Portugal throughout much of the high middle ages was ruled by the House of Burgundy and later by the House of Aviz. An university was placed in Coimbra, being one of the oldest. The Portuguese grew rich from trade in wine and dyes and traded with Flemish merchants and the city-state of Genoa. Portuguese sailors were some of the earliest explorers.'	     	         
 ]);   
 //33
 DB::table('cultures')->insert([            
@@ -341,7 +341,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_minnesang_Palastinesong',
-'culture_description' => ''	     	         
+'culture_description' => 'Livonia is a historical region on the eastern shores of the Baltic Sea. By the high middle ages, the name was extended to most of present-day Estonia and Latvia that had been conquered during the Livonian Crusade by the Livonian Brothers of the Sword. Medieval Livonia, or Terra Mariana formed a confederation of prince-bishoprics and commandries. It reached its greatest extent after Saint George Night Uprising that forced Denmark to sell the Duchy of Estonia to the State of the Teutonic Order. The foremost town of Livonia was Riga, a member of the Hanseatic league, that was held by the archbishop of Riga. The region prospered with trade in wax, honey, grains, and timber.'	     	         
 ]); 
 //34
 DB::table('cultures')->insert([            
@@ -351,7 +351,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1200_minnesang_Palastinesong',
-'culture_description' => ''	     	         
+'culture_description' => 'Prussia was a region on the Baltic coast that was part of the Teutonic Order State. By the high middle ages the military order of the Teutonic Knights conquered the lands. The monastic state was mostly Germanised through immigration from central and western Germany, and in the south, it was Polonised by settlers from Masovia. Many of the major towns became part of the Hanseatic league.'	     	         
 ]);          
 //35
 DB::table('cultures')->insert([            
@@ -361,7 +361,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_dizzi_jig',
-'culture_description' => ''	     	         
+'culture_description' => 'The Kingdom of Poland was the Polish state from the coronation of the first King Bolesław I the Brave to the union with Lithuania and the rule of the Jagiellonian dynasty. The basis for the development of a Polish state was laid by the Piast dynasty. The capital was settled at Krakow. Poland exported a lot of grain.'	     	         
 ]); 
 //36
 DB::table('cultures')->insert([            
@@ -371,7 +371,7 @@ DB::table('cultures')->insert([
 'manorial_culture' => 'Catholic',
 'commercial_culture' => 'Western',
 'troubadour' => '1500_dizzi_jig',
-'culture_description' => ''	     		         
+'culture_description' => 'The kingdom of Lithuania, later grand duchy of Lithuania, formed a union with Poland in the high to late middle ages. Though several attempts were made to restore the kingdom in its own right, the personal union with Poland remained.'	     		         
 ]); 
 //37
 DB::table('cultures')->insert([            
