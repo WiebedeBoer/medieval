@@ -23,6 +23,21 @@ class Person extends Model
     public function cultures()
     {
         return $this->belongsTo('App\Culture','culture');
-    }  	
+    }  
+
+    public function spouses()
+    {
+        return $this->belongsTo('App\Person','spouse');
+    } 
+
+    public function fathers()
+    {
+        return $this->belongsTo('App\Person','father');
+    } 
+
+    public function mothers()
+    {
+        return $this->belongsTo('App\Person','mother');
+    } 	
 	
 }

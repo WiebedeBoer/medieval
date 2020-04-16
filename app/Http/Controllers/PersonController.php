@@ -22,9 +22,47 @@ class PersonController extends Controller
 	//show
     public function show($id)
     {       
-        $persondata = Person::with('cultures','owners','dynasties')->where('person_id', $id)->firstOrFail();	
+        $persondata = Person::with('cultures','owners','dynasties','mothers','fathers','spouses')->where('person_id', $id)->firstOrFail();	
 		$user = auth()->user();
-		return view('person.show', compact('persondata','user'));        
+		
+		//maiden name
+		if($persondata->gender ==0 && $persondata->spouse !=0)
+		{
+			$maiden_id = $persondata->spouse;
+			$maidendata = Person::with('cultures','owners','dynasties','mothers','fathers','spouses')->where('person_id', $maiden_id)->firstOrFail();
+			$maiden_name = $maidendata->dynasties->dynasty_name;
+			$maiden_id = $maidendata->dynasty;
+		}
+		else {
+			$maiden_name ="";
+			$maiden_id =0;
+
+		}
+		
+		//mother maiden name
+		if($persondata->mother !=0){
+			$mother_id = $persondata->mother;
+			$mothermaidendata = Person::with('cultures','owners','dynasties','mothers','fathers','spouses')->where('person_id', $mother_id)->firstOrFail();
+			
+			if($mothermaidendata->father !=0){
+				$maternal_grandfather = $mothermaidendata->father;
+				$maternaldata = Person::with('cultures','owners','dynasties','mothers','fathers','spouses')->where('person_id', $maternal_grandfather)->firstOrFail();
+				$mother_maiden_name = $maternaldata->dynasties->dynasty_name;
+				$mother_maiden_id = $maternaldata->dynasty;					
+			}
+			else {
+				$mother_maiden_name ="";
+				$mother_maiden_id =0;					
+			}
+		
+		}
+		else {
+			$mother_maiden_name ="";
+			$mother_maiden_id =0;			
+		}
+		
+		//return view
+		return view('person.show', compact('persondata','user','maiden_name','maiden_id','mother_maiden_name','mother_maiden_id'));        
     }
 	
     //marriage function
