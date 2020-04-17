@@ -25,3 +25,17 @@ Medieval was made using laravel, three.js, jquery, and bootstrap.
 <a href="https://lgtm.com/projects/g/mrdoob/three.js/" rel="nofollow"><img src="https://camo.githubusercontent.com/b160c5cee844a412e0c7e20b829fc6a97ba72bbd/68747470733a2f2f696d672e736869656c64732e696f2f6c67746d2f616c657274732f6769746875622f6d72646f6f622f74687265652e6a73" alt="Language Grade" data-canonical-src="https://img.shields.io/lgtm/alerts/github/mrdoob/three.js" style="max-width:100%;"></a>
 </p>
 
+# jQuery
+
+<p align="center"><a href="https://jquery.com/browser-support/">jQuery Browser Support</a></p>
+
+# Bootstrap
+ <p align="center">
+  <a href="https://getbootstrap.com/" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/a5f1061fb7cedc496c697e46448c39a1e6540184/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f342e332f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap logo" width="72" height="72" data-canonical-src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" style="max-width:100%;">
+  </a>
+  </p>
+ <p align="center">
+  Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+  </p>
+
