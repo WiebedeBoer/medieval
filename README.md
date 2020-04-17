@@ -15,3 +15,11 @@ Medieval was made using laravel, three.js, jquery, and bootstrap.
 
 </p>
 
+#three.js
+
+[![NPM Package][npm]][npm-url]
+[![Build Size][build-size]][build-size-url]
+[![NPM Downloads][npm-downloads]][npmtrends-url]
+[![Dev Dependencies][dev-dependencies]][dev-dependencies-url]
+[![Language Grade][lgtm]][lgtm-url]
+
