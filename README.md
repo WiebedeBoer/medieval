@@ -1,6 +1,6 @@
 ## About Medieval
 
-Medieval was made using laravel, three.js, jquery, and bootstrap.
+Medieval was made using PHP, JavaScript, MySQL, XML, HTML5, CSS3, and using Laravel, three.js, jQuery, and Bootstrap frameworks and libraries.
 
 # Laravel
 
