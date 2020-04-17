@@ -17,11 +17,16 @@ class CreatePeopleTable extends Migration
             $table->bigIncrements('person_id');
 			//name
 			$table->string('person_name');
+			//portrait
 			$table->string('portrait');
+			//nickname
+			$table->unsignedBigInteger('nickname')->default(0);
 			//belonging
 			$table->unsignedBigInteger('owner');
 			$table->unsignedBigInteger('dynasty');
 			$table->unsignedBigInteger('culture');
+			//religion
+			$table->string('religion')->default('Catholic');
 			//person data
 			$table->integer('gender');
 			$table->integer('birth');
@@ -29,8 +34,14 @@ class CreatePeopleTable extends Migration
 			$table->integer('alive')->default(1);
 			//relations
 			$table->unsignedBigInteger('spouse')->default(0);
+			$table->unsignedBigInteger('married')->default(0);
+			//parents
 			$table->unsignedBigInteger('father')->default(0);
 			$table->unsignedBigInteger('mother')->default(0);
+			//stats
+			$table->integer('renown')->default(0);
+			$table->integer('piety')->default(0);
+			$table->integer('gold')->default(0);			
 			//player stats
 			$table->integer('jud')->default(1);
 			$table->integer('eng')->default(1);

@@ -29,6 +29,11 @@ class Person extends Model
     {
         return $this->belongsTo('App\Person','spouse');
     } 
+	
+    public function marrieddynasties()
+    {
+        return $this->belongsTo('App\Dynasty','married');
+    } 
 
     public function fathers()
     {
@@ -38,6 +43,11 @@ class Person extends Model
     public function mothers()
     {
         return $this->belongsTo('App\Person','mother');
-    } 	
+    } 
+
+    public function nicknames()
+    {
+        return $this->belongsTo('App\Nickname','nickname');
+    } 
 	
 }

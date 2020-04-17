@@ -40,6 +40,8 @@ class DatabaseSeeder extends Seeder
 		$this->call('userSeeder');
 		//player character names
 		$this->call('NamesSeeder');
+		//character nick names
+		$this->call('NicknameSeeder');
     }
 }
 
