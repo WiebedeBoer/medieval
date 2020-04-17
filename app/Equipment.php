@@ -14,4 +14,10 @@ class Equipment extends Model
     {
         hasMany('App\Person', 'owner');
     } 	
+	
+	public function types()
+    {
+        hasMany('App\EquipmentCategory', 'category');
+    } 	
+	
 }

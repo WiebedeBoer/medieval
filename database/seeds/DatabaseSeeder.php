@@ -42,6 +42,9 @@ class DatabaseSeeder extends Seeder
 		$this->call('NamesSeeder');
 		//character nick names
 		$this->call('NicknameSeeder');
+		//equipment types
+		$this->call('EquipTypeSeeder');
+		
     }
 }
 
@@ -103,10 +106,12 @@ class fkeySeeder extends Seeder
         }); 
 
 		Schema::table('people', function (Blueprint $table) {
+			$table->foreign('nickname')->references('nickname_id')->on('nicknames');
 			$table->foreign('owner')->references('id')->on('users');
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('spouse')->references('person_id')->on('people');
+			$table->foreign('married')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('father')->references('person_id')->on('people');
 			$table->foreign('mother')->references('person_id')->on('people');
         }); 
@@ -128,7 +133,12 @@ class fkeySeeder extends Seeder
 			$table->foreign('holder')->references('person_id')->on('people');
 			$table->foreign('region')->references('region_id')->on('regions');
 			$table->foreign('place')->references('place_id')->on('places');
-        }); 		
+        }); 
+
+		Schema::table('equipment', function (Blueprint $table) {
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('category')->references('equipment_id')->on('equipment_categories');
+        }); 			
 		
     }
 }
