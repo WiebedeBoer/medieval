@@ -25,6 +25,8 @@ class CreatePeopleTable extends Migration
 			$table->unsignedBigInteger('owner');
 			$table->unsignedBigInteger('dynasty');
 			$table->unsignedBigInteger('culture');
+			//place
+			$table->unsignedBigInteger('place')->default(0);
 			//religion
 			$table->string('religion')->default('Catholic');
 			//person data

@@ -122,6 +122,7 @@ class fkeySeeder extends Seeder
 			$table->foreign('owner')->references('id')->on('users');
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
+			$table->foreign('place')->references('place_id')->on('places');
 			$table->foreign('spouse')->references('person_id')->on('people');
 			$table->foreign('married')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('father')->references('person_id')->on('people');
@@ -180,7 +181,67 @@ class fkeySeeder extends Seeder
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('place')->references('place_id')->on('places');
 			$table->foreign('region')->references('region_id')->on('regions');		
-        }); 		
+        }); 
+
+		//caravans
+		Schema::table('caravans', function (Blueprint $table) {
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('master')->references('person_id')->on('people');
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+			$table->foreign('place')->references('place_id')->on('places');
+        }); 
+		
+		//fleets
+		Schema::table('fleets', function (Blueprint $table) {
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('master')->references('person_id')->on('people');
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+			$table->foreign('place')->references('place_id')->on('places');
+        }); 
+		
+		//cargo
+		Schema::table('cargos', function (Blueprint $table) {
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+			$table->foreign('fleet')->references('fleet_id')->on('fleets');
+			$table->foreign('caravan')->references('caravan_id')->on('caravans');		
+			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('resource')->references('resource_id')->on('resource_types');
+        }); 
+		
+		//produces
+		Schema::table('produces', function (Blueprint $table) {
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+        }); 
+		
+		//construction materials
+		Schema::table('construction_materials', function (Blueprint $table) {
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+        }); 
+		
+		//ores
+		Schema::table('ores', function (Blueprint $table) {
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+        }); 
+		
+		//products
+		Schema::table('products', function (Blueprint $table) {
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+        }); 
+		
+		//goods
+		Schema::table('goods', function (Blueprint $table) {
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
+        }); 
+		
+		//shops
+		Schema::table('shops', function (Blueprint $table) {
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('master')->references('person_id')->on('people');
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');
+			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('resource')->references('resource_id')->on('resource_types');			
+        }); 
 		
     }
 }

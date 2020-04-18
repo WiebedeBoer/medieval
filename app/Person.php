@@ -50,4 +50,9 @@ class Person extends Model
         return $this->belongsTo('App\Nickname','nickname');
     } 
 	
+    public function places()
+    {
+        return $this->belongsTo('App\Place','place');
+    } 
+	
 }
