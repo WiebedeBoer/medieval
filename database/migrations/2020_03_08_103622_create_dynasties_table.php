@@ -17,10 +17,13 @@ class CreateDynastiesTable extends Migration
             $table->bigIncrements('dynasty_id');
 			$table->unsignedBigInteger('dynasty_owner');
 			$table->unsignedBigInteger('culture')->default(0);
+			$table->unsignedBigInteger('ruler')->default(0);
+			$table->unsignedBigInteger('heir')->default(0);
 			$table->string('dynasty_name');
 			$table->string('crest_back')->default('black');
 			$table->string('crest_emblem')->default('greylight_vh');
 			$table->string('crest_shape')->default('shield');
+			//description
 			$table->text('dynasty_description')->nullable();
             $table->timestamps();
         });

@@ -39,9 +39,9 @@ class CreatePlacesTable extends Migration
 			$table->integer('agr')->default(1);
 			$table->integer('com')->default(1);
 			$table->integer('def')->default(1);
-			$table->integer('jus')->default(1);
-			$table->integer('mor')->default(1);
-			$table->integer('tra')->default(1);
+			$table->integer('jus')->default(900);
+			$table->integer('mor')->default(99);
+			$table->integer('tra')->default(50);
 			$table->integer('sol')->default(1);
 			//description
 			$table->text('place_description')->nullable();

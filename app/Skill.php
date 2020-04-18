@@ -14,4 +14,10 @@ class Skill extends Model
     {
         return $this->belongsTo('App\Person','person');
     } 
+	
+    public function types()
+    {
+        return $this->belongsTo('App\SkillCategory','skill');
+    } 
+	
 }

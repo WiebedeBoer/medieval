@@ -15,7 +15,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'destrier',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '32',
 		'manouver' => '44'
@@ -24,7 +23,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'spirited destrier',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '33',
 		'manouver' => '46'
@@ -33,7 +31,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'champion destrier',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '34',
 		'manouver' => '48'
@@ -42,7 +39,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'courser',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '12',
 		'manouver' => '44'
@@ -51,7 +47,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'spirited courser',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '13',
 		'manouver' => '46'
@@ -60,7 +55,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'champion courser',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '13',
 		'manouver' => '48'
@@ -69,7 +63,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'palfrey',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '7',
 		'manouver' => '40',
@@ -79,7 +72,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'spirited palfrey',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '8',
 		'manouver' => '42',
@@ -89,7 +81,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'champion palfrey',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '9',
 		'manouver' => '44',
@@ -99,7 +90,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'rouncey',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '7',
 		'manouver' => '40',
@@ -109,7 +99,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'spirited rouncey',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '8',
 		'manouver' => '42',
@@ -119,7 +108,6 @@ class EquipTypeSeeder extends Seeder
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'champion rouncey',
 		'type' => 'horse',
-		'armor' => '0',
 		'riding' => '6',
 		'charge' => '9',
 		'manouver' => '44',
@@ -132,6 +120,13 @@ class EquipTypeSeeder extends Seeder
 		'cargo' => '2',
 		'riding' => '6'
 		]);	
+		
+		//barding
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'barding',
+		'type' => 'barding',
+		'armor' => '54'
+		]);			
 		
 		//oxen
 		DB::table('equipment_categories')->insert([            
@@ -182,7 +177,14 @@ class EquipTypeSeeder extends Seeder
 		'manouver' => '54'
 		]);	
 		
-		//ships
+		//early medieval ships
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'karve',
+		'type' => 'ship',
+		'cargo' => '16',
+		'riding' => '7'
+		]);		
+		
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'knarr',
 		'type' => 'ship',
@@ -190,6 +192,21 @@ class EquipTypeSeeder extends Seeder
 		'riding' => '7'
 		]);	
 		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'dhow',
+		'type' => 'ship',
+		'cargo' => '75',
+		'riding' => '7'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'khelandion',
+		'type' => 'ship',
+		'cargo' => '80',
+		'riding' => '7'
+		]);	
+		
+		//high medieval ships
 		DB::table('equipment_categories')->insert([            
 		'equipment' => 'cog',
 		'type' => 'ship',
@@ -205,9 +222,38 @@ class EquipTypeSeeder extends Seeder
 		]);	
 		
 		DB::table('equipment_categories')->insert([            
-		'equipment' => 'carrack',
+		'equipment' => 'dromon',
 		'type' => 'ship',
-		'cargo' => '60',
+		'cargo' => '100',
+		'riding' => '7'
+		]);	
+		
+		//late medieval ships
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'picard',
+		'type' => 'ship',
+		'cargo' => '24',
+		'riding' => '7'
+		]);			
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'crayer',
+		'type' => 'ship',
+		'cargo' => '32',
+		'riding' => '7'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'hoy',
+		'type' => 'ship',
+		'cargo' => '50',
+		'riding' => '7'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'ballinger',
+		'type' => 'ship',
+		'cargo' => '50',
 		'riding' => '7'
 		]);	
 		
@@ -215,6 +261,13 @@ class EquipTypeSeeder extends Seeder
 		'equipment' => 'caravel',
 		'type' => 'ship',
 		'cargo' => '50',
+		'riding' => '7'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'carrack',
+		'type' => 'ship',
+		'cargo' => '60',
 		'riding' => '7'
 		]);	
 		
@@ -546,6 +599,35 @@ class EquipTypeSeeder extends Seeder
 		'type' => 'matchlock',
 		'accuracy' => '99',
 		'range' => '50'
+		]);
+		
+		//artillery
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'mangonel',
+		'type' => 'artillery',
+		'accuracy' => '99',
+		'range' => '250'
+		]);
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'trebuchet',
+		'type' => 'artillery',
+		'accuracy' => '99',
+		'range' => '350'
+		]);
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'culverin',
+		'type' => 'artillery',
+		'accuracy' => '99',
+		'range' => '400'
+		]);
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'bombard',
+		'type' => 'artillery',
+		'accuracy' => '99',
+		'range' => '500'
 		]);
 
 		//polearm
