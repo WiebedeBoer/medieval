@@ -22,8 +22,14 @@ class CreateBuildingCategoriesTable extends Migration
 			$table->string('culture')->default('none');
 			$table->string('religion')->default('none');
 			//construction
-			$table->integer('stone')->default(0);
-			$table->integer('wood')->default(0);		
+			$table->integer('stones')->default(0);
+			$table->integer('tiles')->default(0);
+			$table->integer('timber')->default(0);	
+			$table->integer('tatch')->default(0);	
+			$table->integer('hardware')->default(0);
+			$table->integer('stained_glass')->default(0);
+			//cost
+			$table->integer('cost')->default(0);
             $table->timestamps();
         });
     }

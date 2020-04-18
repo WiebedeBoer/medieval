@@ -1255,6 +1255,110 @@ class EquipTypeSeeder extends Seeder
 		'equipment' => 'Speculum of Judges',
 		'type' => 'blockbook',
 		'literature' => '1'
+		]);	
+
+		//trade containers
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'barrel',
+		'type' => 'containers'
+		]);
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'basket',
+		'type' => 'containers'
+		]);
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'pottery',
+		'type' => 'containers'
+		]);
+		
+		//foodstuff
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'meat',
+		'type' => 'food'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'bread',
+		'type' => 'food'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'cake',
+		'type' => 'food'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'cheese',
+		'type' => 'food'
+		]);	
+		
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'fish',
+		'type' => 'food'
+		]);	
+
+		//beverages
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'wine',
+		'type' => 'beverage'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'beer',
+		'type' => 'beverage'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'cider',
+		'type' => 'beverage'
+		]);		
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'mead',
+		'type' => 'beverage'
+		]);	
+
+		//household
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'furniture',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'paintings',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'perfume',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'carpet',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'clothing',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'tableware',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'jewelry',
+		'type' => 'household'
+		]);	
+
+		DB::table('equipment_categories')->insert([            
+		'equipment' => 'silverwork',
+		'type' => 'household'
 		]);			
 	
 		
