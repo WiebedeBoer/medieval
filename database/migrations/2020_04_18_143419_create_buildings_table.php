@@ -17,6 +17,8 @@ class CreateBuildingsTable extends Migration
             $table->bigIncrements('building_id');
 			//name
 			$table->string('building_name');
+			//building state
+			$table->integer('building_state')->default(100);
 			//type
 			$table->unsignedBigInteger('building_type');
 			//belonging
@@ -24,6 +26,8 @@ class CreateBuildingsTable extends Migration
 			$table->unsignedBigInteger('master')->default(0);
 			//place
 			$table->unsignedBigInteger('place')->default(0);
+			//quarters
+			$table->unsignedBigInteger('quarter')->default(0);
 			//region
 			$table->unsignedBigInteger('region')->default(0);
 			//religion

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCulturesTable extends Migration
+class CreateSteadCulturesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,10 @@ class CreateCulturesTable extends Migration
      */
     public function up()
     {
-        Schema::create('cultures', function (Blueprint $table) {
+        Schema::create('stead_cultures', function (Blueprint $table) {
             $table->bigIncrements('culture_id');
+			//name
 			$table->string('culture_name');
-			$table->string('warrior_culture');
-			$table->string('chivalry_culture');
-			$table->string('manorial_culture');
-			$table->string('commercial_culture');
-			$table->string('troubadour');
-			$table->unsignedBigInteger('stead_culture');
-			$table->text('culture_description')->nullable();
             $table->timestamps();
         });
     }
@@ -34,6 +28,6 @@ class CreateCulturesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cultures');
+        Schema::dropIfExists('stead_cultures');
     }
 }

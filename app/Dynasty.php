@@ -30,4 +30,9 @@ class Dynasty extends Model
         return $this->belongsTo('App\Person','heir');
     } 
 	
+    public function homes()
+    {
+        return $this->belongsTo('App\Place','home');
+    } 
+	
 }

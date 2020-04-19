@@ -18,32 +18,32 @@ class Place extends Model
 
 	public function lordparamount()
     {
-        return $this->belongsTo('App\User','lord_paramount');
+        return $this->belongsTo('App\Person','lord_paramount');
     } 
 	
 	public function tenantinchief()
     {
-        return $this->belongsTo('App\User','tenant_in_chief');
+        return $this->belongsTo('App\Person','tenant_in_chief');
     } 
 
 	public function mesnelord()
     {
-        return $this->belongsTo('App\User','mesne_lord');
+        return $this->belongsTo('App\Person','mesne_lord');
     } 
 
 	public function tenantparavail()
     {
-        return $this->belongsTo('App\User','tenant_paravail');
+        return $this->belongsTo('App\Person','tenant_paravail');
     } 
 	
 	public function allodialowner()
     {
-        return $this->belongsTo('App\User','allodial_owner');
+        return $this->belongsTo('App\Person','allodial_owner');
     } 
 
 	public function tenureowner()
     {
-        return $this->belongsTo('App\User','tenure_owner');
+        return $this->belongsTo('App\Person','tenure_owner');
     } 
 	
 	//titles

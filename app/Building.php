@@ -35,4 +35,16 @@ class Building extends Model
     {
         return $this->belongsTo('App\BuildingCategory','building_type');
     } 
+	
+    public function quarters()
+    {
+        return $this->belongsTo('App\Quarter','quarter');
+    } 
+
+	//rooms
+	public function rooms()
+    {
+        return $this->hasMany('App\Room','building');
+    }	
+	
 }

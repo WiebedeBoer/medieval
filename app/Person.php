@@ -55,4 +55,14 @@ class Person extends Model
         return $this->belongsTo('App\Place','place');
     } 
 	
+    public function realms()
+    {
+        return $this->belongsTo('App\Realm','realm');
+    } 
+	
+    public function guilds()
+    {
+        return $this->belongsTo('App\Guild','guild');
+    } 
+	
 }

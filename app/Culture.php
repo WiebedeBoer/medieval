@@ -15,4 +15,9 @@ class Culture extends Model
         return $this->hasMany('App\Region','culture');
     }	
 	
+    public function steadcultures()
+    {
+        return $this->belongsTo('App\SteadCulture','stead_culture');
+    } 
+	
 }

@@ -58,6 +58,18 @@ class Realm extends Model
     public function capitals()
     {
         return $this->belongsTo('App\Place','capital');
-    } 		
+    } 
+
+	//citizens
+	public function citizens()
+    {
+        return $this->hasMany('App\Person','realm');
+    }
+
+	//guilds
+	public function guilds()
+    {
+        return $this->hasMany('App\Guild','realm');
+    }		
 	
 }
