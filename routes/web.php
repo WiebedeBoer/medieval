@@ -38,23 +38,6 @@ Route::get('manual/stats', 'ManualController@stats');
 Route::get('manual/skills', 'ManualController@skills');
 Route::get('manual/development', 'ManualController@development');
 Route::get('manual/economy', 'ManualController@economy');
-//forum main
-Route::get('forum', 'ForumController@index');
-//forum thread
-Route::get('forum/create','ForumController@create');
-Route::post('forum','ForumController@store');
-Route::get('forum/thread/{thread}', 'ForumController@thread');
-Route::delete('forum/{thread}', 'ForumController@destroy');
-//forum post
-Route::get('forum/{forum}/edit', 'ForumController@edit');
-Route::patch('forum/{forum}', 'ForumController@update');
-//subforum
-Route::get('forum/open','ForumController@open');
-Route::get('forum/tavern','ForumController@tavern');
-Route::get('forum/intro','ForumController@intro');
-Route::get('forum/kingdom','ForumController@kingdom');
-Route::get('forum/region','ForumController@region');
-Route::get('forum/war','ForumController@war');
 //news
 Route::get('news', 'NewsController@index');
 Route::get('rules', 'NewsController@rules');
@@ -70,14 +53,12 @@ Route::delete('users/{user}', 'UserController@destroy');
 Route::get('tutorial/dynasty', 'TutorialController@dynasty');
 Route::get('tutorial/character', 'TutorialController@character');
 Route::get('tutorial/estate', 'TutorialController@estate');
-//persons
-Route::get('persons', 'PersonController@index');
-Route::get('persons/create','PersonController@create');
-Route::post('persons','PersonController@store');
-Route::get('persons/{person}', 'PersonController@show');
-Route::get('persons/{person}/edit', 'PersonController@edit');
-Route::delete('persons/{person}', 'PersonController@destroy');
-Route::patch('persons/{person}', 'PersonController@update');
+//chronicles
+Route::get('chronicles', 'ChronicleController@index');
+//gameplay socials and hierearchy
+//religion
+Route::get('religion', 'ReligionController@index');
+Route::get('religion/{religion}', 'ReligionController@show');	
 //dynasty
 Route::get('dynasty', 'DynastyController@index');
 Route::get('dynasty/create','DynastyController@create');
@@ -86,15 +67,87 @@ Route::get('dynasty/{dynasty}', 'DynastyController@show');
 Route::get('dynasty/{dynasty}/edit', 'DynastyController@edit');
 Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
 Route::patch('dynasty/{dynasty}', 'DynastyController@update');
+//culture
+Route::get('culture', 'CultureController@index');
+Route::get('culture/{culture}', 'CultureController@show');
+Route::get('culture/{culture}/edit', 'CultureController@edit');
+Route::patch('culture/{culture}', 'CultureController@update');
+//realms
+
+//guilds
+
+//titles
+
+//citizens
+
+//guild members
+
+//spouses
+
+//parents
+
+//gameplay characters
+//persons
+Route::get('persons', 'PersonController@index');
+Route::get('persons/create','PersonController@create');
+Route::post('persons','PersonController@store');
+Route::get('persons/{person}', 'PersonController@show');
+Route::get('persons/{person}/edit', 'PersonController@edit');
+Route::delete('persons/{person}', 'PersonController@destroy');
+Route::patch('persons/{person}', 'PersonController@update');
 //portraits
 Route::get('portraits/create','PortraitController@create');
 Route::post('portraits/create','PortraitController@store');
-//estates
-Route::get('estates/create','EstateController@create');
-Route::post('estates/create','EstateController@store');
-//region
-Route::get('religion', 'ReligionController@index');
-Route::get('religion/{religion}', 'ReligionController@show');
+//skills
+
+//equipment
+
+
+//forum
+//forum main
+Route::get('forum', 'ForumController@index');
+//forum thread
+Route::get('forum/create','ForumController@create');
+Route::post('forum','ForumController@store');
+Route::get('forum/thread/{thread}', 'ForumController@thread');
+Route::delete('forum/{thread}', 'ForumController@destroy');
+//forum post
+Route::get('forum/{forum}/edit', 'ForumController@edit');
+Route::patch('forum/{forum}', 'ForumController@update');
+//subforum
+Route::get('forum/open','ForumController@open');
+Route::get('forum/tavern','ForumController@tavern');
+Route::get('forum/intro','ForumController@intro');
+Route::get('forum/kingdom','ForumController@kingdom');
+Route::get('forum/guild','ForumController@guild');
+Route::get('forum/region','ForumController@region');
+Route::get('forum/war','ForumController@war');
+
+//military
+//armies
+
+//brigades
+
+//economy and trade
+//caravans
+
+//fleets
+
+//cargo
+
+//produces
+
+//construction materials
+
+//ores
+
+//products
+
+//goods
+
+//shops
+
+//geography and locations
 //maps
 Route::get('map/cattle','MapController@cattle');
 Route::get('map/goat','MapController@goat');
@@ -109,13 +162,20 @@ Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
 Route::get('region/{region}/edit', 'RegionController@edit');
 Route::patch('region/{region}', 'RegionController@update');
-//culture
-Route::get('culture', 'CultureController@index');
-Route::get('culture/{culture}', 'CultureController@show');
-Route::get('culture/{culture}/edit', 'CultureController@edit');
-Route::patch('culture/{culture}', 'CultureController@update');
+//homesteads
+
+//estates
+Route::get('estates/create','EstateController@create');
+Route::post('estates/create','EstateController@store');
 //place
 Route::get('place', 'PlaceController@index');
 Route::get('place/{place}', 'PlaceController@show');
 Route::get('place/{place}/edit', 'PlaceController@edit');
 Route::patch('place/{place}', 'PlaceController@update');
+//quarters
+
+//buildings
+
+//rooms
+
+//furnishings

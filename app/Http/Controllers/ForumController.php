@@ -148,6 +148,21 @@ class ForumController extends Controller
 		return view('forum.kingdom', compact('threadcount','threaddata'));  
 	}
 	
+	//guild view
+	public function guild()
+	{
+		$sub ="guild";
+		$threadcount = Thread::where('subforum', $sub)->count();
+		if ($threadcount >=1)
+		{
+			$threaddata = Thread::where('subforum', $sub)->get();
+		}
+		else {
+			$threaddata =[];
+		}
+		return view('forum.guild', compact('threadcount','threaddata'));  
+	}
+	
 	//region view
 	public function region()
 	{

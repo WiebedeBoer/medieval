@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateThreadsTable extends Migration
+class CreateChroniclesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,20 +13,20 @@ class CreateThreadsTable extends Migration
      */
     public function up()
     {
-        Schema::create('threads', function (Blueprint $table) {
-            $table->bigIncrements('thread_id');
-			$table->string('subforum');
-			$table->string('thread_name');
+        Schema::create('chronicles', function (Blueprint $table) {
+            $table->bigIncrements('event_id');
+			$table->string('event_title');
+			$table->string('event_category')->default('common');
+			$table->integer('year')->default(793);
 			//fk
-			$table->unsignedBigInteger('creator')->default(1); //user fk
+			$table->unsignedBigInteger('dynasty')->default(1); //dynasty fk
 			$table->unsignedBigInteger('region')->nullable(); //region fk
+			$table->unsignedBigInteger('place')->nullable(); //place fk
 			$table->unsignedBigInteger('realm')->nullable(); //realm fk
 			$table->unsignedBigInteger('belligerent')->nullable(); //war realm fk
 			$table->unsignedBigInteger('guild')->nullable(); //guild fk
-			//sticky
-			$table->integer('sticky')->default(0);
 			//description
-			$table->text('thread_description')->nullable();
+			$table->text('event_description')->nullable();
             $table->timestamps();
         });
     }
@@ -38,6 +38,6 @@ class CreateThreadsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('threads');
+        Schema::dropIfExists('chronicles');
     }
 }

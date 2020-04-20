@@ -31,7 +31,7 @@ class CreatePeopleTable extends Migration
 			$table->string('religion')->default('Catholic');
 			//person data
 			$table->integer('gender');
-			$table->integer('birth');
+			$table->integer('birth')->default(775);
 			$table->string('career')->default('peasantry');
 			$table->integer('alive')->default(1);
 			//ruler heir checks

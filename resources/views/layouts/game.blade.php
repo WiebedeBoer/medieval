@@ -99,6 +99,7 @@
 						<a href="/manual">Manual</a>
 						<a href="/dynasty">Dynasty</a>
 						<a href="/region">Worldmap</a>
+						<a href="/chronicles">Chronicles</a>
 						<a href="/users/{{ Auth::user()->id }}">Account</a>
 					</div>			
 		</div>

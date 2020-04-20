@@ -6,7 +6,7 @@ Dashboard
 @include('warning')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+       
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
@@ -24,6 +24,7 @@ Dashboard
 						<a href="/manual">Manual</a>
 						<a href="/dynasty">Dynasty</a>
 						<a href="/region">Worldmap</a>
+						<a href="/chronicles">Chronicles</a>
 						<a href="/users/{{ Auth::user()->id }}">Account</a>
 					</div>
 
@@ -40,7 +41,7 @@ Dashboard
 					
                 </div>
             </div>
-        </div>
+        
     </div>
 </div>
 @endsection

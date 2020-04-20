@@ -27,6 +27,11 @@ Forum
 </div>
 
 <div class="py-3">
+<h2 class="c">Guild Roleplay</h2>
+<p class="c">according to the <a href="/forum/guild">guild</a> one is part of</p>
+</div>
+
+<div class="py-3">
 <h2 class="c">Regional Roleplay</h2>
 <p class="c">according to the <a href="/forum/region">region</a> one inhabits</p>
 </div>

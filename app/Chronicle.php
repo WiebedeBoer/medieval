@@ -4,20 +4,25 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Thread extends Model
+class Chronicle extends Model
 {
-    //threads tabel
-    protected $table = 'threads';
-    protected $primaryKey = 'thread_id';
+    //chronicles tabel
+    protected $table = 'chronicles';
+    protected $primaryKey = 'event_id';
 	
-    public function creators()
+    public function dynasties()
     {
-        return $this->belongsTo('App\User','creator');
+        return $this->belongsTo('App\Dynasty','dynasty');
     } 	
 
     public function regions()
     {
         return $this->belongsTo('App\Region','region');
+    } 
+	
+    public function places()
+    {
+        return $this->belongsTo('App\Place','place');
     } 
 	
     public function realms()
@@ -34,11 +39,4 @@ class Thread extends Model
     {
         return $this->belongsTo('App\Guild','guild');
     } 
-
-	//posts
-	public function posts()
-    {
-        return $this->hasMany('App\Post','thread');
-    }		
-	
 }
