@@ -20,17 +20,13 @@ class CreatePeopleTable extends Migration
 			//portrait
 			$table->string('portrait');
 			//nickname
-			$table->unsignedBigInteger('nickname')->default(0);
+			$table->unsignedBigInteger('nickname')->default(1);
 			//belonging
-			$table->unsignedBigInteger('owner');
-			$table->unsignedBigInteger('dynasty');
-			$table->unsignedBigInteger('culture');
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('dynasty')->default(1);
+			$table->unsignedBigInteger('culture')->default(13);
 			//place
-			$table->unsignedBigInteger('place')->default(0);
-			//realm
-			$table->unsignedBigInteger('realm')->default(0);
-			//guild
-			$table->unsignedBigInteger('guild')->default(0);
+			$table->unsignedBigInteger('place')->default(497);
 			//religion
 			$table->string('religion')->default('Catholic');
 			//person data
@@ -38,12 +34,11 @@ class CreatePeopleTable extends Migration
 			$table->integer('birth');
 			$table->string('career')->default('peasantry');
 			$table->integer('alive')->default(1);
+			//ruler heir checks
+			$table->integer('ruler')->default(0);
+			$table->integer('heir')->default(0);
 			//relations
-			$table->unsignedBigInteger('spouse')->default(0);
-			$table->unsignedBigInteger('married')->default(0);
-			//parents
-			$table->unsignedBigInteger('father')->default(0);
-			$table->unsignedBigInteger('mother')->default(0);
+			$table->unsignedBigInteger('married')->default(1);
 			//stats
 			$table->integer('renown')->default(0);
 			$table->integer('piety')->default(0);

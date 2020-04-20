@@ -18,6 +18,10 @@ class DatabaseSeeder extends Seeder
     {
         //foreign keys
 		$this->call('fkeySeeder');
+		
+		//admin user
+		$this->call('userSeeder');	
+
 		//stead cultures
 		$this->call('SteadCultureSeeder');
 		//cultures
@@ -25,7 +29,13 @@ class DatabaseSeeder extends Seeder
 		//regions
 		$this->call('RegionSeeder');
 		//places
-		$this->call('PlaceSeeder');
+		$this->call('PlaceSeeder');	
+		//character nick names
+		$this->call('NicknameSeeder');
+		
+		//defaults seeder
+		$this->call('defaultsSeeder');
+		
 		//titles
 		$this->call('RealmTitlesSeeder');
 		$this->call('CourtTitlesSeeder');
@@ -36,14 +46,9 @@ class DatabaseSeeder extends Seeder
 		$this->call('BurgherTitlesSeeder');
 		$this->call('InnTitlesSeeder');
 		$this->call('CommonTitlesSeeder');
-		//titles
 		$this->call('TitleSeeder');
-		//admin user
-		$this->call('userSeeder');
 		//player character names
 		$this->call('NamesSeeder');
-		//character nick names
-		$this->call('NicknameSeeder');
 		//equipment types
 		$this->call('EquipTypeSeeder');
 		//skill types
@@ -67,8 +72,6 @@ class fkeySeeder extends Seeder
 		//gameplay socials and hierearchy		
 		//dynasties
 		Schema::table('dynasties', function (Blueprint $table) {
-			$table->foreign('ruler')->references('person_id')->on('people');
-			$table->foreign('heir')->references('person_id')->on('people');
             $table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('dynasty_owner')->references('id')->on('users');
 			$table->foreign('home')->references('place_id')->on('places');
@@ -82,15 +85,15 @@ class fkeySeeder extends Seeder
 		//realms
 		Schema::table('realms', function (Blueprint $table) {
 			$table->foreign('ruler')->references('person_id')->on('people');
-			$table->foreign('owner')->references('id')->on('users');
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
+			$table->foreign('capital')->references('place_id')->on('places');
 			$table->foreign('chancellor')->references('person_id')->on('people');
 			$table->foreign('chamberlain')->references('person_id')->on('people');
 			$table->foreign('marshall')->references('person_id')->on('people');
 			$table->foreign('admiral')->references('person_id')->on('people');
 			$table->foreign('steward')->references('person_id')->on('people');
-			$table->foreign('capital')->references('place_id')->on('places');
+			
         });
 		
 		//guilds
@@ -106,7 +109,32 @@ class fkeySeeder extends Seeder
 			$table->foreign('holder')->references('person_id')->on('people');
 			$table->foreign('region')->references('region_id')->on('regions');
 			$table->foreign('place')->references('place_id')->on('places');
-        }); 		
+        });
+
+		//citizens
+        Schema::table('citizens', function (Blueprint $table) {
+			$table->foreign('citizen')->references('person_id')->on('people');
+            $table->foreign('realm')->references('realm_id')->on('realms');			
+        }); 
+		
+		//guild members
+        Schema::table('guild_members', function (Blueprint $table) {
+			$table->foreign('member')->references('person_id')->on('people');
+            $table->foreign('guild')->references('guild_id')->on('guilds');			
+        }); 
+		
+		//spouses
+        Schema::table('spouses', function (Blueprint $table) {
+			$table->foreign('husband')->references('person_id')->on('people');
+            $table->foreign('wife')->references('person_id')->on('people');			
+        }); 
+		
+		//parents
+        Schema::table('parents', function (Blueprint $table) {
+			$table->foreign('father')->references('person_id')->on('people');
+            $table->foreign('mother')->references('person_id')->on('people');
+			$table->foreign('child')->references('person_id')->on('people');				
+        }); 
 
 		//gameplay characters
 		//person
@@ -116,12 +144,7 @@ class fkeySeeder extends Seeder
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('place')->references('place_id')->on('places');
-			$table->foreign('realm')->references('realm_id')->on('realms');	
-			$table->foreign('guild')->references('guild_id')->on('guilds');	
-			$table->foreign('spouse')->references('person_id')->on('people');
 			$table->foreign('married')->references('dynasty_id')->on('dynasties');	
-			$table->foreign('father')->references('person_id')->on('people');
-			$table->foreign('mother')->references('person_id')->on('people');
         }); 
 		
 		//skills
@@ -308,11 +331,107 @@ class fkeySeeder extends Seeder
     }
 }
 
-class userSeeder extends Seeder
+class defaultsSeeder extends Seeder
 {
 	//admin
     public function run()
     {
+		//default dynasties
+		//dynasty 1 game moderator
+		DB::table('dynasties')->insert([
+			'dynasty_name' => 'wanderers',
+			'dynasty_owner' => '1',
+			'culture' => '13',
+			'home' => '497'
+		]);	
+		//default persons
+		//person 1 adam
+		DB::table('people')->insert([
+			'person_name' => 'Adam',
+			'portrait' => 'black',
+			'nickname' => '1',
+			'owner' => '1',
+			'dynasty' => '1',
+			'culture' => '13',
+			'place' => '497',
+			'married' => '1',
+			'gender' => '1',
+			'birth' => '0',
+			'alive' => '0',
+		]);
+		//person 2 eve
+		DB::table('people')->insert([
+			'person_name' => 'Eve',
+			'portrait' => 'black',
+			'nickname' => '2',
+			'owner' => '1',
+			'dynasty' => '1',
+			'culture' => '13',
+			'place' => '497',
+			'married' => '1',
+			'gender' => '0',
+			'birth' => '0',
+			'alive' => '0',
+		]);		
+		//default realms
+		//realm 1 wanderers
+		DB::table('realms')->insert([
+			'realm_name' => 'wanderers',
+			'realm_type' => 'wanderers',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '13',
+			'capital' => '497',			
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'							
+		]);			
+		//realm 2 papacy
+		DB::table('realms')->insert([
+			'realm_name' => 'Papal States',
+			'realm_type' => 'papacy',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '13',
+			'capital' => '497',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//default guilds
+		//guild 1 wanderers
+		DB::table('guilds')->insert([
+			'guild_name' => 'wanderers',
+			'guild_category' => 'wanderers',
+			'place' => '497',
+			'realm' => '1',
+			'master' => '1'
+		]);			
+	
+	}
+	
+}
+
+class userSeeder extends Seeder
+{
+	
+	//admins game moderator
+    public function run()
+    {
+		//1 default admin game master
+		DB::table('users')->insert([
+			'name' => 'GameMaster',
+			'email' => 'info@romegames.nl',
+			'password' => '$2y$10$cGxbdYZ84Jd1iBerxc4YcOSSUmu6JeIFc5JhrPe5Fh9MRTQcl3xwO',
+			'audio' => '0',
+			'admin' => '1'
+		]);
+	
+		//2 admin player
 		DB::table('users')->insert([
 			'name' => 'Wiebe',
 			'email' => 'wiebe81@gmail.com',

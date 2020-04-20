@@ -11,7 +11,18 @@ class NicknameSeeder extends Seeder
      */
     public function run()
     {
-        //male equipment nicknames
+        //defaults
+		DB::table('nicknames')->insert([            
+		'nickname' => 'the founder',
+		'type' => 'male'
+		]);			
+	
+		DB::table('nicknames')->insert([            
+		'nickname' => 'the founder',
+		'type' => 'female'
+		]);			
+		
+		//male equipment nicknames
 		DB::table('nicknames')->insert([            
 		'nickname' => 'ironside',
 		'type' => 'male'
@@ -97,7 +108,6 @@ class NicknameSeeder extends Seeder
 		'nickname' => 'the confessor',
 		'type' => 'male'
 		]);	
-
 		
 		DB::table('nicknames')->insert([            
 		'nickname' => 'the conqueror',
@@ -136,11 +146,6 @@ class NicknameSeeder extends Seeder
 		
 		DB::table('nicknames')->insert([            
 		'nickname' => 'the fearless',
-		'type' => 'male'
-		]);	
-
-		DB::table('nicknames')->insert([            
-		'nickname' => 'the founder',
 		'type' => 'male'
 		]);			
 		

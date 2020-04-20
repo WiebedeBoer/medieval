@@ -18,7 +18,7 @@ class Guild extends Model
 	//members
 	public function members()
     {
-        return $this->hasMany('App\Person','guild');
+        return $this->hasMany('App\GuildMember','guild');
     }		
 	
 }

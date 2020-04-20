@@ -24,25 +24,10 @@ class Person extends Model
     {
         return $this->belongsTo('App\Culture','culture');
     }  
-
-    public function spouses()
-    {
-        return $this->belongsTo('App\Person','spouse');
-    } 
 	
     public function marrieddynasties()
     {
         return $this->belongsTo('App\Dynasty','married');
-    } 
-
-    public function fathers()
-    {
-        return $this->belongsTo('App\Person','father');
-    } 
-
-    public function mothers()
-    {
-        return $this->belongsTo('App\Person','mother');
     } 
 
     public function nicknames()
@@ -55,14 +40,46 @@ class Person extends Model
         return $this->belongsTo('App\Place','place');
     } 
 	
+	//citizens
     public function realms()
     {
-        return $this->belongsTo('App\Realm','realm');
+        return $this->hasMany('App\Realm','citizen');
     } 
 	
-    public function guilds()
+	//guild members
+    public function guildmembers()
     {
-        return $this->belongsTo('App\Guild','guild');
+        return $this->hasMany('App\Guild','member');
     } 
+	
+	//husbands
+	public function husbands()
+    {
+        return $this->hasMany('App\Spouse','husband');
+    }		
+
+	//wives
+	public function wives()
+    {
+        return $this->hasMany('App\Spouse','wife');
+    }	
+
+	//fathers
+	public function wives()
+    {
+        return $this->hasMany('App\Parent','father');
+    }
+
+	//mothers
+	public function wives()
+    {
+        return $this->hasMany('App\Parent','mother');
+    }	
+	
+	//kids
+	public function kids()
+    {
+        return $this->hasMany('App\Parent','child');
+    }	
 	
 }

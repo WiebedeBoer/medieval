@@ -63,7 +63,7 @@ class Realm extends Model
 	//citizens
 	public function citizens()
     {
-        return $this->hasMany('App\Person','realm');
+        return $this->hasMany('App\Citizen','realm');
     }
 
 	//guilds

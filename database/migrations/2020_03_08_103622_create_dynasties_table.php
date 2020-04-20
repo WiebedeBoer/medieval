@@ -17,9 +17,7 @@ class CreateDynastiesTable extends Migration
             $table->bigIncrements('dynasty_id');
 			//belonging
 			$table->unsignedBigInteger('dynasty_owner');
-			$table->unsignedBigInteger('culture')->default(0);
-			$table->unsignedBigInteger('ruler')->default(0);
-			$table->unsignedBigInteger('heir')->default(0);
+			$table->unsignedBigInteger('culture')->default(13);
 			//custom
 			$table->string('dynasty_name');
 			$table->string('crest_back')->default('black');

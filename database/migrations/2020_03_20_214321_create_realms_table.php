@@ -18,15 +18,15 @@ class CreateRealmsTable extends Migration
 			$table->string('realm_name');
 			$table->string('realm_type')->default('kingdom');
 			$table->unsignedBigInteger('ruler');
-			$table->unsignedBigInteger('owner');
 			$table->unsignedBigInteger('dynasty');
-			$table->unsignedBigInteger('culture');		
-			$table->unsignedBigInteger('chancellor')->default(0);
-			$table->unsignedBigInteger('chamberlain')->default(0);
-			$table->unsignedBigInteger('marshall')->default(0);
-			$table->unsignedBigInteger('admiral')->default(0);
-			$table->unsignedBigInteger('steward')->default(0);
-			$table->unsignedBigInteger('capital')->default(0);
+			$table->unsignedBigInteger('culture');	
+			$table->unsignedBigInteger('capital')->default(497);
+			$table->unsignedBigInteger('chancellor')->default(1);
+			$table->unsignedBigInteger('chamberlain')->default(1);
+			$table->unsignedBigInteger('marshall')->default(1);
+			$table->unsignedBigInteger('admiral')->default(1);
+			$table->unsignedBigInteger('steward')->default(1);
+			
             $table->timestamps();
         });
     }
