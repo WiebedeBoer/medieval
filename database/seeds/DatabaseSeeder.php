@@ -339,7 +339,7 @@ class defaultsSeeder extends Seeder
 		//default dynasties
 		//dynasty 1 game moderator
 		DB::table('dynasties')->insert([
-			'dynasty_name' => 'wanderers',
+			'dynasty_name' => 'Wanderers',
 			'dynasty_owner' => '1',
 			'culture' => '13',
 			'home' => '497'
@@ -374,9 +374,9 @@ class defaultsSeeder extends Seeder
 			'alive' => '0',
 		]);		
 		//default realms
-		//realm 1 wanderers
+		//realm 1, wanderers
 		DB::table('realms')->insert([
-			'realm_name' => 'wanderers',
+			'realm_name' => 'Wanderers',
 			'realm_type' => 'wanderers',
 			'ruler' => '1',
 			'dynasty' => '1',
@@ -387,8 +387,9 @@ class defaultsSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'							
-		]);			
-		//realm 2 papacy
+		]);	
+		//papacy
+		//realm 2, papacy
 		DB::table('realms')->insert([
 			'realm_name' => 'Papal States',
 			'realm_type' => 'papacy',
@@ -401,17 +402,189 @@ class defaultsSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
+		]);
+		//empires
+		//realm 3, holy roman empire
+		DB::table('realms')->insert([
+			'realm_name' => 'Holy Roman Empire',
+			'realm_type' => 'elective empire',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '8',
+			'capital' => '29',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
 		]);	
+		//realm 4, byzantine empire
+		DB::table('realms')->insert([
+			'realm_name' => 'Byzantine Empire',
+			'realm_type' => 'feudal empire',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '825',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);					
+		//crusaders
+		//realm 5, teutonic order state
+		DB::table('realms')->insert([
+			'realm_name' => 'Teutonic Order State',
+			'realm_type' => 'confederate crusader',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '34',
+			'capital' => '277',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm 6, knights hospitaller
+		DB::table('realms')->insert([
+			'realm_name' => 'Knights Hospitaller',
+			'realm_type' => 'crusader',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '12',
+			'capital' => '993',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);		
+		//realm 7, knights templar
+		DB::table('realms')->insert([
+			'realm_name' => 'Knights Templar',
+			'realm_type' => 'crusader',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '14',
+			'capital' => '993',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm 8, england
+		DB::table('realms')->insert([
+			'realm_name' => 'England',
+			'realm_type' => 'chivalric kingdom',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '18',
+			'capital' => '185',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
+		//realm 9, france
+		DB::table('realms')->insert([
+			'realm_name' => 'France',
+			'realm_type' => 'chivalric kingdom',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '14',
+			'capital' => '113',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
+		//realm 10, hungary
+		DB::table('realms')->insert([
+			'realm_name' => 'Hungary',
+			'realm_type' => 'chivalric kingdom',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '37',
+			'capital' => '685',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
 		//default guilds
 		//guild 1 wanderers
 		DB::table('guilds')->insert([
-			'guild_name' => 'wanderers',
+			'guild_name' => 'Wanderers',
 			'guild_category' => 'wanderers',
 			'place' => '497',
 			'realm' => '1',
 			'master' => '1'
-		]);			
-	
+		]);	
+		//chivalric guilds
+		//guild 2, england, windsor
+		DB::table('guilds')->insert([
+			'guild_name' => 'Order of the Garter',
+			'guild_category' => 'chivalric',
+			'place' => '186',
+			'realm' => '1',
+			'master' => '1'
+		]);	
+		//guild 3, france, paris
+		DB::table('guilds')->insert([
+			'guild_name' => 'Order of the Star',
+			'guild_category' => 'chivalric',
+			'place' => '113',
+			'realm' => '1',
+			'master' => '1'
+		]);	
+		//guild 4, hungary, esztergom
+		DB::table('guilds')->insert([
+			'guild_name' => 'Order Saint George',
+			'guild_category' => 'chivalric',
+			'place' => '685',
+			'realm' => '1',
+			'master' => '1'
+		]);	
+		//guild 5, holy roman empire, bruges
+		DB::table('guilds')->insert([
+			'guild_name' => 'Order of the Golden Fleece',
+			'guild_category' => 'chivalric',
+			'place' => '97',
+			'realm' => '3',
+			'master' => '1'
+		]);	
+		//crusader guilds
+		//guild 6, teutonic knights
+		DB::table('guilds')->insert([
+			'guild_name' => 'Teutonic Knights',
+			'guild_category' => 'crusader',
+			'place' => '277',
+			'realm' => '5',
+			'master' => '1'
+		]);	
+		//guild 7, knights hospitaller
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights Hospitaller',
+			'guild_category' => 'crusader',
+			'place' => '993',
+			'realm' => '6',
+			'master' => '1'
+		]);	
+		//guild 8, knights templar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights Templar',
+			'guild_category' => 'crusader',
+			'place' => '993',
+			'realm' => '7',
+			'master' => '1'
+		]);	
+		
 	}
 	
 }
