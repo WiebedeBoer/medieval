@@ -634,7 +634,7 @@ class RealmTitlesSeeder extends Seeder
 		DB::table('titles')->insert([
 			'title_name' => '[king] of Fez',
 			'region' => '138',
-			'place' => '539',
+			'place' => '549',
 			'religion' => 'Muslim',
 			'rank' => '11',
 			'career' => 'fixed_royalty'

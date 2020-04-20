@@ -78,5 +78,47 @@ class GuildSeeder extends Seeder
 			'realm' => '7',
 			'master' => '1'
 		]);	
+		//monastic guilds
+		//guild 9
+		DB::table('guilds')->insert([
+			'guild_name' => 'Augustinian Order',
+			'guild_category' => 'monastic',
+			'place' => '497',
+			'realm' => '2',
+			'master' => '1'
+		]);	
+		//guild 10
+		DB::table('guilds')->insert([
+			'guild_name' => 'Benedictine Order',
+			'guild_category' => 'monastic',
+			'place' => '500',
+			'realm' => '2',
+			'master' => '1'
+		]);	
+		//guild 11
+		DB::table('guilds')->insert([
+			'guild_name' => 'Carmelite Order',
+			'guild_category' => 'monastic',
+			'place' => '192',
+			'realm' => '8',
+			'master' => '1'
+		]);	
+		//guild 12
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cistercian Order',
+			'guild_category' => 'monastic',
+			'place' => '132',
+			'realm' => '9',
+			'master' => '1'
+		]);	
+		//guild 13
+		DB::table('guilds')->insert([
+			'guild_name' => 'Franciscan Order',
+			'guild_category' => 'monastic',
+			'place' => '496',
+			'realm' => '2',
+			'master' => '1'
+		]);			
+		
     }
 }
