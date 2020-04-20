@@ -9,7 +9,7 @@ Game
 	
 
 <div class="createform">
-<form method="POST" action="/portraits" class="pb-3">
+<form method="POST" action="/portraits/create" class="pb-3">
 
 <!--portrait-->
 <div class="armorial">

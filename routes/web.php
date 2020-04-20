@@ -88,6 +88,10 @@ Route::delete('dynasty/{dynasty}', 'DynastyController@destroy');
 Route::patch('dynasty/{dynasty}', 'DynastyController@update');
 //portraits
 Route::get('portraits/create','PortraitController@create');
+Route::post('portraits/create','PortraitController@store');
+//estates
+Route::get('estates/create','EstateController@create');
+Route::post('estates/create','EstateController@store');
 //region
 Route::get('religion', 'ReligionController@index');
 Route::get('religion/{religion}', 'ReligionController@show');

@@ -423,8 +423,31 @@ class DynastyController extends Controller
 		$available_emblems = $this->available_emblems($color_keys);
 		$emblem_array_count = count($available_emblems);
 		return $emblem_array_count;
+	}
+
+	//random home generator
+	public function homegenerator($culture){
+
+		$regioncount = Region::where('culture', $culture)->count();
+		if ($regioncount >=1){
+			$random_homes = [];
+			$regiondata = Region::where('culture', $culture)->get();
+			foreach($regiondata as $region)
+			{
+				$placedata = Place::where('region', $region->region_id)->get();
+				foreach($placedata as $places)
+				{
+					array_push($random_homes,$places->place_id);
+				}
+			}
+			$home = Arr::random($random_homes);
+		}
+		else {
+			$home = 497;
+		}
+
+		return $home;
 	}	
-	
 
     //store function
     public function store()
@@ -448,20 +471,24 @@ class DynastyController extends Controller
 			$user = auth()->user();
 			$user_id = $user->id;
 			//saving
-			$dynasty = new Dynasty();       
+			$dynasty = new Dynasty(); 
+			//fk
 			$dynasty->dynasty_owner = $user_id;
 			$dynasty->culture = request('culture');
-			$dynasty->dynasty_name = request('dynasty_name');
-			$dynasty->dynasty_description = request('dynasty_description');
-			
+			//name
+			$dynasty->dynasty_name = request('dynasty_name');		
+			//crest
 			$dynasty->crest_back = request('crest_back');
 			$dynasty->crest_emblem = request('crest_emblem');
 			$dynasty->crest_shape = request('crest_shape');
-			
+			//home
+			$dynasty->home = $this->homegenerator($dynasty->culture);
+			$dynasty->tutorial = 1;
 			//fetch
 			$color = $dynasty->crest_back;
 			$emblem = $dynasty->crest_emblem;
-
+			//description
+			$dynasty->dynasty_description = request('dynasty_description');
 			//back colors
 			$back_colors = $this->back_colors();
 			//checking

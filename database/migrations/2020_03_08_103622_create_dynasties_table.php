@@ -20,13 +20,13 @@ class CreateDynastiesTable extends Migration
 			$table->unsignedBigInteger('culture')->default(13);
 			//custom
 			$table->string('dynasty_name');
-			$table->string('crest_back')->default('black');
+			$table->string('crest_back')->default('back_black');
 			$table->string('crest_emblem')->default('greylight_vh');
 			$table->string('crest_shape')->default('shield');
 			//home
 			$table->unsignedBigInteger('home')->default(0);
 			//tutorial
-			$table->integer('turorial')->default(0);
+			$table->integer('tutorial')->default(0);
 			//prestige
 			$table->integer('prestige')->default(0);
 			$table->integer('prosperity')->default(0);

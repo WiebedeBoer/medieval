@@ -65,13 +65,13 @@ class Person extends Model
     }	
 
 	//fathers
-	public function wives()
+	public function fathers()
     {
         return $this->hasMany('App\Parent','father');
     }
 
 	//mothers
-	public function wives()
+	public function mothers()
     {
         return $this->hasMany('App\Parent','mother');
     }	

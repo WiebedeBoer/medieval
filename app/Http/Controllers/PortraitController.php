@@ -195,7 +195,7 @@ class PortraitController extends Controller
 			$firstfemaleportrait = $this->portraitvalue(0,$portrait_culture,"female");
 			//naming culture
 			$names = $this->namingculture($gender);
-			return view('portraits.create', compact('gender','dynasty','portrait_culture','users','portrait','nextportrait','prevportrait','firstmaleportrait','firstfemaleportrait','names'));    			
+			return view('portraits.create', compact('gender','portrait_culture','portrait','nextportrait','prevportrait','firstmaleportrait','firstfemaleportrait','names'));    			
 		}
     
     }
@@ -336,7 +336,7 @@ class PortraitController extends Controller
 
 		//not allowed
 		if ($charactercount >=4 || $dynastycount <1){
-			return redirect('/home')->with('message', 'Not allowed1');
+			return redirect('/home')->with('message', 'Not allowed to create person');
 		}
 		//create allowed
 		else {
@@ -380,13 +380,23 @@ class PortraitController extends Controller
 			}
 			//saving
 			$person = new Person(); 
-			$person->owner = $user_id;	
-			$person->dynasty = $dynasty->dynasty_id;		
-			$person->culture = $dynasty->culture;				
-			$portrait_culture = $this->portraitculture();		
+			//fk
+			if ($gender ==1){
+				$person->nickname = 1; //nickname
+			}
+			else {
+				$person->nickname = 2; //nickname
+			}
+			$person->owner = $user_id;	//owner
+			$person->dynasty = $dynasty->dynasty_id; //dynasty		
+			$person->culture = $dynasty->culture; //culture	
+			$person->place = $dynasty->home; //place				
+			
+			//custom
 			$person->person_name = request('person_name');
-			$person->portrait = request('portrait');					
-			$portrait = $person->portrait;	
+			$person->portrait = request('portrait');
+			$person->gender = $gender;
+			$person->birth = 0;
 			//stats
 			$person->jud = request('jud');
 			$person->eng = request('eng');
@@ -406,7 +416,9 @@ class PortraitController extends Controller
 			$person->rai = request('rai');
 			$person->tra = request('tra');
 			//portrait
-			$emblen_no = $this->portraitkey($color_keys,$portrait,$portrait_culture,$request_gender);
+			$portrait_culture = $this->portraitculture();
+			$portrait = $person->portrait;	
+			$emblen_no = $this->portraitkey($portrait,$portrait_culture,$request_gender);
 			if (is_int($emblen_no) || $emblen_no ==0){
 				//saving
 				$person->save();       
@@ -414,7 +426,7 @@ class PortraitController extends Controller
 				return redirect('/dynasty/'.$dynasty->dynasty_id)->with('message', 'Added');
 			}
 			else {
-				return redirect('/home')->with('message', 'Not allowed portrait');
+				return redirect('/portraits/create?portrait=f002_brown&gender=female')->with('message', 'Not allowed portrait');
 			}	
 			
 		}
