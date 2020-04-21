@@ -897,8 +897,118 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-
-		
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => 'Genoa',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '465',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm
+		DB::table('realms')->insert([
+			'realm_name' => '',
+			'realm_type' => 'merchant_republic',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '',
+			'capital' => '',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);		
 		
     }
 }
