@@ -924,7 +924,343 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Taron',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '907',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Peleponessos',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '837',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Hellas',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '833',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Icosium',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '869',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Anatolia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '870',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Karaman',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '871',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Smyrna',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '857',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Thracesia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '861',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);		
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Coracesium',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '873',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Bursa',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '867',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Opsicia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '865',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Cappadocia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '889',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);		
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Sebasteia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '909',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Paphlagonia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '881',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Canik',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '902',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Nicopolis',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '841',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);		
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Epirus',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '845',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Thessaloniki',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '829',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Macedonia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '831',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Bucellaria',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '43',
+			'capital' => '877',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Raskha',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '39',
+			'capital' => '737',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Wallachia',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '41',
+			'capital' => '707',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Moldova',
+			'realm_type' => 'dynastic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '41',
+			'capital' => '717',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//agnatic principalities
+		//realm ,  
+		DB::table('realms')->insert([
+			'realm_name' => 'Halych',
+			'realm_type' => 'agnatic_principality',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '42',
+			'capital' => '761',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);			
 		
 		//emirates
 		//realm
