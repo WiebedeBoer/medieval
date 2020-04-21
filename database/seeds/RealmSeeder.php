@@ -540,21 +540,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm 38, thrace
-		DB::table('realms')->insert([
-			'realm_name' => 'Thrace',
-			'realm_type' => 'dynastic_kingdom',
-			'ruler' => '1',
-			'dynasty' => '1',
-			'culture' => '43',
-			'capital' => '825',
-			'chancellor' => '1',
-			'chamberlain' => '1',
-			'marshall' => '1',
-			'admiral' => '1',
-			'steward' => '1'
-		]);
-		//realm 39, bulgaria
+		//realm 38, bulgaria
 		DB::table('realms')->insert([
 			'realm_name' => 'Bulgaria',
 			'realm_type' => 'dynastic_kingdom',
@@ -569,7 +555,7 @@ class RealmSeeder extends Seeder
 			'steward' => '1'
 		]);			
 		//caliphates
-		//realm 40, cordoba 
+		//realm 39, cordoba 
 		DB::table('realms')->insert([
 			'realm_name' => 'Cordoba',
 			'realm_type' => 'dynastic_caliphate',
@@ -583,7 +569,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm 41, fez
+		//realm 40, fez
 		DB::table('realms')->insert([
 			'realm_name' => 'Fez',
 			'realm_type' => 'dynastic_caliphate',
@@ -597,7 +583,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm 42, marrakesh
+		//realm 41, marrakesh
 		DB::table('realms')->insert([
 			'realm_name' => 'Marrakesh',
 			'realm_type' => 'dynastic_caliphate',
@@ -611,7 +597,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm 43, kairouan
+		//realm 42, kairouan
 		DB::table('realms')->insert([
 			'realm_name' => 'Kairouan',
 			'realm_type' => 'dynastic_caliphate',
@@ -625,7 +611,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm 44, cairo
+		//realm 43, cairo
 		DB::table('realms')->insert([
 			'realm_name' => 'Cairo',
 			'realm_type' => 'dynastic_caliphate',
@@ -1190,7 +1176,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm ,  
+		//realm 83, bucellaria
 		DB::table('realms')->insert([
 			'realm_name' => 'Bucellaria',
 			'realm_type' => 'dynastic_principality',
@@ -1204,7 +1190,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm ,  
+		//realm 84, raskha 
 		DB::table('realms')->insert([
 			'realm_name' => 'Raskha',
 			'realm_type' => 'dynastic_principality',
@@ -1218,7 +1204,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm ,  
+		//realm 85, wallachia
 		DB::table('realms')->insert([
 			'realm_name' => 'Wallachia',
 			'realm_type' => 'dynastic_principality',
@@ -1232,7 +1218,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm ,  
+		//realm 86, moldova 
 		DB::table('realms')->insert([
 			'realm_name' => 'Moldova',
 			'realm_type' => 'dynastic_principality',
@@ -1247,7 +1233,7 @@ class RealmSeeder extends Seeder
 			'steward' => '1'
 		]);	
 		//agnatic principalities
-		//realm ,  
+		//realm 87, Halych 
 		DB::table('realms')->insert([
 			'realm_name' => 'Halych',
 			'realm_type' => 'agnatic_principality',
@@ -1260,7 +1246,8 @@ class RealmSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
-		]);			
+		]);	
+		//realm 88, Pereyaslav
 		DB::table('realms')->insert([
 			'realm_name' => 'Pereyaslav',
 			'realm_type' => 'agnatic_principality',
@@ -1273,7 +1260,8 @@ class RealmSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
-		]);			
+		]);
+		//realm 89, Kiev
 		DB::table('realms')->insert([
 			'realm_name' => 'Kiev',
 			'realm_type' => 'agnatic_principality',
@@ -1286,7 +1274,8 @@ class RealmSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
-		]);			
+		]);	
+		//realm 90, Tchernigov
 		DB::table('realms')->insert([
 			'realm_name' => 'Tchernigov',
 			'realm_type' => 'agnatic_principality',
@@ -1300,6 +1289,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
+		//realm 91, Smolensk
 		DB::table('realms')->insert([
 			'realm_name' => 'Smolensk',
 			'realm_type' => 'agnatic_principality',
@@ -1312,7 +1302,8 @@ class RealmSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
-		]);			
+		]);	
+		//realm 92, Polotsk
 		DB::table('realms')->insert([
 			'realm_name' => 'Polotsk',
 			'realm_type' => 'agnatic_principality',
@@ -1325,7 +1316,8 @@ class RealmSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
-		]);			
+		]);
+		//realm 93, Ryazan
 		DB::table('realms')->insert([
 			'realm_name' => 'Ryazan',
 			'realm_type' => 'agnatic_principality',
@@ -1339,6 +1331,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
+		//realm 94, Muscowy
 		DB::table('realms')->insert([
 			'realm_name' => 'Muscowy',
 			'realm_type' => 'agnatic_principality',
@@ -1351,7 +1344,8 @@ class RealmSeeder extends Seeder
 			'marshall' => '1',
 			'admiral' => '1',
 			'steward' => '1'
-		]);			
+		]);		
+		//realm 95, Pleskov
 		DB::table('realms')->insert([
 			'realm_name' => 'Pleskov',
 			'realm_type' => 'agnatic_principality',
@@ -1366,7 +1360,7 @@ class RealmSeeder extends Seeder
 			'steward' => '1'
 		]);						
 		//emirates
-		//realm
+		//realm 96, Zaragoza
 		DB::table('realms')->insert([
 			'realm_name' => 'Zaragoza',
 			'realm_type' => 'dynastic_emirate',
@@ -1380,7 +1374,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 97, Baleares
 		DB::table('realms')->insert([
 			'realm_name' => 'Baleares',
 			'realm_type' => 'dynastic_emirate',
@@ -1394,7 +1388,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 98, Valencia
 		DB::table('realms')->insert([
 			'realm_name' => 'Valencia',
 			'realm_type' => 'dynastic_emirate',
@@ -1408,7 +1402,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 99, Denia
 		DB::table('realms')->insert([
 			'realm_name' => 'Denia',
 			'realm_type' => 'dynastic_emirate',
@@ -1422,7 +1416,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 100, Murcia
 		DB::table('realms')->insert([
 			'realm_name' => 'Murcia',
 			'realm_type' => 'dynastic_emirate',
@@ -1436,7 +1430,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 101, Granada
 		DB::table('realms')->insert([
 			'realm_name' => 'Granada',
 			'realm_type' => 'dynastic_emirate',
@@ -1450,7 +1444,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 102, Almeria
 		DB::table('realms')->insert([
 			'realm_name' => 'Almeria',
 			'realm_type' => 'dynastic_emirate',
@@ -1464,7 +1458,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 103, Malaga
 		DB::table('realms')->insert([
 			'realm_name' => 'Malaga',
 			'realm_type' => 'dynastic_emirate',
@@ -1478,7 +1472,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 104, Sevilla
 		DB::table('realms')->insert([
 			'realm_name' => 'Sevilla',
 			'realm_type' => 'dynastic_emirate',
@@ -1492,7 +1486,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 105, Badajoz
 		DB::table('realms')->insert([
 			'realm_name' => 'Badajoz',
 			'realm_type' => 'dynastic_emirate',
@@ -1506,7 +1500,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 106, Toledo
 		DB::table('realms')->insert([
 			'realm_name' => 'Toledo',
 			'realm_type' => 'dynastic_emirate',
@@ -1520,7 +1514,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 107, Algarve
 		DB::table('realms')->insert([
 			'realm_name' => 'Algarve',
 			'realm_type' => 'dynastic_emirate',
@@ -1534,7 +1528,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 108, Ifni
 		DB::table('realms')->insert([
 			'realm_name' => 'Ifni',
 			'realm_type' => 'dynastic_emirate',
@@ -1548,7 +1542,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 109, Figuig
 		DB::table('realms')->insert([
 			'realm_name' => 'Figuig',
 			'realm_type' => 'dynastic_emirate',
@@ -1562,7 +1556,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);				
-		//realm
+		//realm 110, Najd
 		DB::table('realms')->insert([
 			'realm_name' => 'Najd',
 			'realm_type' => 'dynastic_emirate',
@@ -1576,7 +1570,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 111, Antioch
 		DB::table('realms')->insert([
 			'realm_name' => 'Antioch',
 			'realm_type' => 'dynastic_emirate',
@@ -1590,7 +1584,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 112, Isfahan
 		DB::table('realms')->insert([
 			'realm_name' => 'Isfahan',
 			'realm_type' => 'dynastic_emirate',
@@ -1605,7 +1599,7 @@ class RealmSeeder extends Seeder
 			'steward' => '1'
 		]);	
 		//merchant republics
-		//realm
+		//realm 113, Venice
 		DB::table('realms')->insert([
 			'realm_name' => 'Venice',
 			'realm_type' => 'merchant_republic',
@@ -1619,7 +1613,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 114, Genoa
 		DB::table('realms')->insert([
 			'realm_name' => 'Genoa',
 			'realm_type' => 'merchant_republic',
@@ -1633,7 +1627,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 115, Noli
 		DB::table('realms')->insert([
 			'realm_name' => 'Noli',
 			'realm_type' => 'merchant_republic',
@@ -1647,7 +1641,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 116, Gaeta
 		DB::table('realms')->insert([
 			'realm_name' => 'Gaeta',
 			'realm_type' => 'merchant_republic',
@@ -1661,7 +1655,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 117, Pisa
 		DB::table('realms')->insert([
 			'realm_name' => 'Pisa',
 			'realm_type' => 'merchant_republic',
@@ -1675,7 +1669,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 118, Ragusa
 		DB::table('realms')->insert([
 			'realm_name' => 'Ragusa',
 			'realm_type' => 'merchant_republic',
@@ -1689,7 +1683,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 119, Amalfi
 		DB::table('realms')->insert([
 			'realm_name' => 'Amalfi',
 			'realm_type' => 'merchant_republic',
@@ -1703,7 +1697,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);			
-		//realm
+		//realm 120, Ancona
 		DB::table('realms')->insert([
 			'realm_name' => 'Ancona',
 			'realm_type' => 'merchant_republic',
@@ -1717,7 +1711,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 121, Florence
 		DB::table('realms')->insert([
 			'realm_name' => 'Florence',
 			'realm_type' => 'merchant_republic',
@@ -1731,7 +1725,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);		
-		//realm
+		//realm 122, Lucca
 		DB::table('realms')->insert([
 			'realm_name' => 'Lucca',
 			'realm_type' => 'merchant_republic',
@@ -1745,7 +1739,7 @@ class RealmSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
-		//realm
+		//realm 123, Novgorod
 		DB::table('realms')->insert([
 			'realm_name' => 'Novgorod',
 			'realm_type' => 'merchant_republic',
@@ -1753,6 +1747,20 @@ class RealmSeeder extends Seeder
 			'dynasty' => '1',
 			'culture' => '42',
 			'capital' => '793',
+			'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm 124, Mongol Horde
+		DB::table('realms')->insert([
+			'realm_name' => 'Mongol Horde',
+			'realm_type' => 'horde',
+			'ruler' => '1',
+			'dynasty' => '1',
+			'culture' => '56',
+			'capital' => '797',
 			'chancellor' => '1',
 			'chamberlain' => '1',
 			'marshall' => '1',

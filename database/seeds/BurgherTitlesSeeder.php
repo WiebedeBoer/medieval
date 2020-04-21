@@ -279,7 +279,7 @@ class BurgherTitlesSeeder extends Seeder
 		]);			
 
 		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Bruges',
+			'title_name' => '[alderman] of Bruges Fair',
 			'region' => '25',
 			'place' => '97',
 			'religion' => 'Catholic',
@@ -297,7 +297,7 @@ class BurgherTitlesSeeder extends Seeder
 		]);	
 
 		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Kauen',
+			'title_name' => '[alderman] of Kauen',
 			'region' => '166',
 			'place' => '663',
 			'religion' => 'Catholic',
@@ -315,13 +315,156 @@ class BurgherTitlesSeeder extends Seeder
 		]);	
 
 		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Pleskov',
+			'title_name' => '[alderman] of Pleskov',
 			'region' => '198',
 			'place' => '789',
 			'religion' => 'Russian Orthodox',
 			'rank' => '5',
 			'career' => 'trade_kontor'
 		]);	
+		
+		/*
+		title ranks
+		1 = virgate
+		2 = hide
+		3 = tithing
+		4 = parish
+		5 = barony
+		6 = castellany
+		7 = county
+		8 = march
+		9 = duchy
+		10 = grand duchy
+		11 = kingdom
+		12 = empire		
+		*/	
+		//fairs
+		
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Champagne Fairs',
+			'region' => '33',
+			'place' => '129',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Toulouse Fair',
+			'region' => '42',
+			'place' => '165',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Nuremberg Fair',
+			'region' => '8',
+			'place' => '32',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Genoa Fair',
+			'region' => '117',
+			'place' => '465',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Venice Fair',
+			'region' => '118',
+			'place' => '469',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+		
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Florence Fair',
+			'region' => '123',
+			'place' => '489',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Scarborough Fair',
+			'region' => '52',
+			'place' => '207',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Cologne Fair',
+			'region' => '19',
+			'place' => '73',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Frankfurt Fair',
+			'region' => '18',
+			'place' => '71',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Lyon Fair',
+			'region' => '45',
+			'place' => '179',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Palermo Fair',
+			'region' => '133',
+			'place' => '529',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);		
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Santiago Fair',
+			'region' => '100',
+			'place' => '397',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Leon Fair',
+			'region' => '96',
+			'place' => '381',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);	
+
+		DB::table('titles')->insert([
+			'title_name' => '[alderman] of Pamplona Fair',
+			'region' => '87',
+			'place' => '345',
+			'religion' => 'Catholic',
+			'rank' => '5',
+			'career' => 'trade_fair'
+		]);			
 
 		/*
 		title ranks
