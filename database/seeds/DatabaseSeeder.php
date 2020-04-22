@@ -62,7 +62,8 @@ class DatabaseSeeder extends Seeder
 		$this->call('SteadNameSeeder');
 		//quarter categories
 		$this->call('QuarterCategorySeeder');
-		
+		//building categories
+		$this->call('BuildingCategorySeeder');
     }
 }
 
