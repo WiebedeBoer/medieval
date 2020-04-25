@@ -905,7 +905,94 @@ class BuildingCategorySeeder extends Seeder
 		'building_name' => 'citadel',
 		'building_type' => 'defenses',
 		'religion' => 'Catholic'
-		]);		
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'palais',
+		'building_type' => 'defenses',
+		'religion' => 'Catholic'
+		]);	
+
+		//catholic commerce
+		DB::table('building_categories')->insert([            
+		'building_name' => 'tavern',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'inn',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'roadside inn',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'port',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'factory',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'staple port',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'guild hall',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'market',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'fair',
+		'building_type' => 'commerce',
+		'religion' => 'Catholic'
+		]);	
+		
+		//catholic town 
+		DB::table('building_categories')->insert([            
+		'building_name' => 'town hall',
+		'building_type' => 'town',
+		'religion' => 'Catholic'
+		]);			
+
+		DB::table('building_categories')->insert([            
+		'building_name' => 'town wall',
+		'building_type' => 'town',
+		'religion' => 'Catholic'
+		]);			
+		
+		//catholic entertainment
+		DB::table('building_categories')->insert([            
+		'building_name' => 'hunting lodge',
+		'building_type' => 'entertainment',
+		'religion' => 'Catholic'
+		]);	
+		
+		DB::table('building_categories')->insert([            
+		'building_name' => 'tiltyard',
+		'building_type' => 'entertainment',
+		'religion' => 'Catholic'
+		]);			
 		
     }
 }
