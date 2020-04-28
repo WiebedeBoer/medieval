@@ -21,13 +21,13 @@ class CreateQuartersTable extends Migration
 			//category
 			$table->unsignedBigInteger('quarter_category');
 			//place
-			$table->unsignedBigInteger('place')->default(0);					
+			$table->unsignedBigInteger('place')->nullable();					
 			//belonging
-			$table->unsignedBigInteger('owner')->default(0);
-			$table->unsignedBigInteger('master')->default(0);
-			$table->unsignedBigInteger('dynasty')->default(0);
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('master')->default(1);
+			$table->unsignedBigInteger('dynasty')->default(1);
 			//region
-			$table->unsignedBigInteger('region')->default(0);
+			$table->unsignedBigInteger('region');
             $table->timestamps();
         });
     }

@@ -32,6 +32,7 @@ class HomeController extends Controller
 		$user_id = $user->id;
 		$dynastycount = Dynasty::where('dynasty_owner', $user_id)->count();
 		$portraitcount = Person::where('owner', $user_id)->where('alive',1)->count();
+
 		
 		return view('home', compact('dynastycount','portraitcount'));
     }
