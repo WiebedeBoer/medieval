@@ -22,14 +22,14 @@ class CreateBuildingsTable extends Migration
 			//type
 			$table->unsignedBigInteger('building_type');
 			//belonging
-			$table->unsignedBigInteger('owner')->default(0);
-			$table->unsignedBigInteger('master')->default(0);
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('master')->default(1);
 			//place
-			$table->unsignedBigInteger('place')->default(0);
+			$table->unsignedBigInteger('place')->nullable();
 			//quarters
-			$table->unsignedBigInteger('quarter')->default(0);
+			$table->unsignedBigInteger('quarter')->nullable();
 			//region
-			$table->unsignedBigInteger('region')->default(0);
+			$table->unsignedBigInteger('region')->nullable();
 			//religion
 			$table->string('religion')->default('none');
 			//raw resources

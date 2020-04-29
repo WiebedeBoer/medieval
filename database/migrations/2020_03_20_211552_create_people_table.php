@@ -39,6 +39,9 @@ class CreatePeopleTable extends Migration
 			$table->integer('heir')->default(0);
 			//relations
 			$table->unsignedBigInteger('married')->default(1);
+			//person turns
+			$table->integer('kt')->default(0);
+			$table->integer('pt')->default(0);
 			//stats
 			$table->integer('renown')->default(0);
 			$table->integer('piety')->default(0);

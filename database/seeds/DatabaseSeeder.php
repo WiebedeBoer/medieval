@@ -63,10 +63,22 @@ class DatabaseSeeder extends Seeder
 		//quarter categories
 		$this->call('QuarterCategorySeeder');
 		//quarters
+		$this->call('MarkeQuarterSeeder');
 		$this->call('QuartersSeeder');
+		$this->call('MerchantQuarterSeeder');
+		$this->call('ChurchQuarterSeeder');
 		//building categories
 		$this->call('BuildingCategorySeeder');
 		//buildings
+		$this->call('BuildingSeeder');
+		$this->call('MarketBuildingSeeder');
+		$this->call('TownHallBuildingSeeder');
+		$this->call('GateBuildingSeeder');
+		$this->call('PortBuildingSeeder');
+		$this->call('TiltyardBuildingSeeder');
+		$this->call('HostelBuildingSeeder');
+		//hostel rooms
+		
     }
 }
 

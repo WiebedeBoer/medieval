@@ -15,15 +15,15 @@ class QuarterCategorySeeder extends Seeder
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'marke'
 		]);
-		//2 noble defenses
+		//2, noble defenses
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'citadel'
 		]);
-		//3
+		//3,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'castellany'
 		]);	
-		//4
+		//4,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'lordship'
 		]);	
