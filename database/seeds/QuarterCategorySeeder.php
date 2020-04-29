@@ -11,79 +11,93 @@ class QuarterCategorySeeder extends Seeder
      */
     public function run()
     {
-		//outside rural
+		//1, outside rural
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'marke'
 		]);
-		//noble defenses
+		//2 noble defenses
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'citadel'
-		]);	
+		]);
+		//3
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'castellany'
-		]);		
+		]);	
+		//4
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'lordship'
 		]);	
-		//town defenses
+		//5, town defenses
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'inner bailey'
 		]);
+		//6,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'outer bailey'
 		]);
+		//7,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'bastide'
 		]);	
+		//8,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'roadside inn'
 		]);	
-		//manor
+		//9 manor
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'manor'
 		]);	
-		//port
+		//10, port
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'factory'
-		]);			
+		]);	
+		//11,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'port'
 		]);
-		//fair
+		//12, fair
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'market'
-		]);			
+		]);
+		//13,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'fair'
 		]);			
-		//tiltyard
+		//14, tiltyard
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'tiltyard'
 		]);
-		//monastic
+		//15, monastic
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'commandery'
 		]);
+		//16, 
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'abbacy'
 		]);
-		//clergy
+		//17, clergy
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'chapelry'
 		]);
+		//18,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'parish'
 		]);
+		//19,
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'diocese'
 		]);
-		//university
+		//20, university
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'university'
 		]);	
-		//hospital
+		//21, hospital
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'hospital'
-		]);		
+		]);	
+		//22, farmstead
+		DB::table('quarter_categories')->insert([
+			'quarter_name' => 'farmstead'
+		]);			
     }
 }

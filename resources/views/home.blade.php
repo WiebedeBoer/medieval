@@ -37,6 +37,18 @@ Dashboard
 						@else
 							<div class="py-3"><div class="col-sm-3"><h3>Tutorial:</h3>Step 1<br><a href="/tutorial/dynasty" class="btn btn-primary"> Set up a Dynasty</a></div></div>
 						@endif
+						
+						@foreach($places as $place)
+							
+							<br>DB::table('quarters')->insert([
+							<br>	'quarter_rank' => 'merchant',
+							<br>	'quarter_name' => '{{$place->place_name}}',
+							<br>	'quarter_category' => '12',
+							<br>	'place' => '{{$place->place_id}}',
+							<br>	'region' => '{{$place->region}}'
+							<br>]); 							
+							
+						@endforeach
 					
                 </div>
             </div>

@@ -318,11 +318,12 @@ class fkeySeeder extends Seeder
 
 		//quarters
 		Schema::table('quarters', function (Blueprint $table) {
-			$table->foreign('place')->references('place_id')->on('places');	
+			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('region')->references('region_id')->on('regions');
+			$table->foreign('farmstead')->references('farmstead_id')->on('farmsteads');	
 			$table->foreign('owner')->references('person_id')->on('people');
 			$table->foreign('master')->references('person_id')->on('people');
-			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');
-			$table->foreign('region')->references('region_id')->on('regions');	
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('quarter_category')->references('quarter_id')->on('quarter_categories');	
         }); 		
 		

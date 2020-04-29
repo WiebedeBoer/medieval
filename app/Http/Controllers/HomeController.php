@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Place;
 use App\User;
 use App\Dynasty;
 use App\Person;
@@ -32,8 +32,8 @@ class HomeController extends Controller
 		$user_id = $user->id;
 		$dynastycount = Dynasty::where('dynasty_owner', $user_id)->count();
 		$portraitcount = Person::where('owner', $user_id)->where('alive',1)->count();
-
+		$places = Place::all();
 		
-		return view('home', compact('dynastycount','portraitcount'));
+		return view('home', compact('dynastycount','portraitcount','places'));
     }
 }
