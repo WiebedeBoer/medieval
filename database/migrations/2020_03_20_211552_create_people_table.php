@@ -28,7 +28,7 @@ class CreatePeopleTable extends Migration
 			//place
 			$table->unsignedBigInteger('place')->default(497);
 			//religion
-			$table->string('religion')->default('Catholic');
+			$table->unsignedBigInteger('religion')->default(1);
 			//person data
 			$table->integer('gender');
 			$table->integer('birth')->default(775);

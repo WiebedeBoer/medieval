@@ -18,12 +18,12 @@ class CreateCargosTable extends Migration
 			//amount
 			$table->integer('amount');
 			//belonging
-			$table->unsignedBigInteger('owner')->default(0);
-			$table->unsignedBigInteger('dynasty')->default(0);
-			$table->unsignedBigInteger('fleet')->default(0);
-			$table->unsignedBigInteger('caravan')->default(0);
-			$table->unsignedBigInteger('place')->default(0);
-			$table->unsignedBigInteger('resource')->default(0);
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('dynasty')->default(1);
+			$table->unsignedBigInteger('fleet')->nullable();
+			$table->unsignedBigInteger('caravan')->nullable();
+			$table->unsignedBigInteger('place')->nullable();
+			$table->unsignedBigInteger('resource')->nullable();
             $table->timestamps();
         });
     }

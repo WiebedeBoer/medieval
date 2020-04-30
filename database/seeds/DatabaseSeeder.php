@@ -20,8 +20,9 @@ class DatabaseSeeder extends Seeder
 		$this->call('fkeySeeder');
 		
 		//admin user
-		$this->call('userSeeder');	
-
+		$this->call('userSeeder');
+		//religions
+		$this->call('ReligionSeeder');
 		//stead cultures
 		$this->call('SteadCultureSeeder');
 		//cultures
@@ -120,7 +121,8 @@ class fkeySeeder extends Seeder
 		
 		//cultures
         Schema::table('cultures', function (Blueprint $table) {
-            $table->foreign('stead_culture')->references('culture_id')->on('stead_cultures');	
+            $table->foreign('stead_culture')->references('culture_id')->on('stead_cultures');
+			$table->foreign('manorial_culture')->references('religion_id')->on('religions');
         }); 
 
 		//realms
@@ -184,6 +186,7 @@ class fkeySeeder extends Seeder
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('religion')->references('religion_id')->on('religions');
 			$table->foreign('married')->references('dynasty_id')->on('dynasties');	
         }); 
 		
@@ -197,6 +200,11 @@ class fkeySeeder extends Seeder
 		Schema::table('equipment', function (Blueprint $table) {
 			$table->foreign('owner')->references('person_id')->on('people');
 			$table->foreign('category')->references('equipment_id')->on('equipment_categories');
+        }); 
+
+		//titles
+        Schema::table('titles', function (Blueprint $table) {
+            $table->foreign('religion')->references('religion_id')->on('religions');	
         }); 		
 		
 		//forum
@@ -312,6 +320,7 @@ class fkeySeeder extends Seeder
 
 		//estates
 		Schema::table('estates', function (Blueprint $table) {
+			$table->foreign('religion')->references('religion_id')->on('religions');
 			$table->foreign('building_type')->references('building_id')->on('building_categories');
 			$table->foreign('owner')->references('person_id')->on('people');
 			$table->foreign('master')->references('person_id')->on('people');
@@ -349,7 +358,12 @@ class fkeySeeder extends Seeder
 			$table->foreign('master')->references('person_id')->on('people');
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('quarter_category')->references('quarter_id')->on('quarter_categories');	
-        }); 		
+        }); 
+
+		//building categories
+        Schema::table('building_categories', function (Blueprint $table) {
+            $table->foreign('religion')->references('religion_id')->on('religions');	
+        }); 
 		
 		//building
 		Schema::table('buildings', function (Blueprint $table) {
@@ -398,6 +412,7 @@ class defaultsSeeder extends Seeder
 			'dynasty' => '1',
 			'culture' => '13',
 			'place' => '497',
+			'religion' => '1',
 			'married' => '1',
 			'gender' => '1',
 			'birth' => '0',
@@ -412,6 +427,7 @@ class defaultsSeeder extends Seeder
 			'dynasty' => '1',
 			'culture' => '13',
 			'place' => '497',
+			'religion' => '1',
 			'married' => '1',
 			'gender' => '0',
 			'birth' => '0',

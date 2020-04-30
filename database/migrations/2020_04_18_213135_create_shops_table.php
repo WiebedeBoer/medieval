@@ -16,11 +16,11 @@ class CreateShopsTable extends Migration
         Schema::create('shops', function (Blueprint $table) {
             $table->bigIncrements('shop_id');
 			//belonging
-			$table->unsignedBigInteger('dynasty')->default(0);
-			$table->unsignedBigInteger('owner')->default(0);
-			$table->unsignedBigInteger('master')->default(0);
-			$table->unsignedBigInteger('place')->default(0);
-			$table->unsignedBigInteger('resource')->default(0);
+			$table->unsignedBigInteger('dynasty')->default(1);
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('master')->default(1);
+			$table->unsignedBigInteger('place')->default(497);
+			$table->unsignedBigInteger('resource')->nullable();
 			//experience
 			$table->integer('master_experience')->default(0);
 			//sales

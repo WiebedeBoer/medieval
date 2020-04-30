@@ -20,7 +20,7 @@ class CreateTitlesTable extends Migration
 			$table->unsignedBigInteger('holder')->nullable();
 			$table->unsignedBigInteger('region')->nullable();
 			$table->unsignedBigInteger('place')->nullable();
-			$table->string('religion')->default('Catholic');
+			$table->unsignedBigInteger('religion')->default(9);
 			$table->integer('rank')->default(1);
 			$table->string('career')->default('gentry');
             $table->timestamps();

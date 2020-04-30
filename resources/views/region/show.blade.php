@@ -16,25 +16,25 @@ Game
 <div class="float-left ml-3">
 <div class="crb">
 <div class="inline-block"><a href="/culture/{{ $regiondata->cultures->culture_id }}">{{ $regiondata->cultures->culture_name }}</a></div>
-@if($regiondata->cultures->manorial_culture =="Muslim")
+@if($regiondata->cultures->manorial_culture ==5)
 <div class="inline-block">
-<a href="/religion/2"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/5"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="Muslim"></a>
 </div>
-@elseif($regiondata->cultures->manorial_culture =="Greek Orthodox")
+@elseif($regiondata->cultures->manorial_culture ==4)
 <div class="inline-block">
-<a href="/religion/4"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/4"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="Greek Orthodox"></a>
 </div>
-@elseif($regiondata->cultures->manorial_culture =="Serbian Orthodox")
+@elseif($regiondata->cultures->manorial_culture ==2)
 <div class="inline-block">
-<a href="/religion/3"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/2"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="Serbian Orthodox"></a>
 </div>
-@elseif($regiondata->cultures->manorial_culture =="Russian Orthodox")
+@elseif($regiondata->cultures->manorial_culture ==3)
 <div class="inline-block">
-<a href="/religion/5"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/3"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="Russian Orthodox"></a>
 </div>
 @else
 <div class="inline-block">
-<a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $regiondata->cultures->manorial_culture }}"></a>
+<a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="Catholic"></a>
 </div>
 @endif
 </div>

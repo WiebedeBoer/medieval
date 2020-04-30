@@ -40,6 +40,11 @@ class Person extends Model
         return $this->belongsTo('App\Place','place');
     } 
 	
+    public function religions()
+    {
+        return $this->belongsTo('App\Religion','religion');
+    } 
+	
 	//citizens
     public function realms()
     {

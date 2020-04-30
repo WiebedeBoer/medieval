@@ -27,13 +27,13 @@ Game
 
 <div class="crb">
 @if($religion =="Muslim")
-<a href="/religion/2"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
+<a href="/religion/5"><img src="{{ asset('img/images/belief_islam.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @elseif($religion =="Greek Orthodox")
 <a href="/religion/4"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @elseif($religion =="Serbian Orthodox")
-<a href="/religion/3"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
+<a href="/religion/2"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @elseif($religion =="Russian Orthodox")
-<a href="/religion/5"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
+<a href="/religion/3"><img src="{{ asset('img/images/belief_orthodox.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @else
 <a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="{{ $religion }}"></a>
 @endif	

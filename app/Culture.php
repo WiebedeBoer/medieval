@@ -10,14 +10,22 @@ class Culture extends Model
     protected $table = 'cultures';
     protected $primaryKey = 'culture_id';
 	
+	//fk
+    public function steadcultures()
+    {
+        return $this->belongsTo('App\SteadCulture','stead_culture');
+    } 
+	
+    public function religions()
+    {
+        return $this->belongsTo('App\Religion','manorial_culture');
+    } 
+	
+	//regions
     public function regions()
     {
         return $this->hasMany('App\Region','culture');
     }	
 	
-    public function steadcultures()
-    {
-        return $this->belongsTo('App\SteadCulture','stead_culture');
-    } 
 	
 }

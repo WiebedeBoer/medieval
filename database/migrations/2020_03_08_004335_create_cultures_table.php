@@ -18,7 +18,7 @@ class CreateCulturesTable extends Migration
 			$table->string('culture_name');
 			$table->string('warrior_culture');
 			$table->string('chivalry_culture');
-			$table->string('manorial_culture');
+			$table->unsignedBigInteger('manorial_culture');
 			$table->string('commercial_culture');
 			$table->string('troubadour');
 			$table->unsignedBigInteger('stead_culture');

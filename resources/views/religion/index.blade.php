@@ -14,24 +14,24 @@ Game
 </g>
 @foreach($regionalculture as $region)
 	<g z-index="2">	
-	@if($region->cultures->manorial_culture =="Muslim")
-		<a xlink:href="/religion/2"><title>{{ $region->cultures->manorial_culture }}</title>
+	@if($region->cultures->manorial_culture ==5)
+		<a xlink:href="/religion/5"><title>Muslim</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,0,0)" stroke-width="2" fill="rgb(0,0,0)" />
 		</a>
-	@elseif($region->cultures->manorial_culture =="Greek Orthodox")
-		<a xlink:href="/religion/4"><title>{{ $region->cultures->manorial_culture }}</title>
+	@elseif($region->cultures->manorial_culture ==4)
+		<a xlink:href="/religion/4"><title>Greek Orthodox</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,255,0)" stroke-width="2" fill="rgb(255,0,255)" />
 		</a>
-	@elseif($region->cultures->manorial_culture =="Serbian Orthodox")
-		<a xlink:href="/religion/3"><title>{{ $region->cultures->manorial_culture }}</title>
+	@elseif($region->cultures->manorial_culture ==2)
+		<a xlink:href="/religion/2"><title>Serbian Orthodox</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(255,128,0)" />
 		</a>
-	@elseif($region->cultures->manorial_culture =="Russian Orthodox")
-		<a xlink:href="/religion/5}"><title>{{ $region->cultures->manorial_culture }}</title>
+	@elseif($region->cultures->manorial_culture ==3)
+		<a xlink:href="/religion/3"><title>Russian Orthodox</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,0,0)" stroke-width="2" fill="rgb(0,128,255)" />	
 		</a>
 	@else
-		<a xlink:href="/religion/1"><title>{{ $region->cultures->manorial_culture }}</title>
+		<a xlink:href="/religion/1"><title>Catholic</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(255,255,0)" />
 		</a>
 	@endif

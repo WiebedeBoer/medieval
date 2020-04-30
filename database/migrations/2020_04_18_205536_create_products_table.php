@@ -16,7 +16,7 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->bigIncrements('product_id');
 			//belonging
-			$table->unsignedBigInteger('dynasty')->default(0);
+			$table->unsignedBigInteger('dynasty')->default(1);
 			//ingredients
 			$table->integer('flour')->default(0);
 			$table->integer('butter')->default(0);

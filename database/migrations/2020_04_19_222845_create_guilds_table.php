@@ -22,8 +22,8 @@ class CreateGuildsTable extends Migration
 			$table->string('banner')->default('none');	
 			//belonging
 			$table->unsignedBigInteger('place');
-			$table->unsignedBigInteger('realm');	
-			$table->unsignedBigInteger('master');
+			$table->unsignedBigInteger('realm')->default(1);	
+			$table->unsignedBigInteger('master')->default(1);
             $table->timestamps();
         });
     }

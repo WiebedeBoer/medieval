@@ -23,7 +23,7 @@ Manual
 <li>minster</li>
 </ul>
 <p>A minster <i>vill</i> and a stift <i>vill</i> is only available to Catholic and Orthodox cultures, for Muslim cultures these are reverted to other types of <i>vill</i>. For Orthodox cultures an overlord of a stift or minster cannot be Tenant-in-chief or Lord Paramount.</p>
-</div>
+
 <div class="py-3">
 <p>The type of land unit varies per order.</p>
 <img src="{{ asset('img/trees/land_units.png') }}" width="100%" height="auto" alt="land unit tree" title="land unit tree">

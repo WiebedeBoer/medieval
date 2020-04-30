@@ -16,7 +16,7 @@ class CreateConstructionMaterialsTable extends Migration
         Schema::create('construction_materials', function (Blueprint $table) {
             $table->bigIncrements('produce_id');
 			//belonging
-			$table->unsignedBigInteger('dynasty')->default(0);
+			$table->unsignedBigInteger('dynasty')->default(1);
 			//resources
 			$table->integer('tatch')->default(0);
 			$table->integer('stones')->default(0);

@@ -30,23 +30,29 @@ class ReligionController extends Controller
     {            	
         if($id ==1){
 			$religion ="Catholic";
+			$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', $id)->get();
+		}
+		elseif ($id ==5){
+			$religion ="Muslim";
+			$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', $id)->get();
 		}
 		elseif ($id ==2){
-			$religion ="Muslim";
-		}
-		elseif ($id ==3){
 			$religion ="Serbian Orthodox";
+			$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', $id)->get();
 		}
 		elseif ($id ==4){
 			$religion ="Greek Orthodox";
+			$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', $id)->get();
 		}
-		elseif ($id ==5){
+		elseif ($id ==3){
 			$religion ="Russian Orthodox";
+			$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', $id)->get();
 		}
 		else {
 			$religion ="Catholic";
+			$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', 1)->get();
 		}
-		$religiondata = Culture::orderBy('culture_name','ASC')->where('manorial_culture', $religion)->get();
+		
 		$user = auth()->user();
 		return view('religion.show', compact('religiondata','user','religion'));           
     }	

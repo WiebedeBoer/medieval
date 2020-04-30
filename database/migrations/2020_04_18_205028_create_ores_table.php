@@ -16,7 +16,7 @@ class CreateOresTable extends Migration
         Schema::create('ores', function (Blueprint $table) {
             $table->bigIncrements('produce_id');
 			//belonging
-			$table->unsignedBigInteger('dynasty')->default(0);
+			$table->unsignedBigInteger('dynasty')->default(1);
 			//resources
 			$table->integer('lead')->default(0);
 			$table->integer('iron')->default(0);

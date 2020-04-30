@@ -9,6 +9,12 @@ class Estate extends Model
     //estates tabel
     protected $table = 'estates';
     protected $primaryKey = 'estate_id';
+	
+	//fk
+	public function religions()
+    {
+        return $this->belongsTo('App\Religion','religion');
+    } 
 
 	public function owners()
     {

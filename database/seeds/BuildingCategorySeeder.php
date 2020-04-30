@@ -414,31 +414,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chapel',
 		'building_type' => 'clergy',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//81
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chapel',
 		'building_type' => 'clergy',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//82
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chapel',
 		'building_type' => 'clergy',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//83
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chapel',
 		'building_type' => 'clergy',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//84
 		DB::table('building_categories')->insert([            
 		'building_name' => 'musalla',
 		'building_type' => 'clergy',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);			
 		
 		//churches
@@ -446,31 +446,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//86
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//87
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//88
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//89
 		DB::table('building_categories')->insert([            
 		'building_name' => 'mosque',
 		'building_type' => 'clergy',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		
 		//fortified churches
@@ -478,31 +478,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified church',
 		'building_type' => 'clergy',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//91
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified church',
 		'building_type' => 'clergy',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//92
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified church',
 		'building_type' => 'clergy',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//93
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified church',
 		'building_type' => 'clergy',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//94
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified mosque',
 		'building_type' => 'clergy',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);			
 	
 		//fortress churches
@@ -510,31 +510,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church fortress',
 		'building_type' => 'clergy',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//96
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church fortress',
 		'building_type' => 'clergy',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//97
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church fortress',
 		'building_type' => 'clergy',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//98
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church fortress',
 		'building_type' => 'clergy',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//99
 		DB::table('building_categories')->insert([            
 		'building_name' => 'amsar',
 		'building_type' => 'clergy',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		
 		//cathedrals
@@ -542,31 +542,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//101
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//102
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//103
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//104
 		DB::table('building_categories')->insert([            
 		'building_name' => 'grand mosque',
 		'building_type' => 'clergy',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 
 		//catholic monastic
@@ -574,25 +574,25 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hermitage',
 		'building_type' => 'monastic',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);			
 		//106
 		DB::table('building_categories')->insert([            
 		'building_name' => 'priory',
 		'building_type' => 'monastic',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//107
 		DB::table('building_categories')->insert([            
 		'building_name' => 'abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//108
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		
 		//greek orthodox monastic
@@ -600,25 +600,25 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hermitage',
 		'building_type' => 'monastic',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);			
 		//110
 		DB::table('building_categories')->insert([            
 		'building_name' => 'priory',
 		'building_type' => 'monastic',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//111
 		DB::table('building_categories')->insert([            
 		'building_name' => 'abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//112
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		
 		//russian orthodox monastic
@@ -626,25 +626,25 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hermitage',
 		'building_type' => 'monastic',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);			
 		//114
 		DB::table('building_categories')->insert([            
 		'building_name' => 'priory',
 		'building_type' => 'monastic',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//115
 		DB::table('building_categories')->insert([            
 		'building_name' => 'abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//116
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);			
 
 		//serbian orthodox monastic
@@ -652,25 +652,25 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hermitage',
 		'building_type' => 'monastic',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);			
 		//118
 		DB::table('building_categories')->insert([            
 		'building_name' => 'priory',
 		'building_type' => 'monastic',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//119
 		DB::table('building_categories')->insert([            
 		'building_name' => 'abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//120
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fortified abbey',
 		'building_type' => 'monastic',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		
 		//muslim sufi
@@ -678,25 +678,25 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hermitage',
 		'building_type' => 'monastic',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		//122
 		DB::table('building_categories')->insert([            
 		'building_name' => 'dayr',
 		'building_type' => 'monastic',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);
 		//123
 		DB::table('building_categories')->insert([            
 		'building_name' => 'khanqah',
 		'building_type' => 'monastic',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);
 		//124
 		DB::table('building_categories')->insert([            
 		'building_name' => 'ribat',
 		'building_type' => 'monastic',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);
 		
 		//crusader
@@ -704,7 +704,7 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chapterhouse',
 		'building_type' => 'crusader',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 
 		//glebe
@@ -712,31 +712,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'rectory',
 		'building_type' => 'clergy',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);
 		//127
 		DB::table('building_categories')->insert([            
 		'building_name' => 'rectory',
 		'building_type' => 'clergy',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//128
 		DB::table('building_categories')->insert([            
 		'building_name' => 'rectory',
 		'building_type' => 'clergy',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//129
 		DB::table('building_categories')->insert([            
 		'building_name' => 'rectory',
 		'building_type' => 'clergy',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);			
 		//130
 		DB::table('building_categories')->insert([            
 		'building_name' => 'manzil',
 		'building_type' => 'clergy',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		
 		//education
@@ -749,31 +749,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'university',
 		'building_type' => 'education',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);
 		//133
 		DB::table('building_categories')->insert([            
 		'building_name' => 'university',
 		'building_type' => 'education',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//134
 		DB::table('building_categories')->insert([            
 		'building_name' => 'university',
 		'building_type' => 'education',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//135
 		DB::table('building_categories')->insert([            
 		'building_name' => 'university',
 		'building_type' => 'education',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//136
 		DB::table('building_categories')->insert([            
 		'building_name' => 'madrassa',
 		'building_type' => 'education',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		
 		//health
@@ -786,31 +786,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hospital',
 		'building_type' => 'health',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);
 		//139
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hospital',
 		'building_type' => 'health',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//140
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hospital',
 		'building_type' => 'health',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//141
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hospital',
 		'building_type' => 'health',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//142
 		DB::table('building_categories')->insert([            
 		'building_name' => 'khastakhaneh',
 		'building_type' => 'health',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);
 
 		//catholic defenses
@@ -818,115 +818,115 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cottage',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//144
 		DB::table('building_categories')->insert([            
 		'building_name' => 'townhouse',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//145
 		DB::table('building_categories')->insert([            
 		'building_name' => 'housebarn',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//146
 		DB::table('building_categories')->insert([            
 		'building_name' => 'bastle house',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//147
 		DB::table('building_categories')->insert([            
 		'building_name' => 'merchant house',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);		
 		//148
 		DB::table('building_categories')->insert([            
 		'building_name' => 'strong house',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//149
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chivalric house',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//150
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall house',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//151
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall keep',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);		
 		//152
 		DB::table('building_categories')->insert([            
 		'building_name' => 'gatehouse keep',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//153
 		DB::table('building_categories')->insert([            
 		'building_name' => 'motte and bailey castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//154
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tower castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//155
 		DB::table('building_categories')->insert([            
 		'building_name' => 'courtyard castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//156
 		DB::table('building_categories')->insert([            
 		'building_name' => 'z plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);		
 		//157
 		DB::table('building_categories')->insert([            
 		'building_name' => 'l plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);		
 		//158
 		DB::table('building_categories')->insert([            
 		'building_name' => 'towered castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);		
 		//159
 		DB::table('building_categories')->insert([            
 		'building_name' => 'concentric castle',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);				
 		//160
 		DB::table('building_categories')->insert([            
 		'building_name' => 'citadel',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//161
 		DB::table('building_categories')->insert([            
 		'building_name' => 'palais',
 		'building_type' => 'defenses',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		
 		//Serbian Orthodox defenses
@@ -934,115 +934,115 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cottage',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//163
 		DB::table('building_categories')->insert([            
 		'building_name' => 'townhouse',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//164
 		DB::table('building_categories')->insert([            
 		'building_name' => 'housebarn',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//165
 		DB::table('building_categories')->insert([            
 		'building_name' => 'bastle house',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//166
 		DB::table('building_categories')->insert([            
 		'building_name' => 'merchant house',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);		
 		//167
 		DB::table('building_categories')->insert([            
 		'building_name' => 'strong house',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//168
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chivalric house',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//169
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall house',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//170
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall keep',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);		
 		//171
 		DB::table('building_categories')->insert([            
 		'building_name' => 'gatehouse keep',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//172
 		DB::table('building_categories')->insert([            
 		'building_name' => 'motte and bailey castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//173
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tower castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//174
 		DB::table('building_categories')->insert([            
 		'building_name' => 'courtyard castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//175
 		DB::table('building_categories')->insert([            
 		'building_name' => 'z plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);		
 		//176
 		DB::table('building_categories')->insert([            
 		'building_name' => 'l plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);		
 		//177
 		DB::table('building_categories')->insert([            
 		'building_name' => 'towered castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);		
 		//178
 		DB::table('building_categories')->insert([            
 		'building_name' => 'concentric castle',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);				
 		//179
 		DB::table('building_categories')->insert([            
 		'building_name' => 'citadel',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//180
 		DB::table('building_categories')->insert([            
 		'building_name' => 'palais',
 		'building_type' => 'defenses',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);
 		
 		//Greek Orthodox defenses
@@ -1050,115 +1050,115 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cottage',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//182
 		DB::table('building_categories')->insert([            
 		'building_name' => 'townhouse',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//183
 		DB::table('building_categories')->insert([            
 		'building_name' => 'housebarn',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//184
 		DB::table('building_categories')->insert([            
 		'building_name' => 'bastle house',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//185
 		DB::table('building_categories')->insert([            
 		'building_name' => 'merchant house',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);		
 		//186
 		DB::table('building_categories')->insert([            
 		'building_name' => 'strong house',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//187
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chivalric house',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//188
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall house',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//189
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall keep',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);		
 		//190
 		DB::table('building_categories')->insert([            
 		'building_name' => 'gatehouse keep',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//191
 		DB::table('building_categories')->insert([            
 		'building_name' => 'motte and bailey castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//192
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tower castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//193
 		DB::table('building_categories')->insert([            
 		'building_name' => 'courtyard castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//194
 		DB::table('building_categories')->insert([            
 		'building_name' => 'z plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);		
 		//195
 		DB::table('building_categories')->insert([            
 		'building_name' => 'l plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);		
 		//196
 		DB::table('building_categories')->insert([            
 		'building_name' => 'towered castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);		
 		//197
 		DB::table('building_categories')->insert([            
 		'building_name' => 'concentric castle',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);				
 		//198
 		DB::table('building_categories')->insert([            
 		'building_name' => 'citadel',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//199
 		DB::table('building_categories')->insert([            
 		'building_name' => 'palais',
 		'building_type' => 'defenses',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);
 		
 		//Russian Orthodox defenses
@@ -1166,115 +1166,115 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cottage',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//201
 		DB::table('building_categories')->insert([            
 		'building_name' => 'townhouse',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//202
 		DB::table('building_categories')->insert([            
 		'building_name' => 'housebarn',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//203
 		DB::table('building_categories')->insert([            
 		'building_name' => 'bastle house',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//204
 		DB::table('building_categories')->insert([            
 		'building_name' => 'merchant house',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);		
 		//205
 		DB::table('building_categories')->insert([            
 		'building_name' => 'strong house',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//206
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chivalric house',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//207
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall house',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//208
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall keep',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);		
 		//209
 		DB::table('building_categories')->insert([            
 		'building_name' => 'gatehouse keep',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//210
 		DB::table('building_categories')->insert([            
 		'building_name' => 'motte and bailey castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//211
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tower castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//212
 		DB::table('building_categories')->insert([            
 		'building_name' => 'courtyard castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//213
 		DB::table('building_categories')->insert([            
 		'building_name' => 'z plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);		
 		//214
 		DB::table('building_categories')->insert([            
 		'building_name' => 'l plan castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);		
 		//215
 		DB::table('building_categories')->insert([            
 		'building_name' => 'towered castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);		
 		//216
 		DB::table('building_categories')->insert([            
 		'building_name' => 'concentric castle',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);				
 		//217
 		DB::table('building_categories')->insert([            
 		'building_name' => 'citadel',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//218
 		DB::table('building_categories')->insert([            
 		'building_name' => 'palais',
 		'building_type' => 'defenses',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);
 		
 		//Muslim defenses
@@ -1282,115 +1282,115 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cottage',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//220
 		DB::table('building_categories')->insert([            
 		'building_name' => 'townhouse',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//221
 		DB::table('building_categories')->insert([            
 		'building_name' => 'mazraea',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//222
 		DB::table('building_categories')->insert([            
 		'building_name' => 'qalat',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//223
 		DB::table('building_categories')->insert([            
 		'building_name' => 'courtyard house',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		//224
 		DB::table('building_categories')->insert([            
 		'building_name' => 'strong house',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//225
 		DB::table('building_categories')->insert([            
 		'building_name' => 'chivalric house',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		//226
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall house',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//227
 		DB::table('building_categories')->insert([            
 		'building_name' => 'hall kasbah',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		//228
 		DB::table('building_categories')->insert([            
 		'building_name' => 'gatehouse kasbah',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//229
 		DB::table('building_categories')->insert([            
 		'building_name' => 'motte and bailey ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//230
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tower ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//231
 		DB::table('building_categories')->insert([            
 		'building_name' => 'courtyard ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//232
 		DB::table('building_categories')->insert([            
 		'building_name' => 'z plan ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		//233
 		DB::table('building_categories')->insert([            
 		'building_name' => 'l plan ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		//234
 		DB::table('building_categories')->insert([            
 		'building_name' => 'towered ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);		
 		//235
 		DB::table('building_categories')->insert([            
 		'building_name' => 'concentric ksar',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);				
 		//236
 		DB::table('building_categories')->insert([            
 		'building_name' => 'alqasbah',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		//237
 		DB::table('building_categories')->insert([            
 		'building_name' => 'palais',
 		'building_type' => 'defenses',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);
 
 		//catholic inns
@@ -1398,19 +1398,19 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tavern',
 		'building_type' => 'hostel',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//239
 		DB::table('building_categories')->insert([            
 		'building_name' => 'inn',
 		'building_type' => 'hostel',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//240
 		DB::table('building_categories')->insert([            
 		'building_name' => 'roadside inn',
 		'building_type' => 'hostel',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		
 		//serbian orthodox inns
@@ -1418,19 +1418,19 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tavern',
 		'building_type' => 'hostel',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//242
 		DB::table('building_categories')->insert([            
 		'building_name' => 'inn',
 		'building_type' => 'hostel',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//243
 		DB::table('building_categories')->insert([            
 		'building_name' => 'roadside inn',
 		'building_type' => 'hostel',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		
 		//greek orthodox inns
@@ -1438,19 +1438,19 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tavern',
 		'building_type' => 'hostel',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//245
 		DB::table('building_categories')->insert([            
 		'building_name' => 'inn',
 		'building_type' => 'hostel',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//246
 		DB::table('building_categories')->insert([            
 		'building_name' => 'roadside inn',
 		'building_type' => 'hostel',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		
 		//russian orthodox inns
@@ -1458,19 +1458,19 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tavern',
 		'building_type' => 'hostel',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//248
 		DB::table('building_categories')->insert([            
 		'building_name' => 'inn',
 		'building_type' => 'hostel',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//249
 		DB::table('building_categories')->insert([            
 		'building_name' => 'roadside inn',
 		'building_type' => 'hostel',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		
 		//muslim inns
@@ -1478,19 +1478,19 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'khan',
 		'building_type' => 'hostel',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		//251
 		DB::table('building_categories')->insert([            
 		'building_name' => 'funduq',
 		'building_type' => 'hostel',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		//252
 		DB::table('building_categories')->insert([            
 		'building_name' => 'caravanserai',
 		'building_type' => 'hostel',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		
 		//common port
@@ -1522,13 +1522,13 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'market',
 		'building_type' => 'commerce',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		//258
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fair',
 		'building_type' => 'commerce',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);	
 		
 		//serbian orthodox commerce
@@ -1536,13 +1536,13 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'market',
 		'building_type' => 'commerce',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//260
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fair',
 		'building_type' => 'commerce',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		
 		//greek orthodox commerce
@@ -1550,13 +1550,13 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'market',
 		'building_type' => 'commerce',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//262
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fair',
 		'building_type' => 'commerce',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		
 		//russian orthodox commerce
@@ -1564,13 +1564,13 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'market',
 		'building_type' => 'commerce',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//264
 		DB::table('building_categories')->insert([            
 		'building_name' => 'fair',
 		'building_type' => 'commerce',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		
 		//muslim commerce
@@ -1578,13 +1578,13 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'souq',
 		'building_type' => 'commerce',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		//266
 		DB::table('building_categories')->insert([            
 		'building_name' => 'bazaar',
 		'building_type' => 'commerce',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);	
 		
 		//common town 
@@ -1616,31 +1616,31 @@ class BuildingCategorySeeder extends Seeder
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tithe barn',
 		'building_type' => 'storage',
-		'religion' => 'Catholic'
+		'religion' => '1'
 		]);
 		//272
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tithe barn',
 		'building_type' => 'storage',
-		'religion' => 'Greek Orthodox'
+		'religion' => '4'
 		]);	
 		//273
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tithe barn',
 		'building_type' => 'storage',
-		'religion' => 'Russian Orthodox'
+		'religion' => '3'
 		]);	
 		//274
 		DB::table('building_categories')->insert([            
 		'building_name' => 'tithe barn',
 		'building_type' => 'storage',
-		'religion' => 'Serbian Orthodox'
+		'religion' => '2'
 		]);	
 		//275
 		DB::table('building_categories')->insert([            
 		'building_name' => 'ghorfa',
 		'building_type' => 'storage',
-		'religion' => 'Muslim'
+		'religion' => '5'
 		]);
 		//manor defenses
 		//276

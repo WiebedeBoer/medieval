@@ -16,9 +16,9 @@ class CreateFarmsteadsTable extends Migration
         Schema::create('farmsteads', function (Blueprint $table) {
             $table->bigIncrements('farmstead_id');
 			$table->unsignedBigInteger('farmstead_name');
-			$table->unsignedBigInteger('owner');
-			$table->unsignedBigInteger('master');
-			$table->unsignedBigInteger('dynasty');
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('master')->default(1);
+			$table->unsignedBigInteger('dynasty')->default(1);
 			$table->unsignedBigInteger('region');
             $table->timestamps();
         });

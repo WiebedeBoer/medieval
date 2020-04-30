@@ -16,7 +16,7 @@ class CreateProducesTable extends Migration
         Schema::create('produces', function (Blueprint $table) {
             $table->bigIncrements('produce_id');
 			//belonging
-			$table->unsignedBigInteger('dynasty')->default(0);
+			$table->unsignedBigInteger('dynasty')->default(1);
 			//raw resources
 			$table->integer('eggs')->default(0);
 			$table->integer('wool')->default(0);

@@ -18,8 +18,8 @@ class CreateFleetsTable extends Migration
 			//name
 			$table->string('fleet_name');
 			//belonging
-			$table->unsignedBigInteger('owner')->default(0);
-			$table->unsignedBigInteger('master')->default(0);
+			$table->unsignedBigInteger('owner')->default(1);
+			$table->unsignedBigInteger('master')->default(1);
 			$table->unsignedBigInteger('dynasty');
 			$table->unsignedBigInteger('place');
 			//pack animals

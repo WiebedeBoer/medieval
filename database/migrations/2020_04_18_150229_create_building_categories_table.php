@@ -20,7 +20,7 @@ class CreateBuildingCategoriesTable extends Migration
 			//types
 			$table->string('building_type');
 			$table->string('culture')->default('none');
-			$table->string('religion')->default('none');
+			$table->unsignedBigInteger('religion')->default(9);
 			//construction
 			$table->integer('stones')->default(0);
 			$table->integer('tiles')->default(0);

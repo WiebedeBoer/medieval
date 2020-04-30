@@ -20,7 +20,7 @@ class CreateEstatesTable extends Migration
 			//types
 			$table->string('estate_type');
 			$table->string('culture')->default('none');
-			$table->string('religion')->default('none');
+			$table->unsignedBigInteger('religion')->default(9);
 			//type
 			$table->unsignedBigInteger('building_type');
 			//belonging
