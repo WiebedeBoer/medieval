@@ -62,14 +62,14 @@ class DatabaseSeeder extends Seeder
 		$this->call('SteadNameSeeder');
 		//quarter categories
 		$this->call('QuarterCategorySeeder');
-		//quarters
+		//default quarters
 		$this->call('MarkeQuarterSeeder');
 		$this->call('QuartersSeeder');
 		$this->call('MerchantQuarterSeeder');
 		$this->call('ChurchQuarterSeeder');
 		//building categories
 		$this->call('BuildingCategorySeeder');
-		//buildings
+		//default buildings
 		$this->call('BuildingSeeder');
 		$this->call('MarketBuildingSeeder');
 		$this->call('TownHallBuildingSeeder');
@@ -77,7 +77,19 @@ class DatabaseSeeder extends Seeder
 		$this->call('PortBuildingSeeder');
 		$this->call('TiltyardBuildingSeeder');
 		$this->call('HostelBuildingSeeder');
-		//hostel rooms
+		$this->call('MineBuildingSeeder');
+		$this->call('HuntingBuildingSeeder');
+		$this->call('GuildBuildingSeeder');
+		//default rooms
+		$this->call('RoomTavernSeeder');
+		$this->call('RoomRoadsideSeeder');
+		$this->call('RoomChurchSeeder');
+		$this->call('RoomCathedralSeeder');
+		$this->call('RoomMonasterySeeder');
+		$this->call('RoomChapterSeeder');
+		$this->call('RoomGuildSeeder');
+		$this->call('RoomArenaSeeder');
+		$this->call('RoomLodgeSeeder');
 		
     }
 }

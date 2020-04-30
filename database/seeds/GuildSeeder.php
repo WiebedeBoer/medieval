@@ -142,7 +142,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Russian Orthodox Monks',
 			'guild_category' => 'monastic_order',
-			'place' => '757',
+			'place' => '749',
 			'realm' => '89',
 			'master' => '1'
 		]);			
@@ -184,7 +184,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Russian Orthodox Pilgrims',
 			'guild_category' => 'pilgrims',
-			'place' => '757',
+			'place' => '749',
 			'realm' => '89',
 			'master' => '1'
 		]);			

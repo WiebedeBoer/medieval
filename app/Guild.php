@@ -15,6 +15,11 @@ class Guild extends Model
         return $this->belongsTo('App\Realm','realm');
     } 
 	
+    public function places()
+    {
+        return $this->belongsTo('App\Place','place');
+    }
+	
 	//members
 	public function members()
     {
