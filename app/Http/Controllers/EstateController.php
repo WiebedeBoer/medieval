@@ -11,6 +11,7 @@ use App\Dynasty;
 use App\User;
 use App\Culture;
 use App\Person;
+use App\Estate;
 
 class EstateController extends Controller
 {
