@@ -38,6 +38,7 @@ Dashboard
 							<div class="py-3"><div class="col-sm-3"><h3>Tutorial:</h3>Step 1<br><a href="/tutorial/dynasty" class="btn btn-primary"> Set up a Dynasty</a></div></div>
 						@endif
 						
+						
 					
                 </div>
             </div>
