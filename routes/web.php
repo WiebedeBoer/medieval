@@ -73,9 +73,17 @@ Route::get('culture/{culture}', 'CultureController@show');
 Route::get('culture/{culture}/edit', 'CultureController@edit');
 Route::patch('culture/{culture}', 'CultureController@update');
 //realms
-
+Route::get('realms', 'RealmController@index');
+Route::get('realms/{realms}', 'RealmController@show');
+Route::get('realms/{realms}/edit', 'RealmController@edit');
+Route::patch('realms/{realms}', 'RealmController@update');
 //guilds
-
+Route::get('guilds', 'GuildController@index');
+Route::get('guilds/{guilds}', 'GuildController@show');
+Route::get('guilds/{guilds}/edit', 'GuildController@edit');
+Route::patch('guilds/{guilds}', 'GuildController@update');
+Route::post('guilds/create','GuildController@create');
+Route::post('guilds','GuildController@store');
 //titles
 
 //citizens

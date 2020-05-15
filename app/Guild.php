@@ -20,6 +20,11 @@ class Guild extends Model
         return $this->belongsTo('App\Place','place');
     }
 	
+    public function masters()
+    {
+        return $this->belongsTo('App\Person','master');
+    }
+	
 	//members
 	public function members()
     {
