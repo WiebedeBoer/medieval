@@ -386,7 +386,20 @@ class fkeySeeder extends Seeder
 		//furnishings
         Schema::table('furnishings', function (Blueprint $table) {
             $table->foreign('room')->references('room_id')->on('rooms');	
-        });  		
+        }); 
+
+		//prisons
+		//dungeons
+		Schema::table('dungeons', function (Blueprint $table) {
+			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('dungeon_master')->references('person_id')->on('people');
+        }); 
+		
+		//prisoners
+		Schema::table('prisoners', function (Blueprint $table) {
+			$table->foreign('dungeon')->references('dungeon_id')->on('dungeons');
+			$table->foreign('prisoner')->references('person_id')->on('people');
+        }); 		
 		
 		
     }

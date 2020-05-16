@@ -133,9 +133,21 @@ Route::get('forum/war','ForumController@war');
 
 //military
 //armies
-
+Route::get('armies', 'ArmyController@index');
+Route::get('armies/{armies}', 'ArmyController@show');
+Route::get('armies/{armies}/edit', 'ArmyController@edit');
+Route::patch('armies/{armies}', 'ArmyController@update');
+Route::post('armies/create','ArmyController@create');
+Route::post('armies','ArmyController@store');
+Route::delete('armies/{armies}', 'ArmyController@destroy');
 //brigades
-
+Route::get('brigades', 'BrigadeController@index');
+Route::get('brigades/{brigades}', 'BrigadeController@show');
+Route::get('brigades/{brigades}/edit', 'BrigadeController@edit');
+Route::patch('brigades/{brigades}', 'BrigadeController@update');
+Route::post('brigades/create','BrigadeController@create');
+Route::post('brigades','BrigadeController@store');
+Route::delete('brigades/{brigades}', 'BrigadeController@destroy');
 //economy and trade
 //caravans
 Route::get('caravans', 'CaravanController@index');
@@ -166,7 +178,13 @@ Route::delete('fleets/{fleets}', 'FleetController@destroy');
 //goods
 
 //shops
-
+Route::get('shops', 'MarketController@index');
+Route::get('shops/{shops}', 'MarketController@show');
+Route::get('shops/{shops}/edit', 'MarketController@edit');
+Route::patch('shops/{shops}', 'MarketController@update');
+Route::post('shops/create','MarketController@create');
+Route::post('shops','MarketController@store');
+Route::delete('shops/{shops}', 'MarketController@destroy');
 //geography and locations
 //maps
 Route::get('map/cattle','MapController@cattle');
@@ -182,8 +200,14 @@ Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
 Route::get('region/{region}/edit', 'RegionController@edit');
 Route::patch('region/{region}', 'RegionController@update');
-//homesteads
-
+//farmsteads
+Route::get('farmsteads', 'FarmsteadController@index');
+Route::get('farmsteads/{farmsteads}', 'FarmsteadController@show');
+Route::get('farmsteads/{farmsteads}/edit', 'FarmsteadController@edit');
+Route::patch('farmsteads/{farmsteads}', 'FarmsteadController@update');
+Route::post('farmsteads/create','FarmsteadController@create');
+Route::post('farmsteads','FarmsteadController@store');
+Route::delete('farmsteads/{farmsteads}', 'FarmsteadController@destroy');
 //estates
 Route::get('estates/create','EstateController@create');
 Route::post('estates/create','EstateController@store');
@@ -221,3 +245,10 @@ Route::post('dungeons/create','DungeonController@create');
 Route::post('dungeons','DungeonController@store');
 Route::delete('dungeons/{dungeons}', 'DungeonController@destroy');
 //prisoners
+Route::get('prisoners', 'PrisonerController@index');
+Route::get('prisoners/{prisoners}', 'PrisonerController@show');
+Route::get('prisoners/{prisoners}/edit', 'PrisonerController@edit');
+Route::patch('prisoners/{prisoners}', 'PrisonerController@update');
+Route::post('prisoners/create','PrisonerController@create');
+Route::post('prisoners','PrisonerController@store');
+Route::delete('prisoners/{prisoners}', 'PrisonerController@destroy');

@@ -24,4 +24,21 @@ class MarketController extends Controller
     {
         $this->middleware('auth');
     }
+	
+	//main 
+    public function index()
+    {            	
+		$shops = Shop::with('dynasties','places','owners','masters','resources')->get();
+		$user = auth()->user();
+		return view('shops.index', compact('shops','user'));        
+    }
+	
+	//show
+    public function show($id)
+    {       
+        $shop = Shop::with('dynasties','places','owners','masters','resources')->where('shop_id', $id)->firstOrFail();
+		$user = auth()->user();
+		return view('shops.show', compact('shop','user'));        
+    }	
+	
 }

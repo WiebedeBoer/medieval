@@ -5,10 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Dungeon;
 use App\Prisoner;
+use App\Person;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
-class DungeonController extends Controller
+class PrisonerController extends Controller
 {
     //authenticate
     public function __construct()
@@ -19,16 +20,16 @@ class DungeonController extends Controller
 	//main 
     public function index()
     {            	
-		$dungeons = Dungeon::with('places','masters')->get();
+		$prisoners = Prisoner::with('dungeons','captives')->get();
 		$user = auth()->user();
-		return view('dungeons.index', compact('dungeons','user'));        
+		return view('brigades.index', compact('prisoners','user'));        
     }
 	
 	//show
     public function show($id)
     {       
-        $dungeon = Dungeon::with('places','masters')->where('dungeon_id', $id)->firstOrFail();
+        $prisoner = Prisoner::with('dungeons','captives')->where('prisoner_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('dungeons.show', compact('dungeon','user'));        
+		return view('brigades.show', compact('prisoner','user'));        
     }
 }

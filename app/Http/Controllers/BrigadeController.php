@@ -5,13 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Army;
 use App\Brigade;
-use App\Place;
 use App\Person;
-use App\Realm;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
-class ArmyController extends Controller
+class BrigadeController extends Controller
 {
     //authenticate
     public function __construct()
@@ -22,17 +20,16 @@ class ArmyController extends Controller
 	//main 
     public function index()
     {            	
-		$armies = Army::with('marshalls','generals','lieutenants','owners','locations')->get();
+		$brigades = Brigade::with('armies','captains')->get();
 		$user = auth()->user();
-		return view('armies.index', compact('armies','user'));        
+		return view('brigades.index', compact('brigades','user'));        
     }
 	
 	//show
     public function show($id)
     {       
-        $army = Army::with('marshalls','generals','lieutenants','owners','locations')->where('army_id', $id)->firstOrFail();
+        $brigade = Brigade::with('armies','captains')->where('brigade_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('armies.show', compact('army','user'));        
-    }	
-	
+		return view('brigades.show', compact('brigade','user'));        
+    }
 }
