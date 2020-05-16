@@ -87,9 +87,21 @@ Route::post('guilds','GuildController@store');
 //titles
 
 //citizens
-
+Route::get('citizens', 'CitizenController@index');
+Route::get('citizens/create','CitizenController@create');
+Route::post('citizens','CitizenController@store');
+Route::get('citizens/{citizens}', 'CitizenController@show');
+Route::get('citizens/{citizens}/edit', 'CitizenController@edit');
+Route::delete('citizens/{citizens}', 'CitizenController@destroy');
+Route::patch('citizens/{citizens}', 'CitizenController@update');
 //guild members
-
+Route::get('members', 'MemberController@index');
+Route::get('members/create','MemberController@create');
+Route::post('members','MemberController@store');
+Route::get('members/{members}', 'MemberController@show');
+Route::get('members/{members}/edit', 'MemberController@edit');
+Route::delete('members/{members}', 'MemberController@destroy');
+Route::patch('members/{members}', 'MemberController@update');
 //spouses
 
 //parents
@@ -217,7 +229,12 @@ Route::get('place/{place}', 'PlaceController@show');
 Route::get('place/{place}/edit', 'PlaceController@edit');
 Route::patch('place/{place}', 'PlaceController@update');
 //quarters
-
+Route::get('quarters', 'QuarterController@index');
+Route::get('quarters/{quarters}', 'QuarterController@show');
+Route::get('quarters/{quarters}/edit', 'QuarterController@edit');
+Route::patch('quarters/{quarters}', 'QuarterController@update');
+Route::post('quarters/create','QuarterController@create');
+Route::post('quarters','QuarterController@store');
 //buildings
 Route::get('buildings', 'BuildingController@index');
 Route::get('buildings/{buildings}', 'BuildingController@show');
@@ -242,13 +259,13 @@ Route::get('dungeons/{dungeons}', 'DungeonController@show');
 Route::get('dungeons/{dungeons}/edit', 'DungeonController@edit');
 Route::patch('dungeons/{dungeons}', 'DungeonController@update');
 Route::post('dungeons/create','DungeonController@create');
-Route::post('dungeons','DungeonController@store');
 Route::delete('dungeons/{dungeons}', 'DungeonController@destroy');
+Route::post('dungeons','DungeonController@store');
 //prisoners
 Route::get('prisoners', 'PrisonerController@index');
 Route::get('prisoners/{prisoners}', 'PrisonerController@show');
 Route::get('prisoners/{prisoners}/edit', 'PrisonerController@edit');
 Route::patch('prisoners/{prisoners}', 'PrisonerController@update');
 Route::post('prisoners/create','PrisonerController@create');
-Route::post('prisoners','PrisonerController@store');
 Route::delete('prisoners/{prisoners}', 'PrisonerController@destroy');
+Route::post('prisoners','PrisonerController@store');
