@@ -91,6 +91,9 @@ class DatabaseSeeder extends Seeder
 		$this->call('RoomGuildSeeder');
 		$this->call('RoomArenaSeeder');
 		$this->call('RoomLodgeSeeder');
+		//dungeons
+		
+		//prisoners
 		
     }
 }

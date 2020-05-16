@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Building;
-use App\Room;
-use App\Furnishing;
+use App\Dungeon;
+use App\Prisoner;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
-class RoomController extends Controller
+class DungeonController extends Controller
 {
     //authenticate
     public function __construct()
@@ -20,17 +19,16 @@ class RoomController extends Controller
 	//main 
     public function index()
     {            	
-		$rooms = Room::with('buildings')->orderBy('room_name','ASC')->get();
+		$dungeons = Dungeon::with('places','masters')->get();
 		$user = auth()->user();
-		return view('farmsteads.index', compact('rooms','user'));        
+		return view('farmsteads.index', compact('dungeons','user'));        
     }
 	
 	//show
     public function show($id)
     {       
-        $room = Room::with('buildings')->where('room_id', $id)->firstOrFail();
+        $dungeon = Farmstead::with('places','masters')->where('dungeon_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('farmsteads.show', compact('room','user'));        
-    }	
-	
+		return view('farmsteads.show', compact('dungeon','user'));        
+    }
 }

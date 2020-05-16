@@ -138,9 +138,21 @@ Route::get('forum/war','ForumController@war');
 
 //economy and trade
 //caravans
-
+Route::get('caravans', 'CaravanController@index');
+Route::get('caravans/{caravans}', 'CaravanController@show');
+Route::get('caravans/{caravans}/edit', 'CaravanController@edit');
+Route::patch('caravans/{caravans}', 'CaravanController@update');
+Route::post('caravans/create','CaravanController@create');
+Route::post('caravans','CaravanController@store');
+Route::delete('caravans/{caravans}', 'CaravanController@destroy');
 //fleets
-
+Route::get('fleets', 'FleetController@index');
+Route::get('fleets/{fleets}', 'FleetController@show');
+Route::get('fleets/{fleets}/edit', 'FleetController@edit');
+Route::patch('fleets/{fleets}', 'FleetController@update');
+Route::post('fleets/create','FleetController@create');
+Route::post('fleets','FleetController@store');
+Route::delete('fleets/{fleets}', 'FleetController@destroy');
 //cargo
 
 //produces
@@ -183,7 +195,29 @@ Route::patch('place/{place}', 'PlaceController@update');
 //quarters
 
 //buildings
-
+Route::get('buildings', 'BuildingController@index');
+Route::get('buildings/{buildings}', 'BuildingController@show');
+Route::get('buildings/{buildings}/edit', 'BuildingController@edit');
+Route::patch('buildings/{buildings}', 'BuildingController@update');
+Route::post('buildings/create','BuildingController@create');
+Route::post('buildings','BuildingController@store');
+Route::delete('buildings/{buildings}', 'BuildingController@destroy');
 //rooms
-
+Route::get('rooms', 'RoomController@index');
+Route::get('rooms/{rooms}', 'RoomController@show');
+Route::get('rooms/{rooms}/edit', 'RoomController@edit');
+Route::patch('rooms/{rooms}', 'RoomController@update');
+Route::post('rooms/create','RoomController@create');
+Route::post('rooms','RoomController@store');
+Route::delete('rooms/{rooms}', 'RoomController@destroy');
 //furnishings
+
+//dungeons
+Route::get('dungeons', 'DungeonController@index');
+Route::get('dungeons/{dungeons}', 'DungeonController@show');
+Route::get('dungeons/{dungeons}/edit', 'DungeonController@edit');
+Route::patch('dungeons/{dungeons}', 'DungeonController@update');
+Route::post('dungeons/create','DungeonController@create');
+Route::post('dungeons','DungeonController@store');
+Route::delete('dungeons/{dungeons}', 'DungeonController@destroy');
+//prisoners

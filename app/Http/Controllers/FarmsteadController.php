@@ -16,4 +16,21 @@ class FarmsteadController extends Controller
     {
         $this->middleware('auth');
     }
+	
+	//main 
+    public function index()
+    {            	
+		$farmsteads = Farmstead::with('dynasties','regions','owners','masters','steadnames')->orderBy('farmstead_name','ASC')->get();
+		$user = auth()->user();
+		return view('farmsteads.index', compact('farmsteads','user'));        
+    }
+	
+	//show
+    public function show($id)
+    {       
+        $farmstead = Farmstead::with('dynasties','regions','owners','masters','steadnames')->where('farmstead_id', $id)->firstOrFail();
+		$user = auth()->user();
+		return view('farmsteads.show', compact('farmstead','user'));        
+    }	
+	
 }
