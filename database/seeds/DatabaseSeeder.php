@@ -448,7 +448,28 @@ class defaultsSeeder extends Seeder
 			'gender' => '0',
 			'birth' => '0',
 			'alive' => '0',
-		]);		
+		]);
+		//default resources
+		//produces 
+		DB::table('produces')->insert([
+			'dynasty' => '1'
+		]);	
+		//construction materials
+		DB::table('construction_materials')->insert([
+			'dynasty' => '1'
+		]);	
+		//ores
+		DB::table('ores')->insert([
+			'dynasty' => '1'
+		]);	
+		//products
+		DB::table('products')->insert([
+			'dynasty' => '1'
+		]);	
+		//goods
+		DB::table('goods')->insert([
+			'dynasty' => '1'
+		]);	
 		
 	}
 	

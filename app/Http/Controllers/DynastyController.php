@@ -9,6 +9,11 @@ use App\Culture;
 use App\Dynasty;
 use App\User;
 use App\Person;
+use App\Ore;
+use App\ConstructionMaterial;
+use App\Produce;
+use App\Product;
+use App\Good;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
@@ -39,37 +44,6 @@ class DynastyController extends Controller
 		return view('dynasty.show', compact('dynastydata','user'));        
     }
 	
-	//owner check
-	public function ownercheck($id)
-	{
-		$user = auth()->user();
-		$dynasty_owner_check = Dynasty::where('dynasty_id', $id)->firstOrFail();
-		$user_id = $user->id;
-		$owner_id = $dynasty_owner_check->dynasty_owner;
-		if ($user_id == $owner_id)
-		{
-			return $ownercheck =true;
-		}
-		else {
-			$admincheck = $user->admin;
-			if ($admincheck ==1){
-				return $ownercheck =true;
-			}
-			else {
-				return $ownercheck =false;
-			}		
-		}
-	}
-	
-	//owner count
-	public function ownercount()
-	{
-		$user = auth()->user();
-		$user_id = $user->id;	
-		$dynasty_owner_count = Dynasty::where('dynasty_owner', $user_id)->count();
-		return $dynasty_owner_count;
-	}
-	
     //update function
     public function update(Request $request, $id)
     {
@@ -88,15 +62,6 @@ class DynastyController extends Controller
 		}
 
     }
-	
-	//portrait count
-	public function portraitcount()
-	{
-		$user = auth()->user();
-		$user_id = $user->id;	
-		$portrait_count = Person::where('owner', $user_id)->where('alive',1)->count();
-		return $portrait_count;
-	}
 	
 	//edit form
     public function edit($id)
@@ -227,6 +192,102 @@ class DynastyController extends Controller
 		}
     
     }
+	
+    //store function
+    public function store()
+    {     
+         $ownercount = $this->ownercount();
+		if ($ownercount >=1){
+			return redirect('/home')->with('message', 'Not allowed');
+		}
+		else {
+
+			$data = request()->validate([
+				'culture' => 'required',
+				'dynasty_name' => 'required|min:3',
+				'dynasty_description' => 'nullable',
+				'crest_back' => 'required',
+				'crest_emblem' => 'required',
+				'crest_shape' =>'required'
+			]); 	
+			
+			//user id
+			$user = auth()->user();
+			$user_id = $user->id;
+			//saving
+			$dynasty = new Dynasty(); 
+			//fk
+			$dynasty->dynasty_owner = $user_id;
+			$dynasty->culture = request('culture');
+			//name
+			$dynasty->dynasty_name = request('dynasty_name');		
+			//crest
+			$dynasty->crest_back = request('crest_back');
+			$dynasty->crest_emblem = request('crest_emblem');
+			$dynasty->crest_shape = request('crest_shape');
+			//home
+			$dynasty->home = $this->homegenerator($dynasty->culture);
+			$dynasty->tutorial = 1;
+			//fetch
+			$color = $dynasty->crest_back;
+			$emblem = $dynasty->crest_emblem;
+			//description
+			$dynasty->dynasty_description = request('dynasty_description');
+			//back colors
+			$back_colors = $this->back_colors();
+			//checking
+			$color_no = array_search($color, array_keys($back_colors));
+			
+			//check if exist
+			if ($color_no ==false){
+				return redirect('/home')->with('message', 'Not allowed color'.$color);
+			}
+			else {
+				$emblen_no = $this->emblemkey($color_no,$emblem);
+				if (is_int($emblen_no) || $emblen_no ==0){
+					//saving
+					$dynasty->save(); 
+					//max dynasty
+					$maxdynasty = DB::table('dynasties')->max('dynasty_id');
+					//resources
+					$goods = new Good(); 
+					$goods->dynasty = $maxdynasty;
+					$goods->save();
+					
+					$ores = New Ore();
+					$ores->dynasty = $maxdynasty;
+					$ores->save();
+					
+					$products = New Product();
+					$products->dynasty = $maxdynasty;
+					$products->save();
+					
+					$produces = New Produce();
+					$produces->dynasty = $maxdynasty;
+					$produces->save();
+					
+					$constructionmaterials = New ConstructionMaterial;
+					$constructionmaterials->dynasty = $maxdynasty;
+					$constructionmaterials->save();
+					
+					//return
+					return redirect('/dynasty')->with('message', 'Added');
+				}
+				else {
+					return redirect('/home')->with('message', 'Not allowed emblem');
+				}	
+			}
+		}
+    }
+	
+	//portrait count
+	public function portraitcount()
+	{
+		$user = auth()->user();
+		$user_id = $user->id;	
+		$portrait_count = Person::where('owner', $user_id)->where('alive',1)->count();
+		return $portrait_count;
+	}
 	
 	//back colors
 	public function back_colors()
@@ -395,6 +456,37 @@ class DynastyController extends Controller
 		return $available_emblems;
 	}
 	
+	//owner check
+	public function ownercheck($id)
+	{
+		$user = auth()->user();
+		$dynasty_owner_check = Dynasty::where('dynasty_id', $id)->firstOrFail();
+		$user_id = $user->id;
+		$owner_id = $dynasty_owner_check->dynasty_owner;
+		if ($user_id == $owner_id)
+		{
+			return $ownercheck =true;
+		}
+		else {
+			$admincheck = $user->admin;
+			if ($admincheck ==1){
+				return $ownercheck =true;
+			}
+			else {
+				return $ownercheck =false;
+			}		
+		}
+	}
+	
+	//owner count
+	public function ownercount()
+	{
+		$user = auth()->user();
+		$user_id = $user->id;	
+		$dynasty_owner_count = Dynasty::where('dynasty_owner', $user_id)->count();
+		return $dynasty_owner_count;
+	}
+	
 	//emblem key picker
 	public function emblemkey($color_keys,$emblem){
 
@@ -449,68 +541,6 @@ class DynastyController extends Controller
 		return $home;
 	}	
 
-    //store function
-    public function store()
-    {     
-         $ownercount = $this->ownercount();
-		if ($ownercount >=1){
-			return redirect('/home')->with('message', 'Not allowed');
-		}
-		else {
 
-			$data = request()->validate([
-				'culture' => 'required',
-				'dynasty_name' => 'required|min:3',
-				'dynasty_description' => 'nullable',
-				'crest_back' => 'required',
-				'crest_emblem' => 'required',
-				'crest_shape' =>'required'
-			]); 	
-			
-			//user id
-			$user = auth()->user();
-			$user_id = $user->id;
-			//saving
-			$dynasty = new Dynasty(); 
-			//fk
-			$dynasty->dynasty_owner = $user_id;
-			$dynasty->culture = request('culture');
-			//name
-			$dynasty->dynasty_name = request('dynasty_name');		
-			//crest
-			$dynasty->crest_back = request('crest_back');
-			$dynasty->crest_emblem = request('crest_emblem');
-			$dynasty->crest_shape = request('crest_shape');
-			//home
-			$dynasty->home = $this->homegenerator($dynasty->culture);
-			$dynasty->tutorial = 1;
-			//fetch
-			$color = $dynasty->crest_back;
-			$emblem = $dynasty->crest_emblem;
-			//description
-			$dynasty->dynasty_description = request('dynasty_description');
-			//back colors
-			$back_colors = $this->back_colors();
-			//checking
-			$color_no = array_search($color, array_keys($back_colors));
-			
-			//check if exist
-			if ($color_no ==false){
-				return redirect('/home')->with('message', 'Not allowed color'.$color);
-			}
-			else {
-				$emblen_no = $this->emblemkey($color_no,$emblem);
-				if (is_int($emblen_no) || $emblen_no ==0){
-					//saving
-					$dynasty->save();       
-					//return
-					return redirect('/dynasty')->with('message', 'Added');
-				}
-				else {
-					return redirect('/home')->with('message', 'Not allowed emblem');
-				}	
-			}
-		}
-    }
 	
 }
