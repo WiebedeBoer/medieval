@@ -481,20 +481,20 @@ class userSeeder extends Seeder
 	//admins game moderator
     public function run()
     {
-		//1 default admin game master
+		//1 default admin game master, medieval09
 		DB::table('users')->insert([
 			'name' => 'GameMaster',
 			'email' => 'info@romegames.nl',
-			'password' => '$2y$10$cGxbdYZ84Jd1iBerxc4YcOSSUmu6JeIFc5JhrPe5Fh9MRTQcl3xwO',
+			'password' => '$2y$10$b4aguf2bCh8..8MPDwuEM.8RNJHXPkgIF/iFaO0DPmOPpNKczHRem',
 			'audio' => '0',
 			'admin' => '1'
 		]);
 	
-		//2 admin player
+		//2 admin player, test0900
 		DB::table('users')->insert([
 			'name' => 'Wiebe',
 			'email' => 'wiebe81@gmail.com',
-			'password' => '$2y$10$cGxbdYZ84Jd1iBerxc4YcOSSUmu6JeIFc5JhrPe5Fh9MRTQcl3xwO',
+			'password' => '$2y$10$nkeJQ8lAL6l3e8ld.WcQwOGlvYuftMNHwgw7NRk.Gw1fR0vjOYvGu',
 			'audio' => '0',
 			'admin' => '1'
 		]);
