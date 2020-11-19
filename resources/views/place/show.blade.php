@@ -274,9 +274,35 @@ var camera = new THREE.PerspectiveCamera(45, canvasWidth / canvasHeight, 0.01, 7
 camera.position.y = 12;
 camera.position.z = -67;
 camera.position.x = -21;
+//resources
+var culture ="{{$culture}}";
+var climate ="{{$region->climate}}";
+var herbs ="{{$region->herb}}";
+var styles ="{{$region->style}}";
+var rides ="{{$region->ride}}";
+var cycles ="{{$region->cycle}}";
+var goat ="{{$region->goat}}";
+var sheep ="{{$region->sheep}}";
+var cattle ="{{$region->cattle}}";
+var population ="{{$placedata->population}}";
+var fortification ="{{$placedata->fortification}}";
+var commerce ="{{$placedata->commerce}}";
+var feudal ="{{$placedata->feudal}}";
+var church ="{{$placedata->church}}";
+var civil ="{{$placedata->civil}}";
+var monastic ="{{$placedata->monastic}}";
+var factory ="{{$placedata->factory}}";
+var arms ="{{$placedata->arms}}";
+var education ="{{$placedata->education}}";
+var agriculture ="{{$placedata->agr}}";
+var commerce ="{{$placedata->com}}";
+var defense ="{{$placedata->def}}";
+var justice ="{{$placedata->jus}}";
+var morale ="{{$placedata->mor}}";
+var training ="{{$placedata->tra}}";
+var soldiers ="{{$placedata->sol}}";
 //environment
 var environmentsize = 5100;
-var climate ="{{$climate}}";//;
 //plane
 if(climate =="desert" || climate =="desert_marshes"){
 	//planes
