@@ -28,12 +28,13 @@ class PlaceController extends Controller
     public function show($id)
     {       
         $placedata = Place::with('regions')->where('place_id', $id)->firstOrFail();
-		$region_id = $placedata->regions->region_id;
+        $region_id = $placedata->regions->region_id;        
 		$region = Region::where('region_id', $region_id)->firstOrFail();
-		$culture_id = $region->culture;
+        $culture_id = $region->culture;
+        $climate = $region->climate;
 		$culture = Culture::where('culture_id', $culture_id)->firstOrFail();
 		$user = auth()->user();
-		return view('place.show', compact('placedata','culture','user'));        
+		return view('place.show', compact('placedata','culture','user','climate'));        
     }
 	
     //update function

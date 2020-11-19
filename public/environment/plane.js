@@ -3,8 +3,11 @@ class PartPlane extends THREE.Group {
         var plane, geometry, material, mPlane, texture;
 
         mPlane = this;
-        
-        texture = new THREE.TextureLoader().load( "textures/plane/"+this.tex+".jpg" );
+
+        var loader = new THREE.TextureLoader();
+        //loader.crossOrigin = "";
+        texture = loader.load( assetBaseUrl + "textures/plane/"+this.tex+".jpg");
+        console.log( assetBaseUrl + "textures/plane/"+this.tex+".jpg");
         material = new THREE.MeshBasicMaterial( { map: texture, side: THREE.DoubleSide} );      
         geometry = new THREE.PlaneGeometry( this.width, this.length );
         plane = new THREE.Mesh( geometry, material );

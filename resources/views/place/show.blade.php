@@ -1,4 +1,4 @@
-@extends('layouts.game')
+@extends('layouts.place')
 @section('title')
 Game
 @endsection
@@ -151,7 +151,6 @@ Game
 	@else
 		<td class="pl">{{ $placedata->commerce }}</td>
 	@endif
-
 	
 	<!--factory-->
 
@@ -205,7 +204,6 @@ Game
 	@else
 		<td class="pl">{{ $placedata->factory }}</td>
 	@endif	
-
 	
 	<!--arms-->
 
@@ -238,8 +236,128 @@ Game
 	</tr>
 	</tbody>
 	</table>
+
+	<div class="customcanvas" id="customcanvas" style="width:1600px; height:800px; background-color: rgb(0, 76, 76);margin:auto;"></div>
+	<div id="game" class="game"></div>
 	
  </div>      
-    </div>
-</div>
+    </div>	
+	
+</div>	
+
+<script>
+var storagePath = "http://"+location.host+"/"; 
+var assetBaseUrl = "{{ asset('') }}";
+//collision vars
+var MovingCube;
+var collidableMeshList = [];
+var collidableBulletMeshList = [];
+//collidable props
+var collidablePropMeshList = []; 
+var propTypes = [];
+//updater
+var updateFcts = [];
+//scene
+var scene = new THREE.Scene();
+//fog
+scene.fog = new THREE.FogExp2( 0xd0e0f0, 0.0002 );
+//renderer
+var renderer = new THREE.WebGLRenderer( { antialias: false } );
+//window
+canvasWidth = 1600;
+canvasHeight = 800; 
+renderer.setSize( canvasWidth, canvasHeight );      
+//append object to it
+document.getElementById("customcanvas").appendChild(renderer.domElement);
+//camera
+var camera = new THREE.PerspectiveCamera(45, canvasWidth / canvasHeight, 0.01, 7650);
+camera.position.y = 12;
+camera.position.z = -67;
+camera.position.x = -21;
+//environment
+var environmentsize = 5100;
+var climate ="not";//{{$climate}};
+//plane
+if(climate =="desert" || climate =="desert_marshes"){
+	//planes
+	var impluve =new PartPlane(environmentsize,environmentsize,"desert",0,0,0);
+	scene.add( impluve );
+}
+else {
+	//planes
+	var impluve =new PartPlane(environmentsize,environmentsize,"ground",0,0,0);
+	scene.add( impluve );
+}
+//skybox
+var skyBox = new Skybox(environmentsize,environmentsize,environmentsize);
+scene.add( skyBox );
+//lighting 
+worldLighter();
+//moving cube
+var cubeGeometry = new THREE.CylinderGeometry(5,5,20,4);
+var wireMaterial = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe:true, visible:true } );
+MovingCube = new THREE.Mesh( cubeGeometry, wireMaterial );
+MovingCube.position.set(camera.position.x, camera.position.y, camera.position.z);
+scene.add( MovingCube );  
+//Camera Controls
+var controls = new THREE.FirstPersonControls( camera );
+controls.lookSpeed = 0.05;
+controls.lookVertical = false; //if true vertical look on mousemovement
+/*
+//Locking the pointer to the game
+document.getElementById("parent").addEventListener( 'click', function ( event ) {
+        lock();
+}, false );
+function lock(rawr) {
+        document.getElementById("parent").requestPointerLock();
+} 
+*/
+//collision vars
+var collisionX;
+var collisionZ;
+
+		//render the scene
+		renderer.render( scene, camera );
+		//moving cube position and rotation
+		MovingCube.position.x = camera.position.x;
+		MovingCube.position.y = camera.position.y;
+		MovingCube.position.z = camera.position.z;
+		MovingCube.rotation.y = camera.rotation.y;  
+		
+//onload loop
+/*
+function GameLoop(){
+
+//update function
+updateFcts.push(function(delta,now){
+		//controls update
+		controls.update( delta ); 
+		//render the scene
+		renderer.render( scene, camera );
+		//moving cube position and rotation
+		MovingCube.position.x = camera.position.x;
+		MovingCube.position.y = camera.position.y;
+		MovingCube.position.z = camera.position.z;
+		MovingCube.rotation.y = camera.rotation.y;                             
+})
+
+//loop runner
+var lastTimeMsec= null
+requestAnimationFrame(function animate(nowMsec){
+		// keep looping
+		requestAnimationFrame( animate );
+		// measure time
+		lastTimeMsec = lastTimeMsec || nowMsec-1000/60
+		var deltaMsec = Math.min(200, nowMsec - lastTimeMsec)
+		lastTimeMsec = nowMsec
+		// call each update function
+		updateFcts.forEach(function(updateFn){
+				updateFn(deltaMsec/1000, nowMsec/1000)
+		})
+})
+
+}
+*/
+</script>
+
 @endsection
