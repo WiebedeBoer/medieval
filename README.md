@@ -4,7 +4,6 @@ Medieval was made using PHP, JavaScript, MySQL, XML, HTML5, CSS3, and using Lara
 
 # Laravel
 
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -30,11 +29,6 @@ Medieval was made using PHP, JavaScript, MySQL, XML, HTML5, CSS3, and using Lara
 <p align="center"><a href="https://jquery.com/browser-support/">jQuery Browser Support</a></p>
 
 # Bootstrap
- <p align="center">
-  <a href="https://getbootstrap.com/" rel="nofollow">
-    <img src="https://camo.githubusercontent.com/a5f1061fb7cedc496c697e46448c39a1e6540184/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f342e332f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667" alt="Bootstrap logo" width="72" height="72" data-canonical-src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" style="max-width:100%;">
-  </a>
-  </p>
  <p align="center">
   Sleek, intuitive, and powerful front-end framework for faster and easier web development.
   </p>
