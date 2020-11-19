@@ -266,7 +266,7 @@ THREE.FirstPersonControls = function ( object, domElement ) {
         };
 
         //event listeners
-        this.domElement.addEventListener( 'mousemove', bind( this, this.onMouseMove ), false );
+        //this.domElement.addEventListener( 'mousemove', bind( this, this.onMouseMove ), false );
         this.domElement.addEventListener( 'contextmenu', function ( event ) { event.preventDefault(); }, false );
 
         this.domElement.addEventListener( 'keydown', bind( this, this.onKeyDown ), false );

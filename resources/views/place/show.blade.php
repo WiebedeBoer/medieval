@@ -237,13 +237,10 @@ Game
 	</tbody>
 	</table>
 
-	<div class="customcanvas" id="customcanvas" style="width:1600px; height:800px; background-color: rgb(0, 76, 76);margin:auto;"></div>
+	<div class="customcanvas" id="customcanvas" style="width:100%; height:800px; background-color: rgb(0, 76, 76);margin:auto;"></div>
 	<div id="game" class="game"></div>
 	
- </div>      
-    </div>	
-	
-</div>	
+
 
 <script>
 var storagePath = "http://"+location.host+"/"; 
@@ -255,6 +252,9 @@ var collidableBulletMeshList = [];
 //collidable props
 var collidablePropMeshList = []; 
 var propTypes = [];
+// Bullets array
+var bullets = [];
+var bulletmeshes = []; 
 //updater
 var updateFcts = [];
 //scene
@@ -264,7 +264,7 @@ scene.fog = new THREE.FogExp2( 0xd0e0f0, 0.0002 );
 //renderer
 var renderer = new THREE.WebGLRenderer( { antialias: false } );
 //window
-canvasWidth = 1600;
+canvasWidth = window.innerWidth * 0.96;
 canvasHeight = 800; 
 renderer.setSize( canvasWidth, canvasHeight );      
 //append object to it
@@ -276,7 +276,7 @@ camera.position.z = -67;
 camera.position.x = -21;
 //environment
 var environmentsize = 5100;
-var climate ="not";//{{$climate}};
+var climate ="{{$climate}}";//;
 //plane
 if(climate =="desert" || climate =="desert_marshes"){
 	//planes
@@ -295,7 +295,7 @@ scene.add( skyBox );
 worldLighter();
 //moving cube
 var cubeGeometry = new THREE.CylinderGeometry(5,5,20,4);
-var wireMaterial = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe:true, visible:true } );
+var wireMaterial = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe:true, visible:false } );
 MovingCube = new THREE.Mesh( cubeGeometry, wireMaterial );
 MovingCube.position.set(camera.position.x, camera.position.y, camera.position.z);
 scene.add( MovingCube );  
@@ -312,20 +312,16 @@ function lock(rawr) {
         document.getElementById("parent").requestPointerLock();
 } 
 */
+
+//hit registration collision
+function clearText()
+{   document.getElementById('message').innerHTML = '...';}
+function appendText(txt)
+{   document.getElementById('message').innerHTML += txt;}
 //collision vars
 var collisionX;
-var collisionZ;
-
-		//render the scene
-		renderer.render( scene, camera );
-		//moving cube position and rotation
-		MovingCube.position.x = camera.position.x;
-		MovingCube.position.y = camera.position.y;
-		MovingCube.position.z = camera.position.z;
-		MovingCube.rotation.y = camera.rotation.y;  
-		
+var collisionZ;	
 //onload loop
-/*
 function GameLoop(){
 
 //update function
@@ -357,7 +353,19 @@ requestAnimationFrame(function animate(nowMsec){
 })
 
 }
-*/
+
 </script>
+
+        <!--message-->
+        <div id="message" class="ce"></div>
+        <!--minimap-->
+        <div id="minimap" class="ce">
+                <canvas id="myCanvas" width="40" height="40" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+
+		</div>      
+    </div>	
+	
+</div>	
 
 @endsection

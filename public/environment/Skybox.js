@@ -5,7 +5,6 @@ class Skybox extends THREE.Group {
 	            var directions  = ["xpos", "xneg", "ypos", "yneg", "zpos", "zneg"];
 	            var imageSuffix = ".png";
 	            var skyGeometry = new THREE.CubeGeometry( this.width, this.length, this.height );	
-				//var boxloader = new THREE.TextureLoader();
 	            var materialArray = [];
 				for (var i = 0; i < 6; i++)					
 		            materialArray.push( new THREE.MeshBasicMaterial({

@@ -15,26 +15,27 @@
 	<meta name="copyright" content="2020 Wiebe Eling de Boer">
 	<meta name="date" content="2020-3-6">
 	<meta name="robots" content="INDEX, FOLLOW">
-
-	<!-- Styles -->
-	<link href="{{ asset('css/main.css') }}" rel="stylesheet">
-   <!-- Fonts -->
-    <!--jquery-->
-	<link rel="stylesheet" href="{{ asset('css/jquery-ui.min.css') }}">
-    <!--bootstrap-->
-	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-	<!--music-->
-
     <!-- Scripts -->
+    <script type="module" src="{{ asset('js/jquery-3.4.1.js') }}"></script>
     <script type="module" src="{{ asset('js/jquery-ui.min.js') }}"></script>
     <script type="module" src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/app.js') }}" defer></script>
+    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+    <!--bootstrap-->
+	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <!--jquery-->
+	<link rel="stylesheet" href="{{ asset('css/jquery-ui.min.css') }}">
+	<!-- Styles -->
+	<link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <!--Fonts-->
+
+	<!--music-->
+
     <!--library: three.js-->
     <script type="text/javascript" src="{{ asset('library/three.js') }}"></script>
     <!--camera controls-->
     <script type="text/javascript" src="{{ asset ('controls/FPControls.js') }}"></script>
     <!--collision detection-->
-    <!--<script type="text/javascript" src="{{ asset ('collision/collision.js') }}"></script>-->
+    <script type="text/javascript" src="{{ asset ('collision/collision.js') }}"></script>
     <!--environment: plane en skybox-->
     <script type="text/javascript" src="{{ asset ('environment/plane.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('environment/Skybox.js') }}"></script>
@@ -46,7 +47,7 @@
     <script type="text/javascript" src="{{ asset ('loaders/ModelLoader.js') }}"></script>
 </head>
 <!--<body class="body-cards" onload="GameLoop()">-->
-<body class="body-cards">
+<body class="body-cards" onload="GameLoop()">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -72,29 +73,8 @@
                                 </li>
                             @endif
                         @else
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">Dashboard</a></li>   
-						<li class="nav-item dropdown">
-								
-						
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-								
-								
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-								
-                            </li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">Dashboard</a> </li>   
+						<li class="nav-item"><a class="nav-link" href="{{ url('/home') }}"> {{ Auth::user()->name }}</a></li>
 							
                         @endguest
 						
