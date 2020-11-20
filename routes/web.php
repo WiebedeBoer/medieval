@@ -228,6 +228,7 @@ Route::get('place', 'PlaceController@index');
 Route::get('place/{place}', 'PlaceController@show');
 Route::get('place/{place}/edit', 'PlaceController@edit');
 Route::patch('place/{place}', 'PlaceController@update');
+Route::get('place/{place}/build', 'PlaceController@build');
 //quarters
 Route::get('quarters', 'QuarterController@index');
 Route::get('quarters/{quarters}', 'QuarterController@show');
