@@ -47,8 +47,20 @@ Game
 				
 				
 
-					<h1>{{ $placedata->place_name }}</h1>
-<div class="container-fluid justify-content-center">
+	<h1>{{ $placedata->place_name }}</h1>
+
+	@if($placedata->description !=NULL)
+	<div class="m-1">{{ $placedata->description }}</div>
+	@endif
+
+	@if($ktusers >=1)
+	<div class="d-flex justify-content-center">
+	<div class="m-1"><a href="/place/{{$id}}/edit">Edit</a></div>
+	<div class="m-1"><a href="/place/{{$id}}/build">Build</a></div>
+	</div>
+	@endif
+
+	<div class="container-fluid justify-content-center">
 	<div class="py-5">
 	<table class="table-striped tablesorter table">
 	<tbody>

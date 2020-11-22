@@ -349,7 +349,8 @@ class fkeySeeder extends Seeder
 			$table->foreign('mesne_lord')->references('person_id')->on('people');
 			$table->foreign('tenant_paravail')->references('person_id')->on('people');
 			$table->foreign('allodial_owner')->references('person_id')->on('people');
-			$table->foreign('tenure_owner')->references('person_id')->on('people');		
+			$table->foreign('tenure_owner')->references('person_id')->on('people');	
+			$table->foreign('realm')->references('realm_id')->on('realms');		
         });
 
 		//quarters

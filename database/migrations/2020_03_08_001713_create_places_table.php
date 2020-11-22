@@ -21,7 +21,8 @@ class CreatePlacesTable extends Migration
 			$table->unsignedBigInteger('mesne_lord')->nullable();
 			$table->unsignedBigInteger('tenant_paravail')->nullable();
 			$table->unsignedBigInteger('allodial_owner')->nullable();
-			$table->unsignedBigInteger('tenure_owner')->nullable();			
+			$table->unsignedBigInteger('tenure_owner')->nullable();	
+			$table->unsignedBigInteger('realm')->nullable();			
 			$table->string('place_name');
 			$table->string('place_type');
 			$table->integer('population')->default(0); //default = 0
