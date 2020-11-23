@@ -10,8 +10,12 @@ Game
 	<div class="m-1"><a href="/place/{{$id}}">Show</a></div>
 	</div>
 
-	<div class="m-1"><a href="/region/{{ $placedata->regions->region_id }}">{{ $placedata->regions->region_name }}</a></div>
-	<div class="m-1"><a href="/culture/{{ $culture->culture_id }}">{{ $culture->culture_name }}</a></div>
+	<div class="d-flex justify-content-center">
+	<div class="m-1">Region: <a href="/region/{{ $placedata->regions->region_id }}">{{ $placedata->regions->region_name }}</a></div>
+
+	<div class="m-1">Culture: <a href="/culture/{{ $culture->culture_id }}">{{ $culture->culture_name }}</a></div>
+	</div>
+	
 	<form method="POST" action="/place/edit/{{ $placedata->place_id }}" class="pb-3">
 	@method('PATCH')
 	<div class="m-1">

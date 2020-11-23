@@ -10,6 +10,7 @@ use App\Person;
 use App\Realm;
 use App\Ruler;
 use App\Dynasty;
+use App\Building;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
@@ -171,8 +172,15 @@ class PlaceController extends Controller
 		$region = Region::where('region_id', $region_id)->firstOrFail();
 		$culture_id = $region->culture;
         $culture = Culture::where('culture_id', $culture_id)->firstOrFail();
+        $building_count = Building::where('place',$id)->count();
+        if($building_count >=1){
+            $buildings = Building::with('types')->where('place',$id)->get();
+        }
+        else {
+            $buildings = [];
+        }     
         $user = auth()->user();
-		return view('place.build', compact('placedata','culture','user','region','id'));        
+		return view('place.build', compact('placedata','culture','user','region','id','buildings','building_count'));        
     }
 
     //kt users
