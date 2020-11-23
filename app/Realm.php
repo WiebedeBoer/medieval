@@ -25,36 +25,6 @@ class Realm extends Model
         return $this->belongsTo('App\Dynasty','dynasty');
     } 
 
-    public function rulers()
-    {
-        return $this->belongsTo('App\Person','ruler');
-    } 
-
-    public function chancellors()
-    {
-        return $this->belongsTo('App\Person','chancellor');
-    } 
-
-    public function chamberlains()
-    {
-        return $this->belongsTo('App\Person','chamberlain');
-    } 
-
-    public function marshalls()
-    {
-        return $this->belongsTo('App\Person','marshall');
-    } 
-
-    public function admirals()
-    {
-        return $this->belongsTo('App\Person','admiral');
-    } 
-
-    public function stewards()
-    {
-        return $this->belongsTo('App\Person','steward');
-    } 
-
     public function capitals()
     {
         return $this->belongsTo('App\Place','capital');

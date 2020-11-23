@@ -13,7 +13,7 @@ class RegionSeeder extends Seeder
     public function run()
     {
 
-
+//1
 DB::table('regions')->insert([
 'region_name' => 'Lower Saxony',
 'rank' => 'prince-archbishopric',
@@ -29,7 +29,7 @@ DB::table('regions')->insert([
 'region_x' => '839',
 'region_y' => '635'
 ]);
-
+//2
 DB::table('regions')->insert([
 'region_name' => 'Upper Saxony',
 'rank' => 'march',
@@ -45,7 +45,7 @@ DB::table('regions')->insert([
 'region_x' => '1028',
 'region_y' => '761'
 ]);
-
+//3
 DB::table('regions')->insert([
 'region_name' => 'Anhalt',
 'rank' => 'prince-archbishopric',
@@ -61,7 +61,7 @@ DB::table('regions')->insert([
 'region_x' => '953',
 'region_y' => '699'
 ]);
-
+//4
 DB::table('regions')->insert([
 'region_name' => 'Mecklenburg',
 'rank' => 'duchy',
@@ -77,7 +77,7 @@ DB::table('regions')->insert([
 'region_x' => '944',
 'region_y' => '597'
 ]);
-
+//5
 DB::table('regions')->insert([
 'region_name' => 'Brandenburg',
 'rank' => 'duchy',
@@ -93,7 +93,7 @@ DB::table('regions')->insert([
 'region_x' => '990',
 'region_y' => '679'
 ]);
-
+//6
 DB::table('regions')->insert([
 'region_name' => 'Pomerania',
 'rank' => 'duchy',
@@ -109,7 +109,7 @@ DB::table('regions')->insert([
 'region_x' => '1070',
 'region_y' => '612'
 ]);
-
+//7
 DB::table('regions')->insert([
 'region_name' => 'Munsterland',
 'rank' => 'prince-bishopric',
@@ -125,7 +125,7 @@ DB::table('regions')->insert([
 'region_x' => '791',
 'region_y' => '710'
 ]);
-
+//8
 DB::table('regions')->insert([
 'region_name' => 'Bavaria',
 'rank' => 'duchy',
@@ -141,7 +141,7 @@ DB::table('regions')->insert([
 'region_x' => '972',
 'region_y' => '897'
 ]);
-
+//9
 DB::table('regions')->insert([
 'region_name' => 'Salzburg',
 'rank' => 'prince-archbishopric',
@@ -157,7 +157,7 @@ DB::table('regions')->insert([
 'region_x' => '1011',
 'region_y' => '970'
 ]);
-
+//10
 DB::table('regions')->insert([
 'region_name' => 'Austria',
 'rank' => 'duchy',
@@ -173,7 +173,7 @@ DB::table('regions')->insert([
 'region_x' => '1145',
 'region_y' => '947'
 ]);
-
+//11
 DB::table('regions')->insert([
 'region_name' => 'Styria',
 'rank' => 'duchy',
@@ -189,7 +189,7 @@ DB::table('regions')->insert([
 'region_x' => '1066',
 'region_y' => '964'
 ]);
-
+//12
 DB::table('regions')->insert([
 'region_name' => 'Tyrolia',
 'rank' => 'duchy',
@@ -205,7 +205,7 @@ DB::table('regions')->insert([
 'region_x' => '944',
 'region_y' => '1003'
 ]);
-
+//13
 DB::table('regions')->insert([
 'region_name' => 'Swabia',
 'rank' => 'duchy',
@@ -221,7 +221,7 @@ DB::table('regions')->insert([
 'region_x' => '886',
 'region_y' => '935'
 ]);
-
+//14
 DB::table('regions')->insert([
 'region_name' => 'Schwyz',
 'rank' => 'prince-bishopric',
@@ -237,7 +237,7 @@ DB::table('regions')->insert([
 'region_x' => '784',
 'region_y' => '1022'
 ]);
-
+//15
 DB::table('regions')->insert([
 'region_name' => 'Alsace',
 'rank' => 'county',
@@ -253,7 +253,7 @@ DB::table('regions')->insert([
 'region_x' => '796',
 'region_y' => '924'
 ]);
-
+//16
 DB::table('regions')->insert([
 'region_name' => 'Bohemia',
 'rank' => 'kingdom',
@@ -269,7 +269,7 @@ DB::table('regions')->insert([
 'region_x' => '1066',
 'region_y' => '831'
 ]);
-
+//17
 DB::table('regions')->insert([
 'region_name' => 'Moravia',
 'rank' => 'march',
@@ -285,7 +285,7 @@ DB::table('regions')->insert([
 'region_x' => '1155',
 'region_y' => '886'
 ]);
-
+//18
 DB::table('regions')->insert([
 'region_name' => 'Franconia',
 'rank' => 'prince-archbishopric',
@@ -301,7 +301,7 @@ DB::table('regions')->insert([
 'region_x' => '816',
 'region_y' => '836'
 ]);
-
+//19
 DB::table('regions')->insert([
 'region_name' => 'Lower Lorraine',
 'rank' => 'prince-archbishopric',
@@ -317,7 +317,7 @@ DB::table('regions')->insert([
 'region_x' => '764',
 'region_y' => '776'
 ]);
-
+//20
 DB::table('regions')->insert([
 'region_name' => 'Upper Lorraine',
 'rank' => 'prince-archbishopric',
@@ -333,7 +333,7 @@ DB::table('regions')->insert([
 'region_x' => '751',
 'region_y' => '851'
 ]);
-
+//21
 DB::table('regions')->insert([
 'region_name' => 'Guelders',
 'rank' => 'duchy',
@@ -349,7 +349,7 @@ DB::table('regions')->insert([
 'region_x' => '738',
 'region_y' => '739'
 ]);
-
+//22
 DB::table('regions')->insert([
 'region_name' => 'Holland',
 'rank' => 'county',
@@ -365,7 +365,7 @@ DB::table('regions')->insert([
 'region_x' => '699',
 'region_y' => '709'
 ]);
-
+//23
 DB::table('regions')->insert([
 'region_name' => 'Frisia',
 'rank' => 'county',
@@ -381,7 +381,7 @@ DB::table('regions')->insert([
 'region_x' => '712',
 'region_y' => '639'
 ]);
-
+//24
 DB::table('regions')->insert([
 'region_name' => 'Brabant',
 'rank' => 'duchy',
@@ -397,7 +397,7 @@ DB::table('regions')->insert([
 'region_x' => '673',
 'region_y' => '780'
 ]);
-
+//25
 DB::table('regions')->insert([
 'region_name' => 'Flanders',
 'rank' => 'county',
@@ -413,7 +413,7 @@ DB::table('regions')->insert([
 'region_x' => '633',
 'region_y' => '769'
 ]);
-
+//26
 DB::table('regions')->insert([
 'region_name' => 'Carinthia',
 'rank' => 'march',
@@ -429,7 +429,7 @@ DB::table('regions')->insert([
 'region_x' => '1033',
 'region_y' => '1080'
 ]);
-
+//27
 DB::table('regions')->insert([
 'region_name' => 'Carniola',
 'rank' => 'march',
@@ -445,7 +445,7 @@ DB::table('regions')->insert([
 'region_x' => '1064',
 'region_y' => '1063'
 ]);
-
+//28
 DB::table('regions')->insert([
 'region_name' => 'Brittany',
 'rank' => 'duchy',
@@ -461,7 +461,7 @@ DB::table('regions')->insert([
 'region_x' => '371',
 'region_y' => '980'
 ]);
-
+//29
 DB::table('regions')->insert([
 'region_name' => 'Ile de France',
 'rank' => 'kingdom',
@@ -477,7 +477,7 @@ DB::table('regions')->insert([
 'region_x' => '578',
 'region_y' => '906'
 ]);
-
+//30
 DB::table('regions')->insert([
 'region_name' => 'Bar',
 'rank' => 'duchy',
@@ -493,7 +493,7 @@ DB::table('regions')->insert([
 'region_x' => '691',
 'region_y' => '912'
 ]);
-
+//31
 DB::table('regions')->insert([
 'region_name' => 'Picardy',
 'rank' => 'county',
@@ -509,7 +509,7 @@ DB::table('regions')->insert([
 'region_x' => '575',
 'region_y' => '842'
 ]);
-
+//32
 DB::table('regions')->insert([
 'region_name' => 'Normandy',
 'rank' => 'duchy',
@@ -525,7 +525,7 @@ DB::table('regions')->insert([
 'region_x' => '527',
 'region_y' => '870'
 ]);
-
+//33
 DB::table('regions')->insert([
 'region_name' => 'Champagne',
 'rank' => 'prince-archbishopric',
@@ -541,7 +541,7 @@ DB::table('regions')->insert([
 'region_x' => '645',
 'region_y' => '881'
 ]);
-
+//34
 DB::table('regions')->insert([
 'region_name' => 'Orleans',
 'rank' => 'duchy',
@@ -557,7 +557,7 @@ DB::table('regions')->insert([
 'region_x' => '559',
 'region_y' => '965'
 ]);
-
+//35
 DB::table('regions')->insert([
 'region_name' => 'Touraine',
 'rank' => 'duchy',
@@ -573,7 +573,7 @@ DB::table('regions')->insert([
 'region_x' => '510',
 'region_y' => '995'
 ]);
-
+//36
 DB::table('regions')->insert([
 'region_name' => 'Anjou',
 'rank' => 'duchy',
@@ -589,7 +589,7 @@ DB::table('regions')->insert([
 'region_x' => '461',
 'region_y' => '990'
 ]);
-
+//37
 DB::table('regions')->insert([
 'region_name' => 'Poitou',
 'rank' => 'duchy',
@@ -605,7 +605,7 @@ DB::table('regions')->insert([
 'region_x' => '496',
 'region_y' => '1044'
 ]);
-
+//38
 DB::table('regions')->insert([
 'region_name' => 'Berry',
 'rank' => 'duchy',
@@ -621,7 +621,7 @@ DB::table('regions')->insert([
 'region_x' => '580',
 'region_y' => '1013'
 ]);
-
+//39
 DB::table('regions')->insert([
 'region_name' => 'Bourbonnais',
 'rank' => 'duchy',
@@ -637,7 +637,7 @@ DB::table('regions')->insert([
 'region_x' => '618',
 'region_y' => '1044'
 ]);
-
+//40
 DB::table('regions')->insert([
 'region_name' => 'Auvergne',
 'rank' => 'duchy',
@@ -653,7 +653,7 @@ DB::table('regions')->insert([
 'region_x' => '607',
 'region_y' => '1090'
 ]);
-
+//41
 DB::table('regions')->insert([
 'region_name' => 'Provence',
 'rank' => 'county',
@@ -669,7 +669,7 @@ DB::table('regions')->insert([
 'region_x' => '670',
 'region_y' => '1210'
 ]);
-
+//42
 DB::table('regions')->insert([
 'region_name' => 'Languedoc',
 'rank' => 'duchy',
@@ -685,7 +685,7 @@ DB::table('regions')->insert([
 'region_x' => '541',
 'region_y' => '1215'
 ]);
-
+//43
 DB::table('regions')->insert([
 'region_name' => 'Aquitaine',
 'rank' => 'duchy',
@@ -701,7 +701,7 @@ DB::table('regions')->insert([
 'region_x' => '460',
 'region_y' => '1145'
 ]);
-
+//44
 DB::table('regions')->insert([
 'region_name' => 'Angouleme',
 'rank' => 'duchy',
@@ -717,7 +717,7 @@ DB::table('regions')->insert([
 'region_x' => '489',
 'region_y' => '1098'
 ]);
-
+//45
 DB::table('regions')->insert([
 'region_name' => 'Viennois',
 'rank' => 'duchy',
@@ -733,7 +733,7 @@ DB::table('regions')->insert([
 'region_x' => '714',
 'region_y' => '1124'
 ]);
-
+//46
 DB::table('regions')->insert([
 'region_name' => 'Burgundy',
 'rank' => 'prince-archbishopric',
@@ -749,7 +749,7 @@ DB::table('regions')->insert([
 'region_x' => '686',
 'region_y' => '999'
 ]);
-
+//47
 DB::table('regions')->insert([
 'region_name' => 'Essex',
 'rank' => 'kingdom',
@@ -765,7 +765,7 @@ DB::table('regions')->insert([
 'region_x' => '478',
 'region_y' => '739'
 ]);
-
+//48
 DB::table('regions')->insert([
 'region_name' => 'Kent',
 'rank' => 'county',
@@ -781,7 +781,7 @@ DB::table('regions')->insert([
 'region_x' => '526',
 'region_y' => '753'
 ]);
-
+//49
 DB::table('regions')->insert([
 'region_name' => 'Wessex',
 'rank' => 'county',
@@ -797,7 +797,7 @@ DB::table('regions')->insert([
 'region_x' => '429',
 'region_y' => '767'
 ]);
-
+//50
 DB::table('regions')->insert([
 'region_name' => 'Cornwall',
 'rank' => 'duchy',
@@ -813,7 +813,7 @@ DB::table('regions')->insert([
 'region_x' => '279',
 'region_y' => '819'
 ]);
-
+//51
 DB::table('regions')->insert([
 'region_name' => 'East Anglia',
 'rank' => 'duchy',
@@ -829,7 +829,7 @@ DB::table('regions')->insert([
 'region_x' => '534',
 'region_y' => '665'
 ]);
-
+//52
 DB::table('regions')->insert([
 'region_name' => 'Northumbria',
 'rank' => 'march',
@@ -845,7 +845,7 @@ DB::table('regions')->insert([
 'region_x' => '439',
 'region_y' => '575'
 ]);
-
+//53
 DB::table('regions')->insert([
 'region_name' => 'Hwicce',
 'rank' => 'county',
@@ -861,7 +861,7 @@ DB::table('regions')->insert([
 'region_x' => '394',
 'region_y' => '693'
 ]);
-
+//54
 DB::table('regions')->insert([
 'region_name' => 'Middle Anglia',
 'rank' => 'county',
@@ -877,7 +877,7 @@ DB::table('regions')->insert([
 'region_x' => '494',
 'region_y' => '680'
 ]);
-
+//55
 DB::table('regions')->insert([
 'region_name' => 'Mercia',
 'rank' => 'county',
@@ -893,7 +893,7 @@ DB::table('regions')->insert([
 'region_x' => '413',
 'region_y' => '665'
 ]);
-
+//56
 DB::table('regions')->insert([
 'region_name' => 'Lindsey',
 'rank' => 'county',
@@ -909,7 +909,7 @@ DB::table('regions')->insert([
 'region_x' => '461',
 'region_y' => '625'
 ]);
-
+//57
 DB::table('regions')->insert([
 'region_name' => 'Gwynedd',
 'rank' => 'principality',
@@ -925,7 +925,7 @@ DB::table('regions')->insert([
 'region_x' => '310',
 'region_y' => '632'
 ]);
-
+//58
 DB::table('regions')->insert([
 'region_name' => 'Powys',
 'rank' => 'march',
@@ -941,7 +941,7 @@ DB::table('regions')->insert([
 'region_x' => '372',
 'region_y' => '661'
 ]);
-
+//59
 DB::table('regions')->insert([
 'region_name' => 'Gwent',
 'rank' => 'county',
@@ -957,7 +957,7 @@ DB::table('regions')->insert([
 'region_x' => '354',
 'region_y' => '740'
 ]);
-
+//60
 DB::table('regions')->insert([
 'region_name' => 'Vestfold',
 'rank' => 'kingdom',
@@ -973,7 +973,7 @@ DB::table('regions')->insert([
 'region_x' => '918',
 'region_y' => '133'
 ]);
-
+//61
 DB::table('regions')->insert([
 'region_name' => 'Hordaland',
 'rank' => 'county',
@@ -989,7 +989,7 @@ DB::table('regions')->insert([
 'region_x' => '698',
 'region_y' => '94'
 ]);
-
+//62
 DB::table('regions')->insert([
 'region_name' => 'Sjaelland',
 'rank' => 'kingdom',
@@ -1005,7 +1005,7 @@ DB::table('regions')->insert([
 'region_x' => '991',
 'region_y' => '455'
 ]);
-
+//63
 DB::table('regions')->insert([
 'region_name' => 'Scania',
 'rank' => 'county',
@@ -1021,7 +1021,7 @@ DB::table('regions')->insert([
 'region_x' => '1016',
 'region_y' => '453'
 ]);
-
+//64
 DB::table('regions')->insert([
 'region_name' => 'Jutland',
 'rank' => 'county',
@@ -1037,7 +1037,7 @@ DB::table('regions')->insert([
 'region_x' => '895',
 'region_y' => '419'
 ]);
-
+//65
 DB::table('regions')->insert([
 'region_name' => 'Svaeland',
 'rank' => 'kingdom',
@@ -1053,7 +1053,7 @@ DB::table('regions')->insert([
 'region_x' => '1213',
 'region_y' => '180'
 ]);
-
+//66
 DB::table('regions')->insert([
 'region_name' => 'Smaland',
 'rank' => 'county',
@@ -1069,7 +1069,7 @@ DB::table('regions')->insert([
 'region_x' => '1144',
 'region_y' => '382'
 ]);
-
+//67
 DB::table('regions')->insert([
 'region_name' => 'Gotaland',
 'rank' => 'county',
@@ -1085,7 +1085,7 @@ DB::table('regions')->insert([
 'region_x' => '1026',
 'region_y' => '253'
 ]);
-
+//68
 DB::table('regions')->insert([
 'region_name' => 'Livonia',
 'rank' => 'prince-archbishopric',
@@ -1101,7 +1101,7 @@ DB::table('regions')->insert([
 'region_x' => '1457',
 'region_y' => '361'
 ]);
-
+//69
 DB::table('regions')->insert([
 'region_name' => 'Courland',
 'rank' => 'duchy',
@@ -1117,7 +1117,7 @@ DB::table('regions')->insert([
 'region_x' => '1358',
 'region_y' => '342'
 ]);
-
+//70
 DB::table('regions')->insert([
 'region_name' => 'Prussia',
 'rank' => 'duchy',
@@ -1133,7 +1133,7 @@ DB::table('regions')->insert([
 'region_x' => '1252',
 'region_y' => '570'
 ]);
-
+//71
 DB::table('regions')->insert([
 'region_name' => 'Samogitia',
 'rank' => 'county',
@@ -1149,7 +1149,7 @@ DB::table('regions')->insert([
 'region_x' => '1338',
 'region_y' => '453'
 ]);
-
+//72
 DB::table('regions')->insert([
 'region_name' => 'Estonia',
 'rank' => 'duchy',
@@ -1165,7 +1165,7 @@ DB::table('regions')->insert([
 'region_x' => '1484',
 'region_y' => '172'
 ]);
-
+//73
 DB::table('regions')->insert([
 'region_name' => 'Lothian',
 'rank' => 'kingdom',
@@ -1181,7 +1181,7 @@ DB::table('regions')->insert([
 'region_x' => '354',
 'region_y' => '435'
 ]);
-
+//74
 DB::table('regions')->insert([
 'region_name' => 'Bernicia',
 'rank' => 'march',
@@ -1197,7 +1197,7 @@ DB::table('regions')->insert([
 'region_x' => '401',
 'region_y' => '447'
 ]);
-
+//75
 DB::table('regions')->insert([
 'region_name' => 'Strathclyde',
 'rank' => 'county',
@@ -1213,7 +1213,7 @@ DB::table('regions')->insert([
 'region_x' => '299',
 'region_y' => '436'
 ]);
-
+//76
 DB::table('regions')->insert([
 'region_name' => 'Galloway',
 'rank' => 'county',
@@ -1229,7 +1229,7 @@ DB::table('regions')->insert([
 'region_x' => '319',
 'region_y' => '514'
 ]);
-
+//77
 DB::table('regions')->insert([
 'region_name' => 'Dalriada',
 'rank' => 'county',
@@ -1245,7 +1245,7 @@ DB::table('regions')->insert([
 'region_x' => '224',
 'region_y' => '408'
 ]);
-
+//78
 DB::table('regions')->insert([
 'region_name' => 'Fib',
 'rank' => 'county',
@@ -1261,7 +1261,7 @@ DB::table('regions')->insert([
 'region_x' => '344',
 'region_y' => '403'
 ]);
-
+//79
 DB::table('regions')->insert([
 'region_name' => 'Fortriu',
 'rank' => 'county',
@@ -1277,7 +1277,7 @@ DB::table('regions')->insert([
 'region_x' => '348',
 'region_y' => '309'
 ]);
-
+//80
 DB::table('regions')->insert([
 'region_name' => 'Alba',
 'rank' => 'county',
@@ -1293,7 +1293,7 @@ DB::table('regions')->insert([
 'region_x' => '361',
 'region_y' => '397'
 ]);
-
+//81
 DB::table('regions')->insert([
 'region_name' => 'Caith',
 'rank' => 'county',
@@ -1309,7 +1309,7 @@ DB::table('regions')->insert([
 'region_x' => '304',
 'region_y' => '313'
 ]);
-
+//82
 DB::table('regions')->insert([
 'region_name' => 'Meath',
 'rank' => 'kingdom',
@@ -1325,7 +1325,7 @@ DB::table('regions')->insert([
 'region_x' => '229',
 'region_y' => '618'
 ]);
-
+//83
 DB::table('regions')->insert([
 'region_name' => 'Ulster',
 'rank' => 'county',
@@ -1341,7 +1341,7 @@ DB::table('regions')->insert([
 'region_x' => '213',
 'region_y' => '548'
 ]);
-
+//84
 DB::table('regions')->insert([
 'region_name' => 'Leinster',
 'rank' => 'county',
@@ -1357,7 +1357,7 @@ DB::table('regions')->insert([
 'region_x' => '221',
 'region_y' => '686'
 ]);
-
+//85
 DB::table('regions')->insert([
 'region_name' => 'Munster',
 'rank' => 'county',
@@ -1373,7 +1373,7 @@ DB::table('regions')->insert([
 'region_x' => '163',
 'region_y' => '673'
 ]);
-
+//86
 DB::table('regions')->insert([
 'region_name' => 'Connaught',
 'rank' => 'county',
@@ -1389,7 +1389,7 @@ DB::table('regions')->insert([
 'region_x' => '116',
 'region_y' => '622'
 ]);
-
+//87
 DB::table('regions')->insert([
 'region_name' => 'Navarre',
 'rank' => 'kingdom',
@@ -1405,7 +1405,7 @@ DB::table('regions')->insert([
 'region_x' => '417',
 'region_y' => '1258'
 ]);
-
+//88
 DB::table('regions')->insert([
 'region_name' => 'Biscay',
 'rank' => 'county',
@@ -1421,7 +1421,7 @@ DB::table('regions')->insert([
 'region_x' => '404',
 'region_y' => '1230'
 ]);
-
+//89
 DB::table('regions')->insert([
 'region_name' => 'Aragon',
 'rank' => 'kingdom',
@@ -1437,7 +1437,7 @@ DB::table('regions')->insert([
 'region_x' => '461',
 'region_y' => '1272'
 ]);
-
+//90
 DB::table('regions')->insert([
 'region_name' => 'Zaragoza',
 'rank' => 'principality',
@@ -1453,7 +1453,7 @@ DB::table('regions')->insert([
 'region_x' => '447',
 'region_y' => '1321'
 ]);
-
+//91
 DB::table('regions')->insert([
 'region_name' => 'Gerona',
 'rank' => 'county',
@@ -1469,7 +1469,7 @@ DB::table('regions')->insert([
 'region_x' => '597',
 'region_y' => '1304'
 ]);
-
+//92
 DB::table('regions')->insert([
 'region_name' => 'Barcelona',
 'rank' => 'principality',
@@ -1485,7 +1485,7 @@ DB::table('regions')->insert([
 'region_x' => '571',
 'region_y' => '1335'
 ]);
-
+//93
 DB::table('regions')->insert([
 'region_name' => 'Valencia',
 'rank' => 'principality',
@@ -1501,7 +1501,7 @@ DB::table('regions')->insert([
 'region_x' => '469',
 'region_y' => '1437'
 ]);
-
+//94
 DB::table('regions')->insert([
 'region_name' => 'Denia',
 'rank' => 'principality',
@@ -1517,7 +1517,7 @@ DB::table('regions')->insert([
 'region_x' => '487',
 'region_y' => '1470'
 ]);
-
+//95
 DB::table('regions')->insert([
 'region_name' => 'Baleares',
 'rank' => 'principality',
@@ -1533,7 +1533,7 @@ DB::table('regions')->insert([
 'region_x' => '590',
 'region_y' => '1432'
 ]);
-
+//96
 DB::table('regions')->insert([
 'region_name' => 'Leon',
 'rank' => 'kingdom',
@@ -1549,7 +1549,7 @@ DB::table('regions')->insert([
 'region_x' => '258',
 'region_y' => '1269'
 ]);
-
+//97
 DB::table('regions')->insert([
 'region_name' => 'Asturias',
 'rank' => 'principality',
@@ -1565,7 +1565,7 @@ DB::table('regions')->insert([
 'region_x' => '246',
 'region_y' => '1227'
 ]);
-
+//98
 DB::table('regions')->insert([
 'region_name' => 'Castile',
 'rank' => 'kingdom',
@@ -1581,7 +1581,7 @@ DB::table('regions')->insert([
 'region_x' => '291',
 'region_y' => '1321'
 ]);
-
+//99
 DB::table('regions')->insert([
 'region_name' => 'Burgos',
 'rank' => 'county',
@@ -1597,7 +1597,7 @@ DB::table('regions')->insert([
 'region_x' => '333',
 'region_y' => '1284'
 ]);
-
+//100
 DB::table('regions')->insert([
 'region_name' => 'Galicia',
 'rank' => 'kingdom',
@@ -1613,7 +1613,7 @@ DB::table('regions')->insert([
 'region_x' => '138',
 'region_y' => '1254'
 ]);
-
+//101
 DB::table('regions')->insert([
 'region_name' => 'Estremadura',
 'rank' => 'kingdom',
@@ -1629,7 +1629,7 @@ DB::table('regions')->insert([
 'region_x' => '112',
 'region_y' => '1476'
 ]);
-
+//102
 DB::table('regions')->insert([
 'region_name' => 'Porto',
 'rank' => 'duchy',
@@ -1645,7 +1645,7 @@ DB::table('regions')->insert([
 'region_x' => '133',
 'region_y' => '1347'
 ]);
-
+//103
 DB::table('regions')->insert([
 'region_name' => 'Braganca',
 'rank' => 'duchy',
@@ -1661,7 +1661,7 @@ DB::table('regions')->insert([
 'region_x' => '209',
 'region_y' => '1314'
 ]);
-
+//104
 DB::table('regions')->insert([
 'region_name' => 'Beira',
 'rank' => 'county',
@@ -1677,7 +1677,7 @@ DB::table('regions')->insert([
 'region_x' => '143',
 'region_y' => '1398'
 ]);
-
+//105
 DB::table('regions')->insert([
 'region_name' => 'Alentejo',
 'rank' => 'county',
@@ -1693,7 +1693,7 @@ DB::table('regions')->insert([
 'region_x' => '162',
 'region_y' => '1484'
 ]);
-
+//106
 DB::table('regions')->insert([
 'region_name' => 'Algarve',
 'rank' => 'county',
@@ -1709,7 +1709,7 @@ DB::table('regions')->insert([
 'region_x' => '161',
 'region_y' => '1563'
 ]);
-
+//107
 DB::table('regions')->insert([
 'region_name' => 'Cordoba',
 'rank' => 'kingdom',
@@ -1725,7 +1725,7 @@ DB::table('regions')->insert([
 'region_x' => '289',
 'region_y' => '1519'
 ]);
-
+//108
 DB::table('regions')->insert([
 'region_name' => 'Sevilla',
 'rank' => 'principality',
@@ -1741,7 +1741,7 @@ DB::table('regions')->insert([
 'region_x' => '241',
 'region_y' => '1544'
 ]);
-
+//109
 DB::table('regions')->insert([
 'region_name' => 'Badajoz',
 'rank' => 'principality',
@@ -1757,7 +1757,7 @@ DB::table('regions')->insert([
 'region_x' => '201',
 'region_y' => '1467'
 ]);
-
+//110
 DB::table('regions')->insert([
 'region_name' => 'Toledo',
 'rank' => 'principality',
@@ -1773,7 +1773,7 @@ DB::table('regions')->insert([
 'region_x' => '320',
 'region_y' => '1417'
 ]);
-
+//111
 DB::table('regions')->insert([
 'region_name' => 'Granada',
 'rank' => 'principality',
@@ -1789,7 +1789,7 @@ DB::table('regions')->insert([
 'region_x' => '337',
 'region_y' => '1556'
 ]);
-
+//112
 DB::table('regions')->insert([
 'region_name' => 'Almeria',
 'rank' => 'principality',
@@ -1805,7 +1805,7 @@ DB::table('regions')->insert([
 'region_x' => '383',
 'region_y' => '1572'
 ]);
-
+//113
 DB::table('regions')->insert([
 'region_name' => 'Murcia',
 'rank' => 'principality',
@@ -1821,7 +1821,7 @@ DB::table('regions')->insert([
 'region_x' => '437',
 'region_y' => '1515'
 ]);
-
+//114
 DB::table('regions')->insert([
 'region_name' => 'Malaga',
 'rank' => 'principality',
@@ -1837,7 +1837,7 @@ DB::table('regions')->insert([
 'region_x' => '304',
 'region_y' => '1578'
 ]);
-
+//115
 DB::table('regions')->insert([
 'region_name' => 'Lombardy',
 'rank' => 'kingdom',
@@ -1853,7 +1853,7 @@ DB::table('regions')->insert([
 'region_x' => '854',
 'region_y' => '1108'
 ]);
-
+//116
 DB::table('regions')->insert([
 'region_name' => 'Verona',
 'rank' => 'march',
@@ -1869,7 +1869,7 @@ DB::table('regions')->insert([
 'region_x' => '927',
 'region_y' => '1110'
 ]);
-
+//117
 DB::table('regions')->insert([
 'region_name' => 'Genoa',
 'rank' => 'duchy',
@@ -1885,7 +1885,7 @@ DB::table('regions')->insert([
 'region_x' => '845',
 'region_y' => '1169'
 ]);
-
+//118
 DB::table('regions')->insert([
 'region_name' => 'Venice',
 'rank' => 'duchy',
@@ -1901,7 +1901,7 @@ DB::table('regions')->insert([
 'region_x' => '981',
 'region_y' => '1110'
 ]);
-
+//119
 DB::table('regions')->insert([
 'region_name' => 'Romagna',
 'rank' => 'county',
@@ -1917,7 +1917,7 @@ DB::table('regions')->insert([
 'region_x' => '977',
 'region_y' => '1168'
 ]);
-
+//120
 DB::table('regions')->insert([
 'region_name' => 'Emilia',
 'rank' => 'duchy',
@@ -1933,7 +1933,7 @@ DB::table('regions')->insert([
 'region_x' => '925',
 'region_y' => '1156'
 ]);
-
+//121
 DB::table('regions')->insert([
 'region_name' => 'Aquileja',
 'rank' => 'prince-archbishopric',
@@ -1949,7 +1949,7 @@ DB::table('regions')->insert([
 'region_x' => '1023',
 'region_y' => '1091'
 ]);
-
+//122
 DB::table('regions')->insert([
 'region_name' => 'Turin',
 'rank' => 'march',
@@ -1965,7 +1965,7 @@ DB::table('regions')->insert([
 'region_x' => '794',
 'region_y' => '1131'
 ]);
-
+//123
 DB::table('regions')->insert([
 'region_name' => 'Tuscany',
 'rank' => 'duchy',
@@ -1981,7 +1981,7 @@ DB::table('regions')->insert([
 'region_x' => '923',
 'region_y' => '1205'
 ]);
-
+//124
 DB::table('regions')->insert([
 'region_name' => 'Spoleto',
 'rank' => 'duchy',
@@ -1997,7 +1997,7 @@ DB::table('regions')->insert([
 'region_x' => '998',
 'region_y' => '1262'
 ]);
-
+//125
 DB::table('regions')->insert([
 'region_name' => 'Lazio',
 'rank' => 'papacy',
@@ -2013,7 +2013,7 @@ DB::table('regions')->insert([
 'region_x' => '988',
 'region_y' => '1307'
 ]);
-
+//126
 DB::table('regions')->insert([
 'region_name' => 'Pisa',
 'rank' => 'duchy',
@@ -2029,7 +2029,7 @@ DB::table('regions')->insert([
 'region_x' => '904',
 'region_y' => '1208'
 ]);
-
+//127
 DB::table('regions')->insert([
 'region_name' => 'Naples',
 'rank' => 'kingdom',
@@ -2045,7 +2045,7 @@ DB::table('regions')->insert([
 'region_x' => '1060',
 'region_y' => '1365'
 ]);
-
+//128
 DB::table('regions')->insert([
 'region_name' => 'Apulia',
 'rank' => 'principality',
@@ -2061,7 +2061,7 @@ DB::table('regions')->insert([
 'region_x' => '1180',
 'region_y' => '1385'
 ]);
-
+//129
 DB::table('regions')->insert([
 'region_name' => 'Calabria',
 'rank' => 'duchy',
@@ -2077,7 +2077,7 @@ DB::table('regions')->insert([
 'region_x' => '1140',
 'region_y' => '1447'
 ]);
-
+//130
 DB::table('regions')->insert([
 'region_name' => 'Benevento',
 'rank' => 'principality',
@@ -2093,7 +2093,7 @@ DB::table('regions')->insert([
 'region_x' => '1081',
 'region_y' => '1350'
 ]);
-
+//131
 DB::table('regions')->insert([
 'region_name' => 'Sardinia',
 'rank' => 'kingdom',
@@ -2109,7 +2109,7 @@ DB::table('regions')->insert([
 'region_x' => '829',
 'region_y' => '1371'
 ]);
-
+//132
 DB::table('regions')->insert([
 'region_name' => 'Cagliari',
 'rank' => 'county',
@@ -2125,7 +2125,7 @@ DB::table('regions')->insert([
 'region_x' => '852',
 'region_y' => '1452'
 ]);
-
+//133
 DB::table('regions')->insert([
 'region_name' => 'Mazara',
 'rank' => 'kingdom',
@@ -2141,7 +2141,7 @@ DB::table('regions')->insert([
 'region_x' => '1023',
 'region_y' => '1508'
 ]);
-
+//134
 DB::table('regions')->insert([
 'region_name' => 'Demona',
 'rank' => 'county',
@@ -2157,7 +2157,7 @@ DB::table('regions')->insert([
 'region_x' => '1111',
 'region_y' => '1504'
 ]);
-
+//135
 DB::table('regions')->insert([
 'region_name' => 'Siracusa',
 'rank' => 'county',
@@ -2173,7 +2173,7 @@ DB::table('regions')->insert([
 'region_x' => '1101',
 'region_y' => '1561'
 ]);
-
+//136
 DB::table('regions')->insert([
 'region_name' => 'Tangiers',
 'rank' => 'county',
@@ -2189,7 +2189,7 @@ DB::table('regions')->insert([
 'region_x' => '247',
 'region_y' => '1626'
 ]);
-
+//137
 DB::table('regions')->insert([
 'region_name' => 'Anfa',
 'rank' => 'county',
@@ -2205,7 +2205,7 @@ DB::table('regions')->insert([
 'region_x' => '176',
 'region_y' => '1733'
 ]);
-
+//138
 DB::table('regions')->insert([
 'region_name' => 'Fez',
 'rank' => 'kingdom',
@@ -2221,7 +2221,7 @@ DB::table('regions')->insert([
 'region_x' => '280',
 'region_y' => '1712'
 ]);
-
+//139
 DB::table('regions')->insert([
 'region_name' => 'Marrakesh',
 'rank' => 'kingdom',
@@ -2237,7 +2237,7 @@ DB::table('regions')->insert([
 'region_x' => '161',
 'region_y' => '1827'
 ]);
-
+//140
 DB::table('regions')->insert([
 'region_name' => 'Ifni',
 'rank' => 'principality',
@@ -2253,7 +2253,7 @@ DB::table('regions')->insert([
 'region_x' => '124',
 'region_y' => '1883'
 ]);
-
+//141
 DB::table('regions')->insert([
 'region_name' => 'Figuig',
 'rank' => 'principality',
@@ -2269,7 +2269,7 @@ DB::table('regions')->insert([
 'region_x' => '434',
 'region_y' => '1803'
 ]);
-
+//142
 DB::table('regions')->insert([
 'region_name' => 'Tlemcen',
 'rank' => 'kingdom',
@@ -2285,7 +2285,7 @@ DB::table('regions')->insert([
 'region_x' => '429',
 'region_y' => '1670'
 ]);
-
+//143
 DB::table('regions')->insert([
 'region_name' => 'Orania',
 'rank' => 'county',
@@ -2301,7 +2301,7 @@ DB::table('regions')->insert([
 'region_x' => '457',
 'region_y' => '1630'
 ]);
-
+//144
 DB::table('regions')->insert([
 'region_name' => 'Mzab',
 'rank' => 'county',
@@ -2317,7 +2317,7 @@ DB::table('regions')->insert([
 'region_x' => '615',
 'region_y' => '1679'
 ]);
-
+//145
 DB::table('regions')->insert([
 'region_name' => 'Ouled',
 'rank' => 'county',
@@ -2333,7 +2333,7 @@ DB::table('regions')->insert([
 'region_x' => '689',
 'region_y' => '1692'
 ]);
-
+//146
 DB::table('regions')->insert([
 'region_name' => 'Algiers',
 'rank' => 'county',
@@ -2349,7 +2349,7 @@ DB::table('regions')->insert([
 'region_x' => '607',
 'region_y' => '1578'
 ]);
-
+//147
 DB::table('regions')->insert([
 'region_name' => 'Bejaia',
 'rank' => 'county',
@@ -2365,7 +2365,7 @@ DB::table('regions')->insert([
 'region_x' => '687',
 'region_y' => '1577'
 ]);
-
+//148
 DB::table('regions')->insert([
 'region_name' => 'Annaba',
 'rank' => 'county',
@@ -2381,7 +2381,7 @@ DB::table('regions')->insert([
 'region_x' => '796',
 'region_y' => '1568'
 ]);
-
+//149
 DB::table('regions')->insert([
 'region_name' => 'Tunisia',
 'rank' => 'county',
@@ -2397,7 +2397,7 @@ DB::table('regions')->insert([
 'region_x' => '894',
 'region_y' => '1574'
 ]);
-
+//150
 DB::table('regions')->insert([
 'region_name' => 'Kairouan',
 'rank' => 'kingdom',
@@ -2413,7 +2413,7 @@ DB::table('regions')->insert([
 'region_x' => '890',
 'region_y' => '1630'
 ]);
-
+//151
 DB::table('regions')->insert([
 'region_name' => 'Gabes',
 'rank' => 'county',
@@ -2429,7 +2429,7 @@ DB::table('regions')->insert([
 'region_x' => '891',
 'region_y' => '1719'
 ]);
-
+//152
 DB::table('regions')->insert([
 'region_name' => 'Djerba',
 'rank' => 'county',
@@ -2445,7 +2445,7 @@ DB::table('regions')->insert([
 'region_x' => '867',
 'region_y' => '1896'
 ]);
-
+//153
 DB::table('regions')->insert([
 'region_name' => 'Tripolitana',
 'rank' => 'county',
@@ -2461,7 +2461,7 @@ DB::table('regions')->insert([
 'region_x' => '1017',
 'region_y' => '1768'
 ]);
-
+//154
 DB::table('regions')->insert([
 'region_name' => 'Germa',
 'rank' => 'county',
@@ -2477,7 +2477,7 @@ DB::table('regions')->insert([
 'region_x' => '1011',
 'region_y' => '2064'
 ]);
-
+//155
 DB::table('regions')->insert([
 'region_name' => 'Senoussi',
 'rank' => 'county',
@@ -2493,7 +2493,7 @@ DB::table('regions')->insert([
 'region_x' => '1425',
 'region_y' => '2167'
 ]);
-
+//156
 DB::table('regions')->insert([
 'region_name' => 'Cyrenaica',
 'rank' => 'county',
@@ -2509,7 +2509,7 @@ DB::table('regions')->insert([
 'region_x' => '1300',
 'region_y' => '1805'
 ]);
-
+//157
 DB::table('regions')->insert([
 'region_name' => 'Delta',
 'rank' => 'county',
@@ -2525,7 +2525,7 @@ DB::table('regions')->insert([
 'region_x' => '1693',
 'region_y' => '1848'
 ]);
-
+//158
 DB::table('regions')->insert([
 'region_name' => 'Cairo',
 'rank' => 'kingdom',
@@ -2541,7 +2541,7 @@ DB::table('regions')->insert([
 'region_x' => '1744',
 'region_y' => '1901'
 ]);
-
+//159
 DB::table('regions')->insert([
 'region_name' => 'Minya',
 'rank' => 'county',
@@ -2557,7 +2557,7 @@ DB::table('regions')->insert([
 'region_x' => '1727',
 'region_y' => '1993'
 ]);
-
+//160
 DB::table('regions')->insert([
 'region_name' => 'Asyut',
 'rank' => 'county',
@@ -2573,7 +2573,7 @@ DB::table('regions')->insert([
 'region_x' => '1743',
 'region_y' => '2034'
 ]);
-
+//161
 DB::table('regions')->insert([
 'region_name' => 'Silesia',
 'rank' => 'duchy',
@@ -2589,7 +2589,7 @@ DB::table('regions')->insert([
 'region_x' => '1137',
 'region_y' => '760'
 ]);
-
+//162
 DB::table('regions')->insert([
 'region_name' => 'Lesser Poland',
 'rank' => 'kingdom',
@@ -2605,7 +2605,7 @@ DB::table('regions')->insert([
 'region_x' => '1289',
 'region_y' => '832'
 ]);
-
+//163
 DB::table('regions')->insert([
 'region_name' => 'Greater Poland',
 'rank' => 'duchy',
@@ -2621,7 +2621,7 @@ DB::table('regions')->insert([
 'region_x' => '1194',
 'region_y' => '671'
 ]);
-
+//164
 DB::table('regions')->insert([
 'region_name' => 'Masovia',
 'rank' => 'duchy',
@@ -2637,7 +2637,7 @@ DB::table('regions')->insert([
 'region_x' => '1280',
 'region_y' => '670'
 ]);
-
+//165
 DB::table('regions')->insert([
 'region_name' => 'Brest',
 'rank' => 'county',
@@ -2653,7 +2653,7 @@ DB::table('regions')->insert([
 'region_x' => '1442',
 'region_y' => '701'
 ]);
-
+//166
 DB::table('regions')->insert([
 'region_name' => 'Lithuania',
 'rank' => 'duchy',
@@ -2669,7 +2669,7 @@ DB::table('regions')->insert([
 'region_x' => '1490',
 'region_y' => '529'
 ]);
-
+//167
 DB::table('regions')->insert([
 'region_name' => 'Istria',
 'rank' => 'county',
@@ -2685,7 +2685,7 @@ DB::table('regions')->insert([
 'region_x' => '1043',
 'region_y' => '1143'
 ]);
-
+//168
 DB::table('regions')->insert([
 'region_name' => 'Dalmatia',
 'rank' => 'duchy',
@@ -2701,7 +2701,7 @@ DB::table('regions')->insert([
 'region_x' => '1215',
 'region_y' => '1267'
 ]);
-
+//169
 DB::table('regions')->insert([
 'region_name' => 'Croatia',
 'rank' => 'duchy',
@@ -2717,7 +2717,7 @@ DB::table('regions')->insert([
 'region_x' => '1138',
 'region_y' => '1190'
 ]);
-
+//170
 DB::table('regions')->insert([
 'region_name' => 'Burgenland',
 'rank' => 'duchy',
@@ -2733,7 +2733,7 @@ DB::table('regions')->insert([
 'region_x' => '1197',
 'region_y' => '978'
 ]);
-
+//171
 DB::table('regions')->insert([
 'region_name' => 'Veszprem',
 'rank' => 'county',
@@ -2749,7 +2749,7 @@ DB::table('regions')->insert([
 'region_x' => '1207',
 'region_y' => '1013'
 ]);
-
+//172
 DB::table('regions')->insert([
 'region_name' => 'Esztergom',
 'rank' => 'kingdom',
@@ -2765,7 +2765,7 @@ DB::table('regions')->insert([
 'region_x' => '1241',
 'region_y' => '971'
 ]);
-
+//173
 DB::table('regions')->insert([
 'region_name' => 'Eger',
 'rank' => 'county',
@@ -2781,7 +2781,7 @@ DB::table('regions')->insert([
 'region_x' => '1307',
 'region_y' => '964'
 ]);
-
+//174
 DB::table('regions')->insert([
 'region_name' => 'Vac',
 'rank' => 'duchy',
@@ -2797,7 +2797,7 @@ DB::table('regions')->insert([
 'region_x' => '1253',
 'region_y' => '989'
 ]);
-
+//175
 DB::table('regions')->insert([
 'region_name' => 'Pecs',
 'rank' => 'county',
@@ -2813,7 +2813,7 @@ DB::table('regions')->insert([
 'region_x' => '1220',
 'region_y' => '1074'
 ]);
-
+//176
 DB::table('regions')->insert([
 'region_name' => 'Transsylvania',
 'rank' => 'duchy',
@@ -2829,7 +2829,7 @@ DB::table('regions')->insert([
 'region_x' => '1435',
 'region_y' => '1073'
 ]);
-
+//177
 DB::table('regions')->insert([
 'region_name' => 'Oltenia',
 'rank' => 'principality',
@@ -2845,7 +2845,7 @@ DB::table('regions')->insert([
 'region_x' => '1424',
 'region_y' => '1133'
 ]);
-
+//178
 DB::table('regions')->insert([
 'region_name' => 'Mutenia',
 'rank' => 'county',
@@ -2861,7 +2861,7 @@ DB::table('regions')->insert([
 'region_x' => '1511',
 'region_y' => '1140'
 ]);
-
+//179
 DB::table('regions')->insert([
 'region_name' => 'Besarabia',
 'rank' => 'county',
@@ -2877,7 +2877,7 @@ DB::table('regions')->insert([
 'region_x' => '1642',
 'region_y' => '1183'
 ]);
-
+//180
 DB::table('regions')->insert([
 'region_name' => 'Moldova',
 'rank' => 'principality',
@@ -2893,7 +2893,7 @@ DB::table('regions')->insert([
 'region_x' => '1544',
 'region_y' => '982'
 ]);
-
+//181
 DB::table('regions')->insert([
 'region_name' => 'Sofia',
 'rank' => 'county',
@@ -2909,7 +2909,7 @@ DB::table('regions')->insert([
 'region_x' => '1426',
 'region_y' => '1264'
 ]);
-
+//182
 DB::table('regions')->insert([
 'region_name' => 'Varna',
 'rank' => 'kingdom',
@@ -2925,7 +2925,7 @@ DB::table('regions')->insert([
 'region_x' => '1611',
 'region_y' => '1236'
 ]);
-
+//183
 DB::table('regions')->insert([
 'region_name' => 'Bosnia',
 'rank' => 'duchy',
@@ -2941,7 +2941,7 @@ DB::table('regions')->insert([
 'region_x' => '1249',
 'region_y' => '1211'
 ]);
-
+//184
 DB::table('regions')->insert([
 'region_name' => 'Syrmia',
 'rank' => 'county',
@@ -2957,7 +2957,7 @@ DB::table('regions')->insert([
 'region_x' => '1310',
 'region_y' => '1147'
 ]);
-
+//185
 DB::table('regions')->insert([
 'region_name' => 'Rashka',
 'rank' => 'principality',
@@ -2973,7 +2973,7 @@ DB::table('regions')->insert([
 'region_x' => '1317',
 'region_y' => '1231'
 ]);
-
+//186
 DB::table('regions')->insert([
 'region_name' => 'Serbia',
 'rank' => 'county',
@@ -2989,7 +2989,7 @@ DB::table('regions')->insert([
 'region_x' => '1321',
 'region_y' => '1291'
 ]);
-
+//187
 DB::table('regions')->insert([
 'region_name' => 'Kosovo',
 'rank' => 'county',
@@ -3005,7 +3005,7 @@ DB::table('regions')->insert([
 'region_x' => '1339',
 'region_y' => '1267'
 ]);
-
+//188
 DB::table('regions')->insert([
 'region_name' => 'Oleshia',
 'rank' => 'county',
@@ -3021,7 +3021,7 @@ DB::table('regions')->insert([
 'region_x' => '1801',
 'region_y' => '1041'
 ]);
-
+//189
 DB::table('regions')->insert([
 'region_name' => 'Pereyaslav',
 'rank' => 'principality',
@@ -3037,7 +3037,7 @@ DB::table('regions')->insert([
 'region_x' => '1755',
 'region_y' => '832'
 ]);
-
+//190
 DB::table('regions')->insert([
 'region_name' => 'Kiev',
 'rank' => 'principality',
@@ -3053,7 +3053,7 @@ DB::table('regions')->insert([
 'region_x' => '1717',
 'region_y' => '807'
 ]);
-
+//191
 DB::table('regions')->insert([
 'region_name' => 'Halych',
 'rank' => 'principality',
@@ -3069,7 +3069,7 @@ DB::table('regions')->insert([
 'region_x' => '1483',
 'region_y' => '889'
 ]);
-
+//192
 DB::table('regions')->insert([
 'region_name' => 'Turov',
 'rank' => 'principality',
@@ -3085,7 +3085,7 @@ DB::table('regions')->insert([
 'region_x' => '1604',
 'region_y' => '703'
 ]);
-
+//193
 DB::table('regions')->insert([
 'region_name' => 'Tchernigov',
 'rank' => 'principality',
@@ -3101,7 +3101,7 @@ DB::table('regions')->insert([
 'region_x' => '1747',
 'region_y' => '740'
 ]);
-
+//194
 DB::table('regions')->insert([
 'region_name' => 'Polotsk',
 'rank' => 'principality',
@@ -3117,7 +3117,7 @@ DB::table('regions')->insert([
 'region_x' => '1647',
 'region_y' => '469'
 ]);
-
+//195
 DB::table('regions')->insert([
 'region_name' => 'Smolensk',
 'rank' => 'principality',
@@ -3133,7 +3133,7 @@ DB::table('regions')->insert([
 'region_x' => '1780',
 'region_y' => '517'
 ]);
-
+//196
 DB::table('regions')->insert([
 'region_name' => 'Ryazan',
 'rank' => 'principality',
@@ -3149,7 +3149,7 @@ DB::table('regions')->insert([
 'region_x' => '2088',
 'region_y' => '530'
 ]);
-
+//197
 DB::table('regions')->insert([
 'region_name' => 'Muscovy',
 'rank' => 'principality',
@@ -3165,7 +3165,7 @@ DB::table('regions')->insert([
 'region_x' => '2003',
 'region_y' => '449'
 ]);
-
+//198
 DB::table('regions')->insert([
 'region_name' => 'Pleskov',
 'rank' => 'principality',
@@ -3181,7 +3181,7 @@ DB::table('regions')->insert([
 'region_x' => '1627',
 'region_y' => '297'
 ]);
-
+//199
 DB::table('regions')->insert([
 'region_name' => 'Novgorod',
 'rank' => 'principality',
@@ -3197,7 +3197,7 @@ DB::table('regions')->insert([
 'region_x' => '1747',
 'region_y' => '242'
 ]);
-
+//200
 DB::table('regions')->insert([
 'region_name' => 'Bolgar',
 'rank' => 'county',
@@ -3213,7 +3213,7 @@ DB::table('regions')->insert([
 'region_x' => '2467',
 'region_y' => '506'
 ]);
-
+//201
 DB::table('regions')->insert([
 'region_name' => 'Vladimir',
 'rank' => 'county',
@@ -3229,7 +3229,7 @@ DB::table('regions')->insert([
 'region_x' => '2117',
 'region_y' => '421'
 ]);
-
+//202
 DB::table('regions')->insert([
 'region_name' => 'Vologda',
 'rank' => 'county',
@@ -3245,7 +3245,7 @@ DB::table('regions')->insert([
 'region_x' => '2095',
 'region_y' => '187'
 ]);
-
+//203
 DB::table('regions')->insert([
 'region_name' => 'Oryol',
 'rank' => 'county',
@@ -3261,7 +3261,7 @@ DB::table('regions')->insert([
 'region_x' => '1942',
 'region_y' => '643'
 ]);
-
+//204
 DB::table('regions')->insert([
 'region_name' => 'Kursk',
 'rank' => 'county',
@@ -3277,7 +3277,7 @@ DB::table('regions')->insert([
 'region_x' => '1946',
 'region_y' => '724'
 ]);
-
+//205
 DB::table('regions')->insert([
 'region_name' => 'Atil',
 'rank' => 'kingdom',
@@ -3293,7 +3293,7 @@ DB::table('regions')->insert([
 'region_x' => '2427',
 'region_y' => '1056'
 ]);
-
+//206
 DB::table('regions')->insert([
 'region_name' => 'Khiva',
 'rank' => 'kingdom',
@@ -3309,7 +3309,7 @@ DB::table('regions')->insert([
 'region_x' => '2922',
 'region_y' => '1336'
 ]);
-
+//207
 DB::table('regions')->insert([
 'region_name' => 'Thrace',
 'rank' => 'kingdom',
@@ -3325,7 +3325,7 @@ DB::table('regions')->insert([
 'region_x' => '1654',
 'region_y' => '1356'
 ]);
-
+//208
 DB::table('regions')->insert([
 'region_name' => 'Thessaloniki',
 'rank' => 'principality',
@@ -3341,7 +3341,7 @@ DB::table('regions')->insert([
 'region_x' => '1410',
 'region_y' => '1375'
 ]);
-
+//209
 DB::table('regions')->insert([
 'region_name' => 'Hellas',
 'rank' => 'principality',
@@ -3357,7 +3357,7 @@ DB::table('regions')->insert([
 'region_x' => '1441',
 'region_y' => '1515'
 ]);
-
+//210
 DB::table('regions')->insert([
 'region_name' => 'Peloponnesos',
 'rank' => 'principality',
@@ -3373,7 +3373,7 @@ DB::table('regions')->insert([
 'region_x' => '1390',
 'region_y' => '1561'
 ]);
-
+//211
 DB::table('regions')->insert([
 'region_name' => 'Nicopolis',
 'rank' => 'principality',
@@ -3389,7 +3389,7 @@ DB::table('regions')->insert([
 'region_x' => '1332',
 'region_y' => '1453'
 ]);
-
+//212
 DB::table('regions')->insert([
 'region_name' => 'Epirus',
 'rank' => 'principality',
@@ -3405,7 +3405,7 @@ DB::table('regions')->insert([
 'region_x' => '1282',
 'region_y' => '1330'
 ]);
-
+//213
 DB::table('regions')->insert([
 'region_name' => 'Macedonia',
 'rank' => 'duchy',
@@ -3421,7 +3421,7 @@ DB::table('regions')->insert([
 'region_x' => '1343',
 'region_y' => '1382'
 ]);
-
+//214
 DB::table('regions')->insert([
 'region_name' => 'Aegean',
 'rank' => 'county',
@@ -3437,7 +3437,7 @@ DB::table('regions')->insert([
 'region_x' => '1500',
 'region_y' => '1648'
 ]);
-
+//215
 DB::table('regions')->insert([
 'region_name' => 'Samos',
 'rank' => 'principality',
@@ -3453,7 +3453,7 @@ DB::table('regions')->insert([
 'region_x' => '1581',
 'region_y' => '1492'
 ]);
-
+//216
 DB::table('regions')->insert([
 'region_name' => 'Thracesia',
 'rank' => 'principality',
@@ -3469,7 +3469,7 @@ DB::table('regions')->insert([
 'region_x' => '1608',
 'region_y' => '1522'
 ]);
-
+//217
 DB::table('regions')->insert([
 'region_name' => 'Opsicia',
 'rank' => 'principality',
@@ -3485,7 +3485,7 @@ DB::table('regions')->insert([
 'region_x' => '1685',
 'region_y' => '1387'
 ]);
-
+//218
 DB::table('regions')->insert([
 'region_name' => 'Anatolia',
 'rank' => 'principality',
@@ -3501,7 +3501,7 @@ DB::table('regions')->insert([
 'region_x' => '1797',
 'region_y' => '1520'
 ]);
-
+//219
 DB::table('regions')->insert([
 'region_name' => 'Cibyrrhaeot',
 'rank' => 'principality',
@@ -3517,7 +3517,7 @@ DB::table('regions')->insert([
 'region_x' => '1776',
 'region_y' => '1587'
 ]);
-
+//220
 DB::table('regions')->insert([
 'region_name' => 'Bucellaria',
 'rank' => 'county',
@@ -3533,7 +3533,7 @@ DB::table('regions')->insert([
 'region_x' => '1811',
 'region_y' => '1412'
 ]);
-
+//221
 DB::table('regions')->insert([
 'region_name' => 'Paphlagonia',
 'rank' => 'principality',
@@ -3549,7 +3549,7 @@ DB::table('regions')->insert([
 'region_x' => '1904',
 'region_y' => '1300'
 ]);
-
+//222
 DB::table('regions')->insert([
 'region_name' => 'Cilicia',
 'rank' => 'county',
@@ -3565,7 +3565,7 @@ DB::table('regions')->insert([
 'region_x' => '1883',
 'region_y' => '1574'
 ]);
-
+//223
 DB::table('regions')->insert([
 'region_name' => 'Cappadocia',
 'rank' => 'principality',
@@ -3581,7 +3581,7 @@ DB::table('regions')->insert([
 'region_x' => '1918',
 'region_y' => '1477'
 ]);
-
+//224
 DB::table('regions')->insert([
 'region_name' => 'Chaldea',
 'rank' => 'county',
@@ -3597,7 +3597,7 @@ DB::table('regions')->insert([
 'region_x' => '2089',
 'region_y' => '1357'
 ]);
-
+//225
 DB::table('regions')->insert([
 'region_name' => 'Edessa',
 'rank' => 'county',
@@ -3613,7 +3613,7 @@ DB::table('regions')->insert([
 'region_x' => '2052',
 'region_y' => '1555'
 ]);
-
+//226
 DB::table('regions')->insert([
 'region_name' => 'Armeniac',
 'rank' => 'principality',
@@ -3629,7 +3629,7 @@ DB::table('regions')->insert([
 'region_x' => '1932',
 'region_y' => '1374'
 ]);
-
+//227
 DB::table('regions')->insert([
 'region_name' => 'Hexacomia',
 'rank' => 'principality',
@@ -3645,7 +3645,7 @@ DB::table('regions')->insert([
 'region_x' => '2109',
 'region_y' => '1517'
 ]);
-
+//228
 DB::table('regions')->insert([
 'region_name' => 'Sebasteia',
 'rank' => 'principality',
@@ -3661,7 +3661,7 @@ DB::table('regions')->insert([
 'region_x' => '1981',
 'region_y' => '1422'
 ]);
-
+//229
 DB::table('regions')->insert([
 'region_name' => 'Abchasia',
 'rank' => 'duchy',
@@ -3677,7 +3677,7 @@ DB::table('regions')->insert([
 'region_x' => '2167',
 'region_y' => '1322'
 ]);
-
+//230
 DB::table('regions')->insert([
 'region_name' => 'Georgia',
 'rank' => 'kingdom',
@@ -3693,7 +3693,7 @@ DB::table('regions')->insert([
 'region_x' => '2295',
 'region_y' => '1317'
 ]);
-
+//231
 DB::table('regions')->insert([
 'region_name' => 'Derbent',
 'rank' => 'county',
@@ -3709,7 +3709,7 @@ DB::table('regions')->insert([
 'region_x' => '2435',
 'region_y' => '1299'
 ]);
-
+//232
 DB::table('regions')->insert([
 'region_name' => 'Kars',
 'rank' => 'kingdom',
@@ -3725,7 +3725,7 @@ DB::table('regions')->insert([
 'region_x' => '2245',
 'region_y' => '1383'
 ]);
-
+//233
 DB::table('regions')->insert([
 'region_name' => 'Artsakh',
 'rank' => 'principality',
@@ -3741,7 +3741,7 @@ DB::table('regions')->insert([
 'region_x' => '2320',
 'region_y' => '1451'
 ]);
-
+//234
 DB::table('regions')->insert([
 'region_name' => 'Armenia',
 'rank' => 'principality',
@@ -3757,7 +3757,7 @@ DB::table('regions')->insert([
 'region_x' => '2185',
 'region_y' => '1493'
 ]);
-
+//235
 DB::table('regions')->insert([
 'region_name' => 'Mardin',
 'rank' => 'principality',
@@ -3773,7 +3773,7 @@ DB::table('regions')->insert([
 'region_x' => '2130',
 'region_y' => '1548'
 ]);
-
+//236
 DB::table('regions')->insert([
 'region_name' => 'Van',
 'rank' => 'county',
@@ -3789,7 +3789,7 @@ DB::table('regions')->insert([
 'region_x' => '2237',
 'region_y' => '1488'
 ]);
-
+//237
 DB::table('regions')->insert([
 'region_name' => 'Khorasan',
 'rank' => 'county',
@@ -3805,7 +3805,7 @@ DB::table('regions')->insert([
 'region_x' => '2861',
 'region_y' => '1605'
 ]);
-
+//238
 DB::table('regions')->insert([
 'region_name' => 'Sistan',
 'rank' => 'county',
@@ -3821,7 +3821,7 @@ DB::table('regions')->insert([
 'region_x' => '2848',
 'region_y' => '1652'
 ]);
-
+//239
 DB::table('regions')->insert([
 'region_name' => 'Kerman',
 'rank' => '',
@@ -3837,7 +3837,7 @@ DB::table('regions')->insert([
 'region_x' => '2791',
 'region_y' => '1890'
 ]);
-
+//240
 DB::table('regions')->insert([
 'region_name' => 'Fars',
 'rank' => 'kingdom',
@@ -3853,7 +3853,7 @@ DB::table('regions')->insert([
 'region_x' => '2609',
 'region_y' => '1924'
 ]);
-
+//241
 DB::table('regions')->insert([
 'region_name' => 'Jibal',
 'rank' => 'principality',
@@ -3869,7 +3869,7 @@ DB::table('regions')->insert([
 'region_x' => '2572',
 'region_y' => '1778'
 ]);
-
+//242
 DB::table('regions')->insert([
 'region_name' => 'Rhages',
 'rank' => 'county',
@@ -3885,7 +3885,7 @@ DB::table('regions')->insert([
 'region_x' => '2561',
 'region_y' => '1631'
 ]);
-
+//243
 DB::table('regions')->insert([
 'region_name' => 'Gorgan',
 'rank' => 'county',
@@ -3901,7 +3901,7 @@ DB::table('regions')->insert([
 'region_x' => '2684',
 'region_y' => '1573'
 ]);
-
+//244
 DB::table('regions')->insert([
 'region_name' => 'Azerbaijan',
 'rank' => 'county',
@@ -3917,7 +3917,7 @@ DB::table('regions')->insert([
 'region_x' => '2354',
 'region_y' => '1509'
 ]);
-
+//245
 DB::table('regions')->insert([
 'region_name' => 'Kurdistan',
 'rank' => 'county',
@@ -3933,7 +3933,7 @@ DB::table('regions')->insert([
 'region_x' => '2445',
 'region_y' => '1675'
 ]);
-
+//246
 DB::table('regions')->insert([
 'region_name' => 'Najd',
 'rank' => 'principality',
@@ -3949,7 +3949,7 @@ DB::table('regions')->insert([
 'region_x' => '2369',
 'region_y' => '2144'
 ]);
-
+//247
 DB::table('regions')->insert([
 'region_name' => 'Hejaz',
 'rank' => 'principality',
@@ -3965,7 +3965,7 @@ DB::table('regions')->insert([
 'region_x' => '2092',
 'region_y' => '2292'
 ]);
-
+//248
 DB::table('regions')->insert([
 'region_name' => 'Dedan',
 'rank' => 'county',
@@ -3981,7 +3981,7 @@ DB::table('regions')->insert([
 'region_x' => '2018',
 'region_y' => '2063'
 ]);
-
+//249
 DB::table('regions')->insert([
 'region_name' => 'Jerusalem',
 'rank' => 'kingdom',
@@ -3997,7 +3997,7 @@ DB::table('regions')->insert([
 'region_x' => '1907',
 'region_y' => '1821'
 ]);
-
+//250
 DB::table('regions')->insert([
 'region_name' => 'Acre',
 'rank' => 'duchy',
@@ -4013,7 +4013,7 @@ DB::table('regions')->insert([
 'region_x' => '1902',
 'region_y' => '1766'
 ]);
-
+//251
 DB::table('regions')->insert([
 'region_name' => 'Bosra',
 'rank' => 'county',
@@ -4029,7 +4029,7 @@ DB::table('regions')->insert([
 'region_x' => '1957',
 'region_y' => '1787'
 ]);
-
+//252
 DB::table('regions')->insert([
 'region_name' => 'Damascus',
 'rank' => 'kingdom',
@@ -4045,7 +4045,7 @@ DB::table('regions')->insert([
 'region_x' => '1949',
 'region_y' => '1737'
 ]);
-
+//253
 DB::table('regions')->insert([
 'region_name' => 'Homs',
 'rank' => 'county',
@@ -4061,7 +4061,7 @@ DB::table('regions')->insert([
 'region_x' => '1968',
 'region_y' => '1678'
 ]);
-
+//254
 DB::table('regions')->insert([
 'region_name' => 'Tripoli',
 'rank' => 'county',
@@ -4077,7 +4077,7 @@ DB::table('regions')->insert([
 'region_x' => '1932',
 'region_y' => '1692'
 ]);
-
+//255
 DB::table('regions')->insert([
 'region_name' => 'Antioch',
 'rank' => 'principality',
@@ -4093,7 +4093,7 @@ DB::table('regions')->insert([
 'region_x' => '1944',
 'region_y' => '1606'
 ]);
-
+//256
 DB::table('regions')->insert([
 'region_name' => 'Aleppo',
 'rank' => 'county',
@@ -4109,7 +4109,7 @@ DB::table('regions')->insert([
 'region_x' => '1984',
 'region_y' => '1604'
 ]);
-
+//257
 DB::table('regions')->insert([
 'region_name' => 'Raqqa',
 'rank' => 'county',
@@ -4125,7 +4125,7 @@ DB::table('regions')->insert([
 'region_x' => '2059',
 'region_y' => '1617'
 ]);
-
+//258
 DB::table('regions')->insert([
 'region_name' => 'Erbil',
 'rank' => 'county',
@@ -4141,7 +4141,7 @@ DB::table('regions')->insert([
 'region_x' => '2263',
 'region_y' => '1605'
 ]);
-
+//259
 DB::table('regions')->insert([
 'region_name' => 'Baghdad',
 'rank' => 'kingdom',
@@ -4157,7 +4157,7 @@ DB::table('regions')->insert([
 'region_x' => '2275',
 'region_y' => '1747'
 ]);
-
+//260
 DB::table('regions')->insert([
 'region_name' => 'Kufah',
 'rank' => 'county',

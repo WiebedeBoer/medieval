@@ -29,15 +29,24 @@ class DatabaseSeeder extends Seeder
 		$this->call('CultureSeeder');
 		//regions
 		$this->call('RegionSeeder');
+
+		//default realms seeder
+		$this->call('RealmSeeder');
+
 		//places
 		$this->call('PlaceSeeder');	
 		//character nick names
-		$this->call('NicknameSeeder');
-		
+		$this->call('NicknameSeeder');	
 		//defaults seeder
 		$this->call('defaultsSeeder');
-		//default realms seeder
-		$this->call('RealmSeeder');
+
+		//default capitals seeder
+		$this->call('CapitalSeeder');
+
+	
+		//default rulers seeder
+		$this->call('RulerSeeder');
+
 		//default guilds seeder
 		$this->call('GuildSeeder');
 		//titles
@@ -130,17 +139,24 @@ class fkeySeeder extends Seeder
 
 		//realms
 		Schema::table('realms', function (Blueprint $table) {
-			$table->foreign('ruler')->references('person_id')->on('people');
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
-			$table->foreign('culture')->references('culture_id')->on('cultures');
-			$table->foreign('capital')->references('place_id')->on('places');
+			$table->foreign('culture')->references('culture_id')->on('cultures');	
+		});
+		//rulers
+		Schema::table('rulers', function (Blueprint $table) {
+			$table->foreign('realm')->references('realm_id')->on('realms');
+			$table->foreign('ruler')->references('person_id')->on('people');
 			$table->foreign('chancellor')->references('person_id')->on('people');
 			$table->foreign('chamberlain')->references('person_id')->on('people');
 			$table->foreign('marshall')->references('person_id')->on('people');
 			$table->foreign('admiral')->references('person_id')->on('people');
 			$table->foreign('steward')->references('person_id')->on('people');		
-        });
-		
+		});	
+		//capitals
+		Schema::table('capitals', function (Blueprint $table) {
+			$table->foreign('realm')->references('realm_id')->on('realms');
+			$table->foreign('capital')->references('place_id')->on('places');
+		});
 		//guilds
         Schema::table('guilds', function (Blueprint $table) {
             $table->foreign('realm')->references('realm_id')->on('realms');	

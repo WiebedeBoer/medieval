@@ -41,7 +41,7 @@ Game
 		<div class="m-1">Sort by: <a href="/place/{{$id}}/edit/?sort=engineer">Engineer</a></div>
 		<div class="m-1">Sort by: <a href="/place/{{$id}}/edit/?sort=judgement">Judgement</a></div>
 		<div class="m-1">Sort by: <a href="/place/{{$id}}/edit/?sort=leadership">Leadership</a></div>
-		</div>
+		</div>		
 
 		<p>Person:</p>
 		<div class="input-group">

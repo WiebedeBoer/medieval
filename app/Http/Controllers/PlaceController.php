@@ -8,6 +8,8 @@ use App\Place;
 use App\Culture;
 use App\Person;
 use App\Realm;
+use App\Ruler;
+use App\Dynasty;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
@@ -37,8 +39,8 @@ class PlaceController extends Controller
         $user = auth()->user();
         $realm_id = $placedata->realm;
         if ($realm_id !=NULL){
-            $realm = Realm::where('realm_id', $realm_id)->firstOrFail();    
-            $ktusers = countkt($user->id,$id,$realm->ruler,$realm->marshall,$realm->steward,$placedata->lord_paramount,$placedata->tenant_in_chief,$placedata->mesne_lord,$placedata->tenant_paravail);
+            $ruler = Ruler::where('realm', $realm_id)->firstOrFail();    
+            $ktusers = $this->countkt($user->id,$id,$ruler->ruler,$ruler->marshall,$ruler->steward,$placedata->lord_paramount,$placedata->tenant_in_chief,$placedata->mesne_lord,$placedata->tenant_paravail);
         }
         else {
             $ktusers =0;
@@ -63,31 +65,31 @@ class PlaceController extends Controller
         $place_count = Place::where('place_id', $place_id)->count();
         if ($person_count ==1 && $place_count ==1){
             if ($develop_type =="agriculture"){
-                agriculture($id,$place_description,$person_id);
+                $this->agriculture($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             elseif ($develop_type =="industry"){
-                industry($id,$place_description,$person_id);
+                $this->industry($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             elseif ($develop_type =="fortify"){
-                fortify($id,$place_description,$person_id);
+                $this->fortify($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             elseif ($develop_type =="court"){
-                holdcourt($id,$place_description,$person_id);
+                $this->holdcourt($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             elseif ($develop_type =="rally"){
-                rally($id,$place_description,$person_id);
+                $this->rally($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             elseif ($develop_type =="train"){
-                train($id,$place_description,$person_id);
+                $this->train($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             elseif ($develop_type =="draft"){
-                draft($id,$place_description,$person_id);
+                $this->draft($id,$place_description,$person_id);
                 return redirect('/place/'.$id.'/edit')->with('message', 'Updated');
             }
             else {
@@ -112,8 +114,9 @@ class PlaceController extends Controller
         $user = auth()->user();        
         $realm_id = $placedata->realm;
         if ($realm_id !=NULL){
-            $realm = Realm::where('realm_id', $realm_id)->firstOrFail();    
-            $ktusers = countkt($user->id,$id,$realm->ruler,$realm->marshall,$realm->steward,$placedata->lord_paramount,$placedata->tenant_in_chief,$placedata->mesne_lord,$placedata->tenant_paravail);
+            $ruler = Ruler::where('realm', $realm_id)->firstOrFail();      
+            $ktusers = $this->countkt($user->id,$id,$ruler->ruler,$ruler->marshall,$ruler->steward,$placedata->lord_paramount,$placedata->tenant_in_chief,$placedata->mesne_lord,$placedata->tenant_paravail);
+            //$ktusers =1;
             $allodial = $placedata->allodial_owner;
             if ($allodial !=NULL && $realm_id !=NULL && $ktusers >=1){    
                 $realm_count = DB::table('citizens')->where('realm', '=', $realm_id)->count();
@@ -157,7 +160,7 @@ class PlaceController extends Controller
             $kt_check =0;
             $persons =[];          
         }        
-		return view('place.edit', compact('placedata','culture','user','region','persons','kt_check','id'));        
+		return view('place.edit', compact('placedata','culture','user','region','persons','kt_check','id','ruler'));        
     }
 
 	//build form
@@ -173,7 +176,7 @@ class PlaceController extends Controller
     }
 
     //kt users
-    public function countkt($user_id,$id,$king,$marshall,$steward,$lord_paramount,$tenant_in_chief,$mesne_lord,$tenant_paravail)
+    private function countkt($user_id,$id,$king,$marshall,$steward,$lord_paramount,$tenant_in_chief,$mesne_lord,$tenant_paravail)
     {    
         $dynasty_count = Dynasty::where('dynasty_owner', $user_id)->count();
         if ($dynasty_count ==1){
@@ -194,7 +197,7 @@ class PlaceController extends Controller
     }
 
     //kt calculations
-    public function agriculture($id,$place_description,$person_id){
+    private function agriculture($id,$place_description,$person_id){
         $place = Place::find($id);
         if($place->agr <999){
             $place->place_description = $place_description;       
@@ -210,13 +213,13 @@ class PlaceController extends Controller
             $place->save();       
             $new_kt = $person->kt - 1;
             $person->kt = $new_kt;
-            $person->agr = stats($person->agr);
-            $person->eng = stats($person->eng);
+            $person->agr = $this->stats($person->agr);
+            $person->eng = $this->stats($person->eng);
             $person->save(); 
         } 
     }
 
-    public function industry($id,$place_description,$person_id){
+    private function industry($id,$place_description,$person_id){
         $place = Place::find($id);
         if($place->com <999){
             $place->place_description = $place_description;        
@@ -232,13 +235,13 @@ class PlaceController extends Controller
             $place->save();       
             $new_kt = $person->kt - 1;
             $person->kt = $new_kt;
-            $person->com = stats($person->com);
-            $person->eng = stats($person->eng);
+            $person->com = $this->stats($person->com);
+            $person->eng = $this->stats($person->eng);
             $person->save(); 
         } 
     }
 
-    public function fortify($id,$place_description,$person_id){
+    private function fortify($id,$place_description,$person_id){
         $place = Place::find($id);
         if($place->def <999){
             $place->place_description = $place_description;       
@@ -254,13 +257,13 @@ class PlaceController extends Controller
             $place->save();       
             $new_kt = $person->kt - 1;
             $person->kt = $new_kt;
-            $person->jud = stats($person->jud);
-            $person->eng = stats($person->eng);
+            $person->jud = $this->stats($person->jud);
+            $person->eng = $this->stats($person->eng);
             $person->save(); 
         } 
     }
 
-    public function holdcourt($id,$place_description,$person_id){
+    private function holdcourt($id,$place_description,$person_id){
         $place = Place::find($id);
         if($place->jus <999){
             $place->place_description = $place_description;       
@@ -276,13 +279,13 @@ class PlaceController extends Controller
             $place->save();       
             $new_kt = $person->kt - 1;
             $person->kt = $new_kt;
-            $person->jud = stats($person->jud);
-            $person->cha = stats($person->cha);
+            $person->jud = $this->stats($person->jud);
+            $person->cha = $this->stats($person->cha);
             $person->save(); 
         }  
     }
 
-    public function rally($id,$place_description,$person_id){
+    private function rally($id,$place_description,$person_id){
         $place = Place::find($id);
         if($place->mor <100){
             $place->place_description = $place_description;        
@@ -298,13 +301,13 @@ class PlaceController extends Controller
             $place->save();       
             $new_kt = $person->kt - 1;
             $person->kt = $new_kt;
-            $person->lea = stats($person->lea);
-            $person->cha = stats($person->cha);
+            $person->lea = $this->stats($person->lea);
+            $person->cha = $this->stats($person->cha);
             $person->save(); 
         } 
     }
 
-    public function train($id,$place_description,$person_id){
+    private function train($id,$place_description,$person_id){
         $place = Place::find($id);
         if($place->tra <100){
             $place->place_description = $place_description;       
@@ -320,12 +323,12 @@ class PlaceController extends Controller
             $place->save();       
             $new_kt = $person->kt - 1;
             $person->kt = $new_kt;
-            $person->lea = stats($person->lea);
+            $person->lea = $this->stats($person->lea);
             $person->save(); 
         }  
     }
 
-    public function draft($id,$place_description,$person_id){
+    private function draft($id,$place_description,$person_id){
         $place = Place::find($id);
         $person = Person::find($person_id);
         if($place->population >=500000){
@@ -368,13 +371,13 @@ class PlaceController extends Controller
             $place->save();  
 
             $new_kt = $person->kt - 1;
-            $person->lea = stats($person->lea);
+            $person->lea = $this->stats($person->lea);
             $person->kt = $new_kt;
             $person->save(); 
         } 
     }
 
-    public function stats($old_stat){
+    private function stats($old_stat){
         if ($old_stat ==10){
             $new_stat = 10;
         }
