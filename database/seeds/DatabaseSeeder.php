@@ -17,8 +17,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         //foreign keys
-		$this->call('fkeySeeder');
-		
+		$this->call('fkeySeeder');		
 		//admin user
 		$this->call('userSeeder');
 		//religions
@@ -29,24 +28,18 @@ class DatabaseSeeder extends Seeder
 		$this->call('CultureSeeder');
 		//regions
 		$this->call('RegionSeeder');
-
 		//default realms seeder
 		$this->call('RealmSeeder');
-
 		//places
 		$this->call('PlaceSeeder');	
 		//character nick names
 		$this->call('NicknameSeeder');	
 		//defaults seeder
 		$this->call('defaultsSeeder');
-
 		//default capitals seeder
-		$this->call('CapitalSeeder');
-
-	
+		$this->call('CapitalSeeder');	
 		//default rulers seeder
 		$this->call('RulerSeeder');
-
 		//default guilds seeder
 		$this->call('GuildSeeder');
 		//titles
@@ -77,8 +70,10 @@ class DatabaseSeeder extends Seeder
 		$this->call('QuartersSeeder');
 		$this->call('MerchantQuarterSeeder');
 		$this->call('ChurchQuarterSeeder');
+		$this->call('HuntQuarterSeeder');
+		$this->call('MonkQuarterSeeder'); //todo
 		//building categories
-		$this->call('BuildingCategorySeeder');
+		$this->call('BuildingCategorySeeder');		
 		//default buildings
 		$this->call('BuildingSeeder');
 		$this->call('MarketBuildingSeeder');
@@ -89,17 +84,19 @@ class DatabaseSeeder extends Seeder
 		$this->call('HostelBuildingSeeder');
 		$this->call('MineBuildingSeeder');
 		$this->call('HuntingBuildingSeeder');
-		$this->call('GuildBuildingSeeder');
-		//default rooms
+		$this->call('MonkBuildingSeeder'); //todo
+		$this->call('GuildBuildingSeeder'); //todo
+		//default rooms		
 		$this->call('RoomTavernSeeder');
 		$this->call('RoomRoadsideSeeder');
-		$this->call('RoomChurchSeeder');
-		$this->call('RoomCathedralSeeder');
-		$this->call('RoomMonasterySeeder');
-		$this->call('RoomChapterSeeder');
-		$this->call('RoomGuildSeeder');
 		$this->call('RoomArenaSeeder');
 		$this->call('RoomLodgeSeeder');
+		$this->call('RoomChurchSeeder');
+		$this->call('RoomCathedralSeeder');
+		$this->call('RoomMonasterySeeder'); //todo
+		$this->call('RoomChapterSeeder'); //todo	
+		$this->call('RoomGuildSeeder'); //todo
+		
 		//dungeons
 		
 		//prisoners

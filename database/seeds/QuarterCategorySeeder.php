@@ -105,6 +105,11 @@ class QuarterCategorySeeder extends Seeder
 		//23, farmstead
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'farmstead'
-		]);			
+		]);	
+		//hunting types	
+		//24, hunting lodge, 1-2
+		DB::table('quarter_categories')->insert([
+			'quarter_name' => 'hunting lodge'
+		]);		
     }
 }

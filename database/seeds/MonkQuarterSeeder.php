@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class RoomMonasterySeeder extends Seeder
+class MonkQuarterSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,6 @@ class RoomMonasterySeeder extends Seeder
      */
     public function run()
     {
-		//monasteries rooms and tariq rooms
- 
+        //
     }
 }

@@ -143,6 +143,7 @@ class BuildingCategorySeeder extends Seeder
 		'building_name' => 'heath',
 		'building_type' => 'field'
 		]);	
+		//mines
 		//27
 		DB::table('building_categories')->insert([            
 		'building_name' => 'lead mine',
@@ -183,16 +184,19 @@ class BuildingCategorySeeder extends Seeder
 		'building_name' => 'salt mine',
 		'building_type' => 'mine'
 		]);	
+		//quarry
 		//35
 		DB::table('building_categories')->insert([            
 		'building_name' => 'quarry',
 		'building_type' => 'quarry'
-		]);	
+		]);
+		//claypit	
 		//36
 		DB::table('building_categories')->insert([            
 		'building_name' => 'clay pit',
 		'building_type' => 'pit'
-		]);		
+		]);	
+		//businesses	
 		//37
 		DB::table('building_categories')->insert([            
 		'building_name' => 'butcher',
@@ -442,25 +446,25 @@ class BuildingCategorySeeder extends Seeder
 		]);			
 		
 		//churches
-		//85
+		//85 catholic
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
 		'religion' => '1'
 		]);	
-		//86
+		//86 greek orthodox
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
 		'religion' => '4'
 		]);	
-		//87
+		//87 serbian orthodox
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
 		'religion' => '3'
 		]);	
-		//88
+		//88 russian orthodox
 		DB::table('building_categories')->insert([            
 		'building_name' => 'church',
 		'building_type' => 'clergy',
@@ -538,25 +542,25 @@ class BuildingCategorySeeder extends Seeder
 		]);		
 		
 		//cathedrals
-		//100
+		//100 catholic
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
 		'religion' => '1'
 		]);	
-		//101
+		//101 greek orthodox
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
 		'religion' => '4'
 		]);	
-		//102
+		//102 serbian orthodox
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',
 		'religion' => '3'
 		]);	
-		//103
+		//103 russian orthodox
 		DB::table('building_categories')->insert([            
 		'building_name' => 'cathedral',
 		'building_type' => 'clergy',

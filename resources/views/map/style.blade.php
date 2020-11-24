@@ -18,7 +18,7 @@ Game
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (trade fair)</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,255,0)" stroke-width="2" fill="rgb(255,192,0)" />
 		</a>
-	@elseif($region->style =="fair")
+	@elseif($region->style =="fair" || $region->style =="caravan")
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (trade fair)</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(255,255,0)" stroke-width="2" fill="rgb(255,128,0)" />
 		</a>		

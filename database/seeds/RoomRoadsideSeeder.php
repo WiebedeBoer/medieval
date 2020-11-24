@@ -11,607 +11,609 @@ class RoomRoadsideSeeder extends Seeder
      */
     public function run()
     {
-        //roadside inns
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3971'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3971'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3971'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3971'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3971'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3971'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3972'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3972'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3972'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3972'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3972'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3972'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3973'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3973'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3973'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3973'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3973'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3973'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3974'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3974'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3974'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3974'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3974'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3974'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3975'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3975'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3975'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3975'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3975'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3975'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3976'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3976'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3976'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3976'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3976'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3976'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3977'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3977'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3977'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3977'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3977'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3977'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3978'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3978'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3978'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3978'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3978'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3978'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3979'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3979'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3979'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3979'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3979'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3979'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3980'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3980'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3980'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3980'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3980'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3980'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3981'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3981'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3981'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3981'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3981'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3981'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'guest hall',
-'room_category' => 'guest hall',
-'building' => '3982'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3982'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3982'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'undercroft',
-'room_category' => 'storage',
-'building' => '3982'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3982'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3982'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3983'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3983'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3983'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3983'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3983'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3983'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3984'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3984'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3984'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3984'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3984'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3984'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3985'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3985'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3985'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3985'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3985'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3985'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3986'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3986'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3986'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3986'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3986'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3986'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3987'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3987'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3987'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3987'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3987'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3987'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3988'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3988'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3988'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3988'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3988'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3988'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3989'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3989'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3989'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3989'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3989'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3989'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'divan khane',
-'room_category' => 'guest hall',
-'building' => '3990'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'solar',
-'room_category' => 'bedroom',
-'building' => '3990'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'kitchen',
-'room_category' => 'kitchen',
-'building' => '3990'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'granary',
-'room_category' => 'storage',
-'building' => '3990'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'muniment',
-'room_category' => 'muniment',
-'building' => '3990'
-]);
-DB::table('rooms')->insert([
-'room_name' => 'stables',
-'room_category' => 'stables',
-'building' => '3990'
-]); 		
+        //caravanserai
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7584'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7584'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7584'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7584'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7584'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7584'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7596'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7596'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7596'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7596'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7596'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7596'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7597'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7597'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7597'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7597'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7597'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7597'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7598'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7598'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7598'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7598'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7598'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7598'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7599'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7599'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7599'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7599'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7599'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7599'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7600'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7600'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7600'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7600'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7600'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7600'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7601'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7601'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7601'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7601'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7601'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7601'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7602'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7602'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7602'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7602'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7602'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7602'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'divan khane',
+            'room_category' => 'guest hall',
+            'building' => '7603'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7603'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7603'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'granary',
+            'room_category' => 'storage',
+            'building' => '7603'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7603'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7603'
+            ]); 
+        
+        //roadside inn
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7585'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7585'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7585'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7585'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7585'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7585'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7586'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7586'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7586'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7586'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7586'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7586'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7587'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7587'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7587'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7587'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7587'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7587'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7588'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7588'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7588'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7588'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7588'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7588'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7589'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7589'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7589'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7589'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7589'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7589'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7590'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7590'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7590'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7590'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7590'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7590'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7591'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7591'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7591'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7591'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7591'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7591'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7592'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7592'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7592'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7592'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7592'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7592'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7593'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7593'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7593'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7593'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7593'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7593'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7594'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7594'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7594'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7594'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7594'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7594'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'guest hall',
+            'room_category' => 'guest hall',
+            'building' => '7595'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'solar',
+            'room_category' => 'bedroom',
+            'building' => '7595'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'kitchen',
+            'room_category' => 'kitchen',
+            'building' => '7595'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'undercroft',
+            'room_category' => 'storage',
+            'building' => '7595'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'muniment',
+            'room_category' => 'muniment',
+            'building' => '7595'
+            ]);
+            DB::table('rooms')->insert([
+            'room_name' => 'stables',
+            'room_category' => 'stables',
+            'building' => '7595'
+            ]); 
 		
 		
     }

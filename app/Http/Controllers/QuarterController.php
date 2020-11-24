@@ -5,8 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Region;
 use App\Person;
-use App\Place;
+use App\Building;
 use App\Quarter;
+use App\Place;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
@@ -21,11 +22,11 @@ class QuarterController extends Controller
 	//main 
     public function index()
     {            	
-		$quarters = Quarter::with('dynasties','regions','owners','masters','cities')->get();
-        $user = auth()->user();
-        
-        $places = Place::with('regions')->get();
-		return view('quarters.index', compact('quarters','user','places'));        
+		$quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('quarter_rank','market')->get();
+        $user = auth()->user(); 
+        $buildings = Building::with('places','regions')->get(); 
+        $places = Place::with('regions')->get();  
+		return view('quarters.index', compact('quarters','user','buildings','places'));        
     }
 	
 	//show
