@@ -326,6 +326,30 @@ else {
 	var impluve =new PartPlane(environmentsize,environmentsize,"ground",0,0,0);
 	scene.add( impluve );
 }
+//placetypes
+if(fortification =="fortified_abbey"){
+	var placetype ="fortified_abbey";
+}
+else if(fortification =="abbey_grange"){
+	var placetype ="abbey_grange";
+}
+else if(fortification =="abbey_scriptorium"){
+	var placetype ="abbey_scriptorium";
+}
+else if(fortification =="roadside_inn"){
+	var placetype ="roadside_inn";
+}
+else if(fortification =="bishop_palace" || fortification =="papal_palace"){
+	var placetype ="city";
+}
+else if(fortification =="royal_court" || fortification =="chancery"){
+	var placetype ="court";
+}
+else {
+	var placetype ="burgh";
+}
+
+
 //skybox
 var skyBox = new Skybox(environmentsize,environmentsize,environmentsize);
 scene.add( skyBox );

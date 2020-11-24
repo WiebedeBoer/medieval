@@ -8,6 +8,8 @@ Game
 					<h1>Places List</h1>
 					</div>
 @include('region.mapmenu')
+
+{{$dis}} {{$typ}} {{$co}}
 	
 <div class="row">
 <div class="col-12 d-flex justify-content-center pt-5">
