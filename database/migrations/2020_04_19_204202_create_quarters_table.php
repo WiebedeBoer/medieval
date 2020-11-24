@@ -17,7 +17,10 @@ class CreateQuartersTable extends Migration
             $table->bigIncrements('quarter_id');
 			//name
 			$table->string('quarter_name');
-			$table->string('quarter_rank');
+            $table->string('quarter_rank');
+            //location
+            $table->integer('x');
+            $table->integer('y');
 			//category
 			$table->unsignedBigInteger('quarter_category');
 			//place

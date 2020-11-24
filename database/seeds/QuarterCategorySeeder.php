@@ -52,41 +52,57 @@ class QuarterCategorySeeder extends Seeder
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'tiltyard'
 		]);
+		//11, industry, 3-6
+		DB::table('quarter_categories')->insert([
+			'quarter_name' => 'industry'
+		]);
 		//special fixed types
-		//11, citadel, 3-3
+		//12, citadel, 3-3
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'citadel'
 		]);	
-		//12, roadside inn, 5-4
+		//13, roadside inn, 5-2
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'roadside_inn'
+		]);	
+		//14, fortified abbey, 4-2
+		DB::table('quarter_categories')->insert([
+			'quarter_name' => 'fortified_abbey'
+		]);	
+		//15, abbey grange, 4-2
+		DB::table('quarter_categories')->insert([
+			'quarter_name' => 'abbey_grange'
+		]);	
+		//16, abbey scriptorium, 4-2
+		DB::table('quarter_categories')->insert([
+			'quarter_name' => 'abbey_scriptorium'
 		]);			
 		//flexible types
-		//11, lordship
+		//17, lordship
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'lordship'
 		]);	
-		//12, factory
+		//18, factory
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'factory'
 		]);	
-		//13, inn
+		//19, inn
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'inn'
 		]);	
-		//14, commandery
+		//20, commandery
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'commandery'
 		]);
-		//15, abbacy
+		//21, abbacy
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'abbacy'
 		]);
-		//16, parish
+		//22, parish
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'parish'
 		]);
-		//17, farmstead
+		//23, farmstead
 		DB::table('quarter_categories')->insert([
 			'quarter_name' => 'farmstead'
 		]);			

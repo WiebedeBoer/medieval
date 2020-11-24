@@ -26,12 +26,7 @@ class PlaceController extends Controller
     public function index()
     {            
         $placedata = Place::with('regions')->orderBy('place_name', 'asc')->paginate(50);
-        $dis = DB::table('places')->select('fortification')->distinct()->get();
-        $typ = DB::table('places')->select('place_type')->distinct()->get();
-        //->where('factory','fishery')
-        //->where('arms','shipyard')
-        $co = DB::table('places')->where('fortification','roadside_inn')->where('education','hospice')->count();
-		return view('place.index', compact('placedata','dis','typ','co'));        
+		return view('place.index', compact('placedata'));        
     }
 	
 	//show

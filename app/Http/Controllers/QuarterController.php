@@ -22,8 +22,10 @@ class QuarterController extends Controller
     public function index()
     {            	
 		$quarters = Quarter::with('dynasties','regions','owners','masters','cities')->get();
-		$user = auth()->user();
-		return view('quarters.index', compact('quarters','user'));        
+        $user = auth()->user();
+        
+        $places = Place::with('regions')->get();
+		return view('quarters.index', compact('quarters','user','places'));        
     }
 	
 	//show
