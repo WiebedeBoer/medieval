@@ -98,22 +98,6 @@ Game
     <br>'room_category' => 'muniment',
     <br>'building' => '{{$building->building_id}}'
     <br>]);
-    @elseif($building->building_type ==256)
-    <br>DB::table('rooms')->insert([
-    <br>'room_name' => 'guild hall',
-    <br>'room_category' => 'audience hall',
-    <br>'building' => '{{$building->building_id}}'
-    <br>]);
-    <br>DB::table('rooms')->insert([
-    <br>'room_name' => 'warehouse',
-    <br>'room_category' => 'storage',
-    <br>'building' => '{{$building->building_id}}'
-    <br>]);
-    <br>DB::table('rooms')->insert([
-    <br>'room_name' => 'muniment',
-    <br>'room_category' => 'muniment',
-    <br>'building' => '{{$building->building_id}}'
-    <br>]);
     @endif
 @endforeach
 

@@ -11,19 +11,16 @@ class MonkBuildingSeeder extends Seeder
      */
     public function run()
     {
-        //crusader building
+ 
+/*    
 
-        //monastic building
-
-        //sufi building
-
-        /*
-  //crusader foundation chapterhouse
+//crusader building
+//crusader foundation chapterhouse
 DB::table('buildings')->insert([
 'building_name' => 'Teutonic Knights Foundation Chapterhouse',
 'building_type' => '125',
 'place' => '277',
-'quarter' => '2309',
+'quarter' => '',
 'region' => '70'
 ]);
 //crusader foundation chapterhouse
@@ -31,7 +28,7 @@ DB::table('buildings')->insert([
 'building_name' => 'Knights Hospitaller Foundation Chapterhouse',
 'building_type' => '125',
 'place' => '993',
-'quarter' => '2647',
+'quarter' => '',
 'region' => '249'
 ]);
 //crusader foundation chapterhouse
@@ -39,80 +36,82 @@ DB::table('buildings')->insert([
 'building_name' => 'Knights Templar Foundation Chapterhouse',
 'building_type' => '125',
 'place' => '993',
-'quarter' => '2647',
+'quarter' => '',
 'region' => '249'
 ]);
-//monastic foundation abbey
+//monastic building
+//monastic foundation abbey .
 DB::table('buildings')->insert([
 'building_name' => 'Augustinian Order Foundation Abbey',
 'building_type' => '107',
 'place' => '497',
-'quarter' => '2475',
+'quarter' => '',
 'region' => '125'
 ]);
-//monastic foundation abbey
+//monastic foundation abbey, Subiaco
 DB::table('buildings')->insert([
 'building_name' => 'Benedictine Order Foundation Abbey',
 'building_type' => '107',
 'place' => '500',
-'quarter' => '2478',
+'quarter' => '',
 'region' => '125'
 ]);
-//monastic foundation abbey
+//monastic foundation abbey .
 DB::table('buildings')->insert([
 'building_name' => 'Carmelite Order Foundation Abbey',
 'building_type' => '107',
 'place' => '192',
-'quarter' => '2232',
+'quarter' => '',
 'region' => '48'
 ]);
-//monastic foundation abbey
+//monastic foundation abbey, Clairvaux
 DB::table('buildings')->insert([
 'building_name' => 'Cistercian Order Foundation Abbey',
 'building_type' => '107',
 'place' => '132',
-'quarter' => '2186',
+'quarter' => '',
 'region' => '33'
 ]);
-//monastic foundation abbey
+//monastic foundation abbey, Assissi
 DB::table('buildings')->insert([
 'building_name' => 'Franciscan Order Foundation Abbey',
 'building_type' => '107',
 'place' => '496',
-'quarter' => '2474',
+'quarter' => '',
 'region' => '124'
 ]);
-//monastic foundation abbey
 //other monastic foundation
+//monastic foundation abbey .
 DB::table('buildings')->insert([
 'building_name' => 'Greek Orthodox Monastery',
 'building_type' => '111',
 'place' => '825',
-'quarter' => '2602',
+'quarter' => '',
 'region' => '207'
 ]);
-//monastic foundation abbey
+//monastic foundation abbey, bukovo
 DB::table('buildings')->insert([
 'building_name' => 'Serbian Orthodox Monastery',
 'building_type' => '119',
 'place' => '736',
-'quarter' => '2578',
+'quarter' => '',
 'region' => '184'
 ]);
-//monastic foundation abbey
+//monastic foundation abbey, Monastyrski
 DB::table('buildings')->insert([
 'building_name' => 'Russian Orthodox Monastery',
 'building_type' => '115',
 'place' => '749',
-'quarter' => '2585',
+'quarter' => '',
 'region' => '188'
 ]);
-//sufi foundation order
+//sufi building
+//sufi foundation order .
 DB::table('buildings')->insert([
 'building_name' => 'Sufi Order',
 'building_type' => '123',
 'place' => '988',
-'quarter' => '2646',
+'quarter' => '',
 'region' => '247'
 ]);       
         

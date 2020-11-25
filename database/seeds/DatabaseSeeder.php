@@ -83,9 +83,9 @@ class DatabaseSeeder extends Seeder
 		$this->call('TiltyardBuildingSeeder');
 		$this->call('HostelBuildingSeeder');
 		$this->call('MineBuildingSeeder');
-		$this->call('HuntingBuildingSeeder');
-		$this->call('MonkBuildingSeeder'); //todo
+		$this->call('HuntingBuildingSeeder');		
 		$this->call('GuildBuildingSeeder'); 
+		$this->call('MonkBuildingSeeder'); //todo
 		//default rooms		
 		$this->call('RoomTavernSeeder');
 		$this->call('RoomRoadsideSeeder');
@@ -93,9 +93,9 @@ class DatabaseSeeder extends Seeder
 		$this->call('RoomLodgeSeeder');
 		$this->call('RoomChurchSeeder');
 		$this->call('RoomCathedralSeeder');
+		$this->call('RoomGuildSeeder'); 
 		$this->call('RoomMonasterySeeder'); //todo
-		$this->call('RoomChapterSeeder'); //todo	
-		$this->call('RoomGuildSeeder'); //todo
+		$this->call('RoomChapterSeeder'); //todo		
 		
 		//dungeons
 		
