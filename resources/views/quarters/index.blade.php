@@ -4,16 +4,6 @@ Game
 @endsection
 @section('content')
 
-@foreach($quarters as $quarter)
-<br>DB::table('buildings')->insert([
-<br>'building_name' => 'guild of {{$quarter->cities->place_name}}',
-<br>'building_type' => '256',
-<br>'place' => '{{$quarter->place}}',
-<br>'quarter' => '{{$quarter->quarter_id}}',
-<br>'region' => '{{$quarter->region}}'
-<br>]);
-@endforeach
-
 @foreach($buildings as $building)
     @if($building->building_name =="monastery")
     <br>DB::table('rooms')->insert([
@@ -108,7 +98,7 @@ Game
     <br>'room_category' => 'muniment',
     <br>'building' => '{{$building->building_id}}'
     <br>]);
-    @elseif($building->building_name =="guild")
+    @elseif($building->building_type ==256)
     <br>DB::table('rooms')->insert([
     <br>'room_name' => 'guild hall',
     <br>'room_category' => 'audience hall',

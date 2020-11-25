@@ -85,7 +85,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('MineBuildingSeeder');
 		$this->call('HuntingBuildingSeeder');
 		$this->call('MonkBuildingSeeder'); //todo
-		$this->call('GuildBuildingSeeder'); //todo
+		$this->call('GuildBuildingSeeder'); 
 		//default rooms		
 		$this->call('RoomTavernSeeder');
 		$this->call('RoomRoadsideSeeder');
