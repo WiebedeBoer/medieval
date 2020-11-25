@@ -23,15 +23,22 @@ class BuildingController extends Controller
     {            	
 		$buildings = Building::with('places','regions','types','quarters','owners','masters')->orderBy('building_name','ASC')->get();
 		$user = auth()->user();
-		return view('farmsteads.index', compact('buildings','user'));        
+		return view('buildings.index', compact('buildings','user'));        
     }
 	
 	//show
     public function show($id)
     {       
         $building = Building::with('places','regions','types','quarters','owners','masters')->where('building_id', $id)->firstOrFail();
-		$user = auth()->user();
-		return view('farmsteads.show', compact('building','user'));        
+        $user = auth()->user();
+        $room_count = Room::where('building', $id)->count();
+        if ($room_count >=1){
+            $rooms = Room::with('buildings')->where('building', $id)->get();
+        }
+        else {
+            $rooms = [];
+        }
+		return view('buildings.show', compact('building','user','room_count','rooms'));        
     }	
 	
 }

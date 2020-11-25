@@ -22,15 +22,22 @@ class RoomController extends Controller
     {            	
 		$rooms = Room::with('buildings')->orderBy('room_name','ASC')->get();
 		$user = auth()->user();
-		return view('farmsteads.index', compact('rooms','user'));        
+		return view('rooms.index', compact('rooms','user'));        
     }
 	
 	//show
     public function show($id)
     {       
         $room = Room::with('buildings')->where('room_id', $id)->firstOrFail();
-		$user = auth()->user();
-		return view('farmsteads.show', compact('room','user'));        
+        $user = auth()->user();
+        $furnishing_count = Furnishing::where('room', $id)->count();
+        if ($furnishing_count >=1){
+            $furnishings = Furnishing::with('buildings')->where('room', $id)->get();
+        }
+        else {
+            $furnishings = [];
+        }
+		return view('rooms.show', compact('room','user','furnishing_count','furnishings'));        
     }	
 	
 }

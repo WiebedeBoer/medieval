@@ -199,6 +199,7 @@ Route::post('shops','MarketController@store');
 Route::delete('shops/{shops}', 'MarketController@destroy');
 //geography and locations
 //maps
+Route::get('map/climate','MapController@climate');
 Route::get('map/cattle','MapController@cattle');
 Route::get('map/goat','MapController@goat');
 Route::get('map/herb','MapController@herb');
@@ -207,6 +208,16 @@ Route::get('map/sheep','MapController@sheep');
 Route::get('map/style','MapController@style');
 Route::get('map/literature','MapController@literature');
 Route::get('map/universities','MapController@universities');
+Route::get('map/defenses','MapController@defenses');
+Route::get('map/commerce','MapController@commerce');
+Route::get('map/justice','MapController@justice');
+Route::get('map/agriculture','MapController@agriculture');
+Route::get('map/tin','MapController@tin');
+Route::get('map/iron','MapController@iron');
+Route::get('map/lead','MapController@lead');
+Route::get('map/gold','MapController@gold');
+Route::get('map/gems','MapController@gems');
+Route::get('map/salt','MapController@salt');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');

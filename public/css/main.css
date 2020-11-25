@@ -159,11 +159,12 @@ h2.m {
 }
 
 .wmli{
+	text-align:left;
 	display:inline-block;
 	padding: 3px;
 	margin:5px;
-	min-width:200px;
-	height:auto;
+	width:660px;
+	height:60px;
 	border-width:2px;
 	border-style:solid;
 	border-color:#636b6f;

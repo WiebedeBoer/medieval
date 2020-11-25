@@ -13,7 +13,7 @@ class MonkQuarterSeeder extends Seeder
     {
         
         //crusaders
-        //
+        //Marienburg
         DB::table('quarters')->insert([
             'quarter_rank' => 'commandery',
             'x' => '3',
@@ -23,7 +23,7 @@ class MonkQuarterSeeder extends Seeder
             'place' => '277',
             'region' => '70'
         ]);
-        //
+        //Jerusalem
         DB::table('quarters')->insert([
             'quarter_rank' => 'commandery',
             'x' => '3',
@@ -33,7 +33,7 @@ class MonkQuarterSeeder extends Seeder
             'place' => '993',
             'region' => '249'
         ]);
-        //
+        //Jerusalem
         DB::table('quarters')->insert([
             'quarter_rank' => 'commandery',
             'x' => '6',

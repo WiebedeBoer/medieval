@@ -33,7 +33,7 @@ Game
 @foreach($placedata as $place)
 	<tr>
 	<td class="plname"><a href="/place/{{ $place->place_id }}">{{ $place->place_name }}</a></td>
-	<td class="pl"><a href="/place/{{ $place->region }}">{{ $place->regions->region_name }}</a></td>
+	<td class="pl"><a href="/region/{{ $place->region }}">{{ $place->regions->region_name }}</a></td>
 	<!--population-->
 	@if ($place->population >=10000)
 		<td class="rimetro">{{ $place->population }}</td>

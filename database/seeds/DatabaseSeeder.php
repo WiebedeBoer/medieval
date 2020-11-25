@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('MerchantQuarterSeeder');
 		$this->call('ChurchQuarterSeeder');
 		$this->call('HuntQuarterSeeder');
-		$this->call('MonkQuarterSeeder'); //todo
+		$this->call('MonkQuarterSeeder'); 
 		//building categories
 		$this->call('BuildingCategorySeeder');		
 		//default buildings
@@ -85,7 +85,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('MineBuildingSeeder');
 		$this->call('HuntingBuildingSeeder');		
 		$this->call('GuildBuildingSeeder'); 
-		$this->call('MonkBuildingSeeder'); //todo
+		$this->call('MonkBuildingSeeder'); 
 		//default rooms		
 		$this->call('RoomTavernSeeder');
 		$this->call('RoomRoadsideSeeder');
@@ -94,12 +94,13 @@ class DatabaseSeeder extends Seeder
 		$this->call('RoomChurchSeeder');
 		$this->call('RoomCathedralSeeder');
 		$this->call('RoomGuildSeeder'); 
-		$this->call('RoomMonasterySeeder'); //todo
-		$this->call('RoomChapterSeeder'); //todo		
+		$this->call('RoomChapterSeeder');
+		$this->call('RoomMonasterySeeder');
+		//default furnishings	
 		
-		//dungeons
+		//default dungeons
 		
-		//prisoners
+		//default prisoners
 		
     }
 }

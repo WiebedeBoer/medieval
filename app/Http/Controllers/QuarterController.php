@@ -22,18 +22,24 @@ class QuarterController extends Controller
 	//main 
     public function index()
     {            	
-		$quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('quarter_rank','market')->get();
+		$quarters = Quarter::with('dynasties','regions','owners','masters','cities')->orderBy('place', 'asc')->orderBy('x', 'asc')->orderBy('y', 'asc')->paginate(49);
         $user = auth()->user(); 
-        $buildings = Building::with('places','regions')->get(); 
-        $places = Place::with('regions')->get();  
-		return view('quarters.index', compact('quarters','user','buildings','places'));        
+		return view('quarters.index', compact('quarters','user'));        
     }
 	
 	//show
     public function show($id)
     {       
         $quarter = Quarter::with('dynasties','regions','owners','masters','cities')->where('quarter_id', $id)->firstOrFail();
+        $building_count = Building::where('quarter', $id)->count();
+        if ($building_count >=1){
+            $buildings = Building::with('places','regions','types','quarters','owners','masters')->where('quarter', $id)->get();
+        }
+        else {
+            $buildings = [];
+        }
+        
 		$user = auth()->user();
-		return view('quarters.show', compact('quarter','user'));        
+		return view('quarters.show', compact('quarter','user','building_count','buildings'));        
     }
 }

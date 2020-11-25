@@ -34,5 +34,10 @@ class Quarter extends Model
     {
         return $this->belongsTo('App\Place','place');
     } 
+
+    public function categories()
+    {
+        return $this->belongsTo('App\QuarterCategory','quarter_category');
+    } 
 	
 }

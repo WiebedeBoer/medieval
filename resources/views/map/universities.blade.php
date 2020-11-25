@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (View)</h1>
+					<h1>World Map (Education View)</h1>
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -16,7 +16,7 @@ Game
 	<g z-index="2">
 	@if($region->university_count >=1 && $region->library_count >=1)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->university_count }} universities and {{ $region->library_count }} libaries)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(255,0,0)" stroke-width="2" fill="rgb(255,255,0)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="7" stroke="rgb(255,0,0)" stroke-width="3" fill="rgb(255,255,0)" />
 		</a>
 	@elseif($region->university_count >=1 && $region->library_count ==0)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->university_count }} universities)</title>

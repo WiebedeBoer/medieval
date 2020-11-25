@@ -12,7 +12,7 @@ class BuildingSeeder extends Seeder
     public function run()
     {
 
-    
+    //cathedrals and churches and mosques
     DB::table('buildings')->insert([
     'building_name' => 'cathedral',
     'building_type' => '100',
