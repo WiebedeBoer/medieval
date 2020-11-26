@@ -492,3 +492,38 @@ th.ma {
 	color: #fdfdfd;
 	background-color:#202020;
 }
+
+/*show mini map*/
+
+.parentmini {
+	width: 490px;
+	height: 490px;
+	position:relative;
+	left: 0px;
+	top: 0px;
+}
+
+.canvasmini {
+	z-index:4;
+	position:relative;
+	left: 0px;
+	top: 0px;
+	width: 490px;
+    height: 490px;
+}
+
+.quartermap {
+    width: 490px;
+    height: 490px;
+}
+
+.quartermini {
+	z-index:6;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0.5;
+	width: 490px;
+    height: 490px;
+	border:1px solid #d3d3d3;
+}

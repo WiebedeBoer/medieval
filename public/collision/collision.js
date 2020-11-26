@@ -43,21 +43,23 @@ for (var vertexIndex = 0; vertexIndex < MovingCube.geometry.vertices.length; ver
     if (!collisionCheck){
                 
         //street name
-        var x_street = Math.floor((camera.position.x + 1800) / 90);
-        var z_street = Math.floor((camera.position.z + 1800) / 90);
+        var x_street = Math.floor((camera.position.x + 2550) / 700) + 1;
+        var z_street = Math.floor((camera.position.z + 2550) / 700) + 1;
         //map blacking
         var cb = document.getElementById("myCanvas");
         var ctxb = cb.getContext("2d");
         ctxb.fillStyle = "black";
-        ctxb.fillRect(1, 1, 40, 40);
+        ctxb.fillRect(1, 1, 490, 490);
         //map coord
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
         ctx.fillStyle = "red";
-        ctx.fillRect(x_street, z_street, 1, 1);
+        var x_coord = (x_street * 70) - 35;
+        var z_coord = (z_street * 70) - 35;
+        ctx.fillRect(x_coord, z_coord, 35, 35);
         //msg
         clearText();
-        appendText(x_street +"th W-E street,"+z_street+"th N-S street");
+        appendText(x_street +","+z_street+" quarter");
     }
     else {
         clearText();     

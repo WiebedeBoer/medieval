@@ -11,6 +11,7 @@ use App\Realm;
 use App\Ruler;
 use App\Dynasty;
 use App\Building;
+use App\Quarter;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
@@ -46,7 +47,8 @@ class PlaceController extends Controller
         else {
             $ktusers =0;
         }
-		return view('place.show', compact('placedata','culture','user','region','ktusers','id'));        
+        $quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('place', $id)->get();
+		return view('place.show', compact('placedata','culture','user','region','ktusers','id','quarters'));        
     }
 	
     //update function
@@ -160,8 +162,9 @@ class PlaceController extends Controller
         else {
             $kt_check =0;
             $persons =[];          
-        }        
-		return view('place.edit', compact('placedata','culture','user','region','persons','kt_check','id','ruler'));        
+        } 
+        $quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('place', $id)->get();       
+		return view('place.edit', compact('placedata','culture','user','region','persons','kt_check','id','ruler','quarters'));        
     }
 
 	//build form
