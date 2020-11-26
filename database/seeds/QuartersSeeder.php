@@ -60168,7 +60168,7 @@ DB::table('quarters')->insert([
     'quarter_rank' => 'fortified abbey',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'abbey of Assissi',
+    'quarter_name' => 'Franciscan Order Foundation Abbey',
     'quarter_category' => '14',
     'place' => '496',
     'region' => '124'
@@ -60250,7 +60250,7 @@ DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'abbey of Clairvaux',
+    'quarter_name' => 'Cistercian Order Foundation Abbey',
     'quarter_category' => '15',
     'place' => '132',
     'region' => '33'
@@ -60583,7 +60583,7 @@ DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'abbey of Subiaco',
+    'quarter_name' => 'Benedictine Order Foundation Abbey',
     'quarter_category' => '15',
     'place' => '500',
     'region' => '125'
@@ -60673,7 +60673,7 @@ DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'abbey of Bukovo',
+    'quarter_name' => 'monastery of Bukovo',
     'quarter_category' => '15',
     'place' => '736',
     'region' => '184'
@@ -60718,7 +60718,7 @@ DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'abbey of Monastyrski',
+    'quarter_name' => 'monastery of Monastyrski',
     'quarter_category' => '15',
     'place' => '749',
     'region' => '188'

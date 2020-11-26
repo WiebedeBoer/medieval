@@ -21,8 +21,8 @@ class BuildingController extends Controller
 	//main 
     public function index()
     {            	
-		$buildings = Building::with('places','regions','types','quarters','owners','masters')->orderBy('building_name','ASC')->get();
-		$user = auth()->user();
+		$buildings = Building::with('places','regions','types','quarters','owners','masters')->orderBy('place','ASC')->orderBy('quarter','ASC')->orderBy('building_name','ASC')->paginate(50);
+        $user = auth()->user();
 		return view('buildings.index', compact('buildings','user'));        
     }
 	

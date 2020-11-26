@@ -18,7 +18,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'commandery',
             'x' => '3',
             'y' => '4',
-            'quarter_name' => 'commandery of ',
+            'quarter_name' => 'headquarters of the Teutonic Order',
             'quarter_category' => '20',
             'place' => '277',
             'region' => '70'
@@ -28,7 +28,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'commandery',
             'x' => '3',
             'y' => '4',
-            'quarter_name' => 'commandery of ',
+            'quarter_name' => 'headquarters of the Templar Knights',
             'quarter_category' => '20',
             'place' => '993',
             'region' => '249'
@@ -38,7 +38,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'commandery',
             'x' => '6',
             'y' => '4',
-            'quarter_name' => 'commandery of ',
+            'quarter_name' => 'headquarters of the Knight Hospitaller ',
             'quarter_category' => '20',
             'place' => '993',
             'region' => '249'
@@ -49,7 +49,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'abbacy',
             'x' => '4',
             'y' => '2',
-            'quarter_name' => 'abbey of ',
+            'quarter_name' => 'Augustinian Order Foundation Abbey',
             'quarter_category' => '21',
             'place' => '497',
             'region' => '125'
@@ -71,7 +71,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'abbacy',
             'x' => '4',
             'y' => '2',
-            'quarter_name' => 'abbey of ',
+            'quarter_name' => 'Carmelite Order Foundation Abbey',
             'quarter_category' => '21',
             'place' => '192',
             'region' => '48'
@@ -106,7 +106,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'abbacy',
             'x' => '4',
             'y' => '2',
-            'quarter_name' => 'monastery of ',
+            'quarter_name' => 'monastery of Constantinople',
             'quarter_category' => '21',
             'place' => '825',
             'region' => '207'
@@ -141,7 +141,7 @@ class MonkQuarterSeeder extends Seeder
             'quarter_rank' => 'abbacy',
             'x' => '4',
             'y' => '2',
-            'quarter_name' => 'tariq of ',
+            'quarter_name' => 'tariq of Medina',
             'quarter_category' => '21',
             'place' => '988',
             'region' => '247'

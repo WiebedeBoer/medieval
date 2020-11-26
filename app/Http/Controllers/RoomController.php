@@ -20,7 +20,7 @@ class RoomController extends Controller
 	//main 
     public function index()
     {            	
-		$rooms = Room::with('buildings')->orderBy('room_name','ASC')->get();
+		$rooms = Room::with('buildings')->orderBy('building','ASC')->orderBy('room_name','ASC')->paginate(50);
 		$user = auth()->user();
 		return view('rooms.index', compact('rooms','user'));        
     }
