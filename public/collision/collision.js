@@ -42,21 +42,44 @@ for (var vertexIndex = 0; vertexIndex < MovingCube.geometry.vertices.length; ver
 
     if (!collisionCheck){
                 
-        //street name
+        //quarter name
         var x_street = Math.floor((camera.position.x + 2550) / 700) + 1;
         var z_street = Math.floor((camera.position.z + 2550) / 700) + 1;
+
+        if (x_street >7){
+            x_street =7;
+        }
+        else if(x_street <1){
+            x_street =1;
+        }
+        else {
+            x_street =x_street;
+        }
+
+        if (z_street >7){
+            z_street =7;
+        }
+        else if(z_street <1){
+            z_street =1;
+        }
+        else {
+            z_street =z_street;
+        }
         //map blacking
         var cb = document.getElementById("myCanvas");
         var ctxb = cb.getContext("2d");
         ctxb.fillStyle = "black";
         ctxb.fillRect(1, 1, 490, 490);
-        //map coord
+        //map pointer
         var c = document.getElementById("myCanvas");
-        var ctx = c.getContext("2d");
-        ctx.fillStyle = "red";
+        var ctx = c.getContext("2d");   
+        //map coord
         var x_coord = (x_street * 70) - 35;
         var z_coord = (z_street * 70) - 35;
-        ctx.fillRect(x_coord, z_coord, 35, 35);
+        ctx.beginPath();
+        ctx.fillStyle = "red";
+        ctx.arc(x_coord, z_coord, 30, 0, 2 * Math.PI);
+        ctx.fill(); 
         //msg
         clearText();
         appendText(x_street +","+z_street+" quarter");

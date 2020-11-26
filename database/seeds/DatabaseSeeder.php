@@ -72,6 +72,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('ChurchQuarterSeeder');
 		$this->call('HuntQuarterSeeder');
 		$this->call('MonkQuarterSeeder'); 
+		$this->call('CastleQuarterSeeder'); 
 		//building categories
 		$this->call('BuildingCategorySeeder');		
 		//default buildings

@@ -34,6 +34,19 @@
     <script type="text/javascript" src="{{ asset('library/three.js') }}"></script>
     <!--camera controls-->
     <script type="text/javascript" src="{{ asset ('controls/FPControls.js') }}"></script>
+    <!--defense buildings-->
+    <script type="text/javascript" src="{{ asset ('building/wallmaker.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/pallisademaker.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/citywall.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/citytower.js') }}"></script>
+    <!--commerce buildings-->
+
+    <!--monastic buildings-->
+
+    <!--crusader buildings-->
+
+    <!--feudal buildings-->
+
     <!--collision detection-->
     <script type="text/javascript" src="{{ asset ('collision/collision.js') }}"></script>
     <!--environment: plane en skybox-->
@@ -46,7 +59,6 @@
     <script type="text/javascript" src="{{ asset ('loaders/MTLLoader.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('loaders/ModelLoader.js') }}"></script>
 </head>
-<!--<body class="body-cards" onload="GameLoop()">-->
 <body class="body-cards" onload="GameLoop()">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
