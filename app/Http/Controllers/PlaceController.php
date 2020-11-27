@@ -47,8 +47,9 @@ class PlaceController extends Controller
         else {
             $ktusers =0;
         }
-        $quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('place', $id)->get();
-		return view('place.show', compact('placedata','culture','user','region','ktusers','id','quarters'));        
+        $quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('place', $id)->get();      
+        $de_quarters = serialize($quarters);
+		return view('place.show', compact('placedata','culture','user','region','ktusers','id','quarters','de_quarters'));        
     }
 	
     //update function

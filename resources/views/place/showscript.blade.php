@@ -57,6 +57,16 @@ var justice ="{{$placedata->jus}}";
 var morale ="{{$placedata->mor}}";
 var training ="{{$placedata->tra}}";
 var soldiers ="{{$placedata->sol}}";
+//quarters filling
+var quarters = [];
+@foreach($quarters as $quarter)
+	var quarter =[];
+	quarter.push("{{$quarter->quarter_category}}"); //quarter category
+	quarter.push("{{$quarter->x}}"); //quarter x coordinate
+	quarter.push("{{$quarter->y}}"); //quarter y coordinate	
+	quarters.push(quarter);
+@endforeach
+
 //environment
 var environmentsize = 5100;
 //plane
@@ -115,6 +125,8 @@ if (citywall =="stone"){
 else if(citywall =="pallisade"){
 	pallisademaker();
 }
+//quarters
+
 //lighting 
 worldLighter();
 //moving cube
