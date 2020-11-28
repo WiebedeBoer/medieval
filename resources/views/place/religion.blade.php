@@ -22,6 +22,17 @@
             <a href="/religion/1"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="belief" title="Catholic"></a>
             </div>
             @endif
+    </div>
+</div>
+@if($placedata->realms !=NULL)
+<div class="float-left ml-3">
+    <div class="crb">
+        <div class="inline-block"><a href="/realms/{{ $placedata->realms['realm_id'] }}">{{ $placedata->realms['realm_name'] }}</a></div>
+        <div class="inline-block">
+            <a href="/realms/{{ $placedata->realms['realm_id'] }}">
+                <img src="{{ asset('img/images/misc_lion.png') }}" width="48" height="48" alt="realm" title="realm">
+            </a>
         </div>
     </div>
 </div>
+@endif

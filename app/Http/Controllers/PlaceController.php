@@ -33,7 +33,7 @@ class PlaceController extends Controller
 	//show
     public function show($id)
     {       
-        $placedata = Place::with('regions')->where('place_id', $id)->firstOrFail();
+        $placedata = Place::with('regions','realms')->where('place_id', $id)->firstOrFail();
         $region_id = $placedata->regions->region_id;        
 		$region = Region::where('region_id', $region_id)->firstOrFail();
         $culture_id = $region->culture;

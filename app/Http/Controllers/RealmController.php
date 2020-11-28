@@ -26,20 +26,18 @@ class RealmController extends Controller
     public function index()
     {            	
 		//$realmdata = Realm::with('cultures','dynasties','capitals','citizens','guilds','places','rulers')->join('capitals', 'capitals.realm', '=', 'realms.realm_id')->select('capitals.*', 'realms.*')->orderBy('realm_name','ASC')->get();
-		$realmdata = Realm::with('cultures','dynasties','capitals','places','rulers')->orderBy('realm_name','ASC')->get();
-		//
-		
+		$realmdata = Realm::with('cultures','dynasties','capitals','places','rulers')->where('realm_id', '>=', 2)->orderBy('realm_name','ASC')->get();	
 		foreach($realmdata as $realm){
-
 				if(is_null($realm->capitals)){
-
+					$realm->existence =0;
 				}
 				else {
 					$realm->capital = $realm->capitals['capital'];
 					$placedata = Place::where('place_id',$realm->capital)->first();
 					$realm->place_name = $placedata->place_name;
-
+					$realm->existence = Place::where('realm',$realm->realm_id)->count();
 				}
+				
 				if(is_null($realm->rulers)){
 
 				}
@@ -52,10 +50,8 @@ class RealmController extends Controller
 					$realm->marshall = $rulerdata->marshalls->person_name;
 					$realm->admiral = $rulerdata->admirals->person_name;
 					$realm->steward = $rulerdata->stewards->person_name;
-				}
-				
-		}
-		
+				}				
+		}		
 		return view('realms.index', compact('realmdata'));        
     }
 	
@@ -79,14 +75,21 @@ class RealmController extends Controller
 		}
 		$user = auth()->user();
 		if(is_null($realm->capitals)){
-
+			$realm->existence =0;
 		}
 		else {
 			$realm->capital = $realm->capitals['capital'];
 			$placedata = Place::where('place_id',$realm->capital)->first();
 			$realm->place_name = $placedata->place_name;
-
+			$realm->existence = Place::where('realm',$realm->realm_id)->count();
 		}
+		if($realm->existence >=1){
+			$placedata = Place::with('regions')->where('realm',$realm->realm_id)->orderBy('place_name', 'asc')->get();
+		}
+		else {
+			$placedata =[];
+		}
+
 		if(is_null($realm->rulers)){
 
 		}
@@ -100,7 +103,7 @@ class RealmController extends Controller
 			$realm->admiral = $rulerdata->admirals->person_name;
 			$realm->steward = $rulerdata->stewards->person_name;
 		}
-		return view('realms.show', compact('realm','citizencount','citizens','user','guildcount','guilds'));        
+		return view('realms.show', compact('realm','citizencount','citizens','user','guildcount','guilds','placedata'));        
     }	
 	
 	//edit
