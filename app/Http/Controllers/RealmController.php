@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 use App\Realm;
 use App\Citizen;
 use App\Guild;
+use App\Place;
+use App\Capital;
+use App\Culture;
+use App\Ruler;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Arr;
 
 class RealmController extends Controller
 {
@@ -20,14 +25,44 @@ class RealmController extends Controller
 	//main 
     public function index()
     {            	
-		$realmdata = Realm::with('cultures','owners','dynasties','rulers','chancellors','chamberlains','marshalls','admirals','stewards','capitals')->orderBy('realm_name','ASC')->get();
+		//$realmdata = Realm::with('cultures','dynasties','capitals','citizens','guilds','places','rulers')->join('capitals', 'capitals.realm', '=', 'realms.realm_id')->select('capitals.*', 'realms.*')->orderBy('realm_name','ASC')->get();
+		$realmdata = Realm::with('cultures','dynasties','capitals','places','rulers')->orderBy('realm_name','ASC')->get();
+		//
+		
+		foreach($realmdata as $realm){
+
+				if(is_null($realm->capitals)){
+
+				}
+				else {
+					$realm->capital = $realm->capitals['capital'];
+					$placedata = Place::where('place_id',$realm->capital)->first();
+					$realm->place_name = $placedata->place_name;
+
+				}
+				if(is_null($realm->rulers)){
+
+				}
+				else {
+					$realm->cabinet = $realm->rulers['cabinet_id'];
+					$rulerdata = Ruler::with('rulers','chancellors','chamberlains','marshalls','admirals','stewards')->where('cabinet_id',$realm->cabinet)->first();
+					$realm->ruler_name = $rulerdata->rulers->person_name;
+					$realm->chancellor = $rulerdata->chancellors->person_name;
+					$realm->chamberlain = $rulerdata->chamberlains->person_name;
+					$realm->marshall = $rulerdata->marshalls->person_name;
+					$realm->admiral = $rulerdata->admirals->person_name;
+					$realm->steward = $rulerdata->stewards->person_name;
+				}
+				
+		}
+		
 		return view('realms.index', compact('realmdata'));        
     }
 	
 	//show
     public function show($id)
     {       
-        $realmdata = Culture::with('cultures','owners','dynasties','rulers','chancellors','chamberlains','marshalls','admirals','stewards','capitals')->where('realm_id', $id)->firstOrFail();
+        $realm = Realm::with('cultures','dynasties','capitals','citizens','guilds','places','rulers')->where('realm_id', $id)->firstOrFail();
 		$citizencount = $this->countCitizens($id);
 		if ($citizencount >=1){
 			$citizens = Citizen::with('citizens')->where('realm', $id)->get();
@@ -43,13 +78,35 @@ class RealmController extends Controller
 			$guilds =[];
 		}
 		$user = auth()->user();
-		return view('realms.show', compact('realmdata','citizencount','citizens','user','guildcount','guilds'));        
+		if(is_null($realm->capitals)){
+
+		}
+		else {
+			$realm->capital = $realm->capitals['capital'];
+			$placedata = Place::where('place_id',$realm->capital)->first();
+			$realm->place_name = $placedata->place_name;
+
+		}
+		if(is_null($realm->rulers)){
+
+		}
+		else {
+			$realm->cabinet = $realm->rulers['cabinet_id'];
+			$rulerdata = Ruler::with('rulers','chancellors','chamberlains','marshalls','admirals','stewards')->where('cabinet_id',$realm->cabinet)->first();
+			$realm->ruler_name = $rulerdata->rulers->person_name;
+			$realm->chancellor = $rulerdata->chancellors->person_name;
+			$realm->chamberlain = $rulerdata->chamberlains->person_name;
+			$realm->marshall = $rulerdata->marshalls->person_name;
+			$realm->admiral = $rulerdata->admirals->person_name;
+			$realm->steward = $rulerdata->stewards->person_name;
+		}
+		return view('realms.show', compact('realm','citizencount','citizens','user','guildcount','guilds'));        
     }	
 	
 	//edit
     public function edit($id)
     {       
-        $realmdata = Culture::with('cultures','owners','dynasties','rulers','chancellors','chamberlains','marshalls','admirals','stewards','capitals')->where('realm_id', $id)->firstOrFail();
+        $realm = Realm::with('cultures','dynasties','capitals','citizens','guilds','places','rulers')->where('realm_id', $id)->firstOrFail();
 		$citizencount = $this->countCitizens($id);
 		if ($citizencount >=1){
 			$citizens = Citizen::with('citizens')->where('realm', $id)->get();
@@ -65,7 +122,7 @@ class RealmController extends Controller
 			$guilds =[];
 		}
 		$user = auth()->user();
-		return view('realms.edit', compact('realmdata','citizencount','citizens','user','guildcount','guilds'));        
+		return view('realms.edit', compact('realm','citizencount','citizens','user','guildcount','guilds'));        
     }
 	
     //update function

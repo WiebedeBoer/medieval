@@ -31,7 +31,11 @@ camera.position.y = 12;
 camera.position.z = -67;
 camera.position.x = -21;
 //resources
-var culture ="{{$culture}}";
+var culture_name ="{{$cultural->culture_name}}";
+var warrior_culture ="{{$cultural->warrior_culture}}";
+var chivalry_culture ="{{$cultural->chivalry_culture}}";
+var manorial_culture ="{{$cultural->manorial_culture}}";
+var commercial_culture ="{{$cultural->commercial_culture}}";
 var climate ="{{$region->climate}}";
 var herbs ="{{$region->herb}}";
 var styles ="{{$region->style}}";
@@ -64,8 +68,24 @@ var quarters = [];
 	quarter.push("{{$quarter->quarter_category}}"); //quarter category
 	quarter.push("{{$quarter->x}}"); //quarter x coordinate
 	quarter.push("{{$quarter->y}}"); //quarter y coordinate	
+	var buildings =[];
+	@foreach($quarter->buildings as $building)
+		buildings.push("{{$building->building_type}}"); //building type
+	@endforeach
+	quarter.push(buildings);
 	quarters.push(quarter);
 @endforeach
+
+quarters.forEach(function(quarter) {
+	//console.log("quarter category:"+quarter[0]+ " , x coordinate:"+quarter[1]+" , y coordinate:"+quarter[2]);
+	QuarterGenerator(quarter[0],quarter[1],quarter[2]);
+	if(quarter[3]){
+		quarter[3].forEach(function(building) {
+			//console.log("quarter category:"+quarter[0]+ " , x coordinate:"+quarter[1]+" , y coordinate:"+quarter[2]+", building: "+building);
+			BuildingGenerator(quarter[0],quarter[1],quarter[2],building);	
+		});
+	}
+});
 
 //environment
 var environmentsize = 5100;

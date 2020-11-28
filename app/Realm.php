@@ -15,19 +15,9 @@ class Realm extends Model
         return $this->belongsTo('App\Culture','culture');
     } 
 	
-    public function owners()
-    {
-        return $this->belongsTo('App\User','owner');
-    } 
-	
     public function dynasties()
     {
         return $this->belongsTo('App\Dynasty','dynasty');
-    } 
-
-    public function capitals()
-    {
-        return $this->belongsTo('App\Place','capital');
     } 
 
 	//citizens
@@ -40,6 +30,24 @@ class Realm extends Model
 	public function guilds()
     {
         return $this->hasMany('App\Guild','realm');
-    }		
+    }	
+    
+	//places
+    public function places()
+    {
+        return $this->hasMany('App\Place','realm');
+    }
+
+    //capitals
+    public function capitals()
+    {
+        return $this->hasOne('App\Capital','realm');       
+    } 
+
+	//rulers
+    public function rulers()
+    {
+        return $this->hasOne('App\Ruler', 'realm');
+    }
 	
 }

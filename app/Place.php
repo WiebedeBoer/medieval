@@ -45,6 +45,11 @@ class Place extends Model
     {
         return $this->belongsTo('App\Person','tenure_owner');
     } 
+
+	public function realms()
+    {
+        return $this->belongsTo('App\Realm','realm');
+    } 
 	
 	//titles
     public function titles()

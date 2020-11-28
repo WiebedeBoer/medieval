@@ -37,7 +37,7 @@ class PlaceController extends Controller
         $region_id = $placedata->regions->region_id;        
 		$region = Region::where('region_id', $region_id)->firstOrFail();
         $culture_id = $region->culture;
-		$culture = Culture::where('culture_id', $culture_id)->firstOrFail();
+		$cultural = Culture::where('culture_id', $culture_id)->firstOrFail();
         $user = auth()->user();
         $realm_id = $placedata->realm;
         if ($realm_id !=NULL){
@@ -47,9 +47,8 @@ class PlaceController extends Controller
         else {
             $ktusers =0;
         }
-        $quarters = Quarter::with('dynasties','regions','owners','masters','cities')->where('place', $id)->get();      
-        $de_quarters = serialize($quarters);
-		return view('place.show', compact('placedata','culture','user','region','ktusers','id','quarters','de_quarters'));        
+        $quarters = Quarter::with('dynasties','regions','owners','masters','cities','buildings')->where('place', $id)->get();      
+		return view('place.show', compact('placedata','cultural','user','region','ktusers','id','quarters'));        
     }
 	
     //update function

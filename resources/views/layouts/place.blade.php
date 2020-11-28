@@ -39,6 +39,9 @@
     <script type="text/javascript" src="{{ asset ('building/pallisademaker.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/citywall.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/citytower.js') }}"></script>
+    <!--generators-->
+    <script type="text/javascript" src="{{ asset ('building/generator_quarter.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/generator_building.js') }}"></script>    
     <!--commerce buildings-->
 
     <!--monastic buildings-->

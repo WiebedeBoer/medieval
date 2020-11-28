@@ -39,5 +39,11 @@ class Quarter extends Model
     {
         return $this->belongsTo('App\QuarterCategory','quarter_category');
     } 
+
+	//buildings
+	public function buildings()
+    {
+        return $this->hasMany('App\Building','quarter');
+    }
 	
 }
