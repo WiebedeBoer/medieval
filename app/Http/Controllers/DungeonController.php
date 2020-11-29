@@ -19,16 +19,18 @@ class DungeonController extends Controller
 	//main 
     public function index()
     {            	
-		$dungeons = Dungeon::with('places','masters')->get();
+        $dungeons = Dungeon::with('places','masters')->paginate(50);
+        $dungeon_count = Dungeon::count();
 		$user = auth()->user();
-		return view('dungeons.index', compact('dungeons','user'));        
+		return view('dungeons.index', compact('dungeons','user','dungeon_count'));        
     }
 	
 	//show
     public function show($id)
     {       
         $dungeon = Dungeon::with('places','masters')->where('dungeon_id', $id)->firstOrFail();
+        $prisoners = Prisoner::with('dungeons','captives')->where('dungeon', $id)->get();
 		$user = auth()->user();
-		return view('dungeons.show', compact('dungeon','user'));        
+		return view('dungeons.show', compact('dungeon','user','prisoners'));        
     }
 }

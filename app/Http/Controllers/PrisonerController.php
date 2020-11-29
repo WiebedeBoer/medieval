@@ -20,9 +20,10 @@ class PrisonerController extends Controller
 	//main 
     public function index()
     {            	
-		$prisoners = Prisoner::with('dungeons','captives')->get();
+        $prisoners = Prisoner::with('dungeons','captives')->paginate(50);
+        $prisoner_count = Prisoner::count();
 		$user = auth()->user();
-		return view('brigades.index', compact('prisoners','user'));        
+		return view('prisoners.index', compact('prisoners','user','prisoner_count'));        
     }
 	
 	//show
@@ -30,6 +31,6 @@ class PrisonerController extends Controller
     {       
         $prisoner = Prisoner::with('dungeons','captives')->where('prisoner_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('brigades.show', compact('prisoner','user'));        
+		return view('prisoners.show', compact('prisoner','user'));        
     }
 }

@@ -107,8 +107,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-		
+        </nav>		
 		<!--game menu-->
 		<div class="game-menu">
 					<div class="links">
@@ -119,9 +118,7 @@
 						<a href="/chronicles">Chronicles</a>
 						<a href="/users/{{ Auth::user()->id }}">Account</a>
 					</div>			
-		</div>
-		
-		
+		</div>	
 		<!--content-->
 		<div class="vh-100">
 		@include('session')
