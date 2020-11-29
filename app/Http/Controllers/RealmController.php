@@ -25,7 +25,6 @@ class RealmController extends Controller
 	//main 
     public function index()
     {            	
-		//$realmdata = Realm::with('cultures','dynasties','capitals','citizens','guilds','places','rulers')->join('capitals', 'capitals.realm', '=', 'realms.realm_id')->select('capitals.*', 'realms.*')->orderBy('realm_name','ASC')->get();
 		$realmdata = Realm::with('cultures','dynasties','capitals','places','rulers')->where('realm_id', '>=', 2)->orderBy('realm_name','ASC')->get();	
 		foreach($realmdata as $realm){
 				if(is_null($realm->capitals)){
@@ -112,7 +111,7 @@ class RealmController extends Controller
         $realm = Realm::with('cultures','dynasties','capitals','citizens','guilds','places','rulers')->where('realm_id', $id)->firstOrFail();
 		$citizencount = $this->countCitizens($id);
 		if ($citizencount >=1){
-			$citizens = Citizen::with('citizens')->where('realm', $id)->get();
+			$citizens = Citizen::with('citizens')->join('people', 'people.person_id', '=', 'citizens.citizen')->where('realm', $id)->orderBy('people.dynasty', 'ASC')->orderBy('people.person_id', 'ASC')->get();
 		}
 		else {
 			$citizens =[];
@@ -125,6 +124,35 @@ class RealmController extends Controller
 			$guilds =[];
 		}
 		$user = auth()->user();
+		if(is_null($realm->capitals)){
+			$realm->existence =0;
+		}
+		else {
+			$realm->capital = $realm->capitals['capital'];
+			$placedata = Place::where('place_id',$realm->capital)->first();
+			$realm->place_name = $placedata->place_name;
+			$realm->existence = Place::where('realm',$realm->realm_id)->count();
+		}
+		if($realm->existence >=1){
+			$placedata = Place::with('regions')->where('realm',$realm->realm_id)->orderBy('place_name', 'asc')->get();
+		}
+		else {
+			$placedata =[];
+		}
+
+		if(is_null($realm->rulers)){
+
+		}
+		else {
+			$realm->cabinet = $realm->rulers['cabinet_id'];
+			$rulerdata = Ruler::with('rulers','chancellors','chamberlains','marshalls','admirals','stewards')->where('cabinet_id',$realm->cabinet)->first();
+			$realm->ruler_name = $rulerdata->rulers->person_name;
+			$realm->chancellor = $rulerdata->chancellors->person_name;
+			$realm->chamberlain = $rulerdata->chamberlains->person_name;
+			$realm->marshall = $rulerdata->marshalls->person_name;
+			$realm->admiral = $rulerdata->admirals->person_name;
+			$realm->steward = $rulerdata->stewards->person_name;
+		}
 		return view('realms.edit', compact('realm','citizencount','citizens','user','guildcount','guilds'));        
     }
 	
@@ -139,7 +167,7 @@ class RealmController extends Controller
 			'steward' => 'nullable'
         ]);
         Realm::where('realm_id', $id)->update($data);
-        return redirect('/realms/'.$id)->with('message', 'Updated');
+        return redirect('/realms/'.$id.'/edit')->with('message', 'Updated');
     }
 	
     //count citizens

@@ -37,7 +37,7 @@ Game
         @elseif($realm->realm_type =="dynastic_empire")
             <td class="pl">empire</td><td class="pl">agnatic primogeniture</td>
         @elseif($realm->realm_type =="elective_empire")
-            <td class="pl">empire</td><td class="pl">elective</td>
+            <td class="pl">empire</td><td class="pl">agnatic elective monarchy</td>
         @elseif($realm->realm_type =="tanistry_kingdom")
             <td class="pl">petty kingdom</td><td class="pl">tanistry</td>
         @elseif($realm->realm_type =="tanistry_high_kingdom")
@@ -51,13 +51,13 @@ Game
         @elseif($realm->realm_type =="agnatic_principality")
             <td class="pl">principality</td><td class="pl">agnatic seniority</td>
         @elseif($realm->realm_type =="merchant_republic")
-            <td class="pl">merchant republic</td><td class="pl">elective</td>
+            <td class="pl">merchant republic</td><td class="pl">agnatic elective</td>
         @elseif($realm->realm_type =="confederate_crusader")
-            <td class="pl">crusader order</td><td class="pl">elective</td>
+            <td class="pl">crusader order</td><td class="pl">agnatic elective</td>
         @elseif($realm->realm_type =="crusader")
-            <td class="pl">crusader order</td><td class="pl">elective</td>
+            <td class="pl">crusader order</td><td class="pl">agnatic elective</td>
         @elseif($realm->realm_type =="papacy")
-            <td class="pl">papacy</td><td class="pl">elective</td>
+            <td class="pl">papacy</td><td class="pl">agnatic elective monarchy</td>
         @elseif($realm->realm_type =="horde")
             <td class="pl">horde</td><td class="pl">agnatic primogeniture</td>
         @elseif($realm->realm_type =="steppe_kingdom")

@@ -44,11 +44,17 @@
     <script type="text/javascript" src="{{ asset ('building/generator_building.js') }}"></script>    
     <!--commerce buildings-->
 
+    <!--religious buildings-->
+    <script type="text/javascript" src="{{ asset ('building/cathedral.js') }}"></script>  
+    <script type="text/javascript" src="{{ asset ('building/chapel.js') }}"></script> 
     <!--monastic buildings-->
 
     <!--crusader buildings-->
 
     <!--feudal buildings-->
+
+    <!--entertainment buildings-->
+    <script type="text/javascript" src="{{ asset ('building/jousting.js') }}"></script>    
 
     <!--collision detection-->
     <script type="text/javascript" src="{{ asset ('collision/collision.js') }}"></script>

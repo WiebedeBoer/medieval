@@ -75,18 +75,6 @@ var quarters = [];
 	quarter.push(buildings);
 	quarters.push(quarter);
 @endforeach
-
-quarters.forEach(function(quarter) {
-	//console.log("quarter category:"+quarter[0]+ " , x coordinate:"+quarter[1]+" , y coordinate:"+quarter[2]);
-	QuarterGenerator(quarter[0],quarter[1],quarter[2]);
-	if(quarter[3]){
-		quarter[3].forEach(function(building) {
-			//console.log("quarter category:"+quarter[0]+ " , x coordinate:"+quarter[1]+" , y coordinate:"+quarter[2]+", building: "+building);
-			BuildingGenerator(quarter[0],quarter[1],quarter[2],building);	
-		});
-	}
-});
-
 //environment
 var environmentsize = 5100;
 //plane
@@ -145,8 +133,15 @@ if (citywall =="stone"){
 else if(citywall =="pallisade"){
 	pallisademaker();
 }
-//quarters
-
+//quarters and buildings generating
+quarters.forEach(function(quarter) {
+	QuarterGenerator(quarter[0],quarter[1],quarter[2]);
+	if(quarter[3]){
+		quarter[3].forEach(function(building) {
+			BuildingGenerator(quarter[0],quarter[1],quarter[2],building);	
+		});
+	}
+});
 //lighting 
 worldLighter();
 //moving cube
@@ -168,7 +163,6 @@ function lock(rawr) {
         document.getElementById("parent").requestPointerLock();
 } 
 */
-
 //hit registration collision
 function clearText()
 {   document.getElementById('message').innerHTML = '...';}
@@ -179,7 +173,6 @@ var collisionX;
 var collisionZ;	
 //onload loop
 function GameLoop(){
-
 //update function
 updateFcts.push(function(delta,now){
 		//controls update
@@ -192,7 +185,6 @@ updateFcts.push(function(delta,now){
 		MovingCube.position.z = camera.position.z;
 		MovingCube.rotation.y = camera.rotation.y;                             
 })
-
 //loop runner
 var lastTimeMsec= null
 requestAnimationFrame(function animate(nowMsec){
@@ -207,7 +199,5 @@ requestAnimationFrame(function animate(nowMsec){
 				updateFn(deltaMsec/1000, nowMsec/1000)
 		})
 })
-
 }
-
 </script>
