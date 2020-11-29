@@ -19,6 +19,11 @@ class Guild extends Model
     {
         return $this->belongsTo('App\Place','place');
     }
+
+    public function quarters()
+    {
+        return $this->belongsTo('App\Quarter','quarter');
+    }
 	
     public function masters()
     {

@@ -61,9 +61,9 @@ DB::table('buildings')->insert([
 'quarter' => '18486',
 'region' => '48'
 ]);
-//monastic foundation abbey, Clairvaux
+//monastic abbey, Clairvaux
 DB::table('buildings')->insert([
-'building_name' => 'Cistercian Order Foundation Abbey',
+'building_name' => 'Cistercian Order Abbey of Clairvaux',
 'building_type' => '107',
 'place' => '132',
 'quarter' => '16052',
@@ -294,8 +294,9 @@ DB::table('buildings')->insert([
         'quarter' => '16056',
         'region' => '44'
         ]);
+        //citeaux foundation
         DB::table('buildings')->insert([
-        'building_name' => 'Abbey of Citeaux',
+        'building_name' => 'Cistercian Order Foundation Abbey',
         'building_type' => '107',
         'place' => '184',
         'quarter' => '16057',
@@ -385,6 +386,7 @@ DB::table('buildings')->insert([
         'quarter' => '16069',
         'region' => '67'
         ]);
+        //not
         DB::table('buildings')->insert([
         'building_name' => 'Abbey of Georgenburg',
         'building_type' => '107',
@@ -539,6 +541,7 @@ DB::table('buildings')->insert([
         'quarter' => '16120',
         'region' => '84'
         ]);
+        //not
         DB::table('buildings')->insert([
         'building_name' => 'Abbey of Monserrat',
         'building_type' => '107',
@@ -682,6 +685,7 @@ DB::table('buildings')->insert([
             'quarter' => '16106',
             'region' => '193'
             ]);
+            //not
             DB::table('buildings')->insert([
             'building_name' => 'monastery of Sergiev',
             'building_type' => '115',

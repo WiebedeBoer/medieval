@@ -17,9 +17,11 @@ class CreateTitlesTable extends Migration
             $table->bigIncrements('title_id');
 			$table->string('title_name');
 			$table->unsignedBigInteger('owner')->nullable();
-			$table->unsignedBigInteger('holder')->nullable();
+            $table->unsignedBigInteger('holder')->nullable();
+            $table->unsignedBigInteger('heir')->default(1);
 			$table->unsignedBigInteger('region')->nullable();
-			$table->unsignedBigInteger('place')->nullable();
+            $table->unsignedBigInteger('place')->nullable();
+            $table->unsignedBigInteger('quarter')->nullable();
 			$table->unsignedBigInteger('religion')->default(9);
 			$table->integer('rank')->default(1);
 			$table->string('career')->default('gentry');

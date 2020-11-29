@@ -26,6 +26,15 @@
 		<a href="/quarters" class="wmlink">Quarters List</a>
 	</div>
 
+	<div class="wmli">
+		<img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button">
+		<a href="/realms" class="wmlink">Realms List</a>
+	</div>
+	<div class="wmli">
+		<img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button">
+		<a href="/guilds" class="wmlink">Guilds List</a>
+	</div>
+
 	<div class="wmli">		
 		<a href="/map/agriculture" class="wmlink">&fork; Worldmap (Agriculture View)</a>
 	</div>

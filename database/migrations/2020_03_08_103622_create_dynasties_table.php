@@ -29,7 +29,9 @@ class CreateDynastiesTable extends Migration
 			$table->integer('tutorial')->default(0);
 			//prestige
 			$table->integer('prestige')->default(0);
-			$table->integer('prosperity')->default(0);
+            $table->integer('prosperity')->default(0);
+            //money
+            $table->integer('money')->default(0);
 			//description
 			$table->text('dynasty_description')->nullable();
             $table->timestamps();

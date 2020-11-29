@@ -40,19 +40,6 @@ class DatabaseSeeder extends Seeder
 		$this->call('CapitalSeeder');	
 		//default rulers seeder
 		$this->call('RulerSeeder');
-		//default guilds seeder
-		$this->call('GuildSeeder');
-		//titles
-		$this->call('RealmTitlesSeeder');
-		$this->call('CourtTitlesSeeder');
-		$this->call('NobleTitlesSeeder');
-		$this->call('ClergyTitlesSeeder');
-		$this->call('CrusaderTitlesSeeder');
-		$this->call('MonasticTitlesSeeder');
-		$this->call('BurgherTitlesSeeder');
-		$this->call('InnTitlesSeeder');
-		$this->call('CommonTitlesSeeder');
-		$this->call('TitleSeeder');
 		//player character names
 		$this->call('NamesSeeder');
 		//equipment types
@@ -73,6 +60,19 @@ class DatabaseSeeder extends Seeder
 		$this->call('HuntQuarterSeeder');
 		$this->call('MonkQuarterSeeder'); 
 		$this->call('CastleQuarterSeeder'); 
+		//default guilds seeder
+		$this->call('GuildSeeder');
+		//titles
+		//$this->call('RealmTitlesSeeder'); //done
+		//$this->call('CourtTitlesSeeder'); //done
+		//$this->call('NobleTitlesSeeder');
+		//$this->call('ClergyTitlesSeeder');
+		//$this->call('CrusaderTitlesSeeder'); //done
+		//$this->call('MonasticTitlesSeeder'); //done
+		//$this->call('BurgherTitlesSeeder');
+		//$this->call('InnTitlesSeeder');
+		//$this->call('CommonTitlesSeeder');
+		//$this->call('TitleSeeder');
 		//building categories
 		$this->call('BuildingCategorySeeder');		
 		//default buildings
@@ -128,14 +128,12 @@ class fkeySeeder extends Seeder
             $table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('dynasty_owner')->references('id')->on('users');
 			$table->foreign('home')->references('place_id')->on('places');
-        }); 
-		
+        }); 		
 		//cultures
         Schema::table('cultures', function (Blueprint $table) {
             $table->foreign('stead_culture')->references('culture_id')->on('stead_cultures');
 			$table->foreign('manorial_culture')->references('religion_id')->on('religions');
         }); 
-
 		//realms
 		Schema::table('realms', function (Blueprint $table) {
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
@@ -145,6 +143,7 @@ class fkeySeeder extends Seeder
 		Schema::table('rulers', function (Blueprint $table) {
 			$table->foreign('realm')->references('realm_id')->on('realms');
 			$table->foreign('ruler')->references('person_id')->on('people');
+			$table->foreign('heir')->references('person_id')->on('people');
 			$table->foreign('chancellor')->references('person_id')->on('people');
 			$table->foreign('chamberlain')->references('person_id')->on('people');
 			$table->foreign('marshall')->references('person_id')->on('people');
@@ -160,35 +159,24 @@ class fkeySeeder extends Seeder
         Schema::table('guilds', function (Blueprint $table) {
             $table->foreign('realm')->references('realm_id')->on('realms');	
 			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('quarter')->references('quarter_id')->on('quarters');
 			$table->foreign('master')->references('person_id')->on('people');
         }); 
-
-		//titles
-		Schema::table('titles', function (Blueprint $table) {
-			$table->foreign('owner')->references('person_id')->on('people');
-			$table->foreign('holder')->references('person_id')->on('people');
-			$table->foreign('region')->references('region_id')->on('regions');
-			$table->foreign('place')->references('place_id')->on('places');
-        });
-
 		//citizens
         Schema::table('citizens', function (Blueprint $table) {
 			$table->foreign('citizen')->references('person_id')->on('people');
             $table->foreign('realm')->references('realm_id')->on('realms');			
-        }); 
-		
+        }); 		
 		//guild members
         Schema::table('guild_members', function (Blueprint $table) {
 			$table->foreign('member')->references('person_id')->on('people');
             $table->foreign('guild')->references('guild_id')->on('guilds');			
-        }); 
-		
+        }); 		
 		//spouses
         Schema::table('spouses', function (Blueprint $table) {
 			$table->foreign('husband')->references('person_id')->on('people');
             $table->foreign('wife')->references('person_id')->on('people');			
-        }); 
-		
+        }); 		
 		//parents
         Schema::table('parents', function (Blueprint $table) {
 			$table->foreign('father')->references('person_id')->on('people');
@@ -206,23 +194,26 @@ class fkeySeeder extends Seeder
 			$table->foreign('place')->references('place_id')->on('places');
 			$table->foreign('religion')->references('religion_id')->on('religions');
 			$table->foreign('married')->references('dynasty_id')->on('dynasties');	
-        }); 
-		
+        }); 		
 		//skills
 		Schema::table('skills', function (Blueprint $table) {
 			$table->foreign('person')->references('person_id')->on('people');
 			$table->foreign('skill')->references('skill_id')->on('skill_categories');
         }); 
-
 		//equipment
 		Schema::table('equipment', function (Blueprint $table) {
 			$table->foreign('owner')->references('person_id')->on('people');
 			$table->foreign('category')->references('equipment_id')->on('equipment_categories');
         }); 
-
 		//titles
         Schema::table('titles', function (Blueprint $table) {
-            $table->foreign('religion')->references('religion_id')->on('religions');	
+			$table->foreign('owner')->references('person_id')->on('people');
+			$table->foreign('holder')->references('person_id')->on('people');
+			$table->foreign('heir')->references('person_id')->on('people');
+			$table->foreign('region')->references('region_id')->on('regions');
+			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('quarter')->references('quarter_id')->on('quarters');	
+			$table->foreign('religion')->references('religion_id')->on('religions');				
         }); 		
 		
 		//forum
@@ -233,8 +224,7 @@ class fkeySeeder extends Seeder
 			$table->foreign('realm')->references('realm_id')->on('realms');
 			$table->foreign('belligerent')->references('realm_id')->on('realms');
 			$table->foreign('guild')->references('guild_id')->on('guilds');
-        }); 
-		
+        }); 		
 		//posts
 		Schema::table('posts', function (Blueprint $table) {
             $table->foreign('thread')->references('thread_id')->on('threads');
@@ -250,8 +240,7 @@ class fkeySeeder extends Seeder
 			$table->foreign('lieutenant')->references('person_id')->on('people');
 			$table->foreign('owner')->references('dynasty_id')->on('dynasties');
 			$table->foreign('location')->references('place_id')->on('places');
-        }); 
-		
+        }); 		
 		//brigades
 		Schema::table('brigades', function (Blueprint $table) {
 			$table->foreign('army')->references('army_id')->on('armies');
@@ -265,16 +254,14 @@ class fkeySeeder extends Seeder
 			$table->foreign('master')->references('person_id')->on('people');
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('place')->references('place_id')->on('places');
-        }); 
-		
+        }); 		
 		//fleets
 		Schema::table('fleets', function (Blueprint $table) {
 			$table->foreign('owner')->references('person_id')->on('people');
 			$table->foreign('master')->references('person_id')->on('people');
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('place')->references('place_id')->on('places');
-        }); 
-		
+        }); 		
 		//cargo
 		Schema::table('cargos', function (Blueprint $table) {
 			$table->foreign('owner')->references('person_id')->on('people');
@@ -283,33 +270,27 @@ class fkeySeeder extends Seeder
 			$table->foreign('caravan')->references('caravan_id')->on('caravans');		
 			$table->foreign('place')->references('place_id')->on('places');
 			$table->foreign('resource')->references('resource_id')->on('resource_types');
-        }); 
-		
+        }); 		
 		//produces
 		Schema::table('produces', function (Blueprint $table) {
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
-        }); 
-		
+        }); 		
 		//construction materials
 		Schema::table('construction_materials', function (Blueprint $table) {
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
-        }); 
-		
+        }); 		
 		//ores
 		Schema::table('ores', function (Blueprint $table) {
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
-        }); 
-		
+        }); 		
 		//products
 		Schema::table('products', function (Blueprint $table) {
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
-        }); 
-		
+        }); 		
 		//goods
 		Schema::table('goods', function (Blueprint $table) {
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
-        }); 
-		
+        }); 		
 		//shops
 		Schema::table('shops', function (Blueprint $table) {
 			$table->foreign('owner')->references('person_id')->on('people');
@@ -330,12 +311,10 @@ class fkeySeeder extends Seeder
 			$table->foreign('allodial_owner')->references('person_id')->on('people');
 			$table->foreign('tenure_owner')->references('person_id')->on('people');		
         }); 
-
 		//stead names
         Schema::table('stead_names', function (Blueprint $table) {
             $table->foreign('stead_culture')->references('culture_id')->on('stead_cultures');	
         });	
-
 		//estates
 		Schema::table('estates', function (Blueprint $table) {
 			$table->foreign('religion')->references('religion_id')->on('religions');
@@ -345,8 +324,7 @@ class fkeySeeder extends Seeder
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('place')->references('place_id')->on('places');
 			$table->foreign('region')->references('region_id')->on('regions');		
-        }); 		
-
+        }); 
 		//farmsteads
 		Schema::table('farmsteads', function (Blueprint $table) {
 			$table->foreign('farmstead_name')->references('stead_id')->on('stead_names');	
@@ -354,8 +332,7 @@ class fkeySeeder extends Seeder
 			$table->foreign('master')->references('person_id')->on('people');
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');
 			$table->foreign('region')->references('region_id')->on('regions');		
-        });	
-		
+        });			
 		//places
 		Schema::table('places', function (Blueprint $table) {
             $table->foreign('region')->references('region_id')->on('regions');
@@ -367,7 +344,6 @@ class fkeySeeder extends Seeder
 			$table->foreign('tenure_owner')->references('person_id')->on('people');	
 			$table->foreign('realm')->references('realm_id')->on('realms');		
         });
-
 		//quarters
 		Schema::table('quarters', function (Blueprint $table) {
 			$table->foreign('place')->references('place_id')->on('places');
@@ -378,12 +354,10 @@ class fkeySeeder extends Seeder
 			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');	
 			$table->foreign('quarter_category')->references('quarter_id')->on('quarter_categories');	
         }); 
-
 		//building categories
         Schema::table('building_categories', function (Blueprint $table) {
             $table->foreign('religion')->references('religion_id')->on('religions');	
-        }); 
-		
+        }); 		
 		//building
 		Schema::table('buildings', function (Blueprint $table) {
 			$table->foreign('building_type')->references('building_id')->on('building_categories');
@@ -393,12 +367,10 @@ class fkeySeeder extends Seeder
 			$table->foreign('region')->references('region_id')->on('regions');
 			$table->foreign('quarter')->references('quarter_id')->on('quarters');				
         });
-
 		//rooms
         Schema::table('rooms', function (Blueprint $table) {
             $table->foreign('building')->references('building_id')->on('buildings');	
         }); 
-
 		//furnishings
         Schema::table('furnishings', function (Blueprint $table) {
             $table->foreign('room')->references('room_id')->on('rooms');	
@@ -409,8 +381,7 @@ class fkeySeeder extends Seeder
 		Schema::table('dungeons', function (Blueprint $table) {
 			$table->foreign('place')->references('place_id')->on('places');
 			$table->foreign('dungeon_master')->references('person_id')->on('people');
-        }); 
-		
+        }); 		
 		//prisoners
 		Schema::table('prisoners', function (Blueprint $table) {
 			$table->foreign('dungeon')->references('dungeon_id')->on('dungeons');

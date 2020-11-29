@@ -3126,7 +3126,7 @@ DB::table('places')->insert([
 'education' => 'university',
 'def' => '300'
 ]);
-
+//178
 DB::table('places')->insert([
 'region' => '45',
 'realm' => '22',
@@ -3144,7 +3144,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//179
 DB::table('places')->insert([
 'region' => '45',
 'realm' => '22',
@@ -3162,7 +3162,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//180
 DB::table('places')->insert([
 'region' => '45',
 'realm' => '22',
@@ -3180,6 +3180,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
+//181
 DB::table('places')->insert([
 'region' => '46',
 'realm' => '9',
@@ -3197,7 +3198,7 @@ DB::table('places')->insert([
 'education' => 'university',
 'def' => '300'
 ]);
-
+//182
 DB::table('places')->insert([
 'region' => '46',
 'realm' => '9',
@@ -3215,7 +3216,7 @@ DB::table('places')->insert([
 'education' => 'university',
 'def' => '700'
 ]);
-
+//183
 DB::table('places')->insert([
 'region' => '46',
 'realm' => '9',
@@ -3233,7 +3234,7 @@ DB::table('places')->insert([
 'education' => 'hospice',
 'def' => '300'
 ]);
-
+//184
 DB::table('places')->insert([
 'region' => '46',
 'realm' => '9',
@@ -3250,6 +3251,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'library'
 ]);
+//185
 DB::table('places')->insert([
 'region' => '47',
 'realm' => '8',
@@ -3267,7 +3269,7 @@ DB::table('places')->insert([
 'education' => 'hospice',
 'def' => '700'
 ]);
-
+//186
 DB::table('places')->insert([
 'region' => '47',
 'realm' => '8',
@@ -3285,7 +3287,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//187
 DB::table('places')->insert([
 'region' => '47',
 'realm' => '8',
@@ -3303,7 +3305,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//188
 DB::table('places')->insert([
 'region' => '47',
 'realm' => '8',
@@ -3321,6 +3323,7 @@ DB::table('places')->insert([
 'education' => 'hospice',
 'def' => '300'
 ]);
+//189
 DB::table('places')->insert([
 'region' => '48',
 'realm' => '8',
@@ -3338,7 +3341,7 @@ DB::table('places')->insert([
 'education' => 'library',
 'def' => '700'
 ]);
-
+//190
 DB::table('places')->insert([
 'region' => '48',
 'realm' => '8',
@@ -3356,7 +3359,7 @@ DB::table('places')->insert([
 'education' => 'hospice',
 'def' => '300'
 ]);
-
+//191
 DB::table('places')->insert([
 'region' => '48',
 'realm' => '8',
@@ -3373,7 +3376,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
-
+//192
 DB::table('places')->insert([
 'region' => '48',
 'realm' => '8',
@@ -3390,6 +3393,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
+//193
 DB::table('places')->insert([
 'region' => '49',
 'realm' => '8',
@@ -8709,7 +8713,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//496
 DB::table('places')->insert([
 'region' => '124',
 'realm' => '2',
@@ -8727,6 +8731,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
+//497
 DB::table('places')->insert([
 'region' => '125',
 'realm' => '2',
@@ -8744,7 +8749,7 @@ DB::table('places')->insert([
 'education' => 'university',
 'def' => '700'
 ]);
-
+//498
 DB::table('places')->insert([
 'region' => '125',
 'realm' => '2',
@@ -8762,7 +8767,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//499
 DB::table('places')->insert([
 'region' => '125',
 'realm' => '2',
@@ -8780,7 +8785,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//500
 DB::table('places')->insert([
 'region' => '125',
 'realm' => '2',
@@ -8921,7 +8926,7 @@ DB::table('places')->insert([
 'education' => 'hospice',
 'def' => '700'
 ]);
-
+//508
 DB::table('places')->insert([
 'region' => '127',
 'realm' => '26',

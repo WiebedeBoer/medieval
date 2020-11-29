@@ -1283,6 +1283,7 @@ class RealmTitlesSeeder extends Seeder
 		*/
 
 		//monastic grandmasters
+		//rome
 		DB::table('titles')->insert([
 			'title_name' => 'Grand Master of the Augustinian Order',
 			'region' => '125',
@@ -1291,7 +1292,7 @@ class RealmTitlesSeeder extends Seeder
 			'rank' => '10',
 			'career' => 'monastic_grandmaster'
 		]);
-		
+		//Subiaco
 		DB::table('titles')->insert([
 			'title_name' => 'Grand Master of the Benedictine Order',
 			'region' => '125',
@@ -1300,7 +1301,7 @@ class RealmTitlesSeeder extends Seeder
 			'rank' => '10',
 			'career' => 'monastic_grandmaster'
 		]);
-		
+		//Maidstone
 		DB::table('titles')->insert([
 			'title_name' => 'Grand Master of the Carmelite Order',
 			'region' => '48',
@@ -1309,16 +1310,16 @@ class RealmTitlesSeeder extends Seeder
 			'rank' => '10',
 			'career' => 'monastic_grandmaster'
 		]);
-		
+		//Citeaux
 		DB::table('titles')->insert([
 			'title_name' => 'Grand Master of the Cistercian Order',
 			'region' => '33',
-			'place' => '132',
+			'place' => '184',
 			'religion' => '1',
 			'rank' => '10',
 			'career' => 'monastic_grandmaster'
 		]);
-		
+		//Assissi
 		DB::table('titles')->insert([
 			'title_name' => 'Grand Master of the Franciscan Order',
 			'region' => '124',

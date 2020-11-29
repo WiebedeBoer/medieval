@@ -25,14 +25,16 @@ class CreatePlacesTable extends Migration
 			$table->unsignedBigInteger('realm')->nullable();			
 			$table->string('place_name');
 			$table->string('place_type');
-			$table->integer('population')->default(0); //default = 0
-			//businesses
+			$table->integer('population')->default(1); //default = 1
+			//fortification and court
 			$table->string('fortification');
+			//titles
 			$table->string('commerce');
 			$table->string('feudal');
 			$table->string('church');
 			$table->string('civil');
 			$table->string('monastic');
+			//businesses
 			$table->string('factory');
 			$table->string('arms');
 			$table->string('education');
@@ -43,7 +45,7 @@ class CreatePlacesTable extends Migration
 			$table->integer('jus')->default(900);
 			$table->integer('mor')->default(99);
 			$table->integer('tra')->default(50);
-			$table->integer('sol')->default(1);
+			$table->integer('sol')->default(1); //default = 1
 			//description
 			$table->text('place_description')->nullable();
 			//timestamp

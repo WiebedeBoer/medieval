@@ -20,6 +20,11 @@ class Title extends Model
         return $this->belongsTo('App\Person','holder');
     } 
 
+    public function heirs()
+    {
+        return $this->belongsTo('App\Person','heir');
+    } 
+
     public function regions()
     {
         return $this->belongsTo('App\Region','region');
@@ -28,6 +33,11 @@ class Title extends Model
 	public function places()
     {
         return $this->belongsTo('App\Place','place');
+    } 
+
+	public function quarters()
+    {
+        return $this->belongsTo('App\Quarter','quarter');
     } 
 
     public function religions()

@@ -21,7 +21,7 @@ class GuildController extends Controller
 	//main 
     public function index()
     {            	
-		$guilddata = Guild::with('realms','places','masters')->orderBy('guild_name','ASC')->get();
+		$guilddata = Guild::with('realms','places','masters','quarters')->where('guild_id','>',1)->orderBy('guild_name','ASC')->paginate(50);
 		return view('guilds.index', compact('guilddata'));        
     }
 	

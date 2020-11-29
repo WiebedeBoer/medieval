@@ -62,19 +62,19 @@ Game
         @elseif($realm->realm_type =="agnatic_principality")
             <td class="pl">principality</td><td class="pl">agnatic seniority</td>
         @elseif($realm->realm_type =="merchant_republic")
-            <td class="pl">merchant republic</td><td class="pl">agnatic elective</td>
+            <td class="merchant">merchant republic</td><td class="pl">agnatic elective</td>
         @elseif($realm->realm_type =="confederate_crusader")
-            <td class="pl">crusader order</td><td class="pl">agnatic elective</td>
+            <td class="crusader">crusader order</td><td class="pl">agnatic elective</td>
         @elseif($realm->realm_type =="crusader")
-            <td class="pl">crusader order</td><td class="pl">agnatic elective</td>
+            <td class="crusader">crusader order</td><td class="pl">agnatic elective</td>
         @elseif($realm->realm_type =="papacy")
-            <td class="pl">papacy</td><td class="pl">agnatic elective monarchy</td>
+            <td class="pilgrim">papacy</td><td class="pl">agnatic elective monarchy</td>
         @elseif($realm->realm_type =="horde")
             <td class="pl">horde</td><td class="pl">agnatic primogeniture</td>
         @elseif($realm->realm_type =="steppe_kingdom")
             <td class="pl">steppe kingdom</td><td class="pl">agnatic primogeniture</td>
         @elseif($realm->realm_type =="judicature_kingdom")
-            <td class="pl">judgedom</td><td class="pl">agnatic primogeniture</td>
+            <td class="fair">judgedom</td><td class="pl">agnatic primogeniture</td>
         @else
             <td class="pl">{{ $realm->realm_type }}</td><td class="pl">&nbsp;</td> 
         @endif
@@ -90,7 +90,7 @@ Game
         @if(is_null($realm->capitals))
             <td class="pl">&nbsp;</td>   
         @else
-            <td class="pl"><a href="/places/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td>  
+            <td class="pl"><a href="/place/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td>  
         @endif  
         @if($realm->existence >=1)
             <td class="pl">{{ $realm->existence }}</td>  

@@ -145,7 +145,7 @@ class GuildBuildingSeeder extends Seeder
         'building_name' => 'Order of the Golden Fleece',
         'building_type' => '256',
         'place' => '97',
-        'quarter' => '16226',
+        'quarter' => '18585',
         'region' => '25'
     ]);
     //kontor guild hall
@@ -193,7 +193,7 @@ class GuildBuildingSeeder extends Seeder
         'building_name' => 'Order of the Star',
         'building_type' => '256',
         'place' => '113',
-        'quarter' => '16242',
+        'quarter' => '18601',
         'region' => '29'
     ]);
     //merchant guild hall paris
@@ -329,7 +329,7 @@ class GuildBuildingSeeder extends Seeder
         'building_name' => 'Order of the Garter',
         'building_type' => '256',
         'place' => '186',
-        'quarter' => '16315',
+        'quarter' => '18674',
         'region' => '47'
     ]);
     //merchant guild hall Norwich
@@ -737,7 +737,7 @@ class GuildBuildingSeeder extends Seeder
         'building_name' => 'Order Saint George',
         'building_type' => '256',
         'place' => '685',
-        'quarter' => '16814',
+        'quarter' => '19173',
         'region' => '172'
     ]);
     //city league Esztergom

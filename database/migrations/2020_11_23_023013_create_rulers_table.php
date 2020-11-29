@@ -18,6 +18,7 @@ class CreateRulersTable extends Migration
             //belonging
             $table->unsignedBigInteger('realm');
             $table->unsignedBigInteger('ruler');
+            $table->unsignedBigInteger('heir')->default(1);
             $table->unsignedBigInteger('chancellor')->default(1);
 			$table->unsignedBigInteger('chamberlain')->default(1);
 			$table->unsignedBigInteger('marshall')->default(1);

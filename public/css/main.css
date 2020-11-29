@@ -368,6 +368,43 @@ th.lg {
 	background-color:#a0a0a0;
 }
 
+/*guild category columns*/
+td.league {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(240,163,10);	
+}
+td.fair {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(255,255,136);	
+}
+td.merchant {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(255,242,204);	
+}
+td.monastic {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(218,232,252);	
+}
+td.pilgrim {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(225,213,231);	
+}
+td.chivalric {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(248,206,204);	
+}
+td.crusader {
+	text-align:left;
+	padding: 3px;
+	background-color:rgb(216,0,115);	
+}
+
 /*manual table*/
 td.u {
     padding: 3px;

@@ -257,6 +257,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Broda',
  'region' => '4',
  'place' => '16',
+ 'quarter' => '16044',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -284,6 +285,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Lindow',
  'region' => '5',
  'place' => '20',
+ 'quarter' => '16118',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -320,6 +322,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Paderborn',
  'region' => '7',
  'place' => '28',
+ 'quarter' => '16045',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -392,6 +395,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Seckau',
  'region' => '11',
  'place' => '44',
+ 'quarter' => '16046',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -482,6 +486,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Plass',
  'region' => '16',
  'place' => '64',
+ 'quarter' => '16047',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -500,6 +505,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Trebitz',
  'region' => '17',
  'place' => '68',
+ 'quarter' => '16048',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -698,6 +704,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Moosburg',
  'region' => '26',
  'place' => '104',
+ 'quarter' => '16049',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -716,6 +723,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Sittich',
  'region' => '27',
  'place' => '108',
+ 'quarter' => '16050',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -743,6 +751,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Redon',
  'region' => '28',
  'place' => '112',
+ 'quarter' => '16051',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -878,6 +887,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Clairvaux',
  'region' => '33',
  'place' => '132',
+ 'quarter' => '16052',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1004,6 +1014,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Issoire',
  'region' => '40',
  'place' => '160',
+ 'quarter' => '16053',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1049,6 +1060,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Saint Benoit',
  'region' => '42',
  'place' => '168',
+ 'quarter' => '16054',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1085,6 +1097,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Montauban',
  'region' => '43',
  'place' => '172',
+ 'quarter' => '16055',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1121,6 +1134,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Tulle',
  'region' => '44',
  'place' => '176',
+ 'quarter' => '16056',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1193,6 +1207,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Citeaux',
  'region' => '46',
  'place' => '184',
+ 'quarter' => '16057',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1238,6 +1253,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Maidstone',
  'region' => '48',
  'place' => '192',
+ 'quarter' => '18486',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1274,6 +1290,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Wimborne',
  'region' => '49',
  'place' => '196',
+ 'quarter' => '16058',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1301,6 +1318,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Madron',
  'region' => '50',
  'place' => '200',
+ 'quarter' => '16059',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1337,6 +1355,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Croxton',
  'region' => '51',
  'place' => '204',
+ 'quarter' => '16060',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1427,6 +1446,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Saint Albans',
  'region' => '54',
  'place' => '216',
+ 'quarter' => '16119',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1526,6 +1546,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Llanllugan',
  'region' => '58',
  'place' => '232',
+ 'quarter' => '16061',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1580,6 +1601,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Gimsoy',
  'region' => '60',
  'place' => '240',
+ 'quarter' => '16062',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1607,6 +1629,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Halsnoy',
  'region' => '61',
  'place' => '244',
+ 'quarter' => '16063',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1643,6 +1666,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Esrum',
  'region' => '62',
  'place' => '248',
+ 'quarter' => '16064',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1679,6 +1703,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Herrevad',
  'region' => '63',
  'place' => '252',
+ 'quarter' => '16065',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1715,6 +1740,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Essenbaek',
  'region' => '64',
  'place' => '256',
+ 'quarter' => '16066',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1751,6 +1777,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Eskilstuna',
  'region' => '65',
  'place' => '260',
+ 'quarter' => '16067',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1787,6 +1814,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Nydala',
  'region' => '66',
  'place' => '264',
+ 'quarter' => '16068',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1814,6 +1842,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Vadstena',
  'region' => '67',
  'place' => '268',
+ 'quarter' => '16069',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -1967,6 +1996,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Kirkcudbright',
  'region' => '76',
  'place' => '304',
+ 'quarter' => '16070',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2057,6 +2087,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Arbroath',
  'region' => '80',
  'place' => '320',
+ 'quarter' => '16072',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2138,6 +2169,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Kells',
  'region' => '84',
  'place' => '334',
+ 'quarter' => '16120',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2156,6 +2188,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Durrow',
  'region' => '84',
  'place' => '336',
+ 'quarter' => '16073',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2255,6 +2288,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Leyre',
  'region' => '87',
  'place' => '348',
+ 'quarter' => '16074',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2264,6 +2298,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of San Sebastian',
  'region' => '88',
  'place' => '349',
+ 'quarter' => '16075',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2309,6 +2344,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Sobrarbe',
  'region' => '89',
  'place' => '356',
+ 'quarter' => '16076',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2336,6 +2372,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Rueda',
  'region' => '90',
  'place' => '360',
+ 'quarter' => '16077',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2363,6 +2400,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Sant Feliu de Guixols',
  'region' => '91',
  'place' => '364',
+ 'quarter' => '16078',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2408,6 +2446,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Serra',
  'region' => '93',
  'place' => '372',
+ 'quarter' => '16079',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2417,6 +2456,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Gandia',
  'region' => '94',
  'place' => '376',
+ 'quarter' => '16080',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2471,6 +2511,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Sahagun',
  'region' => '96',
  'place' => '384',
+ 'quarter' => '16122',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2489,6 +2530,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Santo Toribio',
  'region' => '97',
  'place' => '388',
+ 'quarter' => '16081',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2516,6 +2558,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Salamanca',
  'region' => '98',
  'place' => '392',
+ 'quarter' => '16082',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2552,6 +2595,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of San Millan',
  'region' => '99',
  'place' => '396',
+ 'quarter' => '16083',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2606,6 +2650,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Alcobaca',
  'region' => '101',
  'place' => '404',
+ 'quarter' => '16084',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -2867,6 +2912,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Bobbio',
  'region' => '117',
  'place' => '468',
+ 'quarter' => '16123',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3092,6 +3138,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Assissi',
  'region' => '124',
  'place' => '496',
+ 'quarter' => '16043',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3101,6 +3148,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Rome',
  'region' => '125',
  'place' => '497',
+ 'quarter' => '18485',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3128,6 +3176,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Subiaco',
  'region' => '125',
  'place' => '500',
+ 'quarter' => '16089',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3191,6 +3240,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Cassino',
  'region' => '127',
  'place' => '508',
+ 'quarter' => '16124',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3254,6 +3304,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Vivarium',
  'region' => '129',
  'place' => '516',
+ 'quarter' => '16090',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3281,6 +3332,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Viggiano',
  'region' => '130',
  'place' => '520',
+ 'quarter' => '16091',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3605,6 +3657,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Salzberg',
  'region' => '162',
  'place' => '648',
+ 'quarter' => '16096',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3866,6 +3919,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Carta',
  'region' => '176',
  'place' => '704',
+ 'quarter' => '16126',
  'religion' => '1',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3875,6 +3929,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Tismana',
  'region' => '177',
  'place' => '708',
+ 'quarter' => '16097',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3920,6 +3975,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Rila',
  'region' => '181',
  'place' => '724',
+ 'quarter' => '16098',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3983,6 +4039,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Rasa',
  'region' => '184',
  'place' => '734',
+ 'quarter' => '16127',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -3992,6 +4049,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Bukovo',
  'region' => '184',
  'place' => '736',
+ 'quarter' => '16099',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4001,6 +4059,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Bukovo',
  'region' => '185',
  'place' => '738',
+ 'quarter' => '16100',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4010,6 +4069,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Zica',
  'region' => '185',
  'place' => '740',
+ 'quarter' => '16101',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4028,6 +4088,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Vitina',
  'region' => '186',
  'place' => '744',
+ 'quarter' => '16102',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4046,6 +4107,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Berane',
  'region' => '187',
  'place' => '748',
+ 'quarter' => '16103',
  'religion' => '2',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4055,6 +4117,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Monastyrski',
  'region' => '188',
  'place' => '749',
+ 'quarter' => '16104',
  'religion' => '3',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4073,6 +4136,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Pechersk',
  'region' => '190',
  'place' => '760',
+ 'quarter' => '16105',
  'religion' => '3',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4100,6 +4164,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Mazyr',
  'region' => '193',
  'place' => '772',
+ 'quarter' => '16106',
  'religion' => '3',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4127,6 +4192,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Simonov',
  'region' => '197',
  'place' => '788',
+ 'quarter' => '16108',
  'religion' => '3',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4199,6 +4265,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Cherepovets',
  'region' => '202',
  'place' => '807',
+ 'quarter' => '16109',
  'religion' => '3',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4208,6 +4275,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Kirillov',
  'region' => '202',
  'place' => '808',
+ 'quarter' => '16110',
  'religion' => '3',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4226,6 +4294,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Constantinople',
  'region' => '207',
  'place' => '825',
+ 'quarter' => '18487',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4253,6 +4322,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Hilandar',
  'region' => '208',
  'place' => '832',
+ 'quarter' => '16128',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4280,6 +4350,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Saint Jovan',
  'region' => '212',
  'place' => '848',
+ 'quarter' => '16111',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4316,6 +4387,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Patmos',
  'region' => '215',
  'place' => '860',
+ 'quarter' => '16129',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4487,6 +4559,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Kirants',
  'region' => '232',
  'place' => '928',
+ 'quarter' => '16112',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4505,6 +4578,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Arakelots',
  'region' => '234',
  'place' => '936',
+ 'quarter' => '16113',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4532,6 +4606,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Nisibis',
  'region' => '235',
  'place' => '940',
+ 'quarter' => '16114',
  'religion' => '4',
  'rank' => '4',
  'career' => 'fixed_monastic'
@@ -4676,6 +4751,7 @@ DB::table('titles')->insert([
  'title_name' => '[abbot] of Medina',
  'region' => '247',
  'place' => '988',
+ 'quarter' => '18488',
  'religion' => '5',
  'rank' => '4',
  'career' => 'fixed_monastic'

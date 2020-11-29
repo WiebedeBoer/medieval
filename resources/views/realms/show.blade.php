@@ -76,7 +76,7 @@ Game
         @if(is_null($realm->capitals))
             <td class="pl">&nbsp;</td>
         @else
-            <td class="pl"><a href="/places/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td>   
+            <td class="pl"><a href="/place/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td>   
         @endif  
         @if($realm->existence >=1)
             <td class="pl">{{ $realm->existence }}</td>   

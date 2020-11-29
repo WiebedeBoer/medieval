@@ -60164,6 +60164,7 @@ DB::table('quarters')->insert([
     'place' => '488',
     'region' => '122'
     ]);
+    //assissi
     DB::table('quarters')->insert([
     'quarter_rank' => 'fortified abbey',
     'x' => '4',
@@ -60246,15 +60247,16 @@ DB::table('quarters')->insert([
     'place' => '112',
     'region' => '28'
     ]);
+    //clairvaux
     DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'Cistercian Order Foundation Abbey',
+    'quarter_name' => 'Cistercian Order Abbey',
     'quarter_category' => '15',
     'place' => '132',
     'region' => '33'
-    ]);
+    ]); 
     DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
@@ -60291,11 +60293,12 @@ DB::table('quarters')->insert([
     'place' => '176',
     'region' => '44'
     ]);
+    //citeaux
     DB::table('quarters')->insert([
     'quarter_rank' => 'abbey grange',
     'x' => '4',
     'y' => '2',
-    'quarter_name' => 'abbey of Citeaux',
+    'quarter_name' => 'Cistercian Order Foundation Abbey',
     'quarter_category' => '15',
     'place' => '184',
     'region' => '46'
