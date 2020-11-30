@@ -20,7 +20,7 @@ class MemberController extends Controller
 	//main 
     public function index()
     {            	
-		$members = GuildMember::with('members','guilds')->get();
+		$members = GuildMember::with('members','guilds')->paginate(50);
 		$user = auth()->user();
 		return view('citizens.index', compact('members','user'));        
     }

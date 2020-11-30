@@ -67,4 +67,89 @@ Game
 <div class="vassals">
 </div>
 
+<!--statistics-->
+<div class="container-fluid justify-content-center">
+	<div class="py-5">
+    <h2>Statistics</h2>
+
+    <table class="table-striped tablesorter table">
+	<thead>
+	<tr>
+        <th class="lg" colspan="2">Statistic</th>
+	</tr>
+	</thead>
+	<tbody>	
+    <tr> 
+        <td class="pl">Judgement</td>      
+        <td class="pl">{{ $persondata->jud }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Engineer</td>      
+        <td class="pl">{{ $persondata->eng }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Commerce</td>      
+        <td class="pl">{{ $persondata->com }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Agriculture</td>      
+        <td class="pl">{{ $persondata->agr }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Tactics</td>      
+        <td class="pl">{{ $persondata->tac }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Leadership</td>      
+        <td class="pl">{{ $persondata->lea }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Charisma</td>      
+        <td class="pl">{{ $persondata->cha }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Brawn</td>      
+        <td class="pl">{{ $persondata->bra }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Strength</td>      
+        <td class="pl">{{ $persondata->str }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Agility</td>      
+        <td class="pl">{{ $persondata->agi }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Polearms</td>      
+        <td class="pl">{{ $persondata->pol }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Swordsmanship</td>      
+        <td class="pl">{{ $persondata->swo }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Archery</td>      
+        <td class="pl">{{ $persondata->arc }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Riding</td>      
+        <td class="pl">{{ $persondata->rid }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Sailing</td>      
+        <td class="pl">{{ $persondata->sai }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Raiding</td>      
+        <td class="pl">{{ $persondata->rai }}</td>	      
+	</tr>
+    <tr> 
+        <td class="pl">Tracking</td>      
+        <td class="pl">{{ $persondata->tra }}</td>	      
+	</tr>
+</tbody>
+</table>
+    </div>
+<div>
+
 @endsection
