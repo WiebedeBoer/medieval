@@ -192,6 +192,7 @@ class fkeySeeder extends Seeder
             $table->foreign('dynasty')->references('dynasty_id')->on('dynasties');		
 			$table->foreign('culture')->references('culture_id')->on('cultures');
 			$table->foreign('place')->references('place_id')->on('places');
+			$table->foreign('home')->references('place_id')->on('places');
 			$table->foreign('religion')->references('religion_id')->on('religions');
 			$table->foreign('married')->references('dynasty_id')->on('dynasties');	
         }); 		
@@ -386,8 +387,16 @@ class fkeySeeder extends Seeder
 		Schema::table('prisoners', function (Blueprint $table) {
 			$table->foreign('dungeon')->references('dungeon_id')->on('dungeons');
 			$table->foreign('prisoner')->references('person_id')->on('people');
-        }); 		
+		}); 
 		
+		//succession and election
+		//votes
+		Schema::table('votes', function (Blueprint $table) {
+			$table->foreign('title')->references('title_id')->on('titles');
+			$table->foreign('dynasty')->references('dynasty_id')->on('dynasties');
+			$table->foreign('voter')->references('person_id')->on('people');
+			$table->foreign('candidate')->references('person_id')->on('people');				
+        });	
 		
     }
 }

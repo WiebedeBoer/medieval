@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Title extends Model
 {
-    //skills tabel
+    //titles tabel
     protected $table = 'titles';
     protected $primaryKey = 'title_id';
 	
@@ -44,5 +44,11 @@ class Title extends Model
     {
         return $this->belongsTo('App\Religion','religion');
     } 
+
+	//votes
+	public function votes()
+    {
+        return $this->hasMany('App\Vote','title');
+    }
 	
 }

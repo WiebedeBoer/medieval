@@ -39,6 +39,11 @@ class Person extends Model
     {
         return $this->belongsTo('App\Place','place');
     } 
+
+    public function homes()
+    {
+        return $this->belongsTo('App\Place','home');
+    } 
 	
     public function religions()
     {

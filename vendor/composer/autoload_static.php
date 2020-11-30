@@ -569,6 +569,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'App\\Thread' => __DIR__ . '/../..' . '/app/Thread.php',
         'App\\Title' => __DIR__ . '/../..' . '/app/Title.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\Vote' => __DIR__ . '/../..' . '/app/Vote.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
         'BuildingCategorySeeder' => __DIR__ . '/../..' . '/database/seeds/BuildingCategorySeeder.php',

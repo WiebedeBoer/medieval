@@ -31,7 +31,7 @@ class DynastyController extends Controller
     {            
 		$dynastydata = Dynasty::with('cultures')->orderBy('dynasty_name', 'ASC')->paginate(50);
 		$user = auth()->user();
-		$dynastycount = Dynasty::with('cultures')->count();
+		$dynastycount = Dynasty::count();
 		$ownercount = $this->ownercount();
 		return view('dynasty.index', compact('dynastydata','user','ownercount','dynastycount'));        
     }

@@ -110,6 +110,7 @@ return array(
     'App\\Thread' => $baseDir . '/app/Thread.php',
     'App\\Title' => $baseDir . '/app/Title.php',
     'App\\User' => $baseDir . '/app/User.php',
+    'App\\Vote' => $baseDir . '/app/Vote.php',
     'Asm89\\Stack\\Cors' => $vendorDir . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
     'Asm89\\Stack\\CorsService' => $vendorDir . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
     'BuildingCategorySeeder' => $baseDir . '/database/seeds/BuildingCategorySeeder.php',

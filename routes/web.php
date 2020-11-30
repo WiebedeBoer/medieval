@@ -84,8 +84,14 @@ Route::get('guilds/{guilds}/edit', 'GuildController@edit');
 Route::patch('guilds/{guilds}', 'GuildController@update');
 Route::post('guilds/create','GuildController@create');
 Route::post('guilds','GuildController@store');
-//titles
-
+//titles and succession
+Route::get('succession', 'SuccessionController@index');
+Route::get('succession/create','SuccessionController@create');
+Route::post('succession','SuccessionController@store');
+Route::get('succession/{succession}', 'SuccessionController@show');
+Route::get('succession/{succession}/edit', 'SuccessionController@edit');
+Route::delete('succession/{succession}', 'SuccessionController@destroy');
+Route::patch('succession/{succession}', 'SuccessionController@update');
 //citizens
 Route::get('citizens', 'CitizenController@index');
 Route::get('citizens/create','CitizenController@create');
