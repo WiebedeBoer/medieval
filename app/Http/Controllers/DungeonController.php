@@ -29,8 +29,14 @@ class DungeonController extends Controller
     public function show($id)
     {       
         $dungeon = Dungeon::with('places','masters')->where('dungeon_id', $id)->firstOrFail();
-        $prisoners = Prisoner::with('dungeons','captives')->where('dungeon', $id)->get();
+        $prisoner_count = Prisoner::where('dungeon', $id)->count();
+        if($prisoner_count >=1){
+            $prisoners = Prisoner::with('dungeons','captives')->where('dungeon', $id)->get();
+        }
+        else {
+            $prisoners =[];
+        }
 		$user = auth()->user();
-		return view('dungeons.show', compact('dungeon','user','prisoners'));        
+		return view('dungeons.show', compact('dungeon','user','prisoners','prisoner_count'));        
     }
 }

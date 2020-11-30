@@ -34,6 +34,12 @@ class Army extends Model
     {
         return $this->belongsTo('App\Place','location');
     } 
+
+    //brigades
+    public function brigades()
+    {
+        return $this->hasMany('App\Brigade','army');
+    } 
 	
 	
 }

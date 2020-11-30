@@ -22,17 +22,40 @@ class ArmyController extends Controller
 	//main 
     public function index()
     {            	
-		$armies = Army::with('marshalls','generals','lieutenants','owners','locations')->get();
+        $armies = Army::with('marshalls','generals','lieutenants','owners','locations')->paginate(50);
+        $army_count = Army::count();
 		$user = auth()->user();
-		return view('armies.index', compact('armies','user'));        
+		return view('armies.index', compact('armies','user','army_count'));        
     }
 	
 	//show
     public function show($id)
     {       
         $army = Army::with('marshalls','generals','lieutenants','owners','locations')->where('army_id', $id)->firstOrFail();
+        $brigade_count = Brigade::where('army', $id)->count();
+        if($brigade_count >=1){
+            $brigades = Brigade::with('captains')->where('army', $id)->get();
+        }
+        else {
+            $brigades =[];
+        }        
 		$user = auth()->user();
-		return view('armies.show', compact('army','user'));        
+		return view('armies.show', compact('army','user','brigades','brigade_count'));        
+    }	
+
+	//edit
+    public function edit($id)
+    {       
+        $army = Army::with('marshalls','generals','lieutenants','owners','locations')->where('army_id', $id)->firstOrFail();
+        $brigade_count = Brigade::where('army', $id)->count();
+        if($brigade_count >=1){
+            $brigades = Brigade::with('captains')->where('army', $id)->get();
+        }
+        else {
+            $brigades =[];
+        }        
+		$user = auth()->user();
+		return view('armies.edit', compact('army','user','brigades','brigade_count'));        
     }	
 	
 }

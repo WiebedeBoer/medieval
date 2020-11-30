@@ -20,9 +20,10 @@ class BrigadeController extends Controller
 	//main 
     public function index()
     {            	
-		$brigades = Brigade::with('armies','captains')->get();
+        $brigades = Brigade::with('armies','captains')->paginate(50);
+        $brigade_count = Brigade::count();
 		$user = auth()->user();
-		return view('brigades.index', compact('brigades','user'));        
+		return view('brigades.index', compact('brigades','user','brigade_count'));        
     }
 	
 	//show
@@ -31,5 +32,13 @@ class BrigadeController extends Controller
         $brigade = Brigade::with('armies','captains')->where('brigade_id', $id)->firstOrFail();
 		$user = auth()->user();
 		return view('brigades.show', compact('brigade','user'));        
+    }
+
+	//edit
+    public function edit($id)
+    {       
+        $brigade = Brigade::with('armies','captains')->where('brigade_id', $id)->firstOrFail();
+		$user = auth()->user();
+		return view('brigades.edit', compact('brigade','user'));        
     }
 }

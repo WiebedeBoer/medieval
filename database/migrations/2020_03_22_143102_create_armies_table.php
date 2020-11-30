@@ -15,9 +15,9 @@ class CreateArmiesTable extends Migration
     {
         Schema::create('armies', function (Blueprint $table) {
             $table->bigIncrements('army_id');
-			$table->unsignedBigInteger('marshall');
-			$table->unsignedBigInteger('general');
-			$table->unsignedBigInteger('lieutenant');
+			$table->unsignedBigInteger('marshall')->nullable();
+			$table->unsignedBigInteger('general')->nullable();
+			$table->unsignedBigInteger('lieutenant')->nullable();
 			$table->unsignedBigInteger('owner');
 			$table->unsignedBigInteger('location');
 			$table->string('army_name');

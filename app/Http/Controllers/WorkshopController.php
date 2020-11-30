@@ -21,4 +21,30 @@ class WorkshopController extends Controller
     {
         $this->middleware('auth');
     }
+
+	//main 
+    public function index()
+    {            	
+        $shops = Shop::with('dynasties','places','owners','masters','resources')->orderBy('place','ASC')->paginate(50);
+        $shop_count = Shop::count();
+		$user = auth()->user();
+		return view('shops.index', compact('shops','user','shop_count'));        
+    }
+	
+	//show
+    public function show($id)
+    {       
+        $shop = Shop::with('dynasties','places','owners','masters','resources')->where('shop_id', $id)->firstOrFail();
+		$user = auth()->user();
+		return view('shops.show', compact('shop','user'));        
+    }
+    
+	//edit
+    public function edit($id)
+    {       
+        $shop = Shop::with('dynasties','places','owners','masters','resources')->where('shop_id', $id)->firstOrFail();
+		$user = auth()->user();
+		return view('shops.edit', compact('shop','user'));        
+    }
+
 }

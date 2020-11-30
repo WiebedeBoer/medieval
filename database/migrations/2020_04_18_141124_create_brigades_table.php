@@ -16,7 +16,7 @@ class CreateBrigadesTable extends Migration
         Schema::create('brigades', function (Blueprint $table) {
             $table->bigIncrements('brigade_id');
 			$table->unsignedBigInteger('army');
-			$table->unsignedBigInteger('captain');
+			$table->unsignedBigInteger('captain')->nullable();
 			$table->string('brigade')->default('recruits');
 			$table->integer('soldiers')->default(1);
 			$table->integer('training')->default(1);

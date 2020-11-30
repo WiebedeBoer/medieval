@@ -12,7 +12,7 @@ Game
 <p><a href="/persons/{{$dungeon->dungeon_master}}">{{ $dungeon->masters->person_name }}</a></p>
 @endif
 </div> 
-
+@if(@prisoner_count >=1)
 <div class="container-fluid justify-content-center">
 	<div class="py-5">
     <h2>Prisoners</h2>	
@@ -40,5 +40,5 @@ Game
     </table>
     </div>
 </div>
-
+@endif
 @endsection

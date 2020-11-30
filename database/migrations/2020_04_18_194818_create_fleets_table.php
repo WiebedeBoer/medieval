@@ -22,7 +22,7 @@ class CreateFleetsTable extends Migration
 			$table->unsignedBigInteger('master')->default(1);
 			$table->unsignedBigInteger('dynasty');
 			$table->unsignedBigInteger('place');
-			//pack animals
+			//ships
 			$table->integer('karve')->default(0);
 			$table->integer('knarr')->default(0);
 			$table->integer('dhow')->default(0);
