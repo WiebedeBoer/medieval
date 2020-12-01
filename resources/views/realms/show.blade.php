@@ -143,7 +143,21 @@ Game
 </div>
 
 @if($realm->existence >=1)
+<div class="row">
+<div class="col-12 d-flex justify-content-center pt-5">
+	<div class="plw">
+    {{ $placedata->links() }}
+	</div>
+</div>
+</div>
     @include('place.placetable')
+    <div class="row">
+<div class="col-12 d-flex justify-content-center pt-5">
+	<div class="plw">
+    {{ $placedata->links() }}
+	</div>
+</div>
+</div>
 @endif 
 
 @endsection

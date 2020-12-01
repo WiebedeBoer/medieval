@@ -224,6 +224,8 @@ Route::get('map/lead','MapController@lead');
 Route::get('map/gold','MapController@gold');
 Route::get('map/gems','MapController@gems');
 Route::get('map/salt','MapController@salt');
+Route::get('map/population','MapController@population');
+Route::get('map/realm','MapController@realm');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');

@@ -66,15 +66,29 @@ class MapController extends Controller
 
 	  public function defenses()
     {            
-    $regiondata = Region::all();
-    foreach($regiondata as $region) 
-    {              
-        $region_id = $region->region_id;
-        $stat_count = Place::where('region', $region_id)->count();	
-        $stat_sum = Place::where('region', $region_id)->sum('def');				
-        $region->stat_avg = round($stat_sum / $stat_count);					
+    $placedata = Place::all();
+    foreach($placedata as $place) 
+    {              			
+        $place_offset = $place->place_id % 4;
+
+        if($place_offset ==1){
+          $place->offset_x_coord = $place->regions->region_x + 8;
+          $place->offset_y_coord = $place->regions->region_y + 8;
+        }
+        elseif($place_offset ==2){
+          $place->offset_x_coord = $place->regions->region_x + 8;
+          $place->offset_y_coord = $place->regions->region_y - 8;
+        }
+        elseif($place_offset ==3){
+          $place->offset_x_coord = $place->regions->region_x - 8;
+          $place->offset_y_coord = $place->regions->region_y + 8;
+        }
+        else {
+          $place->offset_x_coord = $place->regions->region_x - 8;
+          $place->offset_y_coord = $place->regions->region_y - 8; 
+        }				
     }	
-		return view('map.defenses', compact('regiondata'));        
+		return view('map.defenses', compact('placedata'));        
     }
 
 	  public function commerce()
@@ -217,6 +231,73 @@ class MapController extends Controller
 			      $region->metal_count = $metal_count;						
         }				
 		  return view('map.salt', compact('regiondata'));     
+    }
+
+	  public function population()
+    {            
+    
+      $place_count = Place::count();
+      $quartile = round($place_count / 4);
+      $intermedian = round($place_count / 2);
+      $upperquartile = $quartile + $intermedian;
+
+      $first_quartile = Place::orderBy('population', 'desc')->skip($quartile)->take(1)->get();
+      $second_quartile = Place::orderBy('population','asc')->skip($intermedian)->take(1)->get();
+      $third_quartile = Place::orderBy('population','asc')->skip($upperquartile)->take(1)->get();
+    
+      $regiondata = Region::all();
+      foreach($regiondata as $region) 
+      {              
+        $region_id = $region->region_id;
+        $stat_count = Place::where('region', $region_id)->count();	
+        $stat_sum = Place::where('region', $region_id)->sum('population');				
+        $region->stat_avg = round($stat_sum / $stat_count);	
+        
+        if($region->stat_avg >=$first_quartile[0]->population  && $region->stat_avg <=$second_quartile[0]->population ){
+          $region->quartile =2;
+        }
+        elseif($region->stat_avg >$second_quartile[0]->population && $region->stat_avg <=$third_quartile[0]->population ){
+          $region->quartile =3;
+        }
+        elseif($region->stat_avg >$third_quartile[0]->population ){
+          $region->quartile =4;
+        }
+        else {
+          $region->quartile =1;
+        }
+        
+        
+        //$region->quartile =1;
+      }	
+		  return view('map.population', compact('regiondata','first_quartile'));        
+    }
+
+	  public function realm()
+    {            
+		  $placedata = Place::with('regions','realms')->get();	
+      foreach($placedata as $place) 
+      {              
+          $place_offset = $place->place_id % 4;
+          $place->realm_offset = $place->realms->realm_id % 16;
+          if($place_offset ==1){
+            $place->offset_x_coord = $place->regions->region_x + 5;
+            $place->offset_y_coord = $place->regions->region_y + 5;
+          }
+          elseif($place_offset ==2){
+            $place->offset_x_coord = $place->regions->region_x + 5;
+            $place->offset_y_coord = $place->regions->region_y - 5;
+          }
+          elseif($place_offset ==3){
+            $place->offset_x_coord = $place->regions->region_x - 5;
+            $place->offset_y_coord = $place->regions->region_y + 5;
+          }
+          else {
+            $place->offset_x_coord = $place->regions->region_x - 5;
+            $place->offset_y_coord = $place->regions->region_y - 5; 
+          }
+
+      }				
+		  return view('map.realm', compact('placedata'));     
     }
 	
 }

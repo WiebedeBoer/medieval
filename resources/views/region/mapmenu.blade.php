@@ -35,6 +35,14 @@
 		<a href="/guilds" class="wmlink">Guilds List</a>
 	</div>
 
+
+	<div class="wmli">		
+		<a href="/map/realm" class="wmlink">Worldmap (Realm View)</a>
+	</div>
+	<div class="wmli">		
+		<a href="/map/population" class="wmlink">Worldmap (Population View)</a>
+	</div>
+
 	<div class="wmli">		
 		<a href="/map/agriculture" class="wmlink">&fork; Worldmap (Agriculture View)</a>
 	</div>

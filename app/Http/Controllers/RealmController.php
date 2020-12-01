@@ -83,7 +83,7 @@ class RealmController extends Controller
 			$realm->existence = Place::where('realm',$realm->realm_id)->count();
 		}
 		if($realm->existence >=1){
-			$placedata = Place::with('regions')->where('realm',$realm->realm_id)->orderBy('place_name', 'asc')->get();
+			$placedata = Place::with('regions')->where('realm',$realm->realm_id)->orderBy('place_name', 'asc')->paginate(50);
 		}
 		else {
 			$placedata =[];
