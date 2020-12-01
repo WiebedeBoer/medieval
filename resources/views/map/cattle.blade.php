@@ -13,14 +13,16 @@ Game
 <image xlink:href="{{ asset('img/maps/good.png') }}" x="0" y="0" width="auto" height="auto">
 </g>
 @foreach($regiondata as $region)
-	<g z-index="2">
-	<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
+	<g z-index="2">	
 	@if($region->cattle !="none")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }} (cattle)</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(255,255,255)" />
+		</a>
 	@else
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(0,0,0)" />
+		</a>
 	@endif
-	</a>
 	</g>
 @endforeach
 

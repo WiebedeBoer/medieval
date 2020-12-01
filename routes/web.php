@@ -226,6 +226,14 @@ Route::get('map/gems','MapController@gems');
 Route::get('map/salt','MapController@salt');
 Route::get('map/population','MapController@population');
 Route::get('map/realm','MapController@realm');
+Route::get('map/arms','MapController@arms');
+Route::get('map/trade','MapController@trade');
+Route::get('map/fish','MapController@fish');
+Route::get('map/wine','MapController@wine');
+Route::get('map/dyes','MapController@dyes');
+Route::get('map/textiles','MapController@textiles');
+Route::get('map/books','MapController@books');
+Route::get('map/sweeteners','MapController@sweeteners');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');

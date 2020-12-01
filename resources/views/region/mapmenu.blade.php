@@ -1,126 +1,78 @@
 <div class="map-menu">
 <div class="py-1">
 <div class="links">
-	<div class="wmli">		
-		<a href="/region" class="wmlink">&#x1F30D; Worldmap (Regional View)</a>
-	</div>
-	<div class="wmli">		
-		<a href="/map/climate" class="wmlink">&#x26C5; Worldmap (Climate View)</a>
-	</div>
+				
+		<a href="/region" class="wmlink"><img src="{{ asset('img/images/globe.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Regional)</a>
+			
+		<a href="/map/climate" class="wmlink"><img src="{{ asset('img/images/cloud.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Climate)</a>
+		
+		<a href="/religion" class="wmlink"><img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Religion)</a>
+	
+		<a href="/culture" class="wmlink"><img src="{{ asset('img/images/helmet_bascinet.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Cultural)</a>
+		
+		<a href="/place" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Places List</a>
+			
+		<a href="/quarters" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Quarters List</a>
+			
+		<a href="/realms" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Realms List</a>
+		
+		<a href="/guilds" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Guilds List</a>
+				
+		<a href="/map/agriculture" class="wmlink"><img src="{{ asset('img/images/pitchfork.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Agriculture)</a>
+			
+		<a href="/map/commerce" class="wmlink"><img src="{{ asset('img/images/sack.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Commerce)</a>
+				
+		<a href="/map/defenses" class="wmlink"><img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Defenses)</a>
+			
+		<a href="/map/justice" class="wmlink"><img src="{{ asset('img/images/scales.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Justice &amp; Loyalty)</a>
+		
+		<a href="/map/cattle" class="wmlink"><img src="{{ asset('img/tradegoods/cattle.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Cattle)</a>
+		
+		<a href="/map/goat" class="wmlink"><img src="{{ asset('img/tradegoods/goat.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Goat)</a>
+		
+		<a href="/map/sheep" class="wmlink"><img src="{{ asset('img/tradegoods/sheep.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Sheep)</a>
+			
+		<a href="/map/ride" class="wmlink"><img src="{{ asset('img/tradegoods/horse.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Working Animal)</a>
 
-	<div class="wmli">
-		<img src="{{ asset('img/images/belief_catholic.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/religion" class="wmlink">Worldmap (Religion View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/images/helmet_bascinet.png') }}" width="48" height="48" alt="button" title="button">
-	<a href="/culture" class="wmlink">Worldmap (Cultural View)</a>
-	</div>
+		<a href="/map/realm" class="wmlink"><img src="{{ asset('img/images/flag.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Realm)</a>
+			
+		<a href="/map/population" class="wmlink"><img src="{{ asset('img/images/mannequin.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Population)</a>
+			
+		<a href="/map/herb" class="wmlink"><img src="{{ asset('img/tradegoods/heather.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Herbs &amp; Fragrances)</a>
+		
+		<a href="/map/style" class="wmlink"><img src="{{ asset('img/tradegoods/beer.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Entertainment)</a>
+		
+		<a href="/map/literature" class="wmlink"><img src="{{ asset('img/tradegoods/book_rare.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Literature Cycle)</a>
+		
+		<a href="/map/universities" class="wmlink"><img src="{{ asset('img/tradegoods/book_western.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Education)</a>
 
-	<div class="wmli">
-		<img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/place" class="wmlink">Places List</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/quarters" class="wmlink">Quarters List</a>
-	</div>
+		<a href="/map/gems" class="wmlink"><img src="{{ asset('img/tradegoods/ruby.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Gems)</a>
+		
+		<a href="/map/salt" class="wmlink"><img src="{{ asset('img/tradegoods/salt.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Salt)</a>
+	
+		<a href="/map/tin" class="wmlink"><img src="{{ asset('img/tradegoods/tin.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Tin)</a>
+	
+		<a href="/map/iron" class="wmlink"><img src="{{ asset('img/tradegoods/iron.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Iron)</a>
+	
+		<a href="/map/lead" class="wmlink"><img src="{{ asset('img/tradegoods/lead.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Lead)</a>
+	
+		<a href="/map/gold" class="wmlink"><img src="{{ asset('img/tradegoods/gold.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Gold &amp; Silver)</a>
+				
+		<a href="/map/arms" class="wmlink"><img src="{{ asset('img/images/anvil.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Armories)</a>
 
-	<div class="wmli">
-		<img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/realms" class="wmlink">Realms List</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/guilds" class="wmlink">Guilds List</a>
-	</div>
+		<a href="/map/trade" class="wmlink"><img src="{{ asset('img/images/sack.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Trade &amp; Industry)</a>
+				
+		<a href="/map/fish" class="wmlink"><img src="{{ asset('img/tradegoods/fish.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Shipyards &amp; Fish)</a>
 
+		<a href="/map/wine" class="wmlink"><img src="{{ asset('img/tradegoods/wine.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Wine)</a>
 
-	<div class="wmli">		
-		<a href="/map/realm" class="wmlink">Worldmap (Realm View)</a>
-	</div>
-	<div class="wmli">		
-		<a href="/map/population" class="wmlink">Worldmap (Population View)</a>
-	</div>
+		<a href="/map/dyes" class="wmlink"><img src="{{ asset('img/tradegoods/madder.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Dyes)</a>
 
-	<div class="wmli">		
-		<a href="/map/agriculture" class="wmlink">&fork; Worldmap (Agriculture View)</a>
-	</div>
-	<div class="wmli">		
-		<a href="/map/commerce" class="wmlink">&#x1F4B0; Worldmap (Commerce View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/images/building_castle.png') }}" width="48" height="48" alt="button" title="button">		
-		<a href="/map/defenses" class="wmlink"> Worldmap (Defenses View)</a>
-	</div>
-	<div class="wmli">		
-		<a href="/map/justice" class="wmlink">&#x2696; Worldmap (Justice and Loyalty View)</a>
-	</div>
+		<a href="/map/textiles" class="wmlink"><img src="{{ asset('img/tradegoods/wool.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Textiles)</a>
 
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/cattle.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/cattle" class="wmlink">Worldmap (Cattle View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/goat.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/goat" class="wmlink">Worldmap (Goat View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/sheep.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/sheep" class="wmlink">Worldmap (Sheep View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/horse.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/ride" class="wmlink">Worldmap (Working Animal View)</a>
-	</div>
+		<a href="/map/books" class="wmlink"><img src="{{ asset('img/tradegoods/book_block.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Books &amp; Manuscripts)</a>
 
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/heather.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/herb" class="wmlink">Worldmap (Herbs &amp; Fragrances View)</a>
+		<a href="/map/sweeteners" class="wmlink"><img src="{{ asset('img/tradegoods/honey.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Sugar &amp; Honey)</a>		
 	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/beer.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/style" class="wmlink">Worldmap (Business &amp; Entertainment View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/book_rare.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/literature" class="wmlink">Worldmap (Literature Cycle View)</a>
-	</div>
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/book_western.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/universities" class="wmlink">Worldmap (Education View)</a>
-	</div>
-
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/tin.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/tin" class="wmlink">Worldmap (Tin)</a>
-	</div>
-
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/iron.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/iron" class="wmlink">Worldmap (Iron)</a>
-	</div>
-
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/lead.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/lead" class="wmlink">Worldmap (Lead)</a>
-	</div>
-
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/gold.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/gold" class="wmlink">Worldmap (Gold &amp; Silver)</a>
-	</div>
-
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/ruby.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/gems" class="wmlink">Worldmap (Gems)</a>
-	</div>
-
-	<div class="wmli">
-		<img src="{{ asset('img/tradegoods/salt.png') }}" width="48" height="48" alt="button" title="button">
-		<a href="/map/salt" class="wmlink"> Worldmap (Salt)</a>
-	</div>
-
-</div>
 </div>
 </div>	

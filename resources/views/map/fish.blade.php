@@ -3,7 +3,8 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (Lead)</h1>
+					<h1>World Map (Shipyards &amp; Fish View)</h1>
+
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -12,19 +13,21 @@ Game
 <g z-index="1">
 <image xlink:href="{{ asset('img/maps/good.png') }}" x="0" y="0" width="auto" height="auto">
 </g>
-@foreach($regiondata as $region)
+@foreach($placedata as $place)
 	<g z-index="2">
-	@if($region->metal_count >=1)
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->metal_count }} lead)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->metal_count }}" stroke="rgb(128,0,0)" stroke-width="{{ 2 + $region->metal_count }}" fill="rgb(118,136,143)" />
+    @if($place->factory =="fish" || $place->arms =="shipyard")
+		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (port)</title>
+		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(128,255,255)" />
 		</a>
 	@else
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
+		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}</title>
+		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
 		</a>
 	@endif
 	</g>		
 @endforeach
+
 </svg>
 </div>
+
 @endsection

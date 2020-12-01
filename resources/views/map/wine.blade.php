@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (Lead)</h1>
+					<h1>World Map (Wine)</h1>
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -14,13 +14,13 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	@if($region->metal_count >=1)
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->metal_count }} lead)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->metal_count }}" stroke="rgb(128,0,0)" stroke-width="{{ 2 + $region->metal_count }}" fill="rgb(118,136,143)" />
+	@if($region->wine_count >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->wine_count }} wine)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{6 + $region->wine_count }}" stroke="rgb(155,79,105)" stroke-width="{{1 + $region->wine_count}}" fill="rgb(114,47,55)" />
 		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
 		</a>
 	@endif
 	</g>		

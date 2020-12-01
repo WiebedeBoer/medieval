@@ -14,13 +14,17 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
+	
 	@if($region->sheep !="none")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }} (sheep)</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(255,255,255)" />
+		</a>
 	@else
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(0,0,0)" />
+		</a>
 	@endif
-	</a>
+	
 	</g>
 @endforeach
 

@@ -28,8 +28,9 @@ class CreatePlacesTable extends Migration
 			$table->integer('population')->default(1); //default = 1
 			//fortification and court
 			$table->string('fortification');
-			//titles
+			//business commerce
 			$table->string('commerce');
+			//titles
 			$table->string('feudal');
 			$table->string('church');
 			$table->string('civil');

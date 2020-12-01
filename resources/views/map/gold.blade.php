@@ -16,19 +16,19 @@ Game
 	<g z-index="2">
 	@if($region->gold_count >=1 && $region->silver_count >=1)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->gold_count }} gold and {{ $region->silver_count }} silver)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="7" stroke="rgb(255,255,0)" stroke-width="3" fill="rgb(128,128,128)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->gold_count + $region->silver_count }}" stroke="rgb(128,0,0)" stroke-width="3" fill="rgb(231,198,151)" />
 		</a>
 	@elseif($region->gold_count >=1 && $region->silver_count ==0)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->gold_count }} gold)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,255,0)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->gold_count + $region->silver_count }}" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,215,0)" />
 		</a>
 	@elseif($region->gold_count ==0 && $region->silver_count >=1)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->silver_count }} silver)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(128,128,128)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->gold_count + $region->silver_count }}" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(192,192,192)" />
 		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
 		</a>
 	@endif
 	</g>		

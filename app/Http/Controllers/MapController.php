@@ -299,5 +299,182 @@ class MapController extends Controller
       }				
 		  return view('map.realm', compact('placedata'));     
     }
+
+	  public function arms()
+    {            
+      $placedata = Place::with('regions','realms')->get();	
+      foreach($placedata as $place) 
+      {              
+          if($place->arms =="smithy" || $place->factory =="smithy"){
+              $place->weaponsmith ="y";
+          }
+          else {
+            $place->weaponsmith ="n";
+          }
+          if($place->arms =="armorer"){
+            $place->armorer ="y";
+          }
+          else {
+            $place->armorer ="n";
+          }
+        
+          $place_offset = $place->place_id % 4;
+          if($place_offset ==1){
+            $place->offset_x_coord = $place->regions->region_x + 8;
+            $place->offset_y_coord = $place->regions->region_y + 8;
+          }
+          elseif($place_offset ==2){
+            $place->offset_x_coord = $place->regions->region_x + 8;
+            $place->offset_y_coord = $place->regions->region_y - 8;
+          }
+          elseif($place_offset ==3){
+            $place->offset_x_coord = $place->regions->region_x - 8;
+            $place->offset_y_coord = $place->regions->region_y + 8;
+          }
+          else {
+            $place->offset_x_coord = $place->regions->region_x - 8;
+            $place->offset_y_coord = $place->regions->region_y - 8; 
+          }
+
+      }				
+		  return view('map.arms', compact('placedata'));     
+    }
+
+	  public function trade()
+    {            
+      $placedata = Place::with('regions','realms')->get();	
+      foreach($placedata as $place) 
+      {              
+          $place_offset = $place->place_id % 4;
+          if($place_offset ==1){
+            $place->offset_x_coord = $place->regions->region_x + 6;
+            $place->offset_y_coord = $place->regions->region_y + 6;
+          }
+          elseif($place_offset ==2){
+            $place->offset_x_coord = $place->regions->region_x + 6;
+            $place->offset_y_coord = $place->regions->region_y - 6;
+          }
+          elseif($place_offset ==3){
+            $place->offset_x_coord = $place->regions->region_x - 6;
+            $place->offset_y_coord = $place->regions->region_y + 6;
+          }
+          else {
+            $place->offset_x_coord = $place->regions->region_x - 6;
+            $place->offset_y_coord = $place->regions->region_y - 6; 
+          }
+
+      }				
+		  return view('map.trade', compact('placedata'));     
+    }
+
+	  public function fish()
+    {            
+      $placedata = Place::with('regions','realms')->get();	
+      foreach($placedata as $place) 
+      {                      
+          $place_offset = $place->place_id % 4;
+          if($place_offset ==1){
+            $place->offset_x_coord = $place->regions->region_x + 6;
+            $place->offset_y_coord = $place->regions->region_y + 6;
+          }
+          elseif($place_offset ==2){
+            $place->offset_x_coord = $place->regions->region_x + 6;
+            $place->offset_y_coord = $place->regions->region_y - 6;
+          }
+          elseif($place_offset ==3){
+            $place->offset_x_coord = $place->regions->region_x - 6;
+            $place->offset_y_coord = $place->regions->region_y + 6;
+          }
+          else {
+            $place->offset_x_coord = $place->regions->region_x - 6;
+            $place->offset_y_coord = $place->regions->region_y - 6; 
+          }
+
+      }				
+		  return view('map.fish', compact('placedata'));     
+    }
+
+	  public function wine()
+    {            
+      $wine ="wine";
+      $vintner ="vintner";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $wine_count = Place::where('region', $region_id)->where('commerce', $wine)->count();	
+            $vintner_count = Place::where('region', $region_id)->where('factory', $vintner)->count();				
+			      $region->wine_count = $wine_count + $vintner_count;						
+        }				
+		  return view('map.wine', compact('regiondata'));     
+    }
+
+	  public function dyes()
+    {            
+		  $woad ="woad";
+      $madder ="madder";
+      $saffron ="saffron";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $woad_count = Place::where('region', $region_id)->where('factory', $woad)->count();				
+			      $region->woad_count = $woad_count;	
+            $madder_count = Place::where('region', $region_id)->where('factory', $madder)->count();				
+            $region->madder_count = $madder_count;
+            $saffron_count = Place::where('region', $region_id)->where('factory', $saffron)->count();				
+			      $region->saffron_count = $saffron_count;							
+        }				
+		  return view('map.dyes', compact('regiondata'));     
+    }
+
+	  public function textiles()
+    {            
+		  $tailor ="tailor";
+      $fuller ="fuller";
+      $cloth ="cloth";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $tailor_count = Place::where('region', $region_id)->where('factory', $tailor)->count();					
+            $fuller_count = Place::where('region', $region_id)->where('factory', $fuller)->count();				
+            $cloth_count = Place::where('region', $region_id)->where('factory', $cloth)->count();				
+			      $region->textile_count = $tailor_count + $fuller_count + $cloth_count;							
+        }				
+		  return view('map.textiles', compact('regiondata'));     
+    }
+    
+    public function books()
+    {            
+		  $scroll ="scriptorium";
+      $book ="bookbinder";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $book_count = Place::where('region', $region_id)->where('factory', $book)->count();
+            $region->book_count = $book_count;					
+            $scroll_count = Place::where('region', $region_id)->where('factory', $scroll)->count();							
+			      $region->scroll_count = $scroll_count;							
+        }				
+		  return view('map.books', compact('regiondata'));     
+    }
+
+    public function sweeteners()
+    {            
+		  $honey ="honey";
+      $sugar ="sugar";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $honey_count = Place::where('region', $region_id)->where('commerce', $honey)->count();
+            $region->honey_count = $honey_count;					
+            $sugar_count = Place::where('region', $region_id)->where('commerce', $sugar)->count();							
+			      $region->sugar_count = $sugar_count;							
+        }				
+		  return view('map.sweeteners', compact('regiondata'));     
+    }
 	
 }
