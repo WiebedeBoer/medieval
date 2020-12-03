@@ -14,7 +14,7 @@ class QuartersSeeder extends Seeder
 
     //hospital
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Lubeck',
@@ -23,7 +23,7 @@ class QuartersSeeder extends Seeder
     'region' => '4'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Innsbruck',
@@ -32,7 +32,7 @@ class QuartersSeeder extends Seeder
     'region' => '12'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Ulm',
@@ -41,7 +41,7 @@ class QuartersSeeder extends Seeder
     'region' => '13'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Bern',
@@ -50,7 +50,7 @@ class QuartersSeeder extends Seeder
     'region' => '14'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Pruem',
@@ -59,7 +59,7 @@ class QuartersSeeder extends Seeder
     'region' => '20'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Gouda',
@@ -68,7 +68,7 @@ class QuartersSeeder extends Seeder
     'region' => '22'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Groningen',
@@ -77,7 +77,7 @@ class QuartersSeeder extends Seeder
     'region' => '23'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Quimper',
@@ -86,7 +86,7 @@ class QuartersSeeder extends Seeder
     'region' => '28'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Langres',
@@ -95,7 +95,7 @@ class QuartersSeeder extends Seeder
     'region' => '30'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Amiens',
@@ -104,7 +104,7 @@ class QuartersSeeder extends Seeder
     'region' => '31'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Arles',
@@ -113,7 +113,7 @@ class QuartersSeeder extends Seeder
     'region' => '41'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Limoges',
@@ -122,7 +122,7 @@ class QuartersSeeder extends Seeder
     'region' => '44'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Perigeux',
@@ -131,7 +131,7 @@ class QuartersSeeder extends Seeder
     'region' => '44'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Chalon',
@@ -140,7 +140,7 @@ class QuartersSeeder extends Seeder
     'region' => '46'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of London',
@@ -149,7 +149,7 @@ class QuartersSeeder extends Seeder
     'region' => '47'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Westminster',
@@ -158,7 +158,7 @@ class QuartersSeeder extends Seeder
     'region' => '47'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Dover',
@@ -167,7 +167,7 @@ class QuartersSeeder extends Seeder
     'region' => '48'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Southampton',
@@ -176,7 +176,7 @@ class QuartersSeeder extends Seeder
     'region' => '49'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Norwich',
@@ -185,7 +185,7 @@ class QuartersSeeder extends Seeder
     'region' => '51'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Saint Edmunds',
@@ -194,7 +194,7 @@ class QuartersSeeder extends Seeder
     'region' => '51'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of York',
@@ -203,7 +203,7 @@ class QuartersSeeder extends Seeder
     'region' => '52'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Durham',
@@ -212,7 +212,7 @@ class QuartersSeeder extends Seeder
     'region' => '52'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Cirencester',
@@ -221,7 +221,7 @@ class QuartersSeeder extends Seeder
     'region' => '53'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Stafford',
@@ -230,7 +230,7 @@ class QuartersSeeder extends Seeder
     'region' => '55'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Nottingham',
@@ -239,7 +239,7 @@ class QuartersSeeder extends Seeder
     'region' => '56'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Bergen',
@@ -248,7 +248,7 @@ class QuartersSeeder extends Seeder
     'region' => '61'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Stavanger',
@@ -257,7 +257,7 @@ class QuartersSeeder extends Seeder
     'region' => '61'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Copenhagen',
@@ -266,7 +266,7 @@ class QuartersSeeder extends Seeder
     'region' => '62'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Aalborg',
@@ -275,7 +275,7 @@ class QuartersSeeder extends Seeder
     'region' => '64'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Riga',
@@ -284,7 +284,7 @@ class QuartersSeeder extends Seeder
     'region' => '68'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Talsen',
@@ -293,7 +293,7 @@ class QuartersSeeder extends Seeder
     'region' => '69'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Marienburg',
@@ -302,7 +302,7 @@ class QuartersSeeder extends Seeder
     'region' => '70'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Danzig',
@@ -311,7 +311,7 @@ class QuartersSeeder extends Seeder
     'region' => '70'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Reval',
@@ -320,7 +320,7 @@ class QuartersSeeder extends Seeder
     'region' => '72'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Edinburgh',
@@ -329,7 +329,7 @@ class QuartersSeeder extends Seeder
     'region' => '73'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Dumbarton',
@@ -338,7 +338,7 @@ class QuartersSeeder extends Seeder
     'region' => '75'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Ayr',
@@ -347,7 +347,7 @@ class QuartersSeeder extends Seeder
     'region' => '75'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Dundee',
@@ -356,7 +356,7 @@ class QuartersSeeder extends Seeder
     'region' => '80'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Waterford',
@@ -365,7 +365,7 @@ class QuartersSeeder extends Seeder
     'region' => '84'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Cork',
@@ -374,7 +374,7 @@ class QuartersSeeder extends Seeder
     'region' => '85'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Olite',
@@ -383,7 +383,7 @@ class QuartersSeeder extends Seeder
     'region' => '87'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Bilbao',
@@ -392,7 +392,7 @@ class QuartersSeeder extends Seeder
     'region' => '88'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Jaca',
@@ -401,7 +401,7 @@ class QuartersSeeder extends Seeder
     'region' => '89'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Gerona',
@@ -410,7 +410,7 @@ class QuartersSeeder extends Seeder
     'region' => '91'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Badajoz',
@@ -419,7 +419,7 @@ class QuartersSeeder extends Seeder
     'region' => '109'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Subiaco',
@@ -428,7 +428,7 @@ class QuartersSeeder extends Seeder
     'region' => '125'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Lucca',
@@ -437,7 +437,7 @@ class QuartersSeeder extends Seeder
     'region' => '126'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Amalfi',
@@ -446,7 +446,7 @@ class QuartersSeeder extends Seeder
     'region' => '127'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Taranto',
@@ -455,7 +455,7 @@ class QuartersSeeder extends Seeder
     'region' => '128'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Bari',
@@ -464,7 +464,7 @@ class QuartersSeeder extends Seeder
     'region' => '128'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Kotor',
@@ -473,7 +473,7 @@ class QuartersSeeder extends Seeder
     'region' => '169'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Esztergom',
@@ -482,7 +482,7 @@ class QuartersSeeder extends Seeder
     'region' => '172'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Kalocsa',
@@ -491,7 +491,7 @@ class QuartersSeeder extends Seeder
     'region' => '175'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Alba Julia',
@@ -500,7 +500,7 @@ class QuartersSeeder extends Seeder
     'region' => '176'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Tulcea',
@@ -509,7 +509,7 @@ class QuartersSeeder extends Seeder
     'region' => '179'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Tarnovo',
@@ -518,7 +518,7 @@ class QuartersSeeder extends Seeder
     'region' => '182'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Belgrade',
@@ -527,7 +527,7 @@ class QuartersSeeder extends Seeder
     'region' => '184'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Pereyaslav',
@@ -536,7 +536,7 @@ class QuartersSeeder extends Seeder
     'region' => '189'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Tchernigov',
@@ -545,7 +545,7 @@ class QuartersSeeder extends Seeder
     'region' => '193'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Novgorod',
@@ -554,7 +554,7 @@ class QuartersSeeder extends Seeder
     'region' => '199'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Edirne',
@@ -563,7 +563,7 @@ class QuartersSeeder extends Seeder
     'region' => '207'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Iraklion',
@@ -572,7 +572,7 @@ class QuartersSeeder extends Seeder
     'region' => '214'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Patros',
@@ -581,7 +581,7 @@ class QuartersSeeder extends Seeder
     'region' => '214'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Pergamum',
@@ -590,7 +590,7 @@ class QuartersSeeder extends Seeder
     'region' => '217'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Tarsus',
@@ -599,7 +599,7 @@ class QuartersSeeder extends Seeder
     'region' => '222'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Edessa',
@@ -608,7 +608,7 @@ class QuartersSeeder extends Seeder
     'region' => '225'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Amasia',
@@ -617,7 +617,7 @@ class QuartersSeeder extends Seeder
     'region' => '226'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Divrigi',
@@ -626,7 +626,7 @@ class QuartersSeeder extends Seeder
     'region' => '228'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Kutais',
@@ -635,7 +635,7 @@ class QuartersSeeder extends Seeder
     'region' => '229'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Van',
@@ -644,7 +644,7 @@ class QuartersSeeder extends Seeder
     'region' => '236'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Shiraz',
@@ -653,7 +653,7 @@ class QuartersSeeder extends Seeder
     'region' => '240'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Rhages',
@@ -662,7 +662,7 @@ class QuartersSeeder extends Seeder
     'region' => '242'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Medina',
@@ -671,7 +671,7 @@ class QuartersSeeder extends Seeder
     'region' => '247'
     ]);
     DB::table('quarters')->insert([
-    'quarter_rank' => 'centre',
+    'quarter_rank' => 'hospital',
     'x' => '2',
     'y' => '3',
     'quarter_name' => 'hospital of Damascus',

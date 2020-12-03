@@ -636,5 +636,20 @@ class CapitalSeeder extends Seeder
 			'realm' => '124',
 			'capital' => '797'
 		]);	
+		//realm 125, Albarracin
+		DB::table('capitals')->insert([
+			'realm' => '125',
+			'capital' => '359'
+		]);	
+		//realm 126, Tlemcen
+		DB::table('capitals')->insert([
+			'realm' => '126',
+			'capital' => '565'
+		]);	
+		//realm 127, Hormuz
+		DB::table('capitals')->insert([
+			'realm' => '127',
+			'capital' => '959'
+		]);	
     }
 }

@@ -17408,7 +17408,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//985
 DB::table('places')->insert([
 'region' => '247',
 'realm' => '48',
@@ -17417,7 +17417,7 @@ DB::table('places')->insert([
 'population' => '6000',
 'fortification' => 'royal_court',
 'commerce' => 'dates',
-'feudal' => 'prince',
+'feudal' => 'count',
 'church' => 'lord_archbishop',
 'civil' => 'lord_mayor',
 'monastic' => 'lord_abbot',
@@ -17426,7 +17426,7 @@ DB::table('places')->insert([
 'education' => 'university',
 'def' => '700'
 ]);
-
+//986
 DB::table('places')->insert([
 'region' => '247',
 'realm' => '48',
@@ -17444,7 +17444,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//987
 DB::table('places')->insert([
 'region' => '247',
 'realm' => '48',
@@ -17462,7 +17462,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//988
 DB::table('places')->insert([
 'region' => '247',
 'realm' => '48',
@@ -17471,7 +17471,7 @@ DB::table('places')->insert([
 'population' => '5000',
 'fortification' => 'chancery',
 'commerce' => 'grain',
-'feudal' => 'count',
+'feudal' => 'prince',
 'church' => 'lord_archbishop',
 'civil' => 'lord_mayor',
 'monastic' => 'lord_abbot',
@@ -17480,7 +17480,7 @@ DB::table('places')->insert([
 'education' => 'hospice',
 'def' => '700'
 ]);
-
+//989
 DB::table('places')->insert([
 'region' => '248',
 'realm' => '43',
@@ -17498,7 +17498,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//990
 DB::table('places')->insert([
 'region' => '248',
 'realm' => '43',
@@ -17552,7 +17552,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//993
 DB::table('places')->insert([
 'region' => '249',
 'realm' => '43',
@@ -17570,7 +17570,7 @@ DB::table('places')->insert([
 'education' => 'university',
 'def' => '700'
 ]);
-
+//994
 DB::table('places')->insert([
 'region' => '249',
 'realm' => '43',
@@ -17588,7 +17588,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '300'
 ]);
-
+//995
 DB::table('places')->insert([
 'region' => '249',
 'realm' => '43',
@@ -17606,7 +17606,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//996
 DB::table('places')->insert([
 'region' => '249',
 'realm' => '43',
@@ -17624,7 +17624,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//997
 DB::table('places')->insert([
 'region' => '250',
 'realm' => '43',
@@ -17642,7 +17642,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//998
 DB::table('places')->insert([
 'region' => '250',
 'realm' => '43',
@@ -17659,7 +17659,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
-
+//999
 DB::table('places')->insert([
 'region' => '250',
 'realm' => '43',
@@ -17676,7 +17676,7 @@ DB::table('places')->insert([
 'arms' => 'none',
 'education' => 'none'
 ]);
-
+//1000
 DB::table('places')->insert([
 'region' => '250',
 'realm' => '43',
@@ -17694,7 +17694,7 @@ DB::table('places')->insert([
 'education' => 'none',
 'def' => '700'
 ]);
-
+//1001
 DB::table('places')->insert([
 'region' => '251',
 'realm' => '43',

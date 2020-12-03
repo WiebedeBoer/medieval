@@ -1251,5 +1251,35 @@ class RulerSeeder extends Seeder
 			'admiral' => '1',
 			'steward' => '1'
 		]);	
+		//realm 125, Albarracin
+		DB::table('rulers')->insert([
+			'realm' => '125',
+            'ruler' => '1',
+            'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm 126, Tlemcen
+		DB::table('rulers')->insert([
+			'realm' => '126',
+            'ruler' => '1',
+            'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
+		//realm 127, Hormuz
+		DB::table('rulers')->insert([
+			'realm' => '127',
+            'ruler' => '1',
+            'chancellor' => '1',
+			'chamberlain' => '1',
+			'marshall' => '1',
+			'admiral' => '1',
+			'steward' => '1'
+		]);	
     }
 }

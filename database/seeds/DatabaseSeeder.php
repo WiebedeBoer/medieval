@@ -63,16 +63,16 @@ class DatabaseSeeder extends Seeder
 		//default guilds seeder
 		$this->call('GuildSeeder');
 		//titles
-		//$this->call('RealmTitlesSeeder'); //done
-		//$this->call('CourtTitlesSeeder'); //done
-		//$this->call('NobleTitlesSeeder');
-		//$this->call('ClergyTitlesSeeder');
-		//$this->call('CrusaderTitlesSeeder'); //done
-		//$this->call('MonasticTitlesSeeder'); //done
-		//$this->call('BurgherTitlesSeeder');
-		//$this->call('InnTitlesSeeder');
-		//$this->call('CommonTitlesSeeder');
-		//$this->call('TitleSeeder');
+		$this->call('RealmTitlesSeeder'); 
+		$this->call('CourtTitlesSeeder');
+		$this->call('NobleTitlesSeeder');
+		$this->call('ClergyTitlesSeeder');
+		$this->call('CrusaderTitlesSeeder'); 
+		$this->call('MonasticTitlesSeeder');
+		$this->call('BurgherTitlesSeeder');	
+		$this->call('CommonTitlesSeeder');
+		$this->call('InnTitlesSeeder');
+		$this->call('TitleSeeder');		
 		//building categories
 		$this->call('BuildingCategorySeeder');		
 		//default buildings

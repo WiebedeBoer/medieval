@@ -15,7 +15,8 @@ class CreateTitlesTable extends Migration
     {
         Schema::create('titles', function (Blueprint $table) {
             $table->bigIncrements('title_id');
-			$table->string('title_name');
+            $table->string('title_name');
+            $table->string('title_category')->default('none');
 			$table->unsignedBigInteger('owner')->nullable();
             $table->unsignedBigInteger('holder')->nullable();
             $table->unsignedBigInteger('heir')->default(1);
