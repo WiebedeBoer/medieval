@@ -55,6 +55,14 @@ Route::get('tutorial/character', 'TutorialController@character');
 Route::get('tutorial/estate', 'TutorialController@estate');
 //chronicles
 Route::get('chronicles', 'ChronicleController@index');
+Route::get('chronicles/charts', 'ChronicleController@charts');
+Route::get('chronicles/gold', 'ChronicleController@gold');
+Route::get('chronicles/renown', 'ChronicleController@renown');
+Route::get('chronicles/piety', 'ChronicleController@piety');
+Route::get('chronicles/population', 'ChronicleController@population');
+Route::get('chronicles/agriculture', 'ChronicleController@agriculture');
+Route::get('chronicles/commerce', 'ChronicleController@commerce');
+Route::get('chronicles/defense', 'ChronicleController@defense');
 //gameplay socials and hierearchy
 //religion
 Route::get('religion', 'ReligionController@index');

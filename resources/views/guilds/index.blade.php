@@ -5,8 +5,9 @@ Game
 @section('content')
 
 <div class="container">					
-					<h1>Guilds List</h1>
-					</div>
+	<h1>Guilds List</h1>
+</div>
+@include('chronicles.chartmenu')
 
                     <div class="row">
 <div class="col-12 d-flex justify-content-center pt-5">

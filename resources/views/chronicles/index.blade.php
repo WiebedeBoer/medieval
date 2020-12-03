@@ -13,6 +13,7 @@ Game
 				<a href="/chronicles/?filter=regions">Regions</a>
 				<a href="/chronicles/?filter=places">Places</a>		
 				<a href="/chronicles/?filter=guilds">Guilds</a>	
+				<a href="/chronicles/charts">Charts &amp; Lists</a>	
 			</div>
 		</div>
 	</div>

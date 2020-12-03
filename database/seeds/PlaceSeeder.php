@@ -14555,7 +14555,7 @@ DB::table('places')->insert([
 'factory' => 'tailor',
 'arms' => 'shipyard',
 'education' => 'university',
-'def' => '700'
+'def' => '800'
 ]);
 
 DB::table('places')->insert([

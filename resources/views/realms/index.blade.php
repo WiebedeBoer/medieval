@@ -7,9 +7,9 @@ Game
 
 
 <div class="container">					
-					<h1>Realms List</h1>
-					</div>
-
+	<h1>Realms List</h1>
+</div>
+@include('chronicles.chartmenu')
 
 <div class="container-fluid justify-content-center">
 	<div class="py-5">	

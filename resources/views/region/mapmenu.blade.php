@@ -10,13 +10,7 @@
 	
 		<a href="/culture" class="wmlink"><img src="{{ asset('img/images/helmet_bascinet.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Cultural)</a>
 		
-		<a href="/place" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Places List</a>
-			
-		<a href="/quarters" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Quarters List</a>
-			
-		<a href="/realms" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Realms List</a>
-		
-		<a href="/guilds" class="wmlink"><img src="{{ asset('img/images/list.png') }}" width="48" height="48" alt="button" title="button"> Guilds List</a>
+
 				
 		<a href="/map/agriculture" class="wmlink"><img src="{{ asset('img/images/pitchfork.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Agriculture)</a>
 			
