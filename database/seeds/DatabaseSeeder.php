@@ -60,6 +60,8 @@ class DatabaseSeeder extends Seeder
 		$this->call('HuntQuarterSeeder');
 		$this->call('MonkQuarterSeeder'); 
 		$this->call('CastleQuarterSeeder'); 
+		$this->call('AbbeyQuarterSeeder'); 
+		$this->call('CrusaderQuarterSeeder'); 
 		//default guilds seeder
 		$this->call('GuildSeeder');
 		//titles

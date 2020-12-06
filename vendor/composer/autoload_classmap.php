@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AbbeyQuarterSeeder' => $baseDir . '/database/seeds/AbbeyQuarterSeeder.php',
     'App\\Army' => $baseDir . '/app/Army.php',
     'App\\Brigade' => $baseDir . '/app/Brigade.php',
     'App\\Building' => $baseDir . '/app/Building.php',
@@ -66,6 +67,7 @@ return array(
     'App\\Http\\Controllers\\RegionController' => $baseDir . '/app/Http/Controllers/RegionController.php',
     'App\\Http\\Controllers\\ReligionController' => $baseDir . '/app/Http/Controllers/ReligionController.php',
     'App\\Http\\Controllers\\RoomController' => $baseDir . '/app/Http/Controllers/RoomController.php',
+    'App\\Http\\Controllers\\SuccessionController' => $baseDir . '/app/Http/Controllers/SuccessionController.php',
     'App\\Http\\Controllers\\TutorialController' => $baseDir . '/app/Http/Controllers/TutorialController.php',
     'App\\Http\\Controllers\\UserController' => $baseDir . '/app/Http/Controllers/UserController.php',
     'App\\Http\\Controllers\\WorkshopController' => $baseDir . '/app/Http/Controllers/WorkshopController.php',
@@ -168,6 +170,7 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+    'CrusaderQuarterSeeder' => $baseDir . '/database/seeds/CrusaderQuarterSeeder.php',
     'CrusaderTitlesSeeder' => $baseDir . '/database/seeds/CrusaderTitlesSeeder.php',
     'CultureSeeder' => $baseDir . '/database/seeds/CultureSeeder.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',

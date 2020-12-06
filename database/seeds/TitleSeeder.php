@@ -4577,8 +4577,2430 @@ DB::table('titles')->insert([
 'career' => 'hunt_falcon'
 ]);
 
+		/*
+		title ranks
+		1 = virgate
+		2 = hide
+		3 = tithing
+		4 = parish
+		5 = barony
+		6 = castellany
+		7 = county
+		8 = march
+		9 = duchy
+		10 = grand duchy
+		11 = kingdom
+		12 = empire		
+		*/	
 
+	//ports
+	DB::table('titles')->insert([
+	'title_name' => 'Bremen',
+	'title_category' => 'lord warden',
+	'region' => '1',
+	'place' => '1',
+	'quarter' => '13595',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Hamburg',
+	'title_category' => 'lord warden',
+	'region' => '1',
+	'place' => '3',
+	'quarter' => '13596',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Rostock',
+	'title_category' => 'lord warden',
+	'region' => '4',
+	'place' => '14',
+	'quarter' => '13597',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Lubeck',
+	'title_category' => 'lord warden',
+	'region' => '4',
+	'place' => '15',
+	'quarter' => '13598',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Stettin',
+	'title_category' => 'lord warden',
+	'region' => '6',
+	'place' => '21',
+	'quarter' => '13599',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Kolberg',
+	'title_category' => 'lord warden',
+	'region' => '6',
+	'place' => '23',
+	'quarter' => '13600',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Greifswald',
+	'title_category' => 'lord warden',
+	'region' => '6',
+	'place' => '24',
+	'quarter' => '13601',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Amsterdam',
+	'title_category' => 'lord warden',
+	'region' => '22',
+	'place' => '88',
+	'quarter' => '13602',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Dokkum',
+	'title_category' => 'lord warden',
+	'region' => '23',
+	'place' => '92',
+	'quarter' => '13603',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Antwerp',
+	'title_category' => 'lord warden',
+	'region' => '24',
+	'place' => '95',
+	'quarter' => '13604',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Bruges',
+	'title_category' => 'lord warden',
+	'region' => '25',
+	'place' => '97',
+	'quarter' => '13605',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Vannes',
+	'title_category' => 'lord warden',
+	'region' => '28',
+	'place' => '109',
+	'quarter' => '13606',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Quimper',
+	'title_category' => 'lord warden',
+	'region' => '28',
+	'place' => '111',
+	'quarter' => '13607',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Boulogne',
+	'title_category' => 'lord warden',
+	'region' => '31',
+	'place' => '122',
+	'quarter' => '13608',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Lisieux',
+	'title_category' => 'lord warden',
+	'region' => '32',
+	'place' => '127',
+	'quarter' => '13609',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Marseille',
+	'title_category' => 'lord warden',
+	'region' => '41',
+	'place' => '163',
+	'quarter' => '13610',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'London',
+	'title_category' => 'lord warden',
+	'region' => '47',
+	'place' => '185',
+	'quarter' => '13611',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Dover',
+	'title_category' => 'lord warden',
+	'region' => '48',
+	'place' => '190',
+	'quarter' => '13612',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Truro',
+	'title_category' => 'lord warden',
+	'region' => '50',
+	'place' => '197',
+	'quarter' => '13613',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Saint German',
+	'title_category' => 'lord warden',
+	'region' => '50',
+	'place' => '199',
+	'quarter' => '13614',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Madron',
+	'title_category' => 'lord warden',
+	'region' => '50',
+	'place' => '200',
+	'quarter' => '13615',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Scarborough',
+	'title_category' => 'lord warden',
+	'region' => '52',
+	'place' => '207',
+	'quarter' => '13616',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Oslo',
+	'title_category' => 'lord warden',
+	'region' => '60',
+	'place' => '237',
+	'quarter' => '13617',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Bergen',
+	'title_category' => 'lord warden',
+	'region' => '61',
+	'place' => '241',
+	'quarter' => '13618',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Stavanger',
+	'title_category' => 'lord warden',
+	'region' => '61',
+	'place' => '243',
+	'quarter' => '13619',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Copenhagen',
+	'title_category' => 'lord warden',
+	'region' => '62',
+	'place' => '245',
+	'quarter' => '13620',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Trelleborg',
+	'title_category' => 'lord warden',
+	'region' => '63',
+	'place' => '250',
+	'quarter' => '13621',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Halmstad',
+	'title_category' => 'lord warden',
+	'region' => '63',
+	'place' => '251',
+	'quarter' => '13622',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Ripen',
+	'title_category' => 'lord warden',
+	'region' => '64',
+	'place' => '255',
+	'quarter' => '13623',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Stockholm',
+	'title_category' => 'lord warden',
+	'region' => '65',
+	'place' => '257',
+	'quarter' => '13624',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Visby',
+	'title_category' => 'lord warden',
+	'region' => '66',
+	'place' => '261',
+	'quarter' => '13625',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Riga',
+	'title_category' => 'lord warden',
+	'region' => '68',
+	'place' => '269',
+	'quarter' => '13626',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Danzig',
+	'title_category' => 'lord warden',
+	'region' => '70',
+	'place' => '279',
+	'quarter' => '13627',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Reval',
+	'title_category' => 'lord warden',
+	'region' => '72',
+	'place' => '285',
+	'quarter' => '13628',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Hapsal',
+	'title_category' => 'lord warden',
+	'region' => '72',
+	'place' => '288',
+	'quarter' => '13629',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Edinburgh',
+	'title_category' => 'lord warden',
+	'region' => '73',
+	'place' => '289',
+	'quarter' => '13630',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Caerloverock',
+	'title_category' => 'lord warden',
+	'region' => '76',
+	'place' => '302',
+	'quarter' => '13631',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Whithorn',
+	'title_category' => 'lord warden',
+	'region' => '76',
+	'place' => '303',
+	'quarter' => '13632',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Kirkcudbright',
+	'title_category' => 'lord warden',
+	'region' => '76',
+	'place' => '304',
+	'quarter' => '13633',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Saint Andrews',
+	'title_category' => 'lord warden',
+	'region' => '78',
+	'place' => '311',
+	'quarter' => '13634',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Nairn',
+	'title_category' => 'lord warden',
+	'region' => '79',
+	'place' => '314',
+	'quarter' => '13635',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Aberdeen',
+	'title_category' => 'lord warden',
+	'region' => '79',
+	'place' => '316',
+	'quarter' => '13636',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Dundee',
+	'title_category' => 'lord warden',
+	'region' => '80',
+	'place' => '317',
+	'quarter' => '13637',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Rosemarkie',
+	'title_category' => 'lord warden',
+	'region' => '81',
+	'place' => '323',
+	'quarter' => '13638',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Dornoch',
+	'title_category' => 'lord warden',
+	'region' => '81',
+	'place' => '324',
+	'quarter' => '13639',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Dublin',
+	'title_category' => 'lord warden',
+	'region' => '82',
+	'place' => '325',
+	'quarter' => '13640',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Carrickfergus',
+	'title_category' => 'lord warden',
+	'region' => '83',
+	'place' => '330',
+	'quarter' => '13641',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Derry',
+	'title_category' => 'lord warden',
+	'region' => '83',
+	'place' => '331',
+	'quarter' => '13642',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Galway',
+	'title_category' => 'lord warden',
+	'region' => '86',
+	'place' => '341',
+	'quarter' => '13643',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'San Sebastian',
+	'title_category' => 'lord warden',
+	'region' => '88',
+	'place' => '349',
+	'quarter' => '13644',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Bilbao',
+	'title_category' => 'lord warden',
+	'region' => '88',
+	'place' => '351',
+	'quarter' => '13645',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Sant Feliu de Guixols',
+	'title_category' => 'lord warden',
+	'region' => '91',
+	'place' => '364',
+	'quarter' => '13646',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Barcelona',
+	'title_category' => 'lord warden',
+	'region' => '92',
+	'place' => '365',
+	'quarter' => '13647',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Valencia',
+	'title_category' => 'lord warden',
+	'region' => '93',
+	'place' => '369',
+	'quarter' => '13648',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Sagunto',
+	'title_category' => 'lord warden',
+	'region' => '93',
+	'place' => '370',
+	'quarter' => '13649',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Castellon',
+	'title_category' => 'lord warden',
+	'region' => '93',
+	'place' => '371',
+	'quarter' => '13650',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Denia',
+	'title_category' => 'lord warden',
+	'region' => '94',
+	'place' => '373',
+	'quarter' => '13651',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Alicante',
+	'title_category' => 'lord warden',
+	'region' => '94',
+	'place' => '375',
+	'quarter' => '13652',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Palma',
+	'title_category' => 'lord warden',
+	'region' => '95',
+	'place' => '377',
+	'quarter' => '13653',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Pollenca',
+	'title_category' => 'lord warden',
+	'region' => '95',
+	'place' => '378',
+	'quarter' => '13654',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Aviles',
+	'title_category' => 'lord warden',
+	'region' => '97',
+	'place' => '386',
+	'quarter' => '13655',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Coruna',
+	'title_category' => 'lord warden',
+	'region' => '100',
+	'place' => '399',
+	'quarter' => '13656',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Viana',
+	'title_category' => 'lord warden',
+	'region' => '102',
+	'place' => '407',
+	'quarter' => '13657',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Cadiz',
+	'title_category' => 'lord warden',
+	'region' => '108',
+	'place' => '431',
+	'quarter' => '13658',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Motril',
+	'title_category' => 'lord warden',
+	'region' => '112',
+	'place' => '447',
+	'quarter' => '13659',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Alicante',
+	'title_category' => 'lord warden',
+	'region' => '113',
+	'place' => '451',
+	'quarter' => '13660',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Malaga',
+	'title_category' => 'lord warden',
+	'region' => '114',
+	'place' => '453',
+	'quarter' => '13661',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Marbella',
+	'title_category' => 'lord warden',
+	'region' => '114',
+	'place' => '455',
+	'quarter' => '13662',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Genoa',
+	'title_category' => 'lord warden',
+	'region' => '117',
+	'place' => '465',
+	'quarter' => '13663',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Noli',
+	'title_category' => 'lord warden',
+	'region' => '117',
+	'place' => '466',
+	'quarter' => '13664',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Aleria',
+	'title_category' => 'lord warden',
+	'region' => '117',
+	'place' => '467',
+	'quarter' => '13665',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Venice',
+	'title_category' => 'lord warden',
+	'region' => '118',
+	'place' => '469',
+	'quarter' => '13666',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Chioggia',
+	'title_category' => 'lord warden',
+	'region' => '118',
+	'place' => '471',
+	'quarter' => '13667',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Aquileja',
+	'title_category' => 'lord warden',
+	'region' => '121',
+	'place' => '481',
+	'quarter' => '13668',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Ancona',
+	'title_category' => 'lord warden',
+	'region' => '124',
+	'place' => '495',
+	'quarter' => '13669',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Pisa',
+	'title_category' => 'lord warden',
+	'region' => '126',
+	'place' => '501',
+	'quarter' => '13670',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Carrara',
+	'title_category' => 'lord warden',
+	'region' => '126',
+	'place' => '502',
+	'quarter' => '13671',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Amalfi',
+	'title_category' => 'lord warden',
+	'region' => '127',
+	'place' => '507',
+	'quarter' => '13672',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Taranto',
+	'title_category' => 'lord warden',
+	'region' => '128',
+	'place' => '509',
+	'quarter' => '13673',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Bari',
+	'title_category' => 'lord warden',
+	'region' => '128',
+	'place' => '510',
+	'quarter' => '13674',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Brindisi',
+	'title_category' => 'lord warden',
+	'region' => '128',
+	'place' => '512',
+	'quarter' => '13675',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Rossano',
+	'title_category' => 'lord warden',
+	'region' => '129',
+	'place' => '514',
+	'quarter' => '13676',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tropea',
+	'title_category' => 'lord warden',
+	'region' => '129',
+	'place' => '515',
+	'quarter' => '13677',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Bosa',
+	'title_category' => 'lord warden',
+	'region' => '131',
+	'place' => '523',
+	'quarter' => '13678',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Porto Torres',
+	'title_category' => 'lord warden',
+	'region' => '131',
+	'place' => '524',
+	'quarter' => '13679',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Cagliari',
+	'title_category' => 'lord warden',
+	'region' => '132',
+	'place' => '525',
+	'quarter' => '13680',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Palermo',
+	'title_category' => 'lord warden',
+	'region' => '133',
+	'place' => '529',
+	'quarter' => '13681',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Agrigento',
+	'title_category' => 'lord warden',
+	'region' => '133',
+	'place' => '530',
+	'quarter' => '13682',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Cefalu',
+	'title_category' => 'lord warden',
+	'region' => '133',
+	'place' => '531',
+	'quarter' => '13683',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Marsala',
+	'title_category' => 'lord warden',
+	'region' => '133',
+	'place' => '532',
+	'quarter' => '13684',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Taormina',
+	'title_category' => 'lord warden',
+	'region' => '134',
+	'place' => '534',
+	'quarter' => '13685',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Catania',
+	'title_category' => 'lord warden',
+	'region' => '134',
+	'place' => '535',
+	'quarter' => '13686',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Siracusa',
+	'title_category' => 'lord warden',
+	'region' => '135',
+	'place' => '537',
+	'quarter' => '13687',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Valletta',
+	'title_category' => 'lord warden',
+	'region' => '135',
+	'place' => '539',
+	'quarter' => '13688',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tangiers',
+	'title_category' => 'lord warden',
+	'region' => '136',
+	'place' => '541',
+	'quarter' => '13689',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Ceuta',
+	'title_category' => 'lord warden',
+	'region' => '136',
+	'place' => '542',
+	'quarter' => '13690',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Sale',
+	'title_category' => 'lord warden',
+	'region' => '137',
+	'place' => '547',
+	'quarter' => '13691',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Fedala',
+	'title_category' => 'lord warden',
+	'region' => '137',
+	'place' => '548',
+	'quarter' => '13692',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Agadir',
+	'title_category' => 'lord warden',
+	'region' => '140',
+	'place' => '558',
+	'quarter' => '13693',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Mellila',
+	'title_category' => 'lord warden',
+	'region' => '142',
+	'place' => '567',
+	'quarter' => '13694',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Algiers',
+	'title_category' => 'lord warden',
+	'region' => '146',
+	'place' => '581',
+	'quarter' => '13695',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tedelles',
+	'title_category' => 'lord warden',
+	'region' => '146',
+	'place' => '583',
+	'quarter' => '13696',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Bejaia',
+	'title_category' => 'lord warden',
+	'region' => '147',
+	'place' => '585',
+	'quarter' => '13697',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Annaba',
+	'title_category' => 'lord warden',
+	'region' => '148',
+	'place' => '589',
+	'quarter' => '13698',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tunis',
+	'title_category' => 'lord warden',
+	'region' => '149',
+	'place' => '593',
+	'quarter' => '13699',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Hammamet',
+	'title_category' => 'lord warden',
+	'region' => '149',
+	'place' => '595',
+	'quarter' => '13700',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Mahdia',
+	'title_category' => 'lord warden',
+	'region' => '150',
+	'place' => '600',
+	'quarter' => '13701',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Gabes',
+	'title_category' => 'lord warden',
+	'region' => '151',
+	'place' => '601',
+	'quarter' => '13702',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tripoli',
+	'title_category' => 'lord warden',
+	'region' => '153',
+	'place' => '609',
+	'quarter' => '13703',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Misrata',
+	'title_category' => 'lord warden',
+	'region' => '153',
+	'place' => '611',
+	'quarter' => '13704',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Benghazi',
+	'title_category' => 'lord warden',
+	'region' => '156',
+	'place' => '621',
+	'quarter' => '13705',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Derna',
+	'title_category' => 'lord warden',
+	'region' => '156',
+	'place' => '622',
+	'quarter' => '13706',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tobruk',
+	'title_category' => 'lord warden',
+	'region' => '156',
+	'place' => '623',
+	'quarter' => '13707',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Alexandria',
+	'title_category' => 'lord warden',
+	'region' => '157',
+	'place' => '625',
+	'quarter' => '13708',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Rosetta',
+	'title_category' => 'lord warden',
+	'region' => '157',
+	'place' => '626',
+	'quarter' => '13709',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Damietta',
+	'title_category' => 'lord warden',
+	'region' => '157',
+	'place' => '627',
+	'quarter' => '13710',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Pula',
+	'title_category' => 'lord warden',
+	'region' => '167',
+	'place' => '665',
+	'quarter' => '13711',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Rovigno',
+	'title_category' => 'lord warden',
+	'region' => '167',
+	'place' => '666',
+	'quarter' => '13712',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Vikla',
+	'title_category' => 'lord warden',
+	'region' => '167',
+	'place' => '667',
+	'quarter' => '13713',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Trsat',
+	'title_category' => 'lord warden',
+	'region' => '167',
+	'place' => '668',
+	'quarter' => '13714',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Ragusa',
+	'title_category' => 'lord warden',
+	'region' => '168',
+	'place' => '669',
+	'quarter' => '13715',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Zadar',
+	'title_category' => 'lord warden',
+	'region' => '168',
+	'place' => '670',
+	'quarter' => '13716',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Split',
+	'title_category' => 'lord warden',
+	'region' => '168',
+	'place' => '671',
+	'quarter' => '13717',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Biograd',
+	'title_category' => 'lord warden',
+	'region' => '168',
+	'place' => '672',
+	'quarter' => '13718',
+	'religion' => '1',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Constanta',
+	'title_category' => 'lord warden',
+	'region' => '179',
+	'place' => '713',
+	'quarter' => '13719',
+	'religion' => '2',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Odessa',
+	'title_category' => 'lord warden',
+	'region' => '180',
+	'place' => '719',
+	'quarter' => '13720',
+	'religion' => '2',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Varna',
+	'title_category' => 'lord warden',
+	'region' => '182',
+	'place' => '725',
+	'quarter' => '13721',
+	'religion' => '2',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Samkarsh',
+	'title_category' => 'lord warden',
+	'region' => '188',
+	'place' => '750',
+	'quarter' => '13722',
+	'religion' => '3',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Oleshia',
+	'title_category' => 'lord warden',
+	'region' => '188',
+	'place' => '752',
+	'quarter' => '13723',
+	'religion' => '3',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Constantinople',
+	'title_category' => 'lord warden',
+	'region' => '207',
+	'place' => '825',
+	'quarter' => '13724',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Redosto',
+	'title_category' => 'lord warden',
+	'region' => '207',
+	'place' => '826',
+	'quarter' => '13725',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Thessaloniki',
+	'title_category' => 'lord warden',
+	'region' => '208',
+	'place' => '829',
+	'quarter' => '13726',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Stratonicea',
+	'title_category' => 'lord warden',
+	'region' => '208',
+	'place' => '830',
+	'quarter' => '13727',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Athens',
+	'title_category' => 'lord warden',
+	'region' => '209',
+	'place' => '833',
+	'quarter' => '13728',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Lamia',
+	'title_category' => 'lord warden',
+	'region' => '209',
+	'place' => '834',
+	'quarter' => '13729',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Modon',
+	'title_category' => 'lord warden',
+	'region' => '210',
+	'place' => '838',
+	'quarter' => '13730',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Gardiki',
+	'title_category' => 'lord warden',
+	'region' => '211',
+	'place' => '842',
+	'quarter' => '13731',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Lemnos',
+	'title_category' => 'lord warden',
+	'region' => '214',
+	'place' => '854',
+	'quarter' => '13732',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Chania',
+	'title_category' => 'lord warden',
+	'region' => '214',
+	'place' => '855',
+	'quarter' => '13733',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Patros',
+	'title_category' => 'lord warden',
+	'region' => '214',
+	'place' => '856',
+	'quarter' => '13734',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Smyrna',
+	'title_category' => 'lord warden',
+	'region' => '215',
+	'place' => '857',
+	'quarter' => '13735',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Chios',
+	'title_category' => 'lord warden',
+	'region' => '215',
+	'place' => '859',
+	'quarter' => '13736',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Kios',
+	'title_category' => 'lord warden',
+	'region' => '217',
+	'place' => '866',
+	'quarter' => '13737',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Coracesium',
+	'title_category' => 'lord warden',
+	'region' => '219',
+	'place' => '873',
+	'quarter' => '13738',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Rhodos',
+	'title_category' => 'lord warden',
+	'region' => '219',
+	'place' => '874',
+	'quarter' => '13739',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Attalia',
+	'title_category' => 'lord warden',
+	'region' => '219',
+	'place' => '875',
+	'quarter' => '13740',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Sinope',
+	'title_category' => 'lord warden',
+	'region' => '221',
+	'place' => '881',
+	'quarter' => '13741',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Amasra',
+	'title_category' => 'lord warden',
+	'region' => '221',
+	'place' => '883',
+	'quarter' => '13742',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tarsus',
+	'title_category' => 'lord warden',
+	'region' => '222',
+	'place' => '885',
+	'quarter' => '13743',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Limasol',
+	'title_category' => 'lord warden',
+	'region' => '222',
+	'place' => '888',
+	'quarter' => '13744',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Trebizond',
+	'title_category' => 'lord warden',
+	'region' => '224',
+	'place' => '893',
+	'quarter' => '13745',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Riza',
+	'title_category' => 'lord warden',
+	'region' => '224',
+	'place' => '895',
+	'quarter' => '13746',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Kerasous',
+	'title_category' => 'lord warden',
+	'region' => '224',
+	'place' => '896',
+	'quarter' => '13747',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Samsun',
+	'title_category' => 'lord warden',
+	'region' => '226',
+	'place' => '902',
+	'quarter' => '13748',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Batumi',
+	'title_category' => 'lord warden',
+	'region' => '229',
+	'place' => '913',
+	'quarter' => '13749',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Poti',
+	'title_category' => 'lord warden',
+	'region' => '229',
+	'place' => '914',
+	'quarter' => '13750',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Derbent',
+	'title_category' => 'lord warden',
+	'region' => '231',
+	'place' => '921',
+	'quarter' => '13751',
+	'religion' => '4',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Hormuz',
+	'title_category' => 'lord warden',
+	'region' => '240',
+	'place' => '959',
+	'quarter' => '13752',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Jeddah',
+	'title_category' => 'lord warden',
+	'region' => '247',
+	'place' => '987',
+	'quarter' => '13753',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Eilat',
+	'title_category' => 'lord warden',
+	'region' => '248',
+	'place' => '990',
+	'quarter' => '13754',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Acre',
+	'title_category' => 'lord warden',
+	'region' => '250',
+	'place' => '997',
+	'quarter' => '13755',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tyre',
+	'title_category' => 'lord warden',
+	'region' => '250',
+	'place' => '1000',
+	'quarter' => '13756',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Tripoli',
+	'title_category' => 'lord warden',
+	'region' => '254',
+	'place' => '1013',
+	'quarter' => '13757',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Beirut',
+	'title_category' => 'lord warden',
+	'region' => '254',
+	'place' => '1015',
+	'quarter' => '13758',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
+	DB::table('titles')->insert([
+	'title_name' => 'Alexandretta',
+	'title_category' => 'lord warden',
+	'region' => '255',
+	'place' => '1018',
+	'quarter' => '13759',
+	'religion' => '5',
+	'rank' => '5',
+	'career' => 'harbour_master'
+	]);
 
+	//extra abbeys
+	DB::table('titles')->insert([
+		'title_name' => 'Wexford',
+		'title_category' => 'abbot',
+		'region' => '84',
+		'place' => '333',
+		'quarter' => '16040',
+		'religion' => '1',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Santo Domingo de Silos',
+		'title_category' => 'abbot',
+		'region' => '99',
+		'place' => '394',
+		'quarter' => '16041',
+		'religion' => '1',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Georgenburg',
+		'title_category' => 'abbot',
+		'region' => '71',
+		'place' => '284',
+		'quarter' => '16070',
+		'religion' => '1',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Avis',
+		'title_category' => 'abbot',
+		'region' => '105',
+		'place' => '420',
+		'quarter' => '16085',
+		'religion' => '5',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Alvor',
+		'title_category' => 'abbot',
+		'region' => '106',
+		'place' => '423',
+		'quarter' => '16086',
+		'religion' => '5',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Huelva',
+		'title_category' => 'abbot',
+		'region' => '108',
+		'place' => '432',
+		'quarter' => '16087',
+		'religion' => '5',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Touggourt',
+		'title_category' => 'abbot',
+		'region' => '145',
+		'place' => '580',
+		'quarter' => '16092',
+		'religion' => '5',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Sergiev',
+		'title_category' => 'abbot',
+		'region' => '197',
+		'place' => '786',
+		'quarter' => '16107',
+		'religion' => '3',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Hama',
+		'title_category' => 'abbot',
+		'region' => '253',
+		'place' => '1012',
+		'quarter' => '16116',
+		'religion' => '5',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	DB::table('titles')->insert([
+		'title_name' => 'Afrin',
+		'title_category' => 'abbot',
+		'region' => '255',
+		'place' => '1020',
+		'quarter' => '16117',
+		'religion' => '5',
+		'rank' => '4',
+		'career' => 'fixed_monastic'
+	]);
+
+	//tiltyard knights
+	DB::table('titles')->insert([
+		'title_name' => 'Meissen',
+		'title_category' => 'knight',
+		'region' => '2',
+		'place' => '5',
+		'quarter' => '14905',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Dresden',
+		'title_category' => 'knight',
+		'region' => '2',
+		'place' => '6',
+		'quarter' => '14906',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Erfurt',
+		'title_category' => 'knight',
+		'region' => '2',
+		'place' => '7',
+		'quarter' => '14907',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Chemnitz',
+		'title_category' => 'knight',
+		'region' => '2',
+		'place' => '8',
+		'quarter' => '14908',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Regensburg',
+		'title_category' => 'knight',
+		'region' => '8',
+		'place' => '29',
+		'quarter' => '14909',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Augsburg',
+		'title_category' => 'knight',
+		'region' => '8',
+		'place' => '30',
+		'quarter' => '14910',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Wurzburg',
+		'title_category' => 'knight',
+		'region' => '8',
+		'place' => '31',
+		'quarter' => '14911',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Nuremberg',
+		'title_category' => 'knight',
+		'region' => '8',
+		'place' => '32',
+		'quarter' => '14912',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Innsbruck',
+		'title_category' => 'knight',
+		'region' => '12',
+		'place' => '45',
+		'quarter' => '14913',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Bozen',
+		'title_category' => 'knight',
+		'region' => '12',
+		'place' => '46',
+		'quarter' => '14914',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Trent',
+		'title_category' => 'knight',
+		'region' => '12',
+		'place' => '47',
+		'quarter' => '14915',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Brixen',
+		'title_category' => 'knight',
+		'region' => '12',
+		'place' => '48',
+		'quarter' => '14916',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Bruges',
+		'title_category' => 'knight',
+		'region' => '25',
+		'place' => '97',
+		'quarter' => '14917',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Ghent',
+		'title_category' => 'knight',
+		'region' => '25',
+		'place' => '98',
+		'quarter' => '14918',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Cambrai',
+		'title_category' => 'knight',
+		'region' => '25',
+		'place' => '99',
+		'quarter' => '14919',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Ypres',
+		'title_category' => 'knight',
+		'region' => '25',
+		'place' => '100',
+		'quarter' => '14920',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Paris',
+		'title_category' => 'knight',
+		'region' => '29',
+		'place' => '113',
+		'quarter' => '14921',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Meaux',
+		'title_category' => 'knight',
+		'region' => '29',
+		'place' => '114',
+		'quarter' => '14922',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Chartres',
+		'title_category' => 'knight',
+		'region' => '29',
+		'place' => '115',
+		'quarter' => '14923',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Saint Denis',
+		'title_category' => 'knight',
+		'region' => '29',
+		'place' => '116',
+		'quarter' => '14924',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Amiens',
+		'title_category' => 'knight',
+		'region' => '31',
+		'place' => '121',
+		'quarter' => '14925',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Boulogne',
+		'title_category' => 'knight',
+		'region' => '31',
+		'place' => '122',
+		'quarter' => '14926',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Laon',
+		'title_category' => 'knight',
+		'region' => '31',
+		'place' => '123',
+		'quarter' => '14927',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Saint Omer',
+		'title_category' => 'knight',
+		'region' => '31',
+		'place' => '124',
+		'quarter' => '14928',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Orleans',
+		'title_category' => 'knight',
+		'region' => '34',
+		'place' => '133',
+		'quarter' => '14929',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Chateaudun',
+		'title_category' => 'knight',
+		'region' => '34',
+		'place' => '134',
+		'quarter' => '14930',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Blois',
+		'title_category' => 'knight',
+		'region' => '34',
+		'place' => '135',
+		'quarter' => '14931',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Vendome',
+		'title_category' => 'knight',
+		'region' => '34',
+		'place' => '136',
+		'quarter' => '14932',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Arles',
+		'title_category' => 'knight',
+		'region' => '41',
+		'place' => '161',
+		'quarter' => '14933',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Aix',
+		'title_category' => 'knight',
+		'region' => '41',
+		'place' => '162',
+		'quarter' => '14934',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Marseille',
+		'title_category' => 'knight',
+		'region' => '41',
+		'place' => '163',
+		'quarter' => '14935',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Avignon',
+		'title_category' => 'knight',
+		'region' => '41',
+		'place' => '164',
+		'quarter' => '14936',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Dijon',
+		'title_category' => 'knight',
+		'region' => '46',
+		'place' => '181',
+		'quarter' => '14937',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Besancon',
+		'title_category' => 'knight',
+		'region' => '46',
+		'place' => '182',
+		'quarter' => '14938',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Chalon',
+		'title_category' => 'knight',
+		'region' => '46',
+		'place' => '183',
+		'quarter' => '14939',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Citeaux',
+		'title_category' => 'knight',
+		'region' => '46',
+		'place' => '184',
+		'quarter' => '14940',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'York',
+		'title_category' => 'knight',
+		'region' => '52',
+		'place' => '205',
+		'quarter' => '14941',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Durham',
+		'title_category' => 'knight',
+		'region' => '52',
+		'place' => '206',
+		'quarter' => '14942',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Scarborough',
+		'title_category' => 'knight',
+		'region' => '52',
+		'place' => '207',
+		'quarter' => '14943',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Lancaster',
+		'title_category' => 'knight',
+		'region' => '52',
+		'place' => '208',
+		'quarter' => '14944',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Tamworth',
+		'title_category' => 'knight',
+		'region' => '55',
+		'place' => '217',
+		'quarter' => '14945',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Warwick',
+		'title_category' => 'knight',
+		'region' => '55',
+		'place' => '218',
+		'quarter' => '14946',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Stafford',
+		'title_category' => 'knight',
+		'region' => '55',
+		'place' => '219',
+		'quarter' => '14947',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Leicester',
+		'title_category' => 'knight',
+		'region' => '55',
+		'place' => '220',
+		'quarter' => '14948',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Edinburgh',
+		'title_category' => 'knight',
+		'region' => '73',
+		'place' => '289',
+		'quarter' => '14949',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Linlithgow',
+		'title_category' => 'knight',
+		'region' => '73',
+		'place' => '290',
+		'quarter' => '14950',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Dunbar',
+		'title_category' => 'knight',
+		'region' => '73',
+		'place' => '291',
+		'quarter' => '14951',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Haddington',
+		'title_category' => 'knight',
+		'region' => '73',
+		'place' => '292',
+		'quarter' => '14952',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Leon',
+		'title_category' => 'knight',
+		'region' => '96',
+		'place' => '381',
+		'quarter' => '14953',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Robla',
+		'title_category' => 'knight',
+		'region' => '96',
+		'place' => '382',
+		'quarter' => '14954',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'San Guillermo',
+		'title_category' => 'knight',
+		'region' => '96',
+		'place' => '383',
+		'quarter' => '14955',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Sahagun',
+		'title_category' => 'knight',
+		'region' => '96',
+		'place' => '384',
+		'quarter' => '14956',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Valladolid',
+		'title_category' => 'knight',
+		'region' => '98',
+		'place' => '389',
+		'quarter' => '14957',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Avila',
+		'title_category' => 'knight',
+		'region' => '98',
+		'place' => '390',
+		'quarter' => '14958',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Segovia',
+		'title_category' => 'knight',
+		'region' => '98',
+		'place' => '391',
+		'quarter' => '14959',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Salamanca',
+		'title_category' => 'knight',
+		'region' => '98',
+		'place' => '392',
+		'quarter' => '14960',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Florence',
+		'title_category' => 'knight',
+		'region' => '123',
+		'place' => '489',
+		'quarter' => '14961',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Siena',
+		'title_category' => 'knight',
+		'region' => '123',
+		'place' => '490',
+		'quarter' => '14962',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Arezzo',
+		'title_category' => 'knight',
+		'region' => '123',
+		'place' => '491',
+		'quarter' => '14963',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Grosseto',
+		'title_category' => 'knight',
+		'region' => '123',
+		'place' => '492',
+		'quarter' => '14964',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Spoleto',
+		'title_category' => 'knight',
+		'region' => '124',
+		'place' => '493',
+		'quarter' => '14965',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Aquila',
+		'title_category' => 'knight',
+		'region' => '124',
+		'place' => '494',
+		'quarter' => '14966',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Ancona',
+		'title_category' => 'knight',
+		'region' => '124',
+		'place' => '495',
+		'quarter' => '14967',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]);
+		DB::table('titles')->insert([
+		'title_name' => 'Assissi',
+		'title_category' => 'knight',
+		'region' => '124',
+		'place' => '496',
+		'quarter' => '14968',
+		'religion' => '1',
+		'rank' => '3',
+		'career' => 'fixed_gentry'
+		]); 
+
+		//markets
+
+		//factories
 	
 	}
 }

@@ -7888,1072 +7888,1097 @@ class BurgherTitlesSeeder extends Seeder
 		12 = empire		
 		*/	
 
-		/*
-		
-		//trade leagues
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Hanseatic League',
+			//trade and guilds
+			DB::table('titles')->insert([
+			'title_name' => 'Hanseatic League',
+			'title_category' => 'alderman',
 			'region' => '4',
 			'place' => '15',
+			'quarter' => '16144',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Lorrainian League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Lorrainian League',
+			'title_category' => 'alderman',
 			'region' => '20',
 			'place' => '79',
+			'quarter' => '16208',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Alsatian League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Alsatian League',
+			'title_category' => 'alderman',
 			'region' => '15',
 			'place' => '59',
+			'quarter' => '16188',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);			
-		
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Swabian League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Swabian League',
+			'title_category' => 'alderman',
 			'region' => '8',
 			'place' => '30',
+			'quarter' => '16159',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);		
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Lombard League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Lombard League',
+			'title_category' => 'alderman',
 			'region' => '116',
 			'place' => '461',
+			'quarter' => '16590',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Tuscan League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Tuscan League',
+			'title_category' => 'alderman',
 			'region' => '123',
 			'place' => '489',
+			'quarter' => '16618',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Rhenish League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Rhenish League',
+			'title_category' => 'alderman',
 			'region' => '19',
 			'place' => '73',
+			'quarter' => '16202',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Prussian League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Prussian League',
+			'title_category' => 'alderman',
 			'region' => '70',
 			'place' => '277',
+			'quarter' => '16406',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Hungarian League',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Hungarian League',
+			'title_category' => 'alderman',
 			'region' => '172',
 			'place' => '685',
+			'quarter' => '16814',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_league'
-		]);
-
-		*/
-		
-		/*
-		title ranks
-		1 = virgate
-		2 = hide
-		3 = tithing
-		4 = parish
-		5 = barony
-		6 = castellany
-		7 = county
-		8 = march
-		9 = duchy
-		10 = grand duchy
-		11 = kingdom
-		12 = empire		
-		*/	
-
-		/*
-
-		//kontors
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the London Steelyard',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'London Steelyard',
+			'title_category' => 'alderman master',
 			'region' => '47',
 			'place' => '185',
+			'quarter' => '16314',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_kontor'
-		]);			
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Bruges Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Bruges',
+			'title_category' => 'alderman master',
 			'region' => '25',
 			'place' => '97',
+			'quarter' => '16226',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_kontor'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Tyskebryggen',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Tyskebryggen',
+			'title_category' => 'alderman master',
 			'region' => '61',
 			'place' => '241',
+			'quarter' => '16370',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_kontor'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Kauen',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Kauen',
+			'title_category' => 'alderman master',
 			'region' => '166',
 			'place' => '663',
+			'quarter' => '16792',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_kontor'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of the Novgorod Peterhof',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Novgorod Peterhof',
+			'title_category' => 'alderman master',
 			'region' => '199',
 			'place' => '793',
+			'quarter' => '16922',
 			'religion' => '3',
 			'rank' => '5',
 			'career' => 'trade_kontor'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Pleskov',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Pleskov',
+			'title_category' => 'alderman master',
 			'region' => '198',
 			'place' => '789',
+			'quarter' => '16918',
 			'religion' => '3',
 			'rank' => '5',
 			'career' => 'trade_kontor'
-		]);	
-
-		*/
-		
-		/*
-		title ranks
-		1 = virgate
-		2 = hide
-		3 = tithing
-		4 = parish
-		5 = barony
-		6 = castellany
-		7 = county
-		8 = march
-		9 = duchy
-		10 = grand duchy
-		11 = kingdom
-		12 = empire		
-		*/	
-		//fairs
-
-		/*
-		
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Champagne Fairs',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Champagne Fairs',
+			'title_category' => 'alderman',
 			'region' => '33',
 			'place' => '129',
+			'quarter' => '16258',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Toulouse Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Toulouse Fair',
+			'title_category' => 'alderman',
 			'region' => '42',
 			'place' => '165',
+			'quarter' => '16294',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Nuremberg Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Nuremberg Fair',
+			'title_category' => 'alderman',
 			'region' => '8',
 			'place' => '32',
+			'quarter' => '16161',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Genoa Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Genoa Fair',
+			'title_category' => 'alderman',
 			'region' => '117',
 			'place' => '465',
+			'quarter' => '16594',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Venice Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Venice Fair',
+			'title_category' => 'alderman',
 			'region' => '118',
 			'place' => '469',
+			'quarter' => '16598',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Florence Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Florence Fair',
+			'title_category' => 'alderman',
 			'region' => '123',
 			'place' => '489',
+			'quarter' => '16618',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Scarborough Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Scarborough Fair',
+			'title_category' => 'alderman',
 			'region' => '52',
 			'place' => '207',
+			'quarter' => '16336',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Cologne Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Cologne Fair',
+			'title_category' => 'alderman',
 			'region' => '19',
 			'place' => '73',
+			'quarter' => '16202',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Frankfurt Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Frankfurt Fair',
+			'title_category' => 'alderman',
 			'region' => '18',
 			'place' => '71',
+			'quarter' => '16200',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Lyon Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Lyon Fair',
+			'title_category' => 'alderman',
 			'region' => '45',
 			'place' => '179',
+			'quarter' => '16308',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Palermo Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Palermo Fair',
+			'title_category' => 'alderman',
 			'region' => '133',
 			'place' => '529',
+			'quarter' => '16658',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);		
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Santiago Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Santiago Fair',
+			'title_category' => 'alderman',
 			'region' => '100',
 			'place' => '397',
+			'quarter' => '16526',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Leon Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Leon Fair',
+			'title_category' => 'alderman',
 			'region' => '96',
 			'place' => '381',
+			'quarter' => '16510',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[alderman] of Pamplona Fair',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Pamplona Fair',
+			'title_category' => 'alderman',
 			'region' => '87',
 			'place' => '345',
+			'quarter' => '16474',
 			'religion' => '1',
 			'rank' => '5',
 			'career' => 'trade_fair'
-		]);	
-		
-		*/
-
-
-		/*
-		title ranks
-		1 = virgate
-		2 = hide
-		3 = tithing
-		4 = parish
-		5 = barony
-		6 = castellany
-		7 = county
-		8 = march
-		9 = duchy
-		10 = grand duchy
-		11 = kingdom
-		12 = empire		
-		*/	
-
-		/*
-		
-		//merchant guilds netherlands
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Cheesemongers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Cheesemongers Guild',
+			'title_category' => 'guild master',
 			'region' => '22',
 			'place' => '86',
+			'quarter' => '16215',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Coopers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Coopers Guild',
+			'title_category' => 'guild master',
 			'region' => '22',
 			'place' => '85',
+			'quarter' => '16214',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);		
-		
-		//merchant guilds flanders
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '25',
 			'place' => '97',
+			'quarter' => '16226',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '25',
 			'place' => '98',
+			'quarter' => '16227',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '25',
 			'place' => '100',
+			'quarter' => '16229',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '25',
 			'place' => '99',
+			'quarter' => '16228',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		//merchant guilds england
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '47',
 			'place' => '185',
+			'quarter' => '16314',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '52',
 			'place' => '207',
+			'quarter' => '16336',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '51',
 			'place' => '201',
+			'quarter' => '16330',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '56',
 			'place' => '221',
+			'quarter' => '16350',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		//merchant guilds germany
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Potterers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Potterers Guild',
+			'title_category' => 'guild master',
 			'region' => '19',
 			'place' => '73',
+			'quarter' => '16202',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Bookbinders Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Bookbinders Guild',
+			'title_category' => 'guild master',
 			'region' => '8',
 			'place' => '32',
+			'quarter' => '16161',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Salters Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Salters Guild',
+			'title_category' => 'guild master',
 			'region' => '1',
 			'place' => '3',
+			'quarter' => '16132',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Fishmongers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Fishmongers Guild',
+			'title_category' => 'guild master',
 			'region' => '4',
 			'place' => '14',
+			'quarter' => '16143',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Coopers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Coopers Guild',
+			'title_category' => 'guild master',
 			'region' => '4',
 			'place' => '15',
+			'quarter' => '16144',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Coopers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Coopers Guild',
+			'title_category' => 'guild master',
 			'region' => '10',
 			'place' => '37',
+			'quarter' => '16166',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		//merchant guilds lombardy
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '118',
 			'place' => '469',
+			'quarter' => '16598',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '115',
 			'place' => '457',
+			'quarter' => '16586',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '116',
 			'place' => '464',
+			'quarter' => '16593',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '117',
 			'place' => '465',
+			'quarter' => '16594',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '116',
 			'place' => '462',
+			'quarter' => '16591',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '116',
 			'place' => '461',
+			'quarter' => '16590',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-		
-		//merchant guilds tuscany
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '126',
 			'place' => '501',
+			'quarter' => '16630',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '126',
 			'place' => '503',
+			'quarter' => '16632',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		//merchant guilds croatia
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '168',
 			'place' => '669',
+			'quarter' => '16798',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		//merchants guild of southern italy
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '133',
 			'place' => '532',
+			'quarter' => '16661',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '133',
 			'place' => '529',
+			'quarter' => '16658',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '127',
 			'place' => '507',
+			'quarter' => '16636',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '127',
 			'place' => '506',
+			'quarter' => '16635',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		//merchant guilds poland, lithuania, baltics
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '162',
 			'place' => '645',
+			'quarter' => '16774',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '70',
 			'place' => '277',
+			'quarter' => '16406',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '70',
 			'place' => '279',
+			'quarter' => '16408',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '70',
 			'place' => '280',
+			'quarter' => '16409',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Chandlers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Chandlers Guild',
+			'title_category' => 'guild master',
 			'region' => '68',
 			'place' => '269',
-			'religion' => '3',
+			'quarter' => '16398',
+			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '72',
 			'place' => '285',
+			'quarter' => '16414',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);		
-		
-		//merchant guilds scandinavia
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Fishmongers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Fishmongers Guild',
+			'title_category' => 'guild master',
 			'region' => '61',
 			'place' => '241',
+			'quarter' => '16370',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Fishmongers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Fishmongers Guild',
+			'title_category' => 'guild master',
 			'region' => '63',
 			'place' => '250',
+			'quarter' => '16379',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Coopers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Coopers Guild',
+			'title_category' => 'guild master',
 			'region' => '65',
 			'place' => '257',
+			'quarter' => '16386',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-		
-		//merchant guilds france
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '29',
 			'place' => '113',
+			'quarter' => '16242',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Cheesemongers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Cheesemongers Guild',
+			'title_category' => 'guild master',
 			'region' => '29',
 			'place' => '114',
+			'quarter' => '16243',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Tanners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Tanners Guild',
+			'title_category' => 'guild master',
 			'region' => '29',
 			'place' => '115',
+			'quarter' => '16244',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '29',
 			'place' => '116',
+			'quarter' => '16245',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Mercers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Mercers Guild',
+			'title_category' => 'guild master',
 			'region' => '34',
 			'place' => '134',
+			'quarter' => '16263',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '42',
 			'place' => '165',
+			'quarter' => '16294',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '43',
 			'place' => '169',
+			'quarter' => '16298',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '46',
 			'place' => '183',
+			'quarter' => '16312',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '41',
 			'place' => '164',
+			'quarter' => '16293',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '33',
 			'place' => '131',
+			'quarter' => '16260',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '33',
 			'place' => '132',
+			'quarter' => '16261',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		//merchant guilds spain and portugal
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '98',
 			'place' => '390',
+			'quarter' => '16519',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '98',
 			'place' => '391',
+			'quarter' => '16520',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '99',
 			'place' => '393',
+			'quarter' => '16522',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Vintners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Vintners Guild',
+			'title_category' => 'guild master',
 			'region' => '102',
 			'place' => '405',
+			'quarter' => '16534',
 			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);		
-		
-		//merchant guilds russia
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Furriers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Furriers Guild',
+			'title_category' => 'guild master',
 			'region' => '198',
 			'place' => '789',
+			'quarter' => '16918',
 			'religion' => '3',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Furriers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Furriers Guild',
+			'title_category' => 'guild master',
 			'region' => '199',
 			'place' => '795',
+			'quarter' => '16924',
 			'religion' => '3',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Chandlers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Chandlers Guild',
+			'title_category' => 'guild master',
 			'region' => '190',
 			'place' => '757',
+			'quarter' => '16886',
 			'religion' => '3',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		//merchant guilds byzantine
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '207',
 			'place' => '825',
+			'quarter' => '16954',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '209',
 			'place' => '835',
+			'quarter' => '16964',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '228',
 			'place' => '909',
+			'quarter' => '17038',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '210',
 			'place' => '839',
+			'quarter' => '16968',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '215',
 			'place' => '857',
+			'quarter' => '16986',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '222',
 			'place' => '887',
+			'quarter' => '17016',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '217',
 			'place' => '867',
+			'quarter' => '16996',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '218',
 			'place' => '869',
+			'quarter' => '16998',
 			'religion' => '4',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		//merchant guilds andalucian
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Tanners Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Tanners Guild',
+			'title_category' => 'guild master',
 			'region' => '107',
 			'place' => '425',
+			'quarter' => '16554',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '111',
 			'place' => '441',
+			'quarter' => '16570',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '93',
 			'place' => '369',
-			'religion' => '5',
+			'quarter' => '16498',
+			'religion' => '1',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '112',
 			'place' => '445',
+			'quarter' => '16574',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-		
-		//merchant guilds north africa
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Dyers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Dyers Guild',
+			'title_category' => 'guild master',
 			'region' => '138',
 			'place' => '549',
+			'quarter' => '16678',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);			
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '139',
 			'place' => '553',
+			'quarter' => '16682',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '149',
 			'place' => '593',
+			'quarter' => '16722',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Potterers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Potterers Guild',
+			'title_category' => 'guild master',
 			'region' => '158',
 			'place' => '629',
+			'quarter' => '16758',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-
-		//merchant guilds levant
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '249',
 			'place' => '993',
+			'quarter' => '17122',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '252',
 			'place' => '1005',
+			'quarter' => '17134',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Cutlers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Cutlers Guild',
+			'title_category' => 'guild master',
 			'region' => '252',
 			'place' => '1005',
+			'quarter' => '17134',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Cutlers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Cutlers Guild',
+			'title_category' => 'guild master',
 			'region' => '259',
 			'place' => '1033',
+			'quarter' => '17162',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		//merchant guilds persia
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '241',
 			'place' => '961',
+			'quarter' => '17090',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '240',
 			'place' => '957',
+			'quarter' => '17086',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Drapers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Drapers Guild',
+			'title_category' => 'guild master',
 			'region' => '239',
 			'place' => '953',
+			'quarter' => '17082',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		DB::table('titles')->insert([
-			'title_name' => '[master] of the Haberdashers Guild',
+			]);
+			DB::table('titles')->insert([
+			'title_name' => 'Haberdashers Guild',
+			'title_category' => 'guild master',
 			'region' => '242',
 			'place' => '965',
+			'quarter' => '17094',
 			'religion' => '5',
 			'rank' => '3',
 			'career' => 'guild_grandmaster'
-		]);	
-		
-		*/
+			]); 
 		
     }
 }

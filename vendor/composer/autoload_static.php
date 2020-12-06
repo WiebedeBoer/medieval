@@ -465,6 +465,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
     );
 
     public static $classMap = array (
+        'AbbeyQuarterSeeder' => __DIR__ . '/../..' . '/database/seeds/AbbeyQuarterSeeder.php',
         'App\\Army' => __DIR__ . '/../..' . '/app/Army.php',
         'App\\Brigade' => __DIR__ . '/../..' . '/app/Brigade.php',
         'App\\Building' => __DIR__ . '/../..' . '/app/Building.php',
@@ -525,6 +526,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'App\\Http\\Controllers\\RegionController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegionController.php',
         'App\\Http\\Controllers\\ReligionController' => __DIR__ . '/../..' . '/app/Http/Controllers/ReligionController.php',
         'App\\Http\\Controllers\\RoomController' => __DIR__ . '/../..' . '/app/Http/Controllers/RoomController.php',
+        'App\\Http\\Controllers\\SuccessionController' => __DIR__ . '/../..' . '/app/Http/Controllers/SuccessionController.php',
         'App\\Http\\Controllers\\TutorialController' => __DIR__ . '/../..' . '/app/Http/Controllers/TutorialController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Controllers\\WorkshopController' => __DIR__ . '/../..' . '/app/Http/Controllers/WorkshopController.php',
@@ -627,6 +629,7 @@ class ComposerStaticInitcc3470f589c790649127ba7c22f917fe
         'Cron\\HoursField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+        'CrusaderQuarterSeeder' => __DIR__ . '/../..' . '/database/seeds/CrusaderQuarterSeeder.php',
         'CrusaderTitlesSeeder' => __DIR__ . '/../..' . '/database/seeds/CrusaderTitlesSeeder.php',
         'CultureSeeder' => __DIR__ . '/../..' . '/database/seeds/CultureSeeder.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
