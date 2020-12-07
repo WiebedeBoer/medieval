@@ -96,7 +96,7 @@ class ReligionGreekController extends Controller
             $controlled_title->succession ="elective guild";
         }
         elseif($career =="college_master" || $career =="fixed_hospice" || $career =="harbour_master"){
-            $selected_title = $this->guild_greek($category,$rank,$name);
+            $selected_title = $this->warden_greek($category,$rank,$name);
             $controlled_title->succession ="elective burgher";
         }
         //hunt
@@ -209,7 +209,7 @@ class ReligionGreekController extends Controller
 
     //type: warden
     //religion: greek
-    private function warden_catholic($category,$rank,$name)
+    private function warden_greek($category,$rank,$name)
     {            
         $selected_title->name ="sakellarios";
         return $elected_title;
