@@ -1068,7 +1068,7 @@ DB::table('places')->insert([
 ]);
 DB::table('places')->insert([
 'region' => '16',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Prague',
 'place_type' => 'capital',
 'population' => '28000',
@@ -1086,7 +1086,7 @@ DB::table('places')->insert([
 
 DB::table('places')->insert([
 'region' => '16',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Karlstein',
 'place_type' => 'castle',
 'population' => '120',
@@ -1104,7 +1104,7 @@ DB::table('places')->insert([
 
 DB::table('places')->insert([
 'region' => '16',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Pilsen',
 'place_type' => 'city',
 'population' => '2000',
@@ -1122,7 +1122,7 @@ DB::table('places')->insert([
 
 DB::table('places')->insert([
 'region' => '16',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Plass',
 'place_type' => 'abbey',
 'population' => '120',
@@ -1138,7 +1138,7 @@ DB::table('places')->insert([
 ]);
 DB::table('places')->insert([
 'region' => '17',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Brunn',
 'place_type' => 'capital',
 'population' => '600',
@@ -1156,7 +1156,7 @@ DB::table('places')->insert([
 
 DB::table('places')->insert([
 'region' => '17',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Zlin',
 'place_type' => 'castle',
 'population' => '600',
@@ -1173,7 +1173,7 @@ DB::table('places')->insert([
 
 DB::table('places')->insert([
 'region' => '17',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Olmutz',
 'place_type' => 'city',
 'population' => '600',
@@ -1190,7 +1190,7 @@ DB::table('places')->insert([
 
 DB::table('places')->insert([
 'region' => '17',
-'realm' => '25',
+'realm' => '3',
 'place_name' => 'Trebitz',
 'place_type' => 'abbey',
 'population' => '120',

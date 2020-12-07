@@ -373,6 +373,12 @@ td.pl {
 	padding: 3px;	
 }
 
+td.plp {
+	text-align:left;
+	padding: 3px;
+	background-color:#6a644f;	
+}
+
 th.cg {
 	text-align:center;
 	color: #fdfdfd;

@@ -114,7 +114,7 @@ class RealmTitlesSeeder extends Seeder
 			'quarter' => '17926',
 			'religion' => '3',
 			'rank' => '6',
-			'career' => 'fixed_patriarchy'
+			'career' => 'russian_patriarchy'
 		]);
 		
 		DB::table('titles')->insert([
@@ -125,7 +125,7 @@ class RealmTitlesSeeder extends Seeder
 			'quarter' => '17994',
 			'religion' => '4',
 			'rank' => '6',
-			'career' => 'fixed_patriarchy'
+			'career' => 'greek_patriarchy'
 		]);
 		
 		DB::table('titles')->insert([
@@ -136,7 +136,7 @@ class RealmTitlesSeeder extends Seeder
 			'quarter' => '17895',
 			'religion' => '2',
 			'rank' => '6',
-			'career' => 'fixed_patriarchy'
+			'career' => 'serbian_patriarchy'
 		]);
 		
 		DB::table('titles')->insert([

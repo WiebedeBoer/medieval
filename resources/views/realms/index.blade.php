@@ -90,10 +90,14 @@ Game
         @if(is_null($realm->capitals))
             <td class="pl">&nbsp;</td>   
         @else
-            <td class="pl"><a href="/place/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td>  
+            @if($realm->existence >=1)
+                <td class="plp"><a href="/place/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td> 
+            @else
+                <td class="pl"><a href="/place/{{ $realm->capitals['capital'] }}">{{ $realm->place_name }}</a></td> 
+            @endif 
         @endif  
         @if($realm->existence >=1)
-            <td class="pl">{{ $realm->existence }}</td>  
+            <td class="plp">{{ $realm->existence }}</td>  
         @else
             <td class="pl">&nbsp;</td>
         @endif 

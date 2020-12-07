@@ -6366,8 +6366,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Dresden',
 		'title_category' => 'knight',
 		'region' => '2',
@@ -6376,8 +6376,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Erfurt',
 		'title_category' => 'knight',
 		'region' => '2',
@@ -6386,8 +6386,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Chemnitz',
 		'title_category' => 'knight',
 		'region' => '2',
@@ -6396,8 +6396,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Regensburg',
 		'title_category' => 'knight',
 		'region' => '8',
@@ -6406,8 +6406,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Augsburg',
 		'title_category' => 'knight',
 		'region' => '8',
@@ -6416,8 +6416,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Wurzburg',
 		'title_category' => 'knight',
 		'region' => '8',
@@ -6426,8 +6426,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Nuremberg',
 		'title_category' => 'knight',
 		'region' => '8',
@@ -6436,8 +6436,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Innsbruck',
 		'title_category' => 'knight',
 		'region' => '12',
@@ -6446,8 +6446,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Bozen',
 		'title_category' => 'knight',
 		'region' => '12',
@@ -6456,8 +6456,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Trent',
 		'title_category' => 'knight',
 		'region' => '12',
@@ -6466,8 +6466,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Brixen',
 		'title_category' => 'knight',
 		'region' => '12',
@@ -6476,8 +6476,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Bruges',
 		'title_category' => 'knight',
 		'region' => '25',
@@ -6486,8 +6486,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Ghent',
 		'title_category' => 'knight',
 		'region' => '25',
@@ -6496,8 +6496,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Cambrai',
 		'title_category' => 'knight',
 		'region' => '25',
@@ -6506,8 +6506,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Ypres',
 		'title_category' => 'knight',
 		'region' => '25',
@@ -6516,8 +6516,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Paris',
 		'title_category' => 'knight',
 		'region' => '29',
@@ -6526,8 +6526,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Meaux',
 		'title_category' => 'knight',
 		'region' => '29',
@@ -6536,8 +6536,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Chartres',
 		'title_category' => 'knight',
 		'region' => '29',
@@ -6546,8 +6546,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Saint Denis',
 		'title_category' => 'knight',
 		'region' => '29',
@@ -6556,8 +6556,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Amiens',
 		'title_category' => 'knight',
 		'region' => '31',
@@ -6566,8 +6566,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Boulogne',
 		'title_category' => 'knight',
 		'region' => '31',
@@ -6576,8 +6576,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Laon',
 		'title_category' => 'knight',
 		'region' => '31',
@@ -6586,8 +6586,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Saint Omer',
 		'title_category' => 'knight',
 		'region' => '31',
@@ -6596,8 +6596,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Orleans',
 		'title_category' => 'knight',
 		'region' => '34',
@@ -6606,8 +6606,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Chateaudun',
 		'title_category' => 'knight',
 		'region' => '34',
@@ -6616,8 +6616,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Blois',
 		'title_category' => 'knight',
 		'region' => '34',
@@ -6626,8 +6626,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Vendome',
 		'title_category' => 'knight',
 		'region' => '34',
@@ -6636,8 +6636,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Arles',
 		'title_category' => 'knight',
 		'region' => '41',
@@ -6646,8 +6646,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Aix',
 		'title_category' => 'knight',
 		'region' => '41',
@@ -6656,8 +6656,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Marseille',
 		'title_category' => 'knight',
 		'region' => '41',
@@ -6666,8 +6666,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Avignon',
 		'title_category' => 'knight',
 		'region' => '41',
@@ -6676,8 +6676,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Dijon',
 		'title_category' => 'knight',
 		'region' => '46',
@@ -6686,8 +6686,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Besancon',
 		'title_category' => 'knight',
 		'region' => '46',
@@ -6696,8 +6696,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Chalon',
 		'title_category' => 'knight',
 		'region' => '46',
@@ -6706,8 +6706,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Citeaux',
 		'title_category' => 'knight',
 		'region' => '46',
@@ -6716,8 +6716,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'York',
 		'title_category' => 'knight',
 		'region' => '52',
@@ -6726,8 +6726,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Durham',
 		'title_category' => 'knight',
 		'region' => '52',
@@ -6736,8 +6736,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Scarborough',
 		'title_category' => 'knight',
 		'region' => '52',
@@ -6746,8 +6746,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Lancaster',
 		'title_category' => 'knight',
 		'region' => '52',
@@ -6756,8 +6756,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Tamworth',
 		'title_category' => 'knight',
 		'region' => '55',
@@ -6766,8 +6766,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Warwick',
 		'title_category' => 'knight',
 		'region' => '55',
@@ -6776,8 +6776,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Stafford',
 		'title_category' => 'knight',
 		'region' => '55',
@@ -6786,8 +6786,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Leicester',
 		'title_category' => 'knight',
 		'region' => '55',
@@ -6796,8 +6796,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Edinburgh',
 		'title_category' => 'knight',
 		'region' => '73',
@@ -6806,8 +6806,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Linlithgow',
 		'title_category' => 'knight',
 		'region' => '73',
@@ -6816,8 +6816,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Dunbar',
 		'title_category' => 'knight',
 		'region' => '73',
@@ -6826,8 +6826,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Haddington',
 		'title_category' => 'knight',
 		'region' => '73',
@@ -6836,8 +6836,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Leon',
 		'title_category' => 'knight',
 		'region' => '96',
@@ -6846,8 +6846,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Robla',
 		'title_category' => 'knight',
 		'region' => '96',
@@ -6856,8 +6856,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'San Guillermo',
 		'title_category' => 'knight',
 		'region' => '96',
@@ -6866,8 +6866,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Sahagun',
 		'title_category' => 'knight',
 		'region' => '96',
@@ -6876,8 +6876,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Valladolid',
 		'title_category' => 'knight',
 		'region' => '98',
@@ -6886,8 +6886,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Avila',
 		'title_category' => 'knight',
 		'region' => '98',
@@ -6896,8 +6896,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Segovia',
 		'title_category' => 'knight',
 		'region' => '98',
@@ -6906,8 +6906,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Salamanca',
 		'title_category' => 'knight',
 		'region' => '98',
@@ -6916,8 +6916,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Florence',
 		'title_category' => 'knight',
 		'region' => '123',
@@ -6926,8 +6926,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Siena',
 		'title_category' => 'knight',
 		'region' => '123',
@@ -6936,8 +6936,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Arezzo',
 		'title_category' => 'knight',
 		'region' => '123',
@@ -6946,8 +6946,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Grosseto',
 		'title_category' => 'knight',
 		'region' => '123',
@@ -6956,8 +6956,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Spoleto',
 		'title_category' => 'knight',
 		'region' => '124',
@@ -6966,8 +6966,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Aquila',
 		'title_category' => 'knight',
 		'region' => '124',
@@ -6976,8 +6976,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Ancona',
 		'title_category' => 'knight',
 		'region' => '124',
@@ -6986,8 +6986,8 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]);
-		DB::table('titles')->insert([
+	]);
+	DB::table('titles')->insert([
 		'title_name' => 'Assissi',
 		'title_category' => 'knight',
 		'region' => '124',
@@ -6996,11 +6996,11 @@ DB::table('titles')->insert([
 		'religion' => '1',
 		'rank' => '3',
 		'career' => 'fixed_gentry'
-		]); 
+	]); 
 
-		//markets
+	//markets
 
-		//factories
+	//factories
 	
 	}
 }

@@ -130,7 +130,7 @@ class ChronicleController extends Controller
 		$inc =1;
 		foreach($realmdata as $realm){
 			$realm->realm_y = 50 * $inc;
-			$realm->realm_w = round($realm->places_count / ($max_places / 1700));
+			$realm->realm_w = 200 + (round($realm->places_count / ($max_places / 1700)));
 			$realm->mod = $inc % 2;
 			$realm->inc = $inc;
 			$inc++;

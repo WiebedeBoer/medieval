@@ -3,6 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\ReligionCatholicController;
+use App\Http\Controllers\ReligionSerbianController;
+use App\Http\Controllers\ReligionRussianController;
+use App\Http\Controllers\ReligionGreekController;
+use App\Http\Controllers\ReligionMuslimController;
+use App\Title;
 
 class TitleController extends Controller
 {
@@ -13,11 +19,13 @@ class TitleController extends Controller
         $title = Title::with('owners','holders','heirs','regions','places','quarters','religions','votes')->where('title_id',$id)->first();
         $title_exist = is_null($title);
         if($title_exist !=1){
-            $this->religion($title->religions->religion,$title->career,$title->category,$title->rank);
+            $controlled_title = $this->religion($title->religions->religion,$title->career,$title->category,$title->rank,$title->title_name);
         }
         else {
             //do nothing
+            $controlled_title ="vacant";
         }
+        return $controlled_title;
     }
 
     //feudal ranks
@@ -42,106 +50,43 @@ class TitleController extends Controller
      }  
 
     //religion
-    private function religion($religion,$career,$category,$rank)
+    private function religion($religion,$career,$category,$rank,$name)
     {            
         if($religion =="Catholic"){
-            $this->catholic($career,$category,$rank);
+            $religion_controller = new ReligionCatholicController;
+            $controlled_title = $religion_controller->religion($career,$category,$rank,$name);
         }
         elseif($religion =="Serbian Orthodox"){
-            $this->serbian($career,$category,$rank);
+            $religion_controller = new ReligionSerbianController;
+            $controlled_title = $religion_controller->religion($career,$category,$rank,$name);
         }
         elseif($religion =="Russian Orthodox"){
-            $this->russian($career,$category,$rank);
+            $religion_controller = new ReligionRussianController;
+            $controlled_title = $religion_controller->religion($career,$category,$rank,$name);
         }
         elseif($religion =="Greek Orthodox"){
-            $this->greek($career,$category,$rank);
+            $religion_controller = new ReligionGreekController;
+            $controlled_title = $religion_controller->religion($career,$category,$rank,$name);
         }
         elseif($religion =="Muslim"){
-            $this->muslim($career,$category,$rank);
+            $religion_controller = new ReligionMuslimController;
+            $controlled_title = $religion_controller->religion($career,$category,$rank,$name);
         }
         else {
             //do nothing
+            $controlled_title ="inaccessible";
         }
+        return $controlled_title;
     }
 
-    //cultures
-    private function catholic($career,$category,$rank)
-    {            
-        if($career ==""){
-
-        }
-        elseif($career ==""){
-
-        }
-        else {
-            //not possible
-        }
-    }
-
-    private function serbian($career,$category,$rank)
-    {            
-        if($career ==""){
-
-        }
-        elseif($career ==""){
-
-        }
-        else {
-            //not possible
-        }      
-    }
-
-    private function russian($career,$category,$rank)
-    {            
-        if($career ==""){
-
-        }
-        elseif($career ==""){
-
-        }
-        else {
-            //not possible
-        }      
-    }
-
-    private function greek($career,$category,$rank)
-    {            
-        if($career ==""){
-
-        }
-        elseif($career ==""){
-
-        }
-        else {
-            //not possible
-        }      
-    }
-
-    private function muslim($career,$category,$rank)
-    {            
-        if($career ==""){
-
-        }
-        elseif($career ==""){
-
-        }
-        else {
-            //not possible
-        }      
-    }
-
+    //elections
     //election
     public function election()
     {            
       
     }
 
-    //social estates
-    public function estate()
-    {            
-       
-    }
-
+    //ownership
     //region owner
     public function region()
     {            
@@ -159,6 +104,5 @@ class TitleController extends Controller
     {            
        
     }
-
 
 }

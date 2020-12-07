@@ -3,6 +3,7 @@
 Game
 @endsection
 @section('content')
+
 <h1>Elections</h1>
 @if($dynasty_owner_count >=1 && election_count >=1)
 

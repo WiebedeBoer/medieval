@@ -19,19 +19,41 @@ Game
 
 @foreach($realmdata as $realm)
     @if($realm->mod ==1)
+    <g z-index="3">
     <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
-    <g z-index="4"><text x="0" y="{{ $realm->realm_y + 25}}" fill="rgb(32,32,32)">{{ $realm->inc }}</text></g>
-    <g z-index="4"><text x="30" y="{{ $realm->realm_y + 25}}" fill="rgb(32,32,32)">{{ $realm->realm_name }}</text></g>
-    <g z-index="4"><text x="170" y="{{ $realm->realm_y + 25}}" fill="rgb(32,32,32)">{{ $realm->places_count }}</text></g>
-    <g z-index="3"><rect width="{{50 + $realm->realm_w}}" height="40" x="200" y="{{$realm->realm_y}}" style="fill:rgb(160,160,160);stroke-width:3;stroke:rgb(0,0,0)" /></g>  
-    </a>
+    <rect width="{{50 + $realm->realm_w}}" height="40" x="10" y="{{$realm->realm_y}}" style="fill:rgb(160,160,160);stroke-width:3;stroke:rgb(32,32,32)" /></a>
+    </g> 
+    <g z-index="4">
+    <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
+    <text x="200" y="{{ $realm->realm_y + 25}}" fill="rgb(32,32,32)">{{ $realm->places_count }}</text></a>
+    </g>     
+    <g z-index="5">
+    <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
+    <text x="20" y="{{ $realm->realm_y + 25}}" fill="rgb(32,32,32)">{{ $realm->inc }}</text></a>
+    </g>    
+    <g z-index="5">
+    <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
+    <text x="50" y="{{ $realm->realm_y + 25}}" fill="rgb(32,32,32)">{{ $realm->realm_name }}</text></a>
+    </g>
+
     @else
+    <g z-index="3">
     <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
-    <g z-index="4"><text x="0" y="{{ $realm->realm_y + 25}}" fill="black">{{ $realm->inc }}</text></g>
-    <g z-index="4"><text x="30" y="{{ $realm->realm_y + 25}}" fill="black">{{ $realm->realm_name }}</text></g>
-    <g z-index="4"><text x="170" y="{{ $realm->realm_y + 25}}" fill="black">{{ $realm->places_count }}</text></g>
-    <g z-index="3"><rect width="{{50 + $realm->realm_w}}" height="40" x="200" y="{{$realm->realm_y}}" style="fill:rgb(128,128,128);stroke-width:3;stroke:rgb(0,0,0)" /></g>  
-    </a>
+    <rect width="{{50 + $realm->realm_w}}" height="40" x="10" y="{{$realm->realm_y}}" style="fill:rgb(128,128,128);stroke-width:3;stroke:rgb(0,0,0)" /></a>
+    </g>
+    <g z-index="4">
+    <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
+    <text x="200" y="{{ $realm->realm_y + 25}}" fill="rgb(0,0,0)">{{ $realm->places_count }}</text></a>
+    </g>  
+    <g z-index="5">
+    <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
+    <text x="20" y="{{ $realm->realm_y + 25}}" fill="rgb(0,0,0)">{{ $realm->inc }}</text></a>
+    </g>
+    <g z-index="5">
+    <a xlink:href="/realms/{{ $realm->realm_id }}"><title>{{ $realm->realm_name }}</title>
+    <text x="50" y="{{ $realm->realm_y + 25}}" fill="rgb(0,0,0)">{{ $realm->realm_name }}</text></a>
+    </g> 
+
     @endif
 @endforeach
 </svg> 
