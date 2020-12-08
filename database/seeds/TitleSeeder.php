@@ -37,7 +37,7 @@ class TitleSeeder extends Seeder
 			'place' => '7',
 			'quarter' => '14800',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -47,7 +47,7 @@ class TitleSeeder extends Seeder
 			'place' => '14',
 			'quarter' => '14801',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -57,7 +57,7 @@ class TitleSeeder extends Seeder
 			'place' => '24',
 			'quarter' => '14802',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -67,7 +67,7 @@ class TitleSeeder extends Seeder
 			'place' => '31',
 			'quarter' => '14803',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -77,7 +77,7 @@ class TitleSeeder extends Seeder
 			'place' => '37',
 			'quarter' => '14804',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -87,7 +87,7 @@ class TitleSeeder extends Seeder
 			'place' => '40',
 			'quarter' => '14805',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -97,7 +97,7 @@ class TitleSeeder extends Seeder
 			'place' => '51',
 			'quarter' => '14806',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -107,7 +107,7 @@ class TitleSeeder extends Seeder
 			'place' => '55',
 			'quarter' => '14807',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -117,7 +117,7 @@ class TitleSeeder extends Seeder
 			'place' => '69',
 			'quarter' => '14808',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -127,7 +127,7 @@ class TitleSeeder extends Seeder
 			'place' => '70',
 			'quarter' => '14809',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -137,7 +137,7 @@ class TitleSeeder extends Seeder
 			'place' => '73',
 			'quarter' => '14810',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -147,7 +147,7 @@ class TitleSeeder extends Seeder
 			'place' => '77',
 			'quarter' => '14811',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -157,7 +157,7 @@ class TitleSeeder extends Seeder
 			'place' => '93',
 			'quarter' => '14812',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -167,7 +167,7 @@ class TitleSeeder extends Seeder
 			'place' => '113',
 			'quarter' => '14813',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -177,7 +177,7 @@ class TitleSeeder extends Seeder
 			'place' => '126',
 			'quarter' => '14814',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -187,7 +187,7 @@ class TitleSeeder extends Seeder
 			'place' => '133',
 			'quarter' => '14815',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -197,7 +197,7 @@ class TitleSeeder extends Seeder
 			'place' => '141',
 			'quarter' => '14816',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -207,7 +207,7 @@ class TitleSeeder extends Seeder
 			'place' => '145',
 			'quarter' => '14817',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -217,7 +217,7 @@ class TitleSeeder extends Seeder
 			'place' => '149',
 			'quarter' => '14818',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -227,7 +227,7 @@ class TitleSeeder extends Seeder
 			'place' => '162',
 			'quarter' => '14819',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -237,7 +237,7 @@ class TitleSeeder extends Seeder
 			'place' => '164',
 			'quarter' => '14820',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -247,7 +247,7 @@ class TitleSeeder extends Seeder
 			'place' => '165',
 			'quarter' => '14821',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -257,7 +257,7 @@ class TitleSeeder extends Seeder
 			'place' => '169',
 			'quarter' => '14822',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -267,7 +267,7 @@ class TitleSeeder extends Seeder
 			'place' => '170',
 			'quarter' => '14823',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -277,7 +277,7 @@ class TitleSeeder extends Seeder
 			'place' => '177',
 			'quarter' => '14824',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -287,7 +287,7 @@ class TitleSeeder extends Seeder
 			'place' => '181',
 			'quarter' => '14825',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -297,7 +297,7 @@ class TitleSeeder extends Seeder
 			'place' => '182',
 			'quarter' => '14826',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -307,7 +307,7 @@ class TitleSeeder extends Seeder
 			'place' => '214',
 			'quarter' => '14827',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -317,7 +317,7 @@ class TitleSeeder extends Seeder
 			'place' => '215',
 			'quarter' => '14828',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -327,7 +327,7 @@ class TitleSeeder extends Seeder
 			'place' => '249',
 			'quarter' => '14829',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -337,7 +337,7 @@ class TitleSeeder extends Seeder
 			'place' => '259',
 			'quarter' => '14830',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -347,7 +347,7 @@ class TitleSeeder extends Seeder
 			'place' => '287',
 			'quarter' => '14831',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -357,7 +357,7 @@ class TitleSeeder extends Seeder
 			'place' => '299',
 			'quarter' => '14832',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -367,7 +367,7 @@ class TitleSeeder extends Seeder
 			'place' => '311',
 			'quarter' => '14833',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -377,7 +377,7 @@ class TitleSeeder extends Seeder
 			'place' => '316',
 			'quarter' => '14834',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -387,7 +387,7 @@ class TitleSeeder extends Seeder
 			'place' => '355',
 			'quarter' => '14835',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -397,7 +397,7 @@ class TitleSeeder extends Seeder
 			'place' => '357',
 			'quarter' => '14836',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -407,7 +407,7 @@ class TitleSeeder extends Seeder
 			'place' => '365',
 			'quarter' => '14837',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -417,7 +417,7 @@ class TitleSeeder extends Seeder
 			'place' => '369',
 			'quarter' => '14838',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -427,7 +427,7 @@ class TitleSeeder extends Seeder
 			'place' => '377',
 			'quarter' => '14839',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -437,7 +437,7 @@ class TitleSeeder extends Seeder
 			'place' => '389',
 			'quarter' => '14840',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -447,7 +447,7 @@ class TitleSeeder extends Seeder
 			'place' => '392',
 			'quarter' => '14841',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -457,7 +457,7 @@ class TitleSeeder extends Seeder
 			'place' => '395',
 			'quarter' => '14842',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -467,7 +467,7 @@ class TitleSeeder extends Seeder
 			'place' => '401',
 			'quarter' => '14843',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -477,7 +477,7 @@ class TitleSeeder extends Seeder
 			'place' => '413',
 			'quarter' => '14844',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -487,7 +487,7 @@ class TitleSeeder extends Seeder
 			'place' => '425',
 			'quarter' => '14845',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -497,7 +497,7 @@ class TitleSeeder extends Seeder
 			'place' => '441',
 			'quarter' => '14846',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -507,7 +507,7 @@ class TitleSeeder extends Seeder
 			'place' => '449',
 			'quarter' => '14847',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -517,7 +517,7 @@ class TitleSeeder extends Seeder
 			'place' => '459',
 			'quarter' => '14848',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -527,7 +527,7 @@ class TitleSeeder extends Seeder
 			'place' => '462',
 			'quarter' => '14849',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -537,7 +537,7 @@ class TitleSeeder extends Seeder
 			'place' => '463',
 			'quarter' => '14850',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -547,7 +547,7 @@ class TitleSeeder extends Seeder
 			'place' => '465',
 			'quarter' => '14851',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -557,7 +557,7 @@ class TitleSeeder extends Seeder
 			'place' => '469',
 			'quarter' => '14852',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -567,7 +567,7 @@ class TitleSeeder extends Seeder
 			'place' => '477',
 			'quarter' => '14853',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -577,7 +577,7 @@ class TitleSeeder extends Seeder
 			'place' => '478',
 			'quarter' => '14854',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -587,7 +587,7 @@ class TitleSeeder extends Seeder
 			'place' => '479',
 			'quarter' => '14855',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -597,7 +597,7 @@ class TitleSeeder extends Seeder
 			'place' => '480',
 			'quarter' => '14856',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -607,7 +607,7 @@ class TitleSeeder extends Seeder
 			'place' => '485',
 			'quarter' => '14857',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -617,7 +617,7 @@ class TitleSeeder extends Seeder
 			'place' => '489',
 			'quarter' => '14858',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -627,7 +627,7 @@ class TitleSeeder extends Seeder
 			'place' => '490',
 			'quarter' => '14859',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -637,7 +637,7 @@ class TitleSeeder extends Seeder
 			'place' => '491',
 			'quarter' => '14860',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -647,7 +647,7 @@ class TitleSeeder extends Seeder
 			'place' => '497',
 			'quarter' => '14861',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -657,7 +657,7 @@ class TitleSeeder extends Seeder
 			'place' => '501',
 			'quarter' => '14862',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -667,7 +667,7 @@ class TitleSeeder extends Seeder
 			'place' => '505',
 			'quarter' => '14863',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -677,7 +677,7 @@ class TitleSeeder extends Seeder
 			'place' => '535',
 			'quarter' => '14864',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -687,7 +687,7 @@ class TitleSeeder extends Seeder
 			'place' => '547',
 			'quarter' => '14865',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -697,7 +697,7 @@ class TitleSeeder extends Seeder
 			'place' => '549',
 			'quarter' => '14866',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -707,7 +707,7 @@ class TitleSeeder extends Seeder
 			'place' => '552',
 			'quarter' => '14867',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -717,7 +717,7 @@ class TitleSeeder extends Seeder
 			'place' => '553',
 			'quarter' => '14868',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -727,7 +727,7 @@ class TitleSeeder extends Seeder
 			'place' => '565',
 			'quarter' => '14869',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -737,7 +737,7 @@ class TitleSeeder extends Seeder
 			'place' => '571',
 			'quarter' => '14870',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -747,7 +747,7 @@ class TitleSeeder extends Seeder
 			'place' => '583',
 			'quarter' => '14871',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -757,7 +757,7 @@ class TitleSeeder extends Seeder
 			'place' => '593',
 			'quarter' => '14872',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -767,7 +767,7 @@ class TitleSeeder extends Seeder
 			'place' => '597',
 			'quarter' => '14873',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -777,7 +777,7 @@ class TitleSeeder extends Seeder
 			'place' => '625',
 			'quarter' => '14874',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -787,7 +787,7 @@ class TitleSeeder extends Seeder
 			'place' => '629',
 			'quarter' => '14875',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -797,7 +797,7 @@ class TitleSeeder extends Seeder
 			'place' => '645',
 			'quarter' => '14876',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -807,7 +807,7 @@ class TitleSeeder extends Seeder
 			'place' => '670',
 			'quarter' => '14877',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -817,7 +817,7 @@ class TitleSeeder extends Seeder
 			'place' => '684',
 			'quarter' => '14878',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -827,7 +827,7 @@ class TitleSeeder extends Seeder
 			'place' => '693',
 			'quarter' => '14879',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -837,7 +837,7 @@ class TitleSeeder extends Seeder
 			'place' => '697',
 			'quarter' => '14880',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -847,7 +847,7 @@ class TitleSeeder extends Seeder
 			'place' => '825',
 			'quarter' => '14881',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -857,7 +857,7 @@ class TitleSeeder extends Seeder
 			'place' => '829',
 			'quarter' => '14882',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -867,7 +867,7 @@ class TitleSeeder extends Seeder
 			'place' => '833',
 			'quarter' => '14883',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -877,7 +877,7 @@ class TitleSeeder extends Seeder
 			'place' => '862',
 			'quarter' => '14884',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -887,7 +887,7 @@ class TitleSeeder extends Seeder
 			'place' => '909',
 			'quarter' => '14885',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -897,7 +897,7 @@ class TitleSeeder extends Seeder
 			'place' => '925',
 			'quarter' => '14886',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -907,7 +907,7 @@ class TitleSeeder extends Seeder
 			'place' => '937',
 			'quarter' => '14887',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -917,7 +917,7 @@ class TitleSeeder extends Seeder
 			'place' => '939',
 			'quarter' => '14888',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -927,7 +927,7 @@ class TitleSeeder extends Seeder
 			'place' => '945',
 			'quarter' => '14889',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -937,7 +937,7 @@ class TitleSeeder extends Seeder
 			'place' => '961',
 			'quarter' => '14890',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -947,7 +947,7 @@ class TitleSeeder extends Seeder
 			'place' => '967',
 			'quarter' => '14891',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -957,7 +957,7 @@ class TitleSeeder extends Seeder
 			'place' => '971',
 			'quarter' => '14892',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -967,7 +967,7 @@ class TitleSeeder extends Seeder
 			'place' => '977',
 			'quarter' => '14893',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -977,7 +977,7 @@ class TitleSeeder extends Seeder
 			'place' => '985',
 			'quarter' => '14894',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -987,7 +987,7 @@ class TitleSeeder extends Seeder
 			'place' => '993',
 			'quarter' => '14895',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -997,7 +997,7 @@ class TitleSeeder extends Seeder
 			'place' => '1012',
 			'quarter' => '14896',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1007,7 +1007,7 @@ class TitleSeeder extends Seeder
 			'place' => '1013',
 			'quarter' => '14897',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1017,7 +1017,7 @@ class TitleSeeder extends Seeder
 			'place' => '1015',
 			'quarter' => '14898',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1027,7 +1027,7 @@ class TitleSeeder extends Seeder
 			'place' => '1017',
 			'quarter' => '14899',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1037,7 +1037,7 @@ class TitleSeeder extends Seeder
 			'place' => '1027',
 			'quarter' => '14900',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1047,7 +1047,7 @@ class TitleSeeder extends Seeder
 			'place' => '1033',
 			'quarter' => '14901',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1057,7 +1057,7 @@ class TitleSeeder extends Seeder
 			'place' => '1038',
 			'quarter' => '14902',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1067,7 +1067,7 @@ class TitleSeeder extends Seeder
 			'place' => '1039',
 			'quarter' => '14903',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]);
 			DB::table('titles')->insert([
@@ -1077,7 +1077,7 @@ class TitleSeeder extends Seeder
 			'place' => '1040',
 			'quarter' => '14904',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'college_master'
 			]); 
 
@@ -1105,7 +1105,7 @@ class TitleSeeder extends Seeder
 			'place' => '15',
 			'quarter' => '9361',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1115,7 +1115,7 @@ class TitleSeeder extends Seeder
 			'place' => '45',
 			'quarter' => '9362',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1125,7 +1125,7 @@ class TitleSeeder extends Seeder
 			'place' => '49',
 			'quarter' => '9363',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1135,7 +1135,7 @@ class TitleSeeder extends Seeder
 			'place' => '53',
 			'quarter' => '9364',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1145,7 +1145,7 @@ class TitleSeeder extends Seeder
 			'place' => '80',
 			'quarter' => '9365',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1155,7 +1155,7 @@ class TitleSeeder extends Seeder
 			'place' => '86',
 			'quarter' => '9366',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1165,7 +1165,7 @@ class TitleSeeder extends Seeder
 			'place' => '91',
 			'quarter' => '9367',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1175,7 +1175,7 @@ class TitleSeeder extends Seeder
 			'place' => '111',
 			'quarter' => '9368',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1185,7 +1185,7 @@ class TitleSeeder extends Seeder
 			'place' => '120',
 			'quarter' => '9369',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1195,7 +1195,7 @@ class TitleSeeder extends Seeder
 			'place' => '121',
 			'quarter' => '9370',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1205,7 +1205,7 @@ class TitleSeeder extends Seeder
 			'place' => '161',
 			'quarter' => '9371',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1215,7 +1215,7 @@ class TitleSeeder extends Seeder
 			'place' => '174',
 			'quarter' => '9372',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1225,7 +1225,7 @@ class TitleSeeder extends Seeder
 			'place' => '175',
 			'quarter' => '9373',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1235,7 +1235,7 @@ class TitleSeeder extends Seeder
 			'place' => '183',
 			'quarter' => '9374',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1245,7 +1245,7 @@ class TitleSeeder extends Seeder
 			'place' => '185',
 			'quarter' => '9375',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1255,7 +1255,7 @@ class TitleSeeder extends Seeder
 			'place' => '188',
 			'quarter' => '9376',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1265,7 +1265,7 @@ class TitleSeeder extends Seeder
 			'place' => '190',
 			'quarter' => '9377',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1275,7 +1275,7 @@ class TitleSeeder extends Seeder
 			'place' => '194',
 			'quarter' => '9378',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1285,7 +1285,7 @@ class TitleSeeder extends Seeder
 			'place' => '201',
 			'quarter' => '9379',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1295,7 +1295,7 @@ class TitleSeeder extends Seeder
 			'place' => '203',
 			'quarter' => '9380',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1305,7 +1305,7 @@ class TitleSeeder extends Seeder
 			'place' => '205',
 			'quarter' => '9381',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1315,7 +1315,7 @@ class TitleSeeder extends Seeder
 			'place' => '206',
 			'quarter' => '9382',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1325,7 +1325,7 @@ class TitleSeeder extends Seeder
 			'place' => '212',
 			'quarter' => '9383',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1335,7 +1335,7 @@ class TitleSeeder extends Seeder
 			'place' => '219',
 			'quarter' => '9384',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1345,7 +1345,7 @@ class TitleSeeder extends Seeder
 			'place' => '222',
 			'quarter' => '9385',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1355,7 +1355,7 @@ class TitleSeeder extends Seeder
 			'place' => '241',
 			'quarter' => '9386',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1365,7 +1365,7 @@ class TitleSeeder extends Seeder
 			'place' => '243',
 			'quarter' => '9387',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1375,7 +1375,7 @@ class TitleSeeder extends Seeder
 			'place' => '245',
 			'quarter' => '9388',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1385,7 +1385,7 @@ class TitleSeeder extends Seeder
 			'place' => '254',
 			'quarter' => '9389',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1395,7 +1395,7 @@ class TitleSeeder extends Seeder
 			'place' => '269',
 			'quarter' => '9390',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1405,7 +1405,7 @@ class TitleSeeder extends Seeder
 			'place' => '276',
 			'quarter' => '9391',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1415,7 +1415,7 @@ class TitleSeeder extends Seeder
 			'place' => '277',
 			'quarter' => '9392',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1425,7 +1425,7 @@ class TitleSeeder extends Seeder
 			'place' => '279',
 			'quarter' => '9393',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1435,7 +1435,7 @@ class TitleSeeder extends Seeder
 			'place' => '285',
 			'quarter' => '9394',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1445,7 +1445,7 @@ class TitleSeeder extends Seeder
 			'place' => '289',
 			'quarter' => '9395',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1455,7 +1455,7 @@ class TitleSeeder extends Seeder
 			'place' => '297',
 			'quarter' => '9396',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1465,7 +1465,7 @@ class TitleSeeder extends Seeder
 			'place' => '300',
 			'quarter' => '9397',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1475,7 +1475,7 @@ class TitleSeeder extends Seeder
 			'place' => '317',
 			'quarter' => '9398',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1485,7 +1485,7 @@ class TitleSeeder extends Seeder
 			'place' => '335',
 			'quarter' => '9399',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1495,7 +1495,7 @@ class TitleSeeder extends Seeder
 			'place' => '339',
 			'quarter' => '9400',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1505,7 +1505,7 @@ class TitleSeeder extends Seeder
 			'place' => '346',
 			'quarter' => '9401',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1515,7 +1515,7 @@ class TitleSeeder extends Seeder
 			'place' => '351',
 			'quarter' => '9402',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1525,7 +1525,7 @@ class TitleSeeder extends Seeder
 			'place' => '353',
 			'quarter' => '9403',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1535,7 +1535,7 @@ class TitleSeeder extends Seeder
 			'place' => '361',
 			'quarter' => '9404',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1545,7 +1545,7 @@ class TitleSeeder extends Seeder
 			'place' => '433',
 			'quarter' => '9405',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1555,7 +1555,7 @@ class TitleSeeder extends Seeder
 			'place' => '500',
 			'quarter' => '9406',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1565,7 +1565,7 @@ class TitleSeeder extends Seeder
 			'place' => '503',
 			'quarter' => '9407',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1575,7 +1575,7 @@ class TitleSeeder extends Seeder
 			'place' => '507',
 			'quarter' => '9408',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1585,7 +1585,7 @@ class TitleSeeder extends Seeder
 			'place' => '509',
 			'quarter' => '9409',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1595,7 +1595,7 @@ class TitleSeeder extends Seeder
 			'place' => '510',
 			'quarter' => '9410',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1605,7 +1605,7 @@ class TitleSeeder extends Seeder
 			'place' => '676',
 			'quarter' => '9411',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1615,7 +1615,7 @@ class TitleSeeder extends Seeder
 			'place' => '685',
 			'quarter' => '9412',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1625,7 +1625,7 @@ class TitleSeeder extends Seeder
 			'place' => '699',
 			'quarter' => '9413',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1635,7 +1635,7 @@ class TitleSeeder extends Seeder
 			'place' => '701',
 			'quarter' => '9414',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1645,7 +1645,7 @@ class TitleSeeder extends Seeder
 			'place' => '715',
 			'quarter' => '9415',
 			'religion' => '2',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1655,7 +1655,7 @@ class TitleSeeder extends Seeder
 			'place' => '728',
 			'quarter' => '9416',
 			'religion' => '2',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1665,7 +1665,7 @@ class TitleSeeder extends Seeder
 			'place' => '733',
 			'quarter' => '9417',
 			'religion' => '2',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1675,7 +1675,7 @@ class TitleSeeder extends Seeder
 			'place' => '753',
 			'quarter' => '9418',
 			'religion' => '3',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1685,7 +1685,7 @@ class TitleSeeder extends Seeder
 			'place' => '769',
 			'quarter' => '9419',
 			'religion' => '3',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1695,7 +1695,7 @@ class TitleSeeder extends Seeder
 			'place' => '793',
 			'quarter' => '9420',
 			'religion' => '3',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1705,7 +1705,7 @@ class TitleSeeder extends Seeder
 			'place' => '827',
 			'quarter' => '9421',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1715,7 +1715,7 @@ class TitleSeeder extends Seeder
 			'place' => '853',
 			'quarter' => '9422',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1725,7 +1725,7 @@ class TitleSeeder extends Seeder
 			'place' => '856',
 			'quarter' => '9423',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1735,7 +1735,7 @@ class TitleSeeder extends Seeder
 			'place' => '868',
 			'quarter' => '9424',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1745,7 +1745,7 @@ class TitleSeeder extends Seeder
 			'place' => '885',
 			'quarter' => '9425',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1755,7 +1755,7 @@ class TitleSeeder extends Seeder
 			'place' => '897',
 			'quarter' => '9426',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1765,7 +1765,7 @@ class TitleSeeder extends Seeder
 			'place' => '901',
 			'quarter' => '9427',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1775,7 +1775,7 @@ class TitleSeeder extends Seeder
 			'place' => '910',
 			'quarter' => '9428',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1785,7 +1785,7 @@ class TitleSeeder extends Seeder
 			'place' => '916',
 			'quarter' => '9429',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1795,7 +1795,7 @@ class TitleSeeder extends Seeder
 			'place' => '941',
 			'quarter' => '9430',
 			'religion' => '4',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1805,7 +1805,7 @@ class TitleSeeder extends Seeder
 			'place' => '957',
 			'quarter' => '9431',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1815,7 +1815,7 @@ class TitleSeeder extends Seeder
 			'place' => '965',
 			'quarter' => '9432',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1825,7 +1825,7 @@ class TitleSeeder extends Seeder
 			'place' => '988',
 			'quarter' => '9433',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]);
 			DB::table('titles')->insert([
@@ -1835,7 +1835,7 @@ class TitleSeeder extends Seeder
 			'place' => '1005',
 			'quarter' => '9434',
 			'religion' => '5',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'fixed_hospice'
 			]); 
 
@@ -4601,7 +4601,7 @@ DB::table('titles')->insert([
 	'place' => '1',
 	'quarter' => '13595',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4611,7 +4611,7 @@ DB::table('titles')->insert([
 	'place' => '3',
 	'quarter' => '13596',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4621,7 +4621,7 @@ DB::table('titles')->insert([
 	'place' => '14',
 	'quarter' => '13597',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4631,7 +4631,7 @@ DB::table('titles')->insert([
 	'place' => '15',
 	'quarter' => '13598',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4641,7 +4641,7 @@ DB::table('titles')->insert([
 	'place' => '21',
 	'quarter' => '13599',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4651,7 +4651,7 @@ DB::table('titles')->insert([
 	'place' => '23',
 	'quarter' => '13600',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4661,7 +4661,7 @@ DB::table('titles')->insert([
 	'place' => '24',
 	'quarter' => '13601',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4671,7 +4671,7 @@ DB::table('titles')->insert([
 	'place' => '88',
 	'quarter' => '13602',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4681,7 +4681,7 @@ DB::table('titles')->insert([
 	'place' => '92',
 	'quarter' => '13603',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4691,7 +4691,7 @@ DB::table('titles')->insert([
 	'place' => '95',
 	'quarter' => '13604',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4701,7 +4701,7 @@ DB::table('titles')->insert([
 	'place' => '97',
 	'quarter' => '13605',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4711,7 +4711,7 @@ DB::table('titles')->insert([
 	'place' => '109',
 	'quarter' => '13606',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4721,7 +4721,7 @@ DB::table('titles')->insert([
 	'place' => '111',
 	'quarter' => '13607',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4731,7 +4731,7 @@ DB::table('titles')->insert([
 	'place' => '122',
 	'quarter' => '13608',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4741,7 +4741,7 @@ DB::table('titles')->insert([
 	'place' => '127',
 	'quarter' => '13609',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4751,7 +4751,7 @@ DB::table('titles')->insert([
 	'place' => '163',
 	'quarter' => '13610',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4761,7 +4761,7 @@ DB::table('titles')->insert([
 	'place' => '185',
 	'quarter' => '13611',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4771,7 +4771,7 @@ DB::table('titles')->insert([
 	'place' => '190',
 	'quarter' => '13612',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4781,7 +4781,7 @@ DB::table('titles')->insert([
 	'place' => '197',
 	'quarter' => '13613',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4791,7 +4791,7 @@ DB::table('titles')->insert([
 	'place' => '199',
 	'quarter' => '13614',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4801,7 +4801,7 @@ DB::table('titles')->insert([
 	'place' => '200',
 	'quarter' => '13615',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4811,7 +4811,7 @@ DB::table('titles')->insert([
 	'place' => '207',
 	'quarter' => '13616',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4821,7 +4821,7 @@ DB::table('titles')->insert([
 	'place' => '237',
 	'quarter' => '13617',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4831,7 +4831,7 @@ DB::table('titles')->insert([
 	'place' => '241',
 	'quarter' => '13618',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4841,7 +4841,7 @@ DB::table('titles')->insert([
 	'place' => '243',
 	'quarter' => '13619',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4851,7 +4851,7 @@ DB::table('titles')->insert([
 	'place' => '245',
 	'quarter' => '13620',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4861,7 +4861,7 @@ DB::table('titles')->insert([
 	'place' => '250',
 	'quarter' => '13621',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4871,7 +4871,7 @@ DB::table('titles')->insert([
 	'place' => '251',
 	'quarter' => '13622',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4881,7 +4881,7 @@ DB::table('titles')->insert([
 	'place' => '255',
 	'quarter' => '13623',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4891,7 +4891,7 @@ DB::table('titles')->insert([
 	'place' => '257',
 	'quarter' => '13624',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4901,7 +4901,7 @@ DB::table('titles')->insert([
 	'place' => '261',
 	'quarter' => '13625',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4911,7 +4911,7 @@ DB::table('titles')->insert([
 	'place' => '269',
 	'quarter' => '13626',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4921,7 +4921,7 @@ DB::table('titles')->insert([
 	'place' => '279',
 	'quarter' => '13627',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4931,7 +4931,7 @@ DB::table('titles')->insert([
 	'place' => '285',
 	'quarter' => '13628',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4941,7 +4941,7 @@ DB::table('titles')->insert([
 	'place' => '288',
 	'quarter' => '13629',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4951,7 +4951,7 @@ DB::table('titles')->insert([
 	'place' => '289',
 	'quarter' => '13630',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4961,7 +4961,7 @@ DB::table('titles')->insert([
 	'place' => '302',
 	'quarter' => '13631',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4971,7 +4971,7 @@ DB::table('titles')->insert([
 	'place' => '303',
 	'quarter' => '13632',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4981,7 +4981,7 @@ DB::table('titles')->insert([
 	'place' => '304',
 	'quarter' => '13633',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -4991,7 +4991,7 @@ DB::table('titles')->insert([
 	'place' => '311',
 	'quarter' => '13634',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5001,7 +5001,7 @@ DB::table('titles')->insert([
 	'place' => '314',
 	'quarter' => '13635',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5011,7 +5011,7 @@ DB::table('titles')->insert([
 	'place' => '316',
 	'quarter' => '13636',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5021,7 +5021,7 @@ DB::table('titles')->insert([
 	'place' => '317',
 	'quarter' => '13637',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5031,7 +5031,7 @@ DB::table('titles')->insert([
 	'place' => '323',
 	'quarter' => '13638',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5041,7 +5041,7 @@ DB::table('titles')->insert([
 	'place' => '324',
 	'quarter' => '13639',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5051,7 +5051,7 @@ DB::table('titles')->insert([
 	'place' => '325',
 	'quarter' => '13640',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5061,7 +5061,7 @@ DB::table('titles')->insert([
 	'place' => '330',
 	'quarter' => '13641',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5071,7 +5071,7 @@ DB::table('titles')->insert([
 	'place' => '331',
 	'quarter' => '13642',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5081,7 +5081,7 @@ DB::table('titles')->insert([
 	'place' => '341',
 	'quarter' => '13643',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5091,7 +5091,7 @@ DB::table('titles')->insert([
 	'place' => '349',
 	'quarter' => '13644',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5101,7 +5101,7 @@ DB::table('titles')->insert([
 	'place' => '351',
 	'quarter' => '13645',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5111,7 +5111,7 @@ DB::table('titles')->insert([
 	'place' => '364',
 	'quarter' => '13646',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5121,7 +5121,7 @@ DB::table('titles')->insert([
 	'place' => '365',
 	'quarter' => '13647',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5131,7 +5131,7 @@ DB::table('titles')->insert([
 	'place' => '369',
 	'quarter' => '13648',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5141,7 +5141,7 @@ DB::table('titles')->insert([
 	'place' => '370',
 	'quarter' => '13649',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5151,7 +5151,7 @@ DB::table('titles')->insert([
 	'place' => '371',
 	'quarter' => '13650',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5161,7 +5161,7 @@ DB::table('titles')->insert([
 	'place' => '373',
 	'quarter' => '13651',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5171,7 +5171,7 @@ DB::table('titles')->insert([
 	'place' => '375',
 	'quarter' => '13652',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5181,7 +5181,7 @@ DB::table('titles')->insert([
 	'place' => '377',
 	'quarter' => '13653',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5191,7 +5191,7 @@ DB::table('titles')->insert([
 	'place' => '378',
 	'quarter' => '13654',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5201,7 +5201,7 @@ DB::table('titles')->insert([
 	'place' => '386',
 	'quarter' => '13655',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5211,7 +5211,7 @@ DB::table('titles')->insert([
 	'place' => '399',
 	'quarter' => '13656',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5221,7 +5221,7 @@ DB::table('titles')->insert([
 	'place' => '407',
 	'quarter' => '13657',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5231,7 +5231,7 @@ DB::table('titles')->insert([
 	'place' => '431',
 	'quarter' => '13658',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5241,7 +5241,7 @@ DB::table('titles')->insert([
 	'place' => '447',
 	'quarter' => '13659',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5251,7 +5251,7 @@ DB::table('titles')->insert([
 	'place' => '451',
 	'quarter' => '13660',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5261,7 +5261,7 @@ DB::table('titles')->insert([
 	'place' => '453',
 	'quarter' => '13661',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5271,7 +5271,7 @@ DB::table('titles')->insert([
 	'place' => '455',
 	'quarter' => '13662',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5281,7 +5281,7 @@ DB::table('titles')->insert([
 	'place' => '465',
 	'quarter' => '13663',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5291,7 +5291,7 @@ DB::table('titles')->insert([
 	'place' => '466',
 	'quarter' => '13664',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5301,7 +5301,7 @@ DB::table('titles')->insert([
 	'place' => '467',
 	'quarter' => '13665',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5311,7 +5311,7 @@ DB::table('titles')->insert([
 	'place' => '469',
 	'quarter' => '13666',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5321,7 +5321,7 @@ DB::table('titles')->insert([
 	'place' => '471',
 	'quarter' => '13667',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5331,7 +5331,7 @@ DB::table('titles')->insert([
 	'place' => '481',
 	'quarter' => '13668',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5341,7 +5341,7 @@ DB::table('titles')->insert([
 	'place' => '495',
 	'quarter' => '13669',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5351,7 +5351,7 @@ DB::table('titles')->insert([
 	'place' => '501',
 	'quarter' => '13670',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5361,7 +5361,7 @@ DB::table('titles')->insert([
 	'place' => '502',
 	'quarter' => '13671',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5371,7 +5371,7 @@ DB::table('titles')->insert([
 	'place' => '507',
 	'quarter' => '13672',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5381,7 +5381,7 @@ DB::table('titles')->insert([
 	'place' => '509',
 	'quarter' => '13673',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5391,7 +5391,7 @@ DB::table('titles')->insert([
 	'place' => '510',
 	'quarter' => '13674',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5401,7 +5401,7 @@ DB::table('titles')->insert([
 	'place' => '512',
 	'quarter' => '13675',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5411,7 +5411,7 @@ DB::table('titles')->insert([
 	'place' => '514',
 	'quarter' => '13676',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5421,7 +5421,7 @@ DB::table('titles')->insert([
 	'place' => '515',
 	'quarter' => '13677',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5431,7 +5431,7 @@ DB::table('titles')->insert([
 	'place' => '523',
 	'quarter' => '13678',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5441,7 +5441,7 @@ DB::table('titles')->insert([
 	'place' => '524',
 	'quarter' => '13679',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5451,7 +5451,7 @@ DB::table('titles')->insert([
 	'place' => '525',
 	'quarter' => '13680',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5461,7 +5461,7 @@ DB::table('titles')->insert([
 	'place' => '529',
 	'quarter' => '13681',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5471,7 +5471,7 @@ DB::table('titles')->insert([
 	'place' => '530',
 	'quarter' => '13682',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5481,7 +5481,7 @@ DB::table('titles')->insert([
 	'place' => '531',
 	'quarter' => '13683',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5491,7 +5491,7 @@ DB::table('titles')->insert([
 	'place' => '532',
 	'quarter' => '13684',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5501,7 +5501,7 @@ DB::table('titles')->insert([
 	'place' => '534',
 	'quarter' => '13685',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5511,7 +5511,7 @@ DB::table('titles')->insert([
 	'place' => '535',
 	'quarter' => '13686',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5521,7 +5521,7 @@ DB::table('titles')->insert([
 	'place' => '537',
 	'quarter' => '13687',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5531,7 +5531,7 @@ DB::table('titles')->insert([
 	'place' => '539',
 	'quarter' => '13688',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5541,7 +5541,7 @@ DB::table('titles')->insert([
 	'place' => '541',
 	'quarter' => '13689',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5551,7 +5551,7 @@ DB::table('titles')->insert([
 	'place' => '542',
 	'quarter' => '13690',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5561,7 +5561,7 @@ DB::table('titles')->insert([
 	'place' => '547',
 	'quarter' => '13691',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5571,7 +5571,7 @@ DB::table('titles')->insert([
 	'place' => '548',
 	'quarter' => '13692',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5581,7 +5581,7 @@ DB::table('titles')->insert([
 	'place' => '558',
 	'quarter' => '13693',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5591,7 +5591,7 @@ DB::table('titles')->insert([
 	'place' => '567',
 	'quarter' => '13694',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5601,7 +5601,7 @@ DB::table('titles')->insert([
 	'place' => '581',
 	'quarter' => '13695',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5611,7 +5611,7 @@ DB::table('titles')->insert([
 	'place' => '583',
 	'quarter' => '13696',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5621,7 +5621,7 @@ DB::table('titles')->insert([
 	'place' => '585',
 	'quarter' => '13697',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5631,7 +5631,7 @@ DB::table('titles')->insert([
 	'place' => '589',
 	'quarter' => '13698',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5641,7 +5641,7 @@ DB::table('titles')->insert([
 	'place' => '593',
 	'quarter' => '13699',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5651,7 +5651,7 @@ DB::table('titles')->insert([
 	'place' => '595',
 	'quarter' => '13700',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5661,7 +5661,7 @@ DB::table('titles')->insert([
 	'place' => '600',
 	'quarter' => '13701',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5671,7 +5671,7 @@ DB::table('titles')->insert([
 	'place' => '601',
 	'quarter' => '13702',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5681,7 +5681,7 @@ DB::table('titles')->insert([
 	'place' => '609',
 	'quarter' => '13703',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5691,7 +5691,7 @@ DB::table('titles')->insert([
 	'place' => '611',
 	'quarter' => '13704',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5701,7 +5701,7 @@ DB::table('titles')->insert([
 	'place' => '621',
 	'quarter' => '13705',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5711,7 +5711,7 @@ DB::table('titles')->insert([
 	'place' => '622',
 	'quarter' => '13706',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5721,7 +5721,7 @@ DB::table('titles')->insert([
 	'place' => '623',
 	'quarter' => '13707',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5731,7 +5731,7 @@ DB::table('titles')->insert([
 	'place' => '625',
 	'quarter' => '13708',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5741,7 +5741,7 @@ DB::table('titles')->insert([
 	'place' => '626',
 	'quarter' => '13709',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5751,7 +5751,7 @@ DB::table('titles')->insert([
 	'place' => '627',
 	'quarter' => '13710',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5761,7 +5761,7 @@ DB::table('titles')->insert([
 	'place' => '665',
 	'quarter' => '13711',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5771,7 +5771,7 @@ DB::table('titles')->insert([
 	'place' => '666',
 	'quarter' => '13712',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5781,7 +5781,7 @@ DB::table('titles')->insert([
 	'place' => '667',
 	'quarter' => '13713',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5791,7 +5791,7 @@ DB::table('titles')->insert([
 	'place' => '668',
 	'quarter' => '13714',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5801,7 +5801,7 @@ DB::table('titles')->insert([
 	'place' => '669',
 	'quarter' => '13715',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5811,7 +5811,7 @@ DB::table('titles')->insert([
 	'place' => '670',
 	'quarter' => '13716',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5821,7 +5821,7 @@ DB::table('titles')->insert([
 	'place' => '671',
 	'quarter' => '13717',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5831,7 +5831,7 @@ DB::table('titles')->insert([
 	'place' => '672',
 	'quarter' => '13718',
 	'religion' => '1',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5841,7 +5841,7 @@ DB::table('titles')->insert([
 	'place' => '713',
 	'quarter' => '13719',
 	'religion' => '2',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5851,7 +5851,7 @@ DB::table('titles')->insert([
 	'place' => '719',
 	'quarter' => '13720',
 	'religion' => '2',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5861,7 +5861,7 @@ DB::table('titles')->insert([
 	'place' => '725',
 	'quarter' => '13721',
 	'religion' => '2',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5871,7 +5871,7 @@ DB::table('titles')->insert([
 	'place' => '750',
 	'quarter' => '13722',
 	'religion' => '3',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5881,7 +5881,7 @@ DB::table('titles')->insert([
 	'place' => '752',
 	'quarter' => '13723',
 	'religion' => '3',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5891,7 +5891,7 @@ DB::table('titles')->insert([
 	'place' => '825',
 	'quarter' => '13724',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5901,7 +5901,7 @@ DB::table('titles')->insert([
 	'place' => '826',
 	'quarter' => '13725',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5911,7 +5911,7 @@ DB::table('titles')->insert([
 	'place' => '829',
 	'quarter' => '13726',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5921,7 +5921,7 @@ DB::table('titles')->insert([
 	'place' => '830',
 	'quarter' => '13727',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5931,7 +5931,7 @@ DB::table('titles')->insert([
 	'place' => '833',
 	'quarter' => '13728',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5941,7 +5941,7 @@ DB::table('titles')->insert([
 	'place' => '834',
 	'quarter' => '13729',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5951,7 +5951,7 @@ DB::table('titles')->insert([
 	'place' => '838',
 	'quarter' => '13730',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5961,7 +5961,7 @@ DB::table('titles')->insert([
 	'place' => '842',
 	'quarter' => '13731',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5971,7 +5971,7 @@ DB::table('titles')->insert([
 	'place' => '854',
 	'quarter' => '13732',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5981,7 +5981,7 @@ DB::table('titles')->insert([
 	'place' => '855',
 	'quarter' => '13733',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -5991,7 +5991,7 @@ DB::table('titles')->insert([
 	'place' => '856',
 	'quarter' => '13734',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6001,7 +6001,7 @@ DB::table('titles')->insert([
 	'place' => '857',
 	'quarter' => '13735',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6011,7 +6011,7 @@ DB::table('titles')->insert([
 	'place' => '859',
 	'quarter' => '13736',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6021,7 +6021,7 @@ DB::table('titles')->insert([
 	'place' => '866',
 	'quarter' => '13737',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6031,7 +6031,7 @@ DB::table('titles')->insert([
 	'place' => '873',
 	'quarter' => '13738',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6041,7 +6041,7 @@ DB::table('titles')->insert([
 	'place' => '874',
 	'quarter' => '13739',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6051,7 +6051,7 @@ DB::table('titles')->insert([
 	'place' => '875',
 	'quarter' => '13740',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6061,7 +6061,7 @@ DB::table('titles')->insert([
 	'place' => '881',
 	'quarter' => '13741',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6071,7 +6071,7 @@ DB::table('titles')->insert([
 	'place' => '883',
 	'quarter' => '13742',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6081,7 +6081,7 @@ DB::table('titles')->insert([
 	'place' => '885',
 	'quarter' => '13743',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6091,7 +6091,7 @@ DB::table('titles')->insert([
 	'place' => '888',
 	'quarter' => '13744',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6101,7 +6101,7 @@ DB::table('titles')->insert([
 	'place' => '893',
 	'quarter' => '13745',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6111,7 +6111,7 @@ DB::table('titles')->insert([
 	'place' => '895',
 	'quarter' => '13746',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6121,7 +6121,7 @@ DB::table('titles')->insert([
 	'place' => '896',
 	'quarter' => '13747',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6131,7 +6131,7 @@ DB::table('titles')->insert([
 	'place' => '902',
 	'quarter' => '13748',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6141,7 +6141,7 @@ DB::table('titles')->insert([
 	'place' => '913',
 	'quarter' => '13749',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6151,7 +6151,7 @@ DB::table('titles')->insert([
 	'place' => '914',
 	'quarter' => '13750',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6161,7 +6161,7 @@ DB::table('titles')->insert([
 	'place' => '921',
 	'quarter' => '13751',
 	'religion' => '4',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6171,7 +6171,7 @@ DB::table('titles')->insert([
 	'place' => '959',
 	'quarter' => '13752',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6181,7 +6181,7 @@ DB::table('titles')->insert([
 	'place' => '987',
 	'quarter' => '13753',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6191,7 +6191,7 @@ DB::table('titles')->insert([
 	'place' => '990',
 	'quarter' => '13754',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6201,7 +6201,7 @@ DB::table('titles')->insert([
 	'place' => '997',
 	'quarter' => '13755',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6211,7 +6211,7 @@ DB::table('titles')->insert([
 	'place' => '1000',
 	'quarter' => '13756',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6221,7 +6221,7 @@ DB::table('titles')->insert([
 	'place' => '1013',
 	'quarter' => '13757',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6231,7 +6231,7 @@ DB::table('titles')->insert([
 	'place' => '1015',
 	'quarter' => '13758',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 	DB::table('titles')->insert([
@@ -6241,7 +6241,7 @@ DB::table('titles')->insert([
 	'place' => '1018',
 	'quarter' => '13759',
 	'religion' => '5',
-	'rank' => '5',
+	'rank' => '4',
 	'career' => 'harbour_master'
 	]);
 

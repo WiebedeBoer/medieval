@@ -139,11 +139,37 @@ class ReligionCatholicController extends Controller
         return $controlled_title;  
     }
 
+    //secular ranks
+    //empire = 12
+    //kingdom = 11
+    //grand duchy = 10
+    //duchy = 9
+    //march = 8
+    //county = 7
+    //castellany = 6
+    //barony or manor = 5
+    //parish or town or lordship = 4
+    //tithing or quarter = 3
+    //hide = 2
+    //virgate = 1
+
+    //church ranks
+    //pope = 7
+    //patriarch or cardinal = 6
+    //archdiocese = 5
+    //diocese = 4
+    //glebe or abbot = 3
+    //chapelry or priory = 2
+    //vicarage or monk = 1
+    //layman = 0
+
     //type: elective empire
     //religion: catholic
     private function elective_empire_catholic($category,$rank,$name)
     {            
         $selected_title->name ="emperor";
+        $selected_title->rank =$rank;
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -152,6 +178,8 @@ class ReligionCatholicController extends Controller
     private function papacy_catholic($category,$rank,$name)
     {            
         $selected_title->name ="pope";
+        $selected_title->rank =$rank;
+        $selected_title->church =7;
         return $elected_title;
     }
 
@@ -159,7 +187,9 @@ class ReligionCatholicController extends Controller
     //religion: catholic
     private function court_catholic($category,$rank,$name)
     {            
-        $selected_title->name = $name;
+        $selected_title->name =$name;
+        $selected_title->rank =$rank;
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -168,6 +198,8 @@ class ReligionCatholicController extends Controller
     private function camerlengo_catholic($category,$rank,$name)
     {            
         $selected_title->name = "camerlengo";
+        $selected_title->rank =$rank;
+        $selected_title->church =6;
         return $elected_title;
     }
 
@@ -176,6 +208,8 @@ class ReligionCatholicController extends Controller
     private function herald_catholic($category,$rank,$name)
     {            
         $selected_title->name = "herald of ".$name;
+        $selected_title->rank =$rank;
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -185,28 +219,44 @@ class ReligionCatholicController extends Controller
     {                  
         if($category =="patriarch"){
             $selected_title->name ="patriarch";
+            $selected_title->rank =$rank;
+            $selected_title->church =6;
         }
         elseif($category =="prince archbishop"){
             $selected_title->name ="prince archbishop";
+            $selected_title->rank =$rank;
+            $selected_title->church =5;
         }
         elseif($category =="prince bishop"){
             $selected_title->name ="prince bishop";
+            $selected_title->rank =$rank; //7
+            $selected_title->church =4;
         }
         elseif($category =="archbishop"){
-            $selected_title->name ="archbishop";
+            $selected_title->name ="lord archbishop";
+            $selected_title->rank =$rank;
+            $selected_title->church =5;
         }
         elseif($category =="bishop"){
-            $selected_title->name ="bishop";
+            $selected_title->name ="lord bishop";
+            $selected_title->rank =$rank; //5
+            $selected_title->church =4;
         } 
         elseif($category =="priest"){
             $selected_title->name ="priest";
+            $selected_title->rank =$rank;
+            $selected_title->church =3;
         } 
         else {
             if($rank >=3){
                 $selected_title->name ="chaplain";
+                $selected_title->rank =3;
+                $selected_title->church =2;
             }
             else {
                 $selected_title->name ="vicar";
+                $selected_title->rank =2;
+                $selected_title->church =1;
             }  
         }    
         return $elected_title;
@@ -218,24 +268,36 @@ class ReligionCatholicController extends Controller
     {    
         if($category =="grandmaster"){
             $selected_title->name ="grandmaster";
+            $selected_title->rank =$rank;
+            $selected_title->church =4; 
         }              
         elseif($category =="prince abbot"){
             $selected_title->name ="prince abbot";
+            $selected_title->rank =$rank;
+            $selected_title->church =3; 
         }
         elseif($category =="prince provost"){
             $selected_title->name ="prince provost";
+            $selected_title->rank =$rank;
+            $selected_title->church =3; 
         }
         elseif($category =="abbot"){
             $selected_title->name ="lord abbot";
+            $selected_title->rank =$rank;
+            $selected_title->church =3; 
         }
         else {
             if($rank >=3){
                 $selected_title->name ="prior";
+                $selected_title->rank =$rank;
+                $selected_title->church =2; 
             }
             else {
                 $selected_title->name ="monk";
+                $selected_title->rank =$rank;
+                $selected_title->church =1; 
             }            
-        }       
+        }      
         return $elected_title;
     }
 
@@ -245,10 +307,13 @@ class ReligionCatholicController extends Controller
     {            
         if($category =="highking"){
             $selected_title->name ="high king";
+            $selected_title->rank =$rank;
         }
         else {
             $selected_title->name ="petty king";
+            $selected_title->rank =$rank;
         }
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -258,10 +323,13 @@ class ReligionCatholicController extends Controller
     {            
         if($category =="gamekeeper"){
             $selected_title->name ="gamekeeper";
+            $selected_title->rank =$rank;
         }
         else {
             $selected_title->name ="falconer";
+            $selected_title->rank =$rank;
         }
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -271,13 +339,17 @@ class ReligionCatholicController extends Controller
     {            
         if($category =="hostler"){
             $selected_title->name ="hostler";
+            $selected_title->rank =4;
         }
         elseif($category =="innkeeper"){
             $selected_title->name ="innkeeper";
+            $selected_title->rank =3;
         }
         else {
             $selected_title->name ="publican";
+            $selected_title->rank =2;
         }
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -286,6 +358,8 @@ class ReligionCatholicController extends Controller
     private function warden_catholic($category,$rank,$name)
     {            
         $selected_title->name ="lord warden";
+        $selected_title->rank =$rank;
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -295,24 +369,31 @@ class ReligionCatholicController extends Controller
     {            
         if($category =="sheriff"){
             $selected_title->name ="sheriff";
+            $selected_title->rank =$rank;
         }
         elseif($category =="bailiff"){
             $selected_title->name ="bailiff";
+            $selected_title->rank =$rank;
         }
         elseif($category =="reeve"){
             $selected_title->name ="reeve";
+            $selected_title->rank =$rank;
         }
         else {
             if($rank >=3){
                 $selected_title->name ="hufner";
+                $selected_title->rank =3;
             }
             elseif($rank ==2){
                 $selected_title->name ="cottar";
+                $selected_title->rank =2;
             }
             else {
                 $selected_title->name ="serf";
+                $selected_title->rank =1;
             } 
         }
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -322,30 +403,43 @@ class ReligionCatholicController extends Controller
     {    
         if($category =="doge"){
             $selected_title->name ="doge";
+            $selected_title->rank =$rank; //10
         }
         elseif($category =="rector"){
             $selected_title->name ="rector";
+            $selected_title->rank =$rank; //10
         }
         elseif($category =="gonfalier"){
             $selected_title->name ="gonfalier";
+            $selected_title->rank =$rank; //10
         }
         elseif($category =="burgrave"){
             $selected_title->name ="burgrave";
+            $selected_title->rank =$rank; //6
         }    
         elseif($category =="lord warden"){
             $selected_title->name ="lord warden";
+            $selected_title->rank =$rank; //5
+        }
+        elseif($category =="high mayor"){
+            $selected_title->name ="high mayor";
+            $selected_title->rank =$rank; //4
         }
         elseif($category =="lord mayor"){
             $selected_title->name ="lord mayor";
+            $selected_title->rank =$rank; //4
         }
         else {
             if($rank >=3){
                 $selected_title->name ="patrician";
+                $selected_title->rank =3;
             }
             else {
                 $selected_title->name ="burgher";
+                $selected_title->rank =2;
             } 
-        }      
+        } 
+        $selected_title->church =0;     
         return $elected_title;
     }
 
@@ -355,10 +449,13 @@ class ReligionCatholicController extends Controller
     {                  
         if($category =="alderman master" || $category =="alderman"){
             $selected_title->name ="alderman";
+            $selected_title->rank =3;
         }
         else {
             $selected_title->name ="master craftsman";
-        }      
+            $selected_title->rank =3;
+        }  
+        $selected_title->church =0;    
         return $elected_title;
     }
 
@@ -368,44 +465,57 @@ class ReligionCatholicController extends Controller
     {             
         if($category =="emperor"){
             $selected_title->name ="emperor";
+            $selected_title->rank =$rank; //12
         }
         elseif($category =="highking" || $category =="king"){
             $selected_title->name ="king";
+            $selected_title->rank =11; //11
         }
         elseif($category =="archduke"){
             $selected_title->name ="arch duke";
+            $selected_title->rank =$rank; //10
         }
         elseif($category =="grand_duke"){
             $selected_title->name ="grand duke";
+            $selected_title->rank =$rank; //10
         }
         elseif($category =="prince"){
             $selected_title->name ="prince";
+            $selected_title->rank =$rank; //10
         }
         elseif($category =="duke"){
             $selected_title->name ="duke";
+            $selected_title->rank =$rank; //9
         } 
         elseif($category =="margrave"){
             $selected_title->name ="margrave";
+            $selected_title->rank =$rank; //8
         } 
         elseif($category =="count"){
             $selected_title->name ="count";
+            $selected_title->rank =$rank; //7
         } 
         elseif($category =="burgrave"){
             $selected_title->name ="burgrave";
+            $selected_title->rank =$rank; //6
         } 
         elseif($category =="baron"){
             $selected_title->name ="baron";
+            $selected_title->rank =$rank; //5
         } 
         elseif($category =="lord"){
             $selected_title->name ="lord";
+            $selected_title->rank =$rank; //4
         } 
         elseif($category =="knight"){
             $selected_title->name ="knight";
+            $selected_title->rank =3;
         } 
         else {
             $selected_title->name ="squire";
+            $selected_title->rank =2;
         }        
-        
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -414,6 +524,8 @@ class ReligionCatholicController extends Controller
     private function delegate_catholic($category,$rank,$name)
     {            
         $selected_title->name ="grandmaster";
+        $selected_title->rank =$rank;
+        $selected_title->church =0;
         return $elected_title;
     }
 
@@ -423,16 +535,24 @@ class ReligionCatholicController extends Controller
     {            
         if($category =="grandmaster"){
             $selected_title->name ="grandmaster";
+            $selected_title->rank =$rank;
+            $selected_title->church =0;
         } 
         elseif($category =="commander"){
             $selected_title->name ="knight commander";
+            $selected_title->rank =$rank;
+            $selected_title->church =0;
         } 
         else {
             if($rank >=3){
                 $selected_title->name ="crusader knight";
+                $selected_title->rank =3;
+                $selected_title->church =0;
             }
             else {
                 $selected_title->name ="crusader sergeant";
+                $selected_title->rank =2;
+                $selected_title->church =1;
             }  
         }
         return $elected_title;

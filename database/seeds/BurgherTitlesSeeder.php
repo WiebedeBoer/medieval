@@ -42,7 +42,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);	
 	DB::table('titles')->insert([
 	'title_name' => 'Bremen',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '1',
 	'place' => '1',
 	'quarter' => '13760',
@@ -52,7 +52,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Hamburg',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '1',
 	'place' => '3',
 	'quarter' => '13762',
@@ -152,7 +152,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Lubeck',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '4',
 	'place' => '15',
 	'quarter' => '13774',
@@ -252,7 +252,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Regensburg',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '8',
 	'place' => '29',
 	'quarter' => '13788',
@@ -262,7 +262,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Augsburg',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '8',
 	'place' => '30',
 	'quarter' => '13789',
@@ -412,7 +412,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Ulm',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '13',
 	'place' => '49',
 	'quarter' => '13808',
@@ -422,7 +422,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Freiburg',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '13',
 	'place' => '51',
 	'quarter' => '13810',
@@ -432,7 +432,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Bern',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '14',
 	'place' => '53',
 	'quarter' => '13812',
@@ -442,7 +442,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Zurich',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '14',
 	'place' => '54',
 	'quarter' => '13813',
@@ -452,7 +452,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Basel',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '14',
 	'place' => '55',
 	'quarter' => '13814',
@@ -472,7 +472,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Hagenau',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '15',
 	'place' => '57',
 	'quarter' => '13816',
@@ -482,7 +482,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Colmar',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '15',
 	'place' => '58',
 	'quarter' => '13817',
@@ -492,7 +492,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Strassbourg',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '15',
 	'place' => '59',
 	'quarter' => '13818',
@@ -502,7 +502,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Wissembourg',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '15',
 	'place' => '60',
 	'quarter' => '13819',
@@ -582,7 +582,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Frankfurt',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '18',
 	'place' => '71',
 	'quarter' => '13830',
@@ -592,7 +592,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Cologne',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '19',
 	'place' => '73',
 	'quarter' => '13832',
@@ -602,7 +602,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Aachen',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '19',
 	'place' => '74',
 	'quarter' => '13833',
@@ -642,7 +642,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Metz',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '20',
 	'place' => '79',
 	'quarter' => '13838',
@@ -662,7 +662,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Nimeguen',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '21',
 	'place' => '83',
 	'quarter' => '13842',
@@ -672,7 +672,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Deventer',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '21',
 	'place' => '84',
 	'quarter' => '13843',
@@ -812,7 +812,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Cambrai',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '25',
 	'place' => '99',
 	'quarter' => '13858',
@@ -942,7 +942,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Verdun',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '30',
 	'place' => '119',
 	'quarter' => '13878',
@@ -1372,7 +1372,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Besancon',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '46',
 	'place' => '182',
 	'quarter' => '13941',
@@ -1992,7 +1992,7 @@ class BurgherTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Riga',
-	'title_category' => 'lord mayor',
+	'title_category' => 'high mayor',
 	'region' => '68',
 	'place' => '269',
 	'quarter' => '14028',
@@ -7896,7 +7896,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '15',
 			'quarter' => '16144',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7906,7 +7906,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '79',
 			'quarter' => '16208',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7916,7 +7916,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '59',
 			'quarter' => '16188',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7926,7 +7926,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '30',
 			'quarter' => '16159',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7936,7 +7936,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '461',
 			'quarter' => '16590',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7946,7 +7946,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '489',
 			'quarter' => '16618',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7956,7 +7956,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '73',
 			'quarter' => '16202',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7966,7 +7966,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '277',
 			'quarter' => '16406',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7976,7 +7976,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '685',
 			'quarter' => '16814',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_league'
 			]);
 			DB::table('titles')->insert([
@@ -7986,7 +7986,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '185',
 			'quarter' => '16314',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_kontor'
 			]);
 			DB::table('titles')->insert([
@@ -7996,7 +7996,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '97',
 			'quarter' => '16226',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_kontor'
 			]);
 			DB::table('titles')->insert([
@@ -8006,7 +8006,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '241',
 			'quarter' => '16370',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_kontor'
 			]);
 			DB::table('titles')->insert([
@@ -8016,7 +8016,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '663',
 			'quarter' => '16792',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_kontor'
 			]);
 			DB::table('titles')->insert([
@@ -8026,7 +8026,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '793',
 			'quarter' => '16922',
 			'religion' => '3',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_kontor'
 			]);
 			DB::table('titles')->insert([
@@ -8036,7 +8036,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '789',
 			'quarter' => '16918',
 			'religion' => '3',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_kontor'
 			]);
 			DB::table('titles')->insert([
@@ -8046,7 +8046,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '129',
 			'quarter' => '16258',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8056,7 +8056,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '165',
 			'quarter' => '16294',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8066,7 +8066,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '32',
 			'quarter' => '16161',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8076,7 +8076,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '465',
 			'quarter' => '16594',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8086,7 +8086,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '469',
 			'quarter' => '16598',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8096,7 +8096,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '489',
 			'quarter' => '16618',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8106,7 +8106,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '207',
 			'quarter' => '16336',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8116,7 +8116,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '73',
 			'quarter' => '16202',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8126,7 +8126,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '71',
 			'quarter' => '16200',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8136,7 +8136,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '179',
 			'quarter' => '16308',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8146,7 +8146,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '529',
 			'quarter' => '16658',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8156,7 +8156,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '397',
 			'quarter' => '16526',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8166,7 +8166,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '381',
 			'quarter' => '16510',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([
@@ -8176,7 +8176,7 @@ class BurgherTitlesSeeder extends Seeder
 			'place' => '345',
 			'quarter' => '16474',
 			'religion' => '1',
-			'rank' => '5',
+			'rank' => '4',
 			'career' => 'trade_fair'
 			]);
 			DB::table('titles')->insert([

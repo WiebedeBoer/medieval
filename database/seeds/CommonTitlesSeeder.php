@@ -192,12 +192,12 @@ DB::table('titles')->insert([
 ]);
 DB::table('titles')->insert([
 'title_name' => 'Brandenburg',
-'title_category' => 'reeve',
+'title_category' => 'bailiff',
 'region' => '5',
 'place' => '17',
 'quarter' => '13776',
 'religion' => '1',
-'rank' => '4',
+'rank' => '5',
 'career' => 'fixed_peasantry'
 ]);
 DB::table('titles')->insert([
@@ -292,22 +292,22 @@ DB::table('titles')->insert([
 ]);
 DB::table('titles')->insert([
 'title_name' => 'Osnabruck',
-'title_category' => 'reeve',
+'title_category' => 'bailiff',
 'region' => '7',
 'place' => '27',
 'quarter' => '13786',
 'religion' => '1',
-'rank' => '4',
+'rank' => '5',
 'career' => 'fixed_peasantry'
 ]);
 DB::table('titles')->insert([
 'title_name' => 'Paderborn',
-'title_category' => 'reeve',
+'title_category' => 'bailiff',
 'region' => '7',
 'place' => '28',
 'quarter' => '13787',
 'religion' => '1',
-'rank' => '4',
+'rank' => '5',
 'career' => 'fixed_peasantry'
 ]);
 DB::table('titles')->insert([
@@ -842,12 +842,12 @@ DB::table('titles')->insert([
 ]);
 DB::table('titles')->insert([
 'title_name' => 'Zutphen',
-'title_category' => 'reeve',
+'title_category' => 'bailiff',
 'region' => '21',
 'place' => '82',
 'quarter' => '13841',
 'religion' => '1',
-'rank' => '4',
+'rank' => '5',
 'career' => 'fixed_peasantry'
 ]);
 DB::table('titles')->insert([
@@ -892,12 +892,12 @@ DB::table('titles')->insert([
 ]);
 DB::table('titles')->insert([
 'title_name' => 'Utrecht',
-'title_category' => 'reeve',
+'title_category' => 'bailiff',
 'region' => '22',
 'place' => '87',
 'quarter' => '13846',
 'religion' => '1',
-'rank' => '4',
+'rank' => '5',
 'career' => 'fixed_peasantry'
 ]);
 DB::table('titles')->insert([
@@ -922,12 +922,12 @@ DB::table('titles')->insert([
 ]);
 DB::table('titles')->insert([
 'title_name' => 'Emden',
-'title_category' => 'reeve',
+'title_category' => 'sheriff',
 'region' => '23',
 'place' => '90',
 'quarter' => '13849',
 'religion' => '1',
-'rank' => '4',
+'rank' => '7',
 'career' => 'fixed_peasantry'
 ]);
 DB::table('titles')->insert([

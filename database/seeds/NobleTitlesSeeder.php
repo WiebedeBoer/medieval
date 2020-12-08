@@ -130,13 +130,13 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Halberstadt',
-	'title_category' => 'knight',
+	'title_category' => 'count',
 	'region' => '3',
 	'place' => '11',
 	'quarter' => '18499',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '7',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Gernrode',
@@ -720,13 +720,13 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Heidelberg',
-	'title_category' => 'knight',
+	'title_category' => 'count',
 	'region' => '18',
 	'place' => '70',
 	'quarter' => '18558',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '7',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Frankfurt',
@@ -1010,13 +1010,13 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Cambrai',
-	'title_category' => 'knight',
+	'title_category' => 'count',
 	'region' => '25',
 	'place' => '99',
 	'quarter' => '18587',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '7',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Ypres',
@@ -1330,13 +1330,13 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Reims',
-	'title_category' => 'knight',
+	'title_category' => 'count',
 	'region' => '33',
 	'place' => '131',
 	'quarter' => '18619',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '7',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Clairvaux',
@@ -2080,13 +2080,13 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Durham',
-	'title_category' => 'knight',
+	'title_category' => 'count',
 	'region' => '52',
 	'place' => '206',
 	'quarter' => '18694',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '7',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Scarborough',
@@ -4970,13 +4970,13 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Ancona',
-	'title_category' => 'knight',
+	'title_category' => 'margrave',
 	'region' => '124',
 	'place' => '495',
 	'quarter' => '18983',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '8',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Assissi',
@@ -5080,23 +5080,23 @@ class NobleTitlesSeeder extends Seeder
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Gaeta',
-	'title_category' => 'knight',
+	'title_category' => 'duke',
 	'region' => '127',
 	'place' => '506',
 	'quarter' => '18994',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '9',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Amalfi',
-	'title_category' => 'knight',
+	'title_category' => 'duke',
 	'region' => '127',
 	'place' => '507',
 	'quarter' => '18995',
 	'religion' => '1',
-	'rank' => '3',
-	'career' => 'fixed_gentry'
+	'rank' => '9',
+	'career' => 'fixed_nobility'
 	]);
 	DB::table('titles')->insert([
 	'title_name' => 'Cassino',
