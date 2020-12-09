@@ -31,8 +31,10 @@ function wallmaker(){
 	//east gate = 6x,y3
 	
 	//southern walls
-	var wallSouth1 = new CityWall("wallNS",wallheight,2350,wallthickness,-545,maxcorner,"gold_wall"); 
+	var wallSouth1 = new CityWall("wallNS",wallheight,1820,wallthickness,-810,maxcorner,"gold_wall"); 
 	scene.add( wallSouth1 );
+	var wallSouth3 = new CityWall("wallNS",wallheight,430,wallthickness,415,maxcorner,"gold_wall"); 
+	scene.add( wallSouth3 );
 	var wallSouth2 = new CityWall("wallNS",wallheight,970,wallthickness,1235,maxcorner,"gold_wall"); 
 	scene.add( wallSouth2 );
 	//south gate = 5x,y6
@@ -43,4 +45,20 @@ function wallmaker(){
 	var wallWest2 = new CityWall("wallEW",wallheight,wallthickness,1660,mincorner,-890,"gold_wall");  
 	scene.add( wallWest2 );
 	//west gate = 2x,y4
+
+	//gates
+	var y_gate = -215;
+	var gate_x_offset = 830;
+	var gate_z_offset = 350;
+	
+	var gateNorthc = new CastleGate(-690 + gate_x_offset,y_gate,mincorner + gate_z_offset,0); 
+	scene.add( gateNorthc );
+	var gateSouthc = new CastleGate(700 - gate_x_offset,y_gate,maxcorner - gate_z_offset,3.1415926); 
+	scene.add( gateSouthc );
+
+	var gateWestc = new CastleGate(mincorner + gate_z_offset,y_gate,0 - gate_x_offset,1.5707963); 
+	scene.add( gateWestc );
+	var gateEastc = new CastleGate(maxcorner - gate_z_offset,y_gate,-690 + gate_x_offset,4.7123889); 
+	scene.add( gateEastc );
+
 }
