@@ -37,11 +37,11 @@ class ReligionMuslimController extends Controller
         //republic
         elseif($career =="merchant_republic"){
             $selected_title = $this->burgher_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective burgher";
         }
         elseif($career =="maritime_republic"){
             $selected_title = $this->burgher_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective burgher";
         }
         //court
         elseif($career =="sultanate"){
@@ -79,7 +79,7 @@ class ReligionMuslimController extends Controller
         //burgher
         elseif($career =="fixed_burgher"){
             $selected_title = $this->burgher_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective burgher";
         }
         //guild
         elseif($career =="knight_grandmaster"){
@@ -88,19 +88,19 @@ class ReligionMuslimController extends Controller
         }
         elseif($career =="trade_league" || $career =="trade_kontor" || $career =="trade_fair"){
             $selected_title = $this->guild_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective guild";
         }
         elseif($career =="guild_grandmaster"){
             $selected_title = $this->guild_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective guild";
         }
         elseif($career =="college_master"){
             $selected_title = $this->school_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective guild";
         }
         elseif($career =="fixed_hospice" || $career =="harbour_master"){
             $selected_title = $this->warden_muslim($category,$rank,$name);
-            $controlled_title->succession ="elective";
+            $controlled_title->succession ="elective guild";
         }
         //hunt
         elseif($career =="hunt_game" || $career =="hunt_falcon"){

@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Dynasty;
+use App\Title;
 use App\Vote;
+use App\Dynasty;
 use App\Place;
 use App\Quarter;
-use App\Title;
+use App\Realm;
 use App\Guild;
+use App\Http\Controllers\TitleController;
 
 class SuccessionController extends Controller
 {
@@ -35,6 +37,21 @@ class SuccessionController extends Controller
         } 
                 
 		return view('succession.index', compact('user','dynasty_owner_count','dynasty_owner','elections','election_count'));        
+    }
+
+    //succession
+    public function succession($id)
+    {
+        //fetch title
+        $title = Title::with('owners','holders','heirs','regions','places','quarters','religions','votes')->where('title_id',$id)->firstOrFail();
+        $title_controller = new TitleController;
+        //fetch title traits
+        $controlled_title = $title_controller->religion($title->religion,$title->career,$title->category,$title->rank,$title->name);
+        //fetch user
+        $user = auth()->user();
+        $succession = $title_controller->succession($controlled_title->succession,$controlled_title->rank,$controlled_title->church,$title);
+        //return
+        return view('succession.succession', compact('user','title','controlled_title','succession')); 
     }
 	
 	//show

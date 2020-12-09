@@ -46,15 +46,23 @@ class ReligionCatholicController extends Controller
         //court
         elseif($career =="prince_elector"){
             $selected_title = $this->court_catholic($category,$rank,$name);
-            $controlled_title->succession ="elector";
+            $controlled_title->succession ="court";
         }  
         elseif($career =="herald"){
             $selected_title = $this->herald_catholic($category,$rank,$name);
-            $controlled_title->succession ="delegate";
+            $controlled_title->succession ="herald";
+        }  
+        elseif($career =="grand_officer"){
+            $selected_title = $this->grand_catholic($category,$rank,$name);
+            $controlled_title->succession ="grand";
         }  
         elseif($career =="camerlengo"){
-            $selected_title = $this->herald_catholic($category,$rank,$name);
+            $selected_title = $this->camerlengo_catholic($category,$rank,$name);
             $controlled_title->succession ="camerlengo";
+        }  
+        elseif($career =="cardinal"){
+            $selected_title = $this->cardinal_catholic($category,$rank,$name);
+            $controlled_title->succession ="cardinal";
         }  
         //nobility
         elseif($career =="fixed_nobility"){
@@ -203,11 +211,31 @@ class ReligionCatholicController extends Controller
         return $elected_title;
     }
 
-    //type: elector
+    //type: cardinal
+    //religion: catholic
+    private function cardinal_catholic($category,$rank,$name)
+    {            
+        $selected_title->name = "cardinal";
+        $selected_title->rank =$rank;
+        $selected_title->church =6;
+        return $elected_title;
+    }
+
+    //type: herald
     //religion: catholic
     private function herald_catholic($category,$rank,$name)
     {            
         $selected_title->name = "herald of ".$name;
+        $selected_title->rank =$rank;
+        $selected_title->church =0;
+        return $elected_title;
+    }
+
+    //type: grand
+    //religion: catholic
+    private function grand_catholic($category,$rank,$name)
+    {            
+        $selected_title->name = $name;
         $selected_title->rank =$rank;
         $selected_title->church =0;
         return $elected_title;

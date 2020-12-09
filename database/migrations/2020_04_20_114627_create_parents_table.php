@@ -18,7 +18,7 @@ class CreateParentsTable extends Migration
 			//belonging
 			$table->unsignedBigInteger('father')->default(1);
 			$table->unsignedBigInteger('mother')->default(2);
-			$table->unsignedBigInteger('child');
+			$table->unsignedBigInteger('child')->nullable();
             $table->timestamps();
         });
     }

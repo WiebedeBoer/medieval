@@ -4,12 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Parent extends Model
+class Parents extends Model
 {
-    //parents tabel
+    //parents table
     protected $table = 'parents';
     protected $primaryKey = 'parentage_id';
-	
+    
+    
     public function fathers()
     {
         return $this->belongsTo('App\Person','father');
@@ -23,6 +24,6 @@ class Parent extends Model
     public function kids()
     {
         return $this->belongsTo('App\Person','child');
-    } 	
+    }	
 	
 }

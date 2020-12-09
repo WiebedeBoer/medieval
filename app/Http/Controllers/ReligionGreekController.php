@@ -12,7 +12,7 @@ class ReligionGreekController extends Controller
         //royalty
         if($career =="elective_empire"){
             $selected_title = $this->noble_greek($category,$rank,$name);
-            $controlled_title->succession ="primogeniture";
+            $controlled_title->succession ="empire";
         }
         elseif($career =="fixed_empire" || $career =="fixed_royalty"){
             $selected_title = $this->noble_greek($category,$rank,$name);

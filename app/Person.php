@@ -77,19 +77,19 @@ class Person extends Model
 	//fathers
 	public function fathers()
     {
-        return $this->hasMany('App\Parent','father');
+        return $this->hasOne('App\Parents','father');
     }
 
 	//mothers
 	public function mothers()
     {
-        return $this->hasMany('App\Parent','mother');
+        return $this->hasOne('App\Parents','mother');
     }	
 	
 	//kids
 	public function kids()
     {
-        return $this->hasMany('App\Parent','child');
+        return $this->hasMany('App\Parents','child');
     }	
 	
 }
