@@ -37,9 +37,12 @@
     <!--defense buildings-->
     <script type="text/javascript" src="{{ asset ('building/wallmaker.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/pallisademaker.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/rampartmaker.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/citywall.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/citytower.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/castlegate.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/pallisadegate.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/rampartgate.js') }}"></script>
     <!--generators-->
     <script type="text/javascript" src="{{ asset ('building/generator_quarter.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/generator_building.js') }}"></script>    

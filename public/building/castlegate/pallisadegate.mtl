@@ -1,22 +1,22 @@
-# Blender MTL File: 'None'
+# Blender MTL File: 'pallisadegate.blend'
 # Material Count: 2
-
-newmtl Material.001
-Ns 96.078443
+#bottom part
+newmtl Material.003
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.262745 0.274509 0.294117
+Kd 0.458823 0.392156 0.341176
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.000000
+Ni 1.450000
 d 1.000000
 illum 2
-
-newmtl Material.007
-Ns 96.078443
+#upper part
+newmtl Material.004
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.517647 0.513725 0.458823
+Kd 0.380392 0.286274 0.207843
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.000000
+Ni 1.450000
 d 1.000000
 illum 2

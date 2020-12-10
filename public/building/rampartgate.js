@@ -1,11 +1,11 @@
-class CastleGate extends THREE.Group {
+class RampartGate extends THREE.Group {
 
     init (){
 		
 		//var castle_num ="west";
 
         var dGate = this;
-        loadOBJModel(assetBaseUrl +"building/castlegate/","castlegate.obj",assetBaseUrl +"building/castlegate/","castlegate.mtl", (mesh) => {
+        loadOBJModel(assetBaseUrl +"building/castlegate/","rampartgate.obj",assetBaseUrl +"building/castlegate/","rampartgate.mtl", (mesh) => {
             mesh.scale.x = 36.0; 
             mesh.scale.y = 25.0; 
             mesh.scale.z = 80.0; 

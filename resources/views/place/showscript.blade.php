@@ -133,6 +133,9 @@ if (citywall =="stone"){
 else if(citywall =="pallisade"){
 	pallisademaker();
 }
+else if(citywall =="earthwork"){
+	rampartmaker();
+}
 //quarters and buildings generating
 quarters.forEach(function(quarter) {
 	QuarterGenerator(quarter[0],quarter[1],quarter[2]);
