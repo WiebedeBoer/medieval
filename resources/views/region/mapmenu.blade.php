@@ -67,6 +67,14 @@
 		<a href="/map/books" class="wmlink"><img src="{{ asset('img/tradegoods/book_block.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Books &amp; Manuscripts)</a>
 
 		<a href="/map/sweeteners" class="wmlink"><img src="{{ asset('img/tradegoods/honey.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Sugar &amp; Honey)</a>		
+	
+		<a href="/map/oil" class="wmlink"><img src="{{ asset('img/tradegoods/oil.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Olive Oil)</a>
+
+		<a href="/map/meat" class="wmlink"><img src="{{ asset('img/tradegoods/meat.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Pork &amp; Poultry)</a>
+
+		<a href="/map/cheese" class="wmlink"><img src="{{ asset('img/tradegoods/cheese.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Cheese)</a>
+
+		<a href="/map/fruit" class="wmlink"><img src="{{ asset('img/tradegoods/fruits.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Fruit)</a>
 	</div>
 </div>
 </div>	

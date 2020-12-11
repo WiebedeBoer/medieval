@@ -476,5 +476,71 @@ class MapController extends Controller
         }				
 		  return view('map.sweeteners', compact('regiondata'));     
     }
+
+	  public function oil()
+    {            
+      $oil ="olive_oil";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $oil_count = Place::where('region', $region_id)->where('commerce', $oil)->count();				
+			      $region->oil_count = $oil_count;						
+        }				
+		  return view('map.oil', compact('regiondata'));     
+    }
+
+	  public function meat()
+    {            
+      $placedata = Place::all();
+      foreach($placedata as $place) 
+      {              			
+          $place_offset = $place->place_id % 4;
+
+          if($place_offset ==1){
+            $place->offset_x_coord = $place->regions->region_x + 6;
+            $place->offset_y_coord = $place->regions->region_y + 6;
+          }
+          elseif($place_offset ==2){
+            $place->offset_x_coord = $place->regions->region_x + 6;
+            $place->offset_y_coord = $place->regions->region_y - 6;
+          }
+          elseif($place_offset ==3){
+            $place->offset_x_coord = $place->regions->region_x - 6;
+            $place->offset_y_coord = $place->regions->region_y + 6;
+          }
+          else {
+            $place->offset_x_coord = $place->regions->region_x - 6;
+            $place->offset_y_coord = $place->regions->region_y - 6; 
+          }				
+      }	
+      return view('map.meat', compact('placedata'));        
+    }
+
+	  public function fruit()
+    {            
+      $fruit ="fruit";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $fruit_count = Place::where('region', $region_id)->where('commerce', $fruit)->count();				
+			      $region->fruit_count = $fruit_count;						
+        }				
+		  return view('map.fruit', compact('regiondata'));     
+    }
+
+	  public function cheese()
+    {            
+      $cheese ="cheese";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+            $cheese_count = Place::where('region', $region_id)->where('commerce', $cheese)->count();				
+			      $region->cheese_count = $cheese_count;						
+        }				
+		  return view('map.cheese', compact('regiondata'));     
+    }
 	
 }

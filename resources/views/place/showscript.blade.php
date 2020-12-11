@@ -30,6 +30,8 @@ var camera = new THREE.PerspectiveCamera(45, canvasWidth / canvasHeight, 0.01, 7
 camera.position.y = 12;
 camera.position.z = -67;
 camera.position.x = -21;
+//trees
+var treesplacement = parseInt("{{$placedata->place_id}}") % 4;
 //resources
 var culture_name ="{{$cultural->culture_name}}";
 var warrior_culture ="{{$cultural->warrior_culture}}";
@@ -65,9 +67,10 @@ var soldiers ="{{$placedata->sol}}";
 var quarters = [];
 @foreach($quarters as $quarter)
 	var quarter =[];
-	quarter.push("{{$quarter->quarter_category}}"); //quarter category
+	quarter.push("{{$quarter->quarter_category}}"); //quarter category	
 	quarter.push("{{$quarter->x}}"); //quarter x coordinate
 	quarter.push("{{$quarter->y}}"); //quarter y coordinate	
+	quarter.push("{{$quarter->quarter_rank}}"); // //quarter rank
 	var buildings =[];
 	@foreach($quarter->buildings as $building)
 		buildings.push("{{$building->building_type}}"); //building type
@@ -138,9 +141,9 @@ else if(citywall =="earthwork"){
 }
 //quarters and buildings generating
 quarters.forEach(function(quarter) {
-	QuarterGenerator(quarter[0],quarter[1],quarter[2]);
-	if(quarter[3]){
-		quarter[3].forEach(function(building) {
+	QuarterGenerator(climate,treesplacement,quarter[0],quarter[1],quarter[2],quarter[3]);
+	if(quarter[4]){
+		quarter[4].forEach(function(building) {
 			BuildingGenerator(quarter[0],quarter[1],quarter[2],building);	
 		});
 	}

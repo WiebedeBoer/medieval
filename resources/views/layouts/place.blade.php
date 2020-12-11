@@ -57,6 +57,9 @@
 
     <!--feudal buildings-->
 
+    <!--forest and trees-->
+    <script type="text/javascript" src="{{ asset ('building/forest.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('building/foresttree.js') }}"></script>
     <!--entertainment buildings-->
     <script type="text/javascript" src="{{ asset ('building/jousting.js') }}"></script>    
 

@@ -242,6 +242,10 @@ Route::get('map/dyes','MapController@dyes');
 Route::get('map/textiles','MapController@textiles');
 Route::get('map/books','MapController@books');
 Route::get('map/sweeteners','MapController@sweeteners');
+Route::get('map/oil','MapController@oil');
+Route::get('map/meat','MapController@meat');
+Route::get('map/cheese','MapController@cheese');
+Route::get('map/fruit','MapController@fruit');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');

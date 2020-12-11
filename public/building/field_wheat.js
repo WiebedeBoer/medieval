@@ -3,7 +3,7 @@ class Wheat extends THREE.Group {
     init (){
 
         var dChurch = this;
-        loadOBJModel("buildings/wheat_field/","FieldOfWheat.obj","buildings/wheat_field/","FieldOfWheat.mtl", (mesh) => {
+        loadOBJModel(assetBaseUrl +"building/wheat_field/","FieldOfWheat.obj",assetBaseUrl +"building/wheat_field/","FieldOfWheat.mtl", (mesh) => {
             mesh.scale.x = 0.75;
             mesh.scale.y = 0.55;
             mesh.scale.z = 0.75;

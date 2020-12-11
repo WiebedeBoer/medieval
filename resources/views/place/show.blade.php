@@ -7,7 +7,7 @@ Game
 <!--audio-->
 @if($user->audio ==1)
 	<audio id="imperia" autoplay loop>
-			<source id="parade" src="{{ asset('music/'.$culture->troubadour.'.mp3') }}" type="audio/mp3">
+			<source id="parade" src="{{ asset('music/'.$cultural->troubadour.'.mp3') }}" type="audio/mp3">
 	</audio> 
 @endif
 				

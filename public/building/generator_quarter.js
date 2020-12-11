@@ -1,4 +1,4 @@
-function QuarterGenerator(quartercategory,pX,pY) {
+function QuarterGenerator(climate,treesplacement,quartercategory,pX,pY,quarterrank) {
 
 	var generatedquartercategory = quartercategory;
 	var generatedquarter_x = 700 * (pX - 4);
@@ -7,6 +7,34 @@ function QuarterGenerator(quartercategory,pX,pY) {
     //marke
     if(generatedquartercategory ==1){
 
+        if(quarterrank =="wood"){
+            if(pX ==1 && pY ==1){
+
+                if(climate =="desert" || climate =="desert_marshes"){
+                    forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y);
+                    forest(climate,treesplacement,generatedquarter_x,generatedquarter_y - 350);
+                    forest(climate,treesplacement,generatedquarter_x,generatedquarter_y);  
+                }
+                else {
+                    forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y - 350); 
+                    forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y);
+                    forest(climate,treesplacement,generatedquarter_x,generatedquarter_y - 350);
+                    forest(climate,treesplacement,generatedquarter_x,generatedquarter_y);  
+                }
+  
+            }
+            else if(pY ==4){
+                forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y - 350);
+                forest(climate,treesplacement,generatedquarter_x,generatedquarter_y - 350);
+            }
+            else if(pY ==7){
+                forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y);
+            }
+            else {
+                forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y - 350);
+                forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y);
+            }    
+        }     
     }
     //hospital
     else if(generatedquartercategory ==2){
