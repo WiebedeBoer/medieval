@@ -77,107 +77,58 @@
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/sapphire.png') }}" width="48" height="48" alt="trade good" title="sapphire"></td>	
 	@elseif($place->commerce =="rubies")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/ruby.png') }}" width="48" height="48" alt="trade good" title="ruby"></td>		
-	<!--foodstuff-->		
-	@elseif($place->commerce =="grain")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/grains.png') }}" width="48" height="48" alt="trade good" title="grain"></td>
-	@elseif($place->commerce =="cheese")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/cheese.png') }}" width="48" height="48" alt="trade good" title="cheese"></td>
-	@elseif($place->commerce =="olive_oil")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/oil.png') }}" width="48" height="48" alt="trade good" title="olive oil"></td>
-	@elseif($place->commerce =="fruit")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fruits.png') }}" width="48" height="48" alt="trade good" title="fruit"></td>
-	@elseif($place->commerce =="dates")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/dates.png') }}" width="48" height="48" alt="trade good" title="dates"></td>
-	@elseif($place->commerce =="wine")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/wine.png') }}" width="48" height="48" alt="trade good" title="wine"></td>	
-	<!--sweeeteners-->	
-	@elseif($place->commerce =="sugar")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/sugar.png') }}" width="48" height="48" alt="trade good" title="sugar"></td>
+	<!--salt-->	
 	@elseif($place->commerce =="salt")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/salt.png') }}" width="48" height="48" alt="trade good" title="salt"></td>
-	@elseif($place->commerce =="honey")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/honey.png') }}" width="48" height="48" alt="trade good" title="honey"></td>		
-	<!--meats-->
-	@elseif($place->commerce =="poultry")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/poultry.png') }}" width="48" height="48" alt="trade good" title="poultry"></td>
-	@elseif($place->commerce =="pigs")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/pigs.png') }}" width="48" height="48" alt="trade good" title="pigs"></td>		
-	@elseif($place->commerce =="duck")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/duck_meat.png') }}" width="48" height="48" alt="trade good" title="duck"></td>		
+		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/salt.png') }}" width="48" height="48" alt="trade good" title="salt"></td>	
 	<!--cloth-->	
-	@elseif($place->commerce =="wool")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/wool.png') }}" width="48" height="48" alt="trade good" title="wool"></td>	
 	@elseif($place->commerce =="silk")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/silk.png') }}" width="48" height="48" alt="trade good" title="silk"></td>
 	@elseif($place->commerce =="flax")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/flax.png') }}" width="48" height="48" alt="trade good" title="flax"></td>
-	@elseif($place->commerce =="none")
-		<td class="pl">&nbsp;</td>	
+	<!--none-->
 	@else
-		<td class="pl">{{ $place->commerce }}</td>
+		<td class="pl">&nbsp;</td>	
 	@endif
 	<!--factory-->
+	<!--books and manuscripts-->
 	@if($place->factory =="scriptorium")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/paper.png') }}" width="48" height="48" alt="trade good" title="scriptorium"></td>
-	@elseif($place->factory =="windmill")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/flour.png') }}" width="48" height="48" alt="trade good" title="windmill"></td>	
+	@elseif($place->factory =="bookbinder")
+		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/book_western.png') }}" width="48" height="48" alt="trade good" title="bookbinder"></td>	
+	<!--foodstuff-->
 	@elseif($place->factory =="fishery")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fish.png') }}" width="48" height="48" alt="trade good" title="fishery"></td>	
+	<!--storage-->
 	@elseif($place->factory =="granary")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/flour.png') }}" width="48" height="48" alt="trade good" title="granary"></td>	
-	@elseif($place->factory =="tailor")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fabrics.png') }}" width="48" height="48" alt="trade good" title="tailor"></td>	
-	@elseif($place->factory =="leather")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/leather.png') }}" width="48" height="48" alt="trade good" title="leather"></td>	
+	@elseif($place->factory =="cooper")
+		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/barrel.png') }}" width="48" height="48" alt="trade good" title="cooper"></td>
+	<!--clothing-->	
+	@elseif($place->factory =="fur")
+		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fur.png') }}" width="48" height="48" alt="trade good" title="furrier"></td>	
+	@elseif($place->factory =="cloth")
+		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fabrics.png') }}" width="48" height="48" alt="trade good" title="weaver"></td>	
+	<!--luxury-->	
 	@elseif($place->factory =="soapmaker")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/soap.png') }}" width="48" height="48" alt="trade good" title="soap"></td>	
 	@elseif($place->factory =="mint")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/coins.png') }}" width="48" height="48" alt="trade good" title="mint"></td>
-	@elseif($place->factory =="cooper")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/barrel.png') }}" width="48" height="48" alt="trade good" title="cooper"></td>	
-	<!--dyes-->	
-	@elseif($place->factory =="madder")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/madder.png') }}" width="48" height="48" alt="trade good" title="madder"></td>	
-	@elseif($place->factory =="woad")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/woad.png') }}" width="48" height="48" alt="trade good" title="woad"></td>	
-	@elseif($place->factory =="potterer")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/pottery.png') }}" width="48" height="48" alt="trade good" title="potterer"></td>	
-	@elseif($place->factory =="saffron")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/spices.png') }}" width="48" height="48" alt="trade good" title="saffron"></td>	
-	@elseif($place->factory =="vintner")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/wine.png') }}" width="48" height="48" alt="trade good" title="wine"></td>	
-	@elseif($place->factory =="fuller")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/wool.png') }}" width="48" height="48" alt="trade good" title="fuller"></td>	
-	@elseif($place->factory =="fur")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fur.png') }}" width="48" height="48" alt="trade good" title="furrier"></td>	
-	@elseif($place->factory =="bookbinder")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/book_western.png') }}" width="48" height="48" alt="trade good" title="bookbinder"></td>	
-	@elseif($place->factory =="watermill")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/flour.png') }}" width="48" height="48" alt="trade good" title="watermill"></td>	
 	@elseif($place->factory =="glasswork")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/glasswork.png') }}" width="48" height="48" alt="trade good" title="glasswork"></td>	
 	@elseif($place->factory =="ivory")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/ivory.png') }}" width="48" height="48" alt="trade good" title="ivory"></td>	
-	@elseif($place->factory =="smithy")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/tools.png') }}" width="48" height="48" alt="trade good" title="smithy"></td>			
-	@elseif($place->factory =="cloth")
-		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/fabrics.png') }}" width="48" height="48" alt="trade good" title="clothier"></td>	
-	@elseif($place->factory =="none")
-		<td class="pl">&nbsp;</td>			
+		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/ivory.png') }}" width="48" height="48" alt="trade good" title="ivory"></td>				
 	@else
-		<td class="pl">{{ $place->factory }}</td>
+		<td class="pl">&nbsp;</td>
 	@endif	
 	<!--arms-->
 	@if($place->arms =="smithy")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/sword.png') }}" width="48" height="48" alt="arms" title="smithy"></td>	
-	@elseif($place->arms =="armorer")
+	@elseif($place->arms =="armorer" || $place->arms =="plate")
 		<td class="pl"><img class="tbi" src="{{ asset('img/tradegoods/shield.png') }}" width="48" height="48" alt="arms" title="armorer"></td>
 	@elseif($place->arms =="shipyard")
 		<td class="pl"><img class="tbi" src="{{ asset('img/images/misc_anchor.png') }}" width="48" height="48" alt="arms" title="shipyard"></td>	
-	@elseif($place->arms =="none")
-		<td class="pl">&nbsp;</td>		
 	@else
-		<td class="pl">{{ $place->arms }}</td>
+		<td class="pl">&nbsp;</td>		
 	@endif	
 	<!--education-->
 	@if($place->education =="hospice")

@@ -13,23 +13,31 @@ Game
 <g z-index="1">
 <image xlink:href="{{ asset('img/maps/good.png') }}" x="0" y="0" width="auto" height="auto">
 </g>
-@foreach($placedata as $place)
+@foreach($regiondata as $region)
 	<g z-index="2">
-    @if($place->armorer =="y" && $place->weaponsmith =="n")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (armoury)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(192,92,32)" />
+    @if($region->armor >=1 && $region->plate ==0 && $region->weapon ==0)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{$region->armor}} armoury)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->armor}}" stroke="rgb(64,0,0)" stroke-width="{{1 + $region->armor}}" fill="rgb(29,39,57)" />
 		</a>
-    @elseif($place->armorer =="n" && $place->weaponsmith =="y")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (weaponsmith)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(192,204,204)" />
+	@elseif($region->armor ==0 && $region->plate >=1 && $region->weapon ==0)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{$region->plate}} plate armoury)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->plate}}" stroke="rgb(64,0,0)" stroke-width="{{1 + $region->plate}}" fill="rgb(202,204,206)" />
 		</a>
-	@elseif($place->armorer =="y" && $place->weaponsmith =="y")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (armoury)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="7" stroke="rgb(64,0,0)" stroke-width="3" fill="rgb(192,160,132)" />
+	@elseif($region->armor ==0 && $region->plate ==0 && $region->weapon >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{$region->weapon}} smithy)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->weapon}}" stroke="rgb(64,0,0)" stroke-width="{{1 + $region->weapon}}" fill="rgb(123,144,149)" />
+		</a>
+	@elseif($region->armor ==0 && $region->plate >=1 && $region->weapon >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{$region->plate}} plate armoury, {{$region->weapon}} smithy)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->plate + $region->weapon}}" stroke="rgb(192,0,0)" stroke-width="{{1 + $region->plate + $region->weapon}}" fill="rgb(202,204,206)" />
+		</a>
+	@elseif($region->armor >=1 && $region->plate ==0 && $region->weapon >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{$region->armor}} armoury, {{$region->weapon}} smithy)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{5 + $region->armor + $region->weapon}}" stroke="rgb(192,0,0)" stroke-width="{{1 + $region->armor + $region->weapon}}" fill="rgb(29,39,57)" />
 		</a>
 	@else
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
 		</a>
 	@endif
 	</g>		

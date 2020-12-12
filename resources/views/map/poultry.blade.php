@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (Dyes)</h1>
+<h1>World Map (Poultry View)</h1>
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -13,26 +13,25 @@ Game
 <image xlink:href="{{ asset('img/maps/good.png') }}" x="0" y="0" width="auto" height="auto">
 </g>
 @foreach($regiondata as $region)
-	<g z-index="2">   
-	@if($region->dyes =="woad")
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (woad)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(0,255,255)" />
+	<g z-index="2">	
+	@if($region->poultry =="duck")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }} (duck)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(180,205,199)" />
 		</a>
-	@elseif($region->dyes =="madder")
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (madder)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,0,0)" />
-        </a>
-    @elseif($region->dyes =="saffron")
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (saffron)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,255,0)" />
+	@elseif($region->poultry =="chicken")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }} (chicken)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(192,92,0)" />
 		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
 		</a>
 	@endif
-	</g>		
+	</g>
 @endforeach
+
 </svg>
 </div>
+
+
 @endsection

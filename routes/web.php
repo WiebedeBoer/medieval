@@ -243,9 +243,13 @@ Route::get('map/textiles','MapController@textiles');
 Route::get('map/books','MapController@books');
 Route::get('map/sweeteners','MapController@sweeteners');
 Route::get('map/oil','MapController@oil');
-Route::get('map/meat','MapController@meat');
-Route::get('map/cheese','MapController@cheese');
+Route::get('map/pigs','MapController@pigs');
+Route::get('map/poultry','MapController@poultry');
 Route::get('map/fruit','MapController@fruit');
+Route::get('map/grain','MapController@grain');
+Route::get('map/fiber','MapController@fiber');
+Route::get('map/mill','MapController@mill');
+Route::get('map/storage','MapController@storage');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');

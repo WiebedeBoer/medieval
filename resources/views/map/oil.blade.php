@@ -14,13 +14,13 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	@if($region->oil_count >=1)
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->oil_count }} olive oil)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{6 + $region->oil_count }}" stroke="rgb(192,0,0)" stroke-width="{{1 + $region->oil_count}}" fill="rgb(219,207,92)" />
+	@if($region->oil =="olive")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (olive oil)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(192,0,0)" stroke-width="2" fill="rgb(219,207,92)" />
 		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(64,0,0)" stroke-width="1" fill="rgb(0,0,0)" />
 		</a>
 	@endif
 	</g>		

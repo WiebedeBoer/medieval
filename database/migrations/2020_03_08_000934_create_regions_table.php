@@ -31,7 +31,16 @@ class CreateRegionsTable extends Migration
 			$table->string('cycle');
 			$table->string('goat')->default('none');
 			$table->string('sheep')->default('none');
-			$table->string('cattle')->default('none');
+            $table->string('cattle')->default('none');
+            $table->string('pigs')->default('none');
+            $table->string('poultry')->default('none');
+            $table->string('fruit')->default('none');
+            $table->string('grain')->default('none');
+            $table->string('mill')->default('none');
+            $table->string('wine')->default('none');
+            $table->string('oil')->default('none');
+            $table->string('sweetener')->default('none');
+            $table->string('dyes')->default('none');
 			$table->integer('region_x')->default(0); //default = 0
             $table->integer('region_y')->default(0); //default = 0
 			$table->text('region_description')->nullable();

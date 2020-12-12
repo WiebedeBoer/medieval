@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (Sweeteners)</h1>
+					<h1>World Map (Sugar &amp; Honey)</h1>
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -14,18 +14,14 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	@if($region->honey_count ==0 && $region->sugar_count >=1)
+	@if($region->sweetener =="sugar")
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->sugar_count }} sugar mills)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->sugar_count }}" stroke="rgb(128,0,0)" stroke-width="3" fill="rgb(128,128,128)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(128,0,0)" stroke-width="2" fill="rgb(128,128,128)" />
         </a>
-    @elseif($region->honey_count >=1 && $region->sugar_count ==0)
+    @elseif($region->sweetener =="honey")
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->honey_count }} beekeepers)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->honey_count }}" stroke="rgb(128,0,0)" stroke-width="3" fill="rgb(255,195,11)" />
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(128,0,0)" stroke-width="2" fill="rgb(255,195,11)" />
         </a>
-    @elseif($region->honey_count >=1 && $region->sugar_count >=1)
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ( {{ $region->sugar_count }} sugar mills, {{ $region->honey_count }} beekeepers)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->honey_count + $region->sugar_count }}" stroke="rgb(128,0,128)" stroke-width="4" fill="rgb(175,110,77)" />
-		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(0,0,0)" />

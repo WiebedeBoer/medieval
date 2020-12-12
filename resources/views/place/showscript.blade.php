@@ -32,20 +32,35 @@ camera.position.z = -67;
 camera.position.x = -21;
 //trees
 var treesplacement = parseInt("{{$placedata->place_id}}") % 4;
-//resources
+//culture
 var culture_name ="{{$cultural->culture_name}}";
 var warrior_culture ="{{$cultural->warrior_culture}}";
 var chivalry_culture ="{{$cultural->chivalry_culture}}";
 var manorial_culture ="{{$cultural->manorial_culture}}";
 var commercial_culture ="{{$cultural->commercial_culture}}";
+//climate
 var climate ="{{$region->climate}}";
-var herbs ="{{$region->herb}}";
+//style
 var styles ="{{$region->style}}";
-var rides ="{{$region->ride}}";
+//cycle
 var cycles ="{{$region->cycle}}";
+//regional livestock
+var rides ="{{$region->ride}}";
 var goat ="{{$region->goat}}";
 var sheep ="{{$region->sheep}}";
 var cattle ="{{$region->cattle}}";
+var pigs = "{{$region->pigs}}";
+var poultry ="{{$region->poultry}}";
+//regional resources
+var herbs ="{{$region->herb}}";
+var fruit ="{{$region->fruit}}";
+var grapes ="{{$region->wine}}";
+var olives ="{{$region->oil}}";
+var sweet ="{{$region->sweetener}}";
+var dyes ="{{$region->dyes}}";
+var grains ="{{$region->grain}}";
+var mill ="{{$region->mill}}";
+//place resources
 var population ="{{$placedata->population}}";
 var fortification ="{{$placedata->fortification}}";
 var commerce ="{{$placedata->commerce}}";

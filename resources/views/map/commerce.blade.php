@@ -14,9 +14,13 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	@if($region->stat_avg >=1 && $region->stat_avg <=499)
+	@if($region->stat_avg >=1 && $region->stat_avg <=49)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->stat_avg }} average)</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(64,0,0)" />
+		</a>
+	@elseif($region->stat_avg >=50 && $region->stat_avg <=499)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->stat_avg }} average)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="5" stroke="rgb(0,0,0)" stroke-width="2" fill="rgb(128,0,0)" />
 		</a>
     @elseif($region->stat_avg >=500 && $region->stat_avg <=699)
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->stat_avg }} average)</title>

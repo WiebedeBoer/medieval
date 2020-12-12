@@ -34,8 +34,8 @@ class SuccessionController extends Controller
             $dynasty_owner =[];
             $election_count = 0;
             $elections =[];
-        } 
-                
+        }        
+
 		return view('succession.index', compact('user','dynasty_owner_count','dynasty_owner','elections','election_count'));        
     }
 

@@ -14,41 +14,21 @@ Game
 </g>
 @foreach($placedata as $place)
 	<g z-index="2">
-	@if($place->factory =="cooper")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (cooper)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(128,0,0)" stroke-width="2" fill="rgb(192,92,0)" />
-		</a>
-    @elseif($place->factory =="granary")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (granary)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(128,0,0)" stroke-width="2" fill="rgb(245,222,179)" />
-		</a>
-	@elseif($place->factory =="watermill")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (watermill)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(0,0,128)" stroke-width="2" fill="rgb(128,255,255)" />
-		</a>
-    @elseif($place->factory =="windmill")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (windmill)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(128,0,128)" stroke-width="2" fill="rgb(255,255,255)" />
-		</a>
-	@elseif($place->factory =="mint")
+	@if($place->factory =="mint")
 		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (mint)</title>
 		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(128,0,0)" stroke-width="2" fill="rgb(255,215,0)" />
-		</a>
-	@elseif($place->factory =="potterer")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (potterer)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(128,0,0)" stroke-width="2" fill="rgb(156,86,66)" />
 		</a>
 	@elseif($place->factory =="fur")
 		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (furrier)</title>
 		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(64,32,0)" stroke-width="2" fill="rgb(128,64,0)" />
 		</a>
-	@elseif($place->factory =="leather")
-		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (tannery)</title>
-		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(0,32,128)" stroke-width="2" fill="rgb(68,55,36)" />
-		</a>
 	@elseif($place->factory =="glasswork")
 		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (glassworks)</title>
 		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(255,32,255)" stroke-width="2" fill="rgb(68,155,236)" />
+		</a>
+	@elseif($place->factory =="ivory")
+		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}, (ivory)</title>
+		<circle cx="{{ $place->offset_x_coord }}" cy="{{ $place->offset_y_coord }}" r="6" stroke="rgb(192,32,0)" stroke-width="2" fill="rgb(255,255,240)" />
 		</a>
 	@else
 		<a xlink:href="/place/{{ $place->place_id }}"><title>{{ $place->place_name }}</title>

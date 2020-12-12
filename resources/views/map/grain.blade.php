@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (Dyes)</h1>
+					<h1>World Map (Grains)</h1>
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -14,17 +14,17 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">   
-	@if($region->dyes =="woad")
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (woad)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(0,255,255)" />
-		</a>
-	@elseif($region->dyes =="madder")
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (madder)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,0,0)" />
-        </a>
-    @elseif($region->dyes =="saffron")
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (saffron)</title>
+	@if($region->grain =="wheat")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (wheat)</title>
 		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(255,255,0)" />
+		</a>
+	@elseif($region->grain =="barley")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (barley)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(92,32,0)" />
+		</a>
+	@elseif($region->grain =="rye")
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, (rye)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="6" stroke="rgb(64,0,0)" stroke-width="2" fill="rgb(192,92,0)" />
 		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>

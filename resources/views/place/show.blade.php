@@ -39,6 +39,9 @@ Game
 					<div class="inlinepart">
 						@include('place.minitable')
 					</div>
+					<div class="inlinepart">
+						@include('place.resourcetable')
+					</div>
 				</div>
 			</div>
 		</div>
