@@ -156,10 +156,10 @@ else if(citywall =="earthwork"){
 }
 //quarters and buildings generating
 quarters.forEach(function(quarter) {
-	QuarterGenerator(climate,treesplacement,quarter[0],quarter[1],quarter[2],quarter[3]);
+	QuarterGenerator(climate,treesplacement,culture_name,quarter[0],quarter[1],quarter[2],quarter[3]);
 	if(quarter[4]){
 		quarter[4].forEach(function(building) {
-			BuildingGenerator(quarter[0],quarter[1],quarter[2],building);	
+			BuildingGenerator(quarter[0],quarter[1],quarter[2],building,culture_name);	
 		});
 	}
 });

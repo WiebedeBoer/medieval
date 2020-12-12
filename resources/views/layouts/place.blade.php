@@ -47,7 +47,8 @@
     <script type="text/javascript" src="{{ asset ('building/generator_quarter.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/generator_building.js') }}"></script>    
     <!--commerce buildings-->
-
+    <script type="text/javascript" src="{{ asset ('building/market.js') }}"></script>  
+    <script type="text/javascript" src="{{ asset ('building/inn.js') }}"></script>  
     <!--religious buildings-->
     <script type="text/javascript" src="{{ asset ('building/cathedral.js') }}"></script>  
     <script type="text/javascript" src="{{ asset ('building/chapel.js') }}"></script> 

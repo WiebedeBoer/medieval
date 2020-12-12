@@ -1,4 +1,4 @@
-function QuarterGenerator(climate,treesplacement,quartercategory,pX,pY,quarterrank) {
+function QuarterGenerator(climate,treesplacement,culture_name,quartercategory,pX,pY,quarterrank) {
 
 	var generatedquartercategory = quartercategory;
 	var generatedquarter_x = 700 * (pX - 4);

@@ -17,6 +17,27 @@ function BuildingGenerator(quartercategory,pX,pY,buildingtype,culture_name) {
     //gateway
     else if(generatedbuilding_quartercategory ==3){
 
+        //2,4
+        if(pX ==2 && pY ==4){
+            var inn1 = new Inn(generatedbuilding_x,0,generatedbuilding_y - 115,1.5707963,culture_name);
+            scene.add( inn1 );
+        }
+        //3,2
+        else if(pX ==3 && pY ==2){
+            var inn2 = new Inn(generatedbuilding_x - 100,0,generatedbuilding_y,3.1415926,culture_name);
+            scene.add( inn2 );
+        }
+        //5,6
+        else if(pX ==5 && pY ==6){
+            var inn3 = new Inn(generatedbuilding_x + 100,0,generatedbuilding_y,0,culture_name);
+            scene.add( inn3 );
+        }
+        //6,3
+        else {
+            var inn4 = new Inn(generatedbuilding_x,0,generatedbuilding_y - 100,1.5707963,culture_name);
+            scene.add( inn4 );
+        }
+
     }
     //castellany
     else if(generatedbuilding_quartercategory ==4){
@@ -24,7 +45,8 @@ function BuildingGenerator(quartercategory,pX,pY,buildingtype,culture_name) {
     }
     //market
     else if(generatedbuilding_quartercategory ==5){
-
+        var market = new Market(generatedbuilding_x,0,generatedbuilding_y + 25,1.5707963,culture_name);
+        scene.add( market );
     }
     //diocese
     else if(generatedbuilding_quartercategory ==6){
@@ -70,7 +92,8 @@ function BuildingGenerator(quartercategory,pX,pY,buildingtype,culture_name) {
     }
     //roadside inn
     else if(generatedbuilding_quartercategory ==13){
-
+        var inn5 = new Inn(generatedbuilding_x,0,generatedbuilding_y,0,culture_name);
+        scene.add( inn5 );
     }
     //fortified abbey
     else if(generatedbuilding_quartercategory ==14){
@@ -94,7 +117,8 @@ function BuildingGenerator(quartercategory,pX,pY,buildingtype,culture_name) {
     }
     //inn
     else if(generatedbuilding_quartercategory ==19){
-
+        var inn6 = new Inn(generatedbuilding_x,0,generatedbuilding_y,0,culture_name);
+        scene.add( inn6 );
     }
     //commandery
     else if(generatedbuilding_quartercategory ==20){
