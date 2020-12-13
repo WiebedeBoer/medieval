@@ -17,7 +17,7 @@ class Jousting extends THREE.Group {
 		else if(this.culture =="Frankish" || this.culture =="Occitan" || this.culture =="Arpitan"){
 			var flag_num ="blue_yellow";
         }
-		//scotland blue white
+		//scotland, blue white
 		else if(this.culture =="Scottish" || this.culture =="Pictish"){
 			var flag_num ="blue_white";
         }
@@ -31,24 +31,24 @@ class Jousting extends THREE.Group {
 		else if(this.culture =="Hungarian"){
 			var flag_num ="red_white";
         }
-        //east
+        //east, yellow blue
 		else if(this.culture =="Danish" || this.culture =="Swedish" || this.culture =="Norwegian"){
-			var flag_num ="red_white";
+			var flag_num ="yellow_blue";
         }
 		else if(this.culture =="Polish" || this.culture =="Lithuanian"){
-			var flag_num ="red_white";
+			var flag_num ="yellow_blue";
         }
 		else if(this.culture =="Russian"){
-			var flag_num ="red_white";
+			var flag_num ="yellow_blue";
         }
-        //byzantine
+        //byzantine, purple yellow
 		else if(this.culture =="Serbian" || this.culture =="Bulgarian" || this.culture =="Wallachian"){
-			var flag_num ="byzantine";
+			var flag_num ="purple_yellow";
         } 
 		else if(this.culture =="Byzantine" || this.culture =="Georgian" || this.culture =="Armenian"){
-			var flag_num ="byzantine";
+			var flag_num ="purple_yellow";
         } 
-		//spain red yellow
+		//spain, red yellow
 		else if(this.culture =="Castillian" || this.culture =="Leonese" || this.culture =="Galician"){
 			var flag_num ="red_yellow";
         }
@@ -64,17 +64,17 @@ class Jousting extends THREE.Group {
 		else if(this.culture =="Neapolitan" || this.culture =="Sardinian" || this.culture =="Sicilian"){
 			var flag_num ="red_yellow";
 		}
-        //andalucian
+        //andalucian, green white
 		else if(this.culture =="Gharb" || this.culture =="Andalucian"){
-			var flag_num ="red_white";
+			var flag_num ="green_white";
         }
-        //arab
+        //arab, black green
 		else if(this.culture =="Mashriq" || this.culture =="Najd" || this.culture =="Hejaz" || this.culture =="Misr" || this.culture =="Ifriqiya" || this.culture =="Maghreb"){
-			var flag_num ="red_white";
+			var flag_num ="black_green";
         } 
-        //andalucian
+        //persian, white blue
 		else if(this.culture =="Turkish" || this.culture =="Persian" || this.culture =="Mongol"){
-			var flag_num ="red_white";
+			var flag_num ="white_blue";
         }     
         //default red white
 		else {
