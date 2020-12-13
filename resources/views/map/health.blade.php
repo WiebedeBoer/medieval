@@ -3,7 +3,7 @@
 Game
 @endsection
 @section('content')
-					<h1>World Map (Mints View)</h1>
+					<h1>World Map (Hospitals View)</h1>
 @include('region.mapmenu')
 <div class="wmin">
 <?xml version="1.0" standalone="no"?>
@@ -14,9 +14,9 @@ Game
 </g>
 @foreach($regiondata as $region)
 	<g z-index="2">
-	@if($region->mint_count >=1)
-		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->mint_count }} mint)</title>
-		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->mint_count }}" stroke="rgb(64,0,0)" stroke-width="{{ 1 + $region->mint_count }}" fill="rgb(212,175,52)" />
+	@if($region->hospital_count >=1)
+		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}, ({{ $region->hospital_count }} hospitals)</title>
+		<circle cx="{{ $region->region_x }}" cy="{{ $region->region_y }}" r="{{ 5 + $region->hospital_count }}" stroke="rgb(192,0,0)" stroke-width="{{ 1+ $region->hospital_count }}" fill="rgb(0,255,255)" />
 		</a>
 	@else
 		<a xlink:href="/region/{{ $region->region_id }}"><title>{{ $region->region_name }}</title>
@@ -25,8 +25,6 @@ Game
 	@endif
 	</g>		
 @endforeach
-
 </svg>
 </div>
-
 @endsection

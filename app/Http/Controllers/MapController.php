@@ -320,29 +320,14 @@ class MapController extends Controller
 
 	  public function trade()
     {            
-      $placedata = Place::with('regions','realms')->get();	
-      foreach($placedata as $place) 
-      {              
-          $place_offset = $place->place_id % 4;
-          if($place_offset ==1){
-            $place->offset_x_coord = $place->regions->region_x + 6;
-            $place->offset_y_coord = $place->regions->region_y + 6;
-          }
-          elseif($place_offset ==2){
-            $place->offset_x_coord = $place->regions->region_x + 6;
-            $place->offset_y_coord = $place->regions->region_y - 6;
-          }
-          elseif($place_offset ==3){
-            $place->offset_x_coord = $place->regions->region_x - 6;
-            $place->offset_y_coord = $place->regions->region_y + 6;
-          }
-          else {
-            $place->offset_x_coord = $place->regions->region_x - 6;
-            $place->offset_y_coord = $place->regions->region_y - 6; 
-          }
-
-      }				
-		  return view('map.trade', compact('placedata'));     
+      $mint = "mint";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $mint_count = Place::where('region', $region->region_id)->where('factory', $mint)->count();	
+            $region->mint_count = $mint_count;											
+        }				
+		  return view('map.trade', compact('regiondata'));     
     }
 
 	  public function storage()
@@ -388,20 +373,38 @@ class MapController extends Controller
 
 	  public function textiles()
     {            
-		  $tailor ="tailor";
-      $fuller ="fuller";
+      $fur ="fur";
       $cloth ="cloth";
 		  $regiondata = Region::all();	
         foreach($regiondata as $region) 
         {              
             $region_id = $region->region_id;
-            $tailor_count = Place::where('region', $region_id)->where('factory', $tailor)->count();					
-            $fuller_count = Place::where('region', $region_id)->where('factory', $fuller)->count();				
-            $cloth_count = Place::where('region', $region_id)->where('factory', $cloth)->count();				
-			      $region->textile_count = $tailor_count + $fuller_count + $cloth_count;							
+						
+            $cloth_count = Place::where('region', $region_id)->where('factory', $cloth)->count();	
+            $fur_count = Place::where('region', $region_id)->where('factory', $fur)->count();					
+            $region->textile_count = $cloth_count;	
+            $region->fur_count = $fur_count;						
         }				
 		  return view('map.textiles', compact('regiondata'));     
     }
+
+	  public function glass()
+    {            
+      $ivory ="ivory";
+      $glass ="glasswork";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              
+            $region_id = $region->region_id;
+						
+            $glass_count = Place::where('region', $region_id)->where('factory', $glass)->count();	
+            $ivory_count = Place::where('region', $region_id)->where('factory', $ivory)->count();					
+            $region->glass_count = $glass_count;	
+            $region->ivory_count = $ivory_count;						
+        }				
+		  return view('map.glass', compact('regiondata'));     
+    }
+    
     
     public function books()
     {            
@@ -474,6 +477,72 @@ class MapController extends Controller
 			      $region->silk_count = $silk_count;							
         }				
 		  return view('map.fiber', compact('regiondata'));     
+    }
+
+	  public function feudal()
+    {            
+    $placedata = Place::all();
+    foreach($placedata as $place) 
+    {              			
+        $place_offset = $place->place_id % 4;
+
+        if($place_offset ==1){
+          $place->offset_x_coord = $place->regions->region_x + 8;
+          $place->offset_y_coord = $place->regions->region_y + 8;
+        }
+        elseif($place_offset ==2){
+          $place->offset_x_coord = $place->regions->region_x + 8;
+          $place->offset_y_coord = $place->regions->region_y - 8;
+        }
+        elseif($place_offset ==3){
+          $place->offset_x_coord = $place->regions->region_x - 8;
+          $place->offset_y_coord = $place->regions->region_y + 8;
+        }
+        else {
+          $place->offset_x_coord = $place->regions->region_x - 8;
+          $place->offset_y_coord = $place->regions->region_y - 8; 
+        }				
+    }	
+		return view('map.feudal', compact('placedata'));        
+    }
+
+	  public function diocese()
+    {            
+    $placedata = Place::all();
+    foreach($placedata as $place) 
+    {              			
+        $place_offset = $place->place_id % 4;
+
+        if($place_offset ==1){
+          $place->offset_x_coord = $place->regions->region_x + 8;
+          $place->offset_y_coord = $place->regions->region_y + 8;
+        }
+        elseif($place_offset ==2){
+          $place->offset_x_coord = $place->regions->region_x + 8;
+          $place->offset_y_coord = $place->regions->region_y - 8;
+        }
+        elseif($place_offset ==3){
+          $place->offset_x_coord = $place->regions->region_x - 8;
+          $place->offset_y_coord = $place->regions->region_y + 8;
+        }
+        else {
+          $place->offset_x_coord = $place->regions->region_x - 8;
+          $place->offset_y_coord = $place->regions->region_y - 8; 
+        }				
+    }	
+		return view('map.diocese', compact('placedata'));        
+    }
+
+	  public function health()
+    {            
+      $hospice ="hospice";
+		  $regiondata = Region::all();	
+        foreach($regiondata as $region) 
+        {              						
+            $hospice_count = Place::where('region', $region->region_id)->where('education', $hospice)->count();	
+            $region->hospital_count = $hospice_count;		
+        }				
+		  return view('map.health', compact('regiondata'));     
     }
 	
 }

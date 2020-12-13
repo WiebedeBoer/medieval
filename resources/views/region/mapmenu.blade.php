@@ -14,9 +14,10 @@
 			
 		<a href="/map/population" class="wmlink"><img src="{{ asset('img/images/mannequin.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Population)</a>
 
-		<a href="/map/arms" class="wmlink"><img src="{{ asset('img/images/anvil.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Armories)</a>
-
-		<a href="/map/trade" class="wmlink"><img src="{{ asset('img/images/sack.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Trade &amp; Industry)</a>
+		<!--ranks-->
+		<a href="/map/diocese" class="wmlink"><img src="{{ asset('img/images/misc_mitre.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Diocese Ranks)</a>
+		
+		<a href="/map/feudal" class="wmlink"><img src="{{ asset('img/images/style_heaume.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Feudal Ranks)</a>
 
 		<!--stats-->
 		<a href="/map/agriculture" class="wmlink"><img src="{{ asset('img/images/pitchfork.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Agriculture)</a>
@@ -67,7 +68,7 @@
 		
 		<a href="/map/dyes" class="wmlink"><img src="{{ asset('img/tradegoods/madder.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Dyes)</a>
 
-		<a href="/map/textiles" class="wmlink"><img src="{{ asset('img/tradegoods/wool.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Textiles)</a>
+		<a href="/map/textiles" class="wmlink"><img src="{{ asset('img/tradegoods/wool.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Textiles &amp; Fur)</a>
 		
 		<a href="/map/fiber" class="wmlink"><img src="{{ asset('img/tradegoods/silk.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Silk &amp; Flax)</a>
 
@@ -88,6 +89,15 @@
 		<a href="/map/mill" class="wmlink"><img src="{{ asset('img/images/mill.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Mills)</a>
 		
 		<a href="/map/storage" class="wmlink"><img src="{{ asset('img/tradegoods/barrel.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Storage)</a>
+
+		<a href="/map/glass" class="wmlink"><img src="{{ asset('img/tradegoods/glasswork.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Glass &amp; Ivory)</a>
+
+		<a href="/map/arms" class="wmlink"><img src="{{ asset('img/images/anvil.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Armories)</a>
+
+		<a href="/map/trade" class="wmlink"><img src="{{ asset('img/images/sack.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Mints)</a>
+
+		<a href="/map/health" class="wmlink"><img src="{{ asset('img/images/asclepius.png') }}" width="48" height="48" alt="button" title="button"> Worldmap (Hospitals)</a>
+	
 	</div>
 </div>
 </div>	

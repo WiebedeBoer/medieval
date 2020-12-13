@@ -250,6 +250,10 @@ Route::get('map/grain','MapController@grain');
 Route::get('map/fiber','MapController@fiber');
 Route::get('map/mill','MapController@mill');
 Route::get('map/storage','MapController@storage');
+Route::get('map/glass','MapController@glass');
+Route::get('map/diocese','MapController@diocese');
+Route::get('map/feudal','MapController@feudal');
+Route::get('map/health','MapController@health');
 //region
 Route::get('region', 'RegionController@index');
 Route::get('region/{region}', 'RegionController@show');
