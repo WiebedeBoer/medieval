@@ -1505,7 +1505,7 @@ class RegionSeeder extends Seeder
             'wine' => 'none',
             'oil' => 'none',
             'dyes' => 'none',
-            'region_x' => '991',
+            'region_x' => '988',
             'region_y' => '455'
             ]);
             //63
@@ -1529,7 +1529,7 @@ class RegionSeeder extends Seeder
             'wine' => 'none',
             'oil' => 'none',
             'dyes' => 'none',
-            'region_x' => '1016',
+            'region_x' => '1019',
             'region_y' => '453'
             ]);
             //64
@@ -1895,7 +1895,7 @@ class RegionSeeder extends Seeder
             'wine' => 'none',
             'oil' => 'none',
             'dyes' => 'none',
-            'region_x' => '340',
+            'region_x' => '335',
             'region_y' => '403'
             ]);
             //79
@@ -1977,7 +1977,7 @@ class RegionSeeder extends Seeder
             'climate' => 'temperate_woodlands_marshes',
             'herb' => 'none',
             'style' => 'minstrel',
-            'ride' => 'none',
+            'ride' => 'stud',
             'culture' => '22',
             'cycle' => 'none',
             'goat' => 'none',
@@ -2980,7 +2980,7 @@ class RegionSeeder extends Seeder
             'wine' => 'wine',
             'oil' => 'olive',
             'dyes' => 'woad',
-            'region_x' => '923',
+            'region_x' => '933',
             'region_y' => '1205'
             ]);
             //124
@@ -3148,8 +3148,8 @@ class RegionSeeder extends Seeder
             'wine' => 'wine',
             'oil' => 'olive',
             'dyes' => 'none',
-            'region_x' => '1081',
-            'region_y' => '1350'
+            'region_x' => '1088',
+            'region_y' => '1346'
             ]);
             //131
             DB::table('regions')->insert([
@@ -3377,7 +3377,7 @@ class RegionSeeder extends Seeder
             'climate' => 'mediterranean_woodlands_marshes',
             'herb' => 'lavender',
             'style' => 'minstrel',
-            'ride' => 'none',
+            'ride' => 'camel',
             'culture' => '52',
             'cycle' => 'none',
             'goat' => 'none',
@@ -4223,7 +4223,7 @@ class RegionSeeder extends Seeder
             'oil' => 'none',
             'dyes' => 'none',
             'region_x' => '1253',
-            'region_y' => '995'
+            'region_y' => '1001'
             ]);
             //175
             DB::table('regions')->insert([
@@ -4544,7 +4544,7 @@ class RegionSeeder extends Seeder
             'oil' => 'none',
             'sweetener' => 'honey',
             'dyes' => 'none',
-            'region_x' => '1339',
+            'region_x' => '1345',
             'region_y' => '1267'
             ]);
             //188
@@ -4602,7 +4602,7 @@ class RegionSeeder extends Seeder
             'climate' => 'temperate_woodlands',
             'herb' => 'none',
             'style' => 'hunt',
-            'ride' => 'none',
+            'ride' => 'stud',
             'culture' => '42',
             'cycle' => 'russian',
             'goat' => 'none',
@@ -4777,7 +4777,7 @@ class RegionSeeder extends Seeder
             'climate' => 'temperate_woodlands',
             'herb' => 'none',
             'style' => 'hunt',
-            'ride' => 'none',
+            'ride' => 'stud',
             'culture' => '42',
             'cycle' => 'none',
             'goat' => 'none',
@@ -5045,7 +5045,7 @@ class RegionSeeder extends Seeder
             'climate' => 'mediterranean_woodlands',
             'herb' => 'none',
             'style' => 'hunt',
-            'ride' => 'none',
+            'ride' => 'stud',
             'culture' => '43',
             'cycle' => 'byzantine',
             'goat' => 'none',
@@ -5215,7 +5215,7 @@ class RegionSeeder extends Seeder
             'climate' => 'mediterranean_shrublands',
             'herb' => 'frankincense',
             'style' => 'tavern',
-            'ride' => 'none',
+            'ride' => 'stud',
             'culture' => '43',
             'cycle' => 'byzantine',
             'goat' => 'none',
@@ -5239,12 +5239,12 @@ class RegionSeeder extends Seeder
             'climate' => 'mediterranean_shrublands',
             'herb' => 'none',
             'style' => 'tavern',
-            'ride' => 'none',
+            'ride' => 'stud',
             'culture' => '43',
             'cycle' => 'none',
             'goat' => 'none',
             'sheep' => 'Thin_Tailed',
-            'cattle' => 'none',
+            'cattle' => 'Anatolian',
             'pigs' => 'none',
             'poultry' => 'none',
             'fruit' => 'none',
@@ -5749,7 +5749,7 @@ class RegionSeeder extends Seeder
             'climate' => 'mediterranean_shrublands',
             'herb' => 'none',
             'style' => 'caravan',
-            'ride' => 'none',
+            'ride' => 'camel',
             'culture' => '55',
             'cycle' => 'none',
             'goat' => 'none',
@@ -5821,7 +5821,7 @@ class RegionSeeder extends Seeder
             'climate' => 'desert',
             'herb' => 'none',
             'style' => 'minstrel',
-            'ride' => 'none',
+            'ride' => 'camel',
             'culture' => '55',
             'cycle' => 'none',
             'goat' => 'none',

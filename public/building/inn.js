@@ -2,12 +2,30 @@ class Inn extends THREE.Group {
 
     init (){
 
-        if(this.culture =="west"){
-            var marketColor ="west";
+		//HRE, black yellow
+		if(this.culture =="Frisian" || this.culture =="Franconian" || this.culture =="Saxon" || this.culture =="Bavarian" || this.culture =="Swabian" || this.culture =="Carinthian" || this.culture =="Flemish" || this.culture =="Tuscan" || this.culture =="Lombard"){
+			var flag_num ="black_yellow";
+		}
+		//france, blue yellow
+		else if(this.culture =="Frankish" || this.culture =="Occitan" || this.culture =="Arpitan"){
+			var flag_num ="blue_yellow";
+		}
+		//scotland blue white
+		else if(this.culture =="Scottish" || this.culture =="Pictish"){
+			var flag_num ="blue_white";
+		}
+		//england, red white
+		else if(this.culture =="English" || this.culture =="Breton" || this.culture =="Welsh"){
+			var flag_num ="red_white";
+		}
+		//spain red yellow
+		else if(this.culture =="Castillian" || this.culture =="Leonese" || this.culture =="Catalan" || this.culture =="Aragonese" || this.culture =="Navarrese" || this.culture =="Galician"){
+			var flag_num ="red_yellow";
         }
-        else {
-            var marketColor ="east";
-        }
+        //default red white
+		else {
+			var flag_num ="red_white";
+		}
 
         var dInn = this;
         loadOBJModel(assetBaseUrl +"building/inn/","timberframedinn.obj",assetBaseUrl +"building/inn/","timberframedinn.mtl", (mesh) => {

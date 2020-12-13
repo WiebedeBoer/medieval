@@ -243,7 +243,8 @@ DB::table('places')->insert([
 'monastic' => 'lord_abbot',
 'factory' => 'none',
 'arms' => 'none',
-'education' => 'none'
+'education' => 'none',
+'def' => '700'
 ]);
 
 DB::table('places')->insert([

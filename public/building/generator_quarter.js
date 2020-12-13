@@ -1,4 +1,4 @@
-function QuarterGenerator(climate,treesplacement,culture_name,quartercategory,pX,pY,quarterrank) {
+function QuarterGenerator(factory,grapes,climate,treesplacement,culture_name,rides,goat,sheep,cattle,pigs,poultry,quartercategory,pX,pY,quarterrank) {
 
 	var generatedquartercategory = quartercategory;
 	var generatedquarter_x = 700 * (pX - 4);
@@ -34,7 +34,65 @@ function QuarterGenerator(climate,treesplacement,culture_name,quartercategory,pX
                 forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y - 350);
                 forest(climate,treesplacement,generatedquarter_x - 350,generatedquarter_y);
             }    
-        }     
+        } 
+        else if(quarterrank =="pasture"){
+            if(pX ==7 && pY ==1){
+                //horse
+                if(rides =="stud"){
+                    pasture_horse(generatedquarter_x - 200,generatedquarter_y + 200,culture_name);
+                }
+                //camel
+                else if(rides =="camel"){
+                    pasture_camel(generatedquarter_x - 200,generatedquarter_y + 200);
+                }
+                else{
+                    pasture_empty(generatedquarter_x - 200,generatedquarter_y + 200);
+                }
+                //goat
+                if(goat !="none"){
+                    pasture_goat(generatedquarter_x,generatedquarter_y + 200,goat);
+                }
+                else {
+                    pasture_empty(generatedquarter_x,generatedquarter_y + 200);
+                }
+                //chicken
+                if(poultry =="chicken"){
+                    pasture_chicken(generatedquarter_x + 200,generatedquarter_y + 200);
+                }
+                //duck
+                else if(poultry =="duck"){
+                    pasture_duck(generatedquarter_x + 200,generatedquarter_y + 200);
+                }
+                else {
+                    pasture_empty(generatedquarter_x + 200,generatedquarter_y + 200);
+                }
+            
+            }
+            else if (pX ==7 && pY ==3){
+                //cattle
+                if(cattle !="none"){
+                    pasture_cattle(generatedquarter_x - 200,generatedquarter_y + 200,cattle);
+                }
+                else {
+                    pasture_empty(generatedquarter_x - 200,generatedquarter_y + 200);
+                }
+                //sheep
+                if(sheep !="none"){
+                    pasture_sheep(generatedquarter_x,generatedquarter_y + 200,sheep);
+                }
+                else {
+                    pasture_empty(generatedquarter_x,generatedquarter_y + 200);
+                }
+                //pigs
+                if(pigs !="none"){
+                    pasture_pig(generatedquarter_x + 200,generatedquarter_y + 200);
+                }
+                else {
+                    pasture_empty(generatedquarter_x + 200,generatedquarter_y + 200);
+                }
+            }
+
+        }    
     }
     //hospital
     else if(generatedquartercategory ==2){
@@ -74,7 +132,7 @@ function QuarterGenerator(climate,treesplacement,culture_name,quartercategory,pX
     }
     //industry
     else if(generatedquartercategory ==11){
-
+        factorymaker(factory,goat,grapes,climate,culture_name,generatedquarter_x,generatedquarter_y);
     }
     //citadel
     else if(generatedquartercategory ==12){

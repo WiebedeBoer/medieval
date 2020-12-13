@@ -47,6 +47,8 @@
     <script type="text/javascript" src="{{ asset ('building/generator_quarter.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/generator_building.js') }}"></script>    
     <!--commerce buildings-->
+    <script type="text/javascript" src="{{ asset ('building/factorymaker.js') }}"></script>  
+    <script type="text/javascript" src="{{ asset ('building/factory.js') }}"></script>  
     <script type="text/javascript" src="{{ asset ('building/market.js') }}"></script>  
     <script type="text/javascript" src="{{ asset ('building/inn.js') }}"></script>  
     <!--religious buildings-->
@@ -61,6 +63,31 @@
     <!--forest and trees-->
     <script type="text/javascript" src="{{ asset ('building/forest.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/foresttree.js') }}"></script>
+    <!--animals-->
+    <script type="text/javascript" src="{{ asset ('animal/camel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/chicken.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/cow.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/deer.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/donkey.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/duck.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/fish.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/goat.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/horse.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pheasant.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pig.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/rooster.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/sheep.js') }}"></script>
+    <!--pasture-->
+    <script type="text/javascript" src="{{ asset ('building/fence.js') }}"></script> 
+    <script type="text/javascript" src="{{ asset ('animal/pasture_empty.js') }}"></script>  
+    <script type="text/javascript" src="{{ asset ('animal/pasture_camel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_cattle.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_chicken.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_duck.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_goat.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_horse.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_sheep.js') }}"></script>
+    <script type="text/javascript" src="{{ asset ('animal/pasture_pig.js') }}"></script>
     <!--entertainment buildings-->
     <script type="text/javascript" src="{{ asset ('building/jousting.js') }}"></script>    
 
