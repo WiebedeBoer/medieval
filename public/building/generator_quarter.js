@@ -104,7 +104,8 @@ function QuarterGenerator(factory,grapes,climate,treesplacement,culture_name,rid
     }
     //castellany
     else if(generatedquartercategory ==4){
-
+        var castlekeep = new CastleKeep(generatedquarter_x + 50,0,generatedquarter_y + 20,1.5707963,culture_name);
+        scene.add( castlekeep );
     }
     //market
     else if(generatedquartercategory ==5){
@@ -136,7 +137,8 @@ function QuarterGenerator(factory,grapes,climate,treesplacement,culture_name,rid
     }
     //citadel
     else if(generatedquartercategory ==12){
-
+        var castlekeep = new CastleKeep(generatedquarter_x + 50,0,generatedquarter_y + 20,1.5707963,culture_name);
+        scene.add( castlekeep );
     }
     //roadside inn
     else if(generatedquartercategory ==13){

@@ -59,7 +59,7 @@
     <!--crusader buildings-->
 
     <!--feudal buildings-->
-
+    <script type="text/javascript" src="{{ asset ('building/castlekeep.js') }}"></script>
     <!--forest and trees-->
     <script type="text/javascript" src="{{ asset ('building/forest.js') }}"></script>
     <script type="text/javascript" src="{{ asset ('building/foresttree.js') }}"></script>
