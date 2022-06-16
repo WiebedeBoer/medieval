@@ -89,6 +89,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('HuntingBuildingSeeder');		
 		$this->call('GuildBuildingSeeder'); 
 		$this->call('MonkBuildingSeeder'); 
+		$this->call('CastleBuildingSeeder'); 
 		//default rooms		
 		$this->call('RoomTavernSeeder');
 		$this->call('RoomRoadsideSeeder');
@@ -99,6 +100,7 @@ class DatabaseSeeder extends Seeder
 		$this->call('RoomGuildSeeder'); 
 		$this->call('RoomChapterSeeder');
 		$this->call('RoomMonasterySeeder');
+		$this->call('RoomCastleSeeder');
 		//default furnishings	
 		
 		//default dungeons

@@ -203,6 +203,14 @@ Route::delete('fleets/{fleets}', 'FleetController@destroy');
 
 //goods
 
+//workshops
+Route::get('workshops', 'WorkshopController@index');
+Route::get('workshops/{workshops}', 'WorkshopController@show');
+Route::get('workshops/{workshops}/edit', 'WorkshopController@edit');
+Route::patch('workshops/{workshops}', 'WorkshopController@update');
+Route::post('workshops/create','WorkshopController@create');
+Route::post('workshops','WorkshopController@store');
+Route::delete('workshops/{workshops}', 'WorkshopController@destroy');
 //shops
 Route::get('shops', 'MarketController@index');
 Route::get('shops/{shops}', 'MarketController@show');

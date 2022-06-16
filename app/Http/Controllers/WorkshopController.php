@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Place;
+use App\Quarter;
+use App\Building;
 use App\Shop;
 use App\Ore;
 use App\Good;
@@ -27,8 +29,8 @@ class WorkshopController extends Controller
     {            	
         $shops = Shop::with('dynasties','places','owners','masters','resources')->orderBy('place','ASC')->paginate(50);
         $shop_count = Shop::count();
-		$user = auth()->user();
-		return view('shops.index', compact('shops','user','shop_count'));        
+        $user = auth()->user();
+		return view('workshops.index', compact('shops','user','shop_count'));        
     }
 	
 	//show
@@ -36,7 +38,7 @@ class WorkshopController extends Controller
     {       
         $shop = Shop::with('dynasties','places','owners','masters','resources')->where('shop_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('shops.show', compact('shop','user'));        
+		return view('workshops.show', compact('shop','user'));        
     }
     
 	//edit
@@ -44,7 +46,7 @@ class WorkshopController extends Controller
     {       
         $shop = Shop::with('dynasties','places','owners','masters','resources')->where('shop_id', $id)->firstOrFail();
 		$user = auth()->user();
-		return view('shops.edit', compact('shop','user'));        
+		return view('workshops.edit', compact('shop','user'));        
     }
 
 }

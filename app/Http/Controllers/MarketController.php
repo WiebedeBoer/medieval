@@ -40,5 +40,13 @@ class MarketController extends Controller
 		$user = auth()->user();
 		return view('shops.show', compact('shop','user'));        
     }	
+
+	//edit
+    public function edit($id)
+    {       
+        $shop = Shop::with('dynasties','places','owners','masters','resources')->where('shop_id', $id)->firstOrFail();
+		$user = auth()->user();
+		return view('shops.show', compact('shop','user'));        
+    }	
 	
 }

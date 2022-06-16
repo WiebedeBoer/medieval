@@ -41,7 +41,8 @@ function BuildingGenerator(quartercategory,pX,pY,buildingtype,culture_name) {
     }
     //castellany
     else if(generatedbuilding_quartercategory ==4){
-
+        var castlekeep = new CastleKeep(generatedbuilding_x + 50,0,generatedbuilding_y + 20,1.5707963,culture_name);
+        scene.add( castlekeep );
     }
     //market
     else if(generatedbuilding_quartercategory ==5){
@@ -88,7 +89,8 @@ function BuildingGenerator(quartercategory,pX,pY,buildingtype,culture_name) {
     }
     //citadel
     else if(generatedbuilding_quartercategory ==12){
-
+        var castlekeep = new CastleKeep(generatedbuilding_x + 50,0,generatedbuilding_y + 20,1.5707963,culture_name);
+        scene.add( castlekeep );
     }
     //roadside inn
     else if(generatedbuilding_quartercategory ==13){

@@ -4,6 +4,5 @@ Game
 @endsection
 @section('content')
 
-<h1>Shops</h1>
 
 @endsection
