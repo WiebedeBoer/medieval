@@ -16,20 +16,19 @@ class CountySeeder extends Seeder
 			//example
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',			//
-				'de_jure_duchy' => '',				//
-				'law_succession' => '',				//Elective Monarchy, Salic Primogeniture, Agnatic Seniority, Tanistry, Shura, Yassa
-				'law_assembly' => '',				//
-				'law_court' => '',					//
+				'county_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Crowned_Republic
+				'de_jure_duchy' => '',				
 				'vernacular_architecture' => '',	//				
-				'levy_feudal' => '',				//
-				'levy_ecclesiastical' => '',		//
-				'levy_burgher' => '',				//
-				'tax_feudal' => '',					//				
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1',
-				'mesne_lord' => '1'
+				'levy_feudal' => '',				//minimal, normal, large, maximal
+				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal
+				'levy_burgher' => '',				//minimal, normal, large, maximal
+				'tax_feudal' => '',					//minimal, normal, large, maximal		
+				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal				
+				'tax_burgher' => '',				//minimal, normal, large, maximal				
+				'souvereign' => '1',			(empire)
+				'lord_paramount' => '1',		(kingdom)
+				'tenant_in_chief' => '1',		(duchy)
+				'mesne_lord' => '1'				(county)
             ]);			
 			*/
 			
@@ -40,15 +39,13 @@ class CountySeeder extends Seeder
 				'county_name' => '',
 				'county_category' => '',
 				'de_jure_duchy' => '',
-				'law_succession' => '',
-				'law_assembly' => '',
-				'law_court' => '',	
 				'vernacular_architecture' => '',				
-				'levy_feudal' => '',
-				'levy_ecclesiastical' => '',
-				'levy_burgher' => '',
-				'tax_feudal' => '',				
-				'tax_ecclesiastical' => '',				
+				'levy_feudal' => 'large',
+				'levy_ecclesiastical' => 'normal',
+				'levy_burgher' => 'normal',
+				'tax_feudal' => 'minimal',				
+				'tax_ecclesiastical' => 'normal',	
+				'tax_burgher' => 'normal',				
 				'souvereign' => '1',
 				'lord_paramount' => '1',
 				'tenant_in_chief' => '1',
