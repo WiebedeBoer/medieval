@@ -35,9 +35,9 @@ class KingdomSeeder extends Seeder
 			//holy roman empire
 			//germany
 			//frisia, bavaria, lotharingia, saxony, carinthia
-			//
+			//1
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Germany',
+				'kingdom_name' => 'Kingdom of Germany',
 				'kingdom_category' => 'Elective',
 				'flag' => 'holy_roman_empire',
 				'de_jure_empire' => '1',			
@@ -55,9 +55,9 @@ class KingdomSeeder extends Seeder
             ]);
 			//lombardy
 			//verona, genoa, venice, modena, pisa
-			//
+			//2
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Lombardy',
+				'kingdom_name' => 'Kingdom of Lombardy',
 				'kingdom_category' => 'Elective',
 				'flag' => 'lombardy',
 				'de_jure_empire' => '1',			
@@ -75,9 +75,9 @@ class KingdomSeeder extends Seeder
             ]);
 			//bohemia
 			//bohemia, moravia
-			//
+			//3
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Bohemia',
+				'kingdom_name' => 'Kingdom of Bohemia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'bohemia',
 				'de_jure_empire' => '1',			
@@ -95,11 +95,11 @@ class KingdomSeeder extends Seeder
             ]);
 			//burgundy
 			//burgundy
-			//
+			//4
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Burgundy',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
+				'flag' => 'burgundy',
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
@@ -115,11 +115,11 @@ class KingdomSeeder extends Seeder
             ]);
 			//papal states (romagna)
 			//rome, spoleto, ancona, ferrara
-			//
+			//5
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Papal States',
 				'kingdom_category' => 'Papacy',
-				'flag' => '',
+				'flag' => 'papal_states',
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective Papacy',
 				'law_assembly' => '',
@@ -135,9 +135,9 @@ class KingdomSeeder extends Seeder
             ]);
 			//terra mariana
 			//prussia, livonia, estonia
-			//
+			//6
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Terra Mariana',
+				'kingdom_name' => 'State of Terra Mariana',
 				'kingdom_category' => 'Confederate',
 				'flag' => 'teutonic_order',
 				'de_jure_empire' => '1',			
@@ -156,7 +156,7 @@ class KingdomSeeder extends Seeder
 			//france
 			//france
 			//aquitaine, casgony, brittany, normandy
-			//
+			//7
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of France',
 				'kingdom_category' => 'Feudal',
@@ -177,7 +177,7 @@ class KingdomSeeder extends Seeder
 			//ireland
 			//ireland 
 			//connacht, leinster, meath, munster, ulster
-			//
+			//8
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'High Kingdom of Ireland',
 				'kingdom_category' => 'Tanistry',
@@ -198,7 +198,7 @@ class KingdomSeeder extends Seeder
 			//britain	
 			//england
 			//essex, wessex, sussex, kent, mercia, east anglia, northumbria
-			//
+			//9
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of England',
 				'kingdom_category' => 'Feudal',
@@ -218,11 +218,11 @@ class KingdomSeeder extends Seeder
             ]);
 			//wales
 			//dyfed, gwent, gwynedd, powys, cornwall
-			//
+			//10
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Wales',
 				'kingdom_category' => 'Tanistry',
-				'flag' => '',
+				'flag' => 'wales',
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => '',
@@ -238,11 +238,11 @@ class KingdomSeeder extends Seeder
             ]);			
 			//scotland			
 			//bernicia, strathclyde, galloway, fortriu, alba
-			//
+			//11
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Scotland',
 				'kingdom_category' => 'Tanistry',
-				'flag' => '',
+				'flag' => 'scotland',
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => '',
@@ -259,11 +259,11 @@ class KingdomSeeder extends Seeder
 			//aragon
 			//aragon
 			//aragon, catalonia, barcelona
-			//
+			//12
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Aragon',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
+				'flag' => 'aragon',
 				'de_jure_empire' => '4',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
@@ -279,11 +279,11 @@ class KingdomSeeder extends Seeder
             ]);				
 			//navarre
 			//navarre
-			//
+			//13
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Navarre',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
+				'flag' => 'navarre',
 				'de_jure_empire' => '4',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
@@ -299,13 +299,13 @@ class KingdomSeeder extends Seeder
             ]);	
 			//castile
 			//castile
-			//
-			//
+			//toledo
+			//14
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Castile',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'castile',
+				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -320,12 +320,12 @@ class KingdomSeeder extends Seeder
             ]);	
 			//galicia
 			//galicia
-			//
+			//15
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Galicia',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'galicia',
+				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -340,12 +340,12 @@ class KingdomSeeder extends Seeder
             ]);	
 			//leon
 			//leon, asturias
-			//
+			//16
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Leon',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'leon',
+				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -360,12 +360,12 @@ class KingdomSeeder extends Seeder
             ]);	
 			//portugal
 			//porto, beira
-			//
+			//17
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Portugal',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'portugal',
+				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -381,12 +381,12 @@ class KingdomSeeder extends Seeder
 			//denmark		
 			//denmark
 			//jutland, sjaeland, scania 
-			//
+			//18
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Denmark',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'denmark',
+				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -401,12 +401,12 @@ class KingdomSeeder extends Seeder
             ]);	
 			//norway
 			// northern isles, southern isles, hordaland, rogaland, agder, vestfold, oppland
-			//
+			//19
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Norway',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'norway',
+				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -421,12 +421,12 @@ class KingdomSeeder extends Seeder
             ]);	
 			//sweden
 			//sverike, uppland, smaland, gotland, halsingland
-			//
+			//20
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sweden',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'sweden',
+				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -442,12 +442,12 @@ class KingdomSeeder extends Seeder
 			//poland
 			//poland
 			//greater poland, lesser poland, mazovia, silesia, kuyavia, pomerania, pomerelia, mecklenburg
-			//
+			//21
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Poland',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'poland',
+				'de_jure_empire' => '7',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -462,12 +462,12 @@ class KingdomSeeder extends Seeder
             ]);				
 			//lithuania
 			//
-			//
+			//22
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Duchy of Lithuania',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'lithuania',
+				'de_jure_empire' => '7',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -483,12 +483,12 @@ class KingdomSeeder extends Seeder
 			//hungary
 			//hungary
 			//
-			//
+			//23
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Hungary',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'hungary',
-				'de_jure_empire' => '',			
+				'de_jure_empire' => '8',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -503,12 +503,276 @@ class KingdomSeeder extends Seeder
             ]);	
 			//croatia
 			//
-			//
+			//24
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Croatia',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
-				'de_jure_empire' => '',			
+				'flag' => 'croatia',
+				'de_jure_empire' => '8',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			
+			//byzantine
+			//thrace
+			//
+			//25
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Thrace',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//thessalonica
+			//athens, achaea, archipelago, epirus
+			//26
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Thessalonica',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+			//trebizond
+			//paphlagonia, armeniac, chaldia, crimea
+			//27
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Trebizond',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//anatolia
+			//thracesia, bucellaria, anatolia, cappadocia, silicia, opsicia, nicaea, lycia, pamphylia
+			//28
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Anatolia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);
+			//sicily
+			//palermo, trapani, messina, agrigento, catania, siracusa
+			//29
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Sicily',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'sicily',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//naples
+			//capua, amalfi, naples, calabria, basilicata, taranto, foggia, benevento, salerno
+			//30
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Naples',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'naples',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//sardinia
+			//gallura, logudoro (torres), arborea, cagliari
+			//31
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Sardinia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'sardinia',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//georgia
+			//georgia
+			//32
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Georgia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'georgia',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//armenia
+			//vaspurakan, taron, kars, azerbaijan
+			//33
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Armenia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'armenia',
+				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//bulgaria
+			//bulgaria
+			//
+			//34
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Bulgaria',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'bulgaria',
+				'de_jure_empire' => '10',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);
+			//wallachia
+			//wallachia, moldavia
+			//35
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Wallachia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'wallachia',
+				'de_jure_empire' => '10',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//serbia
+			//serbia
+			//rashka
+			//36
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Serbia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'serbia',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//bosnia
+			//bosnia
+			//37
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Bosnia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'bosnia',
+				'de_jure_empire' => '11',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -522,15 +786,527 @@ class KingdomSeeder extends Seeder
 				'lord_paramount' => '1',				
             ]);	
 
-			//hungary
+			//kievan rus
+			//kiev
+			//kiev, pereyaslavl
+			//38
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Kiev',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'kiev',
+				'de_jure_empire' => '12',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);		
+			//murom
+			//murom, ryazan, chernigov
+			//39
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Murom',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'chernigov',
+				'de_jure_empire' => '12',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//halych
+			//halych, volhynia, turov
+			//40
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Ruthenia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'volhynia',
+				'de_jure_empire' => '12',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//vladimir
+			//moscow, vladimir, suzdal
+			//41
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Vladimir',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'vladimir',
+				'de_jure_empire' => '12',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);		
+			//smolensk
+			//smolensk, toropets, mstislavl, rzhev
+			//42
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Smolensk',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'smolensk',
+				'de_jure_empire' => '12',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//novgorod
+			//novgorod, polotsk, pleskov
+			//43
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Novgorod',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'novgorod',
+				'de_jure_empire' => '12',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+
+			//almohad
 			//andalucia
-			//algarves, cordoba, badajoz, valencia
-			//
+			//algarves, cordoba, badajoz, valencia, sevilla, carmona, granada, almeria, murcia, denia, albarracin, malaga, algeciras
+			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Andalucia',
 				'kingdom_category' => 'Feudal',
-				'flag' => 'hungary',
-				'de_jure_empire' => '',			
+				'flag' => '',
+				'de_jure_empire' => '13',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+
+			//almohad
+			//
+			//
+			//45
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Marrakesh',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '14',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//46
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Fez',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '14',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//47
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Kairouan',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '14',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//48
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Tlemcen',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '14',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//49
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Ifni',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '14',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//50
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Figuig',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '14',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+
+			//abbasid
+			//
+			//
+			//51
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Baghdad',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '15',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//52
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Syria',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '15',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+			//
+			//
+			//53
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Najd',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '15',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+			//
+			//
+			//54
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Antioch',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '15',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+
+			//fatimid
+			//
+			//
+			//55
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Cairo',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '16',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//56
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Jerusalem',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '16',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//
+			//
+			//57
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Hejaz',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '16',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);				
+
+			//khazar
+			//khazaria
+			//
+			//
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Khazaria',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '17',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//alania
+			//
+			//
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Alania',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '17',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//cumania
+			//
+			//
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Cumania',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '17',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+
+			//seljuk
+			//kwarezm
+			//
+			//
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Kwarezm',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '18',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//isfahan
+			//
+			//
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Isfahan',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '18',			
+				'law_succession' => 'Salic Primogeniture',
+				'law_assembly' => '',
+				'law_court' => '',				
+				'levy_feudal' => '',
+				'levy_ecclesiastical' => '',
+				'levy_burgher' => '',
+				'tax_feudal' => '',				
+				'tax_ecclesiastical' => '',				
+				'tax_burgher' => 'normal',
+				'souvereign' => '1',
+				'lord_paramount' => '1',				
+            ]);	
+			//hormuz
+			//
+			//
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Hormuz',
+				'kingdom_category' => 'Feudal',
+				'flag' => '',
+				'de_jure_empire' => '18',			
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				

@@ -38,7 +38,6 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => 'Holy Roman Empire', 
 				'empire_category' => 'Princely_Elective',
-				'flag' => 'holy_roman_empire',
 				'law_succession' => 'Elective Monarchy',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -54,7 +53,6 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of France', 
 				'empire_category' => 'Composite_Crown',
-				'flag' => 'france',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -71,7 +69,6 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of Britain', 
 				'empire_category' => 'Composite_Crown',
-				'flag' => 'england',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -88,7 +85,6 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of Aragon', 
 				'empire_category' => 'Composite_Crown',
-				'flag' => 'aragon',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -104,7 +100,6 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of Castile', 
 				'empire_category' => 'Composite_Crown',
-				'flag' => 'castile',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -121,7 +116,6 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => 'Danelagen', 
 				'empire_category' => 'Commonwealth',
-				'flag' => 'denmark',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -134,11 +128,10 @@ class EmpireSeeder extends Seeder
 				'souvereign' => '1'
             ]);	
 			//eastern continental europe
-			// //poland, lithuania
+			//7 //poland, lithuania
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of Poland', 
 				'empire_category' => 'Commonwealth',
-				'flag' => '',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -150,11 +143,10 @@ class EmpireSeeder extends Seeder
 				'tax_burgher' => 'normal',
 				'souvereign' => '1'
             ]);
-			// //hungary, croatia
+			//8 //hungary, croatia
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of Hungary', 
 				'empire_category' => 'Commonwealth',
-				'flag' => '',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -169,11 +161,10 @@ class EmpireSeeder extends Seeder
 			
 			//orthodox
 			//eastern continental europe
-			// //anatolia, trebizond, thrace, greece, georgia, armenia, sicily, sardinia, naples
+			//9 //anatolia, trebizond, thrace, thessalonica, georgia, armenia, sicily, sardinia, naples
             DB::table('empires')->insert([
 				'empire_name' => 'Byzantine Empire', 
 				'empire_category' => 'Feudal_Empire',
-				'flag' => 'byzantine',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -185,11 +176,10 @@ class EmpireSeeder extends Seeder
 				'tax_burgher' => 'normal',
 				'souvereign' => '1'
             ]);			
-			// //bulgaria, wallachia
+			//10 //bulgaria, wallachia
             DB::table('empires')->insert([
 				'empire_name' => 'Bulgarian Empire', 
 				'empire_category' => 'Feudal_Empire',
-				'flag' => 'bulgaria',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -201,11 +191,10 @@ class EmpireSeeder extends Seeder
 				'tax_burgher' => 'normal',
 				'souvereign' => '1'
             ]);	
-			// //serbia, bosnia
+			//11 //serbia, bosnia
             DB::table('empires')->insert([
 				'empire_name' => 'Serbian Empire', 
 				'empire_category' => 'Feudal_Empire',
-				'flag' => 'serbia',
 				'law_succession' => 'Salic Primogeniture',
 				'law_assembly' => '',
 				'law_court' => '',				
@@ -217,7 +206,7 @@ class EmpireSeeder extends Seeder
 				'tax_burgher' => 'normal',
 				'souvereign' => '1'
             ]);	
-			//
+			//12 //kiev, murom, ruthenia, vladimir, smolensk, novgorod
             DB::table('empires')->insert([
 				'empire_name' => 'Kievan Russia', 
 				'empire_category' => 'Feudal_Empire',
@@ -236,7 +225,7 @@ class EmpireSeeder extends Seeder
 			
 			//muslim
 			//iberian peninsula
-			// //andalucia
+			//13 //andalucia
             DB::table('empires')->insert([
 				'empire_name' => 'Cordoba', 
 				'empire_category' => 'Caliphate',
@@ -253,7 +242,7 @@ class EmpireSeeder extends Seeder
 				'souvereign' => '1'
             ]);	
 			//maghreb
-			//
+			//14 //
             DB::table('empires')->insert([
 				'empire_name' => 'Almohad', 
 				'empire_category' => 'Caliphate',
@@ -270,7 +259,7 @@ class EmpireSeeder extends Seeder
 				'souvereign' => '1'
             ]);
 			//arabia
-			//
+			//15 //
             DB::table('empires')->insert([
 				'empire_name' => 'Abbasid', 
 				'empire_category' => 'Caliphate',
@@ -287,7 +276,7 @@ class EmpireSeeder extends Seeder
 				'souvereign' => '1'
             ]);	
 			//egypt
-			//
+			//16 //
             DB::table('empires')->insert([
 				'empire_name' => 'Fatimid', 
 				'empire_category' => 'Caliphate',
@@ -306,7 +295,7 @@ class EmpireSeeder extends Seeder
 
 			//pagan
 			//pontic steppe
-			//khazaria, cumania, crimea, alania
+			//17 //khazaria, cumania, alania
             DB::table('empires')->insert([
 				'empire_name' => 'Khazar Empire', 
 				'empire_category' => 'Horde',
@@ -323,7 +312,7 @@ class EmpireSeeder extends Seeder
 				'souvereign' => '1'
             ]);	
 			//turan
-			//oghuz, transoxiana
+			//18 //oghuz, transoxiana, chagatai
             DB::table('empires')->insert([
 				'empire_name' => 'Seljuk Empire', 
 				'empire_category' => 'Horde',
