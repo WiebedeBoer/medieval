@@ -34,7 +34,7 @@ class KingdomSeeder extends Seeder
 			
 			//holy roman empire
 			//germany
-			//frisia, bavaria, lotharingia, saxony, carinthia
+			//Austria, Bavaria, Brabant, Carinthia, Carniola, Franconia, Frisia, Guelders, Julich, Limburg, Lorraine, Luneburg, Luxembourg, Saxony, Styria, Swabia, Bremen, Cologne, Magdeburg, Mainz, Salzburg, Trier
 			//1
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Germany',
@@ -54,7 +54,7 @@ class KingdomSeeder extends Seeder
 				'lord_paramount' => '1',				
             ]);
 			//lombardy
-			//verona, genoa, venice, modena, pisa
+			//verona, genoa, venice, modena, pisa, milan, tuscany
 			//2
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Lombardy',
@@ -95,7 +95,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//burgundy
 			//burgundy
-			//4
+			//4 //burgundy, savoy, geneva, orange, provence, dauphine
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Burgundy',
 				'kingdom_category' => 'Feudal',
@@ -134,10 +134,10 @@ class KingdomSeeder extends Seeder
 				'lord_paramount' => '1',				
             ]);
 			//terra mariana
-			//prussia, livonia, estonia
+			//prussia, livonia, estonia, Mecklenburg, pomerelia, pomerania, brandenburg
 			//6
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'State of Terra Mariana',
+				'kingdom_name' => 'Teutonic Order State',
 				'kingdom_category' => 'Confederate',
 				'flag' => 'teutonic_order',
 				'de_jure_empire' => '1',			

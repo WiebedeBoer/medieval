@@ -38,8 +38,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_architecture' => '',				
+				'de_jure_duchy' => '',								
 				'levy_feudal' => 'large',
 				'levy_ecclesiastical' => 'normal',
 				'levy_burgher' => 'normal',
