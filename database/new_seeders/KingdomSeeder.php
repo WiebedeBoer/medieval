@@ -19,16 +19,16 @@ class KingdomSeeder extends Seeder
 				'flag' => '',					
 				'de_jure_empire' => '',			
 				'law_succession' => '',			//Elective_Monarchy, Elective_Papacy, Elective_Order, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa, 
-				'law_assembly' => '',			//absolute, limited, medium, high
+				'law_assembly' => '',			//absolute, limited, medium, high; default=medium
 				'law_court' => '',				//itinerant, palatial				
-				'levy_feudal' => '',			//minimal, normal, large, maximal
-				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal
-				'levy_burgher' => '',			//minimal, normal, large, maximal
-				'tax_feudal' => '',				//minimal, normal, large, maximal		
-				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal				
-				'tax_burgher' => ''				//minimal, normal, large, maximal			
-				'souvereign' => '1',			(empire)
-				'lord_paramount' => '1'			(kingdom)					
+				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
+				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
+				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
+				'tax_feudal' => '',				//minimal, normal, large, maximal; default=minimal		
+				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal				
+				'tax_burgher' => ''				//minimal, normal, large, maximal; default=normal			
+				'souvereign' => '1',			(empire); default=1
+				'lord_paramount' => '1'			(kingdom); default=1					
             ]);			
 			*/
 			

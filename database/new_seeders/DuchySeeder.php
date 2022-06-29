@@ -18,60 +18,39 @@ class DuchySeeder extends Seeder
 				'duchy_category' => '',			//Feudal, Ecclesiastical, Crowned_Republic
 				'de_jure_kingdom' => '',		//	
 				'law_succession' => '',			//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa
-				'law_assembly' => '',			//absolute, limited, medium, high
-				'law_court' => '',				//itinerant, palatial
-				'vernacular_cycle' => '',		//Matter_of_Britain, Carolingian, Byzantine, Rus, Persian, Arab					
-				'levy_feudal' => '',			//minimal, normal, large, maximal
-				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal
-				'levy_burgher' => '',			//minimal, normal, large, maximal
-				'tax_feudal' => '',				//minimal, normal, large, maximal		
-				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal				
-				'tax_burgher' => ''				//minimal, normal, large, maximal			
-				'souvereign' => '1',			(empire)
-				'lord_paramount' => '1',		(kingdom)
-				'tenant_in_chief' => '1'		(duchy)
+				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	
+				'law_court' => '',				//itinerant, palatial			
+				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
+				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
+				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
+				'tax_feudal' => '',				//minimal, normal, large, maximal; default=minimal		
+				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal				
+				'tax_burgher' => ''				//minimal, normal, large, maximal; default=normal			
+				'souvereign' => '1',			(empire); default=1
+				'lord_paramount' => '1',		(kingdom); default=1
+				'tenant_in_chief' => '1'		(duchy); default=1
             ]);			
 			*/
 			
 			//holy roman empire
 			//germany
-			// 
-			//austria, tegernsee, krems, gars, durnstein, saint polten, linz
+			//1 
+			//Grunsweit, Ostmark, Vienna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Austria',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
-			//bavaria, berchtesgaden, regensburg, ortenburg, passau, niedermunster, obermunster, freising, leuchtenberg, haag
+			//Donaugau, Folkfeld, Isengau, Mattiggau, Nordgau, Radenzgau, Rottgau, Schweinachgau, Westergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bavaria',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);			
 			// 
 			//brussels, antwerp, louvain, hainaut, cambrai, toxandria, hasbania, thorn
@@ -80,55 +59,34 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);
 			// 
-			//carinthia, carniola, styria
+			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Leobental, Murztal, Sanntal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carinthia',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
-			//franconia, ansbach, bamberg, eichstatt, henneberg, nuremberg, rothenburg, weissenburg, wurzburg
+			//Krainmark, Histria
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Carniola',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '1',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'itinerant'				
+            ]);	
+			// 
+			//Grabfeld, Gollachgau, Gotzfeld, Jagstgau, Saalgau, Sualafeld, Sulmgau, Taubergau, Waldsassengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Franconia',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//dithmarschen, oldenburg, teisterbant, kennemerland, rijnland, maasland, westflinge, utrecht, holland, naarderland drenthe, twente, salland, beveland, walcheren, ostringen, rustringen, wursten, hadeln, auricherland, norderland, fivelgo, hunsingo, oostergo, westergo, bornego
@@ -137,74 +95,34 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);
 			// 
-			//hattuaria, maasau, betuwe, hameland, veluwe
+			//Hettergau, Betuwe, Cleveland, Hamaland, Mulgau, Ruhrgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Guelders',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
-			//julich, aachen, duren, kornelimunster, mark, arnsberg, cleveland
+			//Julichgau, Eifelgau, Zulpichgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Julich',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
-			//limburg, namur, liege, rode, valkenburg, dalhem, muhlgau
+			//Luttichgau, Ardennengau, Condrustgau, Lommegau, Maasgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Limburg',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//toul, metz, nancy, verdun, alsace, saarbrucken, zweibrucken, strassbourg
@@ -213,17 +131,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//luneburg, brunswick, schauenburg
@@ -232,17 +140,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//luxembourg, stavelot, salm, vianden, chiny, bouillon
@@ -251,17 +149,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);		
 			// 
 			//saxony, altenburg, anhalt, mansfeld
@@ -270,17 +158,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//silesia, lusatia, meissen
@@ -289,18 +167,17 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);
+			// 
+			//Traungau, Attergau, Ennstal, Norital, Vinschgau
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Styria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '1',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'itinerant'				
+            ]);	
 			// 
 			//zurich, konstanz, saint gall, lucerne, schwyz, disentis, baden, augsburg, ellwangen, gengenbach, hohenzollern, kempten, lindau, roggenburg, salem, weingarten, wettenhausen, ulm, thengen, ravensburg, kyburg, habsburg
             DB::table('duchies')->insert([
@@ -308,17 +185,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//bremen, hamburg, stade, holstein, verden, munster, paderborn, osnabruck, minden, ravensberg, corvey, bentheim, hoya, tecklenburg
@@ -327,36 +194,16 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
-			//cologne, berg, sayn, wied, thuringia
+			//Gillgau, Auelgau, Bonngau, Deutzgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cologne',
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//magdeburg, walbeck, halberstadt, merseburg, naumburg
@@ -365,17 +212,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//mainz, rieneck, wertheim, nidda, fulda, hersfeld, pfalz, speyer, wissembourg, worms
@@ -384,55 +221,25 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
-			//salzburg, brixen, tyrol, chur, trent
+			//Salzburggau, Chiemgau, Lungau, Pinzgau, Sundergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salzburg',
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
-			//trier, sponheim, prum, bitburg
+			//Bitgau, Maifeld, Hunsruckgau, Trechirgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Trier',
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			//lombardy
 			// 
@@ -442,17 +249,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//modena, parma, reggio, frignana, piacenza, mantua, cremona, brescia
@@ -461,17 +258,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//pavia, novara, casale, vercelli
@@ -480,17 +267,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//salluzo, susa, asti
@@ -499,17 +276,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);				
 			// 
 			//grosseto, siena, cortona, arezzo
@@ -518,17 +285,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//verona, treviso, padua
@@ -537,17 +294,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			// 
 			//friuli, gorizia, istria
@@ -556,17 +303,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//florence
@@ -575,17 +312,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Crowned_Republic',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//genoa, malaspina, tortona, alessandria, montferrat, alba, sandova, mondovi, albenga, oneglia, monaco
@@ -594,17 +321,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Crowned_Republic',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//pisa, lucca, pistoja, volterra
@@ -613,17 +330,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Crowned_Republic',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//venice, chioggia
@@ -632,17 +339,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Crowned_Republic',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			//bohemia
 			// 
@@ -652,17 +349,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '3',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			// 
 			//moravia
@@ -671,17 +358,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '3',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);				
 			//burgundy
 			// 
@@ -691,17 +368,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			// dauphine, lyonnais, viennois, valentinois, forcalquier, briancon, embrunnais
@@ -710,17 +377,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);			
 			// 
 			//lausanne, bern, sion,  aargau, solothurn, freiburg, neuenburg
@@ -729,17 +386,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			// 
 			//orange, venaissin, vivarais
@@ -748,17 +395,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//arles, aix, baux, vaison, marseille, toulon, nice
@@ -767,17 +404,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//tarantaise, chablais, valais, geneva, aosta
@@ -786,17 +413,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			//papal states
 			// 
@@ -806,17 +423,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//ancona
@@ -825,17 +432,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Crowned_Republic',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//ferrara, ravenna, bologna
@@ -844,17 +441,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//spoleto
@@ -863,17 +450,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			//teutonic order state
 			// 
@@ -883,17 +460,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);
 			// 
 			//reval, hapsal, arensburg, weissenstein, wesenberg, narva
@@ -902,17 +469,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//koningsberg, elbing, memelburg, marienburg, ermland
@@ -921,17 +478,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//danzig, culmerland, thorn
@@ -940,17 +487,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//kolberg, slupsk, cammin, stettin, stralsund, greifswald, demmin, grimmen, koslin, pasewalk
@@ -959,17 +496,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//havelland, brandenburg
@@ -978,17 +505,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//mecklenburg, lubeck, schwerin, ratzeburg
@@ -997,17 +514,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			//france
 			//france
@@ -1018,17 +525,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//agenais, lomagne, bordeaux, bazadais, angouleme, saintogne, perigord, limousin
@@ -1037,17 +534,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//auvergne, aurillac, clermont, brioude, carlat, murat
@@ -1056,17 +543,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			//berry, sancerre
             DB::table('duchies')->insert([
@@ -1074,17 +551,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			// 
 			//bourbonnais, montlucon
@@ -1093,17 +560,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//nantes, rennes, vannes, dol, rohan, penthievre, cornouailles, leon
@@ -1112,17 +569,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//casgony, armagnac, bearn, bigorre, comminges, dax, tursan, marsan, fezensac, astarac, couserans
@@ -1131,17 +578,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//reims, rethel, langres, troyes, sens, bar, provins, meaux, chalons
@@ -1150,17 +587,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Elective_Monarchy',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//beauvaisis, senlis, valois, soissonnais, pay de france, brie, gatinais, mantois, hurepoix, vexin, clermont, beaumont
@@ -1169,17 +596,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			// 
 			//alencon, mortain, evreux, rouen, eu, fecamp, lisieux, bayeux, coutances, avranches
@@ -1188,17 +605,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//orleanais, blois, dunois, nemours, chartres, chateaudun, dreux
@@ -1207,17 +614,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//artois, boulogne, guines, montreuil, ponthieu, amienois, vermandois, laonnais, noyonnais, flanders, tournai
@@ -1226,17 +623,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//poitou, aunis, turenne, marche, thouars, chatellerault
@@ -1245,17 +632,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'				
             ]);	
 			// 
 			//toulouse, quercy, foix, carcasonne, narbonne, albi, gevaudan, velay, rouergue, nimes, millau
@@ -1264,17 +641,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',			
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',	
-				'tax_burgher' => 'normal',					
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 
 

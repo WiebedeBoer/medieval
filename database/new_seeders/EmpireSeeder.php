@@ -18,14 +18,16 @@ class EmpireSeeder extends Seeder
             DB::table('empires')->insert([
 				'empire_name' => '', 
 				'empire_category' => '',		//Princely_Elective, Feudal_Empire, Composite_Crown, Commonwealth, Caliphate, Horde
-				'law_succession' => '',			//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa			
-				'levy_feudal' => '',			//minimal, normal, large, maximal
-				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal
-				'levy_burgher' => '',			//minimal, normal, large, maximal
-				'tax_feudal' => '',				//minimal, normal, large, maximal		
-				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal				
-				'tax_burgher' => ''				//minimal, normal, large, maximal
-				'souvereign' => '1',			(empire)
+				'law_succession' => '',			//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa	
+				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	
+				'law_court' => '',				//itinerant, palatial				
+				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
+				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
+				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
+				'tax_feudal' => '',				//minimal, normal, large, maximal; default=minimal		
+				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal				
+				'tax_burgher' => ''				//minimal, normal, large, maximal; default=normal	
+				'souvereign' => '1',			(empire); default=1
             ]);
 			*/			
 			
@@ -37,14 +39,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Princely_Elective',
 				'law_succession' => 'Elective_Monarchy',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			//2 //france
             DB::table('empires')->insert([
@@ -52,14 +47,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			//british isles			
 			//3 //ireland, england, scotland, wales
@@ -68,14 +56,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			//iberian peninsula
 			//4 //aragon, navarre
@@ -84,14 +65,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			//5 //castile, galicia, leon, portugal
             DB::table('empires')->insert([
@@ -99,14 +73,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);			
 			//scandinavia
 			//6 //denmark, norway, sweden
@@ -115,14 +82,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Commonwealth',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			//eastern continental europe
 			//7 //poland, lithuania
@@ -131,14 +91,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Commonwealth',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);
 			//8 //hungary, croatia
             DB::table('empires')->insert([
@@ -146,14 +99,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Commonwealth',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);			
 			//orthodox
 			//eastern continental europe
@@ -163,14 +109,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'palatial'
             ]);			
 			//10 //bulgaria, wallachia
             DB::table('empires')->insert([
@@ -178,14 +117,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			//11 //serbia, bosnia
             DB::table('empires')->insert([
@@ -193,14 +125,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'			
             ]);	
 			//12 //kiev, murom, ruthenia, vladimir, smolensk, novgorod
             DB::table('empires')->insert([
@@ -208,14 +133,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'itinerant'				
             ]);				
 			//muslim
 			//iberian peninsula
@@ -225,14 +143,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'divan'				
             ]);	
 			//maghreb
 			//14 //marrakesh, fez, kairouan, tlemcen, ifni, figuig
@@ -241,14 +152,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'divan'			
             ]);
 			//arabia
 			//15 //baghdad, syria, antioch, najd
@@ -257,14 +161,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'divan'				
             ]);	
 			//egypt
 			//16 //cairo, jerusalem, hejaz
@@ -273,14 +170,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'divan'				
             ]);	
 			//pagan
 			//pontic steppe
@@ -290,14 +180,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Horde',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'sarai'				
             ]);	
 			//turan
 			//18 //oghuz, transoxiana, chagatai
@@ -306,14 +189,7 @@ class EmpireSeeder extends Seeder
 				'empire_category' => 'Horde',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1'
+				'law_court' => 'sarai'				
             ]);				
     }
 }
