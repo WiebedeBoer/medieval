@@ -89,7 +89,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);
 			//7 
-			//Ammergau, Auricherland, Beveland, Bornegau, Drenthe, Dithmarschen, Emsigerland, Fivelgau, Holland, Hunsingau, Kennemerland, Maasland, Nifterlake, Norderland, Ostringen, Oostergau, Rhineland, Rustringen, Salland, Sudergau, Teisterbant, Twente, Veluwe, Vollenhove, Walcheren, Westergau, Westflinge, Wursten
+			//Ammergau, Auricherland, Beveland, Bornegau, Drenthe, Dithmarschen, Emsigerland, Fivelgau, Hadeln, Holtland, Hunsingau, Kennemerland, Maasland, Nifterlake, Norderland, Ostringen, Oostergau, Rhineland, Rustringen, Salland, Sudergau, Teisterbant, Twente, Veluwe, Vollenhove, Walcheren, Westergau, Westflinge, Wursten
             DB::table('duchies')->insert([
 				'duchy_name' => 'Frisia',
 				'duchy_category' => 'Feudal',
@@ -125,7 +125,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//11 
-			//toul, metz, nancy, verdun, alsace, saarbrucken, zweibrucken, strassbourg
+			//Metzgau, Bleisgau, Chaumontois, Saargau, Salingau, Soulossois, Toullois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lorraine',
 				'duchy_category' => 'Feudal',
@@ -143,7 +143,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//13
-			//luneburg, brunswick, schauenburg
+			//Bardengau, Derlingau, Eastfalagau, Gretingau, Gudingau, Harzgau, Wenzengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Saxony',
 				'duchy_category' => 'Feudal',
@@ -161,7 +161,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//15 
-			//zurich, konstanz, saint gall, lucerne, schwyz, disentis, baden, augsburg, ellwangen, gengenbach, hohenzollern, kempten, lindau, roggenburg, salem, weingarten, wettenhausen, ulm, thengen, ravensburg, kyburg, habsburg
+			//Ortengau, Albegau, Augstgau, Breisgau, Churgau, Hegau, Linzgau, Neckargau, Nordgau, Riesgau, Schwerzgau, Schwyzgau, Sundgau, Turgau, Zurichgau  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Swabia',
 				'duchy_category' => 'Feudal',
@@ -170,7 +170,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);
 			//16
-			//lusatia, meissen, thuringia
+			//Thuringgau, Altgau, Eichsfeld, Helmegau, Langwitzgau, Nabelgau, Orlagau, Ostergau, Zwickaugau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thuringia',
 				'duchy_category' => 'Feudal',
@@ -179,7 +179,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'			
             ]);
 			//17 
-			//bremen, hamburg, stade, holstein, verden, munster, paderborn, osnabruck, minden, ravensberg, corvey, bentheim, hoya, tecklenburg
+			//      
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bremen',
 				'duchy_category' => 'Ecclesiastical',
@@ -197,7 +197,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//19
-			//magdeburg, walbeck, halberstadt, merseburg, naumburg
+			//Nordthuringgau, Balsamgau, Friesenfeld, Hartingau, Hassegau, Osterwalde, Schwabengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Magdeburg',
 				'duchy_category' => 'Ecclesiastical',
@@ -353,7 +353,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//burgundy
 			// 
-			//burgundy, avalois, autun, auxerre, nevers, auxois, lassois, beaunois, chalon, maconnais, tonerrois, avalois, beaujolais
+			//Avalois, Autunais, Auxerrois, Auxois, Beaujolais, Beaunois, Chalonais, Lassois, Maconnais, Nivernais, Tonerrois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Burgundy',
 				'duchy_category' => 'Feudal',
@@ -362,7 +362,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			// 
-			// dauphine, lyonnais, viennois, valentinois, forcalquier, briancon, embrunnais
+			//Dauphine, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cisjurania',
 				'duchy_category' => 'Feudal',
@@ -371,7 +371,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);			
 			// 
-			//lausanne, bern, sion,  aargau, solothurn, freiburg, neuenburg
+			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transjurania',
 				'duchy_category' => 'Feudal',
@@ -380,7 +380,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'			
             ]);	
 			// 
-			//orange, venaissin, vivarais
+			//Orange, Venaissin, Vivarais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orange',
 				'duchy_category' => 'Feudal',
@@ -398,7 +398,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			// 
-			//tarantaise, chablais, valais, geneva, aosta
+			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais,  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
 				'duchy_category' => 'Feudal',
@@ -490,7 +490,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			// 
-			//havelland, brandenburg
+			//Havelland, Dossegau, Linaggau, Nelitzigau, Retschanengau, Uckermark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brandenburg',
 				'duchy_category' => 'Feudal',
@@ -502,6 +502,15 @@ class DuchySeeder extends Seeder
 			//mecklenburg, lubeck, schwerin, ratzeburg
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecklenburg',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '6',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'itinerant'				
+            ]);
+			// 
+			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Lusatia',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
