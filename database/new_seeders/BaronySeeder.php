@@ -15,12 +15,18 @@ class BaronySeeder extends Seeder
 			/*
             DB::table('baronies')->insert([
 				'barony_name' => '',
-				'barony_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Crowned_Republic
-				'settlement_category' => '',
-				'de_jure_county' => '',				
-				'manor_assembly' => '',				//Diet, Senate, Moot, Parliament, Council
-				'manor_court' => '',				//feudal, ecclesiastical, burgher, commoner	
-				'population' => '',
+				'barony_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager				
+				'de_jure_county' => '',
+				'population' => '',					
+				'charter_assembly' => '',			//Moot, Senate	
+				'charter_cathedral' => '',			//Chaplain, Priest, Bishop, Archbishop, Patriarch
+				'charter_market' => '',				//Square, Market_right, Staple_right, Fair_right
+				'charter_walls' => '',				//None, Earthwork, Palisade, Stronghold, Citadel
+				'charter_mint' => '',				//None, Mint
+				'charter_university' => '',			//None, University
+				'banal_moulin' => '',				//None, Watermill, Windmill
+				'banal_pressoir' => '',				//None, Wine
+				'banal_chasse' => '',				//None, Falconry, Deer, Boar, Fur
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
@@ -41,17 +47,172 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
-				'barony_category' => '',
-				'settlement_category' => '',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
-				'manor_assembly' => '',
-				'manor_court' => '',
-				'population' => ''				
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
             ]);
-	
-		
-		//defunct empires
-	
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => '',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);			
 			
     }
 }

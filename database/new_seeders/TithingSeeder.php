@@ -16,11 +16,13 @@ class TithingSeeder extends Seeder
 			//example
             DB::table('tithings')->insert([
 				'tithing_name' => '',
-				'tithing_category' => ' ',		//
+				'tithing_category' => ' ',		//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager	
 				'de_jure_barony' => '',		
-				'law_succession' => '',			//Elective Monarchy, Salic Primogeniture, Agnatic Seniority, Tanistry, Shura, Yassa
-				'law_assembly' => '',			//
-				'law_court' => '',				//				
+				'manor_court' => '',			//Barony, County, Duchy, Royal, University, Ecclesiastical
+				'quarter_northeast' => '',		//, , , ; default=Fallow
+				'quarter_northwest' => '',		//, , , ; default=Fallow
+				'quarter_southeast' => '',		//, , , ; default=Fallow
+				'quarter_southwest' => '',		//, , , ; default=Fallow		
 				'souvereign' => '1',			(empire)
 				'lord_paramount' => '1',		(kingdom)
 				'tenant_in_chief' => '1',		(duchy)
@@ -35,17 +37,9 @@ class TithingSeeder extends Seeder
 			//
             DB::table('tithings')->insert([
 				'tithing_name' => '',
-				'tithing_category' => ' ',
+				'tithing_category' => 'Feudal',
 				'de_jure_barony' => '',
-				'law_succession' => '',
-				'law_assembly' => '',
-				'law_court' => '',				
-				'souvereign' => '1',
-				'lord_paramount' => '1',
-				'tenant_in_chief' => '1',
-				'mesne_lord' => '1',
-				'lord_of_the_manor' => '1',
-				'tenant_paravail' => '1'
+				'manor_court' => 'Barony'				
             ]);
 	
 		
