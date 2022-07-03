@@ -179,7 +179,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'			
             ]);
 			//17 
-			//      
+			//Largau, Agradingau, Angerngau, Augau, Bukkigau, Bursibant, Dervegau, Dreingau, Gronegau, Hasegau, Heilangau, Holsteingau, Leinegau, Mosidegau, Padergau, Stevergau, Stormarngau, Sturmigau, Sudergau, Werregau, Westfaliagau      
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bremen',
 				'duchy_category' => 'Ecclesiastical',
@@ -233,44 +233,26 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//Lombardy
-			// 
-			//milan, bergamo, crema, lodi, valtellina
+			//23 
+			//Milano, Alessandria, Bergamo, Brescia, Crema, Cremona, Frignana, Lodi, Mantua, Modena, Novara, Parma, Pavia, Piacenza, Reggio, Tortona, Vernio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Milan',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
-            ]);
-			// 
-			//modena, parma, reggio, frignana, piacenza, mantua, cremona, brescia
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Modena',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '2',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//pavia, novara, casale, vercelli
+			//24 
+			//Alba, Asti, Canavese, Casale, Montferrat, Saluzzo, Susa, Vercelli
             DB::table('duchies')->insert([
-				'duchy_name' => 'Pavia',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '2',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'itinerant'				
-            ]);	
-			// 
-			//salluzo, susa, asti
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Saluzzo',
+				'duchy_name' => 'Piedmont',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);				
-			// 
-			//grosseto, siena, cortona, arezzo
+			//25 
+			//Siena, Grosseto, Piombino, Sovana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tuscany',
 				'duchy_category' => 'Feudal',
@@ -278,8 +260,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//verona, treviso, padua
+			//26 
+			//Verona, Padova, Rovigo, Vicenza, Trent
             DB::table('duchies')->insert([
 				'duchy_name' => 'Verona',
 				'duchy_category' => 'Feudal',
@@ -287,8 +269,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'			
             ]);	
-			// 
-			//friuli, gorizia, istria
+			//27 
+			//Friuli, Gorizia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquileia',
 				'duchy_category' => 'Ecclesiastical',
@@ -296,8 +278,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'itinerant'				
             ]);
-			// 
-			//florence
+			//28 
+			//Florence, Arezzo, Cortona
             DB::table('duchies')->insert([
 				'duchy_name' => 'Florence',
 				'duchy_category' => 'Crowned_Republic',
@@ -305,8 +287,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'itinerant'				
             ]);
-			// 
-			//genoa, malaspina, tortona, alessandria, montferrat, alba, sandova, mondovi, albenga, oneglia, monaco
+			//29 
+			//Genoa, Lunigiana, Massa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Genoa',
 				'duchy_category' => 'Crowned_Republic',
@@ -314,8 +296,35 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//pisa, lucca, pistoja, volterra
+			//30 
+			//Noli, Finale
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Noli',
+				'duchy_category' => 'Crowned_Republic',
+				'de_jure_kingdom' => '2',	
+				'law_succession' => 'Elective_Monarchy',
+				'law_court' => 'itinerant'				
+            ]);	
+			//31 
+			//Oneglia, Ventimiglia
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Oneglia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '2',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'itinerant'				
+            ]);	
+			//32 
+			//Lucca, Pistoja,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Lucca',
+				'duchy_category' => 'Crowned_Republic',
+				'de_jure_kingdom' => '2',	
+				'law_succession' => 'Elective_Monarchy',
+				'law_court' => 'itinerant'				
+            ]);	
+			//33 
+			//Pisa, Volterra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pisa',
 				'duchy_category' => 'Crowned_Republic',
@@ -323,8 +332,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//venice, chioggia
+			//34 
+			//Dogado, Belluno, Treviso
             DB::table('duchies')->insert([
 				'duchy_name' => 'Venice',
 				'duchy_category' => 'Crowned_Republic',
@@ -333,7 +342,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//bohemia
-			// 
+			//35 
 			//bohemia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bohemia',
@@ -342,7 +351,16 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'			
             ]);	
-			// 
+			//36 
+			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Lusatia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '6',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'itinerant'				
+            ]);
+			//37 
 			//moravia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moravia',
@@ -352,7 +370,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);				
 			//burgundy
-			// 
+			//38 
 			//Avalois, Autunais, Auxerrois, Auxois, Beaujolais, Beaunois, Chalonais, Lassois, Maconnais, Nivernais, Tonerrois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Burgundy',
@@ -361,7 +379,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//39 
 			//Dauphine, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cisjurania',
@@ -370,7 +388,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);			
-			// 
+			//40 
 			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transjurania',
@@ -379,7 +397,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'			
             ]);	
-			// 
+			//41 
 			//Orange, Venaissin, Vivarais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orange',
@@ -388,7 +406,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//42 
 			//arles, aix, baux, vaison, marseille, toulon, nice
             DB::table('duchies')->insert([
 				'duchy_name' => 'Provence',
@@ -397,7 +415,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//43 
 			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais,  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
@@ -407,8 +425,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//papal states
-			// 
-			//rome
+			//44 
+			//Rome
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rome',
 				'duchy_category' => 'Ecclesiastical',
@@ -416,17 +434,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'itinerant'				
             ]);
-			// 
-			//ancona
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Ancona',
-				'duchy_category' => 'Crowned_Republic',
-				'de_jure_kingdom' => '5',	
-				'law_succession' => 'Elective_Monarchy',
-				'law_court' => 'itinerant'				
-            ]);
-			// 
-			//ferrara, ravenna, bologna
+			//45 
+			//Ferrara, Bologna, Carpegna, Ravenna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Romagna',
 				'duchy_category' => 'Feudal',
@@ -434,8 +443,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);
-			// 
-			//spoleto
+			//46 
+			//Ancona, Fermo, Spoleto
             DB::table('duchies')->insert([
 				'duchy_name' => 'Spoleto',
 				'duchy_category' => 'Feudal',
@@ -443,9 +452,18 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'			
             ]);	
+			//47 
+			//Urbino
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Urbino',
+				'duchy_category' => 'Crowned_Republic',
+				'de_jure_kingdom' => '5',	
+				'law_succession' => 'Elective_Monarchy',
+				'law_court' => 'itinerant'				
+            ]);
 			//teutonic order state
-			// 
-			//riga, dorpat, fellin, wenden, dunaburg, selburg, goldingen, courland, rositten
+			//48 
+			//Livland, Ascheraden, Dorpat, Dunaburg, Fellin, Kurland, Mitau, Segewold, Wenden, Wolkenburg
             DB::table('duchies')->insert([
 				'duchy_name' => 'Livonia',
 				'duchy_category' => 'Ecclesiastical',
@@ -453,8 +471,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'itinerant'			
             ]);
-			// 
-			//reval, hapsal, arensburg, weissenstein, wesenberg, narva
+			//49 
+			//Reval, Pernau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estonia',
 				'duchy_category' => 'Feudal',
@@ -462,8 +480,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//koningsberg, elbing, memelburg, marienburg, ermland
+			//50 
+			//Pomesanengau, Bartengau, Ermland, Memelland, Nadrauengau, Natangergau, Pogesanengau, Samland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Prussia',
 				'duchy_category' => 'Feudal',
@@ -471,8 +489,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//danzig, culmerland, thorn
+			//51 
+			//Danzig, Butow, Dirschau, Karthaus, Kulmerland, Lauenburg, Putzig, Schlochau, Schwetz, Thorn, Tuchel
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pomerelia',
 				'duchy_category' => 'Feudal',
@@ -480,8 +498,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//kolberg, slupsk, cammin, stettin, stralsund, greifswald, demmin, grimmen, koslin, pasewalk
+			//52 
+			//Kammin, Arnswalde, Gollnow, Greifenhagen, Greifenberg, Pyritz, Kessinigau, Kolberg, Koslin, Neustettin, Schivelbein, Slupsk, Schlawe, Stettin, Wostrosegau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pomerania',
 				'duchy_category' => 'Feudal',
@@ -489,7 +507,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//53 
 			//Havelland, Dossegau, Linaggau, Nelitzigau, Retschanengau, Uckermark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brandenburg',
@@ -498,8 +516,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
-			//mecklenburg, lubeck, schwerin, ratzeburg
+			//54 
+			//Circipanigau, Obotritegau, Polabigau, Wagrigau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecklenburg',
 				'duchy_category' => 'Feudal',
@@ -507,18 +525,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);
-			// 
-			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Lusatia',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '6',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'itinerant'				
-            ]);
 			//france
 			//france
-			// 
+			//55 
 			//perche, maine, anjou, vendome, touraine
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anjou',
@@ -527,7 +536,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//56 
 			//agenais, lomagne, bordeaux, bazadais, angouleme, saintogne, perigord, limousin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquitaine',
@@ -536,7 +545,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//57 
 			//auvergne, aurillac, clermont, brioude, carlat, murat
             DB::table('duchies')->insert([
 				'duchy_name' => 'Auvergne',
@@ -544,7 +553,8 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'			
-            ]);	
+            ]);
+			//58
 			//berry, sancerre
             DB::table('duchies')->insert([
 				'duchy_name' => 'Berry',
@@ -553,7 +563,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);
-			// 
+			//59 
 			//bourbonnais, montlucon
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bourbonnais',
@@ -562,7 +572,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'itinerant'				
             ]);	
-			// 
+			//60 
 			//nantes, rennes, vannes, dol, rohan, penthievre, cornouailles, leon
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brittany',
