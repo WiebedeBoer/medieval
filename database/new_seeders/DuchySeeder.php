@@ -324,7 +324,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//27 
-			//Friuli, Gorizia
+			//Friuli, Gorizia, Pordenone
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquileia',
 				'duchy_category' => 'Ecclesiastical',
@@ -335,7 +335,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'					
             ]);
 			//28 
-			//Florence, Arezzo, Cortona
+			//Florence, Arezzo, Cortona, Prato
             DB::table('duchies')->insert([
 				'duchy_name' => 'Florence',
 				'duchy_category' => 'Crowned_Republic',
@@ -390,7 +390,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//33 
-			//Pisa, Volterra
+			//Pisa, Livorno, Volterra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pisa',
 				'duchy_category' => 'Crowned_Republic',

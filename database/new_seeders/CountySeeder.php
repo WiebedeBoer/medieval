@@ -51,7 +51,7 @@ class CountySeeder extends Seeder
 			//germany
 			//Austria
 			//1
-			//melk , gottweig , saint polten
+			//melk , gottweig , sankt polten
             DB::table('counties')->insert([
 				'county_name' => 'Grunsweit',
 				'county_category' => 'Monastic_Order',
@@ -207,7 +207,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Carinthia
 			//18
-			//hengistburg, saint nikolai
+			//hengistburg, sankt nikolai
             DB::table('counties')->insert([
 				'county_name' => 'Hengistgau',
 				'county_category' => 'Feudal',
@@ -234,7 +234,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//21
-			//karlsberg, klagenfurt, velden, saint veit
+			//karlsberg, klagenfurt, velden, sankt veit
             DB::table('counties')->insert([
 				'county_name' => 'Kroatengau',
 				'county_category' => 'Feudal',
@@ -243,7 +243,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//22
-			//leoben, saint stefan
+			//leoben, sankt stefan
             DB::table('counties')->insert([
 				'county_name' => 'Leobental',
 				'county_category' => 'Feudal',
@@ -955,7 +955,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//100
-			//saint george, saint margarethen
+			//sankt george, sankt margarethen
             DB::table('counties')->insert([
 				'county_name' => 'Attergau',
 				'county_category' => 'Feudal',
@@ -991,7 +991,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//104
-			//saint moritz, schlandersberg
+			//sankt moritz, schlandersberg
             DB::table('counties')->insert([
 				'county_name' => 'Vinschgau',
 				'county_category' => 'Feudal',
@@ -1037,7 +1037,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian'
             ]);
 			//109
-			//chur, disentis, feldkirchen, bludenz, saint george
+			//chur, disentis, feldkirchen, bludenz, sankt george
             DB::table('counties')->insert([
 				'county_name' => 'Churgau',
 				'county_category' => 'Ecclesiastical',
@@ -1118,7 +1118,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//118
-			//konstanz, saint gall, lindau, kirchberg 
+			//konstanz, sankt gall, lindau, kirchberg 
             DB::table('counties')->insert([
 				'county_name' => 'Turgau',
 				'county_category' => 'Ecclesiastical',
@@ -1591,7 +1591,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//170
-			//saint leon, brettenheim
+			//sankt leon, brettenheim
             DB::table('counties')->insert([
 				'county_name' => 'Ufgau',
 				'county_category' => 'Feudal',
@@ -1637,7 +1637,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//175
-			//tamswick, saint michael
+			//tamswick, sankt michael
             DB::table('counties')->insert([
 				'county_name' => 'Lungau',
 				'county_category' => 'Feudal',
@@ -1702,465 +1702,492 @@ class CountySeeder extends Seeder
             ]);
 			//Lombardy
 			//Milano
-			//
-			//milano
+			//182
+			//milano, monza, lecco, garegnano, morimondo, piona, como, torba, san giuliano
             DB::table('counties')->insert([
 				'county_name' => 'Milano',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//alessandria
+			//183
+			//alessandria, acqui
             DB::table('counties')->insert([
 				'county_name' => 'Alessandria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//bergamo
+			//184
+			//bergamo, san pietro, stezzano, treviolo, mozzo, astino
             DB::table('counties')->insert([
 				'county_name' => 'Bergamo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//brescia
+			//185
+			//brescia, rovato, polpenazze, bedizzole, san giorgo
             DB::table('counties')->insert([
 				'county_name' => 'Brescia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//crema
+			//186
+			//crema, vaiano, bagnolo, trescore
             DB::table('counties')->insert([
 				'county_name' => 'Crema',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//cremona, casale
+			//187
+			//cremona, caorso
             DB::table('counties')->insert([
 				'county_name' => 'Cremona',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//188
+			//pavullo, monterastello, montecuccolo
             DB::table('counties')->insert([
 				'county_name' => 'Frignana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//lodi
+			//189
+			//lodi, cerreto
             DB::table('counties')->insert([
 				'county_name' => 'Lodi',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//mantua
+			//190
+			//mantua, polirone, levata, pietola, cavriana
             DB::table('counties')->insert([
 				'county_name' => 'Mantua',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//modena
+			//191
+			//modena, mirandola, vignola
             DB::table('counties')->insert([
 				'county_name' => 'Modena',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
+			//192
 			//novara, chiavenna
             DB::table('counties')->insert([
 				'county_name' => 'Novara',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//193
+			//parma, fidenza, colorno, san vitale, lagorano, castrignano
             DB::table('counties')->insert([
 				'county_name' => 'Parma',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//194
+			//pavia, certosa, san martino, carpignano
             DB::table('counties')->insert([
 				'county_name' => 'Pavia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//195
+			//piacenza, grazzano, bobbio
             DB::table('counties')->insert([
 				'county_name' => 'Piacenza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//emilia
+			//196
+			//reggio, bagnolo, fogliano
             DB::table('counties')->insert([
 				'county_name' => 'Reggio',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//tortona
+			//197
+			//tortona, montegioco, garbagna
             DB::table('counties')->insert([
 				'county_name' => 'Tortona',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//198
+			//vernio, montepiano
             DB::table('counties')->insert([
 				'county_name' => 'Vernio',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Piedmont
-			//
-			//alba
+			//199
+			//alba, monforte, diano
             DB::table('counties')->insert([
 				'county_name' => 'Alba',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//asti
+			//200
+			//asti, burio, loreto
             DB::table('counties')->insert([
 				'county_name' => 'Asti',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//201
+			//canavese, ivrea
             DB::table('counties')->insert([
 				'county_name' => 'Canavese',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//202
+			//casale, san giorgo, san nazzaro
             DB::table('counties')->insert([
 				'county_name' => 'Casale',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//203
+			//turino, moncalieri, chieri, rivoli
             DB::table('counties')->insert([
 				'county_name' => 'Montferrat',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//204
+			//saluzzo, castellaro, staffarda
             DB::table('counties')->insert([
-				'county_name' => 'Saluzzo',
-				'county_category' => '',
+				'county_name' => 'Cuneo',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//205
+			//susa, novalesa
             DB::table('counties')->insert([
 				'county_name' => 'Susa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//206
+			//vercelli, salasco, quinto
             DB::table('counties')->insert([
 				'county_name' => 'Vercelli',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Tuscany
-			//
-			//siena
+			//207
+			//siena, monteriggioni, san galgano, san gimignano, corsignano, monte oliveto, gaiole, castellina
             DB::table('counties')->insert([
 				'county_name' => 'Siena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//208
+			//grosseto, orbetello, manciano
             DB::table('counties')->insert([
 				'county_name' => 'Grosseto',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//209
+			//piombino, massa, castello di valle
             DB::table('counties')->insert([
 				'county_name' => 'Piombino',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//210
+			//sovana, sorano, pitigliano, fregiano
             DB::table('counties')->insert([
 				'county_name' => 'Sovana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);			
 			//Verona
-			//
-			//verona
+			//211
+			//verona, bovolone, bonavigo, bussolengo, legnago, san bonifacio, san martino
             DB::table('counties')->insert([
 				'county_name' => 'Verona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//padova
+			//212
+			//padova, masera, vigonza, praglia, este, monselice
             DB::table('counties')->insert([
 				'county_name' => 'Padova',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//rovigo
+			//213
+			//rovigo, vangadizza, adria, loreo, lendinara
             DB::table('counties')->insert([
 				'county_name' => 'Rovigo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//vicenza
+			//214
+			//vicenza, montecchio, bassano, valdagno
             DB::table('counties')->insert([
 				'county_name' => 'Vicenza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//trent, appenzell
+			//215
+			//trent, appenzell,rofreit
             DB::table('counties')->insert([
 				'county_name' => 'Trent',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '26',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swabian'
             ]);			
 			//Aquileia
-			//
-			//aquileia, udine
+			//216
+			//aquileia, udine, tarcento, monfalcone
             DB::table('counties')->insert([
 				'county_name' => 'Friuli',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '27',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
+			//217
 			//gorizia, gradisca
             DB::table('counties')->insert([
 				'county_name' => 'Gorizia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '27',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
+            ]);	
+			//218
+			//pordenone, san vito, aviano, polcenigo
+            DB::table('counties')->insert([
+				'county_name' => 'Pordenone',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '27',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Florence
-			//
+			//219
 			//florence, bagno, san gimigano
             DB::table('counties')->insert([
 				'county_name' => 'Florence',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '28',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//arezzo
+			//220
+			//arezzo, montevarchi, focognano, san nicolo
             DB::table('counties')->insert([
 				'county_name' => 'Arezzo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '28',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
+			//221
 			//cortona, perugia, castello
             DB::table('counties')->insert([
 				'county_name' => 'Cortona',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '28',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
-            ]);			
+				'vernacular_architecture' => 'Lombard'
+            ]);	
+			//222
+			//prato, filettole, montemurlo
+            DB::table('counties')->insert([
+				'county_name' => 'Prato',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '28',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lombard'
+            ]);				
 			//Genoa
-			//
-			//genoa
+			//223
+			//genoa, arenzano, mignanego, chiavari
             DB::table('counties')->insert([
 				'county_name' => 'Genoa',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '29',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//224
+			//luni, pontremoli, bagnone, porto venere
             DB::table('counties')->insert([
 				'county_name' => 'Lunigiana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '29',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
-			//
-			//
+			//225
+			//massa, carrara
             DB::table('counties')->insert([
 				'county_name' => 'Massa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '29',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Noli
-			//
-			//noli, savona
+			//226
+			//noli, savona, vado, albissola
             DB::table('counties')->insert([
 				'county_name' => 'Noli',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '30',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//
+			//227
+			//finale, verezzi, albenga
             DB::table('counties')->insert([
 				'county_name' => 'Finale',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '30',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Oneglia
-			//
+			//228
 			//oneglia, loano
             DB::table('counties')->insert([
 				'county_name' => 'Oneglia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '31',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
+			//229
 			//ventimiglia, dolceaqua
             DB::table('counties')->insert([
 				'county_name' => 'Ventimiglia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '31',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Lucca
-			//
+			//230
 			//lucca, barga
             DB::table('counties')->insert([
 				'county_name' => 'Lucca',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '32',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
-			//
-			//pistoja
+			//231
+			//pistoja, pescia, agliana, uzzano
             DB::table('counties')->insert([
 				'county_name' => 'Pistoja',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '32',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Pisa
 			//
-			//pisa
+			//pisa, 
             DB::table('counties')->insert([
 				'county_name' => 'Pisa',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '33',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
+            ]);	
+			//
+			//livorno, sassetta, san vincenzo, cecina, bibbona
+            DB::table('counties')->insert([
+				'county_name' => 'Livorno',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '33',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//
 			//volterra
             DB::table('counties')->insert([
 				'county_name' => 'Volterra',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '33',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Venice
 			//
@@ -2170,7 +2197,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '34',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);	
 			//
 			//belluno
@@ -2179,7 +2206,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '34',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);
 			//
 			//treviso
@@ -2188,7 +2215,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '34',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lombard'
             ]);				
 			//Bohemia
 			//Bohemia
@@ -2885,7 +2912,7 @@ class CountySeeder extends Seeder
             ]);
 			//Estonia
 			//
-			//reval, saint matthias, weissenstein, wesenberg, narva
+			//reval, sankt matthias, weissenstein, wesenberg, narva
             DB::table('counties')->insert([
 				'county_name' => 'Reval',
 				'county_category' => 'Ecclesiastical',
