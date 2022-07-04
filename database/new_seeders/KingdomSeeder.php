@@ -93,7 +93,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial'				
             ]);
-			//terra mariana
+			//Teutonic Order State
 			//Livonia, Estonia, Prussia, Pomerelia, Pomerania, Brandenburg, Mecklenburg
 			//6
             DB::table('kingdoms')->insert([
@@ -105,9 +105,9 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);			
-			//france
-			//france
-			//Anjou, Aquitaine, Auvergne, Berry, 
+			//France
+			//France
+			//Anjou, Aquitaine, Auvergne, Berry, Bourbonnais, Casgony, Champagne, Francia, Normandy, Orleanais, Picardy, Poitou, Toulouse
 			//7
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of France',
@@ -119,7 +119,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//Brittany
-			//Brittany, Retz
+			//Brittany, Domnonee, Retz
 			//8
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Brittany',

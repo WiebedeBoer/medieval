@@ -658,8 +658,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//france
-			//france
+			//France
+			//France
 			//57
 			//Anjou, Maine, Perche, Touraine, Vendomois
             DB::table('duchies')->insert([
@@ -749,7 +749,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//65
-			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortain
+			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortainais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Normandy',
 				'duchy_category' => 'Feudal',
@@ -805,7 +805,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Brittany
 			//
-			//Cornouailles, Ach, Dol, Leon, Poher, Vannes
+			//Cornouailles, Ach, Dol, Leon, Poher, Vannais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brittany',
 				'duchy_category' => 'Feudal',
@@ -816,7 +816,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Penthievre, Alet, Treguier
+			//Penthievre, Alet, Tregor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Domnonee',
 				'duchy_category' => 'Feudal',
@@ -827,7 +827,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Retz, Nantes, Rennes
+			//Retz, Nantais, Rennais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Retz',
 				'duchy_category' => 'Feudal',
