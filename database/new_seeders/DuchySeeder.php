@@ -280,7 +280,7 @@ class DuchySeeder extends Seeder
             ]);	
 			//Lombardy
 			//23 
-			//Milano, Alessandria, Bergamo, Brescia, Crema, Cremona, Frignana, Lodi, Mantua, Modena, Novara, Parma, Pavia, Piacenza, Reggio, Tortona, Vernio
+			//Milano, Bergamo, Brescia, Crema, Cremona, Frignana, Lodi, Mantua, Modena, Novara, Parma, Pavia, Piacenza, Reggio, Tortona, Vernio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Milan',
 				'duchy_category' => 'Feudal',
@@ -291,7 +291,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//24 
-			//Alba, Asti, Canavese, Casale, Montferrat, Saluzzo, Susa, Vercelli
+			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Torino, Vercelli, Vigevano
             DB::table('duchies')->insert([
 				'duchy_name' => 'Piedmont',
 				'duchy_category' => 'Feudal',
@@ -357,7 +357,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Lowland'				
             ]);	
 			//30 
-			//Noli, Finale
+			//Noli, Albenga, Finale
             DB::table('duchies')->insert([
 				'duchy_name' => 'Noli',
 				'duchy_category' => 'Crowned_Republic',
@@ -368,7 +368,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Lowland'				
             ]);	
 			//31 
-			//Oneglia, Ventimiglia
+			//Oneglia, Monaco, Ventimiglia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oneglia',
 				'duchy_category' => 'Feudal',
@@ -379,7 +379,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//32 
-			//Lucca, Pistoja,
+			//Lucca, Pistoja
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lucca',
 				'duchy_category' => 'Crowned_Republic',
@@ -390,7 +390,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//33 
-			//Pisa, Livorno, Volterra
+			//Pisa, Corsica, Livorno, Volterra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pisa',
 				'duchy_category' => 'Crowned_Republic',
@@ -481,7 +481,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//41
-			//Dauphine, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
+			//Dauphine, Albon, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cisjurania',
 				'duchy_category' => 'Feudal',
@@ -514,7 +514,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//44
-			//Aix, Arles, Marseille, Monaco, Nice // arles, aix, baux, vaison, marseille, toulon, nice
+			//Provence, Arles, Baux, Marseille, Nice, Toulon 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Provence',
 				'duchy_category' => 'Feudal',
@@ -525,7 +525,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//45 
-			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais,  
+			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
 				'duchy_category' => 'Feudal',
@@ -661,7 +661,7 @@ class DuchySeeder extends Seeder
 			//france
 			//france
 			//57
-			//Anjou, Maine, Perche, Touraine, Vendome
+			//Anjou, Maine, Perche, Touraine, Vendomois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anjou',
 				'duchy_category' => 'Feudal',
@@ -672,7 +672,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//58
-			//Bordeaux, Agenais, Angouleme, Bazadais, Limousin, Lomagne, Perigord, Saintogne
+			//Bordelais, Agenais, Angoumois, Bazadais, Limousin, Lomagne, Perigord, Saintogne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquitaine',
 				'duchy_category' => 'Feudal',
@@ -683,7 +683,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//59
-			//Auvergne, Aurillac, Brioude, Carlat, Clermont, Murat
+			//Auvergne, Aurillac, Brioude, Carlat, Clermont, Forez, Murat
             DB::table('duchies')->insert([
 				'duchy_name' => 'Auvergne',
 				'duchy_category' => 'Feudal',
@@ -716,7 +716,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//62
-			//nantes, rennes, vannes, dol, rohan, penthievre, cornouailles, leon
+			//nantes, rennes, vannes, dol, poher, penthievre, cornouailles, leon, alet, treguier, retz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brittany',
 				'duchy_category' => 'Feudal',
@@ -727,7 +727,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Casgony, Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
+			//Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Casgony',
 				'duchy_category' => 'Feudal',
@@ -738,7 +738,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Highland'				
             ]);	
 			//
-			//Reims, Chalons, Langres, Meaux, Provins, Rethel, Sens, Troyes
+			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethel, Senois, Troyes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Champagne',
 				'duchy_category' => 'Ecclesiastical',
@@ -760,7 +760,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Rouen, Alencon, Avranches, Bayeux, Coutances, Evreux, Eu, Fecamp, Lisieux, Mortain
+			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortain
             DB::table('duchies')->insert([
 				'duchy_name' => 'Normandy',
 				'duchy_category' => 'Feudal',
@@ -771,7 +771,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Orleanais, Blois, Chartres, Chateaudun, Dreux, Dunois, Nemours 
+			//Orleanais, Blaisois, Chartres, Dreux, Dunois, Etampois, Nemours 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orleanais',
 				'duchy_category' => 'Feudal',
@@ -793,7 +793,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Lowland'				
             ]);	
 			//
-			//Poitou, Aunis, Chatellerault, Marche, Thouars, Turenne
+			//Poitou, Aunis, Briancais, Chatellerault, Marche, Thouarsais, Turenne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Poitou',
 				'duchy_category' => 'Feudal',
@@ -804,7 +804,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			// 
-			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
+			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toulouse',
 				'duchy_category' => 'Feudal',
