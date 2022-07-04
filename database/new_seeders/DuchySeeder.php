@@ -727,7 +727,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Highland'				
             ]);	
 			//63
-			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethel, Senois, Troyes
+			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethelois, Senois, Troyes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Champagne',
 				'duchy_category' => 'Ecclesiastical',
