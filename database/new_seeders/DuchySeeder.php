@@ -468,7 +468,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);				
-			//burgundy
+			//Burgundy
 			//40
 			//Avalois, Autunais, Auxerrois, Auxois, Beaujolais, Beaunois, Chalonais, Lassois, Maconnais, Nivernais, Tonerrois
             DB::table('duchies')->insert([
@@ -535,7 +535,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Grassland',	
 				'altitude' => 'Highland'				
             ]);	
-			//papal states
+			//Papal States
 			//46 
 			//Rome, Frosinone, Latina, Rieti, Viterbo
             DB::table('duchies')->insert([
@@ -716,17 +716,6 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//62
-			//nantes, rennes, vannes, dol, poher, penthievre, cornouailles, leon, alet, treguier, retz
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Brittany',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '7',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);	
-			//
 			//Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Casgony',
@@ -737,7 +726,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Grassland',	
 				'altitude' => 'Highland'				
             ]);	
-			//
+			//63
 			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethel, Senois, Troyes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Champagne',
@@ -748,7 +737,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Grassland',	
 				'altitude' => 'Montane'				
             ]);	
-			// 
+			//64 
 			//Pay de France, Beauvaisis, Beaumont, Brie, Clermont, Gatinais, Hurepoix, Mantois, Senlis, Soissonnais, Valois, Vexin 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Francia',
@@ -759,7 +748,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//65
 			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortain
             DB::table('duchies')->insert([
 				'duchy_name' => 'Normandy',
@@ -770,7 +759,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//66
 			//Orleanais, Blaisois, Chartres, Dreux, Dunois, Etampois, Nemours 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orleanais',
@@ -782,7 +771,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			// 
-			//Artois, Amienois, Boulogne, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Tournai, Vermandois 
+			//Artois, Amienois, Boulognois, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Ternois, Tournais, Vermandois 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Picardy',
 				'duchy_category' => 'Feudal',
@@ -813,9 +802,41 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
+            ]);
+			//Brittany
+			//
+			//Cornouailles, Ach, Dol, Leon, Poher, Vannes
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Brittany',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '8',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
             ]);	
-
-
+			//
+			//Penthievre, Alet, Treguier
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Domnonee',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '8',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Retz, Nantes, Rennes
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Retz',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '8',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
 			
     }
 }

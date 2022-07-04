@@ -2776,7 +2776,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan'
             ]);			
 			//299
-			//valence, montelier, saint marcel
+			//valence, montelier, saint marcel, montmeyran
             DB::table('counties')->insert([
 				'county_name' => 'Valentinois',
 				'county_category' => 'Feudal',
@@ -3724,7 +3724,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//302
-			//bazas, langon
+			//bazas, langon, marmande
             DB::table('counties')->insert([
 				'county_name' => 'Bazadais',
 				'county_category' => '',
@@ -3769,8 +3769,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//Auvergne
-			//
-			//randon, saint colombe
+			//307
+			//randon, saint colombe, menat
             DB::table('counties')->insert([
 				'county_name' => 'Auvergne',
 				'county_category' => '',
@@ -3778,8 +3778,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//aurillac
+			//308
+			//aurillac, ytrac
             DB::table('counties')->insert([
 				'county_name' => 'Aurillac',
 				'county_category' => '',
@@ -3787,8 +3787,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//brioude
+			//309
+			//brioude, saint ferreol, saint beauzire
             DB::table('counties')->insert([
 				'county_name' => 'Brioude',
 				'county_category' => '',
@@ -3796,8 +3796,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//carlat
+			//310
+			//carlat, messilhac
             DB::table('counties')->insert([
 				'county_name' => 'Carlat',
 				'county_category' => '',
@@ -3805,8 +3805,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//clermont, montpensier, thiers
+			//311
+			//clermont, montpensier, thiers, voloie
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
 				'county_category' => '',
@@ -3814,7 +3814,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
+			//312
 			//feurs, montbrison, saint etienne, valbenoite
             DB::table('counties')->insert([
 				'county_name' => 'Forez',
@@ -3823,8 +3823,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//murat, mercoeur
+			//313
+			//murat, mercoeur, saint flour
             DB::table('counties')->insert([
 				'county_name' => 'Murat',
 				'county_category' => '',
@@ -3833,7 +3833,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Berry
-			//
+			//314
 			//bourges, meillant, massay
             DB::table('counties')->insert([
 				'county_name' => 'Berry',
@@ -3842,8 +3842,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//sancerre
+			//315
+			//sancerre, saint satur, saint gemme, launay, crezancy, reugny, champtin, vauvredon
             DB::table('counties')->insert([
 				'county_name' => 'Sancerre',
 				'county_category' => '',
@@ -3852,8 +3852,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Bourbonnais
-			//
-			//bourbon, sauvigny
+			//316
+			//bourbon, sauvigny, moulins
             DB::table('counties')->insert([
 				'county_name' => 'Bourbonnais',
 				'county_category' => '',
@@ -3861,140 +3861,31 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//
-			//montlucon
+			//317
+			//montlucon, ainay, nassigny, herisson, evaux
             DB::table('counties')->insert([
 				'county_name' => 'Montlucon',
 				'county_category' => '',
 				'de_jure_duchy' => '61',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
-            ]);
-			//Brittany
-			//
-			//nantes
-            DB::table('counties')->insert([
-				'county_name' => 'Nantes',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//rennes
-            DB::table('counties')->insert([
-				'county_name' => 'Rennes',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//vannes
-            DB::table('counties')->insert([
-				'county_name' => 'Vannes',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//dol
-            DB::table('counties')->insert([
-				'county_name' => 'Dol',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//rohan
-            DB::table('counties')->insert([
-				'county_name' => 'Poher',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//saint brieuc
-            DB::table('counties')->insert([
-				'county_name' => 'Penthievre',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);
-			//
-			//quimper
-            DB::table('counties')->insert([
-				'county_name' => 'Cornouailles',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//leon
-            DB::table('counties')->insert([
-				'county_name' => 'Leon',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//alet
-            DB::table('counties')->insert([
-				'county_name' => 'Alet',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//ach
-            DB::table('counties')->insert([
-				'county_name' => 'Ach',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);			
-			//
-			//treguier
-            DB::table('counties')->insert([
-				'county_name' => 'Treguier',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);	
-			//
-			//pornic, paimboeuf, machecoul
-            DB::table('counties')->insert([
-				'county_name' => 'Retz',
-				'county_category' => '',
-				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Breton'
-            ]);				
+            ]);		
 			//Casgony
 			//
 			//eauze
             DB::table('counties')->insert([
 				'county_name' => 'Armagnac',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//
-			//astarc, mirande, masseube, 
+			//astarac, mirande, masseube, auch
             DB::table('counties')->insert([
 				'county_name' => 'Astarac',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
@@ -4003,7 +3894,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bearn',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
@@ -4012,7 +3903,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bigorre',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
@@ -4021,7 +3912,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Comminges',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
@@ -4030,7 +3921,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Couserans',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
@@ -4039,16 +3930,16 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Dax',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//
-			//auch
+			//bouillas, fluerance
             DB::table('counties')->insert([
 				'county_name' => 'Fezensac',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
@@ -4057,7 +3948,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Marsan',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
@@ -4066,7 +3957,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Tursan',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
@@ -4076,7 +3967,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Remois',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4085,7 +3976,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Brenois',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);				
@@ -4094,7 +3985,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Chalonnais',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4103,7 +3994,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Duesmois',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4112,7 +4003,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Langres',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4121,7 +4012,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Meaux',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4130,7 +4021,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Perthois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);				
@@ -4139,7 +4030,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Provins',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4148,7 +4039,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Rethel',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4157,7 +4048,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Senois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4166,17 +4057,17 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Troyes',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '63',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Francia
 			//
-			//paris
+			//paris, saint denis, ecouen
             DB::table('counties')->insert([
 				'county_name' => 'Pay de France',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4185,7 +4076,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Beauvaisis',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4194,7 +4085,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Beaumont',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4203,7 +4094,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Brie',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4212,7 +4103,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4221,7 +4112,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Gatinais',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4230,7 +4121,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Hurepoix',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4239,7 +4130,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Mantois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4248,7 +4139,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Senlis',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4257,7 +4148,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Soissonnais',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4266,7 +4157,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Valois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4275,7 +4166,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vexin',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
@@ -4285,7 +4176,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Roumois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4294,7 +4185,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alencon',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4303,7 +4194,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Avranches',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4312,7 +4203,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bayeux',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4321,7 +4212,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Caux',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);
@@ -4330,7 +4221,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Coutances',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4339,7 +4230,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Evreux',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4348,7 +4239,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Eu',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);		
@@ -4357,7 +4248,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lisieux',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4366,7 +4257,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Mortain',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
@@ -4376,7 +4267,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Orleanais',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4385,7 +4276,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Blaisois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4394,7 +4285,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Chartres',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4403,7 +4294,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Dunois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4412,7 +4303,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Dreux',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
@@ -4421,22 +4312,22 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Etampois',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//
-			//
+			//nemours
             DB::table('counties')->insert([
 				'county_name' => 'Nemours',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Picardy
 			//
-			//arras
+			//arras, saint omer
             DB::table('counties')->insert([
 				'county_name' => 'Artois',
 				'county_category' => '',
@@ -4445,7 +4336,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Flemish'
             ]);	
 			//
-			//amiens
+			//amiens, flixecourt, picquigny, corbie
             DB::table('counties')->insert([
 				'county_name' => 'Amienois',
 				'county_category' => '',
@@ -4454,16 +4345,16 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//
-			//boulogne
+			//boulogne, etaples
             DB::table('counties')->insert([
-				'county_name' => 'Boulogne',
+				'county_name' => 'Boulenois',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//
-			//bruges
+			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines
             DB::table('counties')->insert([
 				'county_name' => 'Flanders',
 				'county_category' => '',
@@ -4472,7 +4363,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Flemish'
             ]);
 			//
-			//
+			//guines, calais
             DB::table('counties')->insert([
 				'county_name' => 'Guines',
 				'county_category' => '',
@@ -4481,7 +4372,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//
-			//laon
+			//laon, coucy, corbeny
             DB::table('counties')->insert([
 				'county_name' => 'Laonnais',
 				'county_category' => 'Ecclesiastical',
@@ -4490,7 +4381,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//
-			//
+			//montreuil, recques
             DB::table('counties')->insert([
 				'county_name' => 'Montreuil',
 				'county_category' => '',
@@ -4499,7 +4390,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//
-			//noyon
+			//noyon, sempigny, morlincourt, varesnes, salency
             DB::table('counties')->insert([
 				'county_name' => 'Noyonnais',
 				'county_category' => '',
@@ -4508,7 +4399,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//
-			//
+			//crecy, nouvion, saint ricquier
             DB::table('counties')->insert([
 				'county_name' => 'Ponthieu',
 				'county_category' => '',
@@ -4517,16 +4408,25 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//
-			//tournai
+			//therouanne, royon, saint pol
             DB::table('counties')->insert([
-				'county_name' => 'Tournai',
+				'county_name' => 'Ternois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//
+			//tournai, mouscron, courtrai
+            DB::table('counties')->insert([
+				'county_name' => 'Tournais',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Frankish'
+            ]);
 			//
+			//peronne, saint quentin, bohain, saint martin, retoul
             DB::table('counties')->insert([
 				'county_name' => 'Vermandois',
 				'county_category' => '',
@@ -4600,7 +4500,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Toulouse
 			//
-			//toulouse
+			//toulouse, lavaur
             DB::table('counties')->insert([
 				'county_name' => 'Toulouse',
 				'county_category' => '',
@@ -4618,7 +4518,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//
-			//carcasonne, castelnaudary
+			//carcasonne, castelnaudary, mirepoix
             DB::table('counties')->insert([
 				'county_name' => 'Carcasonne',
 				'county_category' => '',
@@ -4636,7 +4536,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//
-			//javols, mende, langogne
+			//javols, mende, langogne, apcher
             DB::table('counties')->insert([
 				'county_name' => 'Gevaudan',
 				'county_category' => '',
@@ -4681,7 +4581,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//
-			//cahors, montauban
+			//cahors, montauban, gourdon
             DB::table('counties')->insert([
 				'county_name' => 'Quercy',
 				'county_category' => '',
@@ -4699,7 +4599,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//
-			//puy
+			//puy, montlaur
             DB::table('counties')->insert([
 				'county_name' => 'Velay',
 				'county_category' => '',
@@ -4707,6 +4607,120 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
+			//Brittany
+			//Brittany
+			//
+			//quimper
+            DB::table('counties')->insert([
+				'county_name' => 'Cornouailles',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);
+			//
+			//ach
+            DB::table('counties')->insert([
+				'county_name' => 'Ach',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);
+			//
+			//dol
+            DB::table('counties')->insert([
+				'county_name' => 'Dol',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//
+			//leon
+            DB::table('counties')->insert([
+				'county_name' => 'Leon',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//
+			//rohan, carhaix
+            DB::table('counties')->insert([
+				'county_name' => 'Poher',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//
+			//vannes
+            DB::table('counties')->insert([
+				'county_name' => 'Vannes',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//Domnonee
+			//
+			//saint brieuc
+            DB::table('counties')->insert([
+				'county_name' => 'Penthievre',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);
+			//
+			//alet
+            DB::table('counties')->insert([
+				'county_name' => 'Alet',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//
+			//treguier
+            DB::table('counties')->insert([
+				'county_name' => 'Treguier',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//Retz
+			//
+			//pornic, paimboeuf, machecoul
+            DB::table('counties')->insert([
+				'county_name' => 'Retz',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);
+			//
+			//nantes
+            DB::table('counties')->insert([
+				'county_name' => 'Nantes',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);	
+			//
+			//rennes, fougeres
+            DB::table('counties')->insert([
+				'county_name' => 'Rennes',
+				'county_category' => '',
+				'de_jure_duchy' => '62',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Breton'
+            ]);			
+			
+			
 			
     }
 }

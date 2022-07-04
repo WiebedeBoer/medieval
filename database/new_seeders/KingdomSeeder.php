@@ -20,7 +20,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '',			
 				'law_succession' => '',			//Elective_Monarchy, Elective_Papacy, Elective_Order, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa, 
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium
-				'law_court' => '',				//itinerant, palatial				
+				'law_court' => '',				//itinerant, palatial, divan, sarai				
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
@@ -32,7 +32,7 @@ class KingdomSeeder extends Seeder
             ]);			
 			*/
 			
-			//holy roman empire
+			//Holy Roman Empire
 			//Germany
 			//Austria, Bavaria, Brabant, Carinthia, Carniola, Franconia, Frisia, Guelders, Julich, Limburg, Lorraine, Luneburg, Luxembourg, Saxony, Styria, Swabia, Bremen, Cologne, Magdeburg, Mainz, Salzburg, Trier
 			//1
@@ -43,18 +43,10 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Monarchy',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
-			//lombardy
-			//verona, genoa, venice, modena, pisa, milan, tuscany
+			//Lombardy
+			//Milan, Piedmont, Tuscany, Verona, Aquileia, Florence, Genoa, Noli, Oneglia, Lucca, Pisa, Venice
 			//2
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Lombardy',
@@ -63,18 +55,10 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Monarchy',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
-			//bohemia
-			//bohemia, moravia
+			//Bohemia
+			//Bohemia, Lusatia, Moravia, Lower Silesia, Upper Silesia
 			//3
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Bohemia',
@@ -83,15 +67,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
 			//Burgundy
 			//Burgundy, Cisjurania, Transjurania, Orange, Provence, Savoy
@@ -103,15 +79,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
 			//Papal States 
 			//Rome, Romagna, Spoleto, Urbino
@@ -123,18 +91,10 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Papacy',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'palatial'				
             ]);
 			//terra mariana
-			//prussia, livonia, estonia, Mecklenburg, pomerelia, pomerania, brandenburg
+			//Livonia, Estonia, Prussia, Pomerelia, Pomerania, Brandenburg, Mecklenburg
 			//6
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Teutonic Order State',
@@ -143,19 +103,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Order',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);			
 			//france
 			//france
-			//aquitaine, casgony, brittany, normandy
+			//Anjou, Aquitaine, Auvergne, Berry, 
 			//7
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of France',
@@ -164,20 +116,24 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '2',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
+            ]);	
+			//Brittany
+			//Brittany, Retz
+			//8
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Brittany',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'brittany',
+				'de_jure_empire' => '2',			
+				'law_succession' => 'Salic_Primogeniture',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'				
             ]);			
 			//ireland
 			//ireland 
 			//connacht, leinster, meath, munster, ulster
-			//8
+			//9
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'High Kingdom of Ireland',
 				'kingdom_category' => 'Tanistry',
@@ -185,20 +141,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
 			//britain	
 			//england
 			//essex, wessex, sussex, kent, mercia, east anglia, northumbria
-			//9
+			//10
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of England',
 				'kingdom_category' => 'Feudal',
@@ -206,19 +154,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);
 			//wales
 			//dyfed, gwent, gwynedd, powys, cornwall
-			//10
+			//11
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Wales',
 				'kingdom_category' => 'Tanistry',
@@ -226,19 +166,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);			
 			//scotland			
 			//bernicia, strathclyde, galloway, fortriu, alba
-			//11
+			//12
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Scotland',
 				'kingdom_category' => 'Tanistry',
@@ -246,20 +178,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//aragon
 			//aragon
 			//aragon, catalonia, barcelona
-			//12
+			//13
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Aragon',
 				'kingdom_category' => 'Feudal',
@@ -267,19 +191,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '4',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);				
 			//navarre
 			//navarre
-			//13
+			//14
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Navarre',
 				'kingdom_category' => 'Feudal',
@@ -287,20 +203,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '4',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);	
 			//castile
 			//castile
 			//toledo
-			//14
+			//15
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Castile',
 				'kingdom_category' => 'Feudal',
@@ -308,19 +216,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//galicia
 			//galicia
-			//15
+			//16
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Galicia',
 				'kingdom_category' => 'Feudal',
@@ -328,19 +228,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//leon
 			//leon, asturias
-			//16
+			//17
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Leon',
 				'kingdom_category' => 'Feudal',
@@ -348,19 +240,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//portugal
 			//porto, beira
-			//17
+			//18
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Portugal',
 				'kingdom_category' => 'Feudal',
@@ -368,20 +252,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);				
 			//denmark		
 			//denmark
 			//jutland, sjaeland, scania 
-			//18
+			//19
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Denmark',
 				'kingdom_category' => 'Feudal',
@@ -389,19 +265,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//norway
 			//northern isles, southern isles, hordaland, rogaland, agder, vestfold, oppland
-			//19
+			//20
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Norway',
 				'kingdom_category' => 'Feudal',
@@ -409,19 +277,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//sweden
 			//sverike, uppland, smaland, gotland, halsingland
-			//20
+			//21
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sweden',
 				'kingdom_category' => 'Feudal',
@@ -429,20 +289,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
 			//poland
 			//poland
 			//greater poland, lesser poland, mazovia, silesia, kuyavia, pomerania, pomerelia, mecklenburg
-			//21
+			//22
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Poland',
 				'kingdom_category' => 'Feudal',
@@ -450,19 +302,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '7',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);				
 			//lithuania
 			//
-			//22
+			//23
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Duchy of Lithuania',
 				'kingdom_category' => 'Feudal',
@@ -470,20 +314,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '7',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//hungary
 			//hungary
 			//
-			//23
+			//24
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Hungary',
 				'kingdom_category' => 'Feudal',
@@ -491,19 +327,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '8',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);	
 			//croatia
 			//
-			//24
+			//25
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Croatia',
 				'kingdom_category' => 'Feudal',
@@ -511,20 +339,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '8',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'					
             ]);				
 			//byzantine
 			//thrace
 			//
-			//25
+			//26
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thrace',
 				'kingdom_category' => 'Feudal',
@@ -532,19 +352,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'palatial'				
             ]);	
 			//thessalonica
 			//athens, achaea, archipelago, epirus
-			//26
+			//27
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thessalonica',
 				'kingdom_category' => 'Feudal',
@@ -552,19 +364,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);				
 			//trebizond
 			//paphlagonia, armeniac, chaldia, crimea
-			//27
+			//28
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Trebizond',
 				'kingdom_category' => 'Feudal',
@@ -572,19 +376,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);	
 			//anatolia
 			//thracesia, bucellaria, anatolia, cappadocia, silicia, opsicia, nicaea, lycia, pamphylia
-			//28
+			//29
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Anatolia',
 				'kingdom_category' => 'Feudal',
@@ -592,19 +388,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
 			//sicily
 			//palermo, trapani, messina, agrigento, catania, siracusa
-			//29
+			//30
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sicily',
 				'kingdom_category' => 'Feudal',
@@ -612,19 +400,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'palatial',						
             ]);	
 			//naples
 			//capua, amalfi, naples, calabria, basilicata, taranto, foggia, benevento, salerno
-			//30
+			//31
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Naples',
 				'kingdom_category' => 'Feudal',
@@ -632,19 +412,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'palatial'				
             ]);	
 			//sardinia
 			//gallura, logudoro (torres), arborea, cagliari
-			//31
+			//32
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sardinia',
 				'kingdom_category' => 'Feudal',
@@ -652,19 +424,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//georgia
 			//georgia
-			//32
+			//33
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Georgia',
 				'kingdom_category' => 'Feudal',
@@ -672,19 +436,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//armenia
 			//vaspurakan, taron, kars, azerbaijan
-			//33
+			//34
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Armenia',
 				'kingdom_category' => 'Feudal',
@@ -692,20 +448,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//bulgaria
 			//bulgaria
 			//
-			//34
+			//35
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Bulgaria',
 				'kingdom_category' => 'Feudal',
@@ -713,19 +461,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);
 			//wallachia
 			//wallachia, moldavia
-			//35
+			//36
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Wallachia',
 				'kingdom_category' => 'Feudal',
@@ -733,20 +473,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//serbia
 			//serbia
 			//rashka
-			//36
+			//37
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Serbia',
 				'kingdom_category' => 'Feudal',
@@ -754,19 +486,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//bosnia
 			//bosnia
-			//37
+			//38
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Bosnia',
 				'kingdom_category' => 'Feudal',
@@ -774,20 +498,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//kievan rus
 			//kiev
 			//kiev, pereyaslavl
-			//38
+			//39
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Kiev',
 				'kingdom_category' => 'Feudal',
@@ -795,19 +511,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'palatial'			
             ]);		
 			//murom
 			//murom, ryazan, chernigov
-			//39
+			//40
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Murom',
 				'kingdom_category' => 'Feudal',
@@ -815,19 +523,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//halych
 			//halych, volhynia, turov
-			//40
+			//41
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Ruthenia',
 				'kingdom_category' => 'Feudal',
@@ -835,19 +535,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'			
             ]);	
 			//vladimir
 			//moscow, vladimir, suzdal
-			//41
+			//42
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Vladimir',
 				'kingdom_category' => 'Feudal',
@@ -855,19 +547,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);		
 			//smolensk
 			//smolensk, toropets, mstislavl, rzhev
-			//42
+			//43
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Smolensk',
 				'kingdom_category' => 'Feudal',
@@ -875,19 +559,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'itinerant'				
             ]);	
 			//novgorod
 			//novgorod, polotsk, pleskov
-			//43
+			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Novgorod',
 				'kingdom_category' => 'Feudal',
@@ -895,20 +571,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'palatial'				
             ]);				
 			//cordoba
 			//andalucia
 			//algarves, cordoba, badajoz, valencia, sevilla, carmona, granada, almeria, murcia, denia, albarracin, malaga, algeciras
-			//44
+			//45
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Andalucia',
 				'kingdom_category' => 'Feudal',
@@ -916,20 +584,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '13',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//almohad
 			//
 			//
-			//45
+			//46
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Marrakesh',
 				'kingdom_category' => 'Feudal',
@@ -937,19 +597,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'			
             ]);	
 			//
 			//
-			//46
+			//47
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Fez',
 				'kingdom_category' => 'Feudal',
@@ -957,19 +609,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//
 			//
-			//47
+			//48
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kairouan',
 				'kingdom_category' => 'Feudal',
@@ -977,19 +621,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//
 			//
-			//48
+			//49
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Tlemcen',
 				'kingdom_category' => 'Feudal',
@@ -997,19 +633,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'			
             ]);	
 			//
 			//
-			//49
+			//50
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Ifni',
 				'kingdom_category' => 'Feudal',
@@ -1017,19 +645,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//
 			//
-			//50
+			//51
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Figuig',
 				'kingdom_category' => 'Feudal',
@@ -1037,20 +657,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);				
 			//abbasid
 			//
 			//
-			//51
+			//52
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Baghdad',
 				'kingdom_category' => 'Feudal',
@@ -1058,19 +670,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//
 			//
-			//52
+			//53
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Syria',
 				'kingdom_category' => 'Feudal',
@@ -1078,19 +682,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);				
 			//
 			//
-			//53
+			//54
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Najd',
 				'kingdom_category' => 'Feudal',
@@ -1098,19 +694,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);				
 			//
 			//
-			//54
+			//55
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Antioch',
 				'kingdom_category' => 'Feudal',
@@ -1118,20 +706,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);				
 			//fatimid
 			//
 			//
-			//55
+			//56
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cairo',
 				'kingdom_category' => 'Feudal',
@@ -1139,19 +719,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//
 			//
-			//56
+			//57
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Jerusalem',
 				'kingdom_category' => 'Feudal',
@@ -1159,19 +731,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'divan'				
             ]);	
 			//
 			//
-			//57
+			//58
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Hejaz',
 				'kingdom_category' => 'Feudal',
@@ -1180,19 +744,12 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'levy_feudal' => 'large'				
             ]);				
 			//khazar
 			//khazaria
 			//aqtobe, sarkel, atil, bolghar, bilar
-			//58
+			//59
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Khazaria',
 				'kingdom_category' => 'Feudal',
@@ -1200,19 +757,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'sarai'				
             ]);	
 			//alania
 			//derbent, azov
-			//59
+			//60
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Alania',
 				'kingdom_category' => 'Feudal',
@@ -1220,19 +769,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'sarai'				
             ]);	
 			//cumania
 			//sighnaq, sozak, sibir
-			//60
+			//61
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cumania',
 				'kingdom_category' => 'Feudal',
@@ -1240,20 +781,12 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'sarai'				
             ]);	
 			//seljuk
 			//kwarezm
 			//
-			//61
+			//62
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kwarezm',
 				'kingdom_category' => 'Feudal',
@@ -1261,19 +794,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'sarai'				
             ]);	
 			//isfahan
 			//
-			//62
+			//63
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Isfahan',
 				'kingdom_category' => 'Feudal',
@@ -1281,19 +806,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'sarai'				
             ]);	
 			//hormuz
 			//
-			//63
+			//64
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Hormuz',
 				'kingdom_category' => 'Feudal',
@@ -1301,15 +818,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai',				
-				'levy_feudal' => 'large',
-				'levy_ecclesiastical' => 'normal',
-				'levy_burgher' => 'normal',
-				'tax_feudal' => 'minimal',				
-				'tax_ecclesiastical' => 'normal',				
-				'tax_burgher' => 'normal',
-				'souvereign' => '1',
-				'lord_paramount' => '1',				
+				'law_court' => 'sarai'				
             ]);				
 			
     }

@@ -41,7 +41,7 @@ class EmpireSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);
-			//2 //france
+			//2 //france, brittany
             DB::table('empires')->insert([
 				'empire_name' => 'Crown of France', 
 				'empire_category' => 'Composite_Crown',
