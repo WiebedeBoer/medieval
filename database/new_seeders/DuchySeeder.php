@@ -770,7 +770,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			// 
+			//67 
 			//Artois, Amienois, Boulognois, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Ternois, Tournais, Vermandois 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Picardy',
@@ -781,7 +781,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'				
             ]);	
-			//
+			//68
 			//Poitou, Aunis, Briancais, Chatellerault, Marche, Thouarsais, Turenne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Poitou',
@@ -792,7 +792,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			// 
+			//69 
 			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toulouse',
@@ -804,7 +804,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//Brittany
-			//
+			//70
 			//Cornouailles, Ach, Dol, Leon, Poher, Vannais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brittany',
@@ -815,7 +815,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//71
 			//Penthievre, Alet, Tregor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Domnonee',
@@ -826,7 +826,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//72
 			//Retz, Nantais, Rennais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Retz',

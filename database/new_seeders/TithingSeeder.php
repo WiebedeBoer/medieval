@@ -13,6 +13,13 @@ class TithingSeeder extends Seeder
     {
 		
 			/*
+				castle construction					cost				salary
+				motte-and-bailey 3 months			tower 300			knight 40
+				castle 2 to 10 years				small castle 600
+			
+			*/
+		
+			/*
 			//example
             DB::table('tithings')->insert([
 				'tithing_name' => '',
