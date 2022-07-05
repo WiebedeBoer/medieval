@@ -4610,7 +4610,7 @@ class CountySeeder extends Seeder
 			//Brittany
 			//Brittany
 			//
-			//quimper
+			//quimper, concarneau
             DB::table('counties')->insert([
 				'county_name' => 'Cornouailles',
 				'county_category' => '',
