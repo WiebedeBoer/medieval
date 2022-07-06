@@ -4628,7 +4628,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Breton'
             ]);
 			//501
-			//dol
+			//dol, tronchet, combourg, tremeheuc, saint martin, boussac
             DB::table('counties')->insert([
 				'county_name' => 'Dol',
 				'county_category' => '',
@@ -4665,7 +4665,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Domnonee
 			//505
-			//saint brieuc
+			//saint brieuc, guingamp, chatelaudren
             DB::table('counties')->insert([
 				'county_name' => 'Penthievre',
 				'county_category' => '',
@@ -4674,7 +4674,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Breton'
             ]);
 			//506
-			//alet
+			//alet, chateauneuf, saint guinoux
             DB::table('counties')->insert([
 				'county_name' => 'Alet',
 				'county_category' => '',
@@ -4683,7 +4683,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//507
-			//treguier
+			//treguier, lezardrieux, plouguiel
             DB::table('counties')->insert([
 				'county_name' => 'Tregor',
 				'county_category' => '',

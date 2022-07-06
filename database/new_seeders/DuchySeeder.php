@@ -836,7 +836,63 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
+            ]);
+			//Britain
+			//Ireland
+			//73
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Connacht',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '9',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
             ]);	
-			
+			//74
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Leinster',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '9',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//75
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Meath',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '9',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//76
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Munster',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '9',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//77
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Ulster',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '9',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
     }
 }

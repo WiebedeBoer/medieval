@@ -130,9 +130,9 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);			
-			//ireland
-			//ireland 
-			//connacht, leinster, meath, munster, ulster
+			//Britain
+			//Ireland 
+			//Connacht, Leinster, Meath, Munster, Ulster
 			//9
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'High Kingdom of Ireland',
@@ -142,9 +142,8 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
-            ]);
-			//britain	
-			//england
+            ]);	
+			//England
 			//essex, wessex, sussex, kent, mercia, east anglia, northumbria
 			//10
             DB::table('kingdoms')->insert([
@@ -156,7 +155,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'			
             ]);
-			//wales
+			//Wales
 			//dyfed, gwent, gwynedd, powys, cornwall
 			//11
             DB::table('kingdoms')->insert([
@@ -168,7 +167,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'			
             ]);			
-			//scotland			
+			//Scotland			
 			//bernicia, strathclyde, galloway, fortriu, alba
 			//12
             DB::table('kingdoms')->insert([
