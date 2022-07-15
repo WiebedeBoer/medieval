@@ -4718,7 +4718,18 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '72',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
-            ]);			
+            ]);	
+			//Britain
+			//Ireland
+			//Connacht
+			//Leinster
+			//Meath
+			//Munster
+			//Ulster
+			
+			//England
+			
+			//Wales
 			
 			
 			
