@@ -893,6 +893,197 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
+            ]);	
+			//England
+			//78
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'East Anglia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//79
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Essex',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//80
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Kent',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//81
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Mercia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//82
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Northumbria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//83
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Sussex',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//84
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Wessex',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
             ]);				
+			//Wales
+			//85
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Cornwall',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '11',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//86
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Dyfed',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '11',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//87
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Gwent',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '11',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//88
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Gwyned',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '11',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//89
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Powys',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '11',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//Scotland
+			//90
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Alba',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '12',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//91
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Bernicia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '12',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//92
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Fortriu',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '12',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//93
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Galloway',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '12',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//94
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Strathclyde',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '12',	
+				'law_succession' => 'Tanistry',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			
     }
 }

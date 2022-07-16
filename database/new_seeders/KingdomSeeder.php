@@ -144,7 +144,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//England
-			//essex, wessex, sussex, kent, mercia, east anglia, northumbria
+			//East anglia, Essex, Kent, Mercia, Northumbria, Sussex, Wessex
 			//10
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of England',
@@ -156,7 +156,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'			
             ]);
 			//Wales
-			//dyfed, gwent, gwynedd, powys, cornwall
+			//Cornwall, Dyfed, Gwent, Gwynedd, Powys
 			//11
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Wales',
@@ -168,7 +168,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'			
             ]);			
 			//Scotland			
-			//bernicia, strathclyde, galloway, fortriu, alba
+			//Alba, Bernicia, Fortriu, Galloway, Strathclyde
 			//12
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Scotland',
@@ -179,8 +179,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//aragon
-			//aragon
+			//Aragon
+			//Aragon
 			//aragon, catalonia, barcelona
 			//13
             DB::table('kingdoms')->insert([
