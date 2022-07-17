@@ -33,7 +33,7 @@ class EmpireSeeder extends Seeder
 			
 			//catholic
 			//western continental europe
-			//1 //germany, lombardy, bohemia, burgundy, terra mariana, papal states
+			//1 //germany, lombardy, bohemia, burgundy, teutonic order state, papal states
             DB::table('empires')->insert([
 				'empire_name' => 'Holy Roman Empire', 
 				'empire_category' => 'Princely_Elective',
