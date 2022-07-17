@@ -920,6 +920,17 @@ class DuchySeeder extends Seeder
 			//80
 			//
             DB::table('duchies')->insert([
+				'duchy_name' => 'Hwicce',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//81
+			//
+            DB::table('duchies')->insert([
 				'duchy_name' => 'Kent',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '10',	
@@ -927,22 +938,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
-            ]);	
-			//81
-			//
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Mercia',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '10',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);	
+            ]);
 			//82
 			//
             DB::table('duchies')->insert([
-				'duchy_name' => 'Northumbria',
+				'duchy_name' => 'Lindsey',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -953,6 +953,28 @@ class DuchySeeder extends Seeder
 			//83
 			//
             DB::table('duchies')->insert([
+				'duchy_name' => 'Mercia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//84
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Northumbria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '10',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//85
+			//
+            DB::table('duchies')->insert([
 				'duchy_name' => 'Sussex',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '10',	
@@ -961,7 +983,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//84
+			//86
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wessex',
@@ -973,7 +995,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//Wales
-			//85
+			//87
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cornwall',
@@ -984,7 +1006,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//86
+			//88
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dyfed',
@@ -995,7 +1017,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//87
+			//89
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gwent',
@@ -1006,7 +1028,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//88
+			//90
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gwyned',
@@ -1017,7 +1039,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//89
+			//91
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Powys',
@@ -1029,7 +1051,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//Scotland
-			//90
+			//92
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alba',
@@ -1040,7 +1062,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//91
+			//93
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bernicia',
@@ -1051,7 +1073,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//92
+			//94
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fortriu',
@@ -1062,7 +1084,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//93
+			//95
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Galloway',
@@ -1073,7 +1095,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//94
+			//96
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Strathclyde',

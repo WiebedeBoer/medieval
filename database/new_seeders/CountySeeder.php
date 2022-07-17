@@ -4795,6 +4795,25 @@ class CountySeeder extends Seeder
 			//
 			//
             DB::table('counties')->insert([
+				'county_name' => 'Essex',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Middlesex',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//Hwicce
+			//
+			//
+            DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
 				'de_jure_duchy' => '',
@@ -4811,6 +4830,16 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
+			//Lindsey
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Lincolnshire',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
 			//Mercia
 			//
 			//
@@ -4821,7 +4850,61 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
 			//Northumbria
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
 			//
 			//
             DB::table('counties')->insert([
@@ -4845,19 +4928,72 @@ class CountySeeder extends Seeder
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => 'Wessex',
+				'county_name' => 'Berkshire',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Dorset',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Hampshire',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Somerset',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Surrey',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);		
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Wiltshire',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
 			//Wales
 			//Cornwall
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Cornwall',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Devonshire',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
