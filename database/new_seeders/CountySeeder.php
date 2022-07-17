@@ -4723,7 +4723,7 @@ class CountySeeder extends Seeder
 			//Ireland
 			//Connacht
 			//
-			//
+			//galway, athenry, claregalway, feartagar, kiltartan, hackety, loughrea, tuam, clonfert, dunmore
             DB::table('counties')->insert([
 				'county_name' => 'Galway',
 				'county_category' => '',
@@ -4732,7 +4732,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, claremorris, ashford
             DB::table('counties')->insert([
 				'county_name' => 'Mayo',
 				'county_category' => '',
@@ -4741,7 +4741,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//roscommon, boyle, donamon
             DB::table('counties')->insert([
 				'county_name' => 'Roscommon',
 				'county_category' => '',
@@ -4750,7 +4750,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//sligo, ballymote, markree, templehouse
             DB::table('counties')->insert([
 				'county_name' => 'Sligo',
 				'county_category' => '',
@@ -4760,7 +4760,7 @@ class CountySeeder extends Seeder
             ]);
 			//Leinster
 			//
-			//
+			//carlow, ballyloughan, ballymoon, leighlin, leighlinbridge, killerig
             DB::table('counties')->insert([
 				'county_name' => 'Carlow',
 				'county_category' => '',
@@ -4769,7 +4769,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//kildare, athy, castledermot, moone, barberstown, kilkea, kilteel, maynooth, reeves, rheban
             DB::table('counties')->insert([
 				'county_name' => 'Kildare',
 				'county_category' => '',
@@ -4778,7 +4778,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard
             DB::table('counties')->insert([
 				'county_name' => 'Kilkenny',
 				'county_category' => '',
@@ -4787,16 +4787,16 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//fortleix, cullahill, lea, killeshin, oughaval
             DB::table('counties')->insert([
-				'county_name' => 'Laois',
+				'county_name' => 'Leix',
 				'county_category' => '',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//clonmel, athassel, nenagh, ardfinnan
             DB::table('counties')->insert([
 				'county_name' => 'Tipperary',
 				'county_category' => '',
@@ -4805,7 +4805,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//waterford, lismore, crooke, dungarvan, ardmore, mothel, rincrew
             DB::table('counties')->insert([
 				'county_name' => 'Waterford',
 				'county_category' => '',
@@ -4814,7 +4814,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//wexford, carnsore, dunbrody, ferns, selskar, tintern
             DB::table('counties')->insert([
 				'county_name' => 'Wexford',
 				'county_category' => '',
@@ -4823,7 +4823,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//wicklow, kindlestown, baltinglass, glendalough
             DB::table('counties')->insert([
 				'county_name' => 'Wicklow',
 				'county_category' => '',
@@ -4833,7 +4833,7 @@ class CountySeeder extends Seeder
             ]);
 			//Meath
 			//
-			//
+			//dublin, clontarf, kinsaley, lusk
             DB::table('counties')->insert([
 				'county_name' => 'Dublin',
 				'county_category' => '',
@@ -4842,7 +4842,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//longford, ardagh, granard, moydow, rathcline, abbeyshrule
             DB::table('counties')->insert([
 				'county_name' => 'Longford',
 				'county_category' => '',
@@ -4851,7 +4851,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, nugent
             DB::table('counties')->insert([
 				'county_name' => 'Meath',
 				'county_category' => '',
@@ -4860,7 +4860,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//tullamore, blundell, leap, clonmacnoise, gallen, roscrea
             DB::table('counties')->insert([
 				'county_name' => 'Offaly',
 				'county_category' => '',
@@ -4870,7 +4870,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Munster
 			//
-			//
+			//ennis, bunratty, kilmihil
             DB::table('counties')->insert([
 				'county_name' => 'Clare',
 				'county_category' => '',

@@ -851,7 +851,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//74
-			//Carlow, Kildare, Kilkenny, Laois, Tipperary, Waterford, Wexford, Wicklow
+			//Carlow, Kildare, Kilkenny, Leix, Tipperary, Waterford, Wexford, Wicklow
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leinster',
 				'duchy_category' => 'Feudal',
