@@ -4879,7 +4879,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//cork, bantry, fermoy, castlelyons, mourneabbey, blarney, widenham
             DB::table('counties')->insert([
 				'county_name' => 'Cork',
 				'county_category' => '',
