@@ -5321,7 +5321,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//alnwick, bamburgh
+			//alnwick, bamburgh, lindisfarne
             DB::table('counties')->insert([
 				'county_name' => 'Northumberland',
 				'county_category' => '',
@@ -5488,7 +5488,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Dyfed
 			//
-			//
+			//cardigan, aberystwyth, llanbadarn
             DB::table('counties')->insert([
 				'county_name' => 'Cardiganshire',
 				'county_category' => '',
@@ -5497,7 +5497,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//carmarthen, carreg, dinefwr, kidwelly, laugharne, llandovery, llansteffan, talley, whitland
             DB::table('counties')->insert([
 				'county_name' => 'Carmarthenshire',
 				'county_category' => '',
@@ -5506,7 +5506,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//pembroke, carew, cilgerran, haverford, manorbier, tenby, saint dogmaels, templeton
             DB::table('counties')->insert([
 				'county_name' => 'Pembrokeshire',
 				'county_category' => '',
@@ -5516,16 +5516,16 @@ class CountySeeder extends Seeder
             ]);
 			//Gwent
 			//
-			//
+			//candleston, coity, kenfig, newcastle, cardiff, neath, llantrisant, llandaff, ewenny, penrhys
             DB::table('counties')->insert([
-				'county_name' => 'Glamorgan',
+				'county_name' => 'Glamorganshire',
 				'county_category' => '',
 				'de_jure_duchy' => '90',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//abergavenny, raglan
+			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow
             DB::table('counties')->insert([
 				'county_name' => 'Monmouthshire',
 				'county_category' => '',
@@ -5535,7 +5535,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Gwyned
 			//
-			//
+			//aberlleiniog, beaumaris, llanfaes, penmon
             DB::table('counties')->insert([
 				'county_name' => 'Anglesey',
 				'county_category' => '',
@@ -5544,7 +5544,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//caernarvon
+			//caernarfon, conwy, deganwy, dolwyddelan, dolbadarn, harlech, maenan, bangor, cymer
             DB::table('counties')->insert([
 				'county_name' => 'Caernarvonshire',
 				'county_category' => '',
@@ -5553,7 +5553,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//denbigh, rhuddlan, ruthin, saint asaph, wrexham
             DB::table('counties')->insert([
 				'county_name' => 'Denbighshire',
 				'county_category' => '',
@@ -5562,7 +5562,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//flint, caergwrle, ewloe, hawarden, mold, basingwerk, talacre
             DB::table('counties')->insert([
 				'county_name' => 'Flintshire',
 				'county_category' => '',
@@ -5572,7 +5572,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Powys
 			//
-			//
+			//brecon, morlais, blaenllynfi, bronllys, crickhowell, tretower
             DB::table('counties')->insert([
 				'county_name' => 'Brecknockshire',
 				'county_category' => '',
@@ -5581,7 +5581,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//montgomery, powis
+			//montgomery, powis, dolforwyn, llanlugan
             DB::table('counties')->insert([
 				'county_name' => 'Montgomeryshire',
 				'county_category' => '',
@@ -5590,7 +5590,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//aberedw, cefnllys, hay
             DB::table('counties')->insert([
 				'county_name' => 'Radnorshire',
 				'county_category' => '',
@@ -5601,7 +5601,7 @@ class CountySeeder extends Seeder
 			//Scotland
 			//Alba
 			//
-			//aberdeen, balmoral
+			//aberdeen, balmoral, balquhain, cairnbulg, coull, dundarg, fyvie, inverallochy, inverugie, leslie, udny, deer, huntly
             DB::table('counties')->insert([
 				'county_name' => 'Aberdeenshire',
 				'county_category' => '',
@@ -5610,16 +5610,25 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//banff, mortlach, doune, keith
             DB::table('counties')->insert([
 				'county_name' => 'Banffshire',
 				'county_category' => '',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
-            ]);	
+            ]);
 			//
+			//clackmannan, alloa
+            DB::table('counties')->insert([
+				'county_name' => 'Clackmannanshire',
+				'county_category' => '',
+				'de_jure_duchy' => '93',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
 			//
+			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline
             DB::table('counties')->insert([
 				'county_name' => 'Fife',
 				'county_category' => '',
@@ -5628,7 +5637,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//forfar, brechin, arbroath, montrose, dundee, angus
             DB::table('counties')->insert([
 				'county_name' => 'Forfarshire',
 				'county_category' => '',
@@ -5637,7 +5646,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//kincardine, banchory, stonehaven
             DB::table('counties')->insert([
 				'county_name' => 'Kincardineshire',
 				'county_category' => '',
@@ -5646,7 +5655,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//kinross, cleish, scotlandwell
             DB::table('counties')->insert([
 				'county_name' => 'Kinrossshire',
 				'county_category' => '',
@@ -5655,7 +5664,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//perth, dunkeld, elcho, inverquiech, kinclaven, clunie, abernethy, muthill, scone, ruthven
             DB::table('counties')->insert([
 				'county_name' => 'Perthshire',
 				'county_category' => '',
@@ -5665,7 +5674,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Bernicia
 			//
-			//
+			//berwick, lauder, thirlestane, duns, coldstream
             DB::table('counties')->insert([
 				'county_name' => 'Berwickshire',
 				'county_category' => '',
@@ -5674,7 +5683,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//edinburgh, holyrood, roslyn, arniston, craigmillar, bathgate, strathbrock
             DB::table('counties')->insert([
 				'county_name' => 'Edinburghshire',
 				'county_category' => '',
@@ -5683,7 +5692,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//haddington, dunbar, byres, dirleton, innerwick, markle, tantallon, waughton, yester
             DB::table('counties')->insert([
 				'county_name' => 'Haddingtonshire',
 				'county_category' => '',
@@ -5692,16 +5701,16 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//linlithgow, livingston, abercorn, falkirk
             DB::table('counties')->insert([
-				'county_name' => 'Lothian',
+				'county_name' => 'Linlithgowshire',
 				'county_category' => '',
 				'de_jure_duchy' => '94',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);		
 			//
-			//
+			//stirling, dunblane, cambuskenneth, culcreuch, mugodock
             DB::table('counties')->insert([
 				'county_name' => 'Stirlingshire',
 				'county_category' => '',
@@ -5711,7 +5720,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Dalriada
 			//
-			//
+			//lismore, coeffin, achanduin, saddell, dunadd
             DB::table('counties')->insert([
 				'county_name' => 'Argyll',
 				'county_category' => '',
@@ -5720,7 +5729,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//brodick, lamlash
             DB::table('counties')->insert([
 				'county_name' => 'Bute',
 				'county_category' => '',
@@ -5730,7 +5739,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Fortriu
 			//
-			//dingwall, fortrose
+			//dingwall, fortrose, ross
             DB::table('counties')->insert([
 				'county_name' => 'Cromartyshire',
 				'county_category' => '',
@@ -5739,7 +5748,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//elgin
+			//elgin, dallas, forres, kinloss, urquhart, duffus
             DB::table('counties')->insert([
 				'county_name' => 'Elginshire',
 				'county_category' => '',
@@ -5748,7 +5757,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//inverness
+			//inverness, kilmallie, inverlochy, mingarry, applecross, beauly
             DB::table('counties')->insert([
 				'county_name' => 'Invernessshire',
 				'county_category' => '',
@@ -5757,7 +5766,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//nairn
+			//nairn, rait, cawdor, eren
             DB::table('counties')->insert([
 				'county_name' => 'Nairnshire',
 				'county_category' => '',
@@ -5766,7 +5775,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//dornoch
+			//dornoch, durness, dunrobin, skelbo, skibo, berriedale, aberscross
             DB::table('counties')->insert([
 				'county_name' => 'Sutherland',
 				'county_category' => '',
@@ -5776,7 +5785,7 @@ class CountySeeder extends Seeder
             ]);
 			//Galloway
 			//
-			//kirkcudbright
+			//kirkcudbright, annan, buittle, caerloverock, dundrennan
             DB::table('counties')->insert([
 				'county_name' => 'Kirkcudbrightshire',
 				'county_category' => '',
@@ -5785,7 +5794,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//wigtown, whithorn
+			//wigtown, whithorn, cruggleton, fearn, glenluce
             DB::table('counties')->insert([
 				'county_name' => 'Wigtownshire',
 				'county_category' => '',
@@ -5795,7 +5804,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Gododdin
 			//
-			//dumfries
+			//dumfries, auchen, closeburn, lochmaben, robgill, sanquhar, tibbers, dercongal
             DB::table('counties')->insert([
 				'county_name' => 'Dumfriesshire',
 				'county_category' => '',
@@ -5804,7 +5813,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//peebles
+			//peebles, skirling, mossfennan, traquair
             DB::table('counties')->insert([
 				'county_name' => 'Peeblesshire',
 				'county_category' => '',
@@ -5813,7 +5822,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//roxburgh, jedburgh, kelso
+			//roxburgh, jedburgh, kelso, dryburgh, melrose, hawick
             DB::table('counties')->insert([
 				'county_name' => 'Roxburghshire',
 				'county_category' => '',
@@ -5822,7 +5831,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//selkirk
+			//selkirk, yarrow, galashiels
             DB::table('counties')->insert([
 				'county_name' => 'Selkirkshire',
 				'county_category' => '',
@@ -5832,7 +5841,7 @@ class CountySeeder extends Seeder
             ]);		
 			//Strathclyde
 			//
-			//ayr
+			//ayr, largs, busbie, cessnock, crossraguel, barnweill, craigie, gadgirth
             DB::table('counties')->insert([
 				'county_name' => 'Ayrshire',
 				'county_category' => '',
@@ -5841,7 +5850,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//dunbarton
+			//dunbarton, inchmurrin
             DB::table('counties')->insert([
 				'county_name' => 'Dunbartonshire',
 				'county_category' => '',
@@ -5850,7 +5859,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//glasgow
+			//lanark, glasgow, carstairs, kilbride, rutherglen, crookston
             DB::table('counties')->insert([
 				'county_name' => 'Lanarkshire',
 				'county_category' => '',
@@ -5859,7 +5868,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//paisley, polnoon
             DB::table('counties')->insert([
 				'county_name' => 'Renfrewshire',
 				'county_category' => '',
@@ -5905,9 +5914,88 @@ class CountySeeder extends Seeder
 			
 			//Norway
 			//Northern Isles
-			
+			//
+			//wick, halkirk, thurso, sinclair
+            DB::table('counties')->insert([
+				'county_name' => 'Caithness',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//kirkwall, holm, sandwick, eynhallow, birsay
+            DB::table('counties')->insert([
+				'county_name' => 'Orkney',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//tingwall, sandsting, dunrossness, cunningsburgh
+            DB::table('counties')->insert([
+				'county_name' => 'Shetland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
 			//Southern Isles
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Islay',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Lewis',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Mann',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//iona
+            DB::table('counties')->insert([
+				'county_name' => 'Mull',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//dunvegan, dunscaith
+            DB::table('counties')->insert([
+				'county_name' => 'Skye',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Uist',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
 			//Agder
 			
 			//Hordaland
