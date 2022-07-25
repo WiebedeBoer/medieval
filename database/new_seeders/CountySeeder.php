@@ -5628,7 +5628,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline
+			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline, inchcolm
             DB::table('counties')->insert([
 				'county_name' => 'Fife',
 				'county_category' => '',
@@ -5720,7 +5720,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Dalriada
 			//
-			//lismore, coeffin, achanduin, saddell, dunadd
+			//lismore, coeffin, achanduin, saddell, dunadd, ardchattan, ardtonish
             DB::table('counties')->insert([
 				'county_name' => 'Argyll',
 				'county_category' => '',
@@ -5943,7 +5943,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Southern Isles
 			//
-			//
+			//dunyvaig, kilchoman, kildalton
             DB::table('counties')->insert([
 				'county_name' => 'Islay',
 				'county_category' => '',
@@ -5952,7 +5952,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//
+			//stornoway, duneistean, aignish
             DB::table('counties')->insert([
 				'county_name' => 'Lewis',
 				'county_category' => '',
@@ -5970,7 +5970,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//iona
+			//iona, moy, aros, duart
             DB::table('counties')->insert([
 				'county_name' => 'Mull',
 				'county_category' => '',
@@ -5979,7 +5979,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);
 			//
-			//dunvegan, dunscaith
+			//dunvegan, dunscaith, duntulm, portree, broadford
             DB::table('counties')->insert([
 				'county_name' => 'Skye',
 				'county_category' => '',
@@ -5988,7 +5988,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => ''
             ]);	
 			//
-			//
+			//calvay, borve
             DB::table('counties')->insert([
 				'county_name' => 'Uist',
 				'county_category' => '',
