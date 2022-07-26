@@ -1085,7 +1085,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//95
-			//Argyll, Bute
+			//Argyll, Bute, Mann
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalriada',
 				'duchy_category' => 'Feudal',
@@ -1294,9 +1294,9 @@ class DuchySeeder extends Seeder
             ]);
 			//Norway
 			//
-			//
+			//Caithness, Orkney, Shetland
             DB::table('duchies')->insert([
-				'duchy_name' => 'Northern Isles',
+				'duchy_name' => 'Nordjor',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1305,9 +1305,9 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Islay, Lewis, Mull, Skye, Uist
             DB::table('duchies')->insert([
-				'duchy_name' => 'Southern Isles',
+				'duchy_name' => 'Sodor',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1316,9 +1316,9 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Hadeland, Hedmark, Romerike
             DB::table('duchies')->insert([
-				'duchy_name' => 'Agder',
+				'duchy_name' => 'Hedmark',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1327,18 +1327,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Hordaland',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '20',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);
-			//
-			//
+			//Jamtland, Namdal, Oppland, Trondelag
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oppland',
 				'duchy_category' => 'Feudal',
@@ -1349,7 +1338,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Dalane, Haugeland, Jaeren, Rogaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rogaland',
 				'duchy_category' => 'Feudal',
@@ -1360,9 +1349,31 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Agder, Grenland, Telemark
             DB::table('duchies')->insert([
-				'duchy_name' => 'Vestfold',
+				'duchy_name' => 'Sorland',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '20',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Hordaland, Romsdal, Vestland
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Vestland',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '20',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Akershus, Buskerud, Ostfold, Ranrike, Vestfold, Vingulmark
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Viken',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1372,7 +1383,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Sweden
 			//
-			//
+			//Gotland, Ostergotland, Vastergotland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gotland',
 				'duchy_category' => 'Feudal',
@@ -1383,9 +1394,9 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//
+			//Angermanland, Gastrikland, Halsingland
             DB::table('duchies')->insert([
-				'duchy_name' => 'Halsingland',
+				'duchy_name' => 'Norrland',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1394,7 +1405,18 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
+			//Aland, Finland, Karelia, Nyland, Ostrobothnia, Satakunta, Savonia, Tavastland
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Osterland',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '21',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
 			//
+			//Oland, Smaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smaland',
 				'duchy_category' => 'Feudal',
@@ -1405,11 +1427,24 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//
+			//Dalarna, Narke, Sodermanland, Uppland, Varmland, Vastmanland
             DB::table('duchies')->insert([
-				'duchy_name' => 'Sverike',
+				'duchy_name' => 'Svealand',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '21',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//Poland
+			//Poland
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Greater Poland',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '22',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -1418,13 +1453,59 @@ class DuchySeeder extends Seeder
 			//
 			//
             DB::table('duchies')->insert([
-				'duchy_name' => 'Uppland',
+				'duchy_name' => 'Lesser Poland',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '22',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Kuyavia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '22',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Mazovia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '22',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//Lithuania
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);				
+			
     }
 }

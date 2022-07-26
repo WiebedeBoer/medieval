@@ -5737,6 +5737,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
+			//
+			//rushen, douglas, peel, ramsey, bemaken, ballaugh, marown, onchan
+            DB::table('counties')->insert([
+				'county_name' => 'Mann',
+				'county_category' => '',
+				'de_jure_duchy' => '95',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
 			//Fortriu
 			//
 			//dingwall, fortrose, ross
@@ -5909,11 +5918,37 @@ class CountySeeder extends Seeder
 			//Jutland
 			
 			//Scania
-			
+			//
+			//solvesborg, ronneby
+            DB::table('counties')->insert([
+				'county_name' => 'Blekinge',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Halland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholm, smedstorp
+            DB::table('counties')->insert([
+				'county_name' => 'Scania',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
 			//Sjaeland
 			
 			//Norway
-			//Northern Isles
+			//Nordjor (Northern Isles)
 			//
 			//wick, halkirk, thurso, sinclair
             DB::table('counties')->insert([
@@ -5941,7 +5976,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);				
-			//Southern Isles
+			//Sodor (Southern Isles)
 			//
 			//dunyvaig, kilchoman, kildalton
             DB::table('counties')->insert([
@@ -5955,15 +5990,6 @@ class CountySeeder extends Seeder
 			//stornoway, duneistean, aignish
             DB::table('counties')->insert([
 				'county_name' => 'Lewis',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
-            ]);	
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => 'Mann',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
@@ -5995,27 +6021,523 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
+            ]);							
+			//Hedmark (eidsivating)
+			//
+			//granavollen, tingelstad, lunner, ulnes, hedal, lomen, slidre
+            DB::table('counties')->insert([
+				'county_name' => 'Hadeland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//hamar, loten, stange, tingnes, moelv
+            DB::table('counties')->insert([
+				'county_name' => 'Hedmark',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//lillestrom, sorum, lorenskog, raelingen, nes, eidsvoll, ullensaker 
+            DB::table('counties')->insert([
+				'county_name' => 'Romerike',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//Oppland (frostating)
+			//
+			//are, bodin, gildeskal, mattmar 
+            DB::table('counties')->insert([
+				'county_name' => 'Jamtland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//ranem, sakshaug, gangstad, snasa, maere, alstadhaug, stiklestad, orland
+            DB::table('counties')->insert([
+				'county_name' => 'Namdal',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//lillehammer, lom, asnes, follebu, gausdal, ringebu, lena  
+            DB::table('counties')->insert([
+				'county_name' => 'Oppland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//trondheim, lade, orland, stoksund, haltdal, dolmoya, skaun, mebonden, vaernes 
+            DB::table('counties')->insert([
+				'county_name' => 'Trondelag',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);						
+			//Rogaland (gulating)
+			//
+			//egersund, bjerkreim, heskestad 
+            DB::table('counties')->insert([
+				'county_name' => 'Dalane',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//haugesund, avaldsnes, torvestad, akra 
+            DB::table('counties')->insert([
+				'county_name' => 'Haugeland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//tinghaug, stavanger, tjora, njaerheim, ogna, varhaug 
+            DB::table('counties')->insert([
+				'county_name' => 'Jaeren',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//sauda, jelsa, hjelmeland, fister, ardal, strand, kvitsoy, suldal 
+            DB::table('counties')->insert([
+				'county_name' => 'Rogaland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//Sorland (borgarting)
+			//
+			//vanse, oddernes, mandal, spangereid, vigeland, vigmostad, birkenes, moland, hovag 
+            DB::table('counties')->insert([
+				'county_name' => 'Agder',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//skien, siljan, gjerpen, eidanger 
+            DB::table('counties')->insert([
+				'county_name' => 'Grenland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//eidsborg, bo, kviteseid, sauherad, nesodden, romnes, heddal, flatdal 
+            DB::table('counties')->insert([
+				'county_name' => 'Telemark',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
             ]);				
-			//Agder
-			
-			//Hordaland
-			
-			//Oppland
-			
-			//Rogaland
-			
-			//Vestfold
-			
+			//Vestland (gulating)
+			//
+			//vassas, bronnoy, odda 
+            DB::table('counties')->insert([
+				'county_name' => 'Hordaland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//veoya, aheim, borgund, orskog, rodven, vestnes, kvernes, edoya, tingvoll 
+            DB::table('counties')->insert([
+				'county_name' => 'Romsdal',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//
+			//bergen, arstad, lyse, gimmestad
+            DB::table('counties')->insert([
+				'county_name' => 'Vestland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//Viken (borgarting)
+			//
+			//asker, baerum, haslum 
+            DB::table('counties')->insert([
+				'county_name' => 'Akershus',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//hallingdal, roldal, flesberg, rollag, nore, uvdal, ringerike, hole 
+            DB::table('counties')->insert([
+				'county_name' => 'Buskerud',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//sarpsborg, askim, trogstad 
+            DB::table('counties')->insert([
+				'county_name' => 'Ostfold',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//kungahalla, marstrand, uddeval, kville, tanum, vettaland, herrestad, bohus 
+            DB::table('counties')->insert([
+				'county_name' => 'Ranrike',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//larvik, borre, tonsberg, skaun 
+            DB::table('counties')->insert([
+				'county_name' => 'Vestfold',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);		
+			//
+			//oslo, vestby, hurum, frogn, nesodden, as, ski, enebakk  
+            DB::table('counties')->insert([
+				'county_name' => 'Vingulmark',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);			
 			//Sweden
 			//Gotland
-			
-			//Halsingland
-			
+			//
+			//visby, hemse, vasterhejde, stenkumla, havdhem, kraklingbo, hastnas, roma
+            DB::table('counties')->insert([
+				'county_name' => 'Gotland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//linkoping, norrkoping, soderkoping, vadstena, skanninge, bjalbo, tidersrum, ekenas, vreta
+            DB::table('counties')->insert([
+				'county_name' => 'Ostergotland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//husaby, lacko, falkoping, skara, skovde, bogesund, ale, dalaborg, alvborg
+            DB::table('counties')->insert([
+				'county_name' => 'Vastergotland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);			
+			//Norrland
+			//
+			//gudmund, sjalevads, arnas, anundsjo
+            DB::table('counties')->insert([
+				'county_name' => 'Angermanland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//torsaker, gavle, ockelbo
+            DB::table('counties')->insert([
+				'county_name' => 'Gastrikland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//
+			//ljusdal, bollnas
+            DB::table('counties')->insert([
+				'county_name' => 'Halsingland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//Osterland
+			//
+			//kastelholm, hammarland
+            DB::table('counties')->insert([
+				'county_name' => 'Aland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//stenberga, turku, somero, biskopsborg
+            DB::table('counties')->insert([
+				'county_name' => 'Finland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//viborg, kexholm, hamina, kouvola, hollola
+            DB::table('counties')->insert([
+				'county_name' => 'Karelia',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//raseborg, koskela, esbo, kerava, hogfors
+            DB::table('counties')->insert([
+				'county_name' => 'Nyland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//ouluborg, korsholm
+            DB::table('counties')->insert([
+				'county_name' => 'Ostrobothnia',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//kokemaki, vreghdenborg
+            DB::table('counties')->insert([
+				'county_name' => 'Satakunta',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//olofsborg, saint michel, nyslott
+            DB::table('counties')->insert([
+				'county_name' => 'Savonia',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
+			//
+			//hame, birkala
+            DB::table('counties')->insert([
+				'county_name' => 'Tavastland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);
 			//Smaland
-			
-			//Sverike
-			
-			//Uppland
+			//
+			//borgholm, alby, ottenby, halltorp, kopingsvik
+            DB::table('counties')->insert([
+				'county_name' => 'Oland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//kalmar, vastervik, vaxjo, vimmerby, eksjo, ljungby, hulingsryd, hassleby, gamleby
+            DB::table('counties')->insert([
+				'county_name' => 'Smaland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//Svealand
+			//
+			//hedemora, avesta
+            DB::table('counties')->insert([
+				'county_name' => 'Dalarna',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//strangnas, orebro, riseberga, askersund, kumla, goksholm
+            DB::table('counties')->insert([
+				'county_name' => 'Narke',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//stockholm, strangnas, sodertalje, nykoping, torshalla, trosa, djursholm, horningsholm
+            DB::table('counties')->insert([
+				'county_name' => 'Sodermanland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//uppsala, osthammar, riksby, stockby, solna, sollentuna, sigtuna, enkoping, alsno, penningby, orbyhus
+            DB::table('counties')->insert([
+				'county_name' => 'Uppland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//arvika, gunnarskog, varnums, alvdal
+            DB::table('counties')->insert([
+				'county_name' => 'Varmland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//arboga, norberg, skinnsackeberg, lindesberg
+            DB::table('counties')->insert([
+				'county_name' => 'Vastmanland',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//Poland
+			//Poland
+			//Greater Poland
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//Lesser Poland
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//Kuyavia
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//Mazovia
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+			//Lithuania
+			//
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => ''
+            ]);				
+
 			
     }
 }

@@ -267,7 +267,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//Norway
-			//Northern Isles, Southern Isles, Agder, Hordaland, Oppland, Rogaland, Vestfold
+			//Nordjor, Sodor, Hedmark, Oppland, Rogaland, Sorland, Vestland, Viken
 			//20
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Norway',
@@ -279,7 +279,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//Sweden
-			//Gotland, Halsingland, Smaland, Sverike, Uppland
+			//Gotland, Norrland, Osterland, Smaland, Svealand
 			//21
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sweden',
@@ -290,9 +290,9 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);
-			//poland
-			//poland
-			//greater poland, lesser poland, mazovia, silesia, kuyavia, pomerania, pomerelia, mecklenburg
+			//Poland
+			//Poland
+			//Greater Poland, Lesser Poland, Kuyavia, Mazovia
 			//22
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Poland',
@@ -303,7 +303,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);				
-			//lithuania
+			//Lithuania
 			//
 			//23
             DB::table('kingdoms')->insert([
