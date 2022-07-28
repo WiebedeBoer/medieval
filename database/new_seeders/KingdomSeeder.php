@@ -584,14 +584,38 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial'				
             ]);				
-			//cordoba
-			//andalucia
-			//algarves, cordoba, badajoz, valencia, sevilla, carmona, granada, almeria, murcia, denia, albarracin, malaga, algeciras
+			//Cordoba
+			//Andalucia
+			//Algeciras, Almeria, Carmona, Cordoba, Granada, Malaga, Sevilla 
 			//46
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Andalucia',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
+				'flag' => 'fatimid',
+				'de_jure_empire' => '13',			
+				'law_succession' => 'Shura',
+				'law_assembly' => 'medium',
+				'law_court' => 'divan'				
+            ]);	
+			//Algarves
+			//Algarves, Badajoz, Huelva 
+			//47
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Algarves',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'fatimid',
+				'de_jure_empire' => '13',			
+				'law_succession' => 'Shura',
+				'law_assembly' => 'medium',
+				'law_court' => 'divan'				
+            ]);	
+			//Levante
+			//Baleares, Denia, Murcia, Valencia
+			//48
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Levante',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'fatimid',
 				'de_jure_empire' => '13',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
@@ -600,7 +624,7 @@ class KingdomSeeder extends Seeder
 			//almohad
 			//
 			//
-			//47
+			//49
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Marrakesh',
 				'kingdom_category' => 'Feudal',
@@ -612,7 +636,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//48
+			//50
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Fez',
 				'kingdom_category' => 'Feudal',
@@ -624,7 +648,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//49
+			//51
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kairouan',
 				'kingdom_category' => 'Feudal',
@@ -636,7 +660,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//50
+			//52
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Tlemcen',
 				'kingdom_category' => 'Feudal',
@@ -648,7 +672,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//51
+			//53
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Ifni',
 				'kingdom_category' => 'Feudal',
@@ -660,7 +684,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//52
+			//54
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Figuig',
 				'kingdom_category' => 'Feudal',
@@ -673,7 +697,7 @@ class KingdomSeeder extends Seeder
 			//abbasid
 			//
 			//
-			//53
+			//55
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Baghdad',
 				'kingdom_category' => 'Feudal',
@@ -685,7 +709,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//54
+			//56
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Syria',
 				'kingdom_category' => 'Feudal',
@@ -697,7 +721,7 @@ class KingdomSeeder extends Seeder
             ]);				
 			//
 			//
-			//55
+			//57
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Najd',
 				'kingdom_category' => 'Feudal',
@@ -709,7 +733,7 @@ class KingdomSeeder extends Seeder
             ]);				
 			//
 			//
-			//56
+			//58
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Antioch',
 				'kingdom_category' => 'Feudal',
@@ -722,7 +746,7 @@ class KingdomSeeder extends Seeder
 			//fatimid
 			//
 			//
-			//57
+			//59
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cairo',
 				'kingdom_category' => 'Feudal',
@@ -734,7 +758,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//58
+			//60
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Jerusalem',
 				'kingdom_category' => 'Feudal',
@@ -746,7 +770,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//
 			//
-			//59
+			//61
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Hejaz',
 				'kingdom_category' => 'Feudal',
@@ -760,7 +784,7 @@ class KingdomSeeder extends Seeder
 			//khazar
 			//khazaria
 			//aqtobe, sarkel, atil, bolghar, bilar
-			//60
+			//62
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Khazaria',
 				'kingdom_category' => 'Feudal',
@@ -772,7 +796,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//alania
 			//derbent, azov
-			//61
+			//63
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Alania',
 				'kingdom_category' => 'Feudal',
@@ -784,7 +808,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//cumania
 			//sighnaq, sozak, sibir
-			//62
+			//64
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cumania',
 				'kingdom_category' => 'Feudal',
@@ -797,7 +821,7 @@ class KingdomSeeder extends Seeder
 			//seljuk
 			//kwarezm
 			//
-			//63
+			//65
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kwarezm',
 				'kingdom_category' => 'Feudal',
@@ -809,7 +833,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//isfahan
 			//
-			//64
+			//66
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Isfahan',
 				'kingdom_category' => 'Feudal',
@@ -821,7 +845,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//hormuz
 			//
-			//65
+			//67
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Hormuz',
 				'kingdom_category' => 'Feudal',

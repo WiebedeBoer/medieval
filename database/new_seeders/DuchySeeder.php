@@ -1277,7 +1277,7 @@ class DuchySeeder extends Seeder
 			//Castile
 			//Castile
 			//112
-			//Avila, Morana
+			//Avila, Morana, San Pedro
             DB::table('duchies')->insert([
 				'duchy_name' => 'Avila',
 				'duchy_category' => 'Feudal',
@@ -1299,17 +1299,6 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//114
-			//Alcarria, Guadalajara, Henares, Molina, Serrania
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Guadalajara',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '15',	
-				'law_succession' => 'Salic_Primogeniture',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
-				'altitude' => 'Montane'				
-            ]);
-			//115
 			//Campos, Cerrato, Valdivia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Palencia',
@@ -1320,7 +1309,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//116
+			//115
 			//Cuellar, Segovia, Sepulveda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Segovia',
@@ -1331,7 +1320,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//117
+			//116
 			//Almazan, Berlanga, Gomara, Osma, Soria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Soria',
@@ -1342,8 +1331,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//118
-			//Alcala, Jara, Madrid, Sagra, Talavera, Toledo, Torrijos
+			//117
+			//Jara, Madrid, Ocana, Sagra, Talavera, Toledo, Torrijos, Vegas
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toledo',
 				'duchy_category' => 'Feudal',
@@ -1353,7 +1342,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//119
+			//118
 			//Esgueva, Medina, Pinares, Penafiel, Pisuerga, Rioseco
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valladolid',
@@ -1365,7 +1354,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//Galicia
-			//120
+			//119
 			//Coruna, Ferrol, Santiago
             DB::table('duchies')->insert([
 				'duchy_name' => 'Coruna',
@@ -1376,7 +1365,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//121
+			//120
 			//Lugo, Marina, Meira, Sarria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lugo',
@@ -1387,8 +1376,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//122
-			//Celanova, Ourense, Valdeorras, Viana
+			//121
+			//Carbalino, Celanova, Ourense, Valdeorras, Viana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ourense',
 				'duchy_category' => 'Feudal',
@@ -1398,7 +1387,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//123
+			//122
 			//Caldas, Pontevedra, Vigo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pontevedra',
@@ -1410,7 +1399,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//Leon
-			//124
+			//123
 			//Alcantara, Caceres, Plasencia, Trujillo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Caceres',
@@ -1421,7 +1410,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//125
+			//124
 			//Bierzo, Leon, Sahagun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leon',
@@ -1432,7 +1421,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//126
+			//125
 			//Alba, Caceres, Cantalapiedra, Guijielo, Ledesma, Penaranda, Rodrigo, Salamanca, Vitigudino
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salamanca',
@@ -1443,7 +1432,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//127
+			//126
 			//Aliste, Carballeda, Guarena, Sanabria, Sayago, Tabara
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zamora',
@@ -1455,8 +1444,8 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//Asturias
-			//128
-			//
+			//127
+			//Aviles, Gijon, Navia, Oviedo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asturias',
 				'duchy_category' => 'Feudal',
@@ -1466,8 +1455,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//129
-			//
+			//128
+			//Campoo, Liebana, Santander, Trasmiera
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cantabria',
 				'duchy_category' => 'Feudal',
@@ -1478,7 +1467,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//Portugal
-			//130
+			//129
 			//Aveiro, Braga, Porto, Viana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aveiro',
@@ -1489,7 +1478,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//131
+			//130
 			//Castelo Branco, Coimbra, Guarda, Viseu
             DB::table('duchies')->insert([
 				'duchy_name' => 'Beira',
@@ -1500,7 +1489,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//132
+			//131
 			//Braganca, Vila Real
             DB::table('duchies')->insert([
 				'duchy_name' => 'Braganca',
@@ -1511,7 +1500,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//133
+			//132
 			//Leiria, Lisboa, Ribatejo, Santarem, Setubal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estremadura',
@@ -1524,7 +1513,7 @@ class DuchySeeder extends Seeder
             ]);	
 			//Danelagen
 			//Denmark
-			//134
+			//133
 			//Aarhus, Borglum, Ribe, Slesvig, Viborg
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jutland',
@@ -1535,7 +1524,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//135
+			//134
 			//Blekinge, Bornholm, Halland, Rugen, Scania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Scania',
@@ -1546,7 +1535,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//136
+			//135
 			//Funen, Lolland, Sjaeland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sjaeland',
@@ -1558,7 +1547,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//Norway
-			//137
+			//136
 			//Caithness, Orkney, Shetland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nordjor',
@@ -1569,7 +1558,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//138
+			//137
 			//Islay, Lewis, Mull, Skye, Uist
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sodor',
@@ -1580,7 +1569,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//139
+			//138
 			//Hadeland, Hedmark, Romerike
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hedmark',
@@ -1591,7 +1580,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//140
+			//139
 			//Jamtland, Namdal, Oppland, Trondelag
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oppland',
@@ -1602,7 +1591,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//141
+			//140
 			//Dalane, Haugeland, Jaeren, Rogaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rogaland',
@@ -1613,7 +1602,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//142
+			//141
 			//Agder, Grenland, Telemark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sorland',
@@ -1624,7 +1613,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//143
+			//142
 			//Hordaland, Romsdal, Vestland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vestland',
@@ -1635,7 +1624,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//144
+			//143
 			//Akershus, Buskerud, Ostfold, Ranrike, Vestfold, Vingulmark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Viken',
@@ -1647,7 +1636,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//Sweden
-			//145
+			//144
 			//Gotland, Ostergotland, Vastergotland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gotland',
@@ -1658,7 +1647,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//146
+			//145
 			//Angermanland, Gastrikland, Halsingland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Norrland',
@@ -1669,7 +1658,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//147
+			//146
 			//Aland, Finland, Karelia, Nyland, Ostrobothnia, Satakunta, Savonia, Tavastland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Osterland',
@@ -1680,7 +1669,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//148
+			//147
 			//Oland, Smaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smaland',
@@ -1691,7 +1680,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//149
+			//148
 			//Dalarna, Narke, Sodermanland, Uppland, Varmland, Vastmanland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Svealand',
@@ -1704,7 +1693,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Poland
 			//Poland
-			//150
+			//149
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Greater Poland',
@@ -1715,7 +1704,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//151
+			//150
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lesser Poland',
@@ -1726,7 +1715,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//152
+			//151
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kuyavia',
@@ -1737,7 +1726,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//153
+			//152
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mazovia',
@@ -1770,7 +1759,198 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
+            ]);
+
+			//Cordoba
+			//Andalucia
+			//
+			//Algeciras, Gibraltar
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Algeciras',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Almeria, Baza
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Almeria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Cadiz, Jerez, Sanlucar
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Arcos',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Carmona, Ecija
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Carmona',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Andujar, Carpio, Cordoba, Martos, Pedroche
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Cordoba',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Granada',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Alhama, Antequerra, Loja, Malaga
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Malaga',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Marbella, Ronda
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Ronda',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Aljarafe, Estepa, Sevilla
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Sevilla',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '46',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
             ]);				
-			
+			//Algarves
+			//
+			//Faro, Mertola, Silves
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Algarves',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '47',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Badajoz, Beja, Evora, Guadiana, Llerena, Merida, Olivenza, Portalegre, Serena
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Badajoz',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '47',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Aracena, Huelva, Niebla
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Huelva',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '47',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//Levante
+			//
+			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serranos
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Alpuente',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '48',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Ibiza, Mallorca, Menorca
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Baleares',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '48',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Albacete, Alcaraz, Alcira, Alcoy, Alicante, Almagro, Chinchilla, Cofrentes, Denia, Jativa, Montesa
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Denia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '48',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Cartagena, Cieza, Hellin, Lorca, Murcia, Orihuela, Segura
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Murcia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '48',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Castellon, Morella, Peniscola, San Clemente, Valencia
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Valencia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '48',	
+				'law_succession' => 'Shura',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
     }
 }
