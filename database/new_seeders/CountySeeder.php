@@ -19,7 +19,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Crowned_Republic
 				'de_jure_duchy' => '',			
 				'vernacular_cycle' => '',			//Matter_of_Britain, Carolingian, Byzantine, Rus, Persian, Arab	
-				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Saxon, Silesian, Swabian, 
+				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -51,7 +51,7 @@ class CountySeeder extends Seeder
 			//germany
 			//Austria
 			//1
-			//melk , gottweig , sankt polten
+			//melk, gottweig, sankt polten
             DB::table('counties')->insert([
 				'county_name' => 'Grunsweit',
 				'county_category' => 'Monastic_Order',
@@ -417,7 +417,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//41
-			//coevorden, groningen , ruinen 
+			//coevorden, groningen, ruinen
             DB::table('counties')->insert([
 				'county_name' => 'Drenthe',
 				'county_category' => 'Feudal',
@@ -435,7 +435,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);				
 			//43
-			//emden , leer 
+			//emden, leer
             DB::table('counties')->insert([
 				'county_name' => 'Emsigerland',
 				'county_category' => 'Feudal',
@@ -444,7 +444,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//44
-			//appingedam , winschoten 
+			//appingedam, winschoten 
             DB::table('counties')->insert([
 				'county_name' => 'Fivelgau',
 				'county_category' => 'Crowned_Republic',
@@ -462,7 +462,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//46
-			//dordrecht, gouda 
+			//dordrecht, gouda
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal',
@@ -471,7 +471,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//47
-			//winsum, bedum, selwerd 
+			//winsum, bedum, selwerd
             DB::table('counties')->insert([
 				'county_name' => 'Hunsingau',
 				'county_category' => 'Monastic_Order',
@@ -480,7 +480,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//48
-			//haarlem, alkmaar, amsterdam, edam, purmerstein 
+			//haarlem, alkmaar, amsterdam, edam, purmerstein
             DB::table('counties')->insert([
 				'county_name' => 'Kennemerland',
 				'county_category' => 'Feudal',
@@ -489,7 +489,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);
 			//49
-			//delft, vlaardingen, rotterdam 
+			//delft, vlaardingen, rotterdam
             DB::table('counties')->insert([
 				'county_name' => 'Maasland',
 				'county_category' => 'Crowned_Republic',
@@ -498,7 +498,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);				
 			//50
-			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode 
+			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode
             DB::table('counties')->insert([
 				'county_name' => 'Nifterlake',
 				'county_category' => 'Ecclesiastical',
@@ -624,7 +624,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//64
-			//hoorn, medemblik, enkhuizen 
+			//hoorn, medemblik, enkhuizen
             DB::table('counties')->insert([
 				'county_name' => 'Westflinge',
 				'county_category' => 'Crowned_Republic',
@@ -918,7 +918,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//96
-			//gandersheim, westerhof 
+			//gandersheim, westerhof
             DB::table('counties')->insert([
 				'county_name' => 'Gudingau',
 				'county_category' => 'Feudal',
@@ -1118,7 +1118,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//118
-			//konstanz, sankt gall, lindau, kirchberg 
+			//konstanz, sankt gall, lindau, kirchberg
             DB::table('counties')->insert([
 				'county_name' => 'Turgau',
 				'county_category' => 'Ecclesiastical',
@@ -1240,7 +1240,7 @@ class CountySeeder extends Seeder
 			//arnsberg, soest, warstein
             DB::table('counties')->insert([
 				'county_name' => 'Angerngau',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
@@ -1255,10 +1255,10 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//133
-			//buckeburg, schaumburg, hamelin 
+			//buckeburg, schaumburg, hamelin
             DB::table('counties')->insert([
 				'county_name' => 'Bukkigau',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
@@ -1402,7 +1402,7 @@ class CountySeeder extends Seeder
 			//hagen, attendorn, dortmund, hamm
             DB::table('counties')->insert([
 				'county_name' => 'Westfaliagau',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
@@ -1528,7 +1528,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);			
 			//163
-			//kassel, staufenberg, hersfeld, fritzlar, 
+			//kassel, staufenberg, hersfeld, fritzlar
             DB::table('counties')->insert([
 				'county_name' => 'Hessengau',
 				'county_category' => 'Feudal',
@@ -2030,7 +2030,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//218
-			//trent, appenzell,rofreit
+			//trent, appenzell, rofreit
             DB::table('counties')->insert([
 				'county_name' => 'Trent',
 				'county_category' => 'Ecclesiastical',
@@ -2743,7 +2743,7 @@ class CountySeeder extends Seeder
 			//embrun, risoul
             DB::table('counties')->insert([
 				'county_name' => 'Embrunnais',
-				'county_category' => 'Feudal',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '41',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -2798,7 +2798,7 @@ class CountySeeder extends Seeder
 			//besancon, dole
             DB::table('counties')->insert([
 				'county_name' => 'Amosenais',
-				'county_category' => 'Feudal',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '42',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -2899,7 +2899,7 @@ class CountySeeder extends Seeder
 			//baux, mouries, riez, senez, digne
             DB::table('counties')->insert([
 				'county_name' => 'Baux',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '44',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -2917,7 +2917,7 @@ class CountySeeder extends Seeder
 			//nice, villefranche, escarene, guillaumes, saint etienne, vence, glandeves, grasse, frejus
             DB::table('counties')->insert([
 				'county_name' => 'Nice',
-				'county_category' => 'Feudal',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '44',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -2926,7 +2926,7 @@ class CountySeeder extends Seeder
 			//toulon, ollioules, ollieres
             DB::table('counties')->insert([
 				'county_name' => 'Toulon',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '44',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -2945,7 +2945,7 @@ class CountySeeder extends Seeder
 			//aosta, chatillon
             DB::table('counties')->insert([
 				'county_name' => 'Aosta',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '45',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -2954,7 +2954,7 @@ class CountySeeder extends Seeder
 			//thonon, bons
             DB::table('counties')->insert([
 				'county_name' => 'Chablais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '45',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
@@ -3144,7 +3144,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//339
 			//ascheraden, kokenhusen
@@ -3153,7 +3153,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//340
 			//dorpat, talkhof, wendau, 
@@ -3162,7 +3162,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//341
 			//dunaburg, selburg 
@@ -3171,7 +3171,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//342
 			//fellin, karkus
@@ -3180,7 +3180,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//343
 			//goldingen, talsen, frauenburg, sackenhausen, windau
@@ -3189,7 +3189,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//344
 			//mitau, annenburg, autzenburg
@@ -3198,7 +3198,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//345
 			//lemburg, jurgensburg 
@@ -3207,7 +3207,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//346
 			//wenden, wolmar, lemsal
@@ -3216,7 +3216,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//347
 			//wolkenburg, rositten
@@ -3225,7 +3225,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//Estonia
 			//348
@@ -3235,7 +3235,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '51',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//349
 			//pernau, hapsal, arensburg, soneburg
@@ -3244,7 +3244,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '51',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Livonian'
             ]);
 			//Prussia
 			//350
@@ -3254,7 +3254,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//351
 			//bartenstein, heilsberg, schippenbeil
@@ -3263,7 +3263,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//352
 			//braunsberg, allenstein, bischofsburg, wartenburg
@@ -3272,7 +3272,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//353
 			//memelburg, windenburg, rutzau
@@ -3281,7 +3281,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//354
 			//landeshut, schalauerburg
@@ -3290,7 +3290,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//355
 			//brandenburg, tapiow, wehlau
@@ -3299,7 +3299,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//356
 			//elbing, tolkemitz, muhlhausen
@@ -3308,7 +3308,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//357
 			//konigsberg, insterburg, angerburg, gerdauen
@@ -3317,7 +3317,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '52',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Prussian'
             ]);
 			//Pomerelia
 			//358
@@ -3327,7 +3327,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//359
 			//butow, rummelsburg, damerkow
@@ -3336,7 +3336,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);			
 			//360
 			//dirschau, mewe, neuenburg, 
@@ -3345,7 +3345,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//361
 			//karthaus, zuckau, chmelno
@@ -3354,7 +3354,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//362
 			//kulm, althaus, rehden, graudenz
@@ -3363,7 +3363,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//363
 			//lauenburg, neuendorf, vietzig
@@ -3372,7 +3372,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//364
 			//putzig, krockow, kossakowitz
@@ -3381,7 +3381,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//365
 			//baldenburg, schlochau
@@ -3390,7 +3390,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//366
 			//schwetz, bromberg
@@ -3399,7 +3399,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//367
 			//thorn, birgelau, 
@@ -3408,7 +3408,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//368
 			//tuchel, seehaupten
@@ -3417,7 +3417,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//Pomerania
 			//369
@@ -3427,7 +3427,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//370
 			//arnswalde, bernstein
@@ -3436,7 +3436,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//371
 			//gollnow, massow, stepenitz 
@@ -3445,7 +3445,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//372
 			//greifenhagen, barwalde 
@@ -3454,7 +3454,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//373
 			//greifenberg, treptow 
@@ -3463,7 +3463,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//374
 			//pyritz, warnitz, prillwitz
@@ -3472,7 +3472,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//375
 			//kessin, rostock, stralsund, greifswald, demmin, grimmen
@@ -3481,7 +3481,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//376
 			//kolberg, degow
@@ -3490,7 +3490,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//377
 			//koslin, zanow, bublitz, pollnow
@@ -3499,7 +3499,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//378
 			//neustettin, baldenburg
@@ -3508,7 +3508,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//379
 			//schivelbein, stolzenberg, 
@@ -3517,7 +3517,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//380
 			//slupsk, kublitz, glowitz
@@ -3526,7 +3526,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//381
 			//schlawe, rugenwalde, malchow
@@ -3535,7 +3535,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//382
 			//stettin, predzlow, pasewalk, kolbatz 
@@ -3544,7 +3544,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//383
 			//wolgast, neuenkirchen, buggenhagen, wollin
@@ -3553,7 +3553,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//Brandenburg
 			//384
@@ -3563,7 +3563,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '55',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);	
 			//385
 			//wusterhausen, wittstock
@@ -3572,7 +3572,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '55',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);	
 			//386
 			//perleberg, pritzwalk, wittenberg
@@ -3581,7 +3581,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '55',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);	
 			//387
 			//havelberg, plattenburg
@@ -3590,7 +3590,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '55',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);	
 			//388
 			//berlin, tempelhof, rosenfeld, helwichdorf, kaulsdorf, maltersdorf, biesdorf, morczahn
@@ -3599,7 +3599,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '55',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);			
 			//389
 			//rowenburg, schenkenberg, uckerfeld, templin
@@ -3608,7 +3608,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '55',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//Mecklenburg
 			//390
@@ -3618,7 +3618,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '56',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//391
 			//mecklenburg, wismar
@@ -3627,7 +3627,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '56',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//392
 			//schwerin, ratzeburg
@@ -3636,7 +3636,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '56',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//393
 			//lubeck, oldenburg, segeberg, preetz
@@ -3645,7 +3645,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '56',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Wendish'
             ]);
 			//France
 			//France
@@ -3929,7 +3929,7 @@ class CountySeeder extends Seeder
 			//dax, bayonne, tartas
             DB::table('counties')->insert([
 				'county_name' => 'Dax',
-				'county_category' => 'Feudal',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '62',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4075,7 +4075,7 @@ class CountySeeder extends Seeder
 			//beauvais, goincourt
             DB::table('counties')->insert([
 				'county_name' => 'Beauvaisis',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4084,7 +4084,7 @@ class CountySeeder extends Seeder
 			//beaumont, argenteuil
             DB::table('counties')->insert([
 				'county_name' => 'Beaumont',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4093,7 +4093,7 @@ class CountySeeder extends Seeder
 			//brie, melun, saint fargeau, lagny, yerres
             DB::table('counties')->insert([
 				'county_name' => 'Brie',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4102,7 +4102,7 @@ class CountySeeder extends Seeder
 			//clermont, angicourt, liancourt
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4111,7 +4111,7 @@ class CountySeeder extends Seeder
 			//ferrieres, landon, fontainebleau, ganne
             DB::table('counties')->insert([
 				'county_name' => 'Gatinais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4120,7 +4120,7 @@ class CountySeeder extends Seeder
 			//chatres, corbeil, clamart, dourdan, montlhery, palaiseau, montagu
             DB::table('counties')->insert([
 				'county_name' => 'Hurepoix',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4129,7 +4129,7 @@ class CountySeeder extends Seeder
 			//mantes, rambouillet, beynes, houdan
             DB::table('counties')->insert([
 				'county_name' => 'Mantois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4138,7 +4138,7 @@ class CountySeeder extends Seeder
 			//senlis, compiegne
             DB::table('counties')->insert([
 				'county_name' => 'Senlis',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4156,7 +4156,7 @@ class CountySeeder extends Seeder
 			//vez, oigny
             DB::table('counties')->insert([
 				'county_name' => 'Valois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4165,7 +4165,7 @@ class CountySeeder extends Seeder
 			//saint clair, pontoise
             DB::table('counties')->insert([
 				'county_name' => 'Vexin',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4175,7 +4175,7 @@ class CountySeeder extends Seeder
 			//rouen, harcourt, jumieges, saint saens, meslay, aumonerie, saint philbert, brionne
             DB::table('counties')->insert([
 				'county_name' => 'Roumois',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4184,7 +4184,7 @@ class CountySeeder extends Seeder
 			//alencon, argentan
             DB::table('counties')->insert([
 				'county_name' => 'Alencon',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4193,7 +4193,7 @@ class CountySeeder extends Seeder
 			//avranches, lucerne, subligny
             DB::table('counties')->insert([
 				'county_name' => 'Avranches',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4202,7 +4202,7 @@ class CountySeeder extends Seeder
 			//bayeux, caen, audrieu, mondaye, beaumont, coupesarte, creully
             DB::table('counties')->insert([
 				'county_name' => 'Bayeux',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4211,7 +4211,7 @@ class CountySeeder extends Seeder
 			//fecamp, graville
             DB::table('counties')->insert([
 				'county_name' => 'Caux',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4220,7 +4220,7 @@ class CountySeeder extends Seeder
 			//coutances, cherbourg, hauteville, valognes, saint lo, lessay, vire, chanteloup, gratot, pirou, bricquebec, saint sauveur
             DB::table('counties')->insert([
 				'county_name' => 'Coutances',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4229,7 +4229,7 @@ class CountySeeder extends Seeder
 			//evreux, verneuil, gaillard, gisors, vernon, acquigny, brecourt
             DB::table('counties')->insert([
 				'county_name' => 'Evreux',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4238,7 +4238,7 @@ class CountySeeder extends Seeder
 			//eu, dieppe, aumale, arques
             DB::table('counties')->insert([
 				'county_name' => 'Eu',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4247,7 +4247,7 @@ class CountySeeder extends Seeder
 			//lisieux, falaise, honfleur, saint michel, courcy, crevecoeur
             DB::table('counties')->insert([
 				'county_name' => 'Lisieux',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4256,7 +4256,7 @@ class CountySeeder extends Seeder
 			//mortain, domfront
             DB::table('counties')->insert([
 				'county_name' => 'Mortainais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
@@ -4266,7 +4266,7 @@ class CountySeeder extends Seeder
 			//orleans, fleury, meung, combreux
             DB::table('counties')->insert([
 				'county_name' => 'Orleanais',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4275,7 +4275,7 @@ class CountySeeder extends Seeder
 			//blois, chambord, chaumont, bievre
             DB::table('counties')->insert([
 				'county_name' => 'Blaisois',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4293,7 +4293,7 @@ class CountySeeder extends Seeder
 			//chateaudun, courtalain
             DB::table('counties')->insert([
 				'county_name' => 'Dunois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4302,7 +4302,7 @@ class CountySeeder extends Seeder
 			//dreux, marsalin, nonancourt
             DB::table('counties')->insert([
 				'county_name' => 'Dreux',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4311,7 +4311,7 @@ class CountySeeder extends Seeder
 			//etampes, chalo, mereville
             DB::table('counties')->insert([
 				'county_name' => 'Etampois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4320,7 +4320,7 @@ class CountySeeder extends Seeder
 			//nemours, montargis, moncourt
             DB::table('counties')->insert([
 				'county_name' => 'Nemours',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4330,7 +4330,7 @@ class CountySeeder extends Seeder
 			//arras, saint omer
             DB::table('counties')->insert([
 				'county_name' => 'Artois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Flemish'
@@ -4339,7 +4339,7 @@ class CountySeeder extends Seeder
 			//amiens, flixecourt, picquigny, corbie
             DB::table('counties')->insert([
 				'county_name' => 'Amienois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4348,7 +4348,7 @@ class CountySeeder extends Seeder
 			//boulogne, etaples
             DB::table('counties')->insert([
 				'county_name' => 'Boulenois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4357,7 +4357,7 @@ class CountySeeder extends Seeder
 			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines
             DB::table('counties')->insert([
 				'county_name' => 'Flanders',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Flemish'
@@ -4366,7 +4366,7 @@ class CountySeeder extends Seeder
 			//guines, calais
             DB::table('counties')->insert([
 				'county_name' => 'Guines',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4384,7 +4384,7 @@ class CountySeeder extends Seeder
 			//montreuil, recques, agincourt
             DB::table('counties')->insert([
 				'county_name' => 'Montreuil',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4393,7 +4393,7 @@ class CountySeeder extends Seeder
 			//noyon, sempigny, morlincourt, varesnes, salency
             DB::table('counties')->insert([
 				'county_name' => 'Noyonnais',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4402,7 +4402,7 @@ class CountySeeder extends Seeder
 			//crecy, nouvion, saint ricquier
             DB::table('counties')->insert([
 				'county_name' => 'Ponthieu',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4429,7 +4429,7 @@ class CountySeeder extends Seeder
 			//peronne, saint quentin, bohain, saint martin, retoul
             DB::table('counties')->insert([
 				'county_name' => 'Vermandois',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4439,7 +4439,7 @@ class CountySeeder extends Seeder
 			//poitiers, parthenay, niort, saint junien, touffou, chauvigny, vouille, lusignan
             DB::table('counties')->insert([
 				'county_name' => 'Poitou',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4448,7 +4448,7 @@ class CountySeeder extends Seeder
 			//chatelaillon, mauze, rochelle
             DB::table('counties')->insert([
 				'county_name' => 'Aunis',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4457,7 +4457,7 @@ class CountySeeder extends Seeder
 			//brioux, aubigne, melleran, melle
             DB::table('counties')->insert([
 				'county_name' => 'Briancais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4466,7 +4466,7 @@ class CountySeeder extends Seeder
 			//chatellerault, clairvaux, usseau, saint michel, marigny
             DB::table('counties')->insert([
 				'county_name' => 'Chatellerault',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4475,7 +4475,7 @@ class CountySeeder extends Seeder
 			//gueret, bellac, aubusson, grandmont
             DB::table('counties')->insert([
 				'county_name' => 'Marche',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4484,7 +4484,7 @@ class CountySeeder extends Seeder
 			//thouars, fontenay, montaigu, talmont
             DB::table('counties')->insert([
 				'county_name' => 'Thouarsais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4493,7 +4493,7 @@ class CountySeeder extends Seeder
 			//turenne, brive, tulle, noailhac, collonges, sarlat, beynac, castelnaud
             DB::table('counties')->insert([
 				'county_name' => 'Turenne',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
@@ -4503,7 +4503,7 @@ class CountySeeder extends Seeder
 			//toulouse, lavaur, maure, castelginest, colomiers, montgiscard, brax
             DB::table('counties')->insert([
 				'county_name' => 'Toulouse',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4512,7 +4512,7 @@ class CountySeeder extends Seeder
 			//albi, castelnau, saint jeury
             DB::table('counties')->insert([
 				'county_name' => 'Albi',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4521,7 +4521,7 @@ class CountySeeder extends Seeder
 			//carcasonne, castelnaudary, mirepoix, puylaurens
             DB::table('counties')->insert([
 				'county_name' => 'Carcasonne',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4530,7 +4530,7 @@ class CountySeeder extends Seeder
 			//foix, tarascon, montgrenier
             DB::table('counties')->insert([
 				'county_name' => 'Foix',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4539,7 +4539,7 @@ class CountySeeder extends Seeder
 			//javols, mende, langogne, apcher
             DB::table('counties')->insert([
 				'county_name' => 'Gevaudan',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4548,7 +4548,7 @@ class CountySeeder extends Seeder
 			//melgueil, montpellier, maguelonne
             DB::table('counties')->insert([
 				'county_name' => 'Melgueil',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4557,7 +4557,7 @@ class CountySeeder extends Seeder
 			//millau, melac
             DB::table('counties')->insert([
 				'county_name' => 'Millau',
-				'county_category' => '',
+				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4566,7 +4566,7 @@ class CountySeeder extends Seeder
 			//narbonne, beziers, lodeve, agde
             DB::table('counties')->insert([
 				'county_name' => 'Narbonne',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4575,7 +4575,7 @@ class CountySeeder extends Seeder
 			//nimes, uzes
             DB::table('counties')->insert([
 				'county_name' => 'Nimes',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4584,7 +4584,7 @@ class CountySeeder extends Seeder
 			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets
             DB::table('counties')->insert([
 				'county_name' => 'Quercy',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4593,7 +4593,7 @@ class CountySeeder extends Seeder
 			//rodez, villefranche, saint radegonde, belcastel, bertholene
             DB::table('counties')->insert([
 				'county_name' => 'Rouergue',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
@@ -4613,7 +4613,7 @@ class CountySeeder extends Seeder
 			//quimper, concarneau
             DB::table('counties')->insert([
 				'county_name' => 'Cornouailles',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4622,7 +4622,7 @@ class CountySeeder extends Seeder
 			//ach, saint mathieu, brest
             DB::table('counties')->insert([
 				'county_name' => 'Ach',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4631,7 +4631,7 @@ class CountySeeder extends Seeder
 			//dol, tronchet, combourg, tremeheuc, saint martin, boussac
             DB::table('counties')->insert([
 				'county_name' => 'Dol',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '70',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4640,7 +4640,7 @@ class CountySeeder extends Seeder
 			//saint pol, morlaix, lannion, kerouzere
             DB::table('counties')->insert([
 				'county_name' => 'Leon',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '70',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4649,7 +4649,7 @@ class CountySeeder extends Seeder
 			//rohan, carhaix
             DB::table('counties')->insert([
 				'county_name' => 'Poher',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4658,7 +4658,7 @@ class CountySeeder extends Seeder
 			//vannes, ponthivy
             DB::table('counties')->insert([
 				'county_name' => 'Vannais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4668,7 +4668,7 @@ class CountySeeder extends Seeder
 			//saint brieuc, guingamp, chatelaudren
             DB::table('counties')->insert([
 				'county_name' => 'Penthievre',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '71',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4677,7 +4677,7 @@ class CountySeeder extends Seeder
 			//alet, chateauneuf, saint guinoux
             DB::table('counties')->insert([
 				'county_name' => 'Alet',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '71',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4686,7 +4686,7 @@ class CountySeeder extends Seeder
 			//treguier, lezardrieux, plouguiel
             DB::table('counties')->insert([
 				'county_name' => 'Tregor',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '71',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4696,7 +4696,7 @@ class CountySeeder extends Seeder
 			//pornic, paimboeuf, machecoul
             DB::table('counties')->insert([
 				'county_name' => 'Retz',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '72',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4705,7 +4705,7 @@ class CountySeeder extends Seeder
 			//nantes, guerande
             DB::table('counties')->insert([
 				'county_name' => 'Nantais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '72',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4714,7 +4714,7 @@ class CountySeeder extends Seeder
 			//rennes, fougeres
             DB::table('counties')->insert([
 				'county_name' => 'Rennais',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '72',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
@@ -4722,1518 +4722,2872 @@ class CountySeeder extends Seeder
 			//Britain
 			//Ireland
 			//Connacht
-			//
+			//511
 			//galway, athenry, claregalway, feartagar, kiltartan, hackety, loughrea, tuam, clonfert, dunmore
             DB::table('counties')->insert([
 				'county_name' => 'Galway',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//512
 			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, claremorris, ashford
             DB::table('counties')->insert([
 				'county_name' => 'Mayo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
-			//
+			//513
 			//roscommon, boyle, donamon
             DB::table('counties')->insert([
 				'county_name' => 'Roscommon',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//514
 			//sligo, ballymote, markree, templehouse
             DB::table('counties')->insert([
 				'county_name' => 'Sligo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
 			//Leinster
-			//
+			//515
 			//carlow, ballyloughan, ballymoon, leighlin, leighlinbridge, killerig
             DB::table('counties')->insert([
 				'county_name' => 'Carlow',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//516
 			//kildare, athy, castledermot, moone, barberstown, kilkea, kilteel, maynooth, reeves, rheban, norragh
             DB::table('counties')->insert([
 				'county_name' => 'Kildare',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
-			//
+			//517
 			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard
             DB::table('counties')->insert([
 				'county_name' => 'Kilkenny',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//518
 			//fortleix, cullahill, lea, killeshin, oughaval
             DB::table('counties')->insert([
 				'county_name' => 'Leix',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
-			//
+			//519
 			//clonmel, athassel, nenagh, ardfinnan, loughmoe
             DB::table('counties')->insert([
 				'county_name' => 'Tipperary',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
-			//
+			//520
 			//waterford, lismore, crooke, dungarvan, ardmore, mothel, rincrew
             DB::table('counties')->insert([
 				'county_name' => 'Waterford',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
-			//
+			//521
 			//wexford, carnsore, dunbrody, ferns, selskar, tintern
             DB::table('counties')->insert([
 				'county_name' => 'Wexford',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);
-			//
+			//522
 			//wicklow, kindlestown, baltinglass, glendalough
             DB::table('counties')->insert([
 				'county_name' => 'Wicklow',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
 			//Meath
-			//
+			//523
 			//dublin, clontarf, kinsaley, lusk, castleknock, baldoyle
             DB::table('counties')->insert([
 				'county_name' => 'Dublin',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '75',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//524
 			//longford, ardagh, granard, moydow, rathcline, abbeyshrule
             DB::table('counties')->insert([
 				'county_name' => 'Longford',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '75',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//525
 			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, nugent, clonard
             DB::table('counties')->insert([
 				'county_name' => 'Meath',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '75',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//526
 			//tullamore, blundell, leap, clonmacnoise, gallen, roscrea
             DB::table('counties')->insert([
 				'county_name' => 'Offaly',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '75',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
 			//Munster
-			//
+			//527
 			//ennis, bunratty, kilmihil
             DB::table('counties')->insert([
 				'county_name' => 'Clare',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '76',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//528
 			//cork, bantry, fermoy, castlelyons, mourneabbey, blarney, widenham
             DB::table('counties')->insert([
 				'county_name' => 'Cork',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '76',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
-			//
+			//529
 			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen
             DB::table('counties')->insert([
 				'county_name' => 'Kerry',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '76',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//530
 			//limerick, adare, monasteranenaugh, mungret, askeaton, croom
             DB::table('counties')->insert([
 				'county_name' => 'Limerick',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '76',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);
 			//Ulster
-			//
+			//531
 			//antrim, carra, carrickfergus, dunluce, dunseverick
             DB::table('counties')->insert([
 				'county_name' => 'Antrim',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//532
 			//armagh, killevy, fairview
             DB::table('counties')->insert([
 				'county_name' => 'Armagh',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//533
 			//cavan, cloughoughter, drumlane, kilmore
             DB::table('counties')->insert([
 				'county_name' => 'Cavan',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//534
 			//derry, coleraine, dungiven, magoscain, maghera
             DB::table('counties')->insert([
 				'county_name' => 'Derry',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//535
 			//donegal, carrickabragy, northburgh, rahan
             DB::table('counties')->insert([
 				'county_name' => 'Donegal',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//536
 			//downpatrick, kilkeel, dundrum, clough, killyleagh, sketrick, ardglass
             DB::table('counties')->insert([
 				'county_name' => 'Down',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//537
 			//enniskillen, lisgoole, rossory
             DB::table('counties')->insert([
 				'county_name' => 'Fermanagh',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//538
 			//leitrim, carrick, mohill, fenagh
             DB::table('counties')->insert([
 				'county_name' => 'Leitrim',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//539
 			//louth, dundalk, drogheda, carlingford, monasterboice
             DB::table('counties')->insert([
 				'county_name' => 'Louth',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//540
 			//monaghan, inniskeen, tehellan
             DB::table('counties')->insert([
 				'county_name' => 'Monaghan',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Irish'
             ]);	
-			//
+			//541
 			//omagh, dungannon, ardboe, carrickmore, clogher, donaghedy
             DB::table('counties')->insert([
 				'county_name' => 'Tyrone',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);				
 			//England
 			//East Anglia
-			//
+			//542
 			//norwich, thetford, aylsham, burnham, yarmouth, lynn, walsingham, acre, rising
             DB::table('counties')->insert([
 				'county_name' => 'Norfolk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '78',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//543
 			//ipswich, lowestoft, saint edmunds, dunwich, sudbury, bungay, clare
             DB::table('counties')->insert([
 				'county_name' => 'Suffolk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '78',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
 			//Essex
-			//
+			//544
 			//colchester, chelmsford, hadleigh, hedingham, walden, beeleigh, coggeshall
             DB::table('counties')->insert([
 				'county_name' => 'Essex',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '79',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//545
 			//hertford, berkhamsted, therfield, pirton, saint albans, langley
             DB::table('counties')->insert([
 				'county_name' => 'Hertfordshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '79',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);
-			//
+			//546
 			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, westminster, clerkenwell, twickenham
             DB::table('counties')->insert([
 				'county_name' => 'Middlesex',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '79',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
 			//Hwicce
-			//
+			//547
 			//gloucester, deerhurst, flaxley, tewkesbury, wotton
             DB::table('counties')->insert([
 				'county_name' => 'Gloucestershire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//548
 			//warwick, alcester, merevale, astley, kenilworth, stoneleigh
             DB::table('counties')->insert([
 				'county_name' => 'Warwickshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//549
 			//winchcombe, sudeley, hailes
             DB::table('counties')->insert([
 				'county_name' => 'Winchcombeshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//550
 			//worcester, bordesley, evesham, malvern, pershore
             DB::table('counties')->insert([
 				'county_name' => 'Worcestershire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
 			//Kent
-			//
+			//551
 			//aylesford, ashford, rochester, maidstone, dartford, gravesend
             DB::table('counties')->insert([
 				'county_name' => 'Aylesfordshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '81',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//552
 			//canterbury, chatham, sandwich, dover, leeds
             DB::table('counties')->insert([
 				'county_name' => 'Kent',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '81',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//553
 			//hythe, folkestone
             DB::table('counties')->insert([
 				'county_name' => 'Shepwayshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '81',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);
 			//Lindsey
-			//
+			//554
 			//derby, peveril, haddon, codnor, dale, darley
             DB::table('counties')->insert([
 				'county_name' => 'Derbyshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
-			//
+			//555
 			//leicester, belvoir, croxton, owston, breedon
             DB::table('counties')->insert([
 				'county_name' => 'Leicestershire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//556
 			//lincoln, somerton, alvingham, bardney, boston, bourne, croyland, grimsby, kirkstead, stamford, thornton
             DB::table('counties')->insert([
 				'county_name' => 'Lincolnshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//557
 			//nottingham, newark, rufford, ashfield, mansfield, southwell
             DB::table('counties')->insert([
 				'county_name' => 'Nothinghamshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//558
 			//oakham, uppingham, burley
             DB::table('counties')->insert([
 				'county_name' => 'Rutland',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);				
 			//Mercia
-			//
+			//559
 			//chester, saighton, beeston, halton
             DB::table('counties')->insert([
 				'county_name' => 'Cheshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//560
 			//hereford, goodrich, dore, leominster
             DB::table('counties')->insert([
 				'county_name' => 'Herefordshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//561
 			//shrewsbury, stokesay, whittington, ludlow, bromfield, lilleshall
             DB::table('counties')->insert([
 				'county_name' => 'Shropshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);				
-			//
+			//562
 			//stafford, lichfield, tamworth, croxden, chartley
             DB::table('counties')->insert([
 				'county_name' => 'Staffordshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
 			//Mid Anglia
-			//
+			//563
 			//bedford, elstow, flitwick, tilsworth
             DB::table('counties')->insert([
 				'county_name' => 'Bedfordshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//564
 			//buckingham, bradwell, cublington
             DB::table('counties')->insert([
 				'county_name' => 'Buckinghamshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//565
 			//cambridge, ely, anglesey, chatteris, ramsey, soham, thorney
             DB::table('counties')->insert([
 				'county_name' => 'Cambridgeshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//566
 			//huntingdon, saint ives, saint neots, stilton, tetworth
             DB::table('counties')->insert([
 				'county_name' => 'Huntingdonshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//567
 			//northampton, brixworth, barnwell, rockingham
             DB::table('counties')->insert([
 				'county_name' => 'Northamptonshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//568
 			//oxford, wallingford, dorchester, eynsham, wroxton
             DB::table('counties')->insert([
 				'county_name' => 'Oxfordshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);			
 			//Northumbria
-			//
+			//569
 			//allerton, birkby
             DB::table('counties')->insert([
 				'county_name' => 'Allertonshire',
-				'county_category' => '',
+				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//570
 			//aldborough, ripley, whixley, wetherby, knaresborough
             DB::table('counties')->insert([
 				'county_name' => 'Burghshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//571
 			//carlisle, appleby, saint bees, brougham, kendal, workington, furness
             DB::table('counties')->insert([
 				'county_name' => 'Cumberland',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//572
 			//durham, darlington, barnard, bowes
             DB::table('counties')->insert([
 				'county_name' => 'Durham',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//573
 			//sheffield, ecclesfield, bradfield
             DB::table('counties')->insert([
 				'county_name' => 'Hallamshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//574
 			//hexham, whitley
             DB::table('counties')->insert([
 				'county_name' => 'Hexhamshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//575
 			//howden, asselby
             DB::table('counties')->insert([
 				'county_name' => 'Howdenshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//576
 			//alnwick, bamburgh, lindisfarne
             DB::table('counties')->insert([
 				'county_name' => 'Northumberland',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//577
 			//lancaster, clitheroe, sawley, whalley
             DB::table('counties')->insert([
 				'county_name' => 'Lancashire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//578
 			//richmond, wensley, middleham
             DB::table('counties')->insert([
 				'county_name' => 'Richmondshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//579
 			//york, beverley, bridlington, bolton, coverham, fountains, ripon, selby, whitby, pontefract, helmsley, scarborough
             DB::table('counties')->insert([
 				'county_name' => 'Yorkshire',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '85',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
 			//Sussex
-			//
+			//580
 			//arundel, lyminster, littlehampton
             DB::table('counties')->insert([
 				'county_name' => 'Arundelshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);
-			//
+			//581
 			//bramber, worthing, brighton
             DB::table('counties')->insert([
 				'county_name' => 'Brambershire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//582
 			//chichester, bosham
             DB::table('counties')->insert([
 				'county_name' => 'Chichestershire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//583
 			//lewes, kingston
             DB::table('counties')->insert([
 				'county_name' => 'Leweshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//584
 			//pevensey, hailsham
             DB::table('counties')->insert([
 				'county_name' => 'Pevenshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//585
 			//hastings, bexhill
             DB::table('counties')->insert([
 				'county_name' => 'Sussex',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);				
 			//Wessex
-			//
+			//586
 			//reading, slough, windsor
             DB::table('counties')->insert([
 				'county_name' => 'Berkshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//587
 			//dorchester, abbotsbury, sherborne, wareham, wimborne, corfe
             DB::table('counties')->insert([
 				'county_name' => 'Dorsetshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//588
 			//winchester, southampton
             DB::table('counties')->insert([
 				'county_name' => 'Hampshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//589
 			//somerton, sutton, taunton, bath, bruton, wells
             DB::table('counties')->insert([
 				'county_name' => 'Somersetshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);	
-			//
+			//590
 			//guildford, woking, farnham, wallington, brixton
             DB::table('counties')->insert([
 				'county_name' => 'Surrey',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);		
-			//
+			//591
 			//wilton, trowbridge, sarum, amesbury, easton, malmesbury
             DB::table('counties')->insert([
 				'county_name' => 'Wiltshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'English'
             ]);
 			//Wales
 			//Cornwall
-			//
+			//592
 			//truro, restormel, bodmin, cardinham, launceston, saint german, tintagel, trematon
             DB::table('counties')->insert([
 				'county_name' => 'Cornwall',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '88',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//593
 			//exeter, gidleigh,, lydford, okehampton, axminster, barnstaple, buckfast, buckland, chudleigh, newenham, plymouth, tavistock, totnes
             DB::table('counties')->insert([
 				'county_name' => 'Devonshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '88',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Dyfed
-			//
+			//594
 			//cardigan, aberystwyth, llanbadarn
             DB::table('counties')->insert([
 				'county_name' => 'Cardiganshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '89',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);
-			//
+			//595
 			//carmarthen, carreg, dinefwr, kidwelly, laugharne, llandovery, llansteffan, talley, whitland
             DB::table('counties')->insert([
 				'county_name' => 'Carmarthenshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '89',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//596
 			//pembroke, carew, cilgerran, haverford, manorbier, tenby, saint dogmaels, templeton
             DB::table('counties')->insert([
 				'county_name' => 'Pembrokeshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '89',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);
 			//Gwent
-			//
+			//597
 			//candleston, coity, kenfig, newcastle, cardiff, neath, llantrisant, llandaff, ewenny, penrhys
             DB::table('counties')->insert([
 				'county_name' => 'Glamorganshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '90',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//598
 			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow
             DB::table('counties')->insert([
 				'county_name' => 'Monmouthshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '90',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Gwyned
-			//
+			//599
 			//aberlleiniog, beaumaris, llanfaes, penmon
             DB::table('counties')->insert([
 				'county_name' => 'Anglesey',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//600
 			//caernarfon, conwy, deganwy, dolwyddelan, dolbadarn, harlech, maenan, bangor, cymer
             DB::table('counties')->insert([
 				'county_name' => 'Caernarvonshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//601
 			//denbigh, rhuddlan, ruthin, saint asaph, wrexham
             DB::table('counties')->insert([
 				'county_name' => 'Denbighshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//602
 			//flint, caergwrle, ewloe, hawarden, mold, basingwerk, talacre
             DB::table('counties')->insert([
 				'county_name' => 'Flintshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Powys
-			//
+			//603
 			//brecon, morlais, blaenllynfi, bronllys, crickhowell, tretower
             DB::table('counties')->insert([
 				'county_name' => 'Brecknockshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '92',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);	
-			//
+			//604
 			//montgomery, powis, dolforwyn, llanlugan
             DB::table('counties')->insert([
 				'county_name' => 'Montgomeryshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '92',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);
-			//
+			//605
 			//aberedw, cefnllys, hay
             DB::table('counties')->insert([
 				'county_name' => 'Radnorshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '92',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Welsh'
             ]);			
 			//Scotland
 			//Alba
-			//
+			//606
 			//aberdeen, balmoral, balquhain, cairnbulg, coull, dundarg, fyvie, inverallochy, inverugie, leslie, udny, deer, huntly
             DB::table('counties')->insert([
 				'county_name' => 'Aberdeenshire',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//607
 			//banff, mortlach, doune, keith
             DB::table('counties')->insert([
 				'county_name' => 'Banffshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);
-			//
+			//608
 			//clackmannan, alloa
             DB::table('counties')->insert([
 				'county_name' => 'Clackmannanshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);
-			//
+			//609
 			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline, inchcolm
             DB::table('counties')->insert([
 				'county_name' => 'Fife',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//610
 			//forfar, brechin, arbroath, montrose, dundee, angus
             DB::table('counties')->insert([
 				'county_name' => 'Forfarshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//611
 			//kincardine, banchory, stonehaven
             DB::table('counties')->insert([
 				'county_name' => 'Kincardineshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//612
 			//kinross, cleish, scotlandwell
             DB::table('counties')->insert([
 				'county_name' => 'Kinrossshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//613
 			//perth, dunkeld, elcho, inverquiech, kinclaven, clunie, abernethy, muthill, scone, ruthven
             DB::table('counties')->insert([
 				'county_name' => 'Perthshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
 			//Bernicia
-			//
+			//614
 			//berwick, lauder, thirlestane, duns, coldstream
             DB::table('counties')->insert([
 				'county_name' => 'Berwickshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//615
 			//edinburgh, holyrood, roslyn, arniston, craigmillar, bathgate, strathbrock
             DB::table('counties')->insert([
 				'county_name' => 'Edinburghshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//616
 			//haddington, dunbar, byres, dirleton, innerwick, markle, tantallon, waughton, yester
             DB::table('counties')->insert([
 				'county_name' => 'Haddingtonshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//617
 			//linlithgow, livingston, abercorn, falkirk
             DB::table('counties')->insert([
 				'county_name' => 'Linlithgowshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);		
-			//
+			//618
 			//stirling, dunblane, cambuskenneth, culcreuch, mugodock
             DB::table('counties')->insert([
 				'county_name' => 'Stirlingshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Dalriada
-			//
+			//619
 			//lismore, coeffin, achanduin, saddell, dunadd, ardchattan, ardtonish
             DB::table('counties')->insert([
 				'county_name' => 'Argyll',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '95',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//620
 			//brodick, lamlash
             DB::table('counties')->insert([
 				'county_name' => 'Bute',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '95',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//621
 			//rushen, douglas, peel, ramsey, bemaken, ballaugh, marown, onchan
             DB::table('counties')->insert([
 				'county_name' => 'Mann',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '95',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Fortriu
-			//
+			//622
 			//dingwall, fortrose, ross
             DB::table('counties')->insert([
 				'county_name' => 'Cromartyshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);
-			//
+			//623
 			//elgin, dallas, forres, kinloss, urquhart, duffus
             DB::table('counties')->insert([
 				'county_name' => 'Elginshire',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '96',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//624
 			//inverness, kilmallie, inverlochy, mingarry, applecross, beauly
             DB::table('counties')->insert([
 				'county_name' => 'Invernessshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//625
 			//nairn, rait, cawdor, eren
             DB::table('counties')->insert([
 				'county_name' => 'Nairnshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//626
 			//dornoch, durness, dunrobin, skelbo, skibo, berriedale, aberscross
             DB::table('counties')->insert([
 				'county_name' => 'Sutherland',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);
 			//Galloway
-			//
+			//627
 			//kirkcudbright, annan, buittle, caerloverock, dundrennan
             DB::table('counties')->insert([
 				'county_name' => 'Kirkcudbrightshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '97',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//628
 			//wigtown, whithorn, cruggleton, fearn, glenluce
             DB::table('counties')->insert([
 				'county_name' => 'Wigtownshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '97',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Gododdin
-			//
+			//629
 			//dumfries, auchen, closeburn, lochmaben, robgill, sanquhar, tibbers, dercongal
             DB::table('counties')->insert([
 				'county_name' => 'Dumfriesshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//630
 			//peebles, skirling, mossfennan, traquair
             DB::table('counties')->insert([
 				'county_name' => 'Peeblesshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//631
 			//roxburgh, jedburgh, kelso, dryburgh, melrose, hawick
             DB::table('counties')->insert([
 				'county_name' => 'Roxburghshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//632
 			//selkirk, yarrow, galashiels
             DB::table('counties')->insert([
 				'county_name' => 'Selkirkshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);		
 			//Strathclyde
-			//
+			//633
 			//ayr, largs, busbie, cessnock, crossraguel, barnweill, craigie, gadgirth
             DB::table('counties')->insert([
 				'county_name' => 'Ayrshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '99',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//634
 			//dunbarton, inchmurrin
             DB::table('counties')->insert([
 				'county_name' => 'Dunbartonshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '99',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//635
 			//lanark, glasgow, carstairs, kilbride, rutherglen, crookston
             DB::table('counties')->insert([
 				'county_name' => 'Lanarkshire',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '99',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//
+			//636
 			//paisley, polnoon
             DB::table('counties')->insert([
 				'county_name' => 'Renfrewshire',
-				'county_category' => '',
+				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '99',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Gaelic'
             ]);
 			//Aragon
 			//Aragon
 			//Aragon
-			
+			//637
+			//alcaniz, caspe, cantavieja, codonera, alcorisa
+            DB::table('counties')->insert([
+				'county_name' => 'Aragon',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '100',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//638
+			//monzon, san pedro, fraga
+            DB::table('counties')->insert([
+				'county_name' => 'Cinca',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '100',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//639
+			//valderrobres, valjunquera, arens, lledo, fuentespalda
+            DB::table('counties')->insert([
+				'county_name' => 'Matarrana',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '100',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
 			//Barcelona
-			
-			//Catalonia
-			
+			//640
+			//manresa, cardona, rajadell
+            DB::table('counties')->insert([
+				'county_name' => 'Bages',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//641
+			//barcelona, santa coloma, badalona, castellet
+            DB::table('counties')->insert([
+				'county_name' => 'Barcelona',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//642
+			//berga, baga, san salvador, gironella
+            DB::table('counties')->insert([
+				'county_name' => 'Bergueda',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//643
+			//san feliu, fels, montserrat, san boi, cornella, corbera
+            DB::table('counties')->insert([
+				'county_name' => 'Llobregat',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//644
+			//mataro, cabrils, dosrius, santa florentina
+            DB::table('counties')->insert([
+				'county_name' => 'Maresme',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//645
+			//vic, manlleu, tona, san julian, seva, cabrera
+            DB::table('counties')->insert([
+				'county_name' => 'Osona',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//646
+			//terrassa, bisbal, ripollet, sabadell, san marcial, granollers, franqueses, canoves, roca, ametlla, gallifa
+            DB::table('counties')->insert([
+				'county_name' => 'Valles',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '101',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//Girona
+			//647
+			//puigcerda, llivia
+            DB::table('counties')->insert([
+				'county_name' => 'Cerdanya',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Occitan'
+            ]);
+			//648
+			//castellano, corneilla
+            DB::table('counties')->insert([
+				'county_name' => 'Conflent',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Occitan'
+            ]);
+			//649
+			//emporda, bisbal, san feliu, figueres, peralada, requesens, pubol, quermanco, montgri
+            DB::table('counties')->insert([
+				'county_name' => 'Emporda',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Occitan'
+            ]);
+			//650
+			//girona, salto
+            DB::table('counties')->insert([
+				'county_name' => 'Girones',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//651
+			//rennes, limoux 
+            DB::table('counties')->insert([
+				'county_name' => 'Razes',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Occitan'
+            ]);
+			//652
+			//ripoll, besalu, san joan, camprodon, olot
+            DB::table('counties')->insert([
+				'county_name' => 'Ripolles',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//653
+			//perpignan, elna
+            DB::table('counties')->insert([
+				'county_name' => 'Rosello',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Occitan'
+            ]);
+			//654
+			//santa coloma, lloret, blanes, cassa
+            DB::table('counties')->insert([
+				'county_name' => 'Selva',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '102',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//Huesca
+			//655
+			//huesca, loarre, montearagon
+            DB::table('counties')->insert([
+				'county_name' => 'Huesca',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '103',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//656
+			//jacca, suesa, mianos, san juan
+            DB::table('counties')->insert([
+				'county_name' => 'Jacetania',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '103',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//657
+			//benabarre, graus
+            DB::table('counties')->insert([
+				'county_name' => 'Ribagorza',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '103',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//658
+			//boltana, ainsa
+            DB::table('counties')->insert([
+				'county_name' => 'Sobrarbe',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '103',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//Lleida
+			//659
+			//lleida, besora
+            DB::table('counties')->insert([
+				'county_name' => 'Lleida',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '104',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//660
+			//talarn, eroles
+            DB::table('counties')->insert([
+				'county_name' => 'Pallars',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '104',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//661
+			//urgell, balaguer, mollerusa, tarrega
+            DB::table('counties')->insert([
+				'county_name' => 'Urgell',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '104',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//Tarragona
+			//662
+			//amposta, rapita, alcanar
+            DB::table('counties')->insert([
+				'county_name' => 'Montsia',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '105',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//663
+			//tarragona, poblet
+            DB::table('counties')->insert([
+				'county_name' => 'Tarragona',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '105',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//664
+			//tortosa, alfara
+            DB::table('counties')->insert([
+				'county_name' => 'Tortosa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '105',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//Teruel
+			//665
+			//albarracin, peracense, bezas, manzanera
+            DB::table('counties')->insert([
+				'county_name' => 'Albarracin',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '106',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);	
+			//666
+			//teruel, alfambra
+            DB::table('counties')->insert([
+				'county_name' => 'Teruel',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '106',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//Zaragoza
+			//667
+			//ileuca, moncayo, jargue, isuela
+            DB::table('counties')->insert([
+				'county_name' => 'Aranda',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '107',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//668
+			//calatayud, maluenda, piedra
+            DB::table('counties')->insert([
+				'county_name' => 'Calatayud',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '107',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);
+			//669
+			//zaragoza, tarazona
+            DB::table('counties')->insert([
+				'county_name' => 'Zaragoza',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '107',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Aragonese'
+            ]);						
 			//Navarre
+			//Alava
+			//670
+			//ayala, arceniega, mariaca
+            DB::table('counties')->insert([
+				'county_name' => 'Ayala',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '108',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);	
+			//671
+			//gasteiz, armentia
+            DB::table('counties')->insert([
+				'county_name' => 'Gasteiz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '108',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);	
+			//672
+			//labastida, laguardia, lanciego, san millan, cornago, clavijo, arnedo, leiva
+            DB::table('counties')->insert([
+				'county_name' => 'Rioja',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '108',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//Gipuzcoa
+			//673
+			//san sebastian, astigarraga, zarautz
+            DB::table('counties')->insert([
+				'county_name' => 'Donostialdea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '109',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//674
+			//leitza, leintz
+            DB::table('counties')->insert([
+				'county_name' => 'Leitzaldea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '109',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//675
+			//mungia, butron
+            DB::table('counties')->insert([
+				'county_name' => 'Mungialdea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '109',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//676
+			//tolosa, amasa
+            DB::table('counties')->insert([
+				'county_name' => 'Tolosaldea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '109',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
 			//Navarre
-			
+			//677
+			//estella, viana
+            DB::table('counties')->insert([
+				'county_name' => 'Estella',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '110',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//678
+			//pamplona, orcoyen
+            DB::table('counties')->insert([
+				'county_name' => 'Irunerria',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '110',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//679
+			//sanguesa, xavier, san salvador
+            DB::table('counties')->insert([
+				'county_name' => 'Sanguesa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '110',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);	
+			//680
+			//tafalla, olite
+            DB::table('counties')->insert([
+				'county_name' => 'Tafalla',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '110',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//681
+			//tudela, cascante, tulebras
+            DB::table('counties')->insert([
+				'county_name' => 'Tudela',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '110',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);				
+			//682
+			//ultzama, arre, san miguel
+            DB::table('counties')->insert([
+				'county_name' => 'Ultzamaldea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '110',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//Viscaya
+			//683
+			//bermeo, gernika
+            DB::table('counties')->insert([
+				'county_name' => 'Busturialdea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '111',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
+			//684
+			//bilbao, erandio, santa maria, estao
+            DB::table('counties')->insert([
+				'county_name' => 'Bilbaoldea',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '111',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);	
+			//685
+			//arrigorriaga, berango
+            DB::table('counties')->insert([
+				'county_name' => 'Uribe',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '111',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Navarrese'
+            ]);
 			//Castile
 			//Castile
+			//Avila
+			//
+			//avila
+            DB::table('counties')->insert([
+				'county_name' => 'Avila',
+				'county_category' => '',
+				'de_jure_duchy' => '112',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Morana',
+				'county_category' => '',
+				'de_jure_duchy' => '112',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//Burgos
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Arlanza',
+				'county_category' => '',
+				'de_jure_duchy' => '113',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Bureba',
+				'county_category' => '',
+				'de_jure_duchy' => '113',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//burgos
+            DB::table('counties')->insert([
+				'county_name' => 'Burgos',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '113',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);				
+			//Guadalajara
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Alcarria',
+				'county_category' => '',
+				'de_jure_duchy' => '114',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//guadalajara
+            DB::table('counties')->insert([
+				'county_name' => 'Guadalajara',
+				'county_category' => '',
+				'de_jure_duchy' => '114',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Henares',
+				'county_category' => '',
+				'de_jure_duchy' => '114',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Molina',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '114',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Serrania',
+				'county_category' => '',
+				'de_jure_duchy' => '114',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//Palencia
+			//
+			//palencia, medina
+            DB::table('counties')->insert([
+				'county_name' => 'Campos',
+				'county_category' => '',
+				'de_jure_duchy' => '115',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//palenzuela, astudillo
+            DB::table('counties')->insert([
+				'county_name' => 'Cerrato',
+				'county_category' => '',
+				'de_jure_duchy' => '115',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Valdivia',
+				'county_category' => '',
+				'de_jure_duchy' => '115',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);		
+			//Segovia
+			//
+			//cuellar
+            DB::table('counties')->insert([
+				'county_name' => 'Cuellar',
+				'county_category' => '',
+				'de_jure_duchy' => '116',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//segovia
+            DB::table('counties')->insert([
+				'county_name' => 'Segovia',
+				'county_category' => '',
+				'de_jure_duchy' => '116',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//sepulveda
+            DB::table('counties')->insert([
+				'county_name' => 'Sepulveda',
+				'county_category' => '',
+				'de_jure_duchy' => '116',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//Soria
+			//
+			//almazan
+            DB::table('counties')->insert([
+				'county_name' => 'Almazan',
+				'county_category' => '',
+				'de_jure_duchy' => '117',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//berlanga
+            DB::table('counties')->insert([
+				'county_name' => 'Berlanga',
+				'county_category' => '',
+				'de_jure_duchy' => '117',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Gomara',
+				'county_category' => '',
+				'de_jure_duchy' => '117',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//osma
+            DB::table('counties')->insert([
+				'county_name' => 'Osma',
+				'county_category' => '',
+				'de_jure_duchy' => '117',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//soria
+            DB::table('counties')->insert([
+				'county_name' => 'Soria',
+				'county_category' => '',
+				'de_jure_duchy' => '117',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
 			//Toledo
-			
+			//
+			//alcala
+            DB::table('counties')->insert([
+				'county_name' => 'Alcala',
+				'county_category' => '',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Jara',
+				'county_category' => '',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//madrid
+            DB::table('counties')->insert([
+				'county_name' => 'Madrid',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Sagra',
+				'county_category' => '',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//talavera
+            DB::table('counties')->insert([
+				'county_name' => 'Talavera',
+				'county_category' => '',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//toledo
+            DB::table('counties')->insert([
+				'county_name' => 'Toledo',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Torrijos',
+				'county_category' => '',
+				'de_jure_duchy' => '118',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//Valladolid
+			//
+			//renedo
+            DB::table('counties')->insert([
+				'county_name' => 'Esgueva',
+				'county_category' => '',
+				'de_jure_duchy' => '119',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//medina, tordesillas
+            DB::table('counties')->insert([
+				'county_name' => 'Medina',
+				'county_category' => '',
+				'de_jure_duchy' => '119',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);
+			//
+			//iscar, portillo
+            DB::table('counties')->insert([
+				'county_name' => 'Pinares',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '119',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//penafiel
+            DB::table('counties')->insert([
+				'county_name' => 'Penafiel',
+				'county_category' => '',
+				'de_jure_duchy' => '119',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//valladolid, simancas
+            DB::table('counties')->insert([
+				'county_name' => 'Pisuerga',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '119',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
+			//
+			//rioseco
+            DB::table('counties')->insert([
+				'county_name' => 'Rioseco',
+				'county_category' => '',
+				'de_jure_duchy' => '119',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Castillian'
+            ]);	
 			//Galicia
-			//Galicia
-			
+			//Coruna
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Coruna',
+				'county_category' => '',
+				'de_jure_duchy' => '120',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Ferrol',
+				'county_category' => '',
+				'de_jure_duchy' => '120',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Santiago',
+				'county_category' => '',
+				'de_jure_duchy' => '120',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//Lugo
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Lugo',
+				'county_category' => '',
+				'de_jure_duchy' => '121',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Marina',
+				'county_category' => '',
+				'de_jure_duchy' => '121',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Meira',
+				'county_category' => '',
+				'de_jure_duchy' => '121',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Sarria',
+				'county_category' => '',
+				'de_jure_duchy' => '121',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//Ourense
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Celanova',
+				'county_category' => '',
+				'de_jure_duchy' => '122',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Ourense',
+				'county_category' => '',
+				'de_jure_duchy' => '122',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Valdeorras',
+				'county_category' => '',
+				'de_jure_duchy' => '122',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Viana',
+				'county_category' => '',
+				'de_jure_duchy' => '122',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//Pontevedra
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Caldas',
+				'county_category' => '',
+				'de_jure_duchy' => '123',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Pontevedra',
+				'county_category' => '',
+				'de_jure_duchy' => '123',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Vigo',
+				'county_category' => '',
+				'de_jure_duchy' => '123',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Galician'
+            ]);			
 			//Leon
+			//Caceres
+			//
+			//alcantara
+            DB::table('counties')->insert([
+				'county_name' => 'Alcantara',
+				'county_category' => '',
+				'de_jure_duchy' => '124',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//caceres
+            DB::table('counties')->insert([
+				'county_name' => 'Caceres',
+				'county_category' => '',
+				'de_jure_duchy' => '124',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//plasencia
+            DB::table('counties')->insert([
+				'county_name' => 'Plasencia',
+				'county_category' => '',
+				'de_jure_duchy' => '124',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//trujillo
+            DB::table('counties')->insert([
+				'county_name' => 'Trujillo',
+				'county_category' => '',
+				'de_jure_duchy' => '124',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
 			//Leon
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Bierzo',
+				'county_category' => '',
+				'de_jure_duchy' => '125',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//leon
+            DB::table('counties')->insert([
+				'county_name' => 'Leon',
+				'county_category' => '',
+				'de_jure_duchy' => '125',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//sahagun
+            DB::table('counties')->insert([
+				'county_name' => 'Sahagun',
+				'county_category' => '',
+				'de_jure_duchy' => '125',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);	
+			//Salamanca
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Alba',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Cantalapiedra',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Guijielo',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//ledesma
+            DB::table('counties')->insert([
+				'county_name' => 'Ledesma',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Penaranda',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//rodrigo
+            DB::table('counties')->insert([
+				'county_name' => 'Rodrigo',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//salamanca
+            DB::table('counties')->insert([
+				'county_name' => 'Salamanca',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Vitigudino',
+				'county_category' => '',
+				'de_jure_duchy' => '126',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//Zamora
+			//
+			//zamora
+            DB::table('counties')->insert([
+				'county_name' => 'Aliste',
+				'county_category' => '',
+				'de_jure_duchy' => '127',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//carbajales
+            DB::table('counties')->insert([
+				'county_name' => 'Carballeda',
+				'county_category' => '',
+				'de_jure_duchy' => '127',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Guarena',
+				'county_category' => '',
+				'de_jure_duchy' => '127',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//alcanices
+            DB::table('counties')->insert([
+				'county_name' => 'Sanabria',
+				'county_category' => '',
+				'de_jure_duchy' => '127',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Sayago',
+				'county_category' => '',
+				'de_jure_duchy' => '127',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
+			//
+			//tabara
+            DB::table('counties')->insert([
+				'county_name' => 'Tabara',
+				'county_category' => '',
+				'de_jure_duchy' => '127',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Leonese'
+            ]);
 			//Asturias
-			
+			//Asturias
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '128',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Asturian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '128',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Asturian'
+            ]);	
+			//Cantabria
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '129',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Cantabrian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '129',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Cantabrian'
+            ]);				
 			//Portugal
+			//Aveiro
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Aveiro',
+				'county_category' => '',
+				'de_jure_duchy' => '130',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Braga',
+				'county_category' => '',
+				'de_jure_duchy' => '130',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Porto',
+				'county_category' => '',
+				'de_jure_duchy' => '130',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Viana',
+				'county_category' => '',
+				'de_jure_duchy' => '130',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
 			//Beira
-			
-			//Porto
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Castelo Branco',
+				'county_category' => '',
+				'de_jure_duchy' => '131',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Coimbra',
+				'county_category' => '',
+				'de_jure_duchy' => '131',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Guarda',
+				'county_category' => '',
+				'de_jure_duchy' => '131',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Viseu',
+				'county_category' => '',
+				'de_jure_duchy' => '131',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);				
+			//Braganca
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Braganca',
+				'county_category' => '',
+				'de_jure_duchy' => '132',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Vila Real',
+				'county_category' => '',
+				'de_jure_duchy' => '132',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);	
+			//Estremadura
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Leiria',
+				'county_category' => '',
+				'de_jure_duchy' => '133',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Lisboa',
+				'county_category' => '',
+				'de_jure_duchy' => '133',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Ribatejo',
+				'county_category' => '',
+				'de_jure_duchy' => '133',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Santarem',
+				'county_category' => '',
+				'de_jure_duchy' => '133',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Setubal',
+				'county_category' => '',
+				'de_jure_duchy' => '133',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Portuguese'
+            ]);			
 			//Danelagen
 			//Denmark
 			//Jutland
-			
+			//
+			//aarhus, horsens, essenbaek, randers, alling, vissing, meilgaard, ulstrup
+            DB::table('counties')->insert([
+				'county_name' => 'Aarhus',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '134',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//borglum, saeby, vrejlev, hundslund, dueholm, vestervig, hojen
+            DB::table('counties')->insert([
+				'county_name' => 'Borglum',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '134',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//ribe, seem, kolding, vejle
+            DB::table('counties')->insert([
+				'county_name' => 'Ribe',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '134',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//slesvig, guldholm, flensburg, rude, tonder, logum, haderslev, alsborg, sonderborg
+            DB::table('counties')->insert([
+				'county_name' => 'Slesvig',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '134',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);	
+			//
+			//viborg, aalborg, sebber, vitskol, glenstrup, spottrup
+            DB::table('counties')->insert([
+				'county_name' => 'Viborg',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '134',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);			
 			//Scania
 			//
 			//solvesborg, ronneby
             DB::table('counties')->insert([
 				'county_name' => 'Blekinge',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '135',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Danish'
             ]);	
 			//
+			//gamleborg, ronne, hammershus, aarsdale, nekso, gudhjem, hasle, aakirkeby, sandvig, svaneke
+            DB::table('counties')->insert([
+				'county_name' => 'Bornholm',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '135',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
 			//
+			//falkenberg, varberg, halmstad, laholm, as
             DB::table('counties')->insert([
 				'county_name' => 'Halland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '135',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Danish'
             ]);	
 			//
-			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholm, smedstorp
+			//hiddensee, maschenholt, bergen
+            DB::table('counties')->insert([
+				'county_name' => 'Rugen',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '135',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholm, smedstorp, lund, herrevad, malmohus, borgeby
             DB::table('counties')->insert([
 				'county_name' => 'Scania',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '135',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Danish'
             ]);				
 			//Sjaeland
-			
+			//
+			//odense, assens, dalum, holme, faborg, svendborg, nyborg
+            DB::table('counties')->insert([
+				'county_name' => 'Funen',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '136',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//nakskov, halsted, nysted, nykobing, aalholm
+            DB::table('counties')->insert([
+				'county_name' => 'Lolland',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '136',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//roskilde, koge, selso, vallo 				
+            DB::table('counties')->insert([
+				'county_name' => 'Roskilde',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '136',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);
+			//
+			//kobenhavn, esrum, asserbo, soborg
+            DB::table('counties')->insert([
+				'county_name' => 'Sjaeland',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '136',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);	
+			//
+			//soro, antvorskov, kalundborg, ringsted, naestved, vordingborg
+            DB::table('counties')->insert([
+				'county_name' => 'Soro',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '136',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Danish'
+            ]);			
 			//Norway
 			//Nordjor (Northern Isles)
 			//
 			//wick, halkirk, thurso, sinclair
             DB::table('counties')->insert([
 				'county_name' => 'Caithness',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '137',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Pictish'
             ]);	
 			//
 			//kirkwall, holm, sandwick, eynhallow, birsay
             DB::table('counties')->insert([
 				'county_name' => 'Orkney',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '137',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//tingwall, sandsting, dunrossness, cunningsburgh
             DB::table('counties')->insert([
 				'county_name' => 'Shetland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '137',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//Sodor (Southern Isles)
 			//
 			//dunyvaig, kilchoman, kildalton
             DB::table('counties')->insert([
 				'county_name' => 'Islay',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '138',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Scottish'
             ]);
 			//
 			//stornoway, duneistean, aignish
             DB::table('counties')->insert([
 				'county_name' => 'Lewis',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '138',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//iona, moy, aros, duart
             DB::table('counties')->insert([
 				'county_name' => 'Mull',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Monastic_Order',
+				'de_jure_duchy' => '138',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Scottish'
             ]);
 			//
 			//dunvegan, dunscaith, duntulm, portree, broadford
             DB::table('counties')->insert([
 				'county_name' => 'Skye',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '138',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Scottish'
             ]);	
 			//
 			//calvay, borve
             DB::table('counties')->insert([
 				'county_name' => 'Uist',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '138',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);							
 			//Hedmark (eidsivating)
 			//
 			//granavollen, tingelstad, lunner, ulnes, hedal, lomen, slidre
             DB::table('counties')->insert([
 				'county_name' => 'Hadeland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '139',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//hamar, loten, stange, tingnes, moelv
             DB::table('counties')->insert([
 				'county_name' => 'Hedmark',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '139',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//lillestrom, sorum, lorenskog, raelingen, nes, eidsvoll, ullensaker 
             DB::table('counties')->insert([
 				'county_name' => 'Romerike',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '139',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);
 			//Oppland (frostating)
 			//
 			//are, bodin, gildeskal, mattmar 
             DB::table('counties')->insert([
 				'county_name' => 'Jamtland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '140',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);
 			//
 			//ranem, sakshaug, gangstad, snasa, maere, alstadhaug, stiklestad, orland
             DB::table('counties')->insert([
 				'county_name' => 'Namdal',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '140',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//lillehammer, lom, asnes, follebu, gausdal, ringebu, lena  
             DB::table('counties')->insert([
 				'county_name' => 'Oppland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '140',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//trondheim, lade, orland, stoksund, haltdal, dolmoya, skaun, mebonden, vaernes 
             DB::table('counties')->insert([
 				'county_name' => 'Trondelag',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '140',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);						
 			//Rogaland (gulating)
 			//
 			//egersund, bjerkreim, heskestad 
             DB::table('counties')->insert([
 				'county_name' => 'Dalane',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '141',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//haugesund, avaldsnes, torvestad, akra 
             DB::table('counties')->insert([
 				'county_name' => 'Haugeland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '141',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
-			//tinghaug, stavanger, tjora, njaerheim, ogna, varhaug 
+			//stavanger, tinghaug, tjora, njaerheim, ogna, varhaug 
             DB::table('counties')->insert([
 				'county_name' => 'Jaeren',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '141',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//sauda, jelsa, hjelmeland, fister, ardal, strand, kvitsoy, suldal 
             DB::table('counties')->insert([
 				'county_name' => 'Rogaland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '141',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//Sorland (borgarting)
 			//
 			//vanse, oddernes, mandal, spangereid, vigeland, vigmostad, birkenes, moland, hovag 
             DB::table('counties')->insert([
 				'county_name' => 'Agder',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '142',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//skien, siljan, gjerpen, eidanger 
             DB::table('counties')->insert([
 				'county_name' => 'Grenland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '142',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//eidsborg, bo, kviteseid, sauherad, nesodden, romnes, heddal, flatdal 
             DB::table('counties')->insert([
 				'county_name' => 'Telemark',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '142',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//Vestland (gulating)
 			//
 			//vassas, bronnoy, odda 
             DB::table('counties')->insert([
 				'county_name' => 'Hordaland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '143',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);
 			//
 			//veoya, aheim, borgund, orskog, rodven, vestnes, kvernes, edoya, tingvoll 
             DB::table('counties')->insert([
 				'county_name' => 'Romsdal',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '143',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//
 			//bergen, arstad, lyse, gimmestad
             DB::table('counties')->insert([
 				'county_name' => 'Vestland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '143',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);
 			//Viken (borgarting)
 			//
 			//asker, baerum, haslum 
             DB::table('counties')->insert([
 				'county_name' => 'Akershus',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '144',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//hallingdal, roldal, flesberg, rollag, nore, uvdal, ringerike, hole 
             DB::table('counties')->insert([
 				'county_name' => 'Buskerud',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '144',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//sarpsborg, askim, trogstad 
             DB::table('counties')->insert([
 				'county_name' => 'Ostfold',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '144',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//
 			//kungahalla, marstrand, uddeval, kville, tanum, vettaland, herrestad, bohus 
             DB::table('counties')->insert([
 				'county_name' => 'Ranrike',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '144',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//larvik, borre, tonsberg, skaun 
             DB::table('counties')->insert([
 				'county_name' => 'Vestfold',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '144',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);		
 			//
 			//oslo, vestby, hurum, frogn, nesodden, as, ski, enebakk  
             DB::table('counties')->insert([
 				'county_name' => 'Vingulmark',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '144',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Norwegian'
             ]);			
 			//Sweden
 			//Gotland
@@ -6241,203 +7595,203 @@ class CountySeeder extends Seeder
 			//visby, hemse, vasterhejde, stenkumla, havdhem, kraklingbo, hastnas, roma
             DB::table('counties')->insert([
 				'county_name' => 'Gotland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '145',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//linkoping, norrkoping, soderkoping, vadstena, skanninge, bjalbo, tidersrum, ekenas, vreta
             DB::table('counties')->insert([
 				'county_name' => 'Ostergotland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '145',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//husaby, lacko, falkoping, skara, skovde, bogesund, ale, dalaborg, alvborg
             DB::table('counties')->insert([
 				'county_name' => 'Vastergotland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '145',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);			
 			//Norrland
 			//
 			//gudmund, sjalevads, arnas, anundsjo
             DB::table('counties')->insert([
 				'county_name' => 'Angermanland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '146',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);
 			//
 			//torsaker, gavle, ockelbo
             DB::table('counties')->insert([
 				'county_name' => 'Gastrikland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '146',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);				
 			//
 			//ljusdal, bollnas
             DB::table('counties')->insert([
 				'county_name' => 'Halsingland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '146',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//Osterland
 			//
 			//kastelholm, hammarland
             DB::table('counties')->insert([
 				'county_name' => 'Aland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
-			//stenberga, turku, somero, biskopsborg
+			//turku, stenberga, somero, biskopsborg
             DB::table('counties')->insert([
 				'county_name' => 'Finland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
 			//viborg, kexholm, hamina, kouvola, hollola
             DB::table('counties')->insert([
 				'county_name' => 'Karelia',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
 			//raseborg, koskela, esbo, kerava, hogfors
             DB::table('counties')->insert([
 				'county_name' => 'Nyland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
 			//ouluborg, korsholm
             DB::table('counties')->insert([
 				'county_name' => 'Ostrobothnia',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
 			//kokemaki, vreghdenborg
             DB::table('counties')->insert([
 				'county_name' => 'Satakunta',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
 			//olofsborg, saint michel, nyslott
             DB::table('counties')->insert([
 				'county_name' => 'Savonia',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//
 			//hame, birkala
             DB::table('counties')->insert([
 				'county_name' => 'Tavastland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '147',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Finnish'
             ]);
 			//Smaland
 			//
 			//borgholm, alby, ottenby, halltorp, kopingsvik
             DB::table('counties')->insert([
 				'county_name' => 'Oland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '148',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//kalmar, vastervik, vaxjo, vimmerby, eksjo, ljungby, hulingsryd, hassleby, gamleby
             DB::table('counties')->insert([
 				'county_name' => 'Smaland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '148',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);				
 			//Svealand
 			//
 			//hedemora, avesta
             DB::table('counties')->insert([
 				'county_name' => 'Dalarna',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//strangnas, orebro, riseberga, askersund, kumla, goksholm
             DB::table('counties')->insert([
 				'county_name' => 'Narke',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//stockholm, strangnas, sodertalje, nykoping, torshalla, trosa, djursholm, horningsholm
             DB::table('counties')->insert([
 				'county_name' => 'Sodermanland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//uppsala, osthammar, riksby, stockby, solna, sollentuna, sigtuna, enkoping, alsno, penningby, orbyhus
             DB::table('counties')->insert([
 				'county_name' => 'Uppland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//arvika, gunnarskog, varnums, alvdal
             DB::table('counties')->insert([
 				'county_name' => 'Varmland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);	
 			//
 			//arboga, norberg, skinnsackeberg, lindesberg
             DB::table('counties')->insert([
 				'county_name' => 'Vastmanland',
-				'county_category' => '',
-				'de_jure_duchy' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Swedish'
             ]);				
 			//Poland
 			//Poland
@@ -6447,18 +7801,18 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);				
 			//Lesser Poland
 			//
@@ -6466,18 +7820,18 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '151',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '151',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);				
 			//Kuyavia
 			//
@@ -6485,18 +7839,18 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '152',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '152',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);				
 			//Mazovia
 			//
@@ -6504,18 +7858,18 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Polish'
             ]);				
 			//Lithuania
 			//
@@ -6526,7 +7880,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//
 			//
@@ -6535,7 +7889,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_architecture' => 'Lithuanian'
             ]);				
 
 			
