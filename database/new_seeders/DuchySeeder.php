@@ -1310,7 +1310,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//115
-			//Cuellar, Segovia, Sepulveda
+			//Coca, Segovia, Sepulveda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Segovia',
 				'duchy_category' => 'Feudal',
@@ -1355,7 +1355,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Galicia
 			//119
-			//Coruna, Ferrol, Santiago
+			//Coruna, Eume, Ferrol, Santiago, Trastamara
             DB::table('duchies')->insert([
 				'duchy_name' => 'Coruna',
 				'duchy_category' => 'Feudal',
@@ -1366,7 +1366,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//120
-			//Lugo, Marina, Meira, Sarria
+			//Lugo, Marina, Meira, Sarria, Ulloa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lugo',
 				'duchy_category' => 'Feudal',
@@ -1411,7 +1411,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//124
-			//Bierzo, Leon, Sahagun
+			//Astorga, Baneza, Bierzo, Leon, Sahagun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leon',
 				'duchy_category' => 'Feudal',
