@@ -70,7 +70,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Lowland'				
             ]);
 			//4
-			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Leobental, Murztal, Sanntal
+			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Lavanttal, Leobental, Murztal, Sanntal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carinthia',
 				'duchy_category' => 'Feudal',

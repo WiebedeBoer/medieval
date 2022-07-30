@@ -586,7 +586,7 @@ class KingdomSeeder extends Seeder
             ]);				
 			//Cordoba
 			//Andalucia
-			//Algeciras, Almeria, Carmona, Cordoba, Granada, Malaga, Sevilla 
+			//Algeciras, Almeria, Arcos, Carmona, Cordoba, Granada, Malaga, Ronda, Sevilla 
 			//46
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Andalucia',
@@ -610,7 +610,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Levante
-			//Baleares, Denia, Murcia, Valencia
+			//Alpuente, Baleares, Denia, Murcia, Valencia
 			//48
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Levante',

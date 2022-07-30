@@ -47,8 +47,8 @@ class CountySeeder extends Seeder
             ]);			
 			*/
 			
-			//holy roman empire
-			//germany
+			//Holy Roman Empire
+			//Germany
 			//Austria
 			//1
 			//melk, gottweig, sankt polten
@@ -106,7 +106,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//7
-			//egerburg, nuremberg
+			//egerburg, nuremberg, grafengehaig
             DB::table('counties')->insert([
 				'county_name' => 'Nordgau',
 				'county_category' => 'Crowned_Republic',
@@ -225,7 +225,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//20
-			//steinz, graz
+			//steinz, graz, seckau
             DB::table('counties')->insert([
 				'county_name' => 'Jauntal',
 				'county_category' => 'Feudal',
@@ -234,7 +234,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//21
-			//karlsberg, klagenfurt, velden, sankt veit
+			//karlsberg, klagenfurt, velden, sankt veit, gurk
             DB::table('counties')->insert([
 				'county_name' => 'Kroatengau',
 				'county_category' => 'Feudal',
@@ -243,6 +243,15 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//22
+			//sant paul, sankt andra
+            DB::table('counties')->insert([
+				'county_name' => 'Lavanttal',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '4',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Bavarian'
+            ]);	
+			//23
 			//leoben, sankt stefan
             DB::table('counties')->insert([
 				'county_name' => 'Leobental',
@@ -251,7 +260,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//23
+			//24
 			//kadour, lienz, villach
             DB::table('counties')->insert([
 				'county_name' => 'Lurngau',
@@ -260,7 +269,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//24
+			//25
 			//eppenstein, hohenwang
             DB::table('counties')->insert([
 				'county_name' => 'Murztal',
@@ -269,7 +278,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//25
+			//26
 			//celje, richenburg
             DB::table('counties')->insert([
 				'county_name' => 'Sanntal',
@@ -279,7 +288,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//Carniola
-			//26
+			//27
 			//laibach, zobelsberg
             DB::table('counties')->insert([
 				'county_name' => 'Krainmark',
@@ -288,7 +297,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//27
+			//28
 			//tergeste, parenzo, mitterburg
             DB::table('counties')->insert([
 				'county_name' => 'Histria',
@@ -298,7 +307,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);
 			//Franconia
-			//28
+			//29
 			//fulda, hunfeld, mellrichstadt, ebersburg, henneberg, schweinfurt
             DB::table('counties')->insert([
 				'county_name' => 'Grabfeld',
@@ -307,8 +316,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//29
-			//rotenburg, colmberg
+			//30
+			//rotenburg, colmberg, comburg
             DB::table('counties')->insert([
 				'county_name' => 'Gollachgau',
 				'county_category' => 'Feudal',
@@ -316,7 +325,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//30
+			//31
 			//kitzingen, gerolshofen
             DB::table('counties')->insert([
 				'county_name' => 'Gotzfeld',
@@ -325,7 +334,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//31
+			//32
 			//mosbach, minneburg
             DB::table('counties')->insert([
 				'county_name' => 'Jagstgau',
@@ -334,7 +343,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//32
+			//33
 			//hammelburg, gersfeld
             DB::table('counties')->insert([
 				'county_name' => 'Saalgau',
@@ -343,7 +352,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//33
+			//34
 			//gosheim, kaisersheim
             DB::table('counties')->insert([
 				'county_name' => 'Sualafeld',
@@ -352,7 +361,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//34
+			//35
 			//heilbronn, weinsberg, ellhofen, ohringen
             DB::table('counties')->insert([
 				'county_name' => 'Sulmgau',
@@ -361,7 +370,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//35
+			//36
 			//weikersheim, mergentheim
             DB::table('counties')->insert([
 				'county_name' => 'Taubergau',
@@ -370,7 +379,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//36
+			//37
 			//wurzburg, wertheim, waldsassen
             DB::table('counties')->insert([
 				'county_name' => 'Waldsassengau',
@@ -380,8 +389,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//Frisia
-			//37
-			//oldenburg, rastede
+			//38
+			//oldenburg, rastede, westerstede
             DB::table('counties')->insert([
 				'county_name' => 'Ammergau',
 				'county_category' => 'Feudal',
@@ -389,7 +398,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//38
+			//39
 			//aurich, marienhafe
             DB::table('counties')->insert([
 				'county_name' => 'Auricherland',
@@ -398,7 +407,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//39
+			//40
 			//goes, wissenkerk, hellenburg
             DB::table('counties')->insert([
 				'county_name' => 'Beveland',
@@ -407,7 +416,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//40
+			//41
 			//jouwer, haskerhorn
             DB::table('counties')->insert([
 				'county_name' => 'Bornegau',
@@ -416,7 +425,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//41
+			//42
 			//coevorden, groningen, ruinen
             DB::table('counties')->insert([
 				'county_name' => 'Drenthe',
@@ -425,7 +434,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//42
+			//43
 			//meldorf, hemmingstedt, wohrden
             DB::table('counties')->insert([
 				'county_name' => 'Dithmarschen',
@@ -434,7 +443,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);				
-			//43
+			//44
 			//emden, leer
             DB::table('counties')->insert([
 				'county_name' => 'Emsigerland',
@@ -443,7 +452,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//44
+			//45
 			//appingedam, winschoten 
             DB::table('counties')->insert([
 				'county_name' => 'Fivelgau',
@@ -452,7 +461,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//45
+			//46
 			//otterndorf, ritzebuttel 
             DB::table('counties')->insert([
 				'county_name' => 'Hadeln',
@@ -461,7 +470,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//46
+			//47
 			//dordrecht, gouda
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
@@ -470,7 +479,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//47
+			//48
 			//winsum, bedum, selwerd
             DB::table('counties')->insert([
 				'county_name' => 'Hunsingau',
@@ -479,7 +488,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//48
+			//49
 			//haarlem, alkmaar, amsterdam, edam, purmerstein
             DB::table('counties')->insert([
 				'county_name' => 'Kennemerland',
@@ -488,7 +497,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);
-			//49
+			//50
 			//delft, vlaardingen, rotterdam
             DB::table('counties')->insert([
 				'county_name' => 'Maasland',
@@ -497,7 +506,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);				
-			//50
+			//51
 			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode
             DB::table('counties')->insert([
 				'county_name' => 'Nifterlake',
@@ -506,7 +515,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//51
+			//52
 			//norden, berum, jever
             DB::table('counties')->insert([
 				'county_name' => 'Norderland',
@@ -515,7 +524,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//52
+			//53
 			//ostringfeld, reepsholt, kniphausen
             DB::table('counties')->insert([
 				'county_name' => 'Ostringen',
@@ -524,7 +533,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//53
+			//54
 			//dockum, nyenhove, klaarkamp
             DB::table('counties')->insert([
 				'county_name' => 'Oostergau',
@@ -533,7 +542,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//54
+			//55
 			//leithen, wassenaar, cronestein
             DB::table('counties')->insert([
 				'county_name' => 'Rhineland',
@@ -542,7 +551,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//55
+			//56
 			//nordenham, rodekirchen, langwarden
             DB::table('counties')->insert([
 				'county_name' => 'Rustringen',
@@ -551,7 +560,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//56
+			//57
 			//zwolle, kampen, hasselt, waardenborg
             DB::table('counties')->insert([
 				'county_name' => 'Salland',
@@ -560,7 +569,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//57
+			//58
 			//starum, sloten
             DB::table('counties')->insert([
 				'county_name' => 'Sudergau',
@@ -569,7 +578,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);
-			//58
+			//59
 			//tiel, buren, arkel, heusden, vianen, loevestein, almkerk
             DB::table('counties')->insert([
 				'county_name' => 'Teisterbant',
@@ -578,7 +587,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//59
+			//60
 			//oldenzaal, enschede, almelo
             DB::table('counties')->insert([
 				'county_name' => 'Twente',
@@ -587,7 +596,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//60
+			//61
 			//elburg, harderwick, barnefeld, scherpenzeel
             DB::table('counties')->insert([
 				'county_name' => 'Veluwe',
@@ -596,7 +605,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//61
+			//62
 			//vollenhove, kuinre, steenwick
             DB::table('counties')->insert([
 				'county_name' => 'Vollenhove',
@@ -605,7 +614,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//62
+			//63
 			//flissinghe, serooskerke, middelburg
             DB::table('counties')->insert([
 				'county_name' => 'Walcheren',
@@ -614,7 +623,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//63
+			//64
 			//froonacker, bolsward, drylts, hylpen, snits, harns
             DB::table('counties')->insert([
 				'county_name' => 'Westergau',
@@ -623,7 +632,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//64
+			//65
 			//hoorn, medemblik, enkhuizen
             DB::table('counties')->insert([
 				'county_name' => 'Westflinge',
@@ -632,7 +641,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
-			//65
+			//66
 			//sieversham, midlum, bederkesa, diepholt, weddewarden
             DB::table('counties')->insert([
 				'county_name' => 'Wursten',
@@ -642,7 +651,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian'
             ]);				
 			//Guelders
-			//66
+			//67
 			//guelders, xanten, gennep, walbeck
             DB::table('counties')->insert([
 				'county_name' => 'Hettergau',
@@ -651,7 +660,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//67
+			//68
 			//nymegen, arnhem, doornenburg, batenburg, appeltern
             DB::table('counties')->insert([
 				'county_name' => 'Betuwe',
@@ -660,7 +669,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//68
+			//69
 			//cleves, kranenburg
             DB::table('counties')->insert([
 				'county_name' => 'Cleveland',
@@ -669,7 +678,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//69
+			//70
 			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst
             DB::table('counties')->insert([
 				'county_name' => 'Hamaland',
@@ -678,7 +687,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//70
+			//71
 			//tegelen, venlo, straelen
             DB::table('counties')->insert([
 				'county_name' => 'Mulgau',
@@ -687,7 +696,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
-			//71
+			//72
 			//duisburg, moers
             DB::table('counties')->insert([
 				'county_name' => 'Ruhrgau',
@@ -697,8 +706,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Julich
-			//72
-			//julich, duren
+			//73
+			//julich, duren, aachen, burtscheid, kornelimunster
             DB::table('counties')->insert([
 				'county_name' => 'Julichgau',
 				'county_category' => 'Feudal',
@@ -706,8 +715,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//73
-			//kasselburg, gerolstein
+			//74
+			//kasselburg, gerolstein, kaufungen
             DB::table('counties')->insert([
 				'county_name' => 'Eifelgau',
 				'county_category' => 'Feudal',
@@ -715,7 +724,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//74
+			//75
 			//zulpich, hallenburg
             DB::table('counties')->insert([
 				'county_name' => 'Zulpichgau',
@@ -725,7 +734,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Limburg
-			//75
+			//76
 			//limburg, liege
             DB::table('counties')->insert([
 				'county_name' => 'Luttichgau',
@@ -734,7 +743,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//76
+			//77
 			//stavelot, malmedy, wiltz, bouillon
             DB::table('counties')->insert([
 				'county_name' => 'Ardennengau',
@@ -743,7 +752,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//77
+			//78
 			//dinant, huy
             DB::table('counties')->insert([
 				'county_name' => 'Condrustgau',
@@ -752,7 +761,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//78
+			//79
 			//namur, florennes
             DB::table('counties')->insert([
 				'county_name' => 'Lommegau',
@@ -761,8 +770,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);			
-			//79
-			//maastricht, valkenburg
+			//80
+			//maastricht, valkenburg, thorn
             DB::table('counties')->insert([
 				'county_name' => 'Maasgau',
 				'county_category' => 'Feudal',
@@ -771,7 +780,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Lorraine
-			//80
+			//81
 			//metz, roncourt, semecourt
             DB::table('counties')->insert([
 				'county_name' => 'Metzgau',
@@ -780,7 +789,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//81
+			//82
 			//bitche, zweibrucken, homburg
             DB::table('counties')->insert([
 				'county_name' => 'Bleisgau',
@@ -789,7 +798,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//82
+			//83
 			//luneville, epinal, fontenoy, remiremont
             DB::table('counties')->insert([
 				'county_name' => 'Chaumontois',
@@ -798,7 +807,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//83
+			//84
 			//sarrebourg, saarbrucken
             DB::table('counties')->insert([
 				'county_name' => 'Saargau',
@@ -807,7 +816,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//84
+			//85
 			//weich, dieuze, salins
             DB::table('counties')->insert([
 				'county_name' => 'Salingau',
@@ -816,7 +825,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//85
+			//86
 			//neufchateau, sandaucourt
             DB::table('counties')->insert([
 				'county_name' => 'Soulossois',
@@ -825,7 +834,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//86
+			//87
 			//toul, ochey
             DB::table('counties')->insert([
 				'county_name' => 'Toullois',
@@ -835,7 +844,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Luxembourg
-			//87
+			//88
 			//luxembourg, bettembourg
             DB::table('counties')->insert([
 				'county_name' => 'Methingau',
@@ -844,7 +853,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//88
+			//89
 			//barrois, ligny
             DB::table('counties')->insert([
 				'county_name' => 'Barrois',
@@ -853,7 +862,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//89
+			//90
 			//sedan, mouzon
             DB::table('counties')->insert([
 				'county_name' => 'Moselgau',
@@ -862,7 +871,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//90
+			//91
 			//verdun, recicourt
             DB::table('counties')->insert([
 				'county_name' => 'Verdungau',
@@ -871,7 +880,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//91
+			//92
 			//longwy, arlon, thionville, chiny
             DB::table('counties')->insert([
 				'county_name' => 'Wavergau',
@@ -881,7 +890,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//Saxony
-			//92
+			//93
 			//luneburg, bardowick, emmendorf
             DB::table('counties')->insert([
 				'county_name' => 'Bardengau',
@@ -890,7 +899,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//93
+			//94
 			//brunswick, hebesheim, haldensleben, supplinburg
             DB::table('counties')->insert([
 				'county_name' => 'Derlingau',
@@ -899,7 +908,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//94
+			//95
 			//hildesheim, poppenburg
             DB::table('counties')->insert([
 				'county_name' => 'Eastfalagau',
@@ -908,7 +917,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//95
+			//96
 			//celle, hanover
             DB::table('counties')->insert([
 				'county_name' => 'Gretingau',
@@ -917,7 +926,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//96
+			//97
 			//gandersheim, westerhof
             DB::table('counties')->insert([
 				'county_name' => 'Gudingau',
@@ -926,7 +935,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//97
+			//98
 			//duderstadt, pohlde
             DB::table('counties')->insert([
 				'county_name' => 'Harzgau',
@@ -935,8 +944,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//98
-			//goslar, harzburg, osterode, herzberg
+			//99
+			//goslar, harzburg, osterode, herzberg, walkenried
             DB::table('counties')->insert([
 				'county_name' => 'Wenzengau',
 				'county_category' => 'Feudal',
@@ -945,8 +954,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//Styria
-			//99
-			//linz, wels, styraburg
+			//100
+			//linz, wels, styraburg, kremsmunster
             DB::table('counties')->insert([
 				'county_name' => 'Traungau',
 				'county_category' => 'Feudal',
@@ -954,7 +963,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//100
+			//101
 			//sankt george, sankt margarethen
             DB::table('counties')->insert([
 				'county_name' => 'Attergau',
@@ -963,8 +972,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);			
-			//101
-			//innsbruck, kufstein
+			//102
+			//innsbruck, kufstein, admont
             DB::table('counties')->insert([
 				'county_name' => 'Ennstal',
 				'county_category' => 'Feudal',
@@ -972,7 +981,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//102
+			//103
 			//mattighofen, fraunhofen
             DB::table('counties')->insert([
 				'county_name' => 'Mattiggau',
@@ -981,7 +990,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);				
-			//103
+			//104
 			//brixen, bolzano, merano
             DB::table('counties')->insert([
 				'county_name' => 'Norital',
@@ -990,7 +999,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//104
+			//105
 			//sankt moritz, schlandersberg
             DB::table('counties')->insert([
 				'county_name' => 'Vinschgau',
@@ -1000,8 +1009,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//Swabia
-			//105
-			//ortenberg, offenburg, gengenbach, baden
+			//106
+			//ortenberg, offenburg, gengenbach, schuttern, baden
             DB::table('counties')->insert([
 				'county_name' => 'Ortengau',
 				'county_category' => 'Feudal',
@@ -1009,7 +1018,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//106
+			//107
 			//kempten, sulzberg
             DB::table('counties')->insert([
 				'county_name' => 'Albegau',
@@ -1018,8 +1027,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//107
-			//augsburg, wettenhausen, wittelsbach
+			//108
+			//augsburg, wettenhausen, wittelsbach, memmingen, buxheim
             DB::table('counties')->insert([
 				'county_name' => 'Augstgau',
 				'county_category' => 'Ecclesiastical',
@@ -1027,8 +1036,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//108
-			//freiburg, zahringen, basel, roggenburg
+			//109
+			//freiburg, zahringen, basel, roggenburg, muttenz
             DB::table('counties')->insert([
 				'county_name' => 'Breisgau',
 				'county_category' => 'Ecclesiastical',
@@ -1036,7 +1045,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);
-			//109
+			//110
 			//chur, disentis, feldkirchen, bludenz, sankt george
             DB::table('counties')->insert([
 				'county_name' => 'Churgau',
@@ -1045,7 +1054,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);
-			//110
+			//111
 			//singen, verenahof
             DB::table('counties')->insert([
 				'county_name' => 'Hegau',
@@ -1054,8 +1063,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);			
-			//111
-			//ravensburg, weingarten, salem
+			//112
+			//ravensburg, weingarten, salem, baindt
             DB::table('counties')->insert([
 				'county_name' => 'Linzgau',
 				'county_category' => 'Feudal',
@@ -1063,7 +1072,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//112
+			//113
 			//greifenstein, tubingen, reutlingen, rottenburg
             DB::table('counties')->insert([
 				'county_name' => 'Neckargau',
@@ -1072,7 +1081,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//113
+			//114
 			//strassburg, hohenburg
             DB::table('counties')->insert([
 				'county_name' => 'Nordgau',
@@ -1081,7 +1090,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//114
+			//115
 			//nordlingen, ellwangen
             DB::table('counties')->insert([
 				'county_name' => 'Riesgau',
@@ -1090,8 +1099,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//115
-			//hohenzollern, falkenstein, ulm, hohenstaufen
+			//116
+			//hohenzollern, falkenstein, ulm, hohenstaufen, biberach, buchau, gutenzell, marchtal
             DB::table('counties')->insert([
 				'county_name' => 'Schwerzgau',
 				'county_category' => 'Feudal',
@@ -1099,7 +1108,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//116
+			//117
 			//einsiedeln, lenzburg
             DB::table('counties')->insert([
 				'county_name' => 'Schwyzgau',
@@ -1108,8 +1117,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//117
-			//mulhausen, kolmar
+			//118
+			//mulhausen, kolmar, murbach
             DB::table('counties')->insert([
 				'county_name' => 'Sundgau',
 				'county_category' => 'Feudal',
@@ -1117,8 +1126,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//118
-			//konstanz, sankt gall, lindau, kirchberg
+			//119
+			//konstanz, sankt gall, lindau, kirchberg, kreuzlingen, reichenau, engelberg
             DB::table('counties')->insert([
 				'county_name' => 'Turgau',
 				'county_category' => 'Ecclesiastical',
@@ -1126,7 +1135,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//119
+			//120
 			//zurich, winterthur, kyburg
             DB::table('counties')->insert([
 				'county_name' => 'Zurichgau',
@@ -1136,7 +1145,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian'
             ]);
 			//Thuringia
-			//120
+			//121
 			//erfurt, weimar
             DB::table('counties')->insert([
 				'county_name' => 'Thuringgau',
@@ -1145,7 +1154,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//121
+			//122
 			//gruessen, runneburg
             DB::table('counties')->insert([
 				'county_name' => 'Altgau',
@@ -1154,7 +1163,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//122
+			//123
 			//muhlhausen, anrode
             DB::table('counties')->insert([
 				'county_name' => 'Eichsfeld',
@@ -1163,7 +1172,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//123
+			//124
 			//nordhausen, ebersburg
             DB::table('counties')->insert([
 				'county_name' => 'Helmegau',
@@ -1172,7 +1181,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//124
+			//125
 			//arnstadt, liebenstein
             DB::table('counties')->insert([
 				'county_name' => 'Langwitzgau',
@@ -1181,7 +1190,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//125
+			//126
 			//sondershausen, frankenhausen
             DB::table('counties')->insert([
 				'county_name' => 'Nabelgau',
@@ -1190,7 +1199,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//126
+			//127
 			//rudolstadt, greifenstein, saalfeld, leutenberg
             DB::table('counties')->insert([
 				'county_name' => 'Orlagau',
@@ -1199,7 +1208,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//127
+			//128
 			//naumburg, altenburg, moritzburg, gera, ronneburg
             DB::table('counties')->insert([
 				'county_name' => 'Ostergau',
@@ -1208,7 +1217,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//128
+			//129
 			//zwickau, plauen
             DB::table('counties')->insert([
 				'county_name' => 'Zwickaugau',
@@ -1218,7 +1227,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//Bremen
-			//129
+			//130
 			//bremen, delmenhorst, hoya
             DB::table('counties')->insert([
 				'county_name' => 'Largau',
@@ -1227,7 +1236,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//130
+			//131
 			//meppen, lingen, papenburg
             DB::table('counties')->insert([
 				'county_name' => 'Agradingau',
@@ -1236,7 +1245,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//131
+			//132
 			//arnsberg, soest, warstein
             DB::table('counties')->insert([
 				'county_name' => 'Angerngau',
@@ -1245,7 +1254,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//132
+			//133
 			//corvey, hoxter
             DB::table('counties')->insert([
 				'county_name' => 'Augau',
@@ -1254,7 +1263,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//133
+			//134
 			//buckeburg, schaumburg, hamelin
             DB::table('counties')->insert([
 				'county_name' => 'Bukkigau',
@@ -1263,7 +1272,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//134
+			//135
 			//bentheim, dinkelrode, marienrode, wietmarschen, salzbergen, elbergen
             DB::table('counties')->insert([
 				'county_name' => 'Bursibant',
@@ -1272,7 +1281,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//135
+			//136
 			//minden, petershagen, schlusselburg
             DB::table('counties')->insert([
 				'county_name' => 'Dervegau',
@@ -1281,7 +1290,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//136
+			//137
 			//lippstadt, greven, lunen
             DB::table('counties')->insert([
 				'county_name' => 'Dreingau',
@@ -1290,7 +1299,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
-			//137
+			//138
 			//osnabruck, yburg, marienfeld
             DB::table('counties')->insert([
 				'county_name' => 'Gronegau',
@@ -1299,7 +1308,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//138
+			//139
 			//tecklenburg, scapheim, cloppenburg
             DB::table('counties')->insert([
 				'county_name' => 'Hasegau',
@@ -1308,7 +1317,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
-			//139
+			//140
 			//stade, horneburg, harburg
             DB::table('counties')->insert([
 				'county_name' => 'Heilangau',
@@ -1317,7 +1326,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//140
+			//141
 			//niemunster, rendsburg, reinfeld
             DB::table('counties')->insert([
 				'county_name' => 'Holsteingau',
@@ -1326,7 +1335,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//141
+			//142
 			//gottingen, nienburg
             DB::table('counties')->insert([
 				'county_name' => 'Leinegau',
@@ -1335,7 +1344,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//142
+			//143
 			//buxtehude, jesteburg
             DB::table('counties')->insert([
 				'county_name' => 'Mosidegau',
@@ -1344,7 +1353,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//143
+			//144
 			//paderborn, salzkotten, wewer
             DB::table('counties')->insert([
 				'county_name' => 'Padergau',
@@ -1353,7 +1362,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
-			//144
+			//145
 			//ludinghausen, asbeck, coesfeld, darfeld, appelhulsen
             DB::table('counties')->insert([
 				'county_name' => 'Stevergau',
@@ -1362,7 +1371,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
-			//145
+			//146
 			//hamburg, ahrensburg
             DB::table('counties')->insert([
 				'county_name' => 'Stormarngau',
@@ -1371,7 +1380,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
-			//146
+			//147
 			//verden, rotenburg
             DB::table('counties')->insert([
 				'county_name' => 'Sturmigau',
@@ -1380,7 +1389,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);						
-			//147
+			//148
 			//munster, warendorf, gelsenkirchen
             DB::table('counties')->insert([
 				'county_name' => 'Sudergau',
@@ -1389,7 +1398,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
-			//148
+			//149
 			//ravensberg, sparrenberg, limberg, herford
             DB::table('counties')->insert([
 				'county_name' => 'Werregau',
@@ -1398,8 +1407,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
-			//149
-			//hagen, attendorn, dortmund, hamm
+			//150
+			//hagen, attendorn, dortmund, hamm, essen
             DB::table('counties')->insert([
 				'county_name' => 'Westfaliagau',
 				'county_category' => 'Feudal',
@@ -1408,7 +1417,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);						
 			//Cologne
-			//150
+			//151
 			//cologne, friesheim, rondorf, palmersdorf, junkersdorf
             DB::table('counties')->insert([
 				'county_name' => 'Gillgau',
@@ -1417,7 +1426,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//151
+			//152
 			//siegburg, rennenburg, blankenberg
             DB::table('counties')->insert([
 				'county_name' => 'Auelgau',
@@ -1426,7 +1435,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//152
+			//153
 			//bonn, remagen
             DB::table('counties')->insert([
 				'county_name' => 'Bonngau',
@@ -1435,7 +1444,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//153
+			//154
 			//deutz, altenberg 
             DB::table('counties')->insert([
 				'county_name' => 'Deutzgau',
@@ -1445,7 +1454,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Magdeburg
-			//154
+			//155
 			//magdeburg, haldesleben, oschersleben, unseburg, calbe
             DB::table('counties')->insert([
 				'county_name' => 'Nordthuringgau',
@@ -1454,7 +1463,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//155
+			//156
 			//stendal, osterburg
             DB::table('counties')->insert([
 				'county_name' => 'Balsamgau',
@@ -1463,7 +1472,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);			
-			//156
+			//157
 			//erdeborn, alberstedt
             DB::table('counties')->insert([
 				'county_name' => 'Friesenfeld',
@@ -1472,8 +1481,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//157
-			//halberstadt, quedlinburg
+			//158
+			//halberstadt, quedlinburg, gernrode
             DB::table('counties')->insert([
 				'county_name' => 'Hartingau',
 				'county_category' => 'Crowned_Republic',
@@ -1481,7 +1490,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//158
+			//159
 			//merseburg, halle, wettin
             DB::table('counties')->insert([
 				'county_name' => 'Hassegau',
@@ -1490,7 +1499,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//159
+			//160
 			//seehausen, salzwedel
             DB::table('counties')->insert([
 				'county_name' => 'Osterwalde',
@@ -1499,7 +1508,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Saxon'
             ]);
-			//160
+			//161
 			//bernburg, ninenburg, ascherleben, hadmersleben, ballenstedt
             DB::table('counties')->insert([
 				'county_name' => 'Schwabengau',
@@ -1509,8 +1518,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//Mainz
-			//161
-			//maiz, worms, oppenheim, hammerstein
+			//162
+			//maiz, worms, oppenheim, lorsch
             DB::table('counties')->insert([
 				'county_name' => 'Wormsfeld',
 				'county_category' => 'Ecclesiastical',
@@ -1518,7 +1527,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//162
+			//163
 			//hammerstein, logenstein
             DB::table('counties')->insert([
 				'county_name' => 'Engersgau',
@@ -1527,7 +1536,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);			
-			//163
+			//164
 			//kassel, staufenberg, hersfeld, fritzlar
             DB::table('counties')->insert([
 				'county_name' => 'Hessengau',
@@ -1536,7 +1545,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//164
+			//165
 			//limburg, marburg, weilburg, wetzlar
             DB::table('counties')->insert([
 				'county_name' => 'Lahngau',
@@ -1545,7 +1554,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//165
+			//166
 			//mannheim, heidelberg
             DB::table('counties')->insert([
 				'county_name' => 'Lobdengau',
@@ -1554,7 +1563,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//166
+			//167
 			//afschaffenburg, seligenstadt
             DB::table('counties')->insert([
 				'county_name' => 'Maingau',
@@ -1563,7 +1572,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);
-			//167
+			//168
 			//ingelheim, spiesheim, saulheim, flonheim
             DB::table('counties')->insert([
 				'county_name' => 'Nahegau',
@@ -1572,7 +1581,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//168
+			//169
 			//nidda, warnsberg
             DB::table('counties')->insert([
 				'county_name' => 'Niddagau',
@@ -1581,8 +1590,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//169
-			//speyer, dudenhofen, wissembourg
+			//170
+			//speyer, dudenhofen, wissembourg, klingenmunster
             DB::table('counties')->insert([
 				'county_name' => 'Speyergau',
 				'county_category' => 'Ecclesiastical',
@@ -1590,7 +1599,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//170
+			//171
 			//sankt leon, brettenheim
             DB::table('counties')->insert([
 				'county_name' => 'Ufgau',
@@ -1599,7 +1608,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
-			//171
+			//172
 			//frankfurt, homburg, kransberg, falkenstein
             DB::table('counties')->insert([
 				'county_name' => 'Wettergau',
@@ -1608,7 +1617,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//172
+			//173
 			//pforzheim, liebeneck
             DB::table('counties')->insert([
 				'county_name' => 'Wurmgau',
@@ -1618,7 +1627,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian'
             ]);				
 			//Salzburg
-			//173
+			//174
 			//salzburg, berchtesgaden
             DB::table('counties')->insert([
 				'county_name' => 'Salzburggau',
@@ -1627,8 +1636,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);
-			//174
-			//falkenstein, traunstein, baumburg, rosenheim
+			//175
+			//falkenstein, traunstein, baumburg, rosenheim, chiemsee
             DB::table('counties')->insert([
 				'county_name' => 'Chiemgau',
 				'county_category' => 'Feudal',
@@ -1636,7 +1645,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//175
+			//176
 			//tamswick, sankt michael
             DB::table('counties')->insert([
 				'county_name' => 'Lungau',
@@ -1645,7 +1654,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
-			//176
+			//177
 			//zell, saalfelden
             DB::table('counties')->insert([
 				'county_name' => 'Pinzgau',
@@ -1654,7 +1663,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bavarian'
             ]);				
-			//177
+			//178
 			//tergernsee, ebertshausen, munich, staffelsee
             DB::table('counties')->insert([
 				'county_name' => 'Sundergau',
@@ -1664,7 +1673,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian'
             ]);				
 			//Trier
-			//178
+			//179
 			//bitburg, trier, prum, gerolstein, echternach, vianden
             DB::table('counties')->insert([
 				'county_name' => 'Bitgau',
@@ -1673,7 +1682,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//179
+			//180
 			//eltz, andernach, salm
             DB::table('counties')->insert([
 				'county_name' => 'Maifeld',
@@ -1682,7 +1691,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
-			//180
+			//181
 			//ravengiersburg, ehrenburg
             DB::table('counties')->insert([
 				'county_name' => 'Hunsruckgau',
@@ -1691,7 +1700,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
-			//181
+			//182
 			//treis, koblenz
             DB::table('counties')->insert([
 				'county_name' => 'Trechirgau',
@@ -1702,7 +1711,7 @@ class CountySeeder extends Seeder
             ]);
 			//Lombardy
 			//Milano
-			//182
+			//183
 			//milano, monza, lecco, garegnano, morimondo, piona, como, torba, san giuliano
             DB::table('counties')->insert([
 				'county_name' => 'Milano',
@@ -1711,7 +1720,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//183
+			//184
 			//bergamo, san pietro, stezzano, treviolo, mozzo, astino
             DB::table('counties')->insert([
 				'county_name' => 'Bergamo',
@@ -1720,7 +1729,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//184
+			//185
 			//brescia, rovato, polpenazze, bedizzole, san giorgo
             DB::table('counties')->insert([
 				'county_name' => 'Brescia',
@@ -1729,7 +1738,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//185
+			//186
 			//crema, vaiano, bagnolo, trescore
             DB::table('counties')->insert([
 				'county_name' => 'Crema',
@@ -1738,7 +1747,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//186
+			//187
 			//cremona, caorso
             DB::table('counties')->insert([
 				'county_name' => 'Cremona',
@@ -1747,7 +1756,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//187
+			//188
 			//pavullo, monterastello, montecuccolo
             DB::table('counties')->insert([
 				'county_name' => 'Frignana',
@@ -1756,7 +1765,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//188
+			//189
 			//lodi, cerreto
             DB::table('counties')->insert([
 				'county_name' => 'Lodi',
@@ -1765,7 +1774,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//189
+			//190
 			//mantua, polirone, levata, pietola, cavriana, gonzaga
             DB::table('counties')->insert([
 				'county_name' => 'Mantua',
@@ -1774,7 +1783,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//190
+			//191
 			//modena, mirandola, vignola, nonantola
             DB::table('counties')->insert([
 				'county_name' => 'Modena',
@@ -1783,7 +1792,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//191
+			//192
 			//novara, chiavenna
             DB::table('counties')->insert([
 				'county_name' => 'Novara',
@@ -1792,7 +1801,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//192
+			//193
 			//parma, fidenza, colorno, san vitale, lagorano, castrignano
             DB::table('counties')->insert([
 				'county_name' => 'Parma',
@@ -1801,7 +1810,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//193
+			//194
 			//pavia, certosa, san martino, carpignano
             DB::table('counties')->insert([
 				'county_name' => 'Pavia',
@@ -1810,7 +1819,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//194
+			//195
 			//piacenza, grazzano, bobbio
             DB::table('counties')->insert([
 				'county_name' => 'Piacenza',
@@ -1819,7 +1828,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//195
+			//196
 			//reggio, bagnolo, fogliano, canossa
             DB::table('counties')->insert([
 				'county_name' => 'Reggio',
@@ -1828,7 +1837,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//196
+			//197
 			//tortona, montegioco, garbagna
             DB::table('counties')->insert([
 				'county_name' => 'Tortona',
@@ -1837,7 +1846,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//197
+			//198
 			//vernio, montepiano
             DB::table('counties')->insert([
 				'county_name' => 'Vernio',
@@ -1847,7 +1856,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Piedmont
-			//198
+			//199
 			//alba, monforte, diano
             DB::table('counties')->insert([
 				'county_name' => 'Alba',
@@ -1856,7 +1865,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//199
+			//200
 			//asti, burio, loreto
             DB::table('counties')->insert([
 				'county_name' => 'Asti',
@@ -1865,7 +1874,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//200
+			//201
 			//valloriate, san dalmazzo
             DB::table('counties')->insert([
 				'county_name' => 'Auriate',
@@ -1874,7 +1883,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);				
-			//201
+			//202
 			//canavese, ivrea
             DB::table('counties')->insert([
 				'county_name' => 'Canavese',
@@ -1883,7 +1892,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//202
+			//203
 			//casale, san giorgo, san nazzaro
             DB::table('counties')->insert([
 				'county_name' => 'Casale',
@@ -1892,7 +1901,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//203
+			//204
 			//cuneo, saluzzo, castellaro, staffarda
             DB::table('counties')->insert([
 				'county_name' => 'Cuneo',
@@ -1901,7 +1910,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//204
+			//205
 			//alessandria, acqui
             DB::table('counties')->insert([
 				'county_name' => 'Montferrat',
@@ -1910,7 +1919,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//205
+			//206
 			//pragelato, pinerolo, exilles
             DB::table('counties')->insert([
 				'county_name' => 'Pragelato',
@@ -1919,7 +1928,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);			
-			//206
+			//207
 			//susa, novalesa
             DB::table('counties')->insert([
 				'county_name' => 'Susa',
@@ -1928,7 +1937,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//207
+			//208
 			//turino, moncalieri, chieri, rivoli
             DB::table('counties')->insert([
 				'county_name' => 'Turino',
@@ -1937,7 +1946,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);				
-			//208
+			//209
 			//vercelli, salasco, quinto
             DB::table('counties')->insert([
 				'county_name' => 'Vercelli',
@@ -1946,7 +1955,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//209
+			//210
 			//vigevano, lomello, robbio
             DB::table('counties')->insert([
 				'county_name' => 'Vigevano',
@@ -1956,7 +1965,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Tuscany
-			//210
+			//211
 			//siena, monteriggioni, san galgano, san gimignano, corsignano, monte oliveto, gaiole, castellina
             DB::table('counties')->insert([
 				'county_name' => 'Siena',
@@ -1965,7 +1974,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//211
+			//212
 			//grosseto, orbetello, manciano
             DB::table('counties')->insert([
 				'county_name' => 'Grosseto',
@@ -1974,7 +1983,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//212
+			//213
 			//piombino, massa, castello di valle
             DB::table('counties')->insert([
 				'county_name' => 'Piombino',
@@ -1983,7 +1992,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//213
+			//214
 			//sovana, sorano, pitigliano, fregiano
             DB::table('counties')->insert([
 				'county_name' => 'Sovana',
@@ -1993,7 +2002,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);			
 			//Verona
-			//214
+			//215
 			//verona, bovolone, bonavigo, bussolengo, legnago, san bonifacio, san martino
             DB::table('counties')->insert([
 				'county_name' => 'Verona',
@@ -2002,7 +2011,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//215
+			//216
 			//padova, masera, vigonza, praglia, este, monselice, solesino
             DB::table('counties')->insert([
 				'county_name' => 'Padova',
@@ -2011,7 +2020,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//216
+			//217
 			//rovigo, vangadizza, adria, loreo, lendinara
             DB::table('counties')->insert([
 				'county_name' => 'Rovigo',
@@ -2020,7 +2029,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//217
+			//218
 			//vicenza, montecchio, bassano, valdagno
             DB::table('counties')->insert([
 				'county_name' => 'Vicenza',
@@ -2029,7 +2038,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//218
+			//219
 			//trent, appenzell, rofreit
             DB::table('counties')->insert([
 				'county_name' => 'Trent',
@@ -2039,7 +2048,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian'
             ]);			
 			//Aquileia
-			//219
+			//220
 			//aquileia, udine, tarcento, monfalcone
             DB::table('counties')->insert([
 				'county_name' => 'Friuli',
@@ -2048,7 +2057,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//220
+			//221
 			//gorizia, gradisca
             DB::table('counties')->insert([
 				'county_name' => 'Gorizia',
@@ -2057,7 +2066,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//221
+			//222
 			//pordenone, san vito, aviano, polcenigo
             DB::table('counties')->insert([
 				'county_name' => 'Pordenone',
@@ -2067,7 +2076,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Florence
-			//222
+			//223
 			//florence, bagno, san gimigano
             DB::table('counties')->insert([
 				'county_name' => 'Florence',
@@ -2076,7 +2085,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//223
+			//224
 			//arezzo, montevarchi, focognano, san nicolo
             DB::table('counties')->insert([
 				'county_name' => 'Arezzo',
@@ -2085,8 +2094,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//224
-			//cortona, perugia, castello
+			//225
+			//cortona, castello
             DB::table('counties')->insert([
 				'county_name' => 'Cortona',
 				'county_category' => 'Feudal',
@@ -2094,7 +2103,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//225
+			//226
 			//perugia, assisi, foligno, gubbio
             DB::table('counties')->insert([
 				'county_name' => 'Perugia',
@@ -2103,7 +2112,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//226
+			//227
 			//prato, filettole, montemurlo
             DB::table('counties')->insert([
 				'county_name' => 'Prato',
@@ -2113,7 +2122,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);		
 			//Genoa
-			//227
+			//228
 			//genoa, arenzano, mignanego, chiavari
             DB::table('counties')->insert([
 				'county_name' => 'Genoa',
@@ -2122,7 +2131,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//228
+			//229
 			//luni, pontremoli, bagnone, porto venere
             DB::table('counties')->insert([
 				'county_name' => 'Lunigiana',
@@ -2131,7 +2140,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//229
+			//230
 			//massa, carrara
             DB::table('counties')->insert([
 				'county_name' => 'Massa',
@@ -2141,7 +2150,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Noli
-			//230
+			//231
 			//noli, savona, vado, albissola
             DB::table('counties')->insert([
 				'county_name' => 'Noli',
@@ -2150,7 +2159,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//231
+			//232
 			//albenga, san fedele, lusignano
             DB::table('counties')->insert([
 				'county_name' => 'Albenga',
@@ -2159,7 +2168,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//232
+			//233
 			//finale, verezzi
             DB::table('counties')->insert([
 				'county_name' => 'Finale',
@@ -2169,7 +2178,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Oneglia
-			//233
+			//234
 			//oneglia, loano
             DB::table('counties')->insert([
 				'county_name' => 'Oneglia',
@@ -2178,7 +2187,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//234
+			//235
 			//monaco, menton, roquebrune
             DB::table('counties')->insert([
 				'county_name' => 'Monaco',
@@ -2187,7 +2196,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);			
-			//235
+			//236
 			//ventimiglia, dolceaqua
             DB::table('counties')->insert([
 				'county_name' => 'Ventimiglia',
@@ -2197,7 +2206,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Lucca
-			//236
+			//237
 			//lucca, barga
             DB::table('counties')->insert([
 				'county_name' => 'Lucca',
@@ -2206,7 +2215,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//237
+			//238
 			//pistoja, pescia, agliana, uzzano
             DB::table('counties')->insert([
 				'county_name' => 'Pistoja',
@@ -2216,7 +2225,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Pisa
-			//238
+			//239
 			//pisa, cascina, castelfranco, san giuliano, pontedera, vecchiano 
             DB::table('counties')->insert([
 				'county_name' => 'Pisa',
@@ -2225,7 +2234,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//239
+			//240
 			//corte, alando, aleria, ajaccio, morosaglia
             DB::table('counties')->insert([
 				'county_name' => 'Corsica',
@@ -2234,7 +2243,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//240
+			//241
 			//livorno, sassetta, san vincenzo 
             DB::table('counties')->insert([
 				'county_name' => 'Livorno',
@@ -2243,7 +2252,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//241
+			//242
 			//riparbella, cecina, bibbona, castellina
             DB::table('counties')->insert([
 				'county_name' => 'Riparbella',
@@ -2252,7 +2261,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//242
+			//243
 			//volterra, chianni, monteverdi, saline
             DB::table('counties')->insert([
 				'county_name' => 'Volterra',
@@ -2262,7 +2271,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Venice
-			//243
+			//244
 			//venice, chioggia, torcello, san donato, portogruaro, spinea, martellago, san ilario, mirano, salzano
             DB::table('counties')->insert([
 				'county_name' => 'Dogado',
@@ -2271,7 +2280,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//244
+			//245
 			//belluno, feltre, sedico, alpago, san giustina
             DB::table('counties')->insert([
 				'county_name' => 'Belluno',
@@ -2280,7 +2289,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//245
+			//246
 			//treviso, mogliano, conegliano, castelfranco, biancade, musestre, oderzo
             DB::table('counties')->insert([
 				'county_name' => 'Treviso',
@@ -2291,7 +2300,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Bohemia
 			//Bohemia
-			//246
+			//247
 			//prague, kaurim, siebenlinden
             DB::table('counties')->insert([
 				'county_name' => 'Prague',
@@ -2300,7 +2309,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//247
+			//248
 			//bechin, tabor
             DB::table('counties')->insert([
 				'county_name' => 'Bechin',
@@ -2309,7 +2318,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);			
-			//248
+			//249
 			//bunzlau, reichenberg, waldstein
             DB::table('counties')->insert([
 				'county_name' => 'Bunzlau',
@@ -2318,7 +2327,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//249
+			//250
 			//elbogen, karlsbad
             DB::table('counties')->insert([
 				'county_name' => 'Elbogen',
@@ -2327,7 +2336,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//250
+			//251
 			//glatz, wunschelburg, kunzendorf
             DB::table('counties')->insert([
 				'county_name' => 'Glatzerland',
@@ -2336,7 +2345,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//251
+			//252
 			//koniggratz, nachod, braunau, welisch, podiebrad, sadowa, lichtenburg
             DB::table('counties')->insert([
 				'county_name' => 'Koniggratz',
@@ -2345,7 +2354,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//252
+			//253
 			//leitmeritz, aussig
             DB::table('counties')->insert([
 				'county_name' => 'Leitmeritz',
@@ -2354,7 +2363,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//253
+			//254
 			//pilsen, kladrau, tepl, klattau, taus, tachau
             DB::table('counties')->insert([
 				'county_name' => 'Pilsen',
@@ -2363,7 +2372,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//254
+			//255
 			//rakonitz, purglitz
             DB::table('counties')->insert([
 				'county_name' => 'Rakonitz',
@@ -2372,7 +2381,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//255
+			//256
 			//schlan, brandeis
             DB::table('counties')->insert([
 				'county_name' => 'Schlan',
@@ -2381,7 +2390,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//256
+			//257
 			//saaz, komotau, laun, plass
             DB::table('counties')->insert([
 				'county_name' => 'Saaz',
@@ -2390,7 +2399,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
-			//257
+			//258
 			//tschaslau, kuttenberg, sedlec
             DB::table('counties')->insert([
 				'county_name' => 'Tschaslawsko',
@@ -2400,7 +2409,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//Lusatia
-			//258
+			//259
 			//meissen, seusslitz
             DB::table('counties')->insert([
 				'county_name' => 'Meissengau',
@@ -2409,7 +2418,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//259
+			//260
 			//hoyerswerda, bautzen
             DB::table('counties')->insert([
 				'county_name' => 'Milzenigau',
@@ -2418,8 +2427,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);				
-			//260
-			//dohna, dresden, briesnitz
+			//261
+			//dohna, dresden, briesnitz, leipzig
             DB::table('counties')->insert([
 				'county_name' => 'Nisangau',
 				'county_category' => 'Feudal',
@@ -2427,7 +2436,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
-			//261
+			//262
 			//spremberg, senftenberg, lebusa
             DB::table('counties')->insert([
 				'county_name' => 'Lusizigau',
@@ -2436,7 +2445,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
-			//262
+			//263
 			//lubben, lieberose
             DB::table('counties')->insert([
 				'county_name' => 'Selpuligau',
@@ -2446,7 +2455,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian'
             ]);	
 			//Moravia
-			//263
+			//264
 			//brunn, pernstein, austerlitz, goding, lodenitz
             DB::table('counties')->insert([
 				'county_name' => 'Brunn',
@@ -2455,7 +2464,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moravian'
             ]);	
-			//264
+			//265
 			//iglau, pilgrams
             DB::table('counties')->insert([
 				'county_name' => 'Iglau',
@@ -2464,7 +2473,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moravian'
             ]);
-			//265
+			//266
 			//olmutz, prossnitz, sternberg
             DB::table('counties')->insert([
 				'county_name' => 'Olmutz',
@@ -2473,7 +2482,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moravian'
             ]);
-			//266
+			//267
 			//prerau, weisskirchen, leipnik, kremsier
             DB::table('counties')->insert([
 				'county_name' => 'Prerau',
@@ -2482,7 +2491,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moravian'
             ]);
-			//267
+			//268
 			//velingrad, zlin
             DB::table('counties')->insert([
 				'county_name' => 'Velingrad',
@@ -2491,7 +2500,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moravian'
             ]);
-			//268
+			//269
 			//znaim, kralitz
             DB::table('counties')->insert([
 				'county_name' => 'Znaim',
@@ -2501,7 +2510,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian'
             ]);
 			//Lower Silesia
-			//269
+			//270
 			//jauer, grussau, bolkenhain
             DB::table('counties')->insert([
 				'county_name' => 'Jauer',
@@ -2510,7 +2519,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);			
-			//270
+			//271
 			//glogau, hermsdorf
             DB::table('counties')->insert([
 				'county_name' => 'Glogau',
@@ -2519,7 +2528,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//271
+			//272
 			//leubus, wolau
             DB::table('counties')->insert([
 				'county_name' => 'Leubus',
@@ -2528,7 +2537,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
-			//272
+			//273
 			//liegnitz, hoyn, parchwitz, arnsdorf
             DB::table('counties')->insert([
 				'county_name' => 'Liegnitz',
@@ -2537,7 +2546,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//273
+			//274
 			//oels, wartenberg, ferstenberg, bernstadt
             DB::table('counties')->insert([
 				'county_name' => 'Oels',
@@ -2546,7 +2555,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//274
+			//275
 			//schweidnitz, striegau 
             DB::table('counties')->insert([
 				'county_name' => 'Schweidnitz',
@@ -2556,7 +2565,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//Upper Silesia
-			//275
+			//276
 			//oppeln, krappitz
             DB::table('counties')->insert([
 				'county_name' => 'Oppeln',
@@ -2565,7 +2574,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);				
-			//276
+			//277
 			//breslau, waldenburg 
             DB::table('counties')->insert([
 				'county_name' => 'Breslau',
@@ -2574,7 +2583,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//277
+			//278
 			//brieg, grottkau, lowen
             DB::table('counties')->insert([
 				'county_name' => 'Brieg',
@@ -2583,7 +2592,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
-			//278
+			//279
 			//ratibor, pless, beuthen
             DB::table('counties')->insert([
 				'county_name' => 'Ratibor',
@@ -2592,7 +2601,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//279
+			//280
 			//teschen, golleschau, ustron
             DB::table('counties')->insert([
 				'county_name' => 'Teschen',
@@ -2601,7 +2610,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Silesian'
             ]);
-			//280
+			//281
 			//troppau, lischwitz, jagerndorf
             DB::table('counties')->insert([
 				'county_name' => 'Troppau',
@@ -2612,7 +2621,7 @@ class CountySeeder extends Seeder
             ]);
 			//Burgundy
 			//Burgundy
-			//281
+			//282
 			//vezelay, bazoches
             DB::table('counties')->insert([
 				'county_name' => 'Avalois',
@@ -2621,7 +2630,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//282
+			//283
 			//autun, saint loup, saint martin
             DB::table('counties')->insert([
 				'county_name' => 'Autunais',
@@ -2630,7 +2639,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//283
+			//284
 			//auxerre, saint maurice
             DB::table('counties')->insert([
 				'county_name' => 'Auxerrois',
@@ -2639,7 +2648,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//284
+			//285
 			//saint reine, chatellenot, chateauneuf, commarin
             DB::table('counties')->insert([
 				'county_name' => 'Auxois',
@@ -2648,7 +2657,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//285
+			//286
 			//beaujeu, quincie, saint nizier
             DB::table('counties')->insert([
 				'county_name' => 'Beaujolais',
@@ -2657,7 +2666,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//286
+			//287
 			//citeaux, savigny
             DB::table('counties')->insert([
 				'county_name' => 'Beaunois',
@@ -2666,7 +2675,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//287
+			//288
 			//chalon, saint germain
             DB::table('counties')->insert([
 				'county_name' => 'Chalonais',
@@ -2675,7 +2684,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//288
+			//289
 			//chatillon, molesme, saint marcel
             DB::table('counties')->insert([
 				'county_name' => 'Lassois',
@@ -2684,7 +2693,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//289
+			//290
 			//macon, cluny
             DB::table('counties')->insert([
 				'county_name' => 'Maconnais',
@@ -2693,7 +2702,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//290
+			//291
 			//nevers, marais
             DB::table('counties')->insert([
 				'county_name' => 'Nivernais',
@@ -2702,7 +2711,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//291
+			//292
 			//tonerre, quincy
             DB::table('counties')->insert([
 				'county_name' => 'Tonerrois',
@@ -2712,7 +2721,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan'
             ]);		
 			//Cisjurania
-			//292
+			//293
 			//grenoble, voiron, chartreuse
             DB::table('counties')->insert([
 				'county_name' => 'Dauphine',
@@ -2721,7 +2730,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//293
+			//294
 			//albon, mantaille
             DB::table('counties')->insert([
 				'county_name' => 'Albon',
@@ -2730,7 +2739,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//294
+			//295
 			//billieme, saint jean
             DB::table('counties')->insert([
 				'county_name' => 'Belinois',
@@ -2739,7 +2748,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//295
+			//296
 			//embrun, risoul
             DB::table('counties')->insert([
 				'county_name' => 'Embrunnais',
@@ -2748,7 +2757,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//296
+			//297
 			//forcalquier, gap, apt, sisteron
             DB::table('counties')->insert([
 				'county_name' => 'Forcalquier',
@@ -2757,7 +2766,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
-			//297
+			//298
 			//lyon, irigny, seyssuel, givors, savigny
             DB::table('counties')->insert([
 				'county_name' => 'Lyonnais',
@@ -2766,7 +2775,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//298
+			//299
 			//briancon, clavieres
             DB::table('counties')->insert([
 				'county_name' => 'Mauronais',
@@ -2775,7 +2784,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);			
-			//299
+			//300
 			//valence, montelier, saint marcel, montmeyran
             DB::table('counties')->insert([
 				'county_name' => 'Valentinois',
@@ -2784,7 +2793,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);				
-			//300
+			//301
 			//vienne, chonas, ampuis
             DB::table('counties')->insert([
 				'county_name' => 'Viennois',
@@ -2794,7 +2803,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//Transjurania
-			//301
+			//302
 			//besancon, dole
             DB::table('counties')->insert([
 				'county_name' => 'Amosenais',
@@ -2803,7 +2812,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
-			//302
+			//303
 			//habsburg, aarau, bern, lucerne
             DB::table('counties')->insert([
 				'county_name' => 'Aargau',
@@ -2812,7 +2821,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
-			//303
+			//304
 			//solothurn, saint denis
             DB::table('counties')->insert([
 				'county_name' => 'Bargenais',
@@ -2821,7 +2830,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);				
-			//304
+			//305
 			//lausanne, orbe, payerne, avenches
             DB::table('counties')->insert([
 				'county_name' => 'Lausonnais',
@@ -2830,7 +2839,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
-			//305
+			//306
 			//vesoul, luxieul
             DB::table('counties')->insert([
 				'county_name' => 'Portenais',
@@ -2839,7 +2848,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//306
+			//307
 			//neuchatel, yverdon
             DB::table('counties')->insert([
 				'county_name' => 'Vaudenais',
@@ -2849,7 +2858,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan'
             ]);		
 			//Orange
-			//307
+			//308
 			//orange, caderousse, puegoulen 
             DB::table('counties')->insert([
 				'county_name' => 'Orange',
@@ -2858,8 +2867,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//308
-			//venasque, avignon, carpentras, cavaillon, sorgue, vaison, saint remy, cavaillon
+			//309
+			//venasque, avignon, carpentras, cavaillon, sorgue, saint remy
             DB::table('counties')->insert([
 				'county_name' => 'Venaissin',
 				'county_category' => 'Ecclesiastical',
@@ -2867,7 +2876,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//309
+			//310
 			//viviers, saint andeol, saint martin, saint just, nyons, montelimar, vaison
             DB::table('counties')->insert([
 				'county_name' => 'Vivarais',
@@ -2877,7 +2886,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//Provence
-			//310
+			//311
 			//aix, salon
             DB::table('counties')->insert([
 				'county_name' => 'Provence',
@@ -2886,7 +2895,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//311
+			//312
 			//arles, montmajour, tarascon
             DB::table('counties')->insert([
 				'county_name' => 'Arles',
@@ -2895,7 +2904,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//312
+			//313
 			//baux, mouries, riez, senez, digne
             DB::table('counties')->insert([
 				'county_name' => 'Baux',
@@ -2904,7 +2913,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//313
+			//314
 			//marseille, saint jean
             DB::table('counties')->insert([
 				'county_name' => 'Marseille',
@@ -2913,7 +2922,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
-			//314
+			//315
 			//nice, villefranche, escarene, guillaumes, saint etienne, vence, glandeves, grasse, frejus
             DB::table('counties')->insert([
 				'county_name' => 'Nice',
@@ -2922,7 +2931,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//315
+			//316
 			//toulon, ollioules, ollieres
             DB::table('counties')->insert([
 				'county_name' => 'Toulon',
@@ -2932,7 +2941,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//Savoy
-			//316
+			//317
 			//chambery, aix le bains
             DB::table('counties')->insert([
 				'county_name' => 'Savoia',
@@ -2941,7 +2950,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//317
+			//318
 			//aosta, chatillon
             DB::table('counties')->insert([
 				'county_name' => 'Aosta',
@@ -2950,7 +2959,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//318
+			//319
 			//thonon, bons
             DB::table('counties')->insert([
 				'county_name' => 'Chablais',
@@ -2959,7 +2968,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//319
+			//320
 			//geneva, annecy
             DB::table('counties')->insert([
 				'county_name' => 'Genevanais',
@@ -2968,7 +2977,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
-			//320
+			//321
 			//moutiers, montagny
             DB::table('counties')->insert([
 				'county_name' => 'Tarantais',
@@ -2977,7 +2986,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
-			//321
+			//322
 			//sion, martigny, raron
             DB::table('counties')->insert([
 				'county_name' => 'Valais',
@@ -2988,7 +2997,7 @@ class CountySeeder extends Seeder
             ]);
 			//Papal States
 			//Rome
-			//322
+			//323
 			//rome, nettuno, tivoli, civitavecchia, velletri, montecelio, subiaco, scholastica
             DB::table('counties')->insert([
 				'county_name' => 'Rome',
@@ -2997,7 +3006,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//323
+			//324
 			//frosinone, cassino, alatri, sora, ceccano, anagni, ferentino, veroli
             DB::table('counties')->insert([
 				'county_name' => 'Frosinone',
@@ -3006,7 +3015,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//324
+			//325
 			//latina, terracina, fondi, castellone, gaeta
             DB::table('counties')->insert([
 				'county_name' => 'Latina',
@@ -3015,7 +3024,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//325
+			//326
 			//rieti, farfa, corvaro
             DB::table('counties')->insert([
 				'county_name' => 'Rieti',
@@ -3024,7 +3033,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//326
+			//327
 			//viterbo, castellana, toscanella, corneto, vetralla
             DB::table('counties')->insert([
 				'county_name' => 'Viterbo',
@@ -3034,7 +3043,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);		
 			//Romagna
-			//327
+			//328
 			//ferrara, cento, comacchio, argenta, copparo
             DB::table('counties')->insert([
 				'county_name' => 'Ferrara',
@@ -3043,7 +3052,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//328
+			//329
 			//bologna, forli, faenza, imola, molinella, san pietro, san giovanni, monterenzio
             DB::table('counties')->insert([
 				'county_name' => 'Bologna',
@@ -3052,7 +3061,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//329
+			//330
 			//carpegna, rimini, verucchio, coriano
             DB::table('counties')->insert([
 				'county_name' => 'Carpegna',
@@ -3061,7 +3070,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//330
+			//331
 			//ravenna, lugo, cervia, bagnacavallo, massa, conselice
             DB::table('counties')->insert([
 				'county_name' => 'Ravenna',
@@ -3071,7 +3080,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//Spoleto
-			//331
+			//332
 			//ancona, senigallia
             DB::table('counties')->insert([
 				'county_name' => 'Ancona',
@@ -3080,7 +3089,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//332
+			//333
 			//chieti, ortona, vasto, lanciano, san vito, san giovanni
             DB::table('counties')->insert([
 				'county_name' => 'Chieti',
@@ -3089,7 +3098,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//333
+			//334
 			//fermo, camerino, macerata
             DB::table('counties')->insert([
 				'county_name' => 'Fermo',
@@ -3098,7 +3107,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);
-			//334
+			//335
 			//pescara, montesilvano, san angelo
             DB::table('counties')->insert([
 				'county_name' => 'Pescara',
@@ -3107,7 +3116,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//335
+			//336
 			//spoleto, aquila,
             DB::table('counties')->insert([
 				'county_name' => 'Spoleto',
@@ -3117,7 +3126,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard'
             ]);			
 			//Urbino
-			//336
+			//337
 			//urbino, montebello, cavallino, fermignano
             DB::table('counties')->insert([
 				'county_name' => 'Urbino',
@@ -3126,7 +3135,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
-			//337
+			//338
 			//pesaro, fano, mondolfo
             DB::table('counties')->insert([
 				'county_name' => 'Pesaro',
@@ -3137,7 +3146,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Teutonic Order State
 			//Livonia
-			//338
+			//339
 			//riga, lennewarden, kirchholm, dunamunde
             DB::table('counties')->insert([
 				'county_name' => 'Livland',
@@ -3146,7 +3155,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//339
+			//340
 			//ascheraden, kokenhusen
             DB::table('counties')->insert([
 				'county_name' => 'Ascheraden',
@@ -3155,7 +3164,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//340
+			//341
 			//dorpat, talkhof, wendau, 
             DB::table('counties')->insert([
 				'county_name' => 'Dorpat',
@@ -3164,7 +3173,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//341
+			//342
 			//dunaburg, selburg 
             DB::table('counties')->insert([
 				'county_name' => 'Dunaburg',
@@ -3173,7 +3182,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//342
+			//343
 			//fellin, karkus
             DB::table('counties')->insert([
 				'county_name' => 'Fellin',
@@ -3182,7 +3191,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//343
+			//344
 			//goldingen, talsen, frauenburg, sackenhausen, windau
             DB::table('counties')->insert([
 				'county_name' => 'Kurland',
@@ -3191,7 +3200,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//344
+			//345
 			//mitau, annenburg, autzenburg
             DB::table('counties')->insert([
 				'county_name' => 'Mitau',
@@ -3200,7 +3209,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//345
+			//346
 			//lemburg, jurgensburg 
             DB::table('counties')->insert([
 				'county_name' => 'Segewold',
@@ -3209,7 +3218,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//346
+			//347
 			//wenden, wolmar, lemsal
             DB::table('counties')->insert([
 				'county_name' => 'Wenden',
@@ -3218,7 +3227,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//347
+			//348
 			//wolkenburg, rositten
             DB::table('counties')->insert([
 				'county_name' => 'Wolkenburg',
@@ -3228,7 +3237,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//Estonia
-			//348
+			//349
 			//reval, sankt matthias, weissenstein, wesenberg, narva
             DB::table('counties')->insert([
 				'county_name' => 'Reval',
@@ -3237,7 +3246,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Livonian'
             ]);
-			//349
+			//350
 			//pernau, hapsal, arensburg, soneburg
             DB::table('counties')->insert([
 				'county_name' => 'Pernau',
@@ -3247,8 +3256,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//Prussia
-			//350
-			//marienburg, altfeld, klakendorf, klettendorf
+			//351
+			//marienburg, altfeld, klakendorf, klettendorf, marienwerder
             DB::table('counties')->insert([
 				'county_name' => 'Pomesanengau',
 				'county_category' => 'Ecclesiastical',
@@ -3256,7 +3265,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//351
+			//352
 			//bartenstein, heilsberg, schippenbeil
             DB::table('counties')->insert([
 				'county_name' => 'Bartengau',
@@ -3265,7 +3274,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//352
+			//353
 			//braunsberg, allenstein, bischofsburg, wartenburg
             DB::table('counties')->insert([
 				'county_name' => 'Ermland',
@@ -3274,7 +3283,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//353
+			//354
 			//memelburg, windenburg, rutzau
             DB::table('counties')->insert([
 				'county_name' => 'Memelland',
@@ -3283,7 +3292,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//354
+			//355
 			//landeshut, schalauerburg
             DB::table('counties')->insert([
 				'county_name' => 'Nadrauengau',
@@ -3292,7 +3301,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//355
+			//356
 			//brandenburg, tapiow, wehlau
             DB::table('counties')->insert([
 				'county_name' => 'Natangergau',
@@ -3301,7 +3310,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//356
+			//357
 			//elbing, tolkemitz, muhlhausen
             DB::table('counties')->insert([
 				'county_name' => 'Pogesanengau',
@@ -3310,7 +3319,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Prussian'
             ]);
-			//357
+			//358
 			//konigsberg, insterburg, angerburg, gerdauen
             DB::table('counties')->insert([
 				'county_name' => 'Samland',
@@ -3320,7 +3329,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//Pomerelia
-			//358
+			//359
 			//danzig, prust, hohenstein, oliva
             DB::table('counties')->insert([
 				'county_name' => 'Danzig',
@@ -3329,7 +3338,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//359
+			//360
 			//butow, rummelsburg, damerkow
             DB::table('counties')->insert([
 				'county_name' => 'Butow',
@@ -3338,7 +3347,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);			
-			//360
+			//361
 			//dirschau, mewe, neuenburg, 
             DB::table('counties')->insert([
 				'county_name' => 'Dirschau',
@@ -3347,7 +3356,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//361
+			//362
 			//karthaus, zuckau, chmelno
             DB::table('counties')->insert([
 				'county_name' => 'Karthaus',
@@ -3356,7 +3365,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//362
+			//363
 			//kulm, althaus, rehden, graudenz
             DB::table('counties')->insert([
 				'county_name' => 'Kulmerland',
@@ -3365,7 +3374,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//363
+			//364
 			//lauenburg, neuendorf, vietzig
             DB::table('counties')->insert([
 				'county_name' => 'Lauenburg',
@@ -3374,7 +3383,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//364
+			//365
 			//putzig, krockow, kossakowitz
             DB::table('counties')->insert([
 				'county_name' => 'Putzig',
@@ -3383,7 +3392,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//365
+			//366
 			//baldenburg, schlochau
             DB::table('counties')->insert([
 				'county_name' => 'Schlochau',
@@ -3392,7 +3401,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//366
+			//367
 			//schwetz, bromberg
             DB::table('counties')->insert([
 				'county_name' => 'Schwetz',
@@ -3401,8 +3410,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//367
-			//thorn, birgelau, 
+			//368
+			//thorn, birgelau 
             DB::table('counties')->insert([
 				'county_name' => 'Thorn',
 				'county_category' => 'Crowned_Republic',
@@ -3410,7 +3419,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//368
+			//369
 			//tuchel, seehaupten
             DB::table('counties')->insert([
 				'county_name' => 'Tuchel',
@@ -3420,7 +3429,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//Pomerania
-			//369
+			//370
 			//kammin, gulzow, schwirsen, dievenow
             DB::table('counties')->insert([
 				'county_name' => 'Kammin',
@@ -3429,7 +3438,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//370
+			//371
 			//arnswalde, bernstein
             DB::table('counties')->insert([
 				'county_name' => 'Arnswalde',
@@ -3438,7 +3447,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//371
+			//372
 			//gollnow, massow, stepenitz 
             DB::table('counties')->insert([
 				'county_name' => 'Gollnow',
@@ -3447,7 +3456,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//372
+			//373
 			//greifenhagen, barwalde 
             DB::table('counties')->insert([
 				'county_name' => 'Greifenhagen',
@@ -3456,7 +3465,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//373
+			//374
 			//greifenberg, treptow 
             DB::table('counties')->insert([
 				'county_name' => 'Greifenberg',
@@ -3465,7 +3474,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//374
+			//375
 			//pyritz, warnitz, prillwitz
             DB::table('counties')->insert([
 				'county_name' => 'Pyritz',
@@ -3474,7 +3483,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//375
+			//376
 			//kessin, rostock, stralsund, greifswald, demmin, grimmen
             DB::table('counties')->insert([
 				'county_name' => 'Kessinigau',
@@ -3483,7 +3492,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//376
+			//377
 			//kolberg, degow
             DB::table('counties')->insert([
 				'county_name' => 'Kolberg',
@@ -3492,7 +3501,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//377
+			//378
 			//koslin, zanow, bublitz, pollnow
             DB::table('counties')->insert([
 				'county_name' => 'Koslin',
@@ -3501,7 +3510,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//378
+			//379
 			//neustettin, baldenburg
             DB::table('counties')->insert([
 				'county_name' => 'Neustettin',
@@ -3510,7 +3519,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//379
+			//380
 			//schivelbein, stolzenberg, 
             DB::table('counties')->insert([
 				'county_name' => 'Schivelbein',
@@ -3519,7 +3528,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//380
+			//381
 			//slupsk, kublitz, glowitz
             DB::table('counties')->insert([
 				'county_name' => 'Slupsk',
@@ -3528,7 +3537,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//381
+			//382
 			//schlawe, rugenwalde, malchow
             DB::table('counties')->insert([
 				'county_name' => 'Schlawe',
@@ -3537,7 +3546,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//382
+			//383
 			//stettin, predzlow, pasewalk, kolbatz 
             DB::table('counties')->insert([
 				'county_name' => 'Stettin',
@@ -3546,7 +3555,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//383
+			//384
 			//wolgast, neuenkirchen, buggenhagen, wollin
             DB::table('counties')->insert([
 				'county_name' => 'Wostrosegau',
@@ -3556,7 +3565,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//Brandenburg
-			//384
+			//385
 			//brandenburg, potsdam
             DB::table('counties')->insert([
 				'county_name' => 'Havelland',
@@ -3565,7 +3574,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
-			//385
+			//386
 			//wusterhausen, wittstock
             DB::table('counties')->insert([
 				'county_name' => 'Dossegau',
@@ -3574,7 +3583,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
-			//386
+			//387
 			//perleberg, pritzwalk, wittenberg
             DB::table('counties')->insert([
 				'county_name' => 'Linaggau',
@@ -3583,7 +3592,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
-			//387
+			//388
 			//havelberg, plattenburg
             DB::table('counties')->insert([
 				'county_name' => 'Nelitzigau',
@@ -3592,7 +3601,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
-			//388
+			//389
 			//berlin, tempelhof, rosenfeld, helwichdorf, kaulsdorf, maltersdorf, biesdorf, morczahn
             DB::table('counties')->insert([
 				'county_name' => 'Retschanengau',
@@ -3601,7 +3610,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);			
-			//389
+			//390
 			//rowenburg, schenkenberg, uckerfeld, templin
             DB::table('counties')->insert([
 				'county_name' => 'Uckermark',
@@ -3611,7 +3620,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//Mecklenburg
-			//390
+			//391
 			//teterow, malchin, demmin
             DB::table('counties')->insert([
 				'county_name' => 'Circipanigau',
@@ -3620,7 +3629,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//391
+			//392
 			//mecklenburg, wismar
             DB::table('counties')->insert([
 				'county_name' => 'Obotritegau',
@@ -3629,7 +3638,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//392
+			//393
 			//schwerin, ratzeburg
             DB::table('counties')->insert([
 				'county_name' => 'Polabigau',
@@ -3638,7 +3647,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Wendish'
             ]);
-			//393
+			//394
 			//lubeck, oldenburg, segeberg, preetz
             DB::table('counties')->insert([
 				'county_name' => 'Wagrigau',
@@ -3650,7 +3659,7 @@ class CountySeeder extends Seeder
 			//France
 			//France
 			//Anjou
-			//394
+			//395
 			//angers, saumur, fontevraud
             DB::table('counties')->insert([
 				'county_name' => 'Anjou',
@@ -3659,7 +3668,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//395
+			//396
 			//mans, chalons
             DB::table('counties')->insert([
 				'county_name' => 'Maine',
@@ -3668,7 +3677,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//396
+			//397
 			//mortagne, nogent
             DB::table('counties')->insert([
 				'county_name' => 'Perche',
@@ -3677,7 +3686,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//397
+			//398
 			//tours, cormery, gaillard, amboise, villandry, chatigny, saint martin, chinon
             DB::table('counties')->insert([
 				'county_name' => 'Touraine',
@@ -3686,7 +3695,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//398
+			//399
 			//vendome, freteval, lavardin, montoire
             DB::table('counties')->insert([
 				'county_name' => 'Vendomois',
@@ -3696,7 +3705,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);				
 			//Aquitaine
-			//399
+			//400
 			//bordeaux, albret, fronsac
             DB::table('counties')->insert([
 				'county_name' => 'Bordelais',
@@ -3705,7 +3714,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//400
+			//401
 			//agen, moirax, lavardac
             DB::table('counties')->insert([
 				'county_name' => 'Agenais',
@@ -3714,7 +3723,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//401
+			//402
 			//angouleme, saint michel, chateauneuf
             DB::table('counties')->insert([
 				'county_name' => 'Angoumois',
@@ -3723,7 +3732,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//402
+			//403
 			//bazas, langon, marmande
             DB::table('counties')->insert([
 				'county_name' => 'Bazadais',
@@ -3732,8 +3741,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//403
-			//limoges, ventadour
+			//404
+			//limoges, ventadour, saint angel
             DB::table('counties')->insert([
 				'county_name' => 'Limousin',
 				'county_category' => 'Feudal',
@@ -3741,7 +3750,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//404
+			//405
 			//lectoure, beaumont
             DB::table('counties')->insert([
 				'county_name' => 'Lomagne',
@@ -3750,7 +3759,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//405
+			//406
 			//perigeux, bergerac
             DB::table('counties')->insert([
 				'county_name' => 'Perigord',
@@ -3759,7 +3768,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//406
+			//407
 			//saintes, royan, saint jean, taillebourg
             DB::table('counties')->insert([
 				'county_name' => 'Saintogne',
@@ -3769,7 +3778,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//Auvergne
-			//407
+			//408
 			//randon, saint colombe, menat
             DB::table('counties')->insert([
 				'county_name' => 'Auvergne',
@@ -3778,7 +3787,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//408
+			//409
 			//aurillac, ytrac
             DB::table('counties')->insert([
 				'county_name' => 'Aurillac',
@@ -3787,7 +3796,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//409
+			//410
 			//brioude, saint ferreol, saint beauzire, chaise dieu, sauveterre
             DB::table('counties')->insert([
 				'county_name' => 'Brioude',
@@ -3796,7 +3805,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//410
+			//411
 			//carlat, messilhac
             DB::table('counties')->insert([
 				'county_name' => 'Carlat',
@@ -3805,7 +3814,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//411
+			//412
 			//clermont, montpensier, thiers, voloie
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
@@ -3814,7 +3823,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//412
+			//413
 			//feurs, montbrison, saint etienne, valbenoite
             DB::table('counties')->insert([
 				'county_name' => 'Forez',
@@ -3823,7 +3832,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//413
+			//414
 			//murat, mercoeur, saint flour
             DB::table('counties')->insert([
 				'county_name' => 'Murat',
@@ -3833,7 +3842,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Berry
-			//414
+			//415
 			//bourges, meillant, massay
             DB::table('counties')->insert([
 				'county_name' => 'Berry',
@@ -3842,7 +3851,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//415
+			//416
 			//sancerre, saint satur, saint gemme, launay, crezancy, reugny, champtin, vauvredon
             DB::table('counties')->insert([
 				'county_name' => 'Sancerre',
@@ -3852,7 +3861,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Bourbonnais
-			//416
+			//417
 			//bourbon, sauvigny, moulins
             DB::table('counties')->insert([
 				'county_name' => 'Bourbonnais',
@@ -3861,7 +3870,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//417
+			//418
 			//montlucon, ainay, nassigny, herisson, evaux
             DB::table('counties')->insert([
 				'county_name' => 'Montlucon',
@@ -3871,7 +3880,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);		
 			//Casgony
-			//418
+			//419
 			//eauze, manciet, nogaro
             DB::table('counties')->insert([
 				'county_name' => 'Armagnac',
@@ -3880,7 +3889,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//419
+			//420
 			//astarac, mirande, masseube, auch
             DB::table('counties')->insert([
 				'county_name' => 'Astarac',
@@ -3889,7 +3898,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//420
+			//421
 			//pau, oloron
             DB::table('counties')->insert([
 				'county_name' => 'Bearn',
@@ -3898,7 +3907,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//421
+			//422
 			//bigorre, escaladieu, tarbes, maubourguet
             DB::table('counties')->insert([
 				'county_name' => 'Bigorre',
@@ -3907,7 +3916,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//422
+			//423
 			//saint bertrand, saint gaudens, muret, luchon
             DB::table('counties')->insert([
 				'county_name' => 'Comminges',
@@ -3916,7 +3925,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//423
+			//424
 			//saint lizier, saint girons
             DB::table('counties')->insert([
 				'county_name' => 'Couserans',
@@ -3925,7 +3934,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//424
+			//425
 			//dax, bayonne, tartas
             DB::table('counties')->insert([
 				'county_name' => 'Dax',
@@ -3934,7 +3943,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//425
+			//426
 			//bouillas, fluerance, vic
             DB::table('counties')->insert([
 				'county_name' => 'Fezensac',
@@ -3943,7 +3952,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//426
+			//427
 			//montmarsan, roquefort 
             DB::table('counties')->insert([
 				'county_name' => 'Marsan',
@@ -3952,7 +3961,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//427
+			//428
 			//aire, geaune
             DB::table('counties')->insert([
 				'county_name' => 'Tursan',
@@ -3962,7 +3971,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//Champagne
-			//428
+			//429
 			//reims, bazancourt, roucy, thony, fismes, verzy, epernay
             DB::table('counties')->insert([
 				'county_name' => 'Remois',
@@ -3971,8 +3980,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//429
-			//brienne, lesmont, precy,blaincourt, vaubercey, dienville
+			//430
+			//brienne, lesmont, precy, blaincourt, vaubercey, dienville
             DB::table('counties')->insert([
 				'county_name' => 'Brenois',
 				'county_category' => 'Ecclesiastical',
@@ -3980,7 +3989,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);				
-			//430
+			//431
 			//chalons, nettancourt, trois fontaines, vitry
             DB::table('counties')->insert([
 				'county_name' => 'Chalonnais',
@@ -3989,7 +3998,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//431
+			//432
 			//duesme, oigny, bussy, chatillon
             DB::table('counties')->insert([
 				'county_name' => 'Duesmois',
@@ -3998,7 +4007,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//432
+			//433
 			//langres, dijon
             DB::table('counties')->insert([
 				'county_name' => 'Langres',
@@ -4007,7 +4016,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//433
+			//434
 			//meaux, thierry, coulommiers, crecy, crouy
             DB::table('counties')->insert([
 				'county_name' => 'Meaux',
@@ -4016,7 +4025,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//434
+			//435
 			//perthes, larzicourt, saint dizier
             DB::table('counties')->insert([
 				'county_name' => 'Perthois',
@@ -4025,7 +4034,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);				
-			//435
+			//436
 			//provins, cigy, chenoise, cerneux
             DB::table('counties')->insert([
 				'county_name' => 'Provins',
@@ -4034,7 +4043,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//436
+			//437
 			//rethel, attigny, porcien
             DB::table('counties')->insert([
 				'county_name' => 'Rethelois',
@@ -4043,7 +4052,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//437
+			//438
 			//sens, joigny
             DB::table('counties')->insert([
 				'county_name' => 'Senois',
@@ -4052,7 +4061,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//438
+			//439
 			//troyes, clairvaux
             DB::table('counties')->insert([
 				'county_name' => 'Troyes',
@@ -4062,7 +4071,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Francia
-			//439
+			//440
 			//paris, saint denis, ecouen
             DB::table('counties')->insert([
 				'county_name' => 'Pay de France',
@@ -4071,7 +4080,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//440
+			//441
 			//beauvais, goincourt
             DB::table('counties')->insert([
 				'county_name' => 'Beauvaisis',
@@ -4080,7 +4089,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//441
+			//442
 			//beaumont, argenteuil
             DB::table('counties')->insert([
 				'county_name' => 'Beaumont',
@@ -4089,7 +4098,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//442
+			//443
 			//brie, melun, saint fargeau, lagny, yerres
             DB::table('counties')->insert([
 				'county_name' => 'Brie',
@@ -4098,7 +4107,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//443
+			//444
 			//clermont, angicourt, liancourt
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
@@ -4107,7 +4116,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//444
+			//445
 			//ferrieres, landon, fontainebleau, ganne
             DB::table('counties')->insert([
 				'county_name' => 'Gatinais',
@@ -4116,7 +4125,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//445
+			//446
 			//chatres, corbeil, clamart, dourdan, montlhery, palaiseau, montagu
             DB::table('counties')->insert([
 				'county_name' => 'Hurepoix',
@@ -4125,7 +4134,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//446
+			//447
 			//mantes, rambouillet, beynes, houdan
             DB::table('counties')->insert([
 				'county_name' => 'Mantois',
@@ -4134,7 +4143,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//447
+			//448
 			//senlis, compiegne
             DB::table('counties')->insert([
 				'county_name' => 'Senlis',
@@ -4143,7 +4152,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//448
+			//449
 			//soissons, oulchy
             DB::table('counties')->insert([
 				'county_name' => 'Soissonnais',
@@ -4152,7 +4161,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//449
+			//450
 			//vez, oigny
             DB::table('counties')->insert([
 				'county_name' => 'Valois',
@@ -4161,7 +4170,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//450
+			//451
 			//saint clair, pontoise
             DB::table('counties')->insert([
 				'county_name' => 'Vexin',
@@ -4171,7 +4180,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Normandy
-			//451
+			//452
 			//rouen, harcourt, jumieges, saint saens, meslay, aumonerie, saint philbert, brionne
             DB::table('counties')->insert([
 				'county_name' => 'Roumois',
@@ -4180,8 +4189,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//452
-			//alencon, argentan
+			//453
+			//alencon, argentan, sees
             DB::table('counties')->insert([
 				'county_name' => 'Alencon',
 				'county_category' => 'Feudal',
@@ -4189,7 +4198,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//453
+			//454
 			//avranches, lucerne, subligny
             DB::table('counties')->insert([
 				'county_name' => 'Avranches',
@@ -4198,7 +4207,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//454
+			//455
 			//bayeux, caen, audrieu, mondaye, beaumont, coupesarte, creully
             DB::table('counties')->insert([
 				'county_name' => 'Bayeux',
@@ -4207,7 +4216,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//455
+			//456
 			//fecamp, graville
             DB::table('counties')->insert([
 				'county_name' => 'Caux',
@@ -4216,7 +4225,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);
-			//456
+			//457
 			//coutances, cherbourg, hauteville, valognes, saint lo, lessay, vire, chanteloup, gratot, pirou, bricquebec, saint sauveur
             DB::table('counties')->insert([
 				'county_name' => 'Coutances',
@@ -4225,7 +4234,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//457
+			//458
 			//evreux, verneuil, gaillard, gisors, vernon, acquigny, brecourt
             DB::table('counties')->insert([
 				'county_name' => 'Evreux',
@@ -4234,7 +4243,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//458
+			//459
 			//eu, dieppe, aumale, arques
             DB::table('counties')->insert([
 				'county_name' => 'Eu',
@@ -4243,7 +4252,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);		
-			//459
+			//460
 			//lisieux, falaise, honfleur, saint michel, courcy, crevecoeur
             DB::table('counties')->insert([
 				'county_name' => 'Lisieux',
@@ -4252,7 +4261,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norman'
             ]);	
-			//460
+			//461
 			//mortain, domfront
             DB::table('counties')->insert([
 				'county_name' => 'Mortainais',
@@ -4262,7 +4271,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//Orleanais
-			//461
+			//462
 			//orleans, fleury, meung, combreux
             DB::table('counties')->insert([
 				'county_name' => 'Orleanais',
@@ -4271,7 +4280,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//462
+			//463
 			//blois, chambord, chaumont, bievre
             DB::table('counties')->insert([
 				'county_name' => 'Blaisois',
@@ -4280,7 +4289,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//463
+			//464
 			//chartres, leveville, bretigny, saint pere
             DB::table('counties')->insert([
 				'county_name' => 'Chartres',
@@ -4289,7 +4298,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//464
+			//465
 			//chateaudun, courtalain
             DB::table('counties')->insert([
 				'county_name' => 'Dunois',
@@ -4298,7 +4307,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//465
+			//466
 			//dreux, marsalin, nonancourt
             DB::table('counties')->insert([
 				'county_name' => 'Dreux',
@@ -4307,7 +4316,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//466
+			//467
 			//etampes, chalo, mereville
             DB::table('counties')->insert([
 				'county_name' => 'Etampois',
@@ -4316,7 +4325,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//467
+			//468
 			//nemours, montargis, moncourt
             DB::table('counties')->insert([
 				'county_name' => 'Nemours',
@@ -4326,7 +4335,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Picardy
-			//468
+			//469
 			//arras, saint omer
             DB::table('counties')->insert([
 				'county_name' => 'Artois',
@@ -4335,7 +4344,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Flemish'
             ]);	
-			//469
+			//470
 			//amiens, flixecourt, picquigny, corbie
             DB::table('counties')->insert([
 				'county_name' => 'Amienois',
@@ -4344,7 +4353,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//470
+			//471
 			//boulogne, etaples
             DB::table('counties')->insert([
 				'county_name' => 'Boulenois',
@@ -4353,7 +4362,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//471
+			//472
 			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines
             DB::table('counties')->insert([
 				'county_name' => 'Flanders',
@@ -4362,7 +4371,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Flemish'
             ]);
-			//472
+			//473
 			//guines, calais
             DB::table('counties')->insert([
 				'county_name' => 'Guines',
@@ -4371,7 +4380,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//473
+			//474
 			//laon, coucy, corbeny
             DB::table('counties')->insert([
 				'county_name' => 'Laonnais',
@@ -4380,7 +4389,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//474
+			//475
 			//montreuil, recques, agincourt
             DB::table('counties')->insert([
 				'county_name' => 'Montreuil',
@@ -4389,7 +4398,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//475
+			//476
 			//noyon, sempigny, morlincourt, varesnes, salency
             DB::table('counties')->insert([
 				'county_name' => 'Noyonnais',
@@ -4398,7 +4407,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//476
+			//477
 			//crecy, nouvion, saint ricquier
             DB::table('counties')->insert([
 				'county_name' => 'Ponthieu',
@@ -4407,7 +4416,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//477
+			//478
 			//therouanne, royon, saint pol
             DB::table('counties')->insert([
 				'county_name' => 'Ternois',
@@ -4416,7 +4425,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//478
+			//479
 			//tournai, mouscron, courtrai
             DB::table('counties')->insert([
 				'county_name' => 'Tournais',
@@ -4425,7 +4434,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);
-			//479
+			//480
 			//peronne, saint quentin, bohain, saint martin, retoul
             DB::table('counties')->insert([
 				'county_name' => 'Vermandois',
@@ -4435,7 +4444,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Poitou
-			//480
+			//481
 			//poitiers, parthenay, niort, saint junien, touffou, chauvigny, vouille, lusignan
             DB::table('counties')->insert([
 				'county_name' => 'Poitou',
@@ -4444,7 +4453,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//481
+			//482
 			//chatelaillon, mauze, rochelle
             DB::table('counties')->insert([
 				'county_name' => 'Aunis',
@@ -4453,7 +4462,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//482
+			//483
 			//brioux, aubigne, melleran, melle
             DB::table('counties')->insert([
 				'county_name' => 'Briancais',
@@ -4462,7 +4471,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//483
+			//484
 			//chatellerault, clairvaux, usseau, saint michel, marigny
             DB::table('counties')->insert([
 				'county_name' => 'Chatellerault',
@@ -4471,7 +4480,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//484
+			//485
 			//gueret, bellac, aubusson, grandmont
             DB::table('counties')->insert([
 				'county_name' => 'Marche',
@@ -4480,7 +4489,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//485
+			//486
 			//thouars, fontenay, montaigu, talmont
             DB::table('counties')->insert([
 				'county_name' => 'Thouarsais',
@@ -4489,7 +4498,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
-			//486
+			//487
 			//turenne, brive, tulle, noailhac, collonges, sarlat, beynac, castelnaud
             DB::table('counties')->insert([
 				'county_name' => 'Turenne',
@@ -4499,7 +4508,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Toulouse
-			//487
+			//488
 			//toulouse, lavaur, maure, castelginest, colomiers, montgiscard, brax
             DB::table('counties')->insert([
 				'county_name' => 'Toulouse',
@@ -4508,7 +4517,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//488
+			//489
 			//albi, castelnau, saint jeury
             DB::table('counties')->insert([
 				'county_name' => 'Albi',
@@ -4517,7 +4526,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//489
+			//490
 			//carcasonne, castelnaudary, mirepoix, puylaurens
             DB::table('counties')->insert([
 				'county_name' => 'Carcasonne',
@@ -4526,7 +4535,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//490
+			//491
 			//foix, tarascon, montgrenier
             DB::table('counties')->insert([
 				'county_name' => 'Foix',
@@ -4535,7 +4544,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//491
+			//492
 			//javols, mende, langogne, apcher
             DB::table('counties')->insert([
 				'county_name' => 'Gevaudan',
@@ -4544,7 +4553,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//492
+			//493
 			//melgueil, montpellier, maguelonne
             DB::table('counties')->insert([
 				'county_name' => 'Melgueil',
@@ -4553,7 +4562,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//493
+			//494
 			//millau, melac
             DB::table('counties')->insert([
 				'county_name' => 'Millau',
@@ -4562,7 +4571,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//494
+			//495
 			//narbonne, beziers, lodeve, agde
             DB::table('counties')->insert([
 				'county_name' => 'Narbonne',
@@ -4571,7 +4580,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//495
+			//496
 			//nimes, uzes
             DB::table('counties')->insert([
 				'county_name' => 'Nimes',
@@ -4580,8 +4589,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//496
-			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets
+			//497
+			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets, rudelle
             DB::table('counties')->insert([
 				'county_name' => 'Quercy',
 				'county_category' => 'Feudal',
@@ -4589,7 +4598,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//497
+			//498
 			//rodez, villefranche, saint radegonde, belcastel, bertholene
             DB::table('counties')->insert([
 				'county_name' => 'Rouergue',
@@ -4598,7 +4607,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
-			//498
+			//499
 			//puy, montlaur
             DB::table('counties')->insert([
 				'county_name' => 'Velay',
@@ -4609,7 +4618,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Brittany
 			//Brittany
-			//499
+			//500
 			//quimper, concarneau
             DB::table('counties')->insert([
 				'county_name' => 'Cornouailles',
@@ -4618,7 +4627,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);
-			//500
+			//501
 			//ach, saint mathieu, brest
             DB::table('counties')->insert([
 				'county_name' => 'Ach',
@@ -4627,8 +4636,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);
-			//501
-			//dol, tronchet, combourg, tremeheuc, saint martin, boussac
+			//502
+			//dol, tronchet, combourg, tremeheuc, saint martin, boussac, saint malo
             DB::table('counties')->insert([
 				'county_name' => 'Dol',
 				'county_category' => 'Ecclesiastical',
@@ -4636,7 +4645,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);	
-			//502
+			//503
 			//saint pol, morlaix, lannion, kerouzere
             DB::table('counties')->insert([
 				'county_name' => 'Leon',
@@ -4645,7 +4654,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);	
-			//503
+			//504
 			//rohan, carhaix
             DB::table('counties')->insert([
 				'county_name' => 'Poher',
@@ -4654,7 +4663,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);	
-			//504
+			//505
 			//vannes, ponthivy
             DB::table('counties')->insert([
 				'county_name' => 'Vannais',
@@ -4664,7 +4673,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//Domnonee
-			//505
+			//506
 			//saint brieuc, guingamp, chatelaudren
             DB::table('counties')->insert([
 				'county_name' => 'Penthievre',
@@ -4673,7 +4682,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);
-			//506
+			//507
 			//alet, chateauneuf, saint guinoux
             DB::table('counties')->insert([
 				'county_name' => 'Alet',
@@ -4682,7 +4691,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);	
-			//507
+			//508
 			//treguier, lezardrieux, plouguiel
             DB::table('counties')->insert([
 				'county_name' => 'Tregor',
@@ -4692,7 +4701,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//Retz
-			//508
+			//509
 			//pornic, paimboeuf, machecoul
             DB::table('counties')->insert([
 				'county_name' => 'Retz',
@@ -4701,7 +4710,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);
-			//509
+			//510
 			//nantes, guerande
             DB::table('counties')->insert([
 				'county_name' => 'Nantais',
@@ -4710,7 +4719,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Breton'
             ]);	
-			//510
+			//511
 			//rennes, fougeres
             DB::table('counties')->insert([
 				'county_name' => 'Rennais',
@@ -4722,7 +4731,7 @@ class CountySeeder extends Seeder
 			//Britain
 			//Ireland
 			//Connacht
-			//511
+			//512
 			//galway, athenry, claregalway, feartagar, kiltartan, hackety, loughrea, tuam, clonfert, dunmore
             DB::table('counties')->insert([
 				'county_name' => 'Galway',
@@ -4731,8 +4740,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//512
-			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, claremorris, ashford
+			//513
+			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, claremorris, ashford, killala
             DB::table('counties')->insert([
 				'county_name' => 'Mayo',
 				'county_category' => 'Feudal',
@@ -4740,8 +4749,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);
-			//513
-			//roscommon, boyle, donamon
+			//514
+			//roscommon, boyle, donamon, elphin
             DB::table('counties')->insert([
 				'county_name' => 'Roscommon',
 				'county_category' => 'Feudal',
@@ -4749,8 +4758,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//514
-			//sligo, ballymote, markree, templehouse
+			//515
+			//sligo, ballymote, markree, templehouse, achonry
             DB::table('counties')->insert([
 				'county_name' => 'Sligo',
 				'county_category' => 'Feudal',
@@ -4759,7 +4768,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish'
             ]);
 			//Leinster
-			//515
+			//516
 			//carlow, ballyloughan, ballymoon, leighlin, leighlinbridge, killerig
             DB::table('counties')->insert([
 				'county_name' => 'Carlow',
@@ -4768,7 +4777,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//516
+			//517
 			//kildare, athy, castledermot, moone, barberstown, kilkea, kilteel, maynooth, reeves, rheban, norragh
             DB::table('counties')->insert([
 				'county_name' => 'Kildare',
@@ -4777,7 +4786,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);
-			//517
+			//518
 			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard
             DB::table('counties')->insert([
 				'county_name' => 'Kilkenny',
@@ -4786,7 +4795,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//518
+			//519
 			//fortleix, cullahill, lea, killeshin, oughaval
             DB::table('counties')->insert([
 				'county_name' => 'Leix',
@@ -4795,8 +4804,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);
-			//519
-			//clonmel, athassel, nenagh, ardfinnan, loughmoe
+			//520
+			//clonmel, athassel, nenagh, ardfinnan, loughmoe, cashel
             DB::table('counties')->insert([
 				'county_name' => 'Tipperary',
 				'county_category' => 'Feudal',
@@ -4804,7 +4813,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);
-			//520
+			//521
 			//waterford, lismore, crooke, dungarvan, ardmore, mothel, rincrew
             DB::table('counties')->insert([
 				'county_name' => 'Waterford',
@@ -4813,7 +4822,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);
-			//521
+			//522
 			//wexford, carnsore, dunbrody, ferns, selskar, tintern
             DB::table('counties')->insert([
 				'county_name' => 'Wexford',
@@ -4822,7 +4831,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);
-			//522
+			//523
 			//wicklow, kindlestown, baltinglass, glendalough
             DB::table('counties')->insert([
 				'county_name' => 'Wicklow',
@@ -4832,7 +4841,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish'
             ]);
 			//Meath
-			//523
+			//524
 			//dublin, clontarf, kinsaley, lusk, castleknock, baldoyle
             DB::table('counties')->insert([
 				'county_name' => 'Dublin',
@@ -4841,7 +4850,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//524
+			//525
 			//longford, ardagh, granard, moydow, rathcline, abbeyshrule
             DB::table('counties')->insert([
 				'county_name' => 'Longford',
@@ -4850,8 +4859,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//525
-			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, nugent, clonard
+			//526
+			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, nugent, clonard, bective, fore, taghmon
             DB::table('counties')->insert([
 				'county_name' => 'Meath',
 				'county_category' => 'Feudal',
@@ -4859,7 +4868,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//526
+			//527
 			//tullamore, blundell, leap, clonmacnoise, gallen, roscrea
             DB::table('counties')->insert([
 				'county_name' => 'Offaly',
@@ -4869,8 +4878,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//Munster
-			//527
-			//ennis, bunratty, kilmihil
+			//528
+			//ennis, bunratty, kilmihil, kilalloe, corcomroe
             DB::table('counties')->insert([
 				'county_name' => 'Clare',
 				'county_category' => 'Feudal',
@@ -4878,8 +4887,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//528
-			//cork, bantry, fermoy, castlelyons, mourneabbey, blarney, widenham
+			//529
+			//cork, bantry, fermoy, castlelyons, mourneabbey, blarney, widenham, cloyne
             DB::table('counties')->insert([
 				'county_name' => 'Cork',
 				'county_category' => 'Ecclesiastical',
@@ -4887,8 +4896,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);
-			//529
-			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen
+			//530
+			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen, killarney
             DB::table('counties')->insert([
 				'county_name' => 'Kerry',
 				'county_category' => 'Feudal',
@@ -4896,7 +4905,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//530
+			//531
 			//limerick, adare, monasteranenaugh, mungret, askeaton, croom
             DB::table('counties')->insert([
 				'county_name' => 'Limerick',
@@ -4906,8 +4915,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish'
             ]);
 			//Ulster
-			//531
-			//antrim, carra, carrickfergus, dunluce, dunseverick
+			//532
+			//antrim, carra, carrickfergus, dunluce, dunseverick, dromore
             DB::table('counties')->insert([
 				'county_name' => 'Antrim',
 				'county_category' => 'Feudal',
@@ -4915,7 +4924,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//532
+			//533
 			//armagh, killevy, fairview
             DB::table('counties')->insert([
 				'county_name' => 'Armagh',
@@ -4924,7 +4933,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//533
+			//534
 			//cavan, cloughoughter, drumlane, kilmore
             DB::table('counties')->insert([
 				'county_name' => 'Cavan',
@@ -4933,7 +4942,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//534
+			//535
 			//derry, coleraine, dungiven, magoscain, maghera
             DB::table('counties')->insert([
 				'county_name' => 'Derry',
@@ -4942,8 +4951,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//535
-			//donegal, carrickabragy, northburgh, rahan
+			//536
+			//donegal, carrickabragy, northburgh, rahan, raphoe
             DB::table('counties')->insert([
 				'county_name' => 'Donegal',
 				'county_category' => 'Feudal',
@@ -4951,8 +4960,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//536
-			//downpatrick, kilkeel, dundrum, clough, killyleagh, sketrick, ardglass
+			//537
+			//downpatrick, kilkeel, dundrum, clough, killyleagh, sketrick, ardglass, grey
             DB::table('counties')->insert([
 				'county_name' => 'Down',
 				'county_category' => 'Feudal',
@@ -4960,7 +4969,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//537
+			//538
 			//enniskillen, lisgoole, rossory
             DB::table('counties')->insert([
 				'county_name' => 'Fermanagh',
@@ -4969,7 +4978,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//538
+			//539
 			//leitrim, carrick, mohill, fenagh
             DB::table('counties')->insert([
 				'county_name' => 'Leitrim',
@@ -4978,8 +4987,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//539
-			//louth, dundalk, drogheda, carlingford, monasterboice
+			//540
+			//louth, dundalk, drogheda, carlingford, monasterboice, mellifont
             DB::table('counties')->insert([
 				'county_name' => 'Louth',
 				'county_category' => 'Feudal',
@@ -4987,7 +4996,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//540
+			//541
 			//monaghan, inniskeen, tehellan
             DB::table('counties')->insert([
 				'county_name' => 'Monaghan',
@@ -4996,7 +5005,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Irish'
             ]);	
-			//541
+			//542
 			//omagh, dungannon, ardboe, carrickmore, clogher, donaghedy
             DB::table('counties')->insert([
 				'county_name' => 'Tyrone',
@@ -5007,8 +5016,8 @@ class CountySeeder extends Seeder
             ]);				
 			//England
 			//East Anglia
-			//542
-			//norwich, thetford, aylsham, burnham, yarmouth, lynn, walsingham, acre, rising
+			//543
+			//norwich, thetford, aylsham, burnham, yarmouth, lynn, walsingham, acre, rising, saint benet
             DB::table('counties')->insert([
 				'county_name' => 'Norfolk',
 				'county_category' => 'Feudal',
@@ -5016,7 +5025,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//543
+			//544
 			//ipswich, lowestoft, saint edmunds, dunwich, sudbury, bungay, clare
             DB::table('counties')->insert([
 				'county_name' => 'Suffolk',
@@ -5026,8 +5035,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);	
 			//Essex
-			//544
-			//colchester, chelmsford, hadleigh, hedingham, walden, beeleigh, coggeshall
+			//545
+			//colchester, chelmsford, hadleigh, hedingham, walden, beeleigh, coggeshall, waltham
             DB::table('counties')->insert([
 				'county_name' => 'Essex',
 				'county_category' => 'Feudal',
@@ -5035,7 +5044,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//545
+			//546
 			//hertford, berkhamsted, therfield, pirton, saint albans, langley
             DB::table('counties')->insert([
 				'county_name' => 'Hertfordshire',
@@ -5044,7 +5053,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);
-			//546
+			//547
 			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, westminster, clerkenwell, twickenham
             DB::table('counties')->insert([
 				'county_name' => 'Middlesex',
@@ -5054,8 +5063,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);	
 			//Hwicce
-			//547
-			//gloucester, deerhurst, flaxley, tewkesbury, wotton
+			//548
+			//gloucester, deerhurst, flaxley, tewkesbury, wotton, cirencester
             DB::table('counties')->insert([
 				'county_name' => 'Gloucestershire',
 				'county_category' => 'Feudal',
@@ -5063,8 +5072,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//548
-			//warwick, alcester, merevale, astley, kenilworth, stoneleigh
+			//549
+			//warwick, alcester, merevale, astley, kenilworth, stoneleigh, coventry
             DB::table('counties')->insert([
 				'county_name' => 'Warwickshire',
 				'county_category' => 'Feudal',
@@ -5072,7 +5081,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//549
+			//550
 			//winchcombe, sudeley, hailes
             DB::table('counties')->insert([
 				'county_name' => 'Winchcombeshire',
@@ -5081,7 +5090,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//550
+			//551
 			//worcester, bordesley, evesham, malvern, pershore
             DB::table('counties')->insert([
 				'county_name' => 'Worcestershire',
@@ -5091,7 +5100,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);	
 			//Kent
-			//551
+			//552
 			//aylesford, ashford, rochester, maidstone, dartford, gravesend
             DB::table('counties')->insert([
 				'county_name' => 'Aylesfordshire',
@@ -5100,7 +5109,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//552
+			//553
 			//canterbury, chatham, sandwich, dover, leeds
             DB::table('counties')->insert([
 				'county_name' => 'Kent',
@@ -5109,7 +5118,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//553
+			//554
 			//hythe, folkestone
             DB::table('counties')->insert([
 				'county_name' => 'Shepwayshire',
@@ -5119,7 +5128,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);
 			//Lindsey
-			//554
+			//555
 			//derby, peveril, haddon, codnor, dale, darley
             DB::table('counties')->insert([
 				'county_name' => 'Derbyshire',
@@ -5128,7 +5137,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => ''
             ]);	
-			//555
+			//556
 			//leicester, belvoir, croxton, owston, breedon
             DB::table('counties')->insert([
 				'county_name' => 'Leicestershire',
@@ -5137,7 +5146,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//556
+			//557
 			//lincoln, somerton, alvingham, bardney, boston, bourne, croyland, grimsby, kirkstead, stamford, thornton
             DB::table('counties')->insert([
 				'county_name' => 'Lincolnshire',
@@ -5146,7 +5155,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//557
+			//558
 			//nottingham, newark, rufford, ashfield, mansfield, southwell
             DB::table('counties')->insert([
 				'county_name' => 'Nothinghamshire',
@@ -5155,7 +5164,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//558
+			//559
 			//oakham, uppingham, burley
             DB::table('counties')->insert([
 				'county_name' => 'Rutland',
@@ -5165,7 +5174,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);				
 			//Mercia
-			//559
+			//560
 			//chester, saighton, beeston, halton
             DB::table('counties')->insert([
 				'county_name' => 'Cheshire',
@@ -5174,7 +5183,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//560
+			//561
 			//hereford, goodrich, dore, leominster
             DB::table('counties')->insert([
 				'county_name' => 'Herefordshire',
@@ -5183,7 +5192,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//561
+			//562
 			//shrewsbury, stokesay, whittington, ludlow, bromfield, lilleshall
             DB::table('counties')->insert([
 				'county_name' => 'Shropshire',
@@ -5192,7 +5201,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);				
-			//562
+			//563
 			//stafford, lichfield, tamworth, croxden, chartley
             DB::table('counties')->insert([
 				'county_name' => 'Staffordshire',
@@ -5202,7 +5211,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);	
 			//Mid Anglia
-			//563
+			//564
 			//bedford, elstow, flitwick, tilsworth
             DB::table('counties')->insert([
 				'county_name' => 'Bedfordshire',
@@ -5211,7 +5220,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//564
+			//565
 			//buckingham, bradwell, cublington
             DB::table('counties')->insert([
 				'county_name' => 'Buckinghamshire',
@@ -5220,8 +5229,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//565
-			//cambridge, ely, anglesey, chatteris, ramsey, soham, thorney
+			//566
+			//cambridge, ely, anglesey, chatteris, ramsey, soham, thorney, peterborough
             DB::table('counties')->insert([
 				'county_name' => 'Cambridgeshire',
 				'county_category' => 'Feudal',
@@ -5229,7 +5238,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//566
+			//567
 			//huntingdon, saint ives, saint neots, stilton, tetworth
             DB::table('counties')->insert([
 				'county_name' => 'Huntingdonshire',
@@ -5238,7 +5247,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//567
+			//568
 			//northampton, brixworth, barnwell, rockingham
             DB::table('counties')->insert([
 				'county_name' => 'Northamptonshire',
@@ -5247,7 +5256,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//568
+			//569
 			//oxford, wallingford, dorchester, eynsham, wroxton
             DB::table('counties')->insert([
 				'county_name' => 'Oxfordshire',
@@ -5257,7 +5266,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);			
 			//Northumbria
-			//569
+			//570
 			//allerton, birkby
             DB::table('counties')->insert([
 				'county_name' => 'Allertonshire',
@@ -5266,7 +5275,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//570
+			//571
 			//aldborough, ripley, whixley, wetherby, knaresborough
             DB::table('counties')->insert([
 				'county_name' => 'Burghshire',
@@ -5275,7 +5284,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//571
+			//572
 			//carlisle, appleby, saint bees, brougham, kendal, workington, furness
             DB::table('counties')->insert([
 				'county_name' => 'Cumberland',
@@ -5284,7 +5293,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//572
+			//573
 			//durham, darlington, barnard, bowes
             DB::table('counties')->insert([
 				'county_name' => 'Durham',
@@ -5293,7 +5302,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//573
+			//574
 			//sheffield, ecclesfield, bradfield
             DB::table('counties')->insert([
 				'county_name' => 'Hallamshire',
@@ -5302,7 +5311,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//574
+			//575
 			//hexham, whitley
             DB::table('counties')->insert([
 				'county_name' => 'Hexhamshire',
@@ -5311,7 +5320,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//575
+			//576
 			//howden, asselby
             DB::table('counties')->insert([
 				'county_name' => 'Howdenshire',
@@ -5320,7 +5329,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//576
+			//577
 			//alnwick, bamburgh, lindisfarne
             DB::table('counties')->insert([
 				'county_name' => 'Northumberland',
@@ -5329,7 +5338,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//577
+			//578
 			//lancaster, clitheroe, sawley, whalley
             DB::table('counties')->insert([
 				'county_name' => 'Lancashire',
@@ -5338,7 +5347,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//578
+			//579
 			//richmond, wensley, middleham
             DB::table('counties')->insert([
 				'county_name' => 'Richmondshire',
@@ -5347,7 +5356,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//579
+			//580
 			//york, beverley, bridlington, bolton, coverham, fountains, ripon, selby, whitby, pontefract, helmsley, scarborough
             DB::table('counties')->insert([
 				'county_name' => 'Yorkshire',
@@ -5357,7 +5366,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);	
 			//Sussex
-			//580
+			//581
 			//arundel, lyminster, littlehampton
             DB::table('counties')->insert([
 				'county_name' => 'Arundelshire',
@@ -5366,7 +5375,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);
-			//581
+			//582
 			//bramber, worthing, brighton
             DB::table('counties')->insert([
 				'county_name' => 'Brambershire',
@@ -5375,7 +5384,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//582
+			//583
 			//chichester, bosham
             DB::table('counties')->insert([
 				'county_name' => 'Chichestershire',
@@ -5384,7 +5393,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//583
+			//584
 			//lewes, kingston
             DB::table('counties')->insert([
 				'county_name' => 'Leweshire',
@@ -5393,7 +5402,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//584
+			//585
 			//pevensey, hailsham
             DB::table('counties')->insert([
 				'county_name' => 'Pevenshire',
@@ -5402,8 +5411,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//585
-			//hastings, bexhill
+			//586
+			//hastings, bexhill, battle
             DB::table('counties')->insert([
 				'county_name' => 'Sussex',
 				'county_category' => 'Feudal',
@@ -5412,8 +5421,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English'
             ]);				
 			//Wessex
-			//586
-			//reading, slough, windsor
+			//587
+			//reading, slough, windsor, abingdon
             DB::table('counties')->insert([
 				'county_name' => 'Berkshire',
 				'county_category' => 'Feudal',
@@ -5421,7 +5430,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//587
+			//588
 			//dorchester, abbotsbury, sherborne, wareham, wimborne, corfe
             DB::table('counties')->insert([
 				'county_name' => 'Dorsetshire',
@@ -5430,7 +5439,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//588
+			//589
 			//winchester, southampton
             DB::table('counties')->insert([
 				'county_name' => 'Hampshire',
@@ -5439,7 +5448,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//589
+			//590
 			//somerton, sutton, taunton, bath, bruton, wells
             DB::table('counties')->insert([
 				'county_name' => 'Somersetshire',
@@ -5448,7 +5457,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);	
-			//590
+			//591
 			//guildford, woking, farnham, wallington, brixton
             DB::table('counties')->insert([
 				'county_name' => 'Surrey',
@@ -5457,8 +5466,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'English'
             ]);		
-			//591
-			//wilton, trowbridge, sarum, amesbury, easton, malmesbury
+			//592
+			//wilton, trowbridge, sarum, amesbury, easton, malmesbury, salisbury
             DB::table('counties')->insert([
 				'county_name' => 'Wiltshire',
 				'county_category' => 'Feudal',
@@ -5468,7 +5477,7 @@ class CountySeeder extends Seeder
             ]);
 			//Wales
 			//Cornwall
-			//592
+			//593
 			//truro, restormel, bodmin, cardinham, launceston, saint german, tintagel, trematon
             DB::table('counties')->insert([
 				'county_name' => 'Cornwall',
@@ -5477,7 +5486,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//593
+			//594
 			//exeter, gidleigh,, lydford, okehampton, axminster, barnstaple, buckfast, buckland, chudleigh, newenham, plymouth, tavistock, totnes
             DB::table('counties')->insert([
 				'county_name' => 'Devonshire',
@@ -5487,7 +5496,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Dyfed
-			//594
+			//595
 			//cardigan, aberystwyth, llanbadarn
             DB::table('counties')->insert([
 				'county_name' => 'Cardiganshire',
@@ -5496,7 +5505,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);
-			//595
+			//596
 			//carmarthen, carreg, dinefwr, kidwelly, laugharne, llandovery, llansteffan, talley, whitland
             DB::table('counties')->insert([
 				'county_name' => 'Carmarthenshire',
@@ -5505,8 +5514,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//596
-			//pembroke, carew, cilgerran, haverford, manorbier, tenby, saint dogmaels, templeton
+			//597
+			//pembroke, carew, cilgerran, haverford, manorbier, tenby, saint dogmaels, templeton, saint davids
             DB::table('counties')->insert([
 				'county_name' => 'Pembrokeshire',
 				'county_category' => 'Feudal',
@@ -5515,7 +5524,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh'
             ]);
 			//Gwent
-			//597
+			//598
 			//candleston, coity, kenfig, newcastle, cardiff, neath, llantrisant, llandaff, ewenny, penrhys
             DB::table('counties')->insert([
 				'county_name' => 'Glamorganshire',
@@ -5524,7 +5533,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//598
+			//599
 			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow
             DB::table('counties')->insert([
 				'county_name' => 'Monmouthshire',
@@ -5534,7 +5543,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Gwyned
-			//599
+			//600
 			//aberlleiniog, beaumaris, llanfaes, penmon
             DB::table('counties')->insert([
 				'county_name' => 'Anglesey',
@@ -5543,7 +5552,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//600
+			//601
 			//caernarfon, conwy, deganwy, dolwyddelan, dolbadarn, harlech, maenan, bangor, cymer
             DB::table('counties')->insert([
 				'county_name' => 'Caernarvonshire',
@@ -5552,7 +5561,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//601
+			//602
 			//denbigh, rhuddlan, ruthin, saint asaph, wrexham
             DB::table('counties')->insert([
 				'county_name' => 'Denbighshire',
@@ -5561,7 +5570,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//602
+			//603
 			//flint, caergwrle, ewloe, hawarden, mold, basingwerk, talacre
             DB::table('counties')->insert([
 				'county_name' => 'Flintshire',
@@ -5571,7 +5580,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Powys
-			//603
+			//604
 			//brecon, morlais, blaenllynfi, bronllys, crickhowell, tretower
             DB::table('counties')->insert([
 				'county_name' => 'Brecknockshire',
@@ -5580,7 +5589,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
-			//604
+			//605
 			//montgomery, powis, dolforwyn, llanlugan
             DB::table('counties')->insert([
 				'county_name' => 'Montgomeryshire',
@@ -5589,7 +5598,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Welsh'
             ]);
-			//605
+			//606
 			//aberedw, cefnllys, hay
             DB::table('counties')->insert([
 				'county_name' => 'Radnorshire',
@@ -5600,7 +5609,7 @@ class CountySeeder extends Seeder
             ]);			
 			//Scotland
 			//Alba
-			//606
+			//607
 			//aberdeen, balmoral, balquhain, cairnbulg, coull, dundarg, fyvie, inverallochy, inverugie, leslie, udny, deer, huntly
             DB::table('counties')->insert([
 				'county_name' => 'Aberdeenshire',
@@ -5609,7 +5618,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//607
+			//608
 			//banff, mortlach, doune, keith
             DB::table('counties')->insert([
 				'county_name' => 'Banffshire',
@@ -5618,7 +5627,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);
-			//608
+			//609
 			//clackmannan, alloa
             DB::table('counties')->insert([
 				'county_name' => 'Clackmannanshire',
@@ -5627,8 +5636,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);
-			//609
-			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline, inchcolm
+			//610
+			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline, inchcolm, lindores
             DB::table('counties')->insert([
 				'county_name' => 'Fife',
 				'county_category' => 'Ecclesiastical',
@@ -5636,7 +5645,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//610
+			//611
 			//forfar, brechin, arbroath, montrose, dundee, angus
             DB::table('counties')->insert([
 				'county_name' => 'Forfarshire',
@@ -5645,7 +5654,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//611
+			//612
 			//kincardine, banchory, stonehaven
             DB::table('counties')->insert([
 				'county_name' => 'Kincardineshire',
@@ -5654,7 +5663,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//612
+			//613
 			//kinross, cleish, scotlandwell
             DB::table('counties')->insert([
 				'county_name' => 'Kinrossshire',
@@ -5663,8 +5672,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//613
-			//perth, dunkeld, elcho, inverquiech, kinclaven, clunie, abernethy, muthill, scone, ruthven
+			//614
+			//perth, dunkeld, elcho, inverquiech, kinclaven, clunie, abernethy, muthill, scone, ruthven, inchaffray
             DB::table('counties')->insert([
 				'county_name' => 'Perthshire',
 				'county_category' => 'Feudal',
@@ -5673,7 +5682,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//Bernicia
-			//614
+			//615
 			//berwick, lauder, thirlestane, duns, coldstream
             DB::table('counties')->insert([
 				'county_name' => 'Berwickshire',
@@ -5682,7 +5691,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//615
+			//616
 			//edinburgh, holyrood, roslyn, arniston, craigmillar, bathgate, strathbrock
             DB::table('counties')->insert([
 				'county_name' => 'Edinburghshire',
@@ -5691,7 +5700,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//616
+			//617
 			//haddington, dunbar, byres, dirleton, innerwick, markle, tantallon, waughton, yester
             DB::table('counties')->insert([
 				'county_name' => 'Haddingtonshire',
@@ -5700,7 +5709,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//617
+			//618
 			//linlithgow, livingston, abercorn, falkirk
             DB::table('counties')->insert([
 				'county_name' => 'Linlithgowshire',
@@ -5709,7 +5718,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);		
-			//618
+			//619
 			//stirling, dunblane, cambuskenneth, culcreuch, mugodock
             DB::table('counties')->insert([
 				'county_name' => 'Stirlingshire',
@@ -5719,7 +5728,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Dalriada
-			//619
+			//620
 			//lismore, coeffin, achanduin, saddell, dunadd, ardchattan, ardtonish
             DB::table('counties')->insert([
 				'county_name' => 'Argyll',
@@ -5728,7 +5737,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//620
+			//621
 			//brodick, lamlash
             DB::table('counties')->insert([
 				'county_name' => 'Bute',
@@ -5737,7 +5746,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//621
+			//622
 			//rushen, douglas, peel, ramsey, bemaken, ballaugh, marown, onchan
             DB::table('counties')->insert([
 				'county_name' => 'Mann',
@@ -5747,7 +5756,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Fortriu
-			//622
+			//623
 			//dingwall, fortrose, ross
             DB::table('counties')->insert([
 				'county_name' => 'Cromartyshire',
@@ -5756,7 +5765,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);
-			//623
+			//624
 			//elgin, dallas, forres, kinloss, urquhart, duffus
             DB::table('counties')->insert([
 				'county_name' => 'Elginshire',
@@ -5765,7 +5774,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//624
+			//625
 			//inverness, kilmallie, inverlochy, mingarry, applecross, beauly
             DB::table('counties')->insert([
 				'county_name' => 'Invernessshire',
@@ -5774,7 +5783,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//625
+			//626
 			//nairn, rait, cawdor, eren
             DB::table('counties')->insert([
 				'county_name' => 'Nairnshire',
@@ -5783,7 +5792,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//626
+			//627
 			//dornoch, durness, dunrobin, skelbo, skibo, berriedale, aberscross
             DB::table('counties')->insert([
 				'county_name' => 'Sutherland',
@@ -5793,7 +5802,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Pictish'
             ]);
 			//Galloway
-			//627
+			//628
 			//kirkcudbright, annan, buittle, caerloverock, dundrennan
             DB::table('counties')->insert([
 				'county_name' => 'Kirkcudbrightshire',
@@ -5802,7 +5811,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//628
+			//629
 			//wigtown, whithorn, cruggleton, fearn, glenluce
             DB::table('counties')->insert([
 				'county_name' => 'Wigtownshire',
@@ -5812,7 +5821,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Gododdin
-			//629
+			//630
 			//dumfries, auchen, closeburn, lochmaben, robgill, sanquhar, tibbers, dercongal
             DB::table('counties')->insert([
 				'county_name' => 'Dumfriesshire',
@@ -5821,7 +5830,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//630
+			//631
 			//peebles, skirling, mossfennan, traquair
             DB::table('counties')->insert([
 				'county_name' => 'Peeblesshire',
@@ -5830,7 +5839,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//631
+			//632
 			//roxburgh, jedburgh, kelso, dryburgh, melrose, hawick
             DB::table('counties')->insert([
 				'county_name' => 'Roxburghshire',
@@ -5839,7 +5848,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//632
+			//633
 			//selkirk, yarrow, galashiels
             DB::table('counties')->insert([
 				'county_name' => 'Selkirkshire',
@@ -5849,7 +5858,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic'
             ]);		
 			//Strathclyde
-			//633
+			//634
 			//ayr, largs, busbie, cessnock, crossraguel, barnweill, craigie, gadgirth
             DB::table('counties')->insert([
 				'county_name' => 'Ayrshire',
@@ -5858,7 +5867,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//634
+			//635
 			//dunbarton, inchmurrin
             DB::table('counties')->insert([
 				'county_name' => 'Dunbartonshire',
@@ -5867,7 +5876,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//635
+			//636
 			//lanark, glasgow, carstairs, kilbride, rutherglen, crookston
             DB::table('counties')->insert([
 				'county_name' => 'Lanarkshire',
@@ -5876,7 +5885,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
-			//636
+			//637
 			//paisley, polnoon
             DB::table('counties')->insert([
 				'county_name' => 'Renfrewshire',
@@ -5888,7 +5897,7 @@ class CountySeeder extends Seeder
 			//Aragon
 			//Aragon
 			//Aragon
-			//637
+			//638
 			//alcaniz, caspe, cantavieja, codonera, alcorisa
             DB::table('counties')->insert([
 				'county_name' => 'Aragon',
@@ -5897,7 +5906,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//638
+			//639
 			//monzon, san pedro, fraga
             DB::table('counties')->insert([
 				'county_name' => 'Cinca',
@@ -5906,7 +5915,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//639
+			//640
 			//valderrobres, valjunquera, arens, lledo, fuentespalda
             DB::table('counties')->insert([
 				'county_name' => 'Matarrana',
@@ -5916,7 +5925,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Barcelona
-			//640
+			//641
 			//manresa, cardona, rajadell
             DB::table('counties')->insert([
 				'county_name' => 'Bages',
@@ -5925,7 +5934,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//641
+			//642
 			//barcelona, santa coloma, badalona, castellet
             DB::table('counties')->insert([
 				'county_name' => 'Barcelona',
@@ -5934,7 +5943,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//642
+			//643
 			//berga, baga, san salvador, gironella
             DB::table('counties')->insert([
 				'county_name' => 'Bergueda',
@@ -5943,7 +5952,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
-			//643
+			//644
 			//san feliu, fels, montserrat, san boi, cornella, corbera
             DB::table('counties')->insert([
 				'county_name' => 'Llobregat',
@@ -5952,7 +5961,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//644
+			//645
 			//mataro, cabrils, dosrius, santa florentina
             DB::table('counties')->insert([
 				'county_name' => 'Maresme',
@@ -5961,7 +5970,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
-			//645
+			//646
 			//vic, manlleu, tona, san julian, seva, cabrera
             DB::table('counties')->insert([
 				'county_name' => 'Osona',
@@ -5970,7 +5979,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//646
+			//647
 			//terrassa, bisbal, ripollet, sabadell, san marcial, granollers, franqueses, canoves, roca, ametlla, gallifa
             DB::table('counties')->insert([
 				'county_name' => 'Valles',
@@ -5980,7 +5989,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Girona
-			//647
+			//648
 			//puigcerda, llivia
             DB::table('counties')->insert([
 				'county_name' => 'Cerdanya',
@@ -5989,7 +5998,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//648
+			//649
 			//castellano, corneilla
             DB::table('counties')->insert([
 				'county_name' => 'Conflent',
@@ -5998,7 +6007,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//649
+			//650
 			//emporda, bisbal, san feliu, figueres, peralada, requesens, pubol, quermanco, montgri
             DB::table('counties')->insert([
 				'county_name' => 'Emporda',
@@ -6007,7 +6016,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//650
+			//651
 			//girona, salto
             DB::table('counties')->insert([
 				'county_name' => 'Girones',
@@ -6016,7 +6025,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//651
+			//652
 			//rennes, limoux 
             DB::table('counties')->insert([
 				'county_name' => 'Razes',
@@ -6025,7 +6034,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//652
+			//653
 			//ripoll, besalu, san joan, camprodon, olot
             DB::table('counties')->insert([
 				'county_name' => 'Ripolles',
@@ -6034,7 +6043,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
-			//653
+			//654
 			//perpignan, elna
             DB::table('counties')->insert([
 				'county_name' => 'Rosello',
@@ -6043,7 +6052,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Occitan'
             ]);
-			//654
+			//655
 			//santa coloma, lloret, blanes, cassa
             DB::table('counties')->insert([
 				'county_name' => 'Selva',
@@ -6053,7 +6062,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Huesca
-			//655
+			//656
 			//huesca, loarre, montearagon
             DB::table('counties')->insert([
 				'county_name' => 'Huesca',
@@ -6062,7 +6071,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
-			//656
+			//657
 			//jacca, suesa, mianos, san juan
             DB::table('counties')->insert([
 				'county_name' => 'Jacetania',
@@ -6071,7 +6080,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
-			//657
+			//658
 			//benabarre, graus
             DB::table('counties')->insert([
 				'county_name' => 'Ribagorza',
@@ -6080,7 +6089,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//658
+			//659
 			//boltana, ainsa
             DB::table('counties')->insert([
 				'county_name' => 'Sobrarbe',
@@ -6090,7 +6099,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Lleida
-			//659
+			//660
 			//lleida, besora
             DB::table('counties')->insert([
 				'county_name' => 'Lleida',
@@ -6099,7 +6108,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//660
+			//661
 			//talarn, eroles
             DB::table('counties')->insert([
 				'county_name' => 'Pallars',
@@ -6108,7 +6117,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//661
+			//662
 			//urgell, balaguer, mollerusa, tarrega
             DB::table('counties')->insert([
 				'county_name' => 'Urgell',
@@ -6118,7 +6127,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//Tarragona
-			//662
+			//663
 			//amposta, rapita, alcanar
             DB::table('counties')->insert([
 				'county_name' => 'Montsia',
@@ -6127,7 +6136,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//663
+			//664
 			//tarragona, poblet
             DB::table('counties')->insert([
 				'county_name' => 'Tarragona',
@@ -6136,7 +6145,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//664
+			//665
 			//tortosa, alfara
             DB::table('counties')->insert([
 				'county_name' => 'Tortosa',
@@ -6146,7 +6155,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//Teruel
-			//665
+			//666
 			//albarracin, peracense, bezas, manzanera
             DB::table('counties')->insert([
 				'county_name' => 'Albarracin',
@@ -6155,7 +6164,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
-			//666
+			//667
 			//teruel, alfambra
             DB::table('counties')->insert([
 				'county_name' => 'Teruel',
@@ -6165,7 +6174,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Zaragoza
-			//667
+			//668
 			//ileuca, moncayo, jargue, isuela, olvega
             DB::table('counties')->insert([
 				'county_name' => 'Aranda',
@@ -6174,7 +6183,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//668
+			//669
 			//calatayud, maluenda, piedra
             DB::table('counties')->insert([
 				'county_name' => 'Calatayud',
@@ -6183,7 +6192,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
-			//669
+			//670
 			//zaragoza, tarazona
             DB::table('counties')->insert([
 				'county_name' => 'Zaragoza',
@@ -6194,7 +6203,7 @@ class CountySeeder extends Seeder
             ]);						
 			//Navarre
 			//Alava
-			//670
+			//671
 			//ayala, arceniega, mariaca
             DB::table('counties')->insert([
 				'county_name' => 'Ayala',
@@ -6203,7 +6212,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
-			//671
+			//672
 			//gasteiz, armentia
             DB::table('counties')->insert([
 				'county_name' => 'Gasteiz',
@@ -6212,7 +6221,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
-			//672
+			//673
 			//labastida, laguardia, lanciego, san millan, cornago, clavijo, arnedo, leiva, najera, calahorra
             DB::table('counties')->insert([
 				'county_name' => 'Rioja',
@@ -6222,7 +6231,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Gipuzcoa
-			//673
+			//674
 			//san sebastian, astigarraga, zarautz
             DB::table('counties')->insert([
 				'county_name' => 'Donostialdea',
@@ -6231,7 +6240,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//674
+			//675
 			//leitza, leintz
             DB::table('counties')->insert([
 				'county_name' => 'Leitzaldea',
@@ -6240,7 +6249,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//675
+			//676
 			//mungia, butron
             DB::table('counties')->insert([
 				'county_name' => 'Mungialdea',
@@ -6249,7 +6258,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//676
+			//677
 			//tolosa, amasa
             DB::table('counties')->insert([
 				'county_name' => 'Tolosaldea',
@@ -6259,7 +6268,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Navarre
-			//677
+			//678
 			//estella, viana
             DB::table('counties')->insert([
 				'county_name' => 'Estella',
@@ -6268,7 +6277,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//678
+			//679
 			//pamplona, orcoyen
             DB::table('counties')->insert([
 				'county_name' => 'Irunerria',
@@ -6277,7 +6286,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//679
+			//680
 			//sanguesa, xavier, san salvador
             DB::table('counties')->insert([
 				'county_name' => 'Sanguesa',
@@ -6286,7 +6295,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
-			//680
+			//681
 			//tafalla, olite
             DB::table('counties')->insert([
 				'county_name' => 'Tafalla',
@@ -6295,7 +6304,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//681
+			//682
 			//tudela, cascante, tulebras
             DB::table('counties')->insert([
 				'county_name' => 'Tudela',
@@ -6304,7 +6313,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);				
-			//682
+			//683
 			//ultzama, arre, san miguel
             DB::table('counties')->insert([
 				'county_name' => 'Ultzamaldea',
@@ -6314,7 +6323,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Viscaya
-			//683
+			//684
 			//bermeo, gernika
             DB::table('counties')->insert([
 				'county_name' => 'Busturialdea',
@@ -6323,7 +6332,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
-			//684
+			//685
 			//bilbao, erandio, santa maria, estao
             DB::table('counties')->insert([
 				'county_name' => 'Bilbaoldea',
@@ -6332,7 +6341,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
-			//685
+			//686
 			//arrigorriaga, berango
             DB::table('counties')->insert([
 				'county_name' => 'Uribe',
@@ -6344,7 +6353,7 @@ class CountySeeder extends Seeder
 			//Castile
 			//Castile
 			//Avila
-			//686
+			//687
 			//avila, barco, bonilla, mironcillo, villatoro
             DB::table('counties')->insert([
 				'county_name' => 'Avila',
@@ -6353,7 +6362,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//687
+			//688
 			//arevalo, torralba
             DB::table('counties')->insert([
 				'county_name' => 'Morana',
@@ -6362,7 +6371,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//688
+			//689
 			//san pedro, mombeltran
             DB::table('counties')->insert([
 				'county_name' => 'San Pedro',
@@ -6372,7 +6381,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//Burgos
-			//689
+			//690
 			//lerma, barriosuso, villahoz, cebrecos
             DB::table('counties')->insert([
 				'county_name' => 'Arlanza',
@@ -6381,7 +6390,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//690
+			//691
 			//briviesca, rodilla, san salvador, miranda, moscadero
             DB::table('counties')->insert([
 				'county_name' => 'Bureba',
@@ -6390,7 +6399,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//691
+			//692
 			//burgos, ubierna, saldana, tardajos, rabe, modubar
             DB::table('counties')->insert([
 				'county_name' => 'Burgos',
@@ -6400,7 +6409,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian'
             ]);						
 			//Palencia
-			//692
+			//693
 			//palencia, medina, villarcayo, taranco, frias
             DB::table('counties')->insert([
 				'county_name' => 'Campos',
@@ -6409,7 +6418,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//693
+			//694
 			//palenzuela, astudillo, castroverde
             DB::table('counties')->insert([
 				'county_name' => 'Cerrato',
@@ -6418,7 +6427,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//694
+			//695
 			//matabuena, bustillo, santa maria, villabellaco
             DB::table('counties')->insert([
 				'county_name' => 'Valdivia',
@@ -6428,7 +6437,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian'
             ]);		
 			//Segovia
-			//695
+			//696
 			//coca, villeguillo, navas, santa cruz
             DB::table('counties')->insert([
 				'county_name' => 'Coca',
@@ -6437,7 +6446,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//696
+			//697
 			//segovia, turegano, pedraza
             DB::table('counties')->insert([
 				'county_name' => 'Segovia',
@@ -6446,7 +6455,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//697
+			//698
 			//sepulveda, castilnovo
             DB::table('counties')->insert([
 				'county_name' => 'Sepulveda',
@@ -6456,7 +6465,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//Soria
-			//698
+			//699
 			//almazan, raya, nagima, soliedra
             DB::table('counties')->insert([
 				'county_name' => 'Almazan',
@@ -6465,7 +6474,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//699
+			//700
 			//berlanga, rello
             DB::table('counties')->insert([
 				'county_name' => 'Berlanga',
@@ -6474,7 +6483,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//700
+			//701
 			//gomara, almenar, cihuela, ciria, penalcazar
             DB::table('counties')->insert([
 				'county_name' => 'Gomara',
@@ -6483,7 +6492,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//701
+			//702
 			//osma, ucero, caracena
             DB::table('counties')->insert([
 				'county_name' => 'Osma',
@@ -6492,7 +6501,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//702
+			//703
 			//soria, calatanazor, garray, gormaz, san esteban
             DB::table('counties')->insert([
 				'county_name' => 'Soria',
@@ -6502,7 +6511,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//Toledo
-			//703
+			//704
 			//torrecilla, sevilleja, san martin
             DB::table('counties')->insert([
 				'county_name' => 'Jara',
@@ -6511,7 +6520,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//704
+			//705
 			//madrid, manzanares
             DB::table('counties')->insert([
 				'county_name' => 'Madrid',
@@ -6520,7 +6529,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//705
+			//706
 			//ocana, oreja
             DB::table('counties')->insert([
 				'county_name' => 'Ocana',
@@ -6529,7 +6538,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//706
+			//707
 			//sesena, illescas, villaseca, cabanas, numancia, olmos
             DB::table('counties')->insert([
 				'county_name' => 'Sagra',
@@ -6538,7 +6547,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//707
+			//708
 			//talavera, bayuela, malpica, oropesa, san martin
             DB::table('counties')->insert([
 				'county_name' => 'Talavera',
@@ -6547,7 +6556,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//708
+			//709
 			//toledo, montalban, guadamur, consuegra, cuerva, malamoneda, mascaraque, orgaz, guadalerzas 
             DB::table('counties')->insert([
 				'county_name' => 'Toledo',
@@ -6556,7 +6565,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//709
+			//710
 			//torrijos, fuensalida, barcience, escalona, maqueda, santa cruz
             DB::table('counties')->insert([
 				'county_name' => 'Torrijos',
@@ -6565,7 +6574,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//710
+			//711
 			//aranjuez, chinchon, villarejo
             DB::table('counties')->insert([
 				'county_name' => 'Vegas',
@@ -6575,7 +6584,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//Valladolid
-			//711
+			//712
 			//renedo, terradillos, santa maria, torresandino, amusquillo, canillas, encinas
             DB::table('counties')->insert([
 				'county_name' => 'Esgueva',
@@ -6584,7 +6593,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//712
+			//713
 			//medina, tordesillas, mota, pozal
             DB::table('counties')->insert([
 				'county_name' => 'Medina',
@@ -6593,7 +6602,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);
-			//713
+			//714
 			//iscar, portillo, cabrejas, cuellar, olmedo
             DB::table('counties')->insert([
 				'county_name' => 'Pinares',
@@ -6602,7 +6611,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//714
+			//715
 			//penafiel, corrales, curiel
             DB::table('counties')->insert([
 				'county_name' => 'Penafiel',
@@ -6611,7 +6620,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//715
+			//716
 			//valladolid, simancas, fuensaldana, torrelobaton, villalba, simancas, tudela, santa maria, cabezon
             DB::table('counties')->insert([
 				'county_name' => 'Pisuerga',
@@ -6620,7 +6629,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
-			//716
+			//717
 			//medina, uruena, villabragima
             DB::table('counties')->insert([
 				'county_name' => 'Rioseco',
@@ -6631,7 +6640,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Galicia
 			//Coruna
-			//717
+			//718
 			//coruna, arteijo, san salvador, culleredo, sada
             DB::table('counties')->insert([
 				'county_name' => 'Coruna',
@@ -6640,7 +6649,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//718
+			//719
 			//pontedeume, san juan, cabanas
             DB::table('counties')->insert([
 				'county_name' => 'Eume',
@@ -6649,7 +6658,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//719
+			//720
 			//ferrol, mogardos, moeche
             DB::table('counties')->insert([
 				'county_name' => 'Ferrol',
@@ -6658,7 +6667,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//720
+			//721
 			//santiago, altamira, vedra
             DB::table('counties')->insert([
 				'county_name' => 'Santiago',
@@ -6667,7 +6676,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//721
+			//722
 			//aranga, faro, traba, san xurxo, vimianzo
             DB::table('counties')->insert([
 				'county_name' => 'Trastamara',
@@ -6677,7 +6686,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Galician'
             ]);
 			//Lugo
-			//722
+			//723
 			//lugo, castroverde, doiras, friol
             DB::table('counties')->insert([
 				'county_name' => 'Lugo',
@@ -6686,7 +6695,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//723
+			//724
 			//alfoz, foz, lorenzana, viveiro, ribadeo 
             DB::table('counties')->insert([
 				'county_name' => 'Marina',
@@ -6695,7 +6704,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//724
+			//725
 			//meira, pol
             DB::table('counties')->insert([
 				'county_name' => 'Meira',
@@ -6704,7 +6713,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);	
-			//725
+			//726
 			//sarria, incio
             DB::table('counties')->insert([
 				'county_name' => 'Sarria',
@@ -6713,7 +6722,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//726
+			//727
 			//palas, monterosso
             DB::table('counties')->insert([
 				'county_name' => 'Ulloa',
@@ -6723,7 +6732,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Galician'
             ]);
 			//Ourense
-			//727
+			//728
 			//carballino, pinor, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Carballino',
@@ -6732,7 +6741,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//728
+			//729
 			//celanova, gomesende
             DB::table('counties')->insert([
 				'county_name' => 'Celanova',
@@ -6741,7 +6750,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//729
+			//730
 			//ourense, barbadanes, san esteban, ribadavia, maceda
             DB::table('counties')->insert([
 				'county_name' => 'Ourense',
@@ -6750,7 +6759,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//730
+			//731
 			//barco, villamartin, carbelleda
             DB::table('counties')->insert([
 				'county_name' => 'Valdeorras',
@@ -6759,7 +6768,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);	
-			//731
+			//732
 			//viana, monterrey
             DB::table('counties')->insert([
 				'county_name' => 'Viana',
@@ -6769,7 +6778,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Galician'
             ]);
 			//Pontevedra
-			//732
+			//733
 			//caldas, catoira, san lazaro
             DB::table('counties')->insert([
 				'county_name' => 'Caldas',
@@ -6778,7 +6787,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);
-			//733
+			//734
 			//pontevedra, caldelas
             DB::table('counties')->insert([
 				'county_name' => 'Pontevedra',
@@ -6787,7 +6796,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Galician'
             ]);	
-			//734
+			//735
 			//vigo, sobroso, tuy, tebra, tomino, sotomayor
             DB::table('counties')->insert([
 				'county_name' => 'Vigo',
@@ -6798,7 +6807,7 @@ class CountySeeder extends Seeder
             ]);			
 			//Leon
 			//Caceres
-			//735
+			//736
 			//valencia, herrera, cabeza, san vincente, eljas, brozas, penafiel
             DB::table('counties')->insert([
 				'county_name' => 'Alcantara',
@@ -6807,7 +6816,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//736
+			//737
 			//caceres, torreorgaz, mogollones, monroy, portezuelo, montanchez
             DB::table('counties')->insert([
 				'county_name' => 'Caceres',
@@ -6816,7 +6825,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//737
+			//738
 			//plasencia, coria, galisteo, jarandilla, monfrague, valverde, segura
             DB::table('counties')->insert([
 				'county_name' => 'Plasencia',
@@ -6825,7 +6834,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//738
+			//739
 			//trujillo, almaraz, belvis
             DB::table('counties')->insert([
 				'county_name' => 'Trujillo',
@@ -6835,7 +6844,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//Leon
-			//739
+			//740
 			//astorga, san justo, santa colomba
             DB::table('counties')->insert([
 				'county_name' => 'Astorga',
@@ -6844,7 +6853,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//740
+			//741
 			//baneza, castrillo, castrocalbon, destriana, san esteban, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Baneza',
@@ -6853,7 +6862,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);	
-			//741
+			//742
 			//ponferrada, cornatel, sarracin, san pedro, balboa, san andres, bembibre, villafranca
             DB::table('counties')->insert([
 				'county_name' => 'Bierzo',
@@ -6862,7 +6871,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//742
+			//743
 			//leon, san andres, ribaseca, san claudio, sariegos
             DB::table('counties')->insert([
 				'county_name' => 'Leon',
@@ -6871,7 +6880,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//743
+			//744
 			//sahagun, almanza, cea
             DB::table('counties')->insert([
 				'county_name' => 'Sahagun',

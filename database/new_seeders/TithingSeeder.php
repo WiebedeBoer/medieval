@@ -24,8 +24,10 @@ class TithingSeeder extends Seeder
             DB::table('tithings')->insert([
 				'tithing_name' => '',
 				'tithing_category' => ' ',		//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager	
-				'de_jure_barony' => '',		
+				'de_jure_barony' => '',	
+				'position' => '',				
 				'manor_court' => '',			//Barony, County, Duchy, Royal, University, Ecclesiastical
+				'manor_category' => '',			//Chapel, Church, Cathedral, Priory, Abbey, University, Port, Castle
 				'quarter_northeast' => '',		//, , , ; default=Fallow
 				'quarter_northwest' => '',		//, , , ; default=Fallow
 				'quarter_southeast' => '',		//, , , ; default=Fallow
@@ -39,19 +41,27 @@ class TithingSeeder extends Seeder
             ]);
 			*/
 			
-			//catholic
-			//western continental
+
+			//Holy Roman Empire	
+			//Germany
+			//Austria
+			// 
 			//
             DB::table('tithings')->insert([
 				'tithing_name' => '',
 				'tithing_category' => 'Feudal',
 				'de_jure_barony' => '',
-				'manor_court' => 'Barony'				
+				'position' => '',
+				'manor_court' => 'Barony',
+				'manor_category' => 'Castle'				
             ]);
-	
-		
-		//defunct empires
-	
-			
+            DB::table('tithings')->insert([
+				'tithing_name' => '',
+				'tithing_category' => 'Ecclesiastical',
+				'de_jure_barony' => '',
+				'position' => '',
+				'manor_court' => 'Ecclesiastical',
+				'manor_category' => 'Cathedral'				
+            ]);				
     }
 }
