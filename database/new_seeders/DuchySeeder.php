@@ -1310,7 +1310,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//115
-			//Coca, Segovia, Sepulveda
+			//Coca, Riaza, Segovia, Sepulveda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Segovia',
 				'duchy_category' => 'Feudal',
