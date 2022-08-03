@@ -6926,7 +6926,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
+			//749
 			//ledesma, zafron, tremedal, monleras, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Ledesma',
@@ -6935,7 +6935,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);	
-			//
+			//750
 			//penaranda, alaraz, alconada, cantaracillo
             DB::table('counties')->insert([
 				'county_name' => 'Penaranda',
@@ -6944,8 +6944,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//rodrigo
+			//751
+			//rodrigo, ituero, espeja, fuentes, alameda, abusejo, aldahuela, yeltes, retortillo, tenebron, agallas, herguijuela, martiago
             DB::table('counties')->insert([
 				'county_name' => 'Rodrigo',
 				'county_category' => '',
@@ -6953,8 +6953,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//salamanca, tamames
+			//752
+			//salamanca, tamames, aldeatejada, arapiles, barbadillo, buenamadre, calvarassa, calzada, san munoz, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Salamanca',
 				'county_category' => '',
@@ -6962,8 +6962,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//
+			//753
+			//vitigudino, san felices, ahigal, bogajo, cerralbo, fuenteliante, lumbrales, olmedo, masueco, mieza, perena, vilvestre, almendra
             DB::table('counties')->insert([
 				'county_name' => 'Vitigudino',
 				'county_category' => '',
@@ -6972,8 +6972,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//Zamora
-			//
-			//zamora
+			//754
+			//zamora, alcanices, alcorcillo, arcillera, villalonso
             DB::table('counties')->insert([
 				'county_name' => 'Aliste',
 				'county_category' => '',
@@ -6981,8 +6981,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//carbajales
+			//755
+			//carbajales, cernadilla, espanedo, manzanal, peque
             DB::table('counties')->insert([
 				'county_name' => 'Carballeda',
 				'county_category' => '',
@@ -6990,8 +6990,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//
+			//756
+			//guarrate, argujillo, canizal
             DB::table('counties')->insert([
 				'county_name' => 'Guarena',
 				'county_category' => '',
@@ -6999,8 +6999,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//alcanices
+			//757
+			//sanabria, alcanices, otero, cerezal, calabor, santa cruz, trefacio
             DB::table('counties')->insert([
 				'county_name' => 'Sanabria',
 				'county_category' => '',
@@ -7008,8 +7008,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//bermillo, fermoselle
+			//758
+			//bermillo, fermoselle, alfaraz, asmesnal
             DB::table('counties')->insert([
 				'county_name' => 'Sayago',
 				'county_category' => '',
@@ -7017,8 +7017,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Leonese'
             ]);
-			//
-			//tabara
+			//759
+			//tabara, faramontanos, moreruela, pozuelo
             DB::table('counties')->insert([
 				'county_name' => 'Tabara',
 				'county_category' => '',
@@ -7028,7 +7028,7 @@ class CountySeeder extends Seeder
             ]);
 			//Asturias
 			//Asturias
-			//
+			//760
 			//aviles, candamo, castrillon, gozon
             DB::table('counties')->insert([
 				'county_name' => 'Aviles',
@@ -7037,7 +7037,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Asturian'
             ]);
-			//
+			//761
 			//gijon, carreno, villaviciosa, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Gijon',
@@ -7046,7 +7046,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Asturian'
             ]);
-			//
+			//762
 			//navia, castropol, coana, san martin, san tirzo, santa eulalia, villanueva
             DB::table('counties')->insert([
 				'county_name' => 'Navia',
@@ -7055,7 +7055,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Asturian'
             ]);	
-			//
+			//763
 			//oviedo, bimenes, cabranes, grado, llanera, morcin, proaza, riosa, siero, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Oviedo',
@@ -7065,7 +7065,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Asturian'
             ]);	
 			//Cantabria
-			//
+			//764
 			//reinosa, santa maria, san pedro, argueso, aguilar
             DB::table('counties')->insert([
 				'county_name' => 'Campoo',
@@ -7074,7 +7074,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Cantabrian'
             ]);
-			//
+			//765
 			//liebana, potes, piasca, san toribio
             DB::table('counties')->insert([
 				'county_name' => 'Liebana',
@@ -7083,7 +7083,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Cantabrian'
             ]);
-			//
+			//766
 			//santander, collado, astillero
             DB::table('counties')->insert([
 				'county_name' => 'Santander',
@@ -7092,7 +7092,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Cantabrian'
             ]);
-			//
+			//767
 			//miera, santona, san vincente, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Trasmiera',
@@ -7103,8 +7103,8 @@ class CountySeeder extends Seeder
             ]);				
 			//Portugal
 			//Aveiro
-			//
-			//aveiro
+			//768
+			//aveiro, agueda
             DB::table('counties')->insert([
 				'county_name' => 'Aveiro',
 				'county_category' => '',
@@ -7112,8 +7112,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
-			//braga
+			//769
+			//braga, faria, barcelos
             DB::table('counties')->insert([
 				'county_name' => 'Braga',
 				'county_category' => '',
@@ -7121,8 +7121,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
-			//porto
+			//770
+			//porto, cedofeita
             DB::table('counties')->insert([
 				'county_name' => 'Porto',
 				'county_category' => '',
@@ -7130,8 +7130,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
-			//viana
+			//771
+			//viana, arcos, caminha, melgaco
             DB::table('counties')->insert([
 				'county_name' => 'Viana',
 				'county_category' => '',
@@ -7140,8 +7140,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//Beira
-			//
-			//
+			//772
+			//castelo branco, belmonte, fundao, serta
             DB::table('counties')->insert([
 				'county_name' => 'Castelo Branco',
 				'county_category' => '',
@@ -7149,7 +7149,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
+			//773
 			//coimbra
             DB::table('counties')->insert([
 				'county_name' => 'Coimbra',
@@ -7158,8 +7158,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
-			//
+			//774
+			//guarda, sabugal
             DB::table('counties')->insert([
 				'county_name' => 'Guarda',
 				'county_category' => '',
@@ -7167,7 +7167,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);	
-			//
+			//775
 			//viseu
             DB::table('counties')->insert([
 				'county_name' => 'Viseu',
@@ -7177,7 +7177,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese'
             ]);				
 			//Braganca
-			//
+			//776
 			//braganca
             DB::table('counties')->insert([
 				'county_name' => 'Braganca',
@@ -7186,7 +7186,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
+			//777
 			//villa real
             DB::table('counties')->insert([
 				'county_name' => 'Vila Real',
@@ -7196,7 +7196,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese'
             ]);	
 			//Estremadura
-			//
+			//778
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Leiria',
@@ -7205,7 +7205,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
+			//779
 			//lisboa
             DB::table('counties')->insert([
 				'county_name' => 'Lisboa',
@@ -7214,7 +7214,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
+			//780
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Ribatejo',
@@ -7223,7 +7223,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
-			//
+			//781
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Santarem',
@@ -7232,7 +7232,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Portuguese'
             ]);	
-			//
+			//782
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Setubal',
@@ -7244,7 +7244,7 @@ class CountySeeder extends Seeder
 			//Danelagen
 			//Denmark
 			//Jutland
-			//
+			//783
 			//aarhus, horsens, essenbaek, randers, alling, vissing, meilgaard, ulstrup
             DB::table('counties')->insert([
 				'county_name' => 'Aarhus',
@@ -7253,7 +7253,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//784
 			//borglum, saeby, vrejlev, hundslund, dueholm, vestervig, hojen
             DB::table('counties')->insert([
 				'county_name' => 'Borglum',
@@ -7262,7 +7262,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//785
 			//ribe, seem, kolding, vejle
             DB::table('counties')->insert([
 				'county_name' => 'Ribe',
@@ -7271,7 +7271,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//786
 			//slesvig, guldholm, flensburg, rude, tonder, logum, haderslev, alsborg, sonderborg
             DB::table('counties')->insert([
 				'county_name' => 'Slesvig',
@@ -7280,7 +7280,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);	
-			//
+			//787
 			//viborg, aalborg, sebber, vitskol, glenstrup, spottrup
             DB::table('counties')->insert([
 				'county_name' => 'Viborg',
@@ -7290,7 +7290,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Danish'
             ]);			
 			//Scania
-			//
+			//788
 			//solvesborg, ronneby
             DB::table('counties')->insert([
 				'county_name' => 'Blekinge',
@@ -7299,7 +7299,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);	
-			//
+			//789
 			//gamleborg, ronne, hammershus, aarsdale, nekso, gudhjem, hasle, aakirkeby, sandvig, svaneke
             DB::table('counties')->insert([
 				'county_name' => 'Bornholm',
@@ -7308,7 +7308,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//790
 			//falkenberg, varberg, halmstad, laholm, as
             DB::table('counties')->insert([
 				'county_name' => 'Halland',
@@ -7317,7 +7317,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);	
-			//
+			//791
 			//hiddensee, maschenholt, bergen
             DB::table('counties')->insert([
 				'county_name' => 'Rugen',
@@ -7326,7 +7326,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//792
 			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholm, smedstorp, lund, herrevad, malmohus, borgeby
             DB::table('counties')->insert([
 				'county_name' => 'Scania',
@@ -7336,7 +7336,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Danish'
             ]);				
 			//Sjaeland
-			//
+			//793
 			//odense, assens, dalum, holme, faborg, svendborg, nyborg
             DB::table('counties')->insert([
 				'county_name' => 'Funen',
@@ -7345,7 +7345,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//794
 			//nakskov, halsted, nysted, nykobing, aalholm
             DB::table('counties')->insert([
 				'county_name' => 'Lolland',
@@ -7354,7 +7354,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//795
 			//roskilde, koge, selso, vallo 				
             DB::table('counties')->insert([
 				'county_name' => 'Roskilde',
@@ -7363,7 +7363,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);
-			//
+			//796
 			//kobenhavn, esrum, asserbo, soborg
             DB::table('counties')->insert([
 				'county_name' => 'Sjaeland',
@@ -7372,7 +7372,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Danish'
             ]);	
-			//
+			//797
 			//soro, antvorskov, kalundborg, ringsted, naestved, vordingborg
             DB::table('counties')->insert([
 				'county_name' => 'Soro',
@@ -7383,7 +7383,7 @@ class CountySeeder extends Seeder
             ]);			
 			//Norway
 			//Nordjor (Northern Isles)
-			//
+			//798
 			//wick, halkirk, thurso, sinclair
             DB::table('counties')->insert([
 				'county_name' => 'Caithness',
@@ -7392,7 +7392,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
-			//
+			//799
 			//kirkwall, holm, sandwick, eynhallow, birsay
             DB::table('counties')->insert([
 				'county_name' => 'Orkney',
@@ -7401,7 +7401,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//800
 			//tingwall, sandsting, dunrossness, cunningsburgh
             DB::table('counties')->insert([
 				'county_name' => 'Shetland',
@@ -7411,7 +7411,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//Sodor (Southern Isles)
-			//
+			//801
 			//dunyvaig, kilchoman, kildalton
             DB::table('counties')->insert([
 				'county_name' => 'Islay',
@@ -7420,7 +7420,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Scottish'
             ]);
-			//
+			//802
 			//stornoway, duneistean, aignish
             DB::table('counties')->insert([
 				'county_name' => 'Lewis',
@@ -7429,7 +7429,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//803
 			//iona, moy, aros, duart
             DB::table('counties')->insert([
 				'county_name' => 'Mull',
@@ -7438,7 +7438,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Scottish'
             ]);
-			//
+			//804
 			//dunvegan, dunscaith, duntulm, portree, broadford
             DB::table('counties')->insert([
 				'county_name' => 'Skye',
@@ -7447,7 +7447,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Scottish'
             ]);	
-			//
+			//805
 			//calvay, borve
             DB::table('counties')->insert([
 				'county_name' => 'Uist',
@@ -7457,7 +7457,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);							
 			//Hedmark (eidsivating)
-			//
+			//806
 			//granavollen, tingelstad, lunner, ulnes, hedal, lomen, slidre
             DB::table('counties')->insert([
 				'county_name' => 'Hadeland',
@@ -7466,7 +7466,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//807
 			//hamar, loten, stange, tingnes, moelv
             DB::table('counties')->insert([
 				'county_name' => 'Hedmark',
@@ -7475,7 +7475,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//808
 			//lillestrom, sorum, lorenskog, raelingen, nes, eidsvoll, ullensaker 
             DB::table('counties')->insert([
 				'county_name' => 'Romerike',
@@ -7485,7 +7485,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);
 			//Oppland (frostating)
-			//
+			//809
 			//are, bodin, gildeskal, mattmar 
             DB::table('counties')->insert([
 				'county_name' => 'Jamtland',
@@ -7494,7 +7494,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);
-			//
+			//810
 			//ranem, sakshaug, gangstad, snasa, maere, alstadhaug, stiklestad, orland
             DB::table('counties')->insert([
 				'county_name' => 'Namdal',
@@ -7503,7 +7503,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//811
 			//lillehammer, lom, asnes, follebu, gausdal, ringebu, lena  
             DB::table('counties')->insert([
 				'county_name' => 'Oppland',
@@ -7512,7 +7512,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//812
 			//trondheim, lade, orland, stoksund, haltdal, dolmoya, skaun, mebonden, vaernes 
             DB::table('counties')->insert([
 				'county_name' => 'Trondelag',
@@ -7522,7 +7522,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);						
 			//Rogaland (gulating)
-			//
+			//813
 			//egersund, bjerkreim, heskestad 
             DB::table('counties')->insert([
 				'county_name' => 'Dalane',
@@ -7531,7 +7531,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//814
 			//haugesund, avaldsnes, torvestad, akra 
             DB::table('counties')->insert([
 				'county_name' => 'Haugeland',
@@ -7540,7 +7540,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//815
 			//stavanger, tinghaug, tjora, njaerheim, ogna, varhaug 
             DB::table('counties')->insert([
 				'county_name' => 'Jaeren',
@@ -7549,7 +7549,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//816
 			//sauda, jelsa, hjelmeland, fister, ardal, strand, kvitsoy, suldal 
             DB::table('counties')->insert([
 				'county_name' => 'Rogaland',
@@ -7559,7 +7559,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//Sorland (borgarting)
-			//
+			//817
 			//vanse, oddernes, mandal, spangereid, vigeland, vigmostad, birkenes, moland, hovag 
             DB::table('counties')->insert([
 				'county_name' => 'Agder',
@@ -7568,7 +7568,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//818
 			//skien, siljan, gjerpen, eidanger 
             DB::table('counties')->insert([
 				'county_name' => 'Grenland',
@@ -7577,7 +7577,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//819
 			//eidsborg, bo, kviteseid, sauherad, nesodden, romnes, heddal, flatdal 
             DB::table('counties')->insert([
 				'county_name' => 'Telemark',
@@ -7587,7 +7587,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//Vestland (gulating)
-			//
+			//820
 			//vassas, bronnoy, odda 
             DB::table('counties')->insert([
 				'county_name' => 'Hordaland',
@@ -7596,7 +7596,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);
-			//
+			//821
 			//veoya, aheim, borgund, orskog, rodven, vestnes, kvernes, edoya, tingvoll 
             DB::table('counties')->insert([
 				'county_name' => 'Romsdal',
@@ -7605,7 +7605,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);				
-			//
+			//822
 			//bergen, arstad, lyse, gimmestad
             DB::table('counties')->insert([
 				'county_name' => 'Vestland',
@@ -7615,7 +7615,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian'
             ]);
 			//Viken (borgarting)
-			//
+			//823
 			//asker, baerum, haslum 
             DB::table('counties')->insert([
 				'county_name' => 'Akershus',
@@ -7624,7 +7624,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//824
 			//hallingdal, roldal, flesberg, rollag, nore, uvdal, ringerike, hole 
             DB::table('counties')->insert([
 				'county_name' => 'Buskerud',
@@ -7633,7 +7633,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//825
 			//sarpsborg, askim, trogstad 
             DB::table('counties')->insert([
 				'county_name' => 'Ostfold',
@@ -7642,7 +7642,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
-			//
+			//826
 			//kungahalla, marstrand, uddeval, kville, tanum, vettaland, herrestad, bohus 
             DB::table('counties')->insert([
 				'county_name' => 'Ranrike',
@@ -7651,7 +7651,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//827
 			//larvik, borre, tonsberg, skaun 
             DB::table('counties')->insert([
 				'county_name' => 'Vestfold',
@@ -7660,7 +7660,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Norwegian'
             ]);		
-			//
+			//828
 			//oslo, vestby, hurum, frogn, nesodden, as, ski, enebakk  
             DB::table('counties')->insert([
 				'county_name' => 'Vingulmark',
@@ -7671,7 +7671,7 @@ class CountySeeder extends Seeder
             ]);			
 			//Sweden
 			//Gotland
-			//
+			//829
 			//visby, hemse, vasterhejde, stenkumla, havdhem, kraklingbo, hastnas, roma
             DB::table('counties')->insert([
 				'county_name' => 'Gotland',
@@ -7680,7 +7680,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//830
 			//linkoping, norrkoping, soderkoping, vadstena, skanninge, bjalbo, tidersrum, ekenas, vreta
             DB::table('counties')->insert([
 				'county_name' => 'Ostergotland',
@@ -7689,7 +7689,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//831
 			//husaby, lacko, falkoping, skara, skovde, bogesund, ale, dalaborg, alvborg
             DB::table('counties')->insert([
 				'county_name' => 'Vastergotland',
@@ -7699,7 +7699,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish'
             ]);			
 			//Norrland
-			//
+			//832
 			//gudmund, sjalevads, arnas, anundsjo
             DB::table('counties')->insert([
 				'county_name' => 'Angermanland',
@@ -7708,7 +7708,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);
-			//
+			//833
 			//torsaker, gavle, ockelbo
             DB::table('counties')->insert([
 				'county_name' => 'Gastrikland',
@@ -7717,7 +7717,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);				
-			//
+			//834
 			//ljusdal, bollnas
             DB::table('counties')->insert([
 				'county_name' => 'Halsingland',
@@ -7727,7 +7727,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//Osterland
-			//
+			//835
 			//kastelholm, hammarland
             DB::table('counties')->insert([
 				'county_name' => 'Aland',
@@ -7736,7 +7736,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//836
 			//turku, stenberga, somero, biskopsborg
             DB::table('counties')->insert([
 				'county_name' => 'Finland',
@@ -7745,7 +7745,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//837
 			//viborg, kexholm, hamina, kouvola, hollola
             DB::table('counties')->insert([
 				'county_name' => 'Karelia',
@@ -7754,7 +7754,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//838
 			//raseborg, koskela, esbo, kerava, hogfors
             DB::table('counties')->insert([
 				'county_name' => 'Nyland',
@@ -7763,7 +7763,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//839
 			//ouluborg, korsholm
             DB::table('counties')->insert([
 				'county_name' => 'Ostrobothnia',
@@ -7772,7 +7772,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//840
 			//kokemaki, vreghdenborg
             DB::table('counties')->insert([
 				'county_name' => 'Satakunta',
@@ -7781,7 +7781,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//841
 			//olofsborg, saint michel, nyslott
             DB::table('counties')->insert([
 				'county_name' => 'Savonia',
@@ -7790,7 +7790,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Finnish'
             ]);
-			//
+			//842
 			//hame, birkala
             DB::table('counties')->insert([
 				'county_name' => 'Tavastland',
@@ -7800,7 +7800,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//Smaland
-			//
+			//843
 			//borgholm, alby, ottenby, halltorp, kopingsvik
             DB::table('counties')->insert([
 				'county_name' => 'Oland',
@@ -7809,7 +7809,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//844
 			//kalmar, vastervik, vaxjo, vimmerby, eksjo, ljungby, hulingsryd, hassleby, gamleby
             DB::table('counties')->insert([
 				'county_name' => 'Smaland',
@@ -7819,7 +7819,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish'
             ]);				
 			//Svealand
-			//
+			//845
 			//hedemora, avesta
             DB::table('counties')->insert([
 				'county_name' => 'Dalarna',
@@ -7828,7 +7828,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//846
 			//strangnas, orebro, riseberga, askersund, kumla, goksholm
             DB::table('counties')->insert([
 				'county_name' => 'Narke',
@@ -7837,7 +7837,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//847
 			//stockholm, strangnas, sodertalje, nykoping, torshalla, trosa, djursholm, horningsholm
             DB::table('counties')->insert([
 				'county_name' => 'Sodermanland',
@@ -7846,7 +7846,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//848
 			//uppsala, osthammar, riksby, stockby, solna, sollentuna, sigtuna, enkoping, alsno, penningby, orbyhus
             DB::table('counties')->insert([
 				'county_name' => 'Uppland',
@@ -7855,7 +7855,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//849
 			//arvika, gunnarskog, varnums, alvdal
             DB::table('counties')->insert([
 				'county_name' => 'Varmland',
@@ -7864,7 +7864,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
-			//
+			//850
 			//arboga, norberg, skinnsackeberg, lindesberg
             DB::table('counties')->insert([
 				'county_name' => 'Vastmanland',
