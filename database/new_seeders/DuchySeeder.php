@@ -1479,7 +1479,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//130
-			//Castelo Branco, Coimbra, Guarda, Viseu
+			//Branco, Coimbra, Guarda, Viseu
             DB::table('duchies')->insert([
 				'duchy_name' => 'Beira',
 				'duchy_category' => 'Feudal',
@@ -1501,7 +1501,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//132
-			//Leiria, Lisboa, Ribatejo, Santarem, Setubal
+			//Leiria, Lisboa, Ribatejo, Setubal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estremadura',
 				'duchy_category' => 'Feudal',
