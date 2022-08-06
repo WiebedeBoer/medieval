@@ -7820,7 +7820,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//845
-			//strangnas, orebro, riseberga, askersund, kumla, goksholm
+			//orebro, riseberga, askersund, kumla, goksholm
             DB::table('counties')->insert([
 				'county_name' => 'Narke',
 				'county_category' => 'Feudal',
@@ -7856,7 +7856,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//849
-			//arboga, norberg, skinnsackeberg, lindesberg
+			//arboga, norberg, skinnsackeberg, lindesberg, vasteras
             DB::table('counties')->insert([
 				'county_name' => 'Vastmanland',
 				'county_category' => 'Feudal',
@@ -7868,18 +7868,27 @@ class CountySeeder extends Seeder
 			//Poland
 			//Greater Poland
 			//
-			//
+			//gnesen
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Gnesen',
 				'county_category' => '',
 				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//
-			//
+			//kalisz
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Kalisz',
+				'county_category' => '',
+				'de_jure_duchy' => '149',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//
+			//posen
+            DB::table('counties')->insert([
+				'county_name' => 'Posen',
 				'county_category' => '',
 				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
@@ -7887,18 +7896,18 @@ class CountySeeder extends Seeder
             ]);				
 			//Lesser Poland
 			//
-			//
+			//olkusz
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Olkusz',
 				'county_category' => '',
 				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//
-			//
+			//tarnow
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tarnow',
 				'county_category' => '',
 				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
