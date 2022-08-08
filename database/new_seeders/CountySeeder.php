@@ -7934,29 +7934,47 @@ class CountySeeder extends Seeder
             ]);				
 			//Mazovia
 			//
-			//
+			//losice
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Losice',
 				'county_category' => '',
 				'de_jure_duchy' => '152',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//
-			//
+			//makow
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Makow',
+				'county_category' => '',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//
+			//minsk
+            DB::table('counties')->insert([
+				'county_name' => 'Minsk',
+				'county_category' => '',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//
+			//warsaw
+            DB::table('counties')->insert([
+				'county_name' => 'Warsaw',
 				'county_category' => '',
 				'de_jure_duchy' => '152',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//Lithuania
+			//Brest
 			//
-			//
-			//
+			//brest
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Brest',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
@@ -7971,7 +7989,91 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
-
+			//Minsk
+			//
+			//minsk
+            DB::table('counties')->insert([
+				'county_name' => 'Minsk',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);
+			//Smolensk
+			//
+			//smolensk
+            DB::table('counties')->insert([
+				'county_name' => 'Smolensk',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);				
+			//Tracken
+			//
+			//alytus
+            DB::table('counties')->insert([
+				'county_name' => 'Alytus',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);
+			//
+			//kauen
+            DB::table('counties')->insert([
+				'county_name' => 'Kauen',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);				
+			//
+			//tracken
+            DB::table('counties')->insert([
+				'county_name' => 'Tracken',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
+			//Vilnius
+			//
+			//vilnius
+            DB::table('counties')->insert([
+				'county_name' => 'Vilnius',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
 			//Cordoba
 			//Andalucia
 			//Algeciras
