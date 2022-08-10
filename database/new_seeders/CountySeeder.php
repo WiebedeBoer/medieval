@@ -8073,7 +8073,161 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
-            ]);	
+            ]);
+			//Hungary
+			//Hungary
+			
+			//Croatia
+			
+			//Byzantine
+			
+			//Thrace
+			
+			//Thessalonica
+			//Athens
+			
+			//Achaea
+			
+			//Archipelago
+			
+			//Epirus
+			
+			//Trebizond
+			//Paphlagonia
+			
+			//Armeniac
+			
+			//Chaldia
+			
+			//Crimea
+			
+			//Anatolia
+			//Thracesia
+			
+			//Bucellaria
+			
+			//Anatolia
+			
+			//Cappadocia
+			
+			//Silicia
+			
+			//Opsicia
+			
+			//Nicaea
+			
+			//Lycia
+			
+			//Pamphylia
+			
+			//Palermo
+			
+			//Trapani
+			
+			//Messina
+			
+			//Agrigento
+			
+			//Catania
+			
+			//Siracusa
+			
+			//Naples
+			//Naples
+			
+			//Capua
+			
+			//Amalfi
+			
+			//Calabria
+			
+			//Basilicata
+			
+			//Taranto
+			
+			//Foggia
+			
+			//Benevento
+			
+			//Salerno
+			
+			//Sardinia
+			//Gallura
+			
+			//Logudoro (torres)
+			
+			//Arborea
+			
+			//Cagliari
+			
+			//Georgia
+			//Georgia
+			
+			//Armenia
+			//Vaspurakan
+			
+			//Taron
+			
+			//Kars
+			
+			//Azerbaijan
+			
+			//Bulgaria
+			//Bulgaria
+			
+			//Wallachia
+			//Wallachia
+			
+			//Moldavia
+			
+			//Serbia
+			//Serbia
+			//Rashka
+			
+			//Bosnia
+			//Bosnia
+			
+			//Kievan Rus
+			//Kiev
+			//Kiev, Pereyaslavl
+			
+			//Murom
+			//Murom
+			
+			//Ryazan
+			
+			//Chernigov
+			
+			//Halych
+			//Halych
+			
+			//Volhynia
+			
+			//Turov
+			
+			//Vladimir
+			//Vladimir
+			
+			//Moscow
+			
+			//Suzdal
+			
+			//Smolensk
+			//Smolensk
+			
+			//Toropets
+			
+			//Mstislavl
+			
+			//Rzhev
+			
+			//Novgorod
+			//Novgorod
+			
+			//Polotsk
+			
+			//Pleskov			
+			
 			//Cordoba
 			//Andalucia
 			//Algeciras

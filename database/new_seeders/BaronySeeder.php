@@ -8300,6 +8300,180 @@ class BaronySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
             ]);
+			//Poland
+			//Poland
+			//Greater Poland
+			
+			//Lesser Poland
+
+			//Kuyavia
+
+			//Mazovia
+			
+			//Lithuania
+			//Brest	
+			
+			//Minsk	
+
+			//Smolensk
+			
+			//Tracken
+
+			//Vilnius			
+			
+			//Hungary
+			//Hungary
+			
+			//Croatia
+			
+			//Byzantine
+			
+			//Thrace
+			
+			//Thessalonica
+			//Athens
+			
+			//Achaea
+			
+			//Archipelago
+			
+			//Epirus
+			
+			//Trebizond
+			//Paphlagonia
+			
+			//Armeniac
+			
+			//Chaldia
+			
+			//Crimea
+			
+			//Anatolia
+			//Thracesia
+			
+			//Bucellaria
+			
+			//Anatolia
+			
+			//Cappadocia
+			
+			//Silicia
+			
+			//Opsicia
+			
+			//Nicaea
+			
+			//Lycia
+			
+			//Pamphylia
+			
+			//Palermo
+			
+			//Trapani
+			
+			//Messina
+			
+			//Agrigento
+			
+			//Catania
+			
+			//Siracusa
+			
+			//Naples
+			//Naples
+			
+			//Capua
+			
+			//Amalfi
+			
+			//Calabria
+			
+			//Basilicata
+			
+			//Taranto
+			
+			//Foggia
+			
+			//Benevento
+			
+			//Salerno
+			
+			//Sardinia
+			//Gallura
+			
+			//Logudoro (torres)
+			
+			//Arborea
+			
+			//Cagliari
+			
+			//Georgia
+			//Georgia
+			
+			//Armenia
+			//Vaspurakan
+			
+			//Taron
+			
+			//Kars
+			
+			//Azerbaijan
+			
+			//Bulgaria
+			//Bulgaria
+			
+			//Wallachia
+			//Wallachia
+			
+			//Moldavia
+			
+			//Serbia
+			//Serbia
+			//Rashka
+			
+			//Bosnia
+			//Bosnia
+			
+			//Kievan Rus
+			//Kiev
+			//Kiev, Pereyaslavl
+			
+			//Murom
+			//Murom
+			
+			//Ryazan
+			
+			//Chernigov
+			
+			//Halych
+			//Halych
+			
+			//Volhynia
+			
+			//Turov
+			
+			//Vladimir
+			//Vladimir
+			
+			//Moscow
+			
+			//Suzdal
+			
+			//Smolensk
+			//Smolensk
+			
+			//Toropets
+			
+			//Mstislavl
+			
+			//Rzhev
+			
+			//Novgorod
+			//Novgorod
+			
+			//Polotsk
+			
+			//Pleskov			
 			
 			//Cordoba
 			//Andalucia
