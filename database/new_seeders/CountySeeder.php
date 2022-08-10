@@ -8960,6 +8960,65 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
+			//Almohad
+			//Marrakesh
+			
+			//Fez
+			
+			//Kairouan
+			
+			//Tlemcen
+			
+			//Ifni
+			
+			//Figuig
+			
+			//Abbasid
+			//Baghdad
+			
+			//Syria
+			
+			//Najd
+			
+			//Antioch
+			
+			//Fatimid
+			//Cairo
+
+			//Jerusalem
+			
+			//Hejaz
+			
+			//Khazar
+			//Khazaria
+			//Aqtobe
+			
+			//Sarkel
+			
+			//Atil
+			
+			//Bolghar
+			
+			//Bilar
+			
+			//Alania
+			//Derbent
+			
+			//Azov
+			
+			//Cumania
+			//Sighnaq
+			
+			//Sozak
+			
+			//Sibir
+			
+			//Seljuk
+			//Kwarezm
+
+			//Isfahan
+			
+			//Hormuz
 			
     }
 }

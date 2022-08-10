@@ -8868,6 +8868,66 @@ class BaronySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
-            ]);			
+            ]);
+			//Almohad
+			//Marrakesh
+			
+			//Fez
+			
+			//Kairouan
+			
+			//Tlemcen
+			
+			//Ifni
+			
+			//Figuig
+			
+			//Abbasid
+			//Baghdad
+			
+			//Syria
+			
+			//Najd
+			
+			//Antioch
+			
+			//Fatimid
+			//Cairo
+
+			//Jerusalem
+			
+			//Hejaz
+			
+			//Khazar
+			//Khazaria
+			//Aqtobe
+			
+			//Sarkel
+			
+			//Atil
+			
+			//Bolghar
+			
+			//Bilar
+			
+			//Alania
+			//Derbent
+			
+			//Azov
+			
+			//Cumania
+			//Sighnaq
+			
+			//Sozak
+			
+			//Sibir
+			
+			//Seljuk
+			//Kwarezm
+
+			//Isfahan
+			
+			//Hormuz
+			
     }
 }

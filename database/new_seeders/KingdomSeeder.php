@@ -621,8 +621,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//almohad
-			//
+			//Almohad
+			//Marrakesh
 			//
 			//49
             DB::table('kingdoms')->insert([
@@ -634,7 +634,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'			
             ]);	
-			//
+			//Fez
 			//
 			//50
             DB::table('kingdoms')->insert([
@@ -646,7 +646,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//
+			//Kairouan
 			//
 			//51
             DB::table('kingdoms')->insert([
@@ -658,7 +658,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//
+			//Tlemcen
 			//
 			//52
             DB::table('kingdoms')->insert([
@@ -670,7 +670,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'			
             ]);	
-			//
+			//Ifni
 			//
 			//53
             DB::table('kingdoms')->insert([
@@ -682,7 +682,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//
+			//Figuig
 			//
 			//54
             DB::table('kingdoms')->insert([
@@ -694,8 +694,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);				
-			//abbasid
-			//
+			//Abbasid
+			//Baghdad
 			//
 			//55
             DB::table('kingdoms')->insert([
@@ -707,7 +707,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//
+			//Syria
 			//
 			//56
             DB::table('kingdoms')->insert([
@@ -719,7 +719,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);				
-			//
+			//Najd
 			//
 			//57
             DB::table('kingdoms')->insert([
@@ -731,7 +731,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);				
-			//
+			//Antioch
 			//
 			//58
             DB::table('kingdoms')->insert([
@@ -743,8 +743,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);				
-			//fatimid
-			//
+			//Fatimid
+			//Cairo
 			//
 			//59
             DB::table('kingdoms')->insert([
@@ -756,7 +756,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//
+			//Jerusalem
 			//
 			//60
             DB::table('kingdoms')->insert([
@@ -768,7 +768,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
             ]);	
-			//
+			//Hejaz
 			//
 			//61
             DB::table('kingdoms')->insert([
@@ -781,9 +781,9 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan',				
 				'levy_feudal' => 'large'				
             ]);				
-			//khazar
-			//khazaria
-			//aqtobe, sarkel, atil, bolghar, bilar
+			//Khazar
+			//Khazaria
+			//Aqtobe, Sarkel, Atil, Bolghar, Bilar
 			//62
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Khazaria',
@@ -794,8 +794,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
             ]);	
-			//alania
-			//derbent, azov
+			//Alania
+			//Derbent, Azov
 			//63
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Alania',
@@ -806,8 +806,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
             ]);	
-			//cumania
-			//sighnaq, sozak, sibir
+			//Cumania
+			//Sighnaq, Sozak, Sibir
 			//64
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cumania',
@@ -818,8 +818,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
             ]);	
-			//seljuk
-			//kwarezm
+			//Seljuk
+			//Kwarezm
 			//
 			//65
             DB::table('kingdoms')->insert([
@@ -831,7 +831,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
             ]);	
-			//isfahan
+			//Isfahan
 			//
 			//66
             DB::table('kingdoms')->insert([
@@ -843,7 +843,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
             ]);	
-			//hormuz
+			//Hormuz
 			//
 			//67
             DB::table('kingdoms')->insert([
