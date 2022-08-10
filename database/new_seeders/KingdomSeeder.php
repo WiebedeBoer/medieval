@@ -327,8 +327,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//hungary
-			//hungary
+			//Hungary
+			//Hungary
 			//
 			//25
             DB::table('kingdoms')->insert([
@@ -340,7 +340,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'			
             ]);	
-			//croatia
+			//Croatia
 			//
 			//26
             DB::table('kingdoms')->insert([
@@ -352,8 +352,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'					
             ]);				
-			//byzantine
-			//thrace
+			//Byzantine
+			//Thrace
 			//
 			//27
             DB::table('kingdoms')->insert([
@@ -365,8 +365,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial'				
             ]);	
-			//thessalonica
-			//athens, achaea, archipelago, epirus
+			//Thessalonica
+			//Athens, Achaea, Archipelago, Epirus
 			//28
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thessalonica',
@@ -377,8 +377,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);				
-			//trebizond
-			//paphlagonia, armeniac, chaldia, crimea
+			//Trebizond
+			//Paphlagonia, Armeniac, Chaldia, Crimea
 			//29
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Trebizond',
@@ -389,8 +389,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'			
             ]);	
-			//anatolia
-			//thracesia, bucellaria, anatolia, cappadocia, silicia, opsicia, nicaea, lycia, pamphylia
+			//Anatolia
+			//Thracesia, Bucellaria, Anatolia, Cappadocia, Silicia, Opsicia, Nicaea, Lycia, Pamphylia
 			//30
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Anatolia',
@@ -401,8 +401,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);
-			//sicily
-			//palermo, trapani, messina, agrigento, catania, siracusa
+			//Sicily
+			//Palermo, Trapani, Messina, Agrigento, Catania, Siracusa
 			//31
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sicily',
@@ -413,8 +413,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial',						
             ]);	
-			//naples
-			//capua, amalfi, naples, calabria, basilicata, taranto, foggia, benevento, salerno
+			//Naples
+			//Naples, Capua, Amalfi, Calabria, Basilicata, Taranto, Foggia, Benevento, Salerno
 			//32
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Naples',
@@ -425,8 +425,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial'				
             ]);	
-			//sardinia
-			//gallura, logudoro (torres), arborea, cagliari
+			//Sardinia
+			//Gallura, Logudoro (torres), Arborea, Cagliari
 			//33
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sardinia',
@@ -437,8 +437,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//georgia
-			//georgia
+			//Georgia
+			//Georgia
 			//34
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Georgia',
@@ -449,8 +449,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//armenia
-			//vaspurakan, taron, kars, azerbaijan
+			//Armenia
+			//Vaspurakan, Taron, Kars, Azerbaijan
 			//35
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Armenia',
@@ -461,8 +461,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//bulgaria
-			//bulgaria
+			//Bulgaria
+			//Bulgaria
 			//
 			//36
             DB::table('kingdoms')->insert([
@@ -474,8 +474,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);
-			//wallachia
-			//wallachia, moldavia
+			//Wallachia
+			//Wallachia, Moldavia
 			//37
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Wallachia',
@@ -486,9 +486,9 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//serbia
-			//serbia
-			//rashka
+			//Serbia
+			//Serbia
+			//Rashka
 			//38
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Serbia',
@@ -499,8 +499,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//bosnia
-			//bosnia
+			//Bosnia
+			//Bosnia
 			//39
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Bosnia',
@@ -511,9 +511,9 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//kievan rus
-			//kiev
-			//kiev, pereyaslavl
+			//Kievan Rus
+			//Kiev
+			//Kiev, Pereyaslavl
 			//40
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Kiev',
@@ -524,8 +524,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial'			
             ]);		
-			//murom
-			//murom, ryazan, chernigov
+			//Murom
+			//Murom, Ryazan, Chernigov
 			//41
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Murom',
@@ -536,8 +536,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//halych
-			//halych, volhynia, turov
+			//Halych
+			//Halych, Volhynia, Turov
 			//42
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Ruthenia',
@@ -548,8 +548,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'			
             ]);	
-			//vladimir
-			//moscow, vladimir, suzdal
+			//Vladimir
+			//Vladimir, Moscow, Suzdal
 			//43
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Vladimir',
@@ -560,8 +560,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);		
-			//smolensk
-			//smolensk, toropets, mstislavl, rzhev
+			//Smolensk
+			//Smolensk, Toropets, Mstislavl, Rzhev
 			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Smolensk',
@@ -572,8 +572,8 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
-			//novgorod
-			//novgorod, polotsk, pleskov
+			//Novgorod
+			//Novgorod, Polotsk, Pleskov
 			//45
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Novgorod',
