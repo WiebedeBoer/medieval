@@ -316,7 +316,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);				
 			//Lithuania
-			//
+			//Minsk, Tracken, Vilnius
 			//24
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Duchy of Lithuania',
@@ -561,7 +561,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);		
 			//Smolensk
-			//Smolensk, Toropets, Mstislavl, Rzhev
+			//Smolensk, Toropets, Mstislavl, Rzhev, Tver
 			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Smolensk',
