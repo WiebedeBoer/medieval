@@ -19,7 +19,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Crowned_Republic
 				'de_jure_duchy' => '',			
 				'vernacular_cycle' => '',			//Matter_of_Britain, Carolingian, Byzantine, Rus, Persian, Arab	
-				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Russian, Moorish
+				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -7972,197 +7972,617 @@ class CountySeeder extends Seeder
 			//Lithuania
 			//Minsk
 			//
-			//minsk
+			//minsk, barysaw, lahoysk, zaslawye
             DB::table('counties')->insert([
 				'county_name' => 'Minsk',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//
-			//gomel, 
+			//gomel, rechytsa, dobrush
             DB::table('counties')->insert([
 				'county_name' => 'Gomel',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//
-			//mogilev, babruysk
+			//mogilev, babruysk, drutsk
             DB::table('counties')->insert([
 				'county_name' => 'Mogilev',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
-            ]);				
+            ]);
+			//Samogitia
+			//
+			//panevezys, birsen
+            DB::table('counties')->insert([
+				'county_name' => 'Panevezys',
+				'county_category' => '',
+				'de_jure_duchy' => '154',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
+			//
+			//schaulen, bajenburg
+            DB::table('counties')->insert([
+				'county_name' => 'Schaulen',
+				'county_category' => '',
+				'de_jure_duchy' => '154',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);	
+			//
+			//redau, palanga, telsche, mazeike 
+            DB::table('counties')->insert([
+				'county_name' => 'Redau',
+				'county_category' => '',
+				'de_jure_duchy' => '154',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Lithuanian'
+            ]);			
 			//Tracken
 			//
-			//alytus
+			//alytus, grodno, lyda
             DB::table('counties')->insert([
 				'county_name' => 'Alytus',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '155',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
 			//
-			//kauen
+			//kauen, bajenburg
             DB::table('counties')->insert([
 				'county_name' => 'Kauen',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '155',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);				
 			//
-			//tracken
+			//tracken, paneriai
             DB::table('counties')->insert([
 				'county_name' => 'Tracken',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '155',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//Vilnius
 			//
-			//vilnius
+			//vilnius, kreva, medininkai
             DB::table('counties')->insert([
 				'county_name' => 'Vilnius',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '156',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//
-			//
+			//kernave, vilkomir
             DB::table('counties')->insert([
 				'county_name' => 'Kernave',
 				'county_category' => '',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '156',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
 			//Hungary
 			//Hungary
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);			
 			//Croatia
-			
-			//Byzantine
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Croatian'
+            ]);				
+			//Byzantine			
 			//Thrace
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Thessalonica
 			//Athens
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Achaea
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Archipelago
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Epirus
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Trebizond
 			//Paphlagonia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Armeniac
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Chaldia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Crimea
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Anatolia
 			//Thracesia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Bucellaria
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Anatolia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Cappadocia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Silicia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Opsicia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Nicaea
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Lycia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);				
 			//Pamphylia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Greek'
+            ]);	
+			//Sicily
 			//Palermo
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
 			//Trapani
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
 			//Messina
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
 			//Agrigento
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
 			//Catania
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
 			//Siracusa
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
 			//Naples
 			//Naples
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
 			//Capua
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Amalfi
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Calabria
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Basilicata
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Taranto
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Foggia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Benevento
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Salerno
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
 			//Sardinia
 			//Gallura
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);			
 			//Logudoro (torres)
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);			
 			//Arborea
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);			
 			//Cagliari
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);			
 			//Georgia
 			//Georgia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Georgian'
+            ]);			
 			//Armenia
 			//Vaspurakan
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Armenian'
+            ]);			
 			//Taron
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Armenian'
+            ]);			
 			//Kars
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Armenian'
+            ]);			
 			//Azerbaijan
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Armenian'
+            ]);			
 			//Bulgaria
 			//Bulgaria
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Bulgarian'
+            ]);			
 			//Wallachia
 			//Wallachia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Wallachian'
+            ]);				
 			//Moldavia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Wallachian'
+            ]);			
 			//Serbia
 			//Serbia
 			//Rashka
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Serbian'
+            ]);			
 			//Bosnia
 			//Bosnia
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Serbian'
+            ]);				
 			//Kievan Rus
 			//Kiev
 			//Kiev 
 			//
-			//
+			//kiev, pechersk, chvastiv, vyshhorod, mezhyhirya, yuriiv, chernobyl
             DB::table('counties')->insert([
 				'county_name' => 'Kiev',
 				'county_category' => '',
@@ -8171,9 +8591,27 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
-			//
+			//bratslav, vinnytsia
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bratslav',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Russian'
+            ]);
+			//
+			//cherkasy, kaniv, bohuslav, korsun 
+            DB::table('counties')->insert([
+				'county_name' => 'Cherkasy',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Russian'
+            ]);
+			//
+			//korosten, ovruch, zhytomyr
+            DB::table('counties')->insert([
+				'county_name' => 'Korosten',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
@@ -8181,7 +8619,7 @@ class CountySeeder extends Seeder
             ]);
 			//Pereyaslavl
 			//
-			//
+			//pereyaslavl, boryspil
             DB::table('counties')->insert([
 				'county_name' => 'Pereyaslavl',
 				'county_category' => '',
@@ -8190,70 +8628,15 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
-			//
+			//poltava, lubny
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Poltava',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
-            ]);			
-			//Murom
-			//
-			//murom
-            DB::table('counties')->insert([
-				'county_name' => 'Murom',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);				
-			//Ryazan
-			//
-			//ryazan, kadom, yelatma, pronsk
-            DB::table('counties')->insert([
-				'county_name' => 'Ryazan',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//tula, belyov
-            DB::table('counties')->insert([
-				'county_name' => 'Tula',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//kaluga, mosalsk, kozelsk, tarusa, obolensk
-            DB::table('counties')->insert([
-				'county_name' => 'Kaluga',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//vorotynsk, peremyshl, karachev
-            DB::table('counties')->insert([
-				'county_name' => 'Vorotynsk',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);				
+            ]);
+			//Chernigov
 			//Chernigov
 			//
 			//chernigov, kozelets, sedniv
@@ -8300,25 +8683,99 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
             ]);				
-			//Halych
-			//Halych
+			//Ryazan
 			//
-			//
+			//ryazan, kadom, yelatma, pronsk
             DB::table('counties')->insert([
-				'county_name' => 'Halych',
+				'county_name' => 'Ryazan',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
-			//
+			//murom, borisoglebsky
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Murom',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
+            ]);	
+			//
+			//tula, belyov
+            DB::table('counties')->insert([
+				'county_name' => 'Tula',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Russian'
+            ]);	
+			//
+			//kaluga, mosalsk, kozelsk, tarusa, obolensk
+            DB::table('counties')->insert([
+				'county_name' => 'Kaluga',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Russian'
+            ]);	
+			//
+			//vorotynsk, peremyshl, karachev
+            DB::table('counties')->insert([
+				'county_name' => 'Vorotynsk',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Russian'
+            ]);							
+			//Halych
+			//Halych
+			//
+			//halych, kolomyia
+            DB::table('counties')->insert([
+				'county_name' => 'Halych',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Ruthenian'
+            ]);	
+			//
+			//peremyshl, sambir, lubaczow
+            DB::table('counties')->insert([
+				'county_name' => 'Peremyshl',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Ruthenian'
+            ]);	
+			//
+			//lviv, grodek, zudech
+            DB::table('counties')->insert([
+				'county_name' => 'Lviv',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Ruthenian'
+            ]);	
+			//Podolia
+			//
+			//kamianets, chernivtsi, khotyn 
+            DB::table('counties')->insert([
+				'county_name' => 'Podolia',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Ruthenian'
+            ]);	
+			//
+			//terebovlia, moklekov
+            DB::table('counties')->insert([
+				'county_name' => 'Terebovlia',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Ruthenian'
             ]);				
 			//Volhynia
 			//
@@ -8328,7 +8785,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
 			//brest, belz
@@ -8337,7 +8794,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Lithuanian'
+				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
 			//kremenets, shumsk
@@ -8346,7 +8803,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
 			//lutsk, busk
@@ -8355,7 +8812,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Ruthenian'
             ]);				
 			//Turov
 			//
@@ -8365,16 +8822,16 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
-			//slutsk
+			//slutsk, kletsk
             DB::table('counties')->insert([
 				'county_name' => 'Slutsk',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Ruthenian'
             ]);				
 			//Vladimir
 			//Vladimir
@@ -8388,7 +8845,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
-			//vyazniki,  
+			//vyazniki, yaropolk 
             DB::table('counties')->insert([
 				'county_name' => 'Vyazniki',
 				'county_category' => '',
@@ -8416,7 +8873,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
-			//dmitrov
+			//dmitrov, sergiyev, dedenyovo
             DB::table('counties')->insert([
 				'county_name' => 'Dmitrov',
 				'county_category' => '',
@@ -8425,9 +8882,18 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
-			//volokolamsk
+			//volokolamsk, lotoshino
             DB::table('counties')->insert([
 				'county_name' => 'Volokolamsk',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Russian'
+            ]);
+			//
+			//zvenigorod, ruza 
+            DB::table('counties')->insert([
+				'county_name' => 'Zvenigorod',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
@@ -8473,43 +8939,23 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
-			//roslavl
+			//roslavl, vyazma
             DB::table('counties')->insert([
 				'county_name' => 'Roslavl',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//vyazma
-            DB::table('counties')->insert([
-				'county_name' => 'Vyazma',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
             ]);				
-			//Toropets
 			//
-			//toropets
+			//toropets, morsow
             DB::table('counties')->insert([
 				'county_name' => 'Toropets',
 				'county_category' => '',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
             ]);				
-			//Mstislavl
 			//
 			//mstivlavl, svyato
             DB::table('counties')->insert([
@@ -8518,16 +8964,7 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
-            ]);	
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Russian'
-            ]);				
+            ]);					
 			//Rzhev
 			//
 			//rzhev, eltsy
@@ -8549,7 +8986,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Tver
 			//
-			//tver, kashin, ostakhov, torzhok
+			//tver, kashin, ostakhov, torzhok, klin
             DB::table('counties')->insert([
 				'county_name' => 'Tver',
 				'county_category' => '',
@@ -9116,7 +9553,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '114',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Castillian'
+				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
 			//alcala, valverde, pezuela, san pedro
@@ -9125,7 +9562,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '118',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Castillian'
+				'vernacular_architecture' => 'Moorish'
             ]);
 			//
 			//medinaceli, arcos, somaen
@@ -9134,7 +9571,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '117',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Castillian'
+				'vernacular_architecture' => 'Moorish'
             ]);
 			//
 			//molina, ventosa, tortuera
@@ -9143,7 +9580,7 @@ class CountySeeder extends Seeder
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '114',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Castillian'
+				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
 			//alpuente, cuenca, atienza, siguenza, bonaval
@@ -9152,7 +9589,7 @@ class CountySeeder extends Seeder
 				'county_category' => '',
 				'de_jure_duchy' => '114',
 				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Castillian'
+				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Baleares
 			//
@@ -9394,63 +9831,271 @@ class CountySeeder extends Seeder
             ]);	
 			//Almohad
 			//Marrakesh
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Moorish'
+            ]);				
 			//Fez
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Moorish'
+            ]);				
 			//Kairouan
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Moorish'
+            ]);				
 			//Tlemcen
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Moorish'
+            ]);				
 			//Ifni
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Moorish'
+            ]);				
 			//Figuig
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Moorish'
+            ]);				
 			//Abbasid
 			//Baghdad
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);				
 			//Syria
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);				
 			//Najd
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);				
 			//Antioch
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);				
 			//Fatimid
 			//Cairo
-
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);	
 			//Jerusalem
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);				
 			//Hejaz
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Arabic'
+            ]);				
 			//Khazar
 			//Khazaria
 			//Aqtobe
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);				
 			//Sarkel
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Atil
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Bolghar
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Bilar
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Alania
 			//Derbent
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Azov
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Cumania
 			//Sighnaq
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Sozak
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Sibir
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Turkic'
+            ]);			
 			//Seljuk
 			//Kwarezm
-
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Persian'
+            ]);
 			//Isfahan
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Persian'
+            ]);			
 			//Hormuz
-			
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => '',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Persian'
+            ]);			
     }
 }

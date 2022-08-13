@@ -1738,7 +1738,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//Lithuania
-			//
+			//153
 			//Minsk, Gomel, Mogilev
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minsk',
@@ -1749,7 +1749,18 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//
+			//154
+			//Panevezys, Schaulen, Redau 
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Samogitia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '24',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//155
 			//Alytus, Kauen, Tracken 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tracken',
@@ -1760,7 +1771,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//156
 			//Vilnius, Kernave
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vilnius',
@@ -1817,6 +1828,7 @@ class DuchySeeder extends Seeder
 			
 			//Pamphylia
 			
+			//Sicily
 			//Palermo
 			
 			//Trapani
@@ -1887,7 +1899,7 @@ class DuchySeeder extends Seeder
 			//Kievan Rus
 			//Kiev
 			//
-			//
+			//Kiev, Bratslav, Cherkasy, Korosten
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kiev',
 				'duchy_category' => 'Feudal',
@@ -1898,7 +1910,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Pereyaslavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pereyaslavl',
 				'duchy_category' => 'Feudal',
@@ -1907,30 +1919,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
-            ]);				
-			//Murom
-			//
-			//
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Murom',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '41',	
-				'law_succession' => 'Agnatic_Seniority',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);	
-			//
-			//Ryazan, Tula, Kaluga, Vorotynsk
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Ryazan',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '41',	
-				'law_succession' => 'Agnatic_Seniority',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);				
+            ]);
+			//Chernigov
 			//
 			//Chernigov, Bryansk, Lyubech, Mozhaysk, Novosil
             DB::table('duchies')->insert([
@@ -1941,10 +1931,21 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
-            ]);			
+            ]);					
+			//
+			//Ryazan, Murom, Tula, Kaluga, Vorotynsk
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Ryazan',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '41',	
+				'law_succession' => 'Agnatic_Seniority',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);						
 			//Halych
 			//
-			//halych
+			//Halych, Peremyshl, Lviv
             DB::table('duchies')->insert([
 				'duchy_name' => 'Halych',
 				'duchy_category' => 'Feudal',
@@ -1954,6 +1955,17 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
+			//
+			//Podolia, Terebovlia
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Podolia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '42',	
+				'law_succession' => 'Agnatic_Seniority',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
 			//
 			//Volhynia, Brest, Kremenets, Lutsk
             DB::table('duchies')->insert([
@@ -1989,7 +2001,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//Moscow, Dmitrov, Volokolamsk
+			//Moscow, Dmitrov, Volokolamsk, Zvenigorod
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moscow',
 				'duchy_category' => 'Feudal',
@@ -2012,7 +2024,7 @@ class DuchySeeder extends Seeder
             ]);			
 			//Smolensk
 			//
-			//Smolensk, Roslavl, Vyazma
+			//Smolensk, Roslavl, Toropets, Mstislavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smolensk',
 				'duchy_category' => 'Feudal',
@@ -2021,29 +2033,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
-            ]);
-			//
-			//Toropets
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Toropets',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '44',	
-				'law_succession' => 'Agnatic_Seniority',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);			
-			//
-			//Mstislavl
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Mstislavl',
-				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '44',	
-				'law_succession' => 'Agnatic_Seniority',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
-            ]);
+            ]);		
 			//
 			//Rzhev, Zubtsov
             DB::table('duchies')->insert([

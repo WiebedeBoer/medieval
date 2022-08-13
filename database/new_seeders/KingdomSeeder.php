@@ -524,11 +524,11 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'palatial'			
             ]);		
-			//Murom
-			//Murom, Ryazan, Chernigov
+			//Chernigov
+			//Chernigov, Ryazan 
 			//41
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Murom',
+				'kingdom_name' => 'Grand Principality of Chernigov',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'chernigov',
 				'de_jure_empire' => '12',			
@@ -537,7 +537,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//Halych
-			//Halych, Volhynia, Turov
+			//Halych, Podolia, Volhynia, Turov
 			//42
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Ruthenia',
@@ -561,7 +561,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);		
 			//Smolensk
-			//Smolensk, Toropets, Mstislavl, Rzhev, Tver
+			//Smolensk, Rzhev, Tver
 			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Principality of Smolensk',
