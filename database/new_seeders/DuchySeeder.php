@@ -1694,7 +1694,7 @@ class DuchySeeder extends Seeder
 			//Poland
 			//Poland
 			//149
-			//Gnesen, Kalisz, Posen
+			//Chodziez, Gnesen, Gostyn, Grodisce, Jarotschin, Kalisz, Kolo, Kosten, Kunau, Lissa, Pila, Pleschen, Posen, Rogasen, Samter, Scharnikau, Schildberg, Schrim, Slupca, Turek, Wreschen
             DB::table('duchies')->insert([
 				'duchy_name' => 'Greater Poland',
 				'duchy_category' => 'Feudal',
@@ -1705,7 +1705,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//150
-			//Olkusz, Tarnow
+			//Auswitz, Chrzanow, Gorlitz, Krakow, Olkusz, Sandez, Tarnow, Wadowitz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lesser Poland',
 				'duchy_category' => 'Feudal',
@@ -1716,7 +1716,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//151
-			//
+			//Brodnica, Inowroclaw, Leipe, Mogilno, Naklo, Radziejow
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kuyavia',
 				'duchy_category' => 'Feudal',
@@ -1727,7 +1727,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//152
-			//Losice, Makow, Minsk, Warsaw
+			//Losice, Makow, Minsk, Plock, Radom, Warsaw, Zuromin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mazovia',
 				'duchy_category' => 'Feudal',
@@ -1784,13 +1784,64 @@ class DuchySeeder extends Seeder
             ]);
 			//Hungary
 			//Hungary
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '25',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '25',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Croatia
-			
-			//Byzantine
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '26',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '26',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//Byzantine		
 			//Thrace
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Thessalonica
 			//Athens
 			
