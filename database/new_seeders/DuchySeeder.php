@@ -1862,9 +1862,20 @@ class DuchySeeder extends Seeder
 			//Hungary
 			//Hungary
 			//
-			//
+			//Esztergom, Fejer, Gyor, Moson, Pest, Vas, Vezprem
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Hungary',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '25',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Nitra, Pozsony, Trencsen
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Nitra',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1875,7 +1886,7 @@ class DuchySeeder extends Seeder
 			//
 			//
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Transylvania',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1885,9 +1896,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Croatia
 			//
-			//
+			//Lika, Modrus, Veglia
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Croatia',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -1896,9 +1907,9 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//
+			//Zagreb, Bjelovar, Pozega, Varazdin
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Slavonia',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Salic_Primogeniture',

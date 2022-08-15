@@ -8478,11 +8478,84 @@ class CountySeeder extends Seeder
             ]);
 			//Hungary
 			//Hungary
+			//Hungary
+			//
+			//esztergom
+            DB::table('counties')->insert([
+				'county_name' => 'Esztergom',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
+			//
+			//fejer
+            DB::table('counties')->insert([
+				'county_name' => 'Fejer',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);				
+			//
+			//gyor
+            DB::table('counties')->insert([
+				'county_name' => 'Gyor',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);	
+			//
+			//moson
+            DB::table('counties')->insert([
+				'county_name' => 'Moson',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
+			//
+			//pest
+            DB::table('counties')->insert([
+				'county_name' => 'Pest',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);	
+			//
+			//vas
+            DB::table('counties')->insert([
+				'county_name' => 'Vas',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);	
+			//
+			//vezprem
+            DB::table('counties')->insert([
+				'county_name' => 'Vezprem',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
@@ -8491,7 +8564,54 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
+			//Nitra
+			//
+			//nitra
+            DB::table('counties')->insert([
+				'county_name' => 'Nitra',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);	
+			//
+			//pozsony
+            DB::table('counties')->insert([
+				'county_name' => 'Pozsony',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
+			//
+			//trencsen
+            DB::table('counties')->insert([
+				'county_name' => 'Trencsen',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);	
+			//Transylvania
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
@@ -8500,57 +8620,77 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Hungarian'
-            ]);	
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);				
 			//Croatia
+			//Croatia
 			//
-			//
+			//gospic, lapac, sokolac, otocac, baska, udbina, senj
             DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
+				'county_name' => 'Lika',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Croatian'
+            ]);
+			//
+			//ogulin, rijeka, kotor, bakar, slunj
+            DB::table('counties')->insert([
+				'county_name' => 'Modrus',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//
-			//
+			//veglia, jurandvor, vrbnik, moschau
             DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
+				'county_name' => 'Veglia',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Croatian'
+            ]);
+			//Slavonia
+			//
+			//zagreb
+            DB::table('counties')->insert([
+				'county_name' => 'Zagreb',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//
-			//
+			//bjelovar
             DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
+				'county_name' => 'Bjelovar',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//
-			//
+			//pozega
             DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => '',
+				'county_name' => 'Pozega',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
-            ]);				
+            ]);	
+			//
+			//varazdin
+            DB::table('counties')->insert([
+				'county_name' => 'Varazdin',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Croatian'
+            ]);			
 			//Byzantine			
 			//Thrace
 			//
