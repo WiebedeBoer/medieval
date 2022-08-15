@@ -304,7 +304,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Poland
 			//Poland
-			//Greater Poland, Lesser Poland, Kuyavia, Mazovia
+			//Greater Poland, Lesser Poland, Gnesen, Kalisz, Krakow, Kuyavia, Mazovia, Plock, Posen, Sieradz, Warsaw
 			//23
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Poland',
@@ -316,7 +316,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);				
 			//Lithuania
-			//Minsk, Tracken, Vilnius
+			//Minsk, Samogitia, Tracken, Vilnius
 			//24
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Grand Duchy of Lithuania',

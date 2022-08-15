@@ -20,7 +20,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => '',			//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	
 				'law_court' => '',				//Itinerant, Palatial
-				'vegetation' => '',				//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Woodland, Temperate_Marshland
+				'vegetation' => '',				//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Shrubland, Temperate_Woodland, Temperate_Marshland
 				'altitude' => '',				//Lowland, Montane, Highland
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
@@ -44,7 +44,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
             ]);
 			//2 
@@ -66,7 +66,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'				
             ]);
 			//4
@@ -176,7 +176,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//14
@@ -187,7 +187,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
             ]);	
 			//15 
@@ -264,7 +264,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
             ]);	
 			//22
@@ -354,7 +354,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
-				'altitude' => 'Lowland'				
+				'altitude' => 'Montane'				
             ]);	
 			//30 
 			//Noli, Albenga, Finale
@@ -365,7 +365,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
-				'altitude' => 'Lowland'				
+				'altitude' => 'Montane'				
             ]);	
 			//31 
 			//Oneglia, Monaco, Ventimiglia
@@ -408,7 +408,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'				
             ]);	
 			//bohemia
@@ -499,7 +499,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
             ]);	
 			//43
@@ -532,7 +532,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
             ]);	
 			//Papal States
@@ -669,7 +669,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
-				'altitude' => 'Montane'				
+				'altitude' => 'Lowland'				
             ]);	
 			//58
 			//Bordelais, Agenais, Angoumois, Bazadais, Limousin, Lomagne, Perigord, Saintogne
@@ -723,7 +723,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
             ]);	
 			//63
@@ -969,7 +969,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//85
@@ -980,7 +980,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//86
@@ -1047,7 +1047,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//92
@@ -1058,7 +1058,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//Scotland
@@ -1092,7 +1092,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);
 			//96
@@ -1103,8 +1103,8 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
+				'vegetation' => 'Temperate_Shrubland',	
+				'altitude' => 'Highland'				
             ]);
 			//97
 			//Kirkcudbrightshire, Wigtownshire
@@ -1149,7 +1149,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);	
 			//101
@@ -1182,8 +1182,8 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
-				'altitude' => 'Montane'				
+				'vegetation' => 'Temperate_Shrubland',	
+				'altitude' => 'Highland'				
             ]);	
 			//104
 			//Lleida, Pallars, Urgell
@@ -1193,7 +1193,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);
 			//105
@@ -1215,7 +1215,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//107
@@ -1226,7 +1226,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
 			//Navarre
@@ -1238,7 +1238,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);	
 			//109
@@ -1249,7 +1249,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//110
@@ -1260,7 +1260,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//111
@@ -1271,7 +1271,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//Castile
@@ -1284,7 +1284,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);	
 			//113
@@ -1295,7 +1295,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//114
@@ -1306,7 +1306,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//115
@@ -1317,7 +1317,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//116
@@ -1328,7 +1328,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//117
@@ -1339,7 +1339,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//118
@@ -1350,7 +1350,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);
 			//Galicia
@@ -1362,7 +1362,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//120
@@ -1373,7 +1373,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//121
@@ -1384,7 +1384,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//122
@@ -1395,7 +1395,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//Leon
@@ -1418,7 +1418,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//125
@@ -1429,7 +1429,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);	
 			//126
@@ -1440,7 +1440,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);	
 			//Asturias
@@ -1452,7 +1452,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '18',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//128
@@ -1463,7 +1463,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '18',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//Portugal
@@ -1486,7 +1486,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '19',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//131
@@ -1497,7 +1497,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '19',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Shrubland',	
 				'altitude' => 'Montane'				
             ]);	
 			//132
@@ -1521,7 +1521,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Grassland',	
 				'altitude' => 'Montane'				
             ]);
 			//134
@@ -1543,7 +1543,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Grassland',	
 				'altitude' => 'Montane'				
             ]);
 			//Norway
@@ -1555,7 +1555,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);
 			//137
@@ -1566,7 +1566,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);
 			//138
@@ -1577,7 +1577,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);
 			//139
@@ -1588,8 +1588,8 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
+				'vegetation' => 'Temperate_Shrubland',	
+				'altitude' => 'Highland'				
             ]);
 			//140
 			//Dalane, Haugeland, Jaeren, Rogaland
@@ -1599,7 +1599,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
             ]);
 			//141
@@ -1621,8 +1621,8 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
+				'vegetation' => 'Temperate_Shrubland',	
+				'altitude' => 'Highland'				
             ]);
 			//143
 			//Akershus, Buskerud, Ostfold, Ranrike, Vestfold, Vingulmark
@@ -1694,7 +1694,7 @@ class DuchySeeder extends Seeder
 			//Poland
 			//Poland
 			//149
-			//Chodziez, Gnesen, Gostyn, Grodisce, Jarotschin, Kalisz, Kolo, Kosten, Kunau, Lissa, Pila, Pleschen, Posen, Rogasen, Samter, Scharnikau, Schildberg, Schrim, Slupca, Turek, Wreschen
+			//Gostyn, Grodisze, Jarotschin, Kosten, Lissa 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Greater Poland',
 				'duchy_category' => 'Feudal',
@@ -1705,7 +1705,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//150
-			//Auswitz, Chrzanow, Gorlitz, Krakow, Olkusz, Sandez, Tarnow, Wadowitz
+			//Auswitz, Chrzanow, Sandez, Tarnow, Wadowitz, Lublin, Lukow, Sandomierz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lesser Poland',
 				'duchy_category' => 'Feudal',
@@ -1714,8 +1714,41 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
-            ]);	
+            ]);
 			//151
+			//Gnesen, Kolo, Kunau, Slupca, Turek, Znin
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Gnesen',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//152
+			//Kalisz, Pleschen, Schildberg, Wielun, Wreschen
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Kalisz',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//153
+			//Krakow, Olkusz, Czestochowa, Gorlitz
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Krakow',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//154
 			//Brodnica, Inowroclaw, Leipe, Mogilno, Naklo, Radziejow
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kuyavia',
@@ -1726,8 +1759,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//152
-			//Losice, Makow, Minsk, Plock, Radom, Warsaw, Zuromin
+			//155
+			//Losice, Makow, Minsk, Zuromin, Rawa, Wizna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mazovia',
 				'duchy_category' => 'Feudal',
@@ -1737,8 +1770,52 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
+			//156
+			//Plock, Gostynin, Mlawa
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Plock',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//157
+			//Posen, Chodziez, Pila, Rogasen, Samter, Scharnikau, Schrim
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Posen',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//158
+			//Sieradz, Radom, Lentschitz
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Sieradz',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//159
+			//Warsaw, Czersk
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Warsaw',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '23',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Temperate_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
 			//Lithuania
-			//153
+			//160
 			//Minsk, Gomel, Mogilev
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minsk',
@@ -1749,7 +1826,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//154
+			//161
 			//Panevezys, Schaulen, Redau 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Samogitia',
@@ -1760,7 +1837,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//155
+			//162
 			//Alytus, Kauen, Tracken 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tracken',
@@ -1771,7 +1848,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//156
+			//163
 			//Vilnius, Kernave
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vilnius',
@@ -1839,7 +1916,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);				
 			//Thessalonica
@@ -1996,7 +2073,7 @@ class DuchySeeder extends Seeder
             ]);						
 			//Halych
 			//
-			//Halych, Peremyshl, Lviv
+			//Halych, Peremyshl, Lviv, Belz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Halych',
 				'duchy_category' => 'Feudal',
@@ -2173,8 +2250,8 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
-				'altitude' => 'Montane'				
+				'vegetation' => 'Mediterranean_Marshland',	
+				'altitude' => 'Lowland'				
             ]);	
 			//
 			//Carmona, Ecija
@@ -2184,7 +2261,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2195,7 +2272,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//

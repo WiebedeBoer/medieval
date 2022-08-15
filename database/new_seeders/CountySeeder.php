@@ -7868,228 +7868,231 @@ class CountySeeder extends Seeder
 			//Poland
 			//Greater Poland
 			//850
-			//chodziez, samotschin, margonin
-            DB::table('counties')->insert([
-				'county_name' => 'Chodziez',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//851
-			//gnesen, tremessen, witkowo, schwarzenau, kletzko
-            DB::table('counties')->insert([
-				'county_name' => 'Gnesen',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//852
 			//gostyn, kroben, punitz, borek, rawitz
             DB::table('counties')->insert([
 				'county_name' => 'Gostyn',
-				'county_category' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//851
+			//grodisze, rakwitz, wielichowo, wollstein
+            DB::table('counties')->insert([
+				'county_name' => 'Grodisze',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '149',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//852
+			//jarotschin, zerkow
+            DB::table('counties')->insert([
+				'county_name' => 'Jarotschin',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//853
-			//grodisce, rakwitz, wielichowo, wollstein
+			//kosten, kriewen
             DB::table('counties')->insert([
-				'county_name' => 'Grodisce',
-				'county_category' => '',
+				'county_name' => 'Kosten',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//854
-			//jarotschin, zerkow
-            DB::table('counties')->insert([
-				'county_name' => 'Jarotschin',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//855
-			//kalisz, opatowek, stavissin
-            DB::table('counties')->insert([
-				'county_name' => 'Kalisz',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//856
-			//kolo, moosburg, dabie, klodawa
-            DB::table('counties')->insert([
-				'county_name' => 'Kolo',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//857
-			//kosten, kriewen
-            DB::table('counties')->insert([
-				'county_name' => 'Kosten',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//858
-			//kunau, schlusselsee, gohlen, sompolno, kleczew
-            DB::table('counties')->insert([
-				'county_name' => 'Kunau',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//859
 			//lissa, oseczno, reisen
             DB::table('counties')->insert([
 				'county_name' => 'Lissa',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//860
-			//pila, wirsitz, lobsens, usch, wissek, jastrow, krojanke
-            DB::table('counties')->insert([
-				'county_name' => 'Pila',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//861
-			//pleschen, chocz, dobrzyca
-            DB::table('counties')->insert([
-				'county_name' => 'Pleschen',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//862
-			//posen, schwersenz, moschin, bnin, pudewitz, radzim, kostschin, stenschewo, buk, schroda
-            DB::table('counties')->insert([
-				'county_name' => 'Posen',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//863
-			//rogasen, obornik
-            DB::table('counties')->insert([
-				'county_name' => 'Rogasen',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);
-			//864
-			//samter, wronke, pinne
-            DB::table('counties')->insert([
-				'county_name' => 'Samter',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//865
-			//scharnikau, filehne, schonlanke
-            DB::table('counties')->insert([
-				'county_name' => 'Scharnikau',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//866
-			//schildberg, kempen, grabow
-            DB::table('counties')->insert([
-				'county_name' => 'Schildberg',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//867
-			//schrim, ksiaz, dolsk
-            DB::table('counties')->insert([
-				'county_name' => 'Schrim',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//868
-			//slupca, zagorow
-            DB::table('counties')->insert([
-				'county_name' => 'Slupca',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//869
-			//turek, tviliskow, dobra
-            DB::table('counties')->insert([
-				'county_name' => 'Turek',
-				'county_category' => '',
-				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//870
-			//wreschen, peisern
-            DB::table('counties')->insert([
-				'county_name' => 'Wreschen',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//Lesser Poland
-			//871
+			//855
 			//auswitz, zator, ossek
             DB::table('counties')->insert([
 				'county_name' => 'Auswitz',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);
-			//872
+			//856
 			//chrzanow, tchebin, libiaz
             DB::table('counties')->insert([
 				'county_name' => 'Chrzanow',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);
-			//873
-			//gorlitz, beitsch, bobow, brigel
+			//857
+			//sandez, grunberg, piwniczna, muszyna
             DB::table('counties')->insert([
-				'county_name' => 'Gorlitz',
-				'county_category' => '',
+				'county_name' => 'Sandez',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
+			//858
+			//tarnow, zabno, tuchow, woynitz, dunaiz, ryglitz, cieskowitz, radlow
+            DB::table('counties')->insert([
+				'county_name' => 'Tarnow',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '150',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//859
+			//wadowitz, andrichow
+            DB::table('counties')->insert([
+				'county_name' => 'Wadowitz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '150',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);				
+			//860
+			//lublin, chelm
+            DB::table('counties')->insert([
+				'county_name' => 'Lublin',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '150',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//861
+			//lukow, stoczek
+            DB::table('counties')->insert([
+				'county_name' => 'Lukow',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '150',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//862
+			//sandomierz, zawichost, koprzywnica, klimontow
+            DB::table('counties')->insert([
+				'county_name' => 'Sandomierz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '150',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//Gnesen
+			//863
+			//gnesen, tremessen, witkowo, schwarzenau, kletzko
+            DB::table('counties')->insert([
+				'county_name' => 'Gnesen',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '151',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//864
+			//kolo, moosburg, dabie, klodawa
+            DB::table('counties')->insert([
+				'county_name' => 'Kolo',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '151',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);			
+			//865
+			//kunau, schlusselsee, gohlen, sompolno, kleczew
+            DB::table('counties')->insert([
+				'county_name' => 'Kunau',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '151',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//866
+			//slupca, zagorow
+            DB::table('counties')->insert([
+				'county_name' => 'Slupca',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '151',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//867
+			//turek, tviliskow, dobra
+            DB::table('counties')->insert([
+				'county_name' => 'Turek',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '151',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//868
+			//znin, bartschin
+            DB::table('counties')->insert([
+				'county_name' => 'Znin',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '151',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);			
+			//Kalisz
+			//869
+			//kalisz, opatowek, stavissin
+            DB::table('counties')->insert([
+				'county_name' => 'Kalisz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//870
+			//pleschen, chocz, dobrzyca
+            DB::table('counties')->insert([
+				'county_name' => 'Pleschen',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//871
+			//schildberg, kempen, grabow
+            DB::table('counties')->insert([
+				'county_name' => 'Schildberg',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//872
+			//wielun, ruda
+            DB::table('counties')->insert([
+				'county_name' => 'Wielun',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//873
+			//wreschen, peisern
+            DB::table('counties')->insert([
+				'county_name' => 'Wreschen',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '152',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//Krakow
 			//874
 			//krakow, tyniec, babice, krzeszowitz, szlomnik, skala, salzberg, miechow, myslenitz, proszowitz, hebdow, gross salze, niepolomitz
             DB::table('counties')->insert([
 				'county_name' => 'Krakow',
-				'county_category' => '',
-				'de_jure_duchy' => '150',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
@@ -8097,258 +8100,379 @@ class CountySeeder extends Seeder
 			//olkusz, wolbrom, boleslaw
             DB::table('counties')->insert([
 				'county_name' => 'Olkusz',
-				'county_category' => '',
-				'de_jure_duchy' => '150',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//876
-			//sandez, grunberg, piwniczna, muszyna
+			//czestochowa, lelow, olsztyn
             DB::table('counties')->insert([
-				'county_name' => 'Sandez',
-				'county_category' => '',
-				'de_jure_duchy' => '150',
+				'county_name' => 'Czestochowa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
-            ]);	
+            ]);
 			//877
-			//tarnow, zabno, tuchow, woynitz, dunaiz, ryglitz, cieskowitz, radlow
+			//gorlitz, beitsch, bobow, brigel
             DB::table('counties')->insert([
-				'county_name' => 'Tarnow',
-				'county_category' => '',
-				'de_jure_duchy' => '150',
+				'county_name' => 'Gorlitz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '153',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
-            ]);	
-			//878
-			//wadowitz, andrichow
-            DB::table('counties')->insert([
-				'county_name' => 'Wadowitz',
-				'county_category' => '',
-				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);			
+            ]);				
 			//Kuyavia
-			//879
+			//878
 			//brodnica, jablonow, gorzino
             DB::table('counties')->insert([
 				'county_name' => 'Brodnica',
-				'county_category' => '',
-				'de_jure_duchy' => '151',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '154',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//879
+			//inowroclaw, kruschwitz, argenau, pakosch
+            DB::table('counties')->insert([
+				'county_name' => 'Inowroclaw',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '154',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//880
-			//inowroclaw, kruschwitz, argenau, pakosch
+			//leipe, dobrin, skepe, rypin
             DB::table('counties')->insert([
-				'county_name' => 'Inowroclaw',
-				'county_category' => '',
-				'de_jure_duchy' => '151',
+				'county_name' => 'Leipe',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '154',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//881
-			//leipe, dobrin, skepe, rypin
+			//mogilno, strelno
             DB::table('counties')->insert([
-				'county_name' => 'Leipe',
-				'county_category' => '',
-				'de_jure_duchy' => '151',
+				'county_name' => 'Mogilno',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '154',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//882
-			//mogilno, strelno
-            DB::table('counties')->insert([
-				'county_name' => 'Mogilno',
-				'county_category' => '',
-				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//883
 			//naklo, schubin, kcynia, mrotschen
             DB::table('counties')->insert([
 				'county_name' => 'Naklo',
-				'county_category' => '',
-				'de_jure_duchy' => '151',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '154',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);		
-			//884
+			//883
 			//radziejow, piotrkow
             DB::table('counties')->insert([
 				'county_name' => 'Radziejow',
-				'county_category' => '',
-				'de_jure_duchy' => '151',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '154',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//Mazovia
-			//885
+			//884
 			//losice, meseritz, drohiczyn, sokolow
             DB::table('counties')->insert([
 				'county_name' => 'Losice',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '155',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//885
+			//makow, razon, ostroleka, wyszkow, pultusk, przasnysz, ciechanow
+            DB::table('counties')->insert([
+				'county_name' => 'Makow',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '155',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//886
-			//makow, razon, ostroleka, wyszkow, pultusk, przasnysz, ciechanow
-            DB::table('counties')->insert([
-				'county_name' => 'Makow',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);	
-			//887
-			//minsk, grebkow, garwolin
+			//minsk, grebkow 
             DB::table('counties')->insert([
 				'county_name' => 'Minsk',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '155',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);		
+			//887
+			//zuromin, biezun, sierp
+            DB::table('counties')->insert([
+				'county_name' => 'Zuromin',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '155',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//888
-			//plock, gabin, drobin, wyszogrod, plonsk, sochaczew, gostynin
+			//rawa, rawska
             DB::table('counties')->insert([
-				'county_name' => 'Plock',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Polish'
-            ]);			
-			//889
-			//radom, skaryszew, ilza, szydlowitz
-            DB::table('counties')->insert([
-				'county_name' => 'Radom',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
+				'county_name' => 'Rawa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '155',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);
-			//890
-			//warsaw, ozarow, blonie, piaseczno, grojec, grodzisk
+			//889
+			//wizna, lomza, nowogrod
             DB::table('counties')->insert([
-				'county_name' => 'Warsaw',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
+				'county_name' => 'Wizna',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '155',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//Plock
+			//890
+			//plock, drobin, wyszogrod, plonsk, sochaczew
+            DB::table('counties')->insert([
+				'county_name' => 'Plock',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '156',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//891
-			//zuromin, biezun, sierp
+			//gostynin, gabin
             DB::table('counties')->insert([
-				'county_name' => 'Zuromin',
-				'county_category' => '',
-				'de_jure_duchy' => '152',
+				'county_name' => 'Gostynin',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '156',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Polish'
-            ]);				
+            ]);	
+			//892
+			//mlawa, szrensk
+            DB::table('counties')->insert([
+				'county_name' => 'Mlawa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '156',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//Posen
+			//893
+			//posen, schwersenz, moschin, bnin, pudewitz, radzim, kostschin, stenschewo, buk, schroda
+            DB::table('counties')->insert([
+				'county_name' => 'Posen',
+				'county_category' => 'Ecclesiastical',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//894
+			//chodziez, samotschin, margonin
+            DB::table('counties')->insert([
+				'county_name' => 'Chodziez',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//895
+			//pila, wirsitz, lobsens, usch, wissek, jastrow, krojanke
+            DB::table('counties')->insert([
+				'county_name' => 'Pila',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//896
+			//rogasen, obornik
+            DB::table('counties')->insert([
+				'county_name' => 'Rogasen',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//897
+			//samter, wronke, pinne
+            DB::table('counties')->insert([
+				'county_name' => 'Samter',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//898
+			//scharnikau, filehne, schonlanke
+            DB::table('counties')->insert([
+				'county_name' => 'Scharnikau',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//899
+			//schrim, ksiaz, dolsk
+            DB::table('counties')->insert([
+				'county_name' => 'Schrim',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '157',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//Sieradz
+			//900
+			//sieradz, warta
+            DB::table('counties')->insert([
+				'county_name' => 'Sieradz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '158',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);
+			//901
+			//radom, skaryszew, ilza, szydlowitz, garwolin, grojec
+            DB::table('counties')->insert([
+				'county_name' => 'Radom',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '158',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//902
+			//lentschitz, piatek
+            DB::table('counties')->insert([
+				'county_name' => 'Lentschitz',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '158',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//Warsaw
+			//903
+			//warsaw, ozarow, blonie, piaseczno, grodzisk
+            DB::table('counties')->insert([
+				'county_name' => 'Warsaw',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '159',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);	
+			//904
+			//czersk, brusy
+            DB::table('counties')->insert([
+				'county_name' => 'Czersk',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '159',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Polish'
+            ]);			
 			//Lithuania
 			//Minsk
-			//892
+			//905
 			//minsk, barysaw, lahoysk, zaslawye
             DB::table('counties')->insert([
 				'county_name' => 'Minsk',
-				'county_category' => '',
-				'de_jure_duchy' => '153',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '160',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
-			//893
+			//906
 			//gomel, rechytsa, dobrush
             DB::table('counties')->insert([
 				'county_name' => 'Gomel',
-				'county_category' => '',
-				'de_jure_duchy' => '153',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '160',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
-			//894
+			//907
 			//mogilev, babruysk, drutsk
             DB::table('counties')->insert([
 				'county_name' => 'Mogilev',
-				'county_category' => '',
-				'de_jure_duchy' => '153',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '160',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
 			//Samogitia
-			//895
+			//908
 			//panevezys, birsen
             DB::table('counties')->insert([
 				'county_name' => 'Panevezys',
-				'county_category' => '',
-				'de_jure_duchy' => '154',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '161',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
-			//896
+			//909
 			//schaulen, bajenburg
             DB::table('counties')->insert([
 				'county_name' => 'Schaulen',
-				'county_category' => '',
-				'de_jure_duchy' => '154',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '161',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
-			//897
+			//910
 			//redau, palanga, telsche, mazeike 
             DB::table('counties')->insert([
 				'county_name' => 'Redau',
-				'county_category' => '',
-				'de_jure_duchy' => '154',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '161',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);			
 			//Tracken
-			//898
+			//911
 			//alytus, grodno, lyda
             DB::table('counties')->insert([
 				'county_name' => 'Alytus',
-				'county_category' => '',
-				'de_jure_duchy' => '155',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '162',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
-			//899
+			//912
 			//kauen, bajenburg
             DB::table('counties')->insert([
 				'county_name' => 'Kauen',
-				'county_category' => '',
-				'de_jure_duchy' => '155',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '162',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);				
-			//900
+			//913
 			//tracken, paneriai
             DB::table('counties')->insert([
 				'county_name' => 'Tracken',
-				'county_category' => '',
-				'de_jure_duchy' => '155',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '162',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//Vilnius
-			//901
+			//914
 			//vilnius, kreva, medininkai
             DB::table('counties')->insert([
 				'county_name' => 'Vilnius',
-				'county_category' => '',
-				'de_jure_duchy' => '156',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '163',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
-			//902
+			//915
 			//kernave, vilkomir
             DB::table('counties')->insert([
 				'county_name' => 'Kernave',
-				'county_category' => '',
-				'de_jure_duchy' => '156',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '163',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
@@ -8945,7 +9069,7 @@ class CountySeeder extends Seeder
 			//kiev, pechersk, chvastiv, vyshhorod, mezhyhirya, yuriiv, chernobyl
             DB::table('counties')->insert([
 				'county_name' => 'Kiev',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -8954,7 +9078,7 @@ class CountySeeder extends Seeder
 			//bratslav, vinnytsia
             DB::table('counties')->insert([
 				'county_name' => 'Bratslav',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -8963,7 +9087,7 @@ class CountySeeder extends Seeder
 			//cherkasy, kaniv, bohuslav, korsun 
             DB::table('counties')->insert([
 				'county_name' => 'Cherkasy',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -8972,7 +9096,7 @@ class CountySeeder extends Seeder
 			//korosten, ovruch, zhytomyr
             DB::table('counties')->insert([
 				'county_name' => 'Korosten',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -8982,7 +9106,7 @@ class CountySeeder extends Seeder
 			//pereyaslavl, boryspil
             DB::table('counties')->insert([
 				'county_name' => 'Pereyaslavl',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -8991,7 +9115,7 @@ class CountySeeder extends Seeder
 			//poltava, lubny
             DB::table('counties')->insert([
 				'county_name' => 'Poltava',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9002,7 +9126,7 @@ class CountySeeder extends Seeder
 			//chernigov, kozelets, sedniv
             DB::table('counties')->insert([
 				'county_name' => 'Chernigov',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9011,7 +9135,7 @@ class CountySeeder extends Seeder
 			//bryansk, kursk, oryol, rylsk, starodub, trubcvesk, sevsk, belgorod, svensky
             DB::table('counties')->insert([
 				'county_name' => 'Bryansk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9020,7 +9144,7 @@ class CountySeeder extends Seeder
 			//lyubech, loyew
             DB::table('counties')->insert([
 				'county_name' => 'Lyubech',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9029,7 +9153,7 @@ class CountySeeder extends Seeder
 			//mozhaysk, borodino
             DB::table('counties')->insert([
 				'county_name' => 'Mozhaysk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9038,7 +9162,7 @@ class CountySeeder extends Seeder
 			//novosil, odoyev
             DB::table('counties')->insert([
 				'county_name' => 'Novosil',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9048,7 +9172,7 @@ class CountySeeder extends Seeder
 			//ryazan, kadom, yelatma, pronsk
             DB::table('counties')->insert([
 				'county_name' => 'Ryazan',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9057,7 +9181,7 @@ class CountySeeder extends Seeder
 			//murom, borisoglebsky
             DB::table('counties')->insert([
 				'county_name' => 'Murom',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9066,7 +9190,7 @@ class CountySeeder extends Seeder
 			//tula, belyov
             DB::table('counties')->insert([
 				'county_name' => 'Tula',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9075,7 +9199,7 @@ class CountySeeder extends Seeder
 			//kaluga, mosalsk, kozelsk, tarusa, obolensk
             DB::table('counties')->insert([
 				'county_name' => 'Kaluga',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9084,7 +9208,7 @@ class CountySeeder extends Seeder
 			//vorotynsk, peremyshl, karachev
             DB::table('counties')->insert([
 				'county_name' => 'Vorotynsk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9095,7 +9219,7 @@ class CountySeeder extends Seeder
 			//halych, kolomyia
             DB::table('counties')->insert([
 				'county_name' => 'Halych',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9104,7 +9228,7 @@ class CountySeeder extends Seeder
 			//peremyshl, sambir, lubaczow
             DB::table('counties')->insert([
 				'county_name' => 'Peremyshl',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9113,7 +9237,16 @@ class CountySeeder extends Seeder
 			//lviv, grodek, zudech
             DB::table('counties')->insert([
 				'county_name' => 'Lviv',
-				'county_category' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Ruthenian'
+            ]);	
+			//
+			//belz, sokal 
+            DB::table('counties')->insert([
+				'county_name' => 'Belz',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9123,7 +9256,7 @@ class CountySeeder extends Seeder
 			//kamianets, chernivtsi, khotyn 
             DB::table('counties')->insert([
 				'county_name' => 'Podolia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9132,7 +9265,7 @@ class CountySeeder extends Seeder
 			//terebovlia, moklekov
             DB::table('counties')->insert([
 				'county_name' => 'Terebovlia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9142,7 +9275,7 @@ class CountySeeder extends Seeder
 			//volodymyr, kovel, ratne, shatsk
             DB::table('counties')->insert([
 				'county_name' => 'Volhynia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9151,7 +9284,7 @@ class CountySeeder extends Seeder
 			//brest, belz
             DB::table('counties')->insert([
 				'county_name' => 'Brest',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9160,7 +9293,7 @@ class CountySeeder extends Seeder
 			//kremenets, shumsk
             DB::table('counties')->insert([
 				'county_name' => 'Kremenets',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9169,7 +9302,7 @@ class CountySeeder extends Seeder
 			//lutsk, busk
             DB::table('counties')->insert([
 				'county_name' => 'Lutsk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9179,7 +9312,7 @@ class CountySeeder extends Seeder
 			//turov, pinsk, mazyr
             DB::table('counties')->insert([
 				'county_name' => 'Turov',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9188,7 +9321,7 @@ class CountySeeder extends Seeder
 			//slutsk, kletsk
             DB::table('counties')->insert([
 				'county_name' => 'Slutsk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Ruthenian'
@@ -9199,7 +9332,7 @@ class CountySeeder extends Seeder
 			//vladimir, kirzhach
             DB::table('counties')->insert([
 				'county_name' => 'Vladimir',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9208,7 +9341,7 @@ class CountySeeder extends Seeder
 			//vyazniki, yaropolk 
             DB::table('counties')->insert([
 				'county_name' => 'Vyazniki',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9217,7 +9350,7 @@ class CountySeeder extends Seeder
 			//nizhny novgorod, gorokhovets, gorodets
             DB::table('counties')->insert([
 				'county_name' => 'Nizhny Novgorod',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9227,7 +9360,7 @@ class CountySeeder extends Seeder
 			//moscow, orekhovo, korolyov
             DB::table('counties')->insert([
 				'county_name' => 'Moscow',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9236,7 +9369,7 @@ class CountySeeder extends Seeder
 			//dmitrov, sergiyev, dedenyovo
             DB::table('counties')->insert([
 				'county_name' => 'Dmitrov',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9245,7 +9378,7 @@ class CountySeeder extends Seeder
 			//volokolamsk, lotoshino
             DB::table('counties')->insert([
 				'county_name' => 'Volokolamsk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9254,7 +9387,7 @@ class CountySeeder extends Seeder
 			//zvenigorod, ruza 
             DB::table('counties')->insert([
 				'county_name' => 'Zvenigorod',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9264,7 +9397,7 @@ class CountySeeder extends Seeder
 			//suzdal, ves
             DB::table('counties')->insert([
 				'county_name' => 'Suzdal',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9273,7 +9406,7 @@ class CountySeeder extends Seeder
 			//yuryev, kuzmadino
             DB::table('counties')->insert([
 				'county_name' => 'Yuryev',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9282,7 +9415,7 @@ class CountySeeder extends Seeder
 			//starodub, kovrov
             DB::table('counties')->insert([
 				'county_name' => 'Starodub',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9293,7 +9426,7 @@ class CountySeeder extends Seeder
 			//smolensk, monastyrshchina, gnezdovo
             DB::table('counties')->insert([
 				'county_name' => 'Smolensk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9302,7 +9435,7 @@ class CountySeeder extends Seeder
 			//roslavl, vyazma
             DB::table('counties')->insert([
 				'county_name' => 'Roslavl',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9311,7 +9444,7 @@ class CountySeeder extends Seeder
 			//toropets, morsow
             DB::table('counties')->insert([
 				'county_name' => 'Toropets',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9320,7 +9453,7 @@ class CountySeeder extends Seeder
 			//mstivlavl, svyato
             DB::table('counties')->insert([
 				'county_name' => 'Mstislavl',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9330,7 +9463,7 @@ class CountySeeder extends Seeder
 			//rzhev, eltsy
             DB::table('counties')->insert([
 				'county_name' => 'Rzhev',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9339,7 +9472,7 @@ class CountySeeder extends Seeder
 			//zubtsov, gorodok
             DB::table('counties')->insert([
 				'county_name' => 'Zubtsov',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9349,7 +9482,7 @@ class CountySeeder extends Seeder
 			//tver, kashin, ostakhov, torzhok, klin
             DB::table('counties')->insert([
 				'county_name' => 'Tver',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9358,7 +9491,7 @@ class CountySeeder extends Seeder
 			//galich, soligalich, makaryev
             DB::table('counties')->insert([
 				'county_name' => 'Galich',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9367,7 +9500,7 @@ class CountySeeder extends Seeder
 			//kostroma, ipatiev, nerekhta
             DB::table('counties')->insert([
 				'county_name' => 'Kostroma',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9376,7 +9509,7 @@ class CountySeeder extends Seeder
 			//pereslavl, nikitsky
             DB::table('counties')->insert([
 				'county_name' => 'Pereslavl',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9385,7 +9518,7 @@ class CountySeeder extends Seeder
 			//rostov, sarsky
             DB::table('counties')->insert([
 				'county_name' => 'Rostov',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9394,7 +9527,7 @@ class CountySeeder extends Seeder
 			//yaroslavl, uglich, vologda, cherepovets
             DB::table('counties')->insert([
 				'county_name' => 'Yaroslavl',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9405,7 +9538,7 @@ class CountySeeder extends Seeder
 			//novgorod, rusa 
             DB::table('counties')->insert([
 				'county_name' => 'Novgorod',
-				'county_category' => '',
+				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9414,7 +9547,7 @@ class CountySeeder extends Seeder
 			//ladoga, oreshek, keksholm, koporye
             DB::table('counties')->insert([
 				'county_name' => 'Ladoga',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9424,7 +9557,7 @@ class CountySeeder extends Seeder
 			//polotsk, rasony
             DB::table('counties')->insert([
 				'county_name' => 'Polotsk',
-				'county_category' => '',
+				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
@@ -9433,7 +9566,7 @@ class CountySeeder extends Seeder
 			//vitebsk, orsha, gorodok
             DB::table('counties')->insert([
 				'county_name' => 'Vitebsk',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Lithuanian'
@@ -9443,7 +9576,7 @@ class CountySeeder extends Seeder
 			//pleskov, opochka, gdov, porkhov, ostrov, izborsk
             DB::table('counties')->insert([
 				'county_name' => 'Pleskov',
-				'county_category' => '',
+				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9452,7 +9585,7 @@ class CountySeeder extends Seeder
 			//kholm, velikiye luki
             DB::table('counties')->insert([
 				'county_name' => 'Kholm',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Russian'
@@ -9464,7 +9597,7 @@ class CountySeeder extends Seeder
 			//algeciras
             DB::table('counties')->insert([
 				'county_name' => 'Algeciras',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9473,7 +9606,7 @@ class CountySeeder extends Seeder
 			//gibraltar
             DB::table('counties')->insert([
 				'county_name' => 'Gibraltar',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9483,7 +9616,7 @@ class CountySeeder extends Seeder
 			//almeria
             DB::table('counties')->insert([
 				'county_name' => 'Almeria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9492,7 +9625,7 @@ class CountySeeder extends Seeder
 			//baza
             DB::table('counties')->insert([
 				'county_name' => 'Baza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9502,7 +9635,7 @@ class CountySeeder extends Seeder
 			//cadiz, arcos
             DB::table('counties')->insert([
 				'county_name' => 'Cadiz',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9511,7 +9644,7 @@ class CountySeeder extends Seeder
 			//jerez
             DB::table('counties')->insert([
 				'county_name' => 'Jerez',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9520,7 +9653,7 @@ class CountySeeder extends Seeder
 			//sanlucar
             DB::table('counties')->insert([
 				'county_name' => 'Sanlucar',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9530,7 +9663,7 @@ class CountySeeder extends Seeder
 			//carmona
             DB::table('counties')->insert([
 				'county_name' => 'Carmona',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9539,7 +9672,7 @@ class CountySeeder extends Seeder
 			//ecija
             DB::table('counties')->insert([
 				'county_name' => 'Ecija',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9549,7 +9682,7 @@ class CountySeeder extends Seeder
 			//andujar
             DB::table('counties')->insert([
 				'county_name' => 'Andujar',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9558,7 +9691,7 @@ class CountySeeder extends Seeder
 			//carpio
             DB::table('counties')->insert([
 				'county_name' => 'Carpio',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9567,7 +9700,7 @@ class CountySeeder extends Seeder
 			//cordoba
             DB::table('counties')->insert([
 				'county_name' => 'Cordoba',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9576,7 +9709,7 @@ class CountySeeder extends Seeder
 			//martos
             DB::table('counties')->insert([
 				'county_name' => 'Martos',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9585,7 +9718,7 @@ class CountySeeder extends Seeder
 			//pedroche
             DB::table('counties')->insert([
 				'county_name' => 'Pedroche',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9595,7 +9728,7 @@ class CountySeeder extends Seeder
 			//baeza
             DB::table('counties')->insert([
 				'county_name' => 'Baeza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9604,7 +9737,7 @@ class CountySeeder extends Seeder
 			//carolina
             DB::table('counties')->insert([
 				'county_name' => 'Carolina',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9613,7 +9746,7 @@ class CountySeeder extends Seeder
 			//granada
             DB::table('counties')->insert([
 				'county_name' => 'Granada',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9622,7 +9755,7 @@ class CountySeeder extends Seeder
 			//guadix
             DB::table('counties')->insert([
 				'county_name' => 'Guadix',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9631,7 +9764,7 @@ class CountySeeder extends Seeder
 			//jaen
             DB::table('counties')->insert([
 				'county_name' => 'Jaen',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9640,7 +9773,7 @@ class CountySeeder extends Seeder
 			//orjiva
             DB::table('counties')->insert([
 				'county_name' => 'Lecrin',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9649,7 +9782,7 @@ class CountySeeder extends Seeder
 			//motril
             DB::table('counties')->insert([
 				'county_name' => 'Motril',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9658,7 +9791,7 @@ class CountySeeder extends Seeder
 			//torvizcon
             DB::table('counties')->insert([
 				'county_name' => 'Torvizcon',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9667,7 +9800,7 @@ class CountySeeder extends Seeder
 			//ubeda
             DB::table('counties')->insert([
 				'county_name' => 'Ubeda',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9677,7 +9810,7 @@ class CountySeeder extends Seeder
 			//alhama
             DB::table('counties')->insert([
 				'county_name' => 'Alhama',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9686,7 +9819,7 @@ class CountySeeder extends Seeder
 			//antequerra
             DB::table('counties')->insert([
 				'county_name' => 'Antequerra',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9695,7 +9828,7 @@ class CountySeeder extends Seeder
 			//loja
             DB::table('counties')->insert([
 				'county_name' => 'Loja',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9704,7 +9837,7 @@ class CountySeeder extends Seeder
 			//malaga
             DB::table('counties')->insert([
 				'county_name' => 'Malaga',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9714,7 +9847,7 @@ class CountySeeder extends Seeder
 			//marbella
             DB::table('counties')->insert([
 				'county_name' => 'Marbella',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9723,7 +9856,7 @@ class CountySeeder extends Seeder
 			//ronda
             DB::table('counties')->insert([
 				'county_name' => 'Ronda',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9733,7 +9866,7 @@ class CountySeeder extends Seeder
 			//gines, gelves, olivares, pilas, tomares, san isidore
             DB::table('counties')->insert([
 				'county_name' => 'Aljarafe',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9742,7 +9875,7 @@ class CountySeeder extends Seeder
 			//estepa
             DB::table('counties')->insert([
 				'county_name' => 'Estepa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9762,7 +9895,7 @@ class CountySeeder extends Seeder
 			//faro, tavira, alcoutim, salir
             DB::table('counties')->insert([
 				'county_name' => 'Faro',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9771,7 +9904,7 @@ class CountySeeder extends Seeder
 			//mertola, serpa, moura, noudar
             DB::table('counties')->insert([
 				'county_name' => 'Mertola',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9780,7 +9913,7 @@ class CountySeeder extends Seeder
 			//silves, lagos, alcantarilha, aljezur, alvor, paderne
             DB::table('counties')->insert([
 				'county_name' => 'Silves',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9790,7 +9923,7 @@ class CountySeeder extends Seeder
 			//badajoz, albuquerque, talavera, barbacena, elvas
             DB::table('counties')->insert([
 				'county_name' => 'Badajoz',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9799,7 +9932,7 @@ class CountySeeder extends Seeder
 			//beja, ourique, vidigueira, messejana, cola, alvito, aljustrel
             DB::table('counties')->insert([
 				'county_name' => 'Beja',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9808,7 +9941,7 @@ class CountySeeder extends Seeder
 			//evora, alandroal, arraiolos, estremoz, mourao, viana, redondo, portel
             DB::table('counties')->insert([
 				'county_name' => 'Evora',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9817,7 +9950,7 @@ class CountySeeder extends Seeder
 			//medellin, guarena
             DB::table('counties')->insert([
 				'county_name' => 'Guadiana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9826,7 +9959,7 @@ class CountySeeder extends Seeder
 			//llerena, berlanga, usagre, azuaga
             DB::table('counties')->insert([
 				'county_name' => 'Llerena',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9835,7 +9968,7 @@ class CountySeeder extends Seeder
 			//merida, zafra, valverde, mirandilla, san servan, alange, calzada, lobon
             DB::table('counties')->insert([
 				'county_name' => 'Merida',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9844,7 +9977,7 @@ class CountySeeder extends Seeder
 			//olivenza, nogales, alconchel, higuera
             DB::table('counties')->insert([
 				'county_name' => 'Olivenza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9853,7 +9986,7 @@ class CountySeeder extends Seeder
 			//portalegre, alegrete, avis, monforte, marvao
             DB::table('counties')->insert([
 				'county_name' => 'Portalegre',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9862,7 +9995,7 @@ class CountySeeder extends Seeder
 			//villanueva, castuera
             DB::table('counties')->insert([
 				'county_name' => 'Serena',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9872,7 +10005,7 @@ class CountySeeder extends Seeder
 			//aracena, santa eulalia, aroche, cala, cortegana, santa olalla
             DB::table('counties')->insert([
 				'county_name' => 'Aracena',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9881,7 +10014,7 @@ class CountySeeder extends Seeder
 			//huelva, ayamonte, cartaya
             DB::table('counties')->insert([
 				'county_name' => 'Huelva',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9890,7 +10023,7 @@ class CountySeeder extends Seeder
 			//niebla, moguer, almonte
             DB::table('counties')->insert([
 				'county_name' => 'Niebla',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9901,7 +10034,7 @@ class CountySeeder extends Seeder
 			//huete, almonacid, guadalajara
             DB::table('counties')->insert([
 				'county_name' => 'Alcarria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9910,8 +10043,8 @@ class CountySeeder extends Seeder
 			//almarza, buitrago
             DB::table('counties')->insert([
 				'county_name' => 'Almarza',
-				'county_category' => '',
-				'de_jure_duchy' => '114',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
@@ -9919,8 +10052,8 @@ class CountySeeder extends Seeder
 			//alcala, valverde, pezuela, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Henares',
-				'county_category' => '',
-				'de_jure_duchy' => '118',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
             ]);
@@ -9928,8 +10061,8 @@ class CountySeeder extends Seeder
 			//medinaceli, arcos, somaen
             DB::table('counties')->insert([
 				'county_name' => 'Medinaceli',
-				'county_category' => '',
-				'de_jure_duchy' => '117',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
             ]);
@@ -9938,7 +10071,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Molina',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '114',
+				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
@@ -9946,8 +10079,8 @@ class CountySeeder extends Seeder
 			//alpuente, cuenca, atienza, siguenza, bonaval
             DB::table('counties')->insert([
 				'county_name' => 'Serrania',
-				'county_category' => '',
-				'de_jure_duchy' => '114',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
@@ -9956,7 +10089,7 @@ class CountySeeder extends Seeder
 			//ibiza
             DB::table('counties')->insert([
 				'county_name' => 'Ibiza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9965,7 +10098,7 @@ class CountySeeder extends Seeder
 			//palma
             DB::table('counties')->insert([
 				'county_name' => 'Mallorca',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9974,7 +10107,7 @@ class CountySeeder extends Seeder
 			//alayor, ciudadela, mahon, mercadal
             DB::table('counties')->insert([
 				'county_name' => 'Menorca',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9984,7 +10117,7 @@ class CountySeeder extends Seeder
 			//albacete
             DB::table('counties')->insert([
 				'county_name' => 'Albacete',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -9993,7 +10126,7 @@ class CountySeeder extends Seeder
 			//alcaraz
             DB::table('counties')->insert([
 				'county_name' => 'Alcaraz',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10002,7 +10135,7 @@ class CountySeeder extends Seeder
 			//alcira
             DB::table('counties')->insert([
 				'county_name' => 'Alcira',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10011,7 +10144,7 @@ class CountySeeder extends Seeder
 			//alcoy
             DB::table('counties')->insert([
 				'county_name' => 'Alcoy',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10020,7 +10153,7 @@ class CountySeeder extends Seeder
 			//alicanta
             DB::table('counties')->insert([
 				'county_name' => 'Alicante',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10029,7 +10162,7 @@ class CountySeeder extends Seeder
 			//almagro, villa real, san juan, valdepenas
             DB::table('counties')->insert([
 				'county_name' => 'Almagro',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10038,7 +10171,7 @@ class CountySeeder extends Seeder
 			//chinchilla
             DB::table('counties')->insert([
 				'county_name' => 'Chinchilla',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10047,7 +10180,7 @@ class CountySeeder extends Seeder
 			//cofrentes
             DB::table('counties')->insert([
 				'county_name' => 'Cofrentes',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10056,7 +10189,7 @@ class CountySeeder extends Seeder
 			//denia
             DB::table('counties')->insert([
 				'county_name' => 'Denia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10065,7 +10198,7 @@ class CountySeeder extends Seeder
 			//jativa
             DB::table('counties')->insert([
 				'county_name' => 'Jativa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10074,7 +10207,7 @@ class CountySeeder extends Seeder
 			//montesa
             DB::table('counties')->insert([
 				'county_name' => 'Montesa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10084,7 +10217,7 @@ class CountySeeder extends Seeder
 			//cartagena
             DB::table('counties')->insert([
 				'county_name' => 'Cartagena',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10093,7 +10226,7 @@ class CountySeeder extends Seeder
 			//cieza
             DB::table('counties')->insert([
 				'county_name' => 'Cieza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10102,7 +10235,7 @@ class CountySeeder extends Seeder
 			//hellin
             DB::table('counties')->insert([
 				'county_name' => 'Hellin',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10111,7 +10244,7 @@ class CountySeeder extends Seeder
 			//lorca
             DB::table('counties')->insert([
 				'county_name' => 'Lorca',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10120,7 +10253,7 @@ class CountySeeder extends Seeder
 			//murcia
             DB::table('counties')->insert([
 				'county_name' => 'Murcia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10129,7 +10262,7 @@ class CountySeeder extends Seeder
 			//orihuella
             DB::table('counties')->insert([
 				'county_name' => 'Orihuela',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10138,7 +10271,7 @@ class CountySeeder extends Seeder
 			//segura
             DB::table('counties')->insert([
 				'county_name' => 'Segura',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10148,7 +10281,7 @@ class CountySeeder extends Seeder
 			//castellon
             DB::table('counties')->insert([
 				'county_name' => 'Castellon',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10157,7 +10290,7 @@ class CountySeeder extends Seeder
 			//morella
             DB::table('counties')->insert([
 				'county_name' => 'Morella',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10166,7 +10299,7 @@ class CountySeeder extends Seeder
 			//peniscola
             DB::table('counties')->insert([
 				'county_name' => 'Peniscola',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10175,7 +10308,7 @@ class CountySeeder extends Seeder
 			//san clemente
             DB::table('counties')->insert([
 				'county_name' => 'San Clemente',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
@@ -10184,7 +10317,7 @@ class CountySeeder extends Seeder
 			//valencia
             DB::table('counties')->insert([
 				'county_name' => 'Valencia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Moorish'
