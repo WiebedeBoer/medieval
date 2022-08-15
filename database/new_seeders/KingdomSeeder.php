@@ -329,7 +329,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//Hungary
 			//Hungary
-			//
+			//Hungary, Buda, Nitra, Temesvar, Ungvar, Transylvania
 			//25
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Hungary',
@@ -341,7 +341,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'			
             ]);	
 			//Croatia
-			//
+			//Dalmatia, Ragusa, Slavonia, Split, Zadar
 			//26
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Croatia',

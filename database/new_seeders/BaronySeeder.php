@@ -58,7 +58,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -293,6 +293,58 @@ class BaronySeeder extends Seeder
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Parenzo',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pican',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pula',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2014,7 +2066,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Market_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
@@ -2068,7 +2120,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -2393,7 +2445,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Fair_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -2448,7 +2500,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Staple_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -2524,7 +2576,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Staple_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -3120,7 +3172,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -3370,7 +3422,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Patriarch',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
@@ -3443,7 +3495,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -3886,7 +3938,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -4087,7 +4139,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -4376,7 +4428,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
@@ -4739,7 +4791,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -5888,7 +5940,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Staple_right',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -5924,7 +5976,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -5977,7 +6029,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -6014,7 +6066,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -6177,7 +6229,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -6213,7 +6265,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -7128,8 +7180,8 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7189,6 +7241,24 @@ class BaronySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
             ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Perpignan',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
 			//Huesca
 			//
 			//
@@ -7203,7 +7273,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7222,7 +7292,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7315,7 +7385,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7370,7 +7440,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -7430,7 +7500,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7448,7 +7518,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
@@ -7491,7 +7561,26 @@ class BaronySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
-            ]);			
+            ]);
+			//Valladolid
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Valladolid',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Parliament',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
 			//Galicia	
 			//Coruna
 			//
@@ -7659,7 +7748,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7773,7 +7862,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -7845,8 +7934,8 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -8031,6 +8120,24 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kobenhavn',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Parliament',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -8277,7 +8384,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -8302,30 +8409,826 @@ class BaronySeeder extends Seeder
             ]);
 			//Poland
 			//Poland
-			//Greater Poland
-			
 			//Lesser Poland
-
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tarnow',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sandomierz',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Gnesen
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gnesen',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//Krakow
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Krakow',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Parliament',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
 			//Kuyavia
-
-			//Mazovia
-			
-			//Lithuania
-			//Brest	
-			
-			//Minsk	
-
-			//Smolensk
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Leslau',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Plock
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Plock',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Posen
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Posen',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gorzow',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);				
+			//Lithuania		
 			//Tracken
-
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kauen',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
 			//Vilnius			
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vilnius',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);				
 			//Hungary
 			//Hungary
-			
+			//Hungary
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gyor',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vezprem',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Buda
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kalocsa',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pecs',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Esztergom',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Visegrad',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Fehervar',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);				
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Eger',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Buda',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Nitra
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vac',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pozsony',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Temesvar
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bihar',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Nagyvarad',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Csanad',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Transylvania
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Guylafehervar',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
 			//Croatia
-			
+			//Dalmatia
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Modrus',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kotor',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Ragusa
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ragusa',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Korcula',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Narona',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sibenik',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//Slavonia
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Zagreb',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);		
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sisak',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Szavaszentdemeter',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//Split
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Split',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Solin',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hvar',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Makarska',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Trogir',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//Zadar
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Zadar',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Nin',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rab',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cres',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Osor',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Veglia',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);			
 			//Byzantine
 			
 			//Thrace
@@ -8447,7 +9350,24 @@ class BaronySeeder extends Seeder
 			
 			//Halych
 			//Halych
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Peremyshl',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);			
 			//Volhynia
 			
 			//Turov
@@ -8584,8 +9504,8 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -8725,6 +9645,24 @@ class BaronySeeder extends Seeder
 			//
 			//
             DB::table('baronies')->insert([
+				'barony_name' => 'Alcala',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
 				'barony_name' => 'Cuenca',
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
@@ -8752,7 +9690,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -8771,7 +9709,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
@@ -8864,7 +9802,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
+				'charter_university' => 'Cathedral_School',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
