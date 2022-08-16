@@ -8798,8 +8798,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
-			//
-			//szatmar
+			//951
+			//szatmar, mateszalka, nagybanya, nagykaroly, nagysomkut, szatmarnemeti
             DB::table('counties')->insert([
 				'county_name' => 'Szatmar',
 				'county_category' => 'Feudal',
@@ -8807,8 +8807,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
-			//
-			//spis
+			//952
+			//spis, levoca, gelnica, kesmark, lubovna, ofalu, sopota, varalja
             DB::table('counties')->insert([
 				'county_name' => 'Szepes',
 				'county_category' => 'Feudal',
@@ -8816,8 +8816,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
-			//
-			//zemplen
+			//953
+			//zemplen, tokaj, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
             DB::table('counties')->insert([
 				'county_name' => 'Zemplen',
 				'county_category' => 'Feudal',
@@ -8826,8 +8826,8 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//Transylvania
-			//
-			//felvinc, turda, holten, miereschhall, torocko, mireslau, guylafehervar
+			//954
+			//aranyosgyeres, felvinc, turda, holten, miereschhall, torocko, mireslau, guylafehervar
             DB::table('counties')->insert([
 				'county_name' => 'Aranyosszek',
 				'county_category' => 'Feudal',
@@ -8835,8 +8835,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
-			//
-			//csiksomlyo
+			//955
+			//csiksomlyo, csikszereda
             DB::table('counties')->insert([
 				'county_name' => 'Csikszek',
 				'county_category' => 'Feudal',
@@ -8844,8 +8844,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
-			//
-			//sepsiszentgyorgy 
+			//956
+			//sepsiszentgyorgy, kezdivasarhely, nagyajta 
             DB::table('counties')->insert([
 				'county_name' => 'Haromzsek',
 				'county_category' => 'Feudal',
@@ -8853,8 +8853,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
-			//
-			//koloszvar
+			//957
+			//koloszvar, szamosujvar, desvar
             DB::table('counties')->insert([
 				'county_name' => 'Koloszvar',
 				'county_category' => 'Feudal',
@@ -8862,8 +8862,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);			
-			//
-			//marosvasarhely
+			//958
+			//marosvasarhely, teleki, mezosamsond
             DB::table('counties')->insert([
 				'county_name' => 'Marosszek',
 				'county_category' => 'Feudal',
@@ -8871,8 +8871,17 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
-			//
-			//udvarhely
+			//959
+			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely
+            DB::table('counties')->insert([
+				'county_name' => 'Szeben',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_cycle' => '',	
+				'vernacular_architecture' => 'Hungarian'
+            ]);	
+			//960
+			//udvarhely, marosheviz
             DB::table('counties')->insert([
 				'county_name' => 'Udvarhelyszek',
 				'county_category' => 'Feudal',
@@ -8882,7 +8891,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Croatia
 			//Dalmatia
-			//
+			//961
 			//bribir, skradin
             DB::table('counties')->insert([
 				'county_name' => 'Bribir',
@@ -8891,7 +8900,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//962
 			//knin, drnis
             DB::table('counties')->insert([
 				'county_name' => 'Knin',
@@ -8900,7 +8909,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//963
 			//udbina, lapac
             DB::table('counties')->insert([
 				'county_name' => 'Krbava',
@@ -8909,7 +8918,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//964
 			//gospic, lapac, sokolac, otocac, baska, senj
             DB::table('counties')->insert([
 				'county_name' => 'Lika',
@@ -8918,7 +8927,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//965
 			//modrus, ogulin, rijeka, kotor, bakar, slunj, karlovac
             DB::table('counties')->insert([
 				'county_name' => 'Modrus',
@@ -8928,7 +8937,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//Ragusa
-			//
+			//966
 			//ragusa, trebinje, korcula, narona
             DB::table('counties')->insert([
 				'county_name' => 'Ragusa',
@@ -8937,7 +8946,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//967
 			//cetina, civljane, sibenik, vrlika, glavas, prozor, sinj, trilj, stolac, gradac
             DB::table('counties')->insert([
 				'county_name' => 'Cetina',
@@ -8946,7 +8955,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
-			//
+			//968
 			//kotor, dobrota, risan
             DB::table('counties')->insert([
 				'county_name' => 'Kotor',
@@ -8956,7 +8965,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//Slavonia
-			//
+			//969
 			//zagreb, sisak
             DB::table('counties')->insert([
 				'county_name' => 'Zagreb',
@@ -8965,7 +8974,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
-			//
+			//970
 			//bjelovar, cazma, daruvar
             DB::table('counties')->insert([
 				'county_name' => 'Bjelovar',
@@ -8974,7 +8983,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
-			//
+			//971
 			//pozega, pakrac
             DB::table('counties')->insert([
 				'county_name' => 'Pozega',
@@ -8983,7 +8992,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
-			//
+			//972
 			//vukovar, szavaszentdemeter
             DB::table('counties')->insert([
 				'county_name' => 'Syrmia',
@@ -8992,7 +9001,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//973
 			//varazdin, ludbreg
             DB::table('counties')->insert([
 				'county_name' => 'Varazdin',
@@ -9001,7 +9010,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);		
-			//
+			//974
 			//veroce, osijek, nasice, dakovo
             DB::table('counties')->insert([
 				'county_name' => 'Veroce',
@@ -9011,7 +9020,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//Split
-			//
+			//975
 			//split, klis, solin, hvar, makarska
             DB::table('counties')->insert([
 				'county_name' => 'Split',
@@ -9020,7 +9029,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//976
 			//trogir, komiza
             DB::table('counties')->insert([
 				'county_name' => 'Trogir',
@@ -9030,7 +9039,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//Zadar
-			//
+			//977
 			//zadar, orbrovac, pag, nin, benkovac, starigrad, rab
             DB::table('counties')->insert([
 				'county_name' => 'Zadar',
@@ -9039,7 +9048,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
-			//
+			//978
 			//cres, lubenice, martinscica, losinj, osor
             DB::table('counties')->insert([
 				'county_name' => 'Cres',
@@ -9048,7 +9057,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',	
 				'vernacular_architecture' => 'Croatian'
             ]);
-			//
+			//979
 			//veglia, jurandvor, vrbnik, moschau
             DB::table('counties')->insert([
 				'county_name' => 'Veglia',
