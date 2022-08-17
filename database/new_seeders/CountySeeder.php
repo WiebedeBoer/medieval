@@ -17,9 +17,10 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Crowned_Republic
-				'de_jure_duchy' => '',			
-				'vernacular_cycle' => '',			//Matter_of_Britain, Carolingian, Byzantine, Rus, Persian, Arab	
-				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
+				'de_jure_duchy' => '',	
+				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Sunni, Shia, Pagan
+				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish	
+				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -56,7 +57,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Grunsweit',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '1',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);
 			//2 
@@ -65,7 +67,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ostmark',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '1',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',				
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);
 			//3
@@ -74,7 +77,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vienna',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '1',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);
 			//Bavaria
@@ -84,7 +88,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Donaugau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//5
@@ -93,7 +98,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Folkfeld',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//6
@@ -102,7 +108,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Isengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//7
@@ -111,7 +118,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nordgau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//8
@@ -120,7 +128,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Radenzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);				
 			//9
@@ -129,7 +138,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rottgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//10
@@ -138,7 +148,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schweinachgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//11
@@ -147,7 +158,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Westergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '2',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//Brabant
@@ -157,7 +169,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brabant',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '3',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Flemish'
             ]);	
 			//13
@@ -166,7 +179,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Haspengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '3',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Flemish'
             ]);	
 			//14
@@ -175,7 +189,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hennegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '3',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//15
@@ -184,7 +199,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kamerykgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '3',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Flemish'
             ]);				
 			//16
@@ -193,7 +209,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Toxandria',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '3',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Flemish'
             ]);	
 			//17
@@ -202,7 +219,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Waasgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '3',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Flemish'
             ]);				
 			//Carinthia
@@ -212,7 +230,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hengistgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//19
@@ -221,7 +240,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ingeringtal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//20
@@ -230,7 +250,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jauntal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//21
@@ -239,7 +260,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kroatengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//22
@@ -248,7 +270,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lavanttal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//23
@@ -257,7 +280,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leobental',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//24
@@ -266,7 +290,7 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lurngau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//25
@@ -275,7 +299,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Murztal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//26
@@ -284,7 +309,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sanntal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '4',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//Carniola
@@ -294,7 +320,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Krainmark',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '5',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//28
@@ -303,7 +330,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Histria',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '5',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);
 			//Franconia
@@ -313,7 +341,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Grabfeld',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//30
@@ -322,7 +351,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gollachgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//31
@@ -331,7 +361,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gotzfeld',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//32
@@ -340,7 +371,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jagstgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//33
@@ -349,7 +381,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Saalgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//34
@@ -358,7 +391,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sualafeld',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//35
@@ -367,7 +401,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sulmgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//36
@@ -376,7 +411,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Taubergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//37
@@ -385,7 +421,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Waldsassengau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '6',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//Frisia
@@ -395,7 +432,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ammergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//39
@@ -404,7 +442,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auricherland',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//40
@@ -413,7 +452,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Beveland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//41
@@ -422,7 +462,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bornegau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//42
@@ -431,7 +472,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Drenthe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//43
@@ -440,7 +482,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dithmarschen',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);				
 			//44
@@ -449,7 +492,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Emsigerland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//45
@@ -458,7 +502,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Fivelgau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//46
@@ -467,7 +512,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hadeln',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//47
@@ -476,7 +522,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//48
@@ -485,7 +532,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hunsingau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//49
@@ -494,7 +542,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kennemerland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);
 			//50
@@ -503,7 +552,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maasland',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Frisian'
             ]);				
 			//51
@@ -512,7 +562,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nifterlake',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//52
@@ -521,7 +572,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Norderland',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//53
@@ -530,7 +582,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ostringen',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//54
@@ -539,7 +592,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oostergau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//55
@@ -548,7 +602,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rhineland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//56
@@ -557,7 +612,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rustringen',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//57
@@ -566,7 +622,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Salland',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//58
@@ -575,7 +632,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sudergau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);
 			//59
@@ -584,7 +642,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Teisterbant',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//60
@@ -593,7 +652,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Twente',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//61
@@ -602,7 +662,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Veluwe',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//62
@@ -611,7 +672,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vollenhove',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//63
@@ -620,7 +682,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Walcheren',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//64
@@ -629,7 +692,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Westergau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//65
@@ -638,7 +702,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Westflinge',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);	
 			//66
@@ -647,7 +712,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wursten',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '7',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Frisian'
             ]);				
 			//Guelders
@@ -657,7 +723,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hettergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '8',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//68
@@ -666,7 +733,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Betuwe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '8',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//69
@@ -675,7 +743,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cleveland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '8',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//70
@@ -684,7 +753,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hamaland',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '8',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//71
@@ -693,7 +763,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mulgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '8',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
 			//72
@@ -702,7 +773,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ruhrgau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '8',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Julich
@@ -712,7 +784,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Julichgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '9',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//74
@@ -721,7 +794,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Eifelgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '9',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//75
@@ -730,7 +804,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zulpichgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '9',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Limburg
@@ -740,7 +815,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Luttichgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '10',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//77
@@ -749,7 +825,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ardennengau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '10',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//78
@@ -758,7 +835,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Condrustgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '10',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//79
@@ -767,7 +845,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lommegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '10',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);			
 			//80
@@ -776,7 +855,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maasgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '10',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Lorraine
@@ -786,7 +866,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Metzgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//82
@@ -795,7 +876,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bleisgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//83
@@ -804,7 +886,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chaumontois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//84
@@ -813,7 +896,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Saargau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//85
@@ -822,7 +906,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Salingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//86
@@ -831,7 +916,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Soulossois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//87
@@ -840,7 +926,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Toullois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '11',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Luxembourg
@@ -850,7 +937,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Methingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '12',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//89
@@ -859,7 +947,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Barrois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '12',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//90
@@ -868,7 +957,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Moselgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '12',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//91
@@ -877,7 +967,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Verdungau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '12',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//92
@@ -886,7 +977,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wavergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '12',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//Saxony
@@ -896,7 +988,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bardengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//94
@@ -905,7 +998,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Derlingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//95
@@ -914,7 +1008,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Eastfalagau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//96
@@ -923,7 +1018,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gretingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//97
@@ -932,7 +1028,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gudingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//98
@@ -941,7 +1038,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Harzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//99
@@ -950,7 +1048,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wenzengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '13',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//Styria
@@ -960,7 +1059,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Traungau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '14',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//101
@@ -969,7 +1069,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Attergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '14',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);			
 			//102
@@ -978,7 +1079,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ennstal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '14',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//103
@@ -987,7 +1089,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mattiggau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '14',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian'
             ]);				
 			//104
@@ -996,7 +1099,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Norital',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '14',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//105
@@ -1005,7 +1109,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vinschgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '14',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//Swabia
@@ -1015,7 +1120,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ortengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//107
@@ -1024,7 +1130,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Albegau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//108
@@ -1033,7 +1140,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Augstgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//109
@@ -1042,7 +1150,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Breisgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Swabian'
             ]);
 			//110
@@ -1051,7 +1160,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Churgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);
 			//111
@@ -1060,7 +1170,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Swabian'
             ]);			
 			//112
@@ -1068,8 +1179,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Linzgau',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '15',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//113
@@ -1078,7 +1190,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Neckargau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//114
@@ -1087,7 +1200,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nordgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//115
@@ -1096,7 +1210,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Riesgau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//116
@@ -1105,7 +1220,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schwerzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//117
@@ -1114,7 +1230,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schwyzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//118
@@ -1123,7 +1240,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sundgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//119
@@ -1132,7 +1250,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Turgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//120
@@ -1141,7 +1260,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zurichgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '15',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian'
             ]);
 			//Thuringia
@@ -1151,7 +1271,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Thuringgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//122
@@ -1160,7 +1281,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Altgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//123
@@ -1169,7 +1291,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Eichsfeld',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//124
@@ -1178,7 +1301,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Helmegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//125
@@ -1187,7 +1311,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Langwitzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//126
@@ -1196,7 +1321,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nabelgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//127
@@ -1205,7 +1331,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Orlagau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//128
@@ -1214,7 +1341,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ostergau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//129
@@ -1223,7 +1351,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zwickaugau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '16',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//Bremen
@@ -1233,7 +1362,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Largau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//131
@@ -1242,7 +1372,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Agradingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//132
@@ -1251,7 +1382,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Angerngau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//133
@@ -1260,7 +1392,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Augau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//134
@@ -1269,7 +1402,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bukkigau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//135
@@ -1278,7 +1412,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bursibant',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//136
@@ -1287,7 +1422,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dervegau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//137
@@ -1296,7 +1432,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dreingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//138
@@ -1305,7 +1442,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gronegau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//139
@@ -1314,7 +1452,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hasegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//140
@@ -1323,7 +1462,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Heilangau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//141
@@ -1332,7 +1472,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Holsteingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//142
@@ -1341,7 +1482,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leinegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//143
@@ -1350,7 +1492,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mosidegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//144
@@ -1359,7 +1502,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Padergau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);	
 			//145
@@ -1368,7 +1512,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Stevergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//146
@@ -1377,7 +1522,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Stormarngau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//147
@@ -1386,7 +1532,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sturmigau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);						
 			//148
@@ -1395,7 +1542,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sudergau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//149
@@ -1404,7 +1552,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Werregau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);				
 			//150
@@ -1413,7 +1562,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Westfaliagau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '17',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);						
 			//Cologne
@@ -1423,7 +1573,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gillgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '18',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//152
@@ -1432,7 +1583,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auelgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '18',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//153
@@ -1441,7 +1593,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bonngau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '18',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//154
@@ -1450,7 +1603,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Deutzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '18',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Magdeburg
@@ -1460,7 +1614,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nordthuringgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//156
@@ -1469,7 +1624,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Balsamgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon'
             ]);			
 			//157
@@ -1478,7 +1634,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Friesenfeld',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//158
@@ -1487,7 +1644,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hartingau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//159
@@ -1496,7 +1654,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hassegau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//160
@@ -1505,7 +1664,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Osterwalde',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//161
@@ -1514,7 +1674,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schwabengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '19',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon'
             ]);
 			//Mainz
@@ -1524,7 +1685,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wormsfeld',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//163
@@ -1533,7 +1695,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Engersgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);			
 			//164
@@ -1542,7 +1705,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hessengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//165
@@ -1551,7 +1715,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lahngau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//166
@@ -1560,7 +1725,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lobdengau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//167
@@ -1569,7 +1735,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maingau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//168
@@ -1578,7 +1745,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nahegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//169
@@ -1587,7 +1755,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Niddagau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//170
@@ -1596,7 +1765,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Speyergau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//171
@@ -1605,7 +1775,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ufgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
 			//172
@@ -1614,7 +1785,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wettergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//173
@@ -1623,7 +1795,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wurmgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '20',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
 			//Salzburg
@@ -1633,7 +1806,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Salzburggau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '21',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);
 			//175
@@ -1642,7 +1816,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chiemgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '21',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//176
@@ -1651,7 +1826,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lungau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '21',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);	
 			//177
@@ -1660,7 +1836,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pinzgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '21',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);				
 			//178
@@ -1669,7 +1846,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sundergau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '21',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian'
             ]);				
 			//Trier
@@ -1679,7 +1857,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bitgau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '22',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//180
@@ -1688,7 +1867,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maifeld',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '22',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);	
 			//181
@@ -1697,7 +1877,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hunsruckgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '22',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Franconian'
             ]);				
 			//182
@@ -1706,7 +1887,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Trechirgau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '22',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Franconian'
             ]);
 			//Lombardy
@@ -1717,7 +1899,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Milano',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//184
@@ -1726,7 +1909,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bergamo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//185
@@ -1735,7 +1919,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brescia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//186
@@ -1744,7 +1929,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Crema',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//187
@@ -1753,7 +1939,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cremona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//188
@@ -1762,7 +1949,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Frignana',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//189
@@ -1771,7 +1959,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lodi',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//190
@@ -1780,7 +1969,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mantua',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//191
@@ -1789,7 +1979,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Modena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//192
@@ -1798,7 +1989,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Novara',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//193
@@ -1807,7 +1999,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Parma',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//194
@@ -1816,7 +2009,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pavia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//195
@@ -1825,7 +2019,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Piacenza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//196
@@ -1834,7 +2029,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Reggio',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//197
@@ -1843,7 +2039,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tortona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//198
@@ -1852,7 +2049,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vernio',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Piedmont
@@ -1862,7 +2060,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alba',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//200
@@ -1871,7 +2070,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Asti',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//201
@@ -1880,7 +2080,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auriate',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);				
 			//202
@@ -1889,7 +2090,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Canavese',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//203
@@ -1898,7 +2100,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Casale',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//204
@@ -1907,7 +2110,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cuneo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//205
@@ -1916,7 +2120,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Montferrat',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '23',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//206
@@ -1925,7 +2130,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pragelato',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);			
 			//207
@@ -1934,7 +2140,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Susa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//208
@@ -1943,7 +2150,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Turino',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);				
 			//209
@@ -1952,7 +2160,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vercelli',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//210
@@ -1961,7 +2170,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vigevano',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '24',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Tuscany
@@ -1971,7 +2181,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Siena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//212
@@ -1980,7 +2191,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Grosseto',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//213
@@ -1989,7 +2201,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Piombino',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//214
@@ -1998,7 +2211,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sovana',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '25',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);			
 			//Verona
@@ -2008,7 +2222,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Verona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//216
@@ -2017,7 +2232,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Padova',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//217
@@ -2026,7 +2242,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rovigo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//218
@@ -2035,7 +2252,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vicenza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '26',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//219
@@ -2044,7 +2262,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Trent',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '26',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Swabian'
             ]);			
 			//Aquileia
@@ -2054,7 +2273,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Friuli',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '27',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//221
@@ -2063,7 +2283,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gorizia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '27',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Venice',
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//222
@@ -2072,7 +2293,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pordenone',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '27',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Florence
@@ -2082,7 +2304,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Florence',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '28',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//224
@@ -2091,7 +2314,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Arezzo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '28',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//225
@@ -2100,7 +2324,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cortona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '28',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//226
@@ -2109,7 +2334,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Perugia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '28',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//227
@@ -2118,7 +2344,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Prato',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '28',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);		
 			//Genoa
@@ -2128,7 +2355,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Genoa',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '29',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//229
@@ -2137,7 +2365,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lunigiana',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '29',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//230
@@ -2146,7 +2375,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Massa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '29',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Noli
@@ -2156,7 +2386,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Noli',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '30',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//232
@@ -2165,7 +2396,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Albenga',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '30',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//233
@@ -2174,7 +2406,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Finale',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '30',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Oneglia
@@ -2184,7 +2417,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oneglia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '31',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//235
@@ -2193,7 +2427,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Monaco',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '31',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);			
 			//236
@@ -2202,7 +2437,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ventimiglia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '31',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Lucca
@@ -2212,7 +2448,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lucca',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '32',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//238
@@ -2221,7 +2458,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pistoja',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '32',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Pisa
@@ -2231,7 +2469,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pisa',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '33',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//240
@@ -2240,7 +2479,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Corsica',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '33',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//241
@@ -2249,7 +2489,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Livorno',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '33',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//242
@@ -2258,7 +2499,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Riparbella',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '33',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//243
@@ -2267,7 +2509,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Volterra',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '33',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Venice
@@ -2277,7 +2520,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dogado',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '34',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//245
@@ -2286,7 +2530,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Belluno',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '34',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Venice',
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//246
@@ -2295,7 +2540,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Treviso',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '34',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_architecture' => 'Lombard'
             ]);				
 			//Bohemia
@@ -2306,7 +2552,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Prague',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//248
@@ -2315,7 +2562,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bechin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);			
 			//249
@@ -2324,7 +2572,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bunzlau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//250
@@ -2333,7 +2582,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Elbogen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//251
@@ -2342,7 +2592,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Glatzerland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//252
@@ -2351,7 +2602,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Koniggratz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//253
@@ -2360,7 +2612,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leitmeritz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//254
@@ -2369,7 +2622,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pilsen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//255
@@ -2378,7 +2632,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rakonitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//256
@@ -2387,7 +2642,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schlan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//257
@@ -2396,7 +2652,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Saaz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//258
@@ -2405,7 +2662,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tschaslawsko',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '35',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian'
             ]);
 			//Lusatia
@@ -2415,7 +2673,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Meissengau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '36',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//260
@@ -2424,7 +2683,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Milzenigau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '36',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);				
 			//261
@@ -2433,7 +2693,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nisangau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '36',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_architecture' => 'Silesian'
             ]);	
 			//262
@@ -2442,7 +2703,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lusizigau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '36',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
 			//263
@@ -2451,7 +2713,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Selpuligau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '36',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
 			//Moravia
@@ -2461,7 +2724,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brunn',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '37',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',
 				'vernacular_architecture' => 'Moravian'
             ]);	
 			//265
@@ -2470,7 +2734,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Iglau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '37',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Moravian'
             ]);
 			//266
@@ -2479,7 +2744,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Olmutz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '37',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Moravian'
             ]);
 			//267
@@ -2488,7 +2754,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Prerau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '37',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Moravian'
             ]);
 			//268
@@ -2497,7 +2764,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Velingrad',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '37',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Moravian'
             ]);
 			//269
@@ -2506,7 +2774,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Znaim',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '37',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Moravian'
             ]);
 			//Lower Silesia
@@ -2516,7 +2785,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jauer',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '38',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);			
 			//271
@@ -2525,7 +2795,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Glogau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '38',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//272
@@ -2534,7 +2805,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leubus',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '38',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);	
 			//273
@@ -2543,7 +2815,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Liegnitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '38',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//274
@@ -2552,7 +2825,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oels',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '38',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//275
@@ -2561,7 +2835,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schweidnitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '38',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//Upper Silesia
@@ -2571,7 +2846,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oppeln',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '39',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);				
 			//277
@@ -2580,7 +2856,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Breslau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '39',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//278
@@ -2589,7 +2866,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brieg',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '39',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_architecture' => 'Silesian'
             ]);	
 			//279
@@ -2598,7 +2876,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ratibor',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '39',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//280
@@ -2607,7 +2886,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Teschen',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '39',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//281
@@ -2616,7 +2896,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Troppau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '39',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian'
             ]);
 			//Burgundy
@@ -2627,7 +2908,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Avalois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//283
@@ -2636,7 +2918,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Autunais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//284
@@ -2645,7 +2928,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auxerrois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//285
@@ -2654,7 +2938,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auxois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//286
@@ -2663,7 +2948,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Beaujolais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//287
@@ -2672,7 +2958,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Beaunois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//288
@@ -2681,7 +2968,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chalonais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//289
@@ -2690,7 +2978,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lassois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//290
@@ -2699,7 +2988,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maconnais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//291
@@ -2708,7 +2998,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nivernais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//292
@@ -2717,7 +3008,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tonerrois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '40',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);		
 			//Cisjurania
@@ -2727,7 +3019,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dauphine',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//294
@@ -2736,7 +3029,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Albon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//295
@@ -2745,7 +3039,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Belinois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//296
@@ -2754,7 +3049,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Embrunnais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//297
@@ -2763,7 +3059,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Forcalquier',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
 			//298
@@ -2772,7 +3069,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lyonnais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//299
@@ -2781,7 +3079,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mauronais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);			
 			//300
@@ -2790,7 +3089,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Valentinois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);				
 			//301
@@ -2799,7 +3099,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Viennois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '41',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//Transjurania
@@ -2809,7 +3110,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Amosenais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '42',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
 			//303
@@ -2818,7 +3120,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aargau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '42',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Swabian'
             ]);	
 			//304
@@ -2827,7 +3130,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bargenais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '42',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);				
 			//305
@@ -2836,7 +3140,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lausonnais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '42',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Arpitan'
             ]);
 			//306
@@ -2845,7 +3150,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Portenais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '42',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//307
@@ -2854,7 +3160,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vaudenais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '42',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);		
 			//Orange
@@ -2864,8 +3171,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Orange',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '43',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//309
 			//venasque, avignon, carpentras, cavaillon, sorgue, saint remy
@@ -2873,8 +3181,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Venaissin',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '43',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//310
 			//viviers, saint andeol, saint martin, saint just, nyons, montelimar, vaison
@@ -2882,8 +3191,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vivarais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '43',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//Provence
 			//311
@@ -2892,8 +3202,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Provence',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '44',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//312
 			//arles, montmajour, tarascon
@@ -2901,8 +3212,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Arles',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '44',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//313
 			//baux, mouries, riez, senez, digne
@@ -2910,8 +3222,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Baux',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '44',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//314
 			//marseille, saint jean
@@ -2919,8 +3232,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Marseille',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '44',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);
 			//315
 			//nice, villefranche, escarene, guillaumes, saint etienne, vence, glandeves, grasse, frejus
@@ -2928,8 +3242,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nice',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '44',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//316
 			//toulon, ollioules, ollieres
@@ -2937,8 +3252,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Toulon',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '44',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Arpitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_architecture' => 'Occitan'
             ]);	
 			//Savoy
 			//317
@@ -2947,7 +3263,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Savoia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '45',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//318
@@ -2956,7 +3273,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aosta',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '45',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//319
@@ -2965,7 +3283,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chablais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '45',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//320
@@ -2974,7 +3293,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Genevanais',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '45',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);	
 			//321
@@ -2983,7 +3303,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tarantais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '45',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
 			//322
@@ -2992,7 +3313,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Valais',
 				'county_category' => 'Eastfalagau',
 				'de_jure_duchy' => '45',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan'
             ]);
 			//Papal States
@@ -3003,7 +3325,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rome',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '46',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//324
@@ -3012,7 +3335,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Frosinone',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '46',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//325
@@ -3021,7 +3345,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Latina',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '46',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//326
@@ -3030,7 +3355,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rieti',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '46',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//327
@@ -3039,7 +3365,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Viterbo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '46',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);		
 			//Romagna
@@ -3049,7 +3376,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ferrara',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '47',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//329
@@ -3058,7 +3386,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bologna',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '47',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//330
@@ -3067,7 +3396,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carpegna',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '47',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//331
@@ -3076,7 +3406,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ravenna',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '47',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//Spoleto
@@ -3086,7 +3417,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ancona',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '48',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//333
@@ -3095,7 +3427,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chieti',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '48',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//334
@@ -3104,7 +3437,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Fermo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '48',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);
 			//335
@@ -3113,7 +3447,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pescara',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '48',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//336
@@ -3122,7 +3457,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Spoleto',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '48',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',
 				'vernacular_architecture' => 'Lombard'
             ]);			
 			//Urbino
@@ -3132,7 +3468,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Urbino',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '49',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//338
@@ -3141,7 +3478,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pesaro',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '49',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Rome',	
 				'vernacular_architecture' => 'Lombard'
             ]);	
 			//Teutonic Order State
@@ -3152,7 +3490,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Livland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//340
@@ -3161,7 +3500,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ascheraden',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//341
@@ -3170,7 +3510,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dorpat',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//342
@@ -3179,7 +3520,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dunaburg',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//343
@@ -3188,7 +3530,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Fellin',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//344
@@ -3197,7 +3540,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kurland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//345
@@ -3206,7 +3550,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mitau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//346
@@ -3215,7 +3560,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Segewold',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//347
@@ -3224,7 +3570,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wenden',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//348
@@ -3233,7 +3580,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wolkenburg',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '50',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//Estonia
@@ -3243,7 +3591,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Reval',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '51',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//350
@@ -3252,7 +3601,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pernau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '51',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Livonian'
             ]);
 			//Prussia
@@ -3262,7 +3612,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pomesanengau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//352
@@ -3271,7 +3622,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bartengau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//353
@@ -3280,7 +3632,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ermland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//354
@@ -3289,7 +3642,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Memelland',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//355
@@ -3298,7 +3652,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nadrauengau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//356
@@ -3307,7 +3662,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Natangergau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//357
@@ -3316,7 +3672,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pogesanengau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//358
@@ -3325,7 +3682,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Samland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '52',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Prussian'
             ]);
 			//Pomerelia
@@ -3335,7 +3693,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Danzig',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//360
@@ -3344,7 +3703,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Butow',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);			
 			//361
@@ -3353,7 +3713,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dirschau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//362
@@ -3362,7 +3723,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Karthaus',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//363
@@ -3371,7 +3733,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kulmerland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//364
@@ -3380,7 +3743,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lauenburg',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//365
@@ -3389,7 +3753,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Putzig',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//366
@@ -3398,7 +3763,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schlochau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//367
@@ -3407,7 +3773,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schwetz',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//368
@@ -3416,7 +3783,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Thorn',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//369
@@ -3425,7 +3793,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tuchel',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '53',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//Pomerania
@@ -3435,7 +3804,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kammin',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//371
@@ -3444,7 +3814,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Arnswalde',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//372
@@ -3453,7 +3824,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gollnow',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//373
@@ -3462,7 +3834,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Greifenhagen',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//374
@@ -3471,7 +3844,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Greifenberg',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//375
@@ -3480,7 +3854,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pyritz',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//376
@@ -3489,7 +3864,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kessinigau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//377
@@ -3498,7 +3874,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kolberg',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//378
@@ -3507,7 +3884,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Koslin',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//379
@@ -3516,7 +3894,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Neustettin',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//380
@@ -3525,7 +3904,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schivelbein',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//381
@@ -3534,7 +3914,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Slupsk',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//382
@@ -3543,7 +3924,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schlawe',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//383
@@ -3552,7 +3934,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Stettin',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//384
@@ -3561,7 +3944,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wostrosegau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '54',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//Brandenburg
@@ -3571,7 +3955,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Havelland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '55',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
 			//386
@@ -3580,7 +3965,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dossegau',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '55',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
 			//387
@@ -3589,7 +3975,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Linaggau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '55',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
 			//388
@@ -3598,7 +3985,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nelitzigau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '55',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);	
 			//389
@@ -3607,7 +3995,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Retschanengau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '55',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);			
 			//390
@@ -3616,7 +4005,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Uckermark',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '55',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//Mecklenburg
@@ -3626,7 +4016,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Circipanigau',
 				'county_category' => 'Crusader_Order',
 				'de_jure_duchy' => '56',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//392
@@ -3635,7 +4026,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Obotritegau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '56',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//393
@@ -3644,7 +4036,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Polabigau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '56',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//394
@@ -3653,7 +4046,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wagrigau',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '56',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Wendish'
             ]);
 			//France
@@ -3665,7 +4059,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Anjou',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '57',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//396
@@ -3674,7 +4069,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maine',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '57',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//397
@@ -3683,7 +4079,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Perche',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '57',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//398
@@ -3692,7 +4089,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Touraine',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '57',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//399
@@ -3701,7 +4099,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vendomois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '57',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);				
 			//Aquitaine
@@ -3711,7 +4110,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bordelais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//401
@@ -3720,7 +4120,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Agenais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//402
@@ -3729,7 +4130,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Angoumois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//403
@@ -3738,7 +4140,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bazadais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//404
@@ -3747,7 +4150,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Limousin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//405
@@ -3756,7 +4160,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lomagne',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//406
@@ -3765,7 +4170,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Perigord',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//407
@@ -3774,7 +4180,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Saintogne',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '58',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//Auvergne
@@ -3784,7 +4191,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auvergne',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//409
@@ -3793,7 +4201,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aurillac',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//410
@@ -3802,7 +4211,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brioude',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//411
@@ -3811,7 +4221,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carlat',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//412
@@ -3820,7 +4231,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Clermont',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//413
@@ -3829,7 +4241,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Forez',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//414
@@ -3838,7 +4251,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Murat',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '59',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Berry
@@ -3848,7 +4262,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Berry',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '60',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//416
@@ -3857,7 +4272,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sancerre',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '60',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Bourbonnais
@@ -3867,7 +4283,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bourbonnais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '61',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//418
@@ -3876,7 +4293,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Montlucon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '61',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);		
 			//Casgony
@@ -3886,7 +4304,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Armagnac',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//420
@@ -3895,7 +4314,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Astarac',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//421
@@ -3904,7 +4324,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bearn',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//422
@@ -3913,7 +4334,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bigorre',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//423
@@ -3922,7 +4344,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Comminges',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//424
@@ -3931,7 +4354,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Couserans',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//425
@@ -3940,7 +4364,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dax',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//426
@@ -3949,7 +4374,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Fezensac',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//427
@@ -3958,7 +4384,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Marsan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//428
@@ -3967,7 +4394,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tursan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '62',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);
 			//Champagne
@@ -3977,7 +4405,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Remois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//430
@@ -3986,7 +4415,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brenois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Frankish'
             ]);				
 			//431
@@ -3995,7 +4425,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chalonnais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//432
@@ -4004,7 +4435,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Duesmois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//433
@@ -4013,7 +4445,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Langres',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//434
@@ -4022,7 +4455,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Meaux',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//435
@@ -4031,7 +4465,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Perthois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);				
 			//436
@@ -4040,7 +4475,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Provins',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//437
@@ -4049,7 +4485,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rethelois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//438
@@ -4058,7 +4495,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Senois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//439
@@ -4067,7 +4505,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Troyes',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '63',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Francia
@@ -4077,7 +4516,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pay de France',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//441
@@ -4086,7 +4526,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Beauvaisis',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//442
@@ -4095,7 +4536,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Beaumont',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//443
@@ -4104,7 +4546,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brie',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//444
@@ -4113,7 +4556,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Clermont',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//445
@@ -4122,7 +4566,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gatinais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//446
@@ -4131,7 +4576,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hurepoix',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//447
@@ -4140,7 +4586,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mantois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//448
@@ -4149,7 +4596,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Senlis',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//449
@@ -4158,7 +4606,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Soissonnais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//450
@@ -4167,7 +4616,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Valois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//451
@@ -4176,7 +4626,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vexin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '64',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Normandy
@@ -4186,7 +4637,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Roumois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//453
@@ -4195,7 +4647,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alencon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//454
@@ -4204,7 +4657,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Avranches',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//455
@@ -4213,7 +4667,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bayeux',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//456
@@ -4222,7 +4677,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Caux',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);
 			//457
@@ -4231,7 +4687,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Coutances',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//458
@@ -4240,7 +4697,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Evreux',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//459
@@ -4249,7 +4707,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Eu',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);		
 			//460
@@ -4258,7 +4717,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lisieux',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//461
@@ -4267,7 +4727,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mortainais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '65',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman'
             ]);	
 			//Orleanais
@@ -4277,7 +4738,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Orleanais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//463
@@ -4286,7 +4748,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Blaisois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//464
@@ -4295,7 +4758,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chartres',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//465
@@ -4304,7 +4768,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dunois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//466
@@ -4313,7 +4778,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dreux',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//467
@@ -4322,7 +4788,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Etampois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//468
@@ -4331,7 +4798,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nemours',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '66',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Picardy
@@ -4341,7 +4809,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Artois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Flemish'
             ]);	
 			//470
@@ -4350,7 +4819,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Amienois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//471
@@ -4359,7 +4829,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Boulenois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//472
@@ -4368,7 +4839,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Flanders',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Flemish'
             ]);
 			//473
@@ -4377,7 +4849,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Guines',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//474
@@ -4386,7 +4859,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Laonnais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//475
@@ -4395,7 +4869,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Montreuil',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//476
@@ -4404,7 +4879,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Noyonnais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//477
@@ -4413,7 +4889,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ponthieu',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//478
@@ -4422,7 +4899,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ternois',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//479
@@ -4431,7 +4909,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tournais',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//480
@@ -4440,7 +4919,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vermandois',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '67',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);
 			//Poitou
@@ -4450,7 +4930,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Poitou',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//482
@@ -4459,7 +4940,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aunis',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//483
@@ -4468,7 +4950,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Briancais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//484
@@ -4477,7 +4960,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chatellerault',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//485
@@ -4486,7 +4970,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Marche',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//486
@@ -4495,7 +4980,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Thouarsais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//487
@@ -4504,7 +4990,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Turenne',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '68',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish'
             ]);	
 			//Toulouse
@@ -4514,7 +5001,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Toulouse',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//489
@@ -4523,7 +5011,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Albi',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//490
@@ -4532,7 +5021,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carcasonne',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//491
@@ -4541,7 +5031,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Foix',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//492
@@ -4550,7 +5041,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gevaudan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//493
@@ -4559,7 +5051,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Melgueil',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//494
@@ -4568,7 +5061,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Millau',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//495
@@ -4577,7 +5071,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Narbonne',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//496
@@ -4586,7 +5081,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nimes',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//497
@@ -4595,7 +5091,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Quercy',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//498
@@ -4604,7 +5101,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rouergue',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//499
@@ -4613,7 +5111,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Velay',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '69',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan'
             ]);	
 			//Brittany
@@ -4624,7 +5123,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cornouailles',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);
 			//501
@@ -4633,7 +5133,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ach',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);
 			//502
@@ -4642,7 +5143,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dol',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '70',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//503
@@ -4651,7 +5153,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leon',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '70',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//504
@@ -4660,7 +5163,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Poher',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//505
@@ -4669,7 +5173,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vannais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '70',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//Domnonee
@@ -4679,7 +5184,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Penthievre',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '71',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);
 			//507
@@ -4688,7 +5194,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alet',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '71',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//508
@@ -4697,7 +5204,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tregor',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '71',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//Retz
@@ -4707,7 +5215,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Retz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '72',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);
 			//510
@@ -4716,7 +5225,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nantais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '72',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//511
@@ -4725,7 +5235,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rennais',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '72',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',
 				'vernacular_architecture' => 'Breton'
             ]);	
 			//Britain
@@ -4737,7 +5248,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Galway',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//513
@@ -4746,7 +5258,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mayo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//514
@@ -4755,7 +5268,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Roscommon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//515
@@ -4764,7 +5278,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sligo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '73',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Irish'
             ]);
 			//Leinster
@@ -4774,7 +5289,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carlow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//517
@@ -4783,7 +5299,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kildare',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//518
@@ -4792,7 +5309,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kilkenny',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//519
@@ -4801,7 +5319,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leix',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//520
@@ -4810,7 +5329,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tipperary',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//521
@@ -4819,7 +5339,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Waterford',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//522
@@ -4828,7 +5349,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wexford',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);
 			//523
@@ -4837,7 +5359,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wicklow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '74',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//Meath
@@ -4847,7 +5370,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dublin',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '75',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//525
@@ -4856,7 +5380,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Longford',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '75',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//526
@@ -4865,7 +5390,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Meath',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '75',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//527
@@ -4874,7 +5400,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Offaly',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '75',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//Munster
@@ -4884,7 +5411,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Clare',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '76',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//529
@@ -4893,7 +5421,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cork',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '76',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);
 			//530
@@ -4902,7 +5431,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kerry',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '76',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//531
@@ -4911,7 +5441,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Limerick',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '76',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Irish'
             ]);
 			//Ulster
@@ -4921,7 +5452,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Antrim',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//533
@@ -4930,7 +5462,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Armagh',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//534
@@ -4939,7 +5472,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cavan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//535
@@ -4948,7 +5482,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Derry',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//536
@@ -4957,7 +5492,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Donegal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//537
@@ -4966,7 +5502,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Down',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//538
@@ -4975,7 +5512,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Fermanagh',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//539
@@ -4984,7 +5522,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leitrim',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//540
@@ -4993,7 +5532,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Louth',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//541
@@ -5002,7 +5542,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Monaghan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish'
             ]);	
 			//542
@@ -5011,7 +5552,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tyrone',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '77',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);				
 			//England
@@ -5022,7 +5564,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Norfolk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '78',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//544
@@ -5031,7 +5574,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Suffolk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '78',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);	
 			//Essex
@@ -5041,7 +5585,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Essex',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '79',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//546
@@ -5050,7 +5595,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hertfordshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '79',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);
 			//547
@@ -5059,7 +5605,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Middlesex',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '79',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//Hwicce
@@ -5069,7 +5616,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gloucestershire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//549
@@ -5078,7 +5626,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Warwickshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//550
@@ -5087,7 +5636,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Winchcombeshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//551
@@ -5096,7 +5646,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Worcestershire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '80',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);	
 			//Kent
@@ -5106,7 +5657,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aylesfordshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '81',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);	
 			//553
@@ -5115,7 +5667,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kent',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '81',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//554
@@ -5124,7 +5677,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Shepwayshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '81',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);
 			//Lindsey
@@ -5134,8 +5688,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Derbyshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => ''
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
+				'vernacular_architecture' => 'English'
             ]);	
 			//556
 			//leicester, belvoir, croxton, owston, breedon
@@ -5143,7 +5698,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leicestershire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);	
 			//557
@@ -5152,7 +5708,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lincolnshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//558
@@ -5161,7 +5718,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nothinghamshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//559
@@ -5170,7 +5728,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rutland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '82',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);				
 			//Mercia
@@ -5180,7 +5739,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cheshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//561
@@ -5189,7 +5749,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Herefordshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//562
@@ -5198,7 +5759,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Shropshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);				
 			//563
@@ -5207,7 +5769,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Staffordshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '83',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//Mid Anglia
@@ -5217,7 +5780,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bedfordshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//565
@@ -5226,7 +5790,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Buckinghamshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//566
@@ -5235,7 +5800,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cambridgeshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//567
@@ -5244,7 +5810,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Huntingdonshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);	
 			//568
@@ -5253,7 +5820,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Northamptonshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//569
@@ -5262,7 +5830,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oxfordshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '84',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);			
 			//Northumbria
@@ -5272,7 +5841,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Allertonshire',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//571
@@ -5281,7 +5851,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Burghshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//572
@@ -5290,7 +5861,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cumberland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//573
@@ -5299,7 +5871,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Durham',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//574
@@ -5308,7 +5881,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hallamshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//575
@@ -5317,7 +5891,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hexhamshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//576
@@ -5326,7 +5901,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Howdenshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);	
 			//577
@@ -5335,7 +5911,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Northumberland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//578
@@ -5344,7 +5921,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lancashire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//579
@@ -5353,7 +5931,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Richmondshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//580
@@ -5362,7 +5941,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Yorkshire',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '85',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//Sussex
@@ -5372,7 +5952,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Arundelshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);
 			//582
@@ -5381,7 +5962,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brambershire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//583
@@ -5390,7 +5972,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chichestershire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//584
@@ -5399,7 +5982,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leweshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//585
@@ -5408,7 +5992,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pevenshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//586
@@ -5417,7 +6002,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sussex',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '86',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);				
 			//Wessex
@@ -5427,7 +6013,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Berkshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//588
@@ -5436,7 +6023,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dorsetshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//589
@@ -5445,7 +6033,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hampshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//590
@@ -5454,7 +6043,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Somersetshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);	
 			//591
@@ -5463,7 +6053,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Surrey',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English'
             ]);		
 			//592
@@ -5472,7 +6063,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wiltshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '87',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English'
             ]);
 			//Wales
@@ -5483,7 +6075,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cornwall',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '88',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//594
@@ -5492,7 +6085,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Devonshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '88',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Dyfed
@@ -5502,7 +6096,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cardiganshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '89',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);
 			//596
@@ -5511,7 +6106,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carmarthenshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '89',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//597
@@ -5520,7 +6116,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pembrokeshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '89',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Welsh'
             ]);
 			//Gwent
@@ -5530,7 +6127,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Glamorganshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '90',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//599
@@ -5539,7 +6137,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Monmouthshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '90',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Gwyned
@@ -5549,7 +6148,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Anglesey',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//601
@@ -5558,7 +6158,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Caernarvonshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//602
@@ -5567,7 +6168,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Denbighshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//603
@@ -5576,7 +6178,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Flintshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '91',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//Powys
@@ -5586,7 +6189,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brecknockshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '92',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);	
 			//605
@@ -5595,7 +6199,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Montgomeryshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '92',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);
 			//606
@@ -5604,7 +6209,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Radnorshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '92',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh'
             ]);			
 			//Scotland
@@ -5615,7 +6221,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aberdeenshire',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//608
@@ -5624,7 +6231,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Banffshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);
 			//609
@@ -5633,7 +6241,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Clackmannanshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);
 			//610
@@ -5642,7 +6251,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Fife',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//611
@@ -5651,7 +6261,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Forfarshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//612
@@ -5660,7 +6271,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kincardineshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//613
@@ -5669,7 +6281,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kinrossshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//614
@@ -5678,7 +6291,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Perthshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '93',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//Bernicia
@@ -5688,7 +6302,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Berwickshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//616
@@ -5697,7 +6312,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Edinburghshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//617
@@ -5706,7 +6322,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Haddingtonshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//618
@@ -5715,7 +6332,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Linlithgowshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);		
 			//619
@@ -5724,7 +6342,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Stirlingshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '94',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Dalriada
@@ -5734,7 +6353,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Argyll',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '95',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//621
@@ -5743,7 +6363,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bute',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '95',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//622
@@ -5752,7 +6373,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mann',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '95',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Fortriu
@@ -5762,7 +6384,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cromartyshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);
 			//624
@@ -5771,7 +6394,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Elginshire',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '96',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//625
@@ -5780,7 +6404,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Invernessshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//626
@@ -5789,7 +6414,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nairnshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//627
@@ -5798,7 +6424,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sutherland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '96',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Pictish'
             ]);
 			//Galloway
@@ -5808,7 +6435,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kirkcudbrightshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '97',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//629
@@ -5817,7 +6445,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wigtownshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '97',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//Gododdin
@@ -5827,7 +6456,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dumfriesshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//631
@@ -5836,7 +6466,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Peeblesshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//632
@@ -5845,7 +6476,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Roxburghshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//633
@@ -5854,7 +6486,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Selkirkshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '98',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);		
 			//Strathclyde
@@ -5864,7 +6497,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ayrshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '99',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//635
@@ -5873,7 +6507,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dunbartonshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '99',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//636
@@ -5882,7 +6517,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lanarkshire',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '99',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);	
 			//637
@@ -5891,7 +6527,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Renfrewshire',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '99',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic'
             ]);
 			//Aragon
@@ -5903,7 +6540,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aragon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '100',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//639
@@ -5912,7 +6550,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cinca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '100',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//640
@@ -5921,7 +6560,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Matarrana',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '100',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Barcelona
@@ -5931,8 +6571,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bages',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//642
 			//barcelona, santa coloma, badalona, castellet
@@ -5940,8 +6581,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Barcelona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//643
 			//berga, baga, san salvador, gironella
@@ -5949,8 +6591,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bergueda',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);	
 			//644
 			//san feliu, fels, montserrat, san boi, cornella, corbera
@@ -5958,8 +6601,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Llobregat',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//645
 			//mataro, cabrils, dosrius, santa florentina
@@ -5967,8 +6611,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Maresme',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);	
 			//646
 			//vic, manlleu, tona, san julian, seva, cabrera
@@ -5976,8 +6621,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Osona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//647
 			//terrassa, bisbal, ripollet, sabadell, san marcial, granollers, franqueses, canoves, roca, ametlla, gallifa
@@ -5985,8 +6631,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Valles',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '101',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//Girona
 			//648
@@ -5995,8 +6642,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cerdanya',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Occitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//649
 			//castellano, corneilla
@@ -6004,8 +6652,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Conflent',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Occitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//650
 			//emporda, bisbal, san feliu, figueres, peralada, requesens, pubol, quermanco, montgri
@@ -6013,8 +6662,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Emporda',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Occitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//651
 			//girona, salto
@@ -6022,8 +6672,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Girones',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//652
 			//rennes, limoux 
@@ -6031,8 +6682,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Razes',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Occitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//653
 			//ripoll, besalu, san joan, camprodon, olot
@@ -6040,8 +6692,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ripolles',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);	
 			//654
 			//perpignan, elna
@@ -6049,8 +6702,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rosello',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Occitan'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//655
 			//santa coloma, lloret, blanes, cassa
@@ -6058,8 +6712,9 @@ class CountySeeder extends Seeder
 				'county_name' => 'Selva',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '102',
-				'vernacular_cycle' => '',	
-				'vernacular_architecture' => 'Aragonese'
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',		
+				'vernacular_architecture' => 'Catalan'
             ]);
 			//Huesca
 			//656
@@ -6068,7 +6723,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Huesca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '103',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//657
@@ -6077,7 +6733,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jacetania',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '103',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//658
@@ -6086,7 +6743,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ribagorza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '103',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//659
@@ -6095,7 +6753,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sobrarbe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '103',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Lleida
@@ -6105,7 +6764,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lleida',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '104',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//661
@@ -6114,7 +6774,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pallars',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '104',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//662
@@ -6123,7 +6784,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Urgell',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '104',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//Tarragona
@@ -6133,7 +6795,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Montsia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '105',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//664
@@ -6142,7 +6805,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tarragona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '105',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//665
@@ -6151,7 +6815,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tortosa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '105',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//Teruel
@@ -6161,7 +6826,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Albarracin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '106',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);	
 			//667
@@ -6170,7 +6836,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Teruel',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '106',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//Zaragoza
@@ -6180,7 +6847,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aranda',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '107',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//669
@@ -6189,7 +6857,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Calatayud',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '107',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);
 			//670
@@ -6198,7 +6867,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zaragoza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '107',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese'
             ]);						
 			//Navarre
@@ -6209,7 +6879,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ayala',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '108',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
 			//672
@@ -6218,7 +6889,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gasteiz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '108',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
 			//673
@@ -6227,7 +6899,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rioja',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '108',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Gipuzcoa
@@ -6237,7 +6910,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Donostialdea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '109',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//675
@@ -6246,7 +6920,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leitzaldea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '109',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//676
@@ -6255,7 +6930,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mungialdea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '109',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//677
@@ -6264,7 +6940,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tolosaldea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '109',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Navarre
@@ -6274,7 +6951,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Estella',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '110',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//679
@@ -6283,7 +6961,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Irunerria',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '110',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//680
@@ -6292,7 +6971,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sanguesa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '110',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
 			//681
@@ -6301,7 +6981,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tafalla',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '110',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//682
@@ -6310,7 +6991,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tudela',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '110',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',
 				'vernacular_architecture' => 'Navarrese'
             ]);				
 			//683
@@ -6319,7 +7001,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ultzamaldea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '110',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Viscaya
@@ -6329,7 +7012,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Busturialdea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '111',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//685
@@ -6338,7 +7022,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bilbaoldea',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '111',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);	
 			//686
@@ -6347,7 +7032,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Uribe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '111',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese'
             ]);
 			//Castile
@@ -6357,27 +7043,30 @@ class CountySeeder extends Seeder
 			//avila, barco, bonilla, mironcillo, villatoro
             DB::table('counties')->insert([
 				'county_name' => 'Avila',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '112',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//688
 			//arevalo, torralba
             DB::table('counties')->insert([
 				'county_name' => 'Morana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '112',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//689
 			//san pedro, mombeltran
             DB::table('counties')->insert([
 				'county_name' => 'San Pedro',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '112',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//Burgos
@@ -6385,18 +7074,20 @@ class CountySeeder extends Seeder
 			//lerma, barriosuso, villahoz, cebrecos
             DB::table('counties')->insert([
 				'county_name' => 'Arlanza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '113',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//691
 			//briviesca, rodilla, san salvador, miranda, moscadero
             DB::table('counties')->insert([
 				'county_name' => 'Bureba',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '113',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//692
@@ -6405,7 +7096,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Burgos',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '113',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian'
             ]);						
 			//Palencia
@@ -6413,27 +7105,30 @@ class CountySeeder extends Seeder
 			//palencia, medina, villarcayo, taranco, frias
             DB::table('counties')->insert([
 				'county_name' => 'Campos',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '114',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//694
 			//palenzuela, astudillo, castroverde
             DB::table('counties')->insert([
 				'county_name' => 'Cerrato',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '114',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//695
 			//matabuena, bustillo, santa maria, villabellaco
             DB::table('counties')->insert([
 				'county_name' => 'Valdivia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '114',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);		
 			//Segovia
@@ -6441,36 +7136,40 @@ class CountySeeder extends Seeder
 			//coca, villeguillo, navas, santa cruz
             DB::table('counties')->insert([
 				'county_name' => 'Coca',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '115',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//697
 			//riaza, cantespino, languilla
             DB::table('counties')->insert([
 				'county_name' => 'Riaza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '115',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//698
 			//segovia, turegano, pedraza, cantimpalos
             DB::table('counties')->insert([
 				'county_name' => 'Segovia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '115',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//699
 			//sepulveda, castilnovo
             DB::table('counties')->insert([
 				'county_name' => 'Sepulveda',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '115',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//Soria
@@ -6478,45 +7177,50 @@ class CountySeeder extends Seeder
 			//almazan, raya, nagima, soliedra
             DB::table('counties')->insert([
 				'county_name' => 'Almazan',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '116',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//701
 			//berlanga, rello
             DB::table('counties')->insert([
 				'county_name' => 'Berlanga',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '116',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//702
 			//gomara, almenar, cihuela, ciria, penalcazar
             DB::table('counties')->insert([
 				'county_name' => 'Gomara',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '116',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//703
 			//osma, ucero, caracena
             DB::table('counties')->insert([
 				'county_name' => 'Osma',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '116',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//704
 			//soria, calatanazor, garray, gormaz, san esteban
             DB::table('counties')->insert([
 				'county_name' => 'Soria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '116',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//Toledo
@@ -6524,9 +7228,10 @@ class CountySeeder extends Seeder
 			//torrecilla, sevilleja, san martin
             DB::table('counties')->insert([
 				'county_name' => 'Jara',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//706
@@ -6535,34 +7240,38 @@ class CountySeeder extends Seeder
 				'county_name' => 'Madrid',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//707
 			//ocana, oreja
             DB::table('counties')->insert([
 				'county_name' => 'Ocana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//708
 			//sesena, illescas, villaseca, cabanas, numancia, olmos
             DB::table('counties')->insert([
 				'county_name' => 'Sagra',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//709
 			//talavera, bayuela, malpica, oropesa, san martin
             DB::table('counties')->insert([
 				'county_name' => 'Talavera',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//710
@@ -6571,25 +7280,28 @@ class CountySeeder extends Seeder
 				'county_name' => 'Toledo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//711
 			//torrijos, fuensalida, barcience, escalona, maqueda, santa cruz
             DB::table('counties')->insert([
 				'county_name' => 'Torrijos',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//712
 			//aranjuez, chinchon, villarejo
             DB::table('counties')->insert([
 				'county_name' => 'Vegas',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//Valladolid
@@ -6597,18 +7309,20 @@ class CountySeeder extends Seeder
 			//renedo, terradillos, santa maria, torresandino, amusquillo, canillas, encinas
             DB::table('counties')->insert([
 				'county_name' => 'Esgueva',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '118',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//714
 			//medina, tordesillas, mota, pozal
             DB::table('counties')->insert([
 				'county_name' => 'Medina',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '118',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);
 			//715
@@ -6617,16 +7331,18 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pinares',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '118',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//716
 			//penafiel, corrales, curiel
             DB::table('counties')->insert([
 				'county_name' => 'Penafiel',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '118',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//717
@@ -6635,16 +7351,18 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pisuerga',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '118',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//718
 			//medina, uruena, villabragima
             DB::table('counties')->insert([
 				'county_name' => 'Rioseco',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '118',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian'
             ]);	
 			//Galicia
@@ -6653,45 +7371,50 @@ class CountySeeder extends Seeder
 			//coruna, arteijo, san salvador, culleredo, sada
             DB::table('counties')->insert([
 				'county_name' => 'Coruna',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '119',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//720
 			//pontedeume, san juan, cabanas
             DB::table('counties')->insert([
 				'county_name' => 'Eume',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '119',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//721
 			//ferrol, mogardos, moeche
             DB::table('counties')->insert([
 				'county_name' => 'Ferrol',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '119',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//722
 			//santiago, altamira, vedra
             DB::table('counties')->insert([
 				'county_name' => 'Santiago',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '119',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//723
 			//aranga, faro, traba, san xurxo, vimianzo
             DB::table('counties')->insert([
 				'county_name' => 'Trastamara',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '119',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//Lugo
@@ -6699,45 +7422,50 @@ class CountySeeder extends Seeder
 			//lugo, castroverde, doiras, friol
             DB::table('counties')->insert([
 				'county_name' => 'Lugo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '120',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//725
 			//alfoz, foz, lorenzana, viveiro, ribadeo 
             DB::table('counties')->insert([
 				'county_name' => 'Marina',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '120',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//726
 			//meira, pol
             DB::table('counties')->insert([
 				'county_name' => 'Meira',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '120',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);	
 			//727
 			//sarria, incio
             DB::table('counties')->insert([
 				'county_name' => 'Sarria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '120',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//728
 			//palas, monterosso
             DB::table('counties')->insert([
 				'county_name' => 'Ulloa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '120',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//Ourense
@@ -6745,45 +7473,50 @@ class CountySeeder extends Seeder
 			//carballino, pinor, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Carballino',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '121',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Galician'
             ]);
 			//730
 			//celanova, gomesende
             DB::table('counties')->insert([
 				'county_name' => 'Celanova',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '121',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//731
 			//ourense, barbadanes, san esteban, ribadavia, maceda
             DB::table('counties')->insert([
 				'county_name' => 'Ourense',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '121',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//732
 			//barco, villamartin, carbelleda
             DB::table('counties')->insert([
 				'county_name' => 'Valdeorras',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '121',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);	
 			//733
 			//viana, monterrey
             DB::table('counties')->insert([
 				'county_name' => 'Viana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '121',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Galician'
             ]);
 			//Pontevedra
@@ -6791,27 +7524,30 @@ class CountySeeder extends Seeder
 			//caldas, catoira, san lazaro
             DB::table('counties')->insert([
 				'county_name' => 'Caldas',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '122',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);
 			//735
 			//pontevedra, caldelas
             DB::table('counties')->insert([
 				'county_name' => 'Pontevedra',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '122',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);	
 			//736
 			//vigo, sobroso, tuy, tebra, tomino, sotomayor
             DB::table('counties')->insert([
 				'county_name' => 'Vigo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '122',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Galician'
             ]);			
 			//Leon
@@ -6820,36 +7556,40 @@ class CountySeeder extends Seeder
 			//valencia, herrera, cabeza, san vincente, eljas, brozas, penafiel
             DB::table('counties')->insert([
 				'county_name' => 'Alcantara',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '123',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//738
 			//caceres, torreorgaz, mogollones, monroy, portezuelo, montanchez
             DB::table('counties')->insert([
 				'county_name' => 'Caceres',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '123',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//739
 			//plasencia, coria, galisteo, jarandilla, monfrague, valverde, segura
             DB::table('counties')->insert([
 				'county_name' => 'Plasencia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '123',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//740
 			//trujillo, almaraz, belvis
             DB::table('counties')->insert([
 				'county_name' => 'Trujillo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '123',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//Leon
@@ -6859,25 +7599,28 @@ class CountySeeder extends Seeder
 				'county_name' => 'Astorga',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '124',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//742
 			//baneza, castrillo, castrocalbon, destriana, san esteban, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Baneza',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '124',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);	
 			//743
 			//ponferrada, cornatel, sarracin, san pedro, balboa, san andres, bembibre, villafranca
             DB::table('counties')->insert([
 				'county_name' => 'Bierzo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '124',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//744
@@ -6886,16 +7629,18 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '124',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//745
 			//sahagun, almanza, cea
             DB::table('counties')->insert([
 				'county_name' => 'Sahagun',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '124',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);	
 			//Salamanca
@@ -6903,72 +7648,80 @@ class CountySeeder extends Seeder
 			//alba, aldeaseca, anaya, coca, pedraza, pedrosillo
             DB::table('counties')->insert([
 				'county_name' => 'Alba',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//747
 			//cantalapiedra, cantalpino, poveda, tarazona
             DB::table('counties')->insert([
 				'county_name' => 'Cantalapiedra',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//748
 			//guijuelo, congosto, salvatierra
             DB::table('counties')->insert([
 				'county_name' => 'Guijuelo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//749
 			//ledesma, zafron, tremedal, monleras, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Ledesma',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);	
 			//750
 			//penaranda, alaraz, alconada, cantaracillo
             DB::table('counties')->insert([
 				'county_name' => 'Penaranda',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//751
 			//rodrigo, ituero, espeja, fuentes, alameda, abusejo, aldahuela, yeltes, retortillo, tenebron, agallas, herguijuela, martiago
             DB::table('counties')->insert([
 				'county_name' => 'Rodrigo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//752
 			//salamanca, tamames, aldeatejada, arapiles, barbadillo, buenamadre, calvarassa, calzada, san munoz, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Salamanca',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//753
 			//vitigudino, san felices, ahigal, bogajo, cerralbo, fuenteliante, lumbrales, olmedo, masueco, mieza, perena, vilvestre, almendra
             DB::table('counties')->insert([
 				'county_name' => 'Vitigudino',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '125',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//Zamora
@@ -6976,54 +7729,60 @@ class CountySeeder extends Seeder
 			//zamora, alcanices, alcorcillo, arcillera, villalonso
             DB::table('counties')->insert([
 				'county_name' => 'Aliste',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '126',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//755
 			//carbajales, cernadilla, espanedo, manzanal, peque
             DB::table('counties')->insert([
 				'county_name' => 'Carballeda',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '126',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//756
 			//guarrate, argujillo, canizal
             DB::table('counties')->insert([
 				'county_name' => 'Guarena',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '126',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//757
 			//sanabria, alcanices, otero, cerezal, calabor, santa cruz, trefacio
             DB::table('counties')->insert([
 				'county_name' => 'Sanabria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '126',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//758
 			//bermillo, fermoselle, alfaraz, asmesnal
             DB::table('counties')->insert([
 				'county_name' => 'Sayago',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '126',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//759
 			//tabara, faramontanos, moreruela, pozuelo
             DB::table('counties')->insert([
 				'county_name' => 'Tabara',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '126',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese'
             ]);
 			//Asturias
@@ -7032,36 +7791,40 @@ class CountySeeder extends Seeder
 			//aviles, candamo, castrillon, gozon
             DB::table('counties')->insert([
 				'county_name' => 'Aviles',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '127',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Asturian'
             ]);
 			//761
 			//gijon, carreno, villaviciosa, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Gijon',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '127',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Asturian'
             ]);
 			//762
 			//navia, castropol, coana, san martin, san tirzo, santa eulalia, villanueva
             DB::table('counties')->insert([
 				'county_name' => 'Navia',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '127',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Asturian'
             ]);	
 			//763
 			//oviedo, bimenes, cabranes, grado, llanera, morcin, proaza, riosa, siero, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Oviedo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '127',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Asturian'
             ]);	
 			//Cantabria
@@ -7069,36 +7832,40 @@ class CountySeeder extends Seeder
 			//reinosa, santa maria, san pedro, argueso, aguilar
             DB::table('counties')->insert([
 				'county_name' => 'Campoo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '128',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Cantabrian'
             ]);
 			//765
 			//liebana, potes, piasca, san toribio
             DB::table('counties')->insert([
 				'county_name' => 'Liebana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '128',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Cantabrian'
             ]);
 			//766
 			//santander, collado, astillero
             DB::table('counties')->insert([
 				'county_name' => 'Santander',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '128',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Cantabrian'
             ]);
 			//767
 			//miera, santona, san vincente, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Trasmiera',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '128',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Cantabrian'
             ]);				
 			//Portugal
@@ -7107,36 +7874,40 @@ class CountySeeder extends Seeder
 			//aveiro, agueda, santa maria, espinho, arouca
             DB::table('counties')->insert([
 				'county_name' => 'Aveiro',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '129',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',		
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//769
 			//braga, faria, barcelos
             DB::table('counties')->insert([
 				'county_name' => 'Braga',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '129',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//770
 			//porto, cedofeita, amarante, moreira, trofa, santiago, valongo, penafiel
             DB::table('counties')->insert([
 				'county_name' => 'Porto',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '129',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//771
 			//viana, arcos, caminha, melgaco
             DB::table('counties')->insert([
 				'county_name' => 'Viana',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '129',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//Beira
@@ -7144,36 +7915,40 @@ class CountySeeder extends Seeder
 			//branco, belmonte, fundao, serta
             DB::table('counties')->insert([
 				'county_name' => 'Branco',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '130',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//773
 			//coimbra, montemor, redondos, soure
             DB::table('counties')->insert([
 				'county_name' => 'Coimbra',
-				'county_category' => '',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '130',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//774
 			//guarda, sabugal
             DB::table('counties')->insert([
 				'county_name' => 'Guarda',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '130',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);	
 			//775
 			//viseu, cinfaes, lamego, mangualde
             DB::table('counties')->insert([
 				'county_name' => 'Viseu',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '130',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);				
 			//Braganca
@@ -7181,18 +7956,20 @@ class CountySeeder extends Seeder
 			//braganca, miranda, mirandela, mogadouro, vimioso
             DB::table('counties')->insert([
 				'county_name' => 'Braganca',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '131',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//777
 			//vila real, vila pouca, alijo, boticas, montalegre, celeiros, murca
             DB::table('counties')->insert([
 				'county_name' => 'Vila Real',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '131',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);	
 			//Estremadura
@@ -7200,36 +7977,40 @@ class CountySeeder extends Seeder
 			//leiria, pombal, alcobaca, batalha, nazare
             DB::table('counties')->insert([
 				'county_name' => 'Leiria',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '132',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//779
 			//lisboa, alenquer, cascais, loures, lourinha, mafra, sintra
             DB::table('counties')->insert([
 				'county_name' => 'Lisboa',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '132',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);
 			//780
 			//santarem, tomar, almourol
             DB::table('counties')->insert([
 				'county_name' => 'Ribatejo',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '132',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);	
 			//781
 			//setubal, moita, alcochete, almada
             DB::table('counties')->insert([
 				'county_name' => 'Setubal',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '132',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese'
             ]);			
 			//Danelagen
@@ -7241,7 +8022,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aarhus',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '133',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Danish'
             ]);
 			//783
@@ -7250,7 +8032,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Borglum',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '133',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);
 			//784
@@ -7259,7 +8042,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ribe',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '133',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Danish'
             ]);
 			//785
@@ -7268,7 +8052,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Slesvig',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '133',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);	
 			//786
@@ -7277,7 +8062,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Viborg',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '133',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Danish'
             ]);			
 			//Scania
@@ -7287,7 +8073,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Blekinge',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '134',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Danish'
             ]);	
 			//788
@@ -7296,7 +8083,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bornholm',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '134',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);
 			//789
@@ -7305,7 +8093,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Halland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '134',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);	
 			//790
@@ -7314,7 +8103,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rugen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '134',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);
 			//791
@@ -7323,7 +8113,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Scania',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '134',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);				
 			//Sjaeland
@@ -7333,7 +8124,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Funen',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '135',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);
 			//793
@@ -7342,7 +8134,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lolland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '135',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);
 			//794
@@ -7351,7 +8144,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Roskilde',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '135',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);
 			//795
@@ -7360,7 +8154,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sjaeland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '135',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);	
 			//796
@@ -7369,7 +8164,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Soro',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '135',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Danish'
             ]);			
 			//Norway
@@ -7380,7 +8176,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Caithness',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '136',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish'
             ]);	
 			//798
@@ -7389,7 +8186,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Orkney',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '136',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//799
@@ -7398,7 +8196,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Shetland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '136',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//Sodor (Southern Isles)
@@ -7408,7 +8207,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Islay',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '137',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Scottish'
             ]);
 			//801
@@ -7417,7 +8217,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lewis',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '137',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//802
@@ -7426,7 +8227,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mull',
 				'county_category' => 'Monastic_Order',
 				'de_jure_duchy' => '137',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Scottish'
             ]);
 			//803
@@ -7435,7 +8237,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Skye',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '137',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Scottish'
             ]);	
 			//804
@@ -7444,7 +8247,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Uist',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '137',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);							
 			//Hedmark (eidsivating)
@@ -7454,7 +8258,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hadeland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '138',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//806
@@ -7463,7 +8268,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hedmark',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '138',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//807
@@ -7472,7 +8278,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Romerike',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '138',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);
 			//Oppland (frostating)
@@ -7482,7 +8289,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jamtland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '139',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);
 			//809
@@ -7491,7 +8299,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Namdal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '139',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//810
@@ -7500,7 +8309,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oppland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '139',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//811
@@ -7509,7 +8319,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Trondelag',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '139',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);						
 			//Rogaland (gulating)
@@ -7519,7 +8330,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dalane',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '140',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//813
@@ -7528,7 +8340,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Haugeland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '140',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//814
@@ -7537,7 +8350,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jaeren',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '140',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//815
@@ -7546,7 +8360,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rogaland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '140',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//Sorland (borgarting)
@@ -7556,7 +8371,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Agder',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '141',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//817
@@ -7565,7 +8381,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Grenland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '141',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//818
@@ -7574,7 +8391,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Telemark',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '141',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//Vestland (gulating)
@@ -7584,7 +8402,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hordaland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '142',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Norwegian'
             ]);
 			//820
@@ -7593,7 +8412,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Romsdal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '142',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);				
 			//821
@@ -7602,7 +8422,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vestland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '142',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);
 			//Viken (borgarting)
@@ -7612,7 +8433,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Akershus',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '143',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//823
@@ -7621,7 +8443,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Buskerud',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '143',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//824
@@ -7630,7 +8453,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ostfold',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '143',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Norwegian'
             ]);	
 			//825
@@ -7639,7 +8463,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ranrike',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '143',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//826
@@ -7648,7 +8473,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vestfold',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '143',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);		
 			//827
@@ -7657,7 +8483,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vingulmark',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '143',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian'
             ]);			
 			//Sweden
@@ -7668,7 +8495,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gotland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '144',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//829
@@ -7677,7 +8505,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ostergotland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '144',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//830
@@ -7686,7 +8515,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vastergotland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '144',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);			
 			//Norrland
@@ -7696,7 +8526,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Angermanland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '145',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);
 			//832
@@ -7705,7 +8536,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gastrikland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '145',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);				
 			//833
@@ -7714,7 +8546,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Halsingland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '145',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//Osterland
@@ -7724,7 +8557,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//835
@@ -7733,7 +8567,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Finland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//836
@@ -7742,7 +8577,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Karelia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//837
@@ -7751,7 +8587,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nyland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//838
@@ -7760,7 +8597,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ostrobothnia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//839
@@ -7769,7 +8607,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Satakunta',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//840
@@ -7778,7 +8617,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Savonia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//841
@@ -7787,7 +8627,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tavastland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '146',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Finnish'
             ]);
 			//Smaland
@@ -7797,7 +8638,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Oland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '147',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//843
@@ -7806,7 +8648,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Smaland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '147',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);				
 			//Svealand
@@ -7816,7 +8659,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dalarna',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '148',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//845
@@ -7825,7 +8669,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Narke',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '148',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//846
@@ -7834,7 +8679,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sodermanland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '148',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//847
@@ -7843,7 +8689,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Uppland',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '148',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//848
@@ -7852,7 +8699,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Varmland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '148',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);	
 			//849
@@ -7861,7 +8709,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vastmanland',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '148',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish'
             ]);				
 			//Poland
@@ -7873,7 +8722,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gostyn',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//851
@@ -7882,7 +8732,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Grodisze',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//852
@@ -7891,7 +8742,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jarotschin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//853
@@ -7900,7 +8752,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kosten',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//854
@@ -7909,7 +8762,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lissa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '149',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//Lesser Poland
@@ -7919,7 +8773,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Auswitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//856
@@ -7928,7 +8783,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chrzanow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//857
@@ -7937,7 +8793,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sandez',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//858
@@ -7946,7 +8803,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tarnow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//859
@@ -7955,7 +8813,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wadowitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//860
@@ -7964,7 +8823,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lublin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//861
@@ -7973,7 +8833,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lukow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//862
@@ -7982,7 +8843,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sandomierz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '150',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//Gnesen
@@ -7992,7 +8854,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gnesen',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//864
@@ -8001,7 +8864,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kolo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);			
 			//865
@@ -8010,7 +8874,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kunau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//866
@@ -8019,7 +8884,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Slupca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//867
@@ -8028,7 +8894,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Turek',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//868
@@ -8037,7 +8904,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Znin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '151',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);			
 			//Kalisz
@@ -8047,7 +8915,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kalisz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//870
@@ -8056,7 +8925,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pleschen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//871
@@ -8065,7 +8935,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schildberg',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//872
@@ -8074,7 +8945,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wielun',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//873
@@ -8083,7 +8955,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wreschen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '152',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//Krakow
@@ -8093,7 +8966,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Krakow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '153',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//875
@@ -8102,7 +8976,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Olkusz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '153',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//876
@@ -8111,7 +8986,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Czestochowa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '153',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//877
@@ -8120,7 +8996,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gorlitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '153',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//Kuyavia
@@ -8130,7 +9007,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brodnica',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '154',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//879
@@ -8139,7 +9017,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Inowroclaw',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '154',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//880
@@ -8148,7 +9027,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Leipe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '154',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//881
@@ -8157,7 +9037,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mogilno',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '154',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//882
@@ -8166,7 +9047,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Naklo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '154',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);		
 			//883
@@ -8175,7 +9057,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Radziejow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '154',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);				
 			//Mazovia
@@ -8185,7 +9068,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Losice',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '155',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//885
@@ -8194,7 +9078,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Makow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '155',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//886
@@ -8203,7 +9088,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Minsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '155',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);		
 			//887
@@ -8212,7 +9098,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zuromin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '155',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//888
@@ -8221,7 +9108,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rawa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '155',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//889
@@ -8230,7 +9118,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Wizna',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '155',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//Plock
@@ -8240,7 +9129,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Plock',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '156',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//891
@@ -8249,7 +9139,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gostynin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '156',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//892
@@ -8258,7 +9149,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mlawa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '156',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//Posen
@@ -8268,7 +9160,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Posen',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//894
@@ -8277,7 +9170,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chodziez',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//895
@@ -8286,7 +9180,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gorzow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',
 				'vernacular_architecture' => 'Polish'
             ]);
 			//896
@@ -8295,7 +9190,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pila',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',
 				'vernacular_architecture' => 'Polish'
             ]);
 			//897
@@ -8304,7 +9200,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rogasen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',
 				'vernacular_architecture' => 'Polish'
             ]);
 			//898
@@ -8313,7 +9210,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Samter',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//899
@@ -8322,7 +9220,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Scharnikau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);
 			//900
@@ -8331,7 +9230,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schrim',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '157',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//Sieradz
@@ -8341,7 +9241,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sieradz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '158',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',
 				'vernacular_architecture' => 'Polish'
             ]);
 			//902
@@ -8350,7 +9251,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Radom',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '158',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//903
@@ -8359,7 +9261,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lentschitz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '158',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//Warsaw
@@ -8369,7 +9272,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Warsaw',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '159',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);	
 			//905
@@ -8378,7 +9282,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Czersk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '159',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish'
             ]);			
 			//Lithuania
@@ -8389,7 +9294,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Minsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '160',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//907
@@ -8398,7 +9304,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gomel',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '160',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//908
@@ -8407,7 +9314,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mogilev',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '160',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
 			//Samogitia
@@ -8417,7 +9325,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Panevezys',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '161',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//910
@@ -8426,7 +9335,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Schaulen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '161',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//911
@@ -8435,7 +9345,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Redau',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '161',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);			
 			//Tracken
@@ -8445,7 +9356,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alytus',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '162',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_architecture' => 'Lithuanian'
             ]);
 			//913
@@ -8454,7 +9366,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kauen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '162',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);				
 			//914
@@ -8463,7 +9376,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tracken',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '162',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//Vilnius
@@ -8473,7 +9387,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vilnius',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '163',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//916
@@ -8482,7 +9397,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kernave',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '163',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_architecture' => 'Lithuanian'
             ]);
 			//Hungary
@@ -8493,8 +9409,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Gyor',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//918
@@ -8502,8 +9419,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Moson',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//919
@@ -8511,8 +9429,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Somogy',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//920
@@ -8520,8 +9439,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Sopron',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//921
@@ -8529,8 +9449,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vas',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//922
@@ -8538,8 +9459,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vezprem',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//923
@@ -8547,8 +9469,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zala',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '164',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//Buda
@@ -8557,8 +9480,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bac',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//925
@@ -8566,8 +9490,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Baranya',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//926
@@ -8575,8 +9500,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Esztergom',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//927
@@ -8584,8 +9510,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Fejer',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//928
@@ -8593,8 +9520,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Heves',
 				'county_category' => 'Ecclesiastical',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);			
 			//929
@@ -8602,8 +9530,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pest',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//930
@@ -8611,8 +9540,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Szolnok',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '165',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//Nitra
@@ -8621,8 +9551,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Nitra',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//932
@@ -8630,8 +9561,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Arva',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//933
@@ -8639,8 +9571,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bars',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//934
@@ -8648,8 +9581,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Hont',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//935
@@ -8657,8 +9591,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Komarom',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//936
@@ -8666,8 +9601,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lipto',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//937
@@ -8675,8 +9611,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Orava',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//938
@@ -8684,8 +9621,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pozsony',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//939
@@ -8693,8 +9631,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Trencsen',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//940
@@ -8702,8 +9641,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zolyom',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '166',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//Temesvar
@@ -8712,8 +9652,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Temesvar',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '167',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//942
@@ -8721,8 +9662,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Arad',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '167',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//943
@@ -8730,8 +9672,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bihar',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '167',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//944
@@ -8739,8 +9682,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Csanad',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '167',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);				
 			//945
@@ -8748,8 +9692,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Caransebes',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '167',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//Ungvar
@@ -8758,8 +9703,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ungvar',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//947
@@ -8767,8 +9713,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bereg',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//948
@@ -8776,8 +9723,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Borsod',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//949
@@ -8785,8 +9733,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Hajdu',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//950
@@ -8794,8 +9743,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Szabolcs',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//951
@@ -8803,8 +9753,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Szatmar',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//952
@@ -8812,8 +9763,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Szepes',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//953
@@ -8821,8 +9773,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zemplen',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '168',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//Transylvania
@@ -8831,8 +9784,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Aranyosszek',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//955
@@ -8840,8 +9794,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Csikszek',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//956
@@ -8849,8 +9804,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Haromzsek',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);
 			//957
@@ -8858,8 +9814,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Koloszvar',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);			
 			//958
@@ -8867,8 +9824,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Marosszek',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//959
@@ -8876,8 +9834,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Szeben',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian'
             ]);	
 			//960
@@ -8885,8 +9844,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Udvarhelyszek',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '169',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_architecture' => 'Hungarian'
             ]);				
 			//Croatia
@@ -8896,8 +9856,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bribir',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '170',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//962
@@ -8905,8 +9866,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Knin',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '170',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//963
@@ -8914,8 +9876,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Krbava',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '170',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//964
@@ -8923,8 +9886,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lika',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '170',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//965
@@ -8932,8 +9896,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Modrus',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '170',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//Ragusa
@@ -8942,8 +9907,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ragusa',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '171',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//967
@@ -8951,8 +9917,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cetina',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '171',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//968
@@ -8960,8 +9927,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kotor',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '171',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//Slavonia
@@ -8970,8 +9938,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zagreb',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '172',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//970
@@ -8979,8 +9948,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bjelovar',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '172',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//971
@@ -8988,8 +9958,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pozega',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '172',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//972
@@ -8997,8 +9968,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Syrmia',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '172',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//973
@@ -9006,8 +9978,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Varazdin',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '172',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);		
 			//974
@@ -9015,8 +9988,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Veroce',
 				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '172',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//Split
@@ -9025,8 +9999,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Split',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '173',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//976
@@ -9034,8 +10009,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Trogir',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '173',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//Zadar
@@ -9044,8 +10020,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zadar',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '174',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);	
 			//978
@@ -9053,8 +10030,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cres',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '174',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);
 			//979
@@ -9062,8 +10040,9 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Veglia',
 				'county_category' => 'Crowned_Republic',
-				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'de_jure_duchy' => '174',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
             ]);		
 			//Byzantine			
@@ -9072,36 +10051,40 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Thessalonica
@@ -9110,9 +10093,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Achaea
@@ -9120,9 +10104,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Archipelago
@@ -9130,9 +10115,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Epirus
@@ -9140,9 +10126,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Trebizond
@@ -9151,9 +10138,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Armeniac
@@ -9161,9 +10149,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Chaldia
@@ -9171,9 +10160,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Crimea
@@ -9181,9 +10171,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Anatolia
@@ -9192,9 +10183,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Bucellaria
@@ -9202,9 +10194,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Anatolia
@@ -9212,9 +10205,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Cappadocia
@@ -9222,19 +10216,21 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
-			//Silicia
+			//Seleucia
 			//
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Opsicia
@@ -9242,9 +10238,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Nicaea
@@ -9252,9 +10249,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',		
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Lycia
@@ -9262,9 +10260,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',		
 				'vernacular_architecture' => 'Greek'
             ]);				
 			//Pamphylia
@@ -9272,9 +10271,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',		
 				'vernacular_architecture' => 'Greek'
             ]);	
 			//Sicily
@@ -9283,9 +10283,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',		
 				'vernacular_architecture' => 'Sicilian'
             ]);				
 			//Trapani
@@ -9293,9 +10294,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian'
             ]);				
 			//Messina
@@ -9303,9 +10305,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_architecture' => 'Sicilian'
             ]);				
 			//Agrigento
@@ -9313,9 +10316,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian'
             ]);				
 			//Catania
@@ -9323,9 +10327,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian'
             ]);				
 			//Siracusa
@@ -9333,9 +10338,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian'
             ]);				
 			//Naples
@@ -9344,9 +10350,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);				
 			//Capua
@@ -9354,9 +10361,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Amalfi
@@ -9364,9 +10372,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Calabria
@@ -9374,9 +10383,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Basilicata
@@ -9384,9 +10394,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Taranto
@@ -9394,9 +10405,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Foggia
@@ -9404,9 +10416,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Benevento
@@ -9414,9 +10427,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Salerno
@@ -9424,9 +10438,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan'
             ]);			
 			//Sardinia
@@ -9435,9 +10450,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
 				'vernacular_architecture' => 'Sardinian'
             ]);			
 			//Logudoro (torres)
@@ -9445,9 +10461,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
 				'vernacular_architecture' => 'Sardinian'
             ]);			
 			//Arborea
@@ -9455,9 +10472,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
 				'vernacular_architecture' => 'Sardinian'
             ]);			
 			//Cagliari
@@ -9465,9 +10483,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
 				'vernacular_architecture' => 'Sardinian'
             ]);			
 			//Georgia
@@ -9476,9 +10495,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
 				'vernacular_architecture' => 'Georgian'
             ]);			
 			//Armenia
@@ -9487,9 +10507,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Armenia',		
 				'vernacular_architecture' => 'Armenian'
             ]);			
 			//Taron
@@ -9497,9 +10518,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Armenia',	
 				'vernacular_architecture' => 'Armenian'
             ]);			
 			//Kars
@@ -9507,9 +10529,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Armenia',		
 				'vernacular_architecture' => 'Armenian'
             ]);			
 			//Azerbaijan
@@ -9517,9 +10540,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Armenia',		
 				'vernacular_architecture' => 'Armenian'
             ]);			
 			//Bulgaria
@@ -9528,9 +10552,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',		
 				'vernacular_architecture' => 'Bulgarian'
             ]);			
 			//Wallachia
@@ -9539,9 +10564,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Vlach',	
 				'vernacular_architecture' => 'Wallachian'
             ]);				
 			//Moldavia
@@ -9549,9 +10575,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Vlach',	
 				'vernacular_architecture' => 'Wallachian'
             ]);			
 			//Serbia
@@ -9561,9 +10588,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',		
 				'vernacular_architecture' => 'Serbian'
             ]);			
 			//Bosnia
@@ -9572,9 +10600,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',		
 				'vernacular_architecture' => 'Serbian'
             ]);				
 			//Kievan Rus
@@ -9586,7 +10615,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kiev',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
@@ -9595,7 +10625,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bratslav',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
@@ -9604,7 +10635,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cherkasy',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
@@ -9613,7 +10645,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Korosten',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);
 			//Pereyaslavl
@@ -9623,7 +10656,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pereyaslavl',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
@@ -9632,7 +10666,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Poltava',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);
 			//Chernigov
@@ -9643,7 +10678,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chernigov',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9652,7 +10688,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Bryansk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9661,7 +10698,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lyubech',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9670,7 +10708,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mozhaysk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9679,7 +10718,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Novosil',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Ryazan
@@ -9689,7 +10729,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ryazan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9698,7 +10739,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Murom',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9707,7 +10749,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tula',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9716,7 +10759,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kaluga',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9725,7 +10769,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vorotynsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);							
 			//Halych
@@ -9736,7 +10781,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Halych',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9745,7 +10791,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Peremyshl',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9754,7 +10801,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lviv',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9763,7 +10811,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Belz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//Podolia
@@ -9773,7 +10822,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Podolia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9782,7 +10832,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Terebovlia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);				
 			//Volhynia
@@ -9792,7 +10843,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Volhynia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9801,7 +10853,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Brest',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9810,7 +10863,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kremenets',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9819,7 +10873,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lutsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);				
 			//Turov
@@ -9829,7 +10884,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Turov',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Ruthenian'
             ]);	
 			//
@@ -9838,7 +10894,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Slutsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Ruthenian'
             ]);				
 			//Vladimir
@@ -9849,7 +10906,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vladimir',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9858,7 +10916,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vyazniki',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9867,7 +10926,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Nizhny Novgorod',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Moscow
@@ -9877,7 +10937,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Moscow',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9886,7 +10947,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Dmitrov',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9895,7 +10957,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Volokolamsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
@@ -9904,7 +10967,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zvenigorod',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Suzdal
@@ -9914,7 +10978,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Suzdal',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9923,7 +10988,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Yuryev',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);		
 			//
@@ -9932,7 +10998,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Starodub',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Smolensk
@@ -9943,7 +11010,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Smolensk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9952,7 +11020,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Roslavl',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//
@@ -9961,7 +11030,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Toropets',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//
@@ -9970,7 +11040,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mstislavl',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);					
 			//Rzhev
@@ -9980,7 +11051,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rzhev',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -9989,7 +11061,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Zubtsov',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//Tver
@@ -9999,7 +11072,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Tver',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);
 			//
@@ -10008,7 +11082,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Galich',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',	
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -10017,7 +11092,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kostroma',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//
@@ -10026,7 +11102,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pereslavl',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -10035,7 +11112,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Rostov',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -10044,7 +11122,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Yaroslavl',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Novgorod
@@ -10055,7 +11134,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Novgorod',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -10064,7 +11144,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ladoga',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Polotsk
@@ -10074,7 +11155,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Polotsk',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => '',		
 				'vernacular_architecture' => 'Lithuanian'
             ]);	
 			//
@@ -10083,7 +11165,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Vitebsk',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => '',		
 				'vernacular_architecture' => 'Lithuanian'
             ]);				
 			//Pleskov			
@@ -10093,7 +11176,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pleskov',
 				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);	
 			//
@@ -10102,7 +11186,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Kholm',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
             ]);				
 			//Cordoba
@@ -10114,7 +11199,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Algeciras',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',		
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10123,7 +11209,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Gibraltar',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Almeria
@@ -10133,7 +11220,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Almeria',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10142,7 +11230,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Baza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Arcos
@@ -10152,7 +11241,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cadiz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10161,7 +11251,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jerez',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10170,7 +11261,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sanlucar',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Carmona
@@ -10180,7 +11272,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carmona',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10189,7 +11282,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ecija',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Cordoba
@@ -10199,7 +11293,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Andujar',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10208,7 +11303,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carpio',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10217,7 +11313,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cordoba',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10226,7 +11323,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Martos',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10235,7 +11333,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Pedroche',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Granada
@@ -10245,7 +11344,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Baeza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10254,7 +11354,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Carolina',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10263,7 +11364,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Granada',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10272,7 +11374,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Guadix',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10281,7 +11384,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jaen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10290,7 +11394,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lecrin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10299,7 +11404,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Motril',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10308,7 +11414,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Torvizcon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10317,7 +11424,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ubeda',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Malaga
@@ -10327,7 +11435,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alhama',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10336,7 +11445,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Antequerra',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10345,7 +11455,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Loja',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10354,7 +11465,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Malaga',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Ronda
@@ -10364,7 +11476,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Marbella',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10373,7 +11486,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ronda',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Sevilla
@@ -10383,7 +11497,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aljarafe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10392,7 +11507,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Estepa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10401,7 +11517,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Sevilla',
 				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Algarves
@@ -10412,7 +11529,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Faro',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10421,7 +11539,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mertola',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10430,7 +11549,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Silves',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Badajoz
@@ -10440,7 +11560,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Badajoz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10449,7 +11570,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Beja',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10458,7 +11580,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Evora',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10467,7 +11590,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Guadiana',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10476,7 +11600,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Llerena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10485,7 +11610,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Merida',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10494,7 +11620,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Olivenza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10503,7 +11630,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Portalegre',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10512,7 +11640,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Serena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//Huelva
@@ -10522,7 +11651,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Aracena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10531,7 +11661,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Huelva',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10540,7 +11671,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Niebla',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);			
 			//Levante
@@ -10551,7 +11683,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alcarria',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10560,7 +11693,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Almarza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10569,7 +11703,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Henares',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10578,7 +11713,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Medinaceli',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10587,7 +11723,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Molina',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10596,7 +11733,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Serrania',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Baleares
@@ -10606,7 +11744,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Ibiza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10615,7 +11754,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Mallorca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10624,7 +11764,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Menorca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);			
 			//Denia
@@ -10634,7 +11775,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Albacete',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10643,7 +11785,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alcaraz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//
@@ -10652,7 +11795,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alcira',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10661,7 +11805,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alcoy',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10670,7 +11815,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Alicante',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10679,7 +11825,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Almagro',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10688,7 +11835,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Chinchilla',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10697,7 +11845,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cofrentes',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//
@@ -10706,7 +11855,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Denia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10715,7 +11865,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Jativa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10724,7 +11875,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Montesa',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Murcia
@@ -10734,7 +11886,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cartagena',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10743,7 +11896,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Cieza',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10752,7 +11906,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Hellin',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);
 			//
@@ -10761,7 +11916,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Lorca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);			
 			//
@@ -10770,7 +11926,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Murcia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10779,7 +11936,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Orihuela',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10788,7 +11946,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Segura',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Valencia
@@ -10798,7 +11957,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Castellon',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);		
 			//
@@ -10807,7 +11967,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Morella',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10816,7 +11977,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Peniscola',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10825,7 +11987,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'San Clemente',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//
@@ -10834,7 +11997,8 @@ class CountySeeder extends Seeder
 				'county_name' => 'Valencia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish'
             ]);	
 			//Almohad
@@ -10843,9 +12007,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Fez
@@ -10853,9 +12018,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Kairouan
@@ -10863,9 +12029,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Tlemcen
@@ -10873,9 +12040,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Ifni
@@ -10883,9 +12051,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Figuig
@@ -10893,9 +12062,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_architecture' => 'Moorish'
             ]);				
 			//Abbasid
@@ -10904,9 +12074,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Jazira',	
 				'vernacular_architecture' => 'Arabic'
             ]);				
 			//Syria
@@ -10914,9 +12085,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
 				'vernacular_architecture' => 'Arabic'
             ]);				
 			//Najd
@@ -10924,9 +12096,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Najd',	
 				'vernacular_architecture' => 'Arabic'
             ]);				
 			//Antioch
@@ -10934,9 +12107,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Levant',
 				'vernacular_architecture' => 'Arabic'
             ]);				
 			//Fatimid
@@ -10945,9 +12119,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_architecture' => 'Arabic'
             ]);	
 			//Jerusalem
@@ -10955,9 +12130,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
 				'vernacular_architecture' => 'Arabic'
             ]);				
 			//Hejaz
@@ -10965,9 +12141,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_architecture' => 'Arabic'
             ]);				
 			//Khazar
@@ -10977,9 +12154,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);				
 			//Sarkel
@@ -10987,9 +12165,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Atil
@@ -10997,9 +12176,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Bolghar
@@ -11007,9 +12187,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Bilar
@@ -11017,9 +12198,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Alania
@@ -11028,9 +12210,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Azov
@@ -11038,9 +12221,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Cumania
@@ -11049,9 +12233,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Sozak
@@ -11059,9 +12244,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Sibir
@@ -11069,9 +12255,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Turk',
 				'vernacular_architecture' => 'Turkic'
             ]);			
 			//Seljuk
@@ -11080,9 +12267,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_architecture' => 'Persian'
             ]);
 			//Isfahan
@@ -11090,9 +12278,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_architecture' => 'Persian'
             ]);			
 			//Hormuz
@@ -11100,9 +12289,10 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',
+				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
-				'vernacular_cycle' => '',	
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_architecture' => 'Persian'
             ]);			
     }

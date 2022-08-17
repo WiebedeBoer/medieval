@@ -9260,7 +9260,7 @@ class BaronySeeder extends Seeder
 			
 			//Cappadocia
 			
-			//Silicia
+			//Seleucia
 			
 			//Opsicia
 			

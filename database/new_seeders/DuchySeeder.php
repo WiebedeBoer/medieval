@@ -1861,7 +1861,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Hungary
 			//Hungary
-			//
+			//164
 			//Gyor, Moson, Sopron, Somogy, Vas, Vezprem, Zala
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hungary',
@@ -1872,7 +1872,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//165
 			//Baranya, Esztergom, Fejer, Heves, Pest, Szolnok
             DB::table('duchies')->insert([
 				'duchy_name' => 'Buda',
@@ -1883,7 +1883,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//
+			//166
 			//Nitra, Arva, Bars, Hont, Komarom, Lipto, Orava, Pozsony, Trencsen, Zolyom
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nitra',
@@ -1894,7 +1894,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//
+			//167
 			//Temesvar, Arad, Bihar, Caransebes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Temesvar',
@@ -1905,7 +1905,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//168
 			//Ungvar, Bereg, Borsod, Hajdu, Szabolcs, Szatmar, Szepes, Zemplen
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ungvar',
@@ -1916,7 +1916,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);				
-			//
+			//169
 			//Aranyosszek, Csikszek, Haromzsek, Koloszvar, Marosszek, Udvarhelyszek
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transylvania',
@@ -1928,7 +1928,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//Croatia
-			//
+			//170
 			//Bribir, Knin, Krbava, Lika, Modrus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalmatia',
@@ -1939,7 +1939,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//171
 			//Ragusa, Cetina, Kotor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ragusa',
@@ -1950,7 +1950,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//172
 			//Zagreb, Bjelovar, Pozega, Syrmia, Varazdin, Veroce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Slavonia',
@@ -1961,7 +1961,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);
-			//
+			//173
 			//Split, Trogir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Split',
@@ -1972,7 +1972,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);	
-			//
+			//174
 			//Zadar, Cres, Veglia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zadar',
@@ -2023,7 +2023,7 @@ class DuchySeeder extends Seeder
 			
 			//Cappadocia
 			
-			//Silicia
+			//Seleucia
 			
 			//Opsicia
 			
