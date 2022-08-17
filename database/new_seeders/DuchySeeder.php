@@ -1982,6 +1982,219 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
+            ]);	
+			//Trinacria
+			//Sicily
+			//175
+			//Palermo
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Palermo',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//176
+			//Trapani
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Trapani',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//177
+			//Messina
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Messina',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//178
+			//Agrigento
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Agrigento',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//179
+			//Catania
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Catania',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//180
+			//Siracusa
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Siracusa',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '27',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//Naples
+			//181
+			//Naples
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Naples',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//182
+			//Capua
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Capua',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//183
+			//Amalfi
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Amalfi',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//184
+			//Catanzaro, Cosenza, Crotone
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Calabria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//185
+			//Matera, Potenza
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Basilicata',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//186
+			//Taranto, Bari, Brindisi, Lecce
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Taranto',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//187
+			//Foggia
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Foggia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//188
+			//Benevento
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Benevento',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//189
+			//Salerno
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Salerno',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '28',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//Sardinia
+			//190
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Gallura',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '29',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//191
+			//Torres
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Logudoro',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '29',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//192
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Arborea',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '29',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//193
+			//Cagliari
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Cagliari',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '29',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
             ]);				
 			//Byzantine		
 			//Thrace
@@ -1990,117 +2203,281 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => '',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '30',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
             ]);				
 			//Thessalonica
-			//Athens
-			
-			//Achaea
-			
-			//Archipelago
-			
-			//Epirus
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Athens',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Achaea',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Archipelago',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Epirus',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
 			//Trebizond
-			//Paphlagonia
-			
-			//Armeniac
-			
-			//Chaldia
-			
-			//Crimea
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Paphlagonia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '32',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Armeniac',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '32',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Chaldia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '32',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Crimea',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '32',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Anatolia
-			//Thracesia
-			
-			//Bucellaria
-			
-			//Anatolia
-			
-			//Cappadocia
-			
-			//Seleucia
-			
-			//Opsicia
-			
-			//Nicaea
-			
-			//Lycia
-			
-			//Pamphylia
-			
-			//Sicily
-			//Palermo
-			
-			//Trapani
-			
-			//Messina
-			
-			//Agrigento
-			
-			//Catania
-			
-			//Siracusa
-			
-			//Naples
-			//Naples
-			
-			//Capua
-			
-			//Amalfi
-			
-			//Calabria
-			
-			//Basilicata
-			
-			//Taranto
-			
-			//Foggia
-			
-			//Benevento
-			
-			//Salerno
-			
-			//Sardinia
-			//Gallura
-			
-			//Logudoro (torres)
-			
-			//Arborea
-			
-			//Cagliari
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Thracesia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Bucellaria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Anatolia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Cappadocia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Steppe',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Seleucia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Opsicia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Nicaea',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Lycia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Pamphylia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '33',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);							
 			//Georgia
-			//Georgia
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Georgia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '34',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '34',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Armenia
-			//Vaspurakan
-			
-			//Taron
-			
-			//Kars
-			
-			//Azerbaijan
-			
-			//Bulgaria
-			//Bulgaria
-			
-			//Wallachia
-			//Wallachia
-			
-			//Moldavia
-			
-			//Serbia
-			//Serbia
-			//Rashka
-			
-			//Bosnia
-			//Bosnia
-			
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Vaspurakan',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '35',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Taron',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '35',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Kars',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '35',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Azerbaijan',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '35',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
 			//Kievan Rus
 			//Kiev
 			//
@@ -2108,7 +2485,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kiev',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '40',	
+				'de_jure_kingdom' => '36',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2119,7 +2496,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pereyaslavl',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '40',	
+				'de_jure_kingdom' => '36',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2131,7 +2508,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chernigov',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '41',	
+				'de_jure_kingdom' => '37',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2142,7 +2519,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ryazan',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '41',	
+				'de_jure_kingdom' => '37',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2154,7 +2531,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Halych',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '42',	
+				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2165,7 +2542,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Podolia',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '42',	
+				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2176,7 +2553,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Volhynia',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '42',	
+				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2187,7 +2564,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Turov',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '42',	
+				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2199,7 +2576,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vladimir',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '43',	
+				'de_jure_kingdom' => '39',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2210,7 +2587,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moscow',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '43',	
+				'de_jure_kingdom' => '39',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2221,7 +2598,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Suzdal',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '43',	
+				'de_jure_kingdom' => '39',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2233,7 +2610,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smolensk',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '44',	
+				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2244,7 +2621,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rzhev',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '44',	
+				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2255,7 +2632,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tver',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '44',	
+				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2267,7 +2644,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Novgorod',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '45',	
+				'de_jure_kingdom' => '41',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2278,7 +2655,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Polotsk',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '45',	
+				'de_jure_kingdom' => '41',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
@@ -2289,12 +2666,106 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pleskov',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '45',	
+				'de_jure_kingdom' => '41',	
 				'law_succession' => 'Agnatic_Seniority',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
-            ]);			
+            ]);		
+			//Bulgaria
+			//Bulgaria
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '42',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);		
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '42',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//Wallachia
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Wallachia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '43',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Moldavia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '43',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//Serbia
+			//Serbia
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Rashka',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '44',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '44',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
+			//Bosnia
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Bosnia',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '45',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);		
+			//
+			//
+            DB::table('duchies')->insert([
+				'duchy_name' => '',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '45',	
+				'law_succession' => 'Salic_Primogeniture',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);							
 			//Cordoba
 			//Andalucia
 			//

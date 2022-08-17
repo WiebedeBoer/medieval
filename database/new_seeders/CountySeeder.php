@@ -10044,6 +10044,438 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',	
 				'vernacular_architecture' => 'Croatian'
+            ]);			
+			//Sicily
+			//Palermo
+			//
+			//palermo
+            DB::table('counties')->insert([
+				'county_name' => 'Palermo',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '175',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',		
+				'vernacular_architecture' => 'Sicilian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '175',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
+			//Trapani
+			//
+			//trapani
+            DB::table('counties')->insert([
+				'county_name' => 'Trapani',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '176',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '176',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
+			//Messina
+			//
+			//messina
+            DB::table('counties')->insert([
+				'county_name' => 'Messina',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '177',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',
+				'vernacular_architecture' => 'Sicilian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '177',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
+			//Agrigento
+			//
+			//agrigento
+            DB::table('counties')->insert([
+				'county_name' => 'Agrigento',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '178',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '178',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
+			//Catania
+			//
+			//catania
+            DB::table('counties')->insert([
+				'county_name' => 'Catania',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '179',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '179',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
+			//Siracusa
+			//
+			//siracusa
+            DB::table('counties')->insert([
+				'county_name' => 'Siracusa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '180',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '180',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sicily',	
+				'vernacular_architecture' => 'Sicilian'
+            ]);				
+			//Naples
+			//Naples
+			//
+			//naples
+            DB::table('counties')->insert([
+				'county_name' => 'Naples',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '181',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '181',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Capua
+			//
+			//capua
+            DB::table('counties')->insert([
+				'county_name' => 'Capua',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '182',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '182',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Amalfi
+			//
+			//amalfi
+            DB::table('counties')->insert([
+				'county_name' => 'Amalfi',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '183',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '183',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Calabria
+			//
+			//catanzaro
+            DB::table('counties')->insert([
+				'county_name' => 'Catanzaro',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '184',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//cosenza
+            DB::table('counties')->insert([
+				'county_name' => 'Cosenza',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '184',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//crotone
+            DB::table('counties')->insert([
+				'county_name' => 'Crotone',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '184',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Basilicata
+			//
+			//matera
+            DB::table('counties')->insert([
+				'county_name' => 'Matera',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '185',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//potenza
+            DB::table('counties')->insert([
+				'county_name' => 'Potenza',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '185',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Taranto
+			//
+			//taranto
+            DB::table('counties')->insert([
+				'county_name' => 'Taranto',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '186',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);
+			//
+			//bari
+            DB::table('counties')->insert([
+				'county_name' => 'Bari',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '186',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);			
+			//
+			//brindisi
+            DB::table('counties')->insert([
+				'county_name' => 'Brindisi',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '186',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//lecce
+            DB::table('counties')->insert([
+				'county_name' => 'Lecce',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '186',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Foggia
+			//
+			//foggia
+            DB::table('counties')->insert([
+				'county_name' => 'Foggia',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '187',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '187',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Benevento
+			//
+			//benevento
+            DB::table('counties')->insert([
+				'county_name' => 'Benevento',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '188',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '188',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Salerno
+			//
+			//salerno
+            DB::table('counties')->insert([
+				'county_name' => 'Salerno',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',	
+				'vernacular_architecture' => 'Neapolitan'
+            ]);				
+			//Sardinia
+			//Gallura
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '190',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '190',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);				
+			//Logudoro 
+			//
+			//torres
+            DB::table('counties')->insert([
+				'county_name' => 'Torres',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '191',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '191',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);				
+			//Arborea
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '192',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '192',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);				
+			//Cagliari
+			//
+			//cagliari
+            DB::table('counties')->insert([
+				'county_name' => 'Cagliari',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '193',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '193',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian'
             ]);		
 			//Byzantine			
 			//Thrace
@@ -10276,219 +10708,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',		
 				'vernacular_architecture' => 'Greek'
-            ]);	
-			//Sicily
-			//Palermo
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sicily',		
-				'vernacular_architecture' => 'Sicilian'
-            ]);				
-			//Trapani
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sicily',	
-				'vernacular_architecture' => 'Sicilian'
-            ]);				
-			//Messina
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sicily',
-				'vernacular_architecture' => 'Sicilian'
-            ]);				
-			//Agrigento
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sicily',	
-				'vernacular_architecture' => 'Sicilian'
-            ]);				
-			//Catania
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sicily',	
-				'vernacular_architecture' => 'Sicilian'
-            ]);				
-			//Siracusa
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sicily',	
-				'vernacular_architecture' => 'Sicilian'
-            ]);				
-			//Naples
-			//Naples
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);				
-			//Capua
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Amalfi
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Calabria
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Basilicata
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Taranto
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Foggia
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Benevento
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Salerno
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
-            ]);			
-			//Sardinia
-			//Gallura
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
-            ]);			
-			//Logudoro (torres)
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
-            ]);			
-			//Arborea
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
-            ]);			
-			//Cagliari
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
-            ]);			
+            ]);					
 			//Georgia
 			//Georgia
 			//
@@ -10545,67 +10765,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',		
 				'vernacular_architecture' => 'Armenian'
-            ]);			
-			//Bulgaria
-			//Bulgaria
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Orthodox_Bulgarian',
-				'vernacular_cycle' => 'Matter_Bulgaria',		
-				'vernacular_architecture' => 'Bulgarian'
-            ]);			
-			//Wallachia
-			//Wallachia
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Orthodox_Bulgarian',
-				'vernacular_cycle' => 'Matter_Vlach',	
-				'vernacular_architecture' => 'Wallachian'
-            ]);				
-			//Moldavia
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Orthodox_Bulgarian',
-				'vernacular_cycle' => 'Matter_Vlach',	
-				'vernacular_architecture' => 'Wallachian'
-            ]);			
-			//Serbia
-			//Serbia
-			//Rashka
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Orthodox_Serbian',
-				'vernacular_cycle' => 'Matter_Serbia',		
-				'vernacular_architecture' => 'Serbian'
-            ]);			
-			//Bosnia
-			//Bosnia
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Orthodox_Serbian',
-				'vernacular_cycle' => 'Matter_Serbia',		
-				'vernacular_architecture' => 'Serbian'
-            ]);				
+            ]);	
 			//Kievan Rus
 			//Kiev
 			//Kiev 
@@ -11189,7 +11349,72 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_architecture' => 'Russian'
+            ]);			
+			//Bulgaria
+			//Bulgaria
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',		
+				'vernacular_architecture' => 'Bulgarian'
+            ]);			
+			//Wallachia
+			//Wallachia
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Vlach',	
+				'vernacular_architecture' => 'Wallachian'
             ]);				
+			//Moldavia
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Vlach',	
+				'vernacular_architecture' => 'Wallachian'
+            ]);			
+			//Serbia
+			//Serbia
+			//Rashka
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',		
+				'vernacular_architecture' => 'Serbian'
+            ]);			
+			//Bosnia
+			//Bosnia
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',		
+				'vernacular_architecture' => 'Serbian'
+            ]);	
+
+			
+
+
+			
 			//Cordoba
 			//Andalucia
 			//Algeciras

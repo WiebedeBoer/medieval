@@ -9228,9 +9228,47 @@ class BaronySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None'							
-            ]);			
-			//Byzantine
+            ]);
+			//Trinacria
+			//Palermo
 			
+			//Trapani
+			
+			//Messina
+			
+			//Agrigento
+			
+			//Catania
+			
+			//Siracusa
+			
+			//Naples
+			//Naples
+			
+			//Capua
+			
+			//Amalfi
+			
+			//Calabria
+			
+			//Basilicata
+			
+			//Taranto
+			
+			//Foggia
+			
+			//Benevento
+			
+			//Salerno
+			
+			//Sardinia
+			//Gallura
+			
+			//Logudoro (torres)
+			
+			//Arborea		
+				
+			//Byzantine			
 			//Thrace
 			
 			//Thessalonica
@@ -9269,45 +9307,7 @@ class BaronySeeder extends Seeder
 			//Lycia
 			
 			//Pamphylia
-			
-			//Palermo
-			
-			//Trapani
-			
-			//Messina
-			
-			//Agrigento
-			
-			//Catania
-			
-			//Siracusa
-			
-			//Naples
-			//Naples
-			
-			//Capua
-			
-			//Amalfi
-			
-			//Calabria
-			
-			//Basilicata
-			
-			//Taranto
-			
-			//Foggia
-			
-			//Benevento
-			
-			//Salerno
-			
-			//Sardinia
-			//Gallura
-			
-			//Logudoro (torres)
-			
-			//Arborea
-			
+						
 			//Cagliari
 			
 			//Georgia
@@ -9321,21 +9321,6 @@ class BaronySeeder extends Seeder
 			//Kars
 			
 			//Azerbaijan
-			
-			//Bulgaria
-			//Bulgaria
-			
-			//Wallachia
-			//Wallachia
-			
-			//Moldavia
-			
-			//Serbia
-			//Serbia
-			//Rashka
-			
-			//Bosnia
-			//Bosnia
 			
 			//Kievan Rus
 			//Kiev
@@ -9393,7 +9378,24 @@ class BaronySeeder extends Seeder
 			
 			//Polotsk
 			
-			//Pleskov			
+			//Pleskov
+			
+			//Bulgaria
+			//Bulgaria
+			
+			//Wallachia
+			//Wallachia
+			
+			//Moldavia
+			
+			//Serbia
+			//Serbia
+			//Rashka
+			
+			//Bosnia
+			//Bosnia
+			
+			
 			
 			//Cordoba
 			//Andalucia

@@ -351,59 +351,11 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'					
-            ]);				
-			//Byzantine
-			//Thrace
-			//
-			//27
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Kingdom of Thrace',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'byzantine',
-				'de_jure_empire' => '9',			
-				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'palatial'				
             ]);	
-			//Thessalonica
-			//Athens, Achaea, Archipelago, Epirus
-			//28
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Kingdom of Thessalonica',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'byzantine',
-				'de_jure_empire' => '9',			
-				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
-            ]);				
-			//Trebizond
-			//Paphlagonia, Armeniac, Chaldia, Crimea
-			//29
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Kingdom of Trebizond',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'byzantine',
-				'de_jure_empire' => '9',			
-				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
-            ]);	
-			//Anatolia
-			//Thracesia, Bucellaria, Anatolia, Cappadocia, Seleucia, Opsicia, Nicaea, Lycia, Pamphylia
-			//30
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Kingdom of Anatolia',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'byzantine',
-				'de_jure_empire' => '9',			
-				'law_succession' => 'Salic_Primogeniture',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
-            ]);
+			//Trinacria
 			//Sicily
 			//Palermo, Trapani, Messina, Agrigento, Catania, Siracusa
-			//31
+			//27
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sicily',
 				'kingdom_category' => 'Feudal',
@@ -415,7 +367,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//Naples
 			//Naples, Capua, Amalfi, Calabria, Basilicata, Taranto, Foggia, Benevento, Salerno
-			//32
+			//28
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Naples',
 				'kingdom_category' => 'Feudal',
@@ -427,12 +379,61 @@ class KingdomSeeder extends Seeder
             ]);	
 			//Sardinia
 			//Gallura, Logudoro (torres), Arborea, Cagliari
-			//33
+			//29
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Sardinia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'sardinia',
 				'de_jure_empire' => '9',			
+				'law_succession' => 'Salic_Primogeniture',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'				
+            ]);			
+			//Byzantine
+			//Thrace
+			//
+			//30
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Thrace',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '10',			
+				'law_succession' => 'Salic_Primogeniture',
+				'law_assembly' => 'medium',
+				'law_court' => 'palatial'				
+            ]);	
+			//Thessalonica
+			//Athens, Achaea, Archipelago, Epirus
+			//31
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Thessalonica',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '10',			
+				'law_succession' => 'Salic_Primogeniture',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'				
+            ]);				
+			//Trebizond
+			//Paphlagonia, Armeniac, Chaldia, Crimea
+			//32
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Trebizond',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '10',			
+				'law_succession' => 'Salic_Primogeniture',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'			
+            ]);	
+			//Anatolia
+			//Thracesia, Bucellaria, Anatolia, Cappadocia, Seleucia, Opsicia, Nicaea, Lycia, Pamphylia
+			//33
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Kingdom of Anatolia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'byzantine',
+				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
@@ -444,7 +445,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Georgia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'georgia',
-				'de_jure_empire' => '9',			
+				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
@@ -456,32 +457,105 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Armenia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'armenia',
-				'de_jure_empire' => '9',			
+				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
+            ]);
+			//Kievan Rus
+			//Kiev
+			//Kiev, Pereyaslavl
+			//36
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Kiev',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'kiev',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Agnatic_Seniority',
+				'law_assembly' => 'medium',
+				'law_court' => 'palatial'			
+            ]);		
+			//Chernigov
+			//Chernigov, Ryazan 
+			//37
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Chernigov',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'chernigov',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Agnatic_Seniority',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'				
             ]);	
+			//Halych
+			//Halych, Podolia, Volhynia, Turov
+			//38
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Ruthenia',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'volhynia',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Agnatic_Seniority',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'			
+            ]);	
+			//Vladimir
+			//Vladimir, Moscow, Suzdal
+			//39
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Vladimir',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'vladimir',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Agnatic_Seniority',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'				
+            ]);		
+			//Smolensk
+			//Smolensk, Rzhev, Tver
+			//40
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Grand Principality of Smolensk',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'smolensk',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Agnatic_Seniority',
+				'law_assembly' => 'medium',
+				'law_court' => 'itinerant'				
+            ]);	
+			//Novgorod
+			//Novgorod, Polotsk, Pleskov
+			//41
+            DB::table('kingdoms')->insert([
+				'kingdom_name' => 'Principality of Novgorod',
+				'kingdom_category' => 'Feudal',
+				'flag' => 'novgorod',
+				'de_jure_empire' => '11',			
+				'law_succession' => 'Agnatic_Seniority',
+				'law_assembly' => 'medium',
+				'law_court' => 'palatial'				
+            ]);			
 			//Bulgaria
 			//Bulgaria
 			//
-			//36
+			//42
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Bulgaria',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'bulgaria',
-				'de_jure_empire' => '10',			
+				'de_jure_empire' => '12',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);
 			//Wallachia
 			//Wallachia, Moldavia
-			//37
+			//43
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Wallachia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'wallachia',
-				'de_jure_empire' => '10',			
+				'de_jure_empire' => '12',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
@@ -489,101 +563,28 @@ class KingdomSeeder extends Seeder
 			//Serbia
 			//Serbia
 			//Rashka
-			//38
+			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Serbia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'serbia',
-				'de_jure_empire' => '11',			
+				'de_jure_empire' => '13',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
             ]);	
 			//Bosnia
 			//Bosnia
-			//39
+			//45
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Bosnia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'bosnia',
-				'de_jure_empire' => '11',			
+				'de_jure_empire' => '13',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'itinerant'				
-            ]);	
-			//Kievan Rus
-			//Kiev
-			//Kiev, Pereyaslavl
-			//40
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Kiev',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'kiev',
-				'de_jure_empire' => '12',			
-				'law_succession' => 'Agnatic_Seniority',
-				'law_assembly' => 'medium',
-				'law_court' => 'palatial'			
-            ]);		
-			//Chernigov
-			//Chernigov, Ryazan 
-			//41
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Chernigov',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'chernigov',
-				'de_jure_empire' => '12',			
-				'law_succession' => 'Agnatic_Seniority',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
-            ]);	
-			//Halych
-			//Halych, Podolia, Volhynia, Turov
-			//42
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Ruthenia',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'volhynia',
-				'de_jure_empire' => '12',			
-				'law_succession' => 'Agnatic_Seniority',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
-            ]);	
-			//Vladimir
-			//Vladimir, Moscow, Suzdal
-			//43
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Vladimir',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'vladimir',
-				'de_jure_empire' => '12',			
-				'law_succession' => 'Agnatic_Seniority',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
-            ]);		
-			//Smolensk
-			//Smolensk, Rzhev, Tver
-			//44
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Smolensk',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'smolensk',
-				'de_jure_empire' => '12',			
-				'law_succession' => 'Agnatic_Seniority',
-				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
-            ]);	
-			//Novgorod
-			//Novgorod, Polotsk, Pleskov
-			//45
-            DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Principality of Novgorod',
-				'kingdom_category' => 'Feudal',
-				'flag' => 'novgorod',
-				'de_jure_empire' => '12',			
-				'law_succession' => 'Agnatic_Seniority',
-				'law_assembly' => 'medium',
-				'law_court' => 'palatial'				
-            ]);				
+            ]);					
 			//Cordoba
 			//Andalucia
 			//Algeciras, Almeria, Arcos, Carmona, Cordoba, Granada, Malaga, Ronda, Sevilla 
@@ -592,7 +593,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Andalucia',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'fatimid',
-				'de_jure_empire' => '13',			
+				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -604,7 +605,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Algarves',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'fatimid',
-				'de_jure_empire' => '13',			
+				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -616,7 +617,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Levante',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'fatimid',
-				'de_jure_empire' => '13',			
+				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -629,7 +630,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Marrakesh',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'almohad',
-				'de_jure_empire' => '14',			
+				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'			
@@ -641,7 +642,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Fez',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'almohad',
-				'de_jure_empire' => '14',			
+				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -653,7 +654,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Kairouan',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'almohad',
-				'de_jure_empire' => '14',			
+				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -665,7 +666,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Tlemcen',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'almohad',
-				'de_jure_empire' => '14',			
+				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'			
@@ -677,7 +678,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Principality of Ifni',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'almohad',
-				'de_jure_empire' => '14',			
+				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -689,7 +690,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Principality of Figuig',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'almohad',
-				'de_jure_empire' => '14',			
+				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -702,7 +703,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Baghdad',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'abbasid',
-				'de_jure_empire' => '15',			
+				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -714,7 +715,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Syria',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'abbasid',
-				'de_jure_empire' => '15',			
+				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -726,7 +727,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Principality of Najd',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'abbasid',
-				'de_jure_empire' => '15',			
+				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -738,7 +739,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Principality of Antioch',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'abbasid',
-				'de_jure_empire' => '15',			
+				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -751,7 +752,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Cairo',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'fatimid',
-				'de_jure_empire' => '16',			
+				'de_jure_empire' => '17',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -763,7 +764,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Jerusalem',
 				'kingdom_category' => 'Feudal',
 				'flag' => '',
-				'de_jure_empire' => '16',			
+				'de_jure_empire' => '17',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan'				
@@ -775,7 +776,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Principality of Hejaz',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'fatimid',
-				'de_jure_empire' => '16',			
+				'de_jure_empire' => '17',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'divan',				
@@ -789,7 +790,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Khazaria',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'khazar',
-				'de_jure_empire' => '17',			
+				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
@@ -801,7 +802,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Alania',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'khazar',
-				'de_jure_empire' => '17',			
+				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
@@ -813,7 +814,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Cumania',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'khazar',
-				'de_jure_empire' => '17',			
+				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
@@ -826,7 +827,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Kwarezm',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'seljuk',
-				'de_jure_empire' => '18',			
+				'de_jure_empire' => '19',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
@@ -838,7 +839,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Kingdom of Isfahan',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'seljuk',
-				'de_jure_empire' => '18',			
+				'de_jure_empire' => '19',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
@@ -850,7 +851,7 @@ class KingdomSeeder extends Seeder
 				'kingdom_name' => 'Principality of Hormuz',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'seljuk',
-				'de_jure_empire' => '18',			
+				'de_jure_empire' => '19',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'sarai'				
