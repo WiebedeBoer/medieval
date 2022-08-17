@@ -21,7 +21,7 @@ class DuchySeeder extends Seeder
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	
 				'law_court' => '',				//Itinerant, Palatial
 				'vegetation' => '',				//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Shrubland, Temperate_Woodland, Temperate_Marshland
-				'altitude' => '',				//Lowland, Montane, Highland
+				'altitude' => '',				//Lowland, Montane, Highland		
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
@@ -45,7 +45,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'			
             ]);
 			//2 
 			//Donaugau, Folkfeld, Isengau, Mattiggau, Nordgau, Radenzgau, Rottgau, Schweinachgau, Westergau
@@ -166,7 +166,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'			
             ]);	
 			//13
 			//Bardengau, Derlingau, Eastfalagau, Gretingau, Gudingau, Harzgau, Wenzengau
@@ -221,7 +221,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Temperate_Marshland',	
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'			
             ]);
 			//18
 			//Gillgau, Auelgau, Bonngau, Deutzgau
@@ -265,7 +265,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland',				
             ]);	
 			//22
 			//Bitgau, Maifeld, Hunsruckgau, Trechirgau
@@ -288,7 +288,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'			
             ]);	
 			//24 
 			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Torino, Vercelli, Vigevano

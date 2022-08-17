@@ -27,7 +27,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => '',			//None, Monastic_School, Cathedral_School
 				'banal_moulin' => '',				//None, Watermill, Windmill
 				'banal_pressoir' => '',				//None, Wine
-				'banal_chasse' => '',				//None, Falconry, Deer, Boar, Fur
+				'banal_chasse' => '',				//None, Falconry, Deer, Boar, Fur						
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
@@ -9231,13 +9231,99 @@ class BaronySeeder extends Seeder
             ]);
 			//Trinacria
 			//Palermo
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Palermo',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Parliament',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Caccamo',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);		
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Termini',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);			
 			//Trapani
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Trapani',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);				
 			//Messina
 			
 			//Agrigento
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Agrigento',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);			
 			//Catania
 			
 			//Siracusa
@@ -9270,7 +9356,25 @@ class BaronySeeder extends Seeder
 				
 			//Byzantine			
 			//Thrace
-			
+			//
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Constantinople',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Patriarch',
+				'charter_market' => 'Staple_right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None'							
+            ]);			
 			//Thessalonica
 			//Athens
 			
