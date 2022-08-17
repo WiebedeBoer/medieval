@@ -21,7 +21,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Sunni, Shia, Pagan
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish	
 				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
-				'mines' => '',						//None, Salt, Gold, Silver, Iron, Lead, Copper, Tin, Gems; default=None
+				'mines' => '',						//None, Salt, Gold, Silver (Lead), Iron, Copper, Tin, Gems; default=None
 				'crops' => '',						//None, Elder, Orchard, Sugarcane, Lavender, Madder, Woad; default=None
 				'animal_husbandry' => '',			//None, Cattle, Pigs, Sheep, Goats, Poultry, Ducks; default=None
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
@@ -76,7 +76,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',				
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',,
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -116,7 +116,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Salt',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -142,7 +142,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -364,7 +364,7 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '4',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1006,7 +1006,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'Lead',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1046,7 +1046,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'Lead',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1125,7 +1125,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1138,7 +1138,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1151,7 +1151,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1182,7 +1182,7 @@ class CountySeeder extends Seeder
 				'animal_husbandry' => 'None'
             ]);
 			//87
-			//toul, ochey
+			//toul, ochey, nancy
             DB::table('counties')->insert([
 				'county_name' => 'Toullois',
 				'county_category' => 'Ecclesiastical',
@@ -1204,7 +1204,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1230,7 +1230,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1243,7 +1243,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1256,7 +1256,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1270,7 +1270,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Salt',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1283,7 +1283,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Salt',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1335,7 +1335,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1348,7 +1348,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1362,7 +1362,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1375,7 +1375,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);			
@@ -1388,7 +1388,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1401,7 +1401,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -1414,7 +1414,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1427,7 +1427,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1480,7 +1480,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Swabian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1493,7 +1493,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -1545,7 +1545,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1610,7 +1610,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Swabian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1629,7 +1629,7 @@ class CountySeeder extends Seeder
             ]);
 			//Thuringia
 			//121
-			//erfurt, weimar
+			//erfurt, weimar, schmalkalden
             DB::table('counties')->insert([
 				'county_name' => 'Thuringgau',
 				'county_category' => 'Feudal',
@@ -1637,7 +1637,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1702,7 +1702,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Salt',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -1741,7 +1741,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -2015,7 +2015,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);						
@@ -2134,7 +2134,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -2174,7 +2174,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -2200,7 +2200,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -2213,7 +2213,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Franconian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -2477,7 +2477,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -2830,7 +2830,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -2922,7 +2922,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Swabian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);			
@@ -3162,7 +3162,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Tuscan',
 				'vernacular_architecture' => 'Lombard',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -3215,7 +3215,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -3309,7 +3309,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);			
@@ -3361,7 +3361,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -3405,7 +3405,7 @@ class CountySeeder extends Seeder
 				'animal_husbandry' => 'None'
             ]);
 			//256
-			//schlan, brandeis
+			//schlan, brandeis, kladen
             DB::table('counties')->insert([
 				'county_name' => 'Schlan',
 				'county_category' => 'Feudal',
@@ -3413,7 +3413,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -3439,7 +3439,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_architecture' => 'Bohemian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -3479,7 +3479,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_architecture' => 'Silesian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -3611,7 +3611,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_architecture' => 'Silesian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -3655,7 +3655,7 @@ class CountySeeder extends Seeder
 				'animal_husbandry' => 'None'
             ]);
 			//275
-			//schweidnitz, striegau 
+			//schweidnitz, striegau, schmiedeberg, hirschberg 
             DB::table('counties')->insert([
 				'county_name' => 'Schweidnitz',
 				'county_category' => 'Feudal',
@@ -3663,7 +3663,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -3863,7 +3863,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//291
 			//nevers, marais
@@ -3968,7 +3968,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//299
 			//briancon, clavieres
@@ -4219,7 +4219,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//318
 			//aosta, chatillon
@@ -4230,7 +4230,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -4282,7 +4282,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -5420,7 +5420,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//409
 			//aurillac, ytrac
@@ -5550,7 +5550,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);		
@@ -5749,7 +5749,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//434
 			//meaux, thierry, coulommiers, crecy, crouy
@@ -5762,7 +5762,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//435
 			//perthes, larzicourt, saint dizier
@@ -5878,9 +5878,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//444
 			//clermont, angicourt, liancourt
@@ -6037,7 +6037,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//456
 			//fecamp, graville
@@ -6050,7 +6050,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//457
 			//coutances, cherbourg, hauteville, valognes, saint lo, lessay, vire, chanteloup, gratot, pirou, bricquebec, saint sauveur
@@ -6376,7 +6376,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6494,7 +6494,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6507,7 +6507,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6533,7 +6533,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6548,7 +6548,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//495
 			//narbonne, beziers, lodeve, agde
@@ -6626,7 +6626,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -6652,7 +6652,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6665,7 +6665,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6705,7 +6705,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -6771,7 +6771,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',
 				'vernacular_architecture' => 'Breton',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -6802,7 +6802,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//514
 			//roscommon, boyle, donamon, elphin
@@ -6842,7 +6842,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//517
 			//kildare, athy, castledermot, moone, barberstown, kilkea, kilteel, maynooth, reeves, rheban, norragh
@@ -6855,7 +6855,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//518
 			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard
@@ -6868,7 +6868,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//519
 			//fortleix, cullahill, lea, killeshin, oughaval
@@ -6881,7 +6881,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//520
 			//clonmel, athassel, nenagh, ardfinnan, loughmoe, cashel
@@ -6894,7 +6894,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//521
 			//waterford, lismore, crooke, dungarvan, ardmore, mothel, rincrew
@@ -6907,7 +6907,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//522
 			//wexford, carnsore, dunbrody, ferns, selskar, tintern
@@ -6920,7 +6920,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//523
 			//wicklow, kindlestown, baltinglass, glendalough
@@ -6931,9 +6931,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Meath
 			//524
@@ -6947,7 +6947,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//525
 			//longford, ardagh, granard, moydow, rathcline, abbeyshrule
@@ -6960,7 +6960,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);	
 			//526
 			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, nugent, clonard, bective, fore, taghmon
@@ -6971,9 +6971,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//527
 			//tullamore, blundell, leap, clonmacnoise, gallen, roscrea
@@ -6986,7 +6986,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Munster
 			//528
@@ -7000,7 +7000,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//529
 			//cork, bantry, fermoy, castlelyons, mourneabbey, blarney, widenham, cloyne
@@ -7013,7 +7013,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//530
 			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen, killarney
@@ -7026,7 +7026,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//531
 			//limerick, adare, monasteranenaugh, mungret, askeaton, croom
@@ -7039,7 +7039,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Ulster
 			//532
@@ -7092,7 +7092,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//536
 			//donegal, carrickabragy, northburgh, rahan, raphoe
@@ -7142,7 +7142,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Irish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7157,7 +7157,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//541
 			//monaghan, inniskeen, tehellan
@@ -7183,7 +7183,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//England
 			//East Anglia
@@ -7198,7 +7198,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//544
 			//ipswich, lowestoft, saint edmunds, dunwich, sudbury, bungay, clare
@@ -7211,7 +7211,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Essex
 			//545
@@ -7263,9 +7263,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//549
 			//warwick, alcester, merevale, astley, kenilworth, stoneleigh, coventry
@@ -7316,7 +7316,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7329,7 +7329,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7342,7 +7342,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -7358,7 +7358,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//556
 			//leicester, belvoir, croxton, owston, breedon
@@ -7371,7 +7371,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//557
 			//lincoln, somerton, alvingham, bardney, boston, bourne, croyland, grimsby, kirkstead, stamford, thornton
@@ -7384,7 +7384,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//558
 			//nottingham, newark, rufford, ashfield, mansfield, southwell
@@ -7424,7 +7424,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//561
 			//hereford, goodrich, dore, leominster
@@ -7435,9 +7435,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//562
 			//shrewsbury, stokesay, whittington, ludlow, bromfield, lilleshall
@@ -7450,7 +7450,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//563
 			//stafford, lichfield, tamworth, croxden, chartley
@@ -7516,7 +7516,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//568
 			//northampton, brixworth, barnwell, rockingham
@@ -7542,7 +7542,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//Northumbria
 			//570
@@ -7554,9 +7554,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//571
 			//aldborough, ripley, whixley, wetherby, knaresborough
@@ -7567,9 +7567,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//572
 			//carlisle, appleby, saint bees, brougham, kendal, workington, furness
@@ -7580,9 +7580,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//573
 			//durham, darlington, barnard, bowes
@@ -7593,9 +7593,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//574
 			//sheffield, ecclesfield, bradfield
@@ -7606,9 +7606,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//575
 			//hexham, whitley
@@ -7619,9 +7619,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//576
 			//howden, asselby
@@ -7632,9 +7632,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//577
 			//alnwick, bamburgh, lindisfarne
@@ -7645,9 +7645,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//578
 			//lancaster, clitheroe, sawley, whalley
@@ -7660,7 +7660,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//579
 			//richmond, wensley, middleham
@@ -7671,9 +7671,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//580
 			//york, beverley, bridlington, bolton, coverham, fountains, ripon, selby, whitby, pontefract, helmsley, scarborough
@@ -7684,9 +7684,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Sussex
 			//581
@@ -7698,7 +7698,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -7711,7 +7711,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7724,7 +7724,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7737,7 +7737,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7750,7 +7750,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7763,7 +7763,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -7803,7 +7803,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -7829,7 +7829,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);		
@@ -7857,9 +7857,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Welsh',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//594
 			//exeter, gidleigh,, lydford, okehampton, axminster, barnstaple, buckfast, buckland, chudleigh, newenham, plymouth, tavistock, totnes
@@ -7870,9 +7870,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Dyfed
 			//595
@@ -7886,7 +7886,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//596
 			//carmarthen, carreg, dinefwr, kidwelly, laugharne, llandovery, llansteffan, talley, whitland
@@ -7899,7 +7899,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//597
 			//pembroke, carew, cilgerran, haverford, manorbier, tenby, saint dogmaels, templeton, saint davids
@@ -7912,7 +7912,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Gwent
 			//598
@@ -7924,9 +7924,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//599
 			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow
@@ -7937,9 +7937,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Gwyned
 			//600
@@ -7950,7 +7950,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '91',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
-				'vernacular_architecture' => 'Welsh'
+				'vernacular_architecture' => 'Welsh',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//601
 			//caernarfon, conwy, deganwy, dolwyddelan, dolbadarn, harlech, maenan, bangor, cymer
@@ -7963,7 +7966,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//602
 			//denbigh, rhuddlan, ruthin, saint asaph, wrexham
@@ -7976,7 +7979,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//603
 			//flint, caergwrle, ewloe, hawarden, mold, basingwerk, talacre
@@ -7989,7 +7992,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Powys
 			//604
@@ -8001,9 +8004,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//605
 			//montgomery, powis, dolforwyn, llanlugan
@@ -8014,9 +8017,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Welsh',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//606
 			//aberedw, cefnllys, hay
@@ -8029,7 +8032,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Welsh',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Scotland
 			//Alba
@@ -8042,7 +8045,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Pictish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -8199,7 +8202,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -8332,7 +8335,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic',
-				'mines' => 'None',						
+				'mines' => 'Gems',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -8374,7 +8377,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//633
 			//selkirk, yarrow, galashiels
@@ -8412,7 +8415,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -8425,7 +8428,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'Gaelic',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -8494,7 +8497,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
-				'mines' => 'None',						
+				'mines' => 'Salt',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -8744,7 +8747,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -8877,7 +8880,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Aragonese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);						
@@ -8932,7 +8935,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',
 				'vernacular_architecture' => 'Navarrese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -8945,7 +8948,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -8958,7 +8961,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -8971,7 +8974,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_architecture' => 'Navarrese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -9037,7 +9040,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',
 				'vernacular_architecture' => 'Navarrese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -9172,7 +9175,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);						
@@ -9331,7 +9334,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -9410,7 +9413,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -9822,7 +9825,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -9874,7 +9877,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Leonese',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -10126,7 +10129,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Cantabrian',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -10219,7 +10222,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese',
-				'mines' => 'None',						
+				'mines' => 'Tin',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -10286,7 +10289,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_architecture' => 'Portuguese',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -10899,7 +10902,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian',
-				'mines' => 'None',						
+				'mines' => 'Gems',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -10912,7 +10915,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Norwegian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -11032,7 +11035,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -11191,7 +11194,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -11230,7 +11233,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_architecture' => 'Swedish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -11243,7 +11246,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -11256,7 +11259,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_architecture' => 'Swedish',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -11377,7 +11380,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -12345,7 +12348,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -12647,7 +12650,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian',
-				'mines' => 'None',						
+				'mines' => 'Salt',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -12673,7 +12676,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);
@@ -12712,7 +12715,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_architecture' => 'Hungarian',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -12725,7 +12728,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_architecture' => 'Hungarian',
-				'mines' => 'None',						
+				'mines' => 'Gold',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -12846,7 +12849,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_architecture' => 'Croatian',
-				'mines' => 'None',						
+				'mines' => 'Silver',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -12993,7 +12996,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',		
 				'vernacular_architecture' => 'Sicilian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -13060,7 +13063,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);				
@@ -13114,7 +13117,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -13209,7 +13212,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan',
-				'mines' => 'None',						
+				'mines' => 'Iron',						
 				'crops' => 'None',						
 				'animal_husbandry' => 'None'
             ]);	
@@ -13235,7 +13238,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '183',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13245,7 +13251,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '183',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Calabria
 			//
@@ -13256,7 +13265,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '184',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//cosenza
@@ -13266,7 +13278,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '184',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//crotone
@@ -13276,7 +13291,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '184',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Basilicata
 			//
@@ -13287,7 +13305,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '185',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//potenza
@@ -13297,7 +13318,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '185',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Taranto
 			//
@@ -13308,7 +13332,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '186',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//bari
@@ -13318,7 +13345,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '186',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//
 			//brindisi
@@ -13328,7 +13358,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '186',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//lecce
@@ -13338,7 +13371,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '186',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Foggia
 			//
@@ -13349,7 +13385,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '187',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13359,7 +13398,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '187',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Benevento
 			//
@@ -13370,7 +13412,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '188',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13380,7 +13425,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '188',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Salerno
 			//
@@ -13391,7 +13439,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '189',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13401,7 +13452,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '189',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
-				'vernacular_architecture' => 'Neapolitan'
+				'vernacular_architecture' => 'Neapolitan',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Sardinia
 			//Gallura
@@ -13413,7 +13467,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '190',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13423,7 +13480,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '190',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Logudoro 
 			//
@@ -13434,7 +13494,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '191',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13444,28 +13507,50 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '191',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Arborea
 			//
-			//
+			//oristano
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Oristano',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '192',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'Silver',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
-			//
+			//sassari
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Sassari',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '192',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
+            ]);	
+			//
+			//tharros
+            DB::table('counties')->insert([
+				'county_name' => 'Tharros',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '192',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',	
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Cagliari
 			//
@@ -13476,7 +13561,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '193',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//
@@ -13486,7 +13574,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '193',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',	
-				'vernacular_architecture' => 'Sardinian'
+				'vernacular_architecture' => 'Sardinian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);		
 			//Byzantine			
 			//Thrace
@@ -13499,7 +13590,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13509,7 +13603,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13520,7 +13617,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//
@@ -13530,7 +13630,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Thessalonica
 			//Athens
@@ -13542,7 +13645,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Achaea
 			//
@@ -13553,7 +13659,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Archipelago
 			//
@@ -13564,7 +13673,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Epirus
 			//
@@ -13575,7 +13687,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Trebizond
 			//Paphlagonia
@@ -13587,7 +13702,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Armeniac
 			//
@@ -13609,7 +13727,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Crimea
 			//
@@ -13620,7 +13741,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Anatolia
 			//Thracesia
@@ -13632,7 +13756,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Bucellaria
 			//
@@ -13643,7 +13770,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Anatolia
 			//
@@ -13654,7 +13784,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Cappadocia
 			//
@@ -13665,7 +13798,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Seleucia
 			//
@@ -13676,7 +13812,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Opsicia
 			//
@@ -13687,7 +13826,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Nicaea
 			//
@@ -13698,7 +13840,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',		
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Lycia
 			//
@@ -13709,7 +13854,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',		
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Pamphylia
 			//
@@ -13720,7 +13868,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',		
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);					
 			//Georgia
 			//Georgia
@@ -13732,7 +13883,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',	
-				'vernacular_architecture' => 'Georgian'
+				'vernacular_architecture' => 'Georgian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Armenia
 			//Vaspurakan
@@ -13744,7 +13898,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',		
-				'vernacular_architecture' => 'Armenian'
+				'vernacular_architecture' => 'Armenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Taron
 			//
@@ -13755,7 +13912,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',	
-				'vernacular_architecture' => 'Armenian'
+				'vernacular_architecture' => 'Armenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Kars
 			//
@@ -13766,7 +13926,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',		
-				'vernacular_architecture' => 'Armenian'
+				'vernacular_architecture' => 'Armenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Azerbaijan
 			//
@@ -13777,7 +13940,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',		
-				'vernacular_architecture' => 'Armenian'
+				'vernacular_architecture' => 'Armenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Kievan Rus
 			//Kiev
@@ -13790,7 +13956,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//bratslav, vinnytsia
@@ -13800,7 +13969,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//cherkasy, kaniv, bohuslav, korsun 
@@ -13810,7 +13982,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//korosten, ovruch, zhytomyr
@@ -13820,7 +13995,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//Pereyaslavl
 			//
@@ -13831,7 +14009,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//poltava, lubny
@@ -13841,7 +14022,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//Chernigov
 			//Chernigov
@@ -13853,7 +14037,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//bryansk, kursk, oryol, rylsk, starodub, trubcvesk, sevsk, belgorod, svensky
@@ -13863,7 +14050,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//lyubech, loyew
@@ -13873,7 +14063,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//mozhaysk, borodino
@@ -13883,7 +14076,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//novosil, odoyev
@@ -13893,7 +14089,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Ryazan
 			//
@@ -13904,7 +14103,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//murom, borisoglebsky
@@ -13914,7 +14116,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//tula, belyov
@@ -13924,7 +14129,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//kaluga, mosalsk, kozelsk, tarusa, obolensk
@@ -13934,7 +14142,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//vorotynsk, peremyshl, karachev
@@ -13944,7 +14155,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);							
 			//Halych
 			//Halych
@@ -13956,7 +14170,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//peremyshl, sambir, lubaczow
@@ -13966,7 +14183,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//lviv, grodek, zudech
@@ -13976,7 +14196,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//belz, sokal 
@@ -13986,7 +14209,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Podolia
 			//
@@ -13997,7 +14223,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//terebovlia, moklekov
@@ -14007,7 +14236,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Volhynia
 			//
@@ -14018,7 +14250,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//brest, belz
@@ -14028,7 +14263,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//kremenets, shumsk
@@ -14038,7 +14276,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//lutsk, busk
@@ -14048,7 +14289,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Turov
 			//
@@ -14059,7 +14303,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//slutsk, kletsk
@@ -14069,7 +14316,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Ruthenian'
+				'vernacular_architecture' => 'Ruthenian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Vladimir
 			//Vladimir
@@ -14081,7 +14331,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//vyazniki, yaropolk 
@@ -14091,7 +14344,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//nizhny novgorod, gorokhovets, gorodets
@@ -14101,7 +14357,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Moscow
 			//
@@ -14112,7 +14371,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//dmitrov, sergiyev, dedenyovo
@@ -14122,7 +14384,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//volokolamsk, lotoshino
@@ -14132,7 +14397,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//zvenigorod, ruza 
@@ -14142,7 +14410,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Suzdal
 			//
@@ -14153,7 +14424,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//yuryev, kuzmadino
@@ -14163,7 +14437,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);		
 			//
 			//starodub, kovrov
@@ -14173,7 +14450,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Smolensk
 			//Smolensk
@@ -14185,7 +14465,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//roslavl, vyazma
@@ -14195,7 +14478,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//
 			//toropets, morsow
@@ -14205,7 +14491,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//
 			//mstivlavl, svyato
@@ -14215,7 +14504,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);					
 			//Rzhev
 			//
@@ -14226,7 +14518,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//zubtsov, gorodok
@@ -14236,7 +14531,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Tver
 			//
@@ -14247,7 +14545,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//galich, soligalich, makaryev
@@ -14257,7 +14558,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',	
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//kostroma, ipatiev, nerekhta
@@ -14267,7 +14571,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//
 			//pereslavl, nikitsky
@@ -14277,7 +14584,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//rostov, sarsky
@@ -14287,7 +14597,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//yaroslavl, uglich, vologda, cherepovets
@@ -14297,7 +14610,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Novgorod
 			//Novgorod
@@ -14309,7 +14625,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//ladoga, oreshek, keksholm, koporye
@@ -14319,7 +14638,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Polotsk
 			//
@@ -14330,7 +14652,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => '',		
-				'vernacular_architecture' => 'Lithuanian'
+				'vernacular_architecture' => 'Lithuanian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//vitebsk, orsha, gorodok
@@ -14340,7 +14665,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => '',		
-				'vernacular_architecture' => 'Lithuanian'
+				'vernacular_architecture' => 'Lithuanian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Pleskov			
 			//
@@ -14351,7 +14679,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//kholm, velikiye luki
@@ -14361,7 +14692,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
-				'vernacular_architecture' => 'Russian'
+				'vernacular_architecture' => 'Russian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Bulgaria
 			//Bulgaria
@@ -14373,7 +14707,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
 				'vernacular_cycle' => 'Matter_Bulgaria',		
-				'vernacular_architecture' => 'Bulgarian'
+				'vernacular_architecture' => 'Bulgarian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Wallachia
 			//Wallachia
@@ -14385,7 +14722,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
 				'vernacular_cycle' => 'Matter_Vlach',	
-				'vernacular_architecture' => 'Wallachian'
+				'vernacular_architecture' => 'Wallachian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Moldavia
 			//
@@ -14396,7 +14736,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
 				'vernacular_cycle' => 'Matter_Vlach',	
-				'vernacular_architecture' => 'Wallachian'
+				'vernacular_architecture' => 'Wallachian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Serbia
 			//Serbia
@@ -14409,7 +14752,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Serbian',
 				'vernacular_cycle' => 'Matter_Serbia',		
-				'vernacular_architecture' => 'Serbian'
+				'vernacular_architecture' => 'Serbian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Bosnia
 			//Bosnia
@@ -14421,13 +14767,11 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Serbian',
 				'vernacular_cycle' => 'Matter_Serbia',		
-				'vernacular_architecture' => 'Serbian'
-            ]);	
-
-			
-
-
-			
+				'vernacular_architecture' => 'Serbian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
+            ]);			
 			//Cordoba
 			//Andalucia
 			//Algeciras
@@ -14439,7 +14783,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',		
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//gibraltar
@@ -14449,7 +14796,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Almeria
 			//
@@ -14460,7 +14810,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Silver',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//baza
@@ -14470,7 +14823,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Arcos
 			//
@@ -14481,7 +14837,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//jerez
@@ -14491,7 +14850,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//sanlucar
@@ -14501,7 +14863,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Carmona
 			//
@@ -14512,7 +14877,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//ecija
@@ -14522,7 +14890,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Cordoba
 			//
@@ -14533,7 +14904,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//carpio
@@ -14543,7 +14917,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//cordoba
@@ -14553,7 +14930,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//martos
@@ -14563,7 +14943,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//pedroche
@@ -14573,7 +14956,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Granada
 			//
@@ -14584,7 +14970,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//carolina
@@ -14594,7 +14983,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//granada
@@ -14604,7 +14996,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Silver',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//guadix
@@ -14614,7 +15009,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//jaen
@@ -14624,7 +15022,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//orjiva
@@ -14634,7 +15035,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//motril
@@ -14644,7 +15048,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//torvizcon
@@ -14654,7 +15061,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//ubeda
@@ -14664,7 +15074,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Malaga
 			//
@@ -14675,7 +15088,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//antequerra
@@ -14685,7 +15101,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//loja
@@ -14695,7 +15114,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//malaga
@@ -14705,7 +15127,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Ronda
 			//
@@ -14716,7 +15141,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//ronda
@@ -14726,7 +15154,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Sevilla
 			//
@@ -14737,7 +15168,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//estepa
@@ -14747,7 +15181,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//sevilla
@@ -14757,7 +15194,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Algarves
 			//Algarves
@@ -14769,7 +15209,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//mertola, serpa, moura, noudar
@@ -14779,7 +15222,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//silves, lagos, alcantarilha, aljezur, alvor, paderne
@@ -14789,7 +15235,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Badajoz
 			//
@@ -14800,7 +15249,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//beja, ourique, vidigueira, messejana, cola, alvito, aljustrel
@@ -14810,7 +15262,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//evora, alandroal, arraiolos, estremoz, mourao, viana, redondo, portel
@@ -14820,7 +15275,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//medellin, guarena
@@ -14830,7 +15288,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//llerena, berlanga, usagre, azuaga
@@ -14840,7 +15301,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Silver',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//merida, zafra, valverde, mirandilla, san servan, alange, calzada, lobon
@@ -14850,7 +15314,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//olivenza, nogales, alconchel, higuera
@@ -14860,7 +15327,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//portalegre, alegrete, avis, monforte, marvao
@@ -14870,7 +15340,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//villanueva, castuera
@@ -14880,7 +15353,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//Huelva
 			//
@@ -14891,7 +15367,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//huelva, ayamonte, cartaya
@@ -14901,7 +15380,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//niebla, moguer, almonte
@@ -14911,7 +15393,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Levante
 			//Alpuente
@@ -14923,7 +15408,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//almarza, buitrago
@@ -14933,7 +15421,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//alcala, valverde, pezuela, san pedro
@@ -14943,7 +15434,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//medinaceli, arcos, somaen
@@ -14953,7 +15447,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//molina, ventosa, tortuera
@@ -14963,7 +15460,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//alpuente, cuenca, atienza, siguenza, bonaval
@@ -14973,7 +15473,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Baleares
 			//
@@ -14984,7 +15487,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//palma
@@ -14994,7 +15500,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//alayor, ciudadela, mahon, mercadal
@@ -15004,7 +15513,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Denia
 			//
@@ -15015,7 +15527,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//alcaraz
@@ -15025,7 +15540,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//
 			//alcira
@@ -15035,7 +15553,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//alcoy
@@ -15045,7 +15566,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//alicanta
@@ -15055,7 +15579,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//almagro, villa real, san juan, valdepenas
@@ -15065,7 +15592,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//chinchilla
@@ -15075,7 +15605,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//cofrentes
@@ -15085,7 +15618,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//
 			//denia
@@ -15095,7 +15631,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//jativa
@@ -15105,7 +15644,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//montesa
@@ -15115,7 +15657,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Murcia
 			//
@@ -15126,7 +15671,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Iron',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//cieza
@@ -15136,7 +15684,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//hellin
@@ -15146,7 +15697,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//
 			//lorca
@@ -15156,7 +15710,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//
 			//murcia
@@ -15166,7 +15723,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'Silver',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//orihuella
@@ -15176,7 +15736,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//segura
@@ -15186,7 +15749,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Valencia
 			//
@@ -15197,7 +15763,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);		
 			//
 			//morella
@@ -15207,7 +15776,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//peniscola
@@ -15217,7 +15789,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//san clemente
@@ -15227,7 +15802,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//
 			//valencia
@@ -15237,7 +15815,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Almohad
 			//Marrakesh
@@ -15249,7 +15830,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Fez
 			//
@@ -15260,7 +15844,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Kairouan
 			//
@@ -15271,7 +15858,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Ifriqiya',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Tlemcen
 			//
@@ -15282,7 +15872,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Ifni
 			//
@@ -15293,7 +15886,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Figuig
 			//
@@ -15304,7 +15900,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
-				'vernacular_architecture' => 'Moorish'
+				'vernacular_architecture' => 'Moorish',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Abbasid
 			//Baghdad
@@ -15316,7 +15915,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Jazira',	
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Syria
 			//
@@ -15327,7 +15929,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Levant',	
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Najd
 			//
@@ -15338,7 +15943,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Najd',	
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Antioch
 			//
@@ -15349,7 +15957,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Levant',
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Fatimid
 			//Cairo
@@ -15361,7 +15972,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);	
 			//Jerusalem
 			//
@@ -15372,7 +15986,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Levant',	
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Hejaz
 			//
@@ -15383,7 +16000,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Hejaz',	
-				'vernacular_architecture' => 'Arabic'
+				'vernacular_architecture' => 'Arabic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Khazar
 			//Khazaria
@@ -15396,7 +16016,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);				
 			//Sarkel
 			//
@@ -15407,7 +16030,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Atil
 			//
@@ -15418,7 +16044,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Bolghar
 			//
@@ -15429,7 +16058,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Bilar
 			//
@@ -15440,7 +16072,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Alania
 			//Derbent
@@ -15452,7 +16087,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Azov
 			//
@@ -15463,7 +16101,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Cumania
 			//Sighnaq
@@ -15475,7 +16116,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Sozak
 			//
@@ -15486,7 +16130,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Sibir
 			//
@@ -15497,7 +16144,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',
-				'vernacular_architecture' => 'Turkic'
+				'vernacular_architecture' => 'Turkic',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Seljuk
 			//Kwarezm
@@ -15509,7 +16159,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
-				'vernacular_architecture' => 'Persian'
+				'vernacular_architecture' => 'Persian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);
 			//Isfahan
 			//
@@ -15520,7 +16173,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
-				'vernacular_architecture' => 'Persian'
+				'vernacular_architecture' => 'Persian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
 			//Hormuz
 			//
@@ -15531,7 +16187,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
-				'vernacular_architecture' => 'Persian'
+				'vernacular_architecture' => 'Persian',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'None'
             ]);			
     }
 }

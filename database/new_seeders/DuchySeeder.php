@@ -2175,7 +2175,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//192
-			//
+			//Oristano, Sassari, Tharros
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arborea',
 				'duchy_category' => 'Feudal',
