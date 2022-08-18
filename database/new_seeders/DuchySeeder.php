@@ -718,7 +718,7 @@ class DuchySeeder extends Seeder
 			//62
 			//Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
             DB::table('duchies')->insert([
-				'duchy_name' => 'Casgony',
+				'duchy_name' => 'Gascony',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',

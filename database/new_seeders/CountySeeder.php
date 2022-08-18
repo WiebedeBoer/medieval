@@ -418,7 +418,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Madder',						
 				'animal_husbandry' => 'Goats'
             ]);
 			//Franconia
@@ -1007,7 +1007,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//74
@@ -1481,7 +1481,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//110
@@ -1638,7 +1638,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Goats'
             ]);	
 			//122
@@ -1651,7 +1651,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//123
@@ -1664,7 +1664,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//124
@@ -1677,7 +1677,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//125
@@ -1690,7 +1690,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//126
@@ -1703,7 +1703,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'Salt',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Goats'
             ]);	
 			//127
@@ -1716,7 +1716,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//128
@@ -1729,7 +1729,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//129
@@ -1742,7 +1742,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Goats'
             ]);				
 			//Bremen
@@ -2765,7 +2765,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'Perfume_Lavender',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//208
@@ -2778,7 +2778,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'Perfume_Lavender',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Goats'
             ]);				
 			//209
@@ -2791,7 +2791,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'Perfume_Lavender',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//210
@@ -3216,7 +3216,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'Silver',						
-				'crops' => 'Perfume_Lavender',						
+				'crops' => 'Dye_Madder',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//242
@@ -3454,7 +3454,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//260
@@ -3467,7 +3467,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);				
 			//261
@@ -3480,7 +3480,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//262
@@ -3493,7 +3493,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//263
@@ -4139,7 +4139,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//312
@@ -4152,7 +4152,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//313
@@ -4178,7 +4178,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Goats'
             ]);
 			//315
@@ -5340,7 +5340,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//403
@@ -5392,7 +5392,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'Perfume_Lavender',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//407
@@ -5405,7 +5405,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//Auvergne
@@ -5554,7 +5554,7 @@ class CountySeeder extends Seeder
 				'crops' => 'None',						
 				'animal_husbandry' => 'Poultry'
             ]);		
-			//Casgony
+			//Gascony
 			//419
 			//eauze, manciet, nogaro
             DB::table('counties')->insert([
@@ -5565,7 +5565,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//420
@@ -5578,7 +5578,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//421
@@ -5591,7 +5591,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//422
@@ -5604,7 +5604,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//423
@@ -5617,7 +5617,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//424
@@ -5630,7 +5630,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//425
@@ -5643,7 +5643,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//426
@@ -5656,7 +5656,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//427
@@ -5669,7 +5669,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//428
@@ -5682,7 +5682,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//Champagne
@@ -5905,7 +5905,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//446
@@ -6010,7 +6010,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//454
@@ -6023,7 +6023,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//455
@@ -6036,7 +6036,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//456
@@ -6049,7 +6049,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//457
@@ -6062,7 +6062,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//458
@@ -6075,7 +6075,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//459
@@ -6088,7 +6088,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);		
 			//460
@@ -6101,7 +6101,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//461
@@ -6114,7 +6114,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//Orleanais
@@ -6233,7 +6233,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//471
@@ -6363,7 +6363,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//Poitou
@@ -6377,7 +6377,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'Gold',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//482
@@ -6469,7 +6469,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//489
@@ -6482,7 +6482,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//490
@@ -6495,7 +6495,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'Gold',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//491
@@ -6560,7 +6560,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//496
@@ -6586,7 +6586,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//498
@@ -6627,7 +6627,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'Gold',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//501
@@ -6640,7 +6640,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Sheep'
             ]);
 			//502
@@ -6653,7 +6653,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'Gold',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//503
@@ -6666,7 +6666,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'Tin',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//504
@@ -6679,7 +6679,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//505
@@ -6692,7 +6692,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//Domnonee
@@ -6706,7 +6706,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'Tin',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);
 			//507
@@ -6719,7 +6719,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//508
@@ -6732,7 +6732,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//Retz
@@ -6746,7 +6746,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);
 			//510
@@ -6759,7 +6759,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//511
@@ -6772,7 +6772,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',
 				'vernacular_architecture' => 'Breton',
 				'mines' => 'Tin',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//Britain
@@ -7197,7 +7197,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//544
@@ -7210,7 +7210,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//Essex
@@ -7224,7 +7224,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//546
@@ -7383,7 +7383,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//558
@@ -7502,7 +7502,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//567
@@ -7817,7 +7817,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'Perfume_Lavender',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//591
@@ -9401,7 +9401,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_architecture' => 'Castillian',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);
 			//710
@@ -9414,7 +9414,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_architecture' => 'Castillian',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//711
@@ -11631,7 +11631,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Polish',	
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Woad',						
 				'animal_husbandry' => 'Pigs'
             ]);				
 			//Kuyavia
@@ -14801,7 +14801,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',		
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//
@@ -14855,7 +14855,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//
@@ -14948,7 +14948,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//
@@ -15014,7 +15014,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Goats'
             ]);	
 			//
@@ -15040,7 +15040,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//
@@ -15145,7 +15145,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//Ronda
@@ -15212,7 +15212,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//Algarves
@@ -15426,7 +15426,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);
 			//
@@ -15491,7 +15491,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);				
 			//Baleares
@@ -15545,7 +15545,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);
 			//
@@ -15833,7 +15833,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Dye_Saffron',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//Almohad

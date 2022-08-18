@@ -107,7 +107,7 @@ class KingdomSeeder extends Seeder
             ]);			
 			//France
 			//France
-			//Anjou, Aquitaine, Auvergne, Berry, Bourbonnais, Casgony, Champagne, Francia, Normandy, Orleanais, Picardy, Poitou, Toulouse
+			//Anjou, Aquitaine, Auvergne, Berry, Bourbonnais, Gascony, Champagne, Francia, Normandy, Orleanais, Picardy, Poitou, Toulouse
 			//7
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of France',
