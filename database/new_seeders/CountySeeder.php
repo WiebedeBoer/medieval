@@ -22,8 +22,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish	
 				'vernacular_architecture' => '',	//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
 				'mines' => '',						//None, Salt, Gold, Silver (Lead), Iron, Copper, Tin, Gems; default=None
-				'crops' => '',						//None, Elder, Orchard, Sugarcane, Lavender, Flax, Incense, Madder, Woad; default=None
-				'animal_husbandry' => '',			//None, Cattle, Pigs, Sheep, Goats, Poultry, Ducks, Stud; default=None
+				'crops' => '',						//None, Beverage_Elder, Beverage_Orchard, Sweetener_Sugarcane, Sweetener_Honey, Perfume_Lavender, Perfume_Incense, Perfume_Rose, Fiber_Flax, Dye_Saffron, Dye_Madder, Dye_Woad, Dye_Indigo, Dye_Kermes; default=None
+				'animal_husbandry' => '',			//Cattle, Pigs, Sheep, Goats, Poultry, Ducks, Stud
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -105,7 +105,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//5
 			//bamberg, hallstadt
@@ -118,7 +118,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Salt',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//6
 			//geisenhausen, velden
@@ -131,7 +131,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//7
 			//egerburg, nuremberg, grafengehaig
@@ -144,7 +144,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//8
 			//forchheim, staffelstein
@@ -157,7 +157,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//9
 			//passau, erneck
@@ -183,7 +183,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//11
 			//ingolstadt, neuburg, freising
@@ -196,7 +196,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//Brabant
 			//12
@@ -249,7 +249,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Flemish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);				
 			//16
 			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo
@@ -289,7 +289,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//19
 			//judenburg, frauenburg
@@ -302,7 +302,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//20
 			//steinz, graz, seckau
@@ -315,7 +315,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//21
 			//karlsberg, klagenfurt, velden, sankt veit, gurk
@@ -328,7 +328,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);	
 			//22
 			//sant paul, sankt andra
@@ -341,7 +341,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//23
 			//leoben, sankt stefan
@@ -354,7 +354,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//24
 			//kadour, lienz, villach
@@ -366,7 +366,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//25
 			//eppenstein, hohenwang
@@ -379,7 +379,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//26
 			//celje, richenburg
@@ -419,7 +419,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);
 			//Franconia
 			//29
@@ -433,7 +433,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//30
 			//rotenburg, colmberg, comburg
@@ -446,7 +446,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//31
 			//kitzingen, gerolshofen
@@ -459,7 +459,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//32
 			//mosbach, minneburg
@@ -472,7 +472,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//33
 			//hammelburg, gersfeld
@@ -485,7 +485,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//34
 			//gosheim, kaisersheim
@@ -498,7 +498,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//35
 			//heilbronn, weinsberg, ellhofen, ohringen, hall
@@ -511,7 +511,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Salt',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//36
 			//weikersheim, mergentheim
@@ -524,7 +524,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//37
 			//wurzburg, wertheim, waldsassen
@@ -537,7 +537,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Frisia
 			//38
@@ -577,7 +577,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//41
 			//jouwer, haskerhorn
@@ -616,7 +616,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//44
 			//emden, leer
@@ -655,7 +655,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//47
 			//dordrecht, gouda
@@ -746,7 +746,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//54
 			//dockum, nyenhove, klaarkamp
@@ -785,7 +785,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//57
 			//zwolle, kampen, hasselt, waardenborg
@@ -798,7 +798,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//58
 			//starum, sloten
@@ -824,7 +824,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//60
 			//oldenzaal, enschede, almelo
@@ -863,7 +863,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//63
 			//flissinghe, serooskerke, middelburg
@@ -876,7 +876,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//64
 			//froonacker, bolsward, drylts, hylpen, snits, harns
@@ -902,7 +902,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//66
 			//sieversham, midlum, bederkesa, diepholt, weddewarden
@@ -915,7 +915,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frisian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Guelders
 			//67
@@ -1048,7 +1048,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//77
 			//stavelot, malmedy, wiltz, bouillon
@@ -1074,7 +1074,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//79
 			//namur, florennes
@@ -1087,7 +1087,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);			
 			//80
 			//maastricht, valkenburg, thorn
@@ -1100,7 +1100,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Lorraine
 			//81
@@ -1114,7 +1114,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//82
 			//bitche, zweibrucken, homburg
@@ -1127,7 +1127,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//83
 			//luneville, epinal, fontenoy, remiremont
@@ -1140,7 +1140,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//84
 			//sarrebourg, saarbrucken
@@ -1166,7 +1166,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//86
 			//neufchateau, sandaucourt
@@ -1179,7 +1179,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//87
 			//toul, ochey, nancy
@@ -1192,7 +1192,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Luxembourg
 			//88
@@ -1219,7 +1219,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//90
 			//sedan, mouzon
@@ -1232,7 +1232,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//91
 			//verdun, recicourt
@@ -1245,7 +1245,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//92
 			//longwy, arlon, thionville, chiny
@@ -1258,7 +1258,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Saxony
 			//93
@@ -1377,7 +1377,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//102
 			//innsbruck, kufstein, admont
@@ -1390,7 +1390,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//103
 			//mattighofen, fraunhofen
@@ -1403,7 +1403,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//104
 			//brixen, bolzano, merano
@@ -1416,7 +1416,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);	
 			//105
 			//sankt moritz, schlandersberg
@@ -1443,7 +1443,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//107
 			//kempten, sulzberg
@@ -1456,7 +1456,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//108
 			//augsburg, wettenhausen, wittelsbach, memmingen, buxheim
@@ -1508,7 +1508,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//112
 			//ravensburg, weingarten, salem, baindt
@@ -1521,7 +1521,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//113
 			//greifenstein, tubingen, reutlingen, rottenburg
@@ -1534,7 +1534,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//114
 			//strassburg, hohenburg
@@ -1547,7 +1547,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//115
 			//nordlingen, ellwangen
@@ -1560,7 +1560,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//116
 			//hohenzollern, falkenstein, ulm, hohenstaufen, biberach, buchau, gutenzell, marchtal
@@ -1573,7 +1573,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//117
 			//einsiedeln, lenzburg
@@ -1599,7 +1599,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//119
 			//konstanz, sankt gall, lindau, kirchberg, kreuzlingen, reichenau, engelberg, toggenburg
@@ -1625,7 +1625,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swabian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Thuringia
 			//121
@@ -2004,7 +2004,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Saxon',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);				
 			//150
 			//hagen, attendorn, dortmund, hamm, essen, werden
@@ -2031,7 +2031,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//152
 			//siegburg, rennenburg, blankenberg
@@ -2044,7 +2044,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//153
 			//bonn, remagen
@@ -2057,7 +2057,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//154
 			//deutz, altenberg 
@@ -2070,7 +2070,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Magdeburg
 			//155
@@ -2176,7 +2176,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//163
 			//hammerstein, logenstein
@@ -2189,7 +2189,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//164
 			//kassel, staufenberg, hersfeld, fritzlar
@@ -2228,7 +2228,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//167
 			//afschaffenburg, seligenstadt
@@ -2241,7 +2241,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//168
 			//ingelheim, spiesheim, saulheim, flonheim
@@ -2254,7 +2254,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//169
 			//nidda, warnsberg
@@ -2267,7 +2267,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//170
 			//speyer, dudenhofen, wissembourg, klingenmunster
@@ -2280,7 +2280,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'Salt',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//171
 			//sankt leon, brettenheim
@@ -2293,7 +2293,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//172
 			//frankfurt, homburg, kransberg, falkenstein
@@ -2306,7 +2306,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//173
 			//pforzheim, liebeneck
@@ -2319,7 +2319,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Salzburg
 			//174
@@ -2346,7 +2346,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//176
 			//tamswick, sankt michael
@@ -2359,7 +2359,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//177
 			//zell, saalfelden
@@ -2372,7 +2372,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//178
 			//tergernsee, ebertshausen, munich, staffelsee
@@ -2385,7 +2385,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bavarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Trier
 			//179
@@ -2399,7 +2399,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//180
 			//eltz, andernach, salm
@@ -2412,7 +2412,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//181
 			//ravengiersburg, ehrenburg
@@ -2425,7 +2425,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//182
 			//treis, koblenz
@@ -2438,7 +2438,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Franconian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Lombardy
 			//Milano
@@ -2661,7 +2661,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//200
@@ -2674,7 +2674,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//201
@@ -2687,7 +2687,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);				
 			//202
@@ -2700,7 +2700,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//203
@@ -2713,8 +2713,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);
 			//204
 			//cuneo, saluzzo, castellaro, staffarda
@@ -2726,7 +2726,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//205
@@ -2739,8 +2739,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//206
 			//pragelato, pinerolo, exilles
@@ -2752,8 +2752,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//207
 			//susa, novalesa
@@ -2765,8 +2765,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);
 			//208
 			//turino, moncalieri, chieri, rivoli
@@ -2778,7 +2778,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Goats'
             ]);				
 			//209
@@ -2791,8 +2791,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//210
 			//vigevano, lomello, robbio
@@ -2804,8 +2804,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Tuscany
 			//211
@@ -2818,7 +2818,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//212
@@ -2831,7 +2831,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);
 			//213
@@ -2844,7 +2844,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//214
@@ -2857,7 +2857,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);			
 			//Verona
@@ -2951,7 +2951,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//222
 			//pordenone, san vito, aviano, polcenigo
@@ -2964,7 +2964,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Florence
 			//223
@@ -3043,7 +3043,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//229
@@ -3056,8 +3056,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);
 			//230
 			//massa, carrara
@@ -3069,8 +3069,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Noli
 			//231
@@ -3083,8 +3083,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//232
 			//albenga, san fedele, lusignano
@@ -3096,8 +3096,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//233
 			//finale, verezzi
@@ -3109,8 +3109,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Oneglia
 			//234
@@ -3123,8 +3123,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);
 			//235
 			//monaco, menton, roquebrune
@@ -3136,8 +3136,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//236
 			//ventimiglia, dolceaqua
@@ -3149,8 +3149,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Lucca
 			//237
@@ -3163,8 +3163,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//238
 			//pistoja, pescia, agliana, uzzano
@@ -3176,7 +3176,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//Pisa
@@ -3190,7 +3190,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//240
@@ -3203,7 +3203,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Goats'
             ]);
 			//241
@@ -3216,7 +3216,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Poultry'
             ]);	
 			//242
@@ -3229,8 +3229,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//243
 			//volterra, chianni, monteverdi, saline
@@ -3242,8 +3242,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Venice
 			//244
@@ -3256,7 +3256,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'Salt',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//245
@@ -3269,8 +3269,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Venice',
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);
 			//246
 			//treviso, mogliano, conegliano, castelfranco, biancade, musestre, oderzo
@@ -3282,8 +3282,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Bohemia
 			//Bohemia
@@ -3455,7 +3455,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//260
 			//hoyerswerda, bautzen
@@ -3468,7 +3468,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//261
 			//dohna, dresden, briesnitz, leipzig
@@ -3481,7 +3481,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//262
 			//spremberg, senftenberg, lebusa
@@ -3494,7 +3494,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//263
 			//lubben, lieberose
@@ -3507,7 +3507,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//Moravia
 			//264
@@ -3521,7 +3521,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//265
 			//iglau, pilgrams
@@ -3534,7 +3534,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//266
 			//olmutz, prossnitz, sternberg
@@ -3547,7 +3547,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//267
 			//prerau, weisskirchen, leipnik, kremsier
@@ -3560,7 +3560,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//268
 			//velingrad, zlin
@@ -3573,7 +3573,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//269
 			//znaim, kralitz
@@ -3586,7 +3586,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moravian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//Lower Silesia
 			//270
@@ -3705,7 +3705,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Silesian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//279
 			//ratibor, pless, beuthen
@@ -3759,7 +3759,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//283
 			//autun, saint loup, saint martin
@@ -3785,7 +3785,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//285
 			//saint reine, chatellenot, chateauneuf, commarin
@@ -3811,7 +3811,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//287
 			//citeaux, savigny
@@ -3824,7 +3824,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//288
 			//chalon, saint germain
@@ -3837,7 +3837,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//289
 			//chatillon, molesme, saint marcel
@@ -3850,7 +3850,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//290
 			//macon, cluny, charolles, clayette, semur
@@ -3862,7 +3862,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//291
@@ -3889,7 +3889,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);		
 			//Cisjurania
 			//293
@@ -3916,7 +3916,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//295
 			//billieme, saint jean
@@ -3929,7 +3929,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//296
 			//embrun, risoul
@@ -3942,7 +3942,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//297
 			//forcalquier, gap, apt, sisteron
@@ -3955,7 +3955,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);
 			//298
 			//lyon, irigny, seyssuel, givors, savigny
@@ -3981,7 +3981,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);			
 			//300
 			//valence, montelier, saint marcel, montmeyran
@@ -4047,7 +4047,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//305
 			//lausanne, orbe, payerne, avenches
@@ -4060,7 +4060,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//306
 			//vesoul, luxieul
@@ -4073,7 +4073,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//307
 			//neuchatel, yverdon
@@ -4086,7 +4086,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);		
 			//Orange
 			//308
@@ -4100,7 +4100,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//309
 			//venasque, avignon, carpentras, cavaillon, sorgue, saint remy
@@ -4112,8 +4112,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'Lavender',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//310
 			//viviers, saint andeol, saint martin, saint just, nyons, montelimar, vaison
@@ -4126,7 +4126,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Provence
 			//311
@@ -4165,7 +4165,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//314
@@ -4191,7 +4191,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//316
@@ -4204,7 +4204,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//Savoy
@@ -4245,7 +4245,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arpitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//320
 			//geneva, annecy
@@ -4325,7 +4325,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//326
 			//rieti, farfa, corvaro
@@ -4338,7 +4338,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//327
 			//viterbo, castellana, toscanella, corneto, vetralla
@@ -4351,7 +4351,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);		
 			//Romagna
 			//328
@@ -4484,7 +4484,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lombard',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//338
 			//pesaro, fano, mondolfo
@@ -4670,7 +4670,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//352
 			//bartenstein, heilsberg, schippenbeil
@@ -4683,7 +4683,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//353
 			//braunsberg, allenstein, bischofsburg, wartenburg
@@ -4696,7 +4696,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//354
 			//memelburg, windenburg, rutzau
@@ -4709,7 +4709,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//355
 			//landeshut, schalauerburg
@@ -4722,7 +4722,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//356
 			//brandenburg, tapiow, wehlau
@@ -4748,7 +4748,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Prussian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//358
 			//konigsberg, insterburg, angerburg, gerdauen
@@ -4775,7 +4775,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//360
 			//butow, rummelsburg, damerkow
@@ -4788,7 +4788,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);			
 			//361
 			//dirschau, mewe, neuenburg, 
@@ -4801,7 +4801,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//362
 			//karthaus, zuckau, chmelno
@@ -4814,7 +4814,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//363
 			//kulm, althaus, rehden, graudenz
@@ -4827,7 +4827,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//364
 			//lauenburg, neuendorf, vietzig
@@ -4840,7 +4840,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//365
 			//putzig, krockow, kossakowitz
@@ -4853,7 +4853,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//366
 			//baldenburg, schlochau
@@ -4866,7 +4866,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//367
 			//schwetz, bromberg
@@ -4879,7 +4879,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//368
 			//thorn, birgelau 
@@ -4892,7 +4892,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//369
 			//tuchel, seehaupten
@@ -4905,7 +4905,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//Pomerania
 			//370
@@ -4919,7 +4919,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//371
 			//arnswalde, bernstein
@@ -4932,7 +4932,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//372
 			//gollnow, massow, stepenitz 
@@ -4945,7 +4945,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//373
 			//greifenhagen, barwalde 
@@ -4958,7 +4958,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//374
 			//greifenberg, treptow 
@@ -4971,7 +4971,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//375
 			//pyritz, warnitz, prillwitz
@@ -4984,7 +4984,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//376
 			//kessin, rostock, stralsund, greifswald, demmin, grimmen
@@ -4997,7 +4997,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Ducks'
             ]);
 			//377
 			//kolberg, degow
@@ -5010,7 +5010,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//378
 			//koslin, zanow, bublitz, pollnow
@@ -5023,7 +5023,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//379
 			//neustettin, baldenburg
@@ -5036,7 +5036,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//380
 			//schivelbein, stolzenberg, 
@@ -5049,7 +5049,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//381
 			//slupsk, kublitz, glowitz
@@ -5062,7 +5062,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//382
 			//schlawe, rugenwalde, malchow
@@ -5075,7 +5075,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//383
 			//stettin, predzlow, pasewalk, kolbatz 
@@ -5088,7 +5088,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Ducks'
             ]);
 			//384
 			//wolgast, neuenkirchen, buggenhagen, wollin
@@ -5101,7 +5101,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//Brandenburg
 			//385
@@ -5115,7 +5115,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//386
 			//wusterhausen, wittstock
@@ -5128,7 +5128,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//387
 			//perleberg, pritzwalk, wittenberg
@@ -5141,7 +5141,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//388
 			//havelberg, plattenburg
@@ -5154,7 +5154,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//389
 			//berlin, tempelhof, rosenfeld, helwichdorf, kaulsdorf, maltersdorf, biesdorf, morczahn
@@ -5167,7 +5167,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);			
 			//390
 			//rowenburg, schenkenberg, uckerfeld, templin
@@ -5180,7 +5180,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//Mecklenburg
 			//391
@@ -5194,7 +5194,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//392
 			//mecklenburg, wismar
@@ -5233,7 +5233,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wendish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//France
 			//France
@@ -5315,7 +5315,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//401
 			//agen, moirax, lavardac
@@ -5328,7 +5328,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//402
 			//angouleme, saint michel, chateauneuf
@@ -5341,7 +5341,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//403
 			//bazas, langon, marmande
@@ -5380,7 +5380,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//406
 			//perigeux, bergerac
@@ -5392,8 +5392,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//407
 			//saintes, royan, saint jean, taillebourg
@@ -5433,7 +5433,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//410
 			//brioude, saint ferreol, saint beauzire, chaise dieu, sauveterre
@@ -5446,7 +5446,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//411
 			//carlat, messilhac
@@ -5459,7 +5459,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//412
 			//clermont, montpensier, thiers, voloie
@@ -5485,7 +5485,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//414
 			//murat, mercoeur, saint flour
@@ -5498,7 +5498,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Berry
 			//415
@@ -5525,7 +5525,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//Bourbonnais
 			//417
@@ -5710,7 +5710,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//431
 			//chalons, nettancourt, trois fontaines, vitry
@@ -5723,7 +5723,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//432
 			//duesme, oigny, bussy, chatillon
@@ -5736,7 +5736,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//433
 			//langres, dijon
@@ -5775,7 +5775,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//436
 			//provins, cigy, chenoise, cerneux
@@ -5788,7 +5788,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//437
 			//rethel, attigny, porcien
@@ -5801,7 +5801,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//438
 			//sens, joigny
@@ -5814,7 +5814,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//439
 			//troyes, clairvaux
@@ -5826,8 +5826,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//Francia
 			//440
@@ -5853,8 +5853,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Pigs'
             ]);
 			//442
 			//beaumont, argenteuil
@@ -5867,7 +5867,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//443
 			//brie, melun, saint fargeau, lagny, yerres
@@ -5906,7 +5906,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//446
 			//chatres, corbeil, clamart, dourdan, montlhery, palaiseau, montagu
@@ -5919,7 +5919,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//447
 			//mantes, rambouillet, beynes, houdan
@@ -5945,7 +5945,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//449
 			//soissons, oulchy
@@ -5958,7 +5958,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//450
 			//vez, oigny
@@ -5971,7 +5971,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//451
 			//saint clair, pontoise
@@ -5984,7 +5984,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//Normandy
 			//452
@@ -5997,8 +5997,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_architecture' => 'Norman',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'Cattle'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Ducks'
             ]);	
 			//453
 			//alencon, argentan, sees
@@ -6129,7 +6129,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//463
 			//blois, chambord, chaumont, bievre, pontlevoy
@@ -6155,7 +6155,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//465
 			//chateaudun, courtalain
@@ -6168,7 +6168,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//466
 			//dreux, marsalin, nonancourt
@@ -6194,7 +6194,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//468
 			//nemours, montargis, moncourt
@@ -6207,7 +6207,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);
 			//Picardy
 			//469
@@ -6221,7 +6221,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Flemish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//470
 			//amiens, flixecourt, picquigny, corbie
@@ -6234,7 +6234,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//471
 			//boulogne, etaples
@@ -6273,7 +6273,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//474
 			//laon, coucy, corbeny
@@ -6286,7 +6286,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//475
 			//montreuil, recques, agincourt
@@ -6299,7 +6299,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//476
 			//noyon, sempigny, morlincourt, varesnes, salency
@@ -6312,7 +6312,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//477
 			//crecy, nouvion, saint ricquier
@@ -6325,7 +6325,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//478
 			//therouanne, royon, saint pol
@@ -6338,7 +6338,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//479
 			//tournai, mouscron, courtrai
@@ -6351,7 +6351,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//480
 			//peronne, saint quentin, bohain, saint martin, retoul
@@ -6364,7 +6364,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Frankish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Poitou
 			//481
@@ -6470,7 +6470,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//489
 			//albi, castelnau, saint jeury
@@ -6496,7 +6496,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//491
 			//foix, tarascon, montgrenier
@@ -6509,7 +6509,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//492
 			//javols, mende, langogne, apcher
@@ -6522,7 +6522,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//493
 			//melgueil, montpellier, maguelonne
@@ -6535,7 +6535,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//494
 			//millau, melac
@@ -6561,7 +6561,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//496
 			//nimes, uzes
@@ -6574,7 +6574,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//497
 			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets, rudelle
@@ -6600,7 +6600,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Occitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//499
 			//puy, montlaur
@@ -6815,7 +6815,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//515
 			//sligo, ballymote, markree, templehouse, achonry
@@ -6828,7 +6828,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Leinster
 			//516
@@ -7053,7 +7053,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//533
 			//armagh, killevy, fairview
@@ -7066,7 +7066,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//534
 			//cavan, cloughoughter, drumlane, kilmore
@@ -7079,7 +7079,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//535
 			//derry, coleraine, dungiven, magoscain, maghera
@@ -7105,7 +7105,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//537
 			//downpatrick, kilkeel, dundrum, clough, killyleagh, sketrick, ardglass, grey
@@ -7118,7 +7118,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//538
 			//enniskillen, lisgoole, rossory
@@ -7131,7 +7131,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Gaelic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//539
 			//leitrim, carrick, mohill, fenagh
@@ -7144,7 +7144,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//540
 			//louth, dundalk, drogheda, carlingford, monasterboice, mellifont
@@ -7170,7 +7170,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Irish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//542
 			//omagh, dungannon, ardboe, carrickmore, clogher, donaghedy
@@ -7264,7 +7264,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//549
@@ -7277,8 +7277,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//550
 			//winchcombe, sudeley, hailes
@@ -7291,7 +7291,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//551
 			//worcester, bordesley, evesham, malvern, pershore
@@ -7303,12 +7303,12 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Kent
 			//552
-			//aylesford, ashford, rochester, maidstone, dartford, gravesend
+			//aylesford, ashford, rochester, maidstone, dartford, gravesend, orprington
             DB::table('counties')->insert([
 				'county_name' => 'Aylesfordshire',
 				'county_category' => 'Feudal',
@@ -7318,7 +7318,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Ducks'
             ]);	
 			//553
 			//canterbury, chatham, sandwich, dover, leeds
@@ -7397,7 +7397,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//559
 			//oakham, uppingham, burley
@@ -7410,7 +7410,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//Mercia
 			//560
@@ -7477,10 +7477,10 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//565
-			//buckingham, bradwell, cublington
+			//buckingham, bradwell, cublington, aylesbury
             DB::table('counties')->insert([
 				'county_name' => 'Buckinghamshire',
 				'county_category' => 'Feudal',
@@ -7490,7 +7490,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Ducks'
             ]);	
 			//566
 			//cambridge, ely, anglesey, chatteris, ramsey, soham, thorney, peterborough
@@ -7529,7 +7529,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//569
 			//oxford, wallingford, dorchester, eynsham, wroxton
@@ -7541,7 +7541,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);			
 			//Northumbria
@@ -7685,7 +7685,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Sheep'
             ]);	
 			//Sussex
@@ -7700,7 +7700,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//582
 			//bramber, worthing, brighton
@@ -7713,7 +7713,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//583
 			//chichester, bosham
@@ -7726,7 +7726,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//584
 			//lewes, kingston
@@ -7739,7 +7739,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//585
 			//pevensey, hailsham
@@ -7752,7 +7752,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//586
 			//hastings, bexhill, battle
@@ -7765,7 +7765,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Wessex
 			//587
@@ -7804,7 +7804,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//590
@@ -7817,7 +7817,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//591
@@ -7830,8 +7830,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_architecture' => 'English',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);		
 			//592
 			//wilton, trowbridge, sarum, amesbury, easton, malmesbury, salisbury
@@ -7843,8 +7843,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_architecture' => 'English',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Wales
 			//Cornwall
@@ -8498,7 +8498,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'Salt',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//642
@@ -8511,8 +8511,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);
 			//643
 			//berga, baga, san salvador, gironella
@@ -8524,7 +8524,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//644
@@ -8537,8 +8537,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);
 			//645
 			//mataro, cabrils, dosrius, santa florentina
@@ -8550,7 +8550,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);	
 			//646
@@ -8562,8 +8562,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
-				'mines' => 'None',						
-				'crops' => 'None',						
+				'mines' => 'Iron',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);
 			//647
@@ -8576,7 +8576,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//Girona
@@ -8590,7 +8590,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);
 			//649
@@ -8603,7 +8603,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//650
@@ -8616,7 +8616,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//651
@@ -8629,7 +8629,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'Salt',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//652
@@ -8642,7 +8642,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//653
@@ -8655,7 +8655,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);	
 			//654
@@ -8668,7 +8668,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//655
@@ -8681,7 +8681,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Pigs'
             ]);
 			//Huesca
@@ -8696,7 +8696,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//657
 			//jacca, suesa, mianos, san juan
@@ -8722,7 +8722,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//659
 			//boltana, ainsa
@@ -8735,7 +8735,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//Lleida
 			//660
@@ -8749,7 +8749,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Aragonese',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//661
 			//talarn, eroles
@@ -8786,10 +8786,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '105',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
-				'vernacular_architecture' => 'Aragonese',
+				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);
 			//664
 			//tarragona, poblet
@@ -8799,10 +8799,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '105',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
-				'vernacular_architecture' => 'Aragonese',
+				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);
 			//665
 			//tortosa, alfara
@@ -8812,10 +8812,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '105',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
-				'vernacular_architecture' => 'Aragonese',
+				'vernacular_architecture' => 'Catalan',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Perfume_Lavender',						
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Teruel
 			//666
@@ -8897,7 +8897,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Sheep'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//672
 			//gasteiz, armentia
@@ -8910,7 +8910,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Sheep'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//673
 			//labastida, laguardia, lanciego, san millan, cornago, clavijo, arnedo, leiva, najera, calahorra
@@ -8937,7 +8937,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Stud'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//675
 			//leitza, leintz
@@ -8990,7 +8990,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//679
 			//pamplona, orcoyen
@@ -9016,7 +9016,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//681
 			//tafalla, olite
@@ -9029,7 +9029,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//682
 			//tudela, cascante, tulebras
@@ -9042,7 +9042,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//683
 			//ultzama, arre, san miguel
@@ -9055,7 +9055,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Viscaya
 			//684
@@ -9069,7 +9069,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//685
 			//bilbao, erandio, santa maria, estao
@@ -9082,7 +9082,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//686
 			//arrigorriaga, berango
@@ -9095,7 +9095,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Navarrese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Castile
 			//Castile
@@ -9336,7 +9336,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Castillian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Sheep'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Toledo
 			//705
@@ -9574,7 +9574,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Galician',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//723
 			//aranga, faro, traba, san xurxo, vimianzo
@@ -9840,7 +9840,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//743
 			//ponferrada, cornatel, sarracin, san pedro, balboa, san andres, bembibre, villafranca
@@ -9853,7 +9853,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//744
 			//leon, san andres, ribaseca, san claudio, sariegos
@@ -9866,7 +9866,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//745
 			//sahagun, almanza, cea
@@ -9879,7 +9879,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Salamanca
 			//746
@@ -9998,7 +9998,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Leonese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Sheep'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//755
 			//carbajales, cernadilla, espanedo, manzanal, peque
@@ -10185,7 +10185,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//769
 			//braga, faria, barcelos
@@ -10211,7 +10211,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//771
 			//viana, arcos, caminha, melgaco
@@ -10238,7 +10238,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//773
 			//coimbra, montemor, redondos, soure
@@ -10251,7 +10251,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//774
 			//guarda, sabugal
@@ -10264,7 +10264,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//775
 			//viseu, cinfaes, lamego, mangualde
@@ -10277,7 +10277,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Braganca
 			//776
@@ -10291,7 +10291,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Portuguese',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//777
 			//vila real, vila pouca, alijo, boticas, montalegre, celeiros, murca
@@ -10691,7 +10691,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Goats'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//807
 			//lillestrom, sorum, lorenskog, raelingen, nes, eidsvoll, ullensaker 
@@ -10757,7 +10757,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Goats'
+				'animal_husbandry' => 'Cattle'
             ]);						
 			//Rogaland (gulating)
 			//812
@@ -10797,7 +10797,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Norwegian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Goats'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//815
 			//sauda, jelsa, hjelmeland, fister, ardal, strand, kvitsoy, suldal 
@@ -10943,7 +10943,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Goats'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//826
 			//larvik, borre, tonsberg, skaun 
@@ -11103,7 +11103,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Finnish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//838
 			//ouluborg, korsholm
@@ -11116,7 +11116,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Finnish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//839
 			//kokemaki, vreghdenborg
@@ -11129,7 +11129,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Finnish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//840
 			//olofsborg, saint michel, nyslott
@@ -11142,7 +11142,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Finnish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//841
 			//hame, birkala
@@ -11155,7 +11155,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Finnish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Smaland
 			//842
@@ -11222,7 +11222,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Swedish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//847
 			//uppsala, osthammar, riksby, stockby, solna, sollentuna, sigtuna, enkoping, alsno, penningby, orbyhus
@@ -11277,7 +11277,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//851
 			//grodisze, rakwitz, wielichowo, wollstein
@@ -11290,7 +11290,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//852
 			//jarotschin, zerkow
@@ -11303,7 +11303,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//853
 			//kosten, kriewen
@@ -11316,7 +11316,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//854
 			//lissa, oseczno, reisen
@@ -11329,7 +11329,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);				
 			//Lesser Poland
 			//855
@@ -11527,7 +11527,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//870
 			//pleschen, chocz, dobrzyca
@@ -11540,7 +11540,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//871
 			//schildberg, kempen, grabow
@@ -11553,7 +11553,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//872
 			//wielun, ruda
@@ -11566,7 +11566,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Stud'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//873
 			//wreschen, peisern
@@ -11579,7 +11579,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Krakow
 			//874
@@ -11764,7 +11764,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Polish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//888
 			//rawa, rawska
@@ -12166,7 +12166,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//918
 			//moson, neusiedl, rajka
@@ -12179,7 +12179,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//919
 			//kaposvar, barcs, fonyod, nagyatad, siofok, thob
@@ -12192,7 +12192,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//920
 			//sopron, mattersburg, eisenstadt, oberpullendorf
@@ -12205,7 +12205,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//921
 			//vasvar, kleinmariazell, oberwart, koszeg, szentgotthard, szombathely
@@ -12218,7 +12218,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//922
 			//vezprem, ajka, papa, tapolca, varpalota, zirc
@@ -12244,7 +12244,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Buda
 			//924
@@ -12258,7 +12258,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//925
 			//pecs, mohacs, komlo
@@ -12271,7 +12271,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//926
 			//esztergom, visegrad, muzla, sturovo
@@ -12297,7 +12297,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//928
 			//eger, kisnana, belapatfalva
@@ -12310,7 +12310,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//929
 			//pest, buda, vecses, nagykata
@@ -12323,7 +12323,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//930
 			//szolnok, jaszbereny, zenthmyclos, bekes, gyula, szarvas
@@ -12350,7 +12350,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//932
 			//arvavaraylla, bingenstad, turdoschin
@@ -12363,7 +12363,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//933
 			//bars, leva
@@ -12376,7 +12376,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//934
 			//hont, vac
@@ -12389,7 +12389,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//935
 			//komarom, zemianska, tata, hurbanovo
@@ -12415,7 +12415,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//937
 			//orava, dolny
@@ -12428,7 +12428,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//938
 			//pozsony, dunajska, galanta, malacky, trnava, samorin, senec
@@ -12441,7 +12441,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//939
 			//trencsen, banovce, ilava, kischutz, bytca, puchov, povazky, sylna
@@ -12454,7 +12454,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//940
 			//besztercebanya, brezno, zvolen
@@ -12467,7 +12467,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Temesvar
 			//941
@@ -12481,7 +12481,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//942
 			//arad, lipova, vinga
@@ -12494,7 +12494,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//943
 			//bihar, nagyvarad
@@ -12520,7 +12520,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//945
 			//caransebes, lugoj
@@ -12533,7 +12533,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Ungvar
 			//946
@@ -12547,7 +12547,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//947
 			//beregzasz, munkacs
@@ -12560,7 +12560,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//948
 			//borsod, miskolc
@@ -12573,7 +12573,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//949
 			//debrecen, szoboszlo
@@ -12599,7 +12599,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//951
 			//szatmar, mateszalka, nagybanya, nagykaroly, nagysomkut, szatmarnemeti
@@ -12612,7 +12612,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//952
 			//spis, levoca, gelnica, kesmark, lubovna, ofalu, sopota, varalja
@@ -12625,7 +12625,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//953
 			//zemplen, tokaj, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
@@ -12638,7 +12638,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Transylvania
 			//954
@@ -12652,7 +12652,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'Salt',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//955
 			//csiksomlyo, csikszereda
@@ -12665,7 +12665,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//956
 			//sepsiszentgyorgy, kezdivasarhely, nagyajta 
@@ -12678,7 +12678,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//957
 			//koloszvar, szamosujvar, desvar
@@ -12691,7 +12691,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//958
 			//marosvasarhely, teleki, mezosamsond
@@ -12704,7 +12704,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//959
 			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely
@@ -12717,7 +12717,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//960
 			//udvarhely, marosheviz
@@ -12730,7 +12730,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Hungarian',
 				'mines' => 'Gold',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Croatia
 			//Dalmatia
@@ -12745,7 +12745,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//962
 			//knin, drnis
@@ -12758,7 +12758,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//963
 			//udbina, lapac
@@ -12771,7 +12771,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//964
 			//gospic, lapac, sokolac, otocac, baska, senj
@@ -12784,7 +12784,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//965
 			//modrus, ogulin, rijeka, kotor, bakar, slunj, karlovac
@@ -12797,7 +12797,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Ragusa
 			//966
@@ -12811,7 +12811,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//967
 			//cetina, civljane, sibenik, vrlika, glavas, prozor, sinj, trilj, stolac, gradac
@@ -12824,7 +12824,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//968
 			//kotor, dobrota, risan
@@ -12837,7 +12837,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Slavonia
 			//969
@@ -12877,7 +12877,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//972
 			//vukovar, szavaszentdemeter
@@ -12890,7 +12890,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//973
 			//varazdin, ludbreg
@@ -12903,7 +12903,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);		
 			//974
 			//veroce, osijek, nasice, dakovo
@@ -12916,7 +12916,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Split
 			//975
@@ -12930,7 +12930,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//976
 			//trogir, komiza
@@ -12943,7 +12943,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Zadar
 			//977
@@ -12957,7 +12957,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//978
 			//cres, lubenice, martinscica, losinj, osor
@@ -12970,7 +12970,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//979
 			//veglia, jurandvor, vrbnik, moschau
@@ -12983,7 +12983,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Croatian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Sicily
 			//Palermo
@@ -12997,7 +12997,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sicily',		
 				'vernacular_architecture' => 'Sicilian',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Sweetener_Sugarcane',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//
@@ -13024,8 +13024,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_architecture' => 'Sicilian',
 				'mines' => 'None',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Sweetener_Sugarcane',						
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13038,7 +13038,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sicilian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Messina
 			//
@@ -13092,7 +13092,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sicilian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//gela, 
@@ -13105,7 +13105,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sicilian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Catania
 			//
@@ -13200,7 +13200,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Capua
 			//
@@ -13241,7 +13241,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13254,7 +13254,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Calabria
 			//
@@ -13267,7 +13267,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//
@@ -13280,7 +13280,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);	
 			//
@@ -13293,7 +13293,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Stud'
             ]);				
 			//Basilicata
@@ -13307,7 +13307,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Goats'
             ]);	
 			//
@@ -13320,7 +13320,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',	
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
-				'crops' => 'None',						
+				'crops' => 'Perfume_Lavender',						
 				'animal_husbandry' => 'Cattle'
             ]);				
 			//Taranto
@@ -13401,7 +13401,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Benevento
 			//
@@ -13415,7 +13415,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13428,7 +13428,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Salerno
 			//
@@ -13455,7 +13455,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Neapolitan',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Sardinia
 			//Gallura
@@ -13470,7 +13470,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sardinian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13483,7 +13483,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sardinian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Logudoro 
 			//
@@ -13497,7 +13497,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sardinian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//sassari
@@ -13523,7 +13523,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Sardinian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Arborea
 			//
@@ -13606,7 +13606,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13619,7 +13619,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13633,7 +13633,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//
@@ -13646,7 +13646,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Thessalonica
 			//Athens
@@ -13661,7 +13661,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Achaea
 			//
@@ -13675,7 +13675,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Archipelago
 			//
@@ -13689,7 +13689,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Epirus
 			//
@@ -13703,7 +13703,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Trebizond
 			//Paphlagonia
@@ -13718,7 +13718,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Armeniac
 			//
@@ -13729,7 +13729,10 @@ class CountySeeder extends Seeder
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_architecture' => 'Greek'
+				'vernacular_architecture' => 'Greek',
+				'mines' => 'None',						
+				'crops' => 'None',						
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Chaldia
 			//
@@ -13743,7 +13746,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Crimea
 			//
@@ -13757,7 +13760,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Anatolia
 			//Thracesia
@@ -13772,7 +13775,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Bucellaria
 			//
@@ -13786,7 +13789,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Anatolia
 			//
@@ -13800,7 +13803,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Cappadocia
 			//
@@ -13814,7 +13817,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Seleucia
 			//
@@ -13828,7 +13831,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Opsicia
 			//
@@ -13842,7 +13845,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Nicaea
 			//
@@ -13856,7 +13859,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Lycia
 			//
@@ -13870,7 +13873,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Pamphylia
 			//
@@ -13884,7 +13887,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Greek',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);					
 			//Georgia
 			//Georgia
@@ -13899,7 +13902,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Georgian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Armenia
 			//Vaspurakan
@@ -13914,7 +13917,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Armenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Taron
 			//
@@ -13928,7 +13931,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Armenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Kars
 			//
@@ -13942,7 +13945,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Armenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Azerbaijan
 			//
@@ -13956,7 +13959,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Armenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Kievan Rus
 			//Kiev
@@ -14038,7 +14041,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Chernigov
 			//Chernigov
@@ -14119,7 +14122,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//murom, borisoglebsky
@@ -14132,7 +14135,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//tula, belyov
@@ -14145,7 +14148,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//kaluga, mosalsk, kozelsk, tarusa, obolensk
@@ -14158,7 +14161,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//vorotynsk, peremyshl, karachev
@@ -14186,7 +14189,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//peremyshl, sambir, lubaczow
@@ -14199,7 +14202,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//lviv, grodek, zudech
@@ -14212,7 +14215,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//belz, sokal 
@@ -14225,7 +14228,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Podolia
 			//
@@ -14239,7 +14242,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//terebovlia, moklekov
@@ -14252,7 +14255,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Volhynia
 			//
@@ -14266,7 +14269,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//brest, belz
@@ -14279,7 +14282,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//kremenets, shumsk
@@ -14292,7 +14295,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//lutsk, busk
@@ -14305,7 +14308,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Turov
 			//
@@ -14319,7 +14322,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//slutsk, kletsk
@@ -14332,7 +14335,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Ruthenian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Vladimir
 			//Vladimir
@@ -14360,7 +14363,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//nizhny novgorod, gorokhovets, gorodets
@@ -14373,7 +14376,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Moscow
 			//
@@ -14387,7 +14390,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//dmitrov, sergiyev, dedenyovo
@@ -14400,7 +14403,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//volokolamsk, lotoshino
@@ -14413,7 +14416,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);
 			//
 			//zvenigorod, ruza 
@@ -14426,7 +14429,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Suzdal
 			//
@@ -14440,7 +14443,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//yuryev, kuzmadino
@@ -14453,7 +14456,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);		
 			//
 			//starodub, kovrov
@@ -14466,7 +14469,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//Smolensk
 			//Smolensk
@@ -14481,7 +14484,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//roslavl, vyazma
@@ -14494,7 +14497,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//
 			//toropets, morsow
@@ -14507,7 +14510,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);				
 			//
 			//mstivlavl, svyato
@@ -14520,7 +14523,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);					
 			//Rzhev
 			//
@@ -14534,7 +14537,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//
 			//zubtsov, gorodok
@@ -14547,7 +14550,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Tver
 			//
@@ -14641,7 +14644,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//
 			//ladoga, oreshek, keksholm, koporye
@@ -14654,7 +14657,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//Polotsk
 			//
@@ -14668,7 +14671,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lithuanian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//
 			//vitebsk, orsha, gorodok
@@ -14681,7 +14684,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Lithuanian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);				
 			//Pleskov			
 			//
@@ -14695,7 +14698,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);	
 			//
 			//kholm, velikiye luki
@@ -14708,7 +14711,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Russian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Pigs'
             ]);			
 			//Bulgaria
 			//Bulgaria
@@ -14723,7 +14726,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Bulgarian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Wallachia
 			//Wallachia
@@ -14738,7 +14741,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wallachian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Moldavia
 			//
@@ -14752,7 +14755,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Wallachian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Serbia
 			//Serbia
@@ -14768,7 +14771,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Serbian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Bosnia
 			//Bosnia
@@ -14783,7 +14786,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Serbian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Cordoba
 			//Andalucia
@@ -14799,7 +14802,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//gibraltar
@@ -14812,7 +14815,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);				
 			//Almeria
 			//
@@ -14825,8 +14828,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'Silver',						
-				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'crops' => 'Sweetener_Sugarcane',						
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//baza
@@ -14839,7 +14842,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Arcos
 			//
@@ -14866,7 +14869,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//sanlucar
@@ -14879,7 +14882,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);				
 			//Carmona
 			//
@@ -14893,7 +14896,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//ecija
@@ -14906,7 +14909,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);				
 			//Cordoba
 			//
@@ -14920,7 +14923,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//carpio
@@ -14933,7 +14936,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//cordoba
@@ -14959,7 +14962,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//pedroche
@@ -14972,7 +14975,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Granada
 			//
@@ -15104,7 +15107,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//antequerra
@@ -15117,7 +15120,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//loja
@@ -15130,7 +15133,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//malaga
@@ -15143,7 +15146,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Ronda
 			//
@@ -15157,7 +15160,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//ronda
@@ -15170,7 +15173,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//Sevilla
 			//
@@ -15184,7 +15187,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//estepa
@@ -15197,10 +15200,10 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
-			//sevilla, cartuja
+			//sevilla, cartuja, utrera
             DB::table('counties')->insert([
 				'county_name' => 'Sevilla',
 				'county_category' => 'Ecclesiastical',
@@ -15225,7 +15228,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//mertola, serpa, moura, noudar
@@ -15238,7 +15241,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//silves, lagos, alcantarilha, aljezur, alvor, paderne
@@ -15251,7 +15254,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Badajoz
 			//
@@ -15265,7 +15268,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'Iron',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//beja, ourique, vidigueira, messejana, cola, alvito, aljustrel
@@ -15278,7 +15281,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//evora, alandroal, arraiolos, estremoz, mourao, viana, redondo, portel
@@ -15291,7 +15294,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'Pigs'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//medellin, guarena
@@ -15304,7 +15307,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//
 			//llerena, berlanga, usagre, azuaga
@@ -15317,7 +15320,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'Silver',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//merida, zafra, valverde, mirandilla, san servan, alange, calzada, lobon
@@ -15330,7 +15333,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//olivenza, nogales, alconchel, higuera
@@ -15343,7 +15346,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//
 			//portalegre, alegrete, avis, monforte, marvao
@@ -15356,7 +15359,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);	
 			//
 			//villanueva, castuera
@@ -15369,7 +15372,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Poultry'
             ]);
 			//Huelva
 			//
@@ -15424,7 +15427,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//
 			//almarza, buitrago
@@ -15437,7 +15440,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//alcala, valverde, pezuela, san pedro
@@ -15450,7 +15453,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//
 			//medinaceli, arcos, somaen
@@ -15463,7 +15466,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//
 			//molina, ventosa, tortuera
@@ -15476,7 +15479,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//alpuente, cuenca, atienza, siguenza, bonaval
@@ -15489,7 +15492,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Baleares
 			//
@@ -15543,7 +15546,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//
 			//alcaraz
@@ -15556,7 +15559,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//
 			//alcira
@@ -15569,7 +15572,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//alcoy
@@ -15582,7 +15585,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//alicanta
@@ -15595,7 +15598,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//
 			//almagro, villa real, san juan, valdepenas
@@ -15608,7 +15611,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//chinchilla
@@ -15621,7 +15624,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//cofrentes
@@ -15634,7 +15637,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//
 			//denia
@@ -15647,7 +15650,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//jativa
@@ -15660,7 +15663,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//montesa
@@ -15673,7 +15676,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Murcia
 			//
@@ -15686,7 +15689,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'Iron',						
-				'crops' => 'None',						
+				'crops' => 'Sweetener_Sugarcane',						
 				'animal_husbandry' => 'Goats'
             ]);
 			//
@@ -15779,7 +15782,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);		
 			//
 			//morella
@@ -15792,7 +15795,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//peniscola
@@ -15805,7 +15808,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//san clemente
@@ -15818,7 +15821,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//
 			//valencia
@@ -15831,7 +15834,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);	
 			//Almohad
 			//Marrakesh
@@ -15846,7 +15849,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Fez
 			//
@@ -15860,7 +15863,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Kairouan
 			//
@@ -15874,7 +15877,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Tlemcen
 			//
@@ -15888,7 +15891,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Ifni
 			//
@@ -15902,7 +15905,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Figuig
 			//
@@ -15916,7 +15919,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Moorish',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Goats'
             ]);				
 			//Abbasid
 			//Baghdad
@@ -15931,7 +15934,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Syria
 			//
@@ -15945,7 +15948,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Najd
 			//
@@ -15959,7 +15962,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Antioch
 			//
@@ -15973,7 +15976,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Fatimid
 			//Cairo
@@ -15988,7 +15991,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Cattle'
             ]);	
 			//Jerusalem
 			//
@@ -16002,7 +16005,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Hejaz
 			//
@@ -16016,7 +16019,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Arabic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Khazar
 			//Khazaria
@@ -16032,7 +16035,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);				
 			//Sarkel
 			//
@@ -16046,7 +16049,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Atil
 			//
@@ -16060,7 +16063,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Bolghar
 			//
@@ -16074,7 +16077,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Bilar
 			//
@@ -16088,7 +16091,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Alania
 			//Derbent
@@ -16103,7 +16106,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Azov
 			//
@@ -16117,7 +16120,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Cumania
 			//Sighnaq
@@ -16132,7 +16135,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Sozak
 			//
@@ -16146,7 +16149,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Sibir
 			//
@@ -16160,7 +16163,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Turkic',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Seljuk
 			//Kwarezm
@@ -16175,7 +16178,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Persian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);
 			//Isfahan
 			//
@@ -16189,7 +16192,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Persian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
 			//Hormuz
 			//
@@ -16203,7 +16206,7 @@ class CountySeeder extends Seeder
 				'vernacular_architecture' => 'Persian',
 				'mines' => 'None',						
 				'crops' => 'None',						
-				'animal_husbandry' => 'None'
+				'animal_husbandry' => 'Sheep'
             ]);			
     }
 }
