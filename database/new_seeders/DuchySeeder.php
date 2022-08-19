@@ -15,22 +15,23 @@ class DuchySeeder extends Seeder
 			//example
             DB::table('duchies')->insert([
 				'duchy_name' => '',				
-				'duchy_category' => '',			//Feudal, Ecclesiastical, Crowned_Republic
-				'de_jure_kingdom' => '',		//	
-				'law_succession' => '',			//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa
-				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	
-				'law_court' => '',				//Itinerant, Palatial
-				'vegetation' => '',				//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Shrubland, Temperate_Woodland, Temperate_Marshland
-				'altitude' => '',				//Lowland, Montane, Highland		
-				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
-				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
-				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
-				'tax_feudal' => '',				//minimal, normal, large, maximal; default=minimal		
-				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal				
-				'tax_burgher' => ''				//minimal, normal, large, maximal; default=normal			
-				'souvereign' => '1',			(empire); default=1
-				'lord_paramount' => '1',		(kingdom); default=1
-				'tenant_in_chief' => '1'		(duchy); default=1
+				'duchy_category' => '',				//Feudal, Ecclesiastical, Crowned_Republic
+				'de_jure_kingdom' => '',			//	
+				'law_succession' => '',				//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa
+				'law_assembly' => '',				//absolute, limited, medium, high; default=medium	
+				'law_court' => '',					//Itinerant, Palatial
+				'vernacular_architecture' => '',	//Brick (Mortar), Half_Timbered (Wattle_and_Daub), Log_Chalet, Stone, Mud_Brick (Adobe)				
+				'vegetation' => '',					//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Shrubland, Temperate_Woodland, Temperate_Marshland
+				'altitude' => '',					//Lowland, Montane, Highland		
+				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
+				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
+				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
+				'tax_feudal' => '',					//minimal, normal, large, maximal; default=minimal		
+				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=normal				
+				'tax_burgher' => ''					//minimal, normal, large, maximal; default=normal			
+				'souvereign' => '1',				(empire); default=1
+				'lord_paramount' => '1',			(kingdom); default=1
+				'tenant_in_chief' => '1'			(duchy); default=1
             ]);			
 			*/
 			
@@ -43,6 +44,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',				
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'			
@@ -54,6 +56,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -65,6 +68,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'				
@@ -76,6 +80,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -87,6 +92,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -98,6 +104,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -109,6 +116,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'				
@@ -120,6 +128,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'				
@@ -131,6 +140,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -142,6 +152,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -153,6 +164,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -164,6 +176,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'			
@@ -175,6 +188,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Montane'				
@@ -186,6 +200,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'altitude' => 'Highland'				
@@ -197,6 +212,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -208,6 +224,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
@@ -219,6 +236,7 @@ class DuchySeeder extends Seeder
 				'duchy_category' => 'Ecclesiastical',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
+				'vernacular_architecture' => '',			
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Lowland'			
