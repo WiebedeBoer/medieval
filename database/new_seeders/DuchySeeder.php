@@ -2064,7 +2064,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//182
-			//Capua
+			//Capua, Caserta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Capua',
 				'duchy_category' => 'Feudal',
@@ -2075,7 +2075,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//183
-			//Amalfi
+			//Amalfi, Sorrento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Amalfi',
 				'duchy_category' => 'Feudal',
@@ -2086,7 +2086,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//184
-			//Catanzaro, Cosenza, Crotone
+			//Catanzaro, Cosenza, Crotone, Reggio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Calabria',
 				'duchy_category' => 'Feudal',
@@ -2824,7 +2824,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
+			//Alpujarra, Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Granada',
 				'duchy_category' => 'Feudal',
@@ -2835,7 +2835,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Alhama, Antequerra, Loja, Malaga
+			//Alhama, Antequera, Loja, Malaga
             DB::table('duchies')->insert([
 				'duchy_name' => 'Malaga',
 				'duchy_category' => 'Feudal',
@@ -2954,7 +2954,7 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//Almohad
