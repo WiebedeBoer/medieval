@@ -611,7 +611,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Levante
-			//Alpuente, Baleares, Denia, Murcia, Valencia
+			//Alpuente, Mallorca, Denia, Murcia, Valencia
 			//48
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Levante',
