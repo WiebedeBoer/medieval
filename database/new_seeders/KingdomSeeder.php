@@ -439,7 +439,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'itinerant'				
             ]);	
 			//Georgia
-			//Georgia
+			//Colchis, Javakheti, Kartli, Kakheti
 			//34
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Georgia',
