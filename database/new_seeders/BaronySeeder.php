@@ -8829,7 +8829,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -9063,13 +9063,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'				
+				'charter_university' => 'Scriptorium_Library'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -9077,7 +9077,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -9106,13 +9106,13 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Albacete',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None'			

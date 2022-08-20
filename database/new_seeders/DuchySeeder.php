@@ -38,20 +38,20 @@ class DuchySeeder extends Seeder
 			/*
 			
 			
-			Half_Timbered_Fachwerk 	[Germany,Denmark]			=	wattle daub	wall	crossed timber beams	tiled roof
+			Half_Timbered_Fachwerk 	[Germany,Denmark]			=	wattle daub	wall	crossed timber beams	orange tiled roof
 			Half_Timbered_Studded 	[England,France]			=	wattle daub	wall	studded timber beams	tiled roof
-			Half_Timbered_Khata 	[Kiev,Poland,Hungary]		=	wattle daub	wall	whitewashed				tatched roof
-			Half_Timbered_Konak		[Bulgaria,Trebizond]		=	wattle daub	wall	balcony					tiled roof
+			Half_Timbered_Khata 	[Kiev,Poland,Hungary]		=	wattle daub	wall	whitewashed	wall		tatched roof
+			Half_Timbered_Konak		[Bulgaria,Trebizond]		=	wattle daub	wall	mashrabiya balcony		orange tiled roof
 			Log_Chalet	 			[Burgundy,Austria,Croatia]	=	timber logs wall
-			Log_Stave				[Norway,Sweden]				=  	timber logs wall
+			Log_Stave				[Norway,Sweden]				=  	timber logs wall							staved wooden roof
 			Log_Izba				[Novgorod]					= 	timber logs wall
 			Stone_Croft				[Connacht,Ulster,Scotland]	= 	stone wall									tatched roof
 			Stone_Mudejar			[Andalucia,Portugal]		=  	stone wall									tiled roof
 			Stone_Romanesque 		[Europe Mediterranean]		= 	stone wall
 			Stone_Darbazi 			[Georgia,Armenia]			= 	stone wall
-			Adobe_Mashriq 			[Arabia,Syria]				= 	adobe wall			balcony					adobe roof
-			Adobe_Maghreb 			[Maghreb]					=	adobe wall									adobe roof
-			Adobe_Persian 			[Persia,Steppes]			=	adobe wall									blue tiled roof
+			Adobe_Mashriq 			[Arabia,Syria]				= 	adobe wall			mashrabiya balcony		flat adobe roof
+			Adobe_Maghreb 			[Maghreb]					=	adobe wall									flat adobe roof
+			Adobe_Persian 			[Persia,Steppes]			=	adobe wall			blue iwan				flat adobe roof
 			
 			
 			*/
