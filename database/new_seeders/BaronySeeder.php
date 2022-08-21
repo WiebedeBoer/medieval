@@ -8880,19 +8880,205 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Citadel',	
 				'charter_mint' => 'Mint',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pechersk',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);				
+			//Pereyaslavl
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pereyaslavl',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//Chernigov
+			//Chernigov
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chernigov',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bryansk',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kursk',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Oryol',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
+			//Ryazan
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ryazan',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
 				'charter_university' => 'None'						
             ]);			
-			//Pereyaslavl
-			
 			//Murom
 			//Murom
-			
-			//Ryazan
-			
-			//Chernigov
-			
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Murom',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Borisoglebsky',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tula',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kaluga',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Halych
 			//Halych
+			//Halych
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Halych',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kolomyia',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);			
 			//
 			//
             DB::table('baronies')->insert([
@@ -8904,30 +9090,389 @@ class BaronySeeder extends Seeder
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
-				'charter_walls' => 'Stronghold',	
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lviv',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Belz',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'						
+            ]);				
+			//Volhynia
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Volodymyr',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None'						
             ]);			
-			//Volhynia
-			
 			//Turov
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Turov',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Vladimir
 			//Vladimir
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vladimir',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);			
 			//Moscow
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Moscow',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Orekhovo',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Korolyov',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Danilov',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dmitrov',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sergiyev',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);			
 			//Suzdal
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Suzdal',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Yuryev',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Smolensk
 			//Smolensk
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Smolensk',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Toropets
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Toropets',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Mstislavl
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mstislavl',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Rzhev
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rzhev',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//Tver
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tver',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kostroma',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ipatiev',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rostov',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Chancellery',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//Yaroslavl
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Yaroslavl',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Uglich',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vologda',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Chancellery',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cherepovets',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);				
 			//Novgorod
 			//Novgorod
 			//
@@ -8943,7 +9488,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Citadel',	
 				'charter_mint' => 'Mint',
-				'charter_university' => 'None'						
+				'charter_university' => 'Scriptorium_Library'						
             ]);			
 			//Polotsk
 			//
@@ -9041,7 +9586,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Aljama',
-				'charter_university' => 'None'				
+				'charter_university' => 'Scriptorium_Library'				
             ]);
 			//Granada	
 			//
@@ -9057,7 +9602,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'				
+				'charter_university' => 'Scriptorium_Library'				
             ]);	
 			//
 			//

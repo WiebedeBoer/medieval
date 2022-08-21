@@ -17688,7 +17688,7 @@ class CountySeeder extends Seeder
 			//Vladimir
 			//Vladimir
 			//
-			//vladimir, kirzhach
+			//vladimir, kirzhach, gavrilov
             DB::table('counties')->insert([
 				'county_name' => 'Vladimir',
 				'county_category' => 'Feudal',
@@ -17737,7 +17737,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Moscow
 			//
-			//moscow, orekhovo, korolyov
+			//moscow, orekhovo, korolyov, danilov
             DB::table('counties')->insert([
 				'county_name' => 'Moscow',
 				'county_category' => 'Feudal',
