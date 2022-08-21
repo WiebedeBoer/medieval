@@ -90,7 +90,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);
 			//3
-			//vienna, klosterneuburg
+			//vienna, klosterneuburg, kreuzenstein
             DB::table('counties')->insert([
 				'county_name' => 'Vienna',
 				'county_category' => 'Feudal',
@@ -187,7 +187,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);				
 			//9
-			//passau, erneck
+			//passau, erneck, vornbach
             DB::table('counties')->insert([
 				'county_name' => 'Rottgau',
 				'county_category' => 'Ecclesiastical',
@@ -5083,7 +5083,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Occitan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
 				'marke_animal_husbandry' => 'Stud'
@@ -5129,7 +5129,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Occitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -6418,7 +6418,7 @@ class CountySeeder extends Seeder
 			//France
 			//Anjou
 			//395
-			//angers, saumur, fontevraud
+			//angers, saumur, fontevraud, bauge
             DB::table('counties')->insert([
 				'county_name' => 'Anjou',
 				'county_category' => 'Feudal',
@@ -6428,7 +6428,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
@@ -6547,7 +6547,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//403
-			//bazas, langon, marmande
+			//bazas, langon, marmande, roquetaillade, villandraut
             DB::table('counties')->insert([
 				'county_name' => 'Bazadais',
 				'county_category' => 'Feudal',
@@ -6556,7 +6556,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Occitan',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -6911,7 +6911,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Occitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -17087,6 +17087,59 @@ class CountySeeder extends Seeder
             ]);					
 			//Georgia
 			//Georgia
+			//Georgia
+			//Colchis
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);			
+			//Javakheti
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);			
+			//Kartli
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);			
+			//Kakheti
 			//
 			//
             DB::table('counties')->insert([

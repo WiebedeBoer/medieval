@@ -24,7 +24,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => '',				//Square, Market_Right, Staple_Right, Fair_Right
 				'charter_walls' => '',				//None, Earthwork, Palisade, Stronghold, Citadel
 				'charter_mint' => '',				//None, Mint, Reliquary, Aljama
-				'charter_university' => '',			//None, Monastic_School, Cathedral_School, Scriptorium_Library						
+				'charter_university' => '',			//None, Monastic_School, Cathedral_School, Scriptorium_Library, Rhetoric_Chamber, Tiltyard, Hunting_Lodge						
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
@@ -47,16 +47,30 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vienna',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Aljama',
 				'charter_university' => 'Cathedral_School'						
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kreuzenstein',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
             ]);
 			//Bavaria
 			// 
@@ -81,13 +95,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'							
+				'charter_university' => 'Scriptorium_Library'							
             ]);
 			// 
 			//
@@ -130,6 +144,20 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vornbach',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library'							
             ]);	
@@ -221,7 +249,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
-				'charter_university' => 'None'							
+				'charter_university' => 'Rhetoric_Chamber'							
             ]);
 			//
 			//
@@ -236,7 +264,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Staple_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Aljama',
-				'charter_university' => 'None'							
+				'charter_university' => 'Rhetoric_Chamber'							
             ]);
 			//Carinthia
 			// 
@@ -261,13 +289,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'							
+				'charter_university' => 'Scriptorium_Library'							
             ]);
 			// 
 			//
@@ -289,13 +317,13 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Laibach',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None'							
@@ -304,7 +332,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Parenzo',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -321,18 +349,18 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'							
+				'charter_university' => 'Scriptorium_Library'							
             ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pula',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -665,7 +693,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'											
+				'charter_university' => 'Hunting_Lodge'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1179,7 +1207,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'										
+				'charter_university' => 'Hunting_Lodge'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1976,16 +2004,16 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Milano',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
-				'charter_university' => 'None'									
+				'charter_university' => 'Scriptorium_Library'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2004,10 +2032,10 @@ class BaronySeeder extends Seeder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Como',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2019,10 +2047,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bergamo',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2034,25 +2062,25 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Modena',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'									
+				'charter_university' => 'Scriptorium_Library'									
             ]);	
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pavia',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2064,7 +2092,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Piacenza',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -2079,10 +2107,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Reggio',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2126,7 +2154,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
@@ -2154,10 +2182,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Siena',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2170,10 +2198,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Padova',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2185,7 +2213,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vicenza',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -2219,13 +2247,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Staple_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'									
+				'charter_university' => 'Monastic_School'									
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -2233,7 +2261,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2248,7 +2276,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2279,7 +2307,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2291,7 +2319,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Perugia',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -2389,19 +2417,19 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Treviso',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -2418,11 +2446,11 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Prague',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
-				'charter_assembly' => 'Senate',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
@@ -2437,7 +2465,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
 				'charter_market' => 'Square',
@@ -2502,13 +2530,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			// 
 			//
@@ -2544,10 +2572,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Macon',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2573,16 +2601,16 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Nevers',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Cathedral_School'								
             ]);
 			//Cisjurania
 			// 
@@ -2592,8 +2620,8 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
-				'charter_assembly' => 'Senate',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
@@ -2607,13 +2635,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			// 
 			//
@@ -2622,13 +2650,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2636,21 +2664,21 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None'								
             ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sisteron',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2680,7 +2708,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2692,10 +2720,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vienne',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
@@ -2712,7 +2740,7 @@ class BaronySeeder extends Seeder
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Chancellery',	
-				'charter_assembly' => 'Senate',
+				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
@@ -2824,10 +2852,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Orange',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2842,7 +2870,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2853,7 +2881,7 @@ class BaronySeeder extends Seeder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Carpentras',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -2861,7 +2889,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Aljama',
 				'charter_university' => 'None'							
             ]);	
 			// 
@@ -2870,7 +2898,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2884,7 +2912,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2900,7 +2928,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
@@ -2912,16 +2940,30 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Arles',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
-				'charter_assembly' => 'Senate',
+				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'Mint',
+				'charter_mint' => 'Aljama',
 				'charter_university' => 'None'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tarascon',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Hunting_Lodge'							
             ]);	
 			// 
 			//
@@ -2941,10 +2983,10 @@ class BaronySeeder extends Seeder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Senez',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -2955,18 +2997,18 @@ class BaronySeeder extends Seeder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Digne',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Aljama',
 				'charter_university' => 'None'								
             ]);
-			// 
+			//Marseille 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Marseille',
@@ -2981,14 +3023,28 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Aljama',
 				'charter_university' => 'None'							
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Saint Jean',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'							
+            ]);
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Nice',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Staple_Right',
@@ -3058,7 +3114,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aosta',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -3103,7 +3159,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sion',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3123,7 +3179,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Patriarch',
 				'charter_market' => 'Square',
@@ -3151,10 +3207,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ferrara',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3166,7 +3222,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bologna',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3181,10 +3237,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ravenna',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3197,7 +3253,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ancona',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3230,22 +3286,22 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);	
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pescara',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3305,10 +3361,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Reval',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Staple_Right',
@@ -3336,10 +3392,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Marienwerder',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Crusader_Order',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3366,16 +3422,16 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Koningsberg',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Crusader_Order',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Staple_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			//Pomerelia
 			// 
@@ -3385,13 +3441,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			//Pomerania
 			// 
@@ -3522,10 +3578,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Angers',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3533,14 +3589,28 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School'							
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bauge',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Hunting_Lodge'							
+            ]);
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Mans',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3552,10 +3622,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tours',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
@@ -3568,7 +3638,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bordeaux',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3579,11 +3649,25 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Aljama',
 				'charter_university' => 'Cathedral_School'							
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Fronsac',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'							
+            ]);
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Agen',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3598,7 +3682,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Angouleme',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3606,7 +3690,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Aljama',
 				'charter_university' => 'None'							
             ]);
 			// 
@@ -3624,6 +3708,34 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None'							
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Roquetaillade',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Villandraut',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'							
+            ]);
 			// 
 			//
             DB::table('baronies')->insert([
@@ -3636,7 +3748,7 @@ class BaronySeeder extends Seeder
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
+				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None'								
             ]);
 			//
@@ -3657,10 +3769,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lectoure',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3675,13 +3787,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'									
+				'charter_university' => 'Scriptorium_Library'									
             ]);
 			// 
 			//
@@ -3690,13 +3802,13 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'										
+				'charter_university' => 'Scriptorium_Library'										
             ]);
 			//Auvergne
 			// 
@@ -3706,23 +3818,23 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			//Berry
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bourges',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
@@ -3735,10 +3847,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Auch',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
@@ -3750,10 +3862,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pau',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3765,10 +3877,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Oloron',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3780,10 +3892,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tarbes',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3813,22 +3925,22 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'							
+				'charter_university' => 'Scriptorium_Library'							
             ]);
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Dax',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3839,10 +3951,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bayonne',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Staple_Right',
@@ -3930,10 +4042,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Meaux',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -3948,19 +4060,19 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Troyes',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -3990,7 +4102,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Paris',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -4020,7 +4132,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Senlis',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -4038,20 +4150,20 @@ class BaronySeeder extends Seeder
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Scriptorium_Library'								
             ]);
 			//Normandy
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rouen',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4081,7 +4193,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Avranches',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4125,7 +4237,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Coutances',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4140,7 +4252,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Evreux',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4155,7 +4267,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lisieux',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4171,7 +4283,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Orleans',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4186,7 +4298,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Chartres',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4241,7 +4353,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Staple_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'								
+				'charter_university' => 'Rhetoric_Chamber'								
             ]);	
 			// 
 			//
@@ -4308,7 +4420,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Poitiers',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4324,7 +4436,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Toulouse',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4354,7 +4466,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Carcasonne',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4397,7 +4509,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Maguelonne',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4426,7 +4538,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Beziers',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4469,7 +4581,7 @@ class BaronySeeder extends Seeder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Uzes',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4604,7 +4716,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vannes',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4684,7 +4796,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Galway',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4698,7 +4810,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tuam',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -4742,7 +4854,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Elphin',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -4773,7 +4885,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kildare',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4788,7 +4900,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kilkenny',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4803,7 +4915,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Cashel',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -4818,7 +4930,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Waterford',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4833,7 +4945,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ferns',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -4863,7 +4975,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Dublin',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -4979,7 +5091,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ennis',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5051,7 +5163,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aghadoe',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -5066,7 +5178,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Limerick',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5082,7 +5194,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Dromore',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -5232,7 +5344,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Norwich',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5307,7 +5419,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'London',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -5337,7 +5449,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Gloucester',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5365,8 +5477,22 @@ class BaronySeeder extends Seeder
 			//
 			//
             DB::table('baronies')->insert([
+				'barony_name' => 'Kenilworth',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Tiltyard'							
+            ]);
+			//
+            DB::table('baronies')->insert([
 				'barony_name' => 'Coventry',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -5381,7 +5507,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Worcester',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5397,7 +5523,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rochester',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -5428,7 +5554,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lincoln',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5444,7 +5570,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hereford',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5548,7 +5674,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Carlisle',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5712,7 +5838,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Salisbury',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -5729,7 +5855,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Exeter',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -5809,7 +5935,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aberdeen',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6024,7 +6150,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Edinburgh',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -6126,7 +6252,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Peel',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -6368,7 +6494,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Barcelona',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6399,7 +6525,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Emporda',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6429,7 +6555,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Perpignan',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6461,7 +6587,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lleida',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6507,7 +6633,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tortosa',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6523,7 +6649,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Teruel',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6539,7 +6665,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Zaragoza',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6586,7 +6712,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pamplona',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -6604,7 +6730,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Avila',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6620,7 +6746,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Burgos',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6652,7 +6778,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Segovia',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6668,7 +6794,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Osma',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6684,7 +6810,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Toledo',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6733,7 +6859,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lugo',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6828,7 +6954,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Leon',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -6844,7 +6970,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rodrigo',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6859,10 +6985,10 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Salamanca',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
-				'charter_castle' => 'Hall',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -6909,7 +7035,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Braga',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -6984,7 +7110,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lamego',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7031,7 +7157,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Santarem',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7046,7 +7172,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Setubal',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7109,7 +7235,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Viborg',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7123,7 +7249,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aalborg',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7298,7 +7424,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Oslo',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -7315,7 +7441,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Linkoping',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Burgher',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Hall',	
@@ -7455,7 +7581,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sandomierz',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7503,7 +7629,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Leslau',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7519,7 +7645,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Plock',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7583,7 +7709,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kauen',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7646,7 +7772,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vezprem',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7692,7 +7818,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Esztergom',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -7706,7 +7832,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Visegrad',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -7721,7 +7847,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Fehervar',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7736,7 +7862,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Eger',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7751,7 +7877,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Buda',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7798,7 +7924,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bihar',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7860,7 +7986,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Modrus',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -7933,7 +8059,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sibenik',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7949,7 +8075,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Zagreb',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -7963,7 +8089,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sisak',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -8289,7 +8415,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Marsala',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8319,7 +8445,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Messina',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8391,7 +8517,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Taormina',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8721,7 +8847,13 @@ class BaronySeeder extends Seeder
 			//Cagliari
 			
 			//Georgia
-			//Georgia
+			//Colchis
+			
+			//Javakheti
+			
+			//Kartli
+			
+			//Kakheti
 			
 			//Armenia
 			//Vaspurakan
@@ -8734,7 +8866,23 @@ class BaronySeeder extends Seeder
 			
 			//Kievan Rus
 			//Kiev
-			//Kiev, Pereyaslavl
+			//Kiev 
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kiev',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None'						
+            ]);			
+			//Pereyaslavl
 			
 			//Murom
 			//Murom
@@ -8749,7 +8897,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Peremyshl',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8782,11 +8930,53 @@ class BaronySeeder extends Seeder
 			
 			//Novgorod
 			//Novgorod
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Novgorod',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None'						
+            ]);			
 			//Polotsk
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Polotsk',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None'						
+            ]);			
 			//Pleskov
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pleskov',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None'						
+            ]);			
 			//Bulgaria
 			//Bulgaria
 			
@@ -8811,7 +9001,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Cadiz',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8826,7 +9016,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Jerez',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8842,7 +9032,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Cordoba',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Royal_Court',	
@@ -8858,7 +9048,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Granada',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8903,7 +9093,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Malaga',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8919,7 +9109,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sevilla',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8936,7 +9126,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Faro',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8951,7 +9141,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Silves',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8967,7 +9157,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Badajoz',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8982,7 +9172,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Beja',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -8997,7 +9187,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Evora',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -9012,7 +9202,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Merida',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -9028,7 +9218,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Huelva',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -9060,7 +9250,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Cuenca',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -9074,7 +9264,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Siguenza',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
@@ -9090,7 +9280,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Palma',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -9121,7 +9311,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Denia',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -9152,7 +9342,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Cartagena',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
@@ -9168,7 +9358,7 @@ class BaronySeeder extends Seeder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Valencia',
-				'barony_category' => 'Ecclesiastical',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
