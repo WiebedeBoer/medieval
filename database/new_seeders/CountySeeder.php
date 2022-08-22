@@ -911,7 +911,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//54
-			//dockum, liowerd, klaarkamp, wytgaard
+			//dockum, liowerd, klaarkamp, wytgaard, mariengaard
             DB::table('counties')->insert([
 				'county_name' => 'Oostergau',
 				'county_category' => 'Monastic_Order',

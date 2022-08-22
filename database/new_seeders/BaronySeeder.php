@@ -973,6 +973,20 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None'																					
             ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mariengaard',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
 			//Sudergau
 			// 
             DB::table('baronies')->insert([
