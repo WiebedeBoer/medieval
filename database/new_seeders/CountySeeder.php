@@ -847,7 +847,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//50
-			//delft, vlaardingen, rotterdam
+			//delft, vlaardingen, rotterdam, holylede, berkel
             DB::table('counties')->insert([
 				'county_name' => 'Maasland',
 				'county_category' => 'Crowned_Republic',
@@ -876,7 +876,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_husbandry' => 'Poultry'
+				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//52
 			//norden, berum, jever

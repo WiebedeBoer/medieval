@@ -18,7 +18,7 @@ class BaronySeeder extends Seeder
 				'barony_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager				
 				'de_jure_county' => '',
 				'population' => '',	
-				'charter_castle' => '',				//Hall, Fortified_Glebe, Fortified_Abbey, Chancellery, Knight_Court, Manor_Court, County_Court, Royal_Court				
+				'charter_castle' => '',				//Hall (125), Fortified_Glebe (6), Fortified_Abbey (145), Chancellery (109), Knight_Court (3), Manor_Court (59), County_Court (177), Royal_Court (27)				
 				'charter_assembly' => '',			//Moot, Senate, Diet, Parliament	
 				'charter_cathedral' => '',			//Chaplain, Priest, Bishop, Archbishop, Patriarch
 				'charter_market' => '',				//Square, Market_Right, Staple_Right, Fair_Right
@@ -504,7 +504,78 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None'																					
             ]);
+			//Maasland
 			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Delft',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vlaardingen',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rotterdam',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Holylede',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Berkel',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);				
+			//Nifterlake
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Utrecht',
@@ -518,6 +589,90 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dorestadt',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Amerongen',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Zuilenburg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Woudenberg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Heemstede',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Nyenrode',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
             ]);
 			//Julich
 			//
@@ -7978,7 +8133,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None'				
+				'charter_university' => 'Scriptorium_Library'				
             ]);	
 			//Croatia
 			//Dalmatia
