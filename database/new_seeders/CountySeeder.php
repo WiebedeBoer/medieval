@@ -719,7 +719,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//42
-			//coevorden, groningen, ruinen, rolde
+			//coevorden, groningen, ruinen, rolde, wolvega, appelsche
             DB::table('counties')->insert([
 				'county_name' => 'Drenthe',
 				'county_category' => 'Feudal',
