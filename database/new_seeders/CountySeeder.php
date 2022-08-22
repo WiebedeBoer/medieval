@@ -671,7 +671,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//39
-			//aurich, marienhafe
+			//aurichove, ihlow, marienhafe
             DB::table('counties')->insert([
 				'county_name' => 'Auricherland',
 				'county_category' => 'Crowned_Republic',
@@ -698,12 +698,12 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//41
-			//jouwer, haskerhorn
+			//jouwer, haskerhorn, bakkeveen, beets
             DB::table('counties')->insert([
 				'county_name' => 'Bornegau',
 				'county_category' => 'Crowned_Republic',
@@ -712,14 +712,14 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Frisian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//42
-			//coevorden, groningen, ruinen
+			//coevorden, groningen, ruinen, rolde
             DB::table('counties')->insert([
 				'county_name' => 'Drenthe',
 				'county_category' => 'Feudal',
@@ -911,7 +911,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//54
-			//dockum, nyenhove, klaarkamp
+			//dockum, liowerd, klaarkamp, wytgaard
             DB::table('counties')->insert([
 				'county_name' => 'Oostergau',
 				'county_category' => 'Monastic_Order',
@@ -975,7 +975,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//58
-			//starum, sloten
+			//starum, sloten, hemlum
             DB::table('counties')->insert([
 				'county_name' => 'Sudergau',
 				'county_category' => 'Crowned_Republic',
@@ -1071,7 +1071,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//64
-			//froonacker, bolsward, drylts, hylpen, snits, harns
+			//froonacker, bolsward, drylts, hylpen, snits, harns, hoxwier
             DB::table('counties')->insert([
 				'county_name' => 'Westergau',
 				'county_category' => 'Crowned_Republic',

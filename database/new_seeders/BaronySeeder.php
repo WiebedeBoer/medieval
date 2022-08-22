@@ -504,6 +504,206 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None'																					
             ]);
+			//Auricherland
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Aurichove',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ihlow',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Marienhafe',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'										
+            ]);
+			//Beveland
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Goes',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Wissenkerk',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hellenburg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);			
+			//Bornegau
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Jouwer',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Haskerhorn',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bakkeveen',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Beets',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);
+			//Drenthe
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Coevorden',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);		
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Groningen',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'										
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ruinen',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'										
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rolde',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'										
+            ]);				
 			//Maasland
 			//
             DB::table('baronies')->insert([
@@ -674,6 +874,205 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None'																					
             ]);
+			//Oostergau
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dockum',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Liowerd',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Klaarkamp',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Wytgaard',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			//Sudergau
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Starum',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sloten',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hemlum',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);				
+			//Westergau
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Froonacker',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Earthwork',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bolsward',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Drylts',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hylpen',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Snits',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Earthwork',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Harns',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hoxwier',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'																					
+            ]);			
 			//Julich
 			//
 			// 
