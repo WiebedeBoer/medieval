@@ -731,7 +731,21 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None'										
-            ]);			
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Oostwold',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'										
+            ]);				
 			//Maasland
 			//
             DB::table('baronies')->insert([
