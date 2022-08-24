@@ -16727,11 +16727,11 @@ class CountySeeder extends Seeder
             ]);		
 			//Byzantine			
 			//Thrace
-			//
+			//Constantinople
 			//
 			//constantinople
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Constantinople',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -16747,7 +16747,24 @@ class CountySeeder extends Seeder
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Ergisce',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//Adrianople
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Adrianople',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -16761,26 +16778,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
-			//
+			//bergule
             DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal',
-				'de_jure_duchy' => '',
-				'vernacular_religion' => 'Orthodox_Greek',
-				'vernacular_cycle' => 'Matter_Byzantine',	
-				'vernacular_culture' => 'Greek',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Sheep'
-            ]);	
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bergule',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',

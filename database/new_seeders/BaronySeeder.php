@@ -10029,7 +10029,7 @@ class BaronySeeder extends Seeder
 				
 			//Byzantine			
 			//Thrace
-			//
+			//Constantinople
 			//
 			//
             DB::table('baronies')->insert([
@@ -10044,7 +10044,53 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Citadel',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None'						
-            ]);			
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ergisce',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//Adrianople
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Adrianople',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bergule',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Thessalonica
 			//Athens
 			

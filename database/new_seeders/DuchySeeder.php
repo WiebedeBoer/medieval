@@ -2415,7 +2415,7 @@ class DuchySeeder extends Seeder
 			//
 			//
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Constantinople',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -2427,7 +2427,7 @@ class DuchySeeder extends Seeder
 			//
 			//
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Adrianople',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
