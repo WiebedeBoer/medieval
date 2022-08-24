@@ -1001,7 +1001,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frisian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -1168,7 +1168,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//70
-			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst
+			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst, lochem
             DB::table('counties')->insert([
 				'county_name' => 'Hamaland',
 				'county_category' => 'Crowned_Republic',
