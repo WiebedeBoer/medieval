@@ -10311,7 +10311,22 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Citadel',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None'						
-            ]);				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Monemvasia',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);			
 			//Archipelago
 			
 			//Epirus

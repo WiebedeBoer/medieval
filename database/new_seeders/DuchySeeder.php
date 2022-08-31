@@ -2450,7 +2450,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Corinthia, Argos, Patras, Laconia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Peloponessos',
 				'duchy_category' => 'Feudal',

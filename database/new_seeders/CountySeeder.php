@@ -16925,9 +16925,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);			
 			//
-			//
+			//monemvasia
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Laconia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
