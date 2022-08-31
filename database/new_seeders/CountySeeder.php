@@ -16828,7 +16828,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//
-			//
+			//chalcis
             DB::table('counties')->insert([
 				'county_name' => 'Euboea',
 				'county_category' => 'Feudal',
@@ -16844,7 +16844,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//
-			//larissa, lamia, thaumace
+			//larissa, elassona, farsala
             DB::table('counties')->insert([
 				'county_name' => 'Thessaly',
 				'county_category' => 'Feudal',
@@ -16858,8 +16858,72 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//
+			//lamia, thaumace, ravenica, amphissa
+            DB::table('counties')->insert([
+				'county_name' => 'Phthia',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
             ]);				
 			//Peloponessos
+			//
+			//corinth, nemea
+            DB::table('counties')->insert([
+				'county_name' => 'Corinthia',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'Wine',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Fiber_Silk',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);
+			//
+			//argos
+            DB::table('counties')->insert([
+				'county_name' => 'Argos',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//
+			//patras
+            DB::table('counties')->insert([
+				'county_name' => 'Patras',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);			
 			//
 			//
             DB::table('counties')->insert([
@@ -16875,7 +16939,7 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
-            ]);				
+            ]);			
 			//Archipelago
 			//
 			//
