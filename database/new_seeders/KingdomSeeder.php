@@ -391,7 +391,7 @@ class KingdomSeeder extends Seeder
             ]);			
 			//Byzantine
 			//Thrace
-			//
+			//Thrace, Macedonia
 			//30
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thrace',
@@ -403,7 +403,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'palatial'				
             ]);	
 			//Thessalonica
-			//Athens, Achaea, Archipelago, Epirus
+			//Hellas, Peloponessos, Archipelago, Epirus, Thessalonica
 			//31
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thessalonica',

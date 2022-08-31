@@ -10029,7 +10029,7 @@ class BaronySeeder extends Seeder
 				
 			//Byzantine			
 			//Thrace
-			//Constantinople
+			//Thrace
 			//
 			//
             DB::table('baronies')->insert([
@@ -10060,7 +10060,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None'						
             ]);	
-			//Adrianople
+			//Macedonia
 			//
 			//
             DB::table('baronies')->insert([
@@ -10092,13 +10092,103 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None'						
             ]);				
 			//Thessalonica
-			//Athens
-			
-			//Achaea
+			//Hellas
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Athens',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Thebes',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Larissa',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lamia',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);		
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Thaumace',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
+			//Peloponessos
 			
 			//Archipelago
 			
 			//Epirus
+			
+			//Thessalonica
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Thessalonica',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None'						
+            ]);				
+			//Strymon
 			
 			//Trebizond
 			//Paphlagonia

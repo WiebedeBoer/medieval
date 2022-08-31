@@ -2413,9 +2413,9 @@ class DuchySeeder extends Seeder
 			//Byzantine		
 			//Thrace
 			//
-			//
+			//Constantinople, Ergisce
             DB::table('duchies')->insert([
-				'duchy_name' => 'Constantinople',
+				'duchy_name' => 'Thrace',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -2425,9 +2425,9 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//
+			//Adrianople, Bergule
             DB::table('duchies')->insert([
-				'duchy_name' => 'Adrianople',
+				'duchy_name' => 'Macedonia',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -2438,9 +2438,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Thessalonica
 			//
-			//
+			//Attica, Boeotia, Euboea, Thessaly
             DB::table('duchies')->insert([
-				'duchy_name' => 'Athens',
+				'duchy_name' => 'Hellas',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -2452,7 +2452,7 @@ class DuchySeeder extends Seeder
 			//
 			//
             DB::table('duchies')->insert([
-				'duchy_name' => 'Achaea',
+				'duchy_name' => 'Peloponessos',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -2484,7 +2484,31 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
-            ]);			
+            ]);		
+			//
+			//Thessalonica
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Thessalonica',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => 'Stone_Romanesque',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Serres, Christoupolis
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Strymon',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => 'Stone_Romanesque',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Trebizond
 			//
 			//
