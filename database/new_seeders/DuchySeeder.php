@@ -2462,7 +2462,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Chios
             DB::table('duchies')->insert([
 				'duchy_name' => 'Archipelago',
 				'duchy_category' => 'Feudal',
@@ -2474,7 +2474,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Naupaktos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Epirus',
 				'duchy_category' => 'Feudal',
@@ -2511,7 +2511,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//Trebizond
 			//
-			//
+			//Germanicopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Paphlagonia',
 				'duchy_category' => 'Feudal',
@@ -2523,7 +2523,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Amasia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Armeniac',
 				'duchy_category' => 'Feudal',
@@ -2535,7 +2535,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Trapezus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chaldia',
 				'duchy_category' => 'Feudal',
@@ -2547,7 +2547,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Chersonesus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Crimea',
 				'duchy_category' => 'Feudal',
@@ -2560,7 +2560,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//Anatolia
 			//
-			//
+			//Sardes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thracesia',
 				'duchy_category' => 'Feudal',
@@ -2572,7 +2572,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Ancyra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bucellaria',
 				'duchy_category' => 'Feudal',
@@ -2584,7 +2584,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Iconium
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anatolia',
 				'duchy_category' => 'Feudal',
@@ -2596,7 +2596,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Caesarea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cappadocia',
 				'duchy_category' => 'Feudal',
@@ -2608,7 +2608,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Seleucea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Seleucia',
 				'duchy_category' => 'Feudal',
@@ -2620,7 +2620,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Cyzicus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Opsicia',
 				'duchy_category' => 'Feudal',
@@ -2644,7 +2644,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Rhodes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lycia',
 				'duchy_category' => 'Feudal',
@@ -2656,7 +2656,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Attaleia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pamphylia',
 				'duchy_category' => 'Feudal',
