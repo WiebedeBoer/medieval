@@ -2632,7 +2632,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);			
 			//
-			//
+			//Nicaea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nicaea',
 				'duchy_category' => 'Feudal',
@@ -2669,7 +2669,7 @@ class DuchySeeder extends Seeder
             ]);							
 			//Georgia
 			//
-			//
+			//Phasis, Pityus, Imereti
             DB::table('duchies')->insert([
 				'duchy_name' => 'Colchis',
 				'duchy_category' => 'Feudal',
@@ -2681,7 +2681,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//
+			//Akhalkalaki
             DB::table('duchies')->insert([
 				'duchy_name' => 'Javakheti',
 				'duchy_category' => 'Feudal',
@@ -2693,7 +2693,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Bolnisi, Tiblisi, Rustavi, Gori
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kartli',
 				'duchy_category' => 'Feudal',
@@ -2705,7 +2705,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//
+			//Telavi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kakheti',
 				'duchy_category' => 'Feudal',
@@ -2718,7 +2718,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//Armenia
 			//
-			//
+			//Van
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vaspurakan',
 				'duchy_category' => 'Feudal',
@@ -2730,7 +2730,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Acilisene, Karapet
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taron',
 				'duchy_category' => 'Feudal',
@@ -2742,7 +2742,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Kars
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kars',
 				'duchy_category' => 'Feudal',
@@ -2979,9 +2979,9 @@ class DuchySeeder extends Seeder
 			//Bulgaria
 			//Bulgaria
 			//
-			//
+			//Preslav
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Preslav',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '42',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -2991,9 +2991,9 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);		
 			//
-			//
+			//Tarnovo
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Tarnovo',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '42',	
 				'law_succession' => 'Salic_Primogeniture',
@@ -3004,7 +3004,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//Wallachia
 			//
-			//
+			//Targoviste
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wallachia',
 				'duchy_category' => 'Feudal',
@@ -3016,7 +3016,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Suceava
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moldavia',
 				'duchy_category' => 'Feudal',
@@ -3030,7 +3030,7 @@ class DuchySeeder extends Seeder
 			//Serbia
 			//Serbia
 			//
-			//
+			//Rashka
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rashka',
 				'duchy_category' => 'Feudal',
@@ -3055,7 +3055,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//Bosnia
 			//
-			//
+			//Srebrenik
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bosnia',
 				'duchy_category' => 'Feudal',
@@ -3289,8 +3289,9 @@ class DuchySeeder extends Seeder
 			//Almohad
 			//Marrakesh
 			//
+			//Marrakesh, Safi
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Marrakesh',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3301,8 +3302,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Fez
 			//
+			//Fez, Meknes
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Fez',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3313,8 +3315,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Kairouan
 			//
+			//Kairouan,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Kairouan',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3325,8 +3328,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Tlemcen
 			//
+			//Tlemcen,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Tlemcen',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3337,8 +3341,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Ifni
 			//
+			//Ifni,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Ifni',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3349,8 +3354,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Figuig
 			//
+			//Figuig,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Figuig',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3362,8 +3368,9 @@ class DuchySeeder extends Seeder
 			//Abbasid
 			//Baghdad
 			//
+			//Baghdad,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Baghdad',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3373,9 +3380,11 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//Syria
+			//Damascus
 			//
+			//Damascus,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Damascus',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3386,8 +3395,9 @@ class DuchySeeder extends Seeder
             ]);			
 			//Najd
 			//
+			//Najd,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Najd',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3398,8 +3408,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Antioch
 			//
+			//Antioch,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Antioch',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3411,8 +3422,9 @@ class DuchySeeder extends Seeder
 			//Fatimid
 			//Cairo
 			//
+			//Cairo,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Cairo',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3423,8 +3435,9 @@ class DuchySeeder extends Seeder
             ]);	
 			//Jerusalem
 			//
+			//Jerusalem,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Jerusalem',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3435,8 +3448,9 @@ class DuchySeeder extends Seeder
             ]);				
 			//Hejaz
 			//
+			//Hejaz,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Hejaz',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3447,10 +3461,10 @@ class DuchySeeder extends Seeder
             ]);				
 			//Khazar
 			//Khazaria
-			//Aqtobe
 			//
+			//Aqtobe,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Aqtobe',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3459,10 +3473,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Sarkel
 			//
+			//Sarkel,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Sarkel',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3471,10 +3485,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Atil
 			//
+			//Atil,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Atil',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3483,10 +3497,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Bolghar
 			//
+			//Bolghar,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Bolghar',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3495,10 +3509,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Bilar
 			//
+			//Bilar,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Bilar',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3508,10 +3522,10 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//Alania
-			//Derbent
 			//
+			//Derbent,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Derbent',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3520,10 +3534,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Azov
 			//
+			//Azov,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Azov',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3533,10 +3547,10 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//Cumania
-			//Sighnaq
 			//
+			//Sighnaq,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Sighnaq',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3545,10 +3559,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Sozak
 			//
+			//Sozak,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Sozak',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3557,10 +3571,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
-			//Sibir
 			//
+			//Sibir,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Sibir',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3572,8 +3586,9 @@ class DuchySeeder extends Seeder
 			//Seljuk
 			//Kwarezm
 			//
+			//Gurganj,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Gurganj',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3584,8 +3599,9 @@ class DuchySeeder extends Seeder
             ]);
 			//Isfahan
 			//
+			//Isfahan,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Isfahan',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
@@ -3596,8 +3612,9 @@ class DuchySeeder extends Seeder
             ]);			
 			//Hormuz
 			//
+			//Hormuz,
             DB::table('duchies')->insert([
-				'duchy_name' => '',
+				'duchy_name' => 'Hormuz',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',

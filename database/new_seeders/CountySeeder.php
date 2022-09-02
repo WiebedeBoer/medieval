@@ -17494,7 +17494,39 @@ class CountySeeder extends Seeder
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Phasis',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Pityus',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);
+			//
+			//kutaisi, gelati
+            DB::table('counties')->insert([
+				'county_name' => 'Imereti',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17508,9 +17540,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
+			//batumi
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Batumi',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17525,9 +17557,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Javakheti
 			//
-			//
+			//akhalkalaki
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Akhalkalaki',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17558,9 +17590,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Kartli
 			//
-			//
+			//bolnisi
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bolnisi',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17574,9 +17606,41 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
+			//tiblisi
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tiblisi',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//rustavi
+            DB::table('counties')->insert([
+				'county_name' => 'Rustavi',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',	
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//gori
+            DB::table('counties')->insert([
+				'county_name' => 'Gori',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17591,16 +17655,16 @@ class CountySeeder extends Seeder
             ]);				
 			//Kakheti
 			//
-			//
+			//telavi, ikalto
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Telavi',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',	
 				'vernacular_culture' => 'Georgian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -17625,9 +17689,9 @@ class CountySeeder extends Seeder
 			//Armenia
 			//Vaspurakan
 			//
-			//
+			//van
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Van',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17658,9 +17722,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Taron
 			//
-			//
+			//acilisene
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Acilisene',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17674,9 +17738,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
+			//karapet
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Karapet',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17691,9 +17755,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Kars
 			//
-			//
+			//kars
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Kars',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17707,9 +17771,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
+			//ani
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Ani',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17724,9 +17788,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Azerbaijan
 			//
-			//
+			//baku
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Baku',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18677,10 +18741,11 @@ class CountySeeder extends Seeder
             ]);			
 			//Bulgaria
 			//Bulgaria
+			//Preslav
 			//
-			//
+			//preslav
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Preslav',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
@@ -18692,11 +18757,12 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
-            ]);		
+            ]);
+			//Tarnovo
 			//
-			//
+			//tarnovo
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tarnovo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
@@ -18712,9 +18778,9 @@ class CountySeeder extends Seeder
 			//Wallachia
 			//Wallachia
 			//
-			//
+			//targoviste
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Targoviste',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
@@ -18745,9 +18811,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Moldavia
 			//
-			//
+			//suceava
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Suceava',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
@@ -18780,9 +18846,9 @@ class CountySeeder extends Seeder
 			//Serbia
 			//Rashka
 			//
-			//
+			//ras, studenica
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Rashka',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Serbian',
@@ -18814,9 +18880,9 @@ class CountySeeder extends Seeder
 			//Bosnia
 			//Bosnia
 			//
-			//
+			//srebrenik
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Srebrenik',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Serbian',
@@ -20149,9 +20215,9 @@ class CountySeeder extends Seeder
 			//Almohad
 			//Marrakesh
 			//
-			//
+			//marrakesh
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Marrakesh',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20165,9 +20231,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//
-			//
+			//safi
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Safi',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20182,9 +20248,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Fez
 			//
-			//
+			//fez
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Fez',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20198,9 +20264,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//
-			//
+			//meknes
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Meknes',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20214,10 +20280,11 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);				
 			//Kairouan
+			//Kairouan
 			//
-			//
+			//kairouan
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Kairouan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20230,10 +20297,11 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
+			//Tunis
 			//
-			//
+			//tunis
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tunis',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20248,9 +20316,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Tlemcen
 			//
-			//
+			//tlemcen
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tlemcen',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20259,7 +20327,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Gold',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -20281,9 +20349,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Ifni
 			//
-			//
+			//ifni
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Ifni',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20314,9 +20382,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Figuig
 			//
-			//
+			//figuig
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Figuig',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20348,9 +20416,9 @@ class CountySeeder extends Seeder
 			//Abbasid
 			//Baghdad
 			//
-			//
+			//baghdad
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Baghdad',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20380,19 +20448,20 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
 			//Syria
+			//Damascus
 			//
-			//
+			//damascus
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Damascus',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Levant',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -20413,10 +20482,11 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);			
 			//Najd
+			//Najd
 			//
-			//
+			//kharj
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Kharj',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20446,10 +20516,11 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);			
 			//Antioch
+			//Antioch
 			//
-			//
+			//antioch
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Antioch',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
@@ -20480,10 +20551,11 @@ class CountySeeder extends Seeder
             ]);				
 			//Fatimid
 			//Cairo
+			//Cairo
 			//
-			//
+			//cairo
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Cairo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20496,10 +20568,11 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
+			//Alexandria
 			//
-			//
+			//alexandria
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Alexandria',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20513,10 +20586,11 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//Jerusalem
+			//Jerusalem
 			//
-			//
+			//jerusalem
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Jerusalem',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20546,10 +20620,11 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
 			//Hejaz
+			//Hejaz
 			//
-			//
+			//mecca
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Mecca',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20563,9 +20638,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);		
 			//
-			//
+			//medina
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Medina',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20582,15 +20657,15 @@ class CountySeeder extends Seeder
 			//Khazaria
 			//Aqtobe
 			//
-			//
+			//aqtobe
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Aqtobe',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_culture' => 'Turkic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -20615,9 +20690,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Sarkel
 			//
-			//
+			//sarkel
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Sarkel',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20648,15 +20723,15 @@ class CountySeeder extends Seeder
             ]);			
 			//Atil
 			//
-			//
+			//atil
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Atil',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',	
 				'vernacular_culture' => 'Turkic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -20681,9 +20756,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Bolghar
 			//
-			//
+			//bolghar
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bolghar',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20714,15 +20789,15 @@ class CountySeeder extends Seeder
             ]);				
 			//Bilar
 			//
-			//
+			//bilar
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bilar',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Turk',
 				'vernacular_culture' => 'Turkic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -20748,9 +20823,9 @@ class CountySeeder extends Seeder
 			//Alania
 			//Derbent
 			//
-			//
+			//derbent
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Derbent',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20781,9 +20856,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Azov
 			//
-			//
+			//azov
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Azov',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20815,9 +20890,9 @@ class CountySeeder extends Seeder
 			//Cumania
 			//Sighnaq
 			//
-			//
+			//sighnaq
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Sighnaq',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20848,9 +20923,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Sozak
 			//
-			//
+			//sozak
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Sozak',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20881,9 +20956,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Sibir
 			//
-			//
+			//qashliq
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Sibir',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20914,10 +20989,11 @@ class CountySeeder extends Seeder
             ]);				
 			//Seljuk
 			//Kwarezm
+			//Gurganj
 			//
-			//
+			//gurganj
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Gurganj',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
@@ -20948,9 +21024,9 @@ class CountySeeder extends Seeder
             ]);
 			//Isfahan
 			//
-			//
+			//isfahan
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Isfahan',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
@@ -20981,9 +21057,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Hormuz
 			//
-			//
+			//hormuz
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Hormuz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',

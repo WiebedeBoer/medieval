@@ -10618,22 +10618,282 @@ class BaronySeeder extends Seeder
             ]);									
 			//Georgia
 			//Colchis
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Phasis',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pityus',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kutaisi',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gelati',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Batumi',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Javakheti
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Akhalkalaki',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Kartli
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bolnisi',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tiblisi',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rustavi',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gori',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Kakheti
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Telavi',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ikalto',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Monastic_School'						
+            ]);				
 			//Armenia
 			//Vaspurakan
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Van',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Taron
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Acilisene',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Karapet',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);				
 			//Kars
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kars',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ani',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);			
 			//Azerbaijan
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Baku',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Kievan Rus
 			//Kiev
 			//Kiev 
@@ -11294,21 +11554,120 @@ class BaronySeeder extends Seeder
             ]);			
 			//Bulgaria
 			//Bulgaria
-			
+			//Preslav
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Preslav',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);	
+			//Tarnovo
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tarnovo',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Patriarch',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Wallachia
 			//Wallachia
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Targoviste',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);			
 			//Moldavia
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Suceava',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Serbia
 			//Serbia
 			//Rashka
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ras',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Studenica',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library'						
+            ]);				
 			//Bosnia
-			//Bosnia
-			
-			
-			
+			//Bosnia		
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Srebrenik',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'						
+            ]);				
 			//Cordoba
 			//Andalucia
 			//Arcos
@@ -11686,63 +12045,516 @@ class BaronySeeder extends Seeder
             ]);
 			//Almohad
 			//Marrakesh
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Marrakesh',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Cathedral_School'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Safi',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None'				
+            ]);			
 			//Fez
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Fez',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'Cathedral_School'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Meknes',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'Cathedral_School'				
+            ]);				
 			//Kairouan
-			
+			//Kairouan
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kairouan',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'				
+            ]);	
+			//Tunis
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tunis',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School'				
+            ]);				
 			//Tlemcen
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tlemcen',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School'				
+            ]);				
 			//Ifni
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ifni',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Figuig
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Figuig',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'				
+            ]);			
 			//Abbasid
 			//Baghdad
-			
+			//Baghdad
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Baghdad',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Cathedral_School'				
+            ]);				
 			//Syria
-			
+			//Damascus
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Damascus',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Cathedral_School'				
+            ]);				
 			//Najd
-			
+			//Najd
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kharj',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);			
 			//Antioch
-			
+			//Antioch
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Antioch',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Patriarch',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Fatimid
 			//Cairo
-
+			//Cairo
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cairo',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);
+			//Alexandria
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Alexandria',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Patriarch',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);
 			//Jerusalem
-			
+			//Jerusalem
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Jerusalem',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None'				
+            ]);			
 			//Hejaz
-			
+			//Hejaz
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mecca',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Patriarch',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Medina',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None'				
+            ]);				
 			//Khazar
 			//Khazaria
 			//Aqtobe
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Aqtobe',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Sarkel
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sarkel',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Atil
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Atil',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'				
+            ]);				
 			//Bolghar
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bolghar',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Bilar
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bilar',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);					
 			//Alania
 			//Derbent
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Derbent',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);			
 			//Azov
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Azov',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Cumania
 			//Sighnaq
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sighnaq',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Sozak
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sozak',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Sibir
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Qashliq',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Seljuk
 			//Kwarezm
-
+			//Gurganj
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gurganj',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);
 			//Isfahan
-			
+			//Isfahan
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Isfahan',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Royal_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School'				
+            ]);			
 			//Hormuz
+			//Hormuz
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hormuz',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
 			
     }
 }
