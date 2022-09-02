@@ -3392,7 +3392,31 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'altitude' => 'Montane'				
-            ]);			
+            ]);	
+			//
+			//Aleppo,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Jabal',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Steppe',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Homs,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Homs',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Najd
 			//
 			//Najd,
@@ -3597,6 +3621,18 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Desert_Oasis',	
 				'altitude' => 'Montane'				
             ]);
+			//
+			//Khiva,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Khiva',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Persian',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);
 			//Isfahan
 			//
 			//Isfahan,
@@ -3612,7 +3648,7 @@ class DuchySeeder extends Seeder
             ]);			
 			//Hormuz
 			//
-			//Hormuz,
+			//Hormuz, Minab, Bandar, Lengeh
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hormuz',
 				'duchy_category' => 'Feudal',
@@ -3622,7 +3658,19 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'altitude' => 'Montane'				
-            ]);			
+            ]);	
+			//
+			//Kerman, Bam, Rafsinjan
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Kerman',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Persian',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);				
 			
     }
 }

@@ -821,7 +821,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//Seljuk
 			//Kwarezm
-			//Gurganj,
+			//Gurganj, Khiva
 			//65
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kwarezm',
@@ -845,7 +845,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'sarai'				
             ]);	
 			//Hormuz
-			//Hormuz,
+			//Hormuz, Kerman
 			//67
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Hormuz',

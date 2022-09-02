@@ -20465,22 +20465,40 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
+			//Jabal
 			//
-			//
+			//aleppo
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Aleppo',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Levant',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
-            ]);			
+            ]);
+			//Homs
+			//
+			//homs
+            DB::table('counties')->insert([
+				'county_name' => 'Homs',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Fiber_Silk',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);				
 			//Najd
 			//Najd
 			//
@@ -21006,10 +21024,11 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);
+			//Khiva
 			//
-			//
+			//khiva
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Khiva',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
@@ -21056,6 +21075,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
 			//Hormuz
+			//Hormuz
 			//
 			//hormuz
             DB::table('counties')->insert([
@@ -21073,9 +21093,9 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
+			//minab
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Minab',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',
@@ -21085,6 +21105,87 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//bandar
+            DB::table('counties')->insert([
+				'county_name' => 'Bandar',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//lengeh
+            DB::table('counties')->insert([
+				'county_name' => 'Lengeh',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//Kerman
+			//
+			//kerman, mahan
+            DB::table('counties')->insert([
+				'county_name' => 'Kerman',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//bam, rayen
+            DB::table('counties')->insert([
+				'county_name' => 'Bam',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Fiber_Silk',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//rafsinjan, bayaz
+            DB::table('counties')->insert([
+				'county_name' => 'Rafsinjan',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'Copper',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
