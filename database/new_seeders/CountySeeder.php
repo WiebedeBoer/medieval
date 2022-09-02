@@ -21042,6 +21042,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//Isfahan
+			//Isfahan
 			//
 			//isfahan
             DB::table('counties')->insert([
@@ -21057,11 +21058,12 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
-            ]);		
+            ]);
+			//Shiraz
 			//
-			//
+			//shiraz
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Shiraz',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Shia',

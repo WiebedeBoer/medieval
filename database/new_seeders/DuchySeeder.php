@@ -3645,7 +3645,19 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'altitude' => 'Montane'				
-            ]);			
+            ]);	
+			//
+			//Shiraz,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Shiraz',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Persian',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);				
 			//Hormuz
 			//
 			//Hormuz, Minab, Bandar, Lengeh

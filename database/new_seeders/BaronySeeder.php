@@ -12585,7 +12585,23 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School'				
-            ]);			
+            ]);	
+			//Shiraz
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Shiraz',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'Cathedral_School'				
+            ]);				
 			//Hormuz
 			//Hormuz
 			//
