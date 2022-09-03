@@ -3293,20 +3293,68 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '49',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'altitude' => 'Montane'				
-            ]);				
+            ]);
+			//
+			//Tafilalt, Merzouga, Erfoud
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Sijilmassa',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '49',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Ouarzazate, Zagora, Tinghir
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Ouarzazate',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '49',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);
 			//Fez
 			//
 			//Fez, Meknes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fez',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '50',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Rabat, Mehdya
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Rabat',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '50',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Tangier, Tetouan, Kebir, Ouazzane
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tangier',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '50',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
@@ -3315,7 +3363,7 @@ class DuchySeeder extends Seeder
             ]);				
 			//Kairouan
 			//
-			//Kairouan,
+			//Kairouan, Tunis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',
 				'duchy_category' => 'Feudal',

@@ -624,7 +624,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//Almohad
 			//Marrakesh
-			//Marrakesh,
+			//Marrakesh, Sijilmassa, Ouarzazate
 			//49
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Marrakesh',
@@ -636,7 +636,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'			
             ]);	
 			//Fez
-			//Fez,
+			//Fez, Rabat, Tangier
 			//50
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Fez',
