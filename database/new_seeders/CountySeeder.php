@@ -20511,7 +20511,25 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
+            ]);		
+			//Djerid
+			//
+			//gafsa
+            DB::table('counties')->insert([
+				'county_name' => 'Djerid',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
             ]);				
+			//Tlemcen
 			//Tlemcen
 			//
 			//tlemcen
@@ -20528,11 +20546,12 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'Gold',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
-            ]);	
+            ]);
+			//Oujda
 			//
-			//
+			//oujda
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Oujda',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20544,7 +20563,110 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//Oran
+			//
+			//oran
+            DB::table('counties')->insert([
+				'county_name' => 'Oran',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//Algiers
+			//
+			//algiers
+            DB::table('counties')->insert([
+				'county_name' => 'Algiers',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//Tiaret
+			//
+			//tiaret
+            DB::table('counties')->insert([
+				'county_name' => 'Tiaret',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//Mzab
+			//
+			//mzab
+            DB::table('counties')->insert([
+				'county_name' => 'Mzab',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//Laghouat
+			//
+			//laghouat
+            DB::table('counties')->insert([
+				'county_name' => 'Laghouat',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//Djelfa
+			//
+			//djelfa
+            DB::table('counties')->insert([
+				'county_name' => 'Djelfa',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'Salt',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
             ]);				
+			//Ifni
 			//Ifni
 			//
 			//ifni
@@ -20560,12 +20682,45 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Cattle'
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Tiznit',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'Gems',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Stud'
+            ]);	
+			//Taroudant
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Taroudant',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'Iron',						
+				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Agadir',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20577,7 +20732,8 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
-            ]);				
+            ]);	
+			//Figuig
 			//Figuig
 			//
 			//figuig
@@ -20591,14 +20747,30 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);		
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bechar',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'Gold',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);		
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Moghrar',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
@@ -20610,7 +20782,40 @@ class CountySeeder extends Seeder
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
-            ]);			
+            ]);	
+			//Adrar
+			//
+			//adrar
+            DB::table('counties')->insert([
+				'county_name' => 'Tuat',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);		
+			//
+			//timimoun
+            DB::table('counties')->insert([
+				'county_name' => 'Ademait',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);				
 			//Abbasid
 			//Baghdad
 			//

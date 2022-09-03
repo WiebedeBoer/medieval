@@ -648,7 +648,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Kairouan
-			//Kairouan,
+			//Kairouan, Tunis, Djerid, Tripoli, Sirte
 			//51
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kairouan',
@@ -660,7 +660,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Tlemcen
-			//Tlemcen,
+			//Tlemcen, Oujda, Oran, Algiers, Tiaret, Mzab, Laghouat, Djelfa
 			//52
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Tlemcen',
@@ -672,7 +672,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'			
             ]);	
 			//Ifni
-			//Ifni,
+			//Ifni, Taroudant
 			//53
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Ifni',
@@ -684,7 +684,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Figuig
-			//Figuig,
+			//Figuig, Adrar
 			//54
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Figuig',

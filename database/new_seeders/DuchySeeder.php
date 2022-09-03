@@ -3289,7 +3289,7 @@ class DuchySeeder extends Seeder
 			//Almohad
 			//Marrakesh
 			//
-			//Marrakesh, Safi
+			//Marrakesh, Safi, Mogador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
 				'duchy_category' => 'Feudal',
@@ -3363,15 +3363,63 @@ class DuchySeeder extends Seeder
             ]);				
 			//Kairouan
 			//
-			//Kairouan, Tunis
+			//Kairouan, 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '51',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Tunis,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tunis',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '51',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Djerid,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Djerid',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '51',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Steppe',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Tripoli,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tripoli',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '51',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Steppe',	
+				'altitude' => 'Montane'				
+            ]);		
+			//
+			//Sirte,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Sirte',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '51',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
 				'altitude' => 'Montane'				
             ]);				
 			//Tlemcen
@@ -3380,37 +3428,145 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tlemcen',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Oujda,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Oujda',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Oran,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Oran',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Algiers,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Algiers',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Tiaret,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tiaret',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Mzab,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Mzab',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);				
+			//
+			//Laghouat,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Laghouat',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Djelfa,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Djelfa',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '52',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
             ]);				
 			//Ifni
 			//
-			//Ifni,
+			//Ifni, Tiznit
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ifni',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '53',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Steppe',	
 				'altitude' => 'Montane'				
-            ]);				
+            ]);	
+			//
+			//Taroudant, Agadir
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Taroudant',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '53',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Steppe',	
+				'altitude' => 'Montane'				
+            ]);			
 			//Figuig
 			//
-			//Figuig,
+			//Figuig, Bechar, Moghrar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Figuig',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '54',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Tuat, Tademait
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Adrar',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '54',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
 				'altitude' => 'Montane'				
             ]);				
 			//Abbasid

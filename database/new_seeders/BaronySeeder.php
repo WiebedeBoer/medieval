@@ -12076,6 +12076,21 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None'				
             ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mogador',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None'				
+            ]);
 			//Sijilmassa
 			//Tafilalt
 			//
@@ -12366,7 +12381,56 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School'				
+            ]);		
+			//Djerid
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gafsa',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Chancellery',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//Tripoli
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tripoli',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);		
+			//Sirte
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sirte',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
             ]);				
+			//Tlemcen
 			//Tlemcen
 			//
 			//
@@ -12382,12 +12446,44 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School'				
-            ]);				
-			//Ifni
+            ]);	
+			//Oujda
 			//
 			//
             DB::table('baronies')->insert([
-				'barony_name' => 'Ifni',
+				'barony_name' => 'Oujda',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'				
+            ]);	
+			//Oran
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Oran',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'				
+            ]);	
+			//Algiers
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Algiers',
 				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
 				'population' => '',
@@ -12398,7 +12494,135 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None'				
+            ]);	
+			//Tiaret
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tiaret',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Aljama',
+				'charter_university' => 'None'				
+            ]);	
+			//Mzab
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mzab',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Citadel',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//Laghouat
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Laghouat',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//Djelfa
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Djelfa',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
             ]);				
+			//Ifni
+			//Ifni
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ifni',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tiznit',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//Taroudant
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Taroudant',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Agadir',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
+			//Figuig
 			//Figuig
 			//
 			//
@@ -12414,7 +12638,68 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Aljama',
 				'charter_university' => 'None'				
-            ]);			
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bechar',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Moghrar',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//Adrar
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Adrar',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Timimoun',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None'				
+            ]);				
 			//Abbasid
 			//Baghdad
 			//Baghdad
