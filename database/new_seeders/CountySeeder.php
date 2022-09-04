@@ -651,7 +651,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//Frisia
 			//38
@@ -1521,7 +1521,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);
 			//92
 			//longwy, arlon, thionville, chiny
@@ -5819,7 +5819,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//358
-			//konigsberg, insterburg, angerburg, gerdauen
+			//koningsberg, insterburg, angerburg, gerdauen
             DB::table('counties')->insert([
 				'county_name' => 'Samland',
 				'county_category' => 'Ecclesiastical',
@@ -7402,7 +7402,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//456
-			//fecamp, graville
+			//fecamp, graville, tancarville
             DB::table('counties')->insert([
 				'county_name' => 'Caux',
 				'county_category' => 'Feudal',
@@ -7415,7 +7415,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);
 			//457
 			//coutances, cherbourg, hauteville, valognes, saint lo, lessay, vire, chanteloup, gratot, pirou, bricquebec, saint sauveur
@@ -7705,7 +7705,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);
 			//475
 			//montreuil, recques, agincourt
@@ -8303,7 +8303,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'Boar',
 				'marke_mines' => 'Tin',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Poultry'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//Britain
 			//Ireland
@@ -8922,7 +8922,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//550
 			//winchcombe, sudeley, hailes
@@ -8938,7 +8938,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//551
 			//worcester, bordesley, evesham, malvern, pershore
@@ -9407,7 +9407,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//580
 			//york, beverley, bridlington, bolton, coverham, fountains, ripon, selby, whitby, pontefract, helmsley, scarborough
@@ -9617,7 +9617,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);
 			//Wales
 			//Cornwall
@@ -9638,7 +9638,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//594
-			//exeter, gidleigh,, lydford, okehampton, axminster, barnstaple, buckfast, buckland, chudleigh, newenham, plymouth, tavistock, totnes
+			//exeter, gidleigh, lydford, okehampton, axminster, barnstaple, buckfast, buckland, chudleigh, newenham, plymouth, tavistock, totnes
             DB::table('counties')->insert([
 				'county_name' => 'Devonshire',
 				'county_category' => 'Feudal',
@@ -12063,7 +12063,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Poultry'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//743
 			//ponferrada, cornatel, sarracin, san pedro, balboa, san andres, bembibre, villafranca
@@ -12095,7 +12095,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Poultry'
+				'marke_animal_husbandry' => 'Stud'
             ]);
 			//745
 			//sahagun, almanza, cea
