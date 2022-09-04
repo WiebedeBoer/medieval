@@ -3576,7 +3576,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '55',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3590,7 +3590,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damascus',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '56',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3602,7 +3602,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jabal',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '56',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3614,7 +3614,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Homs',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '56',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3627,7 +3627,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Najd',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '57',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3640,7 +3640,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Antioch',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '58',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3654,20 +3654,116 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cairo',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
+			//
+			//Alexandria,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Alexandria',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Marshland',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Mansoura,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Mansoura',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Marshland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Damietta,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Damietta',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Marshland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Minya,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Minya',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Marshland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Asyut,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Asyut',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Marshland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Kharga, Dakhla
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Kharga',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Baritun, Siwa, Natrun
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Baritun',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Boula, Hammamat
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Boula',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '59',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);
 			//Jerusalem
 			//
 			//Jerusalem,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jerusalem',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '60',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
@@ -3680,7 +3776,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hejaz',
 				'duchy_category' => 'Feudal',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '61',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	

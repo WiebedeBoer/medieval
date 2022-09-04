@@ -709,7 +709,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Syria
-			//Damascus,
+			//Damascus, Aleppo, Homs
 			//56
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Syria',
@@ -746,7 +746,7 @@ class KingdomSeeder extends Seeder
             ]);				
 			//Fatimid
 			//Cairo
-			//Cairo,
+			//Cairo, Alexandria, Mansoura, Damietta, Minya, Asyut, Kharga, Baritun, Boula
 			//59
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cairo',
