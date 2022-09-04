@@ -16286,7 +16286,7 @@ class CountySeeder extends Seeder
 			//amalfi
             DB::table('counties')->insert([
 				'county_name' => 'Amalfi',
-				'county_category' => 'Feudal',
+				'county_category' => 'Crowned_Republic',
 				'de_jure_duchy' => '183',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',	
@@ -21258,7 +21258,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
 			//Hejaz
-			//Hejaz
+			//Mecca
 			//
 			//mecca
             DB::table('counties')->insert([
@@ -21272,9 +21272,42 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
-            ]);		
+            ]);
+			//
+			//jeddah, asfan
+            DB::table('counties')->insert([
+				'county_name' => 'Jeddah',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Stud'
+            ]);
+			//
+			//taif
+            DB::table('counties')->insert([
+				'county_name' => 'Taif',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Stud'
+            ]);
+			//Medina
 			//
 			//medina
             DB::table('counties')->insert([
@@ -21288,7 +21321,88 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//yanbu
+            DB::table('counties')->insert([
+				'county_name' => 'Yanbu',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//khaybar, tayma
+            DB::table('counties')->insert([
+				'county_name' => 'Khaybar',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'Salt',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//Tabuk
+			//
+			//tabuk
+            DB::table('counties')->insert([
+				'county_name' => 'Tabuk',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);	
+			//
+			//aqaba, muan
+            DB::table('counties')->insert([
+				'county_name' => 'Sharat',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
+				'marke_animal_husbandry' => 'Sheep'
+            ]);		
+			//
+			//hegra
+            DB::table('counties')->insert([
+				'county_name' => 'Hegra',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Hejaz',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
 			//Khazar

@@ -3772,9 +3772,33 @@ class DuchySeeder extends Seeder
             ]);				
 			//Hejaz
 			//
-			//Hejaz,
+			//Mecca, Jeddah, Taif
             DB::table('duchies')->insert([
-				'duchy_name' => 'Hejaz',
+				'duchy_name' => 'Mecca',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '61',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Medina, Yanbu, Khaybar
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Medina',
+				'duchy_category' => 'Feudal',
+				'de_jure_kingdom' => '61',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'altitude' => 'Montane'				
+            ]);	
+			//
+			//Tabuk, Sharat, Hegra
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tabuk',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '61',	
 				'law_succession' => 'Shura',

@@ -770,7 +770,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'divan'				
             ]);	
 			//Hejaz
-			//Hejaz,
+			//Mecca, Medina, Tabuk
 			//61
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Hejaz',
