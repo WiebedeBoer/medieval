@@ -1,0 +1,60 @@
+*city
+	-build 
+		farm (field, paddy, shed, granary)
+		ranch (field, stables)
+		camp (field, paddy, shed, granary, garrison, den) 
+		honganji (school, temple, honganji)
+		temple (sanctuary, pagoda, great temple) 
+		shrine (post store, office, pagoda, great shrine) 
+		district (office, tea house, estate, noh stage) 
+		market (post store, office, tavern, tea house, kabuki theatre, chamber) 
+		plaza (parlor, post store, tavern, kabuki theatre, bathhouse)
+		smith (post, tavern, foundry) 
+		bazaar (office, tea house, trading house, pub, cantina, pavilion, outpost)
+		colony (church, seminary, cathedral) 
+		garrison (quarters, garrison) 
+		complex (quarters, garrison, dojo)
+	-develop
+	-inspect
+	-tax
+	-donate
+	-checkpoint
+	-delegate
+	-flood
+*advance
+*military
+	-invade
+	-joint
+	-draft
+	-assign
+	-transport
+*info
+	-daimyo
+	-fiefs
+	-officers
+	-maidens
+	-items
+	-ranks
+	-titles
+*tactics
+	-spy
+	-sabotage
+	-disrupt
+	-incite
+	-rumor
+*negotiate
+	-daimyo
+	-court
+	-merchant
+*personnel
+	-governor
+	-reward
+	-bestow
+	-confiscate
+	-punish
+	-recruit
+*culture
+	-hunting grounds, 
+	-theatre, 
+	-poetry, 
+	-tea ceremonies
