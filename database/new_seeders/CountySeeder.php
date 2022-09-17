@@ -139,7 +139,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//6
-			//geisenhausen, velden
+			//geisenhausen, veldenstein
             DB::table('counties')->insert([
 				'county_name' => 'Isengau',
 				'county_category' => 'Feudal',
