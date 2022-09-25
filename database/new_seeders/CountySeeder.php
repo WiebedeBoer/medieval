@@ -1330,7 +1330,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);			
 			//80
-			//maastricht, valkenburg, thorn
+			//maastricht, borgharen, valkenburg, thorn
             DB::table('counties')->insert([
 				'county_name' => 'Maasgau',
 				'county_category' => 'Feudal',

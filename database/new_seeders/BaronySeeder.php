@@ -22,12 +22,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => '',				//Hall (125), Fortified_Glebe (6), Fortified_Abbey (145), Chancellery (109), Knight_Court (3), Manor_Court (59), County_Court (177), Royal_Court (27)				
 				'charter_assembly' => '',			//Moot, Senate, Diet, Parliament	
 				'charter_cathedral' => '',			//Chaplain, Priest, Bishop, Archbishop, Patriarch
-				'charter_market' => '',				//Square, Market_Right, Staple_Right, Fair_Right
+				'charter_market' => '',				//Square, Market_Right, Staple_Right, Fair_Right, Cloth_Hall
 				'charter_walls' => '',				//None, Earthwork, Palisade, Stronghold
 				'charter_mint' => '',				//None, Mint, Reliquary
 				'charter_university' => '',			//None, Monastic_School, Cathedral_School, Scriptorium_Library
-				'quarter_downtown' => '',			//None, Jewry, Citadel, Granary, Warehouse, Courtyard, Hospice, Almshouse
-				'quarter_suburb' => '',				//None,	Tiltyard, Hunting_Lodge, Coaching_Inn			
+				'quarter_downtown' => '',			//None, Citadel, Courtyard, Granary, Warehouse, Jewry, Hospice, Almshouse
+				'quarter_suburb' => '',				//None,	Tiltyard, Hunting_Lodge, Coaching_Inn
+				'quarter_harbor' => '',
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
@@ -571,6 +572,23 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Warehouse',			
 				'quarter_suburb' => 'Tiltyard'						
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hasselt',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Almshouse',			
+				'quarter_suburb' => 'None'							
             ]);
 			//
 			//
@@ -1479,7 +1497,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None'										
+				'quarter_suburb' => 'Coaching_Inn'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2127,7 +2145,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None'																					
+				'quarter_suburb' => 'Coaching_Inn'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -2521,6 +2539,22 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'											
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Borgharen',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'None',			
 				'quarter_suburb' => 'None'											
             ]);
 			//
