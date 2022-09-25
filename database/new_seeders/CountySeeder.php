@@ -16394,7 +16394,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_husbandry' => 'Goats'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//
 			//potenza

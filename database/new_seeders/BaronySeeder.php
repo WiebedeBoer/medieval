@@ -11700,8 +11700,25 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Tiltyard'				
             ]);			
 			//Capua
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Capua',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard'				
+            ]);			
 			//Amalfi
+			//
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Amalfi',
@@ -11719,33 +11736,6 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None'				
             ]);				
 			//Calabria
-			
-			//Basilicata
-			
-			//Taranto
-			
-			//Foggia
-			
-			//Benevento
-			
-			//Salerno
-			//
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => 'Salerno',
-				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
-				'population' => '',
-				'charter_castle' => 'County_Court',	
-				'charter_assembly' => 'Diet',
-				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Staple_Right',
-				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'Reliquary',
-				'charter_university' => 'None',
-				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None'				
-            ]);	
 			//Catanzaro
 			//
             DB::table('baronies')->insert([
@@ -11794,14 +11784,389 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'None'				
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cosenza',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard'				
+            ]);		
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Crotone',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard'				
+            ]);		
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Reggio',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard'				
             ]);				
+			//Basilicata
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Matera',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Potenza',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);			
+			//Taranto
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Taranto',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bari',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Brindisi',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lecce',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);				
+			//Foggia
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Foggia',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);			
+			//Benevento
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Benevento',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Jewry',			
+				'quarter_suburb' => 'None'				
+            ]);			
+			//Salerno
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Salerno',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Diet',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);					
 			//Sardinia
 			//Gallura
-			
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Olbia',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Warehouse',			
+				'quarter_suburb' => 'None'				
+            ]);				
 			//Logudoro (torres)
-			
-			//Arborea		
-				
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Torres',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sassari',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Warehouse',			
+				'quarter_suburb' => 'None'				
+            ]);				
+			//Arborea
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Oristano',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sanluri',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//Cagliari
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cagliari',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Archbishop',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//Oglistria
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tortoli',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Staple_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Nuoro',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//Sarrabus
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Castiadas',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Warehouse',			
+				'quarter_suburb' => 'None'				
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'San Vito',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None'				
+            ]);				
 			//Byzantine			
 			//Thrace
 			//Thrace
