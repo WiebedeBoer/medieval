@@ -397,7 +397,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//22
-			//sant paul, sankt andra
+			//sankt paul, sankt andra
             DB::table('counties')->insert([
 				'county_name' => 'Lavanttal',
 				'county_category' => 'Feudal',
