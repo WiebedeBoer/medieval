@@ -606,7 +606,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//35
-			//heilbronn, weinsberg, ellhofen, ohringen, hall
+			//heilbronn, weinsberg, ellhofen, ohringen, hall, hohenstein
             DB::table('counties')->insert([
 				'county_name' => 'Sulmgau',
 				'county_category' => 'Feudal',
@@ -908,7 +908,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//54
 			//dockum, liowerd, klaarkamp, wytgaard, mariengaard
@@ -943,7 +943,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//56
-			//nordenham, rodekirchen, langwarden
+			//nordenham, rodenkirchen, langwarden
             DB::table('counties')->insert([
 				'county_name' => 'Rustringen',
 				'county_category' => 'Crowned_Republic',
@@ -1007,7 +1007,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//60
-			//oldenzaal, enschede, almelo
+			//oldenzaal, enschede, almelo, ottenstein
             DB::table('counties')->insert([
 				'county_name' => 'Twente',
 				'county_category' => 'Crowned_Republic',
