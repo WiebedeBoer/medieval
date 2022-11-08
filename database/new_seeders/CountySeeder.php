@@ -1298,7 +1298,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//78
-			//dinant, huy
+			//dinant, poilvache, huy
             DB::table('counties')->insert([
 				'county_name' => 'Condrustgau',
 				'county_category' => 'Feudal',
