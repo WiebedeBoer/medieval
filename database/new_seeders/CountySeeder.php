@@ -703,7 +703,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//41
-			//jouwer, haskerhorn, bakkeveen, beets
+			//jouwer, haskerhorn, bakkeveen, beets, oudeschoot
             DB::table('counties')->insert([
 				'county_name' => 'Bornegau',
 				'county_category' => 'Crowned_Republic',
@@ -831,7 +831,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//49
-			//haarlem, alkmaar, amsterdam, edam, purmerstein
+			//haarlem, alkmaar, amsterdam, edam, purmerstein, brederode
             DB::table('counties')->insert([
 				'county_name' => 'Kennemerland',
 				'county_category' => 'Feudal',
@@ -863,7 +863,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);				
 			//51
-			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode
+			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode, vianen
             DB::table('counties')->insert([
 				'county_name' => 'Nifterlake',
 				'county_category' => 'Ecclesiastical',
