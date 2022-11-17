@@ -1956,7 +1956,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'None'							
             ]);
 			//
@@ -2926,6 +2926,23 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'quarter_harbor' => 'None'																					
             ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Woerden',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '51',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'																					
+            ]);
 			//Norderland
 			// 
             DB::table('baronies')->insert([
@@ -3874,6 +3891,40 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'quarter_harbor' => 'None'																					
             ]);	
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Boksum',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '54',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'																					
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lidlum',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '54',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'																					
+            ]);
 			//Westflinge
 			// 
             DB::table('baronies')->insert([
@@ -4082,7 +4133,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'quarter_harbor' => 'None'										
             ]);
-			//
+			//Betuwe
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Nymegen',
@@ -4669,7 +4720,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'None'										
             ]);	
 			//
@@ -4686,7 +4737,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'None'										
             ]);
 			//Condrustgau
@@ -4931,7 +4982,25 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'None',
 				'quarter_harbor' => 'None'								
-            ]);				
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bitche',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '81',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'								
+            ]);			
 			//
 			//
             DB::table('baronies')->insert([

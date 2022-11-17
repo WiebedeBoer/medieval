@@ -863,7 +863,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);				
 			//51
-			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode, vianen
+			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode, vianen, woerden
             DB::table('counties')->insert([
 				'county_name' => 'Nifterlake',
 				'county_category' => 'Ecclesiastical',
@@ -1071,7 +1071,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//64
-			//froonacker, bolsward, drylts, hylpen, snits, harns, hoxwier
+			//froonacker, bolsward, drylts, hylpen, snits, harns, hoxwier, boksum, lidlum
             DB::table('counties')->insert([
 				'county_name' => 'Westergau',
 				'county_category' => 'Crowned_Republic',
