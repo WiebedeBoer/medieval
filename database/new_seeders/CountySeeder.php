@@ -1443,7 +1443,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//87
-			//toul, ochey, nancy
+			//toul, ochey, nancy, clairlieu
             DB::table('counties')->insert([
 				'county_name' => 'Toullois',
 				'county_category' => 'Ecclesiastical',
@@ -1524,7 +1524,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//92
-			//longwy, arlon, thionville, chiny
+			//longwy, arlon, thionville, chiny, clairefontaine
             DB::table('counties')->insert([
 				'county_name' => 'Wavergau',
 				'county_category' => 'Feudal',
