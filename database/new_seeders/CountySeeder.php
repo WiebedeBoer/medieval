@@ -1541,7 +1541,7 @@ class CountySeeder extends Seeder
             ]);
 			//Saxony
 			//93
-			//luneburg, bardowick, emmendorf
+			//luneburg, bardowick, emmendorf, uelzen
             DB::table('counties')->insert([
 				'county_name' => 'Bardengau',
 				'county_category' => 'Feudal',
@@ -1573,7 +1573,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//95
-			//hildesheim, poppenburg
+			//hildesheim, poppenburg, amelungsborn
             DB::table('counties')->insert([
 				'county_name' => 'Eastfalagau',
 				'county_category' => 'Ecclesiastical',
@@ -1600,12 +1600,12 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//97
-			//gandersheim, westerhof
+			//gandersheim, westerhof, willershausen, lamspringe
             DB::table('counties')->insert([
 				'county_name' => 'Gudingau',
 				'county_category' => 'Feudal',
@@ -1654,7 +1654,7 @@ class CountySeeder extends Seeder
             ]);
 			//Styria
 			//100
-			//linz, wels, styraburg, kremsmunster
+			//linz, wels, styraburg, kremsmunster, lambach
             DB::table('counties')->insert([
 				'county_name' => 'Traungau',
 				'county_category' => 'Feudal',
@@ -1670,7 +1670,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//101
-			//sankt george, sankt margarethen
+			//sankt george, sankt margarethen, moosham
             DB::table('counties')->insert([
 				'county_name' => 'Attergau',
 				'county_category' => 'Feudal',
