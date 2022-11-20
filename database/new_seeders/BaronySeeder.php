@@ -3458,7 +3458,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Hunting_Lodge',
 				'quarter_harbor' => 'None'																					
             ]);	
 			// 
@@ -3509,7 +3509,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Hunting_Lodge',
 				'quarter_harbor' => 'None'																					
             ]);	
 			// 
@@ -6181,12 +6181,12 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'quarter_harbor' => 'None'											
             ]);
-			// 
+			//Norital 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Brixen',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '104',
 				'population' => '',
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
@@ -6195,6 +6195,92 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'											
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bolzano',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '104',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'											
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Merano',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '104',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Warehouse',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'											
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tirol',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '104',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'quarter_harbor' => 'None'											
+            ]);
+			//Vinschgau
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sankt Moritz',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '105',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'None',
+				'quarter_harbor' => 'None'											
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Schlandersberg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '105',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'None',
 				'quarter_harbor' => 'None'											

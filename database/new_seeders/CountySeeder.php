@@ -1629,7 +1629,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
@@ -1645,7 +1645,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
@@ -1718,7 +1718,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);				
 			//104
-			//brixen, bolzano, merano
+			//brixen, bolzano, merano, tirol
             DB::table('counties')->insert([
 				'county_name' => 'Norital',
 				'county_category' => 'Ecclesiastical',
@@ -1728,7 +1728,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bavarian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Falconry',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
