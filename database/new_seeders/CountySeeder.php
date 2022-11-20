@@ -1905,7 +1905,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swabian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -1943,7 +1943,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//118
-			//mulhausen, kolmar, murbach
+			//mulhausen, kolmar, murbach, lichtenberg
             DB::table('counties')->insert([
 				'county_name' => 'Sundgau',
 				'county_category' => 'Feudal',
