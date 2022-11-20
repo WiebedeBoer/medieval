@@ -1760,14 +1760,14 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Swabian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//107
-			//kempten, sulzberg
+			//kempten, sulzberg, wagegg, finkelsburg, rettenberg, sankt ulrich
             DB::table('counties')->insert([
 				'county_name' => 'Albegau',
 				'county_category' => 'Monastic_Order',
@@ -1799,7 +1799,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//109
-			//freiburg, zahringen, basel, roggenburg, muttenz
+			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel
             DB::table('counties')->insert([
 				'county_name' => 'Breisgau',
 				'county_category' => 'Ecclesiastical',
@@ -1815,7 +1815,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//110
-			//chur, disentis, feldkirchen, bludenz, sankt george
+			//chur, disentis, feldkirchen, bludenz, sankt george, sonnenberg
             DB::table('counties')->insert([
 				'county_name' => 'Churgau',
 				'county_category' => 'Ecclesiastical',
