@@ -1573,7 +1573,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//95
-			//hildesheim, poppenburg, amelungsborn
+			//hildesheim, poppenburg
             DB::table('counties')->insert([
 				'county_name' => 'Eastfalagau',
 				'county_category' => 'Ecclesiastical',
@@ -2169,7 +2169,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//132
-			//arnsberg, soest, warstein
+			//arnsberg, soest, warstein, wedinghausen, marsfelde, herdringen, furstenberg
             DB::table('counties')->insert([
 				'county_name' => 'Angerngau',
 				'county_category' => 'Feudal',
@@ -2180,12 +2180,12 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//133
-			//corvey, hoxter, amelungsborn, holzminden
+			//corvey, hoxter, amelungsborn, holzminden, everstein
             DB::table('counties')->insert([
 				'county_name' => 'Augau',
 				'county_category' => 'Monastic_Order',
@@ -2209,7 +2209,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -2233,7 +2233,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//136
-			//minden, petershagen, schlusselburg
+			//minden, petershagen, schlusselburg, hausberge, rahden, reineburg
             DB::table('counties')->insert([
 				'county_name' => 'Dervegau',
 				'county_category' => 'Ecclesiastical',
@@ -2242,7 +2242,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -2258,7 +2258,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -2281,7 +2281,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//139
-			//tecklenburg, scapheim, cloppenburg
+			//tecklenburg, scapheim, cloppenburg, krapendorf
             DB::table('counties')->insert([
 				'county_name' => 'Hasegau',
 				'county_category' => 'Feudal',
@@ -2290,7 +2290,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -2305,9 +2305,12 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Pigs'
+				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//141
 			//niemunster, rendsburg, reinfeld
