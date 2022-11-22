@@ -2249,7 +2249,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//137
-			//lippstadt, greven, lunen
+			//lippstadt, greven, lunen, nienburg
             DB::table('counties')->insert([
 				'county_name' => 'Dreingau',
 				'county_category' => 'Feudal',
@@ -2329,7 +2329,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//142
-			//gottingen, nienburg
+			//gottingen, leineberg 
             DB::table('counties')->insert([
 				'county_name' => 'Leinegau',
 				'county_category' => 'Feudal',
@@ -2361,7 +2361,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//144
-			//paderborn, salzkotten, wewer
+			//paderborn, salzkotten, wewer, hardehausen, warburg
             DB::table('counties')->insert([
 				'county_name' => 'Padergau',
 				'county_category' => 'Ecclesiastical',
