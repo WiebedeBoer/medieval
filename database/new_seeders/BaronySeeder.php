@@ -19,16 +19,16 @@ class BaronySeeder extends Seeder
 				'barony_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager				
 				'de_jure_county' => '',
 				'population' => '',	
-				'charter_castle' => '',				//Hall (125), Fortified_Glebe (6), Fortified_Abbey (145), Chancellery (109), Knight_Court (3), Manor_Court (59), County_Court (177), Royal_Court (27)				
-				'charter_assembly' => '',			//Moot, Senate, Diet, Parliament	
-				'charter_cathedral' => '',			//Chaplain, Priest, Bishop, Archbishop, Patriarch
+				'charter_castle' => '',				//Hall (242), Fortified_Glebe (9), Fortified_Abbey (229), Chancellery (113), Knight_Court (40), Manor_Court (234), County_Court (362), Royal_Court (40)				
+				'charter_assembly' => '',			//Moot (374), Senate (833), Diet (53), Parliament (8)	
+				'charter_cathedral' => '',			//Chaplain (118), Priest (594), Bishop (458), Archbishop (92), Patriarch (6)
 				'charter_market' => '',				//Square, Market_Right, Fair_Right, Cloth_Hall
 				'charter_walls' => '',				//None, Earthwork, Palisade, Stronghold
 				'charter_mint' => '',				//None, Mint, Reliquary
 				'charter_university' => '',			//None, Monastic_School, Cathedral_School, Scriptorium_Library
-				'quarter_downtown' => '',			//None, Citadel, Courtyard, Granary, Warehouse, Jewry, Hospice, Almshouse
-				'quarter_suburb' => '',				//None,	Tiltyard, Hunting_Lodge, Coaching_Inn
-				'quarter_harbor' => '',				//None, Staple_Port, Arsenal
+				'quarter_downtown' => '',			//Citadel, Courtyard, Hospice, Almshouse, Granary, Merchant_Quarter, Jewry_Quarter 
+				'quarter_suburb' => '',				//Tiltyard, Hunting_Lodge, Coaching_Inn, Smithy, Tannery, Forester
+				'quarter_harbor' => '',				//Stockpile, Warehouse_Quarter, Staple_Port, Arsenal
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
@@ -44,9 +44,9 @@ class BaronySeeder extends Seeder
 			*/
 
 
-			//Holy Roman Empire	
-			//Germany
-			//Austria
+			//Holy Roman Empire, Empire	
+			//Germany, Kingdom
+			//Austria, Duchy
 			//Grunsweit 
 			//
             DB::table('baronies')->insert([
@@ -62,8 +62,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79,8 +79,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -96,8 +96,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Ostmark 
 			//
@@ -114,8 +114,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -131,8 +131,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -148,8 +148,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -164,9 +164,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Vienna
 			//
@@ -182,9 +182,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -200,8 +200,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -218,9 +218,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Stockpile'						
             ]);
-			//Bavaria
+			//Bavaria, Duchy
 			//Donaugau 
 			//
             DB::table('baronies')->insert([
@@ -235,9 +235,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -253,8 +253,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Folkfeld 
 			//
@@ -270,9 +270,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -288,8 +288,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Isengau 
 			//
@@ -305,9 +305,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -323,8 +323,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Nordgau
 			//
@@ -341,8 +341,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -358,8 +358,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Smithy',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -375,8 +375,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Radenzgau 
 			//
@@ -393,8 +393,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -410,8 +410,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Rottgau 
 			//
@@ -427,9 +427,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -446,7 +446,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -462,8 +462,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//Schweinachgau 
 			//
@@ -480,8 +480,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -497,8 +497,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -514,8 +514,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//Westergau 
 			//
@@ -532,8 +532,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -549,8 +549,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -566,10 +566,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
-			//Brabant
+			//Brabant, Duchy
 			//Brabant
 			//
             DB::table('baronies')->insert([
@@ -584,9 +584,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -601,9 +601,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Haspengau
 			//
@@ -620,8 +620,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -636,9 +636,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -654,8 +654,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Hennegau
 			//
@@ -672,8 +672,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -688,9 +688,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -706,8 +706,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Kamerykgau
 			//
@@ -723,9 +723,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -740,9 +740,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Toxandria
 			//
@@ -758,8 +758,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -776,8 +776,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -793,8 +793,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -810,8 +810,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -827,8 +827,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -844,8 +844,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -861,8 +861,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Waasgau
 			//
@@ -879,8 +879,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -895,8 +895,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -912,9 +912,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -930,8 +930,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -946,8 +946,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -963,11 +963,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
-			//Carinthia
+			//Carinthia, Duchy
 			//Hengistgau
 			//
             DB::table('baronies')->insert([
@@ -983,8 +983,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1000,8 +1000,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Ingeringtal 
 			//
@@ -1017,9 +1017,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1035,8 +1035,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Jauntal
 			//
@@ -1053,8 +1053,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -1069,9 +1069,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -1087,8 +1087,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Kroatengau 
 			//
@@ -1105,8 +1105,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -1122,8 +1122,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -1140,7 +1140,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -1156,8 +1156,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1173,8 +1173,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Lavanttal 
 			//
@@ -1191,8 +1191,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1208,8 +1208,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Smithy',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Leobental 
 			//
@@ -1226,8 +1226,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1243,8 +1243,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Lurngau
 			//
@@ -1261,8 +1261,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1278,8 +1278,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1294,9 +1294,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Murztal
 			//
@@ -1313,8 +1313,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1330,8 +1330,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Sanntal
 			//
@@ -1348,8 +1348,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1365,8 +1365,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Carniola
 			//Krainmark 
@@ -1384,8 +1384,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1401,8 +1401,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Histria 
 			//
@@ -1418,8 +1418,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -1435,8 +1435,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -1453,8 +1453,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1470,8 +1470,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1486,11 +1486,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
-			//Franconia
+			//Franconia, Duchy
 			//Grabfeld 
 			//
             DB::table('baronies')->insert([
@@ -1506,8 +1506,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1523,8 +1523,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1539,9 +1539,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1557,8 +1557,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1574,8 +1574,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1591,8 +1591,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Gollachgau
 			// 
@@ -1608,9 +1608,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1626,8 +1626,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1643,8 +1643,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);
 			//Gotzfeld
 			// 
@@ -1661,8 +1661,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1677,9 +1677,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Jagstgau
 			// 
@@ -1696,8 +1696,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1713,8 +1713,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Saalgau
 			// 
@@ -1731,8 +1731,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1747,9 +1747,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Sualafeld
 			// 
@@ -1766,8 +1766,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -1783,8 +1783,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Sulmgau 
 			//
@@ -1801,8 +1801,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1818,8 +1818,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1835,8 +1835,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1852,8 +1852,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1868,9 +1868,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1886,8 +1886,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Taubergau 
 			//
@@ -1904,8 +1904,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1921,8 +1921,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Waldsassengau 
 			//
@@ -1940,7 +1940,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1957,7 +1957,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1973,10 +1973,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
-			//Frisia
+			//Frisia, Duchy
 			//Ammergau
 			// 
             DB::table('baronies')->insert([
@@ -1993,7 +1993,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2009,8 +2009,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2027,7 +2027,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Auricherland
 			//
@@ -2044,8 +2044,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2061,8 +2061,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2078,7 +2078,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			//Beveland
@@ -2095,8 +2095,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2113,7 +2113,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2130,8 +2130,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//Bornegau
 			//
@@ -2148,8 +2148,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2165,8 +2165,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2182,8 +2182,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2199,8 +2199,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2216,8 +2216,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Drenthe
 			//
@@ -2234,8 +2234,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -2251,8 +2251,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2268,8 +2268,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2285,8 +2285,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2302,8 +2302,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2319,8 +2319,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2336,8 +2336,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Dithmarschen
 			//
@@ -2354,7 +2354,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);		
 			//
@@ -2371,8 +2371,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2388,8 +2388,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);				
 			//Emsigerland
 			//
@@ -2405,7 +2405,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
@@ -2422,9 +2422,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);			
 			//Fivelgau
 			//
@@ -2440,7 +2440,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
@@ -2459,7 +2459,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2493,8 +2493,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2510,8 +2510,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Holtland
 			//
@@ -2527,8 +2527,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			//
@@ -2545,8 +2545,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Hunsingau
 			//
@@ -2564,7 +2564,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2581,7 +2581,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2597,8 +2597,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Kennemerland
 			//
@@ -2614,9 +2614,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2631,9 +2631,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2665,8 +2665,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2683,8 +2683,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2700,8 +2700,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//Maasland
 			//
@@ -2718,8 +2718,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2734,8 +2734,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2752,7 +2752,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			// 
@@ -2769,8 +2769,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -2786,8 +2786,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);				
 			//Nifterlake
 			//
@@ -2804,8 +2804,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2820,9 +2820,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2838,8 +2838,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2855,8 +2855,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2872,8 +2872,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2889,8 +2889,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2906,8 +2906,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2923,8 +2923,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2940,8 +2940,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);
 			//Norderland
 			// 
@@ -2957,7 +2957,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);
@@ -2976,7 +2976,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2991,7 +2991,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);
@@ -3011,7 +3011,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3028,7 +3028,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3045,7 +3045,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Oostergau
 			// 
@@ -3061,8 +3061,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);
 			// 
@@ -3079,8 +3079,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3096,8 +3096,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3113,8 +3113,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3130,8 +3130,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Rhineland
 			// 
@@ -3147,9 +3147,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3165,8 +3165,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3182,8 +3182,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3199,8 +3199,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3216,8 +3216,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			//Rustringen
 			// 
@@ -3251,8 +3251,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3268,7 +3268,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			//Salland
@@ -3286,8 +3286,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);				
 			// 
             DB::table('baronies')->insert([
@@ -3302,8 +3302,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3319,9 +3319,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3337,8 +3337,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3354,8 +3354,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);				
 			//Sudergau
 			// 
@@ -3371,8 +3371,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);
 			// 
@@ -3390,7 +3390,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3406,8 +3406,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Teisterbant
 			// 
@@ -3423,9 +3423,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3441,8 +3441,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3459,7 +3459,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3475,8 +3475,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3492,8 +3492,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3510,7 +3510,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3526,8 +3526,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			//Twente
 			// 
@@ -3544,8 +3544,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3561,8 +3561,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3578,8 +3578,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3595,8 +3595,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Veluwe
 			// 
@@ -3612,8 +3612,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3629,8 +3629,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3647,8 +3647,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3664,8 +3664,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Vollenhove	
 			// 
@@ -3681,8 +3681,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3698,8 +3698,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3715,9 +3715,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			//Walcheren
 			// 
@@ -3734,7 +3734,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3751,8 +3751,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3767,8 +3767,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			//Westergau
@@ -3785,9 +3785,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'																					
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3803,8 +3803,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3819,9 +3819,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3836,8 +3836,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3853,9 +3853,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3870,8 +3870,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3888,8 +3888,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3905,8 +3905,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3922,8 +3922,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'																					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Westflinge
 			// 
@@ -3939,7 +3939,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
@@ -3956,8 +3956,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			// 
@@ -3974,7 +3974,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			//Wursten
@@ -3992,8 +3992,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4009,8 +4009,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4026,8 +4026,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4042,9 +4042,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4060,10 +4060,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
-			//Guelders
+			//Guelders, Duchy
 			//Hettergau
 			// 
             DB::table('baronies')->insert([
@@ -4078,9 +4078,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4096,8 +4096,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4112,9 +4112,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4130,8 +4130,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Betuwe
 			// 
@@ -4147,9 +4147,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4165,8 +4165,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4183,7 +4183,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4200,7 +4200,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4217,7 +4217,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Cleveland
 			// 
@@ -4234,8 +4234,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4251,8 +4251,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Hamaland
 			// 
@@ -4268,9 +4268,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4285,9 +4285,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4302,9 +4302,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4319,9 +4319,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4337,8 +4337,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4354,8 +4354,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4370,9 +4370,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//Mulgau
 			// 
@@ -4388,9 +4388,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4405,9 +4405,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4423,8 +4423,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Ruhrgau
 			// 
@@ -4440,9 +4440,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4458,10 +4458,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);				
-			//Julich
+			//Julich, Duchy
 			//Julichgau
 			// 
             DB::table('baronies')->insert([
@@ -4477,8 +4477,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4493,9 +4493,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4510,9 +4510,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4528,8 +4528,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4545,8 +4545,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Eifelgau
 			// 
@@ -4563,8 +4563,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4580,8 +4580,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4597,8 +4597,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Zulpichgau
 			// 
@@ -4615,8 +4615,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4632,10 +4632,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
-			//Limburg
+			//Limburg, Duchy
 			//Luttichgau
 			// 
             DB::table('baronies')->insert([
@@ -4651,8 +4651,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4668,8 +4668,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//Ardennengau 
 			//
@@ -4686,8 +4686,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4703,8 +4703,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4721,7 +4721,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -4738,7 +4738,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Condrustgau
 			//
@@ -4755,8 +4755,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4772,8 +4772,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4788,9 +4788,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//Lommegau
 			//
@@ -4807,8 +4807,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -4824,8 +4824,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -4841,8 +4841,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Maasgau
 			//
@@ -4859,8 +4859,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4876,8 +4876,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'None',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4894,7 +4894,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4910,10 +4910,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
-			//Lorraine	
+			//Lorraine, Duchy	
 			//Metzgau
 			//
             DB::table('baronies')->insert([
@@ -4929,8 +4929,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -4946,8 +4946,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -4963,8 +4963,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -4980,8 +4980,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Bleisgau
 			//
@@ -4998,8 +4998,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5015,8 +5015,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5032,8 +5032,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Chaumontois
 			//
@@ -5051,7 +5051,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5067,8 +5067,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5084,8 +5084,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5101,8 +5101,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Saargau
 			//
@@ -5118,9 +5118,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5135,9 +5135,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//Salingau
 			//
@@ -5154,8 +5154,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5170,9 +5170,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5187,9 +5187,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//Soulossois
 			//
@@ -5207,7 +5207,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5223,8 +5223,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);				
 			//Toullois
 			//
@@ -5241,8 +5241,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5258,8 +5258,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5275,8 +5275,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5292,10 +5292,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
-			//Luxembourg
+			//Luxembourg, Duchy
 			//Methingau
 			//
             DB::table('baronies')->insert([
@@ -5312,7 +5312,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5329,7 +5329,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Stockpile'											
             ]);	
 			//Barrois
 			//
@@ -5346,8 +5346,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5363,8 +5363,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Moselgau
 			//
@@ -5381,8 +5381,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5398,8 +5398,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);	
 			//Verdungau
 			//
@@ -5417,7 +5417,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5433,8 +5433,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);	
 			//Wavergau
 			// 
@@ -5451,8 +5451,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5468,8 +5468,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5485,8 +5485,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5502,8 +5502,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5519,10 +5519,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);			
-			//Saxony
+			//Saxony, Duchy
 			//Bardengau
 			// 
             DB::table('baronies')->insert([
@@ -5537,9 +5537,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5554,9 +5554,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5572,8 +5572,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5589,8 +5589,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Derlingau
 			//
@@ -5606,9 +5606,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5623,9 +5623,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5640,9 +5640,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5658,8 +5658,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5675,8 +5675,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Eastfalagau
 			//
@@ -5692,9 +5692,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5710,8 +5710,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Gretingau
 			// 
@@ -5729,7 +5729,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5744,9 +5744,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Gudingau
 			// 
@@ -5763,8 +5763,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5780,8 +5780,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5797,8 +5797,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5814,8 +5814,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Harzgau
 			// 
@@ -5831,9 +5831,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5848,9 +5848,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
 			// 
@@ -5866,9 +5866,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5885,7 +5885,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5900,9 +5900,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5919,7 +5919,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5935,10 +5935,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
-			//Styria
+			//Styria, Duchy
 			//Traungau
 			// 
             DB::table('baronies')->insert([
@@ -5953,9 +5953,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5970,9 +5970,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -5987,9 +5987,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6005,8 +6005,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6022,8 +6022,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Attergau
 			// 
@@ -6040,8 +6040,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6057,8 +6057,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Smithy',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6074,8 +6074,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Ennstal
 			// 
@@ -6093,7 +6093,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6109,8 +6109,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6126,8 +6126,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Mattiggau
 			//
@@ -6144,8 +6144,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6161,8 +6161,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Norital 
 			//
@@ -6179,8 +6179,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6196,8 +6196,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6212,9 +6212,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6231,7 +6231,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'											
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Vinschgau
 			// 
@@ -6248,8 +6248,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6265,10 +6265,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Stockpile'											
             ]);
-			//Swabia
+			//Swabia, Duchy
 			//Ortengau
 			// 
             DB::table('baronies')->insert([
@@ -6284,8 +6284,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6301,8 +6301,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6318,8 +6318,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6335,8 +6335,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6353,7 +6353,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Albegau 
 			//
@@ -6370,8 +6370,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6387,8 +6387,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6404,8 +6404,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6421,8 +6421,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6438,8 +6438,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6455,8 +6455,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Augstgau 
 			//
@@ -6473,8 +6473,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6490,8 +6490,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6507,8 +6507,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6523,9 +6523,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6541,8 +6541,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
 			//
@@ -6558,9 +6558,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'
 			]);
 			//
             DB::table('baronies')->insert([
@@ -6576,8 +6576,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6593,8 +6593,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6610,8 +6610,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6627,8 +6627,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6644,8 +6644,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Churgau 
 			//
@@ -6662,8 +6662,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6679,8 +6679,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6696,8 +6696,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6713,8 +6713,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6730,8 +6730,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6747,8 +6747,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Hegau
 			//
@@ -6765,8 +6765,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6782,8 +6782,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Linzgau
 			// 
@@ -6799,9 +6799,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6817,8 +6817,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6834,8 +6834,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6851,8 +6851,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Neckargau 
 			//
@@ -6869,8 +6869,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6885,9 +6885,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6902,9 +6902,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6919,9 +6919,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Nordgau 
 			//
@@ -6938,8 +6938,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6954,9 +6954,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Riesgau
 			// 
@@ -6972,9 +6972,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6991,7 +6991,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Schwerzgau
 			// 
@@ -7008,8 +7008,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7026,7 +7026,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'										
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7041,9 +7041,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7059,8 +7059,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'											
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7075,9 +7075,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7093,8 +7093,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7110,8 +7110,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7127,8 +7127,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Schwyzgau
 			// 
@@ -7145,8 +7145,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7162,8 +7162,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Sundgau 
 			//
@@ -7180,8 +7180,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7196,9 +7196,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7214,8 +7214,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7231,8 +7231,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Turgau 
 			//
@@ -7249,8 +7249,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7266,8 +7266,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -7283,8 +7283,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7300,7 +7300,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None'									
+				'quarter_suburb' => 'Forester'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7316,8 +7316,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7333,8 +7333,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7350,8 +7350,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Zurichgau
 			//
@@ -7367,9 +7367,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7384,9 +7384,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7402,10 +7402,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
-			//Thuringia
+			//Thuringia, Duchy
 			//Thuringgau
 			//
             DB::table('baronies')->insert([
@@ -7420,9 +7420,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7438,8 +7438,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7454,9 +7454,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Altgau 
 			//
@@ -7473,8 +7473,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7490,8 +7490,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Eichsfeld 
 			//
@@ -7507,9 +7507,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7525,8 +7525,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Helmegau 
 			//
@@ -7543,8 +7543,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7560,8 +7560,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Langwitzgau 
 			//
@@ -7577,9 +7577,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7595,8 +7595,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Nabelgau 
 			//
@@ -7612,9 +7612,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7630,8 +7630,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Orlagau 
 			//
@@ -7648,8 +7648,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7665,8 +7665,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7682,8 +7682,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7699,8 +7699,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Ostergau
 			//
@@ -7717,8 +7717,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7734,8 +7734,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7751,8 +7751,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7768,8 +7768,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7785,8 +7785,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Zwickaugau
 			//
@@ -7804,7 +7804,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7820,10 +7820,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Bremen
+			//Bremen, Duchy
 			//Largau
 			//
             DB::table('baronies')->insert([
@@ -7838,8 +7838,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			//
@@ -7856,8 +7856,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7873,8 +7873,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Agradingau
 			//
@@ -7890,9 +7890,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7907,9 +7907,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7925,8 +7925,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Angerngau 
 			//
@@ -7943,8 +7943,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7959,9 +7959,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7976,9 +7976,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7994,8 +7994,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8011,8 +8011,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8028,8 +8028,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8045,8 +8045,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Augau
 			// 
@@ -8063,8 +8063,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8080,8 +8080,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -8097,8 +8097,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8113,9 +8113,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Smithy',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8131,8 +8131,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Bukkigau 
 			//
@@ -8149,8 +8149,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8166,8 +8166,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8183,8 +8183,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Bursibant
 			//
@@ -8201,8 +8201,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8218,8 +8218,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8235,8 +8235,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8252,8 +8252,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8268,9 +8268,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8286,8 +8286,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			// 
 			//
@@ -8304,8 +8304,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8321,8 +8321,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8338,8 +8338,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8355,8 +8355,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scotland',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8373,7 +8373,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8389,8 +8389,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Dreingau 
 			//
@@ -8406,9 +8406,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8423,9 +8423,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8440,9 +8440,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8458,8 +8458,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Gronegau 
 			//
@@ -8476,8 +8476,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8493,8 +8493,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8510,8 +8510,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Hasegau 
 			//
@@ -8528,8 +8528,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8545,8 +8545,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8562,8 +8562,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8579,8 +8579,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Heilangau 
 			//
@@ -8597,7 +8597,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
 			//
@@ -8613,7 +8613,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
@@ -8631,7 +8631,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
 			//Holsteingau 
@@ -8649,8 +8649,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8666,8 +8666,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8683,8 +8683,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Leinegau 
 			//
@@ -8701,8 +8701,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8718,8 +8718,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Mosidegau 
 			//
@@ -8736,8 +8736,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8753,8 +8753,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Padergau
 			//
@@ -8772,7 +8772,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8787,9 +8787,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8805,8 +8805,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8822,8 +8822,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8840,7 +8840,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Stevergau 
 			//
@@ -8858,7 +8858,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8874,8 +8874,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8891,8 +8891,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8909,7 +8909,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8926,7 +8926,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Stormarngau 
 			//
@@ -8943,7 +8943,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
 			//
@@ -8960,8 +8960,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Sturmigau 
 			//
@@ -8978,8 +8978,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8995,8 +8995,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Sudergau 
 			//
@@ -9014,7 +9014,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9029,9 +9029,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9047,15 +9047,66 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//
+			//Werregau
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ravensberg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '149',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sparrenberg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '149',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Limberg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '149',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Herford',
 				'barony_category' => 'Monastic_Order',
-				'de_jure_county' => '',
+				'de_jure_county' => '149',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
@@ -9065,15 +9116,49 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
 			// 
             DB::table('baronies')->insert([
+				'barony_name' => 'Hagen',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '150',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Attendorn',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '150',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Cloth_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			// 
+            DB::table('baronies')->insert([
 				'barony_name' => 'Essen',
 				'barony_category' => 'Monastic_Order',
-				'de_jure_county' => '',
+				'de_jure_county' => '150',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
@@ -9083,14 +9168,14 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Smithy',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Werden',
 				'barony_category' => 'Monastic_Order',
-				'de_jure_county' => '',
+				'de_jure_county' => '150',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
@@ -9100,10 +9185,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//Cologne
+			//Cologne, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9118,11 +9203,28 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Smithy',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Magdeburg
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Friesheim',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Courtyard',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//Magdeburg, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9137,9 +9239,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Hartingau 
 			//
@@ -9156,8 +9258,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9173,8 +9275,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9190,8 +9292,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			// 
 			//
@@ -9208,10 +9310,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
-			//Mainz
+			//Mainz, Duchy
 			//Wormsfeld 
 			//
             DB::table('baronies')->insert([
@@ -9227,8 +9329,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9243,9 +9345,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9261,8 +9363,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9278,8 +9380,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9295,8 +9397,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
 			// 
@@ -9313,8 +9415,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -9330,9 +9432,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9348,8 +9450,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9365,8 +9467,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
 			//
@@ -9382,11 +9484,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Salzburg
+			//Salzburg, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9403,7 +9505,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9419,8 +9521,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//
@@ -9437,10 +9539,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Trier
+			//Trier, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9456,8 +9558,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9473,8 +9575,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9490,11 +9592,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
-			//Lombardy
-			//Milano
+			//Lombardy, Kingdom
+			//Milano, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9505,13 +9607,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9526,9 +9628,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9544,8 +9646,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
 			//
@@ -9557,13 +9659,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
 			//
@@ -9575,13 +9677,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			// 
 			//
@@ -9593,15 +9695,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
-			// 
+			//Piacenza
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Piacenza',
@@ -9611,31 +9713,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
-            ]);
-			//Piacenza 
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => 'Reggio',
-				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
-				'population' => '',
-				'charter_castle' => 'County_Court',	
-				'charter_assembly' => 'Senate',
-				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
-				'charter_walls' => 'Stronghold',	
-				'charter_mint' => 'None',
-				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9645,14 +9729,14 @@ class BaronySeeder extends Seeder
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
-				'charter_cathedral' => 'Bishop',
+				'charter_cathedral' => 'Priest',
 				'charter_market' => 'Square',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9668,10 +9752,28 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
-			//Piedmont
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Reggio',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Cathedral_School',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//Piedmont, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9682,13 +9784,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -9705,10 +9807,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Tuscany
+			//Tuscany, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9724,10 +9826,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Verona
+			//Verona, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9742,9 +9844,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -9760,9 +9862,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -9780,9 +9882,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Aquileia
+			//Aquileia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9798,7 +9900,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'									
             ]);	
 			// 
@@ -9815,8 +9917,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -9833,10 +9935,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Florence
+			//Florence, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9851,9 +9953,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -9865,13 +9967,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -9883,13 +9985,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9905,10 +10007,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//Genoa
+			//Genoa, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9919,15 +10021,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'								
             ]);
-			//Noli
+			//Noli, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9942,11 +10044,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
-			//Lucca
+			//Lucca, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9957,15 +10059,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Pisa
+			//Pisa, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9976,15 +10078,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'								
             ]);
-			//Venice
+			//Venice, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -9995,12 +10097,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			// 
@@ -10013,13 +10115,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10031,16 +10133,16 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Bohemia
-			//Bohemia
+			//Bohemia, Kingdom
+			//Bohemia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10051,15 +10153,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Lusatia
+			//Lusatia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -10075,10 +10177,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Moravia
+			//Moravia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10094,10 +10196,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Lower Silesia
+			//Lower Silesia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10114,9 +10216,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Upper Silesia
+			//Upper Silesia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10133,10 +10235,10 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);			
-			//Burgundy
-			//Burgundy
+			//Burgundy, Kingdom
+			//Burgundy, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10147,13 +10249,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10170,8 +10272,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10188,8 +10290,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//
@@ -10201,13 +10303,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10223,8 +10325,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
 			//
@@ -10242,9 +10344,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Cisjurania
+			//Cisjurania, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10255,13 +10357,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10278,8 +10380,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10296,8 +10398,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10313,8 +10415,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10330,8 +10432,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10343,13 +10445,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -10361,13 +10463,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -10379,15 +10481,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
-			//Transjurania	
+			//Transjurania, Duchy
 			//Amosenais 
 			//
             DB::table('baronies')->insert([
@@ -10398,13 +10500,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -10415,13 +10517,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Aargau
 			//
@@ -10438,8 +10540,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -10454,9 +10556,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10467,13 +10569,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10484,13 +10586,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10506,8 +10608,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//
@@ -10519,15 +10621,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Orange
+			//Orange, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10543,8 +10645,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
 			//
@@ -10556,13 +10658,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -10577,9 +10679,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -10595,8 +10697,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -10612,10 +10714,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);			
-			//Provence
+			//Provence, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10626,13 +10728,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
 			//
@@ -10644,13 +10746,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -10667,7 +10769,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
 			//
@@ -10683,9 +10785,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -10701,8 +10803,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -10717,9 +10819,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Marseille 
 			//
@@ -10735,8 +10837,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -10753,7 +10855,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -10770,8 +10872,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -10787,9 +10889,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -10804,9 +10906,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -10821,8 +10923,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -10839,11 +10941,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'						
             ]);			
-			//Savoy
+			//Savoy, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10854,13 +10956,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			// 
 			//
@@ -10872,13 +10974,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);			
 			// 
 			//
@@ -10895,8 +10997,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
 			//
@@ -10912,12 +11014,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Papal States
-			//Rome
+			//Papal States, Kingdom
+			//Rome, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10928,13 +11030,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Patriarch',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10951,10 +11053,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//Romagna
+			//Romagna, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -10965,13 +11067,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -10983,13 +11085,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);		
 			// 
 			//
@@ -11001,15 +11103,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'								
             ]);
-			//Spoleto
+			//Spoleto, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11020,11 +11122,11 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
@@ -11042,9 +11144,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);				
 			// 
 			//
@@ -11061,8 +11163,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -11079,11 +11181,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Teutonic Order State
-			//Livonia
+			//Teutonic Order State, Kingdom
+			//Livonia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11094,11 +11196,11 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'								
             ]);
@@ -11112,13 +11214,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11135,10 +11237,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Estonia
+			//Estonia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11153,7 +11255,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
@@ -11171,11 +11273,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
-			//Prussia
+			//Prussia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11191,8 +11293,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11208,8 +11310,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			// 
@@ -11230,7 +11332,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
-			//Pomerelia
+			//Pomerelia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11241,15 +11343,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Pomerania
+			//Pomerania, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11264,8 +11366,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			// 
@@ -11282,8 +11384,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			//
@@ -11299,11 +11401,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
-			//Brandenburg
+			//Brandenburg, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11314,13 +11416,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11332,15 +11434,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Mecklenburg
+			//Mecklenburg, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11357,7 +11459,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
 			//
@@ -11369,13 +11471,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11387,17 +11489,17 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'								
             ]);
-			//France
-			//France
-			//Anjou
+			//France, Empire
+			//France, Kingdom
+			//Anjou, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -11408,13 +11510,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11431,7 +11533,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11443,13 +11545,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11461,15 +11563,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Aquitaine
+			//Aquitaine, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11480,12 +11582,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -11502,8 +11604,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
 			//
@@ -11515,13 +11617,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11533,13 +11635,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11555,9 +11657,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11573,8 +11675,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11590,8 +11692,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
 			//
@@ -11603,13 +11705,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11625,8 +11727,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//
@@ -11643,8 +11745,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11656,13 +11758,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
 			//
@@ -11674,15 +11776,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'										
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
-			//Auvergne
+			//Auvergne, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11698,10 +11800,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Berry
+			//Berry, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11712,15 +11814,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Casgony
+			//Casgony, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11736,8 +11838,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
 			//
@@ -11754,8 +11856,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11772,8 +11874,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11790,8 +11892,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11807,9 +11909,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11826,8 +11928,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11844,8 +11946,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]); 
 			//
             DB::table('baronies')->insert([
@@ -11860,8 +11962,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -11878,11 +11980,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Champagne
+			//Champagne, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -11893,13 +11995,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11916,8 +12018,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11934,8 +12036,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11952,8 +12054,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -11965,13 +12067,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -11988,8 +12090,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12005,9 +12107,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12022,11 +12124,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Francia
+			//Francia, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12041,9 +12143,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12055,13 +12157,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12077,9 +12179,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12091,15 +12193,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Normandy
+			//Normandy, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12110,13 +12212,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12132,9 +12234,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12151,7 +12253,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			// 
@@ -12164,13 +12266,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12181,13 +12283,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Caux
 			//
@@ -12204,8 +12306,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -12221,8 +12323,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -12239,7 +12341,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Stockpile'							
             ]);				
 			// 
 			//
@@ -12257,7 +12359,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -12269,13 +12371,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12287,15 +12389,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Orleanais
+			//Orleanais, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12306,13 +12408,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -12324,15 +12426,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Picardy
+			//Picardy, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12343,13 +12445,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
 			//
@@ -12361,13 +12463,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
 			//
@@ -12384,7 +12486,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tannery',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
 			// 
@@ -12397,13 +12499,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12420,8 +12522,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12437,9 +12539,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12456,10 +12558,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Poitou
+			//Poitou, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12470,15 +12572,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Toulouse
+			//Toulouse, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12489,13 +12591,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12512,8 +12614,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12530,8 +12632,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Melgueil
 			//
@@ -12547,8 +12649,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
 			//
@@ -12564,9 +12666,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -12582,7 +12684,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			// 
@@ -12599,8 +12701,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -12617,8 +12719,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -12633,8 +12735,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			// 
@@ -12652,8 +12754,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			// 
             DB::table('baronies')->insert([
@@ -12668,9 +12770,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			// 
 			//
@@ -12682,13 +12784,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -12704,8 +12806,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);			
 			// 
 			//
@@ -12722,8 +12824,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12740,11 +12842,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Brittany
-			//Brittany			
+			//Brittany, Kingdom
+			//Brittany, Duchy			
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12755,13 +12857,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12777,9 +12879,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -12794,9 +12896,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12813,8 +12915,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12826,15 +12928,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Domnonee
+			//Domnonee, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12849,9 +12951,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12867,11 +12969,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Retz
+			//Retz, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12882,13 +12984,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12900,17 +13002,17 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Britain
-			//Ireland
-			//Connacht
+			//Britain, Empire
+			//Ireland, Kingdom
+			//Connacht, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -12921,13 +13023,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -12944,7 +13046,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12959,9 +13061,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
 			//
@@ -12977,9 +13079,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -12996,8 +13098,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			// 
 			//
@@ -13013,11 +13115,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
-			//Leinster
+			//Leinster, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -13033,8 +13135,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -13051,8 +13153,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -13069,8 +13171,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13082,13 +13184,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
 			//
@@ -13105,8 +13207,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13122,10 +13224,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//Meath
+			//Meath, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -13136,12 +13238,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tannery',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
 			// 
@@ -13158,9 +13260,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13177,8 +13279,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13194,8 +13296,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13210,9 +13312,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -13228,8 +13330,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13245,8 +13347,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -13262,10 +13364,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);			
-			//Munster
+			//Munster, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -13281,8 +13383,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13298,8 +13400,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//
@@ -13311,13 +13413,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13332,9 +13434,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13350,9 +13452,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -13369,7 +13471,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);				
 			// 
 			//
@@ -13381,15 +13483,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Ulster
+			//Ulster, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
@@ -13405,8 +13507,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
 			//
@@ -13418,13 +13520,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13441,8 +13543,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13454,13 +13556,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13476,9 +13578,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
 			//
@@ -13494,9 +13596,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13512,8 +13614,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13529,8 +13631,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
 			//
@@ -13547,8 +13649,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
 			//
@@ -13564,12 +13666,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//England
-			//East Anglia
+			//England, Kingdom
+			//East Anglia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13580,13 +13682,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13602,8 +13704,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
 			//
@@ -13619,11 +13721,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Essex
+			//Essex, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13638,9 +13740,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
 			//
@@ -13657,8 +13759,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
 			//
@@ -13674,7 +13776,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
@@ -13687,15 +13789,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Hwicce
+			//Hwicce, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13706,13 +13808,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13723,13 +13825,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
 			//
@@ -13747,7 +13849,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13763,8 +13865,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
 			//
@@ -13776,15 +13878,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
-			//Kent
+			//Kent, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13800,8 +13902,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
 			//
@@ -13813,15 +13915,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Lindsey
+			//Lindsey, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13832,15 +13934,33 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Mercia
+			//Mercia, Duchy
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chester',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);	
 			//
 			//
             DB::table('baronies')->insert([
@@ -13851,13 +13971,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
 			//
@@ -13874,10 +13994,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'									
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
-			//Mid Anglia
+			//Mid Anglia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13888,13 +14008,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Almshouse',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13911,7 +14031,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13926,9 +14046,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13945,7 +14065,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
 			//
@@ -13962,10 +14082,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Northumbria
+			//Northumbria, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -13976,13 +14096,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
 			//
@@ -13999,8 +14119,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14015,9 +14135,27 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'								
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Alnwick',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
 			//
@@ -14029,13 +14167,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14051,10 +14189,27 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//Sussex
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Scarborough',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Staple_Port'								
+            ]);
+			//Sussex, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14070,8 +14225,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
 			//
@@ -14088,10 +14243,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);
-			//Wessex
+			//Wessex, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14106,9 +14261,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
 			//
@@ -14120,13 +14275,13 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
 			//
@@ -14142,9 +14297,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'									
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14161,7 +14316,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
 			//
@@ -14173,16 +14328,16 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Wales
-			//Cornwall
+			//Wales, Kingdom
+			//Cornwall, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14193,15 +14348,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			//Dyfed
+			//Dyfed, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14212,15 +14367,15 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Market_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Gwent
+			//Gwent, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14236,10 +14391,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Gwyned
+			//Gwyned, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14255,8 +14410,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
 			//
@@ -14272,12 +14427,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			//Scotland
-			//Alba
+			//Scotland, Kingdom
+			//Alba, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14292,8 +14447,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'									
             ]);	
 			//
@@ -14310,8 +14465,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'								
             ]);				
 			//
 			//
@@ -14327,9 +14482,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'								
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14345,7 +14500,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14362,8 +14517,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14379,8 +14534,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14396,8 +14551,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14413,8 +14568,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14429,9 +14584,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//
 			//
@@ -14447,9 +14602,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14465,8 +14620,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14482,8 +14637,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
 			//
@@ -14499,9 +14654,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14517,8 +14672,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14534,10 +14689,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
-			//Bernicia
+			//Bernicia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14548,12 +14703,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Parliament',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tannery',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14570,8 +14725,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
 			//
@@ -14587,9 +14742,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14605,10 +14760,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);
-			//Dalriada
+			//Dalriada, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14623,8 +14778,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14641,7 +14796,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14658,8 +14813,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
 			//
@@ -14676,10 +14831,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
-			//Fortriu
+			//Fortriu, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14694,9 +14849,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -14712,11 +14867,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
-			//Galloway
+			//Galloway, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14732,8 +14887,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'					
             ]);	
 			//
 			//
@@ -14749,7 +14904,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
@@ -14766,11 +14921,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Gododdin
+			//Gododdin, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14786,8 +14941,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//Roxburghshire
 			//
@@ -14804,8 +14959,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14820,9 +14975,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14838,8 +14993,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'					
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14854,9 +15009,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -14872,8 +15027,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
 			//
@@ -14890,10 +15045,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Strathclyde
+			//Strathclyde, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14909,8 +15064,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
 			//
@@ -14926,9 +15081,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -14944,13 +15099,13 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
-			//Aragon
-			//Aragon
-			//Barcelona
+			//Aragon, Empire
+			//Aragon, Kingdom
+			//Barcelona, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -14961,12 +15116,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'						
             ]);	
 			//
@@ -14983,11 +15138,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'							
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
-			//Girona
+			//Girona, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15002,8 +15157,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -15020,8 +15175,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -15038,11 +15193,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
-			//Huesca
+			//Huesca, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15057,11 +15212,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
-			//Lleida
+			//Lleida, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15077,8 +15232,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
 			//
@@ -15095,10 +15250,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Tarragona
+			//Tarragona, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15113,8 +15268,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
 			//
@@ -15132,10 +15287,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
-			//Teruel
+			//Teruel, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15151,10 +15306,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
-			//Zaragoza
+			//Zaragoza, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15170,8 +15325,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -15186,12 +15341,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);				
-			//Navarre
-			//Alava
+			//Navarre, Kingdom
+			//Alava, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15206,11 +15361,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Navarre
+			//Navarre, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15227,11 +15382,11 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'					
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);			
-			//Castile
-			//Castile
-			//Avila
+			//Castile, Empire
+			//Castile, Kingdom
+			//Avila, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15246,11 +15401,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);				
-			//Burgos
+			//Burgos, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15267,9 +15422,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'								
+				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);				
-			//Palencia
+			//Palencia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15285,10 +15440,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
-			//Segovia
+			//Segovia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15303,11 +15458,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			//Soria
+			//Soria, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15323,10 +15478,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
-			//Toledo
+			//Toledo, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15341,11 +15496,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Valladolid
+			//Valladolid, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15360,12 +15515,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Monastic_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Galicia	
-			//Coruna
+			//Galicia, Kingdom	
+			//Coruna, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15381,10 +15536,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
-			//Lugo
+			//Lugo, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15401,9 +15556,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Ourense
+			//Ourense, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15418,11 +15573,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'					
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);		
-			//Pontevedra
+			//Pontevedra, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15437,8 +15592,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);		
 			//
@@ -15454,13 +15609,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Leon
-			//Leon
-			//Caceres
+			//Leon, Kingdom
+			//Caceres, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15475,11 +15629,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Leon
+			//Leon, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15496,7 +15650,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
 			//
@@ -15512,11 +15666,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Salamanca
+			//Salamanca, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15533,7 +15687,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -15550,10 +15704,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Zamora
+			//Zamora, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15568,12 +15722,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Asturias
-			//Asturias
+			//Asturias, Kingdom
+			//Asturias, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15588,12 +15742,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'					
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
-			//Portugal
-			//Aveiro
+			//Portugal, Kingdom
+			//Aveiro, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15610,7 +15764,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -15626,8 +15780,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'					
             ]);	
 			//
@@ -15644,11 +15798,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Beira
+			//Beira, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15664,8 +15818,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
 			//
@@ -15681,9 +15835,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -15699,10 +15853,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
-			//Braganca
+			//Braganca, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15717,11 +15871,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
-			//Estremadura
+			//Estremadura, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15736,8 +15890,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -15756,7 +15910,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -15773,12 +15927,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Danelagen
-			//Denmark
-			//Jutland
+			//Danelagen, Empire
+			//Denmark, Kingdom
+			//Jutland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15793,8 +15947,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -15811,9 +15965,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'							
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
 			//
@@ -15829,8 +15983,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -15848,8 +16002,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -15865,10 +16019,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);			
-			//Scania
+			//Scania, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15883,11 +16037,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
-			//Sjaeland
+			//Sjaeland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15902,7 +16056,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
@@ -15921,7 +16075,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -15942,8 +16096,8 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'					
             ]);	
-			//Norway
-			//Nordjor (Northern Isles)
+			//Norway, Kingdom
+			//Nordjor (Northern Isles), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15959,10 +16113,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
-			//Sodor (Southern Isles)
+			//Sodor (Southern Isles), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15978,10 +16132,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Hedmark (eidsivating)
+			//Hedmark (eidsivating), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -15997,10 +16151,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Oppland (frostating)
+			//Oppland (frostating), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16016,10 +16170,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'			
             ]);				
-			//Rogaland (gulating)
+			//Rogaland (gulating), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16035,10 +16189,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'		
             ]);				
-			//Vestland (gulating)
+			//Vestland (gulating), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16053,11 +16207,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'				
             ]);
-			//Viken (borgarting)
+			//Viken (borgarting), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16073,11 +16227,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'					
             ]);			
-			//Sweden
-			//Gotland
+			//Sweden, Kingdom
+			//Gotland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16092,9 +16246,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
 			//
@@ -16110,11 +16264,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Osterland
+			//Osterland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16133,7 +16287,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
-			//Smaland
+			//Smaland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16148,11 +16302,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Svaeland
+			//Svaeland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16168,7 +16322,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'						
             ]);
 			//
@@ -16184,9 +16338,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
 			//
@@ -16203,8 +16357,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
 			//
@@ -16220,13 +16374,13 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Poland
-			//Poland
-			//Lesser Poland
+			//Poland, Empire
+			//Poland, Kingdom
+			//Lesser Poland, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16241,9 +16395,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
 			//
@@ -16260,10 +16414,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
-			//Gnesen
+			//Gnesen, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16279,10 +16433,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Krakow
+			//Krakow, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16297,11 +16451,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Kuyavia
+			//Kuyavia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16317,10 +16471,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Plock
+			//Plock, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16336,10 +16490,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
-			//Posen
+			//Posen, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16356,7 +16510,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -16372,12 +16526,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
-			//Lithuania	
-			//Minsk
+			//Lithuania, Kingdom	
+			//Minsk, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16392,11 +16546,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'			
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
-			//Tracken
+			//Tracken, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16412,10 +16566,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);	
-			//Vilnius			
+			//Vilnius, Duchy			
 			//
 			//
             DB::table('baronies')->insert([
@@ -16431,12 +16585,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'		
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);				
-			//Hungary
-			//Hungary
-			//Hungary
+			//Hungary, Empire
+			//Hungary, Kingdom
+			//Hungary, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16451,9 +16605,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16469,8 +16623,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'			
             ]);
 			//
 			//
@@ -16487,10 +16641,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
-			//Buda
+			//Buda, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16505,9 +16659,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -16524,8 +16678,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -16543,7 +16697,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16559,8 +16713,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'		
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);	
 			//
 			//
@@ -16577,8 +16731,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
 			//
 			//
@@ -16595,8 +16749,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'		
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);	
 			//
 			//
@@ -16613,10 +16767,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Nitra
+			//Nitra, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16632,8 +16786,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
 			//
@@ -16650,10 +16804,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Temesvar
+			//Temesvar, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16669,8 +16823,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16685,9 +16839,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
 			//
@@ -16703,11 +16857,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
-			//Transylvania
+			//Transylvania, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16723,11 +16877,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Croatia
-			//Dalmatia
+			//Croatia, Kingdom
+			//Dalmatia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16743,8 +16897,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16759,11 +16913,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
-			//Ragusa
+			//Ragusa, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16778,8 +16932,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'				
             ]);	
 			//
@@ -16795,8 +16949,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -16812,8 +16966,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'			
             ]);
 			//
@@ -16831,10 +16985,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
-			//Slavonia
+			//Slavonia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16850,8 +17004,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -16867,8 +17021,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -16884,11 +17038,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
-			//Split
+			//Split, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16903,8 +17057,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -16920,8 +17074,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -16937,8 +17091,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -16954,8 +17108,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -16972,11 +17126,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
-			//Zadar
+			//Zadar, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -16991,8 +17145,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -17008,8 +17162,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -17025,8 +17179,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -17044,7 +17198,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -17060,8 +17214,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -17079,12 +17233,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
-			//Trinacria
-			//Sicily
-			//Palermo
+			//Trinacria, Empire
+			//Sicily, Kingdom
+			//Palermo, Duchy
 			//Palermo
 			//
             DB::table('baronies')->insert([
@@ -17099,7 +17253,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'						
             ]);	
@@ -17116,9 +17270,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -17133,9 +17287,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Caccamo
 			//
@@ -17152,8 +17306,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -17168,9 +17322,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Cefalu
 			//
@@ -17187,7 +17341,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -17204,10 +17358,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Trapani
+			//Trapani, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17223,7 +17377,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -17240,9 +17394,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//
 			//
@@ -17259,7 +17413,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -17275,11 +17429,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Messina
+			//Messina, Duchy
 			//Messina
 			//
             DB::table('baronies')->insert([
@@ -17294,7 +17448,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'						
             ]);		
@@ -17312,8 +17466,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'					
             ]);
 			//Milazzo
 			//
@@ -17330,7 +17484,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -17346,8 +17500,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -17363,8 +17517,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);			
 			//
@@ -17382,10 +17536,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);			
-			//Agrigento
+			//Agrigento, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17419,8 +17573,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -17435,9 +17589,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//Caltanisetta
 			//
@@ -17454,8 +17608,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -17471,8 +17625,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -17488,8 +17642,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -17505,10 +17659,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);			
-			//Catania
+			//Catania, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17523,8 +17677,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'			
             ]);	
 			//
@@ -17541,11 +17695,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
-			//Siracusa
+			//Siracusa, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17560,7 +17714,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'			
             ]);	
@@ -17579,8 +17733,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -17596,12 +17750,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Naples
-			//Naples
+			//Naples, Kingdom
+			//Naples, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17616,11 +17770,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'				
             ]);			
-			//Capua
+			//Capua, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17637,9 +17791,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Amalfi
+			//Amalfi, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17655,10 +17809,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tannery',
 				'quarter_harbor' => 'Arsenal'				
             ]);				
-			//Calabria
+			//Calabria, Duchy
 			//Catanzaro
 			//
             DB::table('baronies')->insert([
@@ -17691,8 +17845,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -17708,7 +17862,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -17765,7 +17919,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Basilicata
+			//Basilicata, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17782,7 +17936,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -17799,10 +17953,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Taranto
+			//Taranto, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17818,7 +17972,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'				
             ]);	
 			//
@@ -17854,7 +18008,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -17872,10 +18026,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Foggia
+			//Foggia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17891,10 +18045,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Benevento
+			//Benevento, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17909,11 +18063,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Salerno
+			//Salerno, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17929,11 +18083,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);					
-			//Sardinia
-			//Gallura
+			//Sardinia, Kingdom
+			//Gallura, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17948,11 +18102,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Logudoro (torres)
+			//Logudoro (torres), Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -17968,7 +18122,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -17985,11 +18139,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Arborea
+			//Arborea, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18005,7 +18159,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -18023,10 +18177,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Cagliari
+			//Cagliari, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18042,7 +18196,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//Oglistria
@@ -18060,7 +18214,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -18077,8 +18231,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//Sarrabus
 			//
@@ -18094,9 +18248,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18112,12 +18266,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);				
-			//Byzantine			
-			//Thrace
-			//Thrace
+			//Byzantine, Empire			
+			//Thrace, Kingdom
+			//Thrace, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18151,10 +18305,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
-			//Macedonia
+			//Macedonia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18170,8 +18324,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18188,11 +18342,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Thessalonica
-			//Hellas
+			//Thessalonica, Kingdom
+			//Hellas, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18208,8 +18362,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18226,8 +18380,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
 			//
@@ -18243,8 +18397,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//
@@ -18262,8 +18416,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18279,8 +18433,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18295,9 +18449,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18314,8 +18468,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -18330,9 +18484,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18347,9 +18501,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18365,8 +18519,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18382,10 +18536,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Peloponessos
+			//Peloponessos, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18401,7 +18555,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'						
             ]);	
 			//
@@ -18418,8 +18572,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);
 			//
 			//
@@ -18436,7 +18590,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -18454,7 +18608,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -18472,10 +18626,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);			
-			//Archipelago
+			//Archipelago, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18491,10 +18645,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'						
             ]);			
-			//Epirus
+			//Epirus, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18510,10 +18664,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Thessalonica
+			//Thessalonica, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18528,11 +18682,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Strymon
+			//Strymon, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18548,8 +18702,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18566,11 +18720,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Trebizond
-			//Paphlagonia
+			//Trebizond, Kingdom
+			//Paphlagonia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18585,11 +18739,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Armeniac
+			//Armeniac, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18605,10 +18759,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Chaldia
+			//Chaldia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18624,10 +18778,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Crimea
+			//Crimea, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18643,11 +18797,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Anatolia
-			//Thracesia
+			//Anatolia, Kingdom
+			//Thracesia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18663,10 +18817,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Bucellaria
+			//Bucellaria, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18682,10 +18836,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Anatolia
+			//Anatolia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18701,10 +18855,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Cappadocia
+			//Cappadocia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18720,10 +18874,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Seleucia
+			//Seleucia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18739,10 +18893,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Opsicia
+			//Opsicia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18758,10 +18912,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Nicaea
+			//Nicaea, Duchy
 			//
 			//nicaea
             DB::table('baronies')->insert([
@@ -18776,11 +18930,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Lycia
+			//Lycia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18796,10 +18950,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Pamphylia
+			//Pamphylia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18814,12 +18968,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'						
             ]);									
-			//Georgia
-			//Colchis
+			//Georgia, Kingdom
+			//Colchis, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18835,7 +18989,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -18853,7 +19007,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -18871,8 +19025,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18888,8 +19042,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
 			//
@@ -18906,10 +19060,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Javakheti
+			//Javakheti, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18925,10 +19079,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Kartli
+			//Kartli, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -18944,8 +19098,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18962,8 +19116,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18980,8 +19134,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -18998,10 +19152,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Kakheti
+			//Kakheti, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19017,8 +19171,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19034,11 +19188,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Armenia
-			//Vaspurakan
+			//Armenia, Kingdom
+			//Vaspurakan, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19054,10 +19208,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Taron
+			//Taron, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19073,8 +19227,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19090,11 +19244,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Kars
+			//Kars, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19110,8 +19264,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19127,11 +19281,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Azerbaijan
+			//Azerbaijan, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19147,12 +19301,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
-			//Kievan Rus
-			//Kiev
-			//Kiev 
+			//Kievan Rus, Empire
+			//Kiev, Kingdom
+			//Kiev, Duchy 
 			//
 			//
             DB::table('baronies')->insert([
@@ -19168,8 +19322,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19185,10 +19339,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Pereyaslavl
+			//Pereyaslavl, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19204,11 +19358,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
-			//Chernigov
-			//Chernigov
+			//Chernigov, Kingdom
+			//Chernigov, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19224,8 +19378,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19241,9 +19395,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19260,7 +19414,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19277,9 +19431,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Ryazan
+			//Ryazan, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19295,10 +19449,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Murom
+			//Murom, Duchy
 			//Murom
 			//
             DB::table('baronies')->insert([
@@ -19313,9 +19467,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19331,8 +19485,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);
 			//
 			//
@@ -19349,8 +19503,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19367,11 +19521,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Halych
-			//Halych
+			//Halych, Kingdom
+			//Halych, Duchy
 			//Halych
 			//
             DB::table('baronies')->insert([
@@ -19386,9 +19540,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -19404,8 +19558,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//
 			//
@@ -19423,7 +19577,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19440,8 +19594,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19457,11 +19611,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Volhynia
+			//Volhynia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19477,10 +19631,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Turov
+			//Turov, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19496,11 +19650,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Vladimir
-			//Vladimir
+			//Vladimir, Kingdom
+			//Vladimir, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19517,9 +19671,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Moscow
+			//Moscow, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19535,8 +19689,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -19552,8 +19706,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -19569,8 +19723,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19586,8 +19740,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
 			//
@@ -19604,8 +19758,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19621,10 +19775,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);			
-			//Suzdal
+			//Suzdal, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19640,8 +19794,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19658,11 +19812,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Smolensk
-			//Smolensk
+			//Smolensk, Kingdom
+			//Smolensk, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19678,10 +19832,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Toropets
+			//Toropets, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19697,10 +19851,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Mstislavl
+			//Mstislavl, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19716,10 +19870,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Rzhev
+			//Rzhev, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19735,10 +19889,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
-			//Tver
+			//Tver, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19754,8 +19908,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
 			//
@@ -19772,8 +19926,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19789,8 +19943,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);			
 			//
 			//
@@ -19807,8 +19961,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Yaroslavl
 			//
@@ -19826,7 +19980,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'						
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19842,8 +19996,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19859,8 +20013,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19876,11 +20030,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Novgorod
-			//Novgorod
+			//Novgorod, Kingdom
+			//Novgorod, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19896,10 +20050,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Polotsk
+			//Polotsk, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19914,11 +20068,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Pleskov
+			//Pleskov, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19934,12 +20088,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Bulgaria
-			//Bulgaria
-			//Preslav
+			//Bulgaria, Empire
+			//Bulgaria, Kingdom
+			//Preslav, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19955,10 +20109,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
-			//Tarnovo
+			//Tarnovo, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19974,11 +20128,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Wallachia
-			//Wallachia
+			//Wallachia, Kingdom
+			//Wallachia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -19994,10 +20148,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
-			//Moldavia
+			//Moldavia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20013,12 +20167,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
-			//Serbia
-			//Serbia
-			//Rashka
+			//Serbia, Empire
+			//Serbia, Kingdom
+			//Rashka, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20034,8 +20188,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -20051,11 +20205,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Bosnia
-			//Bosnia		
+			//Bosnia, Kingdom
+			//Bosnia, Duchy		
 			//
 			//
             DB::table('baronies')->insert([
@@ -20071,12 +20225,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'						
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'						
             ]);				
-			//Cordoba
-			//Andalucia
-			//Arcos
+			//Cordoba, Empire
+			//Andalucia, Kingdom
+			//Arcos, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20092,7 +20246,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
 			//
@@ -20110,10 +20264,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Cordoba			
+			//Cordoba, Duchy			
 			//
 			//
             DB::table('baronies')->insert([
@@ -20128,11 +20282,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Granada	
+			//Granada, Duchy	
 			//
 			//
             DB::table('baronies')->insert([
@@ -20149,7 +20303,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20165,9 +20319,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -20182,11 +20336,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Malaga
+			//Malaga, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20202,10 +20356,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'			
             ]);	
-			//Sevilla
+			//Sevilla, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20220,12 +20374,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'			
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
-			//Algarves
-			//Algarves
+			//Algarves, Kingdom
+			//Algarves, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20241,7 +20395,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20259,10 +20413,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
-			//Badajoz
+			//Badajoz, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20278,8 +20432,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20296,8 +20450,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
 			//
@@ -20314,8 +20468,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20332,10 +20486,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Huelva
+			//Huelva, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20352,10 +20506,10 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Levante
-			//Alpuente
+			//Levante, Kingdom
+			//Alpuente, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20371,8 +20525,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
 			//
@@ -20389,8 +20543,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -20406,10 +20560,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
-			//Baleares
+			//Baleares, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20424,11 +20578,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Arsenal'			
             ]);				
-			//Denia
+			//Denia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20443,9 +20597,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'			
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
 			//
@@ -20462,7 +20616,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'			
             ]);	
 			//
@@ -20479,11 +20633,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'		
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);	
-			//Murcia
+			//Murcia, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20499,10 +20653,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'	
             ]);			
-			//Valencia			
+			//Valencia, Duchy			
 			//
 			//
             DB::table('baronies')->insert([
@@ -20513,17 +20667,17 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Fair_Right',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'				
             ]);
-			//Almohad
-			//Marrakesh
-			//Marrakesh
+			//Almohad, Empire
+			//Marrakesh, Kingdom
+			//Marrakesh, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20540,7 +20694,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20557,7 +20711,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20574,11 +20728,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
-			//Sijilmassa
+			//Sijilmassa, Duchy
 			//Tafilalt
 			//
             DB::table('baronies')->insert([
@@ -20594,8 +20748,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -20610,9 +20764,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
 			//
@@ -20629,8 +20783,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20647,10 +20801,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Ouarzazate
+			//Ouarzazate, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20666,8 +20820,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20684,8 +20838,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20702,11 +20856,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Fez
-			//Fez
+			//Fez, Kingdom
+			//Fez, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20721,9 +20875,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20739,11 +20893,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Rabat
+			//Rabat, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20775,8 +20929,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20793,8 +20947,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
 			//
@@ -20810,11 +20964,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Tangier
+			//Tangier, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20829,8 +20983,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20848,7 +21002,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20866,8 +21020,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -20884,11 +21038,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Kairouan
-			//Kairouan
+			//Kairouan, Kingdom
+			//Kairouan, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20903,11 +21057,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Tunis
+			//Tunis, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20922,11 +21076,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'				
             ]);		
-			//Djerid
+			//Djerid, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20942,10 +21096,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Tripoli
+			//Tripoli, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20961,10 +21115,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);		
-			//Sirte
+			//Sirte, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -20980,11 +21134,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Tlemcen
-			//Tlemcen
+			//Tlemcen, Kingdom
+			//Tlemcen, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21000,10 +21154,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Oujda
+			//Oujda, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21018,11 +21172,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Oran
+			//Oran, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21037,11 +21191,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
-			//Algiers
+			//Algiers, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21057,10 +21211,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
-			//Tiaret
+			//Tiaret, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21075,11 +21229,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Mzab
+			//Mzab, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21095,10 +21249,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Laghouat
+			//Laghouat, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21114,10 +21268,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Djelfa
+			//Djelfa, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21133,11 +21287,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Ifni
-			//Ifni
+			//Ifni, Kingdom
+			//Ifni, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21153,7 +21307,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -21172,9 +21326,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Taroudant
+			//Taroudant, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21190,8 +21344,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Tannery',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -21207,12 +21361,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Figuig
-			//Figuig
+			//Figuig, Kingdom
+			//Figuig, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21227,9 +21381,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
 			//
@@ -21246,8 +21400,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -21264,10 +21418,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Adrar
+			//Adrar, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21283,8 +21437,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -21301,12 +21455,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Abbasid
-			//Baghdad
-			//Baghdad
+			//Abbasid, Empire
+			//Baghdad, Kingdom
+			//Baghdad, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21321,12 +21475,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Syria
-			//Damascus
+			//Syria, Kingdom
+			//Damascus, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21341,11 +21495,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Jabal
+			//Jabal, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21362,9 +21516,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Homs
+			//Homs, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21380,11 +21534,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Najd
-			//Najd
+			//Najd, Kingdom
+			//Najd, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21401,10 +21555,10 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Antioch
-			//Antioch
+			//Antioch, Kingdom
+			//Antioch, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21420,12 +21574,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Fatimid
-			//Cairo
-			//Cairo
+			//Fatimid, Empire
+			//Cairo, Kingdom
+			//Cairo, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21440,11 +21594,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
+				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Alexandria
+			//Alexandria, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21460,10 +21614,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'				
             ]);
-			//Mansoura
+			//Mansoura, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21479,10 +21633,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Damietta
+			//Damietta, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21498,10 +21652,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Arsenal'				
             ]);
-			//Minya
+			//Minya, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21517,10 +21671,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Asyut
+			//Asyut, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21536,10 +21690,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Kharga
+			//Kharga, Duchy
 			//Kharga
 			//
             DB::table('baronies')->insert([
@@ -21554,9 +21708,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21572,8 +21726,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21589,8 +21743,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21606,8 +21760,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21623,8 +21777,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Dakhla
 			//
@@ -21641,8 +21795,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21658,10 +21812,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Baritun
+			//Baritun, Duchy
 			//Baritun
 			//
             DB::table('baronies')->insert([
@@ -21677,7 +21831,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -21694,8 +21848,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Siwa
 			//
@@ -21712,8 +21866,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21728,9 +21882,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21746,8 +21900,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Natrun
 			//
@@ -21764,8 +21918,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21781,8 +21935,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21798,10 +21952,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
-			//Boula
+			//Boula, Duchy
 			//Boula
 			//
             DB::table('baronies')->insert([
@@ -21817,8 +21971,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21834,8 +21988,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Qoseir
 			//
@@ -21851,8 +22005,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -21869,11 +22023,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);
-			//Jerusalem
-			//Jerusalem
+			//Jerusalem, Kingdom
+			//Jerusalem, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21889,11 +22043,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Hejaz
-			//Mecca
+			//Hejaz, Kingdom
+			//Mecca, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21909,8 +22063,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
 			//
@@ -21926,7 +22080,7 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Warehouse',			
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
@@ -21945,7 +22099,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
 			//
@@ -21963,9 +22117,9 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Tiltyard',
-				'quarter_harbor' => 'None'				
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Medina
+			//Medina, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -21981,8 +22135,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -21998,8 +22152,8 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22016,9 +22170,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -22033,11 +22187,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Tabuk
+			//Tabuk, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22053,8 +22207,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -22071,7 +22225,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22088,8 +22242,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
 			//
@@ -22106,12 +22260,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Khazar
-			//Khazaria
-			//Aqtobe
+			//Khazar, Empire
+			//Khazaria, Kingdom
+			//Aqtobe, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22127,10 +22281,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Sarkel
+			//Sarkel, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22146,10 +22300,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Atil
+			//Atil, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22164,11 +22318,11 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Bolghar
+			//Bolghar, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22184,10 +22338,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Bilar
+			//Bilar, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22203,11 +22357,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);					
-			//Alania
-			//Derbent
+			//Alania, Kingdom
+			//Derbent, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22223,10 +22377,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
-			//Azov
+			//Azov, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22242,11 +22396,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Cumania
-			//Sighnaq
+			//Cumania, Kingdom
+			//Sighnaq, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22262,10 +22416,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
-			//Sozak
+			//Sozak, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22281,10 +22435,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);				
-			//Sibir
+			//Sibir, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22300,12 +22454,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);				
-			//Seljuk
-			//Kwarezm
-			//Gurganj
+			//Seljuk, Empire
+			//Kwarezm, Kingdom
+			//Gurganj, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22321,10 +22475,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Khiva
+			//Khiva, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22340,11 +22494,11 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
-			//Isfahan
-			//Isfahan
+			//Isfahan, Kingdom
+			//Isfahan, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22360,10 +22514,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
-			//Shiraz
+			//Shiraz, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22378,12 +22532,12 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
-				'quarter_downtown' => 'Jewry',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
-			//Hormuz
-			//Hormuz
+			//Hormuz, Kingdom
+			//Hormuz, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22399,7 +22553,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22417,7 +22571,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22435,7 +22589,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22453,10 +22607,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Forester',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
-			//Kerman
+			//Kerman, Duchy
 			//
 			//
             DB::table('baronies')->insert([
@@ -22472,8 +22626,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -22488,9 +22642,9 @@ class BaronySeeder extends Seeder
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Warehouse',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
 			//
@@ -22507,8 +22661,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -22524,8 +22678,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
 			//
@@ -22542,8 +22696,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'				
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -22559,8 +22713,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'None',
-				'quarter_harbor' => 'None'					
+				'quarter_suburb' => 'Forester',
+				'quarter_harbor' => 'Stockpile'					
             ]);			
     }
 }
