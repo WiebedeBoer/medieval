@@ -2532,7 +2532,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -2635,7 +2635,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//161
-			//bernburg, ninenburg, ascherleben, hadmersleben, ballenstedt
+			//bernburg, nienburg, ascherleben, hadmersleben, ballenstedt
             DB::table('counties')->insert([
 				'county_name' => 'Schwabengau',
 				'county_category' => 'Feudal',
@@ -2643,7 +2643,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
