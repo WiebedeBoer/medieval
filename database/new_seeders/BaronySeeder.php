@@ -27,7 +27,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => '',				//None, Mint, Reliquary
 				'charter_university' => '',			//None, Monastic_School, Cathedral_School, Scriptorium_Library
 				'quarter_downtown' => '',			//Citadel, Courtyard, Hospice, Almshouse, Granary, Merchant_Quarter, Jewry_Quarter 
-				'quarter_suburb' => '',				//Tiltyard, Hunting_Lodge, Coaching_Inn, Smithy, Tannery, Potterer, Forester
+				'quarter_suburb' => '',				//Tiltyard, Hunting_Lodge, Coaching_Inn, Industrial_Smith, Industrial_Tanner, Industrial_Potter, Marke_Forest
 				'quarter_harbor' => '',				//Stockpile, Warehouse_Quarter, Staple_Port, Arsenal
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
@@ -62,7 +62,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -79,7 +79,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -96,7 +96,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Ostmark 
@@ -114,7 +114,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -131,7 +131,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -148,7 +148,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -165,7 +165,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Vienna
@@ -200,7 +200,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -236,7 +236,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -253,7 +253,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Folkfeld 
@@ -271,7 +271,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -288,7 +288,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Isengau 
@@ -306,7 +306,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -323,7 +323,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Nordgau
@@ -341,7 +341,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);			
 			//
@@ -358,7 +358,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Smithy',
+				'quarter_suburb' => 'Industrial_Smith',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -375,7 +375,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Radenzgau 
@@ -393,7 +393,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -410,7 +410,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Rottgau 
@@ -462,7 +462,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//Schweinachgau 
@@ -480,7 +480,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -497,7 +497,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -514,7 +514,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//Westergau 
@@ -532,7 +532,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -549,7 +549,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -566,7 +566,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//Brabant, Duchy
@@ -620,7 +620,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -637,7 +637,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -654,7 +654,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Hennegau
@@ -672,7 +672,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -689,7 +689,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -706,7 +706,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Kamerykgau
@@ -724,7 +724,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -741,7 +741,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Toxandria
@@ -759,7 +759,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -776,7 +776,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -793,7 +793,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -810,7 +810,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -827,7 +827,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -844,7 +844,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -861,7 +861,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Waasgau
@@ -879,7 +879,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -896,7 +896,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -913,7 +913,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -930,7 +930,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -947,7 +947,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -964,7 +964,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//Carinthia, Duchy
@@ -983,7 +983,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -1000,7 +1000,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Ingeringtal 
@@ -1018,7 +1018,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1035,7 +1035,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Jauntal
@@ -1053,7 +1053,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -1070,7 +1070,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);			
 			//
@@ -1087,7 +1087,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Kroatengau 
@@ -1105,7 +1105,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -1122,7 +1122,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -1156,7 +1156,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -1173,7 +1173,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Lavanttal 
@@ -1191,7 +1191,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1208,7 +1208,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Smithy',
+				'quarter_suburb' => 'Industrial_Smith',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Leobental 
@@ -1226,7 +1226,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1243,7 +1243,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Lurngau
@@ -1261,7 +1261,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -1278,7 +1278,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -1313,7 +1313,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -1330,7 +1330,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Sanntal
@@ -1348,7 +1348,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -1365,7 +1365,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Carniola
@@ -1384,7 +1384,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1401,7 +1401,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Histria 
@@ -1419,7 +1419,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -1436,7 +1436,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -1453,7 +1453,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -1470,7 +1470,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1487,7 +1487,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//Franconia, Duchy
@@ -1506,7 +1506,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Potterer',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -1523,7 +1523,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -1540,7 +1540,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1557,7 +1557,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -1574,7 +1574,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -1591,7 +1591,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Gollachgau
@@ -1609,7 +1609,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			// 
@@ -1626,7 +1626,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -1643,7 +1643,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);
 			//Gotzfeld
@@ -1661,7 +1661,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -1678,7 +1678,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Jagstgau
@@ -1696,7 +1696,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -1713,7 +1713,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Saalgau
@@ -1731,7 +1731,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -1748,7 +1748,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Sualafeld
@@ -1766,7 +1766,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -1783,7 +1783,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Sulmgau 
@@ -1801,7 +1801,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1818,7 +1818,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1835,7 +1835,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1852,7 +1852,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1886,7 +1886,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Taubergau 
@@ -1904,7 +1904,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1921,7 +1921,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Waldsassengau 
@@ -1973,7 +1973,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Frisia, Duchy
@@ -2009,7 +2009,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -2044,7 +2044,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -2061,7 +2061,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -2078,7 +2078,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			//Beveland
@@ -2096,7 +2096,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2113,7 +2113,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2130,7 +2130,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//Bornegau
@@ -2148,7 +2148,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -2165,7 +2165,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -2182,7 +2182,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -2199,7 +2199,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -2216,7 +2216,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Drenthe
@@ -2234,7 +2234,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);		
 			//
@@ -2251,7 +2251,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -2268,7 +2268,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -2285,7 +2285,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -2302,7 +2302,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -2319,7 +2319,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -2336,7 +2336,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Dithmarschen
@@ -2354,7 +2354,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);		
 			//
@@ -2371,7 +2371,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -2388,7 +2388,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);				
 			//Emsigerland
@@ -2493,7 +2493,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -2510,7 +2510,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Holtland
@@ -2528,7 +2528,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			//
@@ -2545,7 +2545,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Hunsingau
@@ -2597,7 +2597,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Kennemerland
@@ -2615,7 +2615,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -2632,7 +2632,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -2666,7 +2666,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2683,7 +2683,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -2700,7 +2700,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//Maasland
@@ -2718,7 +2718,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Potterer',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -2735,7 +2735,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			//
@@ -2752,7 +2752,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);	
 			// 
@@ -2769,7 +2769,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -2786,7 +2786,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);				
 			//Nifterlake
@@ -2804,7 +2804,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Potterer',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -2821,7 +2821,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -2838,7 +2838,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -2855,7 +2855,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -2872,7 +2872,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -2889,7 +2889,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -2906,7 +2906,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -2923,7 +2923,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);
 			// 
@@ -2940,7 +2940,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);
 			//Norderland
@@ -3062,7 +3062,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);
 			// 
@@ -3079,7 +3079,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);
 			// 
@@ -3096,7 +3096,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -3113,7 +3113,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -3130,7 +3130,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Rhineland
@@ -3148,7 +3148,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3165,7 +3165,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3182,7 +3182,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3199,7 +3199,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3216,7 +3216,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			//Rustringen
@@ -3251,7 +3251,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3268,7 +3268,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			//Salland
@@ -3286,7 +3286,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);				
 			// 
@@ -3303,7 +3303,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3320,7 +3320,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3337,7 +3337,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3354,7 +3354,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);				
 			//Sudergau
@@ -3372,7 +3372,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);
 			// 
@@ -3406,7 +3406,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Teisterbant
@@ -3424,7 +3424,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3441,7 +3441,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3475,7 +3475,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3492,7 +3492,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3526,7 +3526,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			//Twente
@@ -3544,7 +3544,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3561,7 +3561,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3578,7 +3578,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3595,7 +3595,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Veluwe
@@ -3613,7 +3613,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3630,7 +3630,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3647,7 +3647,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -3664,7 +3664,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Vollenhove	
@@ -3682,7 +3682,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3699,7 +3699,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3716,7 +3716,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			//Walcheren
@@ -3734,7 +3734,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3751,7 +3751,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3768,7 +3768,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			//Westergau
@@ -3803,7 +3803,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3820,7 +3820,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3837,7 +3837,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3854,7 +3854,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3871,7 +3871,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'																					
             ]);	
 			// 
@@ -3888,7 +3888,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3905,7 +3905,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			// 
@@ -3922,7 +3922,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'																					
             ]);
 			//Westflinge
@@ -3957,7 +3957,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			// 
@@ -3974,7 +3974,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'										
             ]);
 			//Wursten
@@ -3992,7 +3992,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
@@ -4009,7 +4009,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
@@ -4026,7 +4026,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4043,7 +4043,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4060,7 +4060,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Guelders, Duchy
@@ -4079,7 +4079,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4096,7 +4096,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4113,7 +4113,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4130,7 +4130,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Betuwe
@@ -4148,7 +4148,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4165,7 +4165,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4234,12 +4234,12 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
             DB::table('baronies')->insert([
-				'barony_name' => 'Cleves',
+				'barony_name' => 'Kranenburg',
 				'barony_category' => 'Feudal',
 				'de_jure_county' => '69',
 				'population' => '',
@@ -4249,9 +4249,9 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
-				'charter_university' => 'None',
-				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Hamaland
@@ -4269,7 +4269,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4286,7 +4286,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4303,7 +4303,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4320,7 +4320,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4337,7 +4337,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
@@ -4354,7 +4354,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
@@ -4371,7 +4371,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//Mulgau
@@ -4389,7 +4389,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4406,7 +4406,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4423,7 +4423,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Ruhrgau
@@ -4441,7 +4441,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4458,7 +4458,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);				
 			//Julich, Duchy
@@ -4477,7 +4477,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4494,7 +4494,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4511,7 +4511,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4528,7 +4528,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -4545,7 +4545,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Eifelgau
@@ -4563,7 +4563,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -4580,7 +4580,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4597,7 +4597,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Zulpichgau
@@ -4615,7 +4615,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -4632,7 +4632,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Limburg, Duchy
@@ -4651,7 +4651,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -4668,7 +4668,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//Ardennengau 
@@ -4686,7 +4686,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -4703,7 +4703,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -4755,7 +4755,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -4772,7 +4772,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -4789,7 +4789,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//Lommegau
@@ -4807,7 +4807,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -4824,7 +4824,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//
@@ -4841,7 +4841,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Maasgau
@@ -4859,7 +4859,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -4876,7 +4876,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'None',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -4910,7 +4910,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Lorraine, Duchy	
@@ -4929,7 +4929,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -4946,7 +4946,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
@@ -4963,7 +4963,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -4980,7 +4980,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Bleisgau
@@ -4998,7 +4998,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
@@ -5015,7 +5015,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -5032,7 +5032,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Chaumontois
@@ -5067,7 +5067,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -5084,7 +5084,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -5101,7 +5101,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Saargau
@@ -5154,7 +5154,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//
@@ -5171,7 +5171,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//
@@ -5188,7 +5188,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			//Soulossois
@@ -5223,7 +5223,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);				
 			//Toullois
@@ -5241,7 +5241,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -5258,7 +5258,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -5275,7 +5275,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -5292,7 +5292,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Luxembourg, Duchy
@@ -5346,7 +5346,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -5363,7 +5363,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Moselgau
@@ -5381,7 +5381,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);	
 			//
@@ -5398,7 +5398,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);	
 			//Verdungau
@@ -5433,7 +5433,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);	
 			//Wavergau
@@ -5451,7 +5451,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -5468,7 +5468,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -5485,7 +5485,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -5502,7 +5502,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -5519,7 +5519,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//Saxony, Duchy
@@ -5538,7 +5538,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -5555,7 +5555,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -5572,7 +5572,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
@@ -5589,7 +5589,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Derlingau
@@ -5607,7 +5607,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -5624,7 +5624,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -5658,7 +5658,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -5675,7 +5675,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Eastfalagau
@@ -5693,7 +5693,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -5710,7 +5710,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Gretingau
@@ -5763,7 +5763,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -5780,7 +5780,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -5797,7 +5797,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -5814,7 +5814,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Harzgau
@@ -5832,7 +5832,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
@@ -5849,7 +5849,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -5935,7 +5935,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Styria, Duchy
@@ -6005,7 +6005,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -6022,7 +6022,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Attergau
@@ -6040,7 +6040,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -6057,7 +6057,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Smithy',
+				'quarter_suburb' => 'Industrial_Smith',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -6074,7 +6074,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Ennstal
@@ -6109,7 +6109,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			// 
@@ -6126,7 +6126,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Mattiggau
@@ -6144,7 +6144,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -6161,7 +6161,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Norital 
@@ -6179,7 +6179,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -6196,7 +6196,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -6213,7 +6213,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -6248,7 +6248,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -6284,7 +6284,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -6301,7 +6301,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -6318,7 +6318,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -6335,7 +6335,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -6370,7 +6370,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6387,7 +6387,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6404,7 +6404,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6421,7 +6421,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6438,7 +6438,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6455,7 +6455,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Augstgau 
@@ -6473,7 +6473,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6490,7 +6490,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6507,7 +6507,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -6524,7 +6524,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -6541,7 +6541,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6559,7 +6559,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'
 			]);
 			//
@@ -6576,7 +6576,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -6593,7 +6593,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6610,7 +6610,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6627,7 +6627,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6644,7 +6644,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Churgau 
@@ -6662,7 +6662,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6679,7 +6679,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6696,7 +6696,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6713,7 +6713,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -6730,7 +6730,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -6747,7 +6747,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Hegau
@@ -6765,7 +6765,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -6782,7 +6782,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Linzgau
@@ -6800,7 +6800,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -6817,7 +6817,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -6834,7 +6834,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -6851,7 +6851,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Neckargau 
@@ -6869,7 +6869,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -6886,7 +6886,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -6903,7 +6903,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -6920,7 +6920,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Nordgau 
@@ -6938,7 +6938,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -6955,7 +6955,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Riesgau
@@ -7008,7 +7008,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -7042,7 +7042,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -7059,7 +7059,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			// 
@@ -7076,7 +7076,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -7093,7 +7093,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -7110,7 +7110,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -7127,7 +7127,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Schwyzgau
@@ -7145,7 +7145,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -7162,7 +7162,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Sundgau 
@@ -7180,7 +7180,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -7197,7 +7197,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -7214,7 +7214,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -7231,7 +7231,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Turgau 
@@ -7249,7 +7249,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -7266,7 +7266,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -7283,7 +7283,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7300,7 +7300,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester'									
+				'quarter_suburb' => 'Marke_Forest'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7316,7 +7316,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -7333,7 +7333,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -7350,7 +7350,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Zurichgau
@@ -7385,7 +7385,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7402,7 +7402,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Thuringia, Duchy
@@ -7421,7 +7421,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7438,7 +7438,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7455,7 +7455,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Altgau 
@@ -7473,7 +7473,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7490,7 +7490,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Eichsfeld 
@@ -7508,7 +7508,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7525,7 +7525,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Helmegau 
@@ -7543,7 +7543,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -7560,7 +7560,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Langwitzgau 
@@ -7595,7 +7595,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Nabelgau 
@@ -7613,7 +7613,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7630,7 +7630,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Orlagau 
@@ -7648,7 +7648,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7665,7 +7665,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -7682,7 +7682,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -7699,7 +7699,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Ostergau
@@ -7717,7 +7717,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7734,7 +7734,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7751,7 +7751,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -7768,7 +7768,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7785,7 +7785,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Zwickaugau
@@ -7820,7 +7820,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Bremen, Duchy
@@ -7839,7 +7839,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			//
@@ -7856,7 +7856,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -7873,7 +7873,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Agradingau
@@ -7891,7 +7891,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -7908,7 +7908,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -7925,7 +7925,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Angerngau 
@@ -7943,7 +7943,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7960,7 +7960,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7977,7 +7977,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7994,7 +7994,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -8011,7 +8011,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -8028,7 +8028,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -8045,7 +8045,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Augau
@@ -8063,7 +8063,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -8080,7 +8080,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -8097,7 +8097,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -8114,7 +8114,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Smithy',
+				'quarter_suburb' => 'Industrial_Smith',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8131,7 +8131,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Bukkigau 
@@ -8149,7 +8149,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8166,7 +8166,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8183,7 +8183,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Bursibant
@@ -8201,7 +8201,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8218,7 +8218,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8235,7 +8235,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8252,7 +8252,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8269,7 +8269,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8286,7 +8286,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			// 
@@ -8304,7 +8304,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8321,7 +8321,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8338,7 +8338,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8355,7 +8355,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scotland',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8389,7 +8389,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Dreingau 
@@ -8407,7 +8407,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8424,7 +8424,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8441,7 +8441,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8458,7 +8458,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Gronegau 
@@ -8476,7 +8476,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8493,7 +8493,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8510,7 +8510,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Hasegau 
@@ -8528,7 +8528,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8545,7 +8545,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8562,7 +8562,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8579,7 +8579,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Heilangau 
@@ -8597,7 +8597,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
 			//
@@ -8631,7 +8631,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
 			//Holsteingau 
@@ -8649,7 +8649,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8666,7 +8666,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8683,7 +8683,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Leinegau 
@@ -8701,7 +8701,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8718,7 +8718,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Mosidegau 
@@ -8736,7 +8736,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8753,7 +8753,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Padergau
@@ -8805,7 +8805,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8822,7 +8822,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8874,7 +8874,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8891,7 +8891,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8943,7 +8943,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'									
             ]);
 			//
@@ -8960,7 +8960,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Sturmigau 
@@ -8978,7 +8978,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8995,7 +8995,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Sudergau 
@@ -9030,7 +9030,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -9047,7 +9047,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Werregau
@@ -9065,7 +9065,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -9082,7 +9082,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -9099,7 +9099,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -9116,7 +9116,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9134,7 +9134,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -9168,7 +9168,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Smithy',
+				'quarter_suburb' => 'Industrial_Smith',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9185,7 +9185,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Cologne, Duchy
@@ -9204,7 +9204,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Smithy',
+				'quarter_suburb' => 'Industrial_Smith',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -9221,7 +9221,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9238,7 +9238,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9255,7 +9255,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Courtyard',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9272,7 +9272,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9289,7 +9289,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9306,15 +9306,15 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
-			//
+			//Auelgau
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Siegburg',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '152',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
@@ -9324,14 +9324,14 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Potterer',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rennenburg',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '152',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Moot',
@@ -9341,8 +9341,43 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Blankenberg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '152',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bonn',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Industrial_Potter',
+				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Magdeburg, Duchy
 			// 
@@ -9360,7 +9395,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Hartingau 
@@ -9378,7 +9413,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9395,7 +9430,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9412,7 +9447,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			// 
@@ -9430,7 +9465,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Mainz, Duchy
@@ -9449,7 +9484,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9466,7 +9501,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -9483,7 +9518,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -9500,7 +9535,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -9517,7 +9552,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -9535,7 +9570,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9553,7 +9588,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -9570,7 +9605,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9587,7 +9622,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -9605,7 +9640,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Salzburg, Duchy
@@ -9641,7 +9676,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -9659,7 +9694,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Trier, Duchy
@@ -9678,7 +9713,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9695,7 +9730,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9712,7 +9747,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Lombardy, Kingdom
@@ -9732,7 +9767,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9749,7 +9784,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9766,7 +9801,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9784,7 +9819,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9802,7 +9837,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			// 
@@ -9820,7 +9855,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			//Piacenza
@@ -9838,7 +9873,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -9855,7 +9890,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -9872,7 +9907,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9890,7 +9925,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Piedmont, Duchy
@@ -9909,7 +9944,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9927,7 +9962,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Tuscany, Duchy
@@ -9946,7 +9981,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Verona, Duchy
@@ -9965,7 +10000,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -9983,7 +10018,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10020,7 +10055,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'									
             ]);	
 			// 
@@ -10037,7 +10072,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -10055,7 +10090,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Florence, Duchy
@@ -10074,7 +10109,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10092,7 +10127,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10127,7 +10162,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Genoa, Duchy
@@ -10146,7 +10181,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			//Noli, Duchy
@@ -10165,7 +10200,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			//Lucca, Duchy
@@ -10184,7 +10219,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Pisa, Duchy
@@ -10203,7 +10238,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			//Venice, Duchy
@@ -10222,7 +10257,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			// 
@@ -10240,7 +10275,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10258,7 +10293,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Bohemia, Kingdom
@@ -10278,7 +10313,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Lusatia, Duchy
@@ -10297,7 +10332,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Moravia, Duchy
@@ -10316,7 +10351,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Lower Silesia, Duchy
@@ -10374,7 +10409,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10392,7 +10427,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10410,7 +10445,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -10428,7 +10463,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -10445,7 +10480,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -10482,7 +10517,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10500,7 +10535,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10518,7 +10553,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -10535,7 +10570,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -10552,7 +10587,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10570,7 +10605,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -10588,7 +10623,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -10606,7 +10641,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//Transjurania, Duchy
@@ -10642,7 +10677,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Aargau
@@ -10660,7 +10695,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);			
 			//
@@ -10677,7 +10712,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -10694,7 +10729,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -10711,7 +10746,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -10728,7 +10763,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -10746,7 +10781,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Orange, Duchy
@@ -10765,7 +10800,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -10783,7 +10818,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -10800,7 +10835,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -10817,7 +10852,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -10834,7 +10869,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);			
 			//Provence, Duchy
@@ -10853,7 +10888,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -10906,7 +10941,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -10923,7 +10958,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -10940,7 +10975,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Marseille 
@@ -10958,7 +10993,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -10975,7 +11010,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -10993,7 +11028,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -11010,7 +11045,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -11027,7 +11062,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -11044,7 +11079,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -11062,7 +11097,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'						
             ]);			
 			//Savoy, Duchy
@@ -11081,7 +11116,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			// 
@@ -11099,7 +11134,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);			
 			// 
@@ -11117,7 +11152,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -11135,7 +11170,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Papal States, Kingdom
@@ -11173,7 +11208,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Romagna, Duchy
@@ -11192,7 +11227,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -11210,7 +11245,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);		
 			// 
@@ -11228,7 +11263,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			//Spoleto, Duchy
@@ -11265,7 +11300,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);				
 			// 
@@ -11283,7 +11318,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -11301,7 +11336,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Teutonic Order State, Kingdom
@@ -11339,7 +11374,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -11357,7 +11392,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Estonia, Duchy
@@ -11413,7 +11448,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -11431,7 +11466,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			// 
@@ -11468,7 +11503,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Pomerania, Duchy
@@ -11487,7 +11522,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			// 
@@ -11505,7 +11540,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			//
@@ -11522,7 +11557,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			//Brandenburg, Duchy
@@ -11541,7 +11576,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -11559,7 +11594,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Mecklenburg, Duchy
@@ -11614,7 +11649,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Arsenal'								
             ]);
 			//France, Empire
@@ -11688,7 +11723,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Aquitaine, Duchy
@@ -11707,7 +11742,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -11724,7 +11759,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -11742,7 +11777,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -11760,7 +11795,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -11778,7 +11813,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -11795,7 +11830,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -11812,7 +11847,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -11830,7 +11865,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -11847,7 +11882,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -11865,7 +11900,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -11883,7 +11918,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -11901,7 +11936,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Auvergne, Duchy
@@ -11920,7 +11955,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Berry, Duchy
@@ -11939,7 +11974,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Casgony, Duchy
@@ -11958,7 +11993,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -11976,7 +12011,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -11994,7 +12029,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12012,7 +12047,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -12030,7 +12065,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12048,7 +12083,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -12066,7 +12101,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]); 
 			//
@@ -12083,7 +12118,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			// 
@@ -12101,7 +12136,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Champagne, Duchy
@@ -12120,7 +12155,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12138,7 +12173,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12156,7 +12191,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -12174,7 +12209,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -12192,7 +12227,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12210,7 +12245,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12228,7 +12263,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -12245,7 +12280,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Francia, Duchy
@@ -12282,7 +12317,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12300,7 +12335,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12318,7 +12353,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Normandy, Duchy
@@ -12337,7 +12372,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12355,7 +12390,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12373,7 +12408,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			// 
@@ -12391,7 +12426,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -12408,7 +12443,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Caux
@@ -12426,7 +12461,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -12443,7 +12478,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -12496,7 +12531,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12514,7 +12549,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Orleanais, Duchy
@@ -12533,7 +12568,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -12551,7 +12586,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Picardy, Duchy
@@ -12570,7 +12605,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -12588,7 +12623,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -12606,7 +12641,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
 			// 
@@ -12642,7 +12677,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -12660,7 +12695,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -12678,7 +12713,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Poitou, Duchy
@@ -12716,7 +12751,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12734,7 +12769,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -12752,7 +12787,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Melgueil
@@ -12770,7 +12805,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
 			//
@@ -12787,7 +12822,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//
@@ -12804,7 +12839,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			// 
@@ -12822,7 +12857,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -12839,7 +12874,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//
@@ -12856,7 +12891,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			// 
@@ -12874,7 +12909,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			// 
@@ -12891,7 +12926,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			// 
@@ -12909,7 +12944,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -12926,7 +12961,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);			
 			// 
@@ -12944,7 +12979,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -12962,7 +12997,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Brittany, Kingdom
@@ -12982,7 +13017,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -13035,7 +13070,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13053,7 +13088,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Domnonee, Duchy
@@ -13090,7 +13125,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Retz, Duchy
@@ -13182,7 +13217,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			// 
@@ -13200,7 +13235,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13218,7 +13253,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			// 
@@ -13236,7 +13271,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//Leinster, Duchy
@@ -13255,7 +13290,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -13273,7 +13308,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -13291,7 +13326,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13309,7 +13344,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -13327,7 +13362,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13344,7 +13379,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Meath, Duchy
@@ -13363,7 +13398,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
 			// 
@@ -13381,7 +13416,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13399,7 +13434,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -13416,7 +13451,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -13433,7 +13468,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -13450,7 +13485,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -13467,7 +13502,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
@@ -13484,7 +13519,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);			
 			//Munster, Duchy
@@ -13503,7 +13538,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13520,7 +13555,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -13608,7 +13643,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Ulster, Duchy
@@ -13627,7 +13662,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			// 
@@ -13645,7 +13680,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13663,7 +13698,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13681,7 +13716,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13699,7 +13734,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -13717,7 +13752,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13734,7 +13769,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -13751,7 +13786,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -13769,7 +13804,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			// 
@@ -13787,7 +13822,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//England, Kingdom
@@ -13824,7 +13859,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
@@ -13842,7 +13877,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Essex, Duchy
@@ -13861,7 +13896,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13879,7 +13914,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -13914,7 +13949,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Hwicce, Duchy
@@ -13933,7 +13968,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -13950,7 +13985,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -13985,7 +14020,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -14003,7 +14038,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//Kent, Duchy
@@ -14022,7 +14057,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -14040,7 +14075,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Lindsey, Duchy
@@ -14078,7 +14113,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -14096,7 +14131,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -14114,7 +14149,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			//Mid Anglia, Duchy
@@ -14167,7 +14202,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -14202,7 +14237,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Northumbria, Duchy
@@ -14239,7 +14274,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14256,7 +14291,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			//
@@ -14274,7 +14309,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14292,7 +14327,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14309,7 +14344,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -14326,7 +14361,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
 			//Sussex, Duchy
@@ -14345,7 +14380,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14363,7 +14398,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Wessex, Duchy
@@ -14382,7 +14417,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14400,7 +14435,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -14492,7 +14527,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Gwent, Duchy
@@ -14511,7 +14546,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Gwyned, Duchy
@@ -14530,7 +14565,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -14548,7 +14583,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Scotland, Kingdom
@@ -14568,7 +14603,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'									
             ]);	
 			//
@@ -14585,7 +14620,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);				
 			//
@@ -14603,7 +14638,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14620,7 +14655,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14637,7 +14672,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -14654,7 +14689,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -14671,7 +14706,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -14688,7 +14723,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -14705,7 +14740,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//
@@ -14723,7 +14758,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -14740,7 +14775,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);
 			//
@@ -14757,7 +14792,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
@@ -14775,7 +14810,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -14792,7 +14827,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -14809,7 +14844,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//Bernicia, Duchy
@@ -14828,7 +14863,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14845,7 +14880,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -14863,7 +14898,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -14880,7 +14915,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Dalriada, Duchy
@@ -14899,7 +14934,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14916,7 +14951,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -14933,7 +14968,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -14951,7 +14986,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//Fortriu, Duchy
@@ -14970,7 +15005,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -14988,7 +15023,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
 			//Galloway, Duchy
@@ -15007,7 +15042,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'					
             ]);	
 			//
@@ -15042,7 +15077,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Gododdin, Duchy
@@ -15061,7 +15096,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//Roxburghshire
@@ -15079,7 +15114,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -15096,7 +15131,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
@@ -15113,7 +15148,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'					
             ]);
 			//
@@ -15130,7 +15165,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
@@ -15147,7 +15182,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
@@ -15165,7 +15200,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Strathclyde, Duchy
@@ -15184,7 +15219,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -15220,7 +15255,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//Aragon, Empire
@@ -15241,7 +15276,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'						
             ]);	
 			//
@@ -15278,7 +15313,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -15296,7 +15331,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -15314,7 +15349,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
 			//Huesca, Duchy
@@ -15333,7 +15368,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Lleida, Duchy
@@ -15352,7 +15387,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -15370,7 +15405,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Tarragona, Duchy
@@ -15389,7 +15424,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
 			//
@@ -15407,7 +15442,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
 			//Teruel, Duchy
@@ -15426,7 +15461,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//Zaragoza, Duchy
@@ -15445,7 +15480,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -15462,7 +15497,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);				
 			//Navarre, Kingdom
@@ -15482,7 +15517,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Navarre, Duchy
@@ -15522,7 +15557,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);				
 			//Burgos, Duchy
@@ -15560,7 +15595,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//Segovia, Duchy
@@ -15579,7 +15614,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Soria, Duchy
@@ -15598,7 +15633,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//Toledo, Duchy
@@ -15617,7 +15652,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Valladolid, Duchy
@@ -15636,7 +15671,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Galicia, Kingdom	
@@ -15656,7 +15691,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//Lugo, Duchy
@@ -15713,7 +15748,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);		
 			//
@@ -15730,7 +15765,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Leon, Kingdom
@@ -15750,7 +15785,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Leon, Duchy
@@ -15824,7 +15859,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Zamora, Duchy
@@ -15843,7 +15878,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Asturias, Kingdom
@@ -15901,7 +15936,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'					
             ]);	
 			//
@@ -15938,7 +15973,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
@@ -15956,7 +15991,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
@@ -15973,7 +16008,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//Braganca, Duchy
@@ -15992,7 +16027,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Estremadura, Duchy
@@ -16011,7 +16046,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -16047,7 +16082,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Danelagen, Empire
@@ -16068,7 +16103,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -16086,7 +16121,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -16104,7 +16139,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -16122,7 +16157,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -16139,7 +16174,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);			
 			//Scania, Duchy
@@ -16195,7 +16230,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -16233,7 +16268,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
 			//Sodor (Southern Isles), Duchy
@@ -16252,7 +16287,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Hedmark (eidsivating), Duchy
@@ -16271,7 +16306,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Oppland (frostating), Duchy
@@ -16290,7 +16325,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'			
             ]);				
 			//Rogaland (gulating), Duchy
@@ -16309,7 +16344,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'		
             ]);				
 			//Vestland (gulating), Duchy
@@ -16347,7 +16382,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'					
             ]);			
 			//Sweden, Kingdom
@@ -16367,7 +16402,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
@@ -16385,7 +16420,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Osterland, Duchy
@@ -16423,7 +16458,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Svaeland, Duchy
@@ -16442,7 +16477,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'						
             ]);
 			//
@@ -16459,7 +16494,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -16477,7 +16512,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
@@ -16516,7 +16551,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -16534,7 +16569,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Gnesen, Duchy
@@ -16553,7 +16588,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Krakow, Duchy
@@ -16572,7 +16607,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Kuyavia, Duchy
@@ -16591,7 +16626,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Plock, Duchy
@@ -16610,7 +16645,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//Posen, Duchy
@@ -16647,7 +16682,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
 			//Lithuania, Kingdom	
@@ -16686,7 +16721,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);	
 			//Vilnius, Duchy			
@@ -16705,7 +16740,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);				
 			//Hungary, Empire
@@ -16726,7 +16761,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
@@ -16743,7 +16778,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'			
             ]);
 			//
@@ -16761,7 +16796,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//Buda, Duchy
@@ -16780,7 +16815,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -16798,7 +16833,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -16833,7 +16868,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);	
 			//
@@ -16851,7 +16886,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
 			//
@@ -16869,7 +16904,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);	
 			//
@@ -16887,7 +16922,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Nitra, Duchy
@@ -16906,7 +16941,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -16924,7 +16959,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Temesvar, Duchy
@@ -16943,7 +16978,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -16960,7 +16995,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
@@ -16978,7 +17013,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//Transylvania, Duchy
@@ -16997,7 +17032,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Croatia, Kingdom
@@ -17017,7 +17052,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
@@ -17034,7 +17069,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//Ragusa, Duchy
@@ -17053,7 +17088,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'				
             ]);	
 			//
@@ -17070,7 +17105,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -17087,7 +17122,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'			
             ]);
 			//
@@ -17105,7 +17140,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//Slavonia, Duchy
@@ -17124,7 +17159,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);		
 			//
@@ -17141,7 +17176,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -17159,7 +17194,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//Split, Duchy
@@ -17178,7 +17213,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -17195,7 +17230,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -17212,7 +17247,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -17229,7 +17264,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -17247,7 +17282,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//Zadar, Duchy
@@ -17266,7 +17301,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -17283,7 +17318,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);
 			//
@@ -17300,7 +17335,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -17318,7 +17353,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -17335,7 +17370,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -17353,7 +17388,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);
 			//Trinacria, Empire
@@ -17391,7 +17426,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -17408,7 +17443,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Caccamo
@@ -17426,7 +17461,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//
@@ -17443,7 +17478,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Cefalu
@@ -17461,7 +17496,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'							
             ]);	
 			//
@@ -17478,7 +17513,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Trapani, Duchy
@@ -17497,7 +17532,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);
 			//
@@ -17515,7 +17550,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//
@@ -17533,7 +17568,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -17550,7 +17585,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Messina, Duchy
@@ -17586,7 +17621,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'					
             ]);
 			//Milazzo
@@ -17604,7 +17639,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -17621,7 +17656,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -17638,7 +17673,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);			
 			//
@@ -17656,7 +17691,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);			
 			//Agrigento, Duchy
@@ -17693,7 +17728,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -17710,7 +17745,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//Caltanisetta
@@ -17728,7 +17763,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -17745,7 +17780,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
@@ -17762,7 +17797,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
@@ -17779,7 +17814,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);			
 			//Catania, Duchy
@@ -17798,7 +17833,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'			
             ]);	
 			//
@@ -17816,7 +17851,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);				
 			//Siracusa, Duchy
@@ -17853,7 +17888,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -17929,7 +17964,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Arsenal'				
             ]);				
 			//Calabria, Duchy
@@ -17965,7 +18000,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
@@ -17982,7 +18017,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -18073,7 +18108,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Taranto, Duchy
@@ -18092,7 +18127,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'				
             ]);	
 			//
@@ -18128,7 +18163,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -18146,7 +18181,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Foggia, Duchy
@@ -18165,7 +18200,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Benevento, Duchy
@@ -18184,7 +18219,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Salerno, Duchy
@@ -18203,7 +18238,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);					
 			//Sardinia, Kingdom
@@ -18223,7 +18258,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Logudoro (torres), Duchy
@@ -18242,7 +18277,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -18260,7 +18295,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Arborea, Duchy
@@ -18279,7 +18314,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -18297,7 +18332,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Cagliari, Duchy
@@ -18316,7 +18351,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//Oglistria
@@ -18334,7 +18369,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -18351,7 +18386,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//Sarrabus
@@ -18369,7 +18404,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -18386,7 +18421,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);				
 			//Byzantine, Empire			
@@ -18425,7 +18460,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Macedonia, Duchy
@@ -18444,7 +18479,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18462,7 +18497,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Thessalonica, Kingdom
@@ -18482,7 +18517,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18500,7 +18535,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -18518,7 +18553,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//
@@ -18536,7 +18571,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18553,7 +18588,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18570,7 +18605,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18588,7 +18623,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//
@@ -18605,7 +18640,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18622,7 +18657,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18639,7 +18674,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18656,7 +18691,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Peloponessos, Duchy
@@ -18675,7 +18710,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'						
             ]);	
 			//
@@ -18692,7 +18727,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);
 			//
@@ -18710,7 +18745,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -18728,7 +18763,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -18746,7 +18781,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);			
 			//Archipelago, Duchy
@@ -18765,7 +18800,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'						
             ]);			
 			//Epirus, Duchy
@@ -18784,7 +18819,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Thessalonica, Duchy
@@ -18803,7 +18838,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Strymon, Duchy
@@ -18822,7 +18857,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -18840,7 +18875,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Trebizond, Kingdom
@@ -18860,7 +18895,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Armeniac, Duchy
@@ -18879,7 +18914,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Chaldia, Duchy
@@ -18898,7 +18933,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Crimea, Duchy
@@ -18917,7 +18952,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Anatolia, Kingdom
@@ -18937,7 +18972,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Bucellaria, Duchy
@@ -18956,7 +18991,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Anatolia, Duchy
@@ -18975,7 +19010,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Cappadocia, Duchy
@@ -18994,7 +19029,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Seleucia, Duchy
@@ -19013,7 +19048,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Opsicia, Duchy
@@ -19032,7 +19067,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Nicaea, Duchy
@@ -19051,7 +19086,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Lycia, Duchy
@@ -19070,7 +19105,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Pamphylia, Duchy
@@ -19089,7 +19124,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'						
             ]);									
 			//Georgia, Kingdom
@@ -19109,7 +19144,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -19127,7 +19162,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);	
 			//
@@ -19145,7 +19180,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19162,7 +19197,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
@@ -19180,7 +19215,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Javakheti, Duchy
@@ -19199,7 +19234,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Kartli, Duchy
@@ -19218,7 +19253,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19236,7 +19271,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19254,7 +19289,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19272,7 +19307,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Kakheti, Duchy
@@ -19291,7 +19326,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19308,7 +19343,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Armenia, Kingdom
@@ -19328,7 +19363,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Taron, Duchy
@@ -19347,7 +19382,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19365,7 +19400,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Kars, Duchy
@@ -19384,7 +19419,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19402,7 +19437,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Azerbaijan, Duchy
@@ -19421,7 +19456,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'						
             ]);				
 			//Kievan Rus, Empire
@@ -19442,7 +19477,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19459,7 +19494,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Pereyaslavl, Duchy
@@ -19478,7 +19513,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Chernigov, Kingdom
@@ -19498,7 +19533,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19516,7 +19551,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19569,7 +19604,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Murom, Duchy
@@ -19588,7 +19623,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19605,7 +19640,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);
 			//
@@ -19623,7 +19658,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19641,7 +19676,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Halych, Kingdom
@@ -19661,7 +19696,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -19678,7 +19713,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//
@@ -19714,7 +19749,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19732,7 +19767,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Volhynia, Duchy
@@ -19751,7 +19786,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Turov, Duchy
@@ -19770,7 +19805,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Vladimir, Kingdom
@@ -19809,7 +19844,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -19826,7 +19861,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//
@@ -19843,7 +19878,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
@@ -19860,7 +19895,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);	
 			//
@@ -19878,7 +19913,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19895,7 +19930,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);			
 			//Suzdal, Duchy
@@ -19914,7 +19949,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -19932,7 +19967,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Smolensk, Kingdom
@@ -19952,7 +19987,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Toropets, Duchy
@@ -19971,7 +20006,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Mstislavl, Duchy
@@ -19990,7 +20025,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Rzhev, Duchy
@@ -20009,7 +20044,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Tver, Duchy
@@ -20028,7 +20063,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -20046,7 +20081,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -20063,7 +20098,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);			
 			//
@@ -20081,7 +20116,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Yaroslavl
@@ -20116,7 +20151,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -20133,7 +20168,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -20150,7 +20185,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Novgorod, Kingdom
@@ -20170,7 +20205,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Polotsk, Duchy
@@ -20189,7 +20224,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Pleskov, Duchy
@@ -20208,7 +20243,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Bulgaria, Empire
@@ -20229,7 +20264,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Tarnovo, Duchy
@@ -20248,7 +20283,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Wallachia, Kingdom
@@ -20268,7 +20303,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Moldavia, Duchy
@@ -20287,7 +20322,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Serbia, Empire
@@ -20308,7 +20343,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -20325,7 +20360,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Bosnia, Kingdom
@@ -20345,7 +20380,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Cordoba, Empire
@@ -20366,7 +20401,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
 			//
@@ -20384,7 +20419,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Cordoba, Duchy			
@@ -20403,7 +20438,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Granada, Duchy	
@@ -20476,7 +20511,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'			
             ]);	
 			//Sevilla, Duchy
@@ -20515,7 +20550,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20533,7 +20568,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'					
             ]);	
 			//Badajoz, Duchy
@@ -20552,7 +20587,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20570,7 +20605,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);	
 			//
@@ -20588,7 +20623,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20606,7 +20641,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Huelva, Duchy
@@ -20645,7 +20680,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
@@ -20663,7 +20698,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20680,7 +20715,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//Baleares, Duchy
@@ -20718,7 +20753,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
@@ -20736,7 +20771,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'			
             ]);	
 			//
@@ -20754,7 +20789,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'		
             ]);	
 			//Murcia, Duchy
@@ -20773,7 +20808,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'	
             ]);			
 			//Valencia, Duchy			
@@ -20792,7 +20827,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'				
             ]);
 			//Almohad, Empire
@@ -20831,7 +20866,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -20849,7 +20884,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//Sijilmassa, Duchy
@@ -20868,7 +20903,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20885,7 +20920,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -20903,7 +20938,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20921,7 +20956,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Ouarzazate, Duchy
@@ -20940,7 +20975,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20958,7 +20993,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Industrial_Potter',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -20976,7 +21011,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Fez, Kingdom
@@ -21014,7 +21049,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Rabat, Duchy
@@ -21050,7 +21085,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -21067,7 +21102,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -21085,7 +21120,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Tangier, Duchy
@@ -21104,7 +21139,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -21122,7 +21157,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -21140,7 +21175,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -21158,7 +21193,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Kairouan, Kingdom
@@ -21178,7 +21213,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Tunis, Duchy
@@ -21197,7 +21232,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'				
             ]);		
 			//Djerid, Duchy
@@ -21216,7 +21251,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Tripoli, Duchy
@@ -21235,7 +21270,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);		
 			//Sirte, Duchy
@@ -21254,7 +21289,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Tlemcen, Kingdom
@@ -21274,7 +21309,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Oujda, Duchy
@@ -21293,7 +21328,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Oran, Duchy
@@ -21312,7 +21347,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//Algiers, Duchy
@@ -21331,7 +21366,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//Tiaret, Duchy
@@ -21350,7 +21385,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Mzab, Duchy
@@ -21369,7 +21404,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Laghouat, Duchy
@@ -21388,7 +21423,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Djelfa, Duchy
@@ -21407,7 +21442,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Ifni, Kingdom
@@ -21427,7 +21462,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -21464,7 +21499,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Tannery',
+				'quarter_suburb' => 'Industrial_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -21482,7 +21517,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Figuig, Kingdom
@@ -21502,7 +21537,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -21520,7 +21555,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -21538,7 +21573,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Adrar, Duchy
@@ -21557,7 +21592,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -21575,7 +21610,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Abbasid, Empire
@@ -21596,7 +21631,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Syria, Kingdom
@@ -21654,7 +21689,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Najd, Kingdom
@@ -21694,7 +21729,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Fatimid, Empire
@@ -21734,7 +21769,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'				
             ]);
 			//Mansoura, Duchy
@@ -21753,7 +21788,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Damietta, Duchy
@@ -21772,7 +21807,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'				
             ]);
 			//Minya, Duchy
@@ -21791,7 +21826,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Asyut, Duchy
@@ -21810,7 +21845,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Kharga, Duchy
@@ -21829,7 +21864,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -21846,7 +21881,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -21863,7 +21898,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -21880,7 +21915,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -21897,7 +21932,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Dakhla
@@ -21915,7 +21950,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -21932,7 +21967,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Baritun, Duchy
@@ -21951,7 +21986,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -21968,7 +22003,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Siwa
@@ -21986,7 +22021,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -22003,7 +22038,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -22020,7 +22055,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Natrun
@@ -22038,7 +22073,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -22055,7 +22090,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -22072,7 +22107,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Boula, Duchy
@@ -22091,7 +22126,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -22108,7 +22143,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Qoseir
@@ -22126,7 +22161,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//
@@ -22143,7 +22178,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Jerusalem, Kingdom
@@ -22163,7 +22198,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Hejaz, Kingdom
@@ -22183,7 +22218,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -22255,7 +22290,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -22273,7 +22308,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22291,7 +22326,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -22308,7 +22343,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Tabuk, Duchy
@@ -22327,7 +22362,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -22345,7 +22380,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22362,7 +22397,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -22380,7 +22415,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Khazar, Empire
@@ -22401,7 +22436,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Sarkel, Duchy
@@ -22420,7 +22455,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Atil, Duchy
@@ -22439,7 +22474,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Bolghar, Duchy
@@ -22458,7 +22493,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Bilar, Duchy
@@ -22477,7 +22512,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);					
 			//Alania, Kingdom
@@ -22497,7 +22532,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Azov, Duchy
@@ -22516,7 +22551,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Cumania, Kingdom
@@ -22536,7 +22571,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);				
 			//Sozak, Duchy
@@ -22555,7 +22590,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);				
 			//Sibir, Duchy
@@ -22574,7 +22609,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);				
 			//Seljuk, Empire
@@ -22595,7 +22630,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Khiva, Duchy
@@ -22614,7 +22649,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Isfahan, Kingdom
@@ -22634,7 +22669,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Shiraz, Duchy
@@ -22653,7 +22688,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Hormuz, Kingdom
@@ -22673,7 +22708,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22691,7 +22726,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22709,7 +22744,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);	
 			//
@@ -22727,7 +22762,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Staple_Port'				
             ]);
 			//Kerman, Duchy
@@ -22746,7 +22781,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -22763,7 +22798,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -22781,7 +22816,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -22798,7 +22833,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'				
             ]);	
 			//
@@ -22816,7 +22851,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);		
 			//
@@ -22833,7 +22868,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Citadel',			
-				'quarter_suburb' => 'Forester',
+				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'					
             ]);			
     }
