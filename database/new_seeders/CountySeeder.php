@@ -2684,7 +2684,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);			
 			//164
-			//kassel, staufenberg, hersfeld, fritzlar
+			//kassel, staufenberg, hersfeld, fritzlar, friedelshausen
             DB::table('counties')->insert([
 				'county_name' => 'Hessengau',
 				'county_category' => 'Feudal',
@@ -2709,7 +2709,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
