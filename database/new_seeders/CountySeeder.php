@@ -2474,7 +2474,7 @@ class CountySeeder extends Seeder
             ]);						
 			//Cologne
 			//151
-			//cologne, friesheim, rondorf, palmersdorf, junkersdorf
+			//cologne, friesheim, rondorf, palmersdorf, junkersdorf, burbach, pesch
             DB::table('counties')->insert([
 				'county_name' => 'Gillgau',
 				'county_category' => 'Ecclesiastical',
