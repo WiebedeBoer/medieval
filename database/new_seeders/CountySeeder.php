@@ -2732,7 +2732,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//167
-			//afschaffenburg, seligenstadt
+			//aschaffenburg, seligenstadt
             DB::table('counties')->insert([
 				'county_name' => 'Maingau',
 				'county_category' => 'Feudal',
@@ -2757,7 +2757,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -2772,7 +2772,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Franconian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -2796,7 +2796,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//171
-			//sankt leon, brettenheim
+			//sankt leon, bretzenheim
             DB::table('counties')->insert([
 				'county_name' => 'Ufgau',
 				'county_category' => 'Feudal',
@@ -2874,7 +2874,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'Falconry',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//176
 			//tamswick, sankt michael
@@ -2906,10 +2906,10 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);				
 			//178
-			//tergernsee, ebertshausen, munich, staffelsee
+			//tegernsee, ebertshausen, munich, staffelsee
             DB::table('counties')->insert([
 				'county_name' => 'Sundergau',
 				'county_category' => 'Feudal',
