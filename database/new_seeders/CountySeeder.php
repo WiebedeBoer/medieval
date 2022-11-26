@@ -3033,11 +3033,11 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Pigs'
+				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//186
 			//crema, vaiano, bagnolo, trescore
@@ -3152,7 +3152,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//193
-			//parma, fidenza, colorno, san vitale, lagorano, castrignano, bardi
+			//parma, fidenza, colorno, sanguigna, san vitale, castrignano, bardi
             DB::table('counties')->insert([
 				'county_name' => 'Parma',
 				'county_category' => 'Feudal',
@@ -3224,7 +3224,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
