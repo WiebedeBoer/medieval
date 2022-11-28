@@ -3547,7 +3547,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -3566,8 +3566,8 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_mines' => 'Iron',						
+				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//219
@@ -3583,7 +3583,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Stud'
             ]);			
 			//Aquileia
@@ -3598,7 +3598,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Falconry',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
