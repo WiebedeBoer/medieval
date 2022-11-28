@@ -13002,12 +13002,12 @@ class BaronySeeder extends Seeder
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Verona, Duchy
-			// 
+			//Verona 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Verona',
 				'barony_category' => 'Burgher',
-				'de_jure_county' => '',
+				'de_jure_county' => '215',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
@@ -13019,6 +13019,108 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bovolone',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '215',
+				'population' => '2000',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bonavigo',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '215',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bussolengo',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '215',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Legnago',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '215',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'San Bonifacio',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '215',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'San Martino',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '215',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//
@@ -13037,6 +13139,74 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Jewry_Quarter',			
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Masera',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vigonza',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Praglia',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Este',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
 			//

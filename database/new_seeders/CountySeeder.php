@@ -3515,7 +3515,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
