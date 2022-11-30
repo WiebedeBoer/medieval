@@ -3873,28 +3873,28 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Tuscan',
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//238
-			//pistoja, pescia, agliana, uzzano
+			//pistoia, pescia, agliana, uzzano
             DB::table('counties')->insert([
-				'county_name' => 'Pistoja',
+				'county_name' => 'Pistoia',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '32',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_crops' => 'Fiber_Silk',						
+				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//Pisa
 			//239
@@ -3908,7 +3908,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -3971,9 +3971,9 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
