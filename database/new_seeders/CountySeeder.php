@@ -4006,9 +4006,9 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Iron',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//246
 			//treviso, mogliano, conegliano, castelfranco, biancade, musestre, oderzo
