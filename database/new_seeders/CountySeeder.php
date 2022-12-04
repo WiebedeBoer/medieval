@@ -4232,7 +4232,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Silesian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
 				'marke_animal_husbandry' => 'Pigs'
