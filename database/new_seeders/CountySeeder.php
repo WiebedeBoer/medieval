@@ -4410,7 +4410,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Silesian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
@@ -4425,7 +4425,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sorbia',
 				'vernacular_culture' => 'Silesian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
@@ -4459,7 +4459,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Gold',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -4489,7 +4489,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_culture' => 'Silesian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
