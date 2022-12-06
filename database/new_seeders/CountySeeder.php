@@ -4360,7 +4360,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_culture' => 'Moravian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
