@@ -17235,13 +17235,134 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
-            ]);			
-			// 
+            ]);		
+			//Auxois 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Saint Reine',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '285',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chatellenot',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '285',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chateauneuf',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '285',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Stockpile'								
+            ]);		
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Commarin',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '285',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
+			//Beaujolais
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Beaujeu',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '286',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Quincie',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '286',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Saint Nizier',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '286',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
+			//Beaunois 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Citeaux',
-				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '287',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
@@ -17254,6 +17375,58 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Savigny',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '287',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//Chalonais 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chalon',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '288',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Saint Germain',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '288',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Stockpile'								
+            ]);	
 			// 
 			//
             DB::table('baronies')->insert([
