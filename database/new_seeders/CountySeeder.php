@@ -2469,7 +2469,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Stud'
             ]);						
 			//Cologne
@@ -4720,7 +4720,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//290
 			//macon, cluny, charolles, clayette, semur
@@ -4763,8 +4763,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Arpitan',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -4784,7 +4784,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//294
@@ -4804,7 +4804,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//295
-			//billieme, saint jean
+			//billieme, saint ouen
             DB::table('counties')->insert([
 				'county_name' => 'Belinois',
 				'county_category' => 'Feudal',
