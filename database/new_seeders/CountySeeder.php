@@ -5258,7 +5258,7 @@ class CountySeeder extends Seeder
 			//Papal States
 			//Rome
 			//323
-			//rome, nettuno, tivoli, civitavecchia, velletri, montecelio, subiaco, scholastica
+			//rome, nettuno, tivoli, civitavecchia, velletri, montecelio, subiaco
             DB::table('counties')->insert([
 				'county_name' => 'Rome',
 				'county_category' => 'Ecclesiastical',
@@ -5290,7 +5290,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//325
-			//latina, terracina, fondi, castellone, gaeta
+			//terracina, fondi, castellone, gaeta
             DB::table('counties')->insert([
 				'county_name' => 'Latina',
 				'county_category' => 'Feudal',
