@@ -5349,8 +5349,8 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'banal_chasse' => 'Boar',
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
