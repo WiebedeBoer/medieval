@@ -5529,7 +5529,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Livonian',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_husbandry' => 'Stud'
@@ -5551,7 +5551,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//341
-			//dorpat, talkhof, wendau, 
+			//dorpat, talkhof, wendau 
             DB::table('counties')->insert([
 				'county_name' => 'Dorpat',
 				'county_category' => 'Ecclesiastical',
