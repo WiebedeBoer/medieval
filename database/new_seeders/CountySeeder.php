@@ -5431,8 +5431,8 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_mines' => 'Iron',						
+				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//334
