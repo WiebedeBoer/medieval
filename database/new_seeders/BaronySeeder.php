@@ -20009,12 +20009,12 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
             ]);	
-			// 
+			//Carpegna 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Carpegna',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '330',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Moot',
@@ -20026,13 +20026,64 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Citadel',			
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Stockpile'								
-            ]);			
-			// 
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rimini',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '330',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Courtyard',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Staple_Port'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Verucchio',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '330',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Coriano',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '330',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);				
+			//Ravenna 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ravenna',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '331',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
@@ -20045,13 +20096,98 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Forest',
 				'quarter_harbor' => 'Arsenal'								
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lugo',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '331',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cervia',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '331',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bagnacavallo',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '331',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Massa',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '331',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Conselice',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '331',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Citadel',			
+				'quarter_suburb' => 'Marke_Forest',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
 			//Spoleto, Duchy
 			// 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ancona',
 				'barony_category' => 'Burgher',
-				'de_jure_county' => '',
+				'de_jure_county' => '332',
 				'population' => '',
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
@@ -20061,6 +20197,23 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Staple_Port'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Senigallia',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '332',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Fair_Right',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Staple_Port'								
             ]);
