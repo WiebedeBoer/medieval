@@ -5657,7 +5657,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Livonian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
