@@ -6035,7 +6035,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//371
-			//arnswalde, bernstein
+			//arnswalde, bernstein, kolbacz
             DB::table('counties')->insert([
 				'county_name' => 'Arnswalde',
 				'county_category' => 'Crusader_Order',
@@ -6059,7 +6059,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Wendish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -6123,7 +6123,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Wendish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -6179,7 +6179,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//380
-			//schivelbein, stolzenberg, 
+			//schivelbein, stolzenberg 
             DB::table('counties')->insert([
 				'county_name' => 'Schivelbein',
 				'county_category' => 'Crusader_Order',
@@ -6203,7 +6203,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Wendish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -6227,7 +6227,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//383
-			//stettin, predzlow, pasewalk, kolbatz 
+			//stettin, prenzlow, pasewalk, kolbatz 
             DB::table('counties')->insert([
 				'county_name' => 'Stettin',
 				'county_category' => 'Crowned_Republic',
@@ -6324,7 +6324,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//389
-			//berlin, tempelhof, rosenfeld, helwichdorf, kaulsdorf, maltersdorf, biesdorf, morczahn
+			//berlin, spandau, kopenick, tempelhof, rosenfeld, helwichdorf, kaulsdorf, maltersdorf, biesdorf, morczahn
             DB::table('counties')->insert([
 				'county_name' => 'Retschanengau',
 				'county_category' => 'Crusader_Order',
@@ -6334,7 +6334,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Wendish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
@@ -6357,7 +6357,7 @@ class CountySeeder extends Seeder
             ]);
 			//Mecklenburg
 			//391
-			//teterow, malchin, demmin
+			//teterow, malchin
             DB::table('counties')->insert([
 				'county_name' => 'Circipanigau',
 				'county_category' => 'Crusader_Order',
