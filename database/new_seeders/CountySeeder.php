@@ -252,7 +252,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//13
-			//hasselt, tongeren, borgloon
+			//hasselt, tongeren, borgloon, kuringen, herkenrode
             DB::table('counties')->insert([
 				'county_name' => 'Haspengau',
 				'county_category' => 'Feudal',
@@ -260,7 +260,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Flemish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',	
 				'marke_mines' => 'None',						
@@ -5981,7 +5981,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
