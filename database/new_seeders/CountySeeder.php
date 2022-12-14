@@ -378,7 +378,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//21
 			//karlsberg, klagenfurt, velden, sankt veit, gurk
@@ -1856,7 +1856,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_culture' => 'Swabian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -5874,7 +5874,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);			
 			//361
-			//dirschau, mewe, neuenburg, 
+			//dirschau, mewe, neuenburg
             DB::table('counties')->insert([
 				'county_name' => 'Dirschau',
 				'county_category' => 'Crusader_Order',
