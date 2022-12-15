@@ -2652,7 +2652,7 @@ class CountySeeder extends Seeder
             ]);
 			//Mainz
 			//162
-			//maiz, worms, oppenheim, lorsch, eibingen
+			//mainz, worms, oppenheim, lorsch, eibingen
             DB::table('counties')->insert([
 				'county_name' => 'Wormsfeld',
 				'county_category' => 'Ecclesiastical',
@@ -18120,7 +18120,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//
 			//lviv, grodek, zudech
@@ -20241,6 +20241,22 @@ class CountySeeder extends Seeder
 			//safi
             DB::table('counties')->insert([
 				'county_name' => 'Safi',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_mines' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);	
+			//
+			//mogador
+            DB::table('counties')->insert([
+				'county_name' => 'Mogador',
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Sunni',
