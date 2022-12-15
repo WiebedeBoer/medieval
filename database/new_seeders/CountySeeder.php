@@ -1686,7 +1686,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);			
 			//102
-			//innsbruck, kufstein, admont
+			//innsbruck, kufstein, admont, muhlau
             DB::table('counties')->insert([
 				'county_name' => 'Ennstal',
 				'county_category' => 'Feudal',
@@ -1694,7 +1694,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Bavarian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Silver',						
