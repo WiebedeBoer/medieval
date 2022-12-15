@@ -6601,7 +6601,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//406
-			//perigeux, bergerac
+			//perigueux, bergerac
             DB::table('counties')->insert([
 				'county_name' => 'Perigord',
 				'county_category' => 'Feudal',
@@ -6614,7 +6614,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//407
 			//saintes, royan, saint jean, taillebourg
