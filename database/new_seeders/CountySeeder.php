@@ -16,17 +16,17 @@ class CountySeeder extends Seeder
 			//example
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',			//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Crowned_Republic
+				'county_category' => '',			//Feudal (1119), Ecclesiastical (130), Monastic_Order (16), Crusader_Order (32), Crowned_Republic (50)
 				'de_jure_duchy' => '',	
 				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Sunni, Shia, Pagan
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish	
 				'vernacular_culture' => '',			//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
-				'banal_moulin' => '',				//None, Watermill, Windmill
-				'banal_pressoir' => '',				//None, Beverage_Wine, Beverage_Cider, Beverage_Elder, Beverage_Hops, Beverage_Gruit, Sweetener_Honey, Sweetener_Sugarcane
-				'banal_chasse' => '',				//None, Falconry, Deer, Boar, Fur				
-				'marke_mines' => '',				//None, Salt, Gold, Silver (Lead), Iron, Copper, Tin, Gems; default=None
-				'marke_crops' => '',				//None, Perfume_Lavender, Perfume_Incense, Perfume_Rose, Fiber_Flax, Fiber_Hemp, Fiber_Cotton, Fiber_Silk, Dye_Saffron, Dye_Madder, Dye_Woad, Dye_Indigo, Dye_Kermes; default=None
-				'marke_animal_husbandry' => '',		//Cattle, Pigs, Sheep, Goats, Poultry, Ducks, Stud
+				'banal_moulin' => '',				//None, Watermill (31), Windmill (34)
+				'banal_pressoir' => '',				//None, Beverage_Wine (173), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (14), Beverage_Gruit (125), Sweetener_Honey (182), Sweetener_Sugarcane (5)
+				'banal_chasse' => '',				//None, Falconry (9), Deer (22), Boar (29), Fur	(6)			
+				'marke_mines' => '',				//None, Salt (28), Gold (20), Silver [Lead] (41), Iron (90), Copper (1), Tin (7), Gems (3); default=None
+				'marke_crops' => '',				//None, Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (48), Fiber_Hemp (15), Fiber_Cotton (15), Fiber_Silk (24), Dye_Saffron (28), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12); default=None
+				'marke_animal_husbandry' => '',		//Stud (182), Cattle (314), Pigs (251), Sheep (339), Goats (153), Poultry (99), Ducks (5) 
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -6677,7 +6677,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -6698,7 +6698,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//412
-			//clermont, montpensier, thiers, voloie
+			//clermont, montpensier, thiers
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
 				'county_category' => 'Feudal',
@@ -6706,7 +6706,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -6743,7 +6743,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Sheep'
+				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//Berry
 			//415
@@ -6771,7 +6771,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -6829,7 +6829,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//420
-			//astarac, mirande, masseube, auch
+			//mirande, masseube, auch
             DB::table('counties')->insert([
 				'county_name' => 'Astarac',
 				'county_category' => 'Feudal',
@@ -6861,7 +6861,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//422
-			//bigorre, escaladieu, tarbes, maubourguet
+			//escaladieu, tarbes, maubourguet
             DB::table('counties')->insert([
 				'county_name' => 'Bigorre',
 				'county_category' => 'Feudal',
@@ -6933,7 +6933,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Occitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -18624,7 +18624,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Russian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
@@ -18640,7 +18640,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Russian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Stud'
@@ -18658,7 +18658,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Russian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Pigs'
