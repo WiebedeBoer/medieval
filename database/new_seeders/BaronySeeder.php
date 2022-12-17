@@ -19,22 +19,22 @@ class BaronySeeder extends Seeder
 				'barony_category' => '',			//Feudal (931), Ecclesiastical (234), Monastic_Order (233), Crusader_Order (67), Burgher (293), Villager (134)			
 				'de_jure_county' => '',
 				'population' => '',	
-				'charter_castle' => '',				//Hall (384), Fortified_Glebe (9), Fortified_Abbey (285), Chancellery (130), Knight_Court (50), Manor_Court (526), County_Court (465), Royal_Court (40)				
-				'charter_assembly' => '',			//Moot (650), Senate (1177), Diet (53), Parliament (8)	
-				'charter_cathedral' => '',			//Chaplain (206), Priest (1078), Bishop (505), Archbishop (93), Patriarch (6)
-				'charter_market' => '',				//Square (1330), Market_Right (480), Fair_Right (41), Cloth_Hall (35)
-				'charter_walls' => '',				//None, Earthwork (10), Palisade (28), Stronghold (1315)
-				'charter_mint' => '',				//None, Mint (140), Reliquary (72)
-				'charter_university' => '',			//None, Monastic_School (36), Cathedral_School (100), Scriptorium_Library (470)
+				'charter_castle' => '',				//Royal_Court (40), County_Court (465), Manor_Court (526), Knight_Court (50), Chancellery (130), Fortified_Abbey (285), Fortified_Glebe (9), Hall (384)				
+				'charter_assembly' => '',			//Parliament (8), Diet (53), Senate (1177), Moot (650)	
+				'charter_cathedral' => '',			//Patriarch (6), Archbishop (93), Bishop (505), Priest (1078), Chaplain (206)
+				'charter_market' => '',				//Merchant_Bank (11), Cloth_Hall (40), Trade_Fair (43), Market_Hall (507), Square (1483) 
+				'charter_walls' => '',				//Stronghold (1315), Palisade (28), Earthwork (10), None
+				'charter_mint' => '',				//Reliquary (72), Mint (140), None
+				'charter_university' => '',			//Cathedral_School (100), Monastic_School (36), Scriptorium_Library (470), None
 				'quarter_downtown' => '',			//Gentry_Quarter (914), Merchant_Quarter (423), Jewry_Quarter (105), Hospice (241), Almshouse (28), Granary (181) 
-				'quarter_suburb' => '',				//Tiltyard (246), Marke_Squire (54), Marke_Yeoman (186), Guild_Smith (32), Guild_Tanner (53), Guild_Furrier (7), Guild_Potter (32), Coaching_Inn (57), Marke_Hufner (506), Marke_Vineyard (339), Hunting_Lodge (39), Marke_Cotter (282), Marke_Apiary (140), Marke_Heath (41), Marke_Grange (5)   
-				'quarter_harbor' => '',				//Stockpile (674), Warehouse_Quarter (1060), Staple_Port (234), Arsenal (34)
-				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
-				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
-				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
-				'tax_feudal' => '',					//minimal, normal, large, maximal; default=normal		
-				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=minimal				
-				'tax_burgher' => '',				//minimal, normal, large, maximal; default=normal				
+				'quarter_suburb' => '',				//Tiltyard (246), Marke_Squire (54), Marke_Yeoman (186), Guild_Smith (32), Guild_Tanner (53), Guild_Furrier (7), Guild_Potter (32), Coaching_Inn (57), Marke_Hufner (506), Marke_Vineyard (339), Hunting_Lodge (39), Marke_Cottar (282), Marke_Apiary (140), Marke_Heath (41), Marke_Grange (5)   
+				'quarter_harbor' => '',				//Arsenal (34), Staple_Port (234), Warehouse_Quarter (1060), Stockpile (674)
+				'levy_feudal' => '',				//maximal, large, normal, minimal; default=large
+				'levy_ecclesiastical' => '',		//maximal, large, normal, minimal; default=normal
+				'levy_burgher' => '',				//maximal, large, normal, minimal; default=normal
+				'tax_feudal' => '',					//maximal, large, normal, minimal; default=normal		
+				'tax_ecclesiastical' => '',			//maximal, large, normal, minimal; default=minimal				
+				'tax_burgher' => '',				//maximal, large, normal, minimal; default=normal				
 				'souvereign' => '1',			(empire); default=1
 				'lord_paramount' => '1',		(kingdom); default=1
 				'tenant_in_chief' => '1',		(duchy); default=1
@@ -178,7 +178,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -231,12 +231,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -253,7 +253,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//Folkfeld 
@@ -266,12 +266,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -283,7 +283,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -301,7 +301,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -323,7 +323,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Nordgau
@@ -341,7 +341,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);			
 			//
@@ -353,7 +353,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -410,7 +410,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Rottgau 
@@ -423,7 +423,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -497,7 +497,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -549,7 +549,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
@@ -566,7 +566,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//Brabant, Duchy
@@ -632,7 +632,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -654,7 +654,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -671,7 +671,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -770,7 +770,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -792,7 +792,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Toxandria
@@ -805,7 +805,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -861,7 +861,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -912,7 +912,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -929,7 +929,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -946,7 +946,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -993,7 +993,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1010,7 +1010,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1027,7 +1027,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1115,7 +1115,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1219,12 +1219,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			//
@@ -1275,7 +1275,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Lavanttal 
@@ -1375,7 +1375,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
@@ -1392,7 +1392,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
@@ -1445,12 +1445,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -1467,7 +1467,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Stronghold',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Carniola
@@ -1481,12 +1481,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1516,7 +1516,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1533,7 +1533,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1555,7 +1555,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -1584,7 +1584,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1603,7 +1603,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -1620,7 +1620,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1637,7 +1637,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -1706,7 +1706,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Glebe',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1775,7 +1775,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1845,7 +1845,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -1898,12 +1898,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1920,7 +1920,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1954,7 +1954,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -1966,7 +1966,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -2089,7 +2089,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2193,7 +2193,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2245,7 +2245,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2503,7 +2503,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2555,7 +2555,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2625,7 +2625,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2729,7 +2729,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2746,7 +2746,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -2763,7 +2763,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2832,7 +2832,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2849,7 +2849,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -2901,7 +2901,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -2918,7 +2918,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3055,7 +3055,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3089,7 +3089,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -3159,7 +3159,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -3301,7 +3301,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3383,7 +3383,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -3400,7 +3400,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3417,12 +3417,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3439,7 +3439,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'																					
             ]);	
 			// 
@@ -3456,7 +3456,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'																					
             ]);				
 			//Sudergau
@@ -3469,7 +3469,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3641,7 +3641,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3680,7 +3680,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'																					
             ]);	
 			// 
@@ -3744,7 +3744,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3865,7 +3865,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3934,7 +3934,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -3968,7 +3968,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -4054,7 +4054,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -4071,7 +4071,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -4145,7 +4145,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4181,7 +4181,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4193,12 +4193,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4215,7 +4215,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4245,7 +4245,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -4262,7 +4262,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -4353,7 +4353,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4370,7 +4370,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Hamaland
@@ -4388,7 +4388,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4405,7 +4405,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4417,12 +4417,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4439,7 +4439,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4473,7 +4473,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			// 
@@ -4490,7 +4490,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4507,7 +4507,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);	
 			//Mulgau
@@ -4525,7 +4525,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4542,7 +4542,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4572,12 +4572,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4594,7 +4594,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);				
 			//Julich, Duchy
@@ -4613,7 +4613,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);	
 			// 
@@ -4647,7 +4647,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4664,7 +4664,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -4681,7 +4681,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Eifelgau
@@ -4699,7 +4699,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -4716,7 +4716,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			// 
@@ -4733,7 +4733,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Zulpichgau
@@ -4751,7 +4751,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			// 
@@ -4768,7 +4768,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//Limburg, Duchy
@@ -4787,7 +4787,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -4799,12 +4799,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//Ardennengau 
@@ -4891,7 +4891,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//
@@ -4908,7 +4908,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -4925,7 +4925,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'											
             ]);
 			//Lommegau
@@ -4960,7 +4960,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);			
 			//
@@ -4977,7 +4977,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//Maasgau
@@ -5046,7 +5046,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -5063,7 +5063,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -5080,7 +5080,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -5097,7 +5097,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//
@@ -5109,12 +5109,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Lorraine, Duchy	
@@ -5318,7 +5318,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -5510,7 +5510,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -5585,7 +5585,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Yeoman',
+				'quarter_suburb' => 'Marke_Squire',
 				'quarter_harbor' => 'Stockpile'											
             ]);	
 			//
@@ -5737,7 +5737,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -5754,7 +5754,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -5788,7 +5788,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -5892,7 +5892,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -5914,7 +5914,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'											
             ]);
 			//Gretingau
@@ -5927,7 +5927,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -6066,7 +6066,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -6100,7 +6100,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -6153,7 +6153,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -6170,7 +6170,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -6187,7 +6187,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -6291,7 +6291,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -6412,7 +6412,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -6429,7 +6429,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -6689,7 +6689,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -6745,7 +6745,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'										
             ]);
 			//
@@ -6775,7 +6775,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -6860,7 +6860,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -6878,7 +6878,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -7102,7 +7102,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -7119,7 +7119,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7136,7 +7136,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -7171,7 +7171,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7189,7 +7189,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7258,7 +7258,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7413,7 +7413,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7465,7 +7465,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -7482,7 +7482,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -7499,7 +7499,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -7521,7 +7521,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Granary',
 				'quarter_downtown' => 'Marke_Vineyard',			
-				'quarter_suburb' => 'Marke_Cotter'									
+				'quarter_suburb' => 'Marke_Cottar'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7601,7 +7601,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -7618,7 +7618,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7659,7 +7659,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7688,12 +7688,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Altgau 
@@ -7706,12 +7706,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -7728,7 +7728,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Eichsfeld 
@@ -7741,7 +7741,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -7798,7 +7798,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Langwitzgau 
@@ -7811,7 +7811,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -7833,7 +7833,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Nabelgau 
@@ -7881,7 +7881,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -7903,7 +7903,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -7937,7 +7937,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Ostergau
@@ -7955,7 +7955,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7967,12 +7967,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -7989,7 +7989,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -8006,7 +8006,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -8023,7 +8023,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//Zwickaugau
@@ -8036,7 +8036,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -8053,12 +8053,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Bremen, Duchy
@@ -8072,7 +8072,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -8124,12 +8124,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8141,12 +8141,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -8181,7 +8181,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8193,12 +8193,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8215,7 +8215,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8301,7 +8301,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -8313,12 +8313,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -8335,7 +8335,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'										
             ]);
 			//
@@ -8416,7 +8416,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -8434,7 +8434,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -8490,7 +8490,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -8537,7 +8537,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -8640,7 +8640,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -8657,7 +8657,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -8674,7 +8674,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -8714,7 +8714,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -8830,7 +8830,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -8847,7 +8847,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -8899,7 +8899,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -8934,12 +8934,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9090,7 +9090,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -9124,7 +9124,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -9176,7 +9176,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9216,7 +9216,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9263,7 +9263,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -9354,7 +9354,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -9401,7 +9401,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9418,7 +9418,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9437,7 +9437,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -9557,7 +9557,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -9609,7 +9609,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9680,7 +9680,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9697,7 +9697,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9714,12 +9714,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9748,12 +9748,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Balsamgau
@@ -9766,12 +9766,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9836,7 +9836,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -9853,12 +9853,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -9893,7 +9893,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9905,12 +9905,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9922,12 +9922,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Osterwalde
@@ -9962,7 +9962,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Schwabengau
@@ -9980,7 +9980,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -9997,7 +9997,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -10014,7 +10014,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -10031,7 +10031,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -10062,7 +10062,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -10148,7 +10148,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -10217,7 +10217,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -10303,7 +10303,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -10320,7 +10320,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -10373,7 +10373,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -10390,7 +10390,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
@@ -10477,7 +10477,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -10616,7 +10616,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -10685,7 +10685,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -10721,7 +10721,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -10807,7 +10807,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -10842,7 +10842,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
@@ -10877,7 +10877,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -10894,7 +10894,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -10946,7 +10946,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -10999,7 +10999,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -11102,7 +11102,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -11209,7 +11209,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -11231,7 +11231,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -11248,7 +11248,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -11299,7 +11299,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			// 
@@ -11316,7 +11316,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			// 
@@ -11333,7 +11333,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			// 
@@ -11363,7 +11363,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -11483,7 +11483,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -11557,7 +11557,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			//
@@ -11574,7 +11574,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);	
 			//
@@ -11608,7 +11608,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);				
 			//Cremona 
@@ -11626,7 +11626,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -11643,7 +11643,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//Frignana 
@@ -11730,7 +11730,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);	
 			//Mantua 
@@ -11846,7 +11846,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -11915,7 +11915,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -11950,7 +11950,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -12070,7 +12070,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -12092,7 +12092,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);	
 			//
@@ -12109,7 +12109,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);	
 			//
@@ -12139,12 +12139,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -12161,7 +12161,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);
 			//
@@ -12178,7 +12178,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Reggio
@@ -12196,7 +12196,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -12213,7 +12213,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -12230,7 +12230,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -12247,7 +12247,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			// 
@@ -12260,7 +12260,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -12317,7 +12317,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -12334,7 +12334,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Piedmont, Duchy
@@ -12400,7 +12400,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -12574,7 +12574,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -12591,12 +12591,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -12613,7 +12613,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -12630,7 +12630,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Montferrat 
@@ -12765,7 +12765,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -12799,7 +12799,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -12939,7 +12939,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Square',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -13007,7 +13007,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -13110,7 +13110,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -13150,7 +13150,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13185,7 +13185,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13202,7 +13202,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13219,7 +13219,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13455,7 +13455,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -13472,7 +13472,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -13495,7 +13495,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13512,7 +13512,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13529,7 +13529,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13546,7 +13546,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13563,7 +13563,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Vicenza 
@@ -13662,7 +13662,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -13698,7 +13698,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -13872,7 +13872,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -13906,7 +13906,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -13924,12 +13924,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13946,7 +13946,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -13963,7 +13963,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -13998,7 +13998,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -14015,7 +14015,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Perugia
@@ -14028,7 +14028,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -14097,7 +14097,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -14150,7 +14150,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -14219,7 +14219,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -14324,7 +14324,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -14604,7 +14604,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -14621,7 +14621,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -14709,7 +14709,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -15089,7 +15089,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -15106,7 +15106,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -15123,7 +15123,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -15260,7 +15260,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -15346,7 +15346,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -15468,7 +15468,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -15490,7 +15490,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15525,7 +15525,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15542,7 +15542,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Bunzlau
@@ -15646,7 +15646,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15663,7 +15663,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Glatzerland
@@ -15681,7 +15681,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15698,7 +15698,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15733,7 +15733,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15750,7 +15750,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15767,7 +15767,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15784,7 +15784,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -15801,7 +15801,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -15848,12 +15848,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15865,12 +15865,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Pilsen
@@ -15883,12 +15883,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15905,7 +15905,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -15922,7 +15922,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -15939,7 +15939,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15956,7 +15956,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -15973,7 +15973,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Rakonitz
@@ -15986,12 +15986,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16026,7 +16026,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16043,7 +16043,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16060,7 +16060,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Saaz
@@ -16078,7 +16078,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16095,7 +16095,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16112,7 +16112,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16129,7 +16129,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Tschaslawsko
@@ -16212,7 +16212,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -16252,7 +16252,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16269,7 +16269,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Nisangau
@@ -16287,7 +16287,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16304,7 +16304,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16351,12 +16351,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16390,7 +16390,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Selpuligau
@@ -16408,7 +16408,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16425,7 +16425,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Moravia, Duchy
@@ -16444,7 +16444,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16473,12 +16473,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16495,7 +16495,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16530,7 +16530,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16542,7 +16542,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -16565,7 +16565,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16582,7 +16582,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16599,7 +16599,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Prerau 
@@ -16646,7 +16646,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -16663,7 +16663,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -16681,12 +16681,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16698,12 +16698,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Znaim 
@@ -16721,7 +16721,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -16874,7 +16874,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -17012,7 +17012,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -17063,7 +17063,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17134,7 +17134,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17152,7 +17152,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17169,7 +17169,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17186,7 +17186,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -17204,7 +17204,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -17221,7 +17221,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17238,7 +17238,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17397,7 +17397,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -17727,7 +17727,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -17884,7 +17884,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -17901,7 +17901,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18110,7 +18110,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -18196,7 +18196,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -18231,7 +18231,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -18300,7 +18300,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18353,7 +18353,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -18370,7 +18370,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -18405,7 +18405,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18422,7 +18422,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18439,7 +18439,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18509,7 +18509,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -18526,7 +18526,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -18543,7 +18543,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -18718,7 +18718,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -18735,7 +18735,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -18769,7 +18769,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18925,7 +18925,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -18942,7 +18942,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -18960,7 +18960,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -19098,7 +19098,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -19133,7 +19133,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -19304,7 +19304,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -19375,7 +19375,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -19445,7 +19445,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -19515,7 +19515,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -19569,7 +19569,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Patriarch',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -19877,7 +19877,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -19947,7 +19947,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -20034,7 +20034,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -20120,7 +20120,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -20239,7 +20239,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -20262,7 +20262,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);	
 			//
@@ -20296,7 +20296,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -20313,7 +20313,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);				
 			//Ravenna 
@@ -20326,7 +20326,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -20394,7 +20394,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -20430,7 +20430,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -20447,7 +20447,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -20470,7 +20470,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -20487,7 +20487,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -20504,7 +20504,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -20516,7 +20516,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -20555,7 +20555,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);				
 			//Fermo 
@@ -20573,7 +20573,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -20590,7 +20590,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -20607,7 +20607,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Pescara
@@ -20689,7 +20689,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -20831,7 +20831,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -20935,7 +20935,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -21022,12 +21022,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -21044,7 +21044,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Kurland 
@@ -21074,7 +21074,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21125,7 +21125,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21230,7 +21230,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21247,7 +21247,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21264,7 +21264,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21318,7 +21318,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21404,7 +21404,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -21474,7 +21474,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -21612,7 +21612,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -21802,7 +21802,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -21820,7 +21820,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -21872,7 +21872,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -21942,7 +21942,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -22167,7 +22167,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -22288,7 +22288,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -22375,7 +22375,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -22392,7 +22392,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -22410,7 +22410,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -22481,7 +22481,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -22498,7 +22498,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Moot',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -22602,7 +22602,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -22654,7 +22654,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -22689,7 +22689,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -22793,7 +22793,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -22810,7 +22810,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -22827,7 +22827,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -22983,7 +22983,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23018,7 +23018,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -23122,7 +23122,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -23139,7 +23139,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23157,7 +23157,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -23296,7 +23296,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -23318,7 +23318,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Dossegau 
@@ -23331,12 +23331,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -23353,7 +23353,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Linaggau 
@@ -23366,7 +23366,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -23383,7 +23383,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23400,7 +23400,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23418,7 +23418,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23453,7 +23453,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -23624,7 +23624,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -23675,12 +23675,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Mecklenburg, Duchy
@@ -23694,12 +23694,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Knight_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//
@@ -23711,12 +23711,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);
 			//Obotritegau
@@ -23764,7 +23764,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23781,7 +23781,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23799,7 +23799,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -23871,7 +23871,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -23893,7 +23893,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_suburb' => 'Marke_Squire',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -23940,7 +23940,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -24061,7 +24061,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -24078,7 +24078,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -24168,7 +24168,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_suburb' => 'Marke_Squire',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Vendomois 
@@ -24251,7 +24251,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -24303,7 +24303,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -24355,7 +24355,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -24463,7 +24463,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_suburb' => 'Marke_Squire',
 				'quarter_harbor' => 'Stockpile'							
             ]);
 			//
@@ -24493,7 +24493,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -24580,7 +24580,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -24597,7 +24597,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -24615,7 +24615,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -24632,7 +24632,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -24649,7 +24649,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
@@ -24666,7 +24666,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25014,7 +25014,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25048,7 +25048,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -25067,7 +25067,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -25119,7 +25119,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -25291,7 +25291,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -25314,7 +25314,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			//
@@ -25331,7 +25331,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'									
             ]);	
 			//
@@ -25348,7 +25348,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);	
 			//
@@ -25365,7 +25365,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);	
 			//
@@ -25382,7 +25382,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'									
             ]);				
 			//Casgony, Duchy
@@ -25396,7 +25396,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -25430,7 +25430,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -25465,7 +25465,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25604,7 +25604,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Earthwork',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25638,7 +25638,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25708,7 +25708,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25795,7 +25795,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -25866,7 +25866,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -25934,7 +25934,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -25976,12 +25976,12 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Vineyard',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			// 
+			//Brenois 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Brienne',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '430',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
@@ -25991,15 +25991,100 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Hunting_Lodge',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lesmont',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '430',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Precy',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '430',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Blaincourt',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '430',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vaubercey',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '430',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dienville',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '430',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//Chalonnais 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Chalons',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '431',
 				'population' => '',
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
@@ -26012,12 +26097,132 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
-			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Nettancourt',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '431',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Stockpile'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Trois Fontaines',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '431',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Stockpile'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vitry',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '431',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Cloth_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Guild_Tanner',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);
+			//Duesmois 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Deusme',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '432',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Oigny',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '432',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bussy',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '432',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chatillon',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '432',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'							
+            ]);
+			//Langres 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Langres',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '433',
 				'population' => '',
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
@@ -26027,6 +26232,23 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dijon',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '433',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
@@ -26040,12 +26262,64 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Thierry',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Jewry_Quarter',			
+				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Coulommiers',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Provins',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Trade_Fair',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -26063,7 +26337,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -26076,12 +26350,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -26112,7 +26386,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Parliament',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -26130,12 +26404,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -26153,7 +26427,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -26166,12 +26440,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Normandy, Duchy
@@ -26185,12 +26459,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -26221,7 +26495,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -26239,7 +26513,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -26256,7 +26530,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -26344,7 +26618,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -26352,7 +26626,24 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Gisors',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//Lisieux 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lisieux',
@@ -26362,13 +26653,150 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Falaise',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Honfleur',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Staple_Port'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Saint Michel',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'quarter_harbor' => 'Staple_Port'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Courcy',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Crevecoeur',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Blagny',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//Mortainais
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mortain',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Domfront',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Orleanais, Duchy
 			// 
@@ -26381,7 +26809,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -26399,12 +26827,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Picardy, Duchy
@@ -26418,12 +26846,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
 			// 
@@ -26436,7 +26864,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -26462,6 +26890,23 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Guild_Smith',
 				'quarter_harbor' => 'Staple_Port'								
             ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ypres',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '40000',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Cloth_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Almshouse',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);	
 			// 
 			//
             DB::table('baronies')->insert([
@@ -26472,7 +26917,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -26545,7 +26990,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -26564,7 +27009,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -26590,7 +27035,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
-			// 
+			//Carcasonne 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Carcasonne',
@@ -26605,8 +27050,128 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Castelnaudary',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mirepoix',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Vineyard',
 				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Puylaurens',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Camon',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_harbor' => 'Stockpile'								
+            ]);
+			//Foix 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Foix',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tarascon',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Reliquary',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Montgrenier',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Vineyard',
+				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Melgueil
 			//
@@ -26618,7 +27183,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -26652,7 +27217,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -26670,7 +27235,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -26704,7 +27269,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -26757,7 +27322,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Merchant_Bank',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -26830,7 +27395,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -26891,6 +27456,58 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
+			//Poher 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rohan',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Carhaix',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Josselin',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);	
 			// 
 			//
             DB::table('baronies')->insert([
@@ -26901,7 +27518,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -26957,7 +27574,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -26965,7 +27582,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
-			// 
+			//Rennais 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rennes',
@@ -26975,12 +27592,29 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Tiltyard',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Fougeres',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Guild_Tanner',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//Britain, Empire
@@ -26996,7 +27630,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27157,7 +27791,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27211,7 +27845,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27234,7 +27868,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			// 
@@ -27386,7 +28020,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27456,7 +28090,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27493,7 +28127,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -27529,7 +28163,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27640,7 +28274,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//England, Kingdom
@@ -27655,7 +28289,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27714,7 +28348,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//
@@ -27732,7 +28366,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -27762,7 +28396,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -27781,7 +28415,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -27798,12 +28432,30 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
 				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Warwick',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Tiltyard',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//
@@ -27851,12 +28503,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);				
 			//Kent, Duchy
@@ -27875,10 +28527,10 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);	
-			//
+			//Kent
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Canterbury',
@@ -27888,12 +28540,80 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Almshouse',			
 				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Chatham',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'None',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Staple_Port'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sandwich',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'quarter_harbor' => 'Staple_Port'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dover',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Staple_Port'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Leeds',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Cloth_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
 			//Lindsey, Duchy
@@ -27907,7 +28627,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -27926,7 +28646,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -27944,13 +28664,48 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Shrewsbury',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Palisade',	
+				'charter_mint' => 'Mint',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Stokesay',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Stockpile'							
             ]);	
 			//
 			//
@@ -27981,7 +28736,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -28050,11 +28805,28 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Wallingford',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Marke_Hufner',
 				'quarter_harbor' => 'Warehouse_Quarter'							
             ]);
@@ -28069,7 +28841,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -28087,7 +28859,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -28122,7 +28894,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28140,7 +28912,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -28174,7 +28946,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'None',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28220,7 +28992,58 @@ class BaronySeeder extends Seeder
 				'quarter_harbor' => 'Stockpile'								
             ]);
 			//Wessex, Duchy
+			//Berkshire
 			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Reading',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Slough',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Windsor',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_walls' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'quarter_harbor' => 'Warehouse_Quarter'								
+            ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Abingdon',
@@ -28235,7 +29058,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);
 			//
@@ -28248,12 +29071,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//
@@ -28301,7 +29124,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28321,7 +29144,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28340,12 +29163,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'								
             ]);	
 			//Gwent, Duchy
@@ -28416,7 +29239,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -28451,7 +29274,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -28553,7 +29376,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -28676,7 +29499,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Parliament',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28747,7 +29570,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28836,7 +29659,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28873,7 +29696,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28927,7 +29750,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -28944,7 +29767,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -29089,7 +29912,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -29126,7 +29949,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -29144,7 +29967,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -29162,7 +29985,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -29237,7 +30060,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -29255,7 +30078,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -29579,7 +30402,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -29596,7 +30419,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -29621,7 +30444,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Leon, Duchy
@@ -29714,7 +30537,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);			
 			//Asturias, Kingdom
@@ -29767,7 +30590,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -29785,7 +30608,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -29877,7 +30700,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Parliament',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -29934,7 +30757,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -29970,7 +30793,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30005,7 +30828,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30024,7 +30847,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -30043,7 +30866,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30061,7 +30884,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -30079,7 +30902,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Parliament',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Monastic_School',
@@ -30156,7 +30979,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
@@ -30175,7 +30998,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30194,7 +31017,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30213,7 +31036,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30270,7 +31093,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30308,7 +31131,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30348,7 +31171,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'					
             ]);
 			//
@@ -30557,7 +31380,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);	
 			//Vilnius, Duchy			
@@ -30632,7 +31455,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//Buda, Duchy
@@ -30814,7 +31637,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -30831,7 +31654,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//
@@ -30900,7 +31723,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -30919,7 +31742,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
@@ -30936,7 +31759,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -30953,7 +31776,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -30971,7 +31794,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31030,7 +31853,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'			
             ]);
 			//Split, Duchy
@@ -31044,7 +31867,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -31061,7 +31884,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31078,7 +31901,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31095,7 +31918,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31113,7 +31936,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31132,7 +31955,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -31149,7 +31972,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31166,7 +31989,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -31184,7 +32007,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31201,7 +32024,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31219,7 +32042,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -31240,7 +32063,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Parliament',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -31297,7 +32120,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//
@@ -31314,7 +32137,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//Cefalu
@@ -31327,7 +32150,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -31349,7 +32172,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//Trapani, Duchy
@@ -31363,7 +32186,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31381,12 +32204,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);				
 			//
@@ -31399,7 +32222,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31416,7 +32239,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31435,7 +32258,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -31470,7 +32293,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31487,7 +32310,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31504,7 +32327,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31522,7 +32345,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31541,7 +32364,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31664,7 +32487,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -31701,7 +32524,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -31757,7 +32580,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -31795,7 +32618,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -31814,7 +32637,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -31848,7 +32671,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31866,7 +32689,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31884,7 +32707,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31902,7 +32725,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31976,7 +32799,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -31994,7 +32817,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32069,7 +32892,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -32089,7 +32912,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32126,7 +32949,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32145,7 +32968,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32168,7 +32991,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Cagliari, Duchy
@@ -32182,7 +33005,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32240,7 +33063,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -32257,7 +33080,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'				
             ]);				
 			//Byzantine, Empire			
@@ -32273,7 +33096,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Patriarch',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -32353,7 +33176,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32366,12 +33189,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);
 			//
@@ -32384,7 +33207,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -32407,7 +33230,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32424,7 +33247,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32441,7 +33264,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32459,7 +33282,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);		
 			//
@@ -32476,7 +33299,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32493,7 +33316,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32510,7 +33333,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32527,7 +33350,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'						
             ]);				
 			//Peloponessos, Duchy
@@ -32541,7 +33364,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32576,7 +33399,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32594,7 +33417,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32631,7 +33454,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32650,7 +33473,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32669,7 +33492,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -32693,7 +33516,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -32706,7 +33529,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32764,7 +33587,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32783,7 +33606,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -32860,7 +33683,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -32879,7 +33702,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32898,7 +33721,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32936,7 +33759,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -32955,7 +33778,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -32975,7 +33798,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -32993,7 +33816,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -33046,7 +33869,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -33287,7 +34110,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -33308,7 +34131,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -33387,7 +34210,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'						
             ]);	
 			//
@@ -33453,7 +34276,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Palisade',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -34033,7 +34856,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Scriptorium_Library',
@@ -34052,7 +34875,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -34071,7 +34894,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Diet',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -34131,7 +34954,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34171,7 +34994,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -34229,7 +35052,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34339,7 +35162,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34378,7 +35201,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34396,7 +35219,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34562,7 +35385,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -34581,7 +35404,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34599,7 +35422,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34636,7 +35459,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34655,7 +35478,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -34676,7 +35499,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -34694,7 +35517,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -34712,7 +35535,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -34731,7 +35554,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34748,12 +35571,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -34771,7 +35594,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -34784,12 +35607,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Ouarzazate, Duchy
@@ -34803,12 +35626,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -34821,7 +35644,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34839,12 +35662,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);			
 			//Fez, Kingdom
@@ -34859,7 +35682,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -34877,12 +35700,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Rabat, Duchy
@@ -34896,7 +35719,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Scriptorium_Library',
@@ -34913,7 +35736,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34948,7 +35771,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -34967,7 +35790,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -34985,7 +35808,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35008,7 +35831,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -35026,7 +35849,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Kairouan, Kingdom
@@ -35041,12 +35864,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Tunis, Duchy
@@ -35060,7 +35883,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -35084,7 +35907,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Tripoli, Duchy
@@ -35098,7 +35921,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35117,7 +35940,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35142,7 +35965,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Oujda, Duchy
@@ -35156,7 +35979,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -35175,7 +35998,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -35194,7 +36017,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35213,12 +36036,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Mzab, Duchy
@@ -35237,7 +36060,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Laghouat, Duchy
@@ -35251,12 +36074,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Djelfa, Duchy
@@ -35270,12 +36093,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Ifni, Kingdom
@@ -35290,7 +36113,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35308,7 +36131,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35327,7 +36150,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35345,7 +36168,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35370,7 +36193,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Jewry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -35388,7 +36211,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -35406,7 +36229,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//Adrar, Duchy
@@ -35425,7 +36248,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);	
 			//
@@ -35443,7 +36266,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);				
 			//Abbasid, Empire
@@ -35459,7 +36282,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -35479,7 +36302,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -35498,7 +36321,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -35517,7 +36340,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35578,7 +36401,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -35597,7 +36420,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Patriarch',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -35635,7 +36458,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35673,7 +36496,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Fair_Right',
+				'charter_market' => 'Trade_Fair',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35692,12 +36515,12 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -35783,7 +36606,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -35800,7 +36623,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//Baritun, Duchy
@@ -35814,7 +36637,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -35854,7 +36677,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -35871,7 +36694,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Warehouse_Quarter'				
             ]);
 			//
@@ -35906,7 +36729,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -35923,7 +36746,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -35940,7 +36763,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Boula, Duchy
@@ -35959,7 +36782,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//
@@ -35976,7 +36799,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
-				'quarter_suburb' => 'Marke_Cotter',
+				'quarter_suburb' => 'Marke_Cottar',
 				'quarter_harbor' => 'Stockpile'				
             ]);
 			//Qoseir
@@ -35989,7 +36812,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36026,7 +36849,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'None',
@@ -36046,7 +36869,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Patriarch',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -36064,7 +36887,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -36099,7 +36922,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36118,7 +36941,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Archbishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Reliquary',
 				'charter_university' => 'Cathedral_School',
@@ -36136,7 +36959,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36208,7 +37031,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36225,7 +37048,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36243,7 +37066,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36264,7 +37087,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36283,7 +37106,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36302,7 +37125,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'None',
@@ -36379,7 +37202,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36399,7 +37222,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36458,7 +37281,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -36477,7 +37300,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -36497,7 +37320,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Royal_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -36516,7 +37339,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'Mint',
 				'charter_university' => 'Cathedral_School',
@@ -36536,7 +37359,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
@@ -36609,7 +37432,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'Cathedral_School',
@@ -36644,7 +37467,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Market_Right',
+				'charter_market' => 'Market_Hall',
 				'charter_walls' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'charter_university' => 'None',
