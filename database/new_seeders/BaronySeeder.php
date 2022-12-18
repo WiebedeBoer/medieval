@@ -27,8 +27,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => '',				//Reliquary (72), Mint (140), None
 				'charter_university' => '',			//Cathedral_School (100), Monastic_School (36), Scriptorium_Library (470), None
 				'quarter_downtown' => '',			//Gentry_Quarter (914), Merchant_Quarter (423), Jewry_Quarter (105), Hospice (241), Almshouse (28), Granary (181) 
-				'quarter_suburb' => '',				//Tiltyard (246), Marke_Squire (54), Marke_Yeoman (186), Guild_Smith (32), Guild_Tanner (53), Guild_Furrier (7), Guild_Potter (32), Coaching_Inn (57), Marke_Hufner (506), Marke_Vineyard (339), Hunting_Lodge (39), Marke_Cottar (282), Marke_Apiary (140), Marke_Heath (41), Marke_Grange (5)   
-				'quarter_harbor' => '',				//Arsenal (34), Staple_Port (242), Warehouse_Quarter (1147), Stables (390), Tithe_Barn (275), Byre (131), Carter (), Caravaner ()
+				'quarter_suburb' => '',				//Tiltyard (256), Marke_Squire (80), Marke_Yeoman (225), Guild_Smith (33), Guild_Tanner (63), Guild_Furrier (7), Guild_Potter (33), Coaching_Inn (69), Marke_Hufner (537), Marke_Vineyard (367), Hunting_Lodge (51), Marke_Cottar (311), Marke_Apiary (138), Marke_Heath (41), Marke_Grange (9)   
+				'quarter_harbor' => '',				//Arsenal (34), Staple_Port (242), Warehouse_Quarter (1147), Stables (390), Tithe_Barn (275), Storehouse (131)
 				'levy_feudal' => '',				//maximal, large, normal, minimal; default=large
 				'levy_ecclesiastical' => '',		//maximal, large, normal, minimal; default=normal
 				'levy_burgher' => '',				//maximal, large, normal, minimal; default=normal
@@ -896,7 +896,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1103,7 +1103,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);
 			//Ingeringtal 
 			//
@@ -1364,7 +1364,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1869,7 +1869,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2251,7 +2251,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2268,7 +2268,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2285,7 +2285,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Heath',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2302,7 +2302,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2405,7 +2405,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2422,7 +2422,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2439,7 +2439,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Heath',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//Dithmarschen
 			//
@@ -2491,7 +2491,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);				
 			//Emsigerland
 			//
@@ -2596,7 +2596,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2889,7 +2889,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'																					
+				'quarter_harbor' => 'Storehouse'																					
             ]);				
 			//Nifterlake
 			//
@@ -3664,7 +3664,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'																					
+				'quarter_harbor' => 'Storehouse'																					
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -3750,7 +3750,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'																					
+				'quarter_harbor' => 'Storehouse'																					
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -4112,7 +4112,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -4233,7 +4233,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//Betuwe
 			// 
@@ -4508,7 +4508,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Cottar',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);	
 			//Mulgau
 			// 
@@ -5359,7 +5359,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -5463,7 +5463,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -5568,7 +5568,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'											
+				'quarter_harbor' => 'Storehouse'											
             ]);
 			//Moselgau
 			//
@@ -5777,7 +5777,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -5829,7 +5829,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6002,7 +6002,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6245,7 +6245,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'											
+				'quarter_harbor' => 'Storehouse'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6262,7 +6262,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Guild_Smith',
-				'quarter_harbor' => 'Byre'											
+				'quarter_harbor' => 'Storehouse'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -6832,7 +6832,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -6952,7 +6952,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7402,7 +7402,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'										
+				'quarter_harbor' => 'Storehouse'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -7521,7 +7521,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'charter_university' => 'Granary',
 				'quarter_downtown' => 'Marke_Vineyard',			
-				'quarter_suburb' => 'Byre'									
+				'quarter_suburb' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8457,7 +8457,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8525,7 +8525,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			// 
 			//
@@ -8784,7 +8784,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8818,7 +8818,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//Heilangau 
 			//
@@ -9477,7 +9477,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9511,7 +9511,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9545,7 +9545,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Auelgau
 			//
@@ -9807,7 +9807,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9824,7 +9824,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//Hartingau 
 			//
@@ -10102,7 +10102,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10344,7 +10344,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10431,7 +10431,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10535,7 +10535,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10604,7 +10604,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);
 			//Wettergau 
 			//
@@ -10865,7 +10865,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Pinzgau 
 			//
@@ -10935,7 +10935,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -11125,7 +11125,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//Hunsruckgau
 			//
@@ -11266,7 +11266,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11386,7 +11386,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11437,7 +11437,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11540,7 +11540,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//Crema 
 			//
@@ -11592,7 +11592,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -11679,7 +11679,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -12024,7 +12024,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -12127,7 +12127,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);	
 			//Piacenza
 			//
@@ -12300,7 +12300,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Vernio 
 			//
@@ -12388,7 +12388,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Asti 
 			//
@@ -12440,7 +12440,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Auriate
 			//
@@ -12458,7 +12458,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12545,7 +12545,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12562,7 +12562,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Cuneo 
 			//
@@ -12857,7 +12857,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13290,7 +13290,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13358,7 +13358,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Padova 
 			//
@@ -13393,7 +13393,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13410,7 +13410,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13668,7 +13668,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13981,7 +13981,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Cortona
 			//
@@ -14190,7 +14190,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14416,7 +14416,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14433,7 +14433,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Finale
 			//
@@ -14835,7 +14835,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -14973,7 +14973,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -15042,7 +15042,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -15076,7 +15076,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Venice, Duchy
 			//Dogado 
@@ -15248,7 +15248,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Belluno 
 			//
@@ -15317,7 +15317,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -15508,7 +15508,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Bechin
 			//
@@ -15716,7 +15716,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Koniggratz
 			//
@@ -16322,7 +16322,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16513,7 +16513,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Iglau 
 			//
@@ -16931,7 +16931,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Oels 
 			//
@@ -17593,7 +17593,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//Beaunois 
 			//
@@ -17663,7 +17663,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//Lassois 
 			//
@@ -18219,7 +18219,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//Valentinois 
 			//
@@ -18271,7 +18271,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -18497,7 +18497,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Lausonnais 
 			//
@@ -18827,7 +18827,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -18844,7 +18844,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -18861,7 +18861,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -19035,7 +19035,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -19503,7 +19503,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);
 			//Valais 
 			//
@@ -20194,7 +20194,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -20228,7 +20228,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -21514,7 +21514,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21531,7 +21531,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21965,7 +21965,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -22155,7 +22155,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Guild_Potter',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Kulmerland 
 			//
@@ -22190,7 +22190,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -22259,7 +22259,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -22276,7 +22276,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Putzig 
 			//
@@ -22538,7 +22538,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Arnswalde 
 			//
@@ -22625,7 +22625,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -22747,7 +22747,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -22764,7 +22764,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Kessinigau 
 			//
@@ -23076,7 +23076,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23093,7 +23093,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Schlawe
 			//
@@ -23249,7 +23249,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23527,7 +23527,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23544,7 +23544,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23561,7 +23561,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23578,7 +23578,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23595,7 +23595,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -23612,7 +23612,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Uckermark 
 			//
@@ -24533,7 +24533,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//Lomagne 
 			//
@@ -25142,7 +25142,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -25159,7 +25159,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -25176,7 +25176,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -25280,7 +25280,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'									
+				'quarter_harbor' => 'Storehouse'									
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -26009,7 +26009,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Cottar',
-				'quarter_harbor' => 'Byre'								
+				'quarter_harbor' => 'Storehouse'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -28869,7 +28869,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'							
+				'quarter_harbor' => 'Storehouse'							
             ]);			
 			// 
 			//
@@ -34184,7 +34184,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'				
+				'quarter_harbor' => 'Storehouse'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -34570,7 +34570,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'				
+				'quarter_harbor' => 'Storehouse'				
             ]);	
 			//Sarrabus
 			//
@@ -34911,7 +34911,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Vineyard',
-				'quarter_harbor' => 'Byre'						
+				'quarter_harbor' => 'Storehouse'						
             ]);
 			//
 			//
@@ -36044,7 +36044,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'						
+				'quarter_harbor' => 'Storehouse'						
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -36061,7 +36061,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Apiary',
-				'quarter_harbor' => 'Byre'						
+				'quarter_harbor' => 'Storehouse'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -38062,7 +38062,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'				
+				'quarter_harbor' => 'Storehouse'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38079,7 +38079,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'				
+				'quarter_harbor' => 'Storehouse'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38184,7 +38184,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'				
+				'quarter_harbor' => 'Storehouse'				
             ]);
 			//Siwa
 			//
@@ -38236,7 +38236,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Granary',			
 				'quarter_suburb' => 'Marke_Hufner',
-				'quarter_harbor' => 'Byre'				
+				'quarter_harbor' => 'Storehouse'				
             ]);
 			//Natrun
 			//
