@@ -7630,7 +7630,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//470
@@ -7746,7 +7746,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//477
-			//crecy, nouvion, saint ricquier
+			//crecy, nouvion, saint ricquier, abbekerke
             DB::table('counties')->insert([
 				'county_name' => 'Ponthieu',
 				'county_category' => 'Feudal',
@@ -7754,9 +7754,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -7790,7 +7790,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//480
