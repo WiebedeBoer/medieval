@@ -7167,7 +7167,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//441
-			//beauvais, goincourt
+			//beauvais, goincourt, gerberoy
             DB::table('counties')->insert([
 				'county_name' => 'Beauvaisis',
 				'county_category' => 'Ecclesiastical',
@@ -7183,7 +7183,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//442
-			//beaumont, argenteuil
+			//beaumont, jouy, argenteuil
             DB::table('counties')->insert([
 				'county_name' => 'Beaumont',
 				'county_category' => 'Feudal',
@@ -7199,7 +7199,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//443
-			//brie, melun, saint fargeau, lagny, yerres
+			//brie, melun, saint fargeau, lagny, yerres, brunoy, grosbois
             DB::table('counties')->insert([
 				'county_name' => 'Brie',
 				'county_category' => 'Feudal',
@@ -7207,9 +7207,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -7263,7 +7263,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//447
-			//mantes, rambouillet, beynes, houdan
+			//mantes, rambouillet, beynes, houdan, gassicourt
             DB::table('counties')->insert([
 				'county_name' => 'Mantois',
 				'county_category' => 'Feudal',
@@ -7276,7 +7276,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'Boar',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Sheep'
+				'marke_animal_husbandry' => 'Poultry'
             ]);
 			//448
 			//senlis, compiegne
@@ -7289,7 +7289,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'Boar',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
@@ -7311,7 +7311,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//450
-			//vez, oigny
+			//vez, oigny, laneuf, saint mard
             DB::table('counties')->insert([
 				'county_name' => 'Valois',
 				'county_category' => 'Feudal',
@@ -7344,7 +7344,7 @@ class CountySeeder extends Seeder
             ]);
 			//Normandy
 			//452
-			//rouen, harcourt, jumieges, saint saens, meslay, aumonerie, saint philbert, brionne
+			//rouen, harcourt, jumieges, heurteauville, saint saens, meslay, saint martin, saint philbert, brionne
             DB::table('counties')->insert([
 				'county_name' => 'Roumois',
 				'county_category' => 'Ecclesiastical',
@@ -7432,7 +7432,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -7464,7 +7464,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
