@@ -7531,13 +7531,13 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//464
-			//chartres, leveville, bretigny, saint pere
+			//chartres, leveville, bretigny, saint pere, sours, ouarville
             DB::table('counties')->insert([
 				'county_name' => 'Chartres',
 				'county_category' => 'Ecclesiastical',
@@ -7545,7 +7545,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -7561,7 +7561,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -7578,7 +7578,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -7593,7 +7593,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -7618,7 +7618,7 @@ class CountySeeder extends Seeder
             ]);
 			//Picardy
 			//469
-			//arras, saint omer, bethune, lens
+			//arras, saint omer, bethune, lens, buissiere, cauchy
             DB::table('counties')->insert([
 				'county_name' => 'Artois',
 				'county_category' => 'Feudal',
@@ -7634,7 +7634,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//470
-			//amiens, flixecourt, picquigny, corbie
+			//amiens, flixecourt, picquigny, corbie, bretonneux, boves, mericourt
             DB::table('counties')->insert([
 				'county_name' => 'Amienois',
 				'county_category' => 'Feudal',
@@ -7642,7 +7642,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -7666,7 +7666,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//472
-			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines
+			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines, bergues
             DB::table('counties')->insert([
 				'county_name' => 'Flanders',
 				'county_category' => 'Feudal',
@@ -7682,7 +7682,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);
 			//473
-			//guines, calais
+			//guines, calais, piehem
             DB::table('counties')->insert([
 				'county_name' => 'Guines',
 				'county_category' => 'Feudal',
