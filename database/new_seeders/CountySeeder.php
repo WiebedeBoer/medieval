@@ -155,7 +155,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//7
-			//egerburg, nuremberg, grafengehaig
+			//egerburg, nuremberg, grafengehaig, windsheim
             DB::table('counties')->insert([
 				'county_name' => 'Nordgau',
 				'county_category' => 'Crowned_Republic',
@@ -831,7 +831,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//49
-			//haarlem, alkmaar, amsterdam, edam, purmerstein, brederode
+			//haarlem, alkmaar, amsterdam, edam, purmerstein, brederode, egmond
             DB::table('counties')->insert([
 				'county_name' => 'Kennemerland',
 				'county_category' => 'Feudal',
@@ -6845,7 +6845,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//421
-			//pau, oloron
+			//pau, oloron, maure
             DB::table('counties')->insert([
 				'county_name' => 'Bearn',
 				'county_category' => 'Feudal',
@@ -7408,7 +7408,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//456
-			//fecamp, graville, tancarville
+			//fecamp, graville, tancarville, saint wandrille
             DB::table('counties')->insert([
 				'county_name' => 'Caux',
 				'county_category' => 'Feudal',
@@ -7794,7 +7794,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//480
-			//peronne, saint quentin, bohain, saint martin, retoul
+			//peronne, saint quentin, bohain, saint martin
             DB::table('counties')->insert([
 				'county_name' => 'Vermandois',
 				'county_category' => 'Feudal',
@@ -7907,7 +7907,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//487
-			//turenne, brive, tulle, noailhac, collonges, sarlat, beynac, castelnaud
+			//turenne, brive, tulle, noailhac, collonges, charroux, savigne, sarlat, puytignon, castelnaud
             DB::table('counties')->insert([
 				'county_name' => 'Turenne',
 				'county_category' => 'Feudal',
@@ -7916,7 +7916,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
@@ -7924,7 +7924,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Toulouse
 			//488
-			//toulouse, lavaur, maure, castelginest, colomiers, montgiscard, brax
+			//toulouse, lavaur, castelginest, colomiers, montgiscard, brax
             DB::table('counties')->insert([
 				'county_name' => 'Toulouse',
 				'county_category' => 'Feudal',
@@ -7933,7 +7933,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_France',
 				'vernacular_culture' => 'Occitan',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
@@ -7988,7 +7988,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//492
-			//javols, mende, langogne, apcher
+			//javols, mende, langogne, prunieres, apcher
             DB::table('counties')->insert([
 				'county_name' => 'Gevaudan',
 				'county_category' => 'Feudal',
@@ -8150,7 +8150,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//502
-			//dol, tronchet, combourg, tremeheuc, saint martin, boussac, saint malo
+			//dol, tronchet, combourg, tremeheuc, saint marcan, boussac, saint malo
             DB::table('counties')->insert([
 				'county_name' => 'Dol',
 				'county_category' => 'Ecclesiastical',
@@ -8182,7 +8182,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//504
-			//rohan, carhaix, josselin
+			//rohan, carhaix, josselin, ponthivy
             DB::table('counties')->insert([
 				'county_name' => 'Poher',
 				'county_category' => 'Feudal',
@@ -8198,7 +8198,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//505
-			//vannes, ponthivy
+			//vannes, ploermel
             DB::table('counties')->insert([
 				'county_name' => 'Vannais',
 				'county_category' => 'Feudal',
@@ -8215,7 +8215,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Domnonee
 			//506
-			//saint brieuc, guingamp, chatelaudren
+			//saint brieuc, guingamp, chatelaudren, saint magliore
             DB::table('counties')->insert([
 				'county_name' => 'Penthievre',
 				'county_category' => 'Feudal',
@@ -8291,7 +8291,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -8347,7 +8347,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//514
-			//roscommon, boyle, donamon, elphin
+			//roscommon, boyle, donamon, elphin, clonmacnoise
             DB::table('counties')->insert([
 				'county_name' => 'Roscommon',
 				'county_category' => 'Feudal',
@@ -8606,7 +8606,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//530
-			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen, killarney, aghadoe
+			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen, killarney, aghadoe, innisfallen
             DB::table('counties')->insert([
 				'county_name' => 'Kerry',
 				'county_category' => 'Feudal',
@@ -10231,7 +10231,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Gododdin
 			//630
-			//dumfries, auchen, closeburn, lochmaben, robgill, sanquhar, tibbers, dercongal
+			//dumfries, auchen, closeburn, lochmaben, robgill, sanquhar, tibbers, dercongal, sweetheart
             DB::table('counties')->insert([
 				'county_name' => 'Dumfriesshire',
 				'county_category' => 'Feudal',
@@ -11227,7 +11227,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//691
-			//briviesca, rodilla, san salvador, miranda, moscadero
+			//briviesca, rodilla, san salvador, miranda, moscadero, valpuesta
             DB::table('counties')->insert([
 				'county_name' => 'Bureba',
 				'county_category' => 'Feudal',
@@ -16551,7 +16551,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Salerno
 			//
-			//salerno
+			//salerno, cava
             DB::table('counties')->insert([
 				'county_name' => 'Salerno',
 				'county_category' => 'Feudal',
@@ -19703,7 +19703,7 @@ class CountySeeder extends Seeder
 			//Levante
 			//Alpuente
 			//
-			//huete, almonacid, guadalajara
+			//huete, almonacid, guadalajara, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Alcarria',
 				'county_category' => 'Feudal',
