@@ -310,7 +310,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Flemish',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',	
+				'banal_chasse' => 'Deer',	
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
