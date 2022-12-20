@@ -17,11 +17,11 @@ class DuchySeeder extends Seeder
 				'duchy_name' => '',				
 				'duchy_category' => '',				//Feudal (302), Ecclesiastical (10), Crowned_Republic (10)
 				'de_jure_kingdom' => '',			//	
-				'law_succession' => '',				//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa
+				'law_succession' => '',				//Elective_Monarchy (20), Salic_Primogeniture (193), Agnatic_Seniority (17), Tanistry (17), Shura (75), Yassa (0)
 				'law_assembly' => '',				//absolute, limited, medium, high; default=medium	
 				'law_court' => '',					//Itinerant (247), Palatial (75)
-				'vernacular_architecture' => '',	//Half_Timbered_Fachwerk, Half_Timbered_Studded, Half_Timbered_Khata, Half_Timbered_Konak, Log_Chalet, Log_Stave, Log_Izba, Stone_Croft, Stone_Mudejar, Stone_Romanesque, Stone_Adjar, Adobe_Mashriq, Adobe_Maghreb, Adobe_Persian  									
-				'vegetation' => '',					//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Shrubland, Temperate_Woodland, Temperate_Marshland
+				'vernacular_architecture' => '',	//Half_Timbered_Fachwerk (35), Half_Timbered_Studded (45), Half_Timbered_Khata (30), Half_Timbered_Konak (11), Log_Chalet (14), Log_Stave (8), Log_Izba (10), Stone_Croft (6), Stone_Mudejar (40), Stone_Romanesque (58), Stone_Adjar (7), Adobe_Mashriq (19), Adobe_Maghreb (23), Adobe_Persian (16) 									
+				'vegetation' => '',					//Desert_Oasis (21), Desert_Marshland (7), Steppe (34), Mediterranean_Shrubland (2), Mediterranean_Marshland (13), Mediterranean_Woodland (84), Temperate_Grassland (3), Temperate_Shrubland (30), Temperate_Woodland (112), Temperate_Marshland (16)
 				'altitude' => '',					//Lowland (9), Montane (303), Highland (10)		
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal

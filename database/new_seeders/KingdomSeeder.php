@@ -20,7 +20,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '',			
 				'law_succession' => '',			//Elective_Monarchy (2), Elective_Papacy (1), Elective_Order (1), Salic_Primogeniture (32), Agnatic_Seniority (6), Tanistry (3), Shura (16), Yassa (6) 
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium
-				'law_court' => '',				//itinerant, palatial, divan, sarai				
+				'law_court' => '',				//Itinerant (39), Palatial (6), Divan (16), Sarai (6)				
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
@@ -43,7 +43,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Monarchy',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Lombardy
 			//Milan, Piedmont, Tuscany, Verona, Aquileia, Florence, Genoa, Noli, Oneglia, Lucca, Pisa, Venice
@@ -55,7 +55,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Monarchy',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Bohemia
 			//Bohemia, Lusatia, Moravia, Lower Silesia, Upper Silesia
@@ -67,7 +67,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Burgundy
 			//Burgundy, Cisjurania, Transjurania, Orange, Provence, Savoy
@@ -79,7 +79,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Papal States 
 			//Rome, Romagna, Spoleto, Urbino
@@ -91,7 +91,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Papacy',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial'				
+				'law_court' => 'Palatial'				
             ]);
 			//Teutonic Order State
 			//Livonia, Estonia, Prussia, Pomerelia, Pomerania, Brandenburg, Mecklenburg
@@ -103,7 +103,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '1',			
 				'law_succession' => 'Elective_Order',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);			
 			//France
 			//France
@@ -116,7 +116,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '2',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Brittany
 			//Brittany, Domnonee, Retz
@@ -128,7 +128,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '2',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);			
 			//Britain
 			//Ireland 
@@ -141,7 +141,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//England
 			//East anglia, Essex, Hwicce, Kent, Mercia, Mid Anglia, Northumbria, Sussex, Wessex
@@ -153,7 +153,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);
 			//Wales
 			//Cornwall, Dyfed, Gwent, Gwynedd, Powys
@@ -165,7 +165,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);			
 			//Scotland			
 			//Alba, Bernicia, Fortriu, Galloway, Gododdin, Strathclyde
@@ -177,7 +177,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '3',			
 				'law_succession' => 'Tanistry',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Aragon
 			//Aragon
@@ -190,7 +190,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '4',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);				
 			//Navarre
 			//Navarre
@@ -202,7 +202,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '4',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);	
 			//Castile
 			//Castile
@@ -215,7 +215,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Galicia
 			//Coruna, Lugo, Ourense, Pontevedra
@@ -227,7 +227,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Leon
 			//Caceres, Leon, Salamanca, Zamora
@@ -239,7 +239,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Asturias
 			//Asturias, Cantabria
@@ -251,7 +251,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Portugal
 			//Aveiro, Beira, Braganca, Estremadura
@@ -263,7 +263,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '5',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);				
 			//Danelagen		
 			//Denmark
@@ -276,7 +276,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Norway
 			//Nordjor, Sodor, Hedmark, Oppland, Rogaland, Sorland, Vestland, Viken
@@ -288,7 +288,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Sweden
 			//Gotland, Norrland, Osterland, Smaland, Svealand
@@ -300,7 +300,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '6',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Poland
 			//Poland
@@ -313,7 +313,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '7',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);				
 			//Lithuania
 			//Minsk, Samogitia, Tracken, Vilnius
@@ -325,7 +325,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '7',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Hungary
 			//Hungary
@@ -338,7 +338,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '8',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);	
 			//Croatia
 			//Dalmatia, Ragusa, Slavonia, Split, Zadar
@@ -350,7 +350,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '8',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'					
+				'law_court' => 'Itinerant'					
             ]);	
 			//Trinacria
 			//Sicily
@@ -363,7 +363,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial',						
+				'law_court' => 'Palatial',						
             ]);	
 			//Naples
 			//Naples, Capua, Amalfi, Calabria, Basilicata, Taranto, Foggia, Benevento, Salerno
@@ -375,7 +375,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial'				
+				'law_court' => 'Palatial'				
             ]);	
 			//Sardinia
 			//Gallura, Logudoro (torres), Arborea, Cagliari
@@ -387,7 +387,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '9',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);			
 			//Byzantine
 			//Thrace
@@ -400,7 +400,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial'				
+				'law_court' => 'Palatial'				
             ]);	
 			//Thessalonica
 			//Hellas, Peloponessos, Archipelago, Epirus, Thessalonica
@@ -412,7 +412,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);				
 			//Trebizond
 			//Paphlagonia, Armeniac, Chaldia, Crimea
@@ -424,7 +424,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);	
 			//Anatolia
 			//Thracesia, Bucellaria, Anatolia, Cappadocia, Seleucia, Opsicia, Nicaea, Lycia, Pamphylia
@@ -436,7 +436,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Georgia
 			//Colchis, Javakheti, Kartli, Kakheti
@@ -448,7 +448,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Armenia
 			//Vaspurakan, Taron, Kars, Azerbaijan
@@ -460,7 +460,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '10',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Kievan Rus
 			//Kiev
@@ -473,7 +473,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial'			
+				'law_court' => 'Palatial'			
             ]);		
 			//Chernigov
 			//Chernigov, Ryazan 
@@ -485,7 +485,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Halych
 			//Halych, Podolia, Volhynia, Turov
@@ -497,7 +497,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'			
+				'law_court' => 'Itinerant'			
             ]);	
 			//Vladimir
 			//Vladimir, Moscow, Suzdal
@@ -509,7 +509,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);		
 			//Smolensk
 			//Smolensk, Rzhev, Tver
@@ -521,7 +521,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Novgorod
 			//Novgorod, Polotsk, Pleskov
@@ -533,7 +533,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',			
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'palatial'				
+				'law_court' => 'Palatial'				
             ]);			
 			//Bulgaria
 			//Bulgaria
@@ -546,7 +546,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);
 			//Wallachia
 			//Wallachia, Moldavia
@@ -558,7 +558,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '12',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Serbia
 			//Serbia
@@ -571,7 +571,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '13',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);	
 			//Bosnia
 			//Bosnia
@@ -583,7 +583,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '13',			
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
-				'law_court' => 'itinerant'				
+				'law_court' => 'Itinerant'				
             ]);					
 			//Cordoba
 			//Andalucia
@@ -596,7 +596,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Algarves
 			//Algarves, Badajoz, Huelva 
@@ -608,7 +608,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Levante
 			//Alpuente, Mallorca, Denia, Murcia, Valencia
@@ -620,7 +620,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '14',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Almohad
 			//Marrakesh
@@ -633,7 +633,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'			
+				'law_court' => 'Divan'			
             ]);	
 			//Fez
 			//Fez, Rabat, Tangier
@@ -645,7 +645,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Kairouan
 			//Kairouan, Tunis, Djerid, Tripoli, Sirte
@@ -657,7 +657,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Tlemcen
 			//Tlemcen, Oujda, Oran, Algiers, Tiaret, Mzab, Laghouat, Djelfa
@@ -669,7 +669,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'			
+				'law_court' => 'Divan'			
             ]);	
 			//Ifni
 			//Ifni, Taroudant
@@ -681,7 +681,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Figuig
 			//Figuig, Adrar
@@ -693,7 +693,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);				
 			//Abbasid
 			//Baghdad
@@ -706,7 +706,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Syria
 			//Damascus, Aleppo, Homs
@@ -718,7 +718,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);				
 			//Najd
 			//Najd,
@@ -730,7 +730,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);				
 			//Antioch
 			//Antioch,
@@ -742,7 +742,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '16',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);				
 			//Fatimid
 			//Cairo
@@ -755,7 +755,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Jerusalem
 			//Jerusalem,
@@ -767,7 +767,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan'				
+				'law_court' => 'Divan'				
             ]);	
 			//Hejaz
 			//Mecca, Medina, Tabuk
@@ -779,7 +779,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',			
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'divan',				
+				'law_court' => 'Divan',				
 				'levy_feudal' => 'large'				
             ]);				
 			//Khazar
@@ -793,7 +793,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai'				
+				'law_court' => 'Sarai'				
             ]);	
 			//Alania
 			//Derbent, Azov
@@ -805,7 +805,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai'				
+				'law_court' => 'Sarai'				
             ]);	
 			//Cumania
 			//Sighnaq, Sozak, Sibir
@@ -817,7 +817,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai'				
+				'law_court' => 'Sarai'				
             ]);	
 			//Seljuk
 			//Kwarezm
@@ -830,7 +830,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '19',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai'				
+				'law_court' => 'Sarai'				
             ]);	
 			//Isfahan
 			//Isfahan,
@@ -842,7 +842,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '19',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai'				
+				'law_court' => 'Sarai'				
             ]);	
 			//Hormuz
 			//Hormuz, Kerman
@@ -854,7 +854,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '19',			
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'sarai'				
+				'law_court' => 'Sarai'				
             ]);				
 			
     }
