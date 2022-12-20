@@ -17,10 +17,10 @@ class EmpireSeeder extends Seeder
 			//example
             DB::table('empires')->insert([
 				'empire_name' => '', 
-				'empire_category' => '',		//Princely_Elective, Feudal_Empire, Composite_Crown, Commonwealth, Caliphate, Horde
-				'law_succession' => '',			//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa	
+				'empire_category' => '',		//Princely_Elective (1), Feudal_Empire (5), Composite_Crown (4), Commonwealth (3), Caliphate (4), Horde (2)
+				'law_succession' => '',			//Elective_Monarchy (1), Salic_Primogeniture (11), Agnatic_Seniority (1), Tanistry (0), Shura (4), Yassa (2)	
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	
-				'law_court' => '',				//itinerant, palatial				
+				'law_court' => '',				//itinerant (11), palatial (2), divan (4), sarai (2)				
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal

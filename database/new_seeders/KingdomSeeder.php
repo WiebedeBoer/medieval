@@ -15,10 +15,10 @@ class KingdomSeeder extends Seeder
 			//example
             DB::table('kingdoms')->insert([
 				'kingdom_name' => '',			
-				'kingdom_category' => '',		//Elective, Tanistry, Feudal, Horde, Papacy, Confederate
+				'kingdom_category' => '',		//Elective (2), Tanistry (3), Feudal (60), Horde (0), Papacy (1), Confederate (1)
 				'flag' => '',					
 				'de_jure_empire' => '',			
-				'law_succession' => '',			//Elective_Monarchy, Elective_Papacy, Elective_Order, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa, 
+				'law_succession' => '',			//Elective_Monarchy (2), Elective_Papacy (1), Elective_Order (1), Salic_Primogeniture (32), Agnatic_Seniority (6), Tanistry (3), Shura (16), Yassa (6) 
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium
 				'law_court' => '',				//itinerant, palatial, divan, sarai				
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large

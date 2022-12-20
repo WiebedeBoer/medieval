@@ -15,14 +15,14 @@ class DuchySeeder extends Seeder
 			//example
             DB::table('duchies')->insert([
 				'duchy_name' => '',				
-				'duchy_category' => '',				//Feudal, Ecclesiastical, Crowned_Republic
+				'duchy_category' => '',				//Feudal (302), Ecclesiastical (10), Crowned_Republic (10)
 				'de_jure_kingdom' => '',			//	
 				'law_succession' => '',				//Elective_Monarchy, Salic_Primogeniture, Agnatic_Seniority, Tanistry, Shura, Yassa
 				'law_assembly' => '',				//absolute, limited, medium, high; default=medium	
-				'law_court' => '',					//Itinerant, Palatial
+				'law_court' => '',					//Itinerant (247), Palatial (75)
 				'vernacular_architecture' => '',	//Half_Timbered_Fachwerk, Half_Timbered_Studded, Half_Timbered_Khata, Half_Timbered_Konak, Log_Chalet, Log_Stave, Log_Izba, Stone_Croft, Stone_Mudejar, Stone_Romanesque, Stone_Adjar, Adobe_Mashriq, Adobe_Maghreb, Adobe_Persian  									
 				'vegetation' => '',					//Desert_Oasis, Desert_Marshland, Steppe, Mediterranean_Shrubland, Mediterranean_Marshland, Mediterranean_Woodland, Temperate_Grassland, Temperate_Shrubland, Temperate_Woodland, Temperate_Marshland
-				'altitude' => '',					//Lowland, Montane, Highland		
+				'altitude' => '',					//Lowland (9), Montane (303), Highland (10)		
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
