@@ -8322,7 +8322,7 @@ class CountySeeder extends Seeder
 			//Ireland
 			//Connacht
 			//512
-			//galway, athenry, claregalway, feartagar, kiltartan, hackety, loughrea, tuam, clonfert, dunmore
+			//galway, athenry, claregalway, feartagar, kiltartan, hackett, loughrea, tuam, clonfert, dunmore
             DB::table('counties')->insert([
 				'county_name' => 'Galway',
 				'county_category' => 'Feudal',
@@ -8338,7 +8338,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//513
-			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, claremorris, ashford, killala
+			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, urlaur, claremorris, ashford, killala
             DB::table('counties')->insert([
 				'county_name' => 'Mayo',
 				'county_category' => 'Feudal',
@@ -8395,7 +8395,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'Irish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -9625,7 +9625,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'Windmill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
