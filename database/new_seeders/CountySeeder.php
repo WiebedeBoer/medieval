@@ -7262,12 +7262,12 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Pigs'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//447
 			//mantes, rambouillet, beynes, houdan, gassicourt
@@ -7828,7 +7828,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'Gold',						
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_husbandry' => 'Stud'
@@ -7882,7 +7882,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//485
-			//gueret, bellac, aubusson, grandmont
+			//gueret, bellac, aubusson, grandmont, saint leger, marcheix, rancon
             DB::table('counties')->insert([
 				'county_name' => 'Marche',
 				'county_category' => 'Feudal',
