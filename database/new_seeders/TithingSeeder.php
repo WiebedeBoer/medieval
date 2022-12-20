@@ -26,7 +26,7 @@ class TithingSeeder extends Seeder
 				'tithing_category' => ' ',		//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager	
 				'de_jure_barony' => '',	
 				'position' => '',				
-				'manor_court' => '',			//Barony, County, Duchy, Royal, University, Ecclesiastical
+				'manor_court' => '',			//Barony, County, Duchy, Royal, University, Ecclesiastical, Vicary
 				'manor_category' => '',			//Chapel, Church, Cathedral, Priory, Abbey, University, Port, Castle
 				'quarter_northeast' => '',		//, , , ; default=Fallow
 				'quarter_northwest' => '',		//, , , ; default=Fallow
