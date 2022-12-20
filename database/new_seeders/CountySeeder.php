@@ -13,20 +13,27 @@ class CountySeeder extends Seeder
     {
 		
 			/*
-			//example
+			*Feudal 83%, Ecclesiastical 10%, Monastic_Order 1%, Crusader_Order 2%, Crowned_Republic 4%
+			*
+			*Watermill 6%, Windmill 5%
+			*
+			*Hunting 5%	
+			*Salt 2%, Jewelry 5%, Iron 7%, Pewter 1% 
+			*Scents 5%, Cloth 8%, Dyes 6%
+			*Warhorses 14%, Dairy 23%, Wool 25% 
             DB::table('counties')->insert([
 				'county_name' => '',
-				'county_category' => '',			//Feudal (1119), Ecclesiastical (130), Monastic_Order (16), Crusader_Order (32), Crowned_Republic (50)
+				'county_category' => '',			//Feudal (1117), Ecclesiastical (128), Monastic_Order (16), Crusader_Order (32), Crowned_Republic (50)
 				'de_jure_duchy' => '',	
 				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Sunni, Shia, Pagan
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish	
 				'vernacular_culture' => '',			//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
-				'banal_moulin' => '',				//None, Watermill (31), Windmill (34)
-				'banal_pressoir' => '',				//None, Beverage_Wine (173), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (14), Beverage_Gruit (125), Sweetener_Honey (182), Sweetener_Sugarcane (5)
-				'banal_chasse' => '',				//None, Falconry (9), Deer (22), Boar (29), Fur	(6)			
-				'marke_mines' => '',				//None, Salt (28), Gold (20), Silver [Lead] (41), Iron (90), Copper (1), Tin (7), Gems (3); default=None
-				'marke_crops' => '',				//None, Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (48), Fiber_Hemp (15), Fiber_Cotton (15), Fiber_Silk (24), Dye_Saffron (28), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12); default=None
-				'marke_animal_husbandry' => '',		//Stud (182), Cattle (314), Pigs (251), Sheep (339), Goats (153), Poultry (99), Ducks (5) 
+				'banal_moulin' => '',				//None, Watermill (77), Windmill (69)
+				'banal_pressoir' => '',				//None, Beverage_Wine (177), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (14), Beverage_Gruit (125), Sweetener_Honey (182), Sweetener_Sugarcane (5)
+				'banal_chasse' => '',				//None, Falconry (9), Deer (27), Boar (29), Fur	(6)			
+				'marke_mines' => '',				//None (1151), Salt (29), Gold (20), Silver [Lead] (42), Iron (90), Copper (1), Tin (7), Gems (3); default=None
+				'marke_crops' => '',				//None (1088), Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (50), Fiber_Hemp (15), Fiber_Cotton (15), Fiber_Silk (24), Dye_Saffron (28), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12); default=None
+				'marke_animal_husbandry' => '',		//Stud (182), Cattle (315), Pigs (251), Sheep (337), Goats (153), Poultry (100), Ducks (5) 
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -5243,7 +5250,7 @@ class CountySeeder extends Seeder
 			//sion, martigny, raron
             DB::table('counties')->insert([
 				'county_name' => 'Valais',
-				'county_category' => 'Eastfalagau',
+				'county_category' => 'Ecclesiastical',
 				'de_jure_duchy' => '45',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	

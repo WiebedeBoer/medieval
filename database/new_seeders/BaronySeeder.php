@@ -13,22 +13,32 @@ class BaronySeeder extends Seeder
     {
 
 			/*
-			*total = 2372 settlements
-            DB::table('baronies')->insert([
-				'barony_name' => '',
-				'barony_category' => '',			//Feudal (1213), Ecclesiastical (242), Monastic_Order (323), Crusader_Order (82), Burgher (345), Villager (166) = 2371			
+            *Feudal 51%, Ecclesiastical 10%, Monastic_Order 14%, Crusader_Order 3%, Burgher 15%, Villager 7%
+			*Court 59%, Chancellery 6%, Abbey 15%, Hall 20%
+			*Town 61%, Village 39%
+			*Diocese 26%, Parish 60%, Chapelry 14%
+			*Cloth 2%, Market 28%
+			*
+			*Relics 4%
+			*University 6%, Library 25%
+			*Jews 5%, Healthcare 15%
+			*Jousting 11%, Agriculture 77%, Viticulture 17%, Beekeeping 6%
+			*Ports 12%, Stables 19%, Mints 5%
+			DB::table('baronies')->insert([
+				'barony_name' => '',				//total = 2372 settlements
+				'barony_category' => '',			//Feudal (1214)[51%], Ecclesiastical (242)[10%], Monastic_Order (323)[14%], Crusader_Order (82)[3%], Burgher (345)[15%], Villager (166)[7%] = 2372			
 				'de_jure_county' => '',
 				'population' => '',	
 				'charter_castle' => '',				//Royal_Court (40), County_Court (542), Manor_Court (735), Knight_Court (76), Chancellery (136), Fortified_Abbey (360), Fortified_Glebe (10), Hall (473) = 2372				
 				'charter_assembly' => '',			//Parliament (8), Diet (54), Senate (1394), Moot (916)= 2372
 				'charter_cathedral' => '',			//Patriarch (6), Archbishop (93), Bishop (517), Priest (1429), Chaplain (327) = 2372
 				'charter_market' => '',				//Merchant_Bank (11), Cloth_Hall (55), Trade_Fair (48), Market_Hall (540), Square (1718) = 2372
-				'charter_rampart' => '',			//Stronghold (1305), Palisade (117), Earthwork (34), Curtain_Wall (0), Stockade (0), Motte (0), None (916) = 2372
+				'charter_rampart' => '',			//Stronghold (1305), Palisade (117), Earthwork (34), None (916) = 2372
 				'reliquary_pilgrimage' => '',		//Feretrum (9), Chasse (91), None (2272) = 2372
-				'charter_university' => '',			//Cathedral_School (100), Monastic_School (36), Cartulary (47), Scriptorium_Library (587), None (1597) = 2367
-				'quarter_downtown' => '',			//Gentry_Quarter (1159), Merchant_Quarter (518), Jewry_Quarter (113), Hospice (324), Almshouse (29), Granary (226) = 2369
-				'quarter_suburb' => '',				//Tiltyard (268), Marke_Squire (93), Marke_Yeoman (282), Guild_Smith (35), Guild_Tanner (65), Guild_Furrier (7), Guild_Potter (37), Coaching_Inn (76), Marke_Hufner (552), Marke_Vineyard (397), Hunting_Lodge (60), Marke_Cottar (308), Marke_Apiary (139), Marke_Heath (41), Marke_Grange (11) = 2371  
-				'industry_harbor' => '',			//Arsenal (53), Staple_Port (239), Coin_Mint (119), Warehouse_Quarter (1078), Stables (449), Tithe_Barn (298), Storehouse (135) = 2371
+				'charter_university' => '',			//Cathedral_School (100), Monastic_School (36), Cartulary (47), Scriptorium_Library (587), None (1602) = 2372
+				'quarter_downtown' => '',			//Gentry_Quarter (1160), Merchant_Quarter (518), Jewry_Quarter (113), Hospice (324), Almshouse (29), Granary (228) = 2372
+				'quarter_suburb' => '',				//Tiltyard (268), Marke_Squire (93), Marke_Yeoman (282), Guild_Smith (35), Guild_Tanner (65), Guild_Furrier (7), Guild_Potter (38), Coaching_Inn (76), Marke_Hufner (552), Marke_Vineyard (398), Hunting_Lodge (60), Marke_Cottar (308), Marke_Apiary (138), Marke_Heath (41), Marke_Grange (11) = 2372  
+				'industry_harbor' => '',			//Arsenal (53), Staple_Port (239), Coin_Mint (119), Warehouse_Quarter (1078), Stables (449), Tithe_Barn (298), Storehouse (135) = 2372
 				'levy_feudal' => '',				//maximal, large, normal, minimal; default=large
 				'levy_ecclesiastical' => '',		//maximal, large, normal, minimal; default=normal
 				'levy_burgher' => '',				//maximal, large, normal, minimal; default=normal
@@ -1395,7 +1405,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Market_Hall',
 				'charter_rampart' => 'Stronghold',	
 				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Stronghold',
+				'charter_university' => 'None',
 				'quarter_downtown' => 'Hospice',			
 				'quarter_suburb' => 'Marke_Hufner',
 				'industry_harbor' => 'Warehouse_Quarter'										
@@ -1412,7 +1422,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Market_Hall',
 				'charter_rampart' => 'Stronghold',	
 				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Stronghold',
+				'charter_university' => 'None',
 				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Coaching_Inn',
 				'industry_harbor' => 'Warehouse_Quarter'										
@@ -1430,7 +1440,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_rampart' => 'Stronghold',	
 				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Stronghold',
+				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Hufner',
 				'industry_harbor' => 'Warehouse_Quarter'										
@@ -5045,7 +5055,7 @@ class BaronySeeder extends Seeder
 				'charter_rampart' => 'None',	
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'None',			
+				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Squire',
 				'industry_harbor' => 'Stables'											
             ]);
@@ -7553,9 +7563,10 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_rampart' => 'None',	
 				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Granary',
-				'quarter_downtown' => 'Marke_Vineyard',			
-				'quarter_suburb' => 'Storehouse'									
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Vineyard',
+				'industry_harbor' => 'Storehouse'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -8625,7 +8636,7 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_rampart' => 'None',	
 				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Scotland',
+				'charter_university' => 'None',
 				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Heath',
 				'industry_harbor' => 'Stables'									
@@ -22187,8 +22198,8 @@ class BaronySeeder extends Seeder
 				'charter_rampart' => 'None',	
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'None',
-				'quarter_downtown' => 'Guild_Potter',			
-				'quarter_suburb' => 'Marke_Apiary',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Guild_Potter',
 				'industry_harbor' => 'Storehouse'								
             ]);
 			//Kulmerland 
@@ -27274,8 +27285,8 @@ class BaronySeeder extends Seeder
             ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => 'Vez',
-				'barony_category' => 'Oulchy',
+				'barony_name' => 'Oulchy',
+				'barony_category' => 'Feudal',
 				'de_jure_county' => '449',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
