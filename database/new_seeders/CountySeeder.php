@@ -8419,7 +8419,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//518
-			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard
+			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard, gowran, robhar, cuffesgrange, woolengrange
             DB::table('counties')->insert([
 				'county_name' => 'Kilkenny',
 				'county_category' => 'Feudal',
@@ -8435,7 +8435,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//519
-			//fortleix, cullahill, lea, killeshin, oughaval
+			//fortleix, cullahill, lea, killeshin, oughaval, grangebeg
             DB::table('counties')->insert([
 				'county_name' => 'Leix',
 				'county_category' => 'Feudal',
