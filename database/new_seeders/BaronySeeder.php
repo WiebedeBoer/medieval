@@ -2677,6 +2677,40 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'industry_harbor' => 'Warehouse_Quarter'										
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Zuidewyn',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '47',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'										
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ridderkerk',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '47',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Squire',
+				'industry_harbor' => 'Storehouse'										
+            ]);
 			//Hunsingau
 			//
             DB::table('baronies')->insert([
@@ -33332,6 +33366,23 @@ class BaronySeeder extends Seeder
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'None',
 				'quarter_downtown' => 'Almshouse',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'industry_harbor' => 'Warehouse_Quarter'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lismore',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
 				'quarter_suburb' => 'Marke_Hufner',
 				'industry_harbor' => 'Warehouse_Quarter'							
             ]);	

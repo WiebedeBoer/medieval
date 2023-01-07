@@ -806,7 +806,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//47
-			//dordrecht, gouda
+			//dordrecht, gouda, zuidewyn, ridderkerk
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal',
@@ -818,7 +818,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//48
