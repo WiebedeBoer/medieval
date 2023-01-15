@@ -8662,7 +8662,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//533
-			//armagh, killevy, fairview
+			//armagh, killeavy, fairview
             DB::table('counties')->insert([
 				'county_name' => 'Armagh',
 				'county_category' => 'Ecclesiastical',
