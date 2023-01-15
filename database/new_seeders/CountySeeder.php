@@ -8516,7 +8516,7 @@ class CountySeeder extends Seeder
             ]);
 			//Meath
 			//524
-			//dublin, clontarf, kinsaley, lusk, castleknock, baldoyle
+			//dublin, clontarf, kinsealy, lusk, castleknock, baldoyle
             DB::table('counties')->insert([
 				'county_name' => 'Dublin',
 				'county_category' => 'Ecclesiastical',
@@ -8548,7 +8548,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//526
-			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, nugent, clonard, bective, fore, taghmon
+			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, clonard, bective, fore, taghmon
             DB::table('counties')->insert([
 				'county_name' => 'Meath',
 				'county_category' => 'Feudal',
@@ -8572,7 +8572,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'Irish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
@@ -8613,7 +8613,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//530
-			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, innisfallen, killarney, aghadoe, innisfallen
+			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, killarney, aghadoe, innisfallen
             DB::table('counties')->insert([
 				'county_name' => 'Kerry',
 				'county_category' => 'Feudal',
