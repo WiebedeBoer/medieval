@@ -8806,7 +8806,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//542
-			//omagh, dungannon, ardboe, carrickmore, clogher, donaghedy
+			//omagh, dungannon, ardboe, carrickmore, clogher, donaghey
             DB::table('counties')->insert([
 				'county_name' => 'Tyrone',
 				'county_category' => 'Feudal',

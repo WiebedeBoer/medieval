@@ -35294,12 +35294,12 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'industry_harbor' => 'Tithe_Barn'							
             ]);
-			//
+			//Louth
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Louth',
 				'barony_category' => 'Monastic_Order',
-				'de_jure_county' => '',
+				'de_jure_county' => '540',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
@@ -35316,7 +35316,7 @@ class BaronySeeder extends Seeder
             DB::table('baronies')->insert([
 				'barony_name' => 'Dundalk',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '540',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Moot',
@@ -35333,7 +35333,7 @@ class BaronySeeder extends Seeder
             DB::table('baronies')->insert([
 				'barony_name' => 'Drogheda',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '540',
 				'population' => '',
 				'charter_castle' => 'Manor_Court',	
 				'charter_assembly' => 'Senate',
@@ -35348,9 +35348,26 @@ class BaronySeeder extends Seeder
             ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => 'Mellifont',
+				'barony_name' => 'Carlingford',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '540',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Monasterboice',
 				'barony_category' => 'Monastic_Order',
-				'de_jure_county' => '',
+				'de_jure_county' => '540',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Moot',
@@ -35363,12 +35380,29 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Hufner',
 				'industry_harbor' => 'Tithe_Barn'							
             ]);
-			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mellifont',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '540',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'industry_harbor' => 'Tithe_Barn'							
+            ]);
+			//Monaghan 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Monaghan',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '541',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
@@ -35381,12 +35415,114 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Marke_Yeoman',
 				'industry_harbor' => 'Warehouse_Quarter'								
             ]);
-			// 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Inniskeen',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '541',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tehellan',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '541',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'industry_harbor' => 'Tithe_Barn'								
+            ]);
+			//Tyrone 
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Omagh',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '542',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'industry_harbor' => 'Tithe_Barn'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dungannon',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '542',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ardboe',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '542',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'industry_harbor' => 'Storehouse'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Carrickmore',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '542',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);			
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Clogher',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '542',
 				'population' => '',
 				'charter_castle' => 'Fortified_Abbey',	
 				'charter_assembly' => 'Senate',
@@ -35398,6 +35534,23 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Merchant_Quarter',			
 				'quarter_suburb' => 'Marke_Cottar',
 				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Donaghey',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '542',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'industry_harbor' => 'Storehouse'								
             ]);	
 			//England, Kingdom
 			//East Anglia, Duchy
