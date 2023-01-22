@@ -8873,7 +8873,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//546
-			//hertford, berkhamsted, therfield, pirton, saint albans, langley
+			//hertford, berkhamsted, therfield, pirton, brickendon, saint albans, langley
             DB::table('counties')->insert([
 				'county_name' => 'Hertfordshire',
 				'county_category' => 'Feudal',
@@ -8882,14 +8882,14 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//547
-			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, westminster, clerkenwell, twickenham
+			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, stepney, westminster, clerkenwell, twickenham
             DB::table('counties')->insert([
 				'county_name' => 'Middlesex',
 				'county_category' => 'Feudal',
@@ -9214,7 +9214,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//567
-			//huntingdon, saint ives, saint neots, stilton, tetworth
+			//huntingdon, saint ives, saint neots, stilton, tetworth, ramsey
             DB::table('counties')->insert([
 				'county_name' => 'Huntingdonshire',
 				'county_category' => 'Feudal',
