@@ -8824,7 +8824,7 @@ class CountySeeder extends Seeder
 			//England
 			//East Anglia
 			//543
-			//norwich, thetford, aylsham, burnham, yarmouth, lynn, walsingham, acre, rising, saint benet
+			//norwich, thetford, aylsham, burnham, yarmouth, lynn, walsingham, acle, rising, saint benet
             DB::table('counties')->insert([
 				'county_name' => 'Norfolk',
 				'county_category' => 'Feudal',
@@ -8835,7 +8835,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -8849,7 +8849,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'Beverage_Hops',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
