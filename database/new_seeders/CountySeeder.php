@@ -8931,7 +8931,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
@@ -8966,12 +8966,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//Kent
 			//552
-			//aylesford, ashford, rochester, maidstone, dartford, gravesend, orprington
+			//aylesford, ashford, rochester, maidstone, boxley, dartford, gravesend, orprington
             DB::table('counties')->insert([
 				'county_name' => 'Aylesfordshire',
 				'county_category' => 'Feudal',
@@ -8979,8 +8979,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
@@ -9003,7 +9003,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//554
-			//hythe, folkestone
+			//hythe, saltwood, lympne, folkestone
             DB::table('counties')->insert([
 				'county_name' => 'Shepwayshire',
 				'county_category' => 'Feudal',
