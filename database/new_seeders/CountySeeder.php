@@ -9028,10 +9028,10 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -9052,7 +9052,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//557
-			//lincoln, somerton, alvingham, bardney, boston, bourne, croyland, grimsby, kirkstead, stamford, thornton
+			//lincoln, somerton, alvingham, bardney, boston, bourne, crowland, grimsby, kirkstead, stamford, tattershall, thornton
             DB::table('counties')->insert([
 				'county_name' => 'Lincolnshire',
 				'county_category' => 'Feudal',
@@ -9068,7 +9068,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//558
-			//nottingham, newark, rufford, ashfield, mansfield, southwell
+			//nottingham, newark, rufford, sutton, mansfield, southwell
             DB::table('counties')->insert([
 				'county_name' => 'Nothinghamshire',
 				'county_category' => 'Feudal',
