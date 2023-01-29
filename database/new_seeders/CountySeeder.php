@@ -9198,7 +9198,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Ducks'
             ]);	
 			//566
-			//cambridge, ely, anglesey, chatteris, ramsey, soham, thorney, peterborough
+			//cambridge, ely, anglesey, chatteris, bodsey, soham, thorney, peterborough
             DB::table('counties')->insert([
 				'county_name' => 'Cambridgeshire',
 				'county_category' => 'Feudal',
@@ -9230,7 +9230,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//568
-			//northampton, brixworth, barnwell, rockingham
+			//northampton, brixworth, barnwell, rockingham, pipewell
             DB::table('counties')->insert([
 				'county_name' => 'Northamptonshire',
 				'county_category' => 'Feudal',
@@ -9240,7 +9240,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Poultry'
@@ -9263,7 +9263,7 @@ class CountySeeder extends Seeder
             ]);			
 			//Northumbria
 			//570
-			//allerton, birkby
+			//allerton, birkby, sigston
             DB::table('counties')->insert([
 				'county_name' => 'Allertonshire',
 				'county_category' => 'Monastic_Order',
@@ -9327,7 +9327,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//574
-			//sheffield, ecclesfield, bradfield
+			//sheffield, ecclesfield, bradfield, stannington
             DB::table('counties')->insert([
 				'county_name' => 'Hallamshire',
 				'county_category' => 'Feudal',
@@ -9335,9 +9335,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'Silver',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
