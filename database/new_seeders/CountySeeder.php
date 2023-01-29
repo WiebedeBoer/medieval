@@ -9401,7 +9401,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -9423,7 +9423,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//580
-			//york, beverley, bridlington, bolton, coverham, fountains, ripon, selby, whitby, pontefract, helmsley, scarborough
+			//york, beverley, bridlington, bolton, coverham, fountains, cayton, ripon, selby, whitby, pontefract, helmsley, scarborough
             DB::table('counties')->insert([
 				'county_name' => 'Yorkshire',
 				'county_category' => 'Ecclesiastical',
@@ -9496,7 +9496,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_mines' => 'Iron',						
@@ -9530,7 +9530,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Hops',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -9553,7 +9553,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//588
-			//dorchester, abbotsbury, sherborne, wareham, wimborne, corfe
+			//dorchester, abbotsbury, sherborne, wareham, wimborne, corfe, shaftesbury
             DB::table('counties')->insert([
 				'county_name' => 'Dorsetshire',
 				'county_category' => 'Feudal',
@@ -9561,11 +9561,11 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//589
@@ -9617,7 +9617,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);		
 			//592
-			//wilton, trowbridge, sarum, amesbury, easton, malmesbury, salisbury
+			//wilton, trowbridge, sarum, amesbury, easton, malmesbury, salisbury, tisbury
             DB::table('counties')->insert([
 				'county_name' => 'Wiltshire',
 				'county_category' => 'Feudal',
