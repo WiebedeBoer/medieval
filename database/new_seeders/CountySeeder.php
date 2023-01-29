@@ -9101,7 +9101,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Mercia
 			//560
-			//chester, saighton, beeston, halton
+			//chester, saighton, aldford, beeston, halton, doddington, dodleston, frodsham, pulford, nantwich
             DB::table('counties')->insert([
 				'county_name' => 'Cheshire',
 				'county_category' => 'Feudal',
@@ -9112,12 +9112,12 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
-				'marke_mines' => 'None',						
+				'marke_mines' => 'Salt',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//561
-			//hereford, goodrich, dore, leominster
+			//hereford, goodrich, dore, leominster, ledbury, wilton
             DB::table('counties')->insert([
 				'county_name' => 'Herefordshire',
 				'county_category' => 'Feudal',
@@ -9182,7 +9182,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//565
-			//buckingham, bradwell, cublington, aylesbury
+			//buckingham, bradwell, cublington, aylesbury, notley
             DB::table('counties')->insert([
 				'county_name' => 'Buckinghamshire',
 				'county_category' => 'Feudal',
