@@ -9595,13 +9595,13 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//591
-			//guildford, woking, farnham, wallington, brixton
+			//guildford, woking, farnham, wallington, brixton, waverley
             DB::table('counties')->insert([
 				'county_name' => 'Surrey',
 				'county_category' => 'Feudal',
@@ -9617,7 +9617,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);		
 			//592
-			//wilton, trowbridge, sarum, amesbury, easton, malmesbury, salisbury, tisbury
+			//wilton, trowbridge, amesbury, easton, malmesbury, salisbury, tisbury
             DB::table('counties')->insert([
 				'county_name' => 'Wiltshire',
 				'county_category' => 'Feudal',
