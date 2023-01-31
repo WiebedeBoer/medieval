@@ -9645,7 +9645,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Welsh',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'Tin',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
