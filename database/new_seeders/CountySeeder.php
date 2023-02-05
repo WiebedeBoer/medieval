@@ -9708,9 +9708,9 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'Welsh',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'

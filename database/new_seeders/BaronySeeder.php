@@ -40599,12 +40599,354 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Coin_Mint'								
             ]);
 			//Dyfed, Duchy
+			//Cardiganshire
 			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cardigan',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '595',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Aberystwyth',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '595',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Llanbadarn',
+				'barony_category' => 'Villager',
+				'de_jure_county' => '595',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Granary',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'industry_harbor' => 'Storehouse'								
+            ]);	
+			//Carmarthenshire
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Carmarthen',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Carreg',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Dinefwr',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kidwelly',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Laugharne',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Llandovery',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Coaching_Inn',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Llansteffan',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Talley',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'industry_harbor' => 'Tithe_Barn'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Whitland',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '596',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'industry_harbor' => 'Tithe_Barn'								
+            ]);			
+			//Pembrokeshire
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Pembroke',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Carew',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Cilgerran',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Haverford',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Cloth_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Manorbier',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Yeoman',
+				'industry_harbor' => 'Stables'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tenby',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Merchant_Quarter',			
+				'quarter_suburb' => 'Guild_Tanner',
+				'industry_harbor' => 'Staple_Port'								
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Saint Dogmaels',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Hospice',			
+				'quarter_suburb' => 'Marke_Cottar',
+				'industry_harbor' => 'Tithe_Barn'								
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Templeton',
+				'barony_category' => 'Crusader_Order',
+				'de_jure_county' => '597',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Earthwork',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'industry_harbor' => 'Stables'								
+            ]);			
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Saint Davids',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '597',
 				'population' => '',
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
@@ -40628,6 +40970,24 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
 				'charter_cathedral' => 'Bishop',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'quarter_downtown' => 'Gentry_Quarter',			
+				'quarter_suburb' => 'Marke_Hufner',
+				'industry_harbor' => 'Warehouse_Quarter'								
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Monmouth',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
 				'charter_market' => 'Square',
 				'charter_rampart' => 'Stronghold',	
 				'reliquary_pilgrimage' => 'None',
