@@ -9875,9 +9875,9 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Pictish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'Iron',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//608
