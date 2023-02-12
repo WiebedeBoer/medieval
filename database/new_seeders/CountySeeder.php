@@ -9945,7 +9945,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//612
-			//kincardine, banchory, stonehaven
+			//kincardine, banchory, stonehaven, dunnottar
             DB::table('counties')->insert([
 				'county_name' => 'Kincardineshire',
 				'county_category' => 'Feudal',
@@ -9987,9 +9987,9 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Pictish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
 			//Bernicia
