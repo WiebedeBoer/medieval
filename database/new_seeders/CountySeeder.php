@@ -10020,7 +10020,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Gaelic',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -10036,7 +10036,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Gaelic',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -10058,7 +10058,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);		
 			//619
-			//stirling, dunblane, cambuskenneth, culcreuch, mugodock
+			//stirling, dunblane, cambuskenneth, culcreuch, mugodock, bannockburn
             DB::table('counties')->insert([
 				'county_name' => 'Stirlingshire',
 				'county_category' => 'Feudal',
