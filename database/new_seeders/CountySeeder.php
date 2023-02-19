@@ -307,7 +307,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);				
 			//16
-			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, waalwick
+			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, waalwick, besoyen
             DB::table('counties')->insert([
 				'county_name' => 'Toxandria',
 				'county_category' => 'Feudal',
@@ -10198,7 +10198,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Pictish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
