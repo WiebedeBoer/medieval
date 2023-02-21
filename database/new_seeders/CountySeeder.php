@@ -10264,7 +10264,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Gaelic',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -10329,7 +10329,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Gaelic',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_mines' => 'Iron',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
