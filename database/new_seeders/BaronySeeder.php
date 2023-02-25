@@ -40,8 +40,8 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => '',			//Gentry_Plots (1524), Burgage_Plots (911), Jewry_Plots (119),  = 2372
 				'quarter_suburb' => '',				//Tiltyard (336), Coaching_Inn (114), Hunting_Lodge (93), None (2501)
 				'marke_agriculture' => '',			//Marke_Squire (489), Marke_Yeoman (804), Marke_Hufner (744), Marke_Vineyard (420), Marke_Cottar (368), Marke_Apiary (140), Marke_Heath (55), Marke_Grange (24) = 2372
-				'marke_mining' => '',				//Salt (24), Gold (), Silver [Lead] (), Iron (), Copper (), Tin (), Gems (), None () 
-				'industry_transport' => '',			//Stables (1507), None () 
+				'marke_mining' => '',				//Salt (33), Gold (20), Silver [Lead] (), Iron (), Copper (2), Tin (15), Gems (3), None () 
+				'industry_transport' => '',			//Stables (1507), Drover (), Pedlar () 
 				'industry_guild' => '',				//Guild_Smith (42), Guild_Tanner (75), Guild_Furrier (7), Guild_Potter (48), None (2872) 
 				'industry_harbor' => '',			//Arsenal (59), Staple_Port (316), None (2669) 
 				'industry_storage' => '',			//Armoury (19), Coin_Mint (126), Warehouse_Quarter (1591), Tithe_Barn (426), Granary (901) = 2372
@@ -21041,7 +21041,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -22909,7 +22909,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -23026,7 +23026,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Iron',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
@@ -40264,7 +40264,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -41424,7 +41424,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -42379,7 +42379,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -42588,7 +42588,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -45237,7 +45237,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Yeoman',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -56609,7 +56609,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Yeoman',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -61937,6 +61937,30 @@ class BaronySeeder extends Seeder
 			//
 			//
             DB::table('baronies')->insert([
+				'barony_name' => 'Pontevedra',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire',
+				'marke_mining' => 'Gold',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'						
+            ]);	
+			//
+			//
+            DB::table('baronies')->insert([
 				'barony_name' => 'Vigo',
 				'barony_category' => 'Ecclesiastical',
 				'de_jure_county' => '',
@@ -62156,6 +62180,31 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'					
             ]);	
+			//Cantabria, Duchy
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Aguilar',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'Chasse',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Jewry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar',
+				'marke_mining' => 'Gold',
+				'industry_transport' => 'None',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'					
+            ]);
 			//Portugal, Kingdom
 			//Aveiro, Duchy
 			//
@@ -63607,6 +63656,30 @@ class BaronySeeder extends Seeder
 			//
 			//
             DB::table('baronies')->insert([
+				'barony_name' => 'Prievidza',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Vineyard',
+				'marke_mining' => 'Gold',
+				'industry_transport' => 'None',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'				
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
 				'barony_name' => 'Vac',
 				'barony_category' => 'Feudal',
 				'de_jure_county' => '',
@@ -63772,6 +63845,78 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sepsiszentgyorgy',
+				'barony_category' => 'Ecclesiastical',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Fortified_Glebe',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'Gold',
+				'industry_transport' => 'None',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'				
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Szaszsebes',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'Gold',
+				'industry_transport' => 'None',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'				
+            ]);
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Udvarhely',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'Gold',
+				'industry_transport' => 'None',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'				
+            ]);
 			//Croatia, Kingdom
 			//Dalmatia, Duchy
 			//
@@ -66371,7 +66516,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -68994,7 +69139,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Yeoman',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
@@ -69041,7 +69186,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -69065,7 +69210,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -69532,7 +69677,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
@@ -69856,7 +70001,7 @@ class BaronySeeder extends Seeder
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
-				'marke_mining' => 'None',
+				'marke_mining' => 'Gold',
 				'industry_transport' => 'None',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
