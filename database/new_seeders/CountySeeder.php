@@ -18,7 +18,6 @@ class CountySeeder extends Seeder
 			*Watermill 6%, Windmill 5%
 			*
 			*Hunting 5%	
-			*Salt 2%, Jewelry 5%, Iron 7%, Pewter 1% 
 			*Scents 5%, Cloth 8%, Dyes 6%
 			*Warhorses 14%, Dairy 23%, Wool 25% 
             DB::table('counties')->insert([
@@ -31,7 +30,6 @@ class CountySeeder extends Seeder
 				'banal_moulin' => '',				//None, Watermill (77), Windmill (69)
 				'banal_pressoir' => '',				//None, Beverage_Wine (177), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (14), Beverage_Gruit (125), Sweetener_Honey (182), Sweetener_Sugarcane (5)
 				'banal_chasse' => '',				//None, Falconry (9), Deer (27), Boar (29), Fur	(6)			
-				'marke_mines' => '',				//Iron (90); default=None
 				'marke_crops' => '',				//None (1088), Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (50), Fiber_Hemp (15), Fiber_Cotton (15), Fiber_Silk (24), Dye_Saffron (28), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12); default=None
 				'marke_animal_husbandry' => '',		//Stud (182), Cattle (315), Pigs (251), Sheep (337), Goats (153), Poultry (100), Ducks (5) 
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
@@ -90,8 +88,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bavarian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'Boar',					
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Boar',											
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -167,8 +164,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bavarian',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Hops',				
-				'banal_chasse' => 'None',	
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',							
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
@@ -1286,8 +1282,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -1302,8 +1297,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -1318,8 +1312,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -1334,8 +1327,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -1396,8 +1388,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -1427,8 +1418,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -1443,8 +1433,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -1459,8 +1448,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -1521,8 +1509,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -1552,8 +1539,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -1568,8 +1554,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -1585,8 +1570,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bavarian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Elder',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -1646,8 +1630,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bavarian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'Falconry',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Falconry',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -1873,8 +1856,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swabian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -1905,8 +1887,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -2342,8 +2323,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Stud'
             ]);						
@@ -2480,8 +2460,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
@@ -2527,8 +2506,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -2558,8 +2536,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'Boar',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -2574,8 +2551,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -2879,8 +2855,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -3287,8 +3262,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -3303,8 +3277,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
@@ -3380,8 +3353,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -3396,8 +3368,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swabian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Stud'
             ]);			
@@ -3673,8 +3644,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -3796,8 +3766,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);
@@ -3904,8 +3873,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bohemian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -3965,8 +3933,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Bohemian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -4042,8 +4009,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Silesian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
@@ -4255,8 +4221,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Silesian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Hops',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -4909,8 +4874,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Arpitan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -4970,8 +4934,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Arpitan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -5140,8 +5103,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
@@ -6810,8 +6772,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'Boar',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);
@@ -7536,8 +7497,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Occitan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8071,8 +8031,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Gaelic',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8269,8 +8228,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Irish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8409,8 +8367,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8471,8 +8428,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Hops',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Ducks'
             ]);	
@@ -8487,8 +8443,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
@@ -8503,8 +8458,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);
@@ -8611,8 +8565,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8794,8 +8747,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -8916,8 +8868,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);
@@ -8932,8 +8883,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8948,8 +8898,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -8964,8 +8913,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8980,8 +8928,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -8996,8 +8943,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Hops',				
-				'banal_chasse' => 'Deer',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);				
@@ -9043,8 +8989,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'Deer',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
@@ -9074,8 +9019,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'English',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Hops',				
-				'banal_chasse' => 'Deer',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);		
@@ -9184,8 +9128,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Welsh',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -9200,8 +9143,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Welsh',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'Deer',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -9325,8 +9267,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Pictish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'Deer',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Deer',,						
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -9752,8 +9693,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Gaelic',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'Deer',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -9922,8 +9862,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Catalan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -10289,8 +10228,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Aragonese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);						
@@ -10353,8 +10291,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);
@@ -10369,8 +10306,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -10385,8 +10321,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -10401,8 +10336,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -10478,8 +10412,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);				
@@ -10634,8 +10567,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);						
@@ -10818,8 +10750,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);
@@ -10910,8 +10841,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -11385,8 +11315,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Leonese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
@@ -11920,8 +11849,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Gruit',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);
@@ -12779,8 +12707,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swedish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);				
@@ -12963,8 +12890,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swedish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
@@ -13009,8 +12935,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swedish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
@@ -13040,8 +12965,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swedish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);				
@@ -15040,8 +14964,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Sicilian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -15148,8 +15071,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Sicilian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -15164,8 +15086,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Sicilian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);				
@@ -15242,8 +15163,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Sicilian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -15352,8 +15272,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -15430,8 +15349,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -15694,8 +15612,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Sardinian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -15757,8 +15674,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Sardinian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Kermes',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -16910,8 +16826,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Russian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);
@@ -16943,8 +16858,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Russian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Cider',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
             ]);	
@@ -17620,8 +17534,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Russian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);				
@@ -18032,8 +17945,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -18415,8 +18327,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',					
 				'marke_crops' => 'Dye_Kermes',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
@@ -18902,8 +18813,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);
@@ -19591,8 +19501,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
             ]);	
@@ -19734,8 +19643,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_mines' => 'Iron',						
+				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
