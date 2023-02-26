@@ -938,7 +938,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//59
-			//tiel, buren, arkel, heusden, vianen, loevestein, almkerk
+			//tiel, buren, arkel, heusden, vianen, loevestein, almkerk, ammersoyen
             DB::table('counties')->insert([
 				'county_name' => 'Teisterbant',
 				'county_category' => 'Feudal',
@@ -9807,7 +9807,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);
 			//643
-			//berga, baga, san salvador, gironella
+			//berga, baga, san salvador, gironella, cercs, vallcebre
             DB::table('counties')->insert([
 				'county_name' => 'Bergueda',
 				'county_category' => 'Feudal',
@@ -9846,7 +9846,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_culture' => 'Catalan',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Pigs'
