@@ -9867,7 +9867,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//647
-			//terrassa, bisbal, ripollet, sabadell, san marcial, granollers, franqueses, canoves, roca, ametlla, gallifa
+			//terrassa, bisbal, ripollet, sabadell, san marcial, granollers, franqueses, canoves, roca, montbui, ametlla, gallifa
             DB::table('counties')->insert([
 				'county_name' => 'Valles',
 				'county_category' => 'Feudal',
@@ -9883,7 +9883,7 @@ class CountySeeder extends Seeder
             ]);
 			//Girona
 			//648
-			//puigcerda, llivia
+			//puigcerda, llivia, baltarga, pedra, guils
             DB::table('counties')->insert([
 				'county_name' => 'Cerdanya',
 				'county_category' => 'Feudal',
@@ -9898,7 +9898,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//649
-			//castellano, corneilla
+			//castellano, corneilla, san martin
             DB::table('counties')->insert([
 				'county_name' => 'Conflent',
 				'county_category' => 'Feudal',
@@ -9913,7 +9913,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);
 			//650
-			//emporda, bisbal, san feliu, figueres, peralada, requesens, pubol, quermanco, montgri
+			//emporda, figueres, peralada, requesens, pubol, quermanco, montgri
             DB::table('counties')->insert([
 				'county_name' => 'Emporda',
 				'county_category' => 'Feudal',
