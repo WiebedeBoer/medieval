@@ -9952,7 +9952,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_culture' => 'Catalan',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_husbandry' => 'Pigs'
