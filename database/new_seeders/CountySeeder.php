@@ -10095,7 +10095,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//662
-			//urgell, balaguer, mollerusa, tarrega
+			//urgell, balaguer, mollerusa, anglesola, golmes, tarrega
             DB::table('counties')->insert([
 				'county_name' => 'Urgell',
 				'county_category' => 'Ecclesiastical',
