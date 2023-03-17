@@ -63312,12 +63312,12 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'						
             ]);
 			//Tarragona, Duchy
-			//
+			//Montsia
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Amposta',
 				'barony_category' => 'Crusader_Order',
-				'de_jure_county' => '',
+				'de_jure_county' => '663',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
@@ -63337,11 +63337,57 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'					
             ]);
 			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rapita',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '663',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'Salt',
+				'industry_transport' => 'Carter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'					
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Alcanar',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '663',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Carter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'					
+            ]);
+			//Tarragona
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tarragona',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '664',
 				'population' => '',
 				'charter_castle' => 'Hall',	
 				'charter_assembly' => 'Senate',
@@ -63361,11 +63407,34 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'					
             ]);
 			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Poblet',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '664',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Cartulary',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Carter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'					
+            ]);
+			//Tortosa
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tortosa',
 				'barony_category' => 'Feudal',
-				'de_jure_county' => '',
+				'de_jure_county' => '665',
 				'population' => '',
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate',
@@ -63384,7 +63453,54 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'					
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Alfara',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '665',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'					
+            ]);
 			//Teruel, Duchy
+			//
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Albarracin',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'					
+            ]);	
 			//
 			//
             DB::table('baronies')->insert([
@@ -63402,9 +63518,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Yeoman',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'					
