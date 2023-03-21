@@ -10188,7 +10188,7 @@ class CountySeeder extends Seeder
             ]);
 			//Zaragoza
 			//668
-			//ileuca, moncayo, jargue, isuela, olvega
+			//illeuca, moncayo, jarque, isuela, olvega
             DB::table('counties')->insert([
 				'county_name' => 'Aranda',
 				'county_category' => 'Feudal',
