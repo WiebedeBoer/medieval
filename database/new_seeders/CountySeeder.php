@@ -10289,7 +10289,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',
 				'vernacular_culture' => 'Navarrese',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -10319,7 +10319,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_culture' => 'Navarrese',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -10334,7 +10334,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_culture' => 'Navarrese',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -10351,7 +10351,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
@@ -10448,7 +10448,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);
 			//685
-			//bilbao, erandio, santa maria, estao
+			//bilbao, erandio, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Bilbaoldea',
 				'county_category' => 'Feudal',
