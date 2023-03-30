@@ -10520,14 +10520,14 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//Burgos
 			//690
-			//lerma, barriosuso, villahoz, cebrecos
+			//lerma, barriosuso, villahoz, cebrecos, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Arlanza',
 				'county_category' => 'Feudal',
@@ -10536,7 +10536,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
