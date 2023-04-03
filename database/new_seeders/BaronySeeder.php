@@ -65539,12 +65539,12 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);				
 			//Palencia, Duchy
-			//
+			//Campos
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Palencia',
 				'barony_category' => 'Ecclesiastical',
-				'de_jure_county' => '',
+				'de_jure_county' => '693',
 				'population' => '',
 				'charter_castle' => 'Chancellery',	
 				'charter_assembly' => 'Senate',
@@ -65562,7 +65562,262 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
-            ]);				
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Medina',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '693',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Trade_Fair',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Villarcayo',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '693',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Taranco',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '693',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);	
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Frias',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '693',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Jewry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);	
+			//Cerrato
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Palenzuela',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '694',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Astudillo',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '694',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Cloth_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Castroverde',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '694',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
+			//Valdivia
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Matabuena',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '695',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bustillo',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '695',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'Hospital',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Coin_Mint'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Santa Maria',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '695',
+				'population' => '',
+				'charter_castle' => 'Fortified_Abbey',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Villabellaco',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '695',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
 			//Segovia, Duchy
 			//
 			//

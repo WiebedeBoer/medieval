@@ -10582,7 +10582,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Madder',						
 				'marke_animal_husbandry' => 'Sheep'
