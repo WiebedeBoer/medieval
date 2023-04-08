@@ -10680,7 +10680,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Soria
 			//700
-			//almazan, raya, nagima, soliedra
+			//almazan, villasayas, llamosos, soliedra, moron
             DB::table('counties')->insert([
 				'county_name' => 'Almazan',
 				'county_category' => 'Feudal',
