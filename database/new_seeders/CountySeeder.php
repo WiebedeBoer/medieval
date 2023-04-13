@@ -1104,7 +1104,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//70
-			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst, lochem, zeddam
+			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst, lochem, zeddam, wychen
             DB::table('counties')->insert([
 				'county_name' => 'Hamaland',
 				'county_category' => 'Crowned_Republic',
