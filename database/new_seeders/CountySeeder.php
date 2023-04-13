@@ -290,7 +290,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);				
 			//16
-			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, waalwick, besoyen
+			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, waalwick, besoyen, bosch, orthen, bokhoven, ravenstein
             DB::table('counties')->insert([
 				'county_name' => 'Toxandria',
 				'county_category' => 'Feudal',

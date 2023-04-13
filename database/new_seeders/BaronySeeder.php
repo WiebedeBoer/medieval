@@ -1346,6 +1346,98 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bosch',
+				'barony_category' => 'Burgher',
+				'de_jure_county' => '16',
+				'population' => '',
+				'charter_castle' => 'Hall',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Hall',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'Chasse',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Drover',
+				'industry_guild' => 'Guild_Smith',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Orthen',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '16',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bokhoven',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '16',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Ravenstein',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '16',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Earthwork',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
 			//Waasgau
 			//
             DB::table('baronies')->insert([
@@ -4928,7 +5020,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'Hunting_Lodge',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Yeoman',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -4951,7 +5043,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Yeoman',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'None',
@@ -4974,7 +5066,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Yeoman',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'None',

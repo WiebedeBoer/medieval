@@ -214,17 +214,22 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_county' => '16',
 				'surname_category' => 'Feudal',
-				'surname' => 'van Loon'				
+				'surname' => 'van Bokhoven'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '16',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'van den Bosch'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '16',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Loon'				
             ]);	
             DB::table('surnames')->insert([
 				'surname_county' => '16',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'van Ravenstein'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '16',
@@ -510,12 +515,17 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Teisterbant
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '59',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'van Ammersoyen'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '59',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Arkel'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '59',
