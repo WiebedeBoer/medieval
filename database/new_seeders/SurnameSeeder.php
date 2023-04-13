@@ -392,12 +392,17 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Nifterlake
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '51',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'van Lockhorst'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '51',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Nyenrode'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '51',
@@ -579,6 +584,107 @@ class TithingSeeder extends Seeder
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '64',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '65',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '65',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '66',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '66',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '67',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '67',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '68',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '68',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//Cleveland
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '69',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Boetselaer'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '69',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Cleves'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '69',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Kranenburg'				
+            ]);
+			//Hamaland
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '70',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Bronkhorst'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '70',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//Mulgau
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '71',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '71',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//Ruhrgau
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '72',
+				'surname_category' => 'Feudal',
+				'surname' => 'van Galen'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '72',
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);

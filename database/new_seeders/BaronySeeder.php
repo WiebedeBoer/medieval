@@ -4214,6 +4214,29 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
             ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Lockhorst',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '51',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'																					
+            ]);
 			//Norderland
 			// 
             DB::table('baronies')->insert([
@@ -6016,7 +6039,30 @@ class BaronySeeder extends Seeder
 				'charter_market' => 'Square',
 				'charter_rampart' => 'Stronghold',	
 				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Scriptorium_Library',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Carter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'										
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Boetselaer',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '69',
+				'population' => '',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
