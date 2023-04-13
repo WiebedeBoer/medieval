@@ -669,7 +669,7 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_county' => '71',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'van Straelen'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '71',
