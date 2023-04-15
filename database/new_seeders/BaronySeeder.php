@@ -2017,7 +2017,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Silver',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -2064,7 +2064,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -2087,7 +2087,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -2626,7 +2626,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -2649,7 +2649,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -2766,7 +2766,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -2859,7 +2859,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -2882,7 +2882,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -3722,7 +3722,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -3885,7 +3885,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -4301,7 +4301,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -4324,7 +4324,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -4534,7 +4534,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -4627,7 +4627,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -5022,7 +5022,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -5068,7 +5068,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Yeoman',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -5091,7 +5091,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Yeoman',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -5531,9 +5531,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -5554,9 +5554,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -5600,9 +5600,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'																					
@@ -6672,7 +6672,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -6742,7 +6742,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -6767,7 +6767,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -6907,7 +6907,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'											
@@ -6953,7 +6953,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'											
@@ -7349,7 +7349,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -7372,7 +7372,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -7699,7 +7699,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -7794,7 +7794,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'											
@@ -7864,7 +7864,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'											
@@ -7935,7 +7935,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -7958,7 +7958,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -7981,7 +7981,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -8004,7 +8004,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -8075,7 +8075,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'										
@@ -8145,7 +8145,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'										
@@ -9102,7 +9102,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'Silver',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'											
@@ -9287,7 +9287,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'										
@@ -9658,7 +9658,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -9728,7 +9728,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
@@ -9891,7 +9891,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -9914,7 +9914,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -9984,7 +9984,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'Silver',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -10682,7 +10682,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -10706,7 +10706,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -10753,7 +10753,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -10917,7 +10917,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -10941,7 +10941,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -11010,7 +11010,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -11057,7 +11057,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -11103,7 +11103,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -11173,7 +11173,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'							
@@ -11291,7 +11291,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'									
@@ -11338,7 +11338,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Silver',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -11523,7 +11523,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -11686,7 +11686,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -11987,7 +11987,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -12313,7 +12313,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -12360,7 +12360,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13106,7 +13106,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
@@ -13245,7 +13245,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -13269,7 +13269,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13456,7 +13456,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13480,7 +13480,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13690,7 +13690,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13761,7 +13761,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13784,7 +13784,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13807,7 +13807,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'									
@@ -13830,7 +13830,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13853,7 +13853,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -13994,7 +13994,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -14320,7 +14320,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -14344,7 +14344,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -14437,7 +14437,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -14717,7 +14717,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -15068,7 +15068,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -15116,7 +15116,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -15185,7 +15185,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -15278,7 +15278,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15325,7 +15325,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15395,7 +15395,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15467,7 +15467,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15559,7 +15559,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15791,7 +15791,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15814,7 +15814,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15884,7 +15884,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -15953,7 +15953,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -16303,7 +16303,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -16326,7 +16326,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -16443,7 +16443,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -16466,7 +16466,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -16745,7 +16745,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -16838,7 +16838,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -16908,7 +16908,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -16956,7 +16956,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17026,7 +17026,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -17119,7 +17119,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17143,7 +17143,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17166,7 +17166,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17190,7 +17190,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17353,7 +17353,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17446,7 +17446,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17470,7 +17470,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -17540,7 +17540,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18029,7 +18029,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18076,7 +18076,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18099,7 +18099,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18122,7 +18122,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18170,7 +18170,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18193,7 +18193,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18332,7 +18332,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18447,7 +18447,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18470,7 +18470,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18494,7 +18494,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18517,7 +18517,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18563,7 +18563,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18586,7 +18586,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18679,7 +18679,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18797,7 +18797,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18820,7 +18820,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18867,7 +18867,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18890,7 +18890,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -18960,7 +18960,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19101,7 +19101,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19194,7 +19194,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19311,7 +19311,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19334,7 +19334,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19451,7 +19451,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'								
@@ -19544,7 +19544,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19568,7 +19568,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19639,7 +19639,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19662,7 +19662,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19779,7 +19779,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19874,7 +19874,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'								
@@ -19897,7 +19897,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'								
@@ -19920,7 +19920,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'								
@@ -19944,7 +19944,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -19967,7 +19967,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'								
@@ -20085,7 +20085,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20156,7 +20156,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20179,7 +20179,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20272,7 +20272,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20341,7 +20341,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20388,7 +20388,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'Silver',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20411,7 +20411,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20434,7 +20434,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20551,7 +20551,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20829,7 +20829,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -20922,7 +20922,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21130,7 +21130,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21226,7 +21226,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21389,7 +21389,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21436,7 +21436,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21506,7 +21506,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21529,7 +21529,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21621,7 +21621,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
@@ -21668,7 +21668,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21715,7 +21715,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21807,7 +21807,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21830,7 +21830,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21854,7 +21854,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21924,7 +21924,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21947,7 +21947,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -21994,7 +21994,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22252,7 +22252,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22275,7 +22275,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22345,7 +22345,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22391,7 +22391,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22415,7 +22415,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22438,7 +22438,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22463,7 +22463,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22509,7 +22509,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22532,7 +22532,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22602,7 +22602,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22672,7 +22672,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22696,7 +22696,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22719,7 +22719,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22789,7 +22789,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22836,7 +22836,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -22857,9 +22857,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -23445,7 +23445,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Hunting_Lodge',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -23468,7 +23468,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'Hunting_Lodge',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -24078,7 +24078,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -24125,7 +24125,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -24195,7 +24195,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -24358,7 +24358,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -24406,7 +24406,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -24779,7 +24779,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -24826,7 +24826,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -24966,7 +24966,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -25293,7 +25293,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -25316,7 +25316,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -25340,7 +25340,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -25435,7 +25435,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -25574,7 +25574,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -25782,7 +25782,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -25830,7 +25830,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -25993,7 +25993,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -26016,7 +26016,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'								
@@ -26063,7 +26063,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'							
@@ -27647,7 +27647,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -27670,7 +27670,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -27904,7 +27904,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -27927,7 +27927,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -28043,7 +28043,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -28066,7 +28066,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -28630,7 +28630,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -28653,7 +28653,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
@@ -31737,7 +31737,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -31760,7 +31760,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -32226,7 +32226,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -34422,7 +34422,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
@@ -38958,7 +38958,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
@@ -42936,7 +42936,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -42959,7 +42959,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -49505,7 +49505,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'							
@@ -49622,7 +49622,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
@@ -49668,7 +49668,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -49691,7 +49691,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
@@ -51547,7 +51547,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -74793,7 +74793,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'					
@@ -78901,7 +78901,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'			
@@ -79420,7 +79420,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'			
@@ -80456,7 +80456,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -82737,7 +82737,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
@@ -82807,7 +82807,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
@@ -83989,7 +83989,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -84234,7 +84234,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'						
@@ -84258,7 +84258,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
@@ -84306,7 +84306,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
@@ -84376,7 +84376,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
@@ -84445,7 +84445,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
@@ -87631,7 +87631,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -87679,7 +87679,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -87729,7 +87729,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
@@ -87897,7 +87897,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -87947,7 +87947,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
@@ -88173,7 +88173,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
@@ -88198,7 +88198,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -88223,7 +88223,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -88421,7 +88421,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -88446,7 +88446,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -88470,7 +88470,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -88918,7 +88918,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -88941,7 +88941,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -89013,7 +89013,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Carter',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
