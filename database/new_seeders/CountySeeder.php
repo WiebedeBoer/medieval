@@ -254,7 +254,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Flemish',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -314,7 +314,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Flemish',
 				'banal_moulin' => 'Windmill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -647,7 +647,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Frisian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -938,7 +938,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//59
-			//tiel, buren, arkel, heusden, vianen, loevestein, almkerk, ammersoyen
+			//tiel, buren, arkel, heusden, vianen, loevestein, almkerk, ammersoyen, zaltbommel
             DB::table('counties')->insert([
 				'county_name' => 'Teisterbant',
 				'county_category' => 'Feudal',
