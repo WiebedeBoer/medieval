@@ -12854,6 +12854,29 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Asbeck',
+				'barony_category' => 'Monastic_Order',
+				'de_jure_county' => '148',
+				'population' => '',
+				'charter_castle' => 'Knight_Court',	
+				'charter_assembly' => 'Moot',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'								
+            ]);
 			//Werregau, County = Poultry
 			// 
             DB::table('baronies')->insert([
@@ -26839,7 +26862,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
             ]);
-			//Frosinone 
+			//Frosinone, County = Stud 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Frosinone',
@@ -27024,7 +27047,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Latina
+			//Latina, County = Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Terracina',
@@ -27110,14 +27133,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Hufner',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Rieti
+			//Rieti, County = Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rieti',
@@ -27187,7 +27210,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Viterbo
+			//Viterbo, County = Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Viterbo',

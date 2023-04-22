@@ -2283,7 +2283,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);						
 			//148
-			//munster, warendorf, gelsenkirchen
+			//munster, warendorf, gelsenkirchen,asbeck
             DB::table('counties')->insert([
 				'county_name' => 'Sudergau',
 				'county_category' => 'Ecclesiastical',

@@ -845,6 +845,11 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_county' => '64',
 				'surname_category' => 'Feudal',
+				'surname' => 'van Aysma'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '64',
+				'surname_category' => 'Feudal',
 				'surname' => 'van Goslinga'				
             ]);
             DB::table('surnames')->insert([
@@ -1061,7 +1066,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Bleisgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '82',
@@ -1073,7 +1078,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Chaumontois
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '83',
@@ -1085,7 +1090,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Saargau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '84',
@@ -1097,7 +1102,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Salingau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '85',
@@ -1109,7 +1114,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Soulossois
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '86',
@@ -1121,7 +1126,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Toullois
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '87',
@@ -1133,7 +1138,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Methingau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '88',
@@ -1145,7 +1150,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Barrois
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '89',
@@ -1157,7 +1162,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Moselgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '90',
@@ -1169,7 +1174,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Verdungau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '91',
@@ -1181,7 +1186,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Wavergau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '92',
@@ -1193,7 +1198,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Bardengau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '93',
@@ -1205,7 +1210,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Derlingau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '94',
@@ -1217,7 +1222,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Eastfalagau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '95',
@@ -1229,7 +1234,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Gretingau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '96',
@@ -1241,7 +1246,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Gudingau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '97',
@@ -1253,7 +1258,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Harzgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '98',
@@ -1265,7 +1270,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Wenzengau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '99',
@@ -1277,7 +1282,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Traungau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '100',
@@ -1289,7 +1294,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Attergau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '101',
@@ -1301,7 +1306,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Ennstal
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '102',
@@ -1313,7 +1318,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Mattiggau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '103',
@@ -1325,7 +1330,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Norital
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '104',
@@ -1337,7 +1342,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Vinschgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '105',
@@ -1349,7 +1354,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Ortengau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '106',
@@ -1361,7 +1366,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Albegau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '107',
@@ -1373,7 +1378,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Augstgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '108',
@@ -1385,7 +1390,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Breisgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '109',
@@ -1397,7 +1402,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Churgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '110',
@@ -1409,7 +1414,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Hegau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '111',
@@ -1421,7 +1426,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Linzgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '112',
@@ -1433,7 +1438,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Neckargau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '113',
@@ -1445,7 +1450,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Nordgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '114',
@@ -1457,7 +1462,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Riesgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '115',
@@ -1469,7 +1474,7 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Schwerzgau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '116',
@@ -1853,12 +1858,12 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
-			//
+			//Sudergau
 			//
             DB::table('surnames')->insert([
 				'surname_county' => '148',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'von Asbeck'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '148',
@@ -3950,6 +3955,66 @@ class TithingSeeder extends Seeder
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '323',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '324',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '324',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '325',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '325',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '326',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '326',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '327',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '327',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+			//
+			//
+            DB::table('surnames')->insert([
+				'surname_county' => '',
+				'surname_category' => 'Feudal',
+				'surname' => ''				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '',
 				'surname_category' => 'Feudal',
 				'surname' => ''				
             ]);
