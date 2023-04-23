@@ -305,7 +305,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//17
-			//ghent, axel, hulst, assenede, boekhoute, sluys
+			//ghent, axel, hulst, assenede, boekhoute, sluys, gavere
             DB::table('counties')->insert([
 				'county_name' => 'Waasgau',
 				'county_category' => 'Feudal',
@@ -653,7 +653,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//40
-			//goes, wissenkerk, hellenburg
+			//goes, wissenkerk, hellenburg, renesse
             DB::table('counties')->insert([
 				'county_name' => 'Beveland',
 				'county_category' => 'Feudal',
