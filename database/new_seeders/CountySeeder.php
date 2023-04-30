@@ -8003,7 +8003,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Cattle'
+				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//525
 			//longford, ardagh, granard, moydow, rathcline, abbeyshrule

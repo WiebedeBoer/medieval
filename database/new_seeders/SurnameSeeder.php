@@ -1183,7 +1183,7 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_county' => '88',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'van Luxembourg'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '88',
