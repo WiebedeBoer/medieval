@@ -10762,12 +10762,12 @@ class CountySeeder extends Seeder
 				'county_category' => 'Feudal',
 				'de_jure_duchy' => '117',
 				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Castile',		
+				'vernacular_cycle' => 'Matter_Castile',
 				'vernacular_culture' => 'Castillian',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
-				'marke_crops' => 'None',						
+				'banal_moulin' => 'None',
+				'banal_pressoir' => 'Sweetener_Honey',
+				'banal_chasse' => 'Boar',
+				'marke_crops' => 'None',
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//706
@@ -10781,9 +10781,9 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Sheep'
+				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//707
 			//ocana, oreja
