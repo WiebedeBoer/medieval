@@ -15835,7 +15835,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats'
             ]);	
 			//
-			//lamia, thaumace, ravenica, amphissa
+			//lamia, thaumace, ravenica, amphissa, bodonitsa
             DB::table('counties')->insert([
 				'county_name' => 'Phthia',
 				'county_category' => 'Feudal',
@@ -16444,7 +16444,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//
-			//
+			//pityus
             DB::table('counties')->insert([
 				'county_name' => 'Pityus',
 				'county_category' => 'Feudal',
