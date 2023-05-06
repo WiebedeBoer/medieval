@@ -28,8 +28,8 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish	
 				'vernacular_culture' => '',			//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian 
 				'banal_moulin' => '',				//None, Watermill (77), Windmill (69)
-				'banal_pressoir' => '',				//None, Beverage_Wine (188), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (15), Beverage_Gruit (128), Sweetener_Honey (185), Sweetener_Sugarcane (15), Sweetener_Date (5)
-				'banal_chasse' => '',				//None, Falconry (9), Deer (27), Boar (29), Fur	(6)			
+				'banal_pressoir' => '',				//None, Beverage_Wine (188), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (15), Beverage_Gruit (128), Sweetener_Honey (185), Sweetener_Sugarcane (29), Sweetener_Date (42)
+				'banal_chasse' => '',				//None, Falconry (9), Deer (27), Boar (29), Fur	(6)	
 				'marke_crops' => '',				//None (1088), Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (50), Fiber_Hemp (15), Fiber_Cotton (15), Fiber_Silk (24), Dye_Saffron (28), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12); default=None
 				'marke_animal_husbandry' => '',		//Stud (182), Cattle (315), Sheep (337), Camel (5), Pigs (251), Goats (153), Poultry (100), Ducks (5) 
 													//1 migration (500), 2 carolingian (770), 3 ottonian (940), 4 romanesque (980), 5 mercantile (1070), 6 gothic (1130), 7 renaissance (1250), 8 flamboyant (1350), 9 imperial (1420) 		
@@ -19042,7 +19042,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19057,7 +19057,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19072,7 +19072,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19088,7 +19088,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19103,7 +19103,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19118,7 +19118,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19166,7 +19166,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19212,7 +19212,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19279,7 +19279,22 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
-            ]);		
+            ]);	
+			//
+			//bizerte
+            DB::table('counties')->insert([
+				'county_name' => 'Bizerte',
+				'county_category' => 'Feudal',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_animal_husbandry' => 'Goats'
+            ]);				
 			//Djerid
 			//
 			//gafsa
@@ -19291,7 +19306,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Ifriqiya',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19323,7 +19338,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Ifriqiya',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19356,7 +19371,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19388,7 +19403,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19420,7 +19435,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19436,7 +19451,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19500,7 +19515,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19515,7 +19530,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19532,7 +19547,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19547,7 +19562,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19562,7 +19577,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19578,7 +19593,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19593,7 +19608,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Goats'
@@ -19610,7 +19625,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Jazira',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -19625,7 +19640,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Jazira',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -19642,7 +19657,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Levant',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -19691,7 +19706,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Najd',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
@@ -19706,7 +19721,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Najd',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -19886,7 +19901,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Camel'
+				'marke_animal_husbandry' => 'Goats'
             ]);
 			//
 			//siwa, shali, aghurmi
@@ -19901,7 +19916,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Camel'
+				'marke_animal_husbandry' => 'Goats'
             ]);
 			//
 			//nitria, scetis, kellia
@@ -19916,7 +19931,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Camel'
+				'marke_animal_husbandry' => 'Goats'
             ]);
 			//Boula
 			//
@@ -19932,7 +19947,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Camel'
+				'marke_animal_husbandry' => 'Goats'
             ]);
 			//
 			//qoseir, banat
@@ -19947,7 +19962,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Camel'
+				'marke_animal_husbandry' => 'Goats'
             ]);
 			//Jerusalem
 			//Jerusalem
@@ -19993,7 +20008,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20008,7 +20023,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Stud'
@@ -20023,7 +20038,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Stud'
@@ -20039,7 +20054,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20054,7 +20069,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20069,7 +20084,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20085,7 +20100,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20100,7 +20115,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20115,7 +20130,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Hejaz',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20447,7 +20462,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20463,7 +20478,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20480,7 +20495,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20496,7 +20511,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20513,7 +20528,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20528,7 +20543,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20543,7 +20558,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20558,7 +20573,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20574,7 +20589,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20589,7 +20604,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_husbandry' => 'Sheep'
@@ -20604,7 +20619,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'

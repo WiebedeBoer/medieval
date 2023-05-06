@@ -39,7 +39,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => '',			//Hospital (627), Almshouse (37), Infirmary (442), None (1944) = 2372
 				'quarter_downtown' => '',			//Gentry_Plots (1524), Burgage_Plots (911), Jewry_Plots (119),  = 2372
 				'quarter_suburb' => '',				//Tiltyard (336), Coaching_Inn (114), Hunting_Lodge (93), Archery_Range (), Musketeer_Guild (), None (2501)
-				'marke_agriculture' => '',			//Marke_Squire (585), Marke_Yeoman (294), Marke_Hufner (887), Marke_Vineyard (487), Marke_Cottar (632), Marke_Apiary (372), Marke_Sugarcane (18), Marke_Date (), Marke_Heath (234), Marke_Grange (24) = 2372
+				'marke_agriculture' => '',			//Marke_Squire (585), Marke_Yeoman (294), Marke_Hufner (887), Marke_Vineyard (487), Marke_Cottar (632), Marke_Apiary (372), Marke_Sugarcane (18), Marke_Heath (234), Marke_Grange (24) = 2372
 				'marke_mining' => '',				//Salt (36), Gold (20), Silver [Lead] (52), Iron (272), Copper (3), Tin (15), Gems (3), None (2666)  = 2372
 				'industry_transport' => '',			//Stables (2274), Drover (686), Carter (357) 
 				'industry_guild' => '',				//Guild_Smith (42), Guild_Tanner (75), Guild_Furrier (7), Guild_Potter (48), None (2872) 
@@ -63,18 +63,21 @@ class BaronySeeder extends Seeder
 			banal_pressoir:														type:				rank:	
 				Beverage_Wine: 													Marke_Vineyard		3
 				Beverage_Gruit: 												Marke_Heath			2
-				Sweetener_Honey:												Marke_Apiary		2 *
+				Sweetener_Honey:												Marke_Apiary		2
 				Sweetener_Sugarcane:											Marke_Sugarcane		2
-				Sweetener_Date:													Marke_Date			2
+				Sweetener_Date:													---					
+				Beverage_Hops:													---					
+				Beverage_Elder:													---					
+				Beverage_Cider:													---					
 			marke_animal_husbandry:
 				Stud | Knight_Court:											Marke_Squire		5
 				(Armoury | Muniment | Staple_Port | Arsenal) & (!pressoir):		Marke_Yeoman		4
 				(Cattle | Sheep) & (!pressoir):									Marke_Hufner		3
 				(Pigs | Goats | Ducks | Poultry) & (!pressoir):					Marke_Cottar		2
-				grange:															Marke_Grange		1 *
+				Monastic_Grange:												Marke_Grange		1
 			---------------------
 				(=court) | Gentry_Plots | Marke_Squire | Coaching_Inn:			Stables				5
-				Marke_Date:														Caravan				4
+				Sweetener_Date & (!stables):									Caravan				4
 				Marke_Yeoman | Marke_Hufner:									Drover				3
 				Marke_Cottar | Marke_Grange:									Carter				2
 			*/
@@ -458,7 +461,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Nordgau, County = Pigs
+			//Nordgau, County = Pigs > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Egerburg',
@@ -598,7 +601,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Rottgau, County = Stud 
+			//Rottgau, County = Stud > Beverage_Hops 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Passau',
@@ -738,7 +741,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);	
-			//Westergau, County = Pigs 
+			//Westergau, County = Pigs > Beverage_Hops 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ingolstadt',
@@ -1112,7 +1115,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Toxandria, County = Sheep
+			//Toxandria, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Antwerp',
@@ -1621,7 +1624,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Granary'							
             ]);
 			//Carinthia, Duchy
-			//Hengistgau, County = Cattle
+			//Hengistgau, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hengistburg',
@@ -1668,7 +1671,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);
-			//Ingeringtal, County = Cattle 
+			//Ingeringtal, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Judenburg',
@@ -1785,7 +1788,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Kroatengau, County = Goats 
+			//Kroatengau, County = Goats > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Karlsberg',
@@ -1901,7 +1904,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Lavanttal, County = Cattle 
+			//Lavanttal, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sankt Paul',
@@ -1948,7 +1951,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);
-			//Leobental, County = Cattle  
+			//Leobental, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Leoben',
@@ -1995,7 +1998,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);
-			//Lurngau, County = Cattle 
+			//Lurngau, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kadour',
@@ -2065,7 +2068,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
             ]);
-			//Murztal, County = Cattle 
+			//Murztal, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Eppenstein',
@@ -2112,7 +2115,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
             ]);
-			//Sanntal, County = Goats
+			//Sanntal, County = Goats > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Celje',
@@ -2463,7 +2466,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'										
             ]);
-			//Gollachgau, County = Cattle
+			//Gollachgau, County = Cattle > Beverage_Hops
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Rotenburg',
@@ -2978,7 +2981,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'							
             ]);
 			//Frisia, Duchy
-			//Ammergau, County = Stud
+			//Ammergau, County = Stud > Beverage_Cider
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Oldenburg',
@@ -3886,7 +3889,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'										
             ]);
-			//Kennemerland, County = Cattle
+			//Kennemerland, County = Cattle > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Haarlem',
@@ -6045,7 +6048,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'										
             ]);
-			//Betuwe, County = Stud
+			//Betuwe, County = Stud > Beverage_Cider
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Nymegen',
@@ -6814,7 +6817,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'										
             ]);
 			//Limburg, Duchy
-			//Luttichgau, County = Poultry
+			//Luttichgau, County = Poultry > Beverage_Cider
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Limburg',
@@ -8308,7 +8311,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'										
             ]);
-			//Eastfalagau, County = Pigs
+			//Eastfalagau, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hildesheim',
@@ -8659,7 +8662,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'											
             ]);
 			//Styria, Duchy
-			//Traungau, County = Stud
+			//Traungau, County = Stud > Beverage_Elder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Linz',
@@ -8845,7 +8848,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'											
             ]);
-			//Ennstal, County = Cattle
+			//Ennstal, County = Cattle > Beverage_Elder
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Innsbruck',
@@ -9915,7 +9918,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'										
             ]);
-			//Neckargau, County = Cattle 
+			//Neckargau, County = Cattle > Beverage_Hops 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Greifenstein',
@@ -12337,7 +12340,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'									
             ]);
-			//Holsteingau, County = Cattle 
+			//Holsteingau, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Niemunster',
@@ -12617,7 +12620,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
             ]);
-			//Stevergau, County = Stud 
+			//Stevergau, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ludinghausen',
@@ -13644,7 +13647,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'									
             ]);
-			//Hartingau, County = Pigs 
+			//Hartingau, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Halberstadt',
@@ -14111,7 +14114,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Hessengau, County = Stud
+			//Hessengau, County = Stud > Beverage_Cider
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Kassel',
@@ -14694,7 +14697,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);
-			//Wettergau, County = Poultry 
+			//Wettergau, County = Poultry > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Frankfurt',
@@ -14835,7 +14838,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
 			//Salzburg, Duchy
-			//Salzburggau, County = Stud 
+			//Salzburggau, County = Stud > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Salzburg',
@@ -15092,7 +15095,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Sundergau, County = Cattle
+			//Sundergau, County = Cattle > Beverage_Hops
 			// 
             DB::table('baronies')->insert([
 				'barony_name' => 'Tegernsee',
@@ -15491,7 +15494,7 @@ class BaronySeeder extends Seeder
             ]);
 			//Lombardy, Kingdom
 			//Milano, Duchy
-			//Milano, County = Poultry 
+			//Milano, County = Poultry > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Milano',
@@ -21226,7 +21229,7 @@ class BaronySeeder extends Seeder
             ]);
 			//Bohemia, Kingdom
 			//Bohemia, Duchy
-			//Prague, County = Goats 
+			//Prague, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Prague',
@@ -21296,7 +21299,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Bechin, County = Goats
+			//Bechin, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bechin',
@@ -21343,7 +21346,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Bunzlau, County = Stud
+			//Bunzlau, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bunzlau',
@@ -21459,7 +21462,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Elbogen, County = Goats
+			//Elbogen, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Elbogen',
@@ -21576,7 +21579,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Koniggratz, County = Goats
+			//Koniggratz, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Koniggratz',
@@ -21738,7 +21741,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Leitmeritz, County = Goats
+			//Leitmeritz, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Leitmeritz',
@@ -21785,7 +21788,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Pilsen, County = Goats
+			//Pilsen, County = Goats > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pilsen',
@@ -21924,7 +21927,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Rakonitz, County = Goats
+			//Rakonitz, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rakonitz',
@@ -21971,7 +21974,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Schlan, County = Goats
+			//Schlan, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Schlan',
@@ -22041,7 +22044,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Saaz, County = Goats
+			//Saaz, County = Goats > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Saaz',
@@ -22134,7 +22137,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Tschaslawsko, County = Stud
+			//Tschaslawsko, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tschaslau',
@@ -22322,7 +22325,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Nisangau, County = Pigs
+			//Nisangau, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Dohna',
@@ -23024,7 +23027,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Glogau, County = Stud 
+			//Glogau, County = Stud > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Glogau',
@@ -23071,7 +23074,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Leubus, County = Stud 
+			//Leubus, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Leubus',
@@ -23304,7 +23307,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Schweidnitz, County = Stud 
+			//Schweidnitz, County = Stud > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Schweidnitz',
@@ -27370,7 +27373,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
 			//Romagna, Duchy
-			//Ferrara, County = Cattle 
+			//Ferrara, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ferrara',
@@ -28700,7 +28703,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
             ]);
-			//Fellin, County = Pigs 
+			//Fellin, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Fellin',
@@ -29214,7 +29217,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Pernau, County = Stud 
+			//Pernau, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pernau',
@@ -30241,7 +30244,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Kulmerland, County = Cattle 
+			//Kulmerland, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kulm',
@@ -30521,7 +30524,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Schwetz, County = Sweetener_Honey > Pigs 
+			//Schwetz, County = Pigs > Beverage_Cider 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Schwetz',
@@ -30538,7 +30541,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'marke_agriculture' => 'Marke_Apiary',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -30561,7 +30564,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Jewry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Apiary',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -31760,7 +31763,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'								
             ]);
 			//Brandenburg, Duchy
-			//Havelland, County = Pigs 
+			//Havelland, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Brandenburg',
@@ -32343,7 +32346,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
             ]);
-			//Obotritegau, County = Stud
+			//Obotritegau, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Mecklenburg',
@@ -32390,7 +32393,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
             ]);
-			//Polabigau, County = Stud 
+			//Polabigau, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Schwerin',
@@ -32437,7 +32440,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Wagrigau, County = Cattle 
+			//Wagrigau, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lubeck',
@@ -34469,7 +34472,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'									
             ]);	
-			//Montlucon, County = Poultry 
+			//Montlucon, County = Poultry > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Montlucon',
@@ -37590,7 +37593,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Alencon, County = Cattle 
+			//Alencon, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Alencon',
@@ -37985,7 +37988,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);				
-			//Coutances, County = Stud 
+			//Coutances, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Coutances',
@@ -38679,7 +38682,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Mortainais, County = Cattle
+			//Mortainais, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Mortain',
@@ -43521,7 +43524,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Rennais, County = Stud 
+			//Rennais, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rennes',
@@ -44682,7 +44685,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);				
-			//Kilkenny, County = Sheep 
+			//Kilkenny, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kilkenny',
@@ -45075,7 +45078,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//Tipperary, County = Cattle
+			//Tipperary, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Clonmel',
@@ -45214,7 +45217,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Waterford, County = Goats 
+			//Waterford, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Waterford',
@@ -45887,7 +45890,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Meath, County = Cattle 
+			//Meath, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tara',
@@ -46397,7 +46400,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
             ]);
-			//Cork, County = Stud 
+			//Cork, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Cork',
@@ -46930,7 +46933,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Granary'								
             ]);
 			//Ulster, Duchy
-			//Antrim, County = Sheep 
+			//Antrim, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Antrim',
@@ -47069,7 +47072,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Armagh, County = Sheep 
+			//Armagh, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Armagh',
@@ -48044,7 +48047,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
             ]);
-			//Tyrone, County = Goats 
+			//Tyrone, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Omagh',
@@ -48926,7 +48929,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Middlesex, County = Stud
+			//Middlesex, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'London',
@@ -49181,7 +49184,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Granary'								
             ]);
 			//Hwicce, Duchy
-			//Gloucestershire, County = Cattle
+			//Gloucestershire, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Gloucester',
@@ -49343,7 +49346,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);
-			//Warwickshire, County = Stud
+			//Warwickshire, County = Stud > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Warwick',
@@ -49575,7 +49578,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//Worcestershire, County = Poultry
+			//Worcestershire, County = Poultry > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Worcester',
@@ -49692,7 +49695,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'							
             ]);				
 			//Kent, Duchy
-			//Aylesfordshire, County = Ducks
+			//Aylesfordshire, County = Ducks > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aylesford',
@@ -49877,7 +49880,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);
-			//Kent, County = Pigs
+			//Kent, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Canterbury',
@@ -50619,7 +50622,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);
-			//Nothinghamshire, County = Pigs
+			//Nothinghamshire, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Nottingham',
@@ -50829,7 +50832,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Granary'							
             ]);
 			//Mercia, Duchy
-			//Cheshire, County = Cattle
+			//Cheshire, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Chester',
@@ -51060,7 +51063,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);				
-			//Herefordshire, County = Cattle
+			//Herefordshire, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hereford',
@@ -51455,7 +51458,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Granary'									
             ]);	
 			//Mid Anglia, Duchy
-			//Bedfordshire, County = Pigs
+			//Bedfordshire, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bedford',
@@ -51548,7 +51551,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'									
             ]);	
-			//Buckinghamshire, County = Ducks
+			//Buckinghamshire, County = Ducks > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Buckingham',
@@ -53687,7 +53690,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Sussex, County = Cattle
+			//Sussex, County = Cattle > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hastings',
@@ -53758,7 +53761,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'								
             ]);
 			//Wessex, Duchy
-			//Berkshire, County = Pigs
+			//Berkshire, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Reading',
@@ -53851,7 +53854,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Dorsetshire, County = Pigs
+			//Dorsetshire, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Dorchester',
@@ -54060,7 +54063,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);
-			//Somersetshire, County = Stud
+			//Somersetshire, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Somerton',
@@ -54199,7 +54202,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
             ]);	
-			//Surrey, County = Poultry
+			//Surrey, County = Poultry > Beverage_Hops
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Guildford',
@@ -54338,7 +54341,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
             ]);
-			//Wiltshire, County = Stud
+			//Wiltshire, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Wilton',
@@ -54502,7 +54505,7 @@ class BaronySeeder extends Seeder
             ]);	
 			//Wales, Kingdom
 			//Cornwall, Duchy
-			//Cornwall, County = Sheep
+			//Cornwall, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Truro',
@@ -55706,7 +55709,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'								
             ]);
-			//Monmouthshire, County = Sheep
+			//Monmouthshire, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Monmouth',
@@ -56934,7 +56937,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'								
             ]);
-			//Radnorshire, County = Sheep
+			//Radnorshire, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aberedw',
@@ -57909,7 +57912,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'							
             ]);
-			//Kinrossshire, County = Sheep
+			//Kinrossshire, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kinross',
@@ -57979,7 +57982,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);
-			//Perthshire, County = Cattle
+			//Perthshire, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Perth',
@@ -58350,7 +58353,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//Edinburghshire, County = Sheep
+			//Edinburghshire, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Edinburgh',
@@ -58813,7 +58816,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
             ]);				
-			//Stirlingshire, County = Cattle
+			//Stirlingshire, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Stirling',
@@ -59952,7 +59955,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Granary'					
             ]);
 			//Galloway, Duchy
-			//Kirkcudbrightshire, County = Stud
+			//Kirkcudbrightshire, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kirkcudbright',
@@ -60068,7 +60071,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'					
             ]);	
-			//Wigtownshire, County = Stud
+			//Wigtownshire, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Wigtown',
@@ -60185,7 +60188,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'						
             ]);
 			//Gododdin, Duchy
-			//Dumfriesshire, County = Sheep
+			//Dumfriesshire, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Dumfries',
@@ -64475,7 +64478,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Coin_Mint'				
             ]);
 			//Gipuzcoa, Duchy
-			//Donostialdea, County = Poultry
+			//Donostialdea, County = Poultry > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'San Sebastian',
@@ -70151,7 +70154,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Stud
+			//, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -70221,7 +70224,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Stud
+			//, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -70291,7 +70294,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Stud
+			//, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Oviedo',
@@ -70765,7 +70768,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Sheep
+			//, County = Sheep > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Coimbra',
@@ -71171,7 +71174,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
-			//, County = Pigs
+			//, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Borglum',
@@ -71289,7 +71292,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Cattle
+			//, County = Cattle > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Viborg',
@@ -71477,7 +71480,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Pigs
+			//, County = Pigs > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -71666,7 +71669,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'					
             ]);	
-			//, County = Pigs
+			//, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -71736,7 +71739,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Pigs
+			//, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Roskilde',
@@ -71760,7 +71763,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Stud
+			//, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kobenhavn',
@@ -71784,7 +71787,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Arsenal',
 				'industry_storage' => 'Warehouse_Quarter'					
             ]);	
-			//, County = Pigs
+			//, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -72396,7 +72399,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Cattle
+			//, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hamar',
@@ -72631,7 +72634,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Stud
+			//, County = Stud > Beverage_Elder
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -73337,7 +73340,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
 			//Viken (borgarting), Duchy
-			//Akershus, County = Goats
+			//Akershus, County = Goats > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Asker',
@@ -73547,7 +73550,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Cattle
+			//, County = Cattle > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -74628,7 +74631,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = Pigs
+			//, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vaxjo',
@@ -78948,7 +78951,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County Pigs
+			//, County = Pigs > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kauen',
@@ -85719,7 +85722,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
             ]);	
-			//, County = Stud
+			//, County = Stud > Beverage_Cider
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bryansk',
@@ -87650,8 +87653,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Sijilmassa, Duchy
-			//Tafilalt, County = Goats
+			//Sijilmassa, Duchy = Desert_Oasis
+			//Tafilalt, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sijilmassa',
@@ -87698,7 +87701,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Merzouga',
@@ -87722,7 +87725,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Erfoud',
@@ -87746,8 +87749,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);				
-			//Ouarzazate, Duchy
-			//, County = Goats
+			//Ouarzazate, Duchy = Desert_Oasis
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Ouarzazate',
@@ -87771,7 +87774,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Zagora',
@@ -87795,7 +87798,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Armoury'				
             ]);	
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tinghir',
@@ -87870,7 +87873,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Coin_Mint'				
             ]);	
 			//Rabat, Duchy
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rabat',
@@ -87887,9 +87890,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'Coaching_Inn',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Stables',
+				'industry_transport' => 'Carter',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -87910,9 +87913,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Stables',
+				'industry_transport' => 'Carter',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -87933,9 +87936,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Drover',
+				'industry_transport' => 'Carter',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'				
@@ -87989,7 +87992,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Arsenal',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tetouan',
@@ -88006,7 +88009,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -88111,9 +88114,33 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
 				'industry_storage' => 'Warehouse_Quarter'				
-            ]);		
+            ]);	
+			//, County = Sweetener_Sugarcane > Goats
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bizerte',
+				'barony_category' => 'Feudal',
+				'de_jure_county' => '',
+				'population' => '',
+				'charter_castle' => 'County_Court',	
+				'charter_assembly' => 'Senate',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Sugarcane',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'				
+            ]);				
 			//Djerid, Duchy
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Gafsa',
@@ -88130,7 +88157,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Carter',
 				'industry_guild' => 'None',
@@ -88162,8 +88189,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);		
-			//Sirte, Duchy
-			//, County = Goats
+			//Sirte, Duchy = Desert_Oasis
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Sirte',
@@ -88214,7 +88241,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
 			//Oujda, Duchy
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Oujda',
@@ -88231,7 +88258,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Jewry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
@@ -88264,7 +88291,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
 			//Algiers, Duchy
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Algiers',
@@ -88281,7 +88308,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -88313,8 +88340,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
             ]);	
-			//Mzab, Duchy
-			//, County = Goats
+			//Mzab, Duchy = Desert_Oasis
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Mzab',
@@ -88338,8 +88365,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//Laghouat, Duchy
-			//, County = Goats
+			//Laghouat, Duchy = Desert_Oasis
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Laghouat',
@@ -88439,7 +88466,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
 			//Taroudant, Duchy
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Taroudant',
@@ -88463,7 +88490,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Armoury'				
             ]);	
-			//, County = Goats
+			//, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Agadir',
@@ -88480,7 +88507,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -88488,8 +88515,8 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);				
 			//Figuig, Kingdom
-			//Figuig, Duchy
-			//, County = Goats
+			//Figuig, Duchy = Desert_Oasis
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Figuig',
@@ -88513,7 +88540,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
             ]);
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bechar',
@@ -88537,7 +88564,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Moghrar',
@@ -88562,7 +88589,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
 			//Adrar, Duchy
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Adrar',
@@ -88586,7 +88613,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Goats
+			//, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Timimoun',
@@ -88612,8 +88639,8 @@ class BaronySeeder extends Seeder
             ]);				
 			//Abbasid, Empire
 			//Baghdad, Kingdom
-			//Baghdad, Duchy
-			//, County = Sheep
+			//Baghdad, Duchy = Desert_Marshland
+			//, County = Sweetener_Sugarcane > Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Baghdad',
@@ -88630,7 +88657,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Jewry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
@@ -88638,8 +88665,8 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Coin_Mint'				
             ]);				
 			//Syria, Kingdom
-			//Damascus, Duchy
-			//, County = Sheep
+			//Damascus, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Damascus',
@@ -88714,8 +88741,8 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);			
 			//Najd, Kingdom
-			//Najd, Duchy
-			//, County = Stud
+			//Najd, Duchy = Desert_Oasis
+			//, County = Stud > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kharj',
@@ -88767,7 +88794,7 @@ class BaronySeeder extends Seeder
             ]);				
 			//Fatimid, Empire
 			//Cairo, Kingdom
-			//Cairo, Duchy
+			//Cairo, Duchy = Desert_Marshland
 			//, County = Stud > Sweetener_Sugarcane
 			//
             DB::table('baronies')->insert([
@@ -88792,7 +88819,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
             ]);
-			//Alexandria, Duchy
+			//Alexandria, Duchy = Desert_Marshland
 			//, County = Sweetener_Sugarcane > Cattle
 			//
             DB::table('baronies')->insert([
@@ -88817,7 +88844,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Arsenal',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Mansoura, Duchy
+			//Mansoura, Duchy = Desert_Marshland
 			//, County = Sweetener_Sugarcane > Cattle
 			//
             DB::table('baronies')->insert([
@@ -88842,7 +88869,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Damietta, Duchy
+			//Damietta, Duchy = Desert_Marshland
 			//, County = Sweetener_Sugarcane > Cattle
 			//
             DB::table('baronies')->insert([
@@ -88867,7 +88894,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Arsenal',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Minya, Duchy
+			//Minya, Duchy = Desert_Marshland
 			//, County = Sweetener_Sugarcane > Cattle
 			//
             DB::table('baronies')->insert([
@@ -88892,7 +88919,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Asyut, Duchy
+			//Asyut, Duchy = Desert_Marshland
 			//, County = Sweetener_Sugarcane > Cattle
 			//
             DB::table('baronies')->insert([
@@ -88917,7 +88944,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Kharga, Duchy
+			//Kharga, Duchy = Desert_Oasis
 			//Kharga, County = Sweetener_Sugarcane > Goats
 			//
             DB::table('baronies')->insert([
@@ -89081,8 +89108,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Baritun, Duchy
-			//Baritun, County = Camel > Sweetener_Date
+			//Baritun, Duchy = Desert_Oasis
+			//Baritun, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Baritun',
@@ -89099,7 +89126,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89122,14 +89149,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'				
             ]);
-			//Siwa, County = Camel > Sweetener_Date
+			//Siwa, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Siwa',
@@ -89146,9 +89173,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Caravan',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
@@ -89169,7 +89196,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89192,14 +89219,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'				
             ]);
-			//Natrun, County = Camel > Sweetener_Date
+			//Natrun, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Nitria',
@@ -89216,7 +89243,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'Salt',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89239,7 +89266,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89262,7 +89289,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89270,7 +89297,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'				
             ]);
 			//Boula, Duchy
-			//Boula, County = Camel > Sweetener_Date
+			//Boula, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Deir Anba',
@@ -89287,7 +89314,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89310,14 +89337,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'				
             ]);
-			//Qoseir, County = Camel > Sweetener_Date
+			//Qoseir, County = Goats > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Qoseir',
@@ -89334,7 +89361,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89357,7 +89384,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Date',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
@@ -89391,8 +89418,8 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);			
 			//Hejaz, Kingdom
-			//Mecca, Duchy
-			//, County = Sheep
+			//Mecca, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Mecca',
@@ -89416,7 +89443,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//, County = Stud
+			//, County = Stud > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Jeddah',
@@ -89463,7 +89490,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'				
             ]);
-			//, County = Stud
+			//, County = Stud > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Taif',
@@ -89487,8 +89514,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//Medina, Duchy
-			//, County = Sheep
+			//Medina, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Medina',
@@ -89512,7 +89539,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Yanbu',
@@ -89536,7 +89563,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Khaybar',
@@ -89583,8 +89610,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Coin_Mint'				
             ]);
-			//Tabuk, Duchy
-			//, County = Sheep
+			//Tabuk, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tabuk',
@@ -89608,7 +89635,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Aqaba',
@@ -89655,7 +89682,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hegra',
@@ -89935,8 +89962,8 @@ class BaronySeeder extends Seeder
             ]);				
 			//Seljuk, Empire
 			//Kwarezm, Kingdom
-			//Gurganj, Duchy
-			//, County = Sheep
+			//Gurganj, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Gurganj',
@@ -89960,8 +89987,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Armoury'				
             ]);
-			//Khiva, Duchy
-			//, County = Sheep
+			//Khiva, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Khiva',
@@ -89986,8 +90013,8 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
 			//Isfahan, Kingdom
-			//Isfahan, Duchy
-			//, County = Sheep
+			//Isfahan, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Isfahan',
@@ -90011,8 +90038,8 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//Shiraz, Duchy
-			//, County = Sheep
+			//Shiraz, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Shiraz',
@@ -90037,8 +90064,8 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Coin_Mint'				
             ]);				
 			//Hormuz, Kingdom
-			//Hormuz, Duchy
-			//, County = Sheep
+			//Hormuz, Duchy = Desert_Oasis
+			//, County = Sweetener_Sugarcane > Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Hormuz',
@@ -90055,14 +90082,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sweetener_Sugarcane > Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Minab',
@@ -90079,14 +90106,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sweetener_Sugarcane > Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bandar',
@@ -90103,14 +90130,14 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);	
-			//, County = Sheep
+			//, County = Sweetener_Sugarcane > Sheep
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Lengeh',
@@ -90127,15 +90154,15 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_agriculture' => 'Marke_Sugarcane',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//Kerman, Duchy
-			//, County = Sheep
+			//Kerman, Duchy = Desert_Oasis
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Kerman',
@@ -90182,7 +90209,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'				
             ]);
-			//, County = Sheep
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bam',
@@ -90229,7 +90256,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'				
             ]);	
-			//, County = Sheep
+			//, County = Sheep > Sweetener_Date
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Rafsinjan',
