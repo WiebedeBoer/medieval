@@ -3241,7 +3241,7 @@ class DuchySeeder extends Seeder
 			//
 			//Ibiza, Mallorca, Menorca
             DB::table('duchies')->insert([
-				'duchy_name' => 'Mallorca',
+				'duchy_name' => 'Baleares',
 				'duchy_category' => 'Feudal',
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
@@ -3375,7 +3375,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Tunis,
+			//Tunis, Bizerte
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tunis',
 				'duchy_category' => 'Feudal',

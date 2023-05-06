@@ -10794,8 +10794,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Castillian',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
