@@ -44,7 +44,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',			//Stables (2270), Caravan (11), Drover (683), Carter (354) 
 				'industry_guild' => '',				//Guild_Smith (46), Guild_Tanner (77), Guild_Furrier (7), Guild_Potter (50), None (2872) 
 				'industry_harbor' => '',			//Arsenal (59), Staple_Port (331), None (2669) 
-				'industry_storage' => '',			//Armoury (100), Coin_Mint (114), Warehouse_Quarter (1828), Tithe_Barn (640), Granary (1151), Muniment (19) = 2372
+				'industry_storage' => '',			//Town_Armoury (100), Coin_Mint (114), Warehouse_Quarter (1828), Tithe_Barn (640), Granary (1151), Castle_Armoury (19) = 2372
 				'levy_feudal' => '',				//maximal, large, normal, minimal; default=large
 				'levy_ecclesiastical' => '',		//maximal, large, normal, minimal; default=normal
 				'levy_burgher' => '',				//maximal, large, normal, minimal; default=normal
@@ -71,7 +71,7 @@ class BaronySeeder extends Seeder
 				Beverage_Cider:													---					
 			marke_animal_husbandry:
 				Stud | Knight_Court:											Marke_Squire		5
-				(Armoury | Muniment | Staple_Port | Arsenal) & (!pressoir):		Marke_Yeoman		4
+				(Town_Armoury | Castle_Armoury | Staple_Port | Arsenal) & (!pressoir):		Marke_Yeoman		4
 				(Cattle | Sheep) & (!pressoir):									Marke_Hufner		3
 				(Pigs | Goats | Ducks | Poultry) & (!pressoir):					Marke_Cottar		2
 				Monastic_Grange:												Marke_Grange		1
@@ -506,7 +506,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -834,7 +834,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1137,7 +1137,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1483,7 +1483,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2861,7 +2861,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'							
+				'industry_storage' => 'Castle_Armoury'							
             ]);
 			//Taubergau, County = Cattle 
 			//
@@ -7305,7 +7305,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -8870,7 +8870,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'											
+				'industry_storage' => 'Town_Armoury'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -8893,7 +8893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'											
+				'industry_storage' => 'Town_Armoury'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -9079,7 +9079,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'											
+				'industry_storage' => 'Castle_Armoury'											
             ]);
 			//Vinschgau, County = Stud
 			// 
@@ -9406,7 +9406,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Carter',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'										
+				'industry_storage' => 'Town_Armoury'										
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9452,7 +9452,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'									
+				'industry_storage' => 'Castle_Armoury'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -9637,7 +9637,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'										
+				'industry_storage' => 'Town_Armoury'										
             ]);
 			//Churgau, County = Beverage_Wine > Goats 
 			//
@@ -10127,7 +10127,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'											
+				'industry_storage' => 'Castle_Armoury'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -10150,7 +10150,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'										
+				'industry_storage' => 'Castle_Armoury'										
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -10196,7 +10196,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'											
+				'industry_storage' => 'Castle_Armoury'											
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -10637,7 +10637,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -10660,7 +10660,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13132,7 +13132,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -15516,7 +15516,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -15724,7 +15724,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);
 			//
             DB::table('baronies')->insert([
@@ -15863,7 +15863,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -16375,7 +16375,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -16677,7 +16677,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -17846,7 +17846,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -18265,7 +18265,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -18519,7 +18519,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -21251,7 +21251,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -22253,7 +22253,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -25225,7 +25225,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Drover',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -25295,7 +25295,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -25902,7 +25902,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -32952,7 +32952,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//Vendomois, County = Cattle 
 			//
@@ -36569,7 +36569,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -36592,7 +36592,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37407,7 +37407,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37430,7 +37430,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38333,7 +38333,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'							
+				'industry_storage' => 'Castle_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38356,7 +38356,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38565,7 +38565,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38868,7 +38868,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -39100,7 +39100,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -39217,7 +39217,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -39706,7 +39706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -39729,7 +39729,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40403,7 +40403,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40449,7 +40449,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//Vermandois, County = Cattle
 			//
@@ -41193,7 +41193,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -41518,7 +41518,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -41727,7 +41727,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -41843,7 +41843,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -41866,7 +41866,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43077,7 +43077,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45773,7 +45773,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -48789,7 +48789,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -49506,7 +49506,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//Winchcombeshire, County = Stud
 			//
@@ -49600,7 +49600,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -49994,7 +49994,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//Shepwayshire, County = Pigs
 			//
@@ -50644,7 +50644,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -50854,7 +50854,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51247,7 +51247,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'							
+				'industry_storage' => 'Castle_Armoury'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51363,7 +51363,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51409,7 +51409,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'									
+				'industry_storage' => 'Town_Armoury'									
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51573,7 +51573,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52013,7 +52013,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52129,7 +52129,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52967,7 +52967,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53360,7 +53360,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53829,7 +53829,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55291,7 +55291,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55569,7 +55569,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55754,7 +55754,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55800,7 +55800,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56053,7 +56053,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56170,7 +56170,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56240,7 +56240,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56263,7 +56263,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56355,7 +56355,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Muniment'								
+				'industry_storage' => 'Castle_Armoury'								
             ]);
 			//
             DB::table('baronies')->insert([
@@ -60210,7 +60210,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -61165,7 +61165,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -61468,7 +61468,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -61538,7 +61538,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -63376,7 +63376,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -63470,7 +63470,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -63610,7 +63610,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'					
+				'industry_storage' => 'Town_Armoury'					
             ]);
 			//
             DB::table('baronies')->insert([
@@ -63775,7 +63775,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'					
+				'industry_storage' => 'Town_Armoury'					
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -63868,7 +63868,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'					
+				'industry_storage' => 'Town_Armoury'					
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -64032,7 +64032,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -64102,7 +64102,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -64151,7 +64151,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -64221,7 +64221,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);
 			//
             DB::table('baronies')->insert([
@@ -65697,7 +65697,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'								
+				'industry_storage' => 'Town_Armoury'								
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66117,7 +66117,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'							
+				'industry_storage' => 'Castle_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66280,7 +66280,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66421,7 +66421,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66770,7 +66770,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Town_Armoury'							
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66957,7 +66957,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'
+				'industry_storage' => 'Town_Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -67306,7 +67306,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83814,7 +83814,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'			
+				'industry_storage' => 'Town_Armoury'			
             ]);				
 			//Siracusa, Duchy = Mediterranean_Woodland
 			//, County = Stud > Beverage_Wine
@@ -85399,7 +85399,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);				
 			//Seleucia, Duchy = Mediterranean_Woodland
 			//, County = Sheep
@@ -85915,7 +85915,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//, County = Sheep
 			//
@@ -86886,7 +86886,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Furrier',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//Yaroslavl, County = Stud > Sweetener_Honey
 			//
@@ -86910,7 +86910,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Furrier',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86956,7 +86956,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Furrier',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87005,7 +87005,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Furrier',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);			
 			//Polotsk, Duchy = Temperate_Woodland
 			//, County = Sweetener_Honey > Pigs
@@ -87157,7 +87157,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'						
+				'industry_storage' => 'Town_Armoury'						
             ]);			
 			//Moldavia, Duchy = Temperate_Woodland
 			//, County = Sheep
@@ -87409,7 +87409,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//Jaen, County = Stud
 			//
@@ -87531,7 +87531,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'			
+				'industry_storage' => 'Town_Armoury'			
             ]);
 			//Algarves, Kingdom
 			//Algarves, Duchy = Mediterranean_Woodland
@@ -87678,7 +87678,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);
 			//, County = Beverage_Wine > Poultry
 			//
@@ -87753,7 +87753,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'			
+				'industry_storage' => 'Town_Armoury'			
             ]);
 			//
             DB::table('baronies')->insert([
@@ -88119,7 +88119,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88239,7 +88239,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//, County = Goats > Sweetener_Date
 			//
@@ -88289,7 +88289,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//, County = Goats
 			//
@@ -88706,7 +88706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//Oran, Duchy = Mediterranean_Woodland
 			//, County = Goats
@@ -88931,7 +88931,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//, County = Sweetener_Sugarcane > Goats
 			//
@@ -89131,7 +89131,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//Jabal, Duchy = Steppe
 			//, County = Sheep
@@ -89156,7 +89156,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);	
 			//Homs, Duchy = Mediterranean_Woodland
 			//, County = Beverage_Wine > Sheep
@@ -89832,7 +89832,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Caravan',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'				
+				'industry_storage' => 'Castle_Armoury'				
             ]);
 			//Jerusalem, Kingdom
 			//Jerusalem, Duchy = Mediterranean_Woodland
@@ -90428,7 +90428,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'				
+				'industry_storage' => 'Town_Armoury'				
             ]);
 			//Khiva, Duchy = Desert_Oasis
 			//, County = Sheep > Sweetener_Date
@@ -90744,7 +90744,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Muniment'					
+				'industry_storage' => 'Castle_Armoury'					
             ]);			
     }
 }

@@ -23,15 +23,15 @@ class TithingSeeder extends Seeder
 			//example
             DB::table('tithings')->insert([
 				'tithing_name' => '',
-				'tithing_category' => ' ',		//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Burgher, Villager	
-				'de_jure_barony' => '',	
+				'tithing_category' => ' ',		//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Knightly_Estate, Burgher, Villager, Monastic_Grange
+				'de_jure_barony' => '',			
 				'position' => '',				
-				'manor_court' => '',			//Barony, County, Duchy, Royal, University, Ecclesiastical, Vicary
-				'manor_category' => '',			//Chapel, Church, Cathedral, Priory, Abbey, University, Port, Castle
-				'quarter_northeast' => '',		//, , , ; default=Fallow
-				'quarter_northwest' => '',		//, , , ; default=Fallow
-				'quarter_southeast' => '',		//, , , ; default=Fallow
-				'quarter_southwest' => '',		//, , , ; default=Fallow		
+				'manor_court' => '',			//Court_Royal, Court_Ducal, Court_County, Court_Baron, Court_Knight, Court_University, Court_Chancellery, Court_Advocate
+				'tithing_quarter' => '',		//Ecclesiastical_Liberty, Monastic_Liberty, Commandery, Knight_Fee, Gentry_Quarter, Hall_Quarter, Market_Quarter, Tithing, Monastic_Grange
+				'hide_northeast' => '',			//, , , ; default=Fallow
+				'hide_northwest' => '',			//, , , ; default=Fallow
+				'hide_southeast' => '',			//, , , ; default=Fallow
+				'hide_southwest' => '',			//, , , ; default=Fallow		
 				'souvereign' => '1',			(empire)
 				'lord_paramount' => '1',		(kingdom)
 				'tenant_in_chief' => '1',		(duchy)
@@ -41,27 +41,82 @@ class TithingSeeder extends Seeder
             ]);
 			*/
 			
+			/*
+			tithing_quarter:				hide_type:			hide_quarter:
+			
+			* Castle_Quarter			=						Castle_Keep, Stables_Plot, Gatehouse, Armoury
+			* Knight_Fee				=						Manor_House, Stables_Plot
+			* Gentry_Quarter			=						Husting, Stables_Plot
+			
+			* Ecclesiastical_Liberty	=						Diocese, Parish, Chapelry, Cloister, Palace, Rectory, Chancellery
+			* University_Quarter		=						Parish, Chapelry, Cloister, Porter_Lodge, College_Plot
+			* Hospital_Quarter			=						Parish, Chapelry, Cloister, Almshouse, Infirmary_Plot
+			* Monastic_Liberty 			=						Parish, Chapelry, Cloister, Infirmary_Plot, Cartulary, Scriptorium
+			* Monastic_Grange			=						Chapelry, Tithe_Barn, Burgage_Plot, Mill
+			* Commandery				=						Parish, Chapelry, Cloister, Chapterhouse, Stables_Plot
+							
+			* Hunting_Quarter			=						Hunting_Lodge, Kingswood
+			* Tiltyard					=						Grandstand, Stables_Plot, Guild_Hall
+			
+			* Market_Quarter			=						Market_Hall, Trade_Fair, Guild_Hall, Cloth_Hall, Merchant_Bank
+			* Port_Quarter				=						Wharf, Fishery_Plot, Arsenal, Coaching_Inn, Tavern_Plot
+			* Gate_Quarter				=						Gatehouse, Coaching_Inn, Tavern_Plot, Stables_Plot, Workshop_Plot
+			* Factory					=						Warehouse_Plot, Granary, Stables_Plot, Workshop_Plot, Mill
+			* Jewry_Quarter				=						Bathhouse, Burgage_Plot, Merchant_Bank, Workshop_Plot
+			* Burgage_Quarter			=						Patrician_House, Burgage_Plot, Workshop_Plot
+			* Hall_Quarter				=						Town_Hall, Moot_Hall, Mint, Armoury, Coaching_Inn, Tavern_Plot
+			* Tithing					=						Cottage_Plot, Claypit, Mine, Quarry, Woodland, Coppice, Moorland, Paddock, Field, Stables_Plot
+			
+			*/
+			
+			/*
+			type:					hide_quarter:
+			Fortified				=	Castle_Keep, Manor_House, Gatehouse, Town_Hall, Moot_Hall, Cloth_Hall, Cloister, Wharf, Porter_Lodge, Coaching_Inn
+			Library					=	College_Plot, Cartulary, Scriptorium, Chancellery
+			Health					=	Almshouse, Infirmary_Plot
+			Ecclesiastical			=	Diocese, Parish, Chapelry, Palace, Rectory
+			Crusader				=	Chapterhouse
+			Monastical				=	Cloister
+			Gentry					=	Castle_Keep, Manor_House, Husting, Stables_Plot, Armoury, Arsenal, Bathhouse, Patrician_House
+			Mercantile				=	Burgage_Plot, Guild_Hall, Workshop_Plot, Merchant_Bank, Market_Hall, Trade_Fair, Town_Hall, Cloth_Hall, Mint, Mill
+			Villein					=	Moot_Hall, Cottage_Plot
+			Entertainment			=	Coaching_Inn, Tavern_Plot, Hunting_Lodge, Grandstand
+			Transport				=	Stables_Plot
+			Storage					=	Tithe_Barn, Granary, Warehouse_Plot
+			Court					=	Castle_Keep, Manor_House, Town_Hall, Moot_Hall, Porter_Lodge, Chancellery, Chapterhouse, Parish, Wharf
+			Resource				=	Claypit, Mine, Quarry, Fishery, Kingswood, Woodland, Coppice, Moorland, Paddock, Field
+
+			*/
+			
 
 			//Holy Roman Empire	
 			//Germany
 			//Austria
 			// 
 			//
-            DB::table('tithings')->insert([
+			DB::table('tithings')->insert([
 				'tithing_name' => '',
 				'tithing_category' => 'Feudal',
 				'de_jure_barony' => '',
 				'position' => '',
-				'manor_court' => 'Barony',
-				'manor_category' => 'Castle'				
-            ]);
-            DB::table('tithings')->insert([
+				'manor_court' => '',
+				'tithing_quarter' => '',
+				'hide_northeast' => '',
+				'hide_northwest' => '',
+				'hide_southeast' => '',
+				'hide_southwest' => ''
+			]);
+			DB::table('tithings')->insert([
 				'tithing_name' => '',
-				'tithing_category' => 'Ecclesiastical',
+				'tithing_category' => 'Feudal',
 				'de_jure_barony' => '',
 				'position' => '',
-				'manor_court' => 'Ecclesiastical',
-				'manor_category' => 'Cathedral'				
-            ]);				
-    }
+				'manor_court' => '',
+				'tithing_quarter' => '',
+				'hide_northeast' => '',
+				'hide_northwest' => '',
+				'hide_southeast' => '',
+				'hide_southwest' => ''
+			]);
+	}
 }
