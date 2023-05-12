@@ -74,18 +74,17 @@ class TithingSeeder extends Seeder
 			Fortified				=	Castle_Keep, Manor_House, Gatehouse, Town_Hall, Moot_Hall, Cloth_Hall, Cloister, Wharf, Porter_Lodge, Coaching_Inn
 			Library					=	College_Plot, Cartulary, Scriptorium, Chancellery
 			Health					=	Almshouse, Infirmary_Plot
-			Ecclesiastical			=	Diocese, Parish, Chapelry, Palace, Rectory
+			Ecclesiastical			=	Diocese, Parish, Chapelry, Episcopal_Palace, Rectory
 			Crusader				=	Chapterhouse
 			Monastical				=	Cloister
-			Gentry					=	Castle_Keep, Manor_House, Husting, Stables_Plot, Armoury, Arsenal, Bathhouse, Patrician_House
-			Mercantile				=	Burgage_Plot, Guild_Hall, Workshop_Plot, Merchant_Bank, Market_Hall, Trade_Fair, Town_Hall, Cloth_Hall, Mint, Mill
+			Gentry					=	Castle_Keep, Manor_House, Husting, Stables_Plot, Armoury, Arsenal, Bathhouse, Patrician_House, Gatehouse, Porter_Lodge
+			Mercantile				=	Burgage_Plot, Guild_Hall, Workshop_Plot, Merchant_Bank, Market_Hall, Trade_Fair, Town_Hall, Cloth_Hall, Mint, Mill, Wharf
 			Villein					=	Moot_Hall, Cottage_Plot
 			Entertainment			=	Coaching_Inn, Tavern_Plot, Hunting_Lodge, Grandstand
 			Transport				=	Stables_Plot
 			Storage					=	Tithe_Barn, Granary, Warehouse_Plot
-			Court					=	Castle_Keep, Manor_House, Town_Hall, Moot_Hall, Porter_Lodge, Chancellery, Chapterhouse, Parish, Wharf
-			Resource				=	Claypit, Mine, Quarry, Fishery, Kingswood, Woodland, Coppice, Moorland, Paddock, Field
-
+			Court					=	Castle_Keep, Manor_House, Town_Hall, Moot_Hall, Porter_Lodge, Chancellery, Chapterhouse, Wharf
+			Resource				=	Claypit, Mine, Quarry, Fishery_Plot, Kingswood, Woodland, Coppice, Moorland, Paddock, Field
 			*/
 			
 
