@@ -2339,7 +2339,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Cattle'
             ]);	
@@ -8646,7 +8646,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);	
 			//567
-			//huntingdon, saint ives, saint neots, stilton, tetworth, ramsey
+			//huntingdon, saint ives, saint neots, stilton, tetworth, waresley, ramsey
             DB::table('counties')->insert([
 				'county_name' => 'Huntingdonshire',
 				'county_category' => 'Feudal',
