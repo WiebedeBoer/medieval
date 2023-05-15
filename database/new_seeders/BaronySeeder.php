@@ -17,12 +17,12 @@ class BaronySeeder extends Seeder
 				'barony_name' => '',				//total = 3044 settlements
 				'de_jure_county' => '',
 				'population' => '',	
-				'ecclesiastical_liberty' => '',		//Episcopal_Palace (142), Cathedral (495), Fortified_Glebe (14), Parsonage (214), Manse (2255), Chapelry (751) = 
-				'monastic_liberty' => '',			//Fortified_Abbey (740), Monastic_Grange (25), None (3106) = 
-				'crusader_commandery' => '',		//Chapterhouse (121), None (3750) = 
+				'ecclesiastical_liberty' => '',		//Episcopal_Palace (142), Cathedral (495), Fortified_Glebe (14), Parsonage (215), Manse (2257), Chapelry (749) = 
+				'monastic_liberty' => '',			//Fortified_Abbey (741), Monastic_Grange (28), None (3103) = 
+				'crusader_commandery' => '',		//Chapterhouse (121), None (3751) = 
 				'charter_castle' => '',				//Royal_Court (41), County_Court (645), Manor_Court (1367), Knight_Court (96), None (1723) = 
 				'charter_assembly' => '',			//Parliament_Hall (8), Diet (52), Senate_Hall (1849), Moot_Hall (1072), Chancellery (142), Great_Hall (668), Hall_House (81) = 
-				'charter_cathedral' => '',			//Patriarch (6), Archbishop (93), Bishop (532), Priest (1901), Chaplain (512) = 
+				'charter_cathedral' => '',			//Patriarch (6), Archbishop (93), Bishop (536), Priest (2488), Chaplain (749) = 
 				'charter_market' => '',				//Merchant_Bank (11), Cloth_Hall (75), Trade_Fair (63), Market_Hall (657), Square (2238) = 
 				'charter_rampart' => '',			//Stronghold (1542), Palisade (118), Earthwork (43), None (1341) = 
 				'charter_mint' => 'None',			//Coin_Mint (214), None (3657) = 3871
@@ -36519,12 +36519,12 @@ class BaronySeeder extends Seeder
 				'barony_name' => 'Wismar',
 				'de_jure_county' => '392',
 				'population' => '2000',
-				'ecclesiastical_liberty' => 'Chapelry',
+				'ecclesiastical_liberty' => 'Manse',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
 				'charter_castle' => 'None',	
 				'charter_assembly' => 'Senate_Hall',
-				'charter_cathedral' => 'Chaplain',
+				'charter_cathedral' => 'Priest',
 				'charter_market' => 'Cloth_Hall',
 				'charter_rampart' => 'Stronghold',	
 				'charter_mint' => 'None',
