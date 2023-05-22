@@ -1620,7 +1620,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);				
 			//104
-			//brixen, bolzano, merano, tirol
+			//brixen, bolzano, merano, tirol, reifenstein
             DB::table('counties')->insert([
 				'county_name' => 'Norital',
 				'county_category' => 'Ecclesiastical',
@@ -1696,7 +1696,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Poultry'
             ]);	
 			//109
-			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel
+			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel, rotteln
             DB::table('counties')->insert([
 				'county_name' => 'Breisgau',
 				'county_category' => 'Ecclesiastical',

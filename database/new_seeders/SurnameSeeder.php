@@ -1423,7 +1423,17 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_county' => '108',
 				'surname_category' => 'Feudal',
-				'surname' => ''				
+				'surname' => 'Fugger'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '108',
+				'surname_category' => 'Feudal',
+				'surname' => 'Hochstetter'				
+            ]);
+            DB::table('surnames')->insert([
+				'surname_county' => '108',
+				'surname_category' => 'Feudal',
+				'surname' => 'Welser'				
             ]);
             DB::table('surnames')->insert([
 				'surname_county' => '108',

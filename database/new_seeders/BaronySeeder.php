@@ -17,7 +17,7 @@ class BaronySeeder extends Seeder
 				'barony_name' => '',				//total = 3044 settlements
 				'de_jure_county' => '',
 				'population' => '',	
-				'ecclesiastical_liberty' => '',		//Episcopal_Palace (142), Cathedral (495), Fortified_Glebe (14), Parsonage (215), Manse (2257), Chapelry (749) = 
+				'ecclesiastical_liberty' => '',		//Episcopal_Palace (142), Cathedral (495), Fortified_Glebe (15), Parsonage (214), Manse (2257), Chapelry (749) = 
 				'monastic_liberty' => '',			//Fortified_Abbey (741), Monastic_Grange (28), None (3103) = 
 				'crusader_commandery' => '',		//Chapterhouse (121), None (3751) = 
 				'charter_castle' => '',				//Royal_Court (41), County_Court (645), Manor_Court (1367), Knight_Court (96), None (1723) = 
@@ -1195,7 +1195,7 @@ class BaronySeeder extends Seeder
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Chancellery',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Hall',
@@ -9371,7 +9371,7 @@ class BaronySeeder extends Seeder
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Chancellery',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Hall',
@@ -10231,6 +10231,32 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Armoury'											
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Reifenstein',
+				'de_jure_county' => '104',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'Hunting_Lodge',
+				'marke_agriculture' => 'Marke_Yeoman',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'											
+            ]);
 			//Vinschgau, County = Stud
 			// 
             DB::table('baronies')->insert([
@@ -10788,7 +10814,7 @@ class BaronySeeder extends Seeder
 				'barony_name' => 'Muttenz',
 				'de_jure_county' => '109',
 				'population' => '',
-				'ecclesiastical_liberty' => 'Parsonage',
+				'ecclesiastical_liberty' => 'Fortified_Glebe',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
 				'charter_castle' => 'None',	
@@ -10851,8 +10877,8 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'Coin_Mint',
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'Cathedral_School',
-				'charter_medical' => 'Hospital',
-				'quarter_downtown' => 'Burgage_Plots',			
+				'charter_medical' => 'Almshouse',
+				'quarter_downtown' => 'Jewry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
@@ -10861,12 +10887,38 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Armoury'										
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rotteln',
+				'de_jure_county' => '109',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'										
+            ]);
 			//Churgau, County = Beverage_Wine > Goats 
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Chur',
 				'de_jure_county' => '110',
-				'population' => '',
+				'population' => '1300',
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
@@ -11759,7 +11811,7 @@ class BaronySeeder extends Seeder
             DB::table('baronies')->insert([
 				'barony_name' => 'Konstanz',
 				'de_jure_county' => '119',
-				'population' => '',
+				'population' => '6000',
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
@@ -15746,7 +15798,7 @@ class BaronySeeder extends Seeder
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'Cathedral_School',
 				'charter_medical' => 'Hospital',
-				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_downtown' => 'Jewry_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'Iron',
@@ -26033,7 +26085,7 @@ class BaronySeeder extends Seeder
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Chancellery',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -26451,11 +26503,11 @@ class BaronySeeder extends Seeder
             DB::table('baronies')->insert([
 				'barony_name' => 'Breslau',
 				'de_jure_county' => '277',
-				'population' => '',
+				'population' => '1000',
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Chancellery',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
@@ -26464,7 +26516,7 @@ class BaronySeeder extends Seeder
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Hospital',
-				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_downtown' => 'Jewry_Plots',			
 				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
@@ -27961,7 +28013,7 @@ class BaronySeeder extends Seeder
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Chancellery',
 				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Trade_Fair',
@@ -29989,7 +30041,7 @@ class BaronySeeder extends Seeder
 				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
+				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Chancellery',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Hall',
@@ -33515,12 +33567,12 @@ class BaronySeeder extends Seeder
 				'barony_name' => 'Brandenburg',
 				'de_jure_county' => '356',
 				'population' => '',
-				'ecclesiastical_liberty' => 'Manse',
+				'ecclesiastical_liberty' => 'Episcopal_Palace',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
 				'charter_castle' => 'County_Court',	
-				'charter_assembly' => 'Moot_Hall',
-				'charter_cathedral' => 'Priest',
+				'charter_assembly' => 'Chancellery',
+				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Square',
 				'charter_rampart' => 'None',	
 				'charter_mint' => 'None',
@@ -36031,7 +36083,7 @@ class BaronySeeder extends Seeder
 				'charter_mint' => 'None',
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'Scriptorium_Library',
-				'charter_medical' => 'Hospital',
+				'charter_medical' => 'Almshouse',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner',
