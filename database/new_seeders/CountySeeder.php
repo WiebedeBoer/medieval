@@ -2143,7 +2143,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Saxon',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
