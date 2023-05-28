@@ -10969,7 +10969,7 @@ class CountySeeder extends Seeder
 			//Galicia
 			//Coruna
 			//719
-			//coruna, arteijo, san salvador, culleredo, sada
+			//coruna, arteijo, san salvador, culleredo, sada, san martin
             DB::table('counties')->insert([
 				'county_name' => 'Coruna',
 				'county_category' => 'Feudal',
