@@ -10931,13 +10931,13 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Sheep'
             ]);	
 			//717
-			//valladolid, simancas, fuensaldana, torrelobaton, villalba, simancas, tudela, santa maria, cabezon
+			//valladolid, simancas, fuensaldana, torrelobaton, villalba, tudela, santa maria, cabezon
             DB::table('counties')->insert([
 				'county_name' => 'Pisuerga',
 				'county_category' => 'Feudal',
