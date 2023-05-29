@@ -77269,7 +77269,7 @@ class BaronySeeder extends Seeder
             ]);		
 			//Galicia, Kingdom	
 			//Coruna, Duchy = Temperate_Shrubland
-			//, County = Stud > Beverage_Gruit
+			//Coruna, County = Stud > Beverage_Gruit
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Coruna',
@@ -77400,7 +77400,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);
-			//, County = Beverage_Gruit > Pigs
+			//Eume, County = Beverage_Gruit > Pigs
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Pontedeume',
@@ -77479,10 +77479,36 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);			
-			//, County = Stud > Beverage_Gruit
+			//Ferrol, County = Stud > Beverage_Gruit
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Ferrol',
+				'de_jure_county' => '721',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',	
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Stables',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'							
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Mogardos',
 				'de_jure_county' => '721',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Manse',
@@ -77499,16 +77525,16 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => '',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => '',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'							
-            ]);	
+            ]);			
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Moeche',
 				'de_jure_county' => '721',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Chapelry',
@@ -77525,39 +77551,13 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => '',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => '',
+				'industry_transport' => 'Stables',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'							
-            ]);	
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => '',
-				'de_jure_county' => '721',
-				'population' => '',
-				'ecclesiastical_liberty' => 'Manse',
-				'monastic_liberty' => 'Fortified_Abbey',
-				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
-				'charter_assembly' => 'Moot_Hall',
-				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
-				'charter_rampart' => 'None',	
-				'charter_mint' => 'None',
-				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'Scriptorium_Library',
-				'charter_medical' => 'Infirmary',
-				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => '',
-				'marke_mining' => 'None',
-				'industry_transport' => '',
-				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
-            ]);	
+            ]);		
 			//,County = Beverage_Gruit > Cattle
 			//
             DB::table('baronies')->insert([
