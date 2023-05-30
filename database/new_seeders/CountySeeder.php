@@ -11029,7 +11029,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle'
             ]);
 			//723
-			//aranga, faro, traba, san xurxo, vimianzo
+			//aranga, traba, san xurxo, vimianzo
             DB::table('counties')->insert([
 				'county_name' => 'Trastamara',
 				'county_category' => 'Feudal',
