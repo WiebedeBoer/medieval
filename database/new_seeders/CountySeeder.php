@@ -11075,7 +11075,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//726
-			//meira, pol
+			//meira, pol, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Meira',
 				'county_category' => 'Feudal',
