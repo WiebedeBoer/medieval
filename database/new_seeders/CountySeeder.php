@@ -11160,7 +11160,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Galician',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Gruit',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_husbandry' => 'Stud'
