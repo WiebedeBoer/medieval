@@ -11244,7 +11244,7 @@ class CountySeeder extends Seeder
 			//Leon
 			//Caceres
 			//737
-			//valencia, herrera, cabeza, san vincente, eljas, brozas, penafiel
+			//valencia, herrera, alcantara, san vincente, eljas, brozas, penafiel
             DB::table('counties')->insert([
 				'county_name' => 'Alcantara',
 				'county_category' => 'Feudal',
