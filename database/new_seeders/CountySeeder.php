@@ -11090,7 +11090,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//727
-			//sarria, incio
+			//sarria, incio, samos
             DB::table('counties')->insert([
 				'county_name' => 'Sarria',
 				'county_category' => 'Feudal',
@@ -11098,7 +11098,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Galician',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -11346,7 +11346,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_husbandry' => 'Poultry'
             ]);
 			//744
@@ -11381,7 +11381,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Salamanca
 			//746
-			//alba, aldeaseca, anaya, coca, pedraza, pedrosillo
+			//alba, san leonardo, aldeaseca, anaya, coca, pedraza, pedrosillo
             DB::table('counties')->insert([
 				'county_name' => 'Alba',
 				'county_category' => 'Feudal',
@@ -11426,7 +11426,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep'
             ]);
 			//749
-			//ledesma, zafron, tremedal, monleras, san pedro
+			//ledesma, tremedal, monleras, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Ledesma',
 				'county_category' => 'Feudal',
@@ -11438,7 +11438,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_husbandry' => 'Sheep'
+				'marke_animal_husbandry' => 'Pigs'
             ]);	
 			//750
 			//penaranda, alaraz, alconada, cantaracillo
