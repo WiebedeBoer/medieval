@@ -11465,13 +11465,13 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Leonese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Madder',						
 				'marke_animal_husbandry' => 'Stud'
             ]);
 			//752
-			//salamanca, tamames, aldeatejada, arapiles, barbadillo, buenamadre, calvarassa, calzada, san munoz, san pedro
+			//salamanca, tamames, aldeatejada, arapiles, barbadillo, buenamadre, san munoz, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Salamanca',
 				'county_category' => 'Feudal',
