@@ -13141,7 +13141,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//762
-			//navia, castropol, coana, san martin, san tirzo, santa eulalia, villanueva
+			//navia, castropol, coana, san martin, san tirzo, santa eulalia
             DB::table('counties')->insert([
 				'county_name' => 'Navia',
 				'county_category' => 'Feudal_Manor',
@@ -13202,7 +13202,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Cantabrian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Gruit',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
@@ -13210,7 +13210,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//766
-			//santander, collado, astillero
+			//santander, astillero, penagos
             DB::table('counties')->insert([
 				'county_name' => 'Santander',
 				'county_category' => 'Feudal_Manor',
@@ -13246,7 +13246,7 @@ class CountySeeder extends Seeder
 			//Portugal
 			//Aveiro
 			//768
-			//aveiro, agueda, santa maria, espinho, arouca
+			//aveiro, agueda, cima, santa maria, espinho, arouca, feira
             DB::table('counties')->insert([
 				'county_name' => 'Aveiro',
 				'county_category' => 'Feudal_Manor',
