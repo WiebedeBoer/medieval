@@ -14,19 +14,19 @@ class CountySeeder extends Seeder
 		
 			/*
             DB::table('counties')->insert([
-				'county_name' => '',				//total = 1344 counties
-				'county_category' => '',			//Feudal_Manor (1189), Ecclesiastical_Manor (132), Monastic_Manor (6), Patrician_Manor (17) = 1344
+				'county_name' => '',				//total = 1346 counties
+				'county_category' => '',			//Feudal_Manor (1191), Ecclesiastical_Manor (132), Monastic_Manor (6), Patrician_Manor (17) = 1346
 				'de_jure_duchy' => '',	
 				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Sunni, Shia, Pagan
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish
 				'vernacular_culture' => '',			//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian
-				'banal_moulin' => '',				//Watermill (90), Windmill (77), None (1177) = 1344
-				'banal_pressoir' => '',				//Beverage_Wine (192), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (15), Beverage_Gruit (127), Sweetener_Honey (186), Sweetener_Sugarcane (29), Sweetener_Date (38), None (659) = 1344
-				'banal_chasse' => '',				//Falconry (9), Deer (50), Boar (31), Fur (6), None (1248) = 1344
-				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (29), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12), None (1079) = 1344
-				'marke_animal_transport' => '',		//Warhorse (208), Donkey_Train (423), Oxen_Cart (377), Dog_Cart (336) = 1344
-				'marke_animal_husbandry' => '',		//Cattle (499), Sheep (335), Pigs (356), Goats (154) = 1344
-				'marke_animal_poultry' => '',		//Chickens (1270), Ducks (74) = 1344
+				'banal_moulin' => '',				//Watermill (90), Windmill (77), None (1179) = 1346
+				'banal_pressoir' => '',				//Beverage_Wine (192), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (15), Beverage_Gruit (127), Sweetener_Honey (186), Sweetener_Sugarcane (29), Sweetener_Date (38), None (661) = 1346
+				'banal_chasse' => '',				//Falconry (9), Deer (50), Boar (31), Fur (6), None (1250) = 1346
+				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (29), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12), None (1081) = 1346
+				'marke_animal_transport' => '',		//Warhorse (210), Donkey_Train (423), Oxen_Cart (377), Dog_Cart (336) = 1346
+				'marke_animal_husbandry' => '',		//Cattle (499), Sheep (335), Pigs (356), Goats (156) = 1346
+				'marke_animal_poultry' => '',		//Chickens (1193), Ducks (154) = 1346
 													//1 migration [500], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420] 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -124,7 +124,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//5
 			//bamberg, hallstadt
@@ -141,7 +141,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//6
 			//geisenhausen, veldenstein
@@ -175,7 +175,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//8
 			//forchheim, staffelstein
@@ -261,7 +261,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//13
 			//hasselt, tongeren, borgloon, kuringen, herkenrode
@@ -278,7 +278,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//14
 			//valenciennes, mons, lobbes, brakel
@@ -293,9 +293,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//15
 			//cambrai, caudry
@@ -329,7 +329,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//17
 			//ghent, axel, hulst, assenede, boekhoute, sluys, gavere
@@ -552,7 +552,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//30
 			//rotenburg, colmberg, comburg
@@ -904,7 +904,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Frisian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
@@ -989,7 +989,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Frisian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -1057,7 +1057,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Frisian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
@@ -1211,7 +1211,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -1279,7 +1279,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Franconian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -1801,7 +1801,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//103
 			//mattighofen, fraunhofen
@@ -2331,7 +2331,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//134
 			//buckeburg, schaumburg, hamelin 
@@ -2382,7 +2382,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//137
 			//lippstadt, greven, lunen, nienburg
@@ -2410,7 +2410,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
@@ -2465,7 +2465,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -2546,7 +2546,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',	
 				'vernacular_culture' => 'Saxon',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -2666,7 +2666,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Franconian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -2707,7 +2707,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//156
 			//stendal, osterburg
@@ -2827,7 +2827,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//163
 			//hammerstein, logenstein
@@ -3118,7 +3118,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//180
 			//eltz, andernach, salm
@@ -3250,7 +3250,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -3307,7 +3307,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//191
 			//modena, mirandola, vignola, nonantola
@@ -3386,7 +3386,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -3608,7 +3608,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
@@ -3746,7 +3746,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Lombard',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -3769,7 +3769,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//218
 			//vicenza, montecchio, bassano, valdagno
@@ -3815,7 +3815,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
@@ -3890,7 +3890,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//225
 			//cortona, castello
@@ -4097,7 +4097,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Lucca
 			//237
@@ -4115,7 +4115,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//238
 			//pistoia, pescia, agliana, uzzano
@@ -4230,7 +4230,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_culture' => 'Lombard',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
@@ -5208,7 +5208,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',
 				'vernacular_culture' => 'Arpitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -5329,7 +5329,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Occitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -5398,7 +5398,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Occitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Dye_Woad',						
@@ -5455,7 +5455,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//316
 			//toulon, ollioules, ollieres
@@ -5541,7 +5541,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//321
 			//moutiers, montagny
@@ -5594,7 +5594,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//324
 			//frosinone, cassino, alatri, sora, ceccano, anagni, ferentino, veroli
@@ -5697,7 +5697,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//330
 			//carpegna, rimini, verucchio, coriano
@@ -6196,7 +6196,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Pomerelia
 			//359
@@ -6436,7 +6436,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//373
 			//greifenhagen, barwalde 
@@ -6589,7 +6589,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//382
 			//schlawe, rugenwalde, malchow
@@ -6617,7 +6617,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Wendish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
@@ -6826,7 +6826,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
@@ -6877,7 +6877,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
@@ -7123,7 +7123,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//413
 			//feurs, montbrison, saint etienne, valbenoite
@@ -7364,7 +7364,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//427
 			//montmarsan, roquefort 
@@ -7433,7 +7433,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);				
 			//431
 			//chalons, nettancourt, trois fontaines, vitry
@@ -7467,7 +7467,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//433
 			//langres, dijon
@@ -7484,7 +7484,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//434
 			//meaux, thierry, coulommiers, crecy, crouy
@@ -7552,7 +7552,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//438
 			//sens, joigny, montigny, brienon, mussy, marcilly, paraclete
@@ -7569,7 +7569,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//439
 			//troyes, clairvaux
@@ -7655,7 +7655,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//444
 			//clermont, angicourt, liancourt
@@ -7706,7 +7706,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//447
 			//mantes, rambouillet, beynes, houdan, gassicourt
@@ -7717,7 +7717,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
@@ -7803,7 +7803,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
@@ -7820,7 +7820,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -7837,7 +7837,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
@@ -7854,7 +7854,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
@@ -7871,7 +7871,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
@@ -7888,13 +7888,13 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'Watermill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//458
 			//evreux, verneuil, gaillard, gisors, vernon, acquigny, brecourt
@@ -7905,7 +7905,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
@@ -7939,7 +7939,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
@@ -7956,7 +7956,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Norman',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -8065,7 +8065,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//468
 			//nemours, montargis, moncourt
@@ -8094,7 +8094,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Flemish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
@@ -8128,7 +8128,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
@@ -8149,8 +8149,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//473
@@ -8162,7 +8162,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -8179,7 +8179,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
@@ -8196,7 +8196,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -8213,7 +8213,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -8247,7 +8247,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -8264,7 +8264,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
@@ -8281,7 +8281,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
@@ -8510,7 +8510,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Dye_Woad',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//494
 			//millau, melac
@@ -8780,7 +8780,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'Breton',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'Dye_Woad',						
@@ -8797,7 +8797,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'Breton',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
@@ -8909,7 +8909,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//517
 			//kildare, athy, castledermot, moone, barberstown, kilkea, kilteel, maynooth, reeves, rheban, norragh
@@ -8994,7 +8994,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//522
 			//wexford, carnsore, dunbrody, ferns, selskar, tintern
@@ -9028,7 +9028,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Meath
 			//524
@@ -9097,7 +9097,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Munster
 			//528
@@ -9367,12 +9367,12 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'Watermill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Warhorse',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//544
@@ -9384,12 +9384,12 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'Watermill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',							
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Essex
@@ -9408,7 +9408,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//546
 			//hertford, berkhamsted, therfield, pirton, brickendon, saint albans, langley
@@ -9425,7 +9425,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//547
 			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, stepney, westminster, clerkenwell, twickenham
@@ -9477,7 +9477,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//550
 			//winchcombe, sudeley, hailes
@@ -9511,7 +9511,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Kent
 			//552
@@ -9523,7 +9523,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',	
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'Windmill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -9557,7 +9557,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -9581,7 +9581,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//556
 			//leicester, belvoir, croxton, owston, breedon
@@ -9615,7 +9615,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Dye_Woad',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//558
 			//nottingham, newark, rufford, sutton, mansfield, southwell
@@ -9667,7 +9667,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//561
 			//hereford, goodrich, dore, leominster, ledbury, wilton
@@ -9736,7 +9736,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//565
 			//buckingham, bradwell, cublington, aylesbury, notley
@@ -9770,7 +9770,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Dye_Woad',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//567
 			//huntingdon, saint ives, saint neots, stilton, tetworth, waresley, ramsey
@@ -9821,7 +9821,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);			
 			//Northumbria
 			//570
@@ -10130,7 +10130,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//588
 			//dorchester, abbotsbury, sherborne, wareham, wimborne, corfe, shaftesbury
@@ -10147,7 +10147,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//589
 			//winchester, southampton
@@ -10164,7 +10164,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//590
 			//somerton, sutton, taunton, bath, bruton, wells
@@ -10181,7 +10181,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//591
 			//guildford, woking, farnham, wallington, brixton, waverley
@@ -10198,7 +10198,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);		
 			//592
 			//wilton, trowbridge, amesbury, easton, malmesbury, salisbury, tisbury
@@ -10215,7 +10215,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Wales
 			//Cornwall
@@ -10303,7 +10303,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Gwent
 			//598
@@ -10338,7 +10338,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Gwyned
 			//600
@@ -10407,7 +10407,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Powys
 			//604
@@ -10943,7 +10943,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//635
 			//dunbarton, inchmurrin
@@ -11066,7 +11066,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//642
 			//barcelona, santa coloma, badalona, castellet
@@ -11083,7 +11083,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//643
 			//berga, baga, san salvador, gironella, cercs, vallcebre
@@ -11237,7 +11237,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//652
 			//rennes, limoux 
@@ -11392,7 +11392,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//661
 			//talarn, eroles
@@ -11478,7 +11478,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Teruel
 			//666
@@ -11636,7 +11636,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//675
 			//leitza, leintz
@@ -11670,7 +11670,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//677
 			//tolosa, amasa
@@ -11687,7 +11687,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Navarre
 			//678
@@ -12241,7 +12241,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//710
 			//toledo, montalban, guadamur, consuegra, cuerva, malamoneda, mascaraque, orgaz, guadalerzas 
@@ -13054,7 +13054,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//757
-			//sanabria, alcanices, otero, cerezal, calabor, santa cruz, trefacio
+			//sanabria, otero, cerezal, calabor, santa cruz, san martin, trefacio, galende
             DB::table('counties')->insert([
 				'county_name' => 'Sanabria',
 				'county_category' => 'Feudal_Manor',
@@ -13062,16 +13062,16 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Leonese',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Sheep',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//758
-			//bermillo, fermoselle, alfaraz, asmesnal
+			//bermillo, alfaraz, fermoselle, asmesnal, almeida, cabanas
             DB::table('counties')->insert([
 				'county_name' => 'Sayago',
 				'county_category' => 'Feudal_Manor',
@@ -13080,7 +13080,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',		
 				'vernacular_culture' => 'Leonese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
@@ -13088,7 +13088,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//759
-			//tabara, faramontanos, moreruela, pozuelo
+			//tabara, faramontanos, moreruela, pozuelo, santa maria, santa eulalia
             DB::table('counties')->insert([
 				'county_name' => 'Tabara',
 				'county_category' => 'Feudal_Manor',
@@ -13780,7 +13780,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//799
 			//tingwall, sandsting, dunrossness, cunningsburgh
@@ -16915,7 +16915,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',		
 				'vernacular_culture' => 'Sicilian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
@@ -16967,7 +16967,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_culture' => 'Sicilian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -17001,7 +17001,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_culture' => 'Sicilian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -17140,7 +17140,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',	
 				'vernacular_culture' => 'Sicilian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -18707,7 +18707,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//
 			//rustavi
@@ -20141,7 +20141,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -20180,8 +20180,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//
@@ -20193,7 +20193,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -20228,7 +20228,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
@@ -20246,7 +20246,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
@@ -20280,7 +20280,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
@@ -21262,7 +21262,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -21450,7 +21450,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -21476,7 +21476,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//
 			//safi
@@ -21511,7 +21511,59 @@ class CountySeeder extends Seeder
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_animal_poultry' => 'Chickens'
-            ]);	
+            ]);
+			//
+			//aghmat
+            DB::table('counties')->insert([
+				'county_name' => 'Aghmat',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_poultry' => 'Chickens'
+            ]);
+			//Tadla
+			//
+			//khenifra
+            DB::table('counties')->insert([
+				'county_name' => 'Khenifra',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_poultry' => 'Chickens'
+            ]);
+			//
+			//mellal
+            DB::table('counties')->insert([
+				'county_name' => 'Mellal',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'None',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_poultry' => 'Chickens'
+            ]);
 			//Sijilmassa
 			//
 			//sijilmassa, rissani
@@ -21631,9 +21683,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//
 			//meknes
@@ -21650,7 +21702,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Rabat
 			//
@@ -21685,7 +21737,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Tangier
 			//
@@ -21714,7 +21766,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -21802,7 +21854,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Ifriqiya',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -21820,7 +21872,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Ifriqiya',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -21879,7 +21931,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'warhorse',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_animal_poultry' => 'Chickens'
             ]);
@@ -21893,7 +21945,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -21929,7 +21981,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -22055,7 +22107,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
@@ -22072,7 +22124,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Darija',	
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -22179,7 +22231,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Jazira',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -22196,7 +22248,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Jazira',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -22221,7 +22273,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Jabal
 			//
@@ -22239,7 +22291,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Homs
 			//
@@ -22257,7 +22309,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);				
 			//Najd
 			//Najd
@@ -22275,7 +22327,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//
@@ -22343,7 +22395,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
@@ -22361,7 +22413,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
@@ -22379,7 +22431,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
@@ -22397,7 +22449,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
@@ -22415,7 +22467,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
@@ -22433,7 +22485,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Sunni',
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
@@ -22452,12 +22504,12 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Sweetener_Sugarcane',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_animal_poultry' => 'Chickens'
             ]);
 			//
 			//dakhla, masara
@@ -22469,12 +22521,12 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Masri',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Sweetener_Sugarcane',				
+				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_animal_poultry' => 'Chickens'
             ]);
 			//Baritun
 			//
@@ -22632,7 +22684,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_transport' => 'Warhorse',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//
@@ -22649,7 +22701,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
 				'marke_animal_transport' => 'Warhorse',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//Medina
@@ -23122,7 +23174,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23140,7 +23192,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23159,7 +23211,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23177,7 +23229,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23196,7 +23248,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23213,7 +23265,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23230,7 +23282,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23247,7 +23299,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23265,7 +23317,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -23282,7 +23334,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
@@ -23299,7 +23351,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Shia',
 				'vernacular_cycle' => 'Matter_Persia',	
 				'vernacular_culture' => 'Persian',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						

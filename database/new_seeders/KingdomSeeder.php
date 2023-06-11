@@ -14,7 +14,7 @@ class KingdomSeeder extends Seeder
 			/*
 			//example
             DB::table('kingdoms')->insert([
-				'kingdom_name' => '',			
+				'kingdom_name' => '',			//total = 68 kingdoms
 				'kingdom_category' => '',		//Elective (2), Tanistry (3), Feudal (60), Horde (0), Papacy (1), Confederate (1)
 				'flag' => '',					
 				'de_jure_empire' => '',			

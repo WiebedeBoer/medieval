@@ -14,7 +14,7 @@ class DuchySeeder extends Seeder
 			/*
 			//example
             DB::table('duchies')->insert([
-				'duchy_name' => '',				
+				'duchy_name' => '',					//total = 324 duchies
 				'duchy_category' => '',				//Feudal_Estate (288), Ecclesiastical_Estate (20), Burgher_Estate (14)
 				'de_jure_kingdom' => '',			//	
 				'law_succession' => '',				//Elective_Monarchy (29), Salic_Primogeniture (184), Agnatic_Seniority (17), Tanistry (17), Shura (75), Yassa (0)
@@ -3292,6 +3292,18 @@ class DuchySeeder extends Seeder
 			//Marrakesh, Safi, Mogador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '49',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Khenifra, Mellal
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tadla',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '49',	
 				'law_succession' => 'Shura',
