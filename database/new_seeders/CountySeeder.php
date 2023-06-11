@@ -13263,7 +13263,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//769
-			//braga, faria, barcelos
+			//braga, dumio, barcelos, guimaraes, sao andre
             DB::table('counties')->insert([
 				'county_name' => 'Braga',
 				'county_category' => 'Feudal_Manor',
@@ -13280,7 +13280,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//770
-			//porto, cedofeita, amarante, moreira, trofa, santiago, valongo, penafiel
+			//porto, cedofeita, amarante, trofa, penafiel, aguiar
             DB::table('counties')->insert([
 				'county_name' => 'Porto',
 				'county_category' => 'Feudal_Manor',
@@ -13297,7 +13297,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//771
-			//viana, arcos, caminha, melgaco
+			//viana, arcos, santa maria, fonces, caminha, melgaco
             DB::table('counties')->insert([
 				'county_name' => 'Viana',
 				'county_category' => 'Feudal_Manor',
@@ -13307,7 +13307,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',					
+				'banal_chasse' => 'Boar',					
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
@@ -13332,7 +13332,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//773
-			//coimbra, montemor, redondos, soure
+			//coimbra, montemor, lorvao, soure, arouce, miranda
             DB::table('counties')->insert([
 				'county_name' => 'Coimbra',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -13349,7 +13349,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//774
-			//guarda, sabugal
+			//guarda, sabugal, almeida, trancoso
             DB::table('counties')->insert([
 				'county_name' => 'Guarda',
 				'county_category' => 'Feudal_Manor',
@@ -13366,7 +13366,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//775
-			//viseu, cinfaes, lamego, mangualde
+			//viseu, zurara, lamego, sao joao
             DB::table('counties')->insert([
 				'county_name' => 'Viseu',
 				'county_category' => 'Feudal_Manor',
@@ -13375,7 +13375,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Gruit',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Oxen_Cart',
@@ -13384,7 +13384,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Braganca
 			//776
-			//braganca, miranda, mirandela, mogadouro, vimioso
+			//braganca, miranda, mirandela, mogadouro, vinhais
             DB::table('counties')->insert([
 				'county_name' => 'Braganca',
 				'county_category' => 'Feudal_Manor',
@@ -13393,15 +13393,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Gruit',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Fiber_Flax',						
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//777
-			//vila real, vila pouca, alijo, boticas, montalegre, celeiros, murca
+			//vila real, vila pouca, alijo, boticas, montalegre, celeiros, murca, santa marta
             DB::table('counties')->insert([
 				'county_name' => 'Vila Real',
 				'county_category' => 'Feudal_Manor',
@@ -13410,7 +13410,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Gruit',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
@@ -13429,7 +13429,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
@@ -13446,7 +13446,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Portuguese',
 				'banal_moulin' => 'None',				
 				'banal_pressoir' => 'Beverage_Wine',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
@@ -13470,7 +13470,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//781
-			//setubal, moita, alcochete, almada
+			//setubal, moita, alcochete, almada, barreiro, montijo, palmela, sesimbra, seixal
             DB::table('counties')->insert([
 				'county_name' => 'Setubal',
 				'county_category' => 'Feudal_Manor',
@@ -13478,7 +13478,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Portugal',	
 				'vernacular_culture' => 'Portuguese',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
