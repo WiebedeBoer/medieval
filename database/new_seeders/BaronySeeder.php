@@ -14,7 +14,7 @@ class BaronySeeder extends Seeder
 
 			/*
 			DB::table('baronies')->insert([
-				'barony_name' => '',				//total = 3044 settlements
+				'barony_name' => '',				//total = 3976 settlements
 				'de_jure_county' => '',
 				'population' => '',	
 				'ecclesiastical_liberty' => '',		//Episcopal_Palace (144), Cathedral (495), Fortified_Glebe (16), , Parsonage (252), Manse (2309), Chapelry (760) = 3976

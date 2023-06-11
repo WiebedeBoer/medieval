@@ -14,7 +14,7 @@ class CountySeeder extends Seeder
 		
 			/*
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => '',				//total = 1344 counties
 				'county_category' => '',			//Feudal_Manor (1189), Ecclesiastical_Manor (132), Monastic_Manor (6), Patrician_Manor (17) = 1344
 				'de_jure_duchy' => '',	
 				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Sunni, Shia, Pagan
