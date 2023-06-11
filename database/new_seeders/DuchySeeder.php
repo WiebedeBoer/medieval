@@ -15,9 +15,9 @@ class DuchySeeder extends Seeder
 			//example
             DB::table('duchies')->insert([
 				'duchy_name' => '',				
-				'duchy_category' => '',				//Feudal (302), Ecclesiastical (10), Crowned_Republic (10)
+				'duchy_category' => '',				//Feudal_Estate (288), Ecclesiastical_Estate (20), Burgher_Estate (14)
 				'de_jure_kingdom' => '',			//	
-				'law_succession' => '',				//Elective_Monarchy (20), Salic_Primogeniture (193), Agnatic_Seniority (17), Tanistry (17), Shura (75), Yassa (0)
+				'law_succession' => '',				//Elective_Monarchy (29), Salic_Primogeniture (184), Agnatic_Seniority (17), Tanistry (17), Shura (75), Yassa (0)
 				'law_assembly' => '',				//absolute, limited, medium, high; default=medium	
 				'law_court' => '',					//Itinerant (247), Palatial (75)
 				'vernacular_architecture' => '',	//Half_Timbered_Fachwerk (35), Half_Timbered_Studded (45), Half_Timbered_Khata (30), Half_Timbered_Konak (11), Log_Chalet (14), Log_Stave (8), Log_Izba (10), Stone_Croft (6), Stone_Mudejar (40), Stone_Romanesque (58), Stone_Adjar (7), Adobe_Mashriq (19), Adobe_Maghreb (23), Adobe_Persian (16) 									
@@ -62,7 +62,7 @@ class DuchySeeder extends Seeder
 			//Grunsweit, Ostmark, Vienna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Austria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',				
@@ -74,7 +74,7 @@ class DuchySeeder extends Seeder
 			//Donaugau, Folkfeld, Isengau, Mattiggau, Nordgau, Radenzgau, Rottgau, Schweinachgau, Westergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bavaria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -86,7 +86,7 @@ class DuchySeeder extends Seeder
 			//Brabant, Haspengau, Hennegau, Kamerykgau, Toxandria, Waasgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brabant',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -98,7 +98,7 @@ class DuchySeeder extends Seeder
 			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Lavanttal, Leobental, Murztal, Sanntal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carinthia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',			
@@ -110,7 +110,7 @@ class DuchySeeder extends Seeder
 			//Krainmark, Histria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carniola',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',			
@@ -122,7 +122,7 @@ class DuchySeeder extends Seeder
 			//Grabfeld, Gollachgau, Gotzfeld, Jagstgau, Saalgau, Sualafeld, Sulmgau, Taubergau, Waldsassengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Franconia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -134,7 +134,7 @@ class DuchySeeder extends Seeder
 			//Ammergau, Auricherland, Beveland, Bornegau, Drenthe, Dithmarschen, Emsigerland, Fivelgau, Hadeln, Holtland, Hunsingau, Kennemerland, Maasland, Nifterlake, Norderland, Ostringen, Oostergau, Rhineland, Rustringen, Salland, Sudergau, Teisterbant, Twente, Veluwe, Vollenhove, Walcheren, Westergau, Westflinge, Wursten
             DB::table('duchies')->insert([
 				'duchy_name' => 'Frisia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -146,7 +146,7 @@ class DuchySeeder extends Seeder
 			//Hettergau, Betuwe, Cleveland, Hamaland, Mulgau, Ruhrgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Guelders',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -158,7 +158,7 @@ class DuchySeeder extends Seeder
 			//Julichgau, Eifelgau, Zulpichgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Julich',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -170,7 +170,7 @@ class DuchySeeder extends Seeder
 			//Luttichgau, Ardennengau, Condrustgau, Lommegau, Maasgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Limburg',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -182,7 +182,7 @@ class DuchySeeder extends Seeder
 			//Metzgau, Bleisgau, Chaumontois, Saargau, Salingau, Soulossois, Toullois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lorraine',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -194,7 +194,7 @@ class DuchySeeder extends Seeder
 			//Methingau, Barrois, Moselgau, Verdungau, Wavergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Luxembourg',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -206,7 +206,7 @@ class DuchySeeder extends Seeder
 			//Bardengau, Derlingau, Eastfalagau, Gretingau, Gudingau, Harzgau, Wenzengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Saxony',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -218,7 +218,7 @@ class DuchySeeder extends Seeder
 			//Traungau, Attergau, Ennstal, Norital, Vinschgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Styria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',			
@@ -230,7 +230,7 @@ class DuchySeeder extends Seeder
 			//Ortengau, Albegau, Augstgau, Breisgau, Churgau, Hegau, Linzgau, Neckargau, Nordgau, Riesgau, Schwerzgau, Schwyzgau, Sundgau, Turgau, Zurichgau  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Swabia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -242,7 +242,7 @@ class DuchySeeder extends Seeder
 			//Thuringgau, Altgau, Eichsfeld, Helmegau, Langwitzgau, Nabelgau, Orlagau, Ostergau, Zwickaugau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thuringia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -254,7 +254,7 @@ class DuchySeeder extends Seeder
 			//Largau, Agradingau, Angerngau, Augau, Bukkigau, Bursibant, Dervegau, Dreingau, Gronegau, Hasegau, Heilangau, Holsteingau, Leinegau, Mosidegau, Padergau, Stevergau, Stormarngau, Sturmigau, Sudergau, Werregau, Westfaliagau      
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bremen',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
@@ -266,7 +266,7 @@ class DuchySeeder extends Seeder
 			//Gillgau, Auelgau, Bonngau, Deutzgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cologne',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -278,7 +278,7 @@ class DuchySeeder extends Seeder
 			//Nordthuringgau, Balsamgau, Friesenfeld, Hartingau, Hassegau, Osterwalde, Schwabengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Magdeburg',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -290,7 +290,7 @@ class DuchySeeder extends Seeder
 			//Wormsfeld, Engersgau, Hessengau, Lahngau, Lobdengau, Maingau, Nahegau, Niddagau, Speyergau, Ufgau, Wettergau, Wurmgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mainz',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -302,7 +302,7 @@ class DuchySeeder extends Seeder
 			//Salzburggau, Chiemgau, Lungau, Pinzgau, Sundergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salzburg',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -314,7 +314,7 @@ class DuchySeeder extends Seeder
 			//Bitgau, Maifeld, Hunsruckgau, Trechirgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Trier',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '1',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -327,7 +327,7 @@ class DuchySeeder extends Seeder
 			//Milano, Bergamo, Brescia, Crema, Cremona, Frignana, Lodi, Mantua, Modena, Novara, Parma, Pavia, Piacenza, Reggio, Tortona, Vernio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Milan',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -339,19 +339,19 @@ class DuchySeeder extends Seeder
 			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Torino, Vercelli, Vigevano
             DB::table('duchies')->insert([
 				'duchy_name' => 'Piedmont',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '2',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);				
 			//25 
 			//Siena, Grosseto, Piombino, Sovana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tuscany',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -363,7 +363,7 @@ class DuchySeeder extends Seeder
 			//Verona, Padova, Rovigo, Vicenza, Trent
             DB::table('duchies')->insert([
 				'duchy_name' => 'Verona',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -375,7 +375,7 @@ class DuchySeeder extends Seeder
 			//Friuli, Gorizia, Pordenone
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquileia',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -387,7 +387,7 @@ class DuchySeeder extends Seeder
 			//Florence, Arezzo, Cortona, Perugia, Prato
             DB::table('duchies')->insert([
 				'duchy_name' => 'Florence',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -399,7 +399,7 @@ class DuchySeeder extends Seeder
 			//Genoa, Lunigiana, Massa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Genoa',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -411,7 +411,7 @@ class DuchySeeder extends Seeder
 			//Noli, Albenga, Finale
             DB::table('duchies')->insert([
 				'duchy_name' => 'Noli',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -423,7 +423,7 @@ class DuchySeeder extends Seeder
 			//Oneglia, Monaco, Ventimiglia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oneglia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -435,7 +435,7 @@ class DuchySeeder extends Seeder
 			//Lucca, Pistoja
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lucca',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -447,7 +447,7 @@ class DuchySeeder extends Seeder
 			//Pisa, Corsica, Livorno, Volterra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pisa',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -459,7 +459,7 @@ class DuchySeeder extends Seeder
 			//Dogado, Belluno, Treviso
             DB::table('duchies')->insert([
 				'duchy_name' => 'Venice',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '2',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -472,7 +472,7 @@ class DuchySeeder extends Seeder
 			//Prague, Bechin, Bunzlau, Elbogen, Glatzerland, Koniggratz, Leitmeritz, Pilsen, Rakonitz, Schlan, Saaz, Tschaslawsko
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bohemia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '3',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -484,7 +484,7 @@ class DuchySeeder extends Seeder
 			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lusatia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -496,7 +496,7 @@ class DuchySeeder extends Seeder
 			//Brunn, Iglau, Olmutz, Prerau, Velingrad, Znaim
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moravia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '3',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -508,7 +508,7 @@ class DuchySeeder extends Seeder
 			//Jauer, Glogau, Leubus, Liegnitz, Oels, Schweidnitz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lower Silesia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '3',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -520,7 +520,7 @@ class DuchySeeder extends Seeder
 			//Oppeln, Breslau, Brieg, Ratibor, Teschen, Troppau			  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Upper Silesia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '3',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -533,7 +533,7 @@ class DuchySeeder extends Seeder
 			//Avalois, Autunais, Auxerrois, Auxois, Beaujolais, Beaunois, Chalonais, Lassois, Maconnais, Nivernais, Tonerrois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Burgundy',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -545,9 +545,9 @@ class DuchySeeder extends Seeder
 			//Dauphine, Albon, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cisjurania',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
@@ -557,9 +557,9 @@ class DuchySeeder extends Seeder
 			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transjurania',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
@@ -569,7 +569,7 @@ class DuchySeeder extends Seeder
 			//Orange, Venaissin, Vivarais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orange',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -581,7 +581,7 @@ class DuchySeeder extends Seeder
 			//Provence, Arles, Baux, Marseille, Nice, Toulon 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Provence',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -593,9 +593,9 @@ class DuchySeeder extends Seeder
 			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
@@ -606,7 +606,7 @@ class DuchySeeder extends Seeder
 			//Rome, Frosinone, Latina, Rieti, Viterbo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rome',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -618,7 +618,7 @@ class DuchySeeder extends Seeder
 			//Ferrara, Bologna, Carpegna, Ravenna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Romagna',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -630,9 +630,9 @@ class DuchySeeder extends Seeder
 			//Ancona, Chieti, Fermo, Pescara, Spoleto
             DB::table('duchies')->insert([
 				'duchy_name' => 'Spoleto',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '5',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
@@ -642,7 +642,7 @@ class DuchySeeder extends Seeder
 			//Urbino, Pesaro
             DB::table('duchies')->insert([
 				'duchy_name' => 'Urbino',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '5',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -655,7 +655,7 @@ class DuchySeeder extends Seeder
 			//Livland, Ascheraden, Dorpat, Dunaburg, Fellin, Kurland, Mitau, Segewold, Wenden, Wolkenburg
             DB::table('duchies')->insert([
 				'duchy_name' => 'Livonia',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -667,7 +667,7 @@ class DuchySeeder extends Seeder
 			//Reval, Pernau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estonia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -679,7 +679,7 @@ class DuchySeeder extends Seeder
 			//Pomesanengau, Bartengau, Ermland, Memelland, Nadrauengau, Natangergau, Pogesanengau, Samland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Prussia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -691,7 +691,7 @@ class DuchySeeder extends Seeder
 			//Danzig, Butow, Dirschau, Karthaus, Kulmerland, Lauenburg, Putzig, Schlochau, Schwetz, Thorn, Tuchel
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pomerelia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -703,7 +703,7 @@ class DuchySeeder extends Seeder
 			//Kammin, Arnswalde, Gollnow, Greifenhagen, Greifenberg, Pyritz, Kessinigau, Kolberg, Koslin, Neustettin, Schivelbein, Slupsk, Schlawe, Stettin, Wostrosegau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pomerania',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -715,7 +715,7 @@ class DuchySeeder extends Seeder
 			//Havelland, Dossegau, Linaggau, Nelitzigau, Retschanengau, Uckermark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brandenburg',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -727,7 +727,7 @@ class DuchySeeder extends Seeder
 			//Circipanigau, Obotritegau, Polabigau, Wagrigau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecklenburg',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '6',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -741,7 +741,7 @@ class DuchySeeder extends Seeder
 			//Anjou, Maine, Perche, Touraine, Vendomois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anjou',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -753,7 +753,7 @@ class DuchySeeder extends Seeder
 			//Bordelais, Agenais, Angoumois, Bazadais, Limousin, Lomagne, Perigord, Saintogne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquitaine',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -765,7 +765,7 @@ class DuchySeeder extends Seeder
 			//Auvergne, Aurillac, Brioude, Carlat, Clermont, Forez, Murat
             DB::table('duchies')->insert([
 				'duchy_name' => 'Auvergne',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -777,7 +777,7 @@ class DuchySeeder extends Seeder
 			//Berry, Sancerre
             DB::table('duchies')->insert([
 				'duchy_name' => 'Berry',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -789,7 +789,7 @@ class DuchySeeder extends Seeder
 			//Bourbonnais, Montlucon
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bourbonnais',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -801,7 +801,7 @@ class DuchySeeder extends Seeder
 			//Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gascony',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -813,7 +813,7 @@ class DuchySeeder extends Seeder
 			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethelois, Senois, Troyes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Champagne',
-				'duchy_category' => 'Ecclesiastical',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -825,7 +825,7 @@ class DuchySeeder extends Seeder
 			//Pay de France, Beauvaisis, Beaumont, Brie, Clermont, Gatinais, Hurepoix, Mantois, Senlis, Soissonnais, Valois, Vexin 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Francia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -837,7 +837,7 @@ class DuchySeeder extends Seeder
 			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortainais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Normandy',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -849,7 +849,7 @@ class DuchySeeder extends Seeder
 			//Orleanais, Blaisois, Chartres, Dreux, Dunois, Etampois, Nemours 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orleanais',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -861,7 +861,7 @@ class DuchySeeder extends Seeder
 			//Artois, Amienois, Boulognois, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Ternois, Tournais, Vermandois 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Picardy',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -873,7 +873,7 @@ class DuchySeeder extends Seeder
 			//Poitou, Aunis, Briancais, Chatellerault, Marche, Thouarsais, Turenne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Poitou',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -885,9 +885,9 @@ class DuchySeeder extends Seeder
 			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toulouse',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '7',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
@@ -898,7 +898,7 @@ class DuchySeeder extends Seeder
 			//Cornouailles, Ach, Dol, Leon, Poher, Vannais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brittany',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '8',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -910,7 +910,7 @@ class DuchySeeder extends Seeder
 			//Penthievre, Alet, Tregor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Domnonee',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '8',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -922,12 +922,12 @@ class DuchySeeder extends Seeder
 			//Retz, Nantais, Rennais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Retz',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '8',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Marshland',	
 				'altitude' => 'Montane'				
             ]);
 			//Britain
@@ -936,7 +936,7 @@ class DuchySeeder extends Seeder
 			//Galway, Mayo, Roscommon, Sligo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Connacht',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '9',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
@@ -948,7 +948,7 @@ class DuchySeeder extends Seeder
 			//Carlow, Kildare, Kilkenny, Leix, Tipperary, Waterford, Wexford, Wicklow
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leinster',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '9',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -960,7 +960,7 @@ class DuchySeeder extends Seeder
 			//Dublin, Longford, Meath, Offaly
             DB::table('duchies')->insert([
 				'duchy_name' => 'Meath',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '9',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -972,7 +972,7 @@ class DuchySeeder extends Seeder
 			//Clare, Cork, Kerry, Limerick
             DB::table('duchies')->insert([
 				'duchy_name' => 'Munster',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '9',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -984,7 +984,7 @@ class DuchySeeder extends Seeder
 			//Antrim, Armagh, Cavan, Derry, Donegal, Down, Fermanagh, Leitrim, Louth, Monaghan, Tyrone
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ulster',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '9',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
@@ -997,7 +997,7 @@ class DuchySeeder extends Seeder
 			//Norfolk, Suffolk
             DB::table('duchies')->insert([
 				'duchy_name' => 'East Anglia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1009,7 +1009,7 @@ class DuchySeeder extends Seeder
 			//Essex, Hertfordshire, Middlesex
             DB::table('duchies')->insert([
 				'duchy_name' => 'Essex',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1021,7 +1021,7 @@ class DuchySeeder extends Seeder
 			//Gloucestershire, Warwickshire, Winchcombeshire, Worcestershire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hwicce',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1033,7 +1033,7 @@ class DuchySeeder extends Seeder
 			//Aylesfordshire, Kent, Shepwayshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kent',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1045,7 +1045,7 @@ class DuchySeeder extends Seeder
 			//Derbyshire, Leicestershire, Lincolnshire, Nothinghamshire, Rutland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lindsey',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1057,7 +1057,7 @@ class DuchySeeder extends Seeder
 			//Cheshire, Herefordshire, Shropshire, Staffordshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mercia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1069,7 +1069,7 @@ class DuchySeeder extends Seeder
 			//Bedfordshire, Buckinghamshire, Cambridgeshire, Huntingdonshire, Northamptonshire, Oxfordshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mid Anglia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1081,7 +1081,7 @@ class DuchySeeder extends Seeder
 			//Allertonshire, Burghshire, Cumberland, Durham, Hallamshire, Hexhamshire, Howdenshire, Northumberland, Lancashire, Richmondshire, Yorkshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Northumbria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1093,7 +1093,7 @@ class DuchySeeder extends Seeder
 			//Arundelshire, Brambershire, Chichestershire, Leweshire, Pevenshire, Sussex
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sussex',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1105,7 +1105,7 @@ class DuchySeeder extends Seeder
 			//Berkshire, Dorsetshire, Hampshire, Somersetshire, Surrey, Wiltshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wessex',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '10',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1118,7 +1118,7 @@ class DuchySeeder extends Seeder
 			//Cornwall, Devonshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cornwall',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1130,7 +1130,7 @@ class DuchySeeder extends Seeder
 			//Cardiganshire, Carmarthenshire, Pembrokeshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dyfed',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1142,7 +1142,7 @@ class DuchySeeder extends Seeder
 			//Glamorgan, Monmouthshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gwent',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1154,7 +1154,7 @@ class DuchySeeder extends Seeder
 			//Anglesey, Caernarvonshire, Denbighshire, Flintshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gwyned',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1166,7 +1166,7 @@ class DuchySeeder extends Seeder
 			//Brecknockshire, Montgomeryshire, Radnorshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Powys',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '11',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1179,7 +1179,7 @@ class DuchySeeder extends Seeder
 			//Aberdeenshire, Banffshire, Fife, Forfarshire, Kincardineshire, Kinrossshire, Perthshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alba',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1191,7 +1191,7 @@ class DuchySeeder extends Seeder
 			//Berwickshire, Edinburghshire, Haddingtonshire, Lothian, Stirlingshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bernicia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1203,7 +1203,7 @@ class DuchySeeder extends Seeder
 			//Argyll, Bute, Mann
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalriada',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
@@ -1215,7 +1215,7 @@ class DuchySeeder extends Seeder
 			//Cromartyshire, Elginshire, Invernessshire, Nairnshire, Sutherland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fortriu',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
@@ -1227,7 +1227,7 @@ class DuchySeeder extends Seeder
 			//Kirkcudbrightshire, Wigtownshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Galloway',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1239,7 +1239,7 @@ class DuchySeeder extends Seeder
 			//Dumfriesshire, Peeblesshire, Roxburghshire, Selkirkshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gododdin',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1251,7 +1251,7 @@ class DuchySeeder extends Seeder
 			//Ayrshire, Dunbartonshire, Lanarkshire, Renfrewshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Strathclyde',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '12',	
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1265,7 +1265,7 @@ class DuchySeeder extends Seeder
 			//Aragon, Cinca, Matarrana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aragon',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1277,7 +1277,7 @@ class DuchySeeder extends Seeder
 			//Bages, Barcelona, Bergueda, Llobregat, Maresme, Osona, Valles
             DB::table('duchies')->insert([
 				'duchy_name' => 'Barcelona',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -1289,7 +1289,7 @@ class DuchySeeder extends Seeder
 			//Cerdanya, Conflent, Emporda, Girones, Razes, Ripolles, Rosello, Selva
             DB::table('duchies')->insert([
 				'duchy_name' => 'Girona',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -1301,7 +1301,7 @@ class DuchySeeder extends Seeder
 			//Huesca, Jacetania, Ribagorza, Sobrarbe
             DB::table('duchies')->insert([
 				'duchy_name' => 'Huesca',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1313,7 +1313,7 @@ class DuchySeeder extends Seeder
 			//Lleida, Pallars, Urgell
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lleida',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -1325,9 +1325,9 @@ class DuchySeeder extends Seeder
 			//Montsia, Tarragona, Tortosa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarragona',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '13',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
@@ -1337,7 +1337,7 @@ class DuchySeeder extends Seeder
 			//Albarracin, Teruel
             DB::table('duchies')->insert([
 				'duchy_name' => 'Teruel',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1349,7 +1349,7 @@ class DuchySeeder extends Seeder
 			//Aranda, Calatayud, Zaragoza
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zaragoza',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '13',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1362,7 +1362,7 @@ class DuchySeeder extends Seeder
 			//Ayala, Gasteiz, Rioja
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alava',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1374,7 +1374,7 @@ class DuchySeeder extends Seeder
 			//Donostialdea, Leitzaldea, Mungialdea, Tolosaldea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gipuzcoa',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1386,7 +1386,7 @@ class DuchySeeder extends Seeder
 			//Estella, Irunerria, Sanguesa, Tafalla, Tudela, Ultzamaldea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Navarre',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1398,7 +1398,7 @@ class DuchySeeder extends Seeder
 			//Busturialdea, Bilbaoldea, Uribe
             DB::table('duchies')->insert([
 				'duchy_name' => 'Viscaya',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '14',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1412,7 +1412,7 @@ class DuchySeeder extends Seeder
 			//Avila, Morana, San Pedro
             DB::table('duchies')->insert([
 				'duchy_name' => 'Avila',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1424,7 +1424,7 @@ class DuchySeeder extends Seeder
 			//Arlanza, Bureba, Burgos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Burgos',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1436,7 +1436,7 @@ class DuchySeeder extends Seeder
 			//Campos, Cerrato, Valdivia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Palencia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1448,7 +1448,7 @@ class DuchySeeder extends Seeder
 			//Coca, Riaza, Segovia, Sepulveda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Segovia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1460,7 +1460,7 @@ class DuchySeeder extends Seeder
 			//Almazan, Berlanga, Gomara, Osma, Soria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Soria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1472,7 +1472,7 @@ class DuchySeeder extends Seeder
 			//Jara, Madrid, Ocana, Sagra, Talavera, Toledo, Torrijos, Vegas
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toledo',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1484,7 +1484,7 @@ class DuchySeeder extends Seeder
 			//Esgueva, Medina, Pinares, Penafiel, Pisuerga, Rioseco
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valladolid',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '15',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1497,7 +1497,7 @@ class DuchySeeder extends Seeder
 			//Coruna, Eume, Ferrol, Santiago, Trastamara
             DB::table('duchies')->insert([
 				'duchy_name' => 'Coruna',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1509,7 +1509,7 @@ class DuchySeeder extends Seeder
 			//Lugo, Marina, Meira, Sarria, Ulloa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lugo',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1521,7 +1521,7 @@ class DuchySeeder extends Seeder
 			//Carbalino, Celanova, Ourense, Valdeorras, Viana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ourense',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1533,7 +1533,7 @@ class DuchySeeder extends Seeder
 			//Caldas, Pontevedra, Vigo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pontevedra',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '16',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1546,7 +1546,7 @@ class DuchySeeder extends Seeder
 			//Alcantara, Caceres, Plasencia, Trujillo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Caceres',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1558,7 +1558,7 @@ class DuchySeeder extends Seeder
 			//Astorga, Baneza, Bierzo, Leon, Sahagun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leon',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1570,7 +1570,7 @@ class DuchySeeder extends Seeder
 			//Alba, Caceres, Cantalapiedra, Guijielo, Ledesma, Penaranda, Rodrigo, Salamanca, Vitigudino
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salamanca',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1582,7 +1582,7 @@ class DuchySeeder extends Seeder
 			//Aliste, Carballeda, Guarena, Sanabria, Sayago, Tabara
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zamora',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '17',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1595,7 +1595,7 @@ class DuchySeeder extends Seeder
 			//Aviles, Gijon, Navia, Oviedo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asturias',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '18',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1607,7 +1607,7 @@ class DuchySeeder extends Seeder
 			//Campoo, Liebana, Santander, Trasmiera
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cantabria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '18',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
@@ -1620,7 +1620,7 @@ class DuchySeeder extends Seeder
 			//Aveiro, Braga, Porto, Viana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aveiro',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '19',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1632,7 +1632,7 @@ class DuchySeeder extends Seeder
 			//Branco, Coimbra, Guarda, Viseu
             DB::table('duchies')->insert([
 				'duchy_name' => 'Beira',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '19',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1644,7 +1644,7 @@ class DuchySeeder extends Seeder
 			//Braganca, Vila Real
             DB::table('duchies')->insert([
 				'duchy_name' => 'Braganca',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '19',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1656,7 +1656,7 @@ class DuchySeeder extends Seeder
 			//Leiria, Lisboa, Ribatejo, Setubal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estremadura',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '19',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -1670,7 +1670,7 @@ class DuchySeeder extends Seeder
 			//Aarhus, Borglum, Ribe, Slesvig, Viborg
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jutland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1682,7 +1682,7 @@ class DuchySeeder extends Seeder
 			//Blekinge, Bornholm, Halland, Rugen, Scania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Scania',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1694,7 +1694,7 @@ class DuchySeeder extends Seeder
 			//Funen, Lolland, Sjaeland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sjaeland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '20',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1707,7 +1707,7 @@ class DuchySeeder extends Seeder
 			//Caithness, Orkney, Shetland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nordjor',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Croft',
@@ -1719,7 +1719,7 @@ class DuchySeeder extends Seeder
 			//Islay, Lewis, Mull, Skye, Uist
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sodor',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Croft',
@@ -1731,7 +1731,7 @@ class DuchySeeder extends Seeder
 			//Hadeland, Hedmark, Romerike
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hedmark',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -1743,9 +1743,9 @@ class DuchySeeder extends Seeder
 			//Jamtland, Namdal, Oppland, Trondelag
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oppland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '20',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
@@ -1755,7 +1755,7 @@ class DuchySeeder extends Seeder
 			//Dalane, Haugeland, Jaeren, Rogaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rogaland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1767,7 +1767,7 @@ class DuchySeeder extends Seeder
 			//Agder, Grenland, Telemark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sorland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1779,7 +1779,7 @@ class DuchySeeder extends Seeder
 			//Hordaland, Romsdal, Vestland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vestland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1791,7 +1791,7 @@ class DuchySeeder extends Seeder
 			//Akershus, Buskerud, Ostfold, Ranrike, Vestfold, Vingulmark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Viken',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '21',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
@@ -1804,7 +1804,7 @@ class DuchySeeder extends Seeder
 			//Gotland, Ostergotland, Vastergotland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gotland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '22',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -1816,7 +1816,7 @@ class DuchySeeder extends Seeder
 			//Angermanland, Gastrikland, Halsingland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Norrland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '22',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -1828,7 +1828,7 @@ class DuchySeeder extends Seeder
 			//Aland, Finland, Karelia, Nyland, Ostrobothnia, Satakunta, Savonia, Tavastland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Osterland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '22',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -1840,7 +1840,7 @@ class DuchySeeder extends Seeder
 			//Oland, Smaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smaland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '22',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -1852,7 +1852,7 @@ class DuchySeeder extends Seeder
 			//Dalarna, Narke, Sodermanland, Uppland, Varmland, Vastmanland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Svealand',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '22',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
@@ -1866,7 +1866,7 @@ class DuchySeeder extends Seeder
 			//Gostyn, Grodisze, Jarotschin, Kosten, Lissa 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Greater Poland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1878,7 +1878,7 @@ class DuchySeeder extends Seeder
 			//Auswitz, Chrzanow, Sandez, Tarnow, Wadowitz, Lublin, Lukow, Sandomierz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lesser Poland',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1890,7 +1890,7 @@ class DuchySeeder extends Seeder
 			//Gnesen, Kolo, Kunau, Slupca, Turek, Znin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gnesen',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1902,7 +1902,7 @@ class DuchySeeder extends Seeder
 			//Kalisz, Pleschen, Schildberg, Wielun, Wreschen
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kalisz',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1914,7 +1914,7 @@ class DuchySeeder extends Seeder
 			//Krakow, Olkusz, Czestochowa, Gorlitz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Krakow',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1926,7 +1926,7 @@ class DuchySeeder extends Seeder
 			//Brodnica, Inowroclaw, Leipe, Mogilno, Naklo, Radziejow
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kuyavia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1938,7 +1938,7 @@ class DuchySeeder extends Seeder
 			//Losice, Makow, Minsk, Zuromin, Rawa, Wizna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mazovia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1950,7 +1950,7 @@ class DuchySeeder extends Seeder
 			//Plock, Gostynin, Mlawa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Plock',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1962,7 +1962,7 @@ class DuchySeeder extends Seeder
 			//Posen, Chodziez, Pila, Rogasen, Samter, Scharnikau, Schrim
             DB::table('duchies')->insert([
 				'duchy_name' => 'Posen',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1974,7 +1974,7 @@ class DuchySeeder extends Seeder
 			//Sieradz, Radom, Lentschitz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sieradz',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1986,7 +1986,7 @@ class DuchySeeder extends Seeder
 			//Warsaw, Czersk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Warsaw',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '23',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -1999,7 +1999,7 @@ class DuchySeeder extends Seeder
 			//Minsk, Gomel, Mogilev
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minsk',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '24',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2011,7 +2011,7 @@ class DuchySeeder extends Seeder
 			//Panevezys, Schaulen, Redau 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Samogitia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '24',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2023,7 +2023,7 @@ class DuchySeeder extends Seeder
 			//Alytus, Kauen, Tracken 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tracken',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '24',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2035,7 +2035,7 @@ class DuchySeeder extends Seeder
 			//Vilnius, Kernave
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vilnius',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '24',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2049,7 +2049,7 @@ class DuchySeeder extends Seeder
 			//Gyor, Moson, Sopron, Somogy, Vas, Vezprem, Zala
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hungary',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2061,7 +2061,7 @@ class DuchySeeder extends Seeder
 			//Baranya, Esztergom, Fejer, Heves, Pest, Szolnok
             DB::table('duchies')->insert([
 				'duchy_name' => 'Buda',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2073,7 +2073,7 @@ class DuchySeeder extends Seeder
 			//Nitra, Arva, Bars, Hont, Komarom, Lipto, Orava, Pozsony, Trencsen, Zolyom
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nitra',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2085,7 +2085,7 @@ class DuchySeeder extends Seeder
 			//Temesvar, Arad, Bihar, Caransebes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Temesvar',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2097,7 +2097,7 @@ class DuchySeeder extends Seeder
 			//Ungvar, Bereg, Borsod, Hajdu, Szabolcs, Szatmar, Szepes, Zemplen
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ungvar',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2109,7 +2109,7 @@ class DuchySeeder extends Seeder
 			//Aranyosszek, Csikszek, Haromzsek, Koloszvar, Marosszek, Udvarhelyszek
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transylvania',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -2122,7 +2122,7 @@ class DuchySeeder extends Seeder
 			//Bribir, Knin, Krbava, Lika, Modrus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalmatia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2134,7 +2134,7 @@ class DuchySeeder extends Seeder
 			//Ragusa, Cetina, Kotor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ragusa',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2146,7 +2146,7 @@ class DuchySeeder extends Seeder
 			//Zagreb, Bjelovar, Pozega, Syrmia, Varazdin, Veroce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Slavonia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -2158,7 +2158,7 @@ class DuchySeeder extends Seeder
 			//Split, Trogir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Split',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2170,7 +2170,7 @@ class DuchySeeder extends Seeder
 			//Zadar, Cres, Veglia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zadar',
-				'duchy_category' => 'Crowned_Republic',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '26',	
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2184,7 +2184,7 @@ class DuchySeeder extends Seeder
 			//Palermo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Palermo',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2196,7 +2196,7 @@ class DuchySeeder extends Seeder
 			//Trapani
             DB::table('duchies')->insert([
 				'duchy_name' => 'Trapani',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2208,7 +2208,7 @@ class DuchySeeder extends Seeder
 			//Messina
             DB::table('duchies')->insert([
 				'duchy_name' => 'Messina',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2220,7 +2220,7 @@ class DuchySeeder extends Seeder
 			//Agrigento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Agrigento',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2232,19 +2232,19 @@ class DuchySeeder extends Seeder
 			//Catania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Catania',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);			
 			//180
 			//Siracusa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Siracusa',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '27',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2257,7 +2257,7 @@ class DuchySeeder extends Seeder
 			//Naples
             DB::table('duchies')->insert([
 				'duchy_name' => 'Naples',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2269,7 +2269,7 @@ class DuchySeeder extends Seeder
 			//Capua, Caserta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Capua',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2281,9 +2281,9 @@ class DuchySeeder extends Seeder
 			//Amalfi, Sorrento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Amalfi',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '28',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
@@ -2293,7 +2293,7 @@ class DuchySeeder extends Seeder
 			//Catanzaro, Cosenza, Crotone, Reggio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Calabria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2305,7 +2305,7 @@ class DuchySeeder extends Seeder
 			//Matera, Potenza
             DB::table('duchies')->insert([
 				'duchy_name' => 'Basilicata',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2317,7 +2317,7 @@ class DuchySeeder extends Seeder
 			//Taranto, Bari, Brindisi, Lecce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taranto',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2329,7 +2329,7 @@ class DuchySeeder extends Seeder
 			//Foggia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Foggia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2341,7 +2341,7 @@ class DuchySeeder extends Seeder
 			//Benevento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Benevento',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2353,7 +2353,7 @@ class DuchySeeder extends Seeder
 			//Salerno
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salerno',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '28',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2366,7 +2366,7 @@ class DuchySeeder extends Seeder
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gallura',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '29',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2378,7 +2378,7 @@ class DuchySeeder extends Seeder
 			//Torres
             DB::table('duchies')->insert([
 				'duchy_name' => 'Logudoro',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '29',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2390,7 +2390,7 @@ class DuchySeeder extends Seeder
 			//Oristano, Sassari, Tharros
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arborea',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '29',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2402,7 +2402,7 @@ class DuchySeeder extends Seeder
 			//Cagliari
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cagliari',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '29',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2416,7 +2416,7 @@ class DuchySeeder extends Seeder
 			//Constantinople, Ergisce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thrace',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2428,7 +2428,7 @@ class DuchySeeder extends Seeder
 			//Adrianople, Bergule
             DB::table('duchies')->insert([
 				'duchy_name' => 'Macedonia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '30',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2441,7 +2441,7 @@ class DuchySeeder extends Seeder
 			//Attica, Boeotia, Euboea, Thessaly
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hellas',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2453,7 +2453,7 @@ class DuchySeeder extends Seeder
 			//Corinthia, Argos, Patras, Laconia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Peloponessos',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2465,7 +2465,7 @@ class DuchySeeder extends Seeder
 			//Chios
             DB::table('duchies')->insert([
 				'duchy_name' => 'Archipelago',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2477,7 +2477,7 @@ class DuchySeeder extends Seeder
 			//Naupaktos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Epirus',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2489,7 +2489,7 @@ class DuchySeeder extends Seeder
 			//Thessalonica
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thessalonica',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2501,7 +2501,7 @@ class DuchySeeder extends Seeder
 			//Serres, Christoupolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Strymon',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '31',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2514,7 +2514,7 @@ class DuchySeeder extends Seeder
 			//Germanicopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Paphlagonia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '32',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2526,7 +2526,7 @@ class DuchySeeder extends Seeder
 			//Amasia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Armeniac',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '32',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2538,7 +2538,7 @@ class DuchySeeder extends Seeder
 			//Trapezus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chaldia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '32',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2550,7 +2550,7 @@ class DuchySeeder extends Seeder
 			//Chersonesus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Crimea',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '32',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2563,7 +2563,7 @@ class DuchySeeder extends Seeder
 			//Sardes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thracesia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2575,7 +2575,7 @@ class DuchySeeder extends Seeder
 			//Ancyra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bucellaria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2587,7 +2587,7 @@ class DuchySeeder extends Seeder
 			//Iconium
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anatolia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2599,7 +2599,7 @@ class DuchySeeder extends Seeder
 			//Caesarea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cappadocia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2611,7 +2611,7 @@ class DuchySeeder extends Seeder
 			//Seleucea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Seleucia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2623,7 +2623,7 @@ class DuchySeeder extends Seeder
 			//Cyzicus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Opsicia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2635,7 +2635,7 @@ class DuchySeeder extends Seeder
 			//Nicaea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nicaea',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2647,7 +2647,7 @@ class DuchySeeder extends Seeder
 			//Rhodes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lycia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2659,7 +2659,7 @@ class DuchySeeder extends Seeder
 			//Attaleia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pamphylia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '33',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2672,7 +2672,7 @@ class DuchySeeder extends Seeder
 			//Phasis, Pityus, Imereti
             DB::table('duchies')->insert([
 				'duchy_name' => 'Colchis',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '34',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2684,7 +2684,7 @@ class DuchySeeder extends Seeder
 			//Akhalkalaki
             DB::table('duchies')->insert([
 				'duchy_name' => 'Javakheti',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '34',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2696,7 +2696,7 @@ class DuchySeeder extends Seeder
 			//Bolnisi, Tiblisi, Rustavi, Gori
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kartli',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '34',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2708,7 +2708,7 @@ class DuchySeeder extends Seeder
 			//Telavi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kakheti',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '34',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2721,7 +2721,7 @@ class DuchySeeder extends Seeder
 			//Van
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vaspurakan',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '35',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2733,7 +2733,7 @@ class DuchySeeder extends Seeder
 			//Acilisene, Karapet
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taron',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '35',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2745,7 +2745,7 @@ class DuchySeeder extends Seeder
 			//Kars
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kars',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '35',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2757,7 +2757,7 @@ class DuchySeeder extends Seeder
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Azerbaijan',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '35',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
@@ -2771,7 +2771,7 @@ class DuchySeeder extends Seeder
 			//Kiev, Bratslav, Cherkasy, Korosten
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kiev',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '36',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2783,7 +2783,7 @@ class DuchySeeder extends Seeder
 			//Pereyaslavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pereyaslavl',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '36',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2796,7 +2796,7 @@ class DuchySeeder extends Seeder
 			//Chernigov, Bryansk, Lyubech, Mozhaysk, Novosil
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chernigov',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '37',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2808,7 +2808,7 @@ class DuchySeeder extends Seeder
 			//Ryazan, Murom, Tula, Kaluga, Vorotynsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ryazan',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '37',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2821,7 +2821,7 @@ class DuchySeeder extends Seeder
 			//Halych, Peremyshl, Lviv, Belz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Halych',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2833,7 +2833,7 @@ class DuchySeeder extends Seeder
 			//Podolia, Terebovlia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Podolia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2845,7 +2845,7 @@ class DuchySeeder extends Seeder
 			//Volhynia, Brest, Kremenets, Lutsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Volhynia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2857,7 +2857,7 @@ class DuchySeeder extends Seeder
 			//Turov, Slutsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Turov',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '38',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2870,7 +2870,7 @@ class DuchySeeder extends Seeder
 			//Vladimir, Vyazniki, Nizhny Novgorod
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vladimir',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '39',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2882,7 +2882,7 @@ class DuchySeeder extends Seeder
 			//Moscow, Dmitrov, Volokolamsk, Zvenigorod
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moscow',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '39',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2894,7 +2894,7 @@ class DuchySeeder extends Seeder
 			//Suzdal, Yuryev
             DB::table('duchies')->insert([
 				'duchy_name' => 'Suzdal',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '39',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2907,7 +2907,7 @@ class DuchySeeder extends Seeder
 			//Smolensk, Roslavl, Toropets, Mstislavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smolensk',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2919,7 +2919,7 @@ class DuchySeeder extends Seeder
 			//Rzhev, Zubtsov
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rzhev',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2931,7 +2931,7 @@ class DuchySeeder extends Seeder
 			//Tver, Galich, Kostroma, Pereslavl, Rostov, Yaroslavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tver',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
@@ -2944,7 +2944,7 @@ class DuchySeeder extends Seeder
 			//Novgorod, Ladoga
             DB::table('duchies')->insert([
 				'duchy_name' => 'Novgorod',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '41',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2956,7 +2956,7 @@ class DuchySeeder extends Seeder
 			//Polotsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Polotsk',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '41',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2968,7 +2968,7 @@ class DuchySeeder extends Seeder
 			//Pleskov, Kholm
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pleskov',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Burgher_Estate',
 				'de_jure_kingdom' => '41',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
@@ -2982,7 +2982,7 @@ class DuchySeeder extends Seeder
 			//Preslav
             DB::table('duchies')->insert([
 				'duchy_name' => 'Preslav',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '42',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -2994,7 +2994,7 @@ class DuchySeeder extends Seeder
 			//Tarnovo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarnovo',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '42',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -3007,7 +3007,7 @@ class DuchySeeder extends Seeder
 			//Targoviste
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wallachia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '43',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -3019,7 +3019,7 @@ class DuchySeeder extends Seeder
 			//Suceava
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moldavia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '43',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
@@ -3033,7 +3033,7 @@ class DuchySeeder extends Seeder
 			//Rashka
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rashka',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '44',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -3045,7 +3045,7 @@ class DuchySeeder extends Seeder
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => '',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '44',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -3058,7 +3058,7 @@ class DuchySeeder extends Seeder
 			//Srebrenik
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bosnia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '45',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -3070,7 +3070,7 @@ class DuchySeeder extends Seeder
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => '',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '45',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
@@ -3084,7 +3084,7 @@ class DuchySeeder extends Seeder
 			//Algeciras, Gibraltar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algeciras',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3096,7 +3096,7 @@ class DuchySeeder extends Seeder
 			//Almeria, Baza
             DB::table('duchies')->insert([
 				'duchy_name' => 'Almeria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3108,7 +3108,7 @@ class DuchySeeder extends Seeder
 			//Cadiz, Jerez, Sanlucar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arcos',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3120,7 +3120,7 @@ class DuchySeeder extends Seeder
 			//Carmona, Ecija
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carmona',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3132,7 +3132,7 @@ class DuchySeeder extends Seeder
 			//Andujar, Carpio, Cordoba, Martos, Pedroche
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cordoba',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3144,7 +3144,7 @@ class DuchySeeder extends Seeder
 			//Alpujarra, Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Granada',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3156,7 +3156,7 @@ class DuchySeeder extends Seeder
 			//Alhama, Antequera, Loja, Malaga
             DB::table('duchies')->insert([
 				'duchy_name' => 'Malaga',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3168,7 +3168,7 @@ class DuchySeeder extends Seeder
 			//Marbella, Ronda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ronda',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3180,7 +3180,7 @@ class DuchySeeder extends Seeder
 			//Aljarafe, Estepa, Sevilla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sevilla',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '46',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3193,7 +3193,7 @@ class DuchySeeder extends Seeder
 			//Faro, Mertola, Silves
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algarves',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '47',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3205,7 +3205,7 @@ class DuchySeeder extends Seeder
 			//Badajoz, Beja, Evora, Guadiana, Llerena, Merida, Olivenza, Portalegre, Serena
             DB::table('duchies')->insert([
 				'duchy_name' => 'Badajoz',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '47',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3217,7 +3217,7 @@ class DuchySeeder extends Seeder
 			//Aracena, Huelva, Niebla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Huelva',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '47',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3230,7 +3230,7 @@ class DuchySeeder extends Seeder
 			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serranos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alpuente',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3242,7 +3242,7 @@ class DuchySeeder extends Seeder
 			//Ibiza, Mallorca, Menorca
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baleares',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3254,7 +3254,7 @@ class DuchySeeder extends Seeder
 			//Albacete, Alcaraz, Alcira, Alcoy, Alicante, Almagro, Chinchilla, Cofrentes, Denia, Jativa, Montesa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Denia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3266,7 +3266,7 @@ class DuchySeeder extends Seeder
 			//Cartagena, Cieza, Hellin, Lorca, Murcia, Orihuela, Segura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Murcia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3278,7 +3278,7 @@ class DuchySeeder extends Seeder
 			//Castellon, Morella, Peniscola, San Clemente, Valencia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valencia',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '48',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
@@ -3292,7 +3292,7 @@ class DuchySeeder extends Seeder
 			//Marrakesh, Safi, Mogador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '49',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3304,7 +3304,7 @@ class DuchySeeder extends Seeder
 			//Tafilalt, Merzouga, Erfoud
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sijilmassa',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '49',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3316,7 +3316,7 @@ class DuchySeeder extends Seeder
 			//Ouarzazate, Zagora, Tinghir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ouarzazate',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '49',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3329,7 +3329,7 @@ class DuchySeeder extends Seeder
 			//Fez, Meknes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fez',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '50',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3341,24 +3341,24 @@ class DuchySeeder extends Seeder
 			//Rabat, Mehdya
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rabat',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '50',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//
 			//Tangier, Tetouan, Kebir, Ouazzane
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tangier',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '50',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);				
 			//Kairouan
@@ -3366,7 +3366,7 @@ class DuchySeeder extends Seeder
 			//Kairouan, 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '51',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3378,19 +3378,19 @@ class DuchySeeder extends Seeder
 			//Tunis, Bizerte
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tunis',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '51',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//
 			//Djerid,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djerid',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '51',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3402,7 +3402,7 @@ class DuchySeeder extends Seeder
 			//Tripoli,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tripoli',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '51',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3414,7 +3414,7 @@ class DuchySeeder extends Seeder
 			//Sirte,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sirte',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '51',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3427,7 +3427,7 @@ class DuchySeeder extends Seeder
 			//Tlemcen,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tlemcen',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3439,19 +3439,19 @@ class DuchySeeder extends Seeder
 			//Oujda,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oujda',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//
 			//Oran,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oran',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3463,19 +3463,19 @@ class DuchySeeder extends Seeder
 			//Algiers,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algiers',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//
 			//Tiaret,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tiaret',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3487,7 +3487,7 @@ class DuchySeeder extends Seeder
 			//Mzab,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mzab',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3499,7 +3499,7 @@ class DuchySeeder extends Seeder
 			//Laghouat,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Laghouat',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3511,7 +3511,7 @@ class DuchySeeder extends Seeder
 			//Djelfa,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djelfa',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '52',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3524,7 +3524,7 @@ class DuchySeeder extends Seeder
 			//Ifni, Tiznit
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ifni',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '53',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3536,7 +3536,7 @@ class DuchySeeder extends Seeder
 			//Taroudant, Agadir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taroudant',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '53',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3549,7 +3549,7 @@ class DuchySeeder extends Seeder
 			//Figuig, Bechar, Moghrar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Figuig',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '54',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3561,7 +3561,7 @@ class DuchySeeder extends Seeder
 			//Tuat, Tademait
             DB::table('duchies')->insert([
 				'duchy_name' => 'Adrar',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '54',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
@@ -3575,7 +3575,7 @@ class DuchySeeder extends Seeder
 			//Baghdad,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '55',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3589,7 +3589,7 @@ class DuchySeeder extends Seeder
 			//Damascus,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damascus',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '56',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3601,7 +3601,7 @@ class DuchySeeder extends Seeder
 			//Aleppo,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jabal',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '56',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3613,7 +3613,7 @@ class DuchySeeder extends Seeder
 			//Homs,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Homs',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '56',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3626,7 +3626,7 @@ class DuchySeeder extends Seeder
 			//Najd,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Najd',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '57',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3639,7 +3639,7 @@ class DuchySeeder extends Seeder
 			//Antioch,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Antioch',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '58',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3653,7 +3653,7 @@ class DuchySeeder extends Seeder
 			//Cairo,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cairo',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3665,7 +3665,7 @@ class DuchySeeder extends Seeder
 			//Alexandria,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alexandria',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3677,7 +3677,7 @@ class DuchySeeder extends Seeder
 			//Mansoura,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mansoura',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3689,7 +3689,7 @@ class DuchySeeder extends Seeder
 			//Damietta,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damietta',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3701,7 +3701,7 @@ class DuchySeeder extends Seeder
 			//Minya,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minya',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3713,7 +3713,7 @@ class DuchySeeder extends Seeder
 			//Asyut,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asyut',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3725,7 +3725,7 @@ class DuchySeeder extends Seeder
 			//Kharga, Dakhla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kharga',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3737,7 +3737,7 @@ class DuchySeeder extends Seeder
 			//Baritun, Siwa, Natrun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baritun',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3749,7 +3749,7 @@ class DuchySeeder extends Seeder
 			//Boula, Hammamat
             DB::table('duchies')->insert([
 				'duchy_name' => 'Boula',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '59',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3762,7 +3762,7 @@ class DuchySeeder extends Seeder
 			//Jerusalem,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jerusalem',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '60',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3775,7 +3775,7 @@ class DuchySeeder extends Seeder
 			//Mecca, Jeddah, Taif
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecca',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '61',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3787,7 +3787,7 @@ class DuchySeeder extends Seeder
 			//Medina, Yanbu, Khaybar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Medina',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '61',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3799,7 +3799,7 @@ class DuchySeeder extends Seeder
 			//Tabuk, Sharat, Hegra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tabuk',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '61',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
@@ -3813,7 +3813,7 @@ class DuchySeeder extends Seeder
 			//Aqtobe,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aqtobe',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3825,7 +3825,7 @@ class DuchySeeder extends Seeder
 			//Sarkel,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sarkel',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3837,7 +3837,7 @@ class DuchySeeder extends Seeder
 			//Atil,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Atil',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3849,7 +3849,7 @@ class DuchySeeder extends Seeder
 			//Bolghar,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bolghar',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3861,7 +3861,7 @@ class DuchySeeder extends Seeder
 			//Bilar,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bilar',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3874,7 +3874,7 @@ class DuchySeeder extends Seeder
 			//Derbent,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Derbent',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3886,7 +3886,7 @@ class DuchySeeder extends Seeder
 			//Azov,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Azov',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3899,7 +3899,7 @@ class DuchySeeder extends Seeder
 			//Sighnaq,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sighnaq',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3911,7 +3911,7 @@ class DuchySeeder extends Seeder
 			//Sozak,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sozak',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3923,7 +3923,7 @@ class DuchySeeder extends Seeder
 			//Sibir,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sibir',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3937,7 +3937,7 @@ class DuchySeeder extends Seeder
 			//Gurganj,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gurganj',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3949,7 +3949,7 @@ class DuchySeeder extends Seeder
 			//Khiva,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khiva',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3962,7 +3962,7 @@ class DuchySeeder extends Seeder
 			//Isfahan,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Isfahan',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3974,7 +3974,7 @@ class DuchySeeder extends Seeder
 			//Shiraz,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Shiraz',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
@@ -3987,19 +3987,19 @@ class DuchySeeder extends Seeder
 			//Hormuz, Minab, Bandar, Lengeh
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hormuz',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'vegetation' => 'Desert_Marshland',	
 				'altitude' => 'Montane'				
             ]);	
 			//
 			//Kerman, Bam, Rafsinjan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kerman',
-				'duchy_category' => 'Feudal',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
