@@ -34,7 +34,7 @@ class KingdomSeeder extends Seeder
 			
 			//Holy Roman Empire
 			//Germany
-			//Austria, Bavaria, Brabant, Carinthia, Carniola, Franconia, Frisia, Guelders, Julich, Limburg, Lorraine, Luneburg, Luxembourg, Saxony, Styria, Swabia, Bremen, Cologne, Magdeburg, Mainz, Salzburg, Trier
+			//Austria, Bavaria, Brabant, Carinthia, Carniola, Franconia, Frisia, Guelders, Julich, Limburg, Lorraine, Luneburg, Luxembourg, Saxony, Styria, Swabia, Thuringia, Bremen, Cologne, Magdeburg, Mainz, Salzburg, Trier
 			//1
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Germany',
@@ -73,7 +73,7 @@ class KingdomSeeder extends Seeder
 			//Burgundy, Cisjurania, Transjurania, Orange, Provence, Savoy
 			//4 
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Burgundy',
+				'kingdom_name' => 'Kingdom of Burgundy',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'burgundy',
 				'de_jure_empire' => '1',			
@@ -144,7 +144,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Itinerant'				
             ]);	
 			//England
-			//East anglia, Essex, Hwicce, Kent, Mercia, Mid Anglia, Northumbria, Sussex, Wessex
+			//East Anglia, Essex, Hwicce, Kent, Mercia, Mid Anglia, Northumbria, Sussex, Wessex
 			//10
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of England',
@@ -193,7 +193,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Itinerant'				
             ]);				
 			//Navarre
-			//Navarre
+			//Alava, Gipuzcoa, Navarre, Viscaya
 			//14
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Navarre',
@@ -206,7 +206,7 @@ class KingdomSeeder extends Seeder
             ]);	
 			//Castile
 			//Castile
-			//Avila, Burgos, Guadalajara, Palencia, Segovia, Soria, Toledo, Valladolid
+			//Avila, Burgos, Palencia, Segovia, Soria, Toledo, Valladolid
 			//15
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Castile',
@@ -611,7 +611,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Divan'				
             ]);	
 			//Levante
-			//Alpuente, Mallorca, Denia, Murcia, Valencia
+			//Alpuente, Baleares, Denia, Murcia, Valencia
 			//48
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Levante',

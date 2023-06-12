@@ -15,7 +15,7 @@ class DuchySeeder extends Seeder
 			//example
             DB::table('duchies')->insert([
 				'duchy_name' => '',					//total = 324 duchies
-				'duchy_category' => '',				//Feudal_Estate (288), Ecclesiastical_Estate (20), Burgher_Estate (14)
+				'duchy_category' => '',				//Feudal_Estate (287), Ecclesiastical_Estate (21), Burgher_Estate (14)
 				'de_jure_kingdom' => '',			//	
 				'law_succession' => '',				//Elective_Monarchy (29), Salic_Primogeniture (184), Agnatic_Seniority (17), Tanistry (17), Shura (75), Yassa (0)
 				'law_assembly' => '',				//absolute, limited, medium, high; default=medium	
@@ -569,7 +569,7 @@ class DuchySeeder extends Seeder
 			//Orange, Venaissin, Vivarais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orange',
-				'duchy_category' => 'Feudal_Estate',
+				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '4',	
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
@@ -2816,7 +2816,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',	
 				'altitude' => 'Montane'				
             ]);						
-			//Halych
+			//Ruthenia
 			//
 			//Halych, Peremyshl, Lviv, Belz
             DB::table('duchies')->insert([

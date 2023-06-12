@@ -11,207 +11,7798 @@ class GuildSeeder extends Seeder
      */
     public function run()
     {
-		//default guilds
-		//guild 1 wanderers
+		/*
+		//example
 		DB::table('guilds')->insert([
-			'guild_name' => 'Wanderers',
-			'guild_category' => 'wanderers',
-			'place' => '497',
-			'realm' => '1',
-			'master' => '1'
-		]);	
-		//chivalric guilds
-		//guild 2, england, windsor
+			'guild_name' => '',					//total = guilds
+			'guild_category' => '',				//Assembly (317), Chivalric (316), Monastic (), Pilgrim (), Merchant (), Craft ()
+			'guild_subcategory' => '',			//Feudal_Estate (282) Ecclesiastical_Estate (21), Burgher_Estate (14); Knight (), Crusader_Teutonic (), Crusader_Hospitaller, Crusader_Templar(); Catholic_Augustinian (), Catholic_Benedictine (), Catholic_Carmelite (), Catholic_Cistercian (), Catholic_Franciscan (), Orthodox_Greek (), Orthodox_Serbian (), Orthodox_Bulgarian (), Muslim_Sufi (); Catholic (), Orthodox_Greek (), Orthodox_Serbian (), Orthodox_Bulgarian (), Muslim_Sunni (), Muslim_Shia (); Bezant(), Dinar (), Florin (); Guild_Smith (), Guild_Tanner (), Guild_Furrier (), Guild_Potter ();
+			'empire' => '',						//default = null
+			'kingdom' => '',					//default = null
+			'duchy' => '',						//default = null
+			'county' => '',						//default = null
+			'barony' => ''						//default = null
+		]);		
+		*/
+		
+		//Holy Roman Empire
+		//Kingdom of Germany
+		//Austria
+		//
+		//
 		DB::table('guilds')->insert([
-			'guild_name' => 'Order of the Garter',
-			'guild_category' => 'chivalric_order',
-			'place' => '186',
-			'quarter' => '18674',
-			'realm' => '1',
-			'master' => '1'
-		]);	
-		//guild 3, france, paris
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bavaria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Brabant
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Carinthia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Carniola
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Franconia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gollachgau
+		//rotenburg
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Frisia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Guelders
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Julich
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Limburg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lorraine
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Luneburg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Luxembourg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Saxony
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Styria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Norital
+		//bolzano
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Swabia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Thuringia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ostergau
+		//naumburg
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bremen
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cologne
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Magdeburg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mainz
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Salzburg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Trier
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Lombardy
+		//Milan
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Piedmont
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tuscany
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Verona
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Aquileia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Florence
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Genoa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Noli
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Oneglia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lucca
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pisa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Venice
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Bohemia
+		//Bohemia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lusatia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Moravia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lower Silesia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Upper Silesia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Burgundy
+		//Burgundy
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cisjurania
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Transjurania
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Orange
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Provence
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Savoy
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Papal States
+		//Rome
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Romagna
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Spoleto
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Urbino
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Teutonic Order State
+		//Livonia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Estonia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Prussia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pomerelia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pomerania
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Brandenburg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mecklenburg
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Wagrigau
+		//lubeck
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crown of France
+		//Kingdom of France
+		//Anjou
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Aquitaine
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Auvergne
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Berry
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bourbonnais
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gascony
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Champagne
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Provins
+		//provins
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Francia
+		//Pay de France
+		//paris
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//paris
 		DB::table('guilds')->insert([
 			'guild_name' => 'Order of the Star',
-			'guild_category' => 'chivalric_order',
-			'place' => '113',
-			'quarter' => '18601',
-			'realm' => '1',
-			'master' => '1'
-		]);	
-		//guild 4, hungary, esztergom
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Normandy
+		//
+		//
 		DB::table('guilds')->insert([
-			'guild_name' => 'Order Saint George',
-			'guild_category' => 'chivalric_order',
-			'place' => '685',
-			'quarter' => '19173',
-			'realm' => '1',
-			'master' => '1'
-		]);	
-		//guild 5, holy roman empire, bruges
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Orleanais
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Picardy
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Flanders
+		//bruges
 		DB::table('guilds')->insert([
 			'guild_name' => 'Order of the Golden Fleece',
-			'guild_category' => 'chivalric_order',
-			'place' => '97',
-			'quarter' => '18585',
-			'realm' => '3',
-			'master' => '1'
-		]);	
-		//crusader guilds
-		//guild 6, teutonic knights
-		DB::table('guilds')->insert([
-			'guild_name' => 'Teutonic Knights',
-			'guild_category' => 'crusader_order',
-			'place' => '277',
-			'quarter' => '18428',
-			'realm' => '5',
-			'master' => '1'
-		]);	
-		//guild 7, knights hospitaller
-		DB::table('guilds')->insert([
-			'guild_name' => 'Knights Hospitaller',
-			'guild_category' => 'crusader_order',
-			'place' => '993',
-			'quarter' => '18483',
-			'realm' => '6',
-			'master' => '1'
-		]);	
-		//guild 8, knights templar
-		DB::table('guilds')->insert([
-			'guild_name' => 'Knights Templar',
-			'guild_category' => 'crusader_order',
-			'place' => '993',
-			'quarter' => '18484',
-			'realm' => '7',
-			'master' => '1'
-		]);	
-		//catholic monastic guilds
-		//guild 9
-		DB::table('guilds')->insert([
-			'guild_name' => 'Augustinian Order',
-			'guild_category' => 'monastic_order',
-			'place' => '497',
-			'quarter' => '18485',
-			'realm' => '2',
-			'master' => '1'
-		]);	
-		//guild 10
-		DB::table('guilds')->insert([
-			'guild_name' => 'Benedictine Order',
-			'guild_category' => 'monastic_order',
-			'place' => '500',
-			'quarter' => '16089',
-			'realm' => '2',
-			'master' => '1'
-		]);	
-		//guild 11
-		DB::table('guilds')->insert([
-			'guild_name' => 'Carmelite Order',
-			'guild_category' => 'monastic_order',
-			'place' => '192',
-			'quarter' => '18486',
-			'realm' => '8',
-			'master' => '1'
-		]);	
-		//guild 12
-		DB::table('guilds')->insert([
-			'guild_name' => 'Cistercian Order',
-			'guild_category' => 'monastic_order',
-			'place' => '132',
-			'quarter' => '16261',
-			'realm' => '9',
-			'master' => '1'
-		]);	
-		//guild 13
-		DB::table('guilds')->insert([
-			'guild_name' => 'Franciscan Order',
-			'guild_category' => 'monastic_order',
-			'place' => '496',
-			'quarter' => '16043',
-			'realm' => '2',
-			'master' => '1'
-		]);	
-		//greek orthodox monastic
-		//guild 14
-		DB::table('guilds')->insert([
-			'guild_name' => 'Greek Orthodox Monks',
-			'guild_category' => 'monastic_order',
-			'place' => '825',
-			'quarter' => '16954',
-			'realm' => '4',
-			'master' => '1'
-		]);		
-		//serbian orthodox monastic
-		//guild 15
-		DB::table('guilds')->insert([
-			'guild_name' => 'Serbian Orthodox Monks',
-			'guild_category' => 'monastic_order',
-			'place' => '736',
-			'quarter' => '16099',
-			'realm' => '84',
-			'master' => '1'
-		]);			
-		//russian orthodox monastic
-		//guild 16
-		DB::table('guilds')->insert([
-			'guild_name' => 'Russian Orthodox Monks',
-			'guild_category' => 'monastic_order',
-			'place' => '749',
-			'quarter' => '16104',
-			'realm' => '89',
-			'master' => '1'
-		]);			
-		//islamic sufi
-		//guild 17
-		DB::table('guilds')->insert([
-			'guild_name' => 'Sufi Order',
-			'guild_category' => 'monastic_order',
-			'place' => '988',
-			'quarter' => '18488',
-			'realm' => '48',
-			'master' => '1'
-		]);	
-		//pilgrims
-		//guild 18
-		DB::table('guilds')->insert([
-			'guild_name' => 'Catholic Pilgrims',
-			'guild_category' => 'pilgrims',
-			'place' => '497',
-			'realm' => '2',
-			'master' => '1'
-		]);	
-		//guild 19
-		DB::table('guilds')->insert([
-			'guild_name' => 'Greek Orthodox Pilgrims',
-			'guild_category' => 'pilgrims',
-			'place' => '825',
-			'realm' => '4',
-			'master' => '1'
-		]);		
-		//guild 20
-		DB::table('guilds')->insert([
-			'guild_name' => 'Serbian Orthodox Pilgrims',
-			'guild_category' => 'pilgrims',
-			'place' => '736',
-			'realm' => '84',
-			'master' => '1'
-		]);			
-		//guild 21
-		DB::table('guilds')->insert([
-			'guild_name' => 'Russian Orthodox Pilgrims',
-			'guild_category' => 'pilgrims',
-			'place' => '749',
-			'realm' => '89',
-			'master' => '1'
-		]);			
-		//guild 22
-		DB::table('guilds')->insert([
-			'guild_name' => 'Hajj',
-			'guild_category' => 'pilgrims',
-			'place' => '985',
-			'realm' => '48',
-			'master' => '1'
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
 		]);
+		//Poitou
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Toulouse
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Brittany
+		//Brittany
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Domnonee
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Retz
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crown of Britain
+		//High Kingdom of Ireland
+		//Connacht
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Leinster
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Meath
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Munster
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ulster
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of England
+		//East Anglia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Essex
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Hwicce
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kent
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mercia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mid Anglia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Northumbria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sussex
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Wessex
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Berkshire
+		//windsor
+		DB::table('guilds')->insert([
+			'guild_name' => 'Order of the Garter',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Wales
+		//Cornwall
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Dyfed
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gwent
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gwynedd
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Powys
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Scotland
+		//Alba
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bernicia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Fortriu
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Galloway
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gododdin
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Strathclyde
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crown of Aragon
+		//Kingdom of Aragon
+		//Aragon
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Barcelona
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Girona
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Huesca
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lleida
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tarragona
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Teruel
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Zaragoza
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Navarre
+		//Alava
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gipuzcoa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Navarre
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Viscaya
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crown of Castile
+		//Kingdom of Castile
+		//Avila
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Burgos
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Palencia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Segovia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Soria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Toledo
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Valladolid
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Galicia
+		//Coruna
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lugo
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ourense
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pontevedra
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Leon
+		//Caceres
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Leon
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Salamanca
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Zamora
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Asturias
+		//Asturias
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cantabria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Portugal
+		//Aveiro
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Beira
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Braganca
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Estremadura
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Danelagen
+		//Kingdom of Denmark
+		//Jutland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Scania
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sjaeland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Norway
+		//Nordjor
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sodor
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Hedmark
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Oppland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Rogaland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sorland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Vestland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Viken
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Sweden
+		//Gotland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Norrland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Osterland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Smaland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Svealand
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crown of Poland
+		//Kingdom of Poland
+		//Greater Poland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lesser Poland
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Gnesen
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kalisz
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Krakow
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kuyavia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mazovia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Plock
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Posen
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sieradz
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Warsaw
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Grand Duchy of Lithuania
+		//Minsk
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Samogitia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tracken
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Vilnius
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crown of Hungary
+		//Kingdom of Hungary
+		//Hungary
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Buda
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Esztergom
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//esztergom
+		DB::table('guilds')->insert([
+			'guild_name' => 'Order of Saint George',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Nitra
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Temesvar
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ungvar
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Transylvania
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Croatia
+		//Dalmatia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ragusa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Slavonia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Split
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Zadar
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Trinacria
+		//Kingdom of Sicily
+		//Palermo
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Trapani
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Messina
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Agrigento
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Catania
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Siracusa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Naples
+		//Naples
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Capua
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Amalfi
+		//Amalfi
+		//amalfi
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Calabria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Basilicata
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Taranto
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Foggia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Benevento
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Salerno
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Sardinia
+		//Gallura
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Logudoro
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Arborea
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cagliari
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Byzantine Empire
+		//Kingdom of Thrace
+		//Thrace
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Macedonia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Thessalonica
+		//Hellas
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Peloponessos
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Archipelago
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Epirus
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Thessalonica
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Trebizond
+		//Paphlagonia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Armeniac
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Chaldia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Crimea
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Anatolia
+		//Thracesia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bucellaria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Anatolia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cappadocia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Seleucia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Opsicia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Nicaea
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lycia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pamphylia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Georgia
+		//Colchis
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Javakheti
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kartli
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kakheti
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Armenia
+		//Vaspurakan
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Taron
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kars
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Azerbaijan
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kievan Russia
+		//Grand Principality of Kiev
+		//Kiev
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pereyaslavl
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Grand Principality of Chernigov
+		//Chernigov
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ryazan
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Grand Principality of Ruthenia
+		//Halych
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Podolia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Volhynia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Turov
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Grand Principality of Vladimir
+		//Vladimir
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Moscow
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Suzdal
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Grand Principality of Smolensk
+		//Smolensk
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Rzhev
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tver
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Novgorod
+		//Novgorod
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Polotsk
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pleskov
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Burgher_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bulgarian Empire
+		//Kingdom of Bulgaria
+		//Preslav
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tarnovo
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Wallachia
+		//Wallachia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Moldavia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Serbian Empire
+		//Principality of Serbia
+		//Rashka
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Bosnia
+		//Bosnia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cordoba
+		//Kingdom of Andalucia
+		//Algeciras
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Almeria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Arcos
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Carmona
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Cordoba
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Granada
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Malaga
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ronda
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sevilla
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Algarves
+		//Algarves
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Badajoz
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Huelva
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Levante
+		//Alpuente
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Baleares
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Denia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Murcia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Valencia
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Almohad
+		//Kingdom of Marrakesh
+		//Marrakesh
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sijilmassa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ouarzazate
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Fez
+		//Fez
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Rabat
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tangier
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Kairouan
+		//Kairouan
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tunis
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Djerid
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tripoli
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sirte
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Tlemcen
+		//Tlemcen
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Oujda
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Oran
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Algiers
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tiaret
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mzab
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Laghouat
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Djelfa
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Ifni
+		//Ifni
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Taroudant
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Figuig
+		//Figuig
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Adrar
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Abbasid
+		//Kingdom of Baghdad
+		//Baghdad
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Syria
+		//Damascus
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Aleppo
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Homs
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Najd
+		//Najd
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Antioch
+		//Antioch
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Fatimid
+		//Kingdom of Cairo
+		//Cairo
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Alexandria
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Mansoura
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Damietta
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Minya
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Asyut
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Ecclesiastical_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kharga
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Baritun
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Boula
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Jerusalem
+		//Jerusalem
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Principality of Hejaz
+		//Mecca
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Medina
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Tabuk
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Khazar Empire
+		//Kingdom of Khazaria
+		//Aqtobe
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sarkel
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Atil
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bolghar
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Bilar
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Alania
+		//Derbent
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Azov
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kingdom of Cumania
+		//Sighnaq
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sozak
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sibir
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Seljuk Empire
+		//Kingdom of Kwarezm
+		//Gurganj
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Khiva
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Kingdom of Isfahan
+		//Isfahan
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Principality of Hormuz
+		//Hormuz
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Kerman
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Feudal_Estate',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);			
+		
+		/*
+
+
+
+
+	
+		
+
 		//trade leagues
 		//guild 23
 		DB::table('guilds')->insert([
@@ -1215,6 +8806,7 @@ class GuildSeeder extends Seeder
 			'realm' => '47',
 			'master' => '1'
 		]);
+		*/
 		
     }
 }

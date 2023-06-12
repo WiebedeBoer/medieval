@@ -16,7 +16,7 @@ class EmpireSeeder extends Seeder
 			/*
 			//example
             DB::table('empires')->insert([
-				'empire_name' => '',			//total = 20 empires
+				'empire_name' => '',			//total = 19 empires
 				'empire_category' => '',		//Princely_Elective (1), Feudal_Empire (5), Composite_Crown (4), Commonwealth (3), Caliphate (4), Horde (2)
 				'law_succession' => '',			//Elective_Monarchy (1), Salic_Primogeniture (11), Agnatic_Seniority (1), Tanistry (0), Shura (4), Yassa (2)	
 				'law_assembly' => '',			//absolute, limited, medium, high; default=medium	

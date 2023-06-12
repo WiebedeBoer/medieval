@@ -28940,7 +28940,7 @@ class BaronySeeder extends Seeder
 				'crusader_commandery' => 'None',
 				'charter_castle' => 'None',	
 				'charter_assembly' => 'Chancellery',
-				'charter_cathedral' => 'Bishop',
+				'charter_cathedral' => 'Archbishop',
 				'charter_market' => 'Market_Hall',
 				'charter_rampart' => 'Stronghold',	
 				'charter_mint' => 'Coin_Mint',
@@ -104235,6 +104235,32 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
 				'industry_storage' => 'Warehouse_Quarter'				
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Montesa',
+				'de_jure_county' => '',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',	
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'None',	
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',			
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Sugarcane',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Pack_Horse',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Armoury'				
             ]);
 			//Almohad, Empire
 			//Marrakesh, Kingdom
