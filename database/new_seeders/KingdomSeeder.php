@@ -34,7 +34,7 @@ class KingdomSeeder extends Seeder
 			
 			//Holy Roman Empire
 			//Germany
-			//Austria, Bavaria, Brabant, Carinthia, Carniola, Franconia, Frisia, Guelders, Julich, Limburg, Lorraine, Luneburg, Luxembourg, Saxony, Styria, Swabia, Thuringia, Bremen, Cologne, Magdeburg, Mainz, Salzburg, Trier
+			//Austria, Bavaria, Brabant, Carinthia, Carniola, Franconia, Frisia, Guelders, Julich, Limburg, Lorraine, Luxembourg, Saxony, Styria, Swabia, Thuringia, Bremen, Cologne, Magdeburg, Mainz, Salzburg, Trier
 			//1
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Germany',
