@@ -168,7 +168,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Itinerant'			
             ]);			
 			//Scotland			
-			//Alba, Bernicia, Fortriu, Galloway, Gododdin, Strathclyde
+			//Alba, Bernicia, Dalradia, Fortriu, Galloway, Gododdin, Strathclyde
 			//12
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Scotland',

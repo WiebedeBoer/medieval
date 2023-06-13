@@ -46882,7 +46882,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'County_Court',	
 				'charter_assembly' => 'Senate_Hall',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Hall',
+				'charter_market' => 'Trade_Fair',
 				'charter_rampart' => 'Stronghold',	
 				'charter_mint' => 'Coin_Mint',
 				'reliquary_pilgrimage' => 'None',
