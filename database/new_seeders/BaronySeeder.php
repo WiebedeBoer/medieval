@@ -335,13 +335,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'						
+				'industry_storage' => 'Armoury'						
             ]);
 			//Bavaria, Duchy = Temperate_Woodland
 			//Donaugau, County = [Pigs]
@@ -706,7 +706,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -44600,7 +44600,7 @@ class BaronySeeder extends Seeder
 				'charter_castle' => 'None',	
 				'charter_assembly' => 'Senate_Hall',
 				'charter_cathedral' => 'Bishop',
-				'charter_market' => 'Market_Hall',
+				'charter_market' => 'Trade_Fair',
 				'charter_rampart' => 'Stronghold',	
 				'charter_mint' => 'None',
 				'reliquary_pilgrimage' => 'None',

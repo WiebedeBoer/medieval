@@ -15,8 +15,8 @@ class GuildSeeder extends Seeder
 		//example
 		DB::table('guilds')->insert([
 			'guild_name' => '',					//total = guilds
-			'guild_category' => '',				//Assembly (317), Chivalric (316), Monastic (), Cleric (), Merchant (), Craft ()
-			'guild_subcategory' => '',			//Duke (), Count (), Baron (282) Bishop (21), Patrician (14); Knight (), Crusader_Teutonic (), Crusader_Hospitaller, Crusader_Templar(); Monk_Catholic_Augustinian (), Monk_Catholic_Benedictine (), Monk_Catholic_Carmelite (), Monk_Catholic_Cistercian (), Monk_Catholic_Franciscan (), Monk_Orthodox_Greek (), Monk_Orthodox_Serbian (), Monk_Orthodox_Bulgarian (), Monk_Muslim_Sufi (); Cleric_Catholic (), Cleric_Orthodox_Greek (), Cleric_Orthodox_Serbian (), Cleric_Orthodox_Bulgarian (), Cleric_Muslim_Sunni (), Cleric_Muslim_Shia (); Merchant_Florin(63), Merchant_Bezant (3), Merchant_Dirham (3), Merchant_Dinar (5); Guild_Smith (), Guild_Tanner (), Guild_Furrier (), Guild_Potter ();
+			'guild_category' => '',				//Assembly (318), Chivalric (318), Monastic (), Cleric (), Merchant (), Craft ()
+			'guild_subcategory' => '',			//Duke (), Count (), Baron (283), Bishop (21), Patrician (14); Knight (), Crusader_Teutonic (), Crusader_Hospitaller, Crusader_Templar(); Monk_Catholic_Augustinian (), Monk_Catholic_Benedictine (), Monk_Catholic_Carmelite (), Monk_Catholic_Cistercian (), Monk_Catholic_Franciscan (), Monk_Orthodox_Greek (), Monk_Orthodox_Serbian (), Monk_Orthodox_Bulgarian (), Monk_Muslim_Sufi (); Cleric_Catholic (), Cleric_Orthodox_Greek (), Cleric_Orthodox_Serbian (), Cleric_Orthodox_Bulgarian (), Cleric_Muslim_Sunni (), Cleric_Muslim_Shia (); Merchant_Florin(162), Merchant_Bezant (3), Merchant_Dirham (3), Merchant_Dinar (5); Master_Smith (), Master_Tanner (), Master_Furrier (), Master_Potter ();
 			'empire' => '',						//default = null
 			'kingdom' => '',					//default = null
 			'duchy' => '',						//default = null
@@ -28,10 +28,10 @@ class GuildSeeder extends Seeder
 		//Holy Roman Empire
 		//Kingdom of Germany
 		//Austria
-		//
-		//
+		//Vienna
+		//Vienna
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Austria',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -40,9 +40,8 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Knights of Saint George',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,
@@ -52,23 +51,12 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Bavaria
-		//
-		//
+		//Donaugau
+		//Regensburg
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Bavaria',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '2',
-			'county' => null,
-			'barony' => ''
-		]);
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '2',
@@ -81,6 +69,18 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Fair of Nuremberg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '2',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Rottgau
+		//Passau
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Saint George',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '2',
@@ -101,7 +101,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Knights of the Golden Fleece',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,
@@ -112,9 +112,19 @@ class GuildSeeder extends Seeder
 		]);
 		//Louvain
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Louvain',
+			'guild_name' => 'Fair of Louvain',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Golden Fleece',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -124,7 +134,7 @@ class GuildSeeder extends Seeder
 		//Toxandria
 		//Turnhout
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Turnhout',
+			'guild_name' => 'Fair of Turnhout',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -136,7 +146,7 @@ class GuildSeeder extends Seeder
 		//Waasgau
 		//Ghent
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Ghent',
+			'guild_name' => 'Fair of Ghent',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -256,7 +266,7 @@ class GuildSeeder extends Seeder
 		//Rhineland
 		//Leithen
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Leithen',
+			'guild_name' => 'Fair of Leithen',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -268,7 +278,7 @@ class GuildSeeder extends Seeder
 		//Westflinge
 		//Hoorn
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Hoorn',
+			'guild_name' => 'Fair of Hoorn',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -304,7 +314,7 @@ class GuildSeeder extends Seeder
 		//Hamaland
 		//Deventer
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Deventer',
+			'guild_name' => 'Fair of Deventer',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -364,7 +374,7 @@ class GuildSeeder extends Seeder
 		//Condrustgau
 		//Huy
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Huy',
+			'guild_name' => 'Fair of Huy',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -448,7 +458,7 @@ class GuildSeeder extends Seeder
 		//Derlingau
 		//Brunswick
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Brunswick',
+			'guild_name' => 'Fair of Brunswick',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -601,7 +611,7 @@ class GuildSeeder extends Seeder
 		//Stormarngau
 		//Hamburg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Hanseatic Fair of Hamburg',
+			'guild_name' => 'Hanse of Hamburg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -613,7 +623,7 @@ class GuildSeeder extends Seeder
 		//Sudergau
 		//Warendorf
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Warendorf',
+			'guild_name' => 'Fair of Warendorf',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -625,7 +635,7 @@ class GuildSeeder extends Seeder
 		//Westfaliagau
 		//Attendorn
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Attendorn',
+			'guild_name' => 'Fair of Attendorn',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -704,7 +714,7 @@ class GuildSeeder extends Seeder
 		//Osterwalde
 		//Salzwedel
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Salzwedel',
+			'guild_name' => 'Fair of Salzwedel',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -740,7 +750,7 @@ class GuildSeeder extends Seeder
 		//Hessengau
 		//Kassel
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Kassel',
+			'guild_name' => 'Fair of Kassel',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -751,7 +761,7 @@ class GuildSeeder extends Seeder
 		]);	
 		//Fritzlar
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Fritzlar',
+			'guild_name' => 'Fair of Fritzlar',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -763,7 +773,7 @@ class GuildSeeder extends Seeder
 		//Lahngau
 		//Limburg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Limburg',
+			'guild_name' => 'Fair of Limburg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -916,7 +926,7 @@ class GuildSeeder extends Seeder
 		//Vigevano
 		//Vigevano
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Vigevano',
+			'guild_name' => 'Fair of Vigevano',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1167,7 +1177,7 @@ class GuildSeeder extends Seeder
 		//Pistoia
 		//Pistoia
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Pistoia',
+			'guild_name' => 'Fair of Pistoia',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1178,7 +1188,7 @@ class GuildSeeder extends Seeder
 		]);
 		//Pescia
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Pescia',
+			'guild_name' => 'Fair of Pescia',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1290,7 +1300,7 @@ class GuildSeeder extends Seeder
 		//Glatzerland
 		//Wunschelburg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Wunschelburg',
+			'guild_name' => 'Fair of Wunschelburg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1302,7 +1312,7 @@ class GuildSeeder extends Seeder
 		//Koniggratz
 		//Braunau
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Braunau',
+			'guild_name' => 'Fair of Braunau',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1337,7 +1347,7 @@ class GuildSeeder extends Seeder
 		//Nisangau
 		//Leipzig
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Leipzig',
+			'guild_name' => 'Fair of Leipzig',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1349,7 +1359,7 @@ class GuildSeeder extends Seeder
 		//Lusizigau
 		//Senftenberg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Senftenberg',
+			'guild_name' => 'Fair of Senftenberg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1360,7 +1370,7 @@ class GuildSeeder extends Seeder
 		]);
 		//Lebusa
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Lebusa',
+			'guild_name' => 'Fair of Lebusa',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1395,7 +1405,7 @@ class GuildSeeder extends Seeder
 		//Iglau
 		//Iglau
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Iglau',
+			'guild_name' => 'Fair of Iglau',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1407,7 +1417,7 @@ class GuildSeeder extends Seeder
 		//Olmutz
 		//Prossnitz
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Prossnitz',
+			'guild_name' => 'Fair of Prossnitz',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1418,7 +1428,7 @@ class GuildSeeder extends Seeder
 		]);
 		//Sternberg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Sternberg',
+			'guild_name' => 'Fair of Sternberg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1431,7 +1441,7 @@ class GuildSeeder extends Seeder
 		//Jauer
 		//Jauer
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Jauer',
+			'guild_name' => 'Fair of Jauer',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1443,7 +1453,7 @@ class GuildSeeder extends Seeder
 		//Glogau
 		//Glogau
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Glogau',
+			'guild_name' => 'Fair of Glogau',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1477,7 +1487,7 @@ class GuildSeeder extends Seeder
 		//Schweidnitz
 		//Striegau
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Striegau',
+			'guild_name' => 'Fair of Striegau',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1488,7 +1498,7 @@ class GuildSeeder extends Seeder
 		]);
 		//Schmiedeberg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Schmiedeberg',
+			'guild_name' => 'Fair of Schmiedeberg',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1534,7 +1544,7 @@ class GuildSeeder extends Seeder
 		//Troppau
 		//Jagerndorf
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Jagerndorf',
+			'guild_name' => 'Fair of Jagerndorf',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1570,7 +1580,7 @@ class GuildSeeder extends Seeder
 		//Lassois
 		//Chatillon
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Chatillon',
+			'guild_name' => 'Fair of Chatillon',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -1977,9 +1987,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Kulmerland
-		//
+		//Graudenz
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Fair of Graudenz',
+			'guild_name' => 'Fair of Graudenz',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -2037,8 +2047,8 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Mecklenburg
-		//
-		//
+		//Obotritegau
+		//Mecklenburg
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Assembly',
@@ -2049,7 +2059,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -2060,10 +2069,21 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Wismar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Wismar',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Wagrigau
 		//Lubeck
 		DB::table('guilds')->insert([
-			'guild_name' => 'Hanseatic Fair of Lubeck',
+			'guild_name' => 'Hanse of Lubeck',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -2087,7 +2107,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -2098,6 +2117,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Maine
+		//Laval
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Laval',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '57',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Aquitaine
 		//Bordelais
 		//Bordeaux
@@ -2156,7 +2187,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -2167,6 +2197,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Brioude
+		//Sauveterre
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sauveterre',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '59',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Murat
 		//Murat
 		DB::table('guilds')->insert([
@@ -2310,6 +2352,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Chalonnais
+		//Vitry
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Vitry',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '63',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Provins
 		//Provins
 		DB::table('guilds')->insert([
@@ -2360,7 +2414,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Order of the Star',
+			'guild_name' => 'Knights of the Star',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,
@@ -2369,6 +2423,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Gatinais
+		//Landon
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Landon',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Hurepoix
 		//Dourdan
 		DB::table('guilds')->insert([
@@ -2414,6 +2480,30 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Alencon
+		//Argentan
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Argentan',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Coutances
+		//Saint Lo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Saint Lo',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Orleanais
 		//
 		//
@@ -2463,10 +2553,21 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
-		//
+		//Saint Omer
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Saint Omer',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Amienois
+		//Amiens
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Picardy',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2475,10 +2576,20 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Amiens',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
 		//Flanders
 		//Bruges
 		DB::table('guilds')->insert([
-			'guild_name' => 'Order of the Golden Fleece',
+			'guild_name' => 'Knights of the Golden Fleece',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,
@@ -2488,7 +2599,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Kontor of Bruges Easterling House',
+			'guild_name' => 'Kontor of Bruges Easterling House',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -2497,11 +2608,90 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Poitou
-		//
-		//
+		//Ypres
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Ypres',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Lille
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Lille',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Douai
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Douai',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Poperinge
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Poperinge',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Tournais
+		//Tournai
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Tournai',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Courtrai
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Courtrai',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Vermandois
+		//Saint Quentin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Saint Quentin',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => null,
+			'barony' => ''
+		]);			
+		//Poitou
+		//Poitou
+		//Poitiers
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Poitou',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2510,7 +2700,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -2518,6 +2707,17 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '68',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Niort
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Niort',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -2545,9 +2745,31 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Thouarsais
+		//Fontenay
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Fontenay',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '68',
+			'county' => null,
+			'barony' => ''
+		]);
 		//Toulouse
 		//Toulouse
 		//Toulouse
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '69',
+			'county' => null,
+			'barony' => ''
+		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Toulouse',
 			'guild_category' => 'Merchant',
@@ -2558,11 +2780,12 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
+		//Gevaudan
+		//Langogne
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Fair of Langogne',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '69',
@@ -2607,11 +2830,22 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '70',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Leon
+		//Morlaix
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Morlaix',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '70',
@@ -2868,11 +3102,34 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Essex
-		//
-		//
+		//Suffolk
+		//Sudbury
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Sudbury',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '78',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Essex
+		//Essex
+		//Colchester
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Colchester',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '79',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Chelmsford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Essex',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2881,7 +3138,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -2892,10 +3148,44 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Hadleigh
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Hadleigh',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '79',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Walden
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Walden',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '79',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Hertfordshire
+		//Berkhamsted
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Berkhamsted',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);			
 		//Middlesex
 		//London
 		DB::table('guilds')->insert([
-			'guild_name' => 'Drapers Kontor of London Steelyard',
+			'guild_name' => 'Kontor of London Steelyard',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -2940,8 +3230,8 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Kent
-		//
-		//
+		//Kent
+		//Canterbury
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Assembly',
@@ -2952,7 +3242,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -2963,6 +3252,17 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Leeds
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Leeds',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '81',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Lindsey
 		//Derbyshire
 		//Derby
@@ -2976,7 +3276,51 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Lincolnshire
+		//Lincoln
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Baron',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Stamford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Stamford',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Nothinghamshire
+		//Newark
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Newark',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);
 		//Mansfield
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Mansfield',
@@ -2998,30 +3342,7 @@ class GuildSeeder extends Seeder
 			'duchy' => '82',
 			'county' => null,
 			'barony' => ''
-		]);
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Assembly',
-			'guild_subcategory' => 'Baron',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '82',
-			'county' => null,
-			'barony' => ''
-		]);
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '82',
-			'county' => null,
-			'barony' => ''
-		]);
+		]);		
 		//Mercia
 		//
 		//
@@ -3035,7 +3356,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -3046,6 +3366,30 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Herefordshire
+		//Leominster
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Leominster',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '83',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Staffordshire
+		//Stafford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Stafford',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '83',
+			'county' => null,
+			'barony' => ''
+		]);			
 		//Mid Anglia
 		//Northamptonshire
 		//Northampton
@@ -3071,7 +3415,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -3108,9 +3451,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Yorkshire
-		//
+		//York
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Northumbria',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3119,7 +3462,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -3130,6 +3472,17 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Ripon
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Ripon',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Scarborough
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Scarborough',
@@ -3154,7 +3507,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -3181,7 +3533,7 @@ class GuildSeeder extends Seeder
 		//Berkshire
 		//Windsor
 		DB::table('guilds')->insert([
-			'guild_name' => 'Order of the Garter',
+			'guild_name' => 'Knights of the Garter',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,
@@ -3190,6 +3542,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Dorsetshire
+		//Dorchester
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Dorchester',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Hampshire
 		//Winchester
 		DB::table('guilds')->insert([
@@ -3202,6 +3566,41 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Southampton
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Southampton',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '87',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Surrey
+		//Guildford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Guildford',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '87',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Wiltshire
+		//Trowbridge
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Trowbridge',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '87',
+			'county' => null,
+			'barony' => ''
+		]);			
 		//Principality of Wales
 		//Cornwall
 		//
@@ -3228,6 +3627,50 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Devonshire
+		//Okehampton
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Okehampton',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '88',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Axminster
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Axminster',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '88',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Plymouth
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Plymouth',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '88',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Barnstaple
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Barnstaple',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '88',
+			'county' => null,
+			'barony' => ''
+		]);			
 		//Tavistock
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Tavistock',
@@ -3252,7 +3695,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -3263,6 +3705,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Pembrokeshire
+		//Haverford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Haverford',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '89',
+			'county' => null,
+			'barony' => ''
+		]);	
 		//Gwent
 		//
 		//
@@ -3989,11 +4443,23 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Segovia
-		//
-		//
+		//Cerrato
+		//Astudillo
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Astudillo',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '114',
+			'county' => null,
+			'barony' => ''
+		]);	
+		//Segovia
+		//Segovia
+		//Segovia
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Segovia',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4002,11 +4468,21 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '115',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pedraza
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Pedraza',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '115',
@@ -4396,10 +4872,10 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Portugal
 		//Aveiro
-		//
-		//
+		//Aveiro
+		//Aveiro
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Aveiro',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4408,7 +4884,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4416,6 +4891,18 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '129',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Braga
+		//Barcelos
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Barcelos',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -4432,11 +4919,22 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '130',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Guarda
+		//Guarda
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Guarda',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '130',
@@ -4986,10 +5484,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Krakow
-		//
-		//
+		//Krakow
+		//Krakow
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Krakow',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4998,11 +5496,20 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Krakow',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '153',
@@ -5082,10 +5589,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Posen
-		//
-		//
+		//Posen
+		//Posen
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Posen',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5094,11 +5601,20 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Posen',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '157',
@@ -5304,7 +5820,7 @@ class GuildSeeder extends Seeder
 		//Esztergom
 		//Esztergom
 		DB::table('guilds')->insert([
-			'guild_name' => 'Order of Saint George',
+			'guild_name' => 'Knights of Saint George',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,
