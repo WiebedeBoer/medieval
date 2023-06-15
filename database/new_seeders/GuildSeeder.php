@@ -22,7 +22,15 @@ class GuildSeeder extends Seeder
 			'duchy' => '',						//default = null
 			'county' => '',						//default = null
 			'barony' => ''						//default = null
-		]);		
+		]);
+		
+		*/
+		
+		/*	age:	chivalric | crusader | publican | peasant:		clergy:						miller | merchant | artisan:				
+		//	7		page											novice						apprentice						
+		//	14		squire | hostler | farmhand						acolyte						journeyman						
+		//	21		knight | crusader | innkeeper | farmer			priest | monk				miller | mercer | master artisan 		
+		//
 		*/
 		
 		//Holy Roman Empire
