@@ -95,7 +95,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Lowland'				
             ]);
 			//4
-			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Lavanttal, Leobental, Murztal, Sanntal
+			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Lavanttal, Leobental, Lurngau, Murztal, Sanntal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carinthia',
 				'duchy_category' => 'Feudal_Estate',
@@ -545,9 +545,9 @@ class DuchySeeder extends Seeder
 			//Dauphine, Albon, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cisjurania',
-				'duchy_category' => 'Ecclesiastical_Estate',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Elective_Monarchy',
+				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
@@ -571,7 +571,7 @@ class DuchySeeder extends Seeder
 				'duchy_name' => 'Orange',
 				'duchy_category' => 'Ecclesiastical_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Salic_Primogeniture',
+				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
@@ -593,9 +593,9 @@ class DuchySeeder extends Seeder
 			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
-				'duchy_category' => 'Ecclesiastical_Estate',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Elective_Monarchy',
+				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
@@ -885,9 +885,9 @@ class DuchySeeder extends Seeder
 			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toulouse',
-				'duchy_category' => 'Ecclesiastical_Estate',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '7',	
-				'law_succession' => 'Elective_Monarchy',
+				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	

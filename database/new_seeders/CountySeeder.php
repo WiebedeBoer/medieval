@@ -2112,7 +2112,7 @@ class CountySeeder extends Seeder
             ]);
 			//Thuringia
 			//121
-			//erfurt, weimar, schmalkalden
+			//erfurt, weimar, schmalkalden, wachsenburg, eisenach, wartburg
             DB::table('counties')->insert([
 				'county_name' => 'Thuringgau',
 				'county_category' => 'Feudal_Manor',
