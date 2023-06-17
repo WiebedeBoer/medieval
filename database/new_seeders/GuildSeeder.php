@@ -1832,7 +1832,7 @@ class GuildSeeder extends Seeder
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Bishop',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '5',
 			'duchy' => '46',
 			'county' => null,
 			'barony' => ''
@@ -2269,10 +2269,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Auvergne
-		//
-		//
+		//Clermont
+		//Clermont
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Auvergne',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2327,10 +2327,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Berry
-		//
-		//
+		//Berry
+		//Bourges
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Berry',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2351,10 +2351,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Bourbonnais
-		//
-		//
+		//Bourbonnais
+		//Bourbon
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Bourbonnais',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2387,22 +2387,10 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Comminges
-		//Luchon
+		//Astarac
+		//Auch
 		DB::table('guilds')->insert([
-			'guild_name' => 'Fair of Luchon',
-			'guild_category' => 'Merchant',
-			'guild_subcategory' => 'Merchant_Florin',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '62',
-			'county' => null,
-			'barony' => ''
-		]);
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Gascony',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -2411,11 +2399,22 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '62',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Comminges
+		//Luchon
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Luchon',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '62',
@@ -2502,7 +2501,7 @@ class GuildSeeder extends Seeder
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '7',
 			'duchy' => '64',
 			'county' => null,
 			'barony' => ''
@@ -3008,14 +3007,14 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Brittany
 		//Brittany
-		//
-		//
+		//Vannais
+		//Vannes
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Brittany',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '8',
 			'duchy' => '70',
 			'county' => null,
 			'barony' => ''
@@ -3043,10 +3042,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Domnonee
-		//
-		//
+		//Penthievre
+		//Guingamp
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Domnonee',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3066,7 +3065,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Penthievre
 		//Chatelaudren
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Chatelaudren',
@@ -3079,10 +3077,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Retz
-		//
-		//
+		//Retz
+		//Reze
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Retz',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3105,10 +3103,10 @@ class GuildSeeder extends Seeder
 		//Crown of Britain
 		//High Kingdom of Ireland
 		//Connacht
-		//
-		//
+		//Galway
+		//Galway
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Connacht',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3129,10 +3127,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Leinster
-		//
-		//
+		//Carlow
+		//Carlow
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Leinster',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3153,14 +3151,14 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Meath
-		//Dublin
-		//Dublin
+		//Meath
+		//Tara
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Meath',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '9',
 			'duchy' => '75',
 			'county' => null,
 			'barony' => ''
@@ -3199,21 +3197,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Cork
-		//Buttevant
+		//Cork
 		DB::table('guilds')->insert([
-			'guild_name' => 'Fair of Buttevant',
-			'guild_category' => 'Merchant',
-			'guild_subcategory' => 'Merchant_Florin',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '76',
-			'county' => null,
-			'barony' => ''
-		]);
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Munster',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3233,11 +3219,22 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Ulster
-		//
-		//
+		//Buttevant
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Buttevant',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '76',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Ulster
+		//Armagh
+		//Armagh
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Ulster',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3317,27 +3314,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Chelmsford
-		DB::table('guilds')->insert([
-			'guild_name' => 'Court of Essex',
-			'guild_category' => 'Assembly',
-			'guild_subcategory' => 'Baron',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '79',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '79',
-			'county' => null,
-			'barony' => ''
-		]);
 		//Hadleigh
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Hadleigh',
@@ -3374,6 +3350,16 @@ class GuildSeeder extends Seeder
 		]);			
 		//Middlesex
 		//London
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Essex',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Baron',
+			'empire' => null,
+			'kingdom' => '10',
+			'duchy' => '79',
+			'county' => null,
+			'barony' => ''
+		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Kontor of London Steelyard',
 			'guild_category' => 'Merchant',
@@ -3427,10 +3413,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Hwicce
-		//
-		//
+		//Worcestershire
+		//Worcester
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Hwicce',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3454,7 +3440,7 @@ class GuildSeeder extends Seeder
 		//Kent
 		//Canterbury
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Kent',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3500,7 +3486,7 @@ class GuildSeeder extends Seeder
 		//Lincolnshire
 		//Lincoln
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Lindsey',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3565,18 +3551,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);		
 		//Mercia
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '83',
-			'county' => null,
-			'barony' => ''
-		]);
 		//Herefordshire
 		//Leominster
 		DB::table('guilds')->insert([
@@ -3603,9 +3577,19 @@ class GuildSeeder extends Seeder
 		]);	
 		//Tamworth
 		DB::table('guilds')->insert([
-			'guild_name' => 'Court of Mid Anglia',
+			'guild_name' => 'Court of Mercia',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '83',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '83',
@@ -3651,9 +3635,9 @@ class GuildSeeder extends Seeder
 		//Northamptonshire
 		//Northampton
 		DB::table('guilds')->insert([
-			'guild_name' => 'Fair of Northampton',
-			'guild_category' => 'Merchant',
-			'guild_subcategory' => 'Merchant_Florin',
+			'guild_name' => 'Court of Mid Anglia',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Baron',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -3671,9 +3655,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Court of Mid Anglia',
-			'guild_category' => 'Assembly',
-			'guild_subcategory' => 'Baron',
+			'guild_name' => 'Fair of Northampton',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -3750,10 +3734,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Sussex
-		//
-		//
+		//Chichestershire
+		//Chichester
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Sussex',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3773,18 +3757,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Wessex
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Assembly',
-			'guild_subcategory' => 'Baron',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '87',
-			'county' => null,
-			'barony' => ''
-		]);
 		//Berkshire
 		//Windsor
 		DB::table('guilds')->insert([
@@ -3811,6 +3783,16 @@ class GuildSeeder extends Seeder
 		]);	
 		//Hampshire
 		//Winchester
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Wessex',
+			'guild_category' => 'Assembly',
+			'guild_subcategory' => 'Baron',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '87',
+			'county' => null,
+			'barony' => ''
+		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Winchester',
 			'guild_category' => 'Merchant',
@@ -3858,8 +3840,8 @@ class GuildSeeder extends Seeder
 		]);			
 		//Principality of Wales
 		//Cornwall
-		//
-		//
+		//Cornwall
+		//Launceston
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Assembly',
@@ -3870,7 +3852,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -3938,8 +3919,8 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Dyfed
-		//
-		//
+		//Carmarthenshire
+		//Carmarthen
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Assembly',
@@ -3973,10 +3954,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);	
 		//Gwent
-		//
-		//
+		//Monmouthshire
+		//Caerwent
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Gwent',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -3985,7 +3966,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4009,19 +3989,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
-		//
+		//Caernarvonshire
+		//Caernarfon
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Gwynedd',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '11',
 			'duchy' => '91',
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4045,10 +4024,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Powys
-		//
-		//
+		//Montgomeryshire
+		//Powis
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Powys',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4070,10 +4049,10 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Scotland
 		//Alba
-		//
-		//
+		//Perthshire
+		//Perth
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Alba',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4093,7 +4072,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Perthshire
 		//Ruthven
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Ruthven',
@@ -4113,7 +4091,7 @@ class GuildSeeder extends Seeder
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '12',
 			'duchy' => '94',
 			'county' => null,
 			'barony' => ''
@@ -4139,10 +4117,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Dalradia
-		//
-		//
+		//Argyll
+		//Dunadd
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Dalradia',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4163,10 +4141,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Fortriu
-		//
-		//
+		//Nairnshire
+		//Nairn
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Fortriu',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4187,10 +4165,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Galloway
-		//
-		//
+		//Wigtownshire
+		//Dunragit
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Galloway',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4211,10 +4189,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Gododdin
-		//
-		//
+		//Dumfriesshire
+		//Dumfries
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Gododdin',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4223,7 +4201,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4235,10 +4212,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Strathclyde
-		//
-		//
+		//Dunbartonshire
+		//Dunbarton
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Strathclyde',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4261,10 +4238,10 @@ class GuildSeeder extends Seeder
 		//Crown of Aragon
 		//Kingdom of Aragon
 		//Aragon
-		//
-		//
+		//Aragon
+		//Alcaniz
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Aragon',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4273,7 +4250,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4330,10 +4306,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Girona
-		//
-		//
+		//Girones
+		//Girona
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Girona',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4366,19 +4342,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Huesca
-		//
-		//
+		//Huesca
+		//Huesca
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Huesca',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '13',
 			'duchy' => '103',
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4390,10 +4365,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Lleida
-		//
-		//
+		//Lleida
+		//Lleida
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Lleida',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4402,7 +4377,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4449,10 +4423,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Teruel
-		//
-		//
+		//Teruel
+		//Teruel
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Teruel',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4461,7 +4435,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4473,10 +4446,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Zaragoza
-		//
-		//
+		//Zaragoza
+		//Zaragoza
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Zaragoza',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4485,7 +4458,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4498,10 +4470,10 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Navarre
 		//Alava
-		//
-		//
+		//Ayala
+		//Ayala
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Alava',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4522,8 +4494,8 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Gipuzcoa
-		//
-		//
+		//Donostialdea
+		//San Sebastian
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Assembly',
@@ -4534,7 +4506,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4553,7 +4524,7 @@ class GuildSeeder extends Seeder
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '14',
 			'duchy' => '110',
 			'county' => null,
 			'barony' => ''
@@ -4579,10 +4550,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Viscaya
-		//
-		//
+		//Bilbaoldea
+		//Bilbao
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Viscaya',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4591,7 +4562,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4605,10 +4575,10 @@ class GuildSeeder extends Seeder
 		//Crown of Castile
 		//Kingdom of Castile
 		//Avila
-		//
-		//
+		//Avila
+		//Avila
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Avila',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4617,7 +4587,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4629,10 +4598,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Burgos
-		//
-		//
+		//Burgos
+		//Burgos
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Burgos',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4641,7 +4610,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4668,7 +4636,7 @@ class GuildSeeder extends Seeder
 		//Campos
 		//Palencia
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Palencia',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4745,10 +4713,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Soria
-		//
-		//
+		//Soria
+		//Soria
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Soria',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4757,7 +4725,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4769,10 +4736,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Toledo
-		//
-		//
+		//Toledo
+		//Toledo
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Toledo',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4781,7 +4748,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4793,19 +4759,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Valladolid
-		//
-		//
+		//Valladolid
+		//Valladolid
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Valladolid',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '15',
 			'duchy' => '118',
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4845,11 +4810,11 @@ class GuildSeeder extends Seeder
 		//Santiago
 		//Santiago
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Santiago',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '16',
 			'duchy' => '119',
 			'county' => null,
 			'barony' => ''
@@ -4865,7 +4830,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Santiago',
 			'guild_category' => 'Merchant',
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
@@ -4875,10 +4840,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Lugo
-		//
-		//
+		//Lugo
+		//Lugo
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Lugo',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4887,7 +4852,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4911,10 +4875,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Ourense
-		//
-		//
+		//Ourense
+		//Ourense
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Ourense',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4923,7 +4887,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4935,10 +4898,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Pontevedra
-		//
-		//
+		//Pontevedra
+		//Pontevedra
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Pontevedra',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4947,7 +4910,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -4972,10 +4934,10 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
-		//
+		//Caceres
+		//Caceres
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Caceres',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -4984,7 +4946,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5003,7 +4964,7 @@ class GuildSeeder extends Seeder
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '17',
 			'duchy' => '124',
 			'county' => null,
 			'barony' => ''
@@ -5029,10 +4990,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Salamanca
-		//
-		//
+		//Salamanca
+		//Salamanca
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Salamanca',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5041,7 +5002,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5053,10 +5013,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Zamora
-		//
-		//
+		//Aliste
+		//Zamora
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Zamora',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5078,19 +5038,18 @@ class GuildSeeder extends Seeder
 		]);
 		//Principality of Asturias
 		//Asturias
-		//
-		//
+		//Oviedo
+		//Oviedo
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Asturias',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '18',
 			'duchy' => '127',
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5102,10 +5061,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Cantabria
-		//
-		//
+		//Santander
+		//Santander
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Cantabria',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5114,7 +5073,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5162,10 +5120,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Beira
-		//
-		//
+		//Coimbra
+		//Coimbra
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Beira',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5197,10 +5155,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Braganca
-		//
-		//
+		//Braganca
+		//Braganca
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Braganca',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5209,7 +5167,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5221,14 +5178,14 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Estremadura
-		//
-		//
+		//Lisboa
+		//Lisboa
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Estremadura',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '19',
 			'duchy' => '132',
 			'county' => null,
 			'barony' => ''

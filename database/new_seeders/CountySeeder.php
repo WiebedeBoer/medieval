@@ -8772,7 +8772,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Retz
 			//509
-			//pornic, paimboeuf, machecoul, bourgneuf
+			//pornic, paimboeuf, machecoul, bourgneuf, reze
             DB::table('counties')->insert([
 				'county_name' => 'Retz',
 				'county_category' => 'Feudal_Manor',
@@ -10324,7 +10324,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//599
-			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow
+			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow, caerwent
             DB::table('counties')->insert([
 				'county_name' => 'Monmouthshire',
 				'county_category' => 'Feudal_Manor',
@@ -10842,7 +10842,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//629
-			//wigtown, whithorn, cruggleton, fearn, glenluce
+			//wigtown, whithorn, cruggleton, fearn, glenluce, dunragit
             DB::table('counties')->insert([
 				'county_name' => 'Wigtownshire',
 				'county_category' => 'Feudal_Manor',
