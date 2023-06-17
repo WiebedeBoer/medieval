@@ -344,7 +344,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
             ]);				
@@ -3871,7 +3871,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);
@@ -7726,7 +7726,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Ducks'
             ]);
 			//448
-			//senlis, compiegne
+			//senlis, compiegne, ressons, gournay, bayencourt
             DB::table('counties')->insert([
 				'county_name' => 'Senlis',
 				'county_category' => 'Feudal_Manor',
@@ -7738,8 +7738,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//449
@@ -8474,7 +8474,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -9722,7 +9722,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Mid Anglia
 			//564
-			//bedford, elstow, flitwick, tilsworth
+			//bedford, elstow, flitwick, tilsworth, dunstable
             DB::table('counties')->insert([
 				'county_name' => 'Bedfordshire',
 				'county_category' => 'Feudal_Manor',
@@ -9734,8 +9734,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//565
@@ -9802,8 +9802,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//569
