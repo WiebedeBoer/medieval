@@ -89012,7 +89012,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'						
             ]);
 			//Norrland, Duchy = Temperate_Woodland
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Angermanland, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89091,7 +89091,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Gastrikland, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89170,7 +89170,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Pigs]
+			//Halsingland, County = [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89250,7 +89250,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
 			//Osterland, Duchy = Temperate_Woodland
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Aland, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89329,7 +89329,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
+			//Finland, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Turku',
@@ -89338,7 +89338,7 @@ class BaronySeeder extends Seeder
 				'ecclesiastical_liberty' => 'Cathedral',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'County_Court',	
+				'charter_castle' => 'Ducal_Court',	
 				'charter_assembly' => 'Senate_Hall',
 				'charter_cathedral' => 'Bishop',
 				'charter_market' => 'Market_Hall',
@@ -89356,7 +89356,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'						
             ]);
-			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
+			//Karelia, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89435,7 +89435,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Nyland, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89514,7 +89514,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Ostrobothnia, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89593,7 +89593,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Satakunta, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89672,7 +89672,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Savonia, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89751,7 +89751,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Tavastland, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89831,33 +89831,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
 			//Smaland, Duchy = Temperate_Woodland
-			//, County = [Sweetener_Honey] > [Pigs]
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => '',
-				'de_jure_county' => '842',
-				'population' => '',
-				'ecclesiastical_liberty' => 'Manse',
-				'monastic_liberty' => 'None',
-				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
-				'charter_assembly' => 'Senate_Hall',
-				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
-				'charter_rampart' => 'Stronghold',	
-				'charter_mint' => 'None',
-				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'None',
-				'charter_medical' => 'None',
-				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Apiary',
-				'marke_mining' => 'None',
-				'industry_transport' => '',
-				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
-            ]);	
+			//Oland, County = [Sweetener_Honey] > [Pigs]	
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89910,7 +89884,33 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Pigs] > [Beverage_Cider]
+			//Smaland, County = [Pigs] > [Beverage_Cider]
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Kalmar',
+				'de_jure_county' => '842',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Ducal_Court',	
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Pack_Horse',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vaxjo',
@@ -89930,15 +89930,15 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Apiary',
+				'marke_agriculture' => 'Marke_Cottar',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'						
             ]);
-			//Svaeland, Duchy = Temperate_Woodland
-			//, County = [Pigs]
+			//Svealand, Duchy = Temperate_Woodland
+			//Dalarna, County = [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -90017,7 +90017,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Narke, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -90096,7 +90096,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'							
             ]);	
-			//, County = [Cattle]
+			//Sodermanland, County = [Cattle]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Stockholm',

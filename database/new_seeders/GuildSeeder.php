@@ -5516,10 +5516,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Osterland
-		//
-		//
+		//Finland
+		//Turku
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Osterland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5539,10 +5539,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Smaland
-		//
-		//
+		//Smaland
+		//Kalmar
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Smaland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5562,14 +5562,14 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Svealand
-		//
-		//
+		//Sodermanland
+		//Stockholm
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Svealand',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '22',
 			'duchy' => '148',
 			'county' => null,
 			'barony' => ''
