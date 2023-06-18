@@ -1691,7 +1691,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//135
-			//Funen, Lolland, Sjaeland
+			//Funen, Lolland, Roskilde, Sjaeland, Soro
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sjaeland',
 				'duchy_category' => 'Feudal_Estate',

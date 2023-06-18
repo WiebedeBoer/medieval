@@ -5204,10 +5204,10 @@ class GuildSeeder extends Seeder
 		//Danelagen
 		//Kingdom of Denmark
 		//Jutland
-		//
-		//
+		//Slesvig
+		//Slesvig
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Jutland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5216,7 +5216,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5228,10 +5227,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Scania
-		//
-		//
+		//Scania
+		//Malmohus
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Scania',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5240,7 +5239,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5252,19 +5250,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Sjaeland
-		//
-		//
+		//Sjaeland
+		//Kobenhavn
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Sjaeland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '20',
 			'duchy' => '135',
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5277,10 +5274,10 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Norway
 		//Nordjor
-		//
-		//
+		//Orkney
+		//Kirkwall
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Nordjor',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5289,7 +5286,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5301,10 +5297,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Sodor
-		//
-		//
+		//Islay
+		//Dunyvaig
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Sodor',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5313,7 +5309,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5325,10 +5320,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Hedmark
-		//
-		//
+		//Hedmark
+		//Hamar
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Hedmark',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5337,7 +5332,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5349,7 +5343,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Oppland
-		//
+		//Trondelag
 		//Trondheim
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Oppland',
@@ -5372,10 +5366,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Rogaland
-		//
-		//
+		//Haugeland
+		//Avaldsnes
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Rogaland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5384,7 +5378,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5396,10 +5389,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Sorland
-		//
-		//
+		//Agder
+		//Oddernes
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Sorland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5408,7 +5401,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5453,19 +5445,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Viken
-		//
-		//
+		//Vingulmark
+		//Oslo
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Viken',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
-			'kingdom' => null,
+			'kingdom' => '21',
 			'duchy' => '143',
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5478,10 +5469,10 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Sweden
 		//Gotland
-		//
-		//
+		//Gotland
+		//Visby
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Gotland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5514,7 +5505,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5538,7 +5528,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5562,7 +5551,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
@@ -5586,7 +5574,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Chivalric',
