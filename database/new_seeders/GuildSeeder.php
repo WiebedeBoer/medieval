@@ -184,6 +184,60 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Toxandria',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '16',
+			'barony' => ''
+		]);
+		//Mierlo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Toxandria',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '16',
+			'barony' => ''
+		]);
+		//Heeswick
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Toxandria',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '16',
+			'barony' => ''
+		]);
+		//Herlaar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Toxandria',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '16',
+			'barony' => ''
+		]);
+		//Orthen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Toxandria',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '16',
+			'barony' => ''
+		]);
 		//Waasgau
 		//Ghent
 		DB::table('guilds')->insert([
@@ -397,6 +451,28 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);		
 		//Teisterbant
+		//Arkel
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Teisterbant',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '59',
+			'barony' => ''
+		]);
+		//Loevestein
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Teisterbant',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Deer_Hunt',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '59',
+			'barony' => ''
+		]);
 		//Gorcum
 		DB::table('guilds')->insert([
 			'guild_name' => 'Knights of Saint George',
@@ -516,6 +592,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Maasgau
+		//Valkenburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Teisterbant',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Falconer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '10',
+			'county' => '80',
+			'barony' => ''
+		]);
 		//Lorraine
 		//Toullois
 		//Nancy
@@ -633,6 +721,17 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '14',
 			'county' => null,
+			'barony' => ''
+		]);
+		//Tirol
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Norital',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Falconer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '14',
+			'county' => '104',
 			'barony' => ''
 		]);
 		//Swabia
