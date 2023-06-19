@@ -15,8 +15,8 @@ class GuildSeeder extends Seeder
 		//example
 		DB::table('guilds')->insert([
 			'guild_name' => '',					//total = guilds
-			'guild_category' => '',				//Assembly (318), Chivalric (318), Monastic (), Cleric (), Merchant (), Craft ()
-			'guild_subcategory' => '',			//Baron (283), Bishop (21), Patrician (14); Knight (), Crusader_Teutonic (), Crusader_Hospitaller, Crusader_Templar(); Monk_Catholic_Augustinian (), Monk_Catholic_Benedictine (), Monk_Catholic_Carmelite (), Monk_Catholic_Cistercian (), Monk_Catholic_Franciscan (), Monk_Orthodox_Greek (), Monk_Orthodox_Serbian (), Monk_Orthodox_Bulgarian (), Monk_Muslim_Sufi (); Cleric_Catholic (), Cleric_Orthodox_Greek (), Cleric_Orthodox_Serbian (), Cleric_Orthodox_Bulgarian (), Cleric_Muslim_Sunni (), Cleric_Muslim_Shia (); Merchant_Florin(162), Merchant_Bezant (3), Merchant_Dirham (3), Merchant_Dinar (5); Master_Smith (), Master_Tanner (), Master_Furrier (), Master_Potter ();
+			'guild_category' => '',				//Assembly (318), Chivalric (318), Monastic (), Cleric (), Merchant (), Craft (), Feast ()
+			'guild_subcategory' => '',			//Baron (283), Bishop (21), Patrician (14); Knight (), Crusader_Teutonic (), Crusader_Hospitaller, Crusader_Templar(); Monk_Catholic_Augustinian (), Monk_Catholic_Benedictine (), Monk_Catholic_Carmelite (), Monk_Catholic_Cistercian (), Monk_Catholic_Franciscan (), Monk_Orthodox_Greek (), Monk_Orthodox_Serbian (), Monk_Orthodox_Bulgarian (), Monk_Muslim_Sufi (); Cleric_Catholic (), Cleric_Orthodox_Greek (), Cleric_Orthodox_Serbian (), Cleric_Orthodox_Bulgarian (), Cleric_Muslim_Sunni (), Cleric_Muslim_Shia (); Merchant_Florin(162), Merchant_Bezant (3), Merchant_Dirham (3), Merchant_Dinar (5); Master_Smith (), Master_Tanner (), Master_Furrier (), Master_Potter (); Tavern (), Boar_Hunt (), Deer_Hunt (), Falconer ();
 			'empire' => '',						//default = null
 			'kingdom' => '',					//default = null
 			'duchy' => '',						//default = null
@@ -208,6 +208,17 @@ class GuildSeeder extends Seeder
 		]);		
 		//Carinthia
 		//Kroatengau
+		//Velden
+		DB::table('guilds')->insert([
+			'guild_name' => 'Alder Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '4',
+			'county' => '21',
+			'barony' => ''
+		]);		
 		//Sankt Veit
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Croatia',
@@ -220,6 +231,17 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Lurngau
+		//Villach
+		DB::table('guilds')->insert([
+			'guild_name' => 'Comrade Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '4',
+			'county' => '24',
+			'barony' => ''
+		]);	
 		//Millstatt
 		DB::table('guilds')->insert([
 			'guild_name' => 'Knights of Saint George',
@@ -256,6 +278,30 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Franconia
+		//Gollachgau
+		//Rotenburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Rotenburg',
+			'guild_category' => 'Merchant',
+			'guild_subcategory' => 'Merchant_Florin',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '6',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Sulmgau
+		//Hall
+		DB::table('guilds')->insert([
+			'guild_name' => 'Treasure Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '6',
+			'county' => '35',
+			'barony' => ''
+		]);	
 		//Waldsassengau
 		//Wurzburg
 		DB::table('guilds')->insert([
@@ -279,19 +325,19 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//Gollachgau
-		//Rotenburg
+		//Frisia
+		//Kennemerland
+		//Amsterdam
 		DB::table('guilds')->insert([
-			'guild_name' => 'Fair of Rotenburg',
-			'guild_category' => 'Merchant',
-			'guild_subcategory' => 'Merchant_Florin',
+			'guild_name' => 'Toll Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '6',
-			'county' => null,
+			'duchy' => '7',
+			'county' => '49',
 			'barony' => ''
-		]);
-		//Frisia
+		]);		
 		//Nifterlake
 		//Dorestadt
 		DB::table('guilds')->insert([
@@ -338,6 +384,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Rustringen
+		//Nordenham
+		DB::table('guilds')->insert([
+			'guild_name' => 'Farmers Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '56',
+			'barony' => ''
+		]);		
 		//Teisterbant
 		//Gorcum
 		DB::table('guilds')->insert([
