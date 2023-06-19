@@ -5493,10 +5493,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Norrland
-		//
-		//
+		//Angermanland
+		//Styresholm
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Norrland',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -5505,8 +5505,10 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Gastrikland
+		//Gavle
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Knights of Saint George',
 			'guild_category' => 'Chivalric',
 			'guild_subcategory' => 'Knight',
 			'empire' => null,

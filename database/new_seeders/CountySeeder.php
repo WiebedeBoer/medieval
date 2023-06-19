@@ -14337,7 +14337,7 @@ class CountySeeder extends Seeder
             ]);			
 			//Norrland
 			//831
-			//gudmund, sjalevads, arnas, anundsjo
+			//styresholm, sjalevads, arnas, anundsjo
             DB::table('counties')->insert([
 				'county_name' => 'Angermanland',
 				'county_category' => 'Feudal_Manor',
@@ -14366,8 +14366,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);				
 			//833
@@ -14383,8 +14383,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//Osterland
