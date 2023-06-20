@@ -15,8 +15,19 @@ class GuildSeeder extends Seeder
 		//example
 		DB::table('guilds')->insert([
 			'guild_name' => '',					//total = guilds
-			'guild_category' => '',				//Assembly (318), Chivalric (318), Monastic (), Cleric (), Merchant (), Craft (), Feast ()
-			'guild_subcategory' => '',			//Baron (283), Bishop (21), Patrician (14); Knight (), Crusader_Teutonic (), Crusader_Hospitaller, Crusader_Templar(); Monk_Catholic_Augustinian (), Monk_Catholic_Benedictine (), Monk_Catholic_Carmelite (), Monk_Catholic_Cistercian (), Monk_Catholic_Franciscan (), Monk_Orthodox_Greek (), Monk_Orthodox_Serbian (), Monk_Orthodox_Bulgarian (), Monk_Muslim_Sufi (); Cleric_Catholic (), Cleric_Orthodox_Greek (), Cleric_Orthodox_Serbian (), Cleric_Orthodox_Bulgarian (), Cleric_Muslim_Sunni (), Cleric_Muslim_Shia (); Merchant_Florin(162), Merchant_Bezant (3), Merchant_Dirham (3), Merchant_Dinar (5); Master_Smith (), Master_Tanner (), Master_Furrier (), Master_Potter (); Tavern (), Boar_Hunt (), Deer_Hunt (), Falconer ();
+			'guild_category' => '',				//Assembly (318), Chivalric (23), Monastic (13), Cleric (6), Merchant (177), Feast (359), Craft (4)
+			'guild_subcategory' => '',			//Baron (285), Bishop (19), Patrician (14); 
+												//Crusader_Teutonic (1), Crusader_Hospitaller (1), Crusader_Templar(1), Crusader_Common (9),
+												//Knight (11); 
+												//Monk_Catholic_Canon(5), Monk_Catholic_Mendicant (4), 
+												//Monk_Orthodox_Greek (1), Monk_Orthodox_Serbian (1), Monk_Orthodox_Bulgarian (1), 
+												//Monk_Muslim_Sufi (1); 
+												//Cleric_Catholic (1), 
+												//Cleric_Orthodox_Greek (1), Cleric_Orthodox_Serbian (1), Cleric_Orthodox_Bulgarian (1), 
+												//Cleric_Muslim_Sunni (1), Cleric_Muslim_Shia (1); 
+												//Merchant_Florin(165), Merchant_Bezant (4), Merchant_Dirham (3), Merchant_Dinar (5); 
+												//Master_Smith (2), Master_Tanner (2), Master_Furrier (0), Master_Potter (0); 
+												//Tournament (339), Tavern (5), Hunt_Boar (0), Hunt_Deer (11), Hunt_Falconer (4);
 			'empire' => '',						//default = null
 			'kingdom' => '',					//default = null
 			'duchy' => '',						//default = null
@@ -33,6 +44,429 @@ class GuildSeeder extends Seeder
 		//
 		*/
 		
+		//faiths
+		DB::table('guilds')->insert([
+			'guild_name' => 'Catholicism',
+			'guild_category' => 'Cleric',
+			'guild_subcategory' => 'Cleric_Catholic',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);		
+		DB::table('guilds')->insert([
+			'guild_name' => 'Greek Orthodox',
+			'guild_category' => 'Cleric',
+			'guild_subcategory' => 'Cleric_Orthodox_Greek',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Bulgarian Orthodox',
+			'guild_category' => 'Cleric',
+			'guild_subcategory' => 'Cleric_Orthodox_Bulgarian',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Serbian Orthodox',
+			'guild_category' => 'Cleric',
+			'guild_subcategory' => 'Cleric_Orthodox_Serbian',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Sunni Islam',
+			'guild_category' => 'Cleric',
+			'guild_subcategory' => 'Cleric_Muslim_Sunni',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Shia Islam',
+			'guild_category' => 'Cleric',
+			'guild_subcategory' => 'Cleric_Muslim_Shia',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		//monastic orders
+		DB::table('guilds')->insert([
+			'guild_name' => 'Augustinian Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Mendicant',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Carmelite Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Mendicant',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dominican Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Mendicant',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Franciscan Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Mendicant',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Benedictine Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Canon',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Carthusian Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Canon',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);		
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cistercian Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Canon',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Norbertine Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Canon',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Pauline Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Canon',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);			
+		DB::table('guilds')->insert([
+			'guild_name' => 'Greek Orthodox',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Orthodox_Greek',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Bulgarian Orthodox',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Orthodox_Bulgarian',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Serbian Orthodox',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Orthodox_Serbian',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);			
+		DB::table('guilds')->insert([
+			'guild_name' => 'Sufi Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Muslim_Sufi',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);			
+		//chivalric orders
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights Templar',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Templar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights Hospitaller',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Hospitaller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Teutonic Knights',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Teutonic',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);			
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Saint Anthony',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '1',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Saint Hubert',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '1',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Blessed Mary',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '2',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Jesus Christ',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '2',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Golden Fleece',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '4',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Holy Sepulchre',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '5',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Holy Ghost',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '7',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Star',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '7',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Saint Michael',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '7',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Ermine',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '8',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Garter',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '10',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);		
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Montesa',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '13',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Calatrava',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '15',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Band',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '15',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Santiago',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '16',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Alcantara',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '17',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Aviz',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Crusader_Common',
+			'empire' => null,
+			'kingdom' => '19',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);	
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Tower and the Sword',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '19',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);		
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of Saint George',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '25',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Knights of the Knot',
+			'guild_category' => 'Chivalric',
+			'guild_subcategory' => 'Knight',
+			'empire' => null,
+			'kingdom' => '28',
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
 		//Holy Roman Empire
 		//Kingdom of Germany
 		//Austria
@@ -49,9 +483,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Vienna',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '1',
@@ -84,21 +518,31 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Nuremberg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '2',
 			'county' => null,
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Nuremberg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '2',
+			'county' => '7',
+			'barony' => ''
+		]);
 		//Rottgau
 		//Passau
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Passau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '2',
@@ -119,13 +563,23 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Brussels',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
 			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Brussels',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '12',
 			'barony' => ''
 		]);
 		//Louvain
@@ -140,21 +594,33 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Louvain',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
 			'county' => null,
 			'barony' => ''
 		]);
+		//Haspengau
+		//Tongeren
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Tongeren',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '13',
+			'barony' => ''
+		]);
 		//Hennegau
 		//Valenciennes
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Valenciennes',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -163,13 +629,25 @@ class GuildSeeder extends Seeder
 		]);
 		//Mons
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Mons',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
 			'county' => null,
+			'barony' => ''
+		]);
+		//Kamerykgau
+		//Cambrai
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Cambrai',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '3',
+			'county' => '15',
 			'barony' => ''
 		]);
 		//Toxandria
@@ -187,7 +665,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Toxandria',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -198,7 +676,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Toxandria',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -209,7 +687,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Toxandria',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -220,7 +698,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Toxandria',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -231,7 +709,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Toxandria',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -251,9 +729,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Ghent',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -298,9 +776,9 @@ class GuildSeeder extends Seeder
 		]);	
 		//Millstatt
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Millstatt',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '4',
@@ -323,8 +801,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '5',
@@ -371,8 +849,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '6',
@@ -407,8 +885,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -429,9 +907,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Haag
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Haag',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -455,7 +933,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Teisterbant',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -466,7 +944,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Teisterbant',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Deer_Hunt',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -475,9 +953,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Gorcum
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Gorcum',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -512,8 +990,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '8',
@@ -548,8 +1026,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '9',
@@ -572,8 +1050,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '10',
@@ -597,7 +1075,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Teisterbant',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Falconer',
+			'guild_subcategory' => 'Hunt_Falconer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '10',
@@ -618,9 +1096,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Nancy',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -643,8 +1121,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '12',
@@ -679,8 +1157,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '13',
@@ -703,8 +1181,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '14',
@@ -727,7 +1205,18 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Norital',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Falconer',
+			'guild_subcategory' => 'Hunt_Falconer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '14',
+			'county' => '104',
+			'barony' => ''
+		]);
+		//Reifenstein
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Norital',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Falconer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '14',
@@ -743,15 +1232,15 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '14',
+			'duchy' => '15',
 			'county' => null,
 			'barony' => ''
 		]);
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -769,7 +1258,19 @@ class GuildSeeder extends Seeder
 			'duchy' => '15',
 			'county' => null,
 			'barony' => ''
-		]);		
+		]);	
+		//Schwerzgau
+		//Falkenstein
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Schwerzgau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Falconer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '15',
+			'county' => '116',
+			'barony' => ''
+		]);
 		//Thuringia
 		//Thuringgau
 		//Erfurt
@@ -786,8 +1287,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '16',
@@ -821,8 +1322,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '17',
@@ -849,6 +1350,38 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '17',
 			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Gronegau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '17',
+			'county' => '138',
+			'barony' => ''
+		]);
+		//Yburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Gronegau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '17',
+			'county' => '138',
+			'barony' => ''
+		]);
+		//Marienfeld
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Gronegau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '17',
+			'county' => '138',
 			'barony' => ''
 		]);
 		//Stormarngau
@@ -913,8 +1446,19 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '18',
+			'county' => null,
+			'barony' => ''
+		]);
+		//Pesch
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '18',
@@ -936,8 +1480,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '19',
@@ -982,8 +1526,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '20',
@@ -1052,9 +1596,9 @@ class GuildSeeder extends Seeder
 		]);
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Salzburg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '21',
@@ -1077,8 +1621,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '22',
@@ -1101,8 +1645,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '23',
@@ -1158,8 +1702,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '24',
@@ -1193,8 +1737,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '25',
@@ -1226,8 +1770,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '26',
@@ -1250,8 +1794,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '27',
@@ -1272,9 +1816,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Florence',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '28',
@@ -1318,8 +1862,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '29',
@@ -1351,8 +1895,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '30',
@@ -1375,8 +1919,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '31',
@@ -1398,8 +1942,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '32',
@@ -1454,8 +1998,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '33',
@@ -1487,8 +2031,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '34',
@@ -1521,8 +2065,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '35',
@@ -1578,8 +2122,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '36',
@@ -1648,8 +2192,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '37',
@@ -1717,8 +2261,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '38',
@@ -1774,8 +2318,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '39',
@@ -1810,8 +2354,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '40',
@@ -1857,8 +2401,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '41',
@@ -1890,9 +2434,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Dole
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Dole',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '42',
@@ -1914,8 +2458,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '43',
@@ -1927,8 +2471,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '44',
@@ -1972,8 +2516,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '45',
@@ -1996,8 +2540,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '46',
@@ -2030,8 +2574,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '47',
@@ -2065,8 +2609,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '48',
@@ -2088,8 +2632,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '49',
@@ -2112,8 +2656,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '50',
@@ -2158,8 +2702,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '51',
@@ -2182,8 +2726,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '52',
@@ -2218,8 +2762,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '53',
@@ -2254,8 +2798,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '54',
@@ -2278,8 +2822,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '55',
@@ -2301,8 +2845,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '56',
@@ -2348,9 +2892,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Angers',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '57',
@@ -2359,9 +2903,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Saumur
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Saumur',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '57',
@@ -2395,8 +2939,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '58',
@@ -2440,8 +2984,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '59',
@@ -2499,8 +3043,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '60',
@@ -2523,8 +3067,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '61',
@@ -2558,8 +3102,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '62',
@@ -2594,8 +3138,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '63',
@@ -2664,9 +3208,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Star',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Paris',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '64',
@@ -2675,9 +3219,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Ecouen
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Star',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Ecouen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '64',
@@ -2687,9 +3231,9 @@ class GuildSeeder extends Seeder
 		//Brie
 		//Lagny
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Star',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Lagny',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '64',
@@ -2733,9 +3277,9 @@ class GuildSeeder extends Seeder
 		//Senlis
 		//Ressons
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Star',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Ressons',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '64',
@@ -2744,9 +3288,9 @@ class GuildSeeder extends Seeder
 		]);	
 		//Gournay
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Star',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Gournay',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '64',
@@ -2768,8 +3312,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '65',
@@ -2826,8 +3370,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '66',
@@ -2895,9 +3439,9 @@ class GuildSeeder extends Seeder
 		//Flanders
 		//Bruges
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Bruges',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -2926,9 +3470,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Ypres',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -2947,9 +3491,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Lille',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -2968,9 +3512,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Douai',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -3001,9 +3545,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Golden Fleece',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Tournai',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -3048,8 +3592,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '68',
@@ -3129,9 +3673,9 @@ class GuildSeeder extends Seeder
 		//Foix
 		//Tarascon
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Tarascon',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '69',
@@ -3178,8 +3722,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '70',
@@ -3214,8 +3758,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '71',
@@ -3249,8 +3793,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '72',
@@ -3275,8 +3819,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '73',
@@ -3299,8 +3843,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '74',
@@ -3322,8 +3866,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '75',
@@ -3368,8 +3912,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '76',
@@ -3403,8 +3947,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '77',
@@ -3426,9 +3970,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Norwich',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '78',
@@ -3528,9 +4072,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Garter',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of London',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '79',
@@ -3539,9 +4083,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Kensington
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Garter',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Kensington',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '79',
@@ -3560,9 +4104,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Garter',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Westminster',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '79',
@@ -3585,8 +4129,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '80',
@@ -3608,8 +4152,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '81',
@@ -3654,8 +4198,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '82',
@@ -3745,8 +4289,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '83',
@@ -3757,9 +4301,9 @@ class GuildSeeder extends Seeder
 		//Bedfordshire
 		//Dunstable
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Dunstable',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -3769,9 +4313,9 @@ class GuildSeeder extends Seeder
 		//Cambridgeshire
 		//Cambridge
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Cambridge',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -3780,9 +4324,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Peterborough
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Peterborough',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -3802,9 +4346,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Northampton',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -3860,8 +4404,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '85',
@@ -3905,8 +4449,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '86',
@@ -3917,9 +4461,9 @@ class GuildSeeder extends Seeder
 		//Berkshire
 		//Windsor
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of the Garter',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Windsor',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '87',
@@ -4011,8 +4555,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '88',
@@ -4090,8 +4634,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '89',
@@ -4125,8 +4669,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '90',
@@ -4160,8 +4704,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '91',
@@ -4196,8 +4740,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '92',
@@ -4221,8 +4765,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '93',
@@ -4255,8 +4799,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '94',
@@ -4289,8 +4833,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '95',
@@ -4313,8 +4857,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '96',
@@ -4337,8 +4881,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '97',
@@ -4360,8 +4904,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '98',
@@ -4384,8 +4928,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '99',
@@ -4409,8 +4953,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '100',
@@ -4432,8 +4976,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '101',
@@ -4478,8 +5022,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '102',
@@ -4513,8 +5057,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '103',
@@ -4536,8 +5080,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '104',
@@ -4571,8 +5115,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '105',
@@ -4594,8 +5138,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '106',
@@ -4617,8 +5161,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '107',
@@ -4642,8 +5186,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '108',
@@ -4665,8 +5209,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '109',
@@ -4688,8 +5232,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '110',
@@ -4721,8 +5265,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '111',
@@ -4746,8 +5290,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '112',
@@ -4769,8 +5313,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '113',
@@ -4804,8 +5348,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '114',
@@ -4850,8 +5394,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '115',
@@ -4884,8 +5428,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '116',
@@ -4907,8 +5451,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '117',
@@ -4930,8 +5474,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '118',
@@ -4978,8 +5522,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '119',
@@ -5011,8 +5555,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '120',
@@ -5046,8 +5590,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '121',
@@ -5069,8 +5613,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '122',
@@ -5105,8 +5649,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '123',
@@ -5128,8 +5672,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '124',
@@ -5161,8 +5705,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '125',
@@ -5185,8 +5729,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '126',
@@ -5209,8 +5753,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '127',
@@ -5232,8 +5776,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '128',
@@ -5256,8 +5800,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '129',
@@ -5291,8 +5835,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '130',
@@ -5326,8 +5870,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '131',
@@ -5350,8 +5894,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '132',
@@ -5375,8 +5919,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '133',
@@ -5398,8 +5942,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '134',
@@ -5421,8 +5965,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '135',
@@ -5445,8 +5989,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '136',
@@ -5468,8 +6012,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '137',
@@ -5491,8 +6035,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '138',
@@ -5514,8 +6058,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '139',
@@ -5537,8 +6081,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '140',
@@ -5560,8 +6104,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '141',
@@ -5583,8 +6127,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '142',
@@ -5594,7 +6138,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Kontor of Bergen Tyskebryggen',
 			'guild_category' => 'Merchant',
-			'guild_subcategory' => 'Merchant Florin',
+			'guild_subcategory' => 'Merchant_Florin',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '142',
@@ -5616,8 +6160,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '143',
@@ -5641,8 +6185,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '144',
@@ -5665,9 +6209,9 @@ class GuildSeeder extends Seeder
 		//Gastrikland
 		//Gavle
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Gavle',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '145',
@@ -5689,8 +6233,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '146',
@@ -5712,8 +6256,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '147',
@@ -5735,8 +6279,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',
@@ -5761,8 +6305,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '149',
@@ -5785,8 +6329,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '150',
@@ -5809,8 +6353,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '151',
@@ -5833,8 +6377,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '152',
@@ -5856,8 +6400,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '153',
@@ -5890,8 +6434,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '154',
@@ -5914,8 +6458,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '155',
@@ -5938,8 +6482,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '156',
@@ -5961,8 +6505,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '157',
@@ -5995,8 +6539,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '158',
@@ -6019,8 +6563,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '159',
@@ -6044,8 +6588,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '160',
@@ -6068,8 +6612,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '161',
@@ -6092,8 +6636,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '162',
@@ -6128,8 +6672,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '163',
@@ -6154,8 +6698,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '164',
@@ -6178,9 +6722,9 @@ class GuildSeeder extends Seeder
 		//Esztergom
 		//Esztergom
 		DB::table('guilds')->insert([
-			'guild_name' => 'Knights of Saint George',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_name' => 'Tournament of Esztergom',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '165',
@@ -6203,8 +6747,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '166',
@@ -6227,8 +6771,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '167',
@@ -6251,8 +6795,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '168',
@@ -6275,8 +6819,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '169',
@@ -6300,8 +6844,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '170',
@@ -6323,8 +6867,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '171',
@@ -6347,8 +6891,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '172',
@@ -6370,8 +6914,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '173',
@@ -6393,8 +6937,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '174',
@@ -6418,8 +6962,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '175',
@@ -6452,8 +6996,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '176',
@@ -6476,8 +7020,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '177',
@@ -6500,8 +7044,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '178',
@@ -6524,8 +7068,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '179',
@@ -6548,8 +7092,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '180',
@@ -6573,8 +7117,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '181',
@@ -6597,8 +7141,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '182',
@@ -6620,8 +7164,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '183',
@@ -6644,8 +7188,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '184',
@@ -6668,8 +7212,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
@@ -6692,8 +7236,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '186',
@@ -6716,8 +7260,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '187',
@@ -6740,8 +7284,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '188',
@@ -6764,8 +7308,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '189',
@@ -6789,8 +7333,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '190',
@@ -6813,8 +7357,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '191',
@@ -6837,8 +7381,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '192',
@@ -6861,8 +7405,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '193',
@@ -6886,8 +7430,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -6920,8 +7464,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -6945,8 +7489,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -6969,8 +7513,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -6993,8 +7537,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7017,8 +7561,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7041,8 +7585,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7066,8 +7610,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7090,8 +7634,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7114,8 +7658,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7138,8 +7682,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7163,8 +7707,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7187,8 +7731,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7211,8 +7755,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7235,8 +7779,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7259,8 +7803,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7283,8 +7827,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7307,8 +7851,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7331,8 +7875,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7355,8 +7899,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7380,8 +7924,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7404,8 +7948,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7428,8 +7972,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7452,8 +7996,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7477,8 +8021,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7501,8 +8045,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7525,8 +8069,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7549,8 +8093,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7574,8 +8118,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7608,8 +8152,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7633,8 +8177,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7657,8 +8201,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7682,8 +8226,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7706,8 +8250,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7730,8 +8274,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7754,8 +8298,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7779,8 +8323,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7803,8 +8347,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7827,8 +8371,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7852,8 +8396,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7876,8 +8420,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7899,8 +8443,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7923,8 +8467,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7956,8 +8500,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -7979,8 +8523,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8015,8 +8559,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8039,8 +8583,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8064,8 +8608,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8088,8 +8632,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8114,8 +8658,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8139,8 +8683,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8165,8 +8709,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8189,8 +8733,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8213,8 +8757,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8237,8 +8781,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8261,8 +8805,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8285,8 +8829,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8309,8 +8853,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8333,8 +8877,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8357,8 +8901,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8382,8 +8926,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8406,8 +8950,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8430,8 +8974,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8467,8 +9011,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8491,8 +9035,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8527,8 +9071,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8551,8 +9095,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8574,8 +9118,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8610,8 +9154,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8634,8 +9178,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8658,8 +9202,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8683,8 +9227,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8707,8 +9251,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8731,8 +9275,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8756,8 +9300,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8780,8 +9324,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8804,8 +9348,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8828,8 +9372,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8852,8 +9396,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8877,8 +9421,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8901,8 +9445,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8925,8 +9469,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8949,8 +9493,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8973,8 +9517,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -8997,8 +9541,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9021,8 +9565,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9044,8 +9588,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9079,8 +9623,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9103,8 +9647,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9128,8 +9672,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9152,8 +9696,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9177,8 +9721,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9211,8 +9755,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9245,8 +9789,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9269,8 +9813,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9294,8 +9838,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9319,8 +9863,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9344,8 +9888,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9378,8 +9922,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9402,8 +9946,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9426,8 +9970,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9450,8 +9994,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9473,8 +10017,8 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9507,8 +10051,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9531,8 +10075,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9555,8 +10099,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9580,8 +10124,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9605,8 +10149,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9629,8 +10173,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9653,8 +10197,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9679,8 +10223,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9703,8 +10247,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9727,8 +10271,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9751,8 +10295,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9775,8 +10319,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9800,8 +10344,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9824,8 +10368,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9849,8 +10393,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9873,8 +10417,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9897,8 +10441,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9923,8 +10467,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9947,8 +10491,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -9960,7 +10504,7 @@ class GuildSeeder extends Seeder
 		//
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Isfahan',
 			'guild_category' => 'Assembly',
 			'guild_subcategory' => 'Baron',
 			'empire' => null,
@@ -9972,14 +10516,14 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
 			'county' => null,
 			'barony' => ''
-		]);	
+		]);
 		//Principality of Hormuz
 		//Hormuz
 		//
@@ -9997,8 +10541,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -10021,8 +10565,8 @@ class GuildSeeder extends Seeder
 		//
 		DB::table('guilds')->insert([
 			'guild_name' => '',
-			'guild_category' => 'Chivalric',
-			'guild_subcategory' => 'Knight',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',

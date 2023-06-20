@@ -22242,7 +22242,7 @@ class CountySeeder extends Seeder
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Karbala',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Sunni',
@@ -22255,7 +22255,24 @@ class CountySeeder extends Seeder
 				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
-            ]);				
+            ]);	
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Najaf',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Jazira',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_animal_poultry' => 'Ducks'
+            ]);			
 			//Syria
 			//Damascus
 			//
@@ -23206,6 +23223,23 @@ class CountySeeder extends Seeder
 			//isfahan
             DB::table('counties')->insert([
 				'county_name' => 'Isfahan',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_animal_poultry' => 'Chickens'
+            ]);
+			//
+			//qom
+            DB::table('counties')->insert([
+				'county_name' => 'Qom',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Shia',

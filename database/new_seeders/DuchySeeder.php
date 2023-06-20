@@ -3584,7 +3584,7 @@ class DuchySeeder extends Seeder
 			//Abbasid
 			//Baghdad
 			//
-			//Baghdad,
+			//Baghdad, Karbala, Najaf
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
 				'duchy_category' => 'Feudal_Estate',
@@ -3971,7 +3971,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Isfahan
 			//
-			//Isfahan,
+			//Isfahan, Qom
             DB::table('duchies')->insert([
 				'duchy_name' => 'Isfahan',
 				'duchy_category' => 'Feudal_Estate',
