@@ -3876,7 +3876,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//224
-			//arezzo, montevarchi, focognano, san nicolo
+			//arezzo, montevarchi, focognano, san nicolo, camaldoli
             DB::table('counties')->insert([
 				'county_name' => 'Arezzo',
 				'county_category' => 'Ecclesiastical_Manor',
