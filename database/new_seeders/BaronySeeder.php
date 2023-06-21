@@ -20390,32 +20390,6 @@ class BaronySeeder extends Seeder
             ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => 'San Gimignano',
-				'de_jure_county' => '211',
-				'population' => '',
-				'ecclesiastical_liberty' => 'Manse',
-				'monastic_liberty' => 'None',
-				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',	
-				'charter_assembly' => 'Senate_Hall',
-				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Square',
-				'charter_rampart' => 'Stronghold',	
-				'charter_mint' => 'None',
-				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'None',
-				'charter_medical' => 'None',
-				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'Coaching_Inn',
-				'marke_agriculture' => 'Marke_Vineyard',
-				'marke_mining' => 'None',
-				'industry_transport' => 'Pack_Horse',
-				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'								
-            ]);
-			//
-            DB::table('baronies')->insert([
 				'barony_name' => 'Corsignano',
 				'de_jure_county' => '211',
 				'population' => '',
@@ -21783,7 +21757,7 @@ class BaronySeeder extends Seeder
             ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => 'San Gimigano',
+				'barony_name' => 'San Gimignano',
 				'de_jure_county' => '223',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Manse',

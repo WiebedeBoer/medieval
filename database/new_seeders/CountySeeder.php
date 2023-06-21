@@ -3652,7 +3652,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Tuscany
 			//211
-			//siena, monteriggioni, san galgano, san gimignano, corsignano, monte oliveto, gaiole, castellina
+			//siena, monteriggioni, san galgano, corsignano, monte oliveto, gaiole, castellina
             DB::table('counties')->insert([
 				'county_name' => 'Siena',
 				'county_category' => 'Feudal_Manor',
@@ -3859,7 +3859,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Florence
 			//223
-			//florence, bagno, san gimigano
+			//florence, bagno, san gimignano
             DB::table('counties')->insert([
 				'county_name' => 'Florence',
 				'county_category' => 'Patrician_Manor',
