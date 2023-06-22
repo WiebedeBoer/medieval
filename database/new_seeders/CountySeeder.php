@@ -503,7 +503,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Carniola
 			//27
-			//laibach, zobelsberg
+			//laibach, zobelsberg, krainburg
             DB::table('counties')->insert([
 				'county_name' => 'Krainmark',
 				'county_category' => 'Feudal_Manor',
@@ -515,8 +515,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//28
@@ -532,7 +532,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Dye_Madder',						
-				'marke_animal_transport' => 'Dog_Cart',
+				'marke_animal_transport' => 'Donkey_Train',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_animal_poultry' => 'Chickens'
             ]);
