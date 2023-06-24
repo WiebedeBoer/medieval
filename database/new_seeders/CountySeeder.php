@@ -3997,7 +3997,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Noli
 			//231
-			//noli, savona, vado, albissola
+			//noli, savona, vado, albissola, varazze
             DB::table('counties')->insert([
 				'county_name' => 'Noli',
 				'county_category' => 'Patrician_Manor',
@@ -4009,7 +4009,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -4095,7 +4095,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
@@ -4130,7 +4130,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -4199,7 +4199,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -4234,7 +4234,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
@@ -4287,7 +4287,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_animal_poultry' => 'Chickens'
             ]);
@@ -4526,8 +4526,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//262
@@ -4578,8 +4578,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//265
@@ -4612,8 +4612,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//267
@@ -4927,7 +4927,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//285
-			//saint reine, chatellenot, chateauneuf, commarin
+			//saint reine, chatellenot, chateauneuf, commarin, fontette, montbard, avallon, saulieu
             DB::table('counties')->insert([
 				'county_name' => 'Auxois',
 				'county_category' => 'Feudal_Manor',
@@ -4990,7 +4990,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -5020,13 +5020,13 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Arpitan',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Oxen_Cart',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//291
 			//nevers, marais
@@ -5076,7 +5076,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Dog_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -5212,8 +5212,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//Transjurania
@@ -20272,7 +20272,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//
-			//cordoba
+			//cordoba, azahara, balma, santa cruz
             DB::table('counties')->insert([
 				'county_name' => 'Cordoba',
 				'county_category' => 'Feudal_Manor',
@@ -20281,13 +20281,61 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
-            ]);	
+            ]);
+			//rute, lucena, cabra
+            DB::table('counties')->insert([
+				'county_name' => 'Subbetica',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_animal_poultry' => 'Chickens'
+            ]);
+			//baena, qasira, espejo
+            DB::table('counties')->insert([
+				'county_name' => 'Baena',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_poultry' => 'Ducks'
+            ]);
+			//montilla, aguilar, montemayor
+            DB::table('counties')->insert([
+				'county_name' => 'Cordobesa',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',	
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_poultry' => 'Chickens'
+            ]);
 			//
 			//martos
             DB::table('counties')->insert([
