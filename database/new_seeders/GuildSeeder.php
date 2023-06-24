@@ -2737,6 +2737,16 @@ class GuildSeeder extends Seeder
 			'county' => '224',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Arezzo',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '28',
+			'county' => '224',
+			'barony' => ''
+		]);
 		//Perugia
 		//Perugia
 		DB::table('guilds')->insert([
@@ -2763,13 +2773,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Genoa',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '29',
-			'county' => null,
+			'county' => '228',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -2779,7 +2789,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '29',
-			'county' => null,
+			'county' => '228',
 			'barony' => ''
 		]);
 		//Lunigiana
@@ -2894,7 +2904,17 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '32',
-			'county' => null,
+			'county' => '238',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Pistoia',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '32',
+			'county' => '238',
 			'barony' => ''
 		]);
 		//Pescia
@@ -2905,7 +2925,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '32',
-			'county' => null,
+			'county' => '238',
 			'barony' => ''
 		]);	
 		//Pisa
@@ -3335,6 +3355,17 @@ class GuildSeeder extends Seeder
 		]);	
 		//Cisjurania
 		//Dauphine
+		//Grenoble
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Grenoble',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '41',
+			'county' => '293',
+			'barony' => ''
+		]);
 		//Voiron
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Voiron',
@@ -3343,7 +3374,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '41',
-			'county' => null,
+			'county' => '293',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([

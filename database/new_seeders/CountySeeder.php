@@ -3888,8 +3888,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//225
@@ -3957,12 +3957,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//229
-			//luni, pontremoli, bagnone, porto venere
+			//luni, pontremoli, bagnone, porto venere, volpiglione, castelpoggio
             DB::table('counties')->insert([
 				'county_name' => 'Lunigiana',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -5064,7 +5064,7 @@ class CountySeeder extends Seeder
             ]);		
 			//Cisjurania
 			//293
-			//grenoble, voiron, chartreuse
+			//grenoble, voiron, chartreuse, bayard
             DB::table('counties')->insert([
 				'county_name' => 'Dauphine',
 				'county_category' => 'Feudal_Manor',
