@@ -21,7 +21,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish
 				'vernacular_culture' => '',			//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian
 				'banal_moulin' => '',				//Watermill (90), Windmill (77), None (1179) = 1346
-				'banal_pressoir' => '',				//Beverage_Wine (192), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (15), Beverage_Gruit (127), Sweetener_Honey (186), Sweetener_Sugarcane (29), Sweetener_Date (38), None (661) = 1346
+				'banal_pressoir' => '',				//Beverage_Wine (198), Beverage_Cider (83), Beverage_Elder (15), Beverage_Hops (15), Beverage_Gruit (123), Olive_Oil (7), Sweetener_Honey (186), Sweetener_Sugarcane (25), Sweetener_Date (44), None (656) = 1346
 				'banal_chasse' => '',				//Falconry (9), Deer (50), Boar (31), Fur (6), None (1250) = 1346
 				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (29), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12), None (1081) = 1346
 				'marke_animal_transport' => '',		//Warhorse (210), Donkey_Train (423), Oxen_Cart (377), Dog_Cart (336) = 1346
@@ -5355,19 +5355,19 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//310
-			//viviers, saint andeol, saint martin, saint just, nyons, montelimar, vaison
+			//viviers, saint andeol, aigeuze, saint martin, saint just, nyons, montelimar, vaison
             DB::table('counties')->insert([
 				'county_name' => 'Vivarais',
 				'county_category' => 'Ecclesiastical_Manor',
 				'de_jure_duchy' => '43',
 				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_France',	
+				'vernacular_cycle' => 'Matter_France',
 				'vernacular_culture' => 'Occitan',
-				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_moulin' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_crops' => 'None',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -10301,8 +10301,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
             ]);
 			//Gwent
@@ -11691,7 +11691,7 @@ class CountySeeder extends Seeder
             ]);
 			//Navarre
 			//678
-			//estella, viana
+			//estella, viana, arroniz
             DB::table('counties')->insert([
 				'county_name' => 'Estella',
 				'county_category' => 'Feudal_Manor',
@@ -11700,7 +11700,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_culture' => 'Navarrese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
@@ -18920,12 +18920,12 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//Kievan Rus
-			//Kiev
-			//Kiev 
+			//Kyiv
+			//Kyiv 
 			//
-			//kiev, pechersk, chvastiv, vyshhorod, mezhyhirya, yuriiv, chernobyl
+			//kyiv, pechersk, chvastiv, vyshhorod, mezhyhirya, yuriiv, chernobyl
             DB::table('counties')->insert([
-				'county_name' => 'Kiev',
+				'county_name' => 'Kyiv',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -20151,7 +20151,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Arcos
 			//
-			//cadiz, arcos
+			//cadiz, arcos, olvera, alcala, espera, zahara, ubrique, bornos
             DB::table('counties')->insert([
 				'county_name' => 'Cadiz',
 				'county_category' => 'Feudal_Manor',
@@ -20160,7 +20160,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Donkey_Train',
@@ -20297,7 +20297,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Donkey_Train',
@@ -20313,7 +20313,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Warhorse',
@@ -20466,7 +20466,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Warhorse',
@@ -20673,7 +20673,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
 				'marke_animal_transport' => 'Donkey_Train',
@@ -21431,7 +21431,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
 				'marke_animal_transport' => 'Donkey_Train',

@@ -113,7 +113,7 @@ class EmpireSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'Palatial'
             ]);	
-			//11 //Kiev, Chernigov, Ruthenia, Vladimir, Smolensk, Novgorod
+			//11 //Kyiv, Chernigov, Ruthenia, Vladimir, Smolensk, Novgorod
             DB::table('empires')->insert([
 				'empire_name' => 'Kievan Russia', 
 				'empire_category' => 'Feudal_Empire',

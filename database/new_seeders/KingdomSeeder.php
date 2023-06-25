@@ -463,11 +463,11 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Itinerant'				
             ]);
 			//Kievan Rus
-			//Kiev
-			//Kiev, Pereyaslavl
+			//Kyiv
+			//Kyiv, Pereyaslavl
 			//36
             DB::table('kingdoms')->insert([
-				'kingdom_name' => 'Grand Principality of Kiev',
+				'kingdom_name' => 'Grand Principality of Kyiv',
 				'kingdom_category' => 'Feudal',
 				'flag' => 'kiev',
 				'de_jure_empire' => '11',			

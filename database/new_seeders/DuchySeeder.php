@@ -41,7 +41,7 @@ class DuchySeeder extends Seeder
 			
 			Half_Timbered_Fachwerk 	[Germany,Denmark]			=	wattle daub	wall	sash window		whitewashed, crossed timber beams			tiled sloped roof		grey tiles
 			Half_Timbered_Studded 	[England,France]			=	wattle daub	wall	sash window		whitewashed, studded timber beams			tiled sloped roof		orange tiles
-			Half_Timbered_Khata 	[Kiev,Poland,Hungary]		=	wattle daub	wall	sash window		whitewashed									tatched sloped roof		tatch
+			Half_Timbered_Khata 	[Kyiv,Poland,Hungary]		=	wattle daub	wall	sash window		whitewashed									tatched sloped roof		tatch
 			Half_Timbered_Konak		[Bulgaria,Trebizond]		=	wattle daub	wall	mashrabiya 		whitewashed	 								tiled sloped roof		orange tiles
 			Log_Chalet	 			[Burgundy,Austria,Croatia]	=	timber logs wall	sash window		timber, loggia								tiled sloped roof		grey tiles
 			Log_Stave				[Norway,Sweden]				=  	timber logs wall	sash window		timber, loggia								tatched sloped roof		tatch
@@ -336,7 +336,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'			
             ]);	
 			//24 
-			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Torino, Vercelli, Vigevano
+			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Turino, Vercelli, Vigevano
             DB::table('duchies')->insert([
 				'duchy_name' => 'Piedmont',
 				'duchy_category' => 'Ecclesiastical_Estate',
@@ -432,7 +432,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//32 
-			//Lucca, Pistoja
+			//Lucca, Pistoia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lucca',
 				'duchy_category' => 'Burgher_Estate',
@@ -2766,11 +2766,11 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//Kievan Rus
-			//Kiev
+			//Kyiv
 			//
-			//Kiev, Bratslav, Cherkasy, Korosten
+			//Kyiv, Bratslav, Cherkasy, Korosten
             DB::table('duchies')->insert([
-				'duchy_name' => 'Kiev',
+				'duchy_name' => 'Kyiv',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '36',	
 				'law_succession' => 'Agnatic_Seniority',
@@ -2931,7 +2931,7 @@ class DuchySeeder extends Seeder
 			//Tver, Galich, Kostroma, Pereslavl, Rostov, Yaroslavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tver',
-				'duchy_category' => 'Ecclesiastical_Estate',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '40',	
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
