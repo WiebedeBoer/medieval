@@ -5488,7 +5488,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -5522,7 +5522,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -5539,7 +5539,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
@@ -5678,7 +5678,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -5695,7 +5695,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Ducks'
             ]);	
