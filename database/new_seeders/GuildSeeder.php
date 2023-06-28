@@ -6053,13 +6053,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament  of Danzig',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '53',
-			'county' => '',
+			'county' => '359',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -6070,6 +6070,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '53',
 			'county' => '359',
+			'barony' => ''
+		]);
+		//Butow
+		//Butow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Butow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '360',
 			'barony' => ''
 		]);
 		//Dirschau
@@ -6114,6 +6126,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Putzig',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '365',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Putzig',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '53',
@@ -6202,6 +6224,18 @@ class GuildSeeder extends Seeder
 			'county' => '376',
 			'barony' => ''
 		]);
+		//Koslin
+		//Koslin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Koslin',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '378',
+			'barony' => ''
+		]);
 		//Schivelbein
 		//Schivelbein
 		DB::table('guilds')->insert([
@@ -6239,13 +6273,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Stettin',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '54',
-			'county' => '',
+			'county' => '383',
 			'barony' => ''
 		]);
 		//Brandenburg
