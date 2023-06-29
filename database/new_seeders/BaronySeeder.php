@@ -36404,7 +36404,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Tithe_Barn'								
             ]);
 			//Brandenburg, Duchy = Temperate_Woodland
-			//Havelland, County = [Pigs] > [Beverage_Cider]
+			//Havelland, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Brandenburg',
@@ -36423,10 +36423,10 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Cathedral_School',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'								
@@ -36450,7 +36450,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -37107,7 +37107,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -37160,7 +37160,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -37504,7 +37504,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -37557,7 +37557,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -37854,7 +37854,7 @@ class BaronySeeder extends Seeder
 				'industry_storage' => 'Warehouse_Quarter'							
             ]);
 			//Aquitaine, Duchy = Temperate_Woodland
-			//Bordelais, County = [Beverage_Wine] > [Cattle] 
+			//Bordelais, County = [Beverage_Wine] > [Cattle]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Bordeaux',
@@ -38399,7 +38399,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',			
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
