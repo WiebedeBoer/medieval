@@ -7070,7 +7070,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -7161,7 +7161,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Berry
 			//415
-			//bourges, meillant, massay
+			//bourges, meillant, massay, saint gildas, chateauroux, issoudun
             DB::table('counties')->insert([
 				'county_name' => 'Berry',
 				'county_category' => 'Feudal_Manor',
@@ -7173,8 +7173,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//416
@@ -7225,8 +7225,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);		
 			//Gascony
@@ -7448,7 +7448,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -8061,7 +8061,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
