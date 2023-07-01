@@ -7974,7 +7974,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'None',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
@@ -8010,10 +8010,10 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//465
@@ -8027,7 +8027,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Frankish',
 				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Dog_Cart',
 				'marke_animal_husbandry' => 'Pigs',
@@ -8046,8 +8046,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Dog_Cart',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//467
