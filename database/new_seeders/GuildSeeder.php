@@ -9347,6 +9347,18 @@ class GuildSeeder extends Seeder
 			'county' => '549',
 			'barony' => ''
 		]);
+		//Winchcombeshire
+		//Winchcombe
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Winchcombe',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '80',
+			'county' => '550',
+			'barony' => ''
+		]);
 		//Worcestershire
 		//Worcester
 		DB::table('guilds')->insert([
@@ -9359,14 +9371,15 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Malvern
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Forest of Worcestershire',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '80',
-			'county' => '',
+			'county' => '551',
 			'barony' => ''
 		]);
 		//Kent
@@ -9527,6 +9540,27 @@ class GuildSeeder extends Seeder
 			'county' => '556',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Leicester',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '556',
+			'barony' => ''
+		]);
+		//Belvoir
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Leicestershire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '556',
+			'barony' => ''
+		]);
 		//Breedon
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -9551,19 +9585,30 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Lincoln',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '82',
-			'county' => '',
+			'county' => '557',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Guild of Lincoln',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Dyer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '557',
+			'barony' => ''
+		]);
+		//Bourne
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Lincolnshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '82',
@@ -9591,6 +9636,16 @@ class GuildSeeder extends Seeder
 			'county' => '557',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Stamford',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '557',
+			'barony' => ''
+		]);
 		//Tattershall
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -9603,11 +9658,33 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Nothinghamshire
+		//Nottingham
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Nothinghamshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '558',
+			'barony' => ''
+		]);
 		//Newark
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Newark',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '558',
+			'barony' => ''
+		]);
+		//Rufford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Nothinghamshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '82',
@@ -9804,18 +9881,41 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '83',
-			'county' => '',
-			'barony' => ''
-		]);
 		//Mid Anglia
 		//Bedfordshire
+		//Bedford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Bedfordshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '564',
+			'barony' => ''
+		]);
+		//Elstow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Bedfordshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '564',
+			'barony' => ''
+		]);
+		//Flitwick
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Bedfordshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '82',
+			'county' => '564',
+			'barony' => ''
+		]);
 		//Tilsworth
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -10006,11 +10106,32 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Cumberland
+		//Carlisle
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Carlisle',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '572',
+			'barony' => ''
+		]);
 		//Appleby
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Appleby',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '572',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Appleby',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '85',
@@ -10063,6 +10184,17 @@ class GuildSeeder extends Seeder
 			'county' => '574',
 			'barony' => ''
 		]);
+		//Ecclesfield
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Hallamshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '574',
+			'barony' => ''
+		]);
 		//Howdenshire
 		//Asselby
 		DB::table('guilds')->insert([
@@ -10087,7 +10219,41 @@ class GuildSeeder extends Seeder
 			'county' => '577',
 			'barony' => ''
 		]);
+		//Lancashire
+		//Clitheroe
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Lancashire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '578',
+			'barony' => ''
+		]);
+		//Sawley
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Lancashire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '578',
+			'barony' => ''
+		]);
 		//Richmondshire
+		//Richmond
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Richmond',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '579',
+			'barony' => ''
+		]);
 		//Wensley
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
