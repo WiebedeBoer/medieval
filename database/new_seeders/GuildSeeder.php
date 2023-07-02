@@ -8461,6 +8461,40 @@ class GuildSeeder extends Seeder
 			'county' => '501',
 			'barony' => ''
 		]);
+		//Dol
+		//Dol
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Dol',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '70',
+			'county' => '502',
+			'barony' => ''
+		]);
+		//Combourg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Combourg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '70',
+			'county' => '502',
+			'barony' => ''
+		]);
+		//Saint Malo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Saint Malo',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '70',
+			'county' => '502',
+			'barony' => ''
+		]);
 		//Leon
 		//Morlaix
 		DB::table('guilds')->insert([
@@ -8485,18 +8519,19 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Domnonee
+		//Penthievre
+		//Saint Brieuc
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Saint Brieuc',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '70',
-			'county' => '',
+			'duchy' => '71',
+			'county' => '506',
 			'barony' => ''
 		]);
-		//Domnonee
-		//Penthievre
 		//Guingamp
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Domnonee',
@@ -8509,13 +8544,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Guingamp',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '71',
-			'county' => null,
+			'county' => '506',
 			'barony' => ''
 		]);
 		//Chatelaudren
@@ -8539,8 +8574,40 @@ class GuildSeeder extends Seeder
 			'county' => '506',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Chatelaudren',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '71',
+			'county' => '506',
+			'barony' => ''
+		]);
 		//Retz
 		//Retz
+		//Pornic
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Retz',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '509',
+			'barony' => ''
+		]);
+		//Machecoul
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Machecoul',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '509',
+			'barony' => ''
+		]);
 		//Reze
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Retz',
@@ -8553,13 +8620,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Reze',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '72',
-			'county' => '',
+			'county' => '509',
 			'barony' => ''
 		]);
 		//Nantais
@@ -8574,12 +8641,43 @@ class GuildSeeder extends Seeder
 			'county' => '510',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Nantes',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '510',
+			'barony' => ''
+		]);
 		//Rennais
+		//Rennes
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Rennes',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '511',
+			'barony' => ''
+		]);
 		//Fougeres
 		DB::table('guilds')->insert([
 			'guild_name' => 'Guild of Fougeres',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '511',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Rennais',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '72',
@@ -8602,13 +8700,24 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Galway',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '73',
-			'county' => '',
+			'county' => '512',
+			'barony' => ''
+		]);
+		//Tuam
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Tuam',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '73',
+			'county' => '512',
 			'barony' => ''
 		]);
 		//Leinster
@@ -8624,16 +8733,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '74',
-			'county' => '',
-			'barony' => ''
-		]);
 		//Kildare
 		//Moone
 		DB::table('guilds')->insert([
@@ -8646,29 +8745,44 @@ class GuildSeeder extends Seeder
 			'county' => '517',
 			'barony' => ''
 		]);
-		//Meath
-		//Meath
-		//Tara
+		//Wexford
+		//Wexford
 		DB::table('guilds')->insert([
-			'guild_name' => 'Court of Meath',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => '9',
-			'duchy' => '75',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Wexford',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '75',
-			'county' => '',
+			'duchy' => '74',
+			'county' => '522',
 			'barony' => ''
 		]);
+		//Wicklow
+		//Wicklow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Wicklow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '74',
+			'county' => '523',
+			'barony' => ''
+		]);
+		//Kindlestown
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Wicklow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '74',
+			'county' => '523',
+			'barony' => ''
+		]);
+		//Meath
+		//Dublin
+		//Dublin
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Dublin',
 			'guild_category' => 'Feast',
@@ -8687,6 +8801,28 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '75',
 			'county' => '524',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Dublin',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '75',
+			'county' => '524',
+			'barony' => ''
+		]);
+		//Meath
+		//Tara
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Meath',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => '9',
+			'duchy' => '75',
+			'county' => null,
 			'barony' => ''
 		]);
 		//Munster
@@ -8726,13 +8862,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Cork',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '76',
-			'county' => '',
+			'county' => '529',
 			'barony' => ''
 		]);
 		//Buttevant
@@ -8744,6 +8880,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '76',
 			'county' => '529',
+			'barony' => ''
+		]);
+		//Kerry
+		//Killarney
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Killarney',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '76',
+			'county' => '530',
+			'barony' => ''
+		]);
+		//Aghadoe
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Aghadoe',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '76',
+			'county' => '530',
 			'barony' => ''
 		]);
 		//Limerick
@@ -8772,16 +8931,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '77',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'University of Armagh',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar',
@@ -8789,6 +8938,28 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '77',
 			'county' => '533',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Armagh',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '77',
+			'county' => '533',
+			'barony' => ''
+		]);
+		//Derry
+		//Derry
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Derry',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '77',
+			'county' => '535',
 			'barony' => ''
 		]);
 		//Kingdom of England
@@ -8820,6 +8991,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'University of Thetford',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '78',
+			'county' => '543',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Thetford',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '78',
@@ -8892,11 +9073,42 @@ class GuildSeeder extends Seeder
 			'county' => '544',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lowestoft',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '78',
+			'county' => '544',
+			'barony' => ''
+		]);
+		//Dunwich
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Dunwich',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '78',
+			'county' => '544',
+			'barony' => ''
+		]);
 		//Sudbury
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Sudbury',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '78',
+			'county' => '544',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Sudbury',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '78',
