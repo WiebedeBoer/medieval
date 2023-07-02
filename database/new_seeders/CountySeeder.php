@@ -10025,7 +10025,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);
@@ -10184,7 +10184,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//591
-			//guildford, woking, farnham, wallington, brixton, waverley
+			//guildford, woking, farnham, wallington, brixton, waverley, northolt
             DB::table('counties')->insert([
 				'county_name' => 'Surrey',
 				'county_category' => 'Feudal_Manor',
@@ -10307,7 +10307,7 @@ class CountySeeder extends Seeder
             ]);
 			//Gwent
 			//598
-			//candleston, coity, kenfig, newcastle, cardiff, neath, llantrisant, llandaff, ewenny, penrhys
+			//candleston, coity, kenfig, newcastle, cardiff, neath, llantrisant, llandaff, ewenny, penrhys, saint donats
             DB::table('counties')->insert([
 				'county_name' => 'Glamorganshire',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -10319,7 +10319,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -10388,7 +10388,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -10440,7 +10440,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);
@@ -10578,7 +10578,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -10681,7 +10681,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -10699,7 +10699,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Oxen_Cart',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
