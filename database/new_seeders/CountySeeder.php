@@ -11009,7 +11009,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',		
 				'vernacular_culture' => 'Aragonese',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
 				'marke_animal_transport' => 'Oxen_Cart',
@@ -11235,8 +11235,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
             ]);
 			//652
@@ -11424,7 +11424,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -11459,8 +11459,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Donkey_Train',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_transport' => 'Warhorse',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//665
@@ -11473,7 +11473,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_culture' => 'Catalan',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
 				'marke_animal_transport' => 'Donkey_Train',
@@ -11494,7 +11494,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);	
@@ -11563,7 +11563,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Donkey_Train',
+				'marke_animal_transport' => 'Warhorse',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Chickens'
             ]);						
