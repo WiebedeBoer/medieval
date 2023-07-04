@@ -423,7 +423,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -449,7 +449,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Isengau, County = [Pigs] 
 			//
@@ -476,7 +476,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -502,7 +502,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Nordgau, County = [Warhorse] [Cattle] >[Beverage_Hops]
 			//
@@ -529,7 +529,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -555,7 +555,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -581,7 +581,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -607,7 +607,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Radenzgau, County = [Pigs] 
 			//
@@ -634,7 +634,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -660,7 +660,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Rottgau, County = [Warhorse] [Cattle] >[Beverage_Hops] 
 			//
@@ -687,7 +687,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -713,7 +713,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -739,7 +739,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Schweinachgau, County = [Pigs] 
 			//
@@ -766,7 +766,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -792,7 +792,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -818,7 +818,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Westergau, County = [Pigs] >[Beverage_Hops] 
 			//
@@ -845,7 +845,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -871,7 +871,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -897,7 +897,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//Brabant, Duchy = Temperate_Marshland
 			//Brabant, County = [Warhorse] [Cattle]
@@ -925,7 +925,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -978,7 +978,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1004,7 +1004,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1030,7 +1030,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1056,7 +1056,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1082,7 +1082,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Hennegau, County = [Warhorse] [Cattle]
 			//
@@ -1109,7 +1109,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1135,7 +1135,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1161,7 +1161,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1187,7 +1187,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Kamerykgau, County = [Pigs]
 			//
@@ -1214,7 +1214,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1240,7 +1240,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Toxandria, County = [Sheep] > [Beverage_Cider]
 			//
@@ -1267,7 +1267,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1293,7 +1293,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1319,7 +1319,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1345,7 +1345,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1371,7 +1371,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1397,7 +1397,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1423,7 +1423,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1449,7 +1449,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1475,7 +1475,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1501,7 +1501,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1527,7 +1527,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1553,7 +1553,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1579,7 +1579,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1605,7 +1605,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1631,7 +1631,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Waasgau, County = [Warhorse] [ Sheep] > [Beverage_Gruit]
 			//
@@ -1658,7 +1658,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1684,7 +1684,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1710,7 +1710,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1736,7 +1736,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1762,7 +1762,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1788,7 +1788,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1814,7 +1814,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Carinthia, Duchy = Temperate_Woodland
 			//Hengistgau, County = [Cattle] > [Beverage_Elder]
@@ -1842,7 +1842,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1868,7 +1868,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Ingeringtal, County = [Cattle] > [Beverage_Elder]
 			//
@@ -1895,7 +1895,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -1921,7 +1921,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Jauntal, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -1948,7 +1948,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -1974,7 +1974,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -2000,7 +2000,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Kroatengau, County = [Goats] > [Beverage_Elder]
 			//
@@ -2027,7 +2027,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2053,7 +2053,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2079,7 +2079,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -2131,7 +2131,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Lavanttal, County = [Cattle] > [Beverage_Elder]
 			//
@@ -2158,7 +2158,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2184,7 +2184,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Leobental, County = [Cattle] > [Beverage_Elder]
 			//
@@ -2211,7 +2211,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2237,7 +2237,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Lurngau, County = [Warhorse] [Cattle] > [Beverage_Elder]
 			//
@@ -2502,7 +2502,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2554,7 +2554,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Histria, County = [Beverage_Wine] > [Goats] 
 			//
@@ -2581,7 +2581,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Dyer_Madder',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2607,7 +2607,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2633,7 +2633,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2659,7 +2659,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2685,7 +2685,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Franconia, Duchy = Temperate_Woodland
 			//Grabfeld, County = [Cattle] 
@@ -2713,7 +2713,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2739,7 +2739,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2765,7 +2765,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -2896,7 +2896,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2949,7 +2949,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -2975,7 +2975,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Jagstgau, County = [Cattle]
 			// 
@@ -3002,7 +3002,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3028,7 +3028,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Saalgau, County = [Cattle]
 			// 
@@ -3055,7 +3055,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3081,7 +3081,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Sualafeld, County = [Cattle]
 			// 
@@ -3108,7 +3108,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3134,7 +3134,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Sulmgau, County = [Beverage_Wine] > [Pigs] 
 			//
@@ -3161,7 +3161,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3187,7 +3187,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3213,7 +3213,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3239,7 +3239,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3265,7 +3265,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3291,7 +3291,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//Taubergau, County = [Cattle] 
 			//
@@ -3318,7 +3318,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3344,7 +3344,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Waldsassengau, County = [Warhorse] [Cattle] > [Beverage_Wine] 
 			//
@@ -3371,7 +3371,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3397,7 +3397,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -3423,7 +3423,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Frisia, Duchy = Temperate_Marshland
 			//Ammergau, County = [Warhorse] [Cattle] > [Beverage_Cider]
@@ -3451,7 +3451,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -3477,7 +3477,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -8859,7 +8859,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Toullois, County =  [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -12172,7 +12172,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12198,7 +12198,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12224,7 +12224,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Zurichgau, County = [Cattle]
 			//
@@ -12251,7 +12251,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12277,7 +12277,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12303,7 +12303,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Thuringia, Duchy = Temperate_Woodland
 			//Thuringgau, County = [Goats]
@@ -12331,7 +12331,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12357,7 +12357,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12383,7 +12383,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12435,7 +12435,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12858,7 +12858,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12884,7 +12884,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12910,7 +12910,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12936,7 +12936,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -12962,7 +12962,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Zwickaugau, County = [Goats]
 			//
@@ -12989,7 +12989,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -13015,7 +13015,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Bremen, Duchy = Temperate_Marshland
 			//Largau, County = [Pigs]
@@ -16120,7 +16120,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16146,7 +16146,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -16882,7 +16882,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Ufgau, County = [Cattle]
 			// 
@@ -16909,7 +16909,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -16935,7 +16935,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Wettergau, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
@@ -27813,7 +27813,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -27866,7 +27866,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -27892,7 +27892,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -27918,7 +27918,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Maconnais, County = [Beverage_Wine] > [Cattle] 
 			//
@@ -27945,7 +27945,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -27971,7 +27971,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -27997,7 +27997,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -28023,7 +28023,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -28049,7 +28049,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Nivernais, County = [Warhorse] [Cattle] 
 			//
@@ -28841,7 +28841,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -28867,7 +28867,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -28893,7 +28893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Transjurania, Duchy = Temperate_Shrubland
 			//Amosenais, County = [Warhorse] [Cattle] > [Beverage_Gruit] 
@@ -29370,7 +29370,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -29396,7 +29396,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -29422,7 +29422,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Venaissin, County = [Beverage_Wine] > [Cattle]
 			//
@@ -29449,7 +29449,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -29501,7 +29501,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -29527,7 +29527,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -29553,7 +29553,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -29579,7 +29579,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Vivarais, County = [Warhorse] [Sheep] > [Olive_Oil]
 			// 
@@ -29816,7 +29816,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -29842,7 +29842,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Arles, County = [Warhorse] [Cattle] > [Beverage_Wine] 
 			//
@@ -29869,7 +29869,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -29895,7 +29895,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -29921,7 +29921,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Baux, County = [Beverage_Wine] > [Sheep] 
 			//
@@ -30079,7 +30079,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -30105,7 +30105,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Nice, County = [Beverage_Wine] > [Sheep] 
 			//
@@ -30132,7 +30132,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -30158,7 +30158,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -30184,7 +30184,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -30210,7 +30210,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -30236,7 +30236,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -30262,7 +30262,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			// 
             DB::table('baronies')->insert([
@@ -30288,7 +30288,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -30314,7 +30314,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			// 
             DB::table('baronies')->insert([
@@ -30340,7 +30340,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Toulon, County = [Beverage_Wine] > [Sheep] 
 			//
@@ -37327,7 +37327,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37353,7 +37353,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37379,7 +37379,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37405,7 +37405,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Maine, County = [Warhorse] [Cattle] 
 			//
@@ -37616,7 +37616,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37642,7 +37642,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37668,7 +37668,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37694,7 +37694,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37720,7 +37720,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37746,7 +37746,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37772,7 +37772,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//Vendomois, County = [Cattle] 
 			//
@@ -37799,7 +37799,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37825,7 +37825,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37851,7 +37851,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37877,7 +37877,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Aquitaine, Duchy = Temperate_Woodland
 			//Bordelais, County = [Beverage_Wine] > [Cattle]
@@ -37905,7 +37905,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37931,7 +37931,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -37957,7 +37957,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Agenais, County = [Beverage_Wine] > [Cattle] 
 			//
@@ -37984,7 +37984,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38010,7 +38010,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38036,7 +38036,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Angoumois, County = [Cattle] 
 			//
@@ -38063,7 +38063,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Dyer_Saffron',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38089,7 +38089,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38115,7 +38115,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Bazadais, County = [Beverage_Wine] > [Cattle] 
 			//
@@ -38142,7 +38142,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38168,7 +38168,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38194,7 +38194,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38220,7 +38220,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -38246,7 +38246,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Limousin, County = [Cattle] 
 			//
@@ -39959,7 +39959,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -39985,7 +39985,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40011,7 +40011,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Comminges, County = [Beverage_Gruit] > [Cattle] [Donkey_Train]
 			//
@@ -40143,7 +40143,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40169,7 +40169,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Dax, County = [Cattle] [Donkey_Train]
 			//
@@ -40222,7 +40222,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40248,7 +40248,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Fezensac, County = [Warhorse] [Cattle] 
 			//
@@ -40801,7 +40801,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40827,7 +40827,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40853,7 +40853,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40879,7 +40879,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Duesmois 
 			//
@@ -40906,7 +40906,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40932,7 +40932,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40958,7 +40958,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -40984,7 +40984,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Langres, County = [Cattle] 
 			//
@@ -41011,7 +41011,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -41037,7 +41037,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Meaux, County = [Beverage_Wine] > [Cattle]
 			//
@@ -41641,7 +41641,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -41667,7 +41667,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Francia, Duchy = Temperate_Marshland
 			//Pay de France, County = [Warhorse] [Cattle] 
@@ -43558,7 +43558,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -43584,7 +43584,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -43610,7 +43610,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -43636,7 +43636,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Coutances, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
@@ -43663,7 +43663,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43689,7 +43689,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43715,7 +43715,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43741,7 +43741,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43767,7 +43767,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43793,7 +43793,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -43819,7 +43819,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43845,7 +43845,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43871,7 +43871,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43897,7 +43897,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43923,7 +43923,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -43949,7 +43949,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Evreux, County = [Cattle] [Donkey_Train]
 			//
@@ -44028,7 +44028,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -44501,7 +44501,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -44527,7 +44527,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -44553,7 +44553,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -44579,7 +44579,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Blaisois, County = [Beverage_Wine] > [Sheep] 
 			//
@@ -45185,7 +45185,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45211,7 +45211,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -45237,7 +45237,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -45263,7 +45263,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -45289,7 +45289,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -45315,7 +45315,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Amienois, County = [Cattle] 
 			//
@@ -45342,7 +45342,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45368,7 +45368,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45394,7 +45394,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45420,7 +45420,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45446,7 +45446,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45472,7 +45472,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45498,7 +45498,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Boulenois, County = [Warhorse] [Cattle] 
 			//
@@ -45525,7 +45525,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -45551,7 +45551,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Flanders, County = [Warhorse] [Cattle] 
 			//
@@ -45813,7 +45813,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -45839,7 +45839,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -45865,7 +45865,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Laonnais, County = [Warhorse] [Cattle] > [Beverage_Wine] 
 			//
@@ -46550,7 +46550,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46576,7 +46576,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46602,7 +46602,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46628,7 +46628,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46654,7 +46654,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46680,7 +46680,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46706,7 +46706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -46732,7 +46732,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Aunis, County = [Pigs] [Donkey_Train]
 			//
@@ -48070,7 +48070,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48096,7 +48096,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48122,7 +48122,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48148,7 +48148,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -48174,7 +48174,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Melgueil, County = [Beverage_Wine] > [Pigs] [Donkey_Train]
 			//
@@ -48227,7 +48227,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -48253,7 +48253,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Millau, County = [Beverage_Wine] > [Cattle] [Donkey_Train]
 			//
@@ -48438,7 +48438,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			// 
             DB::table('baronies')->insert([
@@ -48491,7 +48491,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Dyer_Saffron',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48517,7 +48517,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48543,7 +48543,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -48569,7 +48569,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48595,7 +48595,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48621,7 +48621,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48647,7 +48647,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -48673,7 +48673,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Rouergue, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
 			//
@@ -50543,7 +50543,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -50621,7 +50621,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -50674,7 +50674,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -50778,7 +50778,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Leinster, Duchy = Temperate_Woodland
 			//Carlow, County = [Cattle] 
@@ -50806,7 +50806,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -50884,7 +50884,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -50963,7 +50963,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -50989,7 +50989,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -51015,7 +51015,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -51067,7 +51067,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51093,7 +51093,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51119,7 +51119,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51145,7 +51145,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51171,7 +51171,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51197,7 +51197,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51223,7 +51223,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Kilkenny, County = [Sheep] > [Beverage_Cider]
 			//
@@ -51250,7 +51250,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -51354,7 +51354,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51432,7 +51432,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -51458,7 +51458,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51484,7 +51484,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51510,7 +51510,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Leix, County = [Sheep] 
 			//
@@ -51537,7 +51537,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -51563,7 +51563,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -51667,7 +51667,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Tipperary, County = [Cattle] > [Beverage_Cider]
 			//
@@ -51798,7 +51798,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -51851,7 +51851,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51877,7 +51877,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51903,7 +51903,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51929,7 +51929,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51955,7 +51955,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -51981,7 +51981,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -52007,7 +52007,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Wexford, County = [Cattle]
 			//
@@ -52086,7 +52086,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -52138,7 +52138,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -52611,7 +52611,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52637,7 +52637,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52663,7 +52663,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52689,7 +52689,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52715,7 +52715,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52741,7 +52741,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52767,7 +52767,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -52793,7 +52793,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -52819,7 +52819,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53789,7 +53789,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53815,7 +53815,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53841,7 +53841,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53867,7 +53867,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53893,7 +53893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -53919,7 +53919,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Armagh, County = [Warhorse] [Sheep] > [Beverage_Cider]
 			//
@@ -54574,7 +54574,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54600,7 +54600,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Fermanagh, County = [Sheep] 
 			//
@@ -54758,7 +54758,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54784,7 +54784,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Louth, County = [Cattle]
 			//
@@ -54811,7 +54811,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54837,7 +54837,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54863,7 +54863,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54889,7 +54889,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54915,7 +54915,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -54941,7 +54941,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Monaghan, County = [Sheep] 
 			//
@@ -55206,7 +55206,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55232,7 +55232,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55258,7 +55258,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55284,7 +55284,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55310,7 +55310,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -55336,7 +55336,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56331,7 +56331,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56357,7 +56357,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56383,7 +56383,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56409,7 +56409,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56435,7 +56435,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56461,7 +56461,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56487,7 +56487,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Warwickshire, County = [Warhorse] [Cattle] >[Beverage_Hops]
 			//
@@ -56514,7 +56514,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56540,7 +56540,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56566,7 +56566,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56592,7 +56592,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56618,7 +56618,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56644,7 +56644,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56670,7 +56670,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//Winchcombeshire, County = [Warhorse] [Cattle]
 			//
@@ -56697,7 +56697,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56723,7 +56723,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56749,7 +56749,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Worcestershire, County = [Pigs] > [Beverage_Cider]
 			//
@@ -56776,7 +56776,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56802,7 +56802,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56828,7 +56828,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56854,7 +56854,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56880,7 +56880,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Kent, Duchy = Temperate_Marshland
 			//Aylesfordshire, County = [Pigs] >[Beverage_Hops]
@@ -56908,7 +56908,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56934,7 +56934,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -56960,7 +56960,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -56986,7 +56986,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57012,7 +57012,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57038,7 +57038,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57064,7 +57064,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57090,7 +57090,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Kent, County = [Warhorse] [Sheep] > [Beverage_Cider]
 			//
@@ -57117,7 +57117,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57143,7 +57143,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57169,7 +57169,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57195,7 +57195,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57221,7 +57221,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//Shepwayshire, County = [Pigs]
 			//
@@ -57248,7 +57248,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57274,7 +57274,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57300,7 +57300,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57326,7 +57326,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Lindsey, Duchy = Temperate_Woodland
 			//Derbyshire, County = [Warhorse] [Cattle]
@@ -57354,7 +57354,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57380,7 +57380,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57406,7 +57406,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57432,7 +57432,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57458,7 +57458,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57484,7 +57484,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Leicestershire, County = [Warhorse] [Cattle]
 			//
@@ -57511,7 +57511,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57537,7 +57537,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57563,7 +57563,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57589,7 +57589,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57615,7 +57615,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Lincolnshire, County = [Warhorse] [Cattle]
 			//
@@ -57642,7 +57642,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Dyer_Woad',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57668,7 +57668,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57694,7 +57694,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57720,7 +57720,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57746,7 +57746,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57772,7 +57772,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57798,7 +57798,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57824,7 +57824,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57850,7 +57850,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57876,7 +57876,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57902,7 +57902,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57928,7 +57928,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Nothinghamshire, County = [Pigs] > [Beverage_Cider]
 			//
@@ -57955,7 +57955,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -57981,7 +57981,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58007,7 +58007,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58033,7 +58033,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58059,7 +58059,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58085,7 +58085,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Rutland, County = [Pigs]
 			//
@@ -58112,7 +58112,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58138,7 +58138,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58164,7 +58164,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Mercia, Duchy = Temperate_Woodland
 			//Cheshire, County = [Cattle] > [Beverage_Cider]
@@ -58192,7 +58192,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58218,7 +58218,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58244,7 +58244,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58270,7 +58270,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58296,7 +58296,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58322,7 +58322,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58348,7 +58348,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58374,7 +58374,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -58400,7 +58400,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -58426,7 +58426,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//Herefordshire, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
@@ -58453,7 +58453,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58479,7 +58479,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58505,7 +58505,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58531,7 +58531,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58557,7 +58557,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58583,7 +58583,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Shropshire, County = [Cattle]
 			//
@@ -58610,7 +58610,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58636,7 +58636,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58662,7 +58662,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58688,7 +58688,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58714,7 +58714,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -58740,7 +58740,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Staffordshire, County = [Goats]
 			//
@@ -59213,7 +59213,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -59239,7 +59239,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -59291,7 +59291,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -59317,7 +59317,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -59343,7 +59343,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Huntingdonshire, County = [Cattle]
 			//
@@ -59684,7 +59684,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -59710,7 +59710,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -65819,7 +65819,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -65845,7 +65845,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -65871,7 +65871,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -65897,7 +65897,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -65923,7 +65923,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -65949,7 +65949,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -65975,7 +65975,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66001,7 +66001,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66027,7 +66027,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//Forfarshire, County = [Cattle]
 			//
@@ -66211,7 +66211,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66263,7 +66263,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66289,7 +66289,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Kinrossshire, County = [Sheep] > [Beverage_Cider]
 			//
@@ -66316,7 +66316,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66342,7 +66342,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66368,7 +66368,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Perthshire, County = [Cattle] > [Beverage_Cider]
 			//
@@ -66395,7 +66395,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66421,7 +66421,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66447,7 +66447,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66473,7 +66473,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66499,7 +66499,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66525,7 +66525,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66551,7 +66551,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66577,7 +66577,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -66603,7 +66603,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66629,7 +66629,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66655,7 +66655,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Bernicia, Duchy = Temperate_Woodland
 			//Berwickshire, County = [Sheep]
@@ -66683,7 +66683,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66709,7 +66709,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66735,7 +66735,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66761,7 +66761,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66787,7 +66787,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Edinburghshire, County = [Sheep] > [Beverage_Cider]
 			//
@@ -66814,7 +66814,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66840,7 +66840,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -66866,7 +66866,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -66892,7 +66892,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -66918,7 +66918,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66944,7 +66944,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -66970,7 +66970,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Haddingtonshire, County = [Sheep]
 			//
@@ -67284,7 +67284,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67310,7 +67310,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Stirlingshire, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
@@ -67389,7 +67389,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -67495,7 +67495,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67521,7 +67521,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67573,7 +67573,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67625,7 +67625,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67678,7 +67678,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67704,7 +67704,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Mann, County = [Beverage_Gruit] > [Sheep]
 			//
@@ -67731,7 +67731,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -67757,7 +67757,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -67783,7 +67783,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67809,7 +67809,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -67835,7 +67835,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -67861,7 +67861,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67887,7 +67887,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -67913,7 +67913,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Fortriu, Duchy = Temperate_Shrubland
 			//Cromartyshire, County = [Beverage_Gruit] > [Sheep]
@@ -70673,7 +70673,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70699,7 +70699,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70725,7 +70725,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70751,7 +70751,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Smith',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -70777,7 +70777,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70803,7 +70803,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Maresme, County = [Beverage_Wine] > [Pigs] [Donkey_Train]
 			//
@@ -70830,7 +70830,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70856,7 +70856,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70882,7 +70882,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -70908,7 +70908,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Osona, County = [Warhorse] [Cattle]
 			//
@@ -70935,7 +70935,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70961,7 +70961,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -70987,7 +70987,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -71013,7 +71013,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -71039,7 +71039,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71065,7 +71065,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Valles, County = [Pigs] [Donkey_Train]
 			//
@@ -71092,7 +71092,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71118,7 +71118,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71144,7 +71144,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71170,7 +71170,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71196,7 +71196,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71222,7 +71222,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71248,7 +71248,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71274,7 +71274,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71300,7 +71300,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71326,7 +71326,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71352,7 +71352,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -71378,7 +71378,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Girona, Duchy = Mediterranean_Woodland
 			//Cerdanya, County = [Cattle] [Donkey_Train]
@@ -74523,7 +74523,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'					
             ]);
-			//Uribe, County = [Beverage_Gruit] > [Pigs] [Donkey_Train]
+			//Uribe, County = [Warhorse] [Cattle] > [Beverage_Gruit]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Arrigorriaga',
@@ -74543,9 +74543,9 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'Iron',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'					
@@ -74568,7 +74568,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -74579,7 +74579,7 @@ class BaronySeeder extends Seeder
 			//Castile, Empire
 			//Castile, Kingdom
 			//Avila, Duchy = Steppe
-			//Avila, County = [Sheep] [Donkey_Train]
+			//Avila, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Avila',
@@ -74598,8 +74598,8 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Jewry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -74625,7 +74625,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -74651,7 +74651,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -74677,7 +74677,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -74703,7 +74703,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -75150,7 +75150,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -75176,7 +75176,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -75202,7 +75202,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -75254,7 +75254,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -75288,7 +75288,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -75314,7 +75314,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Dyer_Madder',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -75340,7 +75340,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -75366,7 +75366,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -75392,9 +75392,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
-			//Cerrato, County = [Sheep] [Donkey_Train]
+			//Cerrato, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Palenzuela',
@@ -75414,12 +75414,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75440,12 +75440,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75466,12 +75466,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Valdivia, County = [Sheep] [Donkey_Train]
 			//
@@ -75498,7 +75498,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75524,7 +75524,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75550,7 +75550,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75576,7 +75576,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Segovia, Duchy = Steppe
 			//Coca, County = [Sheep] [Donkey_Train]
@@ -75604,7 +75604,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75630,7 +75630,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75656,7 +75656,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75682,7 +75682,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Riaza, County = [Sheep] [Donkey_Train]
 			//
@@ -75709,7 +75709,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75735,7 +75735,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75761,9 +75761,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
-			//Segovia, County = [Sheep] [Donkey_Train]
+			//Segovia, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Segovia',
@@ -75782,13 +75782,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Jewry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Yeoman',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75809,12 +75809,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75835,12 +75835,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75861,12 +75861,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Sepulveda, County = [Sheep] [Donkey_Train]
 			//
@@ -75893,7 +75893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75919,7 +75919,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Soria, Duchy = Steppe
 			//Almazan, County = [Sheep] [Donkey_Train]
@@ -75947,7 +75947,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75973,7 +75973,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -75999,7 +75999,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76025,7 +76025,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76051,7 +76051,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Berlanga, County = [Sheep] [Donkey_Train]
 			//
@@ -76078,7 +76078,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76104,7 +76104,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Gomara, County = [Sheep] [Donkey_Train]
 			//
@@ -76131,7 +76131,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76157,7 +76157,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76183,7 +76183,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76209,7 +76209,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76235,9 +76235,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
-			//Osma, County = [Sheep] [Donkey_Train]
+			//Osma, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Osma',
@@ -76256,13 +76256,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -76283,12 +76283,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76309,12 +76309,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Soria, County = [Pigs] [Donkey_Train]
 			//
@@ -76341,7 +76341,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Armoury'							
+				'industry_storage' => 'Armoury'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -76367,7 +76367,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76393,7 +76393,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76419,7 +76419,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76445,7 +76445,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Toledo, Duchy = Steppe
 			//Jara, County = [Sweetener_Honey] > [Sheep] [Donkey_Train]
@@ -76473,7 +76473,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76499,7 +76499,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -76525,7 +76525,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Madrid, County = [Cattle] [Donkey_Train]
 			//
@@ -76578,7 +76578,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//Ocana, County = [Sweetener_Honey] > [Sheep] [Donkey_Train]
 			//
@@ -76605,7 +76605,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76631,7 +76631,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//Sagra, County = [Sheep] [Donkey_Train]
 			//
@@ -76658,7 +76658,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -76684,7 +76684,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -76710,7 +76710,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76736,7 +76736,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76762,7 +76762,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -76788,7 +76788,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Talavera, County = [Sheep] [Donkey_Train]
 			//
@@ -76815,7 +76815,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -76841,7 +76841,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76862,12 +76862,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
-				'industry_guild' => 'None',
+				'industry_guild' => 'Guild_Dyer_Saffron',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -76893,7 +76893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -76919,7 +76919,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Toledo, County = [Beverage_Wine] [Sheep] [Donkey_Train]
 			//
@@ -76972,7 +76972,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -76998,7 +76998,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77022,9 +77022,9 @@ class BaronySeeder extends Seeder
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
-				'industry_guild' => 'None',
+				'industry_guild' => 'Guild_Dyer_Saffron',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77050,7 +77050,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77076,7 +77076,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77102,7 +77102,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77126,9 +77126,9 @@ class BaronySeeder extends Seeder
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
-				'industry_guild' => 'None',
+				'industry_guild' => 'Guild_Tanner',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77154,9 +77154,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
-			//Torrijos, County = [Sheep] [Donkey_Train]
+			//Torrijos, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Torrijos',
@@ -77175,13 +77175,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Jewry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77202,12 +77202,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Jewry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -77228,12 +77228,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77254,12 +77254,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77280,12 +77280,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -77306,12 +77306,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Vegas, County = [Sheep] [Donkey_Train]
 			//
@@ -77338,7 +77338,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77364,7 +77364,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -77390,7 +77390,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Valladolid, Duchy = Steppe
 			//Esgueva, County = [Sheep] [Donkey_Train]
@@ -77418,7 +77418,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77444,7 +77444,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77470,7 +77470,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77496,7 +77496,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77522,7 +77522,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77548,7 +77548,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77574,7 +77574,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Medina, County = [Sheep] [Donkey_Train]
 			//
@@ -77601,7 +77601,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77627,7 +77627,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77653,7 +77653,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77679,7 +77679,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Pinares, County = [Sheep] [Donkey_Train]
 			//
@@ -77706,7 +77706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77732,7 +77732,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -77758,7 +77758,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77784,7 +77784,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -77810,7 +77810,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//Penafiel, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
 			//
@@ -77837,7 +77837,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77863,7 +77863,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -77889,9 +77889,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
-			//Pisuerga, County = [Sheep] [Donkey_Train]
+			//Pisuerga, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Valladolid',
@@ -77910,8 +77910,8 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Monastic_School',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Jewry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
@@ -77937,12 +77937,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77963,12 +77963,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -77989,12 +77989,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78015,12 +78015,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -78041,12 +78041,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Jewry_Plots',
 				'quarter_suburb' => 'Coaching_Inn',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78067,12 +78067,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78093,12 +78093,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Rioseco, County = [Sheep] [Donkey_Train]
 			//
@@ -78125,7 +78125,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78151,7 +78151,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -78177,7 +78177,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//Galicia, Kingdom	
 			//Coruna, Duchy = Temperate_Shrubland
@@ -78232,7 +78232,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78258,7 +78258,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78284,7 +78284,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78310,7 +78310,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Eume, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -78337,7 +78337,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -78363,7 +78363,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78389,7 +78389,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Ferrol, County = [Warhorse] [Cattle] > [Beverage_Gruit]
 			//
@@ -78416,7 +78416,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78442,7 +78442,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -78468,7 +78468,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Santiago, County = [Beverage_Gruit] > [Cattle]
 			//
@@ -78521,7 +78521,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -78547,7 +78547,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Trastamara, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -78574,7 +78574,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78600,7 +78600,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -78626,7 +78626,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78652,7 +78652,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Lugo, Duchy = Temperate_Shrubland
 			//Lugo, County = [Warhorse] [Cattle] > [Beverage_Gruit]
@@ -78706,7 +78706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78732,7 +78732,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78758,7 +78758,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//Marina, County = [Warhorse] [Cattle] > [Beverage_Gruit]
 			//
@@ -78785,7 +78785,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78811,7 +78811,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -78837,7 +78837,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78863,7 +78863,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -78883,13 +78883,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Meira, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -78916,7 +78916,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -78942,7 +78942,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -78968,7 +78968,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Sarria, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -78995,7 +78995,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79021,7 +79021,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79047,7 +79047,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Ulloa, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -79074,7 +79074,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79100,7 +79100,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Ourense, Duchy = Temperate_Shrubland
 			//Carballino, County = [Beverage_Gruit] > [Pigs]
@@ -79128,7 +79128,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79154,7 +79154,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -79180,7 +79180,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Celanova, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -79207,7 +79207,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79233,7 +79233,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Ourense, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -79280,7 +79280,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -79312,7 +79312,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79332,7 +79332,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Vineyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -79358,13 +79358,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Valdeorras, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -79391,7 +79391,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79417,7 +79417,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79443,7 +79443,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Viana, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -79470,7 +79470,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79496,7 +79496,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Pontevedra, Duchy = Temperate_Shrubland
 			//Caldas, County = [Beverage_Gruit] > [Pigs]
@@ -79524,7 +79524,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79550,7 +79550,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79576,7 +79576,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Pontevedra, County = [Warhorse] [Cattle] > [Beverage_Gruit]
 			//
@@ -79597,7 +79597,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'Gold',
 				'industry_transport' => 'Pack_Horse',
@@ -79629,9 +79629,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
-			//, County = [Beverage_Gruit] > [Pigs]
+			//Vigo, County = [Beverage_Gruit] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Vigo',
@@ -79682,8 +79682,8 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
-            ]);			
+				'industry_storage' => 'Granary'
+            ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tuy',
@@ -79734,7 +79734,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79760,7 +79760,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79786,7 +79786,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Leon, Kingdom
 			//Caceres, Duchy = Mediterranean_Woodland
@@ -79815,7 +79815,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -79841,7 +79841,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79867,7 +79867,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);					
 			//
             DB::table('baronies')->insert([
@@ -79893,7 +79893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79919,7 +79919,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79945,7 +79945,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -79971,9 +79971,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
-			//Caceres, County = [Goats] [Donkey_Train]
+			//Caceres, County = [Warhorse] [Goats]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Caceres',
@@ -79992,13 +79992,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Jewry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80019,12 +80019,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -80045,12 +80045,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80071,12 +80071,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80097,12 +80097,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -80123,12 +80123,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);					
 			//Plasencia, County = [Beverage_Wine] > [Goats] [Donkey_Train]
 			//
@@ -80207,7 +80207,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80233,7 +80233,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80259,7 +80259,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80285,7 +80285,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80311,7 +80311,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Trujillo, County = [Goats] [Donkey_Train]
 			//
@@ -80338,7 +80338,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80364,7 +80364,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -80390,7 +80390,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Leon, Duchy = Temperate_Shrubland
 			//Astorga, County = [Warhorse] [Cattle] > [Beverage_Gruit]
@@ -80444,7 +80444,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -80470,7 +80470,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Baneza, County = [Warhorse] [Cattle] > [Beverage_Gruit]
 			//
@@ -80497,7 +80497,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -80517,13 +80517,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80543,13 +80543,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80569,13 +80569,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -80601,7 +80601,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80627,7 +80627,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Bierzo, County = [Beverage_Wine] > [Pigs] [Donkey_Train]
 			//
@@ -80654,7 +80654,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -80680,7 +80680,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80706,7 +80706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -80732,7 +80732,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80758,7 +80758,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -80784,7 +80784,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -80810,7 +80810,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -80836,7 +80836,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Leon, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -80889,7 +80889,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80915,7 +80915,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80941,7 +80941,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -80961,13 +80961,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Sahagun, County = [Beverage_Gruit] > [Pigs] [Donkey_Train]
 			//
@@ -80994,7 +80994,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81020,7 +81020,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -81046,7 +81046,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Salamanca, Duchy = Steppe
 			//Alba, County = [Sheep] [Donkey_Train]
@@ -81074,7 +81074,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81100,7 +81100,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81126,7 +81126,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81152,7 +81152,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81178,7 +81178,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -81204,7 +81204,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81230,7 +81230,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Cantalapiedra, County = [Sheep] [Donkey_Train]
 			//
@@ -81257,7 +81257,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81283,7 +81283,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81309,7 +81309,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -81335,7 +81335,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Guijuelo, County = [Sheep] [Donkey_Train]
 			//
@@ -81362,7 +81362,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81388,7 +81388,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81414,7 +81414,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Ledesma, County = [Pigs] [Donkey_Train]
 			//
@@ -81441,7 +81441,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81467,7 +81467,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -81493,7 +81493,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81519,7 +81519,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Penaranda, County = [Sheep] [Donkey_Train]
 			//
@@ -81546,7 +81546,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81598,7 +81598,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -81624,7 +81624,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Rodrigo, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -81677,7 +81677,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81703,7 +81703,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Dyer_Madder',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81729,7 +81729,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81755,7 +81755,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81781,7 +81781,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81807,7 +81807,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81833,7 +81833,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81859,7 +81859,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81885,7 +81885,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -81911,7 +81911,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81937,7 +81937,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -81963,7 +81963,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Salamanca, County = [Pigs] [Donkey_Train]
 			//
@@ -82016,7 +82016,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82042,7 +82042,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82068,7 +82068,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82094,7 +82094,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82120,7 +82120,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82146,7 +82146,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82172,7 +82172,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Vitigudino, County = [Sheep] [Donkey_Train]
 			//
@@ -82199,7 +82199,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82225,7 +82225,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82251,7 +82251,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82277,7 +82277,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82303,7 +82303,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82329,7 +82329,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82355,7 +82355,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82381,7 +82381,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82407,7 +82407,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82433,7 +82433,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82459,7 +82459,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -82485,7 +82485,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82511,7 +82511,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Zamora, Duchy = Steppe
 			//Aliste, County = [Pigs] [Donkey_Train]
@@ -82565,7 +82565,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82591,7 +82591,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82617,7 +82617,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82643,7 +82643,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//, County = [Sheep] [Donkey_Train]
 			//
@@ -82670,7 +82670,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82696,7 +82696,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82722,7 +82722,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82748,7 +82748,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82774,7 +82774,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Guarena, County = [Sheep] [Donkey_Train]
 			//
@@ -82801,7 +82801,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82827,7 +82827,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82853,7 +82853,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Sanabria, County = [Cattle] [Donkey_Train]
 			//
@@ -82880,7 +82880,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82906,7 +82906,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -82932,7 +82932,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -82958,7 +82958,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -82984,7 +82984,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83010,7 +83010,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83036,7 +83036,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83062,7 +83062,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Sayago, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
 			//
@@ -83089,7 +83089,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83115,7 +83115,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83141,7 +83141,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -83167,7 +83167,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83193,7 +83193,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83219,9 +83219,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
-			//Tabara, County = [Sheep] [Donkey_Train]
+			//Tabara, County = [Warhorse] [Sheep]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Tabara',
@@ -83241,12 +83241,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83267,12 +83267,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -83293,12 +83293,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83319,12 +83319,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//
             DB::table('baronies')->insert([
@@ -83345,12 +83345,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83371,12 +83371,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Asturias, Kingdom
 			//Asturias, Duchy = Temperate_Shrubland
@@ -83405,7 +83405,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83431,7 +83431,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83457,7 +83457,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -83483,7 +83483,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//Gijon, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
@@ -83504,13 +83504,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83536,7 +83536,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83562,8 +83562,8 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
-            ]);				
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Santa Maria',
@@ -83588,7 +83588,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Navia, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
@@ -83609,13 +83609,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83641,7 +83641,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -83662,12 +83662,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -83693,7 +83693,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83719,7 +83719,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -83745,9 +83745,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
-			//, County = [Warhorse] [Cattle] > [Beverage_Cider]
+			//Oviedo, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Oviedo',
@@ -83792,7 +83792,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -83818,7 +83818,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -83844,7 +83844,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -83870,7 +83870,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -83896,7 +83896,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -83948,7 +83948,7 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
@@ -84006,7 +84006,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Cantabria, Duchy = Temperate_Shrubland
 			//Campoo, County = [Beverage_Gruit] > [Goats]
@@ -84060,7 +84060,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84086,7 +84086,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84112,7 +84112,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -84165,7 +84165,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84191,7 +84191,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -84217,7 +84217,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84243,9 +84243,9 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
-			//Santander, County = [Beverage_Gruit] > [Goats]
+			//Santander, County = [Warhorse] [Goats] > [Beverage_Gruit]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Santander',
@@ -84264,13 +84264,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'Scriptorium_Library',
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Arsenal',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84291,12 +84291,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Donkey_Train',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -84317,12 +84317,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
-				'industry_transport' => 'Dog_Cart',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//Trasmiera, County = [Beverage_Gruit] > [Goats]
 			//
@@ -84349,7 +84349,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -84375,7 +84375,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84401,7 +84401,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84427,7 +84427,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Portugal, Kingdom
 			//Aveiro, Duchy = Mediterranean_Woodland
@@ -84456,7 +84456,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84482,7 +84482,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84508,7 +84508,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -84534,7 +84534,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84560,7 +84560,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84586,7 +84586,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84612,7 +84612,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Braga, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -84665,7 +84665,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84691,7 +84691,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84717,7 +84717,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -84743,7 +84743,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Porto, County = [Beverage_Wine] > [Cattle]
 			//
@@ -84796,7 +84796,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84900,7 +84900,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//Viana, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -84953,7 +84953,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -84979,7 +84979,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -84999,13 +84999,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85031,7 +85031,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85051,16 +85051,16 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'Tiltyard',
+				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//Beira, Duchy = Mediterranean_Shrubland
-			//Branco, County = [Beverage_Gruit] > [Sheep]
+			//Branco, County = [Warhorse] [Sheep] > [Beverage_Gruit]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Branco',
@@ -85079,13 +85079,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85106,12 +85106,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Jewry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85132,12 +85132,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Jewry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'Silver',
-				'industry_transport' => 'Oxen_Cart',
+				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85158,12 +85158,12 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Heath',
+				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Coimbra, County = [Sheep] > [Beverage_Cider]
 			//
@@ -85216,7 +85216,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85242,7 +85242,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85268,7 +85268,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85294,7 +85294,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85320,7 +85320,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Guarda, County = [Beverage_Gruit] > [Sheep]
 			//
@@ -85347,7 +85347,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85373,7 +85373,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85399,7 +85399,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85425,7 +85425,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Viseu, County = [Beverage_Wine] > [Sheep]
 			//
@@ -85478,7 +85478,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -85530,7 +85530,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Braganca, Duchy = Mediterranean_Shrubland
 			//Braganca, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
@@ -85584,7 +85584,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85610,7 +85610,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85636,7 +85636,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85662,7 +85662,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);				
 			//Vila Real, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -85689,7 +85689,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85715,7 +85715,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85741,7 +85741,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85767,7 +85767,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85787,13 +85787,13 @@ class BaronySeeder extends Seeder
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85819,7 +85819,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -85845,7 +85845,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85871,7 +85871,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Estremadura, Duchy = Mediterranean_Woodland
 			//Leiria, County = [Pigs]
@@ -85899,7 +85899,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -85925,7 +85925,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85951,7 +85951,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -85977,7 +85977,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -86003,7 +86003,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Lisboa, County = [Beverage_Wine] > [Pigs]
 			//
@@ -86056,7 +86056,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -86082,7 +86082,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86108,7 +86108,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86134,7 +86134,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86160,7 +86160,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -86186,7 +86186,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//Ribatejo, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
@@ -86265,7 +86265,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);				
 			//Setubal, County = [Beverage_Wine] > [Cattle]
 			//
@@ -86448,7 +86448,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -86474,7 +86474,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -86530,7 +86530,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//, County = [Pigs] > [Beverage_Cider]
 			//
@@ -86557,7 +86557,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Oxen_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//, County = [Cattle]
 			//
@@ -86584,7 +86584,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'Guild_Potter',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Slesvig, County = [Warhorse] [Cattle]
 			//
@@ -86611,7 +86611,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86637,7 +86637,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86663,7 +86663,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Cattle] > [Beverage_Elder]
 			//
@@ -86744,7 +86744,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86770,7 +86770,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86796,7 +86796,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -86823,7 +86823,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86849,7 +86849,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86875,7 +86875,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Pigs] > [Beverage_Elder]
 			//
@@ -86902,7 +86902,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86928,7 +86928,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -86954,7 +86954,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -86981,7 +86981,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87007,7 +87007,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87033,7 +87033,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Scania, County = [Warhorse] [Cattle]
 			//
@@ -87086,7 +87086,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//Sjaeland, Duchy = Temperate_Grassland
 			//Funen, County = [Warhorse] [Cattle]
@@ -87141,7 +87141,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87167,7 +87167,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87193,7 +87193,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Roskilde, County = [Pigs] > [Beverage_Cider]
 			//
@@ -87274,7 +87274,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87300,7 +87300,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87326,7 +87326,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Norway, Kingdom
 			//Nordjor (Northern Isles), Duchy = Temperate_Shrubland
@@ -87355,7 +87355,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87381,7 +87381,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87407,7 +87407,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Orkney, County = [Beverage_Gruit] > [Sheep]
 			//
@@ -87461,7 +87461,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87487,7 +87487,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87513,7 +87513,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Sodor (Southern Isles), Duchy = Temperate_Shrubland
 			//Islay, County = [Beverage_Gruit] > [Sheep]
@@ -87541,7 +87541,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -87567,7 +87567,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87593,7 +87593,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87619,7 +87619,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Lewis, County = [Beverage_Gruit] > [Sheep]
 			//
@@ -87646,7 +87646,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87672,7 +87672,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -87698,7 +87698,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);			
 			//Mull, County = [Beverage_Gruit] > [Sheep]
 			//
@@ -87752,7 +87752,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87778,7 +87778,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87804,7 +87804,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Uist, County = [Beverage_Gruit] > [Sheep]
 			//
@@ -87831,7 +87831,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87857,7 +87857,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87883,7 +87883,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Hedmark (eidsivating), Duchy = Temperate_Shrubland
 			//Hadeland, County = [Beverage_Gruit] > [Goats]
@@ -87911,7 +87911,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87937,7 +87937,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -87963,7 +87963,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Hedmark, County = [Cattle] > [Beverage_Cider]
 			//
@@ -88017,7 +88017,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88043,7 +88043,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88069,7 +88069,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Oppland (frostating), Duchy = Temperate_Shrubland
 			//, County = [Goats]
@@ -88097,7 +88097,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88123,7 +88123,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88149,7 +88149,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Gruit] > [Goats]
 			//
@@ -88176,7 +88176,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88202,7 +88202,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88228,7 +88228,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Warhorse] [Cattle] > [Beverage_Elder]
 			//
@@ -88255,7 +88255,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88281,7 +88281,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88307,7 +88307,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Trondelag, County = [Beverage_Gruit] > [Cattle]
 			//
@@ -88362,7 +88362,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88388,7 +88388,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88414,7 +88414,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Haugeland, County = [Beverage_Gruit] > [Goats]
 			//
@@ -88441,7 +88441,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88467,7 +88467,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88493,7 +88493,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Jaeren, County = [Beverage_Gruit] > [Pigs]
 			//
@@ -88547,7 +88547,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88573,7 +88573,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88599,7 +88599,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Sorland (borgarting), Duchy = Temperate_Woodland
 			//Agder, County = [Goats]
@@ -88627,7 +88627,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88653,7 +88653,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88679,7 +88679,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Grenland, County = [Sweetener_Honey] > [Goats]
 			//
@@ -88706,7 +88706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88732,7 +88732,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88758,7 +88758,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Telemark, County = [Goats]
 			//
@@ -88785,7 +88785,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88811,7 +88811,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88837,7 +88837,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Vestland (gulating), Duchy = Temperate_Shrubland
 			//, County = [Beverage_Gruit] > [Goats]
@@ -88865,7 +88865,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88891,7 +88891,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88917,7 +88917,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Gruit] > [Goats]
 			//
@@ -88944,7 +88944,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88970,7 +88970,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -88996,7 +88996,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Vestland, County = [Warhorse] [Cattle] > [Beverage_Gruit]
 			//
@@ -89209,7 +89209,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89235,7 +89235,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89261,7 +89261,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Cattle] > [Beverage_Cider]
 			//
@@ -89288,7 +89288,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89314,7 +89314,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89340,7 +89340,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Goats]
 			//
@@ -89367,7 +89367,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89393,7 +89393,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89419,7 +89419,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Vingulmark, County = [Goats]
 			//
@@ -89475,7 +89475,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89501,7 +89501,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89527,7 +89527,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -89609,7 +89609,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -89635,7 +89635,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ])
 			//
             DB::table('baronies')->insert([
@@ -89661,7 +89661,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -89687,7 +89687,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Dog_Cart',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Gastrikland, County = [Warhorse] [Sheep] > [Sweetener_Honey]
 			//
@@ -89714,7 +89714,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89740,7 +89740,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);			
 			//
             DB::table('baronies')->insert([
@@ -89766,7 +89766,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Halsingland, County = [Warhorse] [Sheep] > [Sweetener_Honey]
 			//
@@ -89793,7 +89793,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//
             DB::table('baronies')->insert([
@@ -89819,7 +89819,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);		
 			//Osterland, Duchy = Temperate_Woodland
 			//Aland, County = [Sweetener_Honey] > [Pigs]
@@ -89847,7 +89847,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89873,7 +89873,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89899,7 +89899,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Finland, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
@@ -89953,7 +89953,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -89979,7 +89979,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90005,7 +90005,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Nyland, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90032,7 +90032,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90058,7 +90058,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90084,7 +90084,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Ostrobothnia, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90111,7 +90111,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90137,7 +90137,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90163,7 +90163,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Satakunta, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90190,7 +90190,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90216,7 +90216,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90242,7 +90242,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Savonia, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90269,7 +90269,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90295,7 +90295,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90321,7 +90321,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Tavastland, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90348,7 +90348,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90374,7 +90374,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90400,7 +90400,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Smaland, Duchy = Temperate_Woodland
 			//Oland, County = [Sweetener_Honey] > [Pigs]	
@@ -90428,7 +90428,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90454,7 +90454,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Smaland, County = [Pigs] > [Beverage_Cider]
 			//
@@ -90535,7 +90535,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90561,7 +90561,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90587,7 +90587,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Narke, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90614,7 +90614,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90640,7 +90640,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90666,7 +90666,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Sodermanland, County = [Cattle]
 			//
@@ -90830,7 +90830,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90856,7 +90856,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90882,7 +90882,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90909,7 +90909,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90935,7 +90935,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -90961,7 +90961,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -90988,7 +90988,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91014,7 +91014,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91040,7 +91040,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -91067,7 +91067,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91093,7 +91093,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91119,7 +91119,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -91146,7 +91146,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91172,7 +91172,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91198,7 +91198,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Lesser Poland, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Cattle]
@@ -91226,7 +91226,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91252,7 +91252,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91278,7 +91278,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Cattle]
 			//
@@ -91305,7 +91305,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91331,7 +91331,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91357,7 +91357,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Cattle]
 			//
@@ -91384,7 +91384,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91410,7 +91410,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91436,7 +91436,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//, County = [Sweetener_Honey] > [Cattle]
 			//
@@ -91490,7 +91490,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91516,7 +91516,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91542,7 +91542,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
@@ -91569,7 +91569,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91595,7 +91595,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91621,7 +91621,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Cattle]
 			//
@@ -91648,7 +91648,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91674,7 +91674,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91700,7 +91700,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//, County = [Sweetener_Honey] > [Cattle]
 			//
@@ -91782,7 +91782,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91808,7 +91808,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91834,7 +91834,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -91861,7 +91861,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91887,7 +91887,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91913,7 +91913,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -91940,7 +91940,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91966,7 +91966,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -91992,7 +91992,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92019,7 +92019,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92045,7 +92045,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92071,7 +92071,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92098,7 +92098,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92124,7 +92124,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92150,7 +92150,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Kalisz, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -92178,7 +92178,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92204,7 +92204,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92230,7 +92230,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92257,7 +92257,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92283,7 +92283,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92309,7 +92309,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92336,7 +92336,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92362,7 +92362,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92388,7 +92388,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92415,7 +92415,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92441,7 +92441,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92467,7 +92467,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92494,7 +92494,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92520,7 +92520,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92546,7 +92546,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Krakow, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Cattle]
@@ -92627,7 +92627,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92653,7 +92653,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92679,7 +92679,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92706,7 +92706,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92732,7 +92732,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92758,7 +92758,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Pigs]
 			//
@@ -92785,7 +92785,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92811,7 +92811,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92837,7 +92837,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Kuyavia, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -92865,7 +92865,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92891,7 +92891,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92917,7 +92917,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -92944,7 +92944,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92970,7 +92970,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -92996,7 +92996,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93050,7 +93050,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93076,7 +93076,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93102,7 +93102,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93129,7 +93129,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93155,7 +93155,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93181,7 +93181,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93208,7 +93208,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93234,7 +93234,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93260,7 +93260,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Mazovia, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -93288,7 +93288,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93314,7 +93314,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93340,7 +93340,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93367,7 +93367,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93393,7 +93393,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93419,7 +93419,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93446,7 +93446,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93472,7 +93472,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93498,7 +93498,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93525,7 +93525,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93551,7 +93551,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93577,7 +93577,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
@@ -93604,7 +93604,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93630,7 +93630,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93656,7 +93656,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93683,7 +93683,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93709,7 +93709,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93735,7 +93735,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Plock, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -93790,7 +93790,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93816,7 +93816,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93842,7 +93842,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -93869,7 +93869,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93895,7 +93895,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -93921,7 +93921,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Posen, Duchy = Temperate_Woodland
 			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
@@ -93976,7 +93976,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94002,7 +94002,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94028,7 +94028,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94082,7 +94082,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94108,7 +94108,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94134,7 +94134,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94161,7 +94161,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94187,7 +94187,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94213,7 +94213,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94240,7 +94240,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94266,7 +94266,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94292,7 +94292,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94319,7 +94319,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94345,7 +94345,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94371,7 +94371,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94398,7 +94398,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94424,7 +94424,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94450,7 +94450,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Sieradz, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -94478,7 +94478,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94504,7 +94504,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94530,7 +94530,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94557,7 +94557,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94583,7 +94583,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94609,7 +94609,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94636,7 +94636,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94662,7 +94662,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94688,7 +94688,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Warsaw, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -94716,7 +94716,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94742,7 +94742,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94768,7 +94768,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sweetener_Honey] > [Pigs]
 			//
@@ -94795,7 +94795,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94821,7 +94821,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94847,7 +94847,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Lithuania, Kingdom	
 			//Minsk, Duchy = Temperate_Woodland
@@ -94903,7 +94903,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94929,7 +94929,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -94955,7 +94955,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sweetener_Honey] > [Cattle]
 			//
@@ -94982,7 +94982,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95008,7 +95008,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95034,7 +95034,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Samogitia, Duchy = Temperate_Woodland
 			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
@@ -95062,7 +95062,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95088,7 +95088,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95114,7 +95114,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
@@ -95141,7 +95141,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95167,7 +95167,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95193,7 +95193,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Warhorse] [Cattle] > [Sweetener_Honey]
 			//
@@ -95220,7 +95220,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95246,7 +95246,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95272,7 +95272,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Tracken, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Cattle]
@@ -95300,7 +95300,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95326,7 +95326,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95352,7 +95352,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Pigs] > [Beverage_Cider]
 			//
@@ -95406,7 +95406,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95432,7 +95432,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95458,7 +95458,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Vilnius, Duchy = Temperate_Woodland
 			//, County = [Sweetener_Honey] > [Pigs]
@@ -95513,7 +95513,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95539,7 +95539,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95565,7 +95565,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Hungary, Empire
 			//Hungary, Kingdom
@@ -95648,7 +95648,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95674,7 +95674,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95700,7 +95700,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep]
 			//
@@ -95727,7 +95727,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95753,7 +95753,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95779,7 +95779,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep]
 			//
@@ -95806,7 +95806,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95832,7 +95832,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95858,7 +95858,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -95885,7 +95885,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95911,7 +95911,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -95937,7 +95937,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Pigs]
 			//
@@ -95991,7 +95991,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96017,7 +96017,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96043,7 +96043,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Buda, Duchy = Steppe
 			//, County = [Beverage_Wine] > [Sheep]
@@ -96259,7 +96259,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96285,7 +96285,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96311,7 +96311,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Nitra, Duchy = Temperate_Woodland
 			//, County = [Beverage_Wine] > [Sheep]
@@ -96366,7 +96366,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96392,7 +96392,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96418,7 +96418,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -96445,7 +96445,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96471,7 +96471,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96497,7 +96497,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep]
 			//
@@ -96551,7 +96551,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96577,7 +96577,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96603,7 +96603,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sheep]
 			//
@@ -96630,7 +96630,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96656,7 +96656,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96682,7 +96682,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -96709,7 +96709,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96735,7 +96735,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96761,7 +96761,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep]
 			//
@@ -96814,7 +96814,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96840,7 +96840,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96866,7 +96866,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -96893,7 +96893,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96919,7 +96919,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96945,7 +96945,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -96972,7 +96972,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -96998,7 +96998,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97024,7 +97024,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Temesvar, Duchy = Temperate_Woodland
 			//, County = [Beverage_Wine] > [Sheep]
@@ -97052,7 +97052,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97078,7 +97078,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97104,7 +97104,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep]
 			//
@@ -97131,7 +97131,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97157,7 +97157,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97183,7 +97183,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Bihar, County = [Pigs]
 			//
@@ -97290,7 +97290,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97316,7 +97316,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97342,7 +97342,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Ungvar, Duchy = Steppe
 			//, County = [Sheep]
@@ -97370,7 +97370,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97396,7 +97396,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97422,7 +97422,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sheep]
 			//
@@ -97449,7 +97449,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97475,7 +97475,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97501,7 +97501,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -97528,7 +97528,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97554,7 +97554,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97580,7 +97580,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Warhorse] [Cattle]
 			//
@@ -97607,7 +97607,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97633,7 +97633,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97659,7 +97659,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -97686,7 +97686,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97712,7 +97712,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97738,7 +97738,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -97765,7 +97765,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97791,7 +97791,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97817,7 +97817,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Sheep]
 			//
@@ -97844,7 +97844,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97870,7 +97870,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97896,7 +97896,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep]
 			//
@@ -97923,7 +97923,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97949,7 +97949,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -97975,7 +97975,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Transylvania, Duchy = Temperate_Woodland
 			//, County = [Beverage_Wine] > [Sheep]
@@ -98056,7 +98056,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98082,7 +98082,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98108,7 +98108,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -98162,7 +98162,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98188,7 +98188,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98214,7 +98214,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -98241,7 +98241,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98267,7 +98267,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98293,7 +98293,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep]
 			//
@@ -98376,7 +98376,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98402,7 +98402,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98428,7 +98428,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep] [Donkey_Train]
 			//
@@ -98455,7 +98455,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98481,7 +98481,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98507,7 +98507,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep] [Donkey_Train]
 			//
@@ -98534,7 +98534,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98560,7 +98560,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98586,7 +98586,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Sheep] [Donkey_Train]
 			//
@@ -98613,7 +98613,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98639,7 +98639,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98665,7 +98665,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
 			//
@@ -98852,7 +98852,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98878,7 +98878,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -98904,7 +98904,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Slavonia, Duchy = Steppe
 			//, County = [Warhorse] [Cattle] > [Beverage_Wine]
@@ -98985,7 +98985,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99011,7 +99011,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99037,7 +99037,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Beverage_Wine] > [Pigs] [Donkey_Train]
 			//
@@ -99064,7 +99064,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99090,7 +99090,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99116,7 +99116,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//, County = [Pigs] [Donkey_Train]
 			//
@@ -99169,7 +99169,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99195,7 +99195,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99221,7 +99221,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//, County = [Pigs] [Donkey_Train]
 			//
@@ -99248,7 +99248,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99274,7 +99274,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99300,7 +99300,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//, County = [Pigs] [Donkey_Train]
 			//
@@ -99327,7 +99327,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99353,7 +99353,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99379,7 +99379,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);				
 			//Split, Duchy = Mediterranean_Woodland
 			//, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
@@ -99485,7 +99485,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//, County = [Sheep] [Donkey_Train]
 			//
@@ -99512,7 +99512,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//Zadar, Duchy = Mediterranean_Woodland
 			//, County = [Beverage_Wine] > [Sheep] [Donkey_Train]
@@ -99540,7 +99540,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -99566,7 +99566,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Donkey_Train',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);
 			//
             DB::table('baronies')->insert([
@@ -99619,7 +99619,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -99834,7 +99834,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -100236,7 +100236,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'							
+				'industry_storage' => 'Warehouse_Quarter'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -100262,7 +100262,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => 'Pack_Horse',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'							
+				'industry_storage' => 'Granary'
             ]);	
 			//
             DB::table('baronies')->insert([
@@ -100288,7 +100288,7 @@ class BaronySeeder extends Seeder
 				'industry_transport' => '',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Tithe_Barn'							
+				'industry_storage' => 'Tithe_Barn'
             ]);	
 			//Caltanisetta, County = [Sheep] [Donkey_Train]
 			//
