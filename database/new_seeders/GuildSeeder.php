@@ -24,10 +24,7 @@ class GuildSeeder extends Seeder
 												//Monk_Muslim_Sufi (1); 
 												//Cleric_Catholic (1), 
 												//Cleric_Orthodox_Greek (1), Cleric_Orthodox_Serbian (1), Cleric_Orthodox_Bulgarian (1), 
-												//Cleric_Muslim_Sunni (1), Cleric_Muslim_Shia (1); 
-												//Fair(165); 
-												//Master_Smith (47), Master_Tanner (73), Master_Furrier (7), Master_Potter (56), Master_Silk_Weaver (29), Master_Dyer_Saffron (), Master_Dyer_Madder (), Master_Dyer_Woad (), Master_Dyer_Kermes (), Master_Dyer_Indigo (), Master_Mariner (49); 
-												//Tournament (339), Tavern (5), Hunt_Boar (0), Hunt_Deer (11), Hunt_Falconer (4);
+												//Cleric_Muslim_Sunni (1), Cleric_Muslim_Shia (1);  
 			'empire' => '',						//default = null
 			'kingdom' => '',					//default = null
 			'duchy' => '',						//default = null
@@ -40,32 +37,30 @@ class GuildSeeder extends Seeder
 		/*
 		//building:										category:	subcategory:
 		//
-		//Royal_Court| Ducal_Court:						Court		Petty_Kingdom
-		//Signoria:										Court		Republic
-		//Chancellery & (!Court) & (Archbishop):		Court		Bishopric
+		//Royal_Court| Ducal_Court:						Court		Petty_Kingdom			(286)
+		//Signoria:										Court		Republic				(14)
+		//Chancellery & (!Court) & (Archbishop):		Court		Bishopric				(18)
 		//
-		//Cathedral_School | Monastic_School:			University	Scholar
+		//Cathedral_School | Monastic_School:			University	Scholar					(103)
 		//
-		//Guild_Smith:									Craft		Master_Smith
-		//Guild_Tanner:									Craft		Master_Tanner
-		//Guild_Furrier:								Craft		Master_Furrier
-		//Guild_Potter:									Craft		Master_Potter
-		//Guild_Silk:									Craft		Master_Silk_Weaver
-		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron 
-		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder 
-		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad 
-		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes 
-		//Guild_Dyer_Indigo:							Craft		Master_Dyer_Indigo
-		//Arsenal:										Craft		Master_Mariner
+		//Guild_Smith:									Craft		Master_Smith			(48)
+		//Guild_Tanner:									Craft		Master_Tanner			(74)
+		//Guild_Furrier:								Craft		Master_Furrier			(7)
+		//Guild_Potter:									Craft		Master_Potter			(56)
+		//Guild_Silk:									Craft		Master_Silk_Weaver		(29)
+		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron		(8)
+		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder		()
+		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad		()
+		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes		()
+		//Guild_Dyer_Indigo:							Craft		Master_Dyer_Indigo		()
+		//Arsenal:										Craft		Master_Mariner			(49)
 		//
-		//Tiltyard:										Feast		Tournament
-		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair
-		//Coaching_Inn:									Feast		Tavern
-		//Hunting_Lodge & (Boar):						Feast		Hunt_Boar
-		//Hunting_Lodge & (Deer):						Feast		Hunt_Deer
-		//Hunting_Lodge & (Falconry):					Feast		Hunt_Falconer
-
-		//
+		//Tiltyard:										Feast		Tournament				(475)
+		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair					(180)
+		//Coaching_Inn:									Feast		Tavern					(122)
+		//Hunting_Lodge_Boar:							Feast		Hunt_Boar				(42)
+		//Hunting_Lodge_Deer:							Feast		Hunt_Deer				(77)
+		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer			(15)
 		*/
 		
 		//faiths
@@ -1386,6 +1381,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Arnhem',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '8',
+			'county' => '68',
+			'barony' => ''
+		]);
+		//Doornenburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Betuwe',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '8',
@@ -4373,6 +4379,17 @@ class GuildSeeder extends Seeder
 			'county' => '259',
 			'barony' => ''
 		]);
+		//Seusslitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Meissengau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '35',
+			'county' => '259',
+			'barony' => ''
+		]);
 		//Nisangau
 		//Leipzig
 		DB::table('guilds')->insert([
@@ -4812,6 +4829,28 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Guild of Brieg',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '39',
+			'county' => '278',
+			'barony' => ''
+		]);
+		//Grottkau
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Brieg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '39',
+			'county' => '278',
+			'barony' => ''
+		]);
+		//Lowen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Brieg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '39',
@@ -5378,6 +5417,28 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Nice
+		//Nice
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Nice',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '39',
+			'county' => '315',
+			'barony' => ''
+		]);
+		//Villefranche
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Nice',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '39',
+			'county' => '315',
+			'barony' => ''
+		]);
 		//Escarene
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -5386,6 +5447,17 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '44',
+			'county' => '315',
+			'barony' => ''
+		]);
+		//Guillaumes
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Nice',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '39',
 			'county' => '315',
 			'barony' => ''
 		]);
@@ -6364,6 +6436,40 @@ class GuildSeeder extends Seeder
 			'county' => '387',
 			'barony' => ''
 		]);
+		//Retschanengau
+		//Berlin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Retschanengau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '55',
+			'county' => '389',
+			'barony' => ''
+		]);
+		//Spandau
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Retschanengau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '55',
+			'county' => '389',
+			'barony' => ''
+		]);
+		//Kopenick
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Retschanengau',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '55',
+			'county' => '389',
+			'barony' => ''
+		]);
 		//Uckermark
 		//Rowenburg
 		DB::table('guilds')->insert([
@@ -6511,6 +6617,17 @@ class GuildSeeder extends Seeder
 			'county' => '395',
 			'barony' => ''
 		]);
+		//Bauge
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Nice',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '57',
+			'county' => '395',
+			'barony' => ''
+		]);
 		//Maine
 		//Mans
 		DB::table('guilds')->insert([
@@ -6554,6 +6671,40 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '57',
 			'county' => '397',
+			'barony' => ''
+		]);
+		//Touraine
+		//Gaillard
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Touraine',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '57',
+			'county' => '398',
+			'barony' => ''
+		]);
+		//Villandry
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Touraine',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '57',
+			'county' => '398',
+			'barony' => ''
+		]);
+		//Chatigny
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Touraine',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '57',
+			'county' => '398',
 			'barony' => ''
 		]);
 		//Aquitaine
@@ -10044,6 +10195,17 @@ class GuildSeeder extends Seeder
 			'county' => '567',
 			'barony' => ''
 		]);
+		//Tetworth
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Huntingdonshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '84',
+			'county' => '567',
+			'barony' => ''
+		]);
 		//Northamptonshire
 		//Northampton
 		DB::table('guilds')->insert([
@@ -10070,6 +10232,28 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Fair of Northampton',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '84',
+			'county' => '568',
+			'barony' => ''
+		]);
+		//Rockingham
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Northamptonshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '84',
+			'county' => '568',
+			'barony' => ''
+		]);
+		//Pipewell
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Northamptonshire',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '84',
@@ -10852,16 +11036,6 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '89',
-			'county' => '',
-			'barony' => ''
-		]);
 		//Llandovery
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -11374,16 +11548,6 @@ class GuildSeeder extends Seeder
 			'kingdom' => '12',
 			'duchy' => '94',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '94',
-			'county' => '',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -12666,7 +12830,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Toledo',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Hunt_Boar',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '117',
@@ -12697,6 +12861,17 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Vegas
+		//Aranjuez
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Vegas',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '117',
+			'county' => '712',
+			'barony' => ''
+		]);
 		//Chinchon
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Vegas',
