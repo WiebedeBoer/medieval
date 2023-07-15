@@ -60,7 +60,7 @@ class GuildSeeder extends Seeder
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(11)
 		//Guild_Miller:									Craft		Master_Miller			(5)
 		//Guild_Fuller:									Craft		Master_Fuller			(7)
-		//Guild_Vintner:								Craft		Master_Vintner			(10)
+		//Guild_Vintner:								Craft		Master_Vintner			(13)
 		//
 		//Tiltyard:										Feast		Tournament				(475)
 		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair					(180)
@@ -1071,6 +1071,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Wertheim',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '6',
+			'county' => '37',
+			'barony' => ''
+		]);
+		//Nordheim
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Nordheim',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '6',
@@ -3116,6 +3127,17 @@ class GuildSeeder extends Seeder
 			'county' => '172',
 			'barony' => ''
 		]);
+		//Nordheim
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Massenheim',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '20',
+			'county' => '172',
+			'barony' => ''
+		]);
 		//Wurmgau
 		//Pforzheim
 		DB::table('guilds')->insert([
@@ -3268,6 +3290,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Guild of Trier',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '22',
+			'county' => '179',
+			'barony' => ''
+		]);
+		//Trittenheim
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Trittenheim',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '22',

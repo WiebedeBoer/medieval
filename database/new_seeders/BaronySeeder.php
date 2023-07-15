@@ -3432,6 +3432,32 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
             ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Nordheim',
+				'de_jure_county' => '37',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Hall_House',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'Guild_Vintner',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'																					
+            ]);
 			//Frisia, Duchy = Temperate_Marshland
 			//Ammergau, County = [Warhorse] [Cattle] > [Beverage_Cider]
 			// 
@@ -16337,6 +16363,32 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
             ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Alzey',
+				'de_jure_county' => '162',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'County_Court',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Town_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Jewry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
 			//Engersgau, County = [Cattle]
 			// 
             DB::table('baronies')->insert([
@@ -17074,7 +17126,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'
             ]);
-			//Wettergau, County = [Warhorse] [Cattle] > [Beverage_Cider]
+			//Wettergau, County = [Warhorse] [Cattle] > [Beverage_Wine]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => 'Frankfurt',
@@ -17120,7 +17172,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'Hunting_Lodge_Hare',
-				'marke_agriculture' => 'Marke_Hufner_Orchard',
+				'marke_agriculture' => 'Marke_Hufner_Vineyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
@@ -17146,7 +17198,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'Hunting_Lodge_Hare',
-				'marke_agriculture' => 'Marke_Hufner_Orchard',
+				'marke_agriculture' => 'Marke_Hufner_Vineyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
@@ -17178,6 +17230,32 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Massenheim',
+				'de_jure_county' => '172',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Hall_House',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'Guild_Vintner',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Wurmgau, County = [Cattle] 
 			//
@@ -17785,6 +17863,32 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Granary'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Trittenheim',
+				'de_jure_county' => '179',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Hall_House',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'Guild_Vintner',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
             ]);
 			//Maifeld, County = [Beverage_Wine] > [Cattle] 
 			//

@@ -695,7 +695,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//37
-			//wurzburg, wertheim, waldsassen
+			//wurzburg, wertheim, waldsassen, nordheim
             DB::table('counties')->insert([
 				'county_name' => 'Waldsassengau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2834,7 +2834,7 @@ class CountySeeder extends Seeder
             ]);
 			//Mainz
 			//162
-			//mainz, worms, oppenheim, lorsch, eibingen
+			//mainz, worms, oppenheim, lorsch, eibingen, alzey
             DB::table('counties')->insert([
 				'county_name' => 'Wormsfeld',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -3004,7 +3004,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);				
 			//172
-			//frankfurt, homburg, kransberg, falkenstein
+			//frankfurt, homburg, kransberg, falkenstein, massenheim
             DB::table('counties')->insert([
 				'county_name' => 'Wettergau',
 				'county_category' => 'Feudal_Manor',
@@ -3013,7 +3013,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Franconian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'Beverage_Cider',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
 				'marke_animal_transport' => 'Charger',
@@ -3125,7 +3125,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Trier
 			//179
-			//bitburg, trier, prum, gerolstein, echternach, vianden
+			//bitburg, trier, prum, gerolstein, echternach, vianden, trittenheim
             DB::table('counties')->insert([
 				'county_name' => 'Bitgau',
 				'county_category' => 'Ecclesiastical_Manor',
