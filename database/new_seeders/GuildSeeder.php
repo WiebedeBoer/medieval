@@ -3706,12 +3706,34 @@ class GuildSeeder extends Seeder
 			'county' => '211',
 			'barony' => ''
 		]);
+		//Cuna
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Cuna',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '25',
+			'county' => '211',
+			'barony' => ''
+		]);
 		//Grosseto
 		//Grosseto
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Grosseto',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '25',
+			'county' => '212',
+			'barony' => ''
+		]);
+		//Grancia
+		DB::table('guilds')->insert([
+			'guild_name' => 'Guild of Grancia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '25',

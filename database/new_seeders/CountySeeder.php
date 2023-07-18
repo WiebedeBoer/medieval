@@ -3673,7 +3673,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Tuscany
 			//211
-			//siena, monteriggioni, san galgano, corsignano, monte oliveto, gaiole, castellina
+			//siena, monteriggioni, san galgano, corsignano, monte oliveto, gaiole, castellina, cuna
             DB::table('counties')->insert([
 				'county_name' => 'Siena',
 				'county_category' => 'Feudal_Manor',
@@ -3690,7 +3690,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//212
-			//grosseto, orbetello, manciano
+			//grosseto, orbetello, manciano, grancia
             DB::table('counties')->insert([
 				'county_name' => 'Grosseto',
 				'county_category' => 'Feudal_Manor',
