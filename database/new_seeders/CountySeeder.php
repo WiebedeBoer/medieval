@@ -3897,7 +3897,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//224
-			//arezzo, montevarchi, focognano, san nicolo, camaldoli
+			//arezzo, montevarchi, focognano, san nicolo, camaldoli, montisi
             DB::table('counties')->insert([
 				'county_name' => 'Arezzo',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -3906,9 +3906,9 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Tuscan',	
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'Watermill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',						
+				'marke_crops' => 'Dye_Saffron',						
 				'marke_animal_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_animal_poultry' => 'Ducks'
@@ -17484,7 +17484,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);			
 			//
-			//brindisi
+			//brindisi, san demetrio
             DB::table('counties')->insert([
 				'county_name' => 'Brindisi',
 				'county_category' => 'Feudal_Manor',
@@ -17589,7 +17589,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Salerno
 			//
-			//salerno, cava
+			//salerno, cava, san lorenzo
             DB::table('counties')->insert([
 				'county_name' => 'Salerno',
 				'county_category' => 'Feudal_Manor',

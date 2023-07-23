@@ -22329,7 +22329,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_agriculture' => 'Marke_Hufner_Oliveyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
@@ -22355,12 +22355,38 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Infirmary',
 				'quarter_downtown' => 'Burgage_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_agriculture' => 'Marke_Hufner_Oliveyard',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'Montisi',
+				'de_jure_county' => '224',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Mill',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'Guild_Miller',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'																					
             ]);
 			//Cortona, County = [Pigs] [Palfrey]
 			//
@@ -101649,7 +101675,33 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'				
-            ]);	
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'San Demetrio',
+				'de_jure_county' => '',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Hall_House',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Palfrey',
+				'industry_guild' => 'Guild_Vintner',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'																					
+            ]);
 			//, County = [Beverage_Wine] > [Goats] [Palfrey]
 			//
             DB::table('baronies')->insert([
@@ -101786,7 +101838,33 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'				
-            ]);				
+            ]);
+			// 
+            DB::table('baronies')->insert([
+				'barony_name' => 'San Lorenzo',
+				'de_jure_county' => '',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Hall_House',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Vineyard',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'Guild_Vintner',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'																					
+            ]);
 			//Sardinia, Kingdom
 			//Gallura, Duchy = Mediterranean_Woodland
 			//, County = [Beverage_Wine] > [Sheep] [Palfrey]
