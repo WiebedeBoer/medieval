@@ -2714,7 +2714,7 @@ class CountySeeder extends Seeder
             ]);
 			//Magdeburg
 			//155
-			//magdeburg, haldesleben, oschersleben, unseburg, calbe
+			//magdeburg, haldesleben, oschersleben, unseburg, calbe, mammendorf
             DB::table('counties')->insert([
 				'county_name' => 'Nordthuringgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2902,7 +2902,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);
 			//166
-			//mannheim, heidelberg
+			//mannheim, heidelberg, bruchhausen, grenzhof, schonau
             DB::table('counties')->insert([
 				'county_name' => 'Lobdengau',
 				'county_category' => 'Feudal_Manor',
@@ -3880,7 +3880,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Florence
 			//223
-			//florence, bagno, san gimignano
+			//florence, bagno, san gimignano, marcialla
             DB::table('counties')->insert([
 				'county_name' => 'Florence',
 				'county_category' => 'Patrician_Manor',
@@ -3966,7 +3966,7 @@ class CountySeeder extends Seeder
             ]);		
 			//Genoa
 			//228
-			//genoa, arenzano, mignanego, chiavari
+			//genoa, arenzano, mignanego, chiavari, canellona
             DB::table('counties')->insert([
 				'county_name' => 'Genoa',
 				'county_category' => 'Patrician_Manor',
@@ -4243,7 +4243,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Venice
 			//244
-			//venice, chioggia, torcello, san donato, portogruaro, spinea, martellago, san ilario, mirano, salzano
+			//venice, chioggia, torcello, san donato, portogruaro, spinea, martellago, san ilario, mirano, salzano, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Dogado',
 				'county_category' => 'Patrician_Manor',
@@ -4252,7 +4252,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Venice',	
 				'vernacular_culture' => 'Lombard',
 				'banal_moulin' => 'Windmill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_transport' => 'Charger',
@@ -7730,7 +7730,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//447
-			//mantes, rambouillet, beynes, houdan, gassicourt
+			//mantes, rambouillet, beynes, houdan, gassicourt, saint germain, mesnil
             DB::table('counties')->insert([
 				'county_name' => 'Mantois',
 				'county_category' => 'Feudal_Manor',
@@ -7918,7 +7918,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//458
-			//evreux, verneuil, gaillard, gisors, vernon, acquigny, brecourt
+			//evreux, verneuil, gaillard, gisors, vernon, acquigny, brecourt, villers
             DB::table('counties')->insert([
 				'county_name' => 'Evreux',
 				'county_category' => 'Feudal_Manor',
@@ -8072,7 +8072,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Chickens'
             ]);	
 			//467
-			//etampes, chalo, mereville
+			//etampes, chalo, mereville, longpont, chaloche
             DB::table('counties')->insert([
 				'county_name' => 'Etampois',
 				'county_category' => 'Feudal_Manor',
@@ -8124,7 +8124,7 @@ class CountySeeder extends Seeder
 				'marke_animal_poultry' => 'Ducks'
             ]);	
 			//470
-			//amiens, flixecourt, picquigny, corbie, bretonneux, boves, mericourt
+			//amiens, flixecourt, picquigny, corbie, bretonneux, boves, mericourt, verger, fleurie
             DB::table('counties')->insert([
 				'county_name' => 'Amienois',
 				'county_category' => 'Feudal_Manor',

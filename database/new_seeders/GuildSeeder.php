@@ -2794,6 +2794,17 @@ class GuildSeeder extends Seeder
 			'county' => '155',
 			'barony' => ''
 		]);
+		//Mammendorf
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Mammendorf',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '19',
+			'county' => '155',
+			'barony' => ''
+		]);
 		//Haldesleben
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -3033,6 +3044,28 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'University of Heidelberg',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '20',
+			'county' => '166',
+			'barony' => ''
+		]);
+		//Bruchhausen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Bruchhausen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '20',
+			'county' => '166',
+			'barony' => ''
+		]);
+		//Grenzhof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Grenzhof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '20',
@@ -3942,6 +3975,17 @@ class GuildSeeder extends Seeder
 			'county' => '223',
 			'barony' => ''
 		]);
+		//Marcialla
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Marcialla',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '28',
+			'county' => '223',
+			'barony' => ''
+		]);
 		//Arezzo
 		//Arezzo
 		DB::table('guilds')->insert([
@@ -4054,6 +4098,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Genoa',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '29',
+			'county' => '228',
+			'barony' => ''
+		]);
+		//Canellona
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Canellona',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '29',
@@ -4376,6 +4431,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Fair of Mirano',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '34',
+			'county' => '244',
+			'barony' => ''
+		]);
+		//Santa Maria
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Santa Maria',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '34',
@@ -7772,6 +7838,28 @@ class GuildSeeder extends Seeder
 			'county' => '447',
 			'barony' => ''
 		]);
+		//Saint Germain
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Saint Germain',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => '447',
+			'barony' => ''
+		]);
+		//Mesnil
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Mesnil',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => '447',
+			'barony' => ''
+		]);
 		//Senlis
 		//Compiegne
 		DB::table('guilds')->insert([
@@ -7998,6 +8086,18 @@ class GuildSeeder extends Seeder
 			'county' => '457',
 			'barony' => ''
 		]);
+		//Evreux
+		//Villers
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild of Villers',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Cheesemonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => '458',
+			'barony' => ''
+		]);
 		//Eu
 		//Dieppe
 		DB::table('guilds')->insert([
@@ -8222,6 +8322,17 @@ class GuildSeeder extends Seeder
 			'county' => '467',
 			'barony' => ''
 		]);
+		//Longpont
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Longpont',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => '467',
+			'barony' => ''
+		]);
 		//Picardy
 		//Artois
 		//Arras
@@ -8276,6 +8387,28 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
+			'county' => '470',
+			'barony' => ''
+		]);
+		//Verger
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Verger',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => '470',
+			'barony' => ''
+		]);
+		//Fleurie
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Fleurie',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
 			'county' => '470',
 			'barony' => ''
 		]);
