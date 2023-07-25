@@ -15643,6 +15643,17 @@ class GuildSeeder extends Seeder
 			'county' => '980',
 			'barony' => ''
 		]);
+		//Santa Anna
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Santa Anna',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '175',
+			'county' => '980',
+			'barony' => ''
+		]);
 		//Trapani
 		//
 		//
@@ -15693,6 +15704,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Messina',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '177',
+			'county' => '986',
+			'barony' => ''
+		]);
+		//Santa Maria
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Santa Maria',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '177',
@@ -15794,6 +15816,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Siracusa',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '180',
+			'county' => '995',
+			'barony' => ''
+		]);
+		//Mottava
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Mottava',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '180',

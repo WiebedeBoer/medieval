@@ -16928,7 +16928,7 @@ class CountySeeder extends Seeder
 			//Sicily
 			//Palermo
 			//980
-			//palermo, momreale, corleone
+			//palermo, momreale, corleone, santa anna
             DB::table('counties')->insert([
 				'county_name' => 'Palermo',
 				'county_category' => 'Feudal_Manor',
@@ -16937,7 +16937,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sicily',		
 				'vernacular_culture' => 'Sicilian',
 				'banal_moulin' => 'Windmill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
 				'marke_animal_transport' => 'Charger',
@@ -17032,7 +17032,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Messina
 			//986
-			//messina, oliveri 
+			//messina, oliveri, santa maria 
             DB::table('counties')->insert([
 				'county_name' => 'Messina',
 				'county_category' => 'Feudal_Manor',
@@ -17188,7 +17188,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Siracusa
 			//995
-			//siracusa, noto, maniace
+			//siracusa, noto, maniace, mottava
             DB::table('counties')->insert([
 				'county_name' => 'Siracusa',
 				'county_category' => 'Feudal_Manor',
