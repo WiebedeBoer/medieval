@@ -1137,6 +1137,18 @@ class GuildSeeder extends Seeder
 			'county' => '45',
 			'barony' => ''
 		]);
+		//Holtland
+		//Waarderhof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild Waarderhof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Cheesemonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '47',
+			'barony' => ''
+		]);
 		//Hunsingau
 		//Winsum
 		DB::table('guilds')->insert([
@@ -1155,6 +1167,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Toll Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '49',
+			'barony' => ''
+		]);
+		//Runxputte
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild Runxputte',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Cheesemonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -8524,6 +8547,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Fair of Poperinge',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '67',
+			'county' => '472',
+			'barony' => ''
+		]);
+		//Bogaerde
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild of Bogaerde',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Guild_Cheesemonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',

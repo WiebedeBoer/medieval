@@ -22,6 +22,7 @@ class DuchySeeder extends Seeder
 				'law_court' => '',					//Itinerant (247), Palatial (75)
 				'vernacular_architecture' => '',	//Half_Timbered_Fachwerk (35), Half_Timbered_Studded (45), Half_Timbered_Khata (30), Half_Timbered_Konak (11), Log_Chalet (14), Log_Stave (8), Log_Izba (10), Stone_Croft (6), Stone_Mudejar (40), Stone_Romanesque (58), Stone_Adjar (7), Adobe_Mashriq (19), Adobe_Maghreb (23), Adobe_Persian (16) 									
 				'vegetation' => '',					//Desert_Oasis (21), Desert_Marshland (7), Steppe (34), Mediterranean_Shrubland (2), Mediterranean_Marshland (13), Mediterranean_Woodland (84), Temperate_Grassland (3), Temperate_Shrubland (30), Temperate_Woodland (112), Temperate_Marshland (16)
+				'transport' => '',					//Donkey_Train (250), Camel_Caravan (44), Dog_Cart (30)
 				'altitude' => '',					//Lowland (9), Montane (303), Highland (10)		
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
@@ -67,7 +68,8 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',				
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'vegetation' => 'Temperate_Shrubland',
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland'			
             ]);
 			//2 
@@ -80,6 +82,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//3 
@@ -92,6 +95,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);
 			//4
@@ -104,6 +108,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//5 
@@ -116,6 +121,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//6
@@ -128,6 +134,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//7 
@@ -140,6 +147,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);
 			//8 
@@ -152,6 +160,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);	
 			//9
@@ -164,6 +173,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//10
@@ -176,6 +186,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//11 
@@ -188,6 +199,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//12
@@ -200,6 +212,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'			
             ]);	
 			//13
@@ -212,6 +225,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//14
@@ -224,6 +238,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland'				
             ]);	
 			//15 
@@ -236,6 +251,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//16
@@ -248,6 +264,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//17 
@@ -260,6 +277,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'			
             ]);
 			//18
@@ -272,6 +290,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//19
@@ -284,6 +303,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//20
@@ -296,6 +316,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//21
@@ -308,6 +329,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland',				
             ]);	
 			//22
@@ -320,6 +342,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Lombardy
@@ -333,6 +356,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'			
             ]);	
 			//24 
@@ -345,6 +369,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//25 
@@ -357,6 +382,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//26 
@@ -369,6 +395,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//27 
@@ -381,6 +408,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'					
             ]);
 			//28 
@@ -393,6 +421,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//29 
@@ -405,6 +434,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//30 
@@ -417,6 +447,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//31 
@@ -429,6 +460,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//32 
@@ -441,6 +473,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//33 
@@ -453,6 +486,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//34 
@@ -465,6 +499,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);	
 			//bohemia
@@ -478,6 +513,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//36 
@@ -490,6 +526,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//37 
@@ -502,6 +539,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//38 
@@ -514,6 +552,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//39
@@ -526,6 +565,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Burgundy
@@ -539,6 +579,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//41
@@ -551,6 +592,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//42 
@@ -563,18 +605,20 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland'				
             ]);	
 			//43
 			//Orange, Venaissin, Vivarais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orange',
-				'duchy_category' => 'Ecclesiastical_Estate',
+				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '4',	
-				'law_succession' => 'Elective_Monarchy',
+				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//44
@@ -587,6 +631,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//45 
@@ -599,6 +644,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland'				
             ]);	
 			//Papal States
@@ -612,6 +658,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//47 
@@ -624,6 +671,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//48 
@@ -636,6 +684,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//49
@@ -648,6 +697,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//teutonic order state
@@ -661,6 +711,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//51
@@ -673,6 +724,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//52
@@ -685,6 +737,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//53
@@ -697,6 +750,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//54 
@@ -709,6 +763,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//55
@@ -721,6 +776,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//56
@@ -733,6 +789,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//France
@@ -747,6 +804,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);	
 			//58
@@ -759,6 +817,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//59
@@ -771,6 +830,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//60
@@ -783,6 +843,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//61 
@@ -795,6 +856,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//62
@@ -807,6 +869,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland'				
             ]);	
 			//63
@@ -819,6 +882,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Grassland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//64 
@@ -831,6 +895,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//65
@@ -843,6 +908,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//66
@@ -855,6 +921,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//67 
@@ -867,6 +934,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Lowland'				
             ]);	
 			//68
@@ -879,6 +947,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//69 
@@ -891,6 +960,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Brittany
@@ -904,6 +974,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//71
@@ -916,6 +987,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//72
@@ -928,6 +1000,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Britain
@@ -942,6 +1015,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//74
@@ -954,6 +1028,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//75
@@ -966,6 +1041,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//76
@@ -978,6 +1054,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//77
@@ -990,6 +1067,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//England
@@ -1003,6 +1081,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//79
@@ -1015,6 +1094,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//80
@@ -1027,6 +1107,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//81
@@ -1039,6 +1120,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//82
@@ -1051,6 +1133,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//83
@@ -1063,6 +1146,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//84
@@ -1075,6 +1159,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);	
 			//85
@@ -1087,6 +1172,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//86
@@ -1099,6 +1185,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//87
@@ -1111,6 +1198,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);				
 			//Wales
@@ -1124,6 +1212,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//89
@@ -1136,6 +1225,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//90
@@ -1148,6 +1238,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//91
@@ -1160,6 +1251,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//92
@@ -1172,6 +1264,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Scotland
@@ -1185,6 +1278,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//94
@@ -1197,6 +1291,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//95
@@ -1209,6 +1304,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//96
@@ -1221,6 +1317,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland'				
             ]);
 			//97
@@ -1233,6 +1330,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//98
@@ -1245,6 +1343,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//99
@@ -1257,6 +1356,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//Aragon
@@ -1271,6 +1371,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//101
@@ -1283,6 +1384,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//102
@@ -1295,6 +1397,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//103
@@ -1307,6 +1410,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland'				
             ]);	
 			//104
@@ -1319,6 +1423,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//105
@@ -1331,6 +1436,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//106
@@ -1343,6 +1449,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//107
@@ -1355,6 +1462,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Navarre
@@ -1368,6 +1476,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//109
@@ -1380,6 +1489,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//110
@@ -1392,6 +1502,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//111
@@ -1404,6 +1515,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Castile
@@ -1418,6 +1530,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//113
@@ -1430,6 +1543,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//114
@@ -1442,6 +1556,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//115
@@ -1454,6 +1569,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//116
@@ -1466,6 +1582,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//117
@@ -1478,6 +1595,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//118
@@ -1490,6 +1608,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Galicia
@@ -1503,6 +1622,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//120
@@ -1515,6 +1635,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//121
@@ -1527,6 +1648,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//122
@@ -1539,6 +1661,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Leon
@@ -1552,6 +1675,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//124
@@ -1564,6 +1688,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//125
@@ -1576,6 +1701,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//126
@@ -1588,6 +1714,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Asturias
@@ -1601,6 +1728,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//128
@@ -1613,6 +1741,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Portugal
@@ -1626,6 +1755,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//130
@@ -1638,6 +1768,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//131
@@ -1650,6 +1781,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Shrubland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//132
@@ -1662,6 +1794,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Danelagen
@@ -1676,6 +1809,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Grassland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//134
@@ -1688,6 +1822,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//135
@@ -1700,6 +1835,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Grassland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Norway
@@ -1713,6 +1849,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//137
@@ -1725,6 +1862,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//138
@@ -1737,6 +1875,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//139
@@ -1749,6 +1888,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland'				
             ]);
 			//140
@@ -1761,6 +1901,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//141
@@ -1773,6 +1914,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//142
@@ -1785,6 +1927,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland'				
             ]);
 			//143
@@ -1797,6 +1940,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//Sweden
@@ -1810,6 +1954,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//145
@@ -1822,6 +1967,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//146
@@ -1834,6 +1980,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//147
@@ -1846,6 +1993,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);	
 			//148
@@ -1858,6 +2006,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);
 			//Poland
@@ -1872,6 +2021,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//150
@@ -1884,6 +2034,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//151
@@ -1896,6 +2047,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//152
@@ -1908,6 +2060,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//153
@@ -1920,6 +2073,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//154
@@ -1932,6 +2086,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//155
@@ -1944,6 +2099,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//156
@@ -1956,6 +2112,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//157
@@ -1968,6 +2125,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//158
@@ -1980,6 +2138,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//159
@@ -1992,6 +2151,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Lithuania
@@ -2005,6 +2165,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//161
@@ -2017,6 +2178,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//162
@@ -2029,6 +2191,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//163
@@ -2041,6 +2204,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Hungary
@@ -2055,6 +2219,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//165
@@ -2067,6 +2232,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//166
@@ -2079,6 +2245,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//167
@@ -2091,6 +2258,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//168
@@ -2103,6 +2271,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//169
@@ -2115,6 +2284,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Croatia
@@ -2128,6 +2298,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//171
@@ -2140,6 +2311,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//172
@@ -2152,6 +2324,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//173
@@ -2164,6 +2337,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//174
@@ -2176,6 +2350,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Trinacria
@@ -2190,6 +2365,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//176
@@ -2202,6 +2378,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//177
@@ -2214,6 +2391,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//178
@@ -2226,6 +2404,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//179
@@ -2238,6 +2417,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//180
@@ -2250,6 +2430,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//Naples
@@ -2263,6 +2444,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//182
@@ -2275,6 +2457,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//183
@@ -2287,6 +2470,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//184
@@ -2299,6 +2483,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//185
@@ -2311,6 +2496,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//186
@@ -2323,6 +2509,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//187
@@ -2335,6 +2522,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//188
@@ -2347,6 +2535,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//189
@@ -2359,6 +2548,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Sardinia
@@ -2372,6 +2562,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//191
@@ -2384,6 +2575,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//192
@@ -2396,6 +2588,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//193
@@ -2408,6 +2601,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Byzantine		
@@ -2422,6 +2616,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2434,6 +2629,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Thessalonica
@@ -2447,6 +2643,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2459,6 +2656,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2471,6 +2669,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2483,6 +2682,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);		
 			//
@@ -2495,6 +2695,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2507,6 +2708,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Trebizond
@@ -2520,6 +2722,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2532,6 +2735,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2544,6 +2748,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2556,6 +2761,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Anatolia
@@ -2569,6 +2775,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2581,6 +2788,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2593,6 +2801,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2605,6 +2814,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2617,6 +2827,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2629,6 +2840,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2641,6 +2853,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2653,6 +2866,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2665,6 +2879,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);							
 			//Georgia
@@ -2678,6 +2893,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2690,6 +2906,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -2702,6 +2919,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -2714,6 +2932,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Armenia
@@ -2727,6 +2946,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2739,6 +2959,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2751,6 +2972,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2763,6 +2985,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Kievan Rus
@@ -2777,6 +3000,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -2789,6 +3013,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//Chernigov
@@ -2802,6 +3027,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);					
 			//
@@ -2814,6 +3040,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);						
 			//Ruthenia
@@ -2827,6 +3054,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2839,6 +3067,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -2851,6 +3080,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2863,6 +3093,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Vladimir
@@ -2876,6 +3107,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -2888,6 +3120,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -2900,6 +3133,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//Smolensk
@@ -2913,6 +3147,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);		
 			//
@@ -2925,6 +3160,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -2937,6 +3173,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Novgorod
@@ -2950,6 +3187,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -2962,6 +3200,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);			
 			//
@@ -2974,6 +3213,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);		
 			//Bulgaria
@@ -2988,6 +3228,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);		
 			//
@@ -3000,6 +3241,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Wallachia
@@ -3013,6 +3255,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3025,6 +3268,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Serbia
@@ -3039,6 +3283,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3051,6 +3296,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Bosnia
@@ -3064,6 +3310,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);		
 			//
@@ -3076,6 +3323,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);							
 			//Cordoba
@@ -3090,6 +3338,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3102,6 +3351,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3114,6 +3364,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'				
             ]);	
 			//
@@ -3126,6 +3377,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3138,6 +3390,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3150,6 +3403,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3162,6 +3416,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3174,6 +3429,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3186,6 +3442,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Algarves
@@ -3199,6 +3456,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3211,6 +3469,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3223,6 +3482,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Levante
@@ -3236,6 +3496,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3248,6 +3509,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3260,6 +3522,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3272,6 +3535,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3284,6 +3548,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Stone_Mudejar',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//Almohad
@@ -3298,6 +3563,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3310,6 +3576,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3322,6 +3589,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3334,6 +3602,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//Fez
@@ -3347,6 +3616,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3359,6 +3629,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3371,6 +3642,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Kairouan
@@ -3384,6 +3656,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3396,6 +3669,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3408,6 +3682,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3420,6 +3695,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);		
 			//
@@ -3432,6 +3708,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Tlemcen
@@ -3445,6 +3722,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3457,6 +3735,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3469,6 +3748,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3481,6 +3761,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3493,6 +3774,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3505,6 +3787,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3517,6 +3800,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3529,6 +3813,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Ifni
@@ -3542,6 +3827,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3554,6 +3840,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);			
 			//Figuig
@@ -3567,6 +3854,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3579,6 +3867,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Maghreb',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Abbasid
@@ -3593,6 +3882,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Syria
@@ -3607,6 +3897,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3619,6 +3910,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3631,6 +3923,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Najd
@@ -3644,6 +3937,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Antioch
@@ -3657,6 +3951,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ])			
 			//Fatimid
@@ -3671,6 +3966,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3683,6 +3979,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3695,6 +3992,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3707,6 +4005,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3719,6 +4018,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3731,6 +4031,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3743,6 +4044,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3755,6 +4057,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3767,6 +4070,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//Jerusalem
@@ -3780,6 +4084,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
             ]);				
 			//Hejaz
@@ -3793,6 +4098,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3805,6 +4111,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3817,6 +4124,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Khazar
@@ -3831,6 +4139,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3843,6 +4152,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3855,6 +4165,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3867,6 +4178,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3879,6 +4191,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Alania
@@ -3892,6 +4205,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3904,6 +4218,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Cumania
@@ -3917,6 +4232,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3929,6 +4245,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//
@@ -3941,6 +4258,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
+				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'				
             ]);				
 			//Seljuk
@@ -3955,6 +4273,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//
@@ -3967,6 +4286,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);
 			//Isfahan
@@ -3980,6 +4300,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -3992,6 +4313,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			//Hormuz
@@ -4005,6 +4327,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);	
 			//
@@ -4017,6 +4340,7 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'				
             ]);				
 			

@@ -24,9 +24,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => '',				//Beverage_Wine (198), Beverage_Cider (82), Beverage_Elder (15), Beverage_Hops (16), Beverage_Gruit (123), Olive_Oil (7), Sweetener_Honey (186), Sweetener_Sugarcane (25), Sweetener_Date (44), None (656) = 1346
 				'banal_chasse' => '',				//Falconry (9), Deer (50), Boar (31), Fur (6), None (1250) = 1346
 				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (29), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12), None (1081) = 1346
-				'marke_animal_transport' => '',		//Charger (308), Palfrey (404), Affer (337), Sumpter (303) = 1346
+				'marke_horse_transport' => '',		//Charger (308), Palfrey (404), Affer (337), Sumpter (303) = 1346
 				'marke_animal_husbandry' => '',		//Cattle (499), Sheep (335), Pigs (356), Goats (156) = 1346
-				'marke_animal_poultry' => '',		//Chickens (1193), Ducks (154) = 1346
+				'marke_poultry' => '',		//Chickens (1193), Ducks (154) = 1346
 													//1 migration [500], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420] 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -91,9 +91,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',														
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//2 
 			//altenburg, eggenburg, rosenburg, chremis
@@ -108,9 +108,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Boar',											
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//3
 			//vienna, klosterneuburg, kreuzenstein
@@ -125,9 +125,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',															
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Bavaria
 			//4
@@ -143,9 +143,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',														
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//5
 			//bamberg, hallstadt
@@ -160,9 +160,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',										
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//6
 			//geisenhausen, veldenstein
@@ -177,9 +177,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',										
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//7
 			//egerburg, nuremberg, grafengehaig, windsheim
@@ -194,9 +194,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',							
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//8
 			//forchheim, staffelstein
@@ -211,9 +211,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',										
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//9
 			//passau, erneck, vornbach
@@ -228,9 +228,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//10
 			//vilshofen, furstenstein, saldenburg
@@ -245,9 +245,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',										
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//11
 			//ingolstadt, neuburg, freising
@@ -262,9 +262,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',										
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Brabant
 			//12
@@ -280,9 +280,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//13
 			//hasselt, tongeren, borgloon, kuringen, herkenrode
@@ -297,9 +297,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//14
 			//valenciennes, mons, lobbes, brakel
@@ -314,9 +314,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//15
 			//cambrai, caudry
@@ -331,9 +331,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//16
 			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, waalwick, besoyen, bosch, orthen, bokhoven, ravenstein
@@ -348,9 +348,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'Deer',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//17
 			//ghent, axel, hulst, assenede, boekhoute, sluys, gavere
@@ -365,9 +365,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//Carinthia
 			//18
@@ -383,9 +383,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//19
 			//judenburg, frauenburg
@@ -400,9 +400,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//20
 			//steinz, graz, seckau
@@ -417,9 +417,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//21
 			//karlsberg, klagenfurt, velden, sankt veit, gurk
@@ -434,9 +434,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//22
 			//sankt paul, sankt andra
@@ -451,9 +451,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//23
 			//leoben, sankt stefan
@@ -468,9 +468,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//24
 			//kadour, lienz, villach, millstatt, treffen
@@ -484,9 +484,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//25
 			//eppenstein, hohenwang
@@ -501,9 +501,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//26
 			//celje, richenburg
@@ -518,9 +518,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Carniola
 			//27
@@ -536,9 +536,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//28
 			//tergeste, parenzo, mitterburg, pican, pula
@@ -553,9 +553,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Dye_Madder',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Franconia
 			//29
@@ -571,9 +571,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//30
 			//rotenburg, colmberg, comburg
@@ -588,9 +588,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//31
 			//kitzingen, gerolshofen
@@ -605,9 +605,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//32
 			//mosbach, minneburg
@@ -622,9 +622,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//33
 			//hammelburg, gersfeld
@@ -639,9 +639,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//34
 			//gosheim, kaisersheim
@@ -656,9 +656,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//35
 			//heilbronn, weinsberg, ellhofen, ohringen, hall, hohenstein
@@ -673,9 +673,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//36
 			//weikersheim, mergentheim
@@ -690,9 +690,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//37
 			//wurzburg, wertheim, waldsassen, nordheim
@@ -707,9 +707,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Frisia
 			//38
@@ -725,9 +725,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//39
 			//aurichove, ihlow, marienhafe
@@ -742,9 +742,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//40
 			//goes, wissenkerk, hellenburg, renesse
@@ -759,9 +759,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//41
 			//jouwer, haskerhorn, bakkeveen, beets, oudeschoot
@@ -776,9 +776,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//42
 			//coevorden, groningen, ruinen, rolde, wolvega, appelsche, oostwold
@@ -793,9 +793,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//43
 			//meldorf, hemmingstedt, wohrden
@@ -810,9 +810,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//44
 			//emden, leer
@@ -827,9 +827,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//45
 			//appingedam, winschoten, farmsum 
@@ -844,9 +844,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//46
 			//otterndorf, ritzebuttel 
@@ -861,12 +861,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//47
-			//dordrecht, gouda, zuidewyn, ridderkerk
+			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal_Manor',
@@ -878,9 +878,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//48
 			//winsum, bedum, selwerd
@@ -895,12 +895,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//49
-			//haarlem, alkmaar, amsterdam, edam, purmerstein, brederode, egmond
+			//haarlem, alkmaar, amsterdam, edam, purmerstein, brederode, egmond, runxputte
             DB::table('counties')->insert([
 				'county_name' => 'Kennemerland',
 				'county_category' => 'Feudal_Manor',
@@ -912,9 +912,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//50
 			//delft, vlaardingen, rotterdam, holylede, berkel
@@ -929,9 +929,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//51
 			//utrecht, dorestadt, amerongen, zuilenburg, woudenberg, heemstede, nyenrode, vianen, woerden, lockhorst
@@ -946,9 +946,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//52
 			//norden, berum, jever
@@ -963,9 +963,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//53
 			//ostringfeld, reepsholt, kniphausen
@@ -980,9 +980,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//54
 			//dockum, liowerd, klaarkamp, wytgaard, mariengaard
@@ -997,9 +997,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//55
 			//leithen, wassenaar, cronestein, haag, loosduinen
@@ -1014,9 +1014,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//56
 			//nordenham, rodenkirchen, langwarden
@@ -1031,9 +1031,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//57
 			//zwolle, kampen, hasselt, waardenborg, hardenberg
@@ -1048,9 +1048,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//58
 			//starum, sloten, hemlum
@@ -1065,9 +1065,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//59
 			//tiel, buren, arkel, heusden, vianen, loevestein, almkerk, ammersoyen, zaltbommel, gorcum
@@ -1082,9 +1082,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//60
 			//oldenzaal, enschede, almelo, ottenstein
@@ -1099,9 +1099,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//61
 			//elburg, harderwick, barnefeld, scherpenzeel, koldenhof, hall
@@ -1116,9 +1116,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//62
 			//vollenhove, kuinre, steenwick
@@ -1133,9 +1133,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//63
 			//flissinghe, serooskerke, middelburg
@@ -1150,9 +1150,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//64
 			//froonacker, bolsward, drylts, hylpen, snits, harns, hoxwier, boksum, lidlum
@@ -1167,9 +1167,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//65
 			//hoorn, medemblik, enkhuizen
@@ -1184,9 +1184,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//66
 			//sieversham, midlum, bederkesa, diepholt, weddewarden
@@ -1201,9 +1201,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Guelders
 			//67
@@ -1219,9 +1219,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//68
 			//nymegen, arnhem, doornenburg, batenburg, appeltern, maldericke
@@ -1236,9 +1236,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//69
 			//cleves, kranenburg, boetselaer
@@ -1253,9 +1253,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//70
 			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst, lochem, zeddam, wychen
@@ -1270,9 +1270,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//71
 			//tegelen, venlo, straelen
@@ -1287,9 +1287,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//72
 			//duisburg, moers
@@ -1304,9 +1304,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Julich
 			//73
@@ -1322,9 +1322,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//74
 			//kasselburg, gerolstein, kaufungen
@@ -1339,9 +1339,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//75
 			//zulpich, hallenburg
@@ -1356,9 +1356,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Limburg
 			//76
@@ -1374,9 +1374,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//77
 			//stavelot, malmedy, wiltz, bouillon
@@ -1391,9 +1391,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//78
 			//dinant, poilvache, huy, veves
@@ -1408,9 +1408,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//79
 			//namur, florennes, gembloux
@@ -1425,9 +1425,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//80
 			//maastricht, borgharen, valkenburg, thorn, aldeneik, susteren, odilienberg, kessel
@@ -1442,9 +1442,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Lorraine
 			//81
@@ -1460,9 +1460,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//82
 			//bitche, zweibrucken, homburg
@@ -1477,9 +1477,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//83
 			//luneville, epinal, fontenoy, remiremont
@@ -1494,9 +1494,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//84
 			//sarrebourg, saarbrucken, berg, bubingen, thorn
@@ -1511,9 +1511,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//85
 			//weich, dieuze, salins
@@ -1528,9 +1528,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//86
 			//neufchateau, sandaucourt
@@ -1545,9 +1545,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//87
 			//toul, ochey, nancy, clairlieu
@@ -1562,9 +1562,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Luxembourg
 			//88
@@ -1580,9 +1580,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//89
 			//barrois, ligny
@@ -1597,9 +1597,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//90
 			//sedan, mouzon
@@ -1614,9 +1614,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//91
 			//verdun, recicourt
@@ -1631,9 +1631,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//92
 			//longwy, arlon, thionville, chiny, clairefontaine
@@ -1648,9 +1648,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Saxony
 			//93
@@ -1666,9 +1666,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//94
 			//brunswick, hebesheim, haldensleben, supplinburg, riddagshausen
@@ -1683,9 +1683,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//95
 			//hildesheim, poppenburg
@@ -1700,9 +1700,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//96
 			//celle, hanover
@@ -1717,9 +1717,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//97
 			//gandersheim, westerhof, willershausen, lamspringe
@@ -1734,9 +1734,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//98
 			//duderstadt, pohlde
@@ -1751,9 +1751,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//99
 			//goslar, harzburg, osterode, herzberg, walkenried
@@ -1768,9 +1768,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Styria
 			//100
@@ -1786,9 +1786,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//101
 			//sankt george, sankt margarethen, moosham
@@ -1803,9 +1803,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//102
 			//innsbruck, kufstein, admont, muhlau
@@ -1820,9 +1820,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//103
 			//mattighofen, fraunhofen
@@ -1837,9 +1837,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//104
 			//brixen, bolzano, merano, tirol, reifenstein
@@ -1854,9 +1854,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//105
 			//sankt moritz, schlandersberg
@@ -1871,9 +1871,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Swabia
 			//106
@@ -1889,9 +1889,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//107
 			//kempten, sulzberg, wagegg, finkelsburg, rettenberg, sankt ulrich
@@ -1906,9 +1906,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//108
 			//augsburg, wettenhausen, wittelsbach, memmingen, buxheim
@@ -1923,9 +1923,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//109
 			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel, rotteln
@@ -1940,9 +1940,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//110
 			//chur, disentis, feldkirchen, bludenz, sankt george, sonnenberg
@@ -1957,9 +1957,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//111
 			//singen, verenahof
@@ -1974,9 +1974,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//112
 			//ravensburg, weingarten, salem, baindt
@@ -1991,9 +1991,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//113
 			//greifenstein, tubingen, reutlingen, rottenburg
@@ -2008,9 +2008,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//114
 			//strassburg, hohenburg
@@ -2025,9 +2025,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//115
 			//nordlingen, ellwangen
@@ -2042,9 +2042,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//116
 			//hohenzollern, falkenstein, ulm, hohenstaufen, biberach, buchau, gutenzell, marchtal
@@ -2059,9 +2059,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//117
 			//einsiedeln, lenzburg
@@ -2076,9 +2076,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//118
 			//mulhausen, kolmar, murbach, lichtenberg
@@ -2093,9 +2093,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//119
 			//konstanz, sankt gall, lindau, kirchberg, kreuzlingen, reichenau, engelberg, toggenburg
@@ -2110,9 +2110,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//120
 			//zurich, winterthur, kyburg
@@ -2127,9 +2127,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Thuringia
 			//121
@@ -2145,9 +2145,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//122
 			//gruessen, runneburg
@@ -2162,9 +2162,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//123
 			//muhlhausen, anrode
@@ -2179,9 +2179,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//124
 			//nordhausen, ebersburg
@@ -2196,9 +2196,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//125
 			//arnstadt, liebenstein
@@ -2213,9 +2213,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//126
 			//sondershausen, frankenhausen
@@ -2230,9 +2230,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//127
 			//rudolstadt, greifenstein, saalfeld, leutenberg
@@ -2247,9 +2247,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//128
 			//naumburg, altenburg, moritzburg, gera, ronneburg
@@ -2264,9 +2264,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//129
 			//zwickau, plauen
@@ -2281,9 +2281,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Bremen
 			//130
@@ -2299,9 +2299,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//131
 			//meppen, lingen, papenburg
@@ -2316,9 +2316,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//132
 			//arnsberg, soest, warstein, wedinghausen, marsfelde, herdringen, furstenberg
@@ -2333,9 +2333,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//133
 			//corvey, hoxter, amelungsborn, holzminden, everstein
@@ -2350,9 +2350,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//134
 			//buckeburg, schaumburg, hamelin 
@@ -2367,9 +2367,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//135
 			//bentheim, dinkelrode, marienrode, wietmarschen, salzbergen, elbergen
@@ -2384,9 +2384,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//136
 			//minden, petershagen, schlusselburg, hausberge, rahden, reineburg
@@ -2401,9 +2401,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//137
 			//lippstadt, greven, lunen, nienburg
@@ -2418,9 +2418,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//138
 			//osnabruck, yburg, marienfeld
@@ -2435,9 +2435,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//139
 			//tecklenburg, scapheim, cloppenburg, krapendorf
@@ -2452,9 +2452,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//140
 			//stade, horneburg, harburg
@@ -2469,9 +2469,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//141
 			//niemunster, rendsburg, reinfeld
@@ -2486,9 +2486,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//142
 			//gottingen, leineberg 
@@ -2503,9 +2503,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//143
 			//buxtehude, jesteburg
@@ -2520,9 +2520,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//144
 			//paderborn, salzkotten, wewer, hardehausen, warburg
@@ -2537,9 +2537,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//145
 			//ludinghausen, asbeck, coesfeld, darfeld, appelhulsen
@@ -2554,9 +2554,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//146
 			//hamburg, ahrensburg
@@ -2571,9 +2571,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//147
 			//verden, rotenburg
@@ -2588,9 +2588,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);						
 			//148
 			//munster, warendorf, gelsenkirchen,asbeck
@@ -2605,9 +2605,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//149
 			//ravensberg, sparrenberg, limberg, herford
@@ -2622,9 +2622,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//150
 			//hagen, attendorn, dortmund, hamm, essen, werden
@@ -2639,9 +2639,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);						
 			//Cologne
 			//151
@@ -2657,9 +2657,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//152
 			//siegburg, rennenburg, blankenberg
@@ -2674,9 +2674,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//153
 			//bonn, remagen
@@ -2691,9 +2691,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//154
 			//deutz, altenberg 
@@ -2708,9 +2708,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Magdeburg
 			//155
@@ -2726,9 +2726,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//156
 			//stendal, osterburg
@@ -2743,9 +2743,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//157
 			//erdeborn, alberstedt
@@ -2760,9 +2760,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//158
 			//halberstadt, quedlinburg, gernrode
@@ -2777,9 +2777,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//159
 			//merseburg, halle, wettin
@@ -2794,9 +2794,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//160
 			//seehausen, salzwedel
@@ -2811,9 +2811,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//161
 			//bernburg, nienburg, ascherleben, hadmersleben, ballenstedt
@@ -2828,9 +2828,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Mainz
 			//162
@@ -2846,9 +2846,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//163
 			//hammerstein, logenstein
@@ -2863,9 +2863,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//164
 			//kassel, staufenberg, hersfeld, fritzlar, friedelshausen
@@ -2880,9 +2880,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//165
 			//limburg, marburg, weilburg, wetzlar, lahneck
@@ -2897,9 +2897,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//166
 			//mannheim, heidelberg, bruchhausen, grenzhof, schonau
@@ -2914,9 +2914,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//167
 			//aschaffenburg, seligenstadt
@@ -2931,9 +2931,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//168
 			//ingelheim, spiesheim, saulheim, flonheim
@@ -2948,9 +2948,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//169
 			//nidda, warnsberg
@@ -2965,9 +2965,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//170
 			//speyer, dudenhofen, wissembourg, klingenmunster
@@ -2982,9 +2982,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//171
 			//sankt leon, bretzenheim
@@ -2999,9 +2999,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//172
 			//frankfurt, homburg, kransberg, falkenstein, massenheim
@@ -3016,9 +3016,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//173
 			//pforzheim, liebeneck
@@ -3033,9 +3033,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Salzburg
 			//174
@@ -3051,9 +3051,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'				
+				'marke_poultry' => 'Chickens'				
             ]);
 			//175
 			//falkenstein, traunstein, baumburg, rosenheim, chiemsee
@@ -3068,9 +3068,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//176
 			//tamswick, sankt michael
@@ -3085,9 +3085,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//177
 			//zell, saalfelden
@@ -3102,9 +3102,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//178
 			//tegernsee, ebertshausen, munich, staffelsee
@@ -3119,9 +3119,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Trier
 			//179
@@ -3137,9 +3137,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//180
 			//eltz, andernach, salm
@@ -3154,9 +3154,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//181
 			//ravengiersburg, ehrenburg
@@ -3171,9 +3171,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//182
 			//treis, koblenz
@@ -3188,9 +3188,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Lombardy
 			//Milano
@@ -3207,9 +3207,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//184
 			//bergamo, san pietro, stezzano, treviolo, mozzo, astino
@@ -3224,9 +3224,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//185
 			//brescia, rovato, polpenazze, bedizzole, san giorgo
@@ -3241,9 +3241,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//186
 			//crema, vaiano, bagnolo, trescore
@@ -3258,9 +3258,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//187
 			//cremona, caorso
@@ -3275,9 +3275,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//188
 			//pavullo, monterastello, montecuccolo
@@ -3292,9 +3292,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//189
 			//lodi, cerreto
@@ -3309,9 +3309,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//190
 			//mantua, polirone, levata, pietola, cavriana, gonzaga
@@ -3326,9 +3326,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//191
 			//modena, mirandola, vignola, nonantola
@@ -3343,9 +3343,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//192
 			//novara, chiavenna
@@ -3360,9 +3360,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//193
 			//parma, fidenza, colorno, sanguigna, san vitale, castrignano, bardi
@@ -3377,9 +3377,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//194
 			//pavia, certosa, san martino, carpignano
@@ -3394,9 +3394,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//195
 			//piacenza, grazzano, bobbio
@@ -3411,9 +3411,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//196
 			//reggio, bagnolo, fogliano, canossa
@@ -3428,9 +3428,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//197
 			//tortona, montegioco, garbagna
@@ -3445,9 +3445,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//198
 			//vernio, montepiano
@@ -3462,9 +3462,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Piedmont
 			//199
@@ -3480,9 +3480,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//200
 			//asti, burio, loreto
@@ -3497,9 +3497,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//201
 			//valloriate, san dalmazzo
@@ -3514,9 +3514,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//202
 			//canavese, ivrea
@@ -3531,9 +3531,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//203
 			//casale, san giorgo, san nazzaro
@@ -3548,9 +3548,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//204
 			//cuneo, saluzzo, castellaro, staffarda
@@ -3565,9 +3565,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//205
 			//alessandria, acqui
@@ -3582,9 +3582,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//206
 			//pragelato, pinerolo, exilles
@@ -3599,9 +3599,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//207
 			//susa, novalesa
@@ -3616,9 +3616,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//208
 			//turino, moncalieri, chieri, rivoli
@@ -3633,9 +3633,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//209
 			//vercelli, salasco, quinto
@@ -3650,9 +3650,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//210
 			//vigevano, lomello, robbio
@@ -3667,9 +3667,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Tuscany
 			//211
@@ -3685,9 +3685,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//212
 			//grosseto, orbetello, manciano, grancia
@@ -3702,9 +3702,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//213
 			//piombino, massa, bracciano
@@ -3719,9 +3719,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//214
 			//sovana, sorano, pitigliano, fregiano
@@ -3736,9 +3736,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Verona
 			//215
@@ -3754,9 +3754,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//216
 			//padova, masera, vigonza, praglia, este, monselice, solesino
@@ -3771,9 +3771,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//217
 			//rovigo, vangadizza, adria, loreo, lendinara
@@ -3788,9 +3788,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//218
 			//vicenza, montecchio, bassano, valdagno
@@ -3805,9 +3805,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//219
 			//trent, appenzell, rofreit
@@ -3822,9 +3822,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Aquileia
 			//220
@@ -3840,9 +3840,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//221
 			//gorizia, gradisca
@@ -3857,9 +3857,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//222
 			//pordenone, san vito, aviano, polcenigo
@@ -3874,9 +3874,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Florence
 			//223
@@ -3892,9 +3892,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//224
 			//arezzo, montevarchi, focognano, san nicolo, camaldoli, montisi
@@ -3909,9 +3909,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//225
 			//cortona, castello
@@ -3926,9 +3926,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//226
 			//perugia, assisi, foligno, gubbio
@@ -3943,9 +3943,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//227
 			//prato, filettole, montemurlo
@@ -3960,9 +3960,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Genoa
 			//228
@@ -3978,9 +3978,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//229
 			//luni, pontremoli, bagnone, porto venere, volpiglione, castelpoggio
@@ -3995,9 +3995,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//230
 			//massa, carrara
@@ -4012,9 +4012,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Noli
 			//231
@@ -4030,9 +4030,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//232
 			//albenga, san fedele, lusignano
@@ -4047,9 +4047,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//233
 			//finale, verezzi
@@ -4064,9 +4064,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Oneglia
 			//234
@@ -4082,9 +4082,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//235
 			//monaco, menton, roquebrune
@@ -4099,9 +4099,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//236
 			//ventimiglia, dolceaqua
@@ -4116,9 +4116,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Lucca
 			//237
@@ -4134,9 +4134,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//238
 			//pistoia, pescia, agliana, uzzano
@@ -4151,9 +4151,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Pisa
 			//239
@@ -4169,9 +4169,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//240
 			//corte, alando, aleria, ajaccio, morosaglia
@@ -4186,9 +4186,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//241
 			//livorno, sassetta, san vincenzo 
@@ -4203,9 +4203,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Madder',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//242
 			//riparbella, cecina, bibbona, castellina
@@ -4220,9 +4220,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//243
 			//volterra, chianni, monteverdi, saline
@@ -4237,9 +4237,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Venice
 			//244
@@ -4255,9 +4255,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//245
 			//belluno, feltre, sedico, alpago, san giustina
@@ -4272,9 +4272,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//246
 			//treviso, mogliano, conegliano, castelfranco, biancade, musestre, oderzo
@@ -4289,9 +4289,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Bohemia
 			//Bohemia
@@ -4308,9 +4308,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//248
 			//bechin, tabor
@@ -4325,9 +4325,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//249
 			//bunzlau, reichenberg, waldstein, pernstein, pardubitz
@@ -4342,9 +4342,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//250
 			//elbogen, karlsbad
@@ -4359,9 +4359,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//251
 			//glatz, wunschelburg, kunzendorf
@@ -4376,9 +4376,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//252
 			//koniggratz, nachod, braunau, welisch, podiebrad, sadowa, lichtenburg
@@ -4393,9 +4393,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//253
 			//leitmeritz, aussig
@@ -4410,9 +4410,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//254
 			//pilsen, kladrau, tepl, klattau, taus, tachau
@@ -4427,9 +4427,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//255
 			//rakonitz, purglitz
@@ -4444,9 +4444,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//256
 			//schlan, brandeis, kladen
@@ -4461,9 +4461,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//257
 			//saaz, komotau, laun, plass
@@ -4478,9 +4478,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//258
 			//tschaslau, kuttenberg, sedlec, kladrub
@@ -4495,9 +4495,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Lusatia
 			//259
@@ -4513,9 +4513,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//260
 			//hoyerswerda, bautzen
@@ -4530,9 +4530,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//261
 			//dohna, dresden, briesnitz, leipzig
@@ -4547,9 +4547,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//262
 			//spremberg, senftenberg, lebusa
@@ -4564,9 +4564,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//263
 			//lubben, lieberose
@@ -4581,9 +4581,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Moravia
 			//264
@@ -4599,9 +4599,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//265
 			//iglau, pilgrams
@@ -4616,12 +4616,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//266
-			//olmutz, prossnitz, sternberg
+			//olmutz, prossnitz, sternberg, hradisch
             DB::table('counties')->insert([
 				'county_name' => 'Olmutz',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -4630,12 +4630,12 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Bohemia',	
 				'vernacular_culture' => 'Moravian',
 				'banal_moulin' => 'None',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//267
 			//prerau, weisskirchen, leipnik, kremsier
@@ -4650,9 +4650,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//268
 			//velingrad, zlin
@@ -4667,9 +4667,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//269
 			//znaim, kralitz
@@ -4684,9 +4684,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Lower Silesia
 			//270
@@ -4702,9 +4702,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//271
 			//glogau, hermsdorf
@@ -4719,9 +4719,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//272
 			//leubus, wolau, buckow, muncheberg
@@ -4736,9 +4736,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//273
 			//liegnitz, hoyn, parchwitz, arnsdorf
@@ -4753,9 +4753,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//274
 			//oels, wartenberg, ferstenberg, bernstadt
@@ -4770,9 +4770,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//275
 			//schweidnitz, striegau, schmiedeberg, hirschberg 
@@ -4787,9 +4787,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Upper Silesia
 			//276
@@ -4805,9 +4805,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//277
 			//breslau, waldenburg 
@@ -4822,9 +4822,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//278
 			//brieg, grottkau, lowen
@@ -4839,9 +4839,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//279
 			//ratibor, pless, beuthen
@@ -4856,9 +4856,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//280
 			//teschen, golleschau, ustron
@@ -4873,9 +4873,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//281
 			//troppau, lischwitz, jagerndorf
@@ -4890,9 +4890,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Burgundy
 			//Burgundy
@@ -4909,9 +4909,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//283
 			//autun, saint loup, saint martin
@@ -4926,9 +4926,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//284
 			//auxerre, saint maurice
@@ -4943,9 +4943,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//285
 			//saint reine, chatellenot, chateauneuf, commarin, fontette, montbard, avallon, saulieu
@@ -4960,9 +4960,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//286
 			//beaujeu, quincie, saint nizier, sou, arnas
@@ -4977,9 +4977,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//287
 			//citeaux, savigny, saint jean
@@ -4994,9 +4994,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//288
 			//chalon, saint germain
@@ -5011,9 +5011,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//289
 			//chatillon, molesme, saint marcel
@@ -5028,9 +5028,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//290
 			//macon, cluny, charolles, clayette, semur
@@ -5045,9 +5045,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//291
 			//nevers, marais
@@ -5062,9 +5062,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//292
 			//tonerre, quincy
@@ -5079,9 +5079,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Cisjurania
 			//293
@@ -5097,9 +5097,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//294
 			//albon, mantaille
@@ -5114,9 +5114,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//295
 			//billieme, saint ouen
@@ -5131,9 +5131,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//296
 			//embrun, risoul
@@ -5148,9 +5148,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//297
 			//forcalquier, gap, apt, sisteron
@@ -5165,9 +5165,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//298
 			//lyon, irigny, seyssuel, givors, savigny
@@ -5182,9 +5182,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//299
 			//briancon, clavieres
@@ -5199,9 +5199,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//300
 			//valence, montelier, saint marcel, montmeyran
@@ -5216,9 +5216,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//301
 			//vienne, chonas, ampuis
@@ -5233,9 +5233,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Transjurania
 			//302
@@ -5251,9 +5251,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//303
 			//habsburg, aarau, bern, lucerne, muri
@@ -5268,9 +5268,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//304
 			//solothurn, saint denis
@@ -5285,9 +5285,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//305
 			//lausanne, orbe, payerne, avenches
@@ -5302,9 +5302,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//306
 			//vesoul, luxieul
@@ -5319,9 +5319,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//307
 			//neuchatel, yverdon
@@ -5336,9 +5336,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Orange
 			//308
@@ -5354,9 +5354,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//309
 			//venasque, avignon, carpentras, cavaillon, sorgue, saint remy
@@ -5371,9 +5371,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//310
 			//viviers, saint andeol, aigeuze, saint martin, saint just, nyons, montelimar, vaison
@@ -5388,9 +5388,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Provence
 			//311
@@ -5406,9 +5406,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//312
 			//arles, montmajour, tarascon
@@ -5423,9 +5423,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//313
 			//baux, mouries, riez, senez, digne
@@ -5440,9 +5440,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//314
 			//marseille, saint jean
@@ -5457,9 +5457,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//315
 			//nice, villefranche, escarene, guillaumes, saint etienne, vence, glandeves, grasse, frejus
@@ -5474,9 +5474,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//316
 			//toulon, ollioules, ollieres
@@ -5491,9 +5491,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Savoy
 			//317
@@ -5509,9 +5509,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//318
 			//aosta, chatillon
@@ -5526,9 +5526,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//319
 			//thonon, bons, chablis, saint cosme
@@ -5543,9 +5543,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//320
 			//geneva, annecy
@@ -5560,9 +5560,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//321
 			//moutiers, montagny
@@ -5577,9 +5577,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//322
 			//sion, martigny, raron
@@ -5594,9 +5594,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Papal States
 			//Rome
@@ -5613,9 +5613,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//324
 			//frosinone, cassino, alatri, sora, ceccano, anagni, ferentino, veroli
@@ -5630,9 +5630,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//325
 			//terracina, fondi, castellone, gaeta
@@ -5647,9 +5647,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//326
 			//rieti, farfa, corvaro
@@ -5664,9 +5664,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//327
 			//viterbo, castellana, toscanella, corneto, vetralla
@@ -5681,9 +5681,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Romagna
 			//328
@@ -5699,9 +5699,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//329
 			//bologna, forli, faenza, imola, molinella, san pietro, san giovanni, monterenzio
@@ -5716,9 +5716,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//330
 			//carpegna, rimini, verucchio, coriano
@@ -5733,9 +5733,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//331
 			//ravenna, lugo, cervia, bagnacavallo, massa, conselice
@@ -5750,9 +5750,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Spoleto
 			//332
@@ -5768,9 +5768,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//333
 			//chieti, ortona, vasto, lanciano, san vito, san giovanni
@@ -5785,9 +5785,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//334
 			//fermo, camerino, macerata
@@ -5802,9 +5802,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//335
 			//pescara, montesilvano, san angelo
@@ -5819,9 +5819,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//336
 			//spoleto, aquila
@@ -5836,9 +5836,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Urbino
 			//337
@@ -5854,9 +5854,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//338
 			//pesaro, fano, mondolfo
@@ -5871,9 +5871,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Teutonic Order State
 			//Livonia
@@ -5890,9 +5890,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//340
 			//ascheraden, kokenhusen
@@ -5907,9 +5907,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//341
 			//dorpat, talkhof, wendau 
@@ -5924,9 +5924,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//342
 			//dunaburg, selburg 
@@ -5941,9 +5941,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//343
 			//fellin, karkus
@@ -5958,9 +5958,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//344
 			//goldingen, talsen, frauenburg, sackenhausen, windau
@@ -5975,9 +5975,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//345
 			//mitau, annenburg, autzenburg
@@ -5992,9 +5992,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//346
 			//lemburg, jurgensburg 
@@ -6009,9 +6009,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//347
 			//wenden, wolmar, lemsal
@@ -6026,9 +6026,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//348
 			//wolkenburg, rositten
@@ -6043,9 +6043,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Estonia
 			//349
@@ -6061,9 +6061,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//350
 			//pernau, hapsal, arensburg, soneburg
@@ -6078,9 +6078,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Prussia
 			//351
@@ -6096,9 +6096,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//352
 			//bartenstein, heilsberg, schippenbeil
@@ -6113,9 +6113,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//353
 			//braunsberg, allenstein, bischofsburg, wartenburg
@@ -6130,9 +6130,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//354
 			//memelburg, windenburg, rutzau
@@ -6147,9 +6147,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//355
 			//landeshut, schalauerburg
@@ -6164,9 +6164,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//356
 			//brandenburg, tapiow, wehlau
@@ -6181,9 +6181,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//357
 			//elbing, tolkemitz, muhlhausen
@@ -6198,9 +6198,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//358
 			//koningsberg, insterburg, angerburg, gerdauen
@@ -6215,9 +6215,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Pomerelia
 			//359
@@ -6233,9 +6233,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//360
 			//butow, rummelsburg, damerkow
@@ -6250,9 +6250,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//361
 			//dirschau, mewe, neuenburg
@@ -6267,9 +6267,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//362
 			//karthaus, zuckau, chmelno
@@ -6284,9 +6284,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//363
 			//kulm, althaus, rehden, graudenz
@@ -6301,9 +6301,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//364
 			//lauenburg, neuendorf, vietzig
@@ -6318,9 +6318,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//365
 			//putzig, krockow, kossakowitz
@@ -6335,9 +6335,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//366
 			//baldenburg, schlochau
@@ -6352,9 +6352,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//367
 			//schwetz, bromberg
@@ -6369,9 +6369,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//368
 			//thorn, birgelau 
@@ -6386,9 +6386,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//369
 			//tuchel, seehaupten
@@ -6403,9 +6403,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Pomerania
 			//370
@@ -6421,9 +6421,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//371
 			//arnswalde, bernstein, kolbacz
@@ -6438,9 +6438,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//372
 			//gollnow, massow, stepenitz 
@@ -6455,9 +6455,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//373
 			//greifenhagen, barwalde 
@@ -6472,9 +6472,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//374
 			//greifenberg, treptow 
@@ -6489,9 +6489,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//375
 			//pyritz, warnitz, prillwitz
@@ -6506,9 +6506,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//376
 			//kessin, rostock, stralsund, greifswald, demmin, grimmen
@@ -6523,9 +6523,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//377
 			//kolberg, degow
@@ -6540,9 +6540,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//378
 			//koslin, zanow, bublitz, pollnow
@@ -6557,9 +6557,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//379
 			//neustettin, baldenburg
@@ -6574,9 +6574,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//380
 			//schivelbein, stolzenberg 
@@ -6591,9 +6591,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//381
 			//slupsk, kublitz, glowitz
@@ -6608,9 +6608,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//382
 			//schlawe, rugenwalde, malchow
@@ -6625,9 +6625,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//383
 			//stettin, prenzlow, pasewalk, kolbatz 
@@ -6642,9 +6642,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//384
 			//wolgast, neuenkirchen, buggenhagen, wollin
@@ -6659,9 +6659,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Brandenburg
 			//385
@@ -6677,9 +6677,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//386
 			//wusterhausen, wittstock
@@ -6694,9 +6694,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//387
 			//perleberg, pritzwalk, wittenberg
@@ -6711,9 +6711,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//388
 			//havelberg, plattenburg
@@ -6728,9 +6728,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//389
 			//berlin, spandau, kopenick, tempelhof, rosenfeld, helwichdorf, kaulsdorf, maltersdorf, biesdorf, morczahn
@@ -6745,9 +6745,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//390
 			//rowenburg, schenkenberg, uckerfeld, templin
@@ -6762,9 +6762,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Mecklenburg
 			//391
@@ -6780,9 +6780,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//392
 			//mecklenburg, wismar
@@ -6797,9 +6797,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//393
 			//schwerin, ratzeburg
@@ -6814,9 +6814,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//394
 			//lubeck, oldenburg, segeberg, preetz
@@ -6831,9 +6831,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//France
 			//France
@@ -6851,9 +6851,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//396
 			//mans, chalons, laval, evron, mayenne
@@ -6868,9 +6868,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//397
 			//mortagne, nogent
@@ -6885,9 +6885,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//398
 			//tours, cormery, gaillard, amboise, villandry, chatigny, saint martin, chinon, fondettes, villaines, saint genouph
@@ -6902,9 +6902,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//399
 			//vendome, freteval, lavardin, montoire
@@ -6919,9 +6919,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Aquitaine
 			//400
@@ -6937,9 +6937,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//401
 			//agen, moirax, lavardac
@@ -6954,9 +6954,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//402
 			//angouleme, saint michel, chateauneuf
@@ -6971,9 +6971,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//403
 			//bazas, langon, marmande, roquetaillade, villandraut
@@ -6988,9 +6988,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//404
 			//limoges, ventadour, saint angel
@@ -7005,9 +7005,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//405
 			//lectoure, beaumont
@@ -7022,9 +7022,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//406
 			//perigueux, bergerac
@@ -7039,9 +7039,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//407
 			//saintes, royan, saint jean, taillebourg
@@ -7056,9 +7056,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Auvergne
 			//408
@@ -7074,9 +7074,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//409
 			//aurillac, ytrac
@@ -7091,9 +7091,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//410
 			//brioude, saint ferreol, saint beauzire, chaise dieu, sauveterre
@@ -7108,9 +7108,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//411
 			//carlat, messilhac
@@ -7125,9 +7125,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//412
 			//clermont, montpensier, thiers
@@ -7142,9 +7142,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//413
 			//feurs, montbrison, saint etienne, valbenoite
@@ -7159,9 +7159,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//414
 			//murat, mercoeur, saint flour
@@ -7176,9 +7176,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Berry
 			//415
@@ -7194,9 +7194,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//416
 			//sancerre, saint satur, saint gemme, launay, crezancy, reugny, champtin, vauvredon
@@ -7211,9 +7211,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Bourbonnais
 			//417
@@ -7229,9 +7229,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//418
 			//montlucon, ainay, nassigny, herisson, evaux
@@ -7246,9 +7246,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Gascony
 			//419
@@ -7264,9 +7264,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//420
 			//mirande, masseube, auch
@@ -7281,9 +7281,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//421
 			//pau, oloron, maure
@@ -7298,9 +7298,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//422
 			//escaladieu, tarbes, maubourguet
@@ -7315,9 +7315,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//423
 			//saint bertrand, saint gaudens, muret, luchon
@@ -7332,9 +7332,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//424
 			//saint lizier, saint girons
@@ -7349,9 +7349,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//425
 			//dax, bayonne, tartas
@@ -7366,9 +7366,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//426
 			//bouillas, fluerance, vic
@@ -7383,9 +7383,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//427
 			//montmarsan, roquefort 
@@ -7400,9 +7400,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//428
 			//aire, geaune
@@ -7417,9 +7417,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Champagne
 			//429
@@ -7435,9 +7435,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//430
 			//brienne, lesmont, precy, blaincourt, vaubercey, dienville
@@ -7452,9 +7452,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//431
 			//chalons, nettancourt, trois fontaines, vitry
@@ -7469,9 +7469,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//432
 			//duesme, oigny, bussy, chatillon
@@ -7486,9 +7486,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//433
 			//langres, dijon
@@ -7503,9 +7503,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//434
 			//meaux, thierry, coulommiers, crecy, crouy
@@ -7520,9 +7520,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//435
 			//perthes, larzicourt, saint dizier
@@ -7537,9 +7537,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//436
 			//provins, cigy, chenoise, cerneux
@@ -7554,9 +7554,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//437
 			//rethel, attigny, porcien
@@ -7571,9 +7571,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//438
 			//sens, joigny, montigny, brienon, mussy, marcilly, paraclete
@@ -7588,9 +7588,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//439
 			//troyes, clairvaux
@@ -7605,9 +7605,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Francia
 			//440
@@ -7623,9 +7623,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//441
 			//beauvais, goincourt, gerberoy
@@ -7640,9 +7640,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//442
 			//beaumont, jouy, argenteuil
@@ -7657,9 +7657,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//443
 			//brie, melun, saint fargeau, lagny, yerres, brunoy, grosbois, vincennes
@@ -7674,9 +7674,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//444
 			//clermont, angicourt, liancourt
@@ -7691,9 +7691,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//445
 			//ferrieres, landon, fontainebleau, ganne
@@ -7708,9 +7708,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//446
 			//chatres, corbeil, clamart, dourdan, montlhery, palaiseau, montagu
@@ -7725,9 +7725,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//447
 			//mantes, rambouillet, beynes, houdan, gassicourt, saint germain, mesnil
@@ -7742,9 +7742,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//448
 			//senlis, compiegne, ressons, gournay, bayencourt
@@ -7759,9 +7759,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//449
 			//soissons, oulchy
@@ -7776,9 +7776,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//450
 			//vez, oigny, laneuf, saint mard
@@ -7793,9 +7793,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//451
 			//saint clair, pontoise
@@ -7810,9 +7810,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Normandy
 			//452
@@ -7828,9 +7828,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//453
 			//alencon, argentan, sees
@@ -7845,9 +7845,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//454
 			//avranches, lucerne, subligny
@@ -7862,9 +7862,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//455
 			//bayeux, caen, audrieu, mondaye, beaumont, coupesarte, creully
@@ -7879,9 +7879,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//456
 			//fecamp, graville, tancarville, saint wandrille
@@ -7896,9 +7896,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//457
 			//coutances, cherbourg, hauteville, valognes, saint lo, lessay, vire, chanteloup, gratot, pirou, bricquebec, saint sauveur
@@ -7913,9 +7913,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//458
 			//evreux, verneuil, gaillard, gisors, vernon, acquigny, brecourt, villers
@@ -7930,9 +7930,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//459
 			//eu, dieppe, aumale, arques
@@ -7947,9 +7947,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//460
 			//lisieux, falaise, honfleur, saint michel, courcy, crevecoeur, blangy
@@ -7964,9 +7964,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//461
 			//mortain, domfront
@@ -7981,9 +7981,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Orleanais
 			//462
@@ -7999,9 +7999,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//463
 			//blois, chambord, chaumont, bievre, pontlevoy
@@ -8016,9 +8016,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//464
 			//chartres, leveville, bretigny, saint pere, sours, ouarville
@@ -8033,9 +8033,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//465
 			//chateaudun, courtalain
@@ -8050,9 +8050,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//466
 			//dreux, marsalin, nonancourt
@@ -8067,9 +8067,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//467
 			//etampes, chalo, mereville, longpont, chaloche
@@ -8084,9 +8084,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//468
 			//nemours, montargis, moncourt
@@ -8101,9 +8101,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Picardy
 			//469
@@ -8119,9 +8119,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//470
 			//amiens, flixecourt, picquigny, corbie, bretonneux, boves, mericourt, verger, fleurie
@@ -8136,9 +8136,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//471
 			//boulogne, etaples
@@ -8153,12 +8153,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//472
-			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines, bergues
+			//bruges, ypres, lille, douai, veurne, poperinge, dunkirk, gravelines, bergues, bogaerde
             DB::table('counties')->insert([
 				'county_name' => 'Flanders',
 				'county_category' => 'Feudal_Manor',
@@ -8170,9 +8170,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//473
 			//guines, calais, piehem
@@ -8187,9 +8187,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//474
 			//laon, coucy, corbeny
@@ -8204,9 +8204,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//475
 			//montreuil, recques, agincourt
@@ -8221,9 +8221,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//476
 			//noyon, sempigny, morlincourt, varesnes, salency
@@ -8238,9 +8238,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//477
 			//crecy, nouvion, saint ricquier, abbekerke
@@ -8255,9 +8255,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//478
 			//therouanne, royon, saint pol
@@ -8272,9 +8272,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//479
 			//tournai, mouscron, courtrai
@@ -8289,9 +8289,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//480
 			//peronne, saint quentin, bohain, saint martin
@@ -8306,9 +8306,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Poitou
 			//481
@@ -8324,9 +8324,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//482
 			//chatelaillon, mauze, rochelle
@@ -8341,9 +8341,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//483
 			//brioux, aubigne, melleran, melle
@@ -8358,9 +8358,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//484
 			//chatellerault, clairvaux, usseau, saint michel, marigny, valady, panat, ruffepeyre
@@ -8375,9 +8375,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//485
 			//gueret, bellac, aubusson, grandmont, saint leger, marcheix, rancon
@@ -8392,9 +8392,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//486
 			//thouars, fontenay, montaigu, talmont
@@ -8409,9 +8409,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//487
 			//turenne, brive, tulle, noailhac, collonges, charroux, savigne, sarlat, puytignon, castelnaud
@@ -8426,9 +8426,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Toulouse
 			//488
@@ -8444,9 +8444,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//489
 			//albi, castelnau, saint jeury
@@ -8461,9 +8461,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//490
 			//carcasonne, castelnaudary, mirepoix, puylaurens, camon
@@ -8478,9 +8478,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//491
 			//foix, tarascon, montgrenier
@@ -8495,9 +8495,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//492
 			//javols, mende, langogne, prunieres, apcher
@@ -8512,9 +8512,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//493
 			//melgueil, montpellier, maguelonne
@@ -8529,9 +8529,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//494
 			//millau, melac
@@ -8546,9 +8546,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//495
 			//narbonne, beziers, lodeve, agde
@@ -8563,9 +8563,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//496
 			//nimes, uzes
@@ -8580,9 +8580,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//497
 			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets, rudelle
@@ -8597,9 +8597,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//498
 			//rodez, villefranche, saint radegonde, belcastel, bertholene
@@ -8614,9 +8614,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//499
 			//puy, montlaur
@@ -8631,9 +8631,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Brittany
 			//Brittany
@@ -8650,9 +8650,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//501
 			//ach, saint mathieu, brest
@@ -8667,9 +8667,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//502
 			//dol, tronchet, combourg, tremeheuc, saint marcan, boussac, saint malo
@@ -8684,9 +8684,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//503
 			//saint pol, morlaix, lannion, kerouzere
@@ -8701,9 +8701,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//504
 			//rohan, carhaix, josselin, ponthivy
@@ -8718,9 +8718,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//505
 			//vannes, ploermel
@@ -8735,9 +8735,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Domnonee
 			//506
@@ -8753,9 +8753,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//507
 			//alet, chateauneuf, saint guinoux
@@ -8770,9 +8770,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//508
 			//treguier, lezardrieux, plouguiel
@@ -8787,9 +8787,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Retz
 			//509
@@ -8805,9 +8805,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//510
 			//nantes, guerande
@@ -8822,9 +8822,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//511
 			//rennes, fougeres
@@ -8839,9 +8839,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Boar',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Britain
 			//Ireland
@@ -8859,9 +8859,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//513
 			//mayo, ballintubber, burriscarra, cong, errew, castlebar, kilcommon, kilkelly, urlaur, claremorris, ashford, killala
@@ -8876,9 +8876,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//514
 			//roscommon, boyle, donamon, elphin, clonmacnoise
@@ -8893,9 +8893,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//515
 			//sligo, ballymote, markree, templehouse, achonry
@@ -8910,9 +8910,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Leinster
 			//516
@@ -8928,9 +8928,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//517
 			//kildare, athy, castledermot, moone, barberstown, kilkea, kilteel, maynooth, reeves, rheban, norragh
@@ -8945,9 +8945,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//518
 			//kilkenny, kells, graignamanagh, ennisnagh, fertagh, freshford, ullard, gowran, robhar, cuffesgrange, woolengrange
@@ -8962,9 +8962,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//519
 			//fortleix, cullahill, lea, killeshin, oughaval, grangebeg
@@ -8979,9 +8979,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//520
 			//clonmel, athassel, nenagh, ardfinnan, loughmoe, cashel
@@ -8996,9 +8996,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//521
 			//waterford, lismore, crooke, dungarvan, ardmore, mothel, rincrew
@@ -9013,9 +9013,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//522
 			//wexford, carnsore, dunbrody, ferns, selskar, tintern
@@ -9030,9 +9030,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//523
 			//wicklow, kindlestown, baltinglass, glendalough
@@ -9047,9 +9047,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Meath
 			//524
@@ -9065,9 +9065,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//525
 			//longford, ardagh, granard, moydow, rathcline, abbeyshrule
@@ -9082,9 +9082,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//526
 			//tara, trim, navan, athlone, skryne, dunshaughlin, kells, clonard, bective, fore, taghmon
@@ -9099,9 +9099,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//527
 			//tullamore, blundell, leap, clonmacnoise, gallen, roscrea
@@ -9116,9 +9116,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Munster
 			//528
@@ -9134,9 +9134,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//529
 			//cork, bantry, fermoy, castlelyons, mourneabbey, blarney, widenham, cloyne, buttevant
@@ -9151,9 +9151,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//530
 			//castlegregory, dingle, dunkerron, abbeydorney, ardfert, killarney, aghadoe, innisfallen
@@ -9168,9 +9168,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//531
 			//limerick, adare, monasteranenaugh, mungret, askeaton, croom
@@ -9185,9 +9185,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Ulster
 			//532
@@ -9203,9 +9203,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//533
 			//armagh, killeavy, fairview
@@ -9220,9 +9220,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//534
 			//cavan, cloughoughter, drumlane, kilmore
@@ -9237,9 +9237,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//535
 			//derry, coleraine, dungiven, magoscain, maghera
@@ -9254,9 +9254,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//536
 			//donegal, carrickabragy, northburgh, rahan, raphoe
@@ -9271,9 +9271,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//537
 			//downpatrick, kilkeel, dundrum, clough, killyleagh, sketrick, ardglass, grey, inch
@@ -9288,9 +9288,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//538
 			//enniskillen, lisgoole, rossory
@@ -9305,9 +9305,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//539
 			//leitrim, carrick, mohill, fenagh
@@ -9322,9 +9322,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//540
 			//louth, dundalk, drogheda, carlingford, monasterboice, mellifont
@@ -9339,9 +9339,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//541
 			//monaghan, inniskeen, tehellan
@@ -9356,9 +9356,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//542
 			//omagh, dungannon, ardboe, carrickmore, clogher, donaghey
@@ -9373,9 +9373,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//England
 			//East Anglia
@@ -9392,9 +9392,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//544
 			//ipswich, lowestoft, saint edmunds, dunwich, sudbury, bungay, clare
@@ -9409,9 +9409,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',							
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Essex
 			//545
@@ -9427,9 +9427,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//546
 			//hertford, berkhamsted, therfield, pirton, brickendon, saint albans, langley
@@ -9444,9 +9444,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//547
 			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, stepney, westminster, clerkenwell, twickenham
@@ -9461,9 +9461,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Hwicce
 			//548
@@ -9479,9 +9479,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//549
 			//warwick, alcester, merevale, astley, kenilworth, stoneleigh, coventry
@@ -9496,9 +9496,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//550
 			//winchcombe, sudeley, hailes
@@ -9513,9 +9513,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//551
 			//worcester, bordesley, evesham, malvern, pershore
@@ -9530,9 +9530,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Kent
 			//552
@@ -9548,9 +9548,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//553
 			//canterbury, chatham, sandwich, dover, leeds
@@ -9565,9 +9565,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//554
 			//hythe, saltwood, lympne, folkestone
@@ -9582,9 +9582,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Lindsey
 			//555
@@ -9600,9 +9600,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//556
 			//leicester, belvoir, croxton, owston, breedon
@@ -9617,9 +9617,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//557
 			//lincoln, somerton, alvingham, bardney, boston, bourne, crowland, grimsby, kirkstead, stamford, tattershall, thornton
@@ -9634,9 +9634,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//558
 			//nottingham, newark, rufford, sutton, mansfield, southwell
@@ -9651,9 +9651,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//559
 			//oakham, uppingham, burley
@@ -9668,9 +9668,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Mercia
 			//560
@@ -9686,9 +9686,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//561
 			//hereford, goodrich, dore, leominster, ledbury, wilton
@@ -9703,9 +9703,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//562
 			//shrewsbury, stokesay, whittington, ludlow, bromfield, lilleshall
@@ -9720,9 +9720,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//563
 			//stafford, lichfield, tamworth, croxden, chartley
@@ -9737,9 +9737,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Mid Anglia
 			//564
@@ -9755,9 +9755,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//565
 			//buckingham, bradwell, cublington, aylesbury, notley
@@ -9772,9 +9772,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//566
 			//cambridge, ely, anglesey, chatteris, bodsey, soham, thorney, peterborough
@@ -9789,9 +9789,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//567
 			//huntingdon, saint ives, saint neots, stilton, tetworth, waresley, ramsey
@@ -9806,9 +9806,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//568
 			//northampton, brixworth, barnwell, rockingham, pipewell
@@ -9823,9 +9823,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//569
 			//oxford, wallingford, dorchester, eynsham, wroxton
@@ -9840,9 +9840,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);			
 			//Northumbria
 			//570
@@ -9858,9 +9858,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//571
 			//aldborough, ripley, whixley, wetherby, knaresborough
@@ -9875,9 +9875,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//572
 			//carlisle, appleby, saint bees, brougham, kendal, workington, furness
@@ -9892,9 +9892,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//573
 			//durham, darlington, barnard, bowes, jarrow
@@ -9909,9 +9909,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//574
 			//sheffield, ecclesfield, bradfield, stannington
@@ -9926,9 +9926,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//575
 			//hexham, whitley
@@ -9943,9 +9943,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//576
 			//howden, asselby
@@ -9960,9 +9960,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//577
 			//alnwick, bamburgh, lindisfarne
@@ -9977,9 +9977,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//578
 			//lancaster, clitheroe, sawley, whalley
@@ -9994,9 +9994,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//579
 			//richmond, wensley, middleham
@@ -10011,9 +10011,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//580
 			//york, beverley, bridlington, bolton, coverham, fountains, cayton, ripon, selby, whitby, pontefract, helmsley, scarborough
@@ -10028,9 +10028,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Sussex
 			//581
@@ -10046,9 +10046,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//582
 			//bramber, worthing, brighton
@@ -10063,9 +10063,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//583
 			//chichester, bosham
@@ -10080,9 +10080,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//584
 			//lewes, kingston
@@ -10097,9 +10097,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//585
 			//pevensey, hailsham
@@ -10114,9 +10114,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//586
 			//hastings, bexhill, battle
@@ -10131,9 +10131,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Wessex
 			//587
@@ -10149,9 +10149,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//588
 			//dorchester, abbotsbury, sherborne, wareham, wimborne, corfe, shaftesbury
@@ -10166,9 +10166,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//589
 			//winchester, southampton
@@ -10183,9 +10183,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//590
 			//somerton, sutton, taunton, bath, bruton, wells
@@ -10200,9 +10200,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//591
 			//guildford, woking, farnham, wallington, brixton, waverley, northolt
@@ -10217,9 +10217,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);		
 			//592
 			//wilton, trowbridge, amesbury, easton, malmesbury, salisbury, tisbury
@@ -10234,9 +10234,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Wales
 			//Cornwall
@@ -10253,9 +10253,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//594
 			//exeter, gidleigh, lydford, okehampton, axminster, barnstaple, buckfast, buckland, chudleigh, newenham, plymouth, tavistock, totnes
@@ -10270,9 +10270,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Falconry',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Dyfed
 			//595
@@ -10288,9 +10288,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//596
 			//carmarthen, carreg, dinefwr, kidwelly, laugharne, llandovery, llansteffan, talley, whitland
@@ -10305,9 +10305,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//597
 			//pembroke, carew, cilgerran, haverford, manorbier, tenby, saint dogmaels, templeton, saint davids
@@ -10322,9 +10322,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Gwent
 			//598
@@ -10340,9 +10340,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//599
 			//monmouth, abergavenny, raglan, caerphilly, morgraig, ruperra, caldicot, chepstow, dingestow, grosmont, llanfair, llangibby, skenfrith, trellech, caerleon, newport, pencoed, penhow, caerwent
@@ -10357,9 +10357,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Gwyned
 			//600
@@ -10375,9 +10375,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//601
 			//caernarfon, conwy, deganwy, dolwyddelan, dolbadarn, harlech, maenan, bangor, cymer
@@ -10392,9 +10392,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//602
 			//denbigh, rhuddlan, ruthin, saint asaph, wrexham
@@ -10409,9 +10409,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//603
 			//flint, caergwrle, ewloe, hawarden, mold, basingwerk, talacre
@@ -10426,9 +10426,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Powys
 			//604
@@ -10444,9 +10444,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//605
 			//montgomery, powis, dolforwyn, llanlugan
@@ -10461,9 +10461,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//606
 			//aberedw, cefnllys, hay
@@ -10478,9 +10478,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Scotland
 			//Alba
@@ -10497,9 +10497,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',,						
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//608
 			//banff, mortlach, doune, keith
@@ -10514,9 +10514,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//609
 			//clackmannan, alloa
@@ -10531,9 +10531,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//610
 			//saint andrews, aberdour, ballinbreich, lochore, wemyss, balmerino, culross, dunfermline, inchcolm, lindores
@@ -10548,9 +10548,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//611
 			//forfar, brechin, arbroath, montrose, dundee, angus
@@ -10565,9 +10565,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//612
 			//kincardine, banchory, stonehaven, dunnottar
@@ -10582,9 +10582,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//613
 			//kinross, cleish, scotlandwell
@@ -10599,9 +10599,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//614
 			//perth, dunkeld, elcho, inverquiech, kinclaven, clunie, abernethy, muthill, scone, ruthven, inchaffray
@@ -10616,9 +10616,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Bernicia
 			//615
@@ -10634,9 +10634,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//616
 			//edinburgh, holyrood, roslyn, arniston, craigmillar, bathgate, strathbrock
@@ -10651,9 +10651,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//617
 			//haddington, dunbar, byres, dirleton, innerwick, markle, tantallon, waughton, yester
@@ -10668,9 +10668,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//618
 			//linlithgow, livingston, abercorn, falkirk
@@ -10685,9 +10685,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//619
 			//stirling, dunblane, cambuskenneth, culcreuch, mugodock, bannockburn
@@ -10702,9 +10702,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Dalriada
 			//620
@@ -10720,9 +10720,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//621
 			//brodick, lamlash
@@ -10737,9 +10737,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//622
 			//rushen, douglas, peel, ramsey, bemaken, ballaugh, marown, onchan
@@ -10754,9 +10754,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Fortriu
 			//623
@@ -10772,9 +10772,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//624
 			//elgin, dallas, forres, kinloss, urquhart, duffus
@@ -10789,9 +10789,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//625
 			//inverness, kilmallie, inverlochy, mingarry, applecross, beauly
@@ -10806,9 +10806,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//626
 			//nairn, rait, cawdor, eren
@@ -10823,9 +10823,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//627
 			//dornoch, durness, dunrobin, skelbo, skibo, berriedale, aberscross
@@ -10840,9 +10840,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Galloway
 			//628
@@ -10858,9 +10858,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//629
 			//wigtown, whithorn, cruggleton, fearn, glenluce, dunragit
@@ -10875,9 +10875,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Gododdin
 			//630
@@ -10893,9 +10893,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//631
 			//peebles, skirling, mossfennan, traquair
@@ -10910,9 +10910,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//632
 			//roxburgh, jedburgh, kelso, dryburgh, melrose, hawick
@@ -10927,9 +10927,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//633
 			//selkirk, yarrow, galashiels
@@ -10944,9 +10944,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Strathclyde
 			//634
@@ -10962,9 +10962,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//635
 			//dunbarton, inchmurrin
@@ -10979,9 +10979,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//636
 			//lanark, glasgow, carstairs, kilbride, rutherglen, crookston
@@ -10996,9 +10996,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//637
 			//paisley, polnoon
@@ -11013,9 +11013,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Aragon
 			//Aragon
@@ -11033,9 +11033,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//639
 			//monzon, san pedro, fraga
@@ -11050,9 +11050,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//640
 			//valderrobres, valjunquera, arens, lledo, fuentespalda
@@ -11067,9 +11067,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Barcelona
 			//641
@@ -11085,9 +11085,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//642
 			//barcelona, santa coloma, badalona, castellet
@@ -11102,9 +11102,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//643
 			//berga, baga, san salvador, gironella, cercs, vallcebre
@@ -11119,9 +11119,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//644
 			//san feliu, fels, montserrat, san boi, cornella, corbera
@@ -11136,9 +11136,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//645
 			//mataro, cabrils, dosrius, santa florentina
@@ -11153,9 +11153,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//646
 			//vic, manlleu, tona, san julian, seva, cabrera
@@ -11170,9 +11170,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//647
 			//terrassa, bisbal, ripollet, sabadell, san marcial, granollers, franqueses, canoves, roca, montbui, ametlla, gallifa
@@ -11187,9 +11187,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Girona
 			//648
@@ -11205,9 +11205,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//649
 			//castellano, corneilla, san martin
@@ -11222,9 +11222,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//650
 			//emporda, figueres, peralada, requesens, pubol, quermanco, montgri
@@ -11239,9 +11239,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//651
 			//girona, salto
@@ -11256,9 +11256,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//652
 			//rennes, limoux 
@@ -11273,9 +11273,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//653
 			//ripoll, besalu, san joan, camprodon, olot
@@ -11290,9 +11290,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//654
 			//perpignan, elna
@@ -11307,9 +11307,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//655
 			//santa coloma, lloret, blanes, cassa
@@ -11324,9 +11324,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Huesca
 			//656
@@ -11342,9 +11342,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//657
 			//jacca, suesa, mianos, san juan
@@ -11359,9 +11359,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//658
 			//benabarre, graus
@@ -11376,9 +11376,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//659
 			//boltana, ainsa
@@ -11393,9 +11393,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Lleida
 			//660
@@ -11411,9 +11411,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//661
 			//talarn, eroles
@@ -11428,9 +11428,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//662
 			//urgell, balaguer, mollerusa, anglesola, golmes, tarrega
@@ -11445,9 +11445,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Tarragona
 			//663
@@ -11463,9 +11463,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//664
 			//tarragona, poblet
@@ -11480,9 +11480,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//665
 			//tortosa, alfara
@@ -11497,9 +11497,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Teruel
 			//666
@@ -11515,9 +11515,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//667
 			//teruel, alfambra
@@ -11532,9 +11532,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Zaragoza
 			//668
@@ -11550,9 +11550,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//669
 			//calatayud, maluenda, piedra
@@ -11567,9 +11567,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//670
 			//zaragoza, tarazona
@@ -11584,9 +11584,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);						
 			//Navarre
 			//Alava
@@ -11603,9 +11603,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//672
 			//gasteiz, armentia
@@ -11620,9 +11620,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//673
 			//labastida, laguardia, lanciego, san millan, cornago, clavijo, arnedo, leiva, najera, calahorra, anguiano
@@ -11637,9 +11637,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Gipuzcoa
 			//674
@@ -11655,9 +11655,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//675
 			//leitza, leintz
@@ -11672,9 +11672,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//676
 			//mungia, butron
@@ -11689,9 +11689,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//677
 			//tolosa, amasa
@@ -11706,9 +11706,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Navarre
 			//678
@@ -11724,9 +11724,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//679
 			//pamplona, orcoyen
@@ -11741,9 +11741,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//680
 			//sanguesa, xavier, san salvador
@@ -11758,9 +11758,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//681
 			//tafalla, olite
@@ -11775,9 +11775,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//682
 			//tudela, cascante, tulebras
@@ -11792,9 +11792,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//683
 			//ultzama, arre, san miguel
@@ -11809,9 +11809,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Viscaya
 			//684
@@ -11827,9 +11827,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//685
 			//bilbao, erandio, santa maria
@@ -11844,9 +11844,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//686
 			//arrigorriaga, berango
@@ -11861,9 +11861,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Castile
 			//Castile
@@ -11881,9 +11881,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//688
 			//arevalo, torralba
@@ -11898,9 +11898,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//689
 			//san pedro, mombeltran
@@ -11915,9 +11915,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Burgos
 			//690
@@ -11933,9 +11933,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//691
 			//briviesca, rodilla, san salvador, miranda, moscadero, valpuesta
@@ -11950,9 +11950,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//692
 			//burgos, ubierna, saldana, tardajos, rabe, modubar
@@ -11967,9 +11967,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);						
 			//Palencia
 			//693
@@ -11985,9 +11985,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Madder',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//694
 			//palenzuela, astudillo, castroverde
@@ -12002,9 +12002,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//695
 			//matabuena, bustillo, santa maria, villabellaco
@@ -12019,9 +12019,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Segovia
 			//696
@@ -12037,9 +12037,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//697
 			//riaza, cantespino, languilla
@@ -12054,9 +12054,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//698
 			//segovia, turegano, pedraza, cantimpalos
@@ -12071,9 +12071,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//699
 			//sepulveda, castilnovo
@@ -12088,9 +12088,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Soria
 			//700
@@ -12106,9 +12106,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//701
 			//berlanga, rello
@@ -12123,9 +12123,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//702
 			//gomara, almenar, cihuela, ciria, penalcazar
@@ -12140,9 +12140,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//703
 			//osma, ucero, caracena
@@ -12157,9 +12157,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//704
 			//soria, calatanazor, garray, gormaz, san esteban
@@ -12174,9 +12174,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Toledo
 			//705
@@ -12192,9 +12192,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//706
 			//madrid, manzanares
@@ -12209,9 +12209,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//707
 			//ocana, oreja
@@ -12226,9 +12226,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//708
 			//sesena, illescas, villaseca, cabanas, numancia, olmos
@@ -12243,9 +12243,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//709
 			//talavera, bayuela, malpica, oropesa, san martin
@@ -12260,9 +12260,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//710
 			//toledo, montalban, guadamur, consuegra, cuerva, malamoneda, mascaraque, orgaz, guadalerzas 
@@ -12277,9 +12277,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//711
 			//torrijos, fuensalida, barcience, escalona, maqueda, santa cruz
@@ -12294,9 +12294,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//712
 			//aranjuez, chinchon, villarejo
@@ -12311,9 +12311,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Valladolid
 			//713
@@ -12329,9 +12329,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//714
 			//medina, tordesillas, mota, pozal
@@ -12346,9 +12346,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//715
 			//iscar, portillo, cabrejas, cuellar, olmedo
@@ -12363,9 +12363,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//716
 			//penafiel, corrales, curiel
@@ -12380,9 +12380,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//717
 			//valladolid, simancas, fuensaldana, torrelobaton, villalba, tudela, santa maria, cabezon
@@ -12397,9 +12397,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//718
 			//medina, uruena, villabragima
@@ -12414,9 +12414,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Galicia
 			//Coruna
@@ -12433,9 +12433,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//720
 			//pontedeume, san juan, cabanas
@@ -12450,9 +12450,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//721
 			//ferrol, mogardos, moeche
@@ -12467,9 +12467,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//722
 			//santiago, altamira, vedra
@@ -12484,9 +12484,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//723
 			//aranga, traba, san xurxo, vimianzo
@@ -12501,9 +12501,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Lugo
 			//724
@@ -12519,9 +12519,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//725
 			//alfoz, foz, lorenzana, viveiro, ribadeo 
@@ -12536,9 +12536,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//726
 			//meira, pol, santa maria
@@ -12553,9 +12553,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//727
 			//sarria, incio, samos
@@ -12570,9 +12570,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//728
 			//palas, monterosso
@@ -12587,9 +12587,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Ourense
 			//729
@@ -12605,9 +12605,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//730
 			//celanova, gomesende
@@ -12622,9 +12622,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//731
 			//ourense, barbadanes, san esteban, ribadavia, maceda
@@ -12639,9 +12639,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//732
 			//barco, villamartin, carbelleda
@@ -12656,9 +12656,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//733
 			//viana, monterrey
@@ -12673,9 +12673,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Pontevedra
 			//734
@@ -12691,9 +12691,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//735
 			//pontevedra, caldelas
@@ -12708,9 +12708,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//736
 			//vigo, sobroso, tuy, tebra, tomino, sotomayor
@@ -12725,9 +12725,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Leon
 			//Caceres
@@ -12744,9 +12744,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//738
 			//caceres, torreorgaz, mogollones, monroy, portezuelo, montanchez
@@ -12761,9 +12761,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//739
 			//plasencia, coria, galisteo, jarandilla, monfrague, valverde, segura
@@ -12778,9 +12778,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//740
 			//trujillo, almaraz, belvis
@@ -12795,9 +12795,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Leon
 			//741
@@ -12813,9 +12813,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//742
 			//baneza, castrillo, castrocalbon, destriana, san esteban, santa maria
@@ -12830,9 +12830,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//743
 			//ponferrada, cornatel, sarracin, san pedro, balboa, san andres, bembibre, villafranca
@@ -12847,9 +12847,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//744
 			//leon, san andres, ribaseca, san claudio, sariegos
@@ -12864,9 +12864,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//745
 			//sahagun, almanza, cea
@@ -12881,9 +12881,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Salamanca
 			//746
@@ -12899,9 +12899,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//747
 			//cantalapiedra, cantalpino, poveda, tarazona
@@ -12916,9 +12916,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//748
 			//guijuelo, congosto, salvatierra
@@ -12933,9 +12933,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//749
 			//ledesma, tremedal, monleras, san pedro
@@ -12950,9 +12950,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//750
 			//penaranda, alaraz, alconada, cantaracillo
@@ -12967,9 +12967,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//751
 			//rodrigo, ituero, espeja, fuentes, alameda, abusejo, aldahuela, yeltes, retortillo, tenebron, agallas, herguijuela, martiago
@@ -12984,9 +12984,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Madder',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//752
 			//salamanca, tamames, aldeatejada, arapiles, barbadillo, buenamadre, san munoz, san pedro
@@ -13001,9 +13001,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//753
 			//vitigudino, san felices, ahigal, bogajo, cerralbo, fuenteliante, lumbrales, olmedo, masueco, mieza, perena, vilvestre, almendra
@@ -13018,9 +13018,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Zamora
 			//754
@@ -13036,9 +13036,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//755
 			//carbajales, cernadilla, manzanal, espadanedo, peque
@@ -13053,9 +13053,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//756
 			//guarrate, argujillo, canizal
@@ -13070,9 +13070,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//757
 			//sanabria, otero, cerezal, calabor, santa cruz, san martin, trefacio, galende
@@ -13087,9 +13087,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//758
 			//bermillo, alfaraz, fermoselle, asmesnal, almeida, cabanas
@@ -13104,9 +13104,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//759
 			//tabara, faramontanos, moreruela, pozuelo, santa maria, santa eulalia
@@ -13121,9 +13121,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Asturias
 			//Asturias
@@ -13140,9 +13140,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//761
 			//gijon, carreno, villaviciosa, santa maria
@@ -13157,9 +13157,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//762
 			//navia, castropol, coana, san martin, san tirzo, santa eulalia
@@ -13174,9 +13174,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//763
 			//oviedo, bimenes, cabranes, grado, llanera, morcin, proaza, riosa, siero, santa maria
@@ -13191,9 +13191,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Cantabria
 			//764
@@ -13209,9 +13209,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//765
 			//liebana, potes, piasca, san toribio
@@ -13226,9 +13226,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//766
 			//santander, astillero, penagos
@@ -13243,9 +13243,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//767
 			//miera, santona, san vincente, santa maria
@@ -13260,9 +13260,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Portugal
 			//Aveiro
@@ -13279,9 +13279,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//769
 			//braga, dumio, barcelos, guimaraes, sao andre
@@ -13296,9 +13296,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//770
 			//porto, cedofeita, amarante, trofa, penafiel, aguiar, quinta
@@ -13313,9 +13313,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//771
 			//viana, arcos, santa maria, fonces, caminha, melgaco
@@ -13330,9 +13330,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Beira
 			//772
@@ -13348,9 +13348,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//773
 			//coimbra, montemor, lorvao, soure, arouce, miranda
@@ -13365,9 +13365,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//774
 			//guarda, sabugal, almeida, trancoso
@@ -13382,9 +13382,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//775
 			//viseu, zurara, lamego, sao joao
@@ -13399,9 +13399,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Braganca
 			//776
@@ -13417,9 +13417,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//777
 			//vila real, vila pouca, alijo, boticas, montalegre, celeiros, murca, santa marta
@@ -13434,9 +13434,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Estremadura
 			//778
@@ -13452,9 +13452,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//779
 			//lisboa, alenquer, cascais, loures, lourinha, mafra, sintra
@@ -13469,9 +13469,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//780
 			//santarem, tomar, almourol
@@ -13486,9 +13486,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//781
 			//setubal, moita, alcochete, almada, barreiro, montijo, palmela, sesimbra, seixal
@@ -13503,9 +13503,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Danelagen
 			//Denmark
@@ -13523,9 +13523,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//783
 			//borglum, saeby, vrejlev, hundslund, dueholm, vestervig, hojen
@@ -13540,9 +13540,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//784
 			//ribe, seem, kolding, vejle
@@ -13557,9 +13557,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//785
 			//slesvig, guldholm, flensburg, rude, tonder, logum, haderslev, alsborg, sonderborg, hedeby
@@ -13574,9 +13574,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//786
 			//viborg, aalborg, sebber, vitskol, glenstrup, spottrup
@@ -13591,9 +13591,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Scania
 			//787
@@ -13609,9 +13609,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//788
 			//gamleborg, ronne, hammershus, aarsdale, nekso, gudhjem, hasle, aakirkeby, sandvig, svaneke
@@ -13626,9 +13626,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//789
 			//falkenberg, varberg, halmstad, laholm, as
@@ -13643,9 +13643,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'Falconry',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//790
 			//hiddensee, maschenholt, bergen
@@ -13660,9 +13660,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//791
 			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholm, smedstorp, lund, herrevad, malmohus, borgeby
@@ -13677,9 +13677,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Sjaeland
 			//792
@@ -13695,9 +13695,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//793
 			//nakskov, halsted, nysted, nykobing, aalholm
@@ -13712,9 +13712,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//794
 			//roskilde, koge, selso, vallo 				
@@ -13729,9 +13729,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//795
 			//kobenhavn, esrum, asserbo, soborg
@@ -13746,9 +13746,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//796
 			//soro, antvorskov, kalundborg, ringsted, naestved, vordingborg
@@ -13763,9 +13763,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Norway
 			//Nordjor (Northern Isles)
@@ -13782,9 +13782,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//798
 			//kirkwall, holm, sandwick, eynhallow, birsay
@@ -13799,9 +13799,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//799
 			//tingwall, sandsting, dunrossness, cunningsburgh
@@ -13816,9 +13816,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Sodor (Southern Isles)
 			//800
@@ -13834,9 +13834,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//801
 			//stornoway, duneistean, aignish
@@ -13851,9 +13851,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//802
 			//iona, moy, aros, duart
@@ -13868,9 +13868,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//803
 			//dunvegan, dunscaith, duntulm, portree, broadford
@@ -13885,9 +13885,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//804
 			//calvay, borve
@@ -13902,9 +13902,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);							
 			//Hedmark (eidsivating)
 			//805
@@ -13920,9 +13920,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//806
 			//hamar, loten, stange, tingnes, moelv
@@ -13937,9 +13937,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//807
 			//lillestrom, sorum, lorenskog, raelingen, nes, eidsvoll, ullensaker 
@@ -13954,9 +13954,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Oppland (frostating)
 			//808
@@ -13972,9 +13972,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//809
 			//ranem, sakshaug, gangstad, snasa, maere, alstadhaug, stiklestad, orland
@@ -13989,9 +13989,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//810
 			//lillehammer, lom, asnes, follebu, gausdal, ringebu, lena  
@@ -14006,9 +14006,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//811
 			//trondheim, lade, orland, stoksund, haltdal, dolmoya, skaun, mebonden, vaernes 
@@ -14023,9 +14023,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);						
 			//Rogaland (gulating)
 			//812
@@ -14041,9 +14041,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//813
 			//haugesund, avaldsnes, torvestad, akra 
@@ -14058,9 +14058,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//814
 			//stavanger, tinghaug, tjora, njaerheim, ogna, varhaug 
@@ -14075,9 +14075,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//815
 			//sauda, jelsa, hjelmeland, fister, ardal, strand, kvitsoy, suldal 
@@ -14092,9 +14092,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Sorland (borgarting)
 			//816
@@ -14110,9 +14110,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//817
 			//skien, siljan, gjerpen, eidanger 
@@ -14127,9 +14127,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//818
 			//eidsborg, bo, kviteseid, sauherad, nesodden, romnes, heddal, flatdal 
@@ -14144,9 +14144,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Vestland (gulating)
 			//819
@@ -14162,9 +14162,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//820
 			//veoya, aheim, borgund, orskog, rodven, vestnes, kvernes, edoya, tingvoll 
@@ -14179,9 +14179,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//821
 			//bergen, arstad, lyse, gimmestad
@@ -14196,9 +14196,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Viken (borgarting)
 			//822
@@ -14214,9 +14214,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//823
 			//hallingdal, roldal, flesberg, rollag, nore, uvdal, ringerike, hole 
@@ -14231,9 +14231,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//824
 			//sarpsborg, askim, trogstad 
@@ -14248,9 +14248,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//825
 			//kungahalla, marstrand, uddeval, kville, tanum, vettaland, herrestad, bohus 
@@ -14265,9 +14265,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//826
 			//larvik, borre, tonsberg, skaun 
@@ -14282,9 +14282,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//827
 			//oslo, vestby, hurum, frogn, nesodden, as, ski, enebakk  
@@ -14299,9 +14299,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Sweden
 			//Gotland
@@ -14318,9 +14318,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//829
 			//linkoping, norrkoping, soderkoping, vadstena, skanninge, bjalbo, tidersrum, ekenas, vreta
@@ -14335,9 +14335,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//830
 			//husaby, lacko, falkoping, skara, skovde, bogesund, ale, dalaborg, alvborg
@@ -14352,9 +14352,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Norrland
 			//831
@@ -14370,9 +14370,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//832
 			//torsaker, gavle, ockelbo
@@ -14387,9 +14387,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//833
 			//ljusdal, bollnas
@@ -14404,9 +14404,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Osterland
 			//834
@@ -14422,9 +14422,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//835
 			//turku, stenberga, somero, biskopsborg
@@ -14439,9 +14439,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//836
 			//viborg, kexholm, hamina, kouvola, hollola
@@ -14456,9 +14456,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//837
 			//raseborg, koskela, esbo, kerava, hogfors
@@ -14473,9 +14473,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//838
 			//ouluborg, korsholm
@@ -14490,9 +14490,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//839
 			//kokemaki, vreghdenborg
@@ -14507,9 +14507,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//840
 			//olofsborg, saint michel, nyslott
@@ -14524,9 +14524,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//841
 			//hame, birkala
@@ -14541,9 +14541,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Smaland
 			//842
@@ -14559,9 +14559,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//843
 			//kalmar, vastervik, vaxjo, vimmerby, eksjo, ljungby, hulingsryd, hassleby, gamleby
@@ -14576,9 +14576,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Svealand
 			//844
@@ -14594,9 +14594,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//845
 			//orebro, riseberga, askersund, kumla, goksholm
@@ -14611,9 +14611,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//846
 			//stockholm, strangnas, sodertalje, nykoping, torshalla, trosa, djursholm, horningsholm, birka
@@ -14628,9 +14628,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//847
 			//uppsala, osthammar, riksby, stockby, solna, sollentuna, sigtuna, enkoping, alsno, penningby, orbyhus
@@ -14645,9 +14645,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//848
 			//arvika, gunnarskog, varnums, alvdal
@@ -14662,9 +14662,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//849
 			//arboga, norberg, skinnsackeberg, lindesberg, vasteras
@@ -14679,9 +14679,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Poland
 			//Poland
@@ -14699,9 +14699,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//851
 			//grodisze, rakwitz, wielichowo, wollstein
@@ -14716,9 +14716,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//852
 			//jarotschin, zerkow
@@ -14733,9 +14733,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//853
 			//kosten, kriewen
@@ -14750,9 +14750,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//854
 			//lissa, oseczno, reisen
@@ -14767,9 +14767,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Lesser Poland
 			//855
@@ -14785,9 +14785,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//856
 			//chrzanow, tchebin, libiaz
@@ -14802,9 +14802,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//857
 			//sandez, grunberg, piwniczna, muszyna
@@ -14819,9 +14819,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//858
 			//tarnow, zabno, tuchow, woynitz, dunaiz, ryglitz, cieskowitz, radlow
@@ -14836,9 +14836,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//859
 			//wadowitz, andrichow
@@ -14853,9 +14853,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//860
 			//lublin, chelm
@@ -14870,9 +14870,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//861
 			//lukow, stoczek
@@ -14887,9 +14887,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//862
 			//sandomierz, zawichost, koprzywnica, klimontow
@@ -14904,9 +14904,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Gnesen
 			//863
@@ -14922,9 +14922,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//864
 			//kolo, moosburg, dabie, klodawa
@@ -14939,9 +14939,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//865
 			//kunau, schlusselsee, gohlen, sompolno, kleczew
@@ -14956,9 +14956,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//866
 			//slupca, zagorow
@@ -14973,9 +14973,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//867
 			//turek, tviliskow, dobra
@@ -14990,9 +14990,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//868
 			//znin, bartschin
@@ -15007,9 +15007,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Kalisz
 			//869
@@ -15025,9 +15025,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//870
 			//pleschen, chocz, dobrzyca
@@ -15042,9 +15042,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//871
 			//schildberg, kempen, grabow
@@ -15059,9 +15059,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//872
 			//wielun, ruda
@@ -15076,9 +15076,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//873
 			//wreschen, peisern
@@ -15093,9 +15093,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Krakow
 			//874
@@ -15111,9 +15111,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//875
 			//olkusz, wolbrom, boleslaw
@@ -15128,9 +15128,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//876
 			//czestochowa, lelow, olsztyn
@@ -15145,9 +15145,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//877
 			//gorlitz, beitsch, bobow, brigel
@@ -15162,9 +15162,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Kuyavia
 			//878
@@ -15180,9 +15180,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//879
 			//inowroclaw, kruschwitz, argenau, pakosch
@@ -15197,9 +15197,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//880
 			//leipe, dobrin, skepe, rypin, leslau
@@ -15214,9 +15214,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//881
 			//mogilno, strelno
@@ -15231,9 +15231,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//882
 			//naklo, schubin, kcynia, mrotschen
@@ -15248,9 +15248,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//883
 			//radziejow, piotrkow
@@ -15265,9 +15265,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Mazovia
 			//884
@@ -15283,9 +15283,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//885
 			//makow, razon, ostroleka, wyszkow, pultusk, przasnysz, ciechanow
@@ -15300,9 +15300,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//886
 			//minsk, grebkow 
@@ -15317,9 +15317,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//887
 			//zuromin, biezun, sierp
@@ -15334,9 +15334,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//888
 			//rawa, rawska
@@ -15351,9 +15351,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//889
 			//wizna, lomza, nowogrod
@@ -15368,9 +15368,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Plock
 			//890
@@ -15386,9 +15386,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//891
 			//gostynin, gabin
@@ -15403,9 +15403,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//892
 			//mlawa, szrensk
@@ -15420,9 +15420,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Posen
 			//893
@@ -15438,9 +15438,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//894
 			//chodziez, samotschin, margonin
@@ -15455,9 +15455,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//895
 			//gorzow, kustrin, vietz
@@ -15472,9 +15472,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//896
 			//pila, wirsitz, lobsens, usch, wissek, jastrow, krojanke
@@ -15489,9 +15489,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//897
 			//rogasen, obornik
@@ -15506,9 +15506,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//898
 			//samter, wronke, pinne
@@ -15523,9 +15523,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//899
 			//scharnikau, filehne, schonlanke
@@ -15540,9 +15540,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//900
 			//schrim, ksiaz, dolsk
@@ -15557,9 +15557,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Sieradz
 			//901
@@ -15575,9 +15575,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//902
 			//radom, skaryszew, ilza, szydlowitz, garwolin, grojec
@@ -15592,9 +15592,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//903
 			//lentschitz, piatek
@@ -15609,9 +15609,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Warsaw
 			//904
@@ -15627,9 +15627,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//905
 			//czersk, brusy
@@ -15644,9 +15644,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Lithuania
 			//Minsk
@@ -15663,9 +15663,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//907
 			//gomel, rechytsa, dobrush
@@ -15680,9 +15680,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//908
 			//mogilev, babruysk, drutsk
@@ -15697,9 +15697,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Samogitia
 			//909
@@ -15715,9 +15715,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//910
 			//schaulen, bajenburg
@@ -15732,9 +15732,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//911
 			//redau, palanga, telsche, mazeike 
@@ -15749,9 +15749,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Tracken
 			//912
@@ -15767,9 +15767,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//913
 			//kauen, bajenburg
@@ -15784,9 +15784,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//914
 			//tracken, paneriai
@@ -15801,9 +15801,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Vilnius
 			//915
@@ -15819,9 +15819,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//916
 			//kernave, vilkomir
@@ -15836,9 +15836,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Hungary
 			//Hungary
@@ -15856,9 +15856,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//918
 			//moson, neusiedl, rajka
@@ -15873,9 +15873,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//919
 			//kaposvar, barcs, fonyod, nagyatad, siofok, thob
@@ -15890,9 +15890,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//920
 			//sopron, mattersburg, eisenstadt, oberpullendorf
@@ -15907,9 +15907,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//921
 			//vasvar, kleinmariazell, oberwart, koszeg, szentgotthard, szombathely
@@ -15924,9 +15924,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//922
 			//vezprem, ajka, papa, tapolca, varpalota, zirc
@@ -15941,9 +15941,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//923
 			//zalaegerszeg, zalavar
@@ -15958,9 +15958,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Buda
 			//924
@@ -15976,9 +15976,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//925
 			//pecs, mohacs, komlo
@@ -15993,9 +15993,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//926
 			//esztergom, visegrad, muzla, sturovo
@@ -16010,9 +16010,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//927
 			//fehervar, mor
@@ -16027,9 +16027,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//928
 			//eger, kisnana, belapatfalva
@@ -16044,9 +16044,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//929
 			//pest, buda, vecses, nagykata
@@ -16061,9 +16061,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//930
 			//szolnok, jaszbereny, zenthmyclos, bekes, gyula, szarvas
@@ -16078,9 +16078,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Nitra
 			//931
@@ -16096,9 +16096,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//932
 			//arvavaraylla, bingenstad, turdoschin
@@ -16113,9 +16113,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//933
 			//bars, leva
@@ -16130,9 +16130,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//934
 			//hont, vac
@@ -16147,9 +16147,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//935
 			//komarom, zemianska, tata, hurbanovo
@@ -16164,9 +16164,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//936
 			//liptoszentmiklos, hradok, lupca, ruzomberok
@@ -16181,9 +16181,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//937
 			//orava, dolny
@@ -16198,9 +16198,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//938
 			//pozsony, dunajska, galanta, malacky, trnava, samorin, senec
@@ -16215,9 +16215,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//939
 			//trencsen, banovce, ilava, kischutz, bytca, puchov, povazky, sylna
@@ -16232,9 +16232,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//940
 			//besztercebanya, brezno, zvolen
@@ -16249,9 +16249,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Temesvar
 			//941
@@ -16267,9 +16267,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//942
 			//arad, lipova, vinga
@@ -16284,9 +16284,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//943
 			//bihar, nagyvarad
@@ -16301,9 +16301,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//944
 			//csanad, marosvar
@@ -16318,9 +16318,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//945
 			//caransebes, lugoj
@@ -16335,9 +16335,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Ungvar
 			//946
@@ -16353,9 +16353,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//947
 			//beregzasz, munkacs
@@ -16370,9 +16370,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//948
 			//borsod, miskolc
@@ -16387,9 +16387,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//949
 			//debrecen, szoboszlo
@@ -16404,9 +16404,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//950
 			//nyiregyhaza, kisvar, nagykallo, bakta, nyirbator
@@ -16421,9 +16421,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//951
 			//szatmar, mateszalka, nagybanya, nagykaroly, nagysomkut, szatmarnemeti
@@ -16438,9 +16438,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//952
 			//spis, levoca, gelnica, kesmark, lubovna, ofalu, sopota, varalja
@@ -16455,9 +16455,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//953
 			//zemplen, tokaj, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
@@ -16472,9 +16472,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Transylvania
 			//954
@@ -16490,9 +16490,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//955
 			//csiksomlyo, csikszereda
@@ -16507,9 +16507,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',							
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//956
 			//sepsiszentgyorgy, kezdivasarhely, nagyajta 
@@ -16524,9 +16524,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//957
 			//koloszvar, szamosujvar, desvar
@@ -16541,9 +16541,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//958
 			//marosvasarhely, teleki, mezosamsond
@@ -16558,9 +16558,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//959
 			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely
@@ -16575,9 +16575,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//960
 			//udvarhely, marosheviz
@@ -16592,9 +16592,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Croatia
 			//Dalmatia
@@ -16611,9 +16611,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//962
 			//knin, drnis
@@ -16628,9 +16628,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//963
 			//udbina, lapac
@@ -16645,9 +16645,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//964
 			//gospic, lapac, sokolac, otocac, baska, senj
@@ -16662,9 +16662,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//965
 			//modrus, ogulin, rijeka, kotor, bakar, slunj, karlovac
@@ -16679,9 +16679,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Ragusa
 			//966
@@ -16697,9 +16697,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//967
 			//cetina, civljane, sibenik, vrlika, glavas, prozor, sinj, trilj, stolac, gradac
@@ -16714,9 +16714,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//968
 			//kotor, dobrota, risan
@@ -16731,9 +16731,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Slavonia
 			//969
@@ -16749,9 +16749,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//970
 			//bjelovar, cazma, daruvar
@@ -16766,9 +16766,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//971
 			//pozega, pakrac
@@ -16783,9 +16783,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//972
 			//vukovar, szavaszentdemeter
@@ -16800,9 +16800,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//973
 			//varazdin, ludbreg
@@ -16817,9 +16817,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//974
 			//veroce, osijek, nasice, dakovo
@@ -16834,9 +16834,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Split
 			//975
@@ -16852,9 +16852,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//976
 			//trogir, komiza
@@ -16869,9 +16869,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Zadar
 			//977
@@ -16887,9 +16887,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//978
 			//cres, lubenice, martinscica, losinj, osor
@@ -16904,9 +16904,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//979
 			//veglia, jurandvor, vrbnik, moschau
@@ -16921,9 +16921,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Sicily
 			//Palermo
@@ -16940,9 +16940,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//981
 			//caccamo, termini
@@ -16957,9 +16957,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//982
 			//cefalu, castelbuono
@@ -16974,9 +16974,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Trapani
 			//983
@@ -16992,9 +16992,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//984
 			//alcamo, castellammare
@@ -17009,9 +17009,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//985
 			//marsala, mazara, castelvetrano, motya
@@ -17026,9 +17026,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//Messina
 			//986
@@ -17044,9 +17044,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//987
 			//milazzo, patti, tindari
@@ -17061,9 +17061,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//988
 			//taormina, mola
@@ -17078,9 +17078,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Agrigento
 			//989
@@ -17096,9 +17096,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//990
 			//licata, montechiaro
@@ -17113,9 +17113,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//991
 			//gela, riesi
@@ -17130,9 +17130,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//992
 			//caltanisetta, mazzarino, mussomeli, mafredonico 
@@ -17147,9 +17147,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Catania
 			//993
@@ -17165,9 +17165,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//994
 			//caltagirone, mirabella
@@ -17182,9 +17182,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Siracusa
 			//995
@@ -17200,9 +17200,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//996
 			//modica, scicli, ispica, monterosso
@@ -17217,9 +17217,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//997
 			//ragusa, chiaramonte, comiso, giarratana
@@ -17234,9 +17234,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Naples
 			//Naples
@@ -17253,9 +17253,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -17270,9 +17270,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Capua
 			//
@@ -17288,9 +17288,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//caserta, mondragone
@@ -17305,9 +17305,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Amalfi
 			//
@@ -17323,9 +17323,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//sorrento
@@ -17340,9 +17340,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Calabria
 			//
@@ -17358,9 +17358,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//cosenza, mendicino
@@ -17375,9 +17375,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//crotone
@@ -17392,9 +17392,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//reggio
@@ -17409,9 +17409,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Basilicata
 			//
@@ -17427,9 +17427,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//potenza
@@ -17444,9 +17444,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Taranto
 			//
@@ -17462,9 +17462,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//bari
@@ -17479,9 +17479,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//
 			//brindisi, san demetrio
@@ -17496,9 +17496,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//lecce
@@ -17513,9 +17513,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Foggia
 			//
@@ -17531,9 +17531,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -17548,9 +17548,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Benevento
 			//
@@ -17566,9 +17566,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -17583,9 +17583,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Salerno
 			//
@@ -17601,9 +17601,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -17618,9 +17618,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Sardinia
 			//Gallura
@@ -17637,9 +17637,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -17654,9 +17654,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Logudoro 
 			//
@@ -17672,9 +17672,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//sassari
@@ -17689,9 +17689,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Arborea
 			//
@@ -17707,9 +17707,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//sanluri
@@ -17724,9 +17724,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Cagliari
 			//
@@ -17742,9 +17742,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//tortoli, nuoro
@@ -17759,9 +17759,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//castiadas, san vito
@@ -17776,9 +17776,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//Byzantine			
 			//Thrace
@@ -17796,9 +17796,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//ergisce
@@ -17813,9 +17813,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Macedonia
 			//
@@ -17831,9 +17831,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//bergule
@@ -17848,9 +17848,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Thessalonica
 			//Hellas
@@ -17867,9 +17867,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//thebes
@@ -17884,9 +17884,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//chalcis
@@ -17901,9 +17901,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//larissa, elassona, farsala
@@ -17918,9 +17918,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//lamia, thaumace, ravenica, amphissa, bodonitsa
@@ -17935,9 +17935,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Peloponessos
 			//
@@ -17953,9 +17953,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//argos
@@ -17970,9 +17970,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//patras
@@ -17987,9 +17987,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//
 			//monemvasia
@@ -18004,9 +18004,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Archipelago
 			//
@@ -18022,9 +18022,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//
@@ -18039,9 +18039,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Epirus
 			//
@@ -18057,9 +18057,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18074,9 +18074,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Thessalonica
 			//
@@ -18092,9 +18092,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Strymon
 			//
@@ -18110,9 +18110,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//christoupolis
@@ -18127,9 +18127,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Trebizond
 			//Paphlagonia
@@ -18146,9 +18146,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18163,9 +18163,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Armeniac
 			//
@@ -18181,9 +18181,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//
@@ -18198,9 +18198,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Chaldia
 			//
@@ -18216,9 +18216,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18233,9 +18233,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Crimea
 			//
@@ -18251,9 +18251,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18268,9 +18268,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Anatolia
 			//Thracesia
@@ -18287,9 +18287,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18304,9 +18304,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Bucellaria
 			//
@@ -18322,9 +18322,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//
@@ -18339,9 +18339,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Anatolia
 			//
@@ -18357,9 +18357,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18374,9 +18374,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Cappadocia
 			//
@@ -18392,9 +18392,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18409,9 +18409,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Seleucia
 			//
@@ -18427,9 +18427,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//
@@ -18444,9 +18444,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Opsicia
 			//
@@ -18462,9 +18462,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//
@@ -18479,9 +18479,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Nicaea
 			//
@@ -18497,9 +18497,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18514,9 +18514,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Lycia
 			//
@@ -18532,9 +18532,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18549,9 +18549,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Pamphylia
 			//
@@ -18567,9 +18567,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18584,9 +18584,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);					
 			//Georgia
 			//Georgia
@@ -18605,9 +18605,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//pityus
@@ -18622,9 +18622,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//kutaisi, gelati
@@ -18639,9 +18639,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//batumi
@@ -18656,9 +18656,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Javakheti
 			//
@@ -18674,9 +18674,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18691,9 +18691,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Kartli
 			//
@@ -18709,9 +18709,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//tiblisi
@@ -18726,9 +18726,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//rustavi
@@ -18743,9 +18743,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//gori
@@ -18760,9 +18760,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Kakheti
 			//
@@ -18778,9 +18778,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18795,9 +18795,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Armenia
 			//Vaspurakan
@@ -18814,9 +18814,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18831,9 +18831,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Taron
 			//
@@ -18849,9 +18849,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//karapet
@@ -18866,9 +18866,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Kars
 			//
@@ -18884,9 +18884,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//ani
@@ -18901,9 +18901,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Azerbaijan
 			//
@@ -18919,9 +18919,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -18936,9 +18936,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Kievan Rus
 			//Kyiv
@@ -18956,9 +18956,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//bratslav, vinnytsia
@@ -18973,9 +18973,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//cherkasy, kaniv, bohuslav, korsun 
@@ -18990,9 +18990,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//korosten, ovruch, zhytomyr
@@ -19007,9 +19007,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Pereyaslavl
 			//
@@ -19025,9 +19025,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//poltava, lubny
@@ -19042,9 +19042,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Chernigov
 			//Chernigov
@@ -19061,9 +19061,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//bryansk, kursk, oryol, rylsk, starodub, trubcvesk, sevsk, belgorod, svensky
@@ -19078,9 +19078,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//lyubech, loyew
@@ -19095,9 +19095,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//mozhaysk, borodino
@@ -19112,9 +19112,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//novosil, odoyev
@@ -19129,9 +19129,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Ryazan
 			//
@@ -19147,9 +19147,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//murom, borisoglebsky
@@ -19164,9 +19164,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//tula, belyov
@@ -19181,9 +19181,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//kaluga, mosalsk, kozelsk, tarusa, obolensk
@@ -19198,9 +19198,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//vorotynsk, peremyshl, karachev
@@ -19215,9 +19215,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);							
 			//Halych
 			//Halych
@@ -19234,9 +19234,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//peremyshl, sambir, lubaczow
@@ -19251,9 +19251,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//lviv, grodek, zudech
@@ -19268,9 +19268,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//belz, sokal 
@@ -19285,9 +19285,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Podolia
 			//
@@ -19303,9 +19303,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//terebovlia, moklekov
@@ -19320,9 +19320,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Volhynia
 			//
@@ -19338,9 +19338,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//brest, belz
@@ -19355,9 +19355,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//kremenets, shumsk
@@ -19372,9 +19372,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//lutsk, busk
@@ -19389,9 +19389,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Turov
 			//
@@ -19407,9 +19407,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//slutsk, kletsk
@@ -19424,9 +19424,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Vladimir
 			//Vladimir
@@ -19443,9 +19443,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//vyazniki, yaropolk 
@@ -19460,9 +19460,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//nizhny novgorod, gorokhovets, gorodets
@@ -19477,9 +19477,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Moscow
 			//
@@ -19495,9 +19495,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//dmitrov, sergiyev, dedenyovo
@@ -19512,9 +19512,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//volokolamsk, lotoshino
@@ -19529,9 +19529,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//zvenigorod, ruza 
@@ -19546,9 +19546,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Suzdal
 			//
@@ -19564,9 +19564,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//yuryev, kuzmadino
@@ -19581,9 +19581,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//starodub, kovrov
@@ -19598,9 +19598,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Smolensk
 			//Smolensk
@@ -19617,9 +19617,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//roslavl, vyazma
@@ -19634,9 +19634,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//
 			//toropets, morsow
@@ -19651,9 +19651,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//
 			//mstivlavl, svyato
@@ -19668,9 +19668,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);					
 			//Rzhev
 			//
@@ -19686,9 +19686,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//zubtsov, gorodok
@@ -19703,9 +19703,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Affer',
+				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Tver
 			//
@@ -19721,9 +19721,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//galich, soligalich, makaryev
@@ -19738,9 +19738,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//kostroma, ipatiev, nerekhta
@@ -19755,9 +19755,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//
 			//pereslavl, nikitsky
@@ -19772,9 +19772,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//rostov, sarsky
@@ -19789,9 +19789,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//yaroslavl, uglich, vologda, cherepovets
@@ -19806,9 +19806,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Fur',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Novgorod
 			//Novgorod
@@ -19825,9 +19825,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Fur',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//ladoga, oreshek, keksholm, koporye
@@ -19842,9 +19842,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Polotsk
 			//
@@ -19860,9 +19860,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//vitebsk, orsha, gorodok
@@ -19877,9 +19877,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Pleskov			
 			//
@@ -19895,9 +19895,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//kholm, velikiye luki
@@ -19912,9 +19912,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Bulgaria
 			//Bulgaria
@@ -19932,9 +19932,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Tarnovo
 			//
@@ -19950,9 +19950,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Wallachia
 			//Wallachia
@@ -19969,9 +19969,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -19986,9 +19986,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Moldavia
 			//
@@ -20004,9 +20004,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//
@@ -20021,9 +20021,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Serbia
 			//Serbia
@@ -20041,9 +20041,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -20058,9 +20058,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Bosnia
 			//Bosnia
@@ -20077,9 +20077,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -20094,9 +20094,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Cordoba
 			//Andalucia
@@ -20114,9 +20114,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//gibraltar
@@ -20131,9 +20131,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Almeria
 			//
@@ -20149,9 +20149,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//baza, cullar, caniles, benamaurel, freila
@@ -20166,9 +20166,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Arcos
 			//
@@ -20184,9 +20184,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//jerez
@@ -20201,9 +20201,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//sanlucar
@@ -20218,9 +20218,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//Carmona
 			//
@@ -20236,9 +20236,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//ecija
@@ -20253,9 +20253,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//Cordoba
 			//
@@ -20271,9 +20271,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//carpio
@@ -20288,9 +20288,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Madder',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//cordoba, azahara, balma, santa cruz
@@ -20305,9 +20305,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//rute, lucena, cabra
             DB::table('counties')->insert([
@@ -20321,9 +20321,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//baena, qasira, espejo
             DB::table('counties')->insert([
@@ -20337,9 +20337,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//montilla, aguilar, montemayor
             DB::table('counties')->insert([
@@ -20353,9 +20353,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//martos
@@ -20370,9 +20370,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//pedroche
@@ -20387,9 +20387,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Granada
 			//
@@ -20405,9 +20405,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//baeza
@@ -20422,9 +20422,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//carolina
@@ -20439,9 +20439,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//granada, albolote, alfacar, beas, churriana, cogollos, lachar, peligros
@@ -20456,9 +20456,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//guadix
@@ -20473,9 +20473,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//jaen, andujar
@@ -20490,9 +20490,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//orjiva
@@ -20507,9 +20507,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//motril
@@ -20524,9 +20524,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//torvizcon
@@ -20541,9 +20541,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//ubeda
@@ -20558,9 +20558,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Malaga
 			//
@@ -20576,9 +20576,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//antequera
@@ -20593,9 +20593,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//loja
@@ -20610,9 +20610,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//malaga
@@ -20627,9 +20627,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Ronda
 			//
@@ -20645,9 +20645,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//ronda
@@ -20662,9 +20662,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Sevilla
 			//
@@ -20680,9 +20680,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//estepa
@@ -20697,9 +20697,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//sevilla, cartuja, utrera
@@ -20714,9 +20714,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Algarves
 			//Algarves
@@ -20733,9 +20733,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//mertola, serpa, moura, noudar
@@ -20750,9 +20750,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//silves, lagos, alcantarilha, aljezur, alvor, paderne
@@ -20767,9 +20767,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Badajoz
 			//
@@ -20785,9 +20785,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//beja, ourique, vidigueira, messejana, cola, alvito, aljustrel
@@ -20802,9 +20802,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//evora, alandroal, arraiolos, estremoz, mourao, viana, redondo, portel
@@ -20819,9 +20819,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//medellin, guarena
@@ -20836,9 +20836,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//llerena, berlanga, usagre, azuaga
@@ -20853,9 +20853,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//merida, zafra, valverde, mirandilla, san servan, alange, calzada, lobon
@@ -20870,9 +20870,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//olivenza, nogales, alconchel, higuera
@@ -20887,9 +20887,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//portalegre, alegrete, avis, monforte, marvao
@@ -20904,9 +20904,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//villanueva, castuera
@@ -20921,9 +20921,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Huelva
 			//
@@ -20939,9 +20939,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//huelva, ayamonte, cartaya
@@ -20956,9 +20956,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//niebla, moguer, almonte
@@ -20973,9 +20973,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Levante
 			//Alpuente
@@ -20992,9 +20992,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//almarza, buitrago
@@ -21009,9 +21009,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//alcala, valverde, pezuela, san pedro
@@ -21026,9 +21026,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//medinaceli, arcos, somaen
@@ -21043,9 +21043,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//molina, ventosa, tortuera
@@ -21060,9 +21060,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//alpuente, cuenca, atienza, siguenza, bonaval
@@ -21077,9 +21077,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Baleares
 			//
@@ -21095,9 +21095,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//palma
@@ -21112,9 +21112,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//alayor, ciudadela, mahon, mercadal
@@ -21129,9 +21129,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Denia
 			//
@@ -21147,9 +21147,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//alcaraz
@@ -21164,9 +21164,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//
 			//alcira
@@ -21181,9 +21181,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//alcoy
@@ -21198,9 +21198,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//alicanta
@@ -21215,9 +21215,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//almagro, villa real, san juan, valdepenas
@@ -21232,9 +21232,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//chinchilla
@@ -21249,9 +21249,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//cofrentes
@@ -21266,9 +21266,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//
 			//denia
@@ -21283,9 +21283,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//jativa
@@ -21300,9 +21300,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//montesa
@@ -21317,9 +21317,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Murcia
 			//
@@ -21335,9 +21335,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//
 			//cieza
@@ -21352,9 +21352,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//hellin
@@ -21369,9 +21369,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//lorca
@@ -21386,9 +21386,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//
 			//murcia
@@ -21403,9 +21403,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//orihuella
@@ -21420,9 +21420,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//segura
@@ -21437,9 +21437,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Valencia
 			//
@@ -21455,9 +21455,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//morella
@@ -21472,9 +21472,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//peniscola
@@ -21489,9 +21489,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//san clemente
@@ -21506,9 +21506,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//valencia, montesa
@@ -21523,9 +21523,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Almohad
 			//Marrakesh
@@ -21543,9 +21543,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//safi
@@ -21560,9 +21560,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//mogador
@@ -21577,9 +21577,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//aghmat
@@ -21594,9 +21594,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Tadla
 			//
@@ -21612,9 +21612,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//mellal
@@ -21629,9 +21629,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Sijilmassa
 			//
@@ -21647,9 +21647,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//merzouga, 
@@ -21664,9 +21664,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//erfoud, 
@@ -21681,9 +21681,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Ouarzazate
 			//
@@ -21699,9 +21699,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//zagora
@@ -21716,9 +21716,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//tinghir
@@ -21733,9 +21733,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Fez
 			//Fez
@@ -21752,9 +21752,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//meknes
@@ -21769,9 +21769,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Rabat
 			//
@@ -21787,9 +21787,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//mehdya, 
@@ -21804,9 +21804,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Tangier
 			//
@@ -21822,9 +21822,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//tetouan 
@@ -21839,9 +21839,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//kebir 
@@ -21856,9 +21856,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//ouazzane 
@@ -21873,9 +21873,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Kairouan
 			//Kairouan
@@ -21892,9 +21892,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Tunis
 			//
@@ -21910,9 +21910,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//bizerte
@@ -21927,9 +21927,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//Djerid
 			//
@@ -21945,9 +21945,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);		
 			//Tripoli
 			//
@@ -21963,9 +21963,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Sirte
 			//
@@ -21981,9 +21981,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Tlemcen
 			//Tlemcen
@@ -22000,9 +22000,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Oujda
 			//
@@ -22018,9 +22018,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Oran
 			//
@@ -22036,9 +22036,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Algiers
 			//
@@ -22054,9 +22054,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Tiaret
 			//
@@ -22072,9 +22072,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Mzab
 			//
@@ -22090,9 +22090,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Laghouat
 			//
@@ -22108,9 +22108,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Djelfa
 			//
@@ -22126,9 +22126,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Ifni
 			//Ifni
@@ -22145,9 +22145,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -22162,9 +22162,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Taroudant
 			//
@@ -22180,9 +22180,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//
@@ -22197,9 +22197,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Figuig
 			//Figuig
@@ -22216,12 +22216,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
-			//
+			//bechar
             DB::table('counties')->insert([
 				'county_name' => 'Bechar',
 				'county_category' => 'Feudal_Manor',
@@ -22233,12 +22233,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
-			//
+			//moghrar
             DB::table('counties')->insert([
 				'county_name' => 'Moghrar',
 				'county_category' => 'Feudal_Manor',
@@ -22250,9 +22250,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Adrar
 			//
@@ -22268,9 +22268,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//timimoun
@@ -22285,9 +22285,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Abbasid
 			//Baghdad
@@ -22304,9 +22304,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//
@@ -22321,9 +22321,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//
@@ -22338,9 +22338,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);			
 			//Syria
 			//Damascus
@@ -22357,9 +22357,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Jabal
 			//
@@ -22375,9 +22375,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Homs
 			//
@@ -22393,9 +22393,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);				
 			//Najd
 			//Najd
@@ -22412,9 +22412,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -22429,9 +22429,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Antioch
 			//Antioch
@@ -22448,9 +22448,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//
@@ -22465,9 +22465,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Fatimid
 			//Cairo
@@ -22485,9 +22485,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//Alexandria
 			//
@@ -22503,9 +22503,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Mansoura
 			//
@@ -22521,9 +22521,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Damietta
 			//
@@ -22539,9 +22539,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Minya
 			//
@@ -22557,9 +22557,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Asyut
 			//
@@ -22575,9 +22575,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);
 			//Kharga
 			//
@@ -22593,9 +22593,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//dakhla, masara
@@ -22610,9 +22610,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Baritun
 			//
@@ -22628,9 +22628,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//siwa, shali, aghurmi
@@ -22645,9 +22645,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//nitria, scetis, kellia
@@ -22662,9 +22662,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Boula
 			//
@@ -22680,9 +22680,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',									
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//qoseir, banat
@@ -22697,9 +22697,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Jerusalem
 			//Jerusalem
@@ -22716,9 +22716,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -22733,9 +22733,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Hejaz
 			//Mecca
@@ -22752,9 +22752,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//jeddah, asfan
@@ -22769,9 +22769,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//taif
@@ -22786,9 +22786,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Medina
 			//
@@ -22804,9 +22804,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//yanbu
@@ -22821,9 +22821,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//khaybar, tayma
@@ -22838,9 +22838,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Tabuk
 			//
@@ -22856,9 +22856,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',								
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//aqaba, muan
@@ -22873,9 +22873,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//hegra
@@ -22890,9 +22890,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Incense',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Khazar
 			//Khazaria
@@ -22910,9 +22910,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -22927,9 +22927,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Sarkel
 			//
@@ -22945,9 +22945,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -22962,9 +22962,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);			
 			//Atil
 			//
@@ -22980,9 +22980,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -22997,9 +22997,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Bolghar
 			//
@@ -23015,9 +23015,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -23032,9 +23032,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Bilar
 			//
@@ -23050,9 +23050,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -23067,9 +23067,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Alania
 			//Derbent
@@ -23086,9 +23086,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -23103,9 +23103,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Azov
 			//
@@ -23121,9 +23121,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -23138,9 +23138,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Cumania
 			//Sighnaq
@@ -23157,9 +23157,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -23174,9 +23174,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Sozak
 			//
@@ -23192,9 +23192,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);		
 			//
 			//
@@ -23209,9 +23209,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Sibir
 			//
@@ -23227,9 +23227,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//
@@ -23244,9 +23244,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Seljuk
 			//Kwarezm
@@ -23264,9 +23264,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Khiva
 			//
@@ -23282,9 +23282,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Charger',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Isfahan
 			//Isfahan
@@ -23301,9 +23301,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//
 			//qom
@@ -23318,9 +23318,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);
 			//Shiraz
 			//
@@ -23336,9 +23336,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
 			//Hormuz
 			//Hormuz
@@ -23355,9 +23355,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//minab
@@ -23372,9 +23372,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Ducks'
+				'marke_poultry' => 'Ducks'
             ]);	
 			//
 			//bandar
@@ -23389,9 +23389,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//lengeh
@@ -23406,9 +23406,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//Kerman
 			//
@@ -23424,9 +23424,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//bam, rayen
@@ -23441,9 +23441,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);	
 			//
 			//rafsinjan, bayaz
@@ -23458,9 +23458,9 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',					
 				'marke_crops' => 'None',						
-				'marke_animal_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
-				'marke_animal_poultry' => 'Chickens'
+				'marke_poultry' => 'Chickens'
             ]);				
     }
 }
