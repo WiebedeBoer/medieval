@@ -9397,7 +9397,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);	
 			//544
-			//ipswich, lowestoft, saint edmunds, dunwich, sudbury, bungay, clare
+			//ipswich, lowestoft, saint edmunds, dunwich, sudbury, bungay, clare, wattisham
             DB::table('counties')->insert([
 				'county_name' => 'Suffolk',
 				'county_category' => 'Feudal_Manor',
@@ -9553,7 +9553,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);	
 			//553
-			//canterbury, chatham, sandwich, dover, leeds
+			//canterbury, chatham, sandwich, dover, leeds, appleby
             DB::table('counties')->insert([
 				'county_name' => 'Kent',
 				'county_category' => 'Feudal_Manor',
@@ -10276,7 +10276,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Dyfed
 			//595
-			//cardigan, aberystwyth, llanbadarn
+			//cardigan, aberystwyth, llanbadarn, llantood
             DB::table('counties')->insert([
 				'county_name' => 'Cardiganshire',
 				'county_category' => 'Feudal_Manor',
@@ -10622,7 +10622,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Bernicia
 			//615
-			//berwick, lauder, thirlestane, duns, coldstream
+			//berwick, lauder, thirlestane, duns, coldstream, coldingham
             DB::table('counties')->insert([
 				'county_name' => 'Berwickshire',
 				'county_category' => 'Feudal_Manor',
@@ -10673,7 +10673,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//618
-			//linlithgow, livingston, abercorn, falkirk
+			//linlithgow, livingston, abercorn, falkirk, grangemouth
             DB::table('counties')->insert([
 				'county_name' => 'Linlithgowshire',
 				'county_category' => 'Feudal_Manor',
@@ -10915,7 +10915,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//632
-			//roxburgh, jedburgh, kelso, dryburgh, melrose, hawick
+			//roxburgh, jedburgh, kelso, dryburgh, melrose, hawick, drygrange
             DB::table('counties')->insert([
 				'county_name' => 'Roxburghshire',
 				'county_category' => 'Feudal_Manor',
@@ -10950,7 +10950,7 @@ class CountySeeder extends Seeder
             ]);		
 			//Strathclyde
 			//634
-			//ayr, largs, busbie, cessnock, crossraguel, barnweill, craigie, gadgirth, kilwinning
+			//ayr, largs, busbie, cessnock, crossraguel, barnweill, craigie, gadgirth, kilwinning, grangehill, aiket
             DB::table('counties')->insert([
 				'county_name' => 'Ayrshire',
 				'county_category' => 'Feudal_Manor',
@@ -12334,7 +12334,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//714
-			//medina, tordesillas, mota, pozal
+			//medina, tordesillas, mota, pozal, coleme
             DB::table('counties')->insert([
 				'county_name' => 'Medina',
 				'county_category' => 'Feudal_Manor',
@@ -12402,7 +12402,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//718
-			//medina, uruena, villabragima
+			//medina, uruena, villabragima, albergue
             DB::table('counties')->insert([
 				'county_name' => 'Rioseco',
 				'county_category' => 'Feudal_Manor',
@@ -20702,7 +20702,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//
-			//sevilla, cartuja, utrera
+			//sevilla, cartuja, utrera, san luis
             DB::table('counties')->insert([
 				'county_name' => 'Sevilla',
 				'county_category' => 'Feudal_Manor',
