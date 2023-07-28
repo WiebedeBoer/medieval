@@ -2976,7 +2976,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);				
 			//
-			//
+			//Baku, Rasht
             DB::table('duchies')->insert([
 				'duchy_name' => 'Azerbaijan',
 				'duchy_category' => 'Feudal_Estate',
