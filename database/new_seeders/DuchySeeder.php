@@ -3970,7 +3970,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Alexandria,
+			//Alexandria, Damanhur, Rosetta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alexandria',
 				'duchy_category' => 'Feudal_Estate',

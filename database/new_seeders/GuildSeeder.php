@@ -58,7 +58,7 @@ class GuildSeeder extends Seeder
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher			(5)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(18)
-		//Guild_Miller:									Craft		Master_Miller			(17)
+		//Guild_Miller:									Craft		Master_Miller			(20)
 		//Guild_Fuller:									Craft		Master_Fuller			(19)
 		//Guild_Vintner:								Craft		Master_Vintner			(22)
 		//
@@ -19187,12 +19187,23 @@ class GuildSeeder extends Seeder
 			'duchy' => '',
 			'county' => '',
 			'barony' => ''
-		]);	
-		//Alexandria
-		//
-		//
+		]);
+		//Fustat
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Potters Guild of ustat',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Alexandria
+		//Alexandria
+		//Alexandria
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Alexandria',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19205,6 +19216,41 @@ class GuildSeeder extends Seeder
 			'guild_name' => '',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Damanhur
+		//Damanhur
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Baroud
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Baroud',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Rosetta
+		//Balhib
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Balhib',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -19212,10 +19258,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Mansoura
-		//
-		//
+		//Mansoura
+		//Mansoura
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Mansoura',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19228,6 +19274,18 @@ class GuildSeeder extends Seeder
 			'guild_name' => '',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Dekernes
+		//Zmoumis
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Zmoumis',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -19235,10 +19293,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Damietta
-		//
-		//
+		//Damietta
+		//Damietta
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Damietta',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19257,11 +19315,22 @@ class GuildSeeder extends Seeder
 			'county' => '',
 			'barony' => ''
 		]);
-		//Minya
-		//
-		//
+		//Damul
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Millers Guild of Damul',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Minya
+		//Minya
+		//Minya
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Minya',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19314,10 +19383,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Kharga
-		//
-		//
+		//Kharga
+		//Kharga
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Kharga',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19337,10 +19406,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Baritun
-		//
-		//
+		//Baritun
+		//Baritun
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Baritun',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
