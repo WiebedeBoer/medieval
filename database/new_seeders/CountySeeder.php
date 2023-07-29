@@ -26,7 +26,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (29), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12), None (1081) = 1346
 				'marke_horse_transport' => '',		//Charger (308), Palfrey (404), Affer (337), Sumpter (303) = 1346
 				'marke_animal_husbandry' => '',		//Cattle (499), Sheep (335), Pigs (356), Goats (156) = 1346
-				'marke_poultry' => '',		//Chickens (1193), Ducks (154) = 1346
+				'marke_poultry' => '',				//Chickens (1193), Ducks (154) = 1346
 													//1 migration [500], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420] 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -18001,16 +18001,51 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_culture' => 'Greek',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
-            ]);			
+            ]);
+			//Candia
+			//
+			//heraklion
+            DB::table('counties')->insert([
+				'county_name' => 'Heraklion',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//chania
+            DB::table('counties')->insert([
+				'county_name' => 'Chania',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Archipelago
 			//
-			//chios
+			//chios, anavatos, pyrgi, elata, mesta, nea moni, volissos
             DB::table('counties')->insert([
 				'county_name' => 'Chios',
 				'county_category' => 'Feudal_Manor',
@@ -22806,22 +22841,39 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//
-			//
+			//ascolon, jura, majdal
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Ascolon',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Levant',	
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
-            ]);				
+            ]);
+			//
+			//jericho
+            DB::table('counties')->insert([
+				'county_name' => 'Jericho',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Sweetener_Sugarcane',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Hejaz
 			//Mecca
 			//

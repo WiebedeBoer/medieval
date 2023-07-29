@@ -2671,6 +2671,19 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
+            ]);
+			//
+			//Candia
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Candia',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '31',	
+				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => 'Stone_Romanesque',
+				'law_court' => 'Itinerant',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
+				'altitude' => 'Montane'				
             ]);			
 			//
 			//Naupaktos
@@ -4075,7 +4088,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Jerusalem
 			//
-			//Jerusalem,
+			//Jerusalem, Ascolon
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jerusalem',
 				'duchy_category' => 'Feudal_Estate',
