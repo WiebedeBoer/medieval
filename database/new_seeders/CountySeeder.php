@@ -6374,7 +6374,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//368
-			//thorn, birgelau 
+			//thorn, birgelau, zlotoria, grebocin 
             DB::table('counties')->insert([
 				'county_name' => 'Thorn',
 				'county_category' => 'Feudal_Manor',
@@ -15964,7 +15964,7 @@ class CountySeeder extends Seeder
             ]);
 			//Buda
 			//924
-			//bac, kalocsa, kecskemet 
+			//bac, kalocsa, kecskemet, pirtov, tatahaza, ujsolt
             DB::table('counties')->insert([
 				'county_name' => 'Bac',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -15972,7 +15972,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_culture' => 'Hungarian',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -16032,7 +16032,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//928
-			//eger, kisnana, belapatfalva
+			//eger, kisnana, sirok, belapatfalva, feltarkan
             DB::table('counties')->insert([
 				'county_name' => 'Heves',
 				'county_category' => 'Feudal_Manor',
@@ -16041,7 +16041,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Magyar',	
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Affer',

@@ -59,9 +59,9 @@ class GuildSeeder extends Seeder
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher			(8)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(18)
-		//Guild_Miller:									Craft		Master_Miller			(25)
+		//Guild_Miller:									Craft		Master_Miller			(27)
 		//Guild_Fuller:									Craft		Master_Fuller			(24)
-		//Guild_Vintner:								Craft		Master_Vintner			(25)
+		//Guild_Vintner:								Craft		Master_Vintner			(27)
 		//
 		//Tiltyard:										Feast		Tournament				(475)
 		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair					(184)
@@ -6667,6 +6667,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '368',
+			'barony' => ''
+		]);
+		//Grebocin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Grebocin',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '53',
@@ -15689,20 +15700,52 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Buda
-		//
-		//
+		//Bac
+		//Pirtov
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
+			'guild_name' => 'Fullers Guild of Pirtov',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '165',
-			'county' => null,
+			'county' => '924',
+			'barony' => ''
+		]);
+		//Tatahaza
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Tatahaza',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '165',
+			'county' => '924',
+			'barony' => ''
+		]);
+		//Ujsolt
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Ujsolt',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vinter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '165',
+			'county' => '924',
 			'barony' => ''
 		]);
 		//Esztergom
 		//Esztergom
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Buda',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => '25',
+			'duchy' => '165',
+			'county' => null,
+			'barony' => ''
+		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Esztergom',
 			'guild_category' => 'Feast',
@@ -15711,6 +15754,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '165',
 			'county' => '926',
+			'barony' => ''
+		]);
+		//Muzla
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Muzla',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '165',
+			'county' => '926',
+			'barony' => ''
+		]);
+		//Heves
+		//Feltarkan
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Feltarkan',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vinter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '165',
+			'county' => '928',
 			'barony' => ''
 		]);
 		//Nitra
