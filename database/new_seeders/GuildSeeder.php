@@ -59,13 +59,13 @@ class GuildSeeder extends Seeder
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher			(8)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(18)
-		//Guild_Miller:									Craft		Master_Miller			(27)
+		//Guild_Miller:									Craft		Master_Miller			(32)
 		//Guild_Fuller:									Craft		Master_Fuller			(24)
 		//Guild_Vintner:								Craft		Master_Vintner			(27)
 		//
 		//Tiltyard:										Feast		Tournament				(475)
 		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair					(184)
-		//Coaching_Inn:									Feast		Tavern					(129)
+		//Coaching_Inn:									Feast		Tavern					(132)
 		//Hunting_Lodge_Boar:							Feast		Hunt_Boar				(42)
 		//Hunting_Lodge_Deer:							Feast		Hunt_Deer				(77)
 		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer			(15)
@@ -14819,6 +14819,63 @@ class GuildSeeder extends Seeder
 		//Danelagen
 		//Kingdom of Denmark
 		//Jutland
+		//Aarhus
+		//Alling
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Alling',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '782',
+			'barony' => ''
+		]);
+		//Vissing
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Vissing',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '782',
+			'barony' => ''
+		]);
+		//Borglum
+		//Vrejlev
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Vrejlev',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '783',
+			'barony' => ''
+		]);
+		//Hundslund
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Hundslund',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '783',
+			'barony' => ''
+		]);
+		//Dueholm
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Dueholm',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '783',
+			'barony' => ''
+		]);
 		//Slesvig
 		//Slesvig
 		DB::table('guilds')->insert([
