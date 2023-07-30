@@ -17819,7 +17819,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Macedonia
 			//
-			//adrianople
+			//adrianople, meric, hosa
             DB::table('counties')->insert([
 				'county_name' => 'Adrianople',
 				'county_category' => 'Feudal_Manor',
@@ -17827,18 +17827,35 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_culture' => 'Greek',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);	
+			//
+			//bergule, cypsela, ergene, plotinopolis, heroic
+            DB::table('counties')->insert([
+				'county_name' => 'Bergule',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
-            ]);	
+            ]);
 			//
-			//bergule
+			//traianapolis, mosynopolis, rusion
             DB::table('counties')->insert([
-				'county_name' => 'Bergule',
+				'county_name' => 'Traianopolis',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -17851,7 +17868,7 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
-            ]);				
+            ]);
 			//Thessalonica
 			//Hellas
 			//
@@ -18308,6 +18325,58 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);				
 			//Anatolia
+			//Samos
+			//
+			//samos, pythagoreion, makrini
+            DB::table('counties')->insert([
+				'county_name' => 'Samos',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'Boar',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//ephesos
+            DB::table('counties')->insert([
+				'county_name' => 'Ephesos',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//smyrna
+            DB::table('counties')->insert([
+				'county_name' => 'Smyrna',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Olive_Oil',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Thracesia
 			//
 			//sardes
@@ -18327,25 +18396,25 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//
-			//
+			//chonae
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Chonae',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',	
 				'vernacular_culture' => 'Greek',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
-            ]);				
+            ]);
 			//Bucellaria
 			//
-			//ancyra
+			//ancyra, balbadon
             DB::table('counties')->insert([
 				'county_name' => 'Ancyra',
 				'county_category' => 'Feudal_Manor',
@@ -18467,9 +18536,26 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//
-			//
+			//adana, mopsuestia, sis, arqakaghni, drazark, yuregir
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Adana',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',	
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Olive_Oil',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//tarsos, zephyrion
+            DB::table('counties')->insert([
+				'county_name' => 'Tarsos',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18482,7 +18568,7 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
-            ]);				
+            ]);
 			//Opsicia
 			//
 			//cyzicus
