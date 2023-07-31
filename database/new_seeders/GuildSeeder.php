@@ -59,7 +59,7 @@ class GuildSeeder extends Seeder
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher			(8)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(18)
-		//Guild_Miller:									Craft		Master_Miller			(32)
+		//Guild_Miller:									Craft		Master_Miller			(33)
 		//Guild_Fuller:									Craft		Master_Fuller			(24)
 		//Guild_Vintner:								Craft		Master_Vintner			(27)
 		//
@@ -14876,28 +14876,6 @@ class GuildSeeder extends Seeder
 			'county' => '783',
 			'barony' => ''
 		]);
-		//Slesvig
-		//Slesvig
-		DB::table('guilds')->insert([
-			'guild_name' => 'Court of Jutland',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '133',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '133',
-			'county' => '',
-			'barony' => ''
-		]);
 		//Ribe
 		//Ribe
 		DB::table('guilds')->insert([
@@ -14919,6 +14897,84 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '133',
 			'county' => '784',
+			'barony' => ''
+		]);
+		//Slesvig
+		//Slesvig
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Jutland',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Slesvig',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '785',
+			'barony' => ''
+		]);
+		//Flensburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Flensburg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '785',
+			'barony' => ''
+		]);
+		//Alsborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Alsborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '785',
+			'barony' => ''
+		]);
+		//Sonderborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Sonderborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '785',
+			'barony' => ''
+		]);
+		//Hedeby
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Hedeby',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '785',
+			'barony' => ''
+		]);
+		//Viborg
+		//Drastrup
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Drastrup',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '786',
 			'barony' => ''
 		]);
 		//Scania

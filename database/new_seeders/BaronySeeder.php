@@ -88870,44 +88870,18 @@ class BaronySeeder extends Seeder
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
-				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'Tiltyard',
 				'marke_agriculture' => 'Marke_Squire_Stud',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Warehouse_Quarter'
-            ]);	
+            ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
-				'de_jure_county' => '785',
-				'population' => '',
-				'ecclesiastical_liberty' => 'Chapelry',
-				'monastic_liberty' => 'None',
-				'crusader_commandery' => 'None',
-				'charter_castle' => 'Manor_Court',
-				'charter_assembly' => 'Great_Hall',
-				'charter_cathedral' => 'Chaplain',
-				'charter_market' => 'Village_Green',
-				'charter_rampart' => 'None',
-				'charter_mint' => 'None',
-				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'None',
-				'charter_medical' => 'None',
-				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Squire_Stud',
-				'marke_mining' => 'None',
-				'industry_transport' => 'Charger',
-				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'
-            ]);	
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Guldholm',
 				'de_jure_county' => '785',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Manse',
@@ -88931,6 +88905,214 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
             ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Flensburg',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Rude',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Tonder',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Logum',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Haderslev',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Market_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Alsborg',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Granary'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sonderborg',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'Tiltyard',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Granary'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Hedeby',
+				'de_jure_county' => '785',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Trade_Fair',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'Tiltyard',
+				'marke_agriculture' => 'Marke_Squire_Stud',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
 			//Viborg, County = [Cattle] > [Beverage_Elder]
 			//
             DB::table('baronies')->insert([
@@ -88951,7 +89133,7 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'Hospital',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner_Elderberry',
+				'marke_agriculture' => 'Marke_Hufner_Cattle',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
@@ -88983,9 +89165,139 @@ class BaronySeeder extends Seeder
 				'industry_guild' => 'None',
 				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Warehouse_Quarter'
-            ]);			
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Sebber',
+				'de_jure_county' => '786',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner_Elderberry',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Vitskol',
+				'de_jure_county' => '786',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner_Elderberry',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Glenstrup',
+				'de_jure_county' => '786',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner_Elderberry',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Spottrup',
+				'de_jure_county' => '786',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner_Cattle',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Granary'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Drastrup',
+				'de_jure_county' => '786',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Chapelry',
+				'monastic_liberty' => 'Monastic_Grange',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Hall_House',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Grange_Mill',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Affer',
+				'industry_guild' => 'Guild_Miller',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
 			//Scania, Duchy = Temperate_Woodland
-			//, County = [Pigs]
+			//Blekinge, County = [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89064,7 +89376,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Bornholm, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89143,7 +89455,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
             ]);	
-			//, County = [Pigs] > [Beverage_Elder]
+			//Halland, County = [Pigs] > [Beverage_Elder]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',
@@ -89222,7 +89534,7 @@ class BaronySeeder extends Seeder
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
             ]);	
-			//, County = [Sweetener_Honey] > [Pigs]
+			//Rugen, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
 				'barony_name' => '',

@@ -13579,7 +13579,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//786
-			//viborg, aalborg, sebber, vitskol, glenstrup, spottrup
+			//viborg, aalborg, sebber, vitskol, glenstrup, spottrup, drastrup
             DB::table('counties')->insert([
 				'county_name' => 'Viborg',
 				'county_category' => 'Feudal_Manor',
