@@ -14978,6 +14978,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Scania
+		//Blekinge
+		//Solvesborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Solvesborg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '133',
+			'county' => '787',
+			'barony' => ''
+		]);
 		//Scania
 		//Lund
 		DB::table('guilds')->insert([

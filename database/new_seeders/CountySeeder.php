@@ -13622,7 +13622,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',		
 				'vernacular_culture' => 'Danish',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
