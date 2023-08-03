@@ -15068,6 +15068,51 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Sjaeland
+		//Funen
+		//Odense
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Odense',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '792',
+			'barony' => ''
+		]);
+		//Faborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Faborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '792',
+			'barony' => ''
+		]);
+		//Svendborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Svendborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '792',
+			'barony' => ''
+		]);
+		//Nyborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Nyborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '792',
+			'barony' => ''
+		]);
 		//Sjaeland
 		//Kobenhavn
 		DB::table('guilds')->insert([
