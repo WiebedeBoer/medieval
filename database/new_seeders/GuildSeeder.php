@@ -15003,11 +15003,43 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Scania
+		//Trelleborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Trelleborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '134',
+			'county' => '791',
+			'barony' => ''
+		]);
+		//Lindholmen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lindholmen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '134',
+			'county' => '791',
+			'barony' => ''
+		]);
 		//Lund
 		DB::table('guilds')->insert([
 			'guild_name' => 'University of Lund',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '134',
+			'county' => '791',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lund',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '134',
@@ -15026,13 +15058,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Malmohus',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '134',
-			'county' => '',
+			'county' => '791',
 			'barony' => ''
 		]);
 		//Sjaeland

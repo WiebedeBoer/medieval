@@ -13665,7 +13665,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//791
-			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholm, smedstorp, lund, herrevad, malmohus, borgeby
+			//trelleborg, backaskog, barseback, borringe, bosjo, dyback, hovdala, karnan, lindholmen, smedstorp, lund, herrevad, malmohus, borgeby
             DB::table('counties')->insert([
 				'county_name' => 'Scania',
 				'county_category' => 'Feudal_Manor',
