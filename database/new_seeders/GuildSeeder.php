@@ -14990,6 +14990,18 @@ class GuildSeeder extends Seeder
 			'county' => '787',
 			'barony' => ''
 		]);
+		//Halland
+		//Falkenberg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '134',
+			'county' => '789',
+			'barony' => ''
+		]);
 		//Scania
 		//Lund
 		DB::table('guilds')->insert([

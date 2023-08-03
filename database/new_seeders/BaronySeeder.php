@@ -89614,33 +89614,33 @@ class BaronySeeder extends Seeder
 			//Halland, County = [Pigs] > [Beverage_Elder]
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Falkenberg',
 				'de_jure_county' => '789',
 				'population' => '',
-				'ecclesiastical_liberty' => 'Manse',
+				'ecclesiastical_liberty' => 'Chapelry',
 				'monastic_liberty' => 'None',
 				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',
-				'charter_assembly' => 'Senate_Hall',
-				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Town_Square',
-				'charter_rampart' => 'Stronghold',
+				'charter_castle' => 'Manor_Court',
+				'charter_assembly' => 'Great_Hall',
+				'charter_cathedral' => 'Chaplain',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
 				'charter_mint' => 'None',
 				'reliquary_pilgrimage' => 'None',
 				'charter_university' => 'None',
 				'charter_medical' => 'None',
-				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
+				'quarter_downtown' => 'Gentry_Plots',
+				'quarter_suburb' => 'Hunting_Lodge_Hare',
 				'marke_agriculture' => 'Marke_Hufner_Elderberry',
 				'marke_mining' => 'None',
-				'industry_transport' => '',
+				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'
-            ]);	
+				'industry_storage' => 'Granary'
+            ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Varberg',
 				'de_jure_county' => '789',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Chapelry',
@@ -89657,16 +89657,68 @@ class BaronySeeder extends Seeder
 				'charter_medical' => 'None',
 				'quarter_downtown' => 'Gentry_Plots',
 				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Hufner_Elderberry',
+				'marke_agriculture' => 'Marke_Cottar_Pigs',
 				'marke_mining' => 'None',
 				'industry_transport' => 'Charger',
 				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
+				'industry_harbor' => 'Staple_Port',
 				'industry_storage' => 'Granary'
-            ]);	
+            ]);
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Halmstad',
+				'de_jure_county' => '789',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Town_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Hufner_Elderberry',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Sumpter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Laholm',
+				'de_jure_county' => '789',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Town_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar_Pigs',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Sumpter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'As',
 				'de_jure_county' => '789',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Manse',
@@ -89685,7 +89737,7 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Hufner_Elderberry',
 				'marke_mining' => 'None',
-				'industry_transport' => '',
+				'industry_transport' => 'Sumpter',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
@@ -89693,59 +89745,7 @@ class BaronySeeder extends Seeder
 			//Rugen, County = [Sweetener_Honey] > [Pigs]
 			//
             DB::table('baronies')->insert([
-				'barony_name' => '',
-				'de_jure_county' => '790',
-				'population' => '',
-				'ecclesiastical_liberty' => 'Manse',
-				'monastic_liberty' => 'None',
-				'crusader_commandery' => 'None',
-				'charter_castle' => 'None',
-				'charter_assembly' => 'Senate_Hall',
-				'charter_cathedral' => 'Priest',
-				'charter_market' => 'Town_Square',
-				'charter_rampart' => 'Stronghold',
-				'charter_mint' => 'None',
-				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'None',
-				'charter_medical' => 'None',
-				'quarter_downtown' => 'Burgage_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar_Apiary',
-				'marke_mining' => 'None',
-				'industry_transport' => '',
-				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
-				'industry_storage' => 'Warehouse_Quarter'
-            ]);	
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => '',
-				'de_jure_county' => '790',
-				'population' => '',
-				'ecclesiastical_liberty' => 'Chapelry',
-				'monastic_liberty' => 'None',
-				'crusader_commandery' => 'None',
-				'charter_castle' => 'Manor_Court',
-				'charter_assembly' => 'Great_Hall',
-				'charter_cathedral' => 'Chaplain',
-				'charter_market' => 'Village_Green',
-				'charter_rampart' => 'None',
-				'charter_mint' => 'None',
-				'reliquary_pilgrimage' => 'None',
-				'charter_university' => 'None',
-				'charter_medical' => 'None',
-				'quarter_downtown' => 'Gentry_Plots',
-				'quarter_suburb' => 'None',
-				'marke_agriculture' => 'Marke_Cottar_Apiary',
-				'marke_mining' => 'None',
-				'industry_transport' => '',
-				'industry_guild' => 'None',
-				'industry_harbor' => 'None',
-				'industry_storage' => 'Granary'
-            ]);	
-			//
-            DB::table('baronies')->insert([
-				'barony_name' => '',
+				'barony_name' => 'Hiddensee',
 				'de_jure_county' => '790',
 				'population' => '',
 				'ecclesiastical_liberty' => 'Manse',
@@ -89764,11 +89764,63 @@ class BaronySeeder extends Seeder
 				'quarter_suburb' => 'None',
 				'marke_agriculture' => 'Marke_Cottar_Apiary',
 				'marke_mining' => 'None',
-				'industry_transport' => '',
+				'industry_transport' => 'Sumpter',
 				'industry_guild' => 'None',
 				'industry_harbor' => 'None',
 				'industry_storage' => 'Tithe_Barn'
-            ]);	
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Maschenholt',
+				'de_jure_county' => '790',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'Fortified_Abbey',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'None',
+				'charter_assembly' => 'Moot_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Village_Green',
+				'charter_rampart' => 'None',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'Scriptorium_Library',
+				'charter_medical' => 'Infirmary',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar_Apiary',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Sumpter',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'None',
+				'industry_storage' => 'Tithe_Barn'
+            ]);
+			//
+            DB::table('baronies')->insert([
+				'barony_name' => 'Bergen',
+				'de_jure_county' => '790',
+				'population' => '',
+				'ecclesiastical_liberty' => 'Manse',
+				'monastic_liberty' => 'None',
+				'crusader_commandery' => 'None',
+				'charter_castle' => 'County_Court',
+				'charter_assembly' => 'Senate_Hall',
+				'charter_cathedral' => 'Priest',
+				'charter_market' => 'Town_Square',
+				'charter_rampart' => 'Stronghold',
+				'charter_mint' => 'None',
+				'reliquary_pilgrimage' => 'None',
+				'charter_university' => 'None',
+				'charter_medical' => 'None',
+				'quarter_downtown' => 'Burgage_Plots',
+				'quarter_suburb' => 'None',
+				'marke_agriculture' => 'Marke_Cottar_Apiary',
+				'marke_mining' => 'None',
+				'industry_transport' => 'Charger',
+				'industry_guild' => 'None',
+				'industry_harbor' => 'Staple_Port',
+				'industry_storage' => 'Warehouse_Quarter'
+            ]);
 			//Scania, County = [Warhorse] [Cattle]
 			//
             DB::table('baronies')->insert([
