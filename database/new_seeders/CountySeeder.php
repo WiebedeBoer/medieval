@@ -13700,7 +13700,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//793
-			//nakskov, halsted, nysted, nykobing, aalholm
+			//nakskov, halsted, nysted, nykobing, aalholm, stubberup
             DB::table('counties')->insert([
 				'county_name' => 'Lolland',
 				'county_category' => 'Feudal_Manor',

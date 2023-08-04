@@ -15126,13 +15126,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Kobenhavn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '135',
-			'county' => '',
+			'county' => '795',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -15163,6 +15163,40 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '135',
 			'county' => '795',
+			'barony' => ''
+		]);
+		//Soborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Soborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '795',
+			'barony' => ''
+		]);
+		//Soro
+		//Soro
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Soro',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '796',
+			'barony' => ''
+		]);
+		//Naestved
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Naestved',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '796',
 			'barony' => ''
 		]);
 		//Kingdom of Norway
