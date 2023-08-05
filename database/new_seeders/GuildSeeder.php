@@ -15201,6 +15201,18 @@ class GuildSeeder extends Seeder
 		]);
 		//Kingdom of Norway
 		//Nordjor
+		//Caithness
+		//Wick
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Wick',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '136',
+			'county' => '797',
+			'barony' => ''
+		]);
 		//Orkney
 		//Kirkwall
 		DB::table('guilds')->insert([
@@ -15213,14 +15225,27 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Shetland
+		//Tingwall
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Tingwall',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '136',
-			'county' => '',
+			'county' => '799',
+			'barony' => ''
+		]);
+		//Cunningsburgh
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Cunningsburgh',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '136',
+			'county' => '799',
 			'barony' => ''
 		]);
 		//Sodor
@@ -15236,14 +15261,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Mull
+		//Moy
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Moy',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '137',
-			'county' => '',
+			'county' => '802',
 			'barony' => ''
 		]);
 		//Hedmark
