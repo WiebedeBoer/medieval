@@ -4810,7 +4810,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);				
 			//277
-			//breslau, waldenburg 
+			//breslau, waldenburg, freiburg, frohlichdorf 
             DB::table('counties')->insert([
 				'county_name' => 'Breslau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -5878,7 +5878,7 @@ class CountySeeder extends Seeder
 			//Teutonic Order State
 			//Livonia
 			//339
-			//riga, lennewarden, kirchholm, dunamunde
+			//riga, lennewarden, kirchholm, dunamunde, geisthof, kramershof
             DB::table('counties')->insert([
 				'county_name' => 'Livland',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -5887,7 +5887,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Baltic',	
 				'vernacular_culture' => 'Livonian',
 				'banal_moulin' => 'Windmill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_horse_transport' => 'Charger',
@@ -5912,7 +5912,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//341
-			//dorpat, talkhof, wendau 
+			//dorpat, talkhof, wendau, kolk 
             DB::table('counties')->insert([
 				'county_name' => 'Dorpat',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -5946,7 +5946,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//343
-			//fellin, karkus
+			//fellin, karkus, tarwast
             DB::table('counties')->insert([
 				'county_name' => 'Fellin',
 				'county_category' => 'Feudal_Manor',
@@ -5963,7 +5963,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//344
-			//goldingen, talsen, frauenburg, sackenhausen, windau
+			//goldingen, talsen, frauenburg, sackenhausen, windau, kormalen
             DB::table('counties')->insert([
 				'county_name' => 'Kurland',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -6014,7 +6014,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//347
-			//wenden, wolmar, lemsal
+			//wenden, wolmar, lemsal, wainsel
             DB::table('counties')->insert([
 				'county_name' => 'Wenden',
 				'county_category' => 'Feudal_Manor',
@@ -6186,7 +6186,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//357
-			//elbing, tolkemitz, muhlhausen
+			//elbing, tolkemitz, muhlhausen, konigshagen
             DB::table('counties')->insert([
 				'county_name' => 'Pogesanengau',
 				'county_category' => 'Feudal_Manor',
@@ -6221,7 +6221,7 @@ class CountySeeder extends Seeder
             ]);
 			//Pomerelia
 			//359
-			//danzig, prust, hohenstein, oliva
+			//danzig, prust, hohenstein, oliva, kowale, wisselinke
             DB::table('counties')->insert([
 				'county_name' => 'Danzig',
 				'county_category' => 'Feudal_Manor',
@@ -6238,7 +6238,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//360
-			//butow, rummelsburg, damerkow
+			//butow, rummelsburg, damerkow, hygendorf
             DB::table('counties')->insert([
 				'county_name' => 'Butow',
 				'county_category' => 'Feudal_Manor',
@@ -6630,7 +6630,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//383
-			//stettin, prenzlow, pasewalk, kolbatz 
+			//stettin, prenzlow, pasewalk, kolbatz, mohringen, gunnitz, warsow 
             DB::table('counties')->insert([
 				'county_name' => 'Stettin',
 				'county_category' => 'Feudal_Manor',
@@ -13908,7 +13908,7 @@ class CountySeeder extends Seeder
             ]);							
 			//Hedmark (eidsivating)
 			//805
-			//granavollen, tingelstad, lunner, ulnes, hedal, lomen, slidre
+			//granavollen, tingelstad, lunner, ulnes, hedalen, lomen, slidre
             DB::table('counties')->insert([
 				'county_name' => 'Hadeland',
 				'county_category' => 'Feudal_Manor',
@@ -13937,7 +13937,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);	
@@ -13950,7 +13950,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_culture' => 'Norwegian',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
@@ -13977,7 +13977,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//809
-			//ranem, sakshaug, gangstad, snasa, maere, alstadhaug, stiklestad, orland
+			//ranem, sakshaug, gangstadhaugen, snasa, maere, alstadhaug, stiklestad, orland, viklem
             DB::table('counties')->insert([
 				'county_name' => 'Namdal',
 				'county_category' => 'Feudal_Manor',
@@ -13994,7 +13994,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//810
-			//lillehammer, lom, asnes, follebu, gausdal, ringebu, lena  
+			//lillehammer, lom, asnes, follebu, gausdal, ringebu, lena, hunn
             DB::table('counties')->insert([
 				'county_name' => 'Oppland',
 				'county_category' => 'Feudal_Manor',
@@ -14011,7 +14011,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//811
-			//trondheim, lade, orland, stoksund, haltdal, dolmoya, skaun, mebonden, vaernes 
+			//trondheim, lade, stoksund, haltdalen, dolmoya, skaun, mebonden, vaernes 
             DB::table('counties')->insert([
 				'county_name' => 'Trondelag',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -14046,7 +14046,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//813
-			//haugesund, avaldsnes, torvestad, akra 
+			//haugesund, avaldsnes, torvestad
             DB::table('counties')->insert([
 				'county_name' => 'Haugeland',
 				'county_category' => 'Feudal_Manor',
@@ -14075,8 +14075,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);	
 			//815
@@ -14127,7 +14127,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);	
@@ -14140,8 +14140,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Norse',
 				'vernacular_culture' => 'Norwegian',
-				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_horse_transport' => 'Sumpter',
@@ -14167,7 +14167,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//820
-			//veoya, aheim, borgund, orskog, rodven, vestnes, kvernes, edoya, tingvoll 
+			//veoya, aheim, borgund, orskog, rodven, vestnes, kvernes, edoy, tingvoll 
             DB::table('counties')->insert([
 				'county_name' => 'Romsdal',
 				'county_category' => 'Feudal_Manor',

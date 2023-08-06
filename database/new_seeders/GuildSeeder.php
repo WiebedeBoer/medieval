@@ -57,11 +57,12 @@ class GuildSeeder extends Seeder
 		//
 		//Arsenal:										Craft		Master_Mariner			(49)
 		//
-		//Guild_Thatcher:								Craft		Master_Thatcher			(8)
-		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(18)
-		//Guild_Miller:									Craft		Master_Miller			(33)
+		//Guild_Thatcher:								Craft		Master_Thatcher			(15)
+		//Guild_Cheesemonger:							Craft		Master_Cheesemonger		(19)
+		//Guild_Miller:									Craft		Master_Miller			(36)
 		//Guild_Fuller:									Craft		Master_Fuller			(24)
 		//Guild_Vintner:								Craft		Master_Vintner			(27)
+		//Guild_Chandler:								Craft		Master_Chandler			(17)
 		//
 		//Tiltyard:										Feast		Tournament				(475)
 		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair					(184)
@@ -5164,6 +5165,17 @@ class GuildSeeder extends Seeder
 			'county' => '277',
 			'barony' => ''
 		]);
+		//Quolsdorf
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Quolsdorf',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '39',
+			'county' => '277',
+			'barony' => ''
+		]);
 		//Brieg
 		//Brieg
 		DB::table('guilds')->insert([
@@ -6397,6 +6409,40 @@ class GuildSeeder extends Seeder
 			'county' => '339',
 			'barony' => ''
 		]);
+		//Geisthof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Geisthof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '339',
+			'barony' => ''
+		]);
+		//Kramershof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Kramershof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '339',
+			'barony' => ''
+		]);
+		//Dorpat
+		//Kolk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Kolk',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '341',
+			'barony' => ''
+		]);
 		//Kurland
 		//Windau
 		DB::table('guilds')->insert([
@@ -6524,6 +6570,18 @@ class GuildSeeder extends Seeder
 			'county' => '356',
 			'barony' => ''
 		]);
+		//Pogesanengau
+		//Konigshagen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Konigshagen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '357',
+			'barony' => ''
+		]);
 		//Samland
 		//Koningsberg
 		DB::table('guilds')->insert([
@@ -6579,12 +6637,55 @@ class GuildSeeder extends Seeder
 			'county' => '359',
 			'barony' => ''
 		]);
+		//Kowale
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Kowale',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '359',
+			'barony' => ''
+		]);
+		//Wisselinke
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Wisselinke',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '359',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '359',
+			'barony' => ''
+		]);
 		//Butow
 		//Butow
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Butow',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '360',
+			'barony' => ''
+		]);
+		//Hygendorf
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Hygendorf',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '53',
@@ -6625,6 +6726,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '53',
 			'county' => '363',
+			'barony' => ''
+		]);
+		//Lauenburg
+		//Neuendorf
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Neuendorf',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '364',
+			'barony' => ''
+		]);
+		//Vietzig
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Vietzig',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '53',
+			'county' => '364',
 			'barony' => ''
 		]);
 		//Putzig
@@ -6685,7 +6809,30 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Pomerania
+		//Kammin
+		//Dievenow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Dievenow',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '370',
+			'barony' => ''
+		]);
 		//Gollnow
+		//Massow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Massow',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '372',
+			'barony' => ''
+		]);
 		//Stepenitz
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -6695,6 +6842,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '54',
 			'county' => '372',
+			'barony' => ''
+		]);
+		//Pyritz
+		//Warnitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Warnitz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '375',
+			'barony' => ''
+		]);
+		//Prillwitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Prillwitz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '375',
 			'barony' => ''
 		]);
 		//Kessinigau
@@ -6736,6 +6906,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '376',
+			'barony' => ''
+		]);
+		//Bentwitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Bentwitz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '54',
@@ -6794,6 +6975,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Stettin',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '54',
+			'county' => '383',
+			'barony' => ''
+		]);
+		//Warsow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Warsow',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '54',
@@ -15274,6 +15466,29 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Hedmark
+		//Hadeland
+		//Granavollen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Thatchers Guild of Granavollen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '138',
+			'county' => '805',
+			'barony' => ''
+		]);
+		//Tingelstad
+		DB::table('guilds')->insert([
+			'guild_name' => 'Thatchers Guild of Tingelstad',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '138',
+			'county' => '805',
+			'barony' => ''
+		]);
 		//Hedmark
 		//Hamar
 		DB::table('guilds')->insert([
@@ -15287,16 +15502,74 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Hamar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '138',
-			'county' => '',
+			'county' => '806',
+			'barony' => ''
+		]);
+		//Romerike
+		//Sorum
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Sorum',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '138',
+			'county' => '807',
+			'barony' => ''
+		]);
+		//Lorenskog
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Lorenskog',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '138',
+			'county' => '807',
 			'barony' => ''
 		]);
 		//Oppland
+		//Namdal
+		//Viklem
+		DB::table('guilds')->insert([
+			'guild_name' => 'Thatchers Guild of Viklem',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '139',
+			'county' => '809',
+			'barony' => ''
+		]);
+		//Oppland
+		//Lillehammer
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lillehammer',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '139',
+			'county' => '810',
+			'barony' => ''
+		]);
+		//Hunn
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild of Hunn',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Cheesemonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '139',
+			'county' => '810',
+			'barony' => ''
+		]);
 		//Trondelag
 		//Trondheim
 		DB::table('guilds')->insert([
@@ -15309,14 +15582,15 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Stoksund
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_name' => 'Thatchers Guild of Stoksund',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '139',
-			'county' => '',
+			'county' => '811',
 			'barony' => ''
 		]);
 		//Rogaland
@@ -15332,14 +15606,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Jaeren
+		//Stavanger
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Stavanger',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '140',
-			'county' => '',
+			'county' => '814',
 			'barony' => ''
 		]);
 		//Sorland
@@ -15355,17 +15631,54 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Grenland
+		//Skien
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Skien',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '141',
-			'county' => '',
+			'county' => '817',
+			'barony' => ''
+		]);
+		//Telemark
+		//Eidsborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Thatchers Guild of Eidsborg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '141',
+			'county' => '818',
+			'barony' => ''
+		]);
+		//Bo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Thatchers Guild of Bo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '141',
+			'county' => '818',
 			'barony' => ''
 		]);
 		//Vestland
+		//Hordaland
+		//Odda
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Odda',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Thatcher',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '142',
+			'county' => '819',
+			'barony' => ''
+		]);
 		//Vestland
 		//Bergen
 		DB::table('guilds')->insert([
@@ -15379,7 +15692,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Bergen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -15409,6 +15722,29 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Viken
+		//Ostfold
+		//Askim
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Askim',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '143',
+			'county' => '824',
+			'barony' => ''
+		]);
+		//Trogstad
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Trogstad',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '143',
+			'county' => '824',
+			'barony' => ''
+		]);
 		//Vingulmark
 		//Oslo
 		DB::table('guilds')->insert([
