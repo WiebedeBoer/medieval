@@ -15792,13 +15792,24 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Visby',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '144',
-			'county' => '',
+			'county' => '828',
+			'barony' => ''
+		]);
+		//Hajdeby
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Hajdeby',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '144',
+			'county' => '828',
 			'barony' => ''
 		]);
 		//Norrland

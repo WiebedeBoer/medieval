@@ -14306,7 +14306,7 @@ class CountySeeder extends Seeder
 			//Sweden
 			//Gotland
 			//828
-			//visby, hemse, vasterhejde, stenkumla, havdhem, kraklingbo, hastnas, roma
+			//visby, hemse, vasterhejde, stenkumla, havdhem, kraklingbo, hajdeby, hastnas, roma
             DB::table('counties')->insert([
 				'county_name' => 'Gotland',
 				'county_category' => 'Feudal_Manor',
@@ -14319,7 +14319,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Charger',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);	
 			//829
