@@ -14512,7 +14512,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//840
-			//olofsborg, saint michel, nyslott
+			//olofsborg, saint michel
             DB::table('counties')->insert([
 				'county_name' => 'Savonia',
 				'county_category' => 'Feudal_Manor',
@@ -14557,14 +14557,14 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Swedish',
 				'banal_moulin' => 'Horse_Mill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);	
 			//843
-			//kalmar, vastervik, vaxjo, vimmerby, eksjo, ljungby, hulingsryd, hassleby, gamleby
+			//kalmar, vastervik, vaxjo, vimmerby, eksjo, ljungby, hulingsryd, hassleby, gamleby, nydala
             DB::table('counties')->insert([
 				'county_name' => 'Smaland',
 				'county_category' => 'Feudal_Manor',
@@ -14576,8 +14576,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);				
 			//Svealand

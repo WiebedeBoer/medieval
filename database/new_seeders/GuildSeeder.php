@@ -15851,16 +15851,84 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Turku',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '146',
-			'county' => '',
+			'county' => '835',
+			'barony' => ''
+		]);
+		//Karelia
+		//Viborg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Viborg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '146',
+			'county' => '836',
+			'barony' => ''
+		]);
+		//Kexholm
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Kexholm',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '146',
+			'county' => '836',
+			'barony' => ''
+		]);
+		//Savonia
+		//Saint Michel
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '146',
+			'county' => '840',
 			'barony' => ''
 		]);
 		//Smaland
+		//Oland
+		//Ottenby
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Oland',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '147',
+			'county' => '842',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Ottenby',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '147',
+			'county' => '842',
+			'barony' => ''
+		]);
+		//Halltorp
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Oland',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '147',
+			'county' => '842',
+			'barony' => ''
+		]);
 		//Smaland
 		//Kalmar
 		DB::table('guilds')->insert([
@@ -15874,16 +15942,40 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Kalmar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '147',
-			'county' => '',
+			'county' => '843',
 			'barony' => ''
 		]);
 		//Svealand
+		//Dalarna
+		//Avesta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Avesta',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '844',
+			'barony' => ''
+		]);
+		//Narke
+		//Kumla
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Kumla',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '845',
+			'barony' => ''
+		]);
 		//Sodermanland
 		//Stockholm
 		DB::table('guilds')->insert([
