@@ -15989,16 +15989,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '148',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'Mariners Guild of Stockholm',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
@@ -16006,6 +15996,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '148',
 			'county' => '846',
+			'barony' => ''
+		]);
+		//Osby
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild of Osby',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Cheesemonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '846',
+			'barony' => ''
+		]);
+		//Vastmanland
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '',
 			'barony' => ''
 		]);
 		//Crown of Poland

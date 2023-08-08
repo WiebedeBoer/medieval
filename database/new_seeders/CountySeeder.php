@@ -14625,7 +14625,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Norse',	
 				'vernacular_culture' => 'Swedish',
 				'banal_moulin' => 'Windmill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Hemp',						
 				'marke_horse_transport' => 'Affer',
