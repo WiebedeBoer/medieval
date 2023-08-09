@@ -16009,16 +16009,50 @@ class GuildSeeder extends Seeder
 			'county' => '846',
 			'barony' => ''
 		]);
-		//Vastmanland
-		//
+		//Uppland
+		//Riksby
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Millers Guild of Riksby',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '847',
+			'barony' => ''
+		]);
+		//Stockby
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Stockby',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '847',
+			'barony' => ''
+		]);
+		//Vastmanland
+		//Arboga
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Arboga',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',
-			'county' => '',
+			'county' => '849',
+			'barony' => ''
+		]);
+		//Vasteras
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Vasteras',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '849',
 			'barony' => ''
 		]);
 		//Crown of Poland
