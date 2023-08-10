@@ -16058,26 +16058,74 @@ class GuildSeeder extends Seeder
 		//Crown of Poland
 		//Kingdom of Poland
 		//Greater Poland
-		//
-		//
+		//Gostyn
+		//Gostyn
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Gostyn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '149',
+			'county' => '850',
+			'barony' => ''
+		]);
+		//Rawitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Rawitz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '149',
+			'county' => '850',
+			'barony' => ''
+		]);
+		//Grodisze
+		//Grodisze
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Grodisze',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '149',
+			'county' => '851',
+			'barony' => ''
+		]);
+		//Wollstein
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Wollstein',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '149',
+			'county' => '851',
+			'barony' => ''
+		]);
+		//Kosten
+		//Kosten
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Kosten',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '149',
+			'county' => '853',
+			'barony' => ''
+		]);
+		//Lissa
+		//Lissa
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Greater Poland',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '149',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '149',
-			'county' => '',
 			'barony' => ''
 		]);
 		//Lesser Poland
