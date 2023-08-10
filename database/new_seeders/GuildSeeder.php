@@ -49,9 +49,9 @@ class GuildSeeder extends Seeder
 		//Guild_Potter:									Craft		Master_Potter			(57)
 		//Guild_Silk:									Craft		Master_Silk_Weaver		(32)
 		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron		(9)
-		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder		(6)
+		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder		(7)
 		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad		(1)
-		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes		(2)
+		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes		(13)
 		//Guild_Dyer_Indigo:							Craft		Master_Dyer_Indigo		()
 		//Guild_Perfume_Incense:						Craft		Master_Perfumer_Incense	(2)
 		//
@@ -1522,6 +1522,16 @@ class GuildSeeder extends Seeder
 			'county' => '73',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Julich',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '9',
+			'county' => '73',
+			'barony' => ''
+		]);
 		//Duren
 		DB::table('guilds')->insert([
 			'guild_name' => 'Potters Guild of Duren',
@@ -1538,6 +1548,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Aachen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '9',
+			'county' => '73',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Aachen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '9',
@@ -16940,10 +16960,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Agrigento
-		//
-		//
+		//Agrigento
+		//Agrigento
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Agrigento',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -16953,13 +16973,23 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Agrigento',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '178',
 			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Agrigento',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '178',
+			'county' => '989',
 			'barony' => ''
 		]);
 		//Catania
@@ -17034,6 +17064,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Siracusa',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '180',
+			'county' => '995',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Siracusa',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '180',
@@ -17447,12 +17487,22 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Cagliari
-		//
-		//
+		//Cagliari
+		//Cagliari
 		DB::table('guilds')->insert([
 			'guild_name' => '',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '193',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Cagliari',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '193',
@@ -19061,7 +19111,7 @@ class GuildSeeder extends Seeder
 		//
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Arcos',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19084,7 +19134,7 @@ class GuildSeeder extends Seeder
 		//
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Carmona',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19103,7 +19153,43 @@ class GuildSeeder extends Seeder
 			'county' => '',
 			'barony' => ''
 		]);
+		//Ecija
+		//Ecija
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Ecija',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
 		//Cordoba
+		//Andujar
+		//Andujar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Andujar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Carpio
+		//Carpio
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Carpio',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
 		//Cordoba
 		//Cordoba
 		DB::table('guilds')->insert([
@@ -19351,11 +19437,23 @@ class GuildSeeder extends Seeder
 			'county' => '',
 			'barony' => ''
 		]);
-		//Badajoz
-		//
-		//
+		//Silves
+		//Silves
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Dyers Guild of Silves',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Badajoz
+		//Badajoz
+		//Badajoz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Badajoz',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19374,11 +19472,45 @@ class GuildSeeder extends Seeder
 			'county' => '',
 			'barony' => ''
 		]);
-		//Huelva
-		//
-		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Dyers Guild of Badajoz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Evora
+		//Evora
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Evora',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Merida
+		//Merida
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Merida',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Huelva
+		//Huelva
+		//Huelva
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Huelva',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19391,6 +19523,28 @@ class GuildSeeder extends Seeder
 			'guild_name' => '',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Huelva',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Niebla
+		//Niebla
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Niebla',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
