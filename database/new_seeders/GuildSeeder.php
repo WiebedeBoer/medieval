@@ -2350,6 +2350,16 @@ class GuildSeeder extends Seeder
 			'county' => '121',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Erfurt',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '121',
+			'barony' => ''
+		]);
 		//Weimar
 		DB::table('guilds')->insert([
 			'guild_name' => 'Curriers Guild of Weimar',
@@ -2359,6 +2369,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '16',
 			'county' => '121',
+			'barony' => ''
+		]);
+		//Eisenach
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Eisenach',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '121',
+			'barony' => ''
+		]);
+		//Altgau
+		//Gruessen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Gruessen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '122',
 			'barony' => ''
 		]);
 		//Eichsfeld
@@ -2373,12 +2406,44 @@ class GuildSeeder extends Seeder
 			'county' => '123',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Muhlhausen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '123',
+			'barony' => ''
+		]);
+		//Helmegau
+		//Nordhausen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Nordhausen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '124',
+			'barony' => ''
+		]);
 		//Langwitzgau
 		//Arnstadt
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '125',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Arnstadt',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '16',
@@ -2408,12 +2473,45 @@ class GuildSeeder extends Seeder
 			'county' => '126',
 			'barony' => ''
 		]);
+		//Frankenhausen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Frankenhausen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '126',
+			'barony' => ''
+		]);
+		//Orlagau
+		//Rudolstadt
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Rudolstadt',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '127',
+			'barony' => ''
+		]);
 		//Ostergau
 		//Naumburg
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Naumburg',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '128',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Naumburg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '16',
@@ -2436,6 +2534,27 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'University of Zwickau',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '129',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Zwickau',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '129',
+			'barony' => ''
+		]);
+		//Plauen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Plauen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '16',
@@ -3707,11 +3826,32 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Susa
+		//Susa
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Susa',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '24',
+			'county' => '207',
+			'barony' => ''
+		]);
 		//Novalesa
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '24',
+			'county' => '207',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Novalesa',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '24',
@@ -3750,12 +3890,33 @@ class GuildSeeder extends Seeder
 			'county' => '208',
 			'barony' => ''
 		]);
+		//Chieri
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Chieri',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '24',
+			'county' => '208',
+			'barony' => ''
+		]);
 		//Vercelli
 		//Vercelli
 		DB::table('guilds')->insert([
 			'guild_name' => 'University of Vercelli',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '24',
+			'county' => '209',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Vercelli',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '24',
