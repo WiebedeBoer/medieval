@@ -23,7 +23,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => '',				//Watermill (121), Windmill (139), Horse_Mill (1097) = 1346
 				'banal_pressoir' => '',				//Beverage_Wine (198), Beverage_Cider (82), Beverage_Elder (15), Beverage_Hops (16), Beverage_Gruit (123), Olive_Oil (7), Sweetener_Honey (186), Sweetener_Sugarcane (25), Sweetener_Date (44), None (656) = 1346
 				'banal_chasse' => '',				//Falconry (9), Deer (50), Boar (31), Fur (6), None (1250) = 1346
-				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (29), Dye_Madder (5), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (12), None (1081) = 1346
+				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (30), Dye_Madder (6), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (13), None (1081) = 1346
 				'marke_horse_transport' => '',		//Charger (308), Palfrey (404), Affer (337), Sumpter (303) = 1346
 				'marke_animal_husbandry' => '',		//Cattle (499), Sheep (335), Pigs (356), Goats (156) = 1346
 				'marke_poultry' => '',				//Chickens (1193), Ducks (154) = 1346
@@ -1928,7 +1928,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//109
-			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel, rotteln
+			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel, rotteln, staufen
             DB::table('counties')->insert([
 				'county_name' => 'Breisgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -11049,7 +11049,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
-				'marke_crops' => 'Dye_Saffron',						
+				'marke_crops' => 'Dye_Kermes',						
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -20488,7 +20488,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Woad',						
 				'marke_horse_transport' => 'Palfrey',
@@ -20505,7 +20505,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_horse_transport' => 'Palfrey',
@@ -20540,7 +20540,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_horse_transport' => 'Palfrey',
@@ -20548,9 +20548,9 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//
-			//carolina
+			//linares
             DB::table('counties')->insert([
-				'county_name' => 'Carolina',
+				'county_name' => 'Morena',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Sunni',
@@ -20789,7 +20789,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Sevilla
 			//
-			//gines, gelves, olivares, pilas, tomares, san isidore
+			//albaida, gines, gelves, olivares, pilas, tomares, san isidore
             DB::table('counties')->insert([
 				'county_name' => 'Aljarafe',
 				'county_category' => 'Feudal_Manor',
@@ -20798,7 +20798,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',	
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Olive_Oil',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',						
 				'marke_horse_transport' => 'Palfrey',
