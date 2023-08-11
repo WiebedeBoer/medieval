@@ -4913,6 +4913,40 @@ class GuildSeeder extends Seeder
 			'county' => '259',
 			'barony' => ''
 		]);
+		//Grossenhain
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Grossenhain',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '36',
+			'county' => '259',
+			'barony' => ''
+		]);
+		//Milzenigau
+		//Hoyerswerda
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Hoyerswerda',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '36',
+			'county' => '260',
+			'barony' => ''
+		]);
+		//Bautzen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Bautzen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '36',
+			'county' => '260',
+			'barony' => ''
+		]);
 		//Nisangau
 		//Leipzig
 		DB::table('guilds')->insert([

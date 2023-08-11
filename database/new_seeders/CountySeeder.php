@@ -4501,7 +4501,7 @@ class CountySeeder extends Seeder
             ]);
 			//Lusatia
 			//259
-			//meissen, seusslitz
+			//meissen, seusslitz, grossenhain
             DB::table('counties')->insert([
 				'county_name' => 'Meissengau',
 				'county_category' => 'Feudal_Manor',
@@ -4509,7 +4509,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sorbia',	
 				'vernacular_culture' => 'Silesian',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Dye_Woad',						
