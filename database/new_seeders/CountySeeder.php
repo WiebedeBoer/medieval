@@ -4157,7 +4157,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Pisa
 			//239
-			//pisa, cascina, castelfranco, san giuliano, pontedera, vecchiano 
+			//pisa, cascina, zambra, castelfranco, san giuliano, pontedera, vecchiano 
             DB::table('counties')->insert([
 				'county_name' => 'Pisa',
 				'county_category' => 'Patrician_Manor',
@@ -7593,7 +7593,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);	
 			//439
-			//troyes, clairvaux
+			//troyes, clairvaux, saint bernard, fraville, longchamp
             DB::table('counties')->insert([
 				'county_name' => 'Troyes',
 				'county_category' => 'Feudal_Manor',
@@ -7605,8 +7605,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);	
 			//Francia
@@ -7628,7 +7628,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);	
 			//441
-			//beauvais, goincourt, gerberoy
+			//beauvais, goincourt, gerberoy, fouquenies
             DB::table('counties')->insert([
 				'county_name' => 'Beauvaisis',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -8397,7 +8397,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//486
-			//thouars, fontenay, montaigu, talmont
+			//thouars, fontenay, montaigu, talmont, buffon, saint remy
             DB::table('counties')->insert([
 				'county_name' => 'Thouarsais',
 				'county_category' => 'Feudal_Manor',
@@ -8409,7 +8409,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);	
@@ -10016,7 +10016,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//580
-			//york, beverley, bridlington, bolton, coverham, fountains, cayton, ripon, selby, whitby, pontefract, helmsley, scarborough
+			//york, beverley, bridlington, bolton, coverham, fountains, cayton, ripon, selby, whitby, pontefract, helmsley, rievaulx, laskill, scarborough
             DB::table('counties')->insert([
 				'county_name' => 'Yorkshire',
 				'county_category' => 'Feudal_Manor',
