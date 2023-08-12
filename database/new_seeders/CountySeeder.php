@@ -3673,7 +3673,7 @@ class CountySeeder extends Seeder
             ]);	
 			//Tuscany
 			//211
-			//siena, monteriggioni, san galgano, corsignano, monte oliveto, gaiole, castellina, cuna
+			//siena, monteriggioni, san galgano, corsignano, monte oliveto, gaiole, castellina, cuna, frosini, san salvatore, santa anna, san pietro
             DB::table('counties')->insert([
 				'county_name' => 'Siena',
 				'county_category' => 'Feudal_Manor',
@@ -7601,7 +7601,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
@@ -8405,7 +8405,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Frankish',
-				'banal_moulin' => 'Windmill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -9982,7 +9982,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//578
-			//lancaster, clitheroe, sawley, whalley
+			//lancaster, clitheroe, sawley, whalley, marland
             DB::table('counties')->insert([
 				'county_name' => 'Lancashire',
 				'county_category' => 'Feudal_Manor',
@@ -9994,7 +9994,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);	
@@ -10024,7 +10024,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Britain',		
 				'vernacular_culture' => 'English',
-				'banal_moulin' => 'Windmill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Perfume_Lavender',						
@@ -14582,7 +14582,7 @@ class CountySeeder extends Seeder
             ]);				
 			//Svealand
 			//844
-			//hedemora, avesta
+			//hedemora, avesta, falun, korsgard
             DB::table('counties')->insert([
 				'county_name' => 'Dalarna',
 				'county_category' => 'Feudal_Manor',
@@ -14594,8 +14594,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Fiber_Hemp',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);	
 			//845
@@ -14667,7 +14667,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//849
-			//arboga, norberg, skinnsackeberg, lindesberg, vasteras
+			//arboga, norberg, bogard, skinnsackeberg, lindesberg, vasteras, vanstagard, vallstagard
             DB::table('counties')->insert([
 				'county_name' => 'Vastmanland',
 				'county_category' => 'Feudal_Manor',

@@ -4148,6 +4148,16 @@ class GuildSeeder extends Seeder
 			'county' => '211',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Siena',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '25',
+			'county' => '211',
+			'barony' => ''
+		]);
 		//Corsignano
 		DB::table('guilds')->insert([
 			'guild_name' => 'Dyers Guild of Corsignano',
@@ -4164,6 +4174,39 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Vintners Guild of Cuna',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '25',
+			'county' => '211',
+			'barony' => ''
+		]);
+		//Frosini
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Frosini',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '25',
+			'county' => '211',
+			'barony' => ''
+		]);
+		//Santa Anna
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Santa Anna',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '25',
+			'county' => '211',
+			'barony' => ''
+		]);
+		//San Pietro
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of San Pietro',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '25',
@@ -12840,6 +12883,17 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Lancashire
+		//Lancaster
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lancaster',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '578',
+			'barony' => ''
+		]);
 		//Clitheroe
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Lancashire',
@@ -12856,6 +12910,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Forest of Lancashire',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '578',
+			'barony' => ''
+		]);
+		//Marland
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Marland',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '85',
@@ -17625,11 +17690,33 @@ class GuildSeeder extends Seeder
 		]);
 		//Svealand
 		//Dalarna
+		//Hedomora
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Hedomora',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '844',
+			'barony' => ''
+		]);
 		//Avesta
 		DB::table('guilds')->insert([
 			'guild_name' => 'Cutlers Guild of Avesta',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '844',
+			'barony' => ''
+		]);
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Korsgard',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',
@@ -17716,11 +17803,44 @@ class GuildSeeder extends Seeder
 			'county' => '849',
 			'barony' => ''
 		]);
+		//Bogard
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Bogard',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '849',
+			'barony' => ''
+		]);
 		//Vasteras
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Vasteras',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '849',
+			'barony' => ''
+		]);
+		//Vanstagard
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Vanstagard',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '849',
+			'barony' => ''
+		]);
+		//Vanstagard
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Vallstagard',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',
