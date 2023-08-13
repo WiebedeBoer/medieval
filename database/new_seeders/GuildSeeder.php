@@ -65,7 +65,7 @@ class GuildSeeder extends Seeder
 		//Guild_Fuller:									Craft		Master_Fuller				(25)
 		//Guild_Vintner:								Craft		Master_Vintner				(27)
 		//Guild_Chandler:								Craft		Master_Chandler				(20)
-		//Guild_Ironworks:								Craft		Master_Ironmonger			(3)
+		//Guild_Ironworks:								Craft		Master_Ironmonger			(20)
 		//
 		//Tiltyard:										Feast		Tournament					(492)
 		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair						(188)
@@ -2004,6 +2004,16 @@ class GuildSeeder extends Seeder
 			'county' => '102',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Innsbruck',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '14',
+			'county' => '102',
+			'barony' => ''
+		]);
 		//Kufstein
 		DB::table('guilds')->insert([
 			'guild_name' => 'Cutlers Guild of Kufstein',
@@ -2015,11 +2025,43 @@ class GuildSeeder extends Seeder
 			'county' => '102',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Kufstein',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '14',
+			'county' => '102',
+			'barony' => ''
+		]);
 		//Muhlau
 		DB::table('guilds')->insert([
 			'guild_name' => 'Cutlers Guild of Muhlau',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '14',
+			'county' => '102',
+			'barony' => ''
+		]);
+		//Pfaffenhof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Pfaffenhof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '14',
+			'county' => '102',
+			'barony' => ''
+		]);
+		//Oberhof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Oberhof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '14',
@@ -2569,6 +2611,27 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Dyers Guild of Plauen',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '129',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Plauen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '16',
+			'county' => '129',
+			'barony' => ''
+		]);
+		//Erlahammer
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Erlahammer',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '16',
@@ -3609,9 +3672,52 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Milano',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '23',
+			'county' => '183',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
 			'guild_name' => 'Cutlers Guild of Milano',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '23',
+			'county' => '183',
+			'barony' => ''
+		]);
+		//Como
+		DB::table('guilds')->insert([
+			'guild_name' => 'Silk Weavers Guild of Como',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Silk_Weaver',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '23',
+			'county' => '183',
+			'barony' => ''
+		]);
+		//San Arialdo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of San Arialdo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '23',
+			'county' => '183',
+			'barony' => ''
+		]);
+		//Santa Brera
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Santa Brera',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '23',
@@ -3819,7 +3925,7 @@ class GuildSeeder extends Seeder
 		//Alba
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Alba',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3841,7 +3947,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Asti',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3853,7 +3959,7 @@ class GuildSeeder extends Seeder
 		//San Dalmazzo
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of San Dalmazzo',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3865,7 +3971,7 @@ class GuildSeeder extends Seeder
 		//Canavese
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Canavese',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3876,7 +3982,7 @@ class GuildSeeder extends Seeder
 		//Ivrea
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Ivrea',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3888,7 +3994,7 @@ class GuildSeeder extends Seeder
 		//Casale
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Casale',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3910,7 +4016,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Cuneo',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3921,7 +4027,7 @@ class GuildSeeder extends Seeder
 		//Saluzzo
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Saluzzo',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3933,7 +4039,7 @@ class GuildSeeder extends Seeder
 		//Alessandria
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Alessandria',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3944,7 +4050,7 @@ class GuildSeeder extends Seeder
 		//Acqui
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Acqui',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -3956,7 +4062,7 @@ class GuildSeeder extends Seeder
 		//Pragelato
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Pragelato',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4086,7 +4192,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Vigevano',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4227,7 +4333,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Grosseto',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4250,7 +4356,7 @@ class GuildSeeder extends Seeder
 		//Piombino
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Piombino',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4262,7 +4368,7 @@ class GuildSeeder extends Seeder
 		//Sovana
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Sovana',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4273,7 +4379,7 @@ class GuildSeeder extends Seeder
 		//Sorano
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Sorano',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4693,7 +4799,7 @@ class GuildSeeder extends Seeder
 		//Luni
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Luni',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4716,7 +4822,7 @@ class GuildSeeder extends Seeder
 		//Massa
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Massa',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4749,7 +4855,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Noli',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4783,7 +4889,7 @@ class GuildSeeder extends Seeder
 		//Albenga
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Albenga',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4795,7 +4901,7 @@ class GuildSeeder extends Seeder
 		//Finale
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Finale',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4818,7 +4924,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Oneglia',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4830,7 +4936,7 @@ class GuildSeeder extends Seeder
 		//Monaco
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Monaco',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4852,7 +4958,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Ventimiglia',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -4992,7 +5098,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Curriers Guild of Pisa',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Tanner',
 			'empire' => null,
 			'kingdom' => null,
@@ -5013,7 +5119,7 @@ class GuildSeeder extends Seeder
 		//Cascina
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Cascina',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5024,7 +5130,7 @@ class GuildSeeder extends Seeder
 		//Zambra
 		DB::table('guilds')->insert([
 			'guild_name' => 'Cheesemongers Guild of Zambra',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Cheesemonger',
 			'empire' => null,
 			'kingdom' => null,
@@ -5047,7 +5153,7 @@ class GuildSeeder extends Seeder
 		//Corte
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Corte',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5058,7 +5164,7 @@ class GuildSeeder extends Seeder
 		//Aleria
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Aleria',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5069,7 +5175,7 @@ class GuildSeeder extends Seeder
 		//Ajaccio
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Ajaccio',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5103,7 +5209,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Riparbella',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5115,7 +5221,7 @@ class GuildSeeder extends Seeder
 		//Volterra
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Volterra',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5213,7 +5319,7 @@ class GuildSeeder extends Seeder
 		//Belluno
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Belluno',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5224,7 +5330,7 @@ class GuildSeeder extends Seeder
 		//Feltre
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Feltre',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5235,7 +5341,7 @@ class GuildSeeder extends Seeder
 		//Sedico
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Sedico',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -5257,7 +5363,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Treviso',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6094,7 +6200,7 @@ class GuildSeeder extends Seeder
 		//Macon
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Macon',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6346,6 +6452,17 @@ class GuildSeeder extends Seeder
 			'county' => '303',
 			'barony' => ''
 		]);
+		//Neuenhof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cheesemongers Guild of Neuenhof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Cheesemonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '42',
+			'county' => '303',
+			'barony' => ''
+		]);
 		//Bargenais
 		//Solothurn
 		DB::table('guilds')->insert([
@@ -6368,6 +6485,62 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '42',
 			'county' => '305',
+			'barony' => ''
+		]);
+		//Vaudenais
+		//Neuchatel
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Neuchatel',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '42',
+			'county' => '307',
+			'barony' => ''
+		]);
+		//Yverdon
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Yverdon',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '42',
+			'county' => '307',
+			'barony' => ''
+		]);
+		//Envi
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Envi',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '42',
+			'county' => '307',
+			'barony' => ''
+		]);
+		//Pailly
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Pailly',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '42',
+			'county' => '307',
+			'barony' => ''
+		]);
+		//Peney
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Peney',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '42',
+			'county' => '307',
 			'barony' => ''
 		]);
 		//Orange
@@ -6397,7 +6570,7 @@ class GuildSeeder extends Seeder
 		//Venasque
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Venasque',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6418,7 +6591,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Avignon',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6429,7 +6602,7 @@ class GuildSeeder extends Seeder
 		//Carpentras
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Carpentras',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6440,7 +6613,7 @@ class GuildSeeder extends Seeder
 		//Cavaillon
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Cavaillon',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6451,7 +6624,7 @@ class GuildSeeder extends Seeder
 		//Sorgue
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Sorgue',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6615,7 +6788,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Baux',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6659,7 +6832,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Nice',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6714,7 +6887,7 @@ class GuildSeeder extends Seeder
 		//Vence
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Vence',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6725,7 +6898,7 @@ class GuildSeeder extends Seeder
 		//Glandeves
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Glandeves',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6757,7 +6930,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Frejus',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -6779,7 +6952,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Toulon',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -8924,7 +9097,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Troyes',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -8945,7 +9118,7 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Clairvaux',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -8956,7 +9129,7 @@ class GuildSeeder extends Seeder
 		//Saint Bernard
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forge of Saint Bernard',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
@@ -8967,7 +9140,7 @@ class GuildSeeder extends Seeder
 		//Fraville
 		DB::table('guilds')->insert([
 			'guild_name' => 'Millers Guild of Fraville',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
@@ -9055,7 +9228,7 @@ class GuildSeeder extends Seeder
 		//Gerberoy
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Gerberoy',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
 			'empire' => null,
 			'kingdom' => null,
@@ -9066,7 +9239,7 @@ class GuildSeeder extends Seeder
 		//Fouquenies
 		DB::table('guilds')->insert([
 			'guild_name' => 'Millers Guild of Fouquenies',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
@@ -9431,11 +9604,32 @@ class GuildSeeder extends Seeder
 			'county' => '453',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Alencon',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => '453',
+			'barony' => ''
+		]);
 		//Argentan
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Argentan',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => '453',
+			'barony' => ''
+		]);
+		//Sarceaux
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Sarceaux',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '65',
@@ -10439,7 +10633,7 @@ class GuildSeeder extends Seeder
 		//Buffon
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forge of Buffon',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
@@ -11047,6 +11241,38 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Nantes',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '510',
+			'barony' => ''
+		]);
+		//Chateaubriant
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Chateaubriant',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '510',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Chateaubriant',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '72',
+			'county' => '510',
+			'barony' => ''
+		]);
+		//Juigne
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Juigne',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '72',
@@ -13050,7 +13276,7 @@ class GuildSeeder extends Seeder
 		//Laskill
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forge of Laskill',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
@@ -14959,6 +15185,17 @@ class GuildSeeder extends Seeder
 			'county' => '653',
 			'barony' => ''
 		]);
+		//Santa Maria
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Santa Maria',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '102',
+			'county' => '653',
+			'barony' => ''
+		]);
 		//Rosello
 		//Perpignan
 		DB::table('guilds')->insert([
@@ -15827,7 +16064,7 @@ class GuildSeeder extends Seeder
 		//Coleme
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fullers Guild of Coleme',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Fuller',
 			'empire' => null,
 			'kingdom' => null,
@@ -15905,7 +16142,7 @@ class GuildSeeder extends Seeder
 		//Albergue
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fullers Guild of Albergue',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Fuller',
 			'empire' => null,
 			'kingdom' => null,
@@ -17712,10 +17949,10 @@ class GuildSeeder extends Seeder
 			'county' => '844',
 			'barony' => ''
 		]);
-		//
+		//Korsgard
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forge of Korsgard',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
@@ -19422,7 +19659,7 @@ class GuildSeeder extends Seeder
 		//Heroic
 		DB::table('guilds')->insert([
 			'guild_name' => 'Millers Guild of Heroic',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
@@ -19760,7 +19997,7 @@ class GuildSeeder extends Seeder
 		//Makrini
 		DB::table('guilds')->insert([
 			'guild_name' => 'Vintners Guild of Makrini',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
@@ -21328,7 +21565,7 @@ class GuildSeeder extends Seeder
 		//San Luis
 		DB::table('guilds')->insert([
 			'guild_name' => 'Millers Guild of San Luis',
-			'guild_category' => 'Feast',
+			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,

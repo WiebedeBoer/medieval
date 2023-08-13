@@ -1791,7 +1791,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//101
-			//sankt george, sankt margarethen, moosham
+			//sankt george, sankt margarethen, moosham, hochosterwitz
             DB::table('counties')->insert([
 				'county_name' => 'Attergau',
 				'county_category' => 'Feudal_Manor',
@@ -1808,7 +1808,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);			
 			//102
-			//innsbruck, kufstein, admont, muhlau
+			//innsbruck, kufstein, admont, muhlau, stams, pfaffenhof, oberhof
             DB::table('counties')->insert([
 				'county_name' => 'Ennstal',
 				'county_category' => 'Feudal_Manor',
@@ -1820,7 +1820,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Elder',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);	
@@ -2269,7 +2269,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//129
-			//zwickau, plauen
+			//zwickau, plauen, schwarzenberg, erlahammer
             DB::table('counties')->insert([
 				'county_name' => 'Zwickaugau',
 				'county_category' => 'Feudal_Manor',
@@ -2281,7 +2281,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'Dye_Woad',						
-				'marke_horse_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);				
@@ -3195,7 +3195,7 @@ class CountySeeder extends Seeder
 			//Lombardy
 			//Milano
 			//183
-			//milano, monza, lecco, garegnano, morimondo, piona, como, torba, san giuliano
+			//milano, monza, lecco, garegnano, morimondo, piona, como, torba, san giuliano, chiaravalle, san arialdo, marcallo, santa brera
             DB::table('counties')->insert([
 				'county_name' => 'Milano',
 				'county_category' => 'Feudal_Manor',
@@ -5256,7 +5256,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//303
-			//habsburg, aarau, bern, lucerne, muri
+			//habsburg, aarau, bern, lucerne, muri, wettingen, neuenhof, lucelle, sankt urban, arwangen, langenstein
             DB::table('counties')->insert([
 				'county_name' => 'Aargau',
 				'county_category' => 'Feudal_Manor',
@@ -5264,7 +5264,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_High_German',	
 				'vernacular_culture' => 'Swabian',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
@@ -5324,7 +5324,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//307
-			//neuchatel, yverdon
+			//neuchatel, yverdon, morges, sankt roman, envi, motheron, pailly, peney, hautcret
             DB::table('counties')->insert([
 				'county_name' => 'Vaudenais',
 				'county_category' => 'Feudal_Manor',
@@ -5332,11 +5332,11 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_France',	
 				'vernacular_culture' => 'Arpitan',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);		
@@ -7816,7 +7816,7 @@ class CountySeeder extends Seeder
             ]);
 			//Normandy
 			//452
-			//rouen, harcourt, jumieges, heurteauville, saint saens, meslay, saint martin, saint philbert, brionne
+			//rouen, harcourt, jumieges, heurteauville, saint saens, meslay, saint martin, saint philbert, brionne, wandrille, saint pierre
             DB::table('counties')->insert([
 				'county_name' => 'Roumois',
 				'county_category' => 'Feudal_Manor',
@@ -7833,7 +7833,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);	
 			//453
-			//alencon, argentan, sees
+			//alencon, argentan, sees, sarceaux
             DB::table('counties')->insert([
 				'county_name' => 'Alencon',
 				'county_category' => 'Feudal_Manor',
@@ -8810,7 +8810,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//510
-			//nantes, guerande
+			//nantes, guerande, chateaubriant, juigne
             DB::table('counties')->insert([
 				'county_name' => 'Nantais',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -11278,7 +11278,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//653
-			//ripoll, besalu, san joan, camprodon, olot
+			//ripoll, besalu, san joan, camprodon, olot, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Ripolles',
 				'county_category' => 'Feudal_Manor',
@@ -11290,7 +11290,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Perfume_Lavender',						
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);	
@@ -11330,7 +11330,7 @@ class CountySeeder extends Seeder
             ]);
 			//Huesca
 			//656
-			//huesca, loarre, montearagon
+			//huesca, loarre, montearagon, casbas
             DB::table('counties')->insert([
 				'county_name' => 'Huesca',
 				'county_category' => 'Feudal_Manor',
@@ -11468,7 +11468,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//664
-			//tarragona, poblet
+			//tarragona, poblet, barbera, sarral
             DB::table('counties')->insert([
 				'county_name' => 'Tarragona',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -11477,7 +11477,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Aragon',	
 				'vernacular_culture' => 'Catalan',
 				'banal_moulin' => 'Horse_Mill',				
-				'banal_pressoir' => 'None',				
+				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
 				'marke_horse_transport' => 'Charger',
@@ -11572,7 +11572,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//670
-			//zaragoza, tarazona
+			//zaragoza, tarazona, rueda
             DB::table('counties')->insert([
 				'county_name' => 'Zaragoza',
 				'county_category' => 'Feudal_Manor',
@@ -20414,7 +20414,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//
-			//cordoba, azahara, balma, santa cruz
+			//cordoba, azahara, balma, santa cruz, bujalance
             DB::table('counties')->insert([
 				'county_name' => 'Cordoba',
 				'county_category' => 'Feudal_Manor',
