@@ -3914,7 +3914,7 @@ class DuchySeeder extends Seeder
 			//Syria
 			//Damascus
 			//
-			//Damascus,
+			//Damascus, Qalamoun, Jayrud, Dumayr, Suada
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damascus',
 				'duchy_category' => 'Feudal_Estate',
@@ -3940,7 +3940,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);	
 			//
-			//Homs,
+			//Homs, Tripoli, Beirut, Sidon, Tyre
             DB::table('duchies')->insert([
 				'duchy_name' => 'Homs',
 				'duchy_category' => 'Feudal_Estate',
@@ -4112,7 +4112,20 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'				
-            ]);				
+            ]);
+			//
+			//Tiberias, Banias, Haifa 
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Galilee',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '60',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Mediterranean_Woodland',	
+				'transport' => 'Donkey_Train',
+				'altitude' => 'Montane'				
+            ]);
 			//Hejaz
 			//
 			//Mecca, Jeddah, Taif
@@ -4290,7 +4303,7 @@ class DuchySeeder extends Seeder
 			//Seljuk
 			//Kwarezm
 			//
-			//Gurganj,
+			//Gurganj, Khorezm
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gurganj',
 				'duchy_category' => 'Feudal_Estate',
@@ -4303,9 +4316,22 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'				
             ]);
 			//
-			//Khiva,
+			//Khiva, Durghan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khiva',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '',	
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Persian',
+				'law_court' => 'Palatial',	
+				'vegetation' => 'Desert_Oasis',	
+				'transport' => 'Camel_Caravan',
+				'altitude' => 'Montane'				
+            ]);
+			//
+			//Merv, Sarakhs, Bereket
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Merv',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',	
 				'law_succession' => 'Shura',

@@ -1104,7 +1104,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//61
-			//elburg, harderwick, barnefeld, scherpenzeel, koldenhof, hall
+			//elburg, harderwick, barnefeld, scherpenzeel, koldenhof, hall, woest hoef
             DB::table('counties')->insert([
 				'county_name' => 'Veluwe',
 				'county_category' => 'Feudal_Manor',
@@ -1258,7 +1258,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//70
-			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst, lochem, zeddam, wychen
+			//zutphen, deventer, doetinchem, doesburg, camphuysen, bronkhorst, spaansweerd, lochem, zeddam, wychen
             DB::table('counties')->insert([
 				'county_name' => 'Hamaland',
 				'county_category' => 'Feudal_Manor',
@@ -12265,7 +12265,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//710
-			//toledo, montalban, guadamur, consuegra, cuerva, malamoneda, mascaraque, orgaz, guadalerzas 
+			//toledo, montalban, guadamur, consuegra, cuerva, malamoneda, mascaraque, orgaz, guadalerzas, bargas, santa clara, almonacid, minaya, burguillos 
             DB::table('counties')->insert([
 				'county_name' => 'Toledo',
 				'county_category' => 'Feudal_Manor',
@@ -12273,11 +12273,11 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Castile',	
 				'vernacular_culture' => 'Castillian',
-				'banal_moulin' => 'Windmill',				
+				'banal_moulin' => 'Watermill',				
 				'banal_pressoir' => 'Beverage_Wine',				
 				'banal_chasse' => 'Deer',						
 				'marke_crops' => 'Dye_Saffron',						
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);	
@@ -14773,9 +14773,9 @@ class CountySeeder extends Seeder
             ]);				
 			//Lesser Poland
 			//855
-			//auswitz, zator, ossek
+			//auswintz, zator, ossek
             DB::table('counties')->insert([
-				'county_name' => 'Auswitz',
+				'county_name' => 'Auswintz',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '150',
 				'vernacular_religion' => 'Catholic',
@@ -14820,7 +14820,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Affer',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);	
 			//858
@@ -20414,7 +20414,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//
-			//cordoba, azahara, balma, santa cruz, bujalance
+			//cordoba, azahara, balma, santa cruz, bujalance, santa isabel
             DB::table('counties')->insert([
 				'county_name' => 'Cordoba',
 				'county_category' => 'Feudal_Manor',
@@ -22466,7 +22466,7 @@ class CountySeeder extends Seeder
 			//Syria
 			//Damascus
 			//
-			//damascus, saqba, sawa, douma, zamalka
+			//damascus, saqba, sawa, douma, zamalka, dannun, nawa
             DB::table('counties')->insert([
 				'county_name' => 'Damascus',
 				'county_category' => 'Feudal_Manor',
@@ -22478,10 +22478,95 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
-            ]);	
+            ]);
+			//
+			//nabek, qara, atiyah, yabroud
+            DB::table('counties')->insert([
+				'county_name' => 'Qalamoun',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//jayrud, maaloula, jubbadin, arous
+            DB::table('counties')->insert([
+				'county_name' => 'Jayrud',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//dumayr, adra
+            DB::table('counties')->insert([
+				'county_name' => 'Dumayr',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//suada, shahba, salkhad, qanawat, kafr
+            DB::table('counties')->insert([
+				'county_name' => 'Suada',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//bosra, jimal, izra, dera
+            DB::table('counties')->insert([
+				'county_name' => 'Bosra',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',						
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Jabal
 			//
 			//aleppo
@@ -22517,7 +22602,75 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
-            ]);				
+            ]);
+			//
+			//tripoli, jubail
+            DB::table('counties')->insert([
+				'county_name' => 'Tripoli',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Olive_Oil',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Fiber_Silk',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//beirut, anjar, zahle, karak, marjaba, qamar
+            DB::table('counties')->insert([
+				'county_name' => 'Beirut',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//sidon
+            DB::table('counties')->insert([
+				'county_name' => 'Sidon',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//tyre
+            DB::table('counties')->insert([
+				'county_name' => 'Tyre',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Beverage_Wine',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Najd
 			//Najd
 			//
@@ -22925,7 +23078,7 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
-            ]);	
+            ]);
 			//
 			//ascolon, jura, majdal
             DB::table('counties')->insert([
@@ -22954,6 +23107,58 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Arabic',
 				'banal_moulin' => 'Horse_Mill',				
 				'banal_pressoir' => 'Sweetener_Sugarcane',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Galilee
+			//
+			//tiberias, hattin, nazareth
+            DB::table('counties')->insert([
+				'county_name' => 'Tiberias',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'Olive_Oil',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//banias, qeruh, qanatir
+            DB::table('counties')->insert([
+				'county_name' => 'Banias',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'None',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Fiber_Flax',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//haifa, carmel
+            DB::table('counties')->insert([
+				'county_name' => 'Haifa',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Levant',	
+				'vernacular_culture' => 'Arabic',
+				'banal_moulin' => 'Horse_Mill',				
+				'banal_pressoir' => 'None',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Palfrey',
@@ -23475,9 +23680,44 @@ class CountySeeder extends Seeder
 			//Kwarezm
 			//Gurganj
 			//
-			//gurganj
+			//gurganj, ak
             DB::table('counties')->insert([
 				'county_name' => 'Gurganj',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//toprak, ayaz, guldursun, kyzyl
+            DB::table('counties')->insert([
+				'county_name' => 'Khorezm',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Khiva
+			//
+			//khiva, ichan, kardurankhas
+            DB::table('counties')->insert([
+				'county_name' => 'Khiva',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Shia',
@@ -23491,11 +23731,62 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Khiva
 			//
-			//khiva
+			//durghan, jakarband, tahiriya
             DB::table('counties')->insert([
-				'county_name' => 'Khiva',
+				'county_name' => 'Durghan',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Merv
+			//
+			//merv, bayram, gyaur, kurban, kyz, shaim, erk
+            DB::table('counties')->insert([
+				'county_name' => 'Merv',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//sarakhs, sharaf
+            DB::table('counties')->insert([
+				'county_name' => 'Sarakhs',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//bereket, kyzyl
+            DB::table('counties')->insert([
+				'county_name' => 'Bereket',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Shia',
@@ -23532,6 +23823,23 @@ class CountySeeder extends Seeder
 			//qom
             DB::table('counties')->insert([
 				'county_name' => 'Qom',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',	
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',				
+				'banal_pressoir' => 'Sweetener_Date',				
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',						
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//yazd, chahak
+            DB::table('counties')->insert([
+				'county_name' => 'Yazd',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Shia',
