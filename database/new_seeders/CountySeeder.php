@@ -1756,7 +1756,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//99
-			//goslar, harzburg, osterode, herzberg, walkenried, grauhof, woltingerode
+			//goslar, harzburg, osterode, harlingerode, lichtenstein, herzberg, walkenried, grauhof, woltingerode, zorge, hohoffenberg, langelsheim
             DB::table('counties')->insert([
 				'county_name' => 'Wenzengau',
 				'county_category' => 'Feudal_Manor',
@@ -1768,7 +1768,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',				
 				'banal_chasse' => 'None',						
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);

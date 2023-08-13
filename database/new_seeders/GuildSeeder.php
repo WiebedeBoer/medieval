@@ -1924,6 +1924,17 @@ class GuildSeeder extends Seeder
 			'county' => '99',
 			'barony' => ''
 		]);
+		//Lichtenstein
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lichtenstein',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '13',
+			'county' => '99',
+			'barony' => ''
+		]);
 		//Herzberg
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -1951,6 +1962,28 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Millers Guild of Woltingerode',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '13',
+			'county' => '99',
+			'barony' => ''
+		]);
+		//Zorge
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Zorge',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '13',
+			'county' => '99',
+			'barony' => ''
+		]);
+		//Hohoffenberg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Hohoffenberg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '13',
