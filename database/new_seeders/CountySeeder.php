@@ -14892,7 +14892,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);	
 			//862
-			//sandomierz, zawichost, koprzywnica, klimontow
+			//sandomierz, zawichost, koprzywnica, klimontow, ostrow, kunow, keltz, swieta katarzyna
             DB::table('counties')->insert([
 				'county_name' => 'Sandomierz',
 				'county_category' => 'Feudal_Manor',
@@ -14902,9 +14902,9 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Polish',
 				'banal_moulin' => 'Horse_Mill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19065,7 +19065,7 @@ class CountySeeder extends Seeder
 			//Kyiv
 			//Kyiv 
 			//
-			//kyiv, pechersk, chvastiv, vyshhorod, mezhyhirya, yuriiv, chernobyl
+			//kyiv, podil, pechersk, vydubychi, chvastiv, vyshhorod, mezhyhirya, yuriiv, chernobyl, lyutizh, boiarka, chabany, kozyn, trypillia
             DB::table('counties')->insert([
 				'county_name' => 'Kyiv',
 				'county_category' => 'Feudal_Manor',
@@ -19073,11 +19073,11 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',		
 				'vernacular_culture' => 'Russian',
-				'banal_moulin' => 'Horse_Mill',				
+				'banal_moulin' => 'Windmill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19685,7 +19685,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);	
