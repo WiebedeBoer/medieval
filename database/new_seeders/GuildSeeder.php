@@ -60,8 +60,9 @@ class GuildSeeder extends Seeder
 		//Arsenal:										Craft		Master_Mariner				(49)
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher				(15)
+		//Guild_Joiner:									Craft		Master_Joiner				(4)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger			(22)
-		//Guild_Miller:									Craft		Master_Miller				(42)
+		//Guild_Miller:									Craft		Master_Miller				(40)
 		//Guild_Fuller:									Craft		Master_Fuller				(26)
 		//Guild_Vintner:								Craft		Master_Vintner				(31)
 		//Guild_Chandler:								Craft		Master_Chandler				(20)
@@ -7551,6 +7552,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '50',
 			'county' => '341',
+			'barony' => ''
+		]);
+		//Lovecotte
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Lovecotte',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '341',
+			'barony' => ''
+		]);
+		//Fellin
+		//Paistel
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Paistel',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '343',
 			'barony' => ''
 		]);
 		//Kurland
@@ -17575,9 +17599,9 @@ class GuildSeeder extends Seeder
 		//Romerike
 		//Sorum
 		DB::table('guilds')->insert([
-			'guild_name' => 'Millers Guild of Sorum',
+			'guild_name' => 'Joiners Guild of Sorum',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Miller',
+			'guild_subcategory' => 'Master_Joiner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '138',
@@ -17586,9 +17610,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Lorenskog
 		DB::table('guilds')->insert([
-			'guild_name' => 'Millers Guild of Lorenskog',
+			'guild_name' => 'Jioners Guild of Lorenskog',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Miller',
+			'guild_subcategory' => 'Master_Joiner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '138',
@@ -18095,9 +18119,9 @@ class GuildSeeder extends Seeder
 		//Uppland
 		//Riksby
 		DB::table('guilds')->insert([
-			'guild_name' => 'Millers Guild of Riksby',
+			'guild_name' => 'Joiners Guild of Riksby',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Miller',
+			'guild_subcategory' => 'Master_Joiner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',
@@ -18106,9 +18130,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Stockby
 		DB::table('guilds')->insert([
-			'guild_name' => 'Millers Guild of Stockby',
+			'guild_name' => 'Jioners Guild of Stockby',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Miller',
+			'guild_subcategory' => 'Master_Joiner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',

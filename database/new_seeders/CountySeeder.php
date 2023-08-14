@@ -5912,7 +5912,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//341
-			//dorpat, talkhof, wendau, kolk 
+			//dorpat, talkhof, wendau, kolk, brigitten, lovecotte 
             DB::table('counties')->insert([
 				'county_name' => 'Dorpat',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -5924,12 +5924,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Affer',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//342
-			//dunaburg, selburg 
+			//dunaburg, selburg, dubena
             DB::table('counties')->insert([
 				'county_name' => 'Dunaburg',
 				'county_category' => 'Feudal_Manor',
@@ -5941,12 +5941,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Affer',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//343
-			//fellin, karkus, tarwast
+			//fellin, karkus, tarwast, paistel
             DB::table('counties')->insert([
 				'county_name' => 'Fellin',
 				'county_category' => 'Feudal_Manor',
@@ -5958,8 +5958,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Affer',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//344
