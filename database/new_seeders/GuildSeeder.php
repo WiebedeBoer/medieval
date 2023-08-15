@@ -18430,6 +18430,39 @@ class GuildSeeder extends Seeder
 			'county' => '863',
 			'barony' => ''
 		]);
+		//Kunau
+		//Buddenhof
+		DB::table('guilds')->insert([
+			'guild_name' => 'Joiners Guild of Buddenhof',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Joiner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '865',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '865',
+			'barony' => ''
+		]);
+		//Marszewo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Joiners Guild of Marszewo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Joiner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '865',
+			'barony' => ''
+		]);
 		//Kalisz
 		//
 		//

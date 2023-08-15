@@ -14942,9 +14942,9 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
-            ]);			
+            ]);
 			//865
-			//kunau, schlusselsee, gohlen, sompolno, kleczew
+			//kunau, schlusselsee, gohlen, buddenhof, sompolno, kleczew, marszewo
             DB::table('counties')->insert([
 				'county_name' => 'Kunau',
 				'county_category' => 'Feudal_Manor',
@@ -14961,7 +14961,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//866
-			//slupca, zagorow
+			//slupca, hinterberg
             DB::table('counties')->insert([
 				'county_name' => 'Slupca',
 				'county_category' => 'Feudal_Manor',
@@ -15010,7 +15010,7 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
-            ]);			
+            ]);
 			//Kalisz
 			//869
 			//kalisz, opatowek, stavissin
