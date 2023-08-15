@@ -18304,10 +18304,44 @@ class GuildSeeder extends Seeder
 			'county' => '857',
 			'barony' => ''
 		]);
-		//
-		//
+		//Tarnow
+		//Tuchow
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Skinners Guild of Tuchow',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Furrier',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '150',
+			'county' => '858',
+			'barony' => ''
+		]);
+		//Dunaiz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Dunaiz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Furrier',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '150',
+			'county' => '858',
+			'barony' => ''
+		]);
+		//Ryglitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Ryglitz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '150',
+			'county' => '858',
+			'barony' => ''
+		]);
+		//Lublin
+		//Lublin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Lesser Poland',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -18316,17 +18350,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Sandomierz
+		//Sandomierz
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Sandomierz',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '150',
-			'county' => '',
+			'county' => '862',
 			'barony' => ''
 		]);
-		//Sandomierz
 		//Keltz
 		DB::table('guilds')->insert([
 			'guild_name' => 'Skinners Guild of Keltz',
@@ -18350,10 +18385,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Gnesen
-		//
-		//
+		//Gnesen
+		//Gnesen
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Gnesen',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -18363,13 +18398,36 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Gnesen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '151',
-			'county' => '',
+			'county' => '863',
+			'barony' => ''
+		]);
+		//Ruchocin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Joiners Guild of Ruchocin',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Joiner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '863',
+			'barony' => ''
+		]);
+		//Kolo
+		//Kolo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Kolo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '863',
 			'barony' => ''
 		]);
 		//Kalisz

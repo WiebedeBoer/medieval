@@ -14834,7 +14834,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Polish',
 				'banal_moulin' => 'Horse_Mill',				
 				'banal_pressoir' => 'Sweetener_Honey',				
-				'banal_chasse' => 'None',						
+				'banal_chasse' => 'Fur',						
 				'marke_crops' => 'None',						
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
@@ -14910,7 +14910,7 @@ class CountySeeder extends Seeder
             ]);
 			//Gnesen
 			//863
-			//gnesen, tremessen, witkowo, schwarzenau, kletzko
+			//gnesen, tremessen, witkowo, schwarzenau, kletzko, malachowo, makownica, ruchocin
             DB::table('counties')->insert([
 				'county_name' => 'Gnesen',
 				'county_category' => 'Feudal_Manor',
@@ -14922,8 +14922,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',				
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',						
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//864
