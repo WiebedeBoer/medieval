@@ -18463,11 +18463,23 @@ class GuildSeeder extends Seeder
 			'county' => '865',
 			'barony' => ''
 		]);
-		//Kalisz
-		//
-		//
+		//Znin
+		//Bartschin
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Bartschin',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '868',
+			'barony' => ''
+		]);
+		//Kalisz
+		//Kalisz
+		//Kalisz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Kalisz',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -18477,13 +18489,47 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Kalisz',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '152',
-			'county' => '',
+			'county' => '869',
+			'barony' => ''
+		]);
+		//Pleschen
+		//Pleschen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Pleschen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '152',
+			'county' => '870',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Pleschen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '152',
+			'county' => '870',
+			'barony' => ''
+		]);
+		//Wielun
+		//Wierzchlas
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Wierzchlas',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '152',
+			'county' => '872',
 			'barony' => ''
 		]);
 		//Krakow
