@@ -34,7 +34,7 @@ class EmpireSeeder extends Seeder
 			//Catholic
 			//1 //Germany, Lombardy, Bohemia, Burgundy, Papal States, Teutonic Order State
             DB::table('empires')->insert([
-				'empire_name' => 'Holy Roman Empire', 
+				'empire_name' => 'Holy Roman Empire',
 				'empire_category' => 'Princely_Elective',
 				'law_succession' => 'Elective_Monarchy',
 				'law_assembly' => 'medium',
@@ -42,7 +42,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//2 //France, Brittany
             DB::table('empires')->insert([
-				'empire_name' => 'Crown of France', 
+				'empire_name' => 'Crown of France',
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -50,7 +50,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//3 //Ireland, England, Wales, Scotland
             DB::table('empires')->insert([
-				'empire_name' => 'Crown of Britain', 
+				'empire_name' => 'Crown of Britain',
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -58,7 +58,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//4 //Aragon, Navarre
             DB::table('empires')->insert([
-				'empire_name' => 'Crown of Aragon', 
+				'empire_name' => 'Crown of Aragon',
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -66,7 +66,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//5 //Castile, Galicia, Leon, Asturias, Portugal
             DB::table('empires')->insert([
-				'empire_name' => 'Crown of Castile', 
+				'empire_name' => 'Crown of Castile',
 				'empire_category' => 'Composite_Crown',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -74,7 +74,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//6 //Denmark, Norway, Sweden
             DB::table('empires')->insert([
-				'empire_name' => 'Danelagen', 
+				'empire_name' => 'Danelagen',
 				'empire_category' => 'Commonwealth',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -82,7 +82,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//7 //Poland, Lithuania
             DB::table('empires')->insert([
-				'empire_name' => 'Crown of Poland', 
+				'empire_name' => 'Crown of Poland',
 				'empire_category' => 'Commonwealth',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -90,7 +90,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//8 //Hungary, Croatia
             DB::table('empires')->insert([
-				'empire_name' => 'Crown of Hungary', 
+				'empire_name' => 'Crown of Hungary',
 				'empire_category' => 'Commonwealth',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -98,7 +98,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//9 Sicily, Naples, Sardinia
             DB::table('empires')->insert([
-				'empire_name' => 'Trinacria', 
+				'empire_name' => 'Trinacria',
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -107,7 +107,7 @@ class EmpireSeeder extends Seeder
 			//Greek Orthodox
 			//10 //Thrace, Thessalonica, Trebizond, Anatolia, Georgia, Armenia
             DB::table('empires')->insert([
-				'empire_name' => 'Byzantine Empire', 
+				'empire_name' => 'Byzantine Empire',
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -115,7 +115,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//11 //Kyiv, Chernigov, Ruthenia, Vladimir, Smolensk, Novgorod
             DB::table('empires')->insert([
-				'empire_name' => 'Kievan Russia', 
+				'empire_name' => 'Kievan Russia',
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
@@ -124,7 +124,7 @@ class EmpireSeeder extends Seeder
 			//Bulgarian Orthodox
 			//12 //Bulgaria, Wallachia
             DB::table('empires')->insert([
-				'empire_name' => 'Bulgarian Empire', 
+				'empire_name' => 'Bulgarian Empire',
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -133,7 +133,7 @@ class EmpireSeeder extends Seeder
 			//Serbian Orthodox
 			//13 //Serbia, Bosnia
             DB::table('empires')->insert([
-				'empire_name' => 'Serbian Empire', 
+				'empire_name' => 'Serbian Empire',
 				'empire_category' => 'Feudal_Empire',
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
@@ -142,7 +142,7 @@ class EmpireSeeder extends Seeder
 			//Muslim
 			//14 //Andalucia, Algarves, Levante
             DB::table('empires')->insert([
-				'empire_name' => 'Cordoba', 
+				'empire_name' => 'Cordoba',
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
@@ -150,7 +150,7 @@ class EmpireSeeder extends Seeder
             ]);	
 			//15 //Marrakesh, Fez, Kairouan, Tlemcen, Ifni, Figuig
             DB::table('empires')->insert([
-				'empire_name' => 'Almohad', 
+				'empire_name' => 'Almohad',
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
@@ -158,7 +158,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//16 //Baghdad, Syria, Najd, Antioch
             DB::table('empires')->insert([
-				'empire_name' => 'Abbasid', 
+				'empire_name' => 'Abbasid',
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
@@ -166,7 +166,7 @@ class EmpireSeeder extends Seeder
             ]);
 			//17 //Cairo, Jerusalem, Hejaz
             DB::table('empires')->insert([
-				'empire_name' => 'Fatimid', 
+				'empire_name' => 'Fatimid',
 				'empire_category' => 'Caliphate',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',

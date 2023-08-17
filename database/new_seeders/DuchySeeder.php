@@ -16,7 +16,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => '',					//total = 324 duchies
 				'duchy_category' => '',				//Feudal_Estate (287), Ecclesiastical_Estate (21), Burgher_Estate (14)
-				'de_jure_kingdom' => '',			//	
+				'de_jure_kingdom' => '',			//
 				'law_succession' => '',				//Elective_Monarchy (29), Salic_Primogeniture (184), Agnatic_Seniority (17), Tanistry (17), Shura (75), Yassa (0)
 				'law_assembly' => '',				//absolute, limited, medium, high; default=medium	
 				'law_court' => '',					//Itinerant (247), Palatial (75)
@@ -64,49 +64,49 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Austria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',				
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Highland'			
+				'altitude' => 'Highland'
             ]);
 			//2 
 			//Donaugau, Folkfeld, Isengau, Mattiggau, Nordgau, Radenzgau, Rottgau, Schweinachgau, Westergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bavaria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
-            ]);			
+            ]);
 			//3 
 			//Brabant, Haspengau, Hennegau, Kamerykgau, Toxandria, Waasgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brabant',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);
 			//4
 			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Lavanttal, Leobental, Lurngau, Murztal, Sanntal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carinthia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Log_Chalet',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Log_Chalet',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -116,11 +116,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carniola',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Log_Chalet',			
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vernacular_architecture' => 'Log_Chalet',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -129,10 +129,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Franconia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -142,36 +142,36 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Frisia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);
 			//8 
 			//Hettergau, Betuwe, Cleveland, Hamaland, Mulgau, Ruhrgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Guelders',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);	
 			//9
 			//Julichgau, Eifelgau, Zulpichgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Julich',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -181,10 +181,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Limburg',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -194,10 +194,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lorraine',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -207,24 +207,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Luxembourg',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'			
+				'altitude' => 'Montane'
             ]);	
 			//13
 			//Bardengau, Derlingau, Eastfalagau, Gretingau, Gudingau, Harzgau, Wenzengau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Saxony',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -233,23 +233,23 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Styria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Log_Chalet',			
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'vernacular_architecture' => 'Log_Chalet',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'	
             ]);	
 			//15 
 			//Ortengau, Albegau, Augstgau, Breisgau, Churgau, Hegau, Linzgau, Neckargau, Nordgau, Riesgau, Schwerzgau, Schwyzgau, Sundgau, Turgau, Zurichgau  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Swabia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -259,10 +259,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thuringia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Salic_Primogeniture',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
-				'law_court' => 'Itinerant',	
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -272,24 +272,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bremen',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Elective_Monarchy',
-				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
+				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',		
-				'vegetation' => 'Temperate_Marshland',	
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'			
+				'altitude' => 'Lowland'
             ]);
 			//18
 			//Gillgau, Auelgau, Bonngau, Deutzgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cologne',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -298,10 +298,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Magdeburg',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -311,10 +311,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mainz',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -324,23 +324,23 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salzburg',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Highland',				
+				'altitude' => 'Highland'
             ]);	
 			//22
 			//Bitgau, Maifeld, Hunsruckgau, Trechirgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Trier',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '1',	
+				'de_jure_kingdom' => '1',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -351,24 +351,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Milan',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'			
+				'altitude' => 'Montane'
             ]);	
 			//24 
 			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Turino, Vercelli, Vigevano
             DB::table('duchies')->insert([
 				'duchy_name' => 'Piedmont',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',
-				'vegetation' => 'Mediterranean_Marshland',	
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -377,11 +377,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tuscany',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -390,11 +390,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Verona',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -403,11 +403,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquileia',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'	
             ]);
@@ -416,11 +416,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Florence',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -429,11 +429,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Genoa',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -442,11 +442,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Noli',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -455,11 +455,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oneglia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -468,11 +468,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lucca',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -481,11 +481,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pisa',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
 				'law_court' => 'Itinerant',		
-				'vegetation' => 'Mediterranean_Woodland',	
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -494,13 +494,13 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Venice',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '2',	
+				'de_jure_kingdom' => '2',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);	
 			//bohemia
 			//35 
@@ -508,10 +508,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bohemia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '3',	
+				'de_jure_kingdom' => '3',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -521,10 +521,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lusatia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -534,10 +534,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moravia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '3',	
+				'de_jure_kingdom' => '3',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -547,23 +547,23 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lower Silesia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '3',	
+				'de_jure_kingdom' => '3',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
 			//39
-			//Oppeln, Breslau, Brieg, Ratibor, Teschen, Troppau			  
+			//Oppeln, Breslau, Brieg, Ratibor, Teschen, Troppau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Upper Silesia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '3',	
+				'de_jure_kingdom' => '3',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -574,7 +574,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Burgundy',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '4',	
+				'de_jure_kingdom' => '4',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',		
@@ -587,37 +587,37 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cisjurania',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '4',	
+				'de_jure_kingdom' => '4',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
-            ]);			
+            ]);
 			//42 
 			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transjurania',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '4',	
+				'de_jure_kingdom' => '4',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'				
-            ]);	
+				'altitude' => 'Highland'	
+            ]);
 			//43
 			//Orange, Venaissin, Vivarais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orange',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '4',	
+				'de_jure_kingdom' => '4',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -626,11 +626,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Provence',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '4',	
+				'de_jure_kingdom' => '4',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -639,13 +639,13 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '4',	
+				'de_jure_kingdom' => '4',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'	
             ]);	
 			//Papal States
 			//46 
@@ -653,11 +653,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rome',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '5',	
+				'de_jure_kingdom' => '5',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -666,11 +666,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Romagna',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '5',	
+				'de_jure_kingdom' => '5',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -679,11 +679,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Spoleto',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '5',	
+				'de_jure_kingdom' => '5',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -692,11 +692,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Urbino',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '5',	
+				'de_jure_kingdom' => '5',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -706,10 +706,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Livonia',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -719,10 +719,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estonia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -732,10 +732,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Prussia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -745,10 +745,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pomerelia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -758,11 +758,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pomerania',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -771,10 +771,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brandenburg',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -784,10 +784,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecklenburg',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '6',	
+				'de_jure_kingdom' => '6',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -799,23 +799,23 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anjou',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);	
 			//58
 			//Bordelais, Agenais, Angoumois, Bazadais, Limousin, Lomagne, Perigord, Saintogne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquitaine',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -825,10 +825,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Auvergne',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -838,10 +838,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Berry',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -851,7 +851,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bourbonnais',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',
@@ -864,24 +864,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gascony',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'	
             ]);	
 			//63
 			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethelois, Senois, Troyes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Champagne',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Grassland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -890,11 +890,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Francia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -903,11 +903,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Normandy',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -916,10 +916,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Orleanais',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -929,23 +929,23 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Picardy',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);	
 			//68
 			//Poitou, Aunis, Briancais, Chatellerault, Marche, Thouarsais, Turenne
             DB::table('duchies')->insert([
 				'duchy_name' => 'Poitou',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -955,11 +955,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toulouse',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '7',	
+				'de_jure_kingdom' => '7',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -969,10 +969,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brittany',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '8',	
+				'de_jure_kingdom' => '8',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -982,10 +982,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Domnonee',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '8',	
+				'de_jure_kingdom' => '8',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -995,11 +995,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Retz',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '8',	
+				'de_jure_kingdom' => '8',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1010,10 +1010,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Connacht',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '9',	
+				'de_jure_kingdom' => '9',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1023,10 +1023,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leinster',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '9',	
+				'de_jure_kingdom' => '9',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1036,10 +1036,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Meath',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '9',	
+				'de_jure_kingdom' => '9',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1049,10 +1049,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Munster',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '9',	
+				'de_jure_kingdom' => '9',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1062,10 +1062,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ulster',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '9',	
+				'de_jure_kingdom' => '9',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1076,11 +1076,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'East Anglia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -1089,10 +1089,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Essex',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1102,11 +1102,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hwicce',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1115,11 +1115,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kent',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1128,10 +1128,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lindsey',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1141,10 +1141,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mercia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1154,24 +1154,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mid Anglia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'				
+				'altitude' => 'Lowland'	
             ]);	
 			//85
 			//Allertonshire, Burghshire, Cumberland, Durham, Hallamshire, Hexhamshire, Howdenshire, Northumberland, Lancashire, Richmondshire, Yorkshire
             DB::table('duchies')->insert([
 				'duchy_name' => 'Northumbria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -1180,10 +1180,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sussex',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1193,10 +1193,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wessex',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '10',	
+				'de_jure_kingdom' => '10',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1207,10 +1207,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cornwall',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '11',	
+				'de_jure_kingdom' => '11',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1220,10 +1220,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dyfed',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '11',	
+				'de_jure_kingdom' => '11',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1233,10 +1233,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gwent',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '11',	
+				'de_jure_kingdom' => '11',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
@@ -1246,11 +1246,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gwyned',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '11',	
+				'de_jure_kingdom' => '11',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -1259,11 +1259,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Powys',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '11',	
+				'de_jure_kingdom' => '11',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'
             ]);	
@@ -1273,10 +1273,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alba',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1286,10 +1286,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bernicia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1299,11 +1299,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalriada',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1312,11 +1312,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fortriu',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland'
             ]);
@@ -1325,10 +1325,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Galloway',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1338,10 +1338,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gododdin',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1351,10 +1351,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Strathclyde',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '12',	
+				'de_jure_kingdom' => '12',
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1366,11 +1366,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aragon',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1379,11 +1379,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Barcelona',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1392,11 +1392,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Girona',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1405,24 +1405,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Huesca',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'	
             ]);	
 			//104
 			//Lleida, Pallars, Urgell
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lleida',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1431,11 +1431,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarragona',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1444,11 +1444,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Teruel',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1457,11 +1457,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zaragoza',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '13',	
+				'de_jure_kingdom' => '13',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1471,11 +1471,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alava',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '14',	
+				'de_jure_kingdom' => '14',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1484,11 +1484,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gipuzcoa',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '14',	
+				'de_jure_kingdom' => '14',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1497,11 +1497,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Navarre',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '14',	
+				'de_jure_kingdom' => '14',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1510,11 +1510,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Viscaya',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '14',	
+				'de_jure_kingdom' => '14',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1525,11 +1525,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Avila',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1538,11 +1538,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Burgos',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1551,11 +1551,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Palencia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1564,11 +1564,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Segovia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1577,11 +1577,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Soria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1590,11 +1590,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toledo',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1603,11 +1603,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valladolid',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '15',	
+				'de_jure_kingdom' => '15',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1617,11 +1617,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Coruna',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '16',	
+				'de_jure_kingdom' => '16',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1630,11 +1630,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lugo',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '16',	
+				'de_jure_kingdom' => '16',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1643,11 +1643,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ourense',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '16',	
+				'de_jure_kingdom' => '16',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1656,11 +1656,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pontevedra',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '16',	
+				'de_jure_kingdom' => '16',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1670,11 +1670,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Caceres',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '17',	
+				'de_jure_kingdom' => '17',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1683,11 +1683,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Leon',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '17',	
+				'de_jure_kingdom' => '17',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1696,11 +1696,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salamanca',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '17',	
+				'de_jure_kingdom' => '17',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1709,11 +1709,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zamora',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '17',	
+				'de_jure_kingdom' => '17',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1723,11 +1723,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asturias',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '18',	
+				'de_jure_kingdom' => '18',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1736,11 +1736,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cantabria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '18',	
+				'de_jure_kingdom' => '18',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1750,11 +1750,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aveiro',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '19',	
+				'de_jure_kingdom' => '19',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1763,11 +1763,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Beira',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '19',	
+				'de_jure_kingdom' => '19',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1776,11 +1776,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Braganca',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '19',	
+				'de_jure_kingdom' => '19',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Shrubland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1789,11 +1789,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Estremadura',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '19',	
+				'de_jure_kingdom' => '19',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -1804,11 +1804,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jutland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '20',	
+				'de_jure_kingdom' => '20',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Grassland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1817,10 +1817,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Scania',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '20',	
+				'de_jure_kingdom' => '20',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -1830,11 +1830,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sjaeland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '20',	
+				'de_jure_kingdom' => '20',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Grassland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Grassland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -1844,11 +1844,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nordjor',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Croft',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1857,11 +1857,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sodor',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Croft',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1870,11 +1870,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hedmark',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1883,24 +1883,24 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oppland',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '20',	
+				'de_jure_kingdom' => '20',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'	
             ]);
 			//140
 			//Dalane, Haugeland, Jaeren, Rogaland
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rogaland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -1909,10 +1909,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sorland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1922,23 +1922,23 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vestland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Shrubland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'	
             ]);
 			//143
 			//Akershus, Buskerud, Ostfold, Ranrike, Vestfold, Vingulmark
             DB::table('duchies')->insert([
 				'duchy_name' => 'Viken',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '21',	
+				'de_jure_kingdom' => '21',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1949,10 +1949,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gotland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '22',	
+				'de_jure_kingdom' => '22',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1962,10 +1962,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Norrland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '22',	
+				'de_jure_kingdom' => '22',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1975,10 +1975,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Osterland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '22',	
+				'de_jure_kingdom' => '22',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -1988,10 +1988,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smaland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '22',	
+				'de_jure_kingdom' => '22',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -2001,10 +2001,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Svealand',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '22',	
+				'de_jure_kingdom' => '22',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
@@ -2016,10 +2016,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Greater Poland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2029,10 +2029,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lesser Poland',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2042,10 +2042,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gnesen',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2055,10 +2055,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kalisz',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2068,10 +2068,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Krakow',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2081,10 +2081,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kuyavia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2094,10 +2094,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mazovia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2107,10 +2107,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Plock',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2120,10 +2120,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Posen',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2133,10 +2133,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sieradz',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2146,10 +2146,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Warsaw',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '23',	
+				'de_jure_kingdom' => '23',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2160,10 +2160,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minsk',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '24',	
+				'de_jure_kingdom' => '24',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2173,10 +2173,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Samogitia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '24',	
+				'de_jure_kingdom' => '24',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2186,10 +2186,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tracken',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '24',	
+				'de_jure_kingdom' => '24',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2199,10 +2199,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vilnius',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '24',	
+				'de_jure_kingdom' => '24',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2214,11 +2214,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hungary',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '25',	
+				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2227,11 +2227,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Buda',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '25',	
+				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2240,10 +2240,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nitra',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '25',	
+				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2253,10 +2253,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Temesvar',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '25',	
+				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2266,11 +2266,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ungvar',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '25',	
+				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2279,10 +2279,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transylvania',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '25',	
+				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2293,11 +2293,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalmatia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '26',	
+				'de_jure_kingdom' => '26',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2306,11 +2306,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ragusa',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '26',	
+				'de_jure_kingdom' => '26',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2319,11 +2319,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Slavonia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '26',	
+				'de_jure_kingdom' => '26',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2332,11 +2332,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Split',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '26',	
+				'de_jure_kingdom' => '26',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2345,11 +2345,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zadar',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '26',	
+				'de_jure_kingdom' => '26',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2360,11 +2360,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Palermo',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '27',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2373,11 +2373,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Trapani',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '27',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2386,11 +2386,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Messina',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '27',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2399,11 +2399,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Agrigento',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '27',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2412,11 +2412,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Catania',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '27',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2425,11 +2425,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Siracusa',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '27',	
+				'de_jure_kingdom' => '27',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2439,11 +2439,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Naples',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2452,11 +2452,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Capua',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2465,11 +2465,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Amalfi',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2478,11 +2478,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Calabria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2491,11 +2491,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Basilicata',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2504,11 +2504,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taranto',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2517,11 +2517,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Foggia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2530,11 +2530,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Benevento',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2543,11 +2543,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salerno',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '28',	
+				'de_jure_kingdom' => '28',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2557,11 +2557,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gallura',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '29',	
+				'de_jure_kingdom' => '29',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2570,11 +2570,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Logudoro',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '29',	
+				'de_jure_kingdom' => '29',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2583,11 +2583,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arborea',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '29',	
+				'de_jure_kingdom' => '29',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2596,11 +2596,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cagliari',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '29',	
+				'de_jure_kingdom' => '29',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2611,11 +2611,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thrace',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '30',	
+				'de_jure_kingdom' => '30',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2624,11 +2624,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Macedonia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '30',	
+				'de_jure_kingdom' => '30',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2638,11 +2638,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hellas',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2651,11 +2651,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Peloponessos',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2664,11 +2664,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Archipelago',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2677,11 +2677,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Candia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2690,11 +2690,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Epirus',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);		
@@ -2703,11 +2703,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thessalonica',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -2716,11 +2716,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Strymon',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '31',	
+				'de_jure_kingdom' => '31',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2730,10 +2730,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Paphlagonia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '32',	
+				'de_jure_kingdom' => '32',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2743,10 +2743,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Armeniac',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '32',	
+				'de_jure_kingdom' => '32',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2756,10 +2756,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chaldia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '32',	
+				'de_jure_kingdom' => '32',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2769,11 +2769,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Crimea',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '32',	
+				'de_jure_kingdom' => '32',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2783,11 +2783,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Samos',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2796,11 +2796,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thracesia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -2809,11 +2809,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bucellaria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2822,11 +2822,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Anatolia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2835,11 +2835,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cappadocia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2848,11 +2848,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Seleucia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2861,11 +2861,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Opsicia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2874,11 +2874,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nicaea',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2887,11 +2887,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lycia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2900,11 +2900,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pamphylia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '33',	
+				'de_jure_kingdom' => '33',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Romanesque',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);			
@@ -2914,10 +2914,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Colchis',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '34',	
+				'de_jure_kingdom' => '34',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2927,10 +2927,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Javakheti',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '34',	
+				'de_jure_kingdom' => '34',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2940,10 +2940,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kartli',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '34',	
+				'de_jure_kingdom' => '34',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2953,10 +2953,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kakheti',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '34',	
+				'de_jure_kingdom' => '34',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2967,10 +2967,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vaspurakan',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '35',	
+				'de_jure_kingdom' => '35',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2980,10 +2980,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taron',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '35',	
+				'de_jure_kingdom' => '35',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -2993,10 +2993,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kars',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '35',	
+				'de_jure_kingdom' => '35',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3006,10 +3006,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Azerbaijan',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '35',	
+				'de_jure_kingdom' => '35',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3021,10 +3021,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kyiv',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '36',	
+				'de_jure_kingdom' => '36',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3034,10 +3034,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pereyaslavl',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '36',	
+				'de_jure_kingdom' => '36',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3048,10 +3048,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chernigov',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '37',	
+				'de_jure_kingdom' => '37',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3061,10 +3061,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ryazan',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '37',	
+				'de_jure_kingdom' => '37',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3075,10 +3075,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Halych',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '38',	
+				'de_jure_kingdom' => '38',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3088,10 +3088,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Podolia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '38',	
+				'de_jure_kingdom' => '38',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3101,10 +3101,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Volhynia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '38',	
+				'de_jure_kingdom' => '38',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3114,10 +3114,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Turov',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '38',	
+				'de_jure_kingdom' => '38',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3128,10 +3128,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vladimir',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '39',	
+				'de_jure_kingdom' => '39',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3141,10 +3141,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moscow',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '39',	
+				'de_jure_kingdom' => '39',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3154,10 +3154,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Suzdal',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '39',	
+				'de_jure_kingdom' => '39',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3168,10 +3168,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smolensk',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '40',	
+				'de_jure_kingdom' => '40',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3181,10 +3181,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rzhev',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '40',	
+				'de_jure_kingdom' => '40',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3194,10 +3194,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tver',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '40',	
+				'de_jure_kingdom' => '40',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3208,10 +3208,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Novgorod',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '41',	
+				'de_jure_kingdom' => '41',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3221,10 +3221,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Polotsk',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '41',	
+				'de_jure_kingdom' => '41',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3234,10 +3234,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pleskov',
 				'duchy_category' => 'Burgher_Estate',
-				'de_jure_kingdom' => '41',	
+				'de_jure_kingdom' => '41',
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3249,11 +3249,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Preslav',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '42',	
+				'de_jure_kingdom' => '42',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3262,11 +3262,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarnovo',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '42',	
+				'de_jure_kingdom' => '42',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3276,10 +3276,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wallachia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '43',	
+				'de_jure_kingdom' => '43',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3289,10 +3289,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moldavia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '43',	
+				'de_jure_kingdom' => '43',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3304,10 +3304,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rashka',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '44',	
+				'de_jure_kingdom' => '44',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3317,10 +3317,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => '',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '44',	
+				'de_jure_kingdom' => '44',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3331,10 +3331,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bosnia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '45',	
+				'de_jure_kingdom' => '45',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3344,10 +3344,10 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => '',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '45',	
+				'de_jure_kingdom' => '45',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
-				'law_court' => 'Itinerant',	
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
@@ -3359,11 +3359,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algeciras',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3372,11 +3372,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Almeria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3385,11 +3385,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arcos',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'
             ]);
@@ -3398,11 +3398,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carmona',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3411,11 +3411,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cordoba',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3424,11 +3424,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Granada',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3437,11 +3437,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Malaga',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3450,11 +3450,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ronda',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3463,11 +3463,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sevilla',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '46',	
+				'de_jure_kingdom' => '46',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3477,11 +3477,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algarves',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '47',	
+				'de_jure_kingdom' => '47',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3490,11 +3490,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Badajoz',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '47',	
+				'de_jure_kingdom' => '47',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3503,11 +3503,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Huelva',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '47',	
+				'de_jure_kingdom' => '47',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3517,11 +3517,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alpuente',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '48',	
+				'de_jure_kingdom' => '48',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3530,11 +3530,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baleares',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '48',	
+				'de_jure_kingdom' => '48',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3543,11 +3543,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Denia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '48',	
+				'de_jure_kingdom' => '48',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3556,11 +3556,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Murcia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '48',	
+				'de_jure_kingdom' => '48',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3569,11 +3569,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valencia',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '48',	
+				'de_jure_kingdom' => '48',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Stone_Mudejar',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3584,11 +3584,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '49',	
+				'de_jure_kingdom' => '49',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3597,11 +3597,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tadla',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '49',	
+				'de_jure_kingdom' => '49',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3610,11 +3610,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sijilmassa',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '49',	
+				'de_jure_kingdom' => '49',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3623,11 +3623,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ouarzazate',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '49',	
+				'de_jure_kingdom' => '49',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3637,11 +3637,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fez',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '50',	
+				'de_jure_kingdom' => '50',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3650,11 +3650,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rabat',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '50',	
+				'de_jure_kingdom' => '50',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3663,11 +3663,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tangier',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '50',	
+				'de_jure_kingdom' => '50',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3677,11 +3677,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '51',	
+				'de_jure_kingdom' => '51',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3690,11 +3690,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tunis',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '51',	
+				'de_jure_kingdom' => '51',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3703,11 +3703,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djerid',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '51',	
+				'de_jure_kingdom' => '51',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -3716,11 +3716,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tripoli',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '51',	
+				'de_jure_kingdom' => '51',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);		
@@ -3729,11 +3729,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sirte',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '51',	
+				'de_jure_kingdom' => '51',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3743,11 +3743,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tlemcen',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3756,11 +3756,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oujda',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3769,11 +3769,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oran',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3782,11 +3782,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algiers',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3795,11 +3795,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tiaret',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
@@ -3808,11 +3808,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mzab',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3821,11 +3821,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Laghouat',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -3834,11 +3834,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djelfa',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '52',	
+				'de_jure_kingdom' => '52',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3848,11 +3848,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ifni',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '53',	
+				'de_jure_kingdom' => '53',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -3861,11 +3861,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taroudant',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '53',	
+				'de_jure_kingdom' => '53',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);			
@@ -3875,11 +3875,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Figuig',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '54',	
+				'de_jure_kingdom' => '54',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -3888,11 +3888,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Adrar',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '54',	
+				'de_jure_kingdom' => '54',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Maghreb',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3903,11 +3903,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '55',	
+				'de_jure_kingdom' => '55',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3918,11 +3918,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damascus',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '56',	
+				'de_jure_kingdom' => '56',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -3931,11 +3931,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jabal',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '56',	
+				'de_jure_kingdom' => '56',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -3944,11 +3944,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Homs',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '56',	
+				'de_jure_kingdom' => '56',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -3958,11 +3958,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Najd',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '57',	
+				'de_jure_kingdom' => '57',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -3972,11 +3972,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Antioch',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '58',	
+				'de_jure_kingdom' => '58',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ])			
@@ -3987,11 +3987,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cairo',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -4000,11 +4000,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alexandria',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -4013,11 +4013,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mansoura',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4026,11 +4026,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damietta',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4039,11 +4039,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minya',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4052,11 +4052,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asyut',
 				'duchy_category' => 'Ecclesiastical_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4065,11 +4065,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kharga',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4078,11 +4078,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baritun',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4091,11 +4091,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Boula',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '59',	
+				'de_jure_kingdom' => '59',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4105,11 +4105,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jerusalem',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '60',	
+				'de_jure_kingdom' => '60',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -4118,11 +4118,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Galilee',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '60',	
+				'de_jure_kingdom' => '60',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Mediterranean_Woodland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
@@ -4132,11 +4132,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecca',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '61',	
+				'de_jure_kingdom' => '61',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -4145,11 +4145,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Medina',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '61',	
+				'de_jure_kingdom' => '61',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -4158,11 +4158,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tabuk',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '61',	
+				'de_jure_kingdom' => '61',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Mashriq',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4173,11 +4173,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aqtobe',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4186,11 +4186,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sarkel',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4199,11 +4199,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Atil',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4212,11 +4212,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bolghar',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4225,11 +4225,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bilar',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4239,11 +4239,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Derbent',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4252,11 +4252,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Azov',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4266,11 +4266,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sighnaq',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4279,11 +4279,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sozak',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4292,11 +4292,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sibir',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Steppe',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane'
             ]);
@@ -4307,11 +4307,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gurganj',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4320,11 +4320,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khiva',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4333,11 +4333,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Merv',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4347,11 +4347,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Isfahan',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -4360,11 +4360,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Shiraz',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
@@ -4374,11 +4374,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hormuz',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Marshland',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
@@ -4387,11 +4387,11 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kerman',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',	
+				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',	
-				'vegetation' => 'Desert_Oasis',	
+				'law_court' => 'Palatial',
+				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
