@@ -781,7 +781,7 @@ class KingdomSeeder extends Seeder
 				'law_assembly' => 'medium',
 				'law_court' => 'Divan',				
 				'levy_feudal' => 'large'				
-            ]);				
+            ]);
 			//Khazar
 			//Khazaria
 			//Aqtobe, Sarkel, Atil, Bolghar, Bilar
@@ -794,7 +794,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'Sarai'				
-            ]);	
+            ]);
 			//Alania
 			//Derbent, Azov
 			//63
@@ -806,7 +806,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'Sarai'				
-            ]);	
+            ]);
 			//Cumania
 			//Sighnaq, Sozak, Sibir
 			//64
@@ -818,7 +818,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'Sarai'				
-            ]);	
+            ]);
 			//Seljuk
 			//Kwarezm
 			//Gurganj, Khiva
@@ -831,7 +831,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'Sarai'				
-            ]);	
+            ]);
 			//Isfahan
 			//Isfahan,
 			//66
@@ -843,7 +843,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'Sarai'				
-            ]);	
+            ]);
 			//Hormuz
 			//Hormuz, Kerman
 			//67
@@ -855,7 +855,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
 				'law_court' => 'Sarai'				
-            ]);				
+            ]);
 			
     }
 }

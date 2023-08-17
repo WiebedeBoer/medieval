@@ -15099,7 +15099,7 @@ class CountySeeder extends Seeder
             ]);
 			//Krakow
 			//874
-			//krakow, tyniec, babice, krzeszowitz, szlomnik, skala, salzberg, miechow, myslenitz, proszowitz, hebdow, gross salze, niepolomitz
+			//krakow, tyniec, babice, szlomnik, skala, salzberg, miechow, myslenitz, proszowitz, hebdow, gross salze, niepolomitz, sieroslawitz, plawowitz
             DB::table('counties')->insert([
 				'county_name' => 'Krakow',
 				'county_category' => 'Feudal_Manor',
@@ -15109,7 +15109,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Polish',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Honey',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
@@ -15128,8 +15128,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//876
@@ -15161,7 +15161,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'Dye_Woad',						
+				'marke_crops' => 'Dye_Woad',
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'

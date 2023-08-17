@@ -18577,12 +18577,144 @@ class GuildSeeder extends Seeder
 			'county' => '874',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Krakow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		//Szlomnik
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Krakow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		//Skala
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Skala',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		//Proszowitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Proszowitz',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		//Niepolomitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Krakow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		//Sieroslawitz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Chandlers Guild of Sieroslawitz',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Master_Chandler',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		//Olkusz
+		//Olkusz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Wolbrom',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '875',
+			'barony' => ''
+		]);
+		//Wolbrom
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Wolbrom',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '875',
+			'barony' => ''
+		]);
+		//Boleslaw
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '875',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Boleslaw',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '875',
+			'barony' => ''
+		]);
+		//Czestochowa
+		//Olsztyn
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Olsztyn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '876',
+			'barony' => ''
+		]);
 		//Gorlitz
 		//Gorlitz
 		DB::table('guilds')->insert([
 			'guild_name' => 'Dyers Guild of Gorlitz',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Dyer_Woad',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '877',
+			'barony' => ''
+		]);
+		//Beitsch
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Beitsch',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '153',
@@ -20855,7 +20987,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Kyiv',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Hunting_Lodge_Boar',
+			'guild_subcategory' => 'Hunt_Boar',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
