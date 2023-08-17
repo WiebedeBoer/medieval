@@ -81,9 +81,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//3 
 			//Brabant, Haspengau, Hennegau, Kamerykgau, Toxandria, Waasgau
@@ -107,9 +107,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//5 
 			//Krainmark, Histria
@@ -122,7 +122,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//6
 			//Grabfeld, Gollachgau, Gotzfeld, Jagstgau, Saalgau, Sualafeld, Sulmgau, Taubergau, Waldsassengau
@@ -133,9 +133,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//7 
 			//Ammergau, Auricherland, Beveland, Bornegau, Drenthe, Dithmarschen, Emsigerland, Fivelgau, Hadeln, Holtland, Hunsingau, Kennemerland, Maasland, Nifterlake, Norderland, Ostringen, Oostergau, Rhineland, Rustringen, Salland, Sudergau, Teisterbant, Twente, Veluwe, Vollenhove, Walcheren, Westergau, Westflinge, Wursten
@@ -172,9 +172,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//10
 			//Luttichgau, Ardennengau, Condrustgau, Lommegau, Maasgau
@@ -185,9 +185,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//11 
 			//Metzgau, Bleisgau, Chaumontois, Saargau, Salingau, Soulossois, Toullois
@@ -198,9 +198,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//12
 			//Methingau, Barrois, Moselgau, Verdungau, Wavergau
@@ -211,7 +211,7 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane'			
             ]);	
@@ -226,7 +226,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//14
 			//Traungau, Attergau, Ennstal, Norital, Vinschgau
@@ -250,9 +250,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//16
 			//Thuringgau, Altgau, Eichsfeld, Helmegau, Langwitzgau, Nabelgau, Orlagau, Ostergau, Zwickaugau
@@ -263,9 +263,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',			
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//17 
 			//Largau, Agradingau, Angerngau, Augau, Bukkigau, Bursibant, Dervegau, Dreingau, Gronegau, Hasegau, Heilangau, Holsteingau, Leinegau, Mosidegau, Padergau, Stevergau, Stormarngau, Sturmigau, Sudergau, Werregau, Westfaliagau      
@@ -291,7 +291,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//19
 			//Nordthuringgau, Balsamgau, Friesenfeld, Hartingau, Hassegau, Osterwalde, Schwabengau
@@ -302,9 +302,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//20
 			//Wormsfeld, Engersgau, Hessengau, Lahngau, Lobdengau, Maingau, Nahegau, Niddagau, Speyergau, Ufgau, Wettergau, Wurmgau
@@ -315,9 +315,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//21
 			//Salzburggau, Chiemgau, Lungau, Pinzgau, Sundergau
@@ -341,9 +341,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Lombardy
 			//23 
@@ -370,8 +370,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//25 
 			//Siena, Grosseto, Piombino, Sovana
             DB::table('duchies')->insert([
@@ -383,7 +383,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//26 
 			//Verona, Padova, Rovigo, Vicenza, Trent
@@ -396,7 +396,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//27 
 			//Friuli, Gorizia, Pordenone
@@ -409,7 +409,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'					
+				'altitude' => 'Montane'	
             ]);
 			//28 
 			//Florence, Arezzo, Cortona, Perugia, Prato
@@ -422,7 +422,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//29 
 			//Genoa, Lunigiana, Massa
@@ -435,7 +435,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//30 
 			//Noli, Albenga, Finale
@@ -448,7 +448,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//31 
 			//Oneglia, Monaco, Ventimiglia
@@ -461,7 +461,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//32 
 			//Lucca, Pistoia
@@ -474,7 +474,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//33 
 			//Pisa, Corsica, Livorno, Volterra
@@ -487,7 +487,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//34 
 			//Dogado, Belluno, Treviso
@@ -512,9 +512,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//36 
 			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
@@ -525,9 +525,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//37 
 			//Brunn, Iglau, Olmutz, Prerau, Velingrad, Znaim
@@ -538,9 +538,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//38 
 			//Jauer, Glogau, Leubus, Liegnitz, Oels, Schweidnitz
@@ -551,9 +551,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//39
 			//Oppeln, Breslau, Brieg, Ratibor, Teschen, Troppau			  
@@ -564,10 +564,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Burgundy
 			//40
 			//Avalois, Autunais, Auxerrois, Auxois, Beaujolais, Beaunois, Chalonais, Lassois, Maconnais, Nivernais, Tonerrois
@@ -578,9 +578,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',		
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//41
 			//Dauphine, Albon, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
@@ -593,7 +593,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//42 
 			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
@@ -619,7 +619,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//44
 			//Provence, Arles, Baux, Marseille, Nice, Toulon 
@@ -632,7 +632,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//45 
 			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais
@@ -659,7 +659,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//47 
 			//Ferrara, Bologna, Carpegna, Ravenna
@@ -672,7 +672,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//48 
 			//Ancona, Chieti, Fermo, Pescara, Spoleto
@@ -685,7 +685,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//49
 			//Urbino, Pesaro
@@ -698,7 +698,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//teutonic order state
 			//50 
@@ -710,9 +710,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Elective_Monarchy',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//51
 			//Reval, Pernau
@@ -723,9 +723,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//52
 			//Pomesanengau, Bartengau, Ermland, Memelland, Nadrauengau, Natangergau, Pogesanengau, Samland
@@ -736,9 +736,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//53
 			//Danzig, Butow, Dirschau, Karthaus, Kulmerland, Lauenburg, Putzig, Schlochau, Schwetz, Thorn, Tuchel
@@ -749,9 +749,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//54 
 			//Kammin, Arnswalde, Gollnow, Greifenhagen, Greifenberg, Pyritz, Kessinigau, Kolberg, Koslin, Neustettin, Schivelbein, Slupsk, Schlawe, Stettin, Wostrosegau
@@ -764,7 +764,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//55
 			//Havelland, Dossegau, Linaggau, Nelitzigau, Retschanengau, Uckermark
@@ -775,9 +775,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//56
 			//Circipanigau, Obotritegau, Polabigau, Wagrigau
@@ -788,9 +788,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//France
 			//France
@@ -816,9 +816,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//59
 			//Auvergne, Aurillac, Brioude, Carlat, Clermont, Forez, Murat
@@ -829,9 +829,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//60
 			//Berry, Sancerre
@@ -842,9 +842,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//61 
 			//Bourbonnais, Montlucon
@@ -855,9 +855,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//62
 			//Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
@@ -883,7 +883,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Grassland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//64 
 			//Pay de France, Beauvaisis, Beaumont, Brie, Clermont, Gatinais, Hurepoix, Mantois, Senlis, Soissonnais, Valois, Vexin 
@@ -896,7 +896,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//65
 			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortainais
@@ -909,7 +909,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//66
 			//Orleanais, Blaisois, Chartres, Dreux, Dunois, Etampois, Nemours 
@@ -920,9 +920,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//67 
 			//Artois, Amienois, Boulognois, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Ternois, Tournais, Vermandois 
@@ -946,9 +946,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//69 
 			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
@@ -961,7 +961,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Brittany
 			//70
@@ -973,9 +973,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//71
 			//Penthievre, Alet, Tregor
@@ -986,9 +986,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//72
 			//Retz, Nantais, Rennais
@@ -1001,7 +1001,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Britain
 			//Ireland
@@ -1014,9 +1014,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//74
 			//Carlow, Kildare, Kilkenny, Leix, Tipperary, Waterford, Wexford, Wicklow
@@ -1027,9 +1027,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//75
 			//Dublin, Longford, Meath, Offaly
@@ -1040,9 +1040,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//76
 			//Clare, Cork, Kerry, Limerick
@@ -1053,9 +1053,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//77
 			//Antrim, Armagh, Cavan, Derry, Donegal, Down, Fermanagh, Leitrim, Louth, Monaghan, Tyrone
@@ -1066,9 +1066,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Stone_Croft',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//England
 			//78
@@ -1082,7 +1082,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//79
 			//Essex, Hertfordshire, Middlesex
@@ -1093,9 +1093,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//80
 			//Gloucestershire, Warwickshire, Winchcombeshire, Worcestershire
@@ -1108,7 +1108,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//81
 			//Aylesfordshire, Kent, Shepwayshire
@@ -1121,7 +1121,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Marshland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//82
 			//Derbyshire, Leicestershire, Lincolnshire, Nothinghamshire, Rutland
@@ -1132,9 +1132,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//83
 			//Cheshire, Herefordshire, Shropshire, Staffordshire
@@ -1145,9 +1145,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//84
 			//Bedfordshire, Buckinghamshire, Cambridgeshire, Huntingdonshire, Northamptonshire, Oxfordshire
@@ -1173,7 +1173,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//86
 			//Arundelshire, Brambershire, Chichestershire, Leweshire, Pevenshire, Sussex
@@ -1184,9 +1184,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//87
 			//Berkshire, Dorsetshire, Hampshire, Somersetshire, Surrey, Wiltshire
@@ -1197,10 +1197,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Wales
 			//88
 			//Cornwall, Devonshire
@@ -1211,9 +1211,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//89
 			//Cardiganshire, Carmarthenshire, Pembrokeshire
@@ -1224,9 +1224,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//90
 			//Glamorgan, Monmouthshire
@@ -1237,9 +1237,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//91
 			//Anglesey, Caernarvonshire, Denbighshire, Flintshire
@@ -1252,7 +1252,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//92
 			//Brecknockshire, Montgomeryshire, Radnorshire
@@ -1265,7 +1265,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Scotland
 			//93
@@ -1277,9 +1277,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//94
 			//Berwickshire, Edinburghshire, Haddingtonshire, Lothian, Stirlingshire
@@ -1290,9 +1290,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//95
 			//Argyll, Bute, Mann
@@ -1305,7 +1305,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//96
 			//Cromartyshire, Elginshire, Invernessshire, Nairnshire, Sutherland
@@ -1318,7 +1318,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'				
+				'altitude' => 'Highland'
             ]);
 			//97
 			//Kirkcudbrightshire, Wigtownshire
@@ -1329,9 +1329,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//98
 			//Dumfriesshire, Peeblesshire, Roxburghshire, Selkirkshire
@@ -1342,9 +1342,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//99
 			//Ayrshire, Dunbartonshire, Lanarkshire, Renfrewshire
@@ -1355,9 +1355,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Tanistry',
 				'vernacular_architecture' => 'Half_Timbered_Studded',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Aragon
 			//Aragon
@@ -1372,7 +1372,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//101
 			//Bages, Barcelona, Bergueda, Llobregat, Maresme, Osona, Valles
@@ -1385,7 +1385,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//102
 			//Cerdanya, Conflent, Emporda, Girones, Razes, Ripolles, Rosello, Selva
@@ -1398,7 +1398,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//103
 			//Huesca, Jacetania, Ribagorza, Sobrarbe
@@ -1424,7 +1424,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//105
 			//Montsia, Tarragona, Tortosa
@@ -1437,8 +1437,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//106
 			//Albarracin, Teruel
             DB::table('duchies')->insert([
@@ -1450,7 +1450,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//107
 			//Aranda, Calatayud, Zaragoza
@@ -1463,8 +1463,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Navarre
 			//108
 			//Ayala, Gasteiz, Rioja
@@ -1477,7 +1477,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//109
 			//Donostialdea, Leitzaldea, Mungialdea, Tolosaldea
@@ -1490,7 +1490,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//110
 			//Estella, Irunerria, Sanguesa, Tafalla, Tudela, Ultzamaldea
@@ -1503,7 +1503,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//111
 			//Busturialdea, Bilbaoldea, Uribe
@@ -1516,7 +1516,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Castile
 			//Castile
@@ -1531,7 +1531,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//113
 			//Arlanza, Bureba, Burgos
@@ -1544,7 +1544,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//114
 			//Campos, Cerrato, Valdivia
@@ -1557,7 +1557,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//115
 			//Coca, Riaza, Segovia, Sepulveda
@@ -1570,7 +1570,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//116
 			//Almazan, Berlanga, Gomara, Osma, Soria
@@ -1583,7 +1583,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//117
 			//Jara, Madrid, Ocana, Sagra, Talavera, Toledo, Torrijos, Vegas
@@ -1596,7 +1596,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//118
 			//Esgueva, Medina, Pinares, Penafiel, Pisuerga, Rioseco
@@ -1609,7 +1609,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Galicia
 			//119
@@ -1623,7 +1623,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//120
 			//Lugo, Marina, Meira, Sarria, Ulloa
@@ -1636,7 +1636,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//121
 			//Carbalino, Celanova, Ourense, Valdeorras, Viana
@@ -1649,7 +1649,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//122
 			//Caldas, Pontevedra, Vigo
@@ -1662,7 +1662,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Leon
 			//123
@@ -1676,7 +1676,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//124
 			//Astorga, Baneza, Bierzo, Leon, Sahagun
@@ -1689,7 +1689,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//125
 			//Alba, Caceres, Cantalapiedra, Guijielo, Ledesma, Penaranda, Rodrigo, Salamanca, Vitigudino
@@ -1702,7 +1702,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//126
 			//Aliste, Carballeda, Guarena, Sanabria, Sayago, Tabara
@@ -1715,7 +1715,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Asturias
 			//127
@@ -1729,7 +1729,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//128
 			//Campoo, Liebana, Santander, Trasmiera
@@ -1742,7 +1742,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Portugal
 			//129
@@ -1756,7 +1756,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//130
 			//Branco, Coimbra, Guarda, Viseu
@@ -1769,7 +1769,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//131
 			//Braganca, Vila Real
@@ -1782,7 +1782,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Shrubland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//132
 			//Leiria, Lisboa, Ribatejo, Setubal
@@ -1795,7 +1795,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Danelagen
 			//Denmark
@@ -1810,7 +1810,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Grassland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//134
 			//Blekinge, Bornholm, Halland, Rugen, Scania
@@ -1821,9 +1821,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//135
 			//Funen, Lolland, Roskilde, Sjaeland, Soro
@@ -1836,7 +1836,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Grassland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Norway
 			//136
@@ -1850,7 +1850,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//137
 			//Islay, Lewis, Mull, Skye, Uist
@@ -1863,7 +1863,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//138
 			//Hadeland, Hedmark, Romerike
@@ -1876,7 +1876,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//139
 			//Jamtland, Namdal, Oppland, Trondelag
@@ -1902,7 +1902,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Temperate_Shrubland',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//141
 			//Agder, Grenland, Telemark
@@ -1913,9 +1913,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//142
 			//Hordaland, Romsdal, Vestland
@@ -1939,9 +1939,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Sweden
 			//144
@@ -1953,9 +1953,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//145
 			//Angermanland, Gastrikland, Halsingland
@@ -1966,9 +1966,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//146
 			//Aland, Finland, Karelia, Nyland, Ostrobothnia, Satakunta, Savonia, Tavastland
@@ -1979,9 +1979,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//147
 			//Oland, Smaland
@@ -1992,9 +1992,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//148
 			//Dalarna, Narke, Sodermanland, Uppland, Varmland, Vastmanland
@@ -2005,9 +2005,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Stave',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Poland
 			//Poland
@@ -2020,9 +2020,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//150
 			//Auswitz, Chrzanow, Sandez, Tarnow, Wadowitz, Lublin, Lukow, Sandomierz
@@ -2033,9 +2033,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//151
 			//Gnesen, Kolo, Kunau, Slupca, Turek, Znin
@@ -2046,9 +2046,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//152
 			//Kalisz, Pleschen, Schildberg, Wielun, Wreschen
@@ -2059,10 +2059,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);			
+				'altitude' => 'Montane'
+            ]);
 			//153
 			//Krakow, Olkusz, Czestochowa, Gorlitz
             DB::table('duchies')->insert([
@@ -2072,9 +2072,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//154
 			//Brodnica, Inowroclaw, Leipe, Mogilno, Naklo, Radziejow
@@ -2085,9 +2085,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//155
 			//Losice, Makow, Minsk, Zuromin, Rawa, Wizna
@@ -2098,9 +2098,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//156
 			//Plock, Gostynin, Mlawa
@@ -2111,9 +2111,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//157
 			//Posen, Chodziez, Pila, Rogasen, Samter, Scharnikau, Schrim
@@ -2124,9 +2124,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//158
 			//Sieradz, Radom, Lentschitz
@@ -2137,9 +2137,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//159
 			//Warsaw, Czersk
@@ -2150,9 +2150,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Lithuania
 			//160
@@ -2164,9 +2164,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//161
 			//Panevezys, Schaulen, Redau 
@@ -2177,9 +2177,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//162
 			//Alytus, Kauen, Tracken 
@@ -2190,9 +2190,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//163
 			//Vilnius, Kernave
@@ -2203,9 +2203,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Hungary
 			//Hungary
@@ -2220,7 +2220,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//165
 			//Baranya, Esztergom, Fejer, Heves, Pest, Szolnok
@@ -2233,7 +2233,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//166
 			//Nitra, Arva, Bars, Hont, Komarom, Lipto, Orava, Pozsony, Trencsen, Zolyom
@@ -2244,9 +2244,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//167
 			//Temesvar, Arad, Bihar, Caransebes
@@ -2257,9 +2257,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//168
 			//Ungvar, Bereg, Borsod, Hajdu, Szabolcs, Szatmar, Szepes, Zemplen
@@ -2272,8 +2272,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//169
 			//Aranyosszek, Csikszek, Haromzsek, Koloszvar, Marosszek, Udvarhelyszek
             DB::table('duchies')->insert([
@@ -2283,10 +2283,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Croatia
 			//170
 			//Bribir, Knin, Krbava, Lika, Modrus
@@ -2299,7 +2299,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//171
 			//Ragusa, Cetina, Kotor
@@ -2312,7 +2312,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//172
 			//Zagreb, Bjelovar, Pozega, Syrmia, Varazdin, Veroce
@@ -2325,7 +2325,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//173
 			//Split, Trogir
@@ -2338,7 +2338,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//174
 			//Zadar, Cres, Veglia
@@ -2351,7 +2351,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Trinacria
 			//Sicily
@@ -2366,8 +2366,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//176
 			//Trapani
             DB::table('duchies')->insert([
@@ -2379,8 +2379,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//177
 			//Messina
             DB::table('duchies')->insert([
@@ -2392,8 +2392,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//178
 			//Agrigento
             DB::table('duchies')->insert([
@@ -2405,7 +2405,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//179
 			//Catania
@@ -2418,7 +2418,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//180
 			//Siracusa
@@ -2431,7 +2431,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//Naples
 			//181
@@ -2445,8 +2445,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//182
 			//Capua, Caserta
             DB::table('duchies')->insert([
@@ -2458,8 +2458,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//183
 			//Amalfi, Sorrento
             DB::table('duchies')->insert([
@@ -2471,8 +2471,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//184
 			//Catanzaro, Cosenza, Crotone, Reggio
             DB::table('duchies')->insert([
@@ -2484,8 +2484,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//185
 			//Matera, Potenza
             DB::table('duchies')->insert([
@@ -2497,8 +2497,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//186
 			//Taranto, Bari, Brindisi, Lecce
             DB::table('duchies')->insert([
@@ -2510,8 +2510,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//187
 			//Foggia
             DB::table('duchies')->insert([
@@ -2523,8 +2523,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//188
 			//Benevento
             DB::table('duchies')->insert([
@@ -2536,8 +2536,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//189
 			//Salerno
             DB::table('duchies')->insert([
@@ -2549,8 +2549,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Sardinia
 			//190
 			//
@@ -2563,7 +2563,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//191
 			//Torres
@@ -2576,8 +2576,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//192
 			//Oristano, Sassari, Tharros
             DB::table('duchies')->insert([
@@ -2589,8 +2589,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//193
 			//Cagliari
             DB::table('duchies')->insert([
@@ -2602,8 +2602,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Byzantine		
 			//Thrace
 			//
@@ -2617,7 +2617,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Adrianople, Bergule, Traianopolis
@@ -2630,8 +2630,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Thessalonica
 			//
 			//Attica, Boeotia, Euboea, Thessaly
@@ -2644,8 +2644,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Corinthia, Argos, Patras, Laconia
             DB::table('duchies')->insert([
@@ -2657,7 +2657,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Chios
@@ -2670,7 +2670,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Candia
@@ -2683,7 +2683,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Naupaktos
@@ -2696,7 +2696,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);		
 			//
 			//Thessalonica
@@ -2709,7 +2709,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Serres, Christoupolis
@@ -2722,8 +2722,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Trebizond
 			//
 			//Germanicopolis
@@ -2734,10 +2734,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Amasia
             DB::table('duchies')->insert([
@@ -2747,10 +2747,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Trapezus
             DB::table('duchies')->insert([
@@ -2760,10 +2760,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Chersonesus
             DB::table('duchies')->insert([
@@ -2775,8 +2775,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Anatolia
 			//
 			//Samos, Ephesos, Smyrna
@@ -2789,7 +2789,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Sardes
@@ -2802,8 +2802,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Ancyra
             DB::table('duchies')->insert([
@@ -2815,7 +2815,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Iconium
@@ -2828,7 +2828,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Caesarea
@@ -2841,7 +2841,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Seleucea, Adana, Tarsos
@@ -2854,7 +2854,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Cyzicus
@@ -2867,7 +2867,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Nicaea
@@ -2880,7 +2880,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Rhodes
@@ -2893,7 +2893,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//
 			//Attaleia
@@ -2906,8 +2906,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);							
+				'altitude' => 'Montane'
+            ]);			
 			//Georgia
 			//
 			//Phasis, Pityus, Imereti
@@ -2918,9 +2918,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Akhalkalaki
@@ -2931,9 +2931,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Bolnisi, Tiblisi, Rustavi, Gori
@@ -2944,9 +2944,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Telavi
@@ -2957,10 +2957,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Armenia
 			//
 			//Van
@@ -2971,10 +2971,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Acilisene, Karapet
             DB::table('duchies')->insert([
@@ -2984,10 +2984,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Kars
             DB::table('duchies')->insert([
@@ -2997,10 +2997,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Baku, Rasht
             DB::table('duchies')->insert([
@@ -3010,9 +3010,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Stone_Adjar',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Kievan Rus
 			//Kyiv
@@ -3025,9 +3025,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Pereyaslavl
@@ -3038,9 +3038,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Chernigov
 			//
@@ -3052,10 +3052,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);					
+				'altitude' => 'Montane'
+            ]);	
 			//
 			//Ryazan, Murom, Tula, Kaluga, Vorotynsk
             DB::table('duchies')->insert([
@@ -3065,10 +3065,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);						
+				'altitude' => 'Montane'
+            ]);		
 			//Ruthenia
 			//
 			//Halych, Peremyshl, Lviv, Belz
@@ -3079,9 +3079,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Podolia, Terebovlia
@@ -3092,9 +3092,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Volhynia, Brest, Kremenets, Lutsk
@@ -3105,9 +3105,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Turov, Slutsk
@@ -3118,10 +3118,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Vladimir
 			//
 			//Vladimir, Vyazniki, Nizhny Novgorod
@@ -3132,10 +3132,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Moscow, Dmitrov, Volokolamsk, Zvenigorod
             DB::table('duchies')->insert([
@@ -3145,9 +3145,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Suzdal, Yuryev
@@ -3158,9 +3158,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//Smolensk
 			//
@@ -3172,9 +3172,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);		
 			//
 			//Rzhev, Zubtsov
@@ -3185,9 +3185,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tver, Galich, Kostroma, Pereslavl, Rostov, Yaroslavl
@@ -3198,9 +3198,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Half_Timbered_Khata',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Novgorod
 			//
@@ -3212,9 +3212,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Polotsk
@@ -3225,10 +3225,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);			
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Pleskov, Kholm
             DB::table('duchies')->insert([
@@ -3238,10 +3238,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'vernacular_architecture' => 'Log_Izba',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);		
+				'altitude' => 'Montane'
+            ]);
 			//Bulgaria
 			//Bulgaria
 			//
@@ -3255,8 +3255,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);		
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Tarnovo
             DB::table('duchies')->insert([
@@ -3268,8 +3268,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Wallachia
 			//
 			//Targoviste
@@ -3280,10 +3280,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Suceava
             DB::table('duchies')->insert([
@@ -3293,10 +3293,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Konak',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Serbia
 			//Serbia
 			//
@@ -3308,9 +3308,9 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//
@@ -3321,10 +3321,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Bosnia
 			//
 			//Srebrenik
@@ -3335,10 +3335,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);		
+				'altitude' => 'Montane'
+            ]);
 			//
 			//
             DB::table('duchies')->insert([
@@ -3348,10 +3348,10 @@ class DuchySeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Log_Chalet',
 				'law_court' => 'Itinerant',	
-				'vegetation' => 'Temperate_Woodland',	
+				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);							
+				'altitude' => 'Montane'
+            ]);
 			//Cordoba
 			//Andalucia
 			//
@@ -3365,7 +3365,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Almeria, Baza
@@ -3378,8 +3378,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);	
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Cadiz, Jerez, Sanlucar
             DB::table('duchies')->insert([
@@ -3391,8 +3391,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Lowland'				
-            ]);	
+				'altitude' => 'Lowland'
+            ]);
 			//
 			//Carmona, Ecija
             DB::table('duchies')->insert([
@@ -3404,7 +3404,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Andujar, Carpio, Cordoba, Martos, Pedroche
@@ -3417,7 +3417,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Alpujarra, Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
@@ -3430,7 +3430,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Alhama, Antequera, Loja, Malaga
@@ -3443,7 +3443,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Marbella, Ronda
@@ -3456,7 +3456,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Aljarafe, Estepa, Sevilla
@@ -3469,8 +3469,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Algarves
 			//
 			//Faro, Mertola, Silves
@@ -3483,7 +3483,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Badajoz, Beja, Evora, Guadiana, Llerena, Merida, Olivenza, Portalegre, Serena
@@ -3496,7 +3496,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Aracena, Huelva, Niebla
@@ -3509,8 +3509,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Levante
 			//
 			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serranos
@@ -3523,7 +3523,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Ibiza, Mallorca, Menorca
@@ -3536,7 +3536,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Albacete, Alcaraz, Alcira, Alcoy, Alicante, Almagro, Chinchilla, Cofrentes, Denia, Jativa, Montesa
@@ -3549,7 +3549,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Cartagena, Cieza, Hellin, Lorca, Murcia, Orihuela, Segura
@@ -3562,7 +3562,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Castellon, Morella, Peniscola, San Clemente, Valencia
@@ -3575,7 +3575,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//Almohad
 			//Marrakesh
@@ -3590,7 +3590,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Khenifra, Mellal
@@ -3603,7 +3603,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Tafilalt, Merzouga, Erfoud
@@ -3616,7 +3616,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Ouarzazate, Zagora, Tinghir
@@ -3629,7 +3629,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Fez
 			//
@@ -3643,7 +3643,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Rabat, Mehdya
@@ -3656,7 +3656,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tangier, Tetouan, Kebir, Ouazzane
@@ -3669,8 +3669,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Kairouan
 			//
 			//Kairouan, 
@@ -3683,7 +3683,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tunis, Bizerte
@@ -3696,7 +3696,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Djerid,
@@ -3709,7 +3709,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tripoli,
@@ -3722,7 +3722,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);		
 			//
 			//Sirte,
@@ -3735,8 +3735,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Tlemcen
 			//
 			//Tlemcen,
@@ -3749,7 +3749,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Oujda,
@@ -3762,7 +3762,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Oran,
@@ -3775,7 +3775,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Algiers,
@@ -3788,7 +3788,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Marshland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tiaret,
@@ -3801,7 +3801,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Mzab,
@@ -3814,8 +3814,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Laghouat,
             DB::table('duchies')->insert([
@@ -3827,7 +3827,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Djelfa,
@@ -3840,8 +3840,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Ifni
 			//
 			//Ifni, Tiznit
@@ -3854,7 +3854,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Taroudant, Agadir
@@ -3867,7 +3867,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);			
 			//Figuig
 			//
@@ -3881,7 +3881,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tuat, Tademait
@@ -3894,8 +3894,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Abbasid
 			//Baghdad
 			//
@@ -3909,8 +3909,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Syria
 			//Damascus
 			//
@@ -3924,7 +3924,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Aleppo,
@@ -3937,7 +3937,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Homs, Tripoli, Beirut, Sidon, Tyre
@@ -3950,8 +3950,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Najd
 			//
 			//Najd,
@@ -3964,8 +3964,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Antioch
 			//
 			//Antioch,
@@ -3978,7 +3978,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ])			
 			//Fatimid
 			//Cairo
@@ -3993,7 +3993,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Alexandria, Damanhur, Rosetta
@@ -4006,7 +4006,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Mansoura,
@@ -4019,7 +4019,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Damietta,
@@ -4032,7 +4032,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Minya,
@@ -4045,7 +4045,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Asyut,
@@ -4058,7 +4058,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Kharga, Dakhla
@@ -4071,7 +4071,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Baritun, Siwa, Natrun
@@ -4084,7 +4084,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Boula, Hammamat
@@ -4097,7 +4097,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Jerusalem
 			//
@@ -4111,7 +4111,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Tiberias, Banias, Haifa 
@@ -4124,7 +4124,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Mediterranean_Woodland',	
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Hejaz
 			//
@@ -4138,7 +4138,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Medina, Yanbu, Khaybar
@@ -4151,7 +4151,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Tabuk, Sharat, Hegra
@@ -4164,8 +4164,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Khazar
 			//Khazaria
 			//
@@ -4179,8 +4179,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Sarkel,
             DB::table('duchies')->insert([
@@ -4192,8 +4192,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Atil,
             DB::table('duchies')->insert([
@@ -4205,8 +4205,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Bolghar,
             DB::table('duchies')->insert([
@@ -4218,8 +4218,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Bilar,
             DB::table('duchies')->insert([
@@ -4231,8 +4231,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Alania
 			//
 			//Derbent,
@@ -4245,8 +4245,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Azov,
             DB::table('duchies')->insert([
@@ -4258,8 +4258,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Cumania
 			//
 			//Sighnaq,
@@ -4272,8 +4272,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Sozak,
             DB::table('duchies')->insert([
@@ -4285,8 +4285,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//
 			//Sibir,
             DB::table('duchies')->insert([
@@ -4298,8 +4298,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Steppe',	
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Seljuk
 			//Kwarezm
 			//
@@ -4313,7 +4313,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Khiva, Durghan
@@ -4326,7 +4326,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//
 			//Merv, Sarakhs, Bereket
@@ -4339,7 +4339,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);
 			//Isfahan
 			//
@@ -4353,7 +4353,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Shiraz,
@@ -4366,8 +4366,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			//Hormuz
 			//
 			//Hormuz, Minab, Bandar, Lengeh
@@ -4380,7 +4380,7 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Marshland',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
+				'altitude' => 'Montane'
             ]);	
 			//
 			//Kerman, Bam, Rafsinjan
@@ -4393,8 +4393,8 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',	
 				'vegetation' => 'Desert_Oasis',	
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'				
-            ]);				
+				'altitude' => 'Montane'
+            ]);
 			
     }
 }

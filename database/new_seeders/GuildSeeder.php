@@ -18532,6 +18532,18 @@ class GuildSeeder extends Seeder
 			'county' => '872',
 			'barony' => ''
 		]);
+		//Wreschen
+		//Wreschen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Wreschen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '152',
+			'county' => '873',
+			'barony' => ''
+		]);
 		//Krakow
 		//Krakow
 		//Krakow
@@ -18546,13 +18558,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Krakow',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '153',
-			'county' => '',
+			'county' => '874',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([

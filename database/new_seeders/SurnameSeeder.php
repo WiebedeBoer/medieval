@@ -2090,6 +2090,1365 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''
             ]);
+			//Britain
+			//Ireland
+			//Connacht
+            DB::table('surnames')->insert([
+				'surname_duchy' => '73',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '73',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Leinster
+            DB::table('surnames')->insert([
+				'surname_duchy' => '74',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '74',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Meath
+            DB::table('surnames')->insert([
+				'surname_duchy' => '75',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '75',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Munster
+            DB::table('surnames')->insert([
+				'surname_duchy' => '76',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '76',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Ulster
+            DB::table('surnames')->insert([
+				'surname_duchy' => '77',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '77',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//England
+			//East Anglia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '78',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '78',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Essex
+            DB::table('surnames')->insert([
+				'surname_duchy' => '79',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '79',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Hwicce
+            DB::table('surnames')->insert([
+				'surname_duchy' => '80',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '80',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kent
+            DB::table('surnames')->insert([
+				'surname_duchy' => '81',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '81',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Lindsey
+            DB::table('surnames')->insert([
+				'surname_duchy' => '82',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '82',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Mercia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '83',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '83',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Mid Anglia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '84',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '84',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Northumbria
+            DB::table('surnames')->insert([
+				'surname_duchy' => '85',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '85',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sussex
+            DB::table('surnames')->insert([
+				'surname_duchy' => '86',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '86',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Wessex
+            DB::table('surnames')->insert([
+				'surname_duchy' => '87',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '87',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Wales
+			//Cornwall
+            DB::table('surnames')->insert([
+				'surname_duchy' => '88',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '88',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Dyfed
+            DB::table('surnames')->insert([
+				'surname_duchy' => '89',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '89',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Gwent
+            DB::table('surnames')->insert([
+				'surname_duchy' => '90',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '90',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Gwyned
+            DB::table('surnames')->insert([
+				'surname_duchy' => '91',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '91',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Powys
+            DB::table('surnames')->insert([
+				'surname_duchy' => '92',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '92',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Scotland
+			//Alba
+            DB::table('surnames')->insert([
+				'surname_duchy' => '93',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '93',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Bernicia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '94',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '94',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Dalriada
+            DB::table('surnames')->insert([
+				'surname_duchy' => '95',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '95',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Fortriu
+            DB::table('surnames')->insert([
+				'surname_duchy' => '96',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '96',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Galloway
+            DB::table('surnames')->insert([
+				'surname_duchy' => '97',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '97',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Gododdin
+            DB::table('surnames')->insert([
+				'surname_duchy' => '98',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '98',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Strathclyde
+            DB::table('surnames')->insert([
+				'surname_duchy' => '99',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '99',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Aragon
+			//Aragon
+			//Aragon
+            DB::table('surnames')->insert([
+				'surname_duchy' => '100',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '100',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Barcelona
+            DB::table('surnames')->insert([
+				'surname_duchy' => '101',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '101',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Girona
+            DB::table('surnames')->insert([
+				'surname_duchy' => '102',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '102',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Huesca
+            DB::table('surnames')->insert([
+				'surname_duchy' => '103',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '103',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Lleida
+            DB::table('surnames')->insert([
+				'surname_duchy' => '104',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '104',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Tarragona
+            DB::table('surnames')->insert([
+				'surname_duchy' => '105',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '105',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Teruel
+            DB::table('surnames')->insert([
+				'surname_duchy' => '106',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '106',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Zaragoza
+            DB::table('surnames')->insert([
+				'surname_duchy' => '107',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '107',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Navarre
+			//Alava
+            DB::table('surnames')->insert([
+				'surname_duchy' => '108',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '108',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Gipuzcoa
+            DB::table('surnames')->insert([
+				'surname_duchy' => '109',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '109',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Navarre
+            DB::table('surnames')->insert([
+				'surname_duchy' => '110',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '110',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Viscaya
+            DB::table('surnames')->insert([
+				'surname_duchy' => '111',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '111',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Castile
+			//Castile
+			//Avila
+            DB::table('surnames')->insert([
+				'surname_duchy' => '112',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '112',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Burgos
+            DB::table('surnames')->insert([
+				'surname_duchy' => '113',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '113',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Palencia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '114',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '114',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Segovia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '115',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '115',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Soria
+            DB::table('surnames')->insert([
+				'surname_duchy' => '116',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '116',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Toledo
+            DB::table('surnames')->insert([
+				'surname_duchy' => '117',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '117',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Valladolid
+            DB::table('surnames')->insert([
+				'surname_duchy' => '118',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '118',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Galicia
+			//Coruna
+            DB::table('surnames')->insert([
+				'surname_duchy' => '119',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '119',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Lugo
+            DB::table('surnames')->insert([
+				'surname_duchy' => '120',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '120',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Ourense
+            DB::table('surnames')->insert([
+				'surname_duchy' => '121',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '121',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Pontevedra
+            DB::table('surnames')->insert([
+				'surname_duchy' => '122',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '122',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Leon
+			//Caceres
+            DB::table('surnames')->insert([
+				'surname_duchy' => '123',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '123',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Leon
+            DB::table('surnames')->insert([
+				'surname_duchy' => '124',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '124',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Salamanca
+            DB::table('surnames')->insert([
+				'surname_duchy' => '125',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '125',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Zamora
+            DB::table('surnames')->insert([
+				'surname_duchy' => '126',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '126',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Asturias
+			//Asturias
+            DB::table('surnames')->insert([
+				'surname_duchy' => '127',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '127',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Cantabria
+            DB::table('surnames')->insert([
+				'surname_duchy' => '128',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '128',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Portugal
+			//Aveiro
+            DB::table('surnames')->insert([
+				'surname_duchy' => '129',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '129',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Beira
+            DB::table('surnames')->insert([
+				'surname_duchy' => '130',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '130',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Braganca
+            DB::table('surnames')->insert([
+				'surname_duchy' => '131',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '131',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Estremadura
+            DB::table('surnames')->insert([
+				'surname_duchy' => '132',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '132',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Danelagen
+			//Denmark
+			//Jutland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '133',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '133',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Scania
+            DB::table('surnames')->insert([
+				'surname_duchy' => '134',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '134',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sjaeland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '135',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '135',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Norway
+			//Nordjor
+            DB::table('surnames')->insert([
+				'surname_duchy' => '136',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '136',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sodor
+            DB::table('surnames')->insert([
+				'surname_duchy' => '137',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '137',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Hedmark
+            DB::table('surnames')->insert([
+				'surname_duchy' => '138',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '138',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Oppland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '139',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '139',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Rogaland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '140',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '140',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sorland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '141',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '141',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Vestland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '142',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '142',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Viken
+            DB::table('surnames')->insert([
+				'surname_duchy' => '143',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '143',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sweden
+			//Gotland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '144',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '144',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Norrland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '145',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '145',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Osterland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '146',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '146',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Smaland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '147',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '147',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Svealand
+            DB::table('surnames')->insert([
+				'surname_duchy' => '148',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '148',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Poland
+			//Poland
+			//Greater Poland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '149',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '149',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Lesser Poland
+            DB::table('surnames')->insert([
+				'surname_duchy' => '150',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '150',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Gnesen
+            DB::table('surnames')->insert([
+				'surname_duchy' => '151',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '151',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kalisz
+            DB::table('surnames')->insert([
+				'surname_duchy' => '152',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '152',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Krakow
+            DB::table('surnames')->insert([
+				'surname_duchy' => '153',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '153',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kuyavia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '154',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '154',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Mazovia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '155',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '155',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Plock
+            DB::table('surnames')->insert([
+				'surname_duchy' => '156',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '156',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Posen
+            DB::table('surnames')->insert([
+				'surname_duchy' => '157',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '157',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sieradz
+            DB::table('surnames')->insert([
+				'surname_duchy' => '158',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '158',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Warsaw
+            DB::table('surnames')->insert([
+				'surname_duchy' => '159',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '159',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Lithuania
+			//Minsk
+            DB::table('surnames')->insert([
+				'surname_duchy' => '160',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '160',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Samogitia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '161',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '161',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Tracken
+            DB::table('surnames')->insert([
+				'surname_duchy' => '162',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '162',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Vilnius
+            DB::table('surnames')->insert([
+				'surname_duchy' => '163',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '163',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Hungary
+			//Hungary
+			//Hungary
+            DB::table('surnames')->insert([
+				'surname_duchy' => '164',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '164',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Buda
+            DB::table('surnames')->insert([
+				'surname_duchy' => '165',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '165',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Nitra
+            DB::table('surnames')->insert([
+				'surname_duchy' => '166',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '166',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Temesvar
+            DB::table('surnames')->insert([
+				'surname_duchy' => '167',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '167',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Ungvar
+            DB::table('surnames')->insert([
+				'surname_duchy' => '168',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '168',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Transylvania
+            DB::table('surnames')->insert([
+				'surname_duchy' => '169',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '169',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Croatia
+			//Dalmatia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '170',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '170',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Ragusa
+            DB::table('surnames')->insert([
+				'surname_duchy' => '171',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '171',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Slavonia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '172',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '172',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Split
+            DB::table('surnames')->insert([
+				'surname_duchy' => '173',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '173',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Zadar
+            DB::table('surnames')->insert([
+				'surname_duchy' => '174',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '174',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Trinacria
+			//Sicily
+			//Palermo
+            DB::table('surnames')->insert([
+				'surname_duchy' => '175',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '175',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Trapani
+            DB::table('surnames')->insert([
+				'surname_duchy' => '176',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '176',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Messina
+            DB::table('surnames')->insert([
+				'surname_duchy' => '177',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '177',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Agrigento
+            DB::table('surnames')->insert([
+				'surname_duchy' => '178',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '178',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Catania
+            DB::table('surnames')->insert([
+				'surname_duchy' => '179',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '179',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Siracusa
+            DB::table('surnames')->insert([
+				'surname_duchy' => '180',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '180',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Naples
+			//Naples
+            DB::table('surnames')->insert([
+				'surname_duchy' => '181',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '181',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Capua
+            DB::table('surnames')->insert([
+				'surname_duchy' => '182',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '182',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Amalfi
+            DB::table('surnames')->insert([
+				'surname_duchy' => '183',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '183',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Calabria
+            DB::table('surnames')->insert([
+				'surname_duchy' => '184',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '184',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Basilicata
+            DB::table('surnames')->insert([
+				'surname_duchy' => '185',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '185',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Taranto
+            DB::table('surnames')->insert([
+				'surname_duchy' => '186',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '186',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Foggia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '187',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '187',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Benevento
+            DB::table('surnames')->insert([
+				'surname_duchy' => '188',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '188',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Salerno
+            DB::table('surnames')->insert([
+				'surname_duchy' => '189',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '189',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Sardinia
+			//Gallura
+            DB::table('surnames')->insert([
+				'surname_duchy' => '190',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '190',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Logudoro
+            DB::table('surnames')->insert([
+				'surname_duchy' => '191',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '191',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Arborea
+            DB::table('surnames')->insert([
+				'surname_duchy' => '192',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '192',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Cagliari
+            DB::table('surnames')->insert([
+				'surname_duchy' => '193',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '193',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
 			
     }
 }
