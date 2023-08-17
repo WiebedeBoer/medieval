@@ -15,7 +15,7 @@ class GuildSeeder extends Seeder
 		//example
 		DB::table('guilds')->insert([
 			'guild_name' => '',					//total = guilds
-			'guild_category' => '',				//Assembly (318), Chivalric (23), Monastic (13), Cleric (6), Feast (917), Craft (356)
+			'guild_category' => '',				//Court (324), Chivalric (23), Monastic (13), Cleric (6), Feast (1011), Craft (700)
 			'guild_subcategory' => '',			//Baron (285), Bishop (19), Patrician (14); 
 												//Crusader_Teutonic (1), Crusader_Hospitaller (1), Crusader_Templar(1), Crusader_Common (9),
 												//Knight (11); 
@@ -43,11 +43,11 @@ class GuildSeeder extends Seeder
 		//
 		//Cathedral_School | Monastic_School:			University	Scholar						(103)
 		//
-		//Guild_Potter:									Craft		Master_Potter				(60)
-		//Guild_Smith:									Craft		Master_Smith				(51)
-		//Guild_Tanner:									Craft		Master_Tanner				(81)
-		//Guild_Furrier:								Craft		Master_Furrier				(7)
-		//Guild_Silk:									Craft		Master_Silk_Weaver			(32)
+		//Guild_Potter:									Craft		Master_Potter				(63)
+		//Guild_Smith:									Craft		Master_Smith				(57)
+		//Guild_Tanner:									Craft		Master_Tanner				(87)
+		//Guild_Furrier:								Craft		Master_Furrier				(10)
+		//Guild_Silk:									Craft		Master_Silk_Weaver			(37)
 		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron			(33)
 		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(7)
 		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad			(56)
@@ -60,18 +60,18 @@ class GuildSeeder extends Seeder
 		//Arsenal:										Craft		Master_Mariner				(49)
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher				(15)
-		//Guild_Joiner:									Craft		Master_Joiner				(4)
+		//Guild_Joiner:									Craft		Master_Joiner				(8)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger			(22)
-		//Guild_Miller:									Craft		Master_Miller				(40)
-		//Guild_Fuller:									Craft		Master_Fuller				(26)
+		//Guild_Miller:									Craft		Master_Miller				(42)
+		//Guild_Fuller:									Craft		Master_Fuller				(28)
 		//Guild_Vintner:								Craft		Master_Vintner				(31)
-		//Guild_Chandler:								Craft		Master_Chandler				(20)
-		//Guild_Ironworks:								Craft		Master_Ironmonger			(22)
+		//Guild_Chandler:								Craft		Master_Chandler				(22)
+		//Guild_Ironworks:								Craft		Master_Ironmonger			(30)
 		//
-		//Tiltyard:										Feast		Tournament					(492)
-		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair						(188)
-		//Coaching_Inn:									Feast		Tavern						(135)
-		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(43)
+		//Tiltyard:										Feast		Tournament					(512)
+		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair						(202)
+		//Coaching_Inn:									Feast		Tavern						(152)
+		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(46)
 		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(80)
 		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer				(15)
 		*/
