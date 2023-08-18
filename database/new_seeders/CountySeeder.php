@@ -15288,7 +15288,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//885
-			//makow, razon, ostroleka, wyszkow, pultusk, przasnysz, ciechanow
+			//makow, rozan, ostroleka, pomian, wyszkow, pultusk, przasnysz, ciechanow
             DB::table('counties')->insert([
 				'county_name' => 'Makow',
 				'county_category' => 'Feudal_Manor',
@@ -15298,7 +15298,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Polish',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Honey',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',

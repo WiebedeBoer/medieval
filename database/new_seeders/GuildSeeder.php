@@ -18813,6 +18813,73 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Mazovia
+		//Losice
+		//Losice
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Losice',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '884',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Losice',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '884',
+			'barony' => ''
+		]);
+		//Sokolow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Sokolow',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '884',
+			'barony' => ''
+		]);
+		//Makow
+		//Pomian
+		DB::table('guilds')->insert([
+			'guild_name' => 'Joiners Guild of Pomian',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Joiner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '885',
+			'barony' => ''
+		]);
+		//Pultusk
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Pultusk',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '885',
+			'barony' => ''
+		]);
+		//Pultusk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Makow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '885',
+			'barony' => ''
+		]);
 		//
 		//
 		DB::table('guilds')->insert([
