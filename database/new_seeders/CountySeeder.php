@@ -15168,7 +15168,7 @@ class CountySeeder extends Seeder
             ]);
 			//Kuyavia
 			//878
-			//brodnica, jablonow, gorzino
+			//brodnica, kruszyny, jablonow, gorzino
             DB::table('counties')->insert([
 				'county_name' => 'Brodnica',
 				'county_category' => 'Feudal_Manor',
@@ -15178,10 +15178,10 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Polish',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Honey',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//879
@@ -15197,12 +15197,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//880
-			//leipe, dobrin, skepe, rypin, leslau
+			//leipe, dobrin, zbyszewo, skepe, rypin, leslau
             DB::table('counties')->insert([
 				'county_name' => 'Leipe',
 				'county_category' => 'Feudal_Manor',
@@ -15210,7 +15210,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Polish',
 				'vernacular_culture' => 'Polish',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Windmill',
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',

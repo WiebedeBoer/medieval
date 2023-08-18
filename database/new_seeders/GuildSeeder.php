@@ -18722,10 +18722,43 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Kuyavia
-		//
-		//
+		//Brodnica
+		//Brodnica
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Skinners Guild of Brodnica',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Furrier',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '154',
+			'county' => '878',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Brodnica',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '154',
+			'county' => '878',
+			'barony' => ''
+		]);
+		//Kruszyny
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Kruszyny',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '154',
+			'county' => '878',
+			'barony' => ''
+		]);
+		//Inowroclaw
+		//Inowroclaw
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Kuyavia',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -18735,13 +18768,48 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Inowroclaw',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '154',
-			'county' => null,
+			'county' => '879',
+			'barony' => ''
+		]);
+		//Leipe
+		//Dobrin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Dobrin',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '154',
+			'county' => '880',
+			'barony' => ''
+		]);
+		//Zbyszewo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Zbyszewo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '154',
+			'county' => '880',
+			'barony' => ''
+		]);
+		//Radziejow
+		//Radziejow
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Radziejow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '154',
+			'county' => '883',
 			'barony' => ''
 		]);
 		//Mazovia
