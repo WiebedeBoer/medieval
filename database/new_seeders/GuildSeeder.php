@@ -18835,6 +18835,16 @@ class GuildSeeder extends Seeder
 			'county' => '884',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Losice',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '155',
+			'county' => '884',
+			'barony' => ''
+		]);
 		//Sokolow
 		DB::table('guilds')->insert([
 			'guild_name' => 'Potters Guild of Sokolow',
@@ -18880,22 +18890,12 @@ class GuildSeeder extends Seeder
 			'county' => '885',
 			'barony' => ''
 		]);
-		//
-		//
+		//Rawa
+		//Rawa
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Mazovia',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '155',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '155',
@@ -18903,10 +18903,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Plock
-		//
-		//
+		//Plock
+		//Plock
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Plock',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -18915,14 +18915,59 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Wyszogrod
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Skinners Guild of Wyszogrod',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Furrier',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '156',
+			'county' => '890',
+			'barony' => ''
+		]);
+		//Sochaczew
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sochaczew',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '156',
+			'county' => '890',
+			'barony' => ''
+		]);
+		//Mlawa
+		//Mlawa
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Mlawa',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '156',
-			'county' => null,
+			'county' => '892',
+			'barony' => ''
+		]);
+		//Szrensk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Szrensk',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '156',
+			'county' => '892',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Szrensk',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '156',
+			'county' => '892',
 			'barony' => ''
 		]);
 		//Posen
@@ -18939,13 +18984,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Posen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '157',
-			'county' => null,
+			'county' => '893',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -18956,6 +19001,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '157',
 			'county' => '893',
+			'barony' => ''
+		]);
+		//Moschin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Posen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '893',
+			'barony' => ''
+		]);
+		//Chodziez
+		//Chodziez
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Chodziez',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '894',
 			'barony' => ''
 		]);
 		//Sieradz
