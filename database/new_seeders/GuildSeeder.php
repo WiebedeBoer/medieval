@@ -19026,11 +19026,57 @@ class GuildSeeder extends Seeder
 			'county' => '894',
 			'barony' => ''
 		]);
-		//Sieradz
-		//
-		//
+		//Pila
+		//Wirsitz
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Forest of Kranja',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '896',
+			'barony' => ''
+		]);
+		//Lobsens
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Kranja',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '896',
+			'barony' => ''
+		]);
+		//Krojanke
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Kranja',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '896',
+			'barony' => ''
+		]);
+		//Samter
+		//Samter
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Samter',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '898',
+			'barony' => ''
+		]);
+		//Sieradz
+		//Sieradz
+		//Sieradz
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Sieradz',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
