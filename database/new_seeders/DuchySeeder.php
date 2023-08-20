@@ -2169,7 +2169,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//161
-			//Lahoysk
+			//Lahoysk, Barysaw
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lahoysk',
 				'duchy_category' => 'Feudal_Estate',
@@ -2182,7 +2182,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//162
-			//Panevezys, Schaulen, Redau 
+			//Panevezys, Schaulen, Redau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Samogitia',
 				'duchy_category' => 'Feudal_Estate',
@@ -2193,7 +2193,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ]);	
+            ]);
 			//163
 			//Alytus, Kauen, Tracken 
             DB::table('duchies')->insert([
@@ -2206,7 +2206,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ]);	
+            ]);
 			//164
 			//Vilnius, Kernave
             DB::table('duchies')->insert([

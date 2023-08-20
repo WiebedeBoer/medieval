@@ -19246,13 +19246,94 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of Minksk',
+			'guild_name' => 'Tournament of Minsk',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '160',
 			'county' => '906',
+			'barony' => ''
+		]);
+		//Gomel
+		//Gomel
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Gomel',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '160',
+			'county' => '907',
+			'barony' => ''
+		]);
+		//Dobrush
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '160',
+			'county' => '907',
+			'barony' => ''
+		]);
+		//Mogilev
+		//Babruysk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Babruysk',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '160',
+			'county' => '908',
+			'barony' => ''
+		]);
+		//Drutsk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '160',
+			'county' => '908',
+			'barony' => ''
+		]);
+		//Lahoysk
+		//Lahoysk
+		//Lahoysk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Lahoysk',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '161',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lahoysk',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '161',
+			'county' => '909',
+			'barony' => ''
+		]);
+		//Barysaw
+		//Barysaw
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Barysaw',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '161',
+			'county' => '910',
 			'barony' => ''
 		]);
 		//Samogitia
