@@ -15651,7 +15651,7 @@ class CountySeeder extends Seeder
 			//Lithuania
 			//Minsk
 			//906
-			//minsk, barysaw, lahoysk, zaslawye
+			//minsk, barysaw
             DB::table('counties')->insert([
 				'county_name' => 'Minsk',
 				'county_category' => 'Feudal_Manor',
@@ -15701,13 +15701,31 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Samogitia
+			//Lahoysk
 			//909
+			//lahoysk
+            DB::table('counties')->insert([
+				'county_name' => 'Lahoysk',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '161',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Baltic',
+				'vernacular_culture' => 'Lithuanian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Sweetener_Honey',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Affer',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Samogitia
+			//
 			//panevezys, birsen
             DB::table('counties')->insert([
 				'county_name' => 'Panevezys',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '161',
+				'de_jure_duchy' => '162',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15719,12 +15737,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//910
+			//
 			//schaulen, bajenburg
             DB::table('counties')->insert([
 				'county_name' => 'Schaulen',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '161',
+				'de_jure_duchy' => '162',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15736,12 +15754,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//911
+			//
 			//redau, palanga, telsche, mazeike 
             DB::table('counties')->insert([
 				'county_name' => 'Redau',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '161',
+				'de_jure_duchy' => '162',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15754,12 +15772,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Tracken
-			//912
+			//
 			//alytus, grodno, lyda
             DB::table('counties')->insert([
 				'county_name' => 'Alytus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '162',
+				'de_jure_duchy' => '163',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15771,12 +15789,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//913
+			//
 			//kauen, bajenburg
             DB::table('counties')->insert([
 				'county_name' => 'Kauen',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '162',
+				'de_jure_duchy' => '163',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15788,12 +15806,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//914
+			//
 			//tracken, paneriai
             DB::table('counties')->insert([
 				'county_name' => 'Tracken',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '162',
+				'de_jure_duchy' => '163',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15806,12 +15824,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Vilnius
-			//915
+			//
 			//vilnius, kreva, medininkai
             DB::table('counties')->insert([
 				'county_name' => 'Vilnius',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '163',
+				'de_jure_duchy' => '164',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15823,12 +15841,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//916
+			//
 			//kernave, vilkomir
             DB::table('counties')->insert([
 				'county_name' => 'Kernave',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '163',
+				'de_jure_duchy' => '164',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Baltic',
 				'vernacular_culture' => 'Lithuanian',
@@ -15842,13 +15860,13 @@ class CountySeeder extends Seeder
             ]);
 			//Hungary
 			//Hungary
-			//Hungary		
-			//917
+			//Hungary
+			//
 			//gyor, bony, gyorladamer, pannonhalma
             DB::table('counties')->insert([
 				'county_name' => 'Gyor',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15860,12 +15878,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//918
+			//
 			//moson, neusiedl, rajka
             DB::table('counties')->insert([
 				'county_name' => 'Moson',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15877,12 +15895,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//919
+			//
 			//kaposvar, barcs, fonyod, nagyatad, siofok, thob
             DB::table('counties')->insert([
 				'county_name' => 'Somogy',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15894,12 +15912,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//920
+			//
 			//sopron, mattersburg, eisenstadt, oberpullendorf
             DB::table('counties')->insert([
 				'county_name' => 'Sopron',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15911,12 +15929,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//921
+			//
 			//vasvar, kleinmariazell, oberwart, koszeg, szentgotthard, szombathely
             DB::table('counties')->insert([
 				'county_name' => 'Vas',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15928,12 +15946,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//922
+			//
 			//vezprem, ajka, papa, tapolca, varpalota, zirc
             DB::table('counties')->insert([
 				'county_name' => 'Vezprem',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15945,12 +15963,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//923
+			//
 			//zalaegerszeg, zalavar
             DB::table('counties')->insert([
 				'county_name' => 'Zala',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '164',
+				'de_jure_duchy' => '165',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15963,12 +15981,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Buda
-			//924
+			//
 			//bac, kalocsa, kecskemet, pirtov, tatahaza, ujsolt
             DB::table('counties')->insert([
 				'county_name' => 'Bac',
 				'county_category' => 'Ecclesiastical_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15980,12 +15998,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//925
+			//
 			//pecs, mohacs, komlo
             DB::table('counties')->insert([
 				'county_name' => 'Baranya',
 				'county_category' => 'Ecclesiastical_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -15997,12 +16015,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//926
+			//
 			//esztergom, visegrad, muzla, sturovo
             DB::table('counties')->insert([
 				'county_name' => 'Esztergom',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16014,12 +16032,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//927
+			//
 			//fehervar, mor
             DB::table('counties')->insert([
 				'county_name' => 'Fejer',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16031,12 +16049,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//928
+			//
 			//eger, kisnana, sirok, belapatfalva, feltarkan
             DB::table('counties')->insert([
 				'county_name' => 'Heves',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16048,12 +16066,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//929
+			//
 			//pest, buda, vecses, nagykata
             DB::table('counties')->insert([
 				'county_name' => 'Pest',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16065,12 +16083,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//930
+			//
 			//szolnok, jaszbereny, zenthmyclos, bekes, gyula, szarvas
             DB::table('counties')->insert([
 				'county_name' => 'Szolnok',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '165',
+				'de_jure_duchy' => '166',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16083,12 +16101,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Nitra
-			//931
+			//
 			//nitra, surany, hlohovec, topolcany, zabokreky, piestany, prievidza, holic, senica, trnovec, cachtice, beckov, ducove
             DB::table('counties')->insert([
 				'county_name' => 'Nitra',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16100,12 +16118,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//932
+			//
 			//arvavaraylla, bingenstad, turdoschin
             DB::table('counties')->insert([
 				'county_name' => 'Arva',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16117,12 +16135,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//933
+			//
 			//bars, leva
             DB::table('counties')->insert([
 				'county_name' => 'Bars',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16134,12 +16152,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//934
+			//
 			//hont, vac
             DB::table('counties')->insert([
 				'county_name' => 'Hont',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16151,12 +16169,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//935
+			//
 			//komarom, zemianska, tata, hurbanovo
             DB::table('counties')->insert([
 				'county_name' => 'Komarom',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16168,12 +16186,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//936
+			//
 			//liptoszentmiklos, hradok, lupca, ruzomberok
             DB::table('counties')->insert([
 				'county_name' => 'Lipto',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16185,12 +16203,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//937
+			//
 			//orava, dolny
             DB::table('counties')->insert([
 				'county_name' => 'Orava',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16202,12 +16220,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//938
+			//
 			//pozsony, dunajska, galanta, malacky, trnava, samorin, senec
             DB::table('counties')->insert([
 				'county_name' => 'Pozsony',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16219,12 +16237,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//939
+			//
 			//trencsen, banovce, ilava, kischutz, bytca, puchov, povazky, sylna
             DB::table('counties')->insert([
 				'county_name' => 'Trencsen',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16236,12 +16254,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//940
+			//
 			//besztercebanya, brezno, zvolen
             DB::table('counties')->insert([
 				'county_name' => 'Zolyom',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '166',
+				'de_jure_duchy' => '167',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16254,12 +16272,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Temesvar
-			//941
+			//
 			//temesvar, deta, kovin, buzias, ciacova, rekas, werschetz
             DB::table('counties')->insert([
 				'county_name' => 'Temesvar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '167',
+				'de_jure_duchy' => '168',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16271,12 +16289,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//942
+			//
 			//arad, lipova, vinga
             DB::table('counties')->insert([
 				'county_name' => 'Arad',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '167',
+				'de_jure_duchy' => '168',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16288,12 +16306,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//943
+			//
 			//bihar, nagyvarad
             DB::table('counties')->insert([
 				'county_name' => 'Bihar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '167',
+				'de_jure_duchy' => '168',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16305,12 +16323,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//944
+			//
 			//csanad, marosvar
             DB::table('counties')->insert([
 				'county_name' => 'Csanad',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '167',
+				'de_jure_duchy' => '168',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16322,12 +16340,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//945
+			//
 			//caransebes, lugoj
             DB::table('counties')->insert([
 				'county_name' => 'Caransebes',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '167',
+				'de_jure_duchy' => '168',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16340,12 +16358,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ungvar
-			//946
+			//
 			//ungvar, kapos, serednie
             DB::table('counties')->insert([
 				'county_name' => 'Ungvar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16357,12 +16375,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//947
+			//
 			//beregzasz, munkacs
             DB::table('counties')->insert([
 				'county_name' => 'Bereg',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16374,12 +16392,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//948
+			//
 			//borsod, miskolc
             DB::table('counties')->insert([
 				'county_name' => 'Borsod',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16391,12 +16409,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//949
+			//
 			//debrecen, szoboszlo
             DB::table('counties')->insert([
 				'county_name' => 'Hajdu',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16408,12 +16426,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//950
+			//
 			//nyiregyhaza, kisvar, nagykallo, bakta, nyirbator
             DB::table('counties')->insert([
 				'county_name' => 'Szabolcs',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16425,12 +16443,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//951
+			//
 			//szatmar, mateszalka, nagybanya, nagykaroly, nagysomkut, szatmarnemeti
             DB::table('counties')->insert([
 				'county_name' => 'Szatmar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16442,12 +16460,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//952
+			//
 			//spis, levoca, gelnica, kesmark, lubovna, ofalu, sopota, varalja
             DB::table('counties')->insert([
 				'county_name' => 'Szepes',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16459,12 +16477,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//953
+			//
 			//zemplen, tokaj, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
             DB::table('counties')->insert([
 				'county_name' => 'Zemplen',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '168',
+				'de_jure_duchy' => '169',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16477,12 +16495,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Transylvania
-			//954
+			//
 			//aranyosgyeres, felvinc, turda, holten, miereschhall, torocko, mireslau, guylafehervar
             DB::table('counties')->insert([
 				'county_name' => 'Aranyosszek',
 				'county_category' => 'Ecclesiastical_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16494,12 +16512,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//955
+			//
 			//csiksomlyo, csikszereda
             DB::table('counties')->insert([
 				'county_name' => 'Csikszek',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16511,12 +16529,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//956
+			//
 			//sepsiszentgyorgy, kezdivasarhely, nagyajta 
             DB::table('counties')->insert([
 				'county_name' => 'Haromzsek',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16528,12 +16546,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//957
+			//
 			//koloszvar, szamosujvar, desvar
             DB::table('counties')->insert([
 				'county_name' => 'Koloszvar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16545,12 +16563,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//958
+			//
 			//marosvasarhely, teleki, mezosamsond
             DB::table('counties')->insert([
 				'county_name' => 'Marosszek',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16562,12 +16580,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//959
+			//
 			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely
             DB::table('counties')->insert([
 				'county_name' => 'Szeben',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16579,12 +16597,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//960
+			//
 			//udvarhely, marosheviz
             DB::table('counties')->insert([
 				'county_name' => 'Udvarhelyszek',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '169',
+				'de_jure_duchy' => '170',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
@@ -16598,12 +16616,12 @@ class CountySeeder extends Seeder
             ]);
 			//Croatia
 			//Dalmatia
-			//961
+			//
 			//bribir, skradin
             DB::table('counties')->insert([
 				'county_name' => 'Bribir',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '170',
+				'de_jure_duchy' => '171',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16615,12 +16633,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//962
+			//
 			//knin, drnis
             DB::table('counties')->insert([
 				'county_name' => 'Knin',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '170',
+				'de_jure_duchy' => '171',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16632,12 +16650,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//963
+			//
 			//udbina, lapac
             DB::table('counties')->insert([
 				'county_name' => 'Krbava',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '170',
+				'de_jure_duchy' => '171',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16649,12 +16667,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//964
+			//
 			//gospic, lapac, sokolac, otocac, baska, senj
             DB::table('counties')->insert([
 				'county_name' => 'Lika',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '170',
+				'de_jure_duchy' => '171',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16666,12 +16684,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//965
+			//
 			//modrus, ogulin, rijeka, kotor, bakar, slunj, karlovac
             DB::table('counties')->insert([
 				'county_name' => 'Modrus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '170',
+				'de_jure_duchy' => '171',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16684,12 +16702,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ragusa
-			//966
+			//
 			//ragusa, trebinje, korcula, narona
             DB::table('counties')->insert([
 				'county_name' => 'Ragusa',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '171',
+				'de_jure_duchy' => '172',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16701,12 +16719,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//967
+			//
 			//cetina, civljane, sibenik, vrlika, glavas, prozor, sinj, trilj, stolac, gradac
             DB::table('counties')->insert([
 				'county_name' => 'Cetina',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '171',
+				'de_jure_duchy' => '172',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16718,12 +16736,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//968
+			//
 			//kotor, dobrota, risan
             DB::table('counties')->insert([
 				'county_name' => 'Kotor',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '171',
+				'de_jure_duchy' => '172',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16736,12 +16754,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Slavonia
-			//969
+			//
 			//zagreb, sisak
             DB::table('counties')->insert([
 				'county_name' => 'Zagreb',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '172',
+				'de_jure_duchy' => '173',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16753,12 +16771,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//970
+			//
 			//bjelovar, cazma, daruvar
             DB::table('counties')->insert([
 				'county_name' => 'Bjelovar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '172',
+				'de_jure_duchy' => '173',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16770,12 +16788,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//971
+			//
 			//pozega, pakrac
             DB::table('counties')->insert([
 				'county_name' => 'Pozega',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '172',
+				'de_jure_duchy' => '173',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16787,12 +16805,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//972
+			//
 			//vukovar, szavaszentdemeter
             DB::table('counties')->insert([
 				'county_name' => 'Syrmia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '172',
+				'de_jure_duchy' => '173',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16804,12 +16822,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//973
+			//
 			//varazdin, ludbreg
             DB::table('counties')->insert([
 				'county_name' => 'Varazdin',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '172',
+				'de_jure_duchy' => '173',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16821,12 +16839,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//974
+			//
 			//veroce, osijek, nasice, dakovo
             DB::table('counties')->insert([
 				'county_name' => 'Veroce',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '172',
+				'de_jure_duchy' => '173',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16839,12 +16857,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Split
-			//975
+			//
 			//split, klis, solin, hvar, makarska
             DB::table('counties')->insert([
 				'county_name' => 'Split',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '173',
+				'de_jure_duchy' => '174',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16856,12 +16874,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//976
+			//
 			//trogir, komiza
             DB::table('counties')->insert([
 				'county_name' => 'Trogir',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '173',
+				'de_jure_duchy' => '174',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16874,12 +16892,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Zadar
-			//977
+			//
 			//zadar, orbrovac, pag, nin, benkovac, starigrad, rab
             DB::table('counties')->insert([
 				'county_name' => 'Zadar',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '174',
+				'de_jure_duchy' => '175',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16891,12 +16909,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//978
+			//
 			//cres, lubenice, martinscica, losinj, osor
             DB::table('counties')->insert([
 				'county_name' => 'Cres',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '174',
+				'de_jure_duchy' => '175',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16908,12 +16926,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//979
+			//
 			//veglia, jurandvor, vrbnik, moschau
             DB::table('counties')->insert([
 				'county_name' => 'Veglia',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '174',
+				'de_jure_duchy' => '175',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
@@ -16927,12 +16945,12 @@ class CountySeeder extends Seeder
             ]);
 			//Sicily
 			//Palermo
-			//980
+			//
 			//palermo, momreale, corleone, santa anna
             DB::table('counties')->insert([
 				'county_name' => 'Palermo',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '175',
+				'de_jure_duchy' => '176',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -16944,12 +16962,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
-			//981
+			//
 			//caccamo, termini
             DB::table('counties')->insert([
 				'county_name' => 'Caccamo',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '175',
+				'de_jure_duchy' => '176',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -16961,12 +16979,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//982
+			//
 			//cefalu, castelbuono
             DB::table('counties')->insert([
 				'county_name' => 'Cefalu',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '175',
+				'de_jure_duchy' => '176',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -16979,12 +16997,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Trapani
-			//983
+			//
 			//trapani, erice
             DB::table('counties')->insert([
 				'county_name' => 'Trapani',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '176',
+				'de_jure_duchy' => '177',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -16996,12 +17014,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
-			//984
+			//
 			//alcamo, castellammare
             DB::table('counties')->insert([
 				'county_name' => 'Alcamo',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '176',
+				'de_jure_duchy' => '177',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17013,12 +17031,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//985
+			//
 			//marsala, mazara, castelvetrano, motya
             DB::table('counties')->insert([
 				'county_name' => 'Marsala',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '176',
+				'de_jure_duchy' => '177',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17031,12 +17049,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//Messina
-			//986
+			//
 			//messina, oliveri, santa maria 
             DB::table('counties')->insert([
 				'county_name' => 'Messina',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '177',
+				'de_jure_duchy' => '178',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17048,12 +17066,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//987
+			//
 			//milazzo, patti, tindari
             DB::table('counties')->insert([
 				'county_name' => 'Milazzo',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '177',
+				'de_jure_duchy' => '178',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17065,12 +17083,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//988
+			//
 			//taormina, mola
             DB::table('counties')->insert([
 				'county_name' => 'Taormina',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '177',
+				'de_jure_duchy' => '178',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17083,12 +17101,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Agrigento
-			//989
+			//
 			//agrigento, sciacca
             DB::table('counties')->insert([
 				'county_name' => 'Agrigento',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '178',
+				'de_jure_duchy' => '179',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17100,12 +17118,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//990
+			//
 			//licata, montechiaro
             DB::table('counties')->insert([
 				'county_name' => 'Licata',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '178',
+				'de_jure_duchy' => '179',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17117,12 +17135,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//991
+			//
 			//gela, riesi
             DB::table('counties')->insert([
 				'county_name' => 'Gela',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '178',
+				'de_jure_duchy' => '179',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17134,12 +17152,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//992
+			//
 			//caltanisetta, mazzarino, mussomeli, mafredonico 
             DB::table('counties')->insert([
 				'county_name' => 'Caltanisetta',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '178',
+				'de_jure_duchy' => '179',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17152,12 +17170,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Catania
-			//993
+			//
 			//catania, aci
             DB::table('counties')->insert([
 				'county_name' => 'Catania',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '179',
+				'de_jure_duchy' => '180',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17169,12 +17187,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
             ]);
-			//994
+			//
 			//caltagirone, mirabella
             DB::table('counties')->insert([
 				'county_name' => 'Caltagirone',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '179',
+				'de_jure_duchy' => '180',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17187,12 +17205,12 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Siracusa
-			//995
+			//
 			//siracusa, noto, maniace, mottava
             DB::table('counties')->insert([
 				'county_name' => 'Siracusa',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '180',
+				'de_jure_duchy' => '181',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17204,12 +17222,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//996
+			//
 			//modica, scicli, ispica, monterosso
             DB::table('counties')->insert([
 				'county_name' => 'Modica',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '180',
+				'de_jure_duchy' => '181',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17221,12 +17239,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//997
+			//
 			//ragusa, chiaramonte, comiso, giarratana
             DB::table('counties')->insert([
 				'county_name' => 'Ragusa',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '180',
+				'de_jure_duchy' => '181',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
@@ -17240,12 +17258,12 @@ class CountySeeder extends Seeder
             ]);
 			//Naples
 			//Naples
-			//998
+			//
 			//naples, giugliano, pompei, casoria, afragola, acerra, marano
             DB::table('counties')->insert([
 				'county_name' => 'Naples',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '181',
+				'de_jure_duchy' => '182',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17262,7 +17280,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '181',
+				'de_jure_duchy' => '182',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17280,7 +17298,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Capua',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '182',
+				'de_jure_duchy' => '183',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17297,7 +17315,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Caserta',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '182',
+				'de_jure_duchy' => '183',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17315,7 +17333,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Amalfi',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '183',
+				'de_jure_duchy' => '184',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17332,7 +17350,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Sorrento',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '183',
+				'de_jure_duchy' => '184',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17350,7 +17368,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Catanzaro',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '184',
+				'de_jure_duchy' => '185',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17367,7 +17385,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cosenza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '184',
+				'de_jure_duchy' => '185',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17384,7 +17402,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Crotone',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '184',
+				'de_jure_duchy' => '185',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17401,7 +17419,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Reggio',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '184',
+				'de_jure_duchy' => '185',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17419,7 +17437,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Matera',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '185',
+				'de_jure_duchy' => '186',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17436,7 +17454,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Potenza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '185',
+				'de_jure_duchy' => '186',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17454,7 +17472,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Taranto',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '186',
+				'de_jure_duchy' => '187',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17471,7 +17489,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bari',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '186',
+				'de_jure_duchy' => '187',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17488,7 +17506,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Brindisi',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '186',
+				'de_jure_duchy' => '187',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17505,7 +17523,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lecce',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '186',
+				'de_jure_duchy' => '187',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17523,7 +17541,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Foggia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '187',
+				'de_jure_duchy' => '188',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17540,7 +17558,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '187',
+				'de_jure_duchy' => '188',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17558,7 +17576,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Benevento',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '188',
+				'de_jure_duchy' => '189',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17575,7 +17593,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '188',
+				'de_jure_duchy' => '189',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17593,7 +17611,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Salerno',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '189',
+				'de_jure_duchy' => '190',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17610,7 +17628,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '189',
+				'de_jure_duchy' => '190',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
@@ -17629,7 +17647,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Olbia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '190',
+				'de_jure_duchy' => '191',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17646,7 +17664,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '190',
+				'de_jure_duchy' => '191',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17664,7 +17682,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Torres',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '191',
+				'de_jure_duchy' => '192',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17699,7 +17717,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Oristano',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '192',
+				'de_jure_duchy' => '193',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17716,7 +17734,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Campadino',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '192',
+				'de_jure_duchy' => '193',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17734,7 +17752,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cagliari',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '193',
+				'de_jure_duchy' => '194',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17751,7 +17769,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Oglistria',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '193',
+				'de_jure_duchy' => '194',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17768,7 +17786,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Sarrabus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '193',
+				'de_jure_duchy' => '194',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
@@ -17780,7 +17798,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Byzantine			
+			//Byzantine
 			//Thrace
 			//Thrace
 			//
@@ -19972,6 +19990,23 @@ class CountySeeder extends Seeder
 			//polotsk, rasony
             DB::table('counties')->insert([
 				'county_name' => 'Polotsk',
+				'county_category' => 'Patrician_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => '',
+				'vernacular_culture' => 'Lithuanian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Sweetener_Honey',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Sumpter',
+				'marke_animal_husbandry' => 'Pigs',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//zaslawye
+            DB::table('counties')->insert([
+				'county_name' => 'Zaslawye',
 				'county_category' => 'Patrician_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Catholic',

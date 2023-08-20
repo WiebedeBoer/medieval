@@ -2169,6 +2169,19 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//161
+			//Lahoysk
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Lahoysk',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '24',
+				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => 'Log_Izba',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Temperate_Woodland',
+				'transport' => 'Donkey_Train',
+				'altitude' => 'Montane'
+            ]);
+			//162
 			//Panevezys, Schaulen, Redau 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Samogitia',
@@ -2181,7 +2194,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//162
+			//163
 			//Alytus, Kauen, Tracken 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tracken',
@@ -2194,7 +2207,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//163
+			//164
 			//Vilnius, Kernave
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vilnius',
@@ -2209,7 +2222,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Hungary
 			//Hungary
-			//164
+			//165
 			//Gyor, Moson, Sopron, Somogy, Vas, Vezprem, Zala
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hungary',
@@ -2222,7 +2235,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//165
+			//166
 			//Baranya, Esztergom, Fejer, Heves, Pest, Szolnok
             DB::table('duchies')->insert([
 				'duchy_name' => 'Buda',
@@ -2235,7 +2248,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//166
+			//167
 			//Nitra, Arva, Bars, Hont, Komarom, Lipto, Orava, Pozsony, Trencsen, Zolyom
             DB::table('duchies')->insert([
 				'duchy_name' => 'Nitra',
@@ -2248,7 +2261,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//167
+			//168
 			//Temesvar, Arad, Bihar, Caransebes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Temesvar',
@@ -2261,7 +2274,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//168
+			//169
 			//Ungvar, Bereg, Borsod, Hajdu, Szabolcs, Szatmar, Szepes, Zemplen
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ungvar',
@@ -2274,7 +2287,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//169
+			//170
 			//Aranyosszek, Csikszek, Haromzsek, Koloszvar, Marosszek, Udvarhelyszek
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transylvania',
@@ -2288,7 +2301,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Croatia
-			//170
+			//171
 			//Bribir, Knin, Krbava, Lika, Modrus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dalmatia',
@@ -2301,7 +2314,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//171
+			//172
 			//Ragusa, Cetina, Kotor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ragusa',
@@ -2314,7 +2327,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//172
+			//173
 			//Zagreb, Bjelovar, Pozega, Syrmia, Varazdin, Veroce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Slavonia',
@@ -2327,7 +2340,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//173
+			//174
 			//Split, Trogir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Split',
@@ -2340,7 +2353,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//174
+			//175
 			//Zadar, Cres, Veglia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zadar',
@@ -2355,7 +2368,7 @@ class DuchySeeder extends Seeder
             ]);	
 			//Trinacria
 			//Sicily
-			//175
+			//176
 			//Palermo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Palermo',
@@ -2368,7 +2381,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//176
+			//177
 			//Trapani
             DB::table('duchies')->insert([
 				'duchy_name' => 'Trapani',
@@ -2381,7 +2394,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//177
+			//178
 			//Messina
             DB::table('duchies')->insert([
 				'duchy_name' => 'Messina',
@@ -2394,7 +2407,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//178
+			//179
 			//Agrigento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Agrigento',
@@ -2406,8 +2419,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ]);			
-			//179
+            ]);
+			//180
 			//Catania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Catania',
@@ -2419,8 +2432,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ]);			
-			//180
+            ]);
+			//181
 			//Siracusa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Siracusa',
@@ -2432,9 +2445,9 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ]);			
+            ]);
 			//Naples
-			//181
+			//182
 			//Naples
             DB::table('duchies')->insert([
 				'duchy_name' => 'Naples',
@@ -2447,7 +2460,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//182
+			//183
 			//Capua, Caserta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Capua',
@@ -2460,7 +2473,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//183
+			//184
 			//Amalfi, Sorrento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Amalfi',
@@ -2473,7 +2486,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//184
+			//185
 			//Catanzaro, Cosenza, Crotone, Reggio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Calabria',
@@ -2486,7 +2499,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//185
+			//186
 			//Matera, Potenza
             DB::table('duchies')->insert([
 				'duchy_name' => 'Basilicata',
@@ -2499,7 +2512,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//186
+			//187
 			//Taranto, Bari, Brindisi, Lecce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taranto',
@@ -2512,7 +2525,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//187
+			//188
 			//Foggia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Foggia',
@@ -2525,7 +2538,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//188
+			//189
 			//Benevento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Benevento',
@@ -2538,7 +2551,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//189
+			//190
 			//Salerno
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salerno',
@@ -2552,7 +2565,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Sardinia
-			//190
+			//191
 			//
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gallura',
@@ -2564,8 +2577,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ]);			
-			//191
+            ]);
+			//192
 			//Torres
             DB::table('duchies')->insert([
 				'duchy_name' => 'Logudoro',
@@ -2578,7 +2591,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//192
+			//193
 			//Oristano, Sassari, Tharros
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arborea',
@@ -2591,7 +2604,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//193
+			//194
 			//Cagliari
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cagliari',
@@ -2604,7 +2617,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//Byzantine		
+			//Byzantine
 			//Thrace
 			//
 			//Constantinople, Ergisce
