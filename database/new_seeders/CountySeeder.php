@@ -6401,7 +6401,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Wendish',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Honey',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
@@ -15575,8 +15575,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//902
@@ -15597,7 +15597,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//903
-			//lentschitz, piatek
+			//lentschitz, piatek, grabow
             DB::table('counties')->insert([
 				'county_name' => 'Lentschitz',
 				'county_category' => 'Feudal_Manor',
@@ -15615,7 +15615,7 @@ class CountySeeder extends Seeder
             ]);
 			//Warsaw
 			//904
-			//warsaw, ozarow, blonie, piaseczno, grodzisk
+			//warsaw, brodnow, ujazdow, ozarow, blonie, piaseczno, grodzisk
             DB::table('counties')->insert([
 				'county_name' => 'Warsaw',
 				'county_category' => 'Feudal_Manor',
@@ -15627,12 +15627,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//905
-			//czersk, brusy
+			//czersk, brusy, raciaz
             DB::table('counties')->insert([
 				'county_name' => 'Czersk',
 				'county_category' => 'Feudal_Manor',
@@ -15640,7 +15640,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Polish',
 				'vernacular_culture' => 'Polish',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Windmill',
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',

@@ -2994,6 +2994,11 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_duchy' => '153',
 				'surname_category' => 'Feudal',
+				'surname' => 'Ostoja'
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '153',
+				'surname_category' => 'Feudal',
 				'surname' => ''
             ]);
             DB::table('surnames')->insert([
@@ -3049,7 +3054,7 @@ class TithingSeeder extends Seeder
             DB::table('surnames')->insert([
 				'surname_duchy' => '158',
 				'surname_category' => 'Feudal',
-				'surname' => ''
+				'surname' => 'Odrowaz'
             ]);
             DB::table('surnames')->insert([
 				'surname_duchy' => '158',
