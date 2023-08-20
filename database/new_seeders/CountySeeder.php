@@ -15563,7 +15563,7 @@ class CountySeeder extends Seeder
             ]);
 			//Sieradz
 			//901
-			//sieradz, warta
+			//sieradz, warta, schwarzau
             DB::table('counties')->insert([
 				'county_name' => 'Sieradz',
 				'county_category' => 'Feudal_Manor',

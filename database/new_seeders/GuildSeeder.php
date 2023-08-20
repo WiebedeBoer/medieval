@@ -19095,6 +19095,40 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Radom
+		//Skaryszew
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Skaryszew',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '158',
+			'county' => '902',
+			'barony' => ''
+		]);
+		//Ilza
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Ilza',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '158',
+			'county' => '902',
+			'barony' => ''
+		]);
+		//Grojec
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Grojec',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '158',
+			'county' => '902',
+			'barony' => ''
+		]);
 		//Warsaw
 		//
 		//
