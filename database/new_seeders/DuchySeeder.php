@@ -2221,11 +2221,11 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Hungary
-			//Hungary
+			//Balaton
 			//165
 			//Gyor, Moson, Sopron, Somogy, Vas, Vezprem, Zala
             DB::table('duchies')->insert([
-				'duchy_name' => 'Hungary',
+				'duchy_name' => 'Balaton',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '25',
 				'law_succession' => 'Salic_Primogeniture',

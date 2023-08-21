@@ -19486,42 +19486,64 @@ class GuildSeeder extends Seeder
 		]);
 		//Crown of Hungary
 		//Kingdom of Hungary
-		//Hungary
-		//
-		//
+		//Balaton
+		//Somogy
+		//Siofok
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Vintners Guild of Siofok',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '165',
+			'county' => '921',
+			'barony' => ''
+		]);
+		//Zala
+		//Zalavar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Balaton',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '165',
 			'county' => null,
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Zalavar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '165',
+			'county' => '925',
 			'barony' => ''
 		]);
-		//Buda
-		//Pest
-		//Buda
+		//Tolmaj
 		DB::table('guilds')->insert([
-			'guild_name' => 'University of Buda',
-			'guild_category' => 'University',
-			'guild_subcategory' => 'Scholar_Monastic',
+			'guild_name' => 'Vintners Guild of Tolmaj',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '165',
+			'county' => '925',
 			'barony' => ''
 		]);
+		//Szanto
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Szanto',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '165',
+			'county' => '925',
+			'barony' => ''
+		]);
+		//Buda
 		//Bac
 		//Pirtov
 		DB::table('guilds')->insert([
@@ -19530,8 +19552,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '166',
+			'county' => '926',
 			'barony' => ''
 		]);
 		//Tatahaza
@@ -19541,8 +19563,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '166',
+			'county' => '926',
 			'barony' => ''
 		]);
 		//Ujsolt
@@ -19552,8 +19574,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '166',
+			'county' => '926',
 			'barony' => ''
 		]);
 		//Esztergom
@@ -19564,7 +19586,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => '25',
-			'duchy' => '',
+			'duchy' => '166',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -19574,8 +19596,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '166',
+			'county' => '928',
 			'barony' => ''
 		]);
 		//Muzla
@@ -19585,8 +19607,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '166',
+			'county' => '928',
 			'barony' => ''
 		]);
 		//Heves
@@ -19597,8 +19619,20 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '166',
+			'county' => '930',
+			'barony' => ''
+		]);
+		//Pest
+		//Buda
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Buda',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Monastic',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '166',
+			'county' => '931',
 			'barony' => ''
 		]);
 		//Nitra

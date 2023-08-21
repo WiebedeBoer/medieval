@@ -15896,7 +15896,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//920
-			//moson, neusiedl, rajka
+			//wieselburg, neusiedl, rackendorf
             DB::table('counties')->insert([
 				'county_name' => 'Moson',
 				'county_category' => 'Feudal_Manor',
@@ -15904,7 +15904,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Windmill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
@@ -15964,7 +15964,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//924
-			//vezprem, ajka, papa, tapolca, varpalota, zirc
+			//vezprem, ajka, papa, tapolca, varpalota, zirc, tihany
             DB::table('counties')->insert([
 				'county_name' => 'Vezprem',
 				'county_category' => 'Feudal_Manor',
@@ -15981,7 +15981,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//925
-			//zalaegerszeg, zalavar
+			//zalaegerszeg, zalavar, keszthely, nagykanizsa, tolmaj, rezi, szanto, tatikavar, golombuk, almad
             DB::table('counties')->insert([
 				'county_name' => 'Zala',
 				'county_category' => 'Feudal_Manor',
@@ -15990,10 +15990,10 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
