@@ -19337,84 +19337,151 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Samogitia
-		//
-		//
+		//Panevezys
+		//Kupishik
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Kupishik',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '162',
+			'county' => '911',
+			'barony' => ''
+		]);
+		//Schaulen
+		//Schaulen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Schaulen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '162',
+			'county' => '912',
+			'barony' => ''
+		]);
+		//Redau
+		//Palanga
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Palanga',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '162',
+			'county' => '913',
+			'barony' => ''
+		]);
+		//Telsche
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Samogitia',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '162',
 			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Telsche',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '162',
+			'county' => '913',
+			'barony' => ''
+		]);
+		//Mazeike
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '162',
+			'county' => '913',
 			'barony' => ''
 		]);
 		//Tracken
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => null,
-			'barony' => ''
-		]);
 		//Kauen
 		//Kauen
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Fair of Kauen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '163',
+			'county' => '915',
+			'barony' => ''
+		]);
+		//Birstonas
+		DB::table('guilds')->insert([
+			'guild_name' => 'Joiners Guild of Birstonas',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Joiner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '163',
+			'county' => '915',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Birstonas',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '163',
+			'county' => '915',
+			'barony' => ''
+		]);
+		//Tracken
+		//Tracken
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Tracken',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '163',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Tracken',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '163',
+			'county' => '916',
 			'barony' => ''
 		]);
 		//Vilnius
-		//
-		//
+		//Vilnius
+		//Vilnius
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Vilnius',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
+			'kingdom' => '24',
+			'duchy' => '164',
 			'county' => null,
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Vilnius',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => null,
+			'duchy' => '164',
+			'county' => '917',
 			'barony' => ''
 		]);
 		//Crown of Hungary

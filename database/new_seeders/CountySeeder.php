@@ -15738,7 +15738,7 @@ class CountySeeder extends Seeder
             ]);
 			//Samogitia
 			//911
-			//panevezys, birsen
+			//panevezys, birsen, kupishik
             DB::table('counties')->insert([
 				'county_name' => 'Panevezys',
 				'county_category' => 'Feudal_Manor',
@@ -15807,7 +15807,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//915
-			//kauen, bajenburg
+			//kauen, birstonas
             DB::table('counties')->insert([
 				'county_name' => 'Kauen',
 				'county_category' => 'Feudal_Manor',
@@ -15817,7 +15817,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Lithuanian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Cider',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
@@ -15836,8 +15836,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Vilnius
@@ -15854,8 +15854,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//918
@@ -15878,7 +15878,7 @@ class CountySeeder extends Seeder
 			//Hungary
 			//Hungary
 			//Hungary
-			//
+			//919
 			//gyor, bony, gyorladamer, pannonhalma
             DB::table('counties')->insert([
 				'county_name' => 'Gyor',
@@ -15895,7 +15895,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//920
 			//moson, neusiedl, rajka
             DB::table('counties')->insert([
 				'county_name' => 'Moson',
@@ -15912,7 +15912,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//921
 			//kaposvar, barcs, fonyod, nagyatad, siofok, thob
             DB::table('counties')->insert([
 				'county_name' => 'Somogy',
@@ -15929,7 +15929,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//922
 			//sopron, mattersburg, eisenstadt, oberpullendorf
             DB::table('counties')->insert([
 				'county_name' => 'Sopron',
@@ -15946,7 +15946,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//923
 			//vasvar, kleinmariazell, oberwart, koszeg, szentgotthard, szombathely
             DB::table('counties')->insert([
 				'county_name' => 'Vas',
@@ -15963,7 +15963,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//924
 			//vezprem, ajka, papa, tapolca, varpalota, zirc
             DB::table('counties')->insert([
 				'county_name' => 'Vezprem',
@@ -15980,7 +15980,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//925
 			//zalaegerszeg, zalavar
             DB::table('counties')->insert([
 				'county_name' => 'Zala',
@@ -15998,7 +15998,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Buda
-			//
+			//926
 			//bac, kalocsa, kecskemet, pirtov, tatahaza, ujsolt
             DB::table('counties')->insert([
 				'county_name' => 'Bac',
@@ -16015,7 +16015,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//927
 			//pecs, mohacs, komlo
             DB::table('counties')->insert([
 				'county_name' => 'Baranya',
@@ -16032,7 +16032,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//928
 			//esztergom, visegrad, muzla, sturovo
             DB::table('counties')->insert([
 				'county_name' => 'Esztergom',
@@ -16049,7 +16049,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//929
 			//fehervar, mor
             DB::table('counties')->insert([
 				'county_name' => 'Fejer',
@@ -16066,7 +16066,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//930
 			//eger, kisnana, sirok, belapatfalva, feltarkan
             DB::table('counties')->insert([
 				'county_name' => 'Heves',
@@ -16083,7 +16083,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//931
 			//pest, buda, vecses, nagykata
             DB::table('counties')->insert([
 				'county_name' => 'Pest',
@@ -16100,7 +16100,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//932
 			//szolnok, jaszbereny, zenthmyclos, bekes, gyula, szarvas
             DB::table('counties')->insert([
 				'county_name' => 'Szolnok',
@@ -16118,7 +16118,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Nitra
-			//
+			//933
 			//nitra, surany, hlohovec, topolcany, zabokreky, piestany, prievidza, holic, senica, trnovec, cachtice, beckov, ducove
             DB::table('counties')->insert([
 				'county_name' => 'Nitra',
@@ -16135,7 +16135,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//934
 			//arvavaraylla, bingenstad, turdoschin
             DB::table('counties')->insert([
 				'county_name' => 'Arva',
@@ -16152,7 +16152,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//935
 			//bars, leva
             DB::table('counties')->insert([
 				'county_name' => 'Bars',
@@ -16169,7 +16169,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//936
 			//hont, vac
             DB::table('counties')->insert([
 				'county_name' => 'Hont',
@@ -16186,7 +16186,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//937
 			//komarom, zemianska, tata, hurbanovo
             DB::table('counties')->insert([
 				'county_name' => 'Komarom',
@@ -16203,7 +16203,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//938
 			//liptoszentmiklos, hradok, lupca, ruzomberok
             DB::table('counties')->insert([
 				'county_name' => 'Lipto',
@@ -16220,7 +16220,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//939
 			//orava, dolny
             DB::table('counties')->insert([
 				'county_name' => 'Orava',
@@ -16237,7 +16237,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//940
 			//pozsony, dunajska, galanta, malacky, trnava, samorin, senec
             DB::table('counties')->insert([
 				'county_name' => 'Pozsony',
@@ -16254,7 +16254,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//941
 			//trencsen, banovce, ilava, kischutz, bytca, puchov, povazky, sylna
             DB::table('counties')->insert([
 				'county_name' => 'Trencsen',
@@ -16271,7 +16271,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//942
 			//besztercebanya, brezno, zvolen
             DB::table('counties')->insert([
 				'county_name' => 'Zolyom',
@@ -16289,7 +16289,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Temesvar
-			//
+			//943
 			//temesvar, deta, kovin, buzias, ciacova, rekas, werschetz
             DB::table('counties')->insert([
 				'county_name' => 'Temesvar',
@@ -16306,7 +16306,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//944
 			//arad, lipova, vinga
             DB::table('counties')->insert([
 				'county_name' => 'Arad',
@@ -16323,7 +16323,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//945
 			//bihar, nagyvarad
             DB::table('counties')->insert([
 				'county_name' => 'Bihar',
@@ -16340,7 +16340,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//946
 			//csanad, marosvar
             DB::table('counties')->insert([
 				'county_name' => 'Csanad',
@@ -16357,7 +16357,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//947
 			//caransebes, lugoj
             DB::table('counties')->insert([
 				'county_name' => 'Caransebes',
@@ -16375,7 +16375,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ungvar
-			//
+			//948
 			//ungvar, kapos, serednie
             DB::table('counties')->insert([
 				'county_name' => 'Ungvar',
@@ -16392,7 +16392,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//949
 			//beregzasz, munkacs
             DB::table('counties')->insert([
 				'county_name' => 'Bereg',
@@ -16409,7 +16409,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//950
 			//borsod, miskolc
             DB::table('counties')->insert([
 				'county_name' => 'Borsod',
@@ -16426,7 +16426,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//951
 			//debrecen, szoboszlo
             DB::table('counties')->insert([
 				'county_name' => 'Hajdu',
@@ -16443,7 +16443,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//952
 			//nyiregyhaza, kisvar, nagykallo, bakta, nyirbator
             DB::table('counties')->insert([
 				'county_name' => 'Szabolcs',
@@ -16460,7 +16460,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//953
 			//szatmar, mateszalka, nagybanya, nagykaroly, nagysomkut, szatmarnemeti
             DB::table('counties')->insert([
 				'county_name' => 'Szatmar',
@@ -16477,7 +16477,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//954
 			//spis, levoca, gelnica, kesmark, lubovna, ofalu, sopota, varalja
             DB::table('counties')->insert([
 				'county_name' => 'Szepes',
@@ -16494,7 +16494,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//955
 			//zemplen, tokaj, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
             DB::table('counties')->insert([
 				'county_name' => 'Zemplen',
@@ -16512,7 +16512,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Transylvania
-			//
+			//956
 			//aranyosgyeres, felvinc, turda, holten, miereschhall, torocko, mireslau, guylafehervar
             DB::table('counties')->insert([
 				'county_name' => 'Aranyosszek',
@@ -16529,7 +16529,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//957
 			//csiksomlyo, csikszereda
             DB::table('counties')->insert([
 				'county_name' => 'Csikszek',
@@ -16546,7 +16546,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//958
 			//sepsiszentgyorgy, kezdivasarhely, nagyajta 
             DB::table('counties')->insert([
 				'county_name' => 'Haromzsek',
@@ -16563,7 +16563,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//959
 			//koloszvar, szamosujvar, desvar
             DB::table('counties')->insert([
 				'county_name' => 'Koloszvar',
@@ -16580,7 +16580,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//960
 			//marosvasarhely, teleki, mezosamsond
             DB::table('counties')->insert([
 				'county_name' => 'Marosszek',
@@ -16597,7 +16597,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//961
 			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely
             DB::table('counties')->insert([
 				'county_name' => 'Szeben',
@@ -16614,7 +16614,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//962
 			//udvarhely, marosheviz
             DB::table('counties')->insert([
 				'county_name' => 'Udvarhelyszek',
@@ -16633,7 +16633,7 @@ class CountySeeder extends Seeder
             ]);
 			//Croatia
 			//Dalmatia
-			//
+			//963
 			//bribir, skradin
             DB::table('counties')->insert([
 				'county_name' => 'Bribir',
@@ -16650,7 +16650,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//964
 			//knin, drnis
             DB::table('counties')->insert([
 				'county_name' => 'Knin',
@@ -16667,7 +16667,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//965
 			//udbina, lapac
             DB::table('counties')->insert([
 				'county_name' => 'Krbava',
@@ -16684,7 +16684,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//966
 			//gospic, lapac, sokolac, otocac, baska, senj
             DB::table('counties')->insert([
 				'county_name' => 'Lika',
@@ -16701,7 +16701,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//967
 			//modrus, ogulin, rijeka, kotor, bakar, slunj, karlovac
             DB::table('counties')->insert([
 				'county_name' => 'Modrus',
@@ -16719,7 +16719,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ragusa
-			//
+			//968
 			//ragusa, trebinje, korcula, narona
             DB::table('counties')->insert([
 				'county_name' => 'Ragusa',
@@ -16736,7 +16736,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//969
 			//cetina, civljane, sibenik, vrlika, glavas, prozor, sinj, trilj, stolac, gradac
             DB::table('counties')->insert([
 				'county_name' => 'Cetina',
@@ -16753,7 +16753,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//970
 			//kotor, dobrota, risan
             DB::table('counties')->insert([
 				'county_name' => 'Kotor',
@@ -16771,7 +16771,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Slavonia
-			//
+			//971
 			//zagreb, sisak
             DB::table('counties')->insert([
 				'county_name' => 'Zagreb',
@@ -16788,7 +16788,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//972
 			//bjelovar, cazma, daruvar
             DB::table('counties')->insert([
 				'county_name' => 'Bjelovar',
@@ -16805,7 +16805,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//973
 			//pozega, pakrac
             DB::table('counties')->insert([
 				'county_name' => 'Pozega',
@@ -16822,7 +16822,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//974
 			//vukovar, szavaszentdemeter
             DB::table('counties')->insert([
 				'county_name' => 'Syrmia',
@@ -16839,7 +16839,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//975
 			//varazdin, ludbreg
             DB::table('counties')->insert([
 				'county_name' => 'Varazdin',
@@ -16856,7 +16856,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//976
 			//veroce, osijek, nasice, dakovo
             DB::table('counties')->insert([
 				'county_name' => 'Veroce',
@@ -16874,7 +16874,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Split
-			//
+			//977
 			//split, klis, solin, hvar, makarska
             DB::table('counties')->insert([
 				'county_name' => 'Split',
@@ -16891,7 +16891,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//978
 			//trogir, komiza
             DB::table('counties')->insert([
 				'county_name' => 'Trogir',
@@ -16909,7 +16909,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Zadar
-			//
+			//979
 			//zadar, orbrovac, pag, nin, benkovac, starigrad, rab
             DB::table('counties')->insert([
 				'county_name' => 'Zadar',
@@ -16926,7 +16926,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//980
 			//cres, lubenice, martinscica, losinj, osor
             DB::table('counties')->insert([
 				'county_name' => 'Cres',
@@ -16943,7 +16943,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//981
 			//veglia, jurandvor, vrbnik, moschau
             DB::table('counties')->insert([
 				'county_name' => 'Veglia',
