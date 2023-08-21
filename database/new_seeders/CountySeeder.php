@@ -16016,7 +16016,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//927
-			//pecs, mohacs, komlo
+			//pecs, mohacs, komlo, pecsvarad
             DB::table('counties')->insert([
 				'county_name' => 'Baranya',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -16059,7 +16059,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Affer',
