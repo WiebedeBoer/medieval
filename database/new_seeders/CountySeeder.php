@@ -16084,7 +16084,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//931
-			//pest, buda, vecses, nagykata
+			//pest, buda, vecses, csekekata
             DB::table('counties')->insert([
 				'county_name' => 'Pest',
 				'county_category' => 'Feudal_Manor',
