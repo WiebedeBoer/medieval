@@ -19692,6 +19692,29 @@ class GuildSeeder extends Seeder
 			'county' => '933',
 			'barony' => ''
 		]);
+		//Holic
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Holic',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '933',
+			'barony' => ''
+		]);
+		//Arva
+		//Bingenstad
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Bingenstad',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '934',
+			'barony' => ''
+		]);
 		//Komarom
 		//Komarom
 		DB::table('guilds')->insert([
@@ -19702,6 +19725,41 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '167',
 			'county' => '937',
+			'barony' => ''
+		]);
+		//Lipto
+		//Liptoszentmiklos
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Liptoszentmiklos',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '938',
+			'barony' => ''
+		]);
+		//Lupca
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Lupca',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '938',
+			'barony' => ''
+		]);
+		//Orava
+		//Dolny
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Orava',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '939',
 			'barony' => ''
 		]);
 		//Pozsony
@@ -19716,17 +19774,95 @@ class GuildSeeder extends Seeder
 			'county' => '940',
 			'barony' => ''
 		]);
-		//Temesvar
-		//
-		//
+		//Trnava
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Potters Guild of Trnava',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '940',
+			'barony' => ''
+		]);
+		//Senec
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Senec',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '940',
+			'barony' => ''
+		]);
+		//Trencsen
+		//Banovce
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Banovce',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '941',
+			'barony' => ''
+		]);
+		//Bytca
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Bytca',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '941',
+			'barony' => ''
+		]);
+		//Zolyom
+		//Besztercebanya
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Besztercebanya',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '942',
+			'barony' => ''
+		]);
+		//Zvolen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Zvolen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '167',
+			'county' => '942',
+			'barony' => ''
+		]);
+		//Temesvar
+		//Temesvar
+		//Temesvar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Temesvar',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '168',
 			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Temesvar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '168',
+			'county' => '943',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
