@@ -19866,13 +19866,46 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Temesvar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '168',
-			'county' => '',
+			'county' => '943',
+			'barony' => ''
+		]);
+		//Deta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Denta',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '168',
+			'county' => '943',
+			'barony' => ''
+		]);
+		//Buzias
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Denta',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '168',
+			'county' => '943',
+			'barony' => ''
+		]);
+		//Ciacova
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Denta',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '168',
+			'county' => '943',
 			'barony' => ''
 		]);
 		//Ungvar

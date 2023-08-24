@@ -16290,7 +16290,7 @@ class CountySeeder extends Seeder
             ]);
 			//Temesvar
 			//943
-			//temesvar, deta, kovin, buzias, ciacova, rekas, werschetz
+			//temesvar, deta, kovin, buzias, ciacova, werschetz
             DB::table('counties')->insert([
 				'county_name' => 'Temesvar',
 				'county_category' => 'Feudal_Manor',
@@ -16300,9 +16300,9 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
