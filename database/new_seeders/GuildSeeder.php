@@ -19909,10 +19909,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Ungvar
-		//
-		//
+		//Ungvar
+		//Ungvar
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Ungvar',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -19921,14 +19921,52 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Bereg
+		//Munkacs
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Potters Guild of Munkacs',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '949',
+			'barony' => ''
+		]);
+		//Borsod
+		//Miskolc
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Miskolc',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '950',
+			'barony' => ''
+		]);
+		//Hajdu
+		//Debrecen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Debrecen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '169',
-			'county' => '',
+			'county' => '951',
+			'barony' => ''
+		]);
+		//Szabolcs
+		//Harangod
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Harangod',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '952',
 			'barony' => ''
 		]);
 		//Transylvania

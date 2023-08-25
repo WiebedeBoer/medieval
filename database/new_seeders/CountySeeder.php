@@ -16444,7 +16444,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//952
-			//nyiregyhaza, kisvar, nagykallo, bakta, nyirbator
+			//nyiregyhaza, kisvar, nagykallo, harangod, bakta, nyirbator
             DB::table('counties')->insert([
 				'county_name' => 'Szabolcs',
 				'county_category' => 'Feudal_Manor',
