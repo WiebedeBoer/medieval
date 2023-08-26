@@ -16444,7 +16444,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//952
-			//nyiregyhaza, kisvar, nagykallo, harangod, bakta, nyirbator
+			//nyiregyhaza, kisvar, nagykallo, harangod, bakta, nyirbator, tiszanagyfalu
             DB::table('counties')->insert([
 				'county_name' => 'Szabolcs',
 				'county_category' => 'Feudal_Manor',
@@ -16453,7 +16453,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Affer',
@@ -16478,7 +16478,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//954
-			//spis, levoca, gelnica, kesmark, lubovna, ofalu, sopota, varalja
+			//spis, levoca, gelnica, kesmark, lubovna, ofalu, varalja
             DB::table('counties')->insert([
 				'county_name' => 'Szepes',
 				'county_category' => 'Feudal_Manor',
@@ -16488,14 +16488,14 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//955
-			//zemplen, tokaj, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
+			//zemplen, tokaj, kysfalud, helmech, secovce, brekov, jasenov, cicava, sarospatak, zeltberg, szerencs, snina, vranov
             DB::table('counties')->insert([
 				'county_name' => 'Zemplen',
 				'county_category' => 'Feudal_Manor',
@@ -16505,7 +16505,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Fur',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Sheep',
@@ -16513,7 +16513,7 @@ class CountySeeder extends Seeder
             ]);
 			//Transylvania
 			//956
-			//aranyosgyeres, felvinc, turda, holten, miereschhall, torocko, mireslau, guylafehervar
+			//aranyosgyeres, felvinc, turda, miereschhall, torocko, mireslau, guylafehervar
             DB::table('counties')->insert([
 				'county_name' => 'Aranyosszek',
 				'county_category' => 'Ecclesiastical_Manor',

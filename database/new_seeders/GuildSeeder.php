@@ -19969,6 +19969,64 @@ class GuildSeeder extends Seeder
 			'county' => '952',
 			'barony' => ''
 		]);
+		//Tiszanagyfalu
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Tiszanagyfalu',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '952',
+			'barony' => ''
+		]);
+		//Szatmar
+		//Nagysomkut
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Nagysomkut',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '953',
+			'barony' => ''
+		]);
+		//Szepes
+		//Levoca
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Levoca',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Furrier',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '954',
+			'barony' => ''
+		]);
+		//Zemplen
+		//Kysfalud
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Kysfalud',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '955',
+			'barony' => ''
+		]);
+		//Secovce
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Secovce',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Furrier',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '169',
+			'county' => '955',
+			'barony' => ''
+		]);
 		//Transylvania
 		//
 		//
