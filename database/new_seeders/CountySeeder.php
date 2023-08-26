@@ -16607,7 +16607,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Magyar',
 				'vernacular_culture' => 'Hungarian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Affer',

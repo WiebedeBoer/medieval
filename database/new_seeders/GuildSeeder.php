@@ -20028,6 +20028,41 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Transylvania
+		//Marosszek
+		//Marosvasarhely
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Marosvasarhely',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '170',
+			'county' => '960',
+			'barony' => ''
+		]);
+		//Szeben
+		//Nagydisznod
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Nagydisznod',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '170',
+			'county' => '961',
+			'barony' => ''
+		]);
+		//Nagyszeben
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Nagyszeben',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '170',
+			'county' => '961',
+			'barony' => ''
+		]);
 		//
 		//
 		DB::table('guilds')->insert([
