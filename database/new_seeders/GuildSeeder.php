@@ -20131,28 +20131,42 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '172',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'Mariners Guild of Ragusa',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '172',
-			'county' => '',
+			'county' => '968',
+			'barony' => ''
+		]);
+		//Cetina
+		//Sibenik
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Sibenik',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '172',
+			'county' => '969',
 			'barony' => ''
 		]);
 		//Slavonia
 		//
 		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '173',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Veroce
+		//Osijek
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Slavonia',
 			'guild_category' => 'Court',
@@ -20161,16 +20175,6 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '173',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '173',
-			'county' => '',
 			'barony' => ''
 		]);
 		//Split
