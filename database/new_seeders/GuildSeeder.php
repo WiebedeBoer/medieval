@@ -20063,34 +20063,32 @@ class GuildSeeder extends Seeder
 			'county' => '961',
 			'barony' => ''
 		]);
-		//
-		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Nagyszeben',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '170',
+			'county' => '961',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Transylvania',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '170',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '170',
-			'county' => '',
 			'barony' => ''
 		]);
 		//Kingdom of Croatia
 		//Dalmatia
-		//
-		//
+		//Knin
+		//Knin
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Dalmatia',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -20100,13 +20098,23 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Knin',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '171',
-			'county' => '',
+			'county' => '964',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Knin',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '171',
+			'county' => '964',
 			'barony' => ''
 		]);
 		//Ragusa
@@ -20146,7 +20154,7 @@ class GuildSeeder extends Seeder
 		//
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Slavonia',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,

@@ -16610,7 +16610,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -16663,7 +16663,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -16685,7 +16685,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//966
-			//gospic, lapac, sokolac, otocac, baska, senj
+			//gospic, sokolac, otocac, baska, senj
             DB::table('counties')->insert([
 				'county_name' => 'Lika',
 				'county_category' => 'Feudal_Manor',
@@ -16702,7 +16702,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//967
-			//modrus, ogulin, rijeka, kotor, bakar, slunj, karlovac
+			//modrus, ogulin, rijeka, kotor, bakar, slunj, dubovac
             DB::table('counties')->insert([
 				'county_name' => 'Modrus',
 				'county_category' => 'Feudal_Manor',
@@ -16710,7 +16710,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Windmill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
