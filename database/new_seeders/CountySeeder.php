@@ -17044,7 +17044,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -17249,7 +17249,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sicily',
 				'vernacular_culture' => 'Sicilian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -17275,8 +17275,8 @@ class CountySeeder extends Seeder
             ]);
 			//Naples
 			//Naples
-			//
-			//naples, giugliano, pompei, casoria, afragola, acerra, marano
+			//1000
+			//naples, giugliano, casoria, afragola, acerra, marano
             DB::table('counties')->insert([
 				'county_name' => 'Naples',
 				'county_category' => 'Feudal_Manor',
