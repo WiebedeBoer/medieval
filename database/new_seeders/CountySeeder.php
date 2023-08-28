@@ -16849,7 +16849,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Croat',
 				'vernacular_culture' => 'Croatian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -16887,7 +16887,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -16922,7 +16922,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -16944,7 +16944,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//981
-			//veglia, jurandvor, vrbnik, moschau
+			//veglia, jurandvor, vrbnik, moschau, dobrinj
             DB::table('counties')->insert([
 				'county_name' => 'Veglia',
 				'county_category' => 'Patrician_Manor',
@@ -16962,7 +16962,7 @@ class CountySeeder extends Seeder
             ]);
 			//Sicily
 			//Palermo
-			//
+			//982
 			//palermo, momreale, corleone, santa anna
             DB::table('counties')->insert([
 				'county_name' => 'Palermo',
@@ -16979,7 +16979,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
+			//983
 			//caccamo, termini
             DB::table('counties')->insert([
 				'county_name' => 'Caccamo',
@@ -16996,7 +16996,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//984
 			//cefalu, castelbuono
             DB::table('counties')->insert([
 				'county_name' => 'Cefalu',
@@ -17014,7 +17014,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Trapani
-			//
+			//985
 			//trapani, erice
             DB::table('counties')->insert([
 				'county_name' => 'Trapani',
@@ -17031,7 +17031,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
+			//986
 			//alcamo, castellammare
             DB::table('counties')->insert([
 				'county_name' => 'Alcamo',
@@ -17048,7 +17048,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//987
 			//marsala, mazara, castelvetrano, motya
             DB::table('counties')->insert([
 				'county_name' => 'Marsala',
@@ -17066,7 +17066,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//Messina
-			//
+			//988
 			//messina, oliveri, santa maria 
             DB::table('counties')->insert([
 				'county_name' => 'Messina',
@@ -17083,7 +17083,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//989
 			//milazzo, patti, tindari
             DB::table('counties')->insert([
 				'county_name' => 'Milazzo',
@@ -17100,7 +17100,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//990
 			//taormina, mola
             DB::table('counties')->insert([
 				'county_name' => 'Taormina',
@@ -17118,7 +17118,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Agrigento
-			//
+			//991
 			//agrigento, sciacca
             DB::table('counties')->insert([
 				'county_name' => 'Agrigento',
@@ -17135,7 +17135,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//992
 			//licata, montechiaro
             DB::table('counties')->insert([
 				'county_name' => 'Licata',
@@ -17152,7 +17152,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//993
 			//gela, riesi
             DB::table('counties')->insert([
 				'county_name' => 'Gela',
@@ -17169,7 +17169,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//994
 			//caltanisetta, mazzarino, mussomeli, mafredonico 
             DB::table('counties')->insert([
 				'county_name' => 'Caltanisetta',
@@ -17187,7 +17187,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Catania
-			//
+			//995
 			//catania, aci
             DB::table('counties')->insert([
 				'county_name' => 'Catania',
@@ -17204,7 +17204,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
+			//996
 			//caltagirone, mirabella
             DB::table('counties')->insert([
 				'county_name' => 'Caltagirone',
@@ -17222,7 +17222,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Siracusa
-			//
+			//997
 			//siracusa, noto, maniace, mottava
             DB::table('counties')->insert([
 				'county_name' => 'Siracusa',
@@ -17239,7 +17239,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//998
 			//modica, scicli, ispica, monterosso
             DB::table('counties')->insert([
 				'county_name' => 'Modica',
@@ -17256,7 +17256,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//999
 			//ragusa, chiaramonte, comiso, giarratana
             DB::table('counties')->insert([
 				'county_name' => 'Ragusa',

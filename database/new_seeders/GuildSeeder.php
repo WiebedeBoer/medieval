@@ -20153,16 +20153,16 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Slavonia
-		//
-		//
+		//Bjelovar
+		//Bjelovar
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Bjelovar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '173',
-			'county' => '',
+			'county' => '972',
 			'barony' => ''
 		]);
 		//Veroce
@@ -20191,13 +20191,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Split',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '174',
-			'county' => '',
+			'county' => '977',
 			'barony' => ''
 		]);
 		//Zadar
@@ -20214,15 +20214,37 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Zadar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '175',
-			'county' => '',
+			'county' => '979',
 			'barony' => ''
-		]);	
+		]);
+		//Benkovac
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Benkovac',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '175',
+			'county' => '979',
+			'barony' => ''
+		]);
+		//Rab
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Rab',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '175',
+			'county' => '979',
+			'barony' => ''
+		]);
 		//Trinacria
 		//Kingdom of Sicily
 		//Palermo
