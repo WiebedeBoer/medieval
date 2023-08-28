@@ -20633,10 +20633,10 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Capua
-		//
-		//
+		//Capua
+		//Capua
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Capua',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -20646,7 +20646,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20669,7 +20669,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20712,7 +20712,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Calabria',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -20722,7 +20722,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20801,7 +20801,7 @@ class GuildSeeder extends Seeder
 		//
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Basilicata',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -20811,7 +20811,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20858,7 +20858,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20903,7 +20903,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20936,7 +20936,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -20949,7 +20949,7 @@ class GuildSeeder extends Seeder
 		//Salerno
 		//
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Court of Salerno',
 			'guild_category' => 'Court',
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
@@ -20959,7 +20959,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
