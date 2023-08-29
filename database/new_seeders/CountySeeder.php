@@ -17276,7 +17276,7 @@ class CountySeeder extends Seeder
 			//Naples
 			//Naples
 			//1000
-			//naples, giugliano, casoria, afragola, acerra, marano
+			//naples, giugliano, casoria, afragola, acerra, marano, melito, portici
             DB::table('counties')->insert([
 				'county_name' => 'Naples',
 				'county_category' => 'Feudal_Manor',
@@ -17287,15 +17287,50 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'Boar',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1001
-			//
+			//aversa, frignano, san marcellino
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Aversa',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '182',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'Boar',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1002
+			//nola, marciano, saviano
+            DB::table('counties')->insert([
+				'county_name' => 'Nola',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '182',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Pigs',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Capua
+			//1003
+			//volturno, pantano
+            DB::table('counties')->insert([
+				'county_name' => 'Volturno',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '182',
 				'vernacular_religion' => 'Catholic',
@@ -17303,14 +17338,13 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Capua
-			//
+			//1004
 			//capua, san angelo
             DB::table('counties')->insert([
 				'county_name' => 'Capua',
@@ -17327,7 +17361,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1005
 			//caserta, mondragone
             DB::table('counties')->insert([
 				'county_name' => 'Caserta',
@@ -17345,7 +17379,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Amalfi
-			//
+			//1006
 			//amalfi
             DB::table('counties')->insert([
 				'county_name' => 'Amalfi',
@@ -17362,7 +17396,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1007
 			//sorrento
             DB::table('counties')->insert([
 				'county_name' => 'Sorrento',
@@ -17380,7 +17414,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Calabria
-			//
+			//1008
 			//catanzaro, san floro, squillace
             DB::table('counties')->insert([
 				'county_name' => 'Catanzaro',
@@ -17397,7 +17431,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1009
 			//cosenza, mendicino
             DB::table('counties')->insert([
 				'county_name' => 'Cosenza',
@@ -17414,7 +17448,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1010
 			//crotone
             DB::table('counties')->insert([
 				'county_name' => 'Crotone',
@@ -17431,7 +17465,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1011
 			//reggio
             DB::table('counties')->insert([
 				'county_name' => 'Reggio',
@@ -17449,7 +17483,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Basilicata
-			//
+			//1012
 			//matera
             DB::table('counties')->insert([
 				'county_name' => 'Matera',
@@ -17466,7 +17500,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1013
 			//potenza
             DB::table('counties')->insert([
 				'county_name' => 'Potenza',
@@ -17484,7 +17518,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Taranto
-			//
+			//1014
 			//taranto
             DB::table('counties')->insert([
 				'county_name' => 'Taranto',
@@ -17501,7 +17535,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1015
 			//bari
             DB::table('counties')->insert([
 				'county_name' => 'Bari',
@@ -17518,7 +17552,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1016
 			//brindisi, san demetrio
             DB::table('counties')->insert([
 				'county_name' => 'Brindisi',
@@ -17535,7 +17569,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1017
 			//lecce
             DB::table('counties')->insert([
 				'county_name' => 'Lecce',
@@ -17553,7 +17587,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Foggia
-			//
+			//1018
 			//foggia
             DB::table('counties')->insert([
 				'county_name' => 'Foggia',

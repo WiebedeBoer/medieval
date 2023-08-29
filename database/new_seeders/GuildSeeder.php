@@ -20632,7 +20632,76 @@ class GuildSeeder extends Seeder
 			'county' => '1000',
 			'barony' => ''
 		]);
+		//Portici
+		DB::table('guilds')->insert([
+			'guild_name' => 'Silk Weavers Guild of Portici',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Silk_Weaver',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '182',
+			'county' => '1000',
+			'barony' => ''
+		]);
+		//Aversa
+		//Aversa
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Aversa',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '182',
+			'county' => '1001',
+			'barony' => ''
+		]);
+		//Nola
+		//Nola
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Nola',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '182',
+			'county' => '1002',
+			'barony' => ''
+		]);
+		//Marciano
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Marciano',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '182',
+			'county' => '1002',
+			'barony' => ''
+		]);
+		//Saviano
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Saviano',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '182',
+			'county' => '1002',
+			'barony' => ''
+		]);
 		//Capua
+		//Volturno
+		//Pantano
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Pantano',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '183',
+			'county' => '1003',
+			'barony' => ''
+		]);
 		//Capua
 		//Capua
 		DB::table('guilds')->insert([
@@ -20646,13 +20715,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Capua',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '183',
-			'county' => '',
+			'county' => '1004',
 			'barony' => ''
 		]);
 		//Amalfi
@@ -20669,13 +20738,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Amalfi',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '184',
-			'county' => '',
+			'county' => '1006',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -20685,7 +20754,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '184',
-			'county' => '',
+			'county' => '1006',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -20695,7 +20764,19 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '183',
-			'county' => '',
+			'county' => '1006',
+			'barony' => ''
+		]);
+		//Sorrento
+		//Sorrento
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Sorrento',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '184',
+			'county' => '1007',
 			'barony' => ''
 		]);
 		//Calabria
@@ -20708,7 +20789,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1008',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -20722,13 +20803,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Catanzaro',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1008',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -20738,7 +20819,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1008',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -20748,7 +20829,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1008',
 			'barony' => ''
 		]);
 		//Cosenza
@@ -20760,7 +20841,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1009',
 			'barony' => ''
 		]);
 		//Crotone
@@ -20772,7 +20853,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1010',
 			'barony' => ''
 		]);
 		//Reggio
@@ -20784,7 +20865,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1011',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -20794,7 +20875,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
-			'county' => '',
+			'county' => '1011',
 			'barony' => ''
 		]);
 		//Basilicata
@@ -20829,7 +20910,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '186',
-			'county' => '',
+			'county' => '1012',
 			'barony' => ''
 		]);
 		//Potenza
@@ -20841,7 +20922,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '186',
-			'county' => '',
+			'county' => '1013',
 			'barony' => ''
 		]);
 		//Taranto
@@ -20874,7 +20955,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '187',
-			'county' => '',
+			'county' => '1014',
 			'barony' => ''
 		]);
 		//Brindisi
@@ -20886,7 +20967,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '187',
-			'county' => '',
+			'county' => '1016',
 			'barony' => ''
 		]);
 		//Foggia
@@ -20919,7 +21000,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '188',
-			'county' => '',
+			'county' => '1018',
 			'barony' => ''
 		]);
 		//Benevento
