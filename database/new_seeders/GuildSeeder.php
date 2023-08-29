@@ -20767,6 +20767,28 @@ class GuildSeeder extends Seeder
 			'county' => '1006',
 			'barony' => ''
 		]);
+		//Ravello
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Ravello',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '184',
+			'county' => '1006',
+			'barony' => ''
+		]);
+		//Scalelle
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Scalelle',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '184',
+			'county' => '1006',
+			'barony' => ''
+		]);
 		//Sorrento
 		//Sorrento
 		DB::table('guilds')->insert([
@@ -20832,6 +20854,17 @@ class GuildSeeder extends Seeder
 			'county' => '1008',
 			'barony' => ''
 		]);
+		//Squillace
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Squillace',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '185',
+			'county' => '1008',
+			'barony' => ''
+		]);
 		//Cosenza
 		//Cosenza
 		DB::table('guilds')->insert([
@@ -20844,12 +20877,43 @@ class GuildSeeder extends Seeder
 			'county' => '1009',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Cosenza',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '185',
+			'county' => '1009',
+			'barony' => ''
+		]);
+		//San Vito
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of San Vito',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '185',
+			'county' => '1009',
+			'barony' => ''
+		]);
 		//Crotone
 		//Crotone
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Crotone',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '185',
+			'county' => '1010',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Crotone',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '185',
@@ -20878,35 +20942,33 @@ class GuildSeeder extends Seeder
 			'county' => '1011',
 			'barony' => ''
 		]);
-		//Basilicata
-		//
-		//
 		DB::table('guilds')->insert([
-			'guild_name' => 'Court of Basilicata',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '186',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Fair of Reggio',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '186',
-			'county' => '',
+			'duchy' => '185',
+			'county' => '1011',
 			'barony' => ''
 		]);
+		//Basilicata
 		//Matera
 		//Matera
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Matera',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Lavender',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '186',
+			'county' => '1012',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Matera',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '186',
@@ -20925,6 +20987,17 @@ class GuildSeeder extends Seeder
 			'county' => '1013',
 			'barony' => ''
 		]);
+		//Acerenza
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Basilicata',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '186',
+			'county' => null,
+			'barony' => ''
+		]);
 		//Taranto
 		//Taranto
 		//Taranto
@@ -20939,16 +21012,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '187',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'Mariners Guild of Taranto',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
@@ -20958,7 +21021,52 @@ class GuildSeeder extends Seeder
 			'county' => '1014',
 			'barony' => ''
 		]);
+		//Crispiano
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Crispiano',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1014',
+			'barony' => ''
+		]);
+		//Bari
+		//Bari
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Bari',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1015',
+			'barony' => ''
+		]);
+		//Conversano
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Conversano',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1015',
+			'barony' => ''
+		]);
 		//Brindisi
+		//Mesagne
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Mesagne',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1016',
+			'barony' => ''
+		]);
 		//San Demetrio
 		DB::table('guilds')->insert([
 			'guild_name' => 'Vintners Guild of San Demetrio',
@@ -20968,6 +21076,61 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '187',
 			'county' => '1016',
+			'barony' => ''
+		]);
+		//San Donaci
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of San Donaci',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1016',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Oritana',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1016',
+			'barony' => ''
+		]);
+		//Lecce
+		//Lecce
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Lecce',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1017',
+			'barony' => ''
+		]);
+		//San Domenico
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of San Domenico',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1017',
+			'barony' => ''
+		]);
+		//Mazzetta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Mazzetta',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '187',
+			'county' => '1017',
 			'barony' => ''
 		]);
 		//Foggia
@@ -20984,16 +21147,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '188',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'University of Foggia',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar_Bishop',
@@ -21001,6 +21154,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '188',
 			'county' => '1018',
+			'barony' => ''
+		]);
+		//Sangro
+		//Fiorentino
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Fiorentino',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '188',
+			'county' => '1019',
+			'barony' => ''
+		]);
+		//San Matteo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of San Matteo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '188',
+			'county' => '1019',
 			'barony' => ''
 		]);
 		//Benevento

@@ -17380,7 +17380,7 @@ class CountySeeder extends Seeder
             ]);
 			//Amalfi
 			//1006
-			//amalfi
+			//amalfi, ravello, scala, scalelle
             DB::table('counties')->insert([
 				'county_name' => 'Amalfi',
 				'county_category' => 'Patrician_Manor',
@@ -17388,16 +17388,16 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_crops' => 'Dye_Madder',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1007
-			//sorrento
+			//sorrento, torca
             DB::table('counties')->insert([
 				'county_name' => 'Sorrento',
 				'county_category' => 'Feudal_Manor',
@@ -17432,7 +17432,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1009
-			//cosenza, mendicino
+			//cosenza, mendicino, santa maria, san vito
             DB::table('counties')->insert([
 				'county_name' => 'Cosenza',
 				'county_category' => 'Feudal_Manor',
@@ -17441,7 +17441,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Charger',
@@ -17449,7 +17449,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1010
-			//crotone
+			//crotone, caccuri, ciro, santa severina
             DB::table('counties')->insert([
 				'county_name' => 'Crotone',
 				'county_category' => 'Feudal_Manor',
@@ -17466,7 +17466,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1011
-			//reggio
+			//reggio, catona
             DB::table('counties')->insert([
 				'county_name' => 'Reggio',
 				'county_category' => 'Feudal_Manor',
@@ -17484,7 +17484,7 @@ class CountySeeder extends Seeder
             ]);
 			//Basilicata
 			//1012
-			//matera
+			//matera, montescaglioso, camarda, pisticci, policoro
             DB::table('counties')->insert([
 				'county_name' => 'Matera',
 				'county_category' => 'Feudal_Manor',
@@ -17501,7 +17501,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1013
-			//potenza
+			//potenza, acerenza, melfi
             DB::table('counties')->insert([
 				'county_name' => 'Potenza',
 				'county_category' => 'Feudal_Manor',
@@ -17519,7 +17519,7 @@ class CountySeeder extends Seeder
             ]);
 			//Taranto
 			//1014
-			//taranto
+			//taranto, avetrana, castellaneta, crispiano, manduria, mottola, sava
             DB::table('counties')->insert([
 				'county_name' => 'Taranto',
 				'county_category' => 'Feudal_Manor',
@@ -17528,15 +17528,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1015
-			//bari
+			//bari, conversano, mola, san vito
             DB::table('counties')->insert([
 				'county_name' => 'Bari',
 				'county_category' => 'Feudal_Manor',
@@ -17553,7 +17553,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1016
-			//brindisi, san demetrio
+			//brindisi, mesagne, san demetrio, san donaci, serranova
             DB::table('counties')->insert([
 				'county_name' => 'Brindisi',
 				'county_category' => 'Feudal_Manor',
@@ -17563,14 +17563,14 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1017
-			//lecce
+			//lecce, ostuni, san domenico, monteroni, nardo, mazzetta
             DB::table('counties')->insert([
 				'county_name' => 'Lecce',
 				'county_category' => 'Feudal_Manor',
@@ -17582,13 +17582,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Foggia
 			//1018
-			//foggia
+			//foggia, vico, ischitella, san pietro, lucera
             DB::table('counties')->insert([
 				'county_name' => 'Foggia',
 				'county_category' => 'Feudal_Manor',
@@ -17597,32 +17597,32 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1019
+			//fiorentino, dragonara, san severo, san paolo, lesina, san matteo
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Sangro',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '188',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Napels',
 				'vernacular_culture' => 'Neapolitan',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Benevento
-			//
+			//1020
 			//benevento
             DB::table('counties')->insert([
 				'county_name' => 'Benevento',

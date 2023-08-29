@@ -2448,7 +2448,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Naples
 			//182
-			//Naples
+			//Naples, Aversa, Nola
             DB::table('duchies')->insert([
 				'duchy_name' => 'Naples',
 				'duchy_category' => 'Feudal_Estate',
@@ -2461,7 +2461,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//183
-			//Capua, Caserta
+			//Volturno, Capua, Caserta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Capua',
 				'duchy_category' => 'Feudal_Estate',
@@ -2526,7 +2526,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//188
-			//Foggia
+			//Foggia, Sangro
             DB::table('duchies')->insert([
 				'duchy_name' => 'Foggia',
 				'duchy_category' => 'Feudal_Estate',
