@@ -17345,7 +17345,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1004
-			//capua, san angelo
+			//capua, san angelo, cajazzo, carinola, presenzano
             DB::table('counties')->insert([
 				'county_name' => 'Capua',
 				'county_category' => 'Feudal_Manor',
@@ -17588,7 +17588,7 @@ class CountySeeder extends Seeder
             ]);
 			//Foggia
 			//1018
-			//foggia, vico, ischitella, san pietro, lucera
+			//foggia, vico, ischitella, san pietro, lucera, bovino
             DB::table('counties')->insert([
 				'county_name' => 'Foggia',
 				'county_category' => 'Feudal_Manor',
@@ -17605,7 +17605,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1019
-			//fiorentino, dragonara, san severo, san paolo, lesina, san matteo
+			//fiorentino, dragonara, san severo, san paolo
             DB::table('counties')->insert([
 				'county_name' => 'Sangro',
 				'county_category' => 'Feudal_Manor',
@@ -17621,9 +17621,43 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Benevento
 			//1020
-			//benevento
+			//lesina, san matteo
+            DB::table('counties')->insert([
+				'county_name' => 'Lesina',
+				'county_category' => 'Ecclesiastical_Manor',
+				'de_jure_duchy' => '188',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Olive_Oil',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1021
+			//termoli, san giacomo, larino
+            DB::table('counties')->insert([
+				'county_name' => 'Termoli',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '188',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Olive_Oil',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Benevento
+			//1022
+			//benevento, montesarchio, santa agata, san marco
             DB::table('counties')->insert([
 				'county_name' => 'Benevento',
 				'county_category' => 'Feudal_Manor',
@@ -17639,10 +17673,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1023
+			//bojano, san massimo, monteverde
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Bojano',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '189',
 				'vernacular_religion' => 'Catholic',
@@ -17656,8 +17690,110 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
+			//1024
+			//isernia, carpinone, santa maria
+            DB::table('counties')->insert([
+				'county_name' => 'Isernia',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1025
+			//molise, frosolone
+            DB::table('counties')->insert([
+				'county_name' => 'Molise',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1026
+			//alife, san simeone
+            DB::table('counties')->insert([
+				'county_name' => 'Alife',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1027
+			//calvi, san giorgio, venticano
+            DB::table('counties')->insert([
+				'county_name' => 'Calvi',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1028
+			//celano, santa jona
+            DB::table('counties')->insert([
+				'county_name' => 'Celano',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1029
+			//mignano, gallucio, venafro, triverno
+            DB::table('counties')->insert([
+				'county_name' => 'Mignano',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '189',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Salerno
-			//
+			//1030
 			//salerno, cava, san lorenzo
             DB::table('counties')->insert([
 				'county_name' => 'Salerno',
@@ -17674,10 +17810,27 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1031
+			//castiglione, baronissi, fisciano
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Castiglione',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '190',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Napels',
+				'vernacular_culture' => 'Neapolitan',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1032
+			//padula, san giacomo
+            DB::table('counties')->insert([
+				'county_name' => 'Cilento',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '190',
 				'vernacular_religion' => 'Catholic',
@@ -17693,10 +17846,27 @@ class CountySeeder extends Seeder
             ]);
 			//Sardinia
 			//Gallura
-			//
+			//1033
 			//olbia
             DB::table('counties')->insert([
 				'county_name' => 'Olbia',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '191',
+				'vernacular_religion' => 'Catholic',
+				'vernacular_cycle' => 'Matter_Sardinia',
+				'vernacular_culture' => 'Sardinian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1034
+			//montacuto
+            DB::table('counties')->insert([
+				'county_name' => 'Montacuto',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '191',
 				'vernacular_religion' => 'Catholic',
@@ -17710,25 +17880,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
-            DB::table('counties')->insert([
-				'county_name' => '',
-				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '191',
-				'vernacular_religion' => 'Catholic',
-				'vernacular_cycle' => 'Matter_Sardinia',
-				'vernacular_culture' => 'Sardinian',
-				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Sheep',
-				'marke_poultry' => 'Chickens'
-            ]);
 			//Logudoro 
-			//
+			//1035
 			//torres
             DB::table('counties')->insert([
 				'county_name' => 'Torres',
@@ -17745,7 +17898,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1036
 			//sassari
             DB::table('counties')->insert([
 				'county_name' => 'Sassari',
@@ -17763,7 +17916,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Arborea
-			//
+			//1037
 			//oristano, tharros
             DB::table('counties')->insert([
 				'county_name' => 'Oristano',
@@ -17780,7 +17933,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1038
 			//sanluri
             DB::table('counties')->insert([
 				'county_name' => 'Campadino',
@@ -17798,7 +17951,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Cagliari
-			//
+			//1039
 			//cagliari
             DB::table('counties')->insert([
 				'county_name' => 'Cagliari',
@@ -17815,7 +17968,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1040
 			//tortoli, nuoro
             DB::table('counties')->insert([
 				'county_name' => 'Oglistria',
@@ -17832,7 +17985,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1041
 			//castiadas, san vito
             DB::table('counties')->insert([
 				'county_name' => 'Sarrabus',

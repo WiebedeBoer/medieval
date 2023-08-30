@@ -2526,7 +2526,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//188
-			//Foggia, Sangro
+			//Foggia, Sangro, Lesina, Termoli
             DB::table('duchies')->insert([
 				'duchy_name' => 'Foggia',
 				'duchy_category' => 'Feudal_Estate',
@@ -2539,7 +2539,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//189
-			//Benevento
+			//Benevento, Bojano, Isernia, Molise, Alife, Celano, Mignano
             DB::table('duchies')->insert([
 				'duchy_name' => 'Benevento',
 				'duchy_category' => 'Feudal_Estate',
@@ -2552,7 +2552,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//190
-			//Salerno
+			//Salerno, Castiglione, Cilento
             DB::table('duchies')->insert([
 				'duchy_name' => 'Salerno',
 				'duchy_category' => 'Feudal_Estate',
@@ -2566,7 +2566,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Sardinia
 			//191
-			//
+			//Olbia, Montacuto
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gallura',
 				'duchy_category' => 'Feudal_Estate',
@@ -2579,7 +2579,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//192
-			//Torres
+			//Torres, Sassari
             DB::table('duchies')->insert([
 				'duchy_name' => 'Logudoro',
 				'duchy_category' => 'Feudal_Estate',
@@ -2592,7 +2592,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//193
-			//Oristano, Sassari, Tharros
+			//Oristano, Campadino
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arborea',
 				'duchy_category' => 'Feudal_Estate',
@@ -2605,7 +2605,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//194
-			//Cagliari
+			//Cagliari, Oglistria, Sarrabus
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cagliari',
 				'duchy_category' => 'Feudal_Estate',
