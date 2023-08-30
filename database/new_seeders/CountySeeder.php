@@ -17847,7 +17847,7 @@ class CountySeeder extends Seeder
 			//Sardinia
 			//Gallura
 			//1033
-			//olbia
+			//olbia, maddalena, santa teresa, pedres
             DB::table('counties')->insert([
 				'county_name' => 'Olbia',
 				'county_category' => 'Feudal_Manor',
@@ -17864,7 +17864,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1034
-			//montacuto
+			//montacuto, berchidda, castro
             DB::table('counties')->insert([
 				'county_name' => 'Montacuto',
 				'county_category' => 'Feudal_Manor',
@@ -17964,7 +17964,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);

@@ -43,13 +43,13 @@ class GuildSeeder extends Seeder
 		//Cathedral_School:								University	Scholar_Bishop				(105)
 		//Monastic_School:								University	Scholar_Monastic			(47)
 		//
-		//Guild_Potter:									Craft		Master_Potter				(66)
-		//Guild_Smith:									Craft		Master_Smith				(58)
-		//Guild_Tanner:									Craft		Master_Tanner				(87)
-		//Guild_Furrier:								Craft		Master_Furrier				(12)
-		//Guild_Silk:									Craft		Master_Silk_Weaver			(37)
+		//Guild_Potter:									Craft		Master_Potter				(76)
+		//Guild_Smith:									Craft		Master_Smith				(63)
+		//Guild_Tanner:									Craft		Master_Tanner				(91)
+		//Guild_Furrier:								Craft		Master_Furrier				(14)
+		//Guild_Silk:									Craft		Master_Silk_Weaver			(38)
 		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron			(33)
-		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(7)
+		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(8)
 		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad			(56)
 		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes			(13)
 		//Guild_Dyer_Indigo:							Craft		Master_Dyer_Indigo			()
@@ -60,19 +60,19 @@ class GuildSeeder extends Seeder
 		//Arsenal:										Craft		Master_Mariner				(49)
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher				(15)
-		//Guild_Joiner:									Craft		Master_Joiner				(9)
+		//Guild_Joiner:									Craft		Master_Joiner				(10)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger			(22)
-		//Guild_Miller:									Craft		Master_Miller				(44)
-		//Guild_Fuller:									Craft		Master_Fuller				(28)
-		//Guild_Vintner:								Craft		Master_Vintner				(31)
+		//Guild_Miller:									Craft		Master_Miller				(47)
+		//Guild_Fuller:									Craft		Master_Fuller				(32)
+		//Guild_Vintner:								Craft		Master_Vintner				(42)
 		//Guild_Chandler:								Craft		Master_Chandler				(23)
-		//Guild_Ironworks:								Craft		Master_Ironmonger			(30)
+		//Guild_Ironworks:								Craft		Master_Ironmonger			(32)
 		//
-		//Tiltyard:										Feast		Tournament					(514)
-		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair						(209)
-		//Coaching_Inn:									Feast		Tavern						(152)
-		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(54)
-		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(81)
+		//Tiltyard:										Feast		Tournament					(532)
+		//Merchant_Bank | Cloth_Hall | Trade_Fair:		Feast		Fair						(215)
+		//Coaching_Inn:									Feast		Tavern						(159)
+		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(61)
+		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(86)
 		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer				(15)
 		*/
 		
@@ -21330,7 +21330,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '190',
-			'county' => '',
+			'county' => '1030',
 			'barony' => ''
 		]);
 		//San Lorenzo
@@ -21381,8 +21381,8 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Logudoro
-		//
-		//
+		//Torres
+		//Torres
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Logudoro',
 			'guild_category' => 'Court',
@@ -21393,19 +21393,21 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Sassari
+		//Sassari
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Sassari',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '192',
-			'county' => '',
+			'county' => '1036',
 			'barony' => ''
 		]);
 		//Arborea
-		//
-		//
+		//Oristano
+		//Oristano
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Arborea',
 			'guild_category' => 'Court',
@@ -21417,13 +21419,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Oristano',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '193',
-			'county' => '',
+			'county' => '1037',
 			'barony' => ''
 		]);
 		//Cagliari
@@ -21450,13 +21452,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Cagliari',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '194',
-			'county' => '',
+			'county' => '1039',
 			'barony' => ''
 		]);
 		//Byzantine Empire
