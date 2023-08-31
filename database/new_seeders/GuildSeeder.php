@@ -21567,7 +21567,7 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => '',
+			'guild_name' => 'Tournament of Constantinople',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -21580,6 +21580,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Fair of Constantinople',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1042',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potters Guild of Constantinople',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '195',
@@ -21604,6 +21614,82 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '195',
 			'county' => '1042',
+			'barony' => ''
+		]);
+		//Kosmidion
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1042',
+			'barony' => ''
+		]);
+		//Philopation
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1042',
+			'barony' => ''
+		]);
+		//Pera
+		//Galata
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Galata',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1043',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1043',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Galata',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1043',
+			'barony' => ''
+		]);
+		//Elaia
+		DB::table('guilds')->insert([
+			'guild_name' => 'Curriers Guild of Elaia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1043',
+			'barony' => ''
+		]);
+		//Exartysis
+		DB::table('guilds')->insert([
+			'guild_name' => 'Mariners Guild of Exartysis',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '195',
+			'county' => '1043',
 			'barony' => ''
 		]);
 		//Macedonia

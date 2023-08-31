@@ -18006,7 +18006,7 @@ class CountySeeder extends Seeder
 			//Thrace
 			//Thrace
 			//1042
-			//constantinople
+			//constantinople, kosmidion, philopation, pege, hebdomon, strongylon
             DB::table('counties')->insert([
 				'county_name' => 'Constantinople',
 				'county_category' => 'Feudal_Manor',
@@ -18018,11 +18018,28 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1043
+			//galata, elaia, exartysis
+            DB::table('counties')->insert([
+				'county_name' => 'Pera',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '195',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
 			//ergisce
             DB::table('counties')->insert([
 				'county_name' => 'Ergisce',
