@@ -3465,6 +3465,19 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''
             ]);
+			//Byzantine
+			//Thrace
+			//Thrace
+            DB::table('surnames')->insert([
+				'surname_duchy' => '195',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '195',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
 			
     }
 }

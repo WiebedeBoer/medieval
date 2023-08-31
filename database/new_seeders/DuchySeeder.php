@@ -2619,7 +2619,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Byzantine
 			//Thrace
-			//
+			//195
 			//Constantinople, Ergisce
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thrace',

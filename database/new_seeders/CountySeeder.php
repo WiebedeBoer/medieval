@@ -17875,14 +17875,14 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Logudoro 
 			//1035
-			//torres
+			//torres, santa andrea, santa giusta
             DB::table('counties')->insert([
 				'county_name' => 'Torres',
 				'county_category' => 'Feudal_Manor',
@@ -17899,7 +17899,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1036
-			//sassari
+			//sassari, ottava, usini
             DB::table('counties')->insert([
 				'county_name' => 'Sassari',
 				'county_category' => 'Feudal_Manor',
@@ -17908,16 +17908,16 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Sardinia',
 				'vernacular_culture' => 'Sardinian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Arborea
 			//1037
-			//oristano, tharros
+			//oristano, tharros, santa giusta
             DB::table('counties')->insert([
 				'county_name' => 'Oristano',
 				'county_category' => 'Feudal_Manor',
@@ -17934,7 +17934,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1038
-			//sanluri
+			//sanluri, monreale, sardara, collinas
             DB::table('counties')->insert([
 				'county_name' => 'Campadino',
 				'county_category' => 'Feudal_Manor',
@@ -17952,7 +17952,7 @@ class CountySeeder extends Seeder
             ]);
 			//Cagliari
 			//1039
-			//cagliari
+			//cagliari, furtei, monastir
             DB::table('counties')->insert([
 				'county_name' => 'Cagliari',
 				'county_category' => 'Feudal_Manor',
@@ -17969,7 +17969,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1040
-			//tortoli, nuoro
+			//tortoli, nuoro, orosei
             DB::table('counties')->insert([
 				'county_name' => 'Oglistria',
 				'county_category' => 'Feudal_Manor',
@@ -17980,7 +17980,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
@@ -18005,12 +18005,12 @@ class CountySeeder extends Seeder
 			//Byzantine
 			//Thrace
 			//Thrace
-			//
+			//1042
 			//constantinople
             DB::table('counties')->insert([
 				'county_name' => 'Constantinople',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '195',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18022,12 +18022,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1043
 			//ergisce
             DB::table('counties')->insert([
 				'county_name' => 'Ergisce',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '195',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
