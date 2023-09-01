@@ -21670,22 +21670,21 @@ class GuildSeeder extends Seeder
 			'county' => '1043',
 			'barony' => ''
 		]);
-		//Elaia
 		DB::table('guilds')->insert([
-			'guild_name' => 'Curriers Guild of Elaia',
+			'guild_name' => 'Mariners Guild of Galata',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Tanner',
+			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '195',
 			'county' => '1043',
 			'barony' => ''
 		]);
-		//Exartysis
+		//Elaia
 		DB::table('guilds')->insert([
-			'guild_name' => 'Mariners Guild of Exartysis',
+			'guild_name' => 'Curriers Guild of Elaia',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Mariner',
+			'guild_subcategory' => 'Master_Tanner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '195',
@@ -21701,7 +21700,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '196',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -21711,8 +21710,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '196',
+			'county' => '1045',
 			'barony' => ''
 		]);
 		//Bergule
@@ -21723,8 +21722,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tavern',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '196',
+			'county' => '1046',
 			'barony' => ''
 		]);
 		//Heroic
@@ -21734,8 +21733,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '196',
+			'county' => '1046',
 			'barony' => ''
 		]);
 		//Kingdom of Thessalonica
@@ -21748,8 +21747,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '197',
+			'county' => '1048',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -21758,8 +21757,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '197',
+			'county' => '1048',
 			'barony' => ''
 		]);
 		//Boeotia
@@ -21770,8 +21769,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '197',
+			'county' => '1049',
 			'barony' => ''
 		]);
 		//
@@ -21782,7 +21781,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '197',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -21792,7 +21791,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '197',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -21805,8 +21804,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '198',
+			'county' => '1053',
 			'barony' => ''
 		]);
 		//
@@ -21817,7 +21816,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '198',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -21827,75 +21826,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
-			'barony' => ''
-		]);
-		//Archipelago
-		//Chios
-		//Pyrgi
-		DB::table('guilds')->insert([
-			'guild_name' => 'Perfumers Guild of Pyrgi',
-			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Perfumer_Incense',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
-			'barony' => ''
-		]);
-		//Elata
-		DB::table('guilds')->insert([
-			'guild_name' => 'Perfumers Guild of Elata',
-			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Perfumer_Incense',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
-			'barony' => ''
-		]);
-		//Mesta
-		DB::table('guilds')->insert([
-			'guild_name' => 'Perfumers Guild of Mesta',
-			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Perfumer_Incense',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
-			'barony' => ''
-		]);
-		//Amani
-		DB::table('guilds')->insert([
-			'guild_name' => 'Vintners Guild of Amani',
-			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Vintner',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
-			'barony' => ''
-		]);
-		//
-		//
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Court',
-			'guild_subcategory' => 'Petty_Kingdom',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
-			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '198',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -21908,7 +21839,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '199',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -21918,7 +21849,75 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '199',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Archipelago
+		//Chios
+		//Pyrgi
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Pyrgi',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Incense',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '200',
+			'county' => '1059',
+			'barony' => ''
+		]);
+		//Elata
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Elata',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Incense',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '200',
+			'county' => '1059',
+			'barony' => ''
+		]);
+		//Mesta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Mesta',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Incense',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '200',
+			'county' => '1059',
+			'barony' => ''
+		]);
+		//Amani
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Amani',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '200',
+			'county' => '1059',
+			'barony' => ''
+		]);
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '200',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => '',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '200',
 			'county' => '',
 			'barony' => ''
 		]);
