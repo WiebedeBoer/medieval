@@ -3478,6 +3478,535 @@ class TithingSeeder extends Seeder
 				'surname_category' => 'Feudal',
 				'surname' => ''
             ]);
+			//Macedonia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '196',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '196',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Thessalonica
+			//Hellas
+            DB::table('surnames')->insert([
+				'surname_duchy' => '197',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '197',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Peloponessos
+            DB::table('surnames')->insert([
+				'surname_duchy' => '198',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '198',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Candia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '199',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '199',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Archipelago
+            DB::table('surnames')->insert([
+				'surname_duchy' => '200',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '200',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Epirus
+            DB::table('surnames')->insert([
+				'surname_duchy' => '201',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '201',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Thessalonica
+            DB::table('surnames')->insert([
+				'surname_duchy' => '202',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '202',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Strymon
+            DB::table('surnames')->insert([
+				'surname_duchy' => '203',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '203',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Trebizond
+			//Paphlagonia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '204',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '204',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Armeniac
+            DB::table('surnames')->insert([
+				'surname_duchy' => '205',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '205',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Chaldia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '206',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '206',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Crimea
+            DB::table('surnames')->insert([
+				'surname_duchy' => '207',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '207',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Anatolia
+			//Samos
+            DB::table('surnames')->insert([
+				'surname_duchy' => '208',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '208',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Thracesia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '209',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '209',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Bucellaria
+            DB::table('surnames')->insert([
+				'surname_duchy' => '210',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '210',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Anatolia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '211',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '211',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Cappadocia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '212',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '212',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Seleucia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '213',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '213',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Opsicia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '214',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '214',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Nicaea
+            DB::table('surnames')->insert([
+				'surname_duchy' => '215',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '215',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Lycia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '216',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '216',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Pamphylia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '217',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '217',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Georgia
+			//Colchis
+            DB::table('surnames')->insert([
+				'surname_duchy' => '218',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '218',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Javakheti
+            DB::table('surnames')->insert([
+				'surname_duchy' => '219',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '219',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kartli
+            DB::table('surnames')->insert([
+				'surname_duchy' => '220',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '220',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kakheti
+            DB::table('surnames')->insert([
+				'surname_duchy' => '221',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '221',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Armenia
+			//Vaspurakan
+            DB::table('surnames')->insert([
+				'surname_duchy' => '222',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '222',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Taron
+            DB::table('surnames')->insert([
+				'surname_duchy' => '223',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '223',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kars
+            DB::table('surnames')->insert([
+				'surname_duchy' => '224',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '224',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Azerbaijan
+            DB::table('surnames')->insert([
+				'surname_duchy' => '225',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '225',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Kievan Rus
+			//Kyiv
+			//Kyiv
+            DB::table('surnames')->insert([
+				'surname_duchy' => '226',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '226',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Pereyaslavl
+            DB::table('surnames')->insert([
+				'surname_duchy' => '227',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '227',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Chernigov
+			//Chernigov
+            DB::table('surnames')->insert([
+				'surname_duchy' => '228',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '228',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Ryazan
+            DB::table('surnames')->insert([
+				'surname_duchy' => '229',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '229',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Ruthenia
+			//Halych
+            DB::table('surnames')->insert([
+				'surname_duchy' => '230',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '230',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Podolia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '231',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '231',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Volhynia
+            DB::table('surnames')->insert([
+				'surname_duchy' => '232',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '232',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Turov
+            DB::table('surnames')->insert([
+				'surname_duchy' => '233',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '233',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Vladimir
+			//Vladimir
+            DB::table('surnames')->insert([
+				'surname_duchy' => '234',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '234',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Moscow
+            DB::table('surnames')->insert([
+				'surname_duchy' => '235',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '235',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Suzdal
+            DB::table('surnames')->insert([
+				'surname_duchy' => '236',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '236',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Smolensk
+			//Smolensk
+            DB::table('surnames')->insert([
+				'surname_duchy' => '237',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '237',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Rzhev
+            DB::table('surnames')->insert([
+				'surname_duchy' => '238',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '238',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Tver
+            DB::table('surnames')->insert([
+				'surname_duchy' => '239',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '239',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Novgorod
+			//Novgorod
+            DB::table('surnames')->insert([
+				'surname_duchy' => '240',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '240',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Polotsk
+            DB::table('surnames')->insert([
+				'surname_duchy' => '241',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '241',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+			//Pleskov
+            DB::table('surnames')->insert([
+				'surname_duchy' => '242',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
+            DB::table('surnames')->insert([
+				'surname_duchy' => '242',
+				'surname_category' => 'Feudal',
+				'surname' => ''
+            ]);
 			
     }
 }

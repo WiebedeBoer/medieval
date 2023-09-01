@@ -2673,7 +2673,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//199
-			//Candia
+			//Heraklion, Chania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Candia',
 				'duchy_category' => 'Feudal_Estate',
@@ -2686,7 +2686,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//200
-			//Chios
+			//Chios, Naxos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Archipelago',
 				'duchy_category' => 'Feudal_Estate',
@@ -2805,7 +2805,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//209
-			//Sardes
+			//Sardes, Chonae
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thracesia',
 				'duchy_category' => 'Feudal_Estate',
@@ -2923,7 +2923,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Georgia
 			//218
-			//Phasis, Pityus, Imereti
+			//Phasis, Pityus, Imereti, Batumi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Colchis',
 				'duchy_category' => 'Feudal_Estate',
@@ -3002,7 +3002,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//224
-			//Kars
+			//Kars, Ani
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kars',
 				'duchy_category' => 'Feudal_Estate',
