@@ -403,7 +403,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Palatial'
             ]);
 			//Thessalonica
-			//Hellas, Peloponessos, Archipelago, Epirus, Thessalonica
+			//Hellas, Peloponessos, Candia, Archipelago, Epirus, Thessalonica, Strymon
 			//31
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thessalonica',
@@ -473,8 +473,8 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'Palatial'			
-            ]);		
+				'law_court' => 'Palatial'
+            ]);
 			//Chernigov
 			//Chernigov, Ryazan 
 			//37
@@ -497,7 +497,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'Itinerant'			
+				'law_court' => 'Itinerant'
             ]);
 			//Vladimir
 			//Vladimir, Moscow, Suzdal
@@ -533,11 +533,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '11',
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
-				'law_court' => 'Palatial'				
-            ]);			
+				'law_court' => 'Palatial'
+            ]);
 			//Bulgaria
 			//Bulgaria
-			//Preslav, Tarnovo
+			//Preslav, Tarnovo, Philippopolis
 			//42
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Bulgaria',

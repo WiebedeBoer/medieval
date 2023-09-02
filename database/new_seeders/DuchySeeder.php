@@ -2699,7 +2699,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//201
-			//Naupaktos
+			//Naupaktos, Arta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Epirus',
 				'duchy_category' => 'Feudal_Estate',
@@ -3271,9 +3271,22 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//
-			//Tarnovo
+			//Tarnovo, Kopsis, Seuthopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarnovo',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '42',
+				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => 'Half_Timbered_Konak',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
+				'transport' => 'Donkey_Train',
+				'altitude' => 'Montane'
+            ]);
+			//
+			//Philippopolis
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Philippopolis',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '42',
 				'law_succession' => 'Salic_Primogeniture',

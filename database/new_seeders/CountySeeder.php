@@ -14,19 +14,19 @@ class CountySeeder extends Seeder
 		
 			/*
             DB::table('counties')->insert([
-				'county_name' => '',				//total = 1346 counties
-				'county_category' => '',			//Feudal_Manor (1191), Ecclesiastical_Manor (132), Monastic_Manor (6), Patrician_Manor (17) = 1346
+				'county_name' => '',				//total = counties
+				'county_category' => '',			//
 				'de_jure_duchy' => '',
-				'vernacular_religion' => '',		//Catholic, Orthodox_Greek, Orthodox_Serbian, Orthodox_Bulgarian, Muslim_Sunni, Muslim_Shia, Pagan
-				'vernacular_cycle' => '',			//Matter_High_German, Matter_Low_German, Matter_Lombard, Matter_Venice, Matter_Tuscan, Matter_Rome, Matter_France, Matter_Britain, Matter_Aragon, Matter_Castile, Matter_Portugal, Matter_Norse, Matter_Byzantine, Matter_Sicily, Matter_Napels, Matter_Sardinia, Matter_Georgia, Matter_Armenia, Matter_Bulgaria, Matter_Vlach, Matter_Serbia, Matter_Rus, Matter_Andalus, Matter_Darija, Matter_Ifriqiya, Matter_Masri, Matter_Jazira, Matter_Levant, Matter_Hejaz, Matter_Najd, Matter_Turk, Matter_Persia, Matter_Magyar, Matter_Croat, Matter_Bohemia, Matter_Sorbia, Matter_Baltic, Matter_Polish
-				'vernacular_culture' => '',			//Arpitan, Bavarian, Bohemian, Breton, Franconian, Frankish, Frisian, Flemish, Lombard, Occitan, Catalan, Saxon, Silesian, Moravian, Swabian, Livonian, Prussian, Wendish, Irish, English, Welsh, Gaelic, Pictish, Norwegian, Danish, Swedish, Finnish, Navarrese, Aragonese, Castillian, Leonese, Galician, Asturian, Cantabrian, Portuguese, Polish, Lithuanian, Hungarian, Croatian, Greek, Sicilian, Neapolitan, Sardinian, Georgian, Armenian, Bulgarian, Wallachian, Serbian, Russian, Ruthenian, Moorish, Arabic, Turkic, Persian
-				'banal_moulin' => '',				//Watermill (121), Windmill (139), Horse_Mill (1097) = 1346
-				'banal_pressoir' => '',				//Beverage_Wine (198), Beverage_Cider (82), Beverage_Elder (15), Beverage_Hops (16), Beverage_Gruit (123), Olive_Oil (7), Sweetener_Honey (186), Sweetener_Sugarcane (25), Sweetener_Date (44), None (656) = 1346
-				'banal_chasse' => '',				//Falconry (9), Deer (50), Boar (31), Fur (6), None (1250) = 1346
-				'marke_crops' => '',				//Perfume_Lavender (58), Perfume_Incense (10), Perfume_Rose (0), Fiber_Flax (57), Fiber_Hemp (16), Fiber_Cotton (15), Fiber_Silk (25), Dye_Saffron (30), Dye_Madder (6), Dye_Woad (38), Dye_Indigo (0), Dye_Kermes (13), None (1081) = 1346
-				'marke_horse_transport' => '',		//Charger (308), Palfrey (404), Affer (337), Sumpter (303) = 1346
-				'marke_animal_husbandry' => '',		//Cattle (499), Sheep (335), Pigs (356), Goats (156) = 1346
-				'marke_poultry' => '',				//Chickens (1193), Ducks (154) = 1346
+				'vernacular_religion' => '',		//
+				'vernacular_cycle' => '',			//
+				'vernacular_culture' => '',			//
+				'banal_moulin' => '',				//
+				'banal_pressoir' => '',				//default=None
+				'banal_chasse' => '',				//default=None
+				'marke_crops' => '',				//default=None
+				'marke_horse_transport' => '',		//
+				'marke_animal_husbandry' => '',		//
+				'marke_poultry' => '',				//
 													//1 migration [500], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420] 		
 				'science_court' => '',				//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas; default=1	
 				'science_castle' => '',				//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V; default=1	
@@ -44,16 +44,181 @@ class CountySeeder extends Seeder
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
-				'tax_feudal' => '',					//minimal, normal, large, maximal; default=normal		
-				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=minimal				
-				'tax_burgher' => '',				//minimal, normal, large, maximal; default=normal				
+				'tax_feudal' => '',					//minimal, normal, large, maximal; default=normal
+				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=minimal
+				'tax_burgher' => '',				//minimal, normal, large, maximal; default=normal
 				'souvereign' => '1',			(empire); default=1
 				'lord_paramount' => '1',		(kingdom); default=1
 				'tenant_in_chief' => '1',		(duchy); default=1
 				'mesne_lord' => '1'				(county); default=1
             ]);
 			*/
-			
+
+			/*
+			//county_category:										type:						amount:
+			//														Feudal_Manor				()
+			//														Ecclesiastical_Manor		()
+			//														Monastic_Manor				()
+			//														Patrician_Manor				()
+			//
+			//vernacular_religion:									type:						amount:
+			//														Catholic					()
+			//														Orthodox_Greek				()
+			//														Orthodox_Serbian			()
+			//														Orthodox_Bulgarian			()
+			//														Muslim_Sunni				()
+			//														Muslim_Shia					()
+			//														Pagan						()
+			//
+			//vernacular_cycle:										type:						amount:
+			//														Matter_High_German			()
+			//														Matter_Low_German			()
+			//														Matter_Lombard				()
+			//														Matter_Venice				()
+			//														Matter_Tuscan				()
+			//														Matter_Rome					()
+			//														Matter_France				()
+			//														Matter_Britain				()
+			//														Matter_Aragon				()
+			//														Matter_Castile				()
+			//														Matter_Portugal				()
+			//														Matter_Norse				()
+			//														Matter_Byzantine			()
+			//														Matter_Sicily				()
+			//														Matter_Napels				()
+			//														Matter_Sardinia				()
+			//														Matter_Georgia				()
+			//														Matter_Armenia				()
+			//														Matter_Bulgaria				()
+			//														Matter_Vlach				()
+			//														Matter_Serbia				()
+			//														Matter_Rus					()
+			//														Matter_Andalus				()
+			//														Matter_Darija				()
+			//														Matter_Ifriqiya				()
+			//														Matter_Masri				()
+			//														Matter_Jazira				()
+			//														Matter_Levant				()
+			//														Matter_Hejaz				()
+			//														Matter_Najd					()
+			//														Matter_Turk					()
+			//														Matter_Persia				()
+			//														Matter_Magyar				()
+			//														Matter_Croat				()
+			//														Matter_Bohemia				()
+			//														Matter_Sorbia				()
+			//														Matter_Baltic				()
+			//														Matter_Polish				()
+			//
+			//vernacular_culture:									type:						amount:
+			//														Arpitan						()
+			//														Bavarian					()
+			//														Bohemian					()
+			//														Breton						()
+			//														Franconian					()
+			//														Frankish					()
+			//														Frisian						()
+			//														Flemish						()
+			//														Lombard						()
+			//														Occitan						()
+			//														Catalan						()
+			//														Saxon						()
+			//														Silesian					()
+			//														Moravian					()
+			//														Swabian						()
+			//														Livonian					()
+			//														Prussian					()
+			//														Wendish						()
+			//														Irish						()
+			//														English						()
+			//														Welsh						()
+			//														Gaelic						()
+			//														Pictish						()
+			//														Norwegian					()
+			//														Danish						()
+			//														Swedish						()
+			//														Finnish						()
+			//														Navarrese					()
+			//														Aragonese					()
+			//														Castillian					()
+			//														Leonese						()
+			//														Galician					()
+			//														Asturian					()
+			//														Cantabrian					()
+			//														Portuguese					()
+			//														Polish						()
+			//														Lithuanian					()
+			//														Hungarian					()
+			//														Croatian					()
+			//														Greek						()
+			//														Sicilian					()
+			//														Neapolitan					()
+			//														Sardinian					()
+			//														Georgian					()
+			//														Armenian					()
+			//														Bulgarian					()
+			//														Wallachian					()
+			//														Serbian						()
+			//														Russian						()
+			//														Ruthenian					()
+			//														Moorish						()
+			//														Arabic						()
+			//														Turkic						()
+			//														Persian						()
+			//
+			//banal_moulin:											type:						amount:
+			//(Water)												Watermill					(135)
+			//(Wind)												Windmill					(159)
+			//(Horse)												Horse_Mill					(1104)
+			//
+			//banal_pressoir:										type:						amount:
+			//(Beverage; Wine) & (Fruits; Grape)					Beverage_Wine				(222)
+			//(Beverage; Cider) & (Fruits; Apple)					Beverage_Cider				(82)
+			//(Beverage; Elderberry)								Beverage_Elder				(15)
+			//(Beverage; Beer)										Beverage_Hops				(17)
+			//(Beverage; Beer) & (Thatch)							Beverage_Gruit				(128)
+			//(Oil; Olives)											Olive_Oil					(32)
+			//(Sweetener; Honey) & (Beverage; Mead)					Sweetener_Honey				(190)
+			//(Sweetener; Sugar)									Sweetener_Sugarcane			(31)
+			//(Fruits; Date)										Sweetener_Date				(57)
+			//
+			//banal_chasse:											type:						amount:
+			//(Hunting) & (Pork)									Boar						(43)
+			//(Hunting) & (Venison)									Deer						(60)
+			//(Hunting) & (Hare)									Falconry					(10)
+			//(Fur)													Fur							(12)
+			//
+			//marke_crops:											type:						amount:
+			//(Perfume; Incense)									Perfume_Incense				(10)
+			//(Perfume; Lavender)									Perfume_Lavender			(58)
+			//(Perfume; Rose)										Perfume_Rose				(0)
+			//(Textile) & (Sails) & (Oil; Linseed)					Fiber_Flax					(59)
+			//(Textile) & (Sails)									Fiber_Hemp					(16)
+			//(Textile)												Fiber_Cotton				(19)
+			//(Textile) & (Silk)									Fiber_Silk					(29)
+			//(Dye; Yellow) & (Spices)								Dye_Saffron					(30)
+			//(Dye; Yellow)											Dye_Madder					(7)
+			//(Dye; Blue)											Dye_Woad					(38)
+			//(Dye; Red)											Dye_Kermes					(16)
+			//
+			//marke_horse_transport:								type:						amount:
+			//(Horse) & (Jousting)									Charger						(370)
+			//(Horse) & (Riding)									Palfrey						(420)
+			//(Horse) & (Ploughing)									Affer						(335)
+			//(Horse) & (Packing)									Sumpter						(275)
+			//
+			//marke_animal_husbandry:								type:						amount:
+			//(Packing) & (Ploughing) & (Milk) & (Meat; Beef)		Cattle						(524)
+			//(Textile) & (Milk) & (Meat; Mutton)					Sheep						(418)
+			//(Milk) & (Meat; Mutton)								Goats						(158)
+			//(Meat; Pork)											Pigs						(299)
+			//
+			//marke_poultry:										type:						amount:
+			//(Poultry) & (Eggs)									Chickens					(1239)
+			//(Poultry) & (Eggs)									Ducks						(161)
+			//
+			*/
+
 			/*
 			//Destrier			war			horse
 			//Charger			war			horse
@@ -7553,7 +7718,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Perfume_Rose',
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
@@ -14287,7 +14452,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//827
-			//oslo, vestby, hurum, frogn, nesodden, as, ski, enebakk  
+			//oslo, vestby, hurum, frogn, nesodden, as, ski, enebakk
             DB::table('counties')->insert([
 				'county_name' => 'Vingulmark',
 				'county_category' => 'Feudal_Manor',
@@ -14299,7 +14464,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',
-				'marke_horse_transport' => 'Sumpter',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -17519,7 +17684,7 @@ class CountySeeder extends Seeder
             ]);
 			//Taranto
 			//1014
-			//taranto, avetrana, castellaneta, crispiano, manduria, mottola, sava
+			//taranto, avetrana, castellaneta, crispiano, manduria, mottola, sava, supersano
             DB::table('counties')->insert([
 				'county_name' => 'Taranto',
 				'county_category' => 'Feudal_Manor',
@@ -18209,7 +18374,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -18283,7 +18448,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1058
-			//chania
+			//chania, aptera
             DB::table('counties')->insert([
 				'county_name' => 'Chania',
 				'county_category' => 'Feudal_Manor',
@@ -18352,10 +18517,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1062
+			//arta
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Arta',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '201',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18383,7 +18548,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -18401,7 +18566,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -18932,9 +19097,9 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//
-			//
+			//saporda
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Saporda',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '217',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18943,7 +19108,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Perfume_Rose',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -20331,6 +20496,75 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
+			//
+			//kopsis
+            DB::table('counties')->insert([
+				'county_name' => 'Kopsis',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Perfume_Rose',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//seuthopolis
+            DB::table('counties')->insert([
+				'county_name' => 'Seuthopolis',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Perfume_Rose',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Philippopolis
+			//
+			//philippopolis
+            DB::table('counties')->insert([
+				'county_name' => 'Philippopolis',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Wallachia
 			//Wallachia
 			//
@@ -21229,7 +21463,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
@@ -21580,7 +21814,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//
-			//alicanta
+			//alicante, biar
             DB::table('counties')->insert([
 				'county_name' => 'Alicante',
 				'county_category' => 'Feudal_Manor',
@@ -21589,7 +21823,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'Beverage_Wine',
+				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -24071,6 +24305,23 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//kashan
+            DB::table('counties')->insert([
+				'county_name' => 'Kashan',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',
+				'vernacular_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Perfume_Rose',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
