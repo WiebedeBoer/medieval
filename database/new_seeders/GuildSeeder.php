@@ -66,7 +66,7 @@ class GuildSeeder extends Seeder
 		//Guild_Thatcher:								Craft		Master_Thatcher				(15)
 		//Guild_Joiner:									Craft		Master_Joiner				(10)
 		//Guild_Cheesemonger:							Craft		Master_Cheesemonger			(23)
-		//Guild_Miller:									Craft		Master_Miller				(48)
+		//Guild_Miller:									Craft		Master_Miller				(49)
 		//Guild_Fuller:									Craft		Master_Fuller				(32)
 		//Guild_Vintner:								Craft		Master_Vintner				(42)
 		//Guild_Chandler:								Craft		Master_Chandler				(23)
@@ -21867,6 +21867,29 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Candia
+		//Heraklion
+		//Heraklion
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Heraklion',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '199',
+			'county' => '1057',
+			'barony' => ''
+		]);
+		//Galia
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Galia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '199',
+			'county' => '1057',
+			'barony' => ''
+		]);
 		//Chania
 		//Chania
 		DB::table('guilds')->insert([
@@ -21877,16 +21900,6 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '199',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => '',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '199',
-			'county' => '',
 			'barony' => ''
 		]);
 		//Archipelago
