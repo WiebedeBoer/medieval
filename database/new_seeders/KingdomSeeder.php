@@ -624,7 +624,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Almohad
 			//Marrakesh
-			//Marrakesh, Sijilmassa, Ouarzazate
+			//Marrakesh, Tadla, Sijilmassa, Ouarzazate
 			//49
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Marrakesh',
@@ -633,7 +633,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'Divan'			
+				'law_court' => 'Divan'
             ]);
 			//Fez
 			//Fez, Rabat, Tangier
@@ -669,7 +669,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '15',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'Divan'			
+				'law_court' => 'Divan'
             ]);
 			//Ifni
 			//Ifni, Taroudant
@@ -694,7 +694,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'Divan'
-            ]);				
+            ]);
 			//Abbasid
 			//Baghdad
 			//Baghdad,
@@ -719,7 +719,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'Divan'
-            ]);				
+            ]);
 			//Najd
 			//Najd,
 			//57
@@ -731,7 +731,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'Divan'
-            ]);				
+            ]);
 			//Antioch
 			//Antioch,
 			//58
@@ -743,7 +743,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
 				'law_court' => 'Divan'
-            ]);				
+            ]);
 			//Fatimid
 			//Cairo
 			//Cairo, Alexandria, Mansoura, Damietta, Minya, Asyut, Kharga, Baritun, Boula
@@ -779,8 +779,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '17',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',
-				'law_court' => 'Divan',
-				'levy_feudal' => 'large'				
+				'law_court' => 'Divan'
             ]);
 			//Khazar
 			//Khazaria
@@ -793,10 +792,10 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'Sarai'				
+				'law_court' => 'Sarai'
             ]);
 			//Alania
-			//Derbent, Azov
+			//Derbent, Azov, Maghas
 			//63
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Alania',
@@ -805,7 +804,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'Sarai'				
+				'law_court' => 'Sarai'
             ]);
 			//Cumania
 			//Sighnaq, Sozak, Sibir
@@ -817,11 +816,11 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '18',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'Sarai'				
+				'law_court' => 'Sarai'
             ]);
 			//Seljuk
 			//Kwarezm
-			//Gurganj, Khiva
+			//Gurganj, Khiva, Merv
 			//65
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Kwarezm',
@@ -830,10 +829,10 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '19',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'Sarai'				
+				'law_court' => 'Sarai'
             ]);
 			//Isfahan
-			//Isfahan,
+			//Isfahan, Shiraz
 			//66
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Isfahan',
@@ -842,7 +841,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '19',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'Sarai'				
+				'law_court' => 'Sarai'
             ]);
 			//Hormuz
 			//Hormuz, Kerman
@@ -854,7 +853,7 @@ class KingdomSeeder extends Seeder
 				'de_jure_empire' => '19',
 				'law_succession' => 'Yassa',
 				'law_assembly' => 'medium',
-				'law_court' => 'Sarai'				
+				'law_court' => 'Sarai'
             ]);
 			
     }

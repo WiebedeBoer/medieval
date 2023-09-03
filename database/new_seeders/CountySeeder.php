@@ -484,7 +484,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//15
-			//cambrai, caudry
+			//cambrai, caudry, maroilles, taisnieres, landrecies, avesnes, fayt
             DB::table('counties')->insert([
 				'county_name' => 'Kamerykgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -492,12 +492,12 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => 'Matter_Low_German',
 				'vernacular_culture' => 'Flemish',
-				'banal_moulin' => 'Windmill',
+				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Affer',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//16
@@ -1031,7 +1031,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//47
-			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof
+			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal_Manor',
@@ -18501,7 +18501,7 @@ class CountySeeder extends Seeder
             ]);
 			//Epirus
 			//1061
-			//naupaktos
+			//naupaktos, agrinio
             DB::table('counties')->insert([
 				'county_name' => 'Naupaktos',
 				'county_category' => 'Feudal_Manor',
@@ -22397,7 +22397,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Sweetener_Sugarcane',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
@@ -24030,6 +24030,41 @@ class CountySeeder extends Seeder
 			//azov
             DB::table('counties')->insert([
 				'county_name' => 'Azov',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Turk',
+				'vernacular_culture' => 'Turkic',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => '',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Turk',
+				'vernacular_culture' => 'Turkic',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Maghas
+			//
+			//maghas
+            DB::table('counties')->insert([
+				'county_name' => 'Maghas',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Muslim_Sunni',

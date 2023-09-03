@@ -3894,7 +3894,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
-            ]);			
+            ]);
 			//Figuig
 			//
 			//Figuig, Bechar, Moghrar
@@ -4369,7 +4369,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Isfahan
 			//
-			//Isfahan, Qom
+			//Isfahan, Kashan, Qom, Yazd, Karaj, Qazvin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Isfahan',
 				'duchy_category' => 'Feudal_Estate',
