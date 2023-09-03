@@ -2699,7 +2699,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//201
-			//Naupaktos, Arta
+			//Naupaktos, Nicopolis, Arta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Epirus',
 				'duchy_category' => 'Feudal_Estate',

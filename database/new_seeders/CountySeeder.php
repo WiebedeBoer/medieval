@@ -18501,7 +18501,7 @@ class CountySeeder extends Seeder
             ]);
 			//Epirus
 			//1061
-			//naupaktos, agrinio
+			//naupaktos, agrinio, vonitsa, preveza, nicopolis
             DB::table('counties')->insert([
 				'county_name' => 'Naupaktos',
 				'county_category' => 'Feudal_Manor',
@@ -18518,9 +18518,43 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1062
-			//arta
+			//preveza, nicopolis
+            DB::table('counties')->insert([
+				'county_name' => 'Naupaktos',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '201',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1063
+			//arta, fotino, rogoi
             DB::table('counties')->insert([
 				'county_name' => 'Arta',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '201',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1064
+			//ioannina, buthrotum, hadrianopolis, chimara
+            DB::table('counties')->insert([
+				'county_name' => 'Hadrianopolis',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '201',
 				'vernacular_religion' => 'Orthodox_Greek',
