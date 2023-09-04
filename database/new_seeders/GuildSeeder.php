@@ -80,7 +80,8 @@ class GuildSeeder extends Seeder
 		//Guild_Perfume_Rose:							Craft		Master_Perfumer_Rose		(5)				Perfumers
 		//
 		//Arsenal:										Craft		Master_Mariner				(94)			Mariners
-		//Armoury:										Craft		Master_Armorer				(131)			Armorers
+		//Armoury_Mill:									Craft		Master_Platner				(29)			Platners
+		//Armoury:										Craft		Master_Armorer				(118)			Armorers
 		//
 		//Guild_Thatcher:								Craft		Master_Thatcher				(15)			Thatchers
 		//Guild_Joiner:									Craft		Master_Joiner				(14)			Joiners
@@ -625,9 +626,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Nuremberg',
+			'guild_name' => 'Platners Guild of Nuremberg',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '2',
@@ -692,9 +693,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Brussels',
+			'guild_name' => 'Platners Guild of Brussels',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -814,9 +815,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Antwerp',
+			'guild_name' => 'Platners Guild of Antwerp',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -943,9 +944,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Ghent',
+			'guild_name' => 'Platners Guild of Ghent',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '3',
@@ -1826,9 +1827,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Metz',
+			'guild_name' => 'Platners Guild of Metz',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '11',
@@ -2209,9 +2210,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Innsbruck',
+			'guild_name' => 'Platners Guild of Innsbruck',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '14',
@@ -2405,9 +2406,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Augsburg',
+			'guild_name' => 'Platners Guild of Augsburg',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -2500,9 +2501,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Basel',
+			'guild_name' => 'Platners Guild of Basel',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -2569,9 +2570,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Hohenzollern',
+			'guild_name' => 'Platners Guild of Hohenzollern',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -2590,9 +2591,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Falkenstein',
+			'guild_name' => 'Platners Guild of Falkenstein',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -2611,9 +2612,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Hohenstaufen',
+			'guild_name' => 'Platners Guild of Hohenstaufen',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -2656,9 +2657,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Zurich',
+			'guild_name' => 'Platners Guild of Zurich',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -2677,9 +2678,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Winterthur',
+			'guild_name' => 'Platners Guild of Winterthur',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -3292,9 +3293,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Cologne',
+			'guild_name' => 'Platners Guild of Cologne',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '18',
@@ -4016,9 +4017,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Milano',
+			'guild_name' => 'Platners Guild of Milano',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '23',
@@ -4093,9 +4094,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Brescia',
+			'guild_name' => 'Platners Guild of Brescia',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '23',
@@ -4519,6 +4520,16 @@ class GuildSeeder extends Seeder
 			'county' => '208',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Platners Guild of Turino',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Platner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '24',
+			'county' => '208',
+			'barony' => ''
+		]);
 		//Chieri
 		DB::table('guilds')->insert([
 			'guild_name' => 'Dyers Guild of Chieri',
@@ -4649,9 +4660,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Siena',
+			'guild_name' => 'Platners Guild of Siena',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '25',
@@ -5018,6 +5029,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'University of Florence',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '28',
+			'county' => '223',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Platners Guild of Florence',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '28',
@@ -6908,9 +6929,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Bern',
+			'guild_name' => 'Platners Guild of Bern',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '42',
@@ -6941,9 +6962,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Solothurn',
+			'guild_name' => 'Platners Guild of Solothurn',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '42',
@@ -7948,6 +7969,16 @@ class GuildSeeder extends Seeder
 			'county' => '339',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Riga',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '50',
+			'county' => '339',
+			'barony' => ''
+		]);
 		//Kirchholm
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Rumbula',
@@ -8129,6 +8160,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Prussia
+		//Pomesanengau
+		//Marienburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Marienburg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '52',
+			'county' => '351',
+			'barony' => ''
+		]);
 		//Memelland
 		//Rutzau
 		DB::table('guilds')->insert([
@@ -9802,6 +9845,16 @@ class GuildSeeder extends Seeder
 			'county' => '440',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Platners Guild of Paris',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Platner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => '440',
+			'barony' => ''
+		]);
 		//Ecouen
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Ecouen',
@@ -10959,9 +11012,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Bruges',
+			'guild_name' => 'Platners Guild of Bruges',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -10990,9 +11043,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Ypres',
+			'guild_name' => 'Platners Guild of Ypres',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -11184,9 +11237,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Tournai',
+			'guild_name' => 'Platners Guild of Tournai',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -11205,9 +11258,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Courtrai',
+			'guild_name' => 'Platners Guild of Courtrai',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '67',
@@ -17113,9 +17166,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Calatayud',
+			'guild_name' => 'Platners Guild of Calatayud',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '107',
@@ -17464,9 +17517,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Burgos',
+			'guild_name' => 'Platners Guild of Burgos',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '113',
@@ -17829,9 +17882,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Toledo',
+			'guild_name' => 'Platners Guild of Toledo',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '117',
@@ -19361,6 +19414,16 @@ class GuildSeeder extends Seeder
 			'county' => '795',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Kobenhavn',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '135',
+			'county' => '795',
+			'barony' => ''
+		]);
 		//Soborg
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Soborg',
@@ -19725,6 +19788,16 @@ class GuildSeeder extends Seeder
 			'county' => '821',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Bergen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '142',
+			'county' => '821',
+			'barony' => ''
+		]);
 		//Viken
 		//Ostfold
 		//Askim
@@ -19791,6 +19864,16 @@ class GuildSeeder extends Seeder
 			'county' => '827',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Oslo',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '143',
+			'county' => '827',
+			'barony' => ''
+		]);
 		//Kingdom of Sweden
 		//Gotland
 		//Gotland
@@ -19809,6 +19892,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Visby',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '144',
+			'county' => '828',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Visby',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '144',
@@ -19965,6 +20058,16 @@ class GuildSeeder extends Seeder
 			'county' => '843',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Kalmar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '147',
+			'county' => '843',
+			'barony' => ''
+		]);
 		//Svealand
 		//Dalarna
 		//Hedomora
@@ -20038,6 +20141,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Cutlers Guild of Stockholm',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '148',
+			'county' => '846',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Stockholm',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '148',
@@ -20357,6 +20470,16 @@ class GuildSeeder extends Seeder
 			'county' => '863',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Gnesen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '151',
+			'county' => '863',
+			'barony' => ''
+		]);
 		//Ruchocin
 		DB::table('guilds')->insert([
 			'guild_name' => 'Joiners Guild of Ruchocin',
@@ -20531,6 +20654,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Potterers Guild of Krakow',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '874',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Krakow',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '153',
@@ -20957,6 +21090,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Fair of Posen',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '157',
+			'county' => '893',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Posen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '157',
@@ -21515,6 +21658,16 @@ class GuildSeeder extends Seeder
 			'county' => '928',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Esztergom',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '166',
+			'county' => '928',
+			'barony' => ''
+		]);
 		//Muzla
 		DB::table('guilds')->insert([
 			'guild_name' => 'Vintners Guild of Muzla',
@@ -22043,6 +22196,16 @@ class GuildSeeder extends Seeder
 			'county' => '964',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armourers Guild of Knin',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '171',
+			'county' => '964',
+			'barony' => ''
+		]);
 		//Ragusa
 		//Ragusa
 		//Ragusa
@@ -22089,6 +22252,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Slavonia
+		//Zagreb
+		//Zagreb
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Zagreb',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '173',
+			'county' => '971',
+			'barony' => ''
+		]);
 		//Bjelovar
 		//Bjelovar
 		DB::table('guilds')->insert([
@@ -22136,6 +22311,16 @@ class GuildSeeder extends Seeder
 			'county' => '977',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Mariners Guild of Split',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '174',
+			'county' => '977',
+			'barony' => ''
+		]);
 		//Zadar
 		//Zadar
 		//Zadar
@@ -22153,6 +22338,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Zadar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '175',
+			'county' => '979',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Mariners Guild of Zadar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '175',
@@ -26204,9 +26399,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Cordoba',
+			'guild_name' => 'Platners Guild of Cordoba',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -26394,9 +26589,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Granada',
+			'guild_name' => 'Platners Guild of Granada',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -26549,9 +26744,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Armorers Guild of Sevilla',
+			'guild_name' => 'Platners Guild of Sevilla',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Armorer',
+			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',

@@ -2712,7 +2712,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//202
-			//Cephalonia
+			//Cephalonia, Korkyra, Zakynthos, Leucadia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cephalonia',
 				'duchy_category' => 'Feudal_Estate',
