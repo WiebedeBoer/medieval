@@ -537,7 +537,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Bulgaria
 			//Bulgaria
-			//Preslav, Tarnovo, Philippopolis
+			//Preslav, Tarnovo, Philippopolis, Ohrid
 			//42
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Bulgaria',
@@ -562,7 +562,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Serbia
 			//Serbia
-			//Rashka
+			//Rashka, Dioclea, Podrinje
 			//44
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Serbia',
@@ -574,7 +574,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Itinerant'
             ]);
 			//Bosnia
-			//Bosnia
+			//Usora, Soli, Zachumlia
 			//45
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Bosnia',
@@ -584,7 +584,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Salic_Primogeniture',
 				'law_assembly' => 'medium',
 				'law_court' => 'Itinerant'
-            ]);					
+            ]);
 			//Cordoba
 			//Andalucia
 			//Algeciras, Almeria, Arcos, Carmona, Cordoba, Granada, Malaga, Ronda, Sevilla 

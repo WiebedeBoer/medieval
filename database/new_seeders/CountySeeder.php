@@ -18568,13 +18568,31 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
+			//Cephalonia
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Cephalonia',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '202',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Fiber_Silk',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Thessalonica
 			//
 			//thessalonica
             DB::table('counties')->insert([
 				'county_name' => 'Thessalonica',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '202',
+				'de_jure_duchy' => '203',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18592,7 +18610,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Serres',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '203',
+				'de_jure_duchy' => '204',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18609,7 +18627,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Christoupolis',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '203',
+				'de_jure_duchy' => '204',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18628,7 +18646,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Germanicopolis',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '204',
+				'de_jure_duchy' => '205',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18645,7 +18663,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '204',
+				'de_jure_duchy' => '205',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18663,7 +18681,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Amasia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '205',
+				'de_jure_duchy' => '206',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18680,7 +18698,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '205',
+				'de_jure_duchy' => '206',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18698,7 +18716,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Trapezus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '206',
+				'de_jure_duchy' => '207',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18715,7 +18733,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '206',
+				'de_jure_duchy' => '207',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18733,7 +18751,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Chersonesus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '207',
+				'de_jure_duchy' => '208',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18750,7 +18768,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '207',
+				'de_jure_duchy' => '208',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18769,7 +18787,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Samos',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '208',
+				'de_jure_duchy' => '209',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18786,7 +18804,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ephesos',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '208',
+				'de_jure_duchy' => '209',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18803,7 +18821,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Smyrna',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '208',
+				'de_jure_duchy' => '209',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18821,7 +18839,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Sardes',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '209',
+				'de_jure_duchy' => '210',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18838,7 +18856,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Chonae',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '209',
+				'de_jure_duchy' => '210',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18856,7 +18874,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ancyra',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '210',
+				'de_jure_duchy' => '211',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18871,7 +18889,7 @@ class CountySeeder extends Seeder
 			//
 			//
             DB::table('counties')->insert([
-				'county_name' => '210',
+				'county_name' => '211',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18891,7 +18909,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Iconium',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '211',
+				'de_jure_duchy' => '212',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18908,7 +18926,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '211',
+				'de_jure_duchy' => '212',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18926,7 +18944,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Caesarea',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '212',
+				'de_jure_duchy' => '213',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18943,7 +18961,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '212',
+				'de_jure_duchy' => '213',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18961,7 +18979,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Seleucea',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '213',
+				'de_jure_duchy' => '214',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18978,7 +18996,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Adana',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '213',
+				'de_jure_duchy' => '214',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -18995,7 +19013,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Tarsos',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '213',
+				'de_jure_duchy' => '214',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19013,7 +19031,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cyzicus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '214',
+				'de_jure_duchy' => '215',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19030,7 +19048,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '214',
+				'de_jure_duchy' => '215',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19048,7 +19066,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Nicaea',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '215',
+				'de_jure_duchy' => '216',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19065,7 +19083,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '215',
+				'de_jure_duchy' => '216',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19083,7 +19101,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Rhodes',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '216',
+				'de_jure_duchy' => '217',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19100,7 +19118,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '216',
+				'de_jure_duchy' => '217',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19118,7 +19136,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Attaleia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '217',
+				'de_jure_duchy' => '218',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19135,7 +19153,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Saporda',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '217',
+				'de_jure_duchy' => '218',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19156,7 +19174,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Phasis',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '218',
+				'de_jure_duchy' => '219',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19173,7 +19191,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pityus',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '218',
+				'de_jure_duchy' => '219',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19190,7 +19208,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Imereti',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '218',
+				'de_jure_duchy' => '219',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19207,7 +19225,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Batumi',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '218',
+				'de_jure_duchy' => '219',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19225,7 +19243,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Akhalkalaki',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '219',
+				'de_jure_duchy' => '220',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19242,7 +19260,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '219',
+				'de_jure_duchy' => '220',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19260,7 +19278,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bolnisi',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '220',
+				'de_jure_duchy' => '221',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19277,7 +19295,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Tiblisi',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '220',
+				'de_jure_duchy' => '221',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19294,7 +19312,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Rustavi',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '220',
+				'de_jure_duchy' => '221',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19311,7 +19329,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Gori',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '220',
+				'de_jure_duchy' => '221',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19329,7 +19347,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Telavi',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '221',
+				'de_jure_duchy' => '222',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19346,7 +19364,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '221',
+				'de_jure_duchy' => '222',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Georgia',
 				'vernacular_culture' => 'Georgian',
@@ -19365,7 +19383,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Van',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '222',
+				'de_jure_duchy' => '223',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19382,7 +19400,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => '',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '222',
+				'de_jure_duchy' => '223',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19400,7 +19418,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Acilisene',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '223',
+				'de_jure_duchy' => '224',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19417,7 +19435,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Karapet',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '223',
+				'de_jure_duchy' => '224',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19435,7 +19453,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kars',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '224',
+				'de_jure_duchy' => '225',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19452,7 +19470,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ani',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '224',
+				'de_jure_duchy' => '225',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19470,7 +19488,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Baku',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '225',
+				'de_jure_duchy' => '226',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19487,7 +19505,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Rasht',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '225',
+				'de_jure_duchy' => '226',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Armenia',
 				'vernacular_culture' => 'Armenian',
@@ -19507,7 +19525,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kyiv',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '226',
+				'de_jure_duchy' => '227',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19524,7 +19542,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bratslav',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '226',
+				'de_jure_duchy' => '227',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19541,7 +19559,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cherkasy',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '226',
+				'de_jure_duchy' => '227',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19558,7 +19576,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Korosten',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '226',
+				'de_jure_duchy' => '227',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19576,7 +19594,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pereyaslavl',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '227',
+				'de_jure_duchy' => '228',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19593,7 +19611,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Poltava',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '227',
+				'de_jure_duchy' => '228',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19612,7 +19630,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Chernigov',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '228',
+				'de_jure_duchy' => '229',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19629,7 +19647,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Bryansk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '228',
+				'de_jure_duchy' => '229',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19646,7 +19664,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lyubech',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '228',
+				'de_jure_duchy' => '229',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19663,7 +19681,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Mozhaysk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '228',
+				'de_jure_duchy' => '229',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19680,7 +19698,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Novosil',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '228',
+				'de_jure_duchy' => '229',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19698,7 +19716,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ryazan',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '229',
+				'de_jure_duchy' => '230',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19715,7 +19733,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Murom',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '229',
+				'de_jure_duchy' => '230',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19732,7 +19750,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Tula',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '229',
+				'de_jure_duchy' => '230',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19749,7 +19767,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kaluga',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '229',
+				'de_jure_duchy' => '230',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19766,7 +19784,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vorotynsk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '229',
+				'de_jure_duchy' => '230',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -19785,7 +19803,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Halych',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '230',
+				'de_jure_duchy' => '231',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19802,7 +19820,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Peremyshl',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '230',
+				'de_jure_duchy' => '231',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19819,7 +19837,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lviv',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '230',
+				'de_jure_duchy' => '231',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19836,7 +19854,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Belz',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '230',
+				'de_jure_duchy' => '231',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19854,7 +19872,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Podolia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '231',
+				'de_jure_duchy' => '232',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19871,7 +19889,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Terebovlia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '231',
+				'de_jure_duchy' => '232',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19889,7 +19907,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Volhynia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '232',
+				'de_jure_duchy' => '233',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19906,7 +19924,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Brest',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '232',
+				'de_jure_duchy' => '233',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19923,7 +19941,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kremenets',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '232',
+				'de_jure_duchy' => '233',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19940,7 +19958,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lutsk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '232',
+				'de_jure_duchy' => '233',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19958,7 +19976,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Turov',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '233',
+				'de_jure_duchy' => '234',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19975,7 +19993,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Slutsk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '233',
+				'de_jure_duchy' => '234',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Ruthenian',
@@ -19994,7 +20012,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vladimir',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '234',
+				'de_jure_duchy' => '235',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20011,7 +20029,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vyazniki',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '234',
+				'de_jure_duchy' => '235',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20028,7 +20046,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Nizhny Novgorod',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '234',
+				'de_jure_duchy' => '235',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20046,7 +20064,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Moscow',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '235',
+				'de_jure_duchy' => '236',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20063,7 +20081,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Dmitrov',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '235',
+				'de_jure_duchy' => '236',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20080,7 +20098,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Volokolamsk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '235',
+				'de_jure_duchy' => '236',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20097,7 +20115,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zvenigorod',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '235',
+				'de_jure_duchy' => '236',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20115,7 +20133,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Suzdal',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '236',
+				'de_jure_duchy' => '237',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20132,7 +20150,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Yuryev',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '236',
+				'de_jure_duchy' => '237',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20149,7 +20167,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Starodub',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '236',
+				'de_jure_duchy' => '237',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20168,7 +20186,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Smolensk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '237',
+				'de_jure_duchy' => '238',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20185,7 +20203,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Roslavl',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '237',
+				'de_jure_duchy' => '238',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20202,7 +20220,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Toropets',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '237',
+				'de_jure_duchy' => '238',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20219,7 +20237,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Mstislavl',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '237',
+				'de_jure_duchy' => '238',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20237,7 +20255,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Rzhev',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '238',
+				'de_jure_duchy' => '239',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20254,7 +20272,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zubtsov',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '238',
+				'de_jure_duchy' => '239',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20272,7 +20290,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Tver',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '239',
+				'de_jure_duchy' => '240',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20289,7 +20307,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Galich',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '239',
+				'de_jure_duchy' => '240',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20306,7 +20324,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kostroma',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '239',
+				'de_jure_duchy' => '240',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20323,7 +20341,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pereslavl',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '239',
+				'de_jure_duchy' => '240',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20340,7 +20358,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Rostov',
 				'county_category' => 'Ecclesiastical_Manor',
-				'de_jure_duchy' => '239',
+				'de_jure_duchy' => '240',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20357,7 +20375,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Yaroslavl',
 				'county_category' => 'Ecclesiastical_Manor',
-				'de_jure_duchy' => '239',
+				'de_jure_duchy' => '240',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20376,7 +20394,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Novgorod',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '240',
+				'de_jure_duchy' => '241',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20393,7 +20411,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ladoga',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '240',
+				'de_jure_duchy' => '241',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20411,7 +20429,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Polotsk',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '241',
+				'de_jure_duchy' => '242',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => '',
 				'vernacular_culture' => 'Lithuanian',
@@ -20428,7 +20446,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Zaslawye',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '241',
+				'de_jure_duchy' => '242',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => '',
 				'vernacular_culture' => 'Lithuanian',
@@ -20445,7 +20463,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Vitebsk',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '241',
+				'de_jure_duchy' => '242',
 				'vernacular_religion' => 'Catholic',
 				'vernacular_cycle' => '',
 				'vernacular_culture' => 'Lithuanian',
@@ -20463,7 +20481,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pleskov',
 				'county_category' => 'Patrician_Manor',
-				'de_jure_duchy' => '242',
+				'de_jure_duchy' => '243',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20480,7 +20498,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Kholm',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '242',
+				'de_jure_duchy' => '243',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Rus',
 				'vernacular_culture' => 'Russian',
@@ -20586,6 +20604,58 @@ class CountySeeder extends Seeder
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Ohrid
+			//
+			//ohrid
+            DB::table('counties')->insert([
+				'county_name' => 'Ohrid',
+				'county_category' => 'Ecclesiastical_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//bitola
+            DB::table('counties')->insert([
+				'county_name' => 'Bitola',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//kastoria
+            DB::table('counties')->insert([
+				'county_name' => 'Kastoria',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
@@ -20707,8 +20777,95 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
+			//Dioclea
+			//
+			//bar
+            DB::table('counties')->insert([
+				'county_name' => 'Bar',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//scodra, drisht, zabljak
+            DB::table('counties')->insert([
+				'county_name' => 'Scodra',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//lezhe
+            DB::table('counties')->insert([
+				'county_name' => 'Lezhe',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Podrinje
+			//
+			//borac
+            DB::table('counties')->insert([
+				'county_name' => 'Borac',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//pavlovac
+            DB::table('counties')->insert([
+				'county_name' => 'Pavlovac',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Bosnia
-			//Bosnia
+			//Usora
 			//
 			//srebrenik
             DB::table('counties')->insert([
@@ -20727,9 +20884,113 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//
-			//
+			//tesanj
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tesanj',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Soli
+			//
+			//tuzla
+            DB::table('counties')->insert([
+				'county_name' => 'Tuzla',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//zvornik
+            DB::table('counties')->insert([
+				'county_name' => 'Zvornik',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Zachumlia
+			//
+			//blagaj
+            DB::table('counties')->insert([
+				'county_name' => 'Blagaj',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//ston
+            DB::table('counties')->insert([
+				'county_name' => 'Ston',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//dabar
+            DB::table('counties')->insert([
+				'county_name' => 'Dabar',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Orthodox_Serbian',
+				'vernacular_cycle' => 'Matter_Serbia',
+				'vernacular_culture' => 'Serbian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//
+			//popovski
+            DB::table('counties')->insert([
+				'county_name' => 'Popovo',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Serbian',
