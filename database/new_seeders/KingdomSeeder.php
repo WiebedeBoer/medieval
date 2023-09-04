@@ -403,7 +403,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Palatial'
             ]);
 			//Thessalonica
-			//Hellas, Peloponessos, Candia, Archipelago, Epirus, Thessalonica, Strymon
+			//Hellas, Peloponessos, Candia, Archipelago, Epirus, Cephalonia, Thessalonica, Strymon
 			//31
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Thessalonica',
@@ -510,7 +510,7 @@ class KingdomSeeder extends Seeder
 				'law_succession' => 'Agnatic_Seniority',
 				'law_assembly' => 'medium',
 				'law_court' => 'Itinerant'
-            ]);		
+            ]);
 			//Smolensk
 			//Smolensk, Rzhev, Tver
 			//40
