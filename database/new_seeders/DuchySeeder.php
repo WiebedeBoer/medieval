@@ -2725,7 +2725,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//203
-			//Thessalonica
+			//Thessalonica, Athos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Thessalonica',
 				'duchy_category' => 'Feudal_Estate',

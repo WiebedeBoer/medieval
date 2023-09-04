@@ -18604,6 +18604,23 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
+			//
+			//great lavra, koutloumousi
+            DB::table('counties')->insert([
+				'county_name' => 'Athos',
+				'county_category' => 'Monastic_Manor',
+				'de_jure_duchy' => '203',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Strymon
 			//
 			//serres
