@@ -8658,7 +8658,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Occitan',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
@@ -12362,7 +12362,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//706
-			//madrid, manzanares
+			//madrid, manzanares, carrion
             DB::table('counties')->insert([
 				'county_name' => 'Madrid',
 				'county_category' => 'Feudal_Manor',
@@ -12371,9 +12371,9 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Castile',
 				'vernacular_culture' => 'Castillian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'Boar',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Saffron',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -13848,7 +13848,7 @@ class CountySeeder extends Seeder
             ]);
 			//Sjaeland
 			//792
-			//odense, assens, dalum, holme, faborg, svendborg, nyborg
+			//odense, assens, dalum, holme, faborg, svendborg, nyborg, egeskov
             DB::table('counties')->insert([
 				'county_name' => 'Funen',
 				'county_category' => 'Feudal_Manor',
@@ -14781,7 +14781,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//846
-			//stockholm, strangnas, sodertalje, nykoping, torshalla, trosa, djursholm, horningsholm, birka
+			//stockholm, strangnas, sodertalje, nykoping, torshalla, trosa, djursholm, horningsholm, birka, osby, gripsholm
             DB::table('counties')->insert([
 				'county_name' => 'Sodermanland',
 				'county_category' => 'Feudal_Manor',
@@ -16129,7 +16129,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//924
-			//vezprem, ajka, papa, tapolca, varpalota, zirc, tihany
+			//vezprem, ajka, papa, tapolca, varpalota, zirc, tihany, csesznek
             DB::table('counties')->insert([
 				'county_name' => 'Vezprem',
 				'county_category' => 'Feudal_Manor',
@@ -18569,8 +18569,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Cephalonia
-			//
-			//
+			//1065
+			//agios giorgios,agios nefantes
             DB::table('counties')->insert([
 				'county_name' => 'Cephalonia',
 				'county_category' => 'Feudal_Manor',
@@ -18579,14 +18579,14 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1066
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Korkyra',
@@ -18603,7 +18603,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1067
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Zakynthos',
@@ -18620,7 +18620,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1068
 			//
             DB::table('counties')->insert([
 				'county_name' => 'Leucadia',
