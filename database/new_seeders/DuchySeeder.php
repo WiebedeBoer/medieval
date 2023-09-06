@@ -23,13 +23,13 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => '',	//Half_Timbered_Fachwerk (35), Half_Timbered_Studded (45), Half_Timbered_Khata (30), Half_Timbered_Konak (11), Log_Chalet (14), Log_Stave (8), Log_Izba (10), Stone_Croft (6), Stone_Mudejar (40), Stone_Romanesque (58), Stone_Adjar (7), Adobe_Mashriq (19), Adobe_Maghreb (23), Adobe_Persian (16) 									
 				'vegetation' => '',					//Desert_Oasis (21), Desert_Marshland (7), Steppe (34), Mediterranean_Shrubland (2), Mediterranean_Marshland (13), Mediterranean_Woodland (84), Temperate_Grassland (3), Temperate_Shrubland (30), Temperate_Woodland (112), Temperate_Marshland (16)
 				'transport' => '',					//Donkey_Train (250), Oxen_Cart (), Camel_Caravan (44), Dog_Cart (30)
-				'altitude' => '',					//Lowland (9), Montane (303), Highland (10)		
+				'altitude' => '',					//Lowland (9), Montane (303), Highland (10)
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
-				'tax_feudal' => '',					//minimal, normal, large, maximal; default=minimal		
-				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=normal				
-				'tax_burgher' => ''					//minimal, normal, large, maximal; default=normal			
+				'tax_feudal' => '',					//minimal, normal, large, maximal; default=minimal
+				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=normal
+				'tax_burgher' => ''					//minimal, normal, large, maximal; default=normal
 				'souvereign' => '1',				(empire); default=1
 				'lord_paramount' => '1',			(kingdom); default=1
 				'tenant_in_chief' => '1'			(duchy); default=1

@@ -24,9 +24,9 @@ class EmpireSeeder extends Seeder
 				'levy_feudal' => '',			//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',	//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',			//minimal, normal, large, maximal; default=normal
-				'tax_feudal' => '',				//minimal, normal, large, maximal; default=minimal		
-				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal				
-				'tax_burgher' => ''				//minimal, normal, large, maximal; default=normal	
+				'tax_feudal' => '',				//minimal, normal, large, maximal; default=minimal
+				'tax_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
+				'tax_burgher' => ''				//minimal, normal, large, maximal; default=normal
 				'souvereign' => '1',			(empire); default=1
             ]);
 			*/
