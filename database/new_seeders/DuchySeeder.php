@@ -2752,7 +2752,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Trebizond
 			//205
-			//Germanicopolis
+			//Germanicopolis, Kastamone, Amastris
             DB::table('duchies')->insert([
 				'duchy_name' => 'Paphlagonia',
 				'duchy_category' => 'Feudal_Estate',
