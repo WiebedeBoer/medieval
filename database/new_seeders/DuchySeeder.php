@@ -2752,7 +2752,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Trebizond
 			//205
-			//Germanicopolis, Kastamone, Amastris
+			//Germanicopolis, Kastamone, Amastris, Hadrianopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Paphlagonia',
 				'duchy_category' => 'Feudal_Estate',
@@ -2765,7 +2765,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//206
-			//Amasia
+			//Amasia, Amisos, Sinope
             DB::table('duchies')->insert([
 				'duchy_name' => 'Armeniac',
 				'duchy_category' => 'Feudal_Estate',
@@ -2778,7 +2778,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//207
-			//Trapezus
+			//Trapezus, Polemonion
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chaldia',
 				'duchy_category' => 'Feudal_Estate',

@@ -18710,7 +18710,7 @@ class CountySeeder extends Seeder
 			//Trebizond
 			//Paphlagonia
 			//1073
-			//germanicopolis, korgun
+			//germanicopolis, korgun, anadynata, antoniopolis
             DB::table('counties')->insert([
 				'county_name' => 'Germanicopolis',
 				'county_category' => 'Feudal_Manor',
@@ -18727,7 +18727,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1074
-			//kastamone
+			//kastamone, pompeiopolis
             DB::table('counties')->insert([
 				'county_name' => 'Kastamone',
 				'county_category' => 'Feudal_Manor',
@@ -18744,7 +18744,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1075
-			//amastris
+			//amastris, erythini
             DB::table('counties')->insert([
 				'county_name' => 'Amastris',
 				'county_category' => 'Feudal_Manor',
@@ -18761,7 +18761,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1076
-			//hadrianopolis
+			//hadrianopolis, saframpolis
             DB::table('counties')->insert([
 				'county_name' => 'Hadrianopolis',
 				'county_category' => 'Feudal_Manor',
@@ -18772,14 +18772,14 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Saffron',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Armeniac
-			//
-			//amasia
+			//1077
+			//amasia, virasia
             DB::table('counties')->insert([
 				'county_name' => 'Amasia',
 				'county_category' => 'Feudal_Manor',
@@ -18791,14 +18791,14 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1078
+			//amisos, carsamba, bafra
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Amisos',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '206',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18812,9 +18812,26 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
+			//1079
+			//sinope, gerze
+            DB::table('counties')->insert([
+				'county_name' => 'Sinope',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '206',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Dye_Kermes',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Chaldia
-			//
-			//trapezus
+			//1080
+			//trapezus, gizenenica
             DB::table('counties')->insert([
 				'county_name' => 'Trapezus',
 				'county_category' => 'Feudal_Manor',
@@ -18826,14 +18843,14 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1081
+			//polemonion, habsamana
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Polemonion',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '207',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -18848,7 +18865,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Crimea
-			//
+			//1082
 			//chersonesus
             DB::table('counties')->insert([
 				'county_name' => 'Chersonesus',
