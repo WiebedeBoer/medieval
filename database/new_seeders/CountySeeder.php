@@ -18882,10 +18882,27 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1083
+			//theodosia
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Theodosia',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '208',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1084
+			//theodoro
+            DB::table('counties')->insert([
+				'county_name' => 'Theodoro',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '208',
 				'vernacular_religion' => 'Orthodox_Greek',
