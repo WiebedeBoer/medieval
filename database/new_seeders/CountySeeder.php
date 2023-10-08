@@ -5421,7 +5421,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//303
-			//habsburg, aarau, bern, lucerne, muri, wettingen, neuenhof, lucelle, sankt urban, arwangen, langenstein
+			//habsburg, aarau, bern, lucerne, muri, wettingen, neuenhof, lucelle, sankt urban, arwangen, langenstein, thun
             DB::table('counties')->insert([
 				'county_name' => 'Aargau',
 				'county_category' => 'Feudal_Manor',
@@ -5438,7 +5438,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//304
-			//solothurn, saint denis
+			//solothurn, saint denis, burgdorf
             DB::table('counties')->insert([
 				'county_name' => 'Bargenais',
 				'county_category' => 'Feudal_Manor',
@@ -18866,7 +18866,7 @@ class CountySeeder extends Seeder
             ]);
 			//Crimea
 			//1082
-			//chersonesus
+			//chersonesus, cembalo
             DB::table('counties')->insert([
 				'county_name' => 'Chersonesus',
 				'county_category' => 'Feudal_Manor',
