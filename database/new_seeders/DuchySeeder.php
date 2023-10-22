@@ -2791,7 +2791,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//208
-			//Chersonesus
+			//Chersonesus, Theodosia, Theodoro
             DB::table('duchies')->insert([
 				'duchy_name' => 'Crimea',
 				'duchy_category' => 'Feudal_Estate',

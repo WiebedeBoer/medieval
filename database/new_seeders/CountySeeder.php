@@ -2007,7 +2007,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//104
-			//brixen, bolzano, merano, tirol, reifenstein
+			//brixen, bolzano, merano, tirol, reifenstein, taufers
             DB::table('counties')->insert([
 				'county_name' => 'Norital',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2093,7 +2093,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//109
-			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel, rotteln, staufen
+			//freiburg, zahringen, roggenburg, muttenz, wartenberg, basel, rotteln, staufen, wildenstein
             DB::table('counties')->insert([
 				'county_name' => 'Breisgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2110,7 +2110,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//110
-			//chur, disentis, feldkirchen, bludenz, sankt george, sonnenberg
+			//chur, disentis, feldkirchen, bludenz, sankt george, sonnenberg, marschlins
             DB::table('counties')->insert([
 				'county_name' => 'Churgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2263,7 +2263,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//119
-			//konstanz, sankt gall, lindau, kirchberg, kreuzlingen, reichenau, engelberg, toggenburg
+			//konstanz, sankt gall, lindau, kirchberg, kreuzlingen, reichenau, engelberg, toggenburg, hagenwil, mammertshofen, zuckenriet, werdenberg
             DB::table('counties')->insert([
 				'county_name' => 'Turgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -3050,7 +3050,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//165
-			//limburg, marburg, weilburg, wetzlar, lahneck
+			//limburg, marburg, weilburg, wetzlar, lahneck, braunfels
             DB::table('counties')->insert([
 				'county_name' => 'Lahngau',
 				'county_category' => 'Feudal_Manor',
@@ -3307,7 +3307,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//180
-			//eltz, andernach, salm
+			//eltz, andernach, salm, cochem
             DB::table('counties')->insert([
 				'county_name' => 'Maifeld',
 				'county_category' => 'Feudal_Manor',
@@ -5421,7 +5421,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//303
-			//habsburg, aarau, bern, lucerne, muri, wettingen, neuenhof, lucelle, sankt urban, arwangen, langenstein, thun
+			//habsburg, aarau, bern, lucerne, muri, wettingen, neuenhof, lucelle, sankt urban, arwangen, langenstein, thun, wimmis
             DB::table('counties')->insert([
 				'county_name' => 'Aargau',
 				'county_category' => 'Feudal_Manor',
@@ -5438,7 +5438,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//304
-			//solothurn, saint denis, burgdorf
+			//solothurn, saint denis, burgdorf, mariastein, rotberg
             DB::table('counties')->insert([
 				'county_name' => 'Bargenais',
 				'county_category' => 'Feudal_Manor',
@@ -5489,7 +5489,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//307
-			//neuchatel, yverdon, morges, sankt roman, envi, motheron, pailly, peney, hautcret
+			//neuchatel, yverdon, morges, sankt roman, envi, motheron, pailly, peney, hautcret, aigle, chillon
             DB::table('counties')->insert([
 				'county_name' => 'Vaudenais',
 				'county_category' => 'Feudal_Manor',
@@ -5886,7 +5886,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//330
-			//carpegna, rimini, verucchio, coriano
+			//carpegna, rimini, verucchio, coriano, gradara
             DB::table('counties')->insert([
 				'county_name' => 'Carpegna',
 				'county_category' => 'Feudal_Manor',
@@ -8152,7 +8152,7 @@ class CountySeeder extends Seeder
             ]);
 			//Orleanais
 			//462
-			//orleans, fleury, meung, combreux
+			//orleans, fleury, meung, combreux, sully
             DB::table('counties')->insert([
 				'county_name' => 'Orleanais',
 				'county_category' => 'Feudal_Manor',
@@ -8767,7 +8767,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//498
-			//rodez, villefranche, saint radegonde, belcastel, bertholene
+			//rodez, villefranche, saint radegonde, belcastel, bertholene, mazan, bonneval
             DB::table('counties')->insert([
 				'county_name' => 'Rouergue',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -16763,7 +16763,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//961
-			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely
+			//szaszsebes, nagydisznod, nagyszeben, szelistye, szerdahely, birthalm
             DB::table('counties')->insert([
 				'county_name' => 'Szeben',
 				'county_category' => 'Feudal_Manor',
@@ -18883,7 +18883,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1083
-			//theodosia
+			//theodosia, sudak
             DB::table('counties')->insert([
 				'county_name' => 'Theodosia',
 				'county_category' => 'Feudal_Manor',
@@ -18900,7 +18900,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1084
-			//theodoro
+			//theodoro, albat, suyren, koba
             DB::table('counties')->insert([
 				'county_name' => 'Theodoro',
 				'county_category' => 'Feudal_Manor',
@@ -18918,7 +18918,7 @@ class CountySeeder extends Seeder
             ]);
 			//Anatolia
 			//Samos
-			//
+			//1085
 			//samos, pythagoreion, makrini
             DB::table('counties')->insert([
 				'county_name' => 'Samos',
@@ -18935,7 +18935,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1086
 			//ephesos
             DB::table('counties')->insert([
 				'county_name' => 'Ephesos',
@@ -18952,7 +18952,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1087
 			//smyrna
             DB::table('counties')->insert([
 				'county_name' => 'Smyrna',
