@@ -18936,7 +18936,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1086
-			//ephesos
+			//ephesos, tralles, ilioupolis
             DB::table('counties')->insert([
 				'county_name' => 'Ephesos',
 				'county_category' => 'Feudal_Manor',
