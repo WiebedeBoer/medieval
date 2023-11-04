@@ -18953,7 +18953,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1087
-			//smyrna
+			//smyrna, magnesia, menemen, gordes, nymphaion
             DB::table('counties')->insert([
 				'county_name' => 'Smyrna',
 				'county_category' => 'Feudal_Manor',
@@ -18970,7 +18970,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Thracesia
-			//
+			//1088
 			//sardes
             DB::table('counties')->insert([
 				'county_name' => 'Sardes',
@@ -18987,7 +18987,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1089
 			//chonae
             DB::table('counties')->insert([
 				'county_name' => 'Chonae',

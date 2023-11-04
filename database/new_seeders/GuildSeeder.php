@@ -25243,13 +25243,24 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Smyrna',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '209',
-			'county' => '',
+			'county' => '1087',
+			'barony' => ''
+		]);
+		//Menemen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '209',
+			'county' => '1087',
 			'barony' => ''
 		]);
 		//Thracesia
@@ -25266,13 +25277,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Sardes',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '210',
-			'county' => '',
+			'county' => '1088',
 			'barony' => ''
 		]);
 		//Chonae
@@ -25284,7 +25295,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '210',
-			'county' => '',
+			'county' => '1089',
 			'barony' => ''
 		]);
 		//Bucellaria
