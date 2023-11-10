@@ -25286,12 +25286,66 @@ class GuildSeeder extends Seeder
 			'county' => '1088',
 			'barony' => ''
 		]);
+		//Salihli
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Salihli',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '210',
+			'county' => '1088',
+			'barony' => ''
+		]);
+		//Philadelphia
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Philadelphia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '210',
+			'county' => '1088',
+			'barony' => ''
+		]);
 		//Chonae
 		//Chonae
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '210',
+			'county' => '1089',
+			'barony' => ''
+		]);
+		//Attouda
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Attouda',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '210',
+			'county' => '1089',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Attouda',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '210',
+			'county' => '1089',
+			'barony' => ''
+		]);
+		//Laodicea
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Laodicea',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '210',
@@ -25312,13 +25366,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Ancyra',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '211',
-			'county' => '',
+			'county' => '1090',
 			'barony' => ''
 		]);
 		//Balbadon
@@ -25329,7 +25383,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '211',
-			'county' => '',
+			'county' => '1090',
 			'barony' => ''
 		]);
 		//Anatolia

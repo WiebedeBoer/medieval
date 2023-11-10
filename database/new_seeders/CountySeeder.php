@@ -18965,13 +18965,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Thracesia
 			//1088
-			//sardes
+			//sardes, salihli, philadelphia, opsikion
             DB::table('counties')->insert([
 				'county_name' => 'Sardes',
 				'county_category' => 'Feudal_Manor',
@@ -18980,15 +18980,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_crops' => 'Dye_Kermes',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1089
-			//chonae
+			//chonae, attouda, hierapolis, laodicea
             DB::table('counties')->insert([
 				'county_name' => 'Chonae',
 				'county_category' => 'Feudal_Manor',
@@ -19005,7 +19005,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Bucellaria
-			//
+			//1090
 			//ancyra, balbadon
             DB::table('counties')->insert([
 				'county_name' => 'Ancyra',
@@ -19018,7 +19018,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
