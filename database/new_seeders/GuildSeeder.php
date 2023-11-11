@@ -25418,7 +25418,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '212',
-			'county' => '',
+			'county' => '1092',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25428,7 +25428,41 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '212',
-			'county' => '',
+			'county' => '1092',
+			'barony' => ''
+		]);
+		//Pithoi
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '212',
+			'county' => '1092',
+			'barony' => ''
+		]);
+		//Laranda
+		//Laranda
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Laranda',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '212',
+			'county' => '1093',
+			'barony' => ''
+		]);
+		//Sidivre
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '212',
+			'county' => '1093',
 			'barony' => ''
 		]);
 		//Cappadocia

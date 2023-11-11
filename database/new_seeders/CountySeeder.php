@@ -19041,7 +19041,7 @@ class CountySeeder extends Seeder
             ]);
 			//Anatolia
 			//1092
-			//iconium
+			//iconium, pithoi
             DB::table('counties')->insert([
 				'county_name' => 'Iconium',
 				'county_category' => 'Feudal_Manor',
@@ -19057,10 +19057,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1093
+			//laranda, sidivre
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Laranda',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '212',
 				'vernacular_religion' => 'Orthodox_Greek',
