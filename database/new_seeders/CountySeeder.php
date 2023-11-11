@@ -19006,7 +19006,7 @@ class CountySeeder extends Seeder
             ]);
 			//Bucellaria
 			//1090
-			//ancyra, balbadon
+			//ancyra, balbadon, haymana, anastasiopolis, sansabad
             DB::table('counties')->insert([
 				'county_name' => 'Ancyra',
 				'county_category' => 'Feudal_Manor',
@@ -19022,25 +19022,25 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1091
+			//sarmalius, cerikli, baliseyh
             DB::table('counties')->insert([
-				'county_name' => '211',
+				'county_name' => 'Sarmalius',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '211',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Anatolia
-			//
+			//1092
 			//iconium
             DB::table('counties')->insert([
 				'county_name' => 'Iconium',
@@ -19053,7 +19053,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19123,7 +19123,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19175,7 +19175,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19210,7 +19210,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19245,7 +19245,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -19280,7 +19280,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
