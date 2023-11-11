@@ -25498,6 +25498,18 @@ class GuildSeeder extends Seeder
 			'county' => '1094',
 			'barony' => ''
 		]);
+		//Neapolis
+		//Avanos
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Avanos',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potter',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '213',
+			'county' => '1095',
+			'barony' => ''
+		]);
 		//Seleucia
 		//Seleucea
 		//Seleucea
@@ -25518,7 +25530,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1097',
 			'barony' => ''
 		]);
 		//Adana
@@ -25530,7 +25542,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1098',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25540,7 +25552,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1098',
 			'barony' => ''
 		]);
 		//Arqakaghni
@@ -25551,7 +25563,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1098',
 			'barony' => ''
 		]);
 		//Drazark
@@ -25562,7 +25574,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1098',
 			'barony' => ''
 		]);
 		//Yuregir
@@ -25573,7 +25585,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1098',
 			'barony' => ''
 		]);
 		//Tarsos
@@ -25585,7 +25597,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1099',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25595,7 +25607,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '214',
-			'county' => '',
+			'county' => '1099',
 			'barony' => ''
 		]);
 		//Opsicia
@@ -25618,7 +25630,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '215',
-			'county' => '',
+			'county' => '1100',
 			'barony' => ''
 		]);
 		//Nicaea
