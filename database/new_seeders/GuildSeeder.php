@@ -25485,7 +25485,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '213',
-			'county' => '',
+			'county' => '1094',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25495,7 +25495,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '213',
-			'county' => '',
+			'county' => '1094',
 			'barony' => ''
 		]);
 		//Seleucia

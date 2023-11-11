@@ -19058,7 +19058,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1093
-			//laranda, sidivre
+			//laranda, sidivre, ayranci
             DB::table('counties')->insert([
 				'county_name' => 'Laranda',
 				'county_category' => 'Feudal_Manor',
@@ -19071,11 +19071,11 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Cappadocia
-			//
+			//1094
 			//caesarea
             DB::table('counties')->insert([
 				'county_name' => 'Caesarea',
