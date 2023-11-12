@@ -18969,8 +18969,25 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Thracesia
 			//1088
+			//miletus, didyma
+            DB::table('counties')->insert([
+				'county_name' => 'Miletus',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '209',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//Thracesia
+			//1089
 			//sardes, salihli, philadelphia, opsikion
             DB::table('counties')->insert([
 				'county_name' => 'Sardes',
@@ -18987,7 +19004,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1089
+			//1090
 			//chonae, attouda, hierapolis, laodicea
             DB::table('counties')->insert([
 				'county_name' => 'Chonae',
@@ -19005,7 +19022,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Bucellaria
-			//1090
+			//1091
 			//ancyra, balbadon, haymana, anastasiopolis, sansabad
             DB::table('counties')->insert([
 				'county_name' => 'Ancyra',
@@ -19022,7 +19039,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1091
+			//1092
 			//sarmalius, cerikli, baliseyh
             DB::table('counties')->insert([
 				'county_name' => 'Sarmalius',
@@ -19040,7 +19057,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Anatolia
-			//1092
+			//1093
 			//iconium, pithoi
             DB::table('counties')->insert([
 				'county_name' => 'Iconium',
@@ -19057,7 +19074,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1093
+			//1094
 			//laranda, sidivre, ayranci
             DB::table('counties')->insert([
 				'county_name' => 'Laranda',
@@ -19075,7 +19092,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Cappadocia
-			//1094
+			//1095
 			//caesarea, avakou, malakopea
             DB::table('counties')->insert([
 				'county_name' => 'Caesarea',
@@ -19092,10 +19109,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1095
+			//1096
 			//neapolis, avanos
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Neapolis',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '213',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19109,10 +19126,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1096
+			//1097
 			//garsaura, mokissos
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Garsaura',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '213',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19127,7 +19144,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Seleucia
-			//1097
+			//1098
 			//seleucea, kalykadnos
             DB::table('counties')->insert([
 				'county_name' => 'Seleucea',
@@ -19144,7 +19161,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1098
+			//1099
 			//adana, mopsuestia, sis, arqakaghni, drazark, yuregir
             DB::table('counties')->insert([
 				'county_name' => 'Adana',
@@ -19161,7 +19178,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1099
+			//1100
 			//tarsos, zephyrion
             DB::table('counties')->insert([
 				'county_name' => 'Tarsos',
@@ -19179,7 +19196,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Opsicia
-			//1100
+			//1101
 			//cyzicus
             DB::table('counties')->insert([
 				'county_name' => 'Cyzicus',
@@ -19196,10 +19213,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1102
+			//prousa, apamea
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Prousa',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '215',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19210,12 +19227,46 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1103
+			//abydos, lampsakos, parion
+            DB::table('counties')->insert([
+				'county_name' => 'Abydos',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '215',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1104
+			//kotyaion, dorylaion, midaion
+            DB::table('counties')->insert([
+				'county_name' => 'Kotyaion',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '215',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Nicaea
-			//
-			//nicaea
+			//1105
+			//nicaea, liada
             DB::table('counties')->insert([
 				'county_name' => 'Nicaea',
 				'county_category' => 'Feudal_Manor',
@@ -19231,10 +19282,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1106
+			//nicomedia, diolkides
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Nicomedia',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '216',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19245,16 +19296,15 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Cattle',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//Lycia
-			//
-			//rhodes
+			//1107
+			//malagina, geyve
             DB::table('counties')->insert([
-				'county_name' => 'Rhodes',
+				'county_name' => 'Malagina',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '217',
+				'de_jure_duchy' => '216',
 				'vernacular_religion' => 'Orthodox_Greek',
 				'vernacular_cycle' => 'Matter_Byzantine',
 				'vernacular_culture' => 'Greek',
@@ -19266,10 +19316,28 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//Lycia
+			//1108
+			//rhodes, paradisi, lindos, kremasti, archangelos
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Rhodes',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '217',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Byzantine',
+				'vernacular_culture' => 'Greek',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1109
+			//xanthos, myra
+            DB::table('counties')->insert([
+				'county_name' => 'Xanthos',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '217',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19284,8 +19352,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Pamphylia
-			//
-			//attaleia
+			//1110
+			//attaleia, cibyrrha
             DB::table('counties')->insert([
 				'county_name' => 'Attaleia',
 				'county_category' => 'Feudal_Manor',
@@ -19301,8 +19369,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//saporda
+			//1111
+			//saporda, sav
             DB::table('counties')->insert([
 				'county_name' => 'Saporda',
 				'county_category' => 'Feudal_Manor',
@@ -19323,7 +19391,7 @@ class CountySeeder extends Seeder
 			//Georgia
 			//Colchis
 			//
-			//
+			//1112
             DB::table('counties')->insert([
 				'county_name' => 'Phasis',
 				'county_category' => 'Feudal_Manor',
@@ -19339,7 +19407,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1113
 			//pityus
             DB::table('counties')->insert([
 				'county_name' => 'Pityus',
@@ -19356,7 +19424,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1114
 			//kutaisi, gelati
             DB::table('counties')->insert([
 				'county_name' => 'Imereti',
@@ -19373,7 +19441,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1115
 			//batumi
             DB::table('counties')->insert([
 				'county_name' => 'Batumi',
@@ -19391,7 +19459,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Javakheti
-			//
+			//1116
 			//akhalkalaki
             DB::table('counties')->insert([
 				'county_name' => 'Akhalkalaki',
