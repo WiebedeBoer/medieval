@@ -25989,6 +25989,18 @@ class GuildSeeder extends Seeder
 			'county' => '1117',
 			'barony' => ''
 		]);
+		//Akhaltsikhe
+		//Akhaltsikhe
+		DB::table('guilds')->insert([
+			'guild_name' => 'Armorers Guild of Akhaltsikhe',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '225',
+			'county' => '1118',
+			'barony' => ''
+		]);
 		//Kartli
 		//Tiblisi
 		//Tiblisi
@@ -26003,13 +26015,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Tiblisi',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '221',
-			'county' => '',
+			'county' => '1121',
 			'barony' => ''
 		]);
 		//Kakheti
@@ -26035,6 +26047,8 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//
+		//
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',

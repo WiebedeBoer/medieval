@@ -19408,7 +19408,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1113
-			//macharadze, gurianta
+			//macharadze, gurianta, shemokmedi, oqona, udabno, likhauri
             DB::table('counties')->insert([
 				'county_name' => 'Guria',
 				'county_category' => 'Feudal_Manor',
@@ -19477,7 +19477,7 @@ class CountySeeder extends Seeder
             ]);
 			//Javakheti
 			//1117
-			//akhalkalaki
+			//akhalkalaki, kumurdo
             DB::table('counties')->insert([
 				'county_name' => 'Akhalkalaki',
 				'county_category' => 'Feudal_Manor',
@@ -19493,10 +19493,27 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1118
+			//akhaltsikhe, aspindza, vardzia
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Akhaltsikhe',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '220',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1119
+			//borjomi, ninotsminda, timotesubani
+            DB::table('counties')->insert([
+				'county_name' => 'Tori',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '220',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19511,7 +19528,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Kartli
-			//
+			//1120
 			//bolnisi
             DB::table('counties')->insert([
 				'county_name' => 'Bolnisi',
@@ -19528,7 +19545,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1121
 			//tiblisi
             DB::table('counties')->insert([
 				'county_name' => 'Tiblisi',
@@ -19541,11 +19558,11 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
+			//1122
 			//rustavi
             DB::table('counties')->insert([
 				'county_name' => 'Rustavi',
@@ -19562,7 +19579,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1123
 			//gori
             DB::table('counties')->insert([
 				'county_name' => 'Gori',

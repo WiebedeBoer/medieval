@@ -2949,7 +2949,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//220
-			//Akhalkalaki
+			//Akhalkalaki, Akhaltsikhe, Tori
             DB::table('duchies')->insert([
 				'duchy_name' => 'Javakheti',
 				'duchy_category' => 'Feudal_Estate',
