@@ -19390,8 +19390,8 @@ class CountySeeder extends Seeder
 			//Georgia
 			//Georgia
 			//Colchis
-			//
 			//1112
+			//phasis, shekvetili
             DB::table('counties')->insert([
 				'county_name' => 'Phasis',
 				'county_category' => 'Feudal_Manor',
@@ -19408,9 +19408,26 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1113
-			//pityus
+			//macharadze, gurianta
             DB::table('counties')->insert([
-				'county_name' => 'Pityus',
+				'county_name' => 'Guria',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '219',
+				'vernacular_religion' => 'Orthodox_Greek',
+				'vernacular_cycle' => 'Matter_Georgia',
+				'vernacular_culture' => 'Georgian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Beverage_Wine',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1114
+			//pityus, dioscurias
+            DB::table('counties')->insert([
+				'county_name' => 'Abkhazia',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '219',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19419,12 +19436,12 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Hemp',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1114
+			//1115
 			//kutaisi, gelati
             DB::table('counties')->insert([
 				'county_name' => 'Imereti',
@@ -19441,10 +19458,10 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//1115
-			//batumi
+			//1116
+			//batumi, kobuleti
             DB::table('counties')->insert([
-				'county_name' => 'Batumi',
+				'county_name' => 'Adjar',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '219',
 				'vernacular_religion' => 'Orthodox_Greek',
@@ -19459,7 +19476,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Javakheti
-			//1116
+			//1117
 			//akhalkalaki
             DB::table('counties')->insert([
 				'county_name' => 'Akhalkalaki',
@@ -19472,7 +19489,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);

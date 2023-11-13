@@ -2936,7 +2936,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Georgia
 			//219
-			//Phasis, Pityus, Imereti, Batumi
+			//Phasis, Guria, Abkhazia, Imereti, Adjar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Colchis',
 				'duchy_category' => 'Feudal_Estate',

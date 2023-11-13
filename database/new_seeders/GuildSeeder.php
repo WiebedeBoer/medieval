@@ -25869,23 +25869,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '219',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'Mariners Guild of Phasis',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1112',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25895,7 +25885,29 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1112',
+			'barony' => ''
+		]);
+		//Guria
+		//Macharadze
+		DB::table('guilds')->insert([
+			'guild_name' => 'Court of Colchis',
+			'guild_category' => 'Court',
+			'guild_subcategory' => 'Petty_Kingdom',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '219',
+			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Macharadze',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '219',
+			'county' => '1113',
 			'barony' => ''
 		]);
 		//Pityus
@@ -25907,7 +25919,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1114',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25917,7 +25929,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1114',
 			'barony' => ''
 		]);
 		//Imereti
@@ -25929,7 +25941,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1115',
 			'barony' => ''
 		]);
 		//Batumi
@@ -25941,7 +25953,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1116',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -25951,7 +25963,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '219',
-			'county' => '',
+			'county' => '1116',
 			'barony' => ''
 		]);
 		//Javakheti
@@ -25968,13 +25980,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Akhalkalaki',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '',
+			'county' => '1117',
 			'barony' => ''
 		]);
 		//Kartli
