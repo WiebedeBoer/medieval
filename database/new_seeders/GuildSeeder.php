@@ -26002,6 +26002,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Kartli
+		//Bolnisi
+		//Ratevani
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Ratevani',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '225',
+			'county' => '1120',
+			'barony' => ''
+		]);
 		//Tiblisi
 		//Tiblisi
 		DB::table('guilds')->insert([
@@ -26034,7 +26046,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '222',
-			'county' => '',
+			'county' => '1124',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26047,16 +26059,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
-		//
-		//
+		//Gurjaani
+		//Gurjaani
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Gurjaani',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '222',
-			'county' => '',
+			'county' => '1125',
 			'barony' => ''
 		]);
 		//Kingdom of Armenia

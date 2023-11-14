@@ -2975,7 +2975,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//222
-			//Telavi
+			//Telavi, Gurjaani
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kakheti',
 				'duchy_category' => 'Feudal_Estate',
