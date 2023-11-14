@@ -19634,7 +19634,7 @@ class CountySeeder extends Seeder
 			//Armenia
 			//Vaspurakan
 			//1126
-			//van
+			//van, hosab
             DB::table('counties')->insert([
 				'county_name' => 'Van',
 				'county_category' => 'Feudal_Manor',
