@@ -26096,8 +26096,8 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Taron
-		//
-		//
+		//Acilisene
+		//Acilisene
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Taron',
 			'guild_category' => 'Court',
@@ -26109,13 +26109,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Acilisene',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '224',
-			'county' => '',
+			'county' => '1130',
 			'barony' => ''
 		]);
 		//Kars
@@ -26128,7 +26128,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '225',
-			'county' => '',
+			'county' => '1132',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26142,23 +26142,25 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '225',
-			'county' => '',
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
 			'guild_name' => 'Armorers Guild of Kars',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '225',
-			'county' => '',
+			'county' => '1132',
+			'barony' => ''
+		]);
+		//Ani
+		//Ani
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Ani',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '225',
+			'county' => '1133',
 			'barony' => ''
 		]);
 		//Azerbaijan
@@ -26175,13 +26177,35 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Baku',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
 			'county' => '',
+			'barony' => ''
+		]);
+		//Khojasan
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Hokmeli',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '226',
+			'county' => '1136',
+			'barony' => ''
+		]);
+		//Sabail
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '226',
+			'county' => '1136',
 			'barony' => ''
 		]);
 		//Rasht
@@ -26193,7 +26217,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '',
+			'county' => '1137',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26203,7 +26227,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '',
+			'county' => '1137',
 			'barony' => ''
 		]);
 		//Kievan Russia
@@ -26228,7 +26252,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26238,7 +26262,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26248,7 +26272,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		//Podil
@@ -26259,7 +26283,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		//Chernobyl
@@ -26270,7 +26294,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		//Lyutizh
@@ -26281,7 +26305,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		//Chabany
@@ -26292,7 +26316,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		//Kozyn
@@ -26303,7 +26327,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '',
+			'county' => '1138',
 			'barony' => ''
 		]);
 		//Pereyaslavl

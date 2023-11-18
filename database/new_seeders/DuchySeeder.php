@@ -2989,7 +2989,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Armenia
 			//223
-			//Van
+			//Van, Artamet, Hadamakert, Berkri
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vaspurakan',
 				'duchy_category' => 'Feudal_Estate',
@@ -3015,7 +3015,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//225
-			//Kars, Ani
+			//Kars, Ani, Sardarabad, Yerevan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kars',
 				'duchy_category' => 'Feudal_Estate',
