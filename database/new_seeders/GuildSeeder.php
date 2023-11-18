@@ -26344,13 +26344,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Pereyaslavl',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '',
+			'county' => '1142',
 			'barony' => ''
 		]);
 		//Grand Principality of Chernigov
@@ -26367,14 +26367,27 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Bryansk
+		//Kursk
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Kursk',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '229',
-			'county' => '',
+			'county' => '1145',
+			'barony' => ''
+		]);
+		//Oryol
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Oryol',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '229',
+			'county' => '1145',
 			'barony' => ''
 		]);
 		//Ryazan
