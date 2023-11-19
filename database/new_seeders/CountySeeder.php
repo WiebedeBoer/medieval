@@ -20395,7 +20395,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -20434,7 +20434,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1172
-			//zvenigorod, ruza 
+			//zvenigorod, storozhevsky, ruza 
             DB::table('counties')->insert([
 				'county_name' => 'Zvenigorod',
 				'county_category' => 'Feudal_Manor',
@@ -20517,7 +20517,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -20539,7 +20539,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1178
-			//toropets, morsow
+			//toropets, bezhetsk, kalyazin
             DB::table('counties')->insert([
 				'county_name' => 'Toropets',
 				'county_category' => 'Feudal_Manor',
@@ -20574,7 +20574,7 @@ class CountySeeder extends Seeder
             ]);
 			//Rzhev
 			//1180
-			//rzhev, eltsy
+			//rzhev, vyshny
             DB::table('counties')->insert([
 				'county_name' => 'Rzhev',
 				'county_category' => 'Feudal_Manor',
@@ -20602,7 +20602,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Flax',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'

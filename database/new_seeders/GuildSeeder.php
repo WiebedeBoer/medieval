@@ -26631,13 +26631,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Moscow',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '236',
-			'county' => '',
+			'county' => '1169',
 			'barony' => ''
 		]);
 		//Suzdal
@@ -26660,7 +26660,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '237',
-			'county' => '',
+			'county' => '1173',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26670,7 +26670,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '237',
-			'county' => '',
+			'county' => '1173',
 			'barony' => ''
 		]);
 		//Grand Principality of Smolensk
@@ -26688,13 +26688,24 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Smolensk',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '238',
 			'county' => '',
+			'barony' => ''
+		]);
+		//Gnezdovo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '238',
+			'county' => '1176',
 			'barony' => ''
 		]);
 		//Rzhev
@@ -26711,13 +26722,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Rzhev',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '239',
-			'county' => '',
+			'county' => '1180',
 			'barony' => ''
 		]);
 		//Tver
@@ -26731,16 +26742,6 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '240',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '240',
-			'county' => '',
 			'barony' => ''
 		]);
 		//Rostov
@@ -26781,6 +26782,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Armorers Guild of Yaroslavl',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '240',
+			'county' => '',
+			'barony' => ''
+		]);
+		//Uglich
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Uglich',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
