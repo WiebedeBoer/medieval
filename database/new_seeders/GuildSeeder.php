@@ -26466,7 +26466,7 @@ class GuildSeeder extends Seeder
 		]);
 		//Podolia
 		//Podolia
-		//
+		//Kamianets
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Podolia',
 			'guild_category' => 'Court',
@@ -26503,13 +26503,25 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Volodymyr',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '233',
-			'county' => '',
+			'county' => '1160',
+			'barony' => ''
+		]);
+		//Lutsk
+		//Lutsk
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Lutsk',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '227',
+			'county' => '1163',
 			'barony' => ''
 		]);
 		//Turov
@@ -26526,13 +26538,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Turov',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '234',
-			'county' => '',
+			'county' => '1164',
 			'barony' => ''
 		]);
 		//Grand Principality of Vladimir
@@ -26550,13 +26562,59 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Vladimir',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '235',
-			'county' => '',
+			'county' => '1166',
+			'barony' => ''
+		]);
+		//Gavrilov
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '235',
+			'county' => '1166',
+			'barony' => ''
+		]);
+		//Vyazniki
+		//Alexandrov
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '235',
+			'county' => '1166',
+			'barony' => ''
+		]);
+		//Nizhny Novgorod
+		//Makaryev
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Makaryev',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '235',
+			'county' => '1168',
+			'barony' => ''
+		]);
+		//Gorodets
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Gorodets',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '235',
+			'county' => '1168',
 			'barony' => ''
 		]);
 		//Moscow

@@ -20238,7 +20238,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -20307,7 +20307,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -20348,7 +20348,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1167
-			//vyazniki, yaropolk 
+			//vyazniki, alexandrov 
             DB::table('counties')->insert([
 				'county_name' => 'Vyazniki',
 				'county_category' => 'Feudal_Manor',
@@ -20365,7 +20365,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1168
-			//nizhny novgorod, gorokhovets, gorodets
+			//nizhny novgorod, makaryev, gorokhovets, gorodets
             DB::table('counties')->insert([
 				'county_name' => 'Nizhny Novgorod',
 				'county_category' => 'Feudal_Manor',
