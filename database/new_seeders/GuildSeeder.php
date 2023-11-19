@@ -26390,6 +26390,18 @@ class GuildSeeder extends Seeder
 			'county' => '1145',
 			'barony' => ''
 		]);
+		//Lyubech
+		//Loyew
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '229',
+			'county' => '1146',
+			'barony' => ''
+		]);
 		//Ryazan
 		//Ryazan
 		//Ryazan
@@ -26403,14 +26415,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Vorotynsk
+		//Vorotynsk
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Vorotynsk',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '230',
-			'county' => '',
+			'county' => '1153',
 			'barony' => ''
 		]);
 		//Grand Principality of Ruthenia
@@ -26427,14 +26441,27 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Peremyshl
+		//Peremyshl
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Peremyshl',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '231',
-			'county' => '',
+			'county' => '1155',
+			'barony' => ''
+		]);
+		//Sambir
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sambir',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '231',
+			'county' => '1155',
 			'barony' => ''
 		]);
 		//Podolia
@@ -26450,14 +26477,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Terebovlia
+		//Terebovlia
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Terebovlia',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '232',
-			'county' => '',
+			'county' => '1159',
 			'barony' => ''
 		]);
 		//Volhynia
