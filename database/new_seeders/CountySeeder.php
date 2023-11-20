@@ -20365,7 +20365,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1168
-			//nizhny novgorod, makaryev, gorokhovets, gorodets
+			//nizhny novgorod, gorokhovets, gorodets
             DB::table('counties')->insert([
 				'county_name' => 'Nizhny Novgorod',
 				'county_category' => 'Feudal_Manor',
@@ -20694,7 +20694,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1187
-			//yaroslavl, uglich, vologda, cherepovets
+			//yaroslavl, borisoglebsky, uglich, vologda, cherepovets
             DB::table('counties')->insert([
 				'county_name' => 'Yaroslavl',
 				'county_category' => 'Ecclesiastical_Manor',

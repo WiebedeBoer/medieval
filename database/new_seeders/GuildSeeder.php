@@ -26595,17 +26595,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Nizhny Novgorod
-		//Makaryev
-		DB::table('guilds')->insert([
-			'guild_name' => 'Fair of Makaryev',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Fair',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '235',
-			'county' => '1168',
-			'barony' => ''
-		]);
 		//Gorodets
 		DB::table('guilds')->insert([
 			'guild_name' => 'Potterers Guild of Gorodets',
@@ -26744,6 +26733,18 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Galich
+		//Makaryev
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Makaryev',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '240',
+			'county' => '1183',
+			'barony' => ''
+		]);
 		//Rostov
 		//Rostov
 		DB::table('guilds')->insert([
@@ -26753,7 +26754,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1186',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26763,7 +26764,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1186',
 			'barony' => ''
 		]);
 		//Yaroslavl
@@ -26775,7 +26776,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1187',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26785,7 +26786,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1187',
 			'barony' => ''
 		]);
 		//Uglich
@@ -26796,7 +26797,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1187',
 			'barony' => ''
 		]);
 		//Vologda
@@ -26807,7 +26808,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1187',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -26817,7 +26818,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '',
+			'county' => '1187',
 			'barony' => ''
 		]);
 		//Principality of Novgorod
