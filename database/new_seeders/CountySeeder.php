@@ -20713,7 +20713,7 @@ class CountySeeder extends Seeder
 			//Novgorod
 			//Novgorod
 			//1188
-			//novgorod, rusa 
+			//novgorod, rusa, khutyn, derevyanitski, kresttsy, lyubytino, shimsk, soltsy
             DB::table('counties')->insert([
 				'county_name' => 'Novgorod',
 				'county_category' => 'Patrician_Manor',
@@ -20742,8 +20742,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Flax',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Polotsk
@@ -20794,13 +20794,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Pleskov
 			//1193
-			//pleskov, opochka, gdov, porkhov, ostrov, izborsk
+			//pleskov, opochka, gdov, porkhov, ostrov, izborsk, dedovichi
             DB::table('counties')->insert([
 				'county_name' => 'Pleskov',
 				'county_category' => 'Patrician_Manor',
@@ -20829,19 +20829,19 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Bulgaria
 			//Bulgaria
 			//Preslav
-			//
+			//1195
 			//preslav
             DB::table('counties')->insert([
 				'county_name' => 'Preslav',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '244',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
 				'vernacular_cycle' => 'Matter_Bulgaria',
 				'vernacular_culture' => 'Bulgarian',
@@ -20849,7 +20849,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -20867,7 +20867,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);

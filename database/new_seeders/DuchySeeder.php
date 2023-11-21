@@ -3243,7 +3243,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//242
-			//Polotsk
+			//Polotsk, Zaslawye, Vitebsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Polotsk',
 				'duchy_category' => 'Burgher_Estate',
@@ -3270,7 +3270,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Bulgaria
 			//Bulgaria
-			//
+			//244
 			//Preslav
             DB::table('duchies')->insert([
 				'duchy_name' => 'Preslav',
@@ -3283,7 +3283,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//245
 			//Tarnovo, Kopsis, Seuthopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarnovo',
@@ -3296,7 +3296,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//246
 			//Philippopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Philippopolis',
@@ -3309,7 +3309,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//247
 			//Ohrid, Bitola, Kastoria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ohrid',
