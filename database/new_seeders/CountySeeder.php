@@ -20837,7 +20837,7 @@ class CountySeeder extends Seeder
 			//Bulgaria
 			//Preslav
 			//1195
-			//preslav
+			//preslav, varbitsa
             DB::table('counties')->insert([
 				'county_name' => 'Preslav',
 				'county_category' => 'Feudal_Manor',
@@ -20850,6 +20850,23 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1196
+			//simeonis, madara
+            DB::table('counties')->insert([
+				'county_name' => 'Simeonis',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '244',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
