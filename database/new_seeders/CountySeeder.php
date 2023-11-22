@@ -20854,7 +20854,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1196
-			//simeonis, madara
+			//simeonis, madara, novi pazar, pliska
             DB::table('counties')->insert([
 				'county_name' => 'Simeonis',
 				'county_category' => 'Feudal_Manor',
@@ -20870,9 +20870,43 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
+			//1197
+			//provat, ravna, solnitsata
+            DB::table('counties')->insert([
+				'county_name' => 'Provat',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '244',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1198
+			//varna, kastritsi, galata, devnya, pangalia
+            DB::table('counties')->insert([
+				'county_name' => 'Karvuna',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '244',
+				'vernacular_religion' => 'Orthodox_Bulgarian',
+				'vernacular_cycle' => 'Matter_Bulgaria',
+				'vernacular_culture' => 'Bulgarian',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Sweetener_Honey',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Tarnovo
-			//
-			//tarnovo
+			//1199
+			//tarnovo, eliana, lyaskovets, rahovets
             DB::table('counties')->insert([
 				'county_name' => 'Tarnovo',
 				'county_category' => 'Feudal_Manor',
@@ -20888,8 +20922,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//kopsis
+			//1200
+			//kopsis, tuida
             DB::table('counties')->insert([
 				'county_name' => 'Kopsis',
 				'county_category' => 'Feudal_Manor',
@@ -20905,8 +20939,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//seuthopolis
+			//1201
+			//seuthopolis, zagore
             DB::table('counties')->insert([
 				'county_name' => 'Seuthopolis',
 				'county_category' => 'Feudal_Manor',
@@ -20923,7 +20957,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Philippopolis
-			//
+			//1202
 			//philippopolis
             DB::table('counties')->insert([
 				'county_name' => 'Philippopolis',

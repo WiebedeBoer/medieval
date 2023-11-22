@@ -27005,6 +27005,18 @@ class GuildSeeder extends Seeder
 			'county' => '1195',
 			'barony' => ''
 		]);
+		//Karvuna
+		//Varna
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Varna',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '244',
+			'county' => '1198',
+			'barony' => ''
+		]);
 		//Tarnovo
 		//Tarnovo
 		//Tarnovo
@@ -27014,7 +27026,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Empire',
 			'empire' => '12',
 			'kingdom' => '42',
-			'duchy' => '',
+			'duchy' => '245',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27024,8 +27036,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '245',
+			'county' => '1199',
 			'barony' => ''
 		]);
 		//Kopsis
@@ -27036,8 +27048,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Perfumer_Rose',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '245',
+			'county' => '1200',
 			'barony' => ''
 		]);
 		//Seuthopolis
@@ -27048,8 +27060,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Perfumer_Rose',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '245',
+			'county' => '1201',
 			'barony' => ''
 		]);
 		//Philippopolis
@@ -27061,7 +27073,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '246',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27071,7 +27083,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '246',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -27084,7 +27096,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Bishopric',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '247',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27094,7 +27106,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '247',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -27104,7 +27116,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '247',
 			'county' => '',
 			'barony' => ''
 		]);

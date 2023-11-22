@@ -3271,7 +3271,7 @@ class DuchySeeder extends Seeder
 			//Bulgaria
 			//Bulgaria
 			//244
-			//Preslav, Simeonis
+			//Preslav, Simeonis, Provat, Karvuna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Preslav',
 				'duchy_category' => 'Feudal_Estate',
