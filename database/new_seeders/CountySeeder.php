@@ -20923,7 +20923,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1200
-			//kopsis, tuida
+			//kopsis, tuida, sopot
             DB::table('counties')->insert([
 				'county_name' => 'Kopsis',
 				'county_category' => 'Feudal_Manor',
@@ -20958,7 +20958,7 @@ class CountySeeder extends Seeder
             ]);
 			//Philippopolis
 			//1202
-			//philippopolis
+			//philippopolis, perushtitsa, krichim, sadovo
             DB::table('counties')->insert([
 				'county_name' => 'Philippopolis',
 				'county_category' => 'Feudal_Manor',
@@ -20967,17 +20967,17 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Bulgaria',
 				'vernacular_culture' => 'Bulgarian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//
+			//1203
+			//stanimaka, bachkovo, sekirovo
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Stanimaka',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '',
 				'vernacular_religion' => 'Orthodox_Bulgarian',
@@ -20992,8 +20992,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ohrid
-			//
-			//ohrid
+			//1204
+			//ohrid, elsani, naum
             DB::table('counties')->insert([
 				'county_name' => 'Ohrid',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -21009,7 +21009,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1205
 			//bitola
             DB::table('counties')->insert([
 				'county_name' => 'Bitola',
@@ -21026,7 +21026,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1206
 			//kastoria
             DB::table('counties')->insert([
 				'county_name' => 'Kastoria',
