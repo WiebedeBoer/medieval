@@ -21237,7 +21237,7 @@ class CountySeeder extends Seeder
 			//Serbia
 			//Rashka
 			//1218
-			//ras, studenica
+			//ras, sopocani, targoviste
             DB::table('counties')->insert([
 				'county_name' => 'Rashka',
 				'county_category' => 'Feudal_Manor',
@@ -21254,9 +21254,9 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1219
-			//
+			//kraljevo, studenica, maglic
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Kraljevo',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '250',
 				'vernacular_religion' => 'Orthodox_Serbian',
@@ -21271,8 +21271,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Dioclea
-			//
-			//bar
+			//1220
+			//bar, moracnik, godinje, vranjina, spizza, ratac
             DB::table('counties')->insert([
 				'county_name' => 'Bar',
 				'county_category' => 'Feudal_Manor',
@@ -21281,14 +21281,14 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Serbia',
 				'vernacular_culture' => 'Serbian',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1221
 			//scodra, drisht, zabljak
             DB::table('counties')->insert([
 				'county_name' => 'Scodra',
@@ -21305,7 +21305,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1222
 			//lezhe
             DB::table('counties')->insert([
 				'county_name' => 'Lezhe',
@@ -21323,7 +21323,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Podrinje
-			//
+			//1223
 			//borac
             DB::table('counties')->insert([
 				'county_name' => 'Borac',
@@ -21340,7 +21340,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1224
 			//pavlovac
             DB::table('counties')->insert([
 				'county_name' => 'Pavlovac',
@@ -21359,7 +21359,7 @@ class CountySeeder extends Seeder
             ]);
 			//Bosnia
 			//Usora
-			//
+			//1225
 			//srebrenik
             DB::table('counties')->insert([
 				'county_name' => 'Srebrenik',
@@ -21376,7 +21376,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1226
 			//tesanj
             DB::table('counties')->insert([
 				'county_name' => 'Tesanj',
@@ -21394,7 +21394,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Soli
-			//
+			//1227
 			//tuzla
             DB::table('counties')->insert([
 				'county_name' => 'Tuzla',
@@ -21411,7 +21411,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1228
 			//zvornik
             DB::table('counties')->insert([
 				'county_name' => 'Zvornik',
@@ -21429,7 +21429,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Zachumlia
-			//
+			//1229
 			//blagaj
             DB::table('counties')->insert([
 				'county_name' => 'Blagaj',
@@ -21446,7 +21446,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1230
 			//ston
             DB::table('counties')->insert([
 				'county_name' => 'Ston',
@@ -21463,7 +21463,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1231
 			//dabar
             DB::table('counties')->insert([
 				'county_name' => 'Dabar',
@@ -21480,7 +21480,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1232
 			//popovski
             DB::table('counties')->insert([
 				'county_name' => 'Popovo',

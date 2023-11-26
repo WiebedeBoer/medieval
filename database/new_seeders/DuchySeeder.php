@@ -3352,7 +3352,7 @@ class DuchySeeder extends Seeder
 			//Serbia
 			//Serbia
 			//250
-			//Rashka
+			//Rashka, Kraljevo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rashka',
 				'duchy_category' => 'Feudal_Estate',
