@@ -3297,7 +3297,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//246
-			//Philippopolis
+			//Philippopolis, Stanimaka
             DB::table('duchies')->insert([
 				'duchy_name' => 'Philippopolis',
 				'duchy_category' => 'Feudal_Estate',
@@ -3323,8 +3323,8 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Wallachia
-			//
-			//Targoviste
+			//248
+			//Targoviste, Omurtag, Arges
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wallachia',
 				'duchy_category' => 'Feudal_Estate',
@@ -3336,8 +3336,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
-			//Suceava
+			//249
+			//Suceava, Neamt, Akkerman, Soroca, Vaslui, Lapusna, Iasi, Orhei
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moldavia',
 				'duchy_category' => 'Feudal_Estate',
@@ -3351,7 +3351,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Serbia
 			//Serbia
-			//
+			//250
 			//Rashka
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rashka',
@@ -3364,7 +3364,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//251
 			//Bar, Scodra, Lezhe
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dioclea',
@@ -3377,7 +3377,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//252
 			//Borac, Pavlovac
             DB::table('duchies')->insert([
 				'duchy_name' => 'Podrinje',
@@ -3391,7 +3391,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Bosnia
-			//
+			//253
 			//Srebrenik, Tesanj
             DB::table('duchies')->insert([
 				'duchy_name' => 'Usora',
@@ -3404,7 +3404,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//254
 			//Tuzla, Zvornik
             DB::table('duchies')->insert([
 				'duchy_name' => 'Soli',
@@ -3417,7 +3417,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//255
 			//Blagaj, Ston, Dabar, Popovo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zachumlia',
