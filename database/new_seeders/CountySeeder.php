@@ -21046,7 +21046,7 @@ class CountySeeder extends Seeder
 			//Wallachia
 			//Wallachia
 			//1207
-			//targoviste, elenovo
+			//targoviste, elenovo, poenari
             DB::table('counties')->insert([
 				'county_name' => 'Targoviste',
 				'county_category' => 'Feudal_Manor',
@@ -21253,7 +21253,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1219
 			//
             DB::table('counties')->insert([
 				'county_name' => '',
