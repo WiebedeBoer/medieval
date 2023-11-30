@@ -3365,7 +3365,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//251
-			//Bar, Scodra, Lezhe
+			//Bar, Scodra, Lezhe, Sape
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dioclea',
 				'duchy_category' => 'Feudal_Estate',
