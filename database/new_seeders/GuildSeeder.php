@@ -27273,13 +27273,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Scodra',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '251',
-			'county' => '',
+			'county' => '1221',
 			'barony' => ''
 		]);
 		//Podrinje
@@ -27295,14 +27295,15 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Pale
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Pale',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '252',
-			'county' => '',
+			'county' => '1224',
 			'barony' => ''
 		]);
 		//Principality of Bosnia
@@ -27319,14 +27320,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Tesanj
+		//Doboj
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Doboj',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '253',
-			'county' => '',
+			'county' => '1227',
 			'barony' => ''
 		]);
 		//Soli
@@ -27342,14 +27345,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//Zvornik
+		//Zvornik
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Zvornik',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '254',
-			'county' => '',
+			'county' => '1229',
 			'barony' => ''
 		]);
 		//Zachumlia
@@ -27372,7 +27377,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '255',
-			'county' => '',
+			'county' => '1230',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27382,7 +27387,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '255',
-			'county' => '',
+			'county' => '1230',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27392,19 +27397,41 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '255',
-			'county' => '',
+			'county' => '1230',
 			'barony' => ''
 		]);
-		//
-		//
+		//Mostar
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Potterers Guild of Mostar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '255',
+			'county' => '1230',
+			'barony' => ''
+		]);
+		//Dabar
+		//Dabar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Dabar',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '255',
-			'county' => '',
+			'county' => '1232',
+			'barony' => ''
+		]);
+		//Nevesinje
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Nevesinje',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '255',
+			'county' => '1232',
 			'barony' => ''
 		]);
 		//Cordoba
@@ -27418,7 +27445,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '256',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27428,8 +27455,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '256',
+			'county' => '1234',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27438,8 +27465,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '256',
+			'county' => '1234',
 			'barony' => ''
 		]);
 		//Almeria

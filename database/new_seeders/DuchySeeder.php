@@ -3432,7 +3432,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Cordoba
 			//Andalucia
-			//
+			//256
 			//Algeciras, Gibraltar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algeciras',
@@ -3445,7 +3445,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//257
 			//Almeria, Baza
             DB::table('duchies')->insert([
 				'duchy_name' => 'Almeria',
@@ -3458,7 +3458,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//258
 			//Cadiz, Jerez, Sanlucar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arcos',
@@ -3471,7 +3471,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland'
             ]);
-			//
+			//259
 			//Carmona, Ecija
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carmona',
@@ -3484,7 +3484,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//260
 			//Andujar, Carpio, Cordoba, Martos, Pedroche
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cordoba',
@@ -3497,7 +3497,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//261
 			//Alpujarra, Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Granada',
@@ -3510,7 +3510,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//262
 			//Alhama, Antequera, Loja, Malaga
             DB::table('duchies')->insert([
 				'duchy_name' => 'Malaga',
@@ -3523,7 +3523,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//263
 			//Marbella, Ronda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ronda',
@@ -3536,7 +3536,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//264
 			//Aljarafe, Estepa, Sevilla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sevilla',
@@ -3550,7 +3550,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Algarves
-			//
+			//265
 			//Faro, Mertola, Silves
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algarves',
@@ -3563,7 +3563,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//266
 			//Badajoz, Beja, Evora, Guadiana, Llerena, Merida, Olivenza, Portalegre, Serena
             DB::table('duchies')->insert([
 				'duchy_name' => 'Badajoz',
@@ -3576,7 +3576,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//267
 			//Aracena, Huelva, Niebla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Huelva',
@@ -3590,7 +3590,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Levante
-			//
+			//268
 			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serranos
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alpuente',
@@ -3603,7 +3603,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//269
 			//Ibiza, Mallorca, Menorca
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baleares',
@@ -3616,7 +3616,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//270
 			//Albacete, Alcaraz, Alcira, Alcoy, Alicante, Almagro, Chinchilla, Cofrentes, Denia, Jativa, Montesa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Denia',
@@ -3629,7 +3629,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//271
 			//Cartagena, Cieza, Hellin, Lorca, Murcia, Orihuela, Segura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Murcia',
@@ -3642,7 +3642,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//272
 			//Castellon, Morella, Peniscola, San Clemente, Valencia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valencia',

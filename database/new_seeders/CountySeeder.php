@@ -21301,7 +21301,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -21341,7 +21341,7 @@ class CountySeeder extends Seeder
             ]);
 			//Podrinje
 			//1224
-			//borac
+			//borac, pale
             DB::table('counties')->insert([
 				'county_name' => 'Borac',
 				'county_category' => 'Feudal_Manor',
@@ -21353,12 +21353,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1225
-			//pavlovac
+			//pavlovac, gradina
             DB::table('counties')->insert([
 				'county_name' => 'Pavlovac',
 				'county_category' => 'Feudal_Manor',
@@ -21377,7 +21377,7 @@ class CountySeeder extends Seeder
 			//Bosnia
 			//Usora
 			//1226
-			//srebrenik
+			//srebrenik, kladanj, teocak
             DB::table('counties')->insert([
 				'county_name' => 'Srebrenik',
 				'county_category' => 'Feudal_Manor',
@@ -21394,7 +21394,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1227
-			//tesanj
+			//tesanj, doboj, zenica
             DB::table('counties')->insert([
 				'county_name' => 'Tesanj',
 				'county_category' => 'Feudal_Manor',
@@ -21406,13 +21406,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Soli
 			//1228
-			//tuzla
+			//tuzla, zivinice
             DB::table('counties')->insert([
 				'county_name' => 'Tuzla',
 				'county_category' => 'Feudal_Manor',
@@ -21429,7 +21429,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1229
-			//zvornik
+			//zvornik, sapna
             DB::table('counties')->insert([
 				'county_name' => 'Zvornik',
 				'county_category' => 'Feudal_Manor',
@@ -21441,13 +21441,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Zachumlia
 			//1230
-			//blagaj
+			//blagaj, mostar
             DB::table('counties')->insert([
 				'county_name' => 'Blagaj',
 				'county_category' => 'Feudal_Manor',
@@ -21464,7 +21464,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1231
-			//ston
+			//ston, metkovic, opuzen, ploca
             DB::table('counties')->insert([
 				'county_name' => 'Ston',
 				'county_category' => 'Feudal_Manor',
@@ -21481,7 +21481,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1232
-			//dabar
+			//dabar, nevesinje
             DB::table('counties')->insert([
 				'county_name' => 'Dabar',
 				'county_category' => 'Feudal_Manor',
@@ -21493,12 +21493,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1233
-			//popovski
+			//popovski, orahovec
             DB::table('counties')->insert([
 				'county_name' => 'Popovo',
 				'county_category' => 'Feudal_Manor',
@@ -21517,12 +21517,12 @@ class CountySeeder extends Seeder
 			//Cordoba
 			//Andalucia
 			//Algeciras
-			//
+			//1234
 			//algeciras
             DB::table('counties')->insert([
 				'county_name' => 'Algeciras',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '256',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21534,12 +21534,12 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1235
 			//gibraltar
             DB::table('counties')->insert([
 				'county_name' => 'Gibraltar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '256',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21557,7 +21557,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Almeria',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '257',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21574,7 +21574,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Baza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '257',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21592,7 +21592,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cadiz',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '258',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21609,7 +21609,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Jerez',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '258',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21626,7 +21626,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Sanlucar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '258',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21644,7 +21644,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Carmona',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '259',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21661,7 +21661,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ecija',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '259',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21679,7 +21679,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Andujar',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21696,7 +21696,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Carpio',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21713,7 +21713,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cordoba',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21729,7 +21729,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Subbetica',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21745,7 +21745,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Baena',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21761,7 +21761,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cordobesa',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21778,7 +21778,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Martos',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21795,7 +21795,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Pedroche',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '260',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21813,7 +21813,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alpujarra',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21830,7 +21830,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Baeza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21847,7 +21847,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Morena',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21864,7 +21864,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Granada',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21881,7 +21881,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Guadix',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21898,7 +21898,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Jaen',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21915,7 +21915,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lecrin',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21932,7 +21932,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Motril',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21949,7 +21949,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Torvizcon',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21966,7 +21966,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ubeda',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -21984,7 +21984,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alhama',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '262',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22001,7 +22001,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Antequerra',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '262',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22018,7 +22018,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Loja',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '262',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22035,7 +22035,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Malaga',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '262',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22053,7 +22053,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Marbella',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '263',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22070,7 +22070,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ronda',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '263',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22088,7 +22088,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Aljarafe',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '264',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22105,7 +22105,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Estepa',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '264',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22122,7 +22122,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Sevilla',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '264',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22141,7 +22141,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Faro',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '265',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22158,7 +22158,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Mertola',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '265',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22175,7 +22175,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Silves',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '265',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22193,7 +22193,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Badajoz',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22210,7 +22210,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Beja',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22227,7 +22227,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Evora',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22244,7 +22244,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Guadiana',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22261,7 +22261,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Llerena',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22278,7 +22278,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Merida',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22295,7 +22295,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Olivenza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22312,7 +22312,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Portalegre',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22329,7 +22329,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Serena',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '266',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22347,7 +22347,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Aracena',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '267',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22364,7 +22364,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Huelva',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '267',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22381,7 +22381,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Niebla',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '267',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22400,7 +22400,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alcarria',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '268',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22417,7 +22417,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Almarza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '268',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22434,7 +22434,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Henares',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '268',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22451,7 +22451,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Medinaceli',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '268',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22468,7 +22468,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Molina',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '268',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22485,7 +22485,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Serrania',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '268',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22503,7 +22503,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Ibiza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '269',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22520,7 +22520,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Mallorca',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '269',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22537,7 +22537,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Menorca',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '269',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22555,7 +22555,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Albacete',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22572,7 +22572,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alcaraz',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22589,7 +22589,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alcira',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22606,7 +22606,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alcoy',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22623,7 +22623,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Alicante',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22640,7 +22640,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Almagro',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22657,7 +22657,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Chinchilla',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22674,7 +22674,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cofrentes',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22691,7 +22691,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Denia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22708,7 +22708,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Jativa',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22725,7 +22725,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Montesa',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '270',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22743,7 +22743,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cartagena',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22760,7 +22760,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Cieza',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22777,7 +22777,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Hellin',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22794,7 +22794,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Lorca',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22811,7 +22811,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Murcia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22828,7 +22828,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Orihuela',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22845,7 +22845,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Segura',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '271',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22863,7 +22863,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Castellon',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '272',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22880,7 +22880,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Morella',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '272',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22897,7 +22897,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Peniscola',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '272',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22914,7 +22914,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'San Clemente',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '272',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
@@ -22931,7 +22931,7 @@ class CountySeeder extends Seeder
             DB::table('counties')->insert([
 				'county_name' => 'Valencia',
 				'county_category' => 'Feudal_Manor',
-				'de_jure_duchy' => '',
+				'de_jure_duchy' => '272',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
