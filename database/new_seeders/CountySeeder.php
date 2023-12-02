@@ -21639,7 +21639,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1241
-			//jerez
+			//jerez, san jose, santa maria, san fernando, chiclana
             DB::table('counties')->insert([
 				'county_name' => 'Jerez',
 				'county_category' => 'Feudal_Manor',
@@ -21652,11 +21652,11 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
-				'marke_animal_husbandry' => 'Sheep',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1242
-			//sanlucar
+			//sanlucar, rota, chipiona, tarbasana
             DB::table('counties')->insert([
 				'county_name' => 'Sanlucar',
 				'county_category' => 'Feudal_Manor',
@@ -21673,7 +21673,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//Carmona
-			//
+			//1243
 			//carmona
             DB::table('counties')->insert([
 				'county_name' => 'Carmona',
@@ -21690,7 +21690,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1244
 			//ecija
             DB::table('counties')->insert([
 				'county_name' => 'Ecija',

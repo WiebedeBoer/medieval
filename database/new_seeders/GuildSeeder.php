@@ -27646,6 +27646,29 @@ class GuildSeeder extends Seeder
 			'county' => '1241',
 			'barony' => ''
 		]);
+		//Sanlucar
+		//Rota
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '258',
+			'county' => '1242',
+			'barony' => ''
+		]);
+		//Tarbasana
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Tarbasana',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '258',
+			'county' => '1242',
+			'barony' => ''
+		]);
 		//Carmona
 		//Carmona
 		//Carmona
@@ -27655,7 +27678,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '259',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27665,7 +27688,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '259',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -27677,8 +27700,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '259',
+			'county' => '1244',
 			'barony' => ''
 		]);
 		//Cordoba
