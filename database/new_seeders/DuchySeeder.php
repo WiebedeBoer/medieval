@@ -3498,7 +3498,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//261
-			//Alpujarra, Baeza, Carolina, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
+			//Alpujarra, Baeza, Morena, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Granada',
 				'duchy_category' => 'Feudal_Estate',

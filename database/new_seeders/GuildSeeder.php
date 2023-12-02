@@ -21286,6 +21286,17 @@ class GuildSeeder extends Seeder
 			'county' => '875',
 			'barony' => ''
 		]);
+		//Skiborzyce
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Skiborzyce',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '153',
+			'county' => '875',
+			'barony' => ''
+		]);
 		//Czestochowa
 		//Olsztyn
 		DB::table('guilds')->insert([
@@ -27682,14 +27693,15 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		//San Rafael
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_name' => 'Millers Guild of San Rafael',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '',
+			'county' => '1243',
 			'barony' => ''
 		]);
 		//Ecija
@@ -27698,6 +27710,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Dyers Guild of Ecija',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '259',
+			'county' => '1244',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Ecija',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
@@ -27713,8 +27735,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1245',
 			'barony' => ''
 		]);
 		//Carpio
@@ -27725,8 +27747,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Madder',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1246',
 			'barony' => ''
 		]);
 		//Cordoba
@@ -27737,7 +27759,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Empire',
 			'empire' => '14',
 			'kingdom' => '46',
-			'duchy' => '',
+			'duchy' => '260',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27747,8 +27769,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27757,8 +27779,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27767,8 +27789,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27777,8 +27799,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		//Azahara
@@ -27788,8 +27810,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Tanner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27798,8 +27820,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		//Santa Cruz
@@ -27809,8 +27831,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tavern',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		//Santa Isabel
@@ -27820,8 +27842,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1247',
 			'barony' => ''
 		]);
 		//Subbetica
@@ -27832,8 +27854,20 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Monastic',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1248',
+			'barony' => ''
+		]);
+		//Cordobesa
+		//Aguilar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Aguilar',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '260',
+			'county' => '1250',
 			'barony' => ''
 		]);
 		//Martos
@@ -27844,8 +27878,19 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Woad',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1251',
+			'barony' => ''
+		]);
+		//Higuera
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Higuera',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '260',
+			'county' => '1251',
 			'barony' => ''
 		]);
 		//Pedroche
@@ -27856,8 +27901,19 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '260',
+			'county' => '1252',
+			'barony' => ''
+		]);
+		//Santa Eufemia
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Santa Eufemia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Saffron',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '260',
+			'county' => '1252',
 			'barony' => ''
 		]);
 		//Granada
@@ -27869,8 +27925,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1253',
 			'barony' => ''
 		]);
 		//Juviles
@@ -27880,8 +27936,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1253',
 			'barony' => ''
 		]);
 		//Trevelez
@@ -27891,8 +27947,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1253',
 			'barony' => ''
 		]);
 		//Valor
@@ -27902,8 +27958,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1253',
 			'barony' => ''
 		]);
 		//Portugos
@@ -27913,8 +27969,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1253',
 			'barony' => ''
 		]);
 		//Baeza
@@ -27925,8 +27981,39 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1254',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Baeza',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1254',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Baeza',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1254',
+			'barony' => ''
+		]);
+		//Bexijar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Bexijar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1254',
 			'barony' => ''
 		]);
 		//Granada
@@ -27937,7 +28024,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '261',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -27947,8 +28034,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1256',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27957,8 +28044,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1256',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27967,8 +28054,20 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Guadix
+		//Guadix
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Guadix',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
 			'barony' => ''
 		]);
 		//Jaen
@@ -27979,8 +28078,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1258',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27989,8 +28088,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '261',
+			'county' => '1258',
 			'barony' => ''
 		]);
 		//Malaga
@@ -28002,7 +28101,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '262',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28012,7 +28111,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '262',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28024,7 +28123,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '262',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28034,7 +28133,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '262',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28044,7 +28143,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '262',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28054,7 +28153,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '262',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28067,7 +28166,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '263',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28077,7 +28176,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '263',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28090,7 +28189,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28102,7 +28201,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28112,7 +28211,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Smith',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28122,7 +28221,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28132,7 +28231,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28142,7 +28241,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Platner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28153,7 +28252,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Silk_Weaver',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28164,7 +28263,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '264',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28178,7 +28277,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Major_Kingdom',
 			'empire' => null,
 			'kingdom' => '47',
-			'duchy' => '',
+			'duchy' => '265',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28188,7 +28287,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '265',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28200,7 +28299,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '265',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28213,7 +28312,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28223,7 +28322,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28233,7 +28332,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28243,7 +28342,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28255,7 +28354,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28267,7 +28366,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28277,7 +28376,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28287,7 +28386,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28299,7 +28398,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '266',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28312,7 +28411,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '267',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28322,7 +28421,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '267',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28332,7 +28431,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '267',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28344,7 +28443,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Kermes',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '267',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28358,7 +28457,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28369,7 +28468,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28379,7 +28478,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Potterer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28389,7 +28488,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28401,7 +28500,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Monastic',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28413,7 +28512,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28423,7 +28522,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28434,7 +28533,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28445,7 +28544,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28455,7 +28554,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28465,7 +28564,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '268',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28478,7 +28577,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '269',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28488,7 +28587,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '269',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28498,7 +28597,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '269',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28508,7 +28607,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '269',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28521,7 +28620,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '270',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28531,7 +28630,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Dyer_Saffron',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '270',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28543,7 +28642,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Potterer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '270',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28555,7 +28654,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Major_Kingdom',
 			'empire' => null,
 			'kingdom' => '48',
-			'duchy' => '',
+			'duchy' => '270',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28565,7 +28664,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '270',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28578,7 +28677,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '271',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28588,7 +28687,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '271',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28598,7 +28697,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Potterer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '271',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28608,7 +28707,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '271',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28621,7 +28720,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Petty_Kingdom',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => null,
 			'barony' => ''
 		]);
@@ -28631,7 +28730,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28641,7 +28740,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28651,7 +28750,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28661,7 +28760,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Mariner',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28672,7 +28771,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => '',
 			'barony' => ''
 		]);
@@ -28682,7 +28781,7 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Fuller',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
+			'duchy' => '272',
 			'county' => '',
 			'barony' => ''
 		]);
