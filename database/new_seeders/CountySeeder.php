@@ -21518,7 +21518,7 @@ class CountySeeder extends Seeder
 			//Andalucia
 			//Algeciras
 			//1234
-			//algeciras
+			//algeciras, cartagena, tarifa
             DB::table('counties')->insert([
 				'county_name' => 'Algeciras',
 				'county_category' => 'Feudal_Manor',
@@ -21530,12 +21530,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',
-				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1235
-			//gibraltar
+			//gibraltar, castellar
             DB::table('counties')->insert([
 				'county_name' => 'Gibraltar',
 				'county_category' => 'Feudal_Manor',
@@ -21552,8 +21552,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Almeria
-			//
-			//almeria
+			//1236
+			//almeria, huercal, benahadux, pechina, gador, mondujar, santa fe, viator
             DB::table('counties')->insert([
 				'county_name' => 'Almeria',
 				'county_category' => 'Feudal_Manor',
@@ -21561,15 +21561,15 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1237
 			//baza, cullar, caniles, benamaurel, freila
             DB::table('counties')->insert([
 				'county_name' => 'Baza',
@@ -21586,8 +21586,42 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Ducks'
             ]);
+			//1238
+			//alhama, alcolea, canjayar, almocita, illar, laujar
+            DB::table('counties')->insert([
+				'county_name' => 'Alpujarra',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '257',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Olive_Oil',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Fiber_Silk',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Pigs',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1239
+			//ejido, adra, berja, vicar
+            DB::table('counties')->insert([
+				'county_name' => 'Dalias',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '257',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Andalus',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Arcos
-			//
+			//1240
 			//cadiz, arcos, olvera, alcala, espera, zahara, ubrique, bornos
             DB::table('counties')->insert([
 				'county_name' => 'Cadiz',
@@ -21604,7 +21638,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1241
 			//jerez
             DB::table('counties')->insert([
 				'county_name' => 'Jerez',
@@ -21621,7 +21655,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1242
 			//sanlucar
             DB::table('counties')->insert([
 				'county_name' => 'Sanlucar',

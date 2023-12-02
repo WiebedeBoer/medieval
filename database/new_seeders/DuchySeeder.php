@@ -3446,7 +3446,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//257
-			//Almeria, Baza
+			//Almeria, Baza, Alpujarra, Dalias
             DB::table('duchies')->insert([
 				'duchy_name' => 'Almeria',
 				'duchy_category' => 'Feudal_Estate',
