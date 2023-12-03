@@ -21982,24 +21982,24 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1261
-			//torvizcon
+			//torvizcon, almegijar, berchules, mezquita, bubion, lanjaron, valor, turon
             DB::table('counties')->insert([
-				'county_name' => 'Torvizcon',
+				'county_name' => 'Cehel',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '261',
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1262
-			//ubeda
+			//ubeda, canena, sabiote
             DB::table('counties')->insert([
 				'county_name' => 'Ubeda',
 				'county_category' => 'Feudal_Manor',
@@ -22016,8 +22016,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Malaga
-			//
-			//alhama
+			//1263
+			//alhama, askudar, malaha, huelma, zafarraya
             DB::table('counties')->insert([
 				'county_name' => 'Alhama',
 				'county_category' => 'Feudal_Manor',
@@ -22026,15 +22026,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'Fiber_Flax',
+				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//antequera
+			//1264
+			//antequera, alameda
             DB::table('counties')->insert([
 				'county_name' => 'Antequerra',
 				'county_category' => 'Feudal_Manor',
@@ -22050,8 +22050,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//loja
+			//1265
+			//loja, algarin, ilora, moclin, montefrio, zagra
             DB::table('counties')->insert([
 				'county_name' => 'Loja',
 				'county_category' => 'Feudal_Manor',
@@ -22061,14 +22061,14 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Flax',
-				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//malaga
+			//1266
+			//malaga, casabermeja
             DB::table('counties')->insert([
 				'county_name' => 'Malaga',
 				'county_category' => 'Feudal_Manor',
@@ -22085,8 +22085,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ronda
-			//
-			//marbella
+			//1267
+			//marbella, montemayor, ojen
             DB::table('counties')->insert([
 				'county_name' => 'Marbella',
 				'county_category' => 'Feudal_Manor',
@@ -22095,15 +22095,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//ronda
+			//1268
+			//ronda, farajan, gaucin, montejaque, algatocin, montecorto, benadalid, benarraba
             DB::table('counties')->insert([
 				'county_name' => 'Ronda',
 				'county_category' => 'Feudal_Manor',
@@ -22112,15 +22112,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Sevilla
-			//
+			//1269
 			//albaida, gines, gelves, olivares, pilas, tomares, san isidore
             DB::table('counties')->insert([
 				'county_name' => 'Aljarafe',
@@ -22137,8 +22137,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//estepa
+			//1270
+			//estepa, osuna, moron
             DB::table('counties')->insert([
 				'county_name' => 'Estepa',
 				'county_category' => 'Feudal_Manor',
@@ -22154,7 +22154,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1271
 			//sevilla, cartuja, utrera, san luis
             DB::table('counties')->insert([
 				'county_name' => 'Sevilla',
@@ -22173,7 +22173,7 @@ class CountySeeder extends Seeder
             ]);
 			//Algarves
 			//Algarves
-			//
+			//1272
 			//faro, tavira, alcoutim, salir
             DB::table('counties')->insert([
 				'county_name' => 'Faro',
@@ -22190,7 +22190,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1273
 			//mertola, serpa, moura, noudar
             DB::table('counties')->insert([
 				'county_name' => 'Mertola',
@@ -22207,7 +22207,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1274
 			//silves, lagos, alcantarilha, aljezur, alvor, paderne
             DB::table('counties')->insert([
 				'county_name' => 'Silves',
