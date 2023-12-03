@@ -22203,7 +22203,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -22225,7 +22225,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Badajoz
-			//
+			//1275
 			//badajoz, albuquerque, talavera, barbacena, elvas
             DB::table('counties')->insert([
 				'county_name' => 'Badajoz',
@@ -22242,7 +22242,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1276
 			//beja, ourique, vidigueira, messejana, cola, alvito, aljustrel
             DB::table('counties')->insert([
 				'county_name' => 'Beja',
@@ -22259,7 +22259,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1277
 			//evora, alandroal, arraiolos, estremoz, mourao, viana, redondo, portel
             DB::table('counties')->insert([
 				'county_name' => 'Evora',
@@ -22276,7 +22276,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1278
 			//medellin, guarena
             DB::table('counties')->insert([
 				'county_name' => 'Guadiana',
@@ -22293,7 +22293,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1279
 			//llerena, berlanga, usagre, azuaga
             DB::table('counties')->insert([
 				'county_name' => 'Llerena',
@@ -22310,7 +22310,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1280
 			//merida, zafra, valverde, mirandilla, san servan, alange, calzada, lobon
             DB::table('counties')->insert([
 				'county_name' => 'Merida',
@@ -22327,7 +22327,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1281
 			//olivenza, nogales, alconchel, higuera
             DB::table('counties')->insert([
 				'county_name' => 'Olivenza',
@@ -22344,7 +22344,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1282
 			//portalegre, alegrete, avis, monforte, marvao
             DB::table('counties')->insert([
 				'county_name' => 'Portalegre',
@@ -22361,7 +22361,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1283
 			//villanueva, castuera
             DB::table('counties')->insert([
 				'county_name' => 'Serena',
@@ -22379,7 +22379,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Huelva
-			//
+			//1284
 			//aracena, santa eulalia, aroche, cala, cortegana, santa olalla
             DB::table('counties')->insert([
 				'county_name' => 'Aracena',
@@ -22396,7 +22396,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1285
 			//huelva, ayamonte, cartaya
             DB::table('counties')->insert([
 				'county_name' => 'Huelva',
@@ -22413,7 +22413,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1286
 			//niebla, moguer, almonte
             DB::table('counties')->insert([
 				'county_name' => 'Niebla',
@@ -22432,7 +22432,7 @@ class CountySeeder extends Seeder
             ]);
 			//Levante
 			//Alpuente
-			//
+			//1287
 			//huete, almonacid, guadalajara, santa maria
             DB::table('counties')->insert([
 				'county_name' => 'Alcarria',
@@ -22449,7 +22449,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1288
 			//almarza, buitrago
             DB::table('counties')->insert([
 				'county_name' => 'Almarza',
@@ -22466,7 +22466,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1289
 			//alcala, valverde, pezuela, san pedro
             DB::table('counties')->insert([
 				'county_name' => 'Henares',
@@ -22483,7 +22483,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1290
 			//medinaceli, arcos, somaen
             DB::table('counties')->insert([
 				'county_name' => 'Medinaceli',
@@ -22500,7 +22500,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1291
 			//molina, ventosa, tortuera
             DB::table('counties')->insert([
 				'county_name' => 'Molina',
@@ -22517,7 +22517,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1292
 			//alpuente, cuenca, atienza, siguenza, bonaval
             DB::table('counties')->insert([
 				'county_name' => 'Serrania',
