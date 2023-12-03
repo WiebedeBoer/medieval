@@ -21897,7 +21897,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1256
-			//granada, albolote, alfacar, beas, churriana, cogollos, lachar, peligros
+			//granada, albolote, alfacar,  churriana, cogollos, lachar, peligros, pulianas, aquiliana, diarfate, zubia, cijuela, chauchina, elvira, armilla, alhendin, genil
             DB::table('counties')->insert([
 				'county_name' => 'Granada',
 				'county_category' => 'Feudal_Manor',
@@ -21906,7 +21906,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Watermill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Saffron',
 				'marke_horse_transport' => 'Palfrey',
@@ -21914,7 +21914,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1257
-			//guadix
+			//guadix, albunan, aldeire, alquife, beas, benalua, diezma, dolar, gorafe, huelago, reniha, lugros, lapeza, policar, jerez
             DB::table('counties')->insert([
 				'county_name' => 'Guadix',
 				'county_category' => 'Feudal_Manor',
@@ -21922,8 +21922,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Cotton',
 				'marke_horse_transport' => 'Palfrey',
@@ -21931,7 +21931,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1258
-			//jaen
+			//jaen, santa domingo, alcaudete, locubin, alcala
             DB::table('counties')->insert([
 				'county_name' => 'Jaen',
 				'county_category' => 'Feudal_Manor',
@@ -21948,7 +21948,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1259
-			//orjiva
+			//orjiva, durcal, lecrin, albunuelas
             DB::table('counties')->insert([
 				'county_name' => 'Lecrin',
 				'county_category' => 'Feudal_Manor',
@@ -21957,15 +21957,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1260
-			//motril
+			//motril, almunecar, salobrena
             DB::table('counties')->insert([
 				'county_name' => 'Motril',
 				'county_category' => 'Feudal_Manor',

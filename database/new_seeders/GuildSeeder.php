@@ -28058,12 +28058,229 @@ class GuildSeeder extends Seeder
 			'county' => '1256',
 			'barony' => ''
 		]);
+		//Albolote
+		DB::table('guilds')->insert([
+			'guild_name' => 'Joiners Guild of Albolote',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Joiner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Alfacar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Alfacar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Alfacar',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Lachar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Lachar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Pulianas
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Pulianas',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Aquiliana
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Aquiliana',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Diarfate
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Diarfate',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Cijuela
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Cijuela',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Elvira
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Elvira',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Elvira',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Armilla
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Armilla',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Saffron',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Armilla',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
+		//Genil
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1256',
+			'barony' => ''
+		]);
 		//Guadix
 		//Guadix
 		DB::table('guilds')->insert([
 			'guild_name' => 'Cutlers Guild of Guadix',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Albunan
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Albunan',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Benalua
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Benalua',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Diezma
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Huelago
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Huelago',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Reniha
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Reniha',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Lugros
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Lugros',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1257',
+			'barony' => ''
+		]);
+		//Policar
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Policar',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
@@ -28090,6 +28307,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '261',
 			'county' => '1258',
+			'barony' => ''
+		]);
+		//Lecrin
+		//Durcal
+		DB::table('guilds')->insert([
+			'guild_name' => 'Silk Weavers Guild of Durcal',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Silk_Weaver',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '261',
+			'county' => '1259',
 			'barony' => ''
 		]);
 		//Malaga
