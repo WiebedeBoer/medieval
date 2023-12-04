@@ -296,7 +296,7 @@ class CountySeeder extends Seeder
             ]);
 			//Bavaria
 			//4
-			//regensburg, straubing
+			//regensburg, straubing, metten
             DB::table('counties')->insert([
 				'county_name' => 'Donaugau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2690,7 +2690,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//144
-			//paderborn, salzkotten, wewer, hardehausen, warburg
+			//paderborn, salzkotten, wewer, hardehausen, warburg, eresburg
             DB::table('counties')->insert([
 				'county_name' => 'Padergau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -2792,7 +2792,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//150
-			//hagen, attendorn, dortmund, hamm, essen, werden
+			//hagen, attendorn, dortmund, hamm, essen, werden, syburg
             DB::table('counties')->insert([
 				'county_name' => 'Westfaliagau',
 				'county_category' => 'Feudal_Manor',
@@ -3272,7 +3272,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//178
-			//tegernsee, ebertshausen, munich, staffelsee
+			//tegernsee, ebertshausen, munich, staffelsee, schaftlarn
             DB::table('counties')->insert([
 				'county_name' => 'Sundergau',
 				'county_category' => 'Feudal_Manor',
@@ -9218,7 +9218,7 @@ class CountySeeder extends Seeder
             ]);
 			//Meath
 			//524
-			//dublin, clontarf, kinsealy, lusk, castleknock, baldoyle
+			//dublin, clontarf, kinsealy, lusk, castleknock, baldoyle, tallaght
             DB::table('counties')->insert([
 				'county_name' => 'Dublin',
 				'county_category' => 'Feudal_Manor',
@@ -22234,7 +22234,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Dye_Kermes',
@@ -22252,7 +22252,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -22289,8 +22289,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1279
@@ -22311,7 +22311,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1280
-			//merida, zafra, valverde, mirandilla, san servan, alange, calzada, lobon
+			//merida, zafra, valverde, mirandilla, san servan, alange, lobon
             DB::table('counties')->insert([
 				'county_name' => 'Merida',
 				'county_category' => 'Feudal_Manor',
@@ -22321,10 +22321,10 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Boar',
 				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1281
@@ -22354,7 +22354,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
