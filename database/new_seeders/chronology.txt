@@ -1,53 +1,154 @@
-//1 migration [500], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420]
- 		
-//1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas	
-//1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V	
-//1 quadrivium, 2 trivium, 3 relics I, 4 groin vault, 5 studium generale, 6 lancet window, 7 ribbed vault, 8 studium humanitas, 9 relics II	
-//1 cloister, 2 manuscripts I, 3 manuscripts II, 4 medicine, 5 passagium, 6 mendicant, 7 manuscripts III, 8 manuscripts IV, 9 manuscripts V	
-//1 clinker built, 2 staple right, 3 stern rudder, 4 factory I, 5 compass, 6 treadwheel crane, 7 portolan chart, 8 factory II, 9 carvel built	
-//1 fairs I, 2 mint right, 3 guilds, 4 fairs II, 5 fairs III, 6 merchant banking, 7 anchor currency, 8 fairs IV, fairs V	
-//1 fabrics I, 2 panemone windmill, 3 fabrics II, 4 spinning wheel, 5 horizontal loom, 6 post mill, 7 stagecoach, 8 fabrics III, block printing	
-//1 one-field system, 2 horse collar, 3 two-field system, 4 husbandry I, 5 three-field system, 6 basket press, 7 husbandry II, 8 husbandry III, 9 husbandry IV 	
-//1 stirrup, 2 tourney, 3 horseshoe, 4 chevauchee I, 5 hastilude, 6 chivalry, 7 joust, 8 gendarme, 9 chevauchee II					
-//1 round shield, 2 hafted axe, 3 knightly sword, 4 arming sword, 5 pike, 6 routier, 7 bardiche, 8 poleaxe, 9 longsword					
-//1 archery I, 2 archery II, 3 archery III, 4 archery IV, 5 longbow, 6 arbalest, 7 archery V, 8 pavise I, 9 matchlock	
-//1 traction, 2 ram I, 3 ram II, ram III, 5 counterpoise, 6 blast furnace, 7 gunpowder, 8 cannon, 9 mantlet				
-//1 hauberk I, 2 hauberk II, 3 hauberk III, 4 hauberk IV, 5 chausses, 6 coat of plates, 7 brigandine, 8 tabard, 9 plate armour
+1 [720], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420]
+	
+court //1 dais, 2 lyric poetry, 3 courtly love, 4 great survey, 5 heraldry, 6 chimney, 7 rondel, 8 saltarello, 9 canvas	
+castle //1 manor I, 2 motte, 3 enceinte, 4 donjon, 5 concentric, 6 manor II, 7 manor III, 8 manor IV, 9 manor V	
+clergy //1 quadrivium, 2 trivium, 3 relics I, 4 groin vault, 5 studium generale, 6 lancet window, 7 ribbed vault, 8 studium humanitas, 9 relics II	
+monk //1 cloister, 2 manuscripts I, 3 manuscripts II, 4 medicine, 5 passagium, 6 mendicant, 7 manuscripts III, 8 manuscripts IV, 9 manuscripts V	
+port: //1 clinker built, 2 staple right, 3 stern rudder, 4 factory I, 5 compass, 6 treadwheel crane, 7 portolan chart, 8 factory II, 9 carvel built	
+market: //1 fairs I, 2 mint right, 3 guilds, 4 fairs II, 5 fairs III, 6 merchant banking, 7 anchor currency, 8 fairs IV, fairs V	
+commerce: //1 fabrics I, 2 panemone windmill, 3 fabrics II, 4 spinning wheel, 5 horizontal loom, 6 post mill, 7 stagecoach, 8 fabrics III, block printing	
+farm: //1 one-field system, 2 horse collar, 3 two-field system, 4 husbandry I, 5 three-field system, 6 basket press, 7 husbandry II, 8 husbandry III, 9 husbandry IV 	
+cavalry: //1 stirrup, 2 tourney, 3 horseshoe, 4 chevauchee I, 5 hastilude, 6 chivalry, 7 joust, 8 gendarme, 9 chevauchee II					
+melee: //1 round shield, 2 hafted axe, 3 knightly sword, 4 arming sword, 5 pike, 6 routier, 7 bardiche, 8 poleaxe, 9 longsword					
+skirmish: //1 archery I, 2 archery II, 3 archery III, 4 archery IV, 5 longbow, 6 arbalest, 7 archery V, 8 pavise I, 9 matchlock	
+siege: //1 traction, 2 ram I, 3 ram II, ram III, 5 counterpoise, 6 blast furnace, 7 gunpowder, 8 cannon, 9 mantlet				
+armour: //1 hauberk I, 2 hauberk II, 3 hauberk III, 4 hauberk IV, 5 chausses, 6 coat of plates, 7 brigandine, 8 tabard, 9 plate armour
 
-----------------------------------------------------------------------------------------
-723 Boniface fells oak of Thor at Fritzlar
-724 Arab fleet raids the Balearic Islands, Byzantine Sardinia and Lombard Corsica
-725 Anbasa ibn Suhaym al-Kalbi of Al-Andalus besieges Carcassonne
-726 King Ine of Wessex travels on a pilgrimage to Rome
-730 Hops are cultivated in Hallertau
-731 Bede completes Ecclesiastical History of the English People
-732 Charles Martel defeats an army of Abdul Rahman Al Ghafiqi near Poitiers
-734 Franks gain control of the Frisian lands west of the Lauwers
-735 York receives the pallium from pope Gregory III and is elevated to an archbishopric
-738 Boniface is made papal legate of the Frankish Kingdom
-739 Great Berber rebellion starts
-740 Khazars convert to Judaism
-742 Sturm founds the Benedictine Abbey of Fulda
-743 Odilo of Bavaria vassalizes and converts Carantania
-746 Council of Cannstatt
-748 Ethelbert II of Kent requests two goshawks for hunting from Boniface
-750 Alfonso I of Asturias establishes the Kingdom of Galicia
-751 First papermill established in Samarkand
-753 Ladoga founded by Scandinavians
-754 Boniface killed at Dokkum
-756 Abd al-Rahman I establishes the Emirate of Cordoba
-757 Sijilmasa is founded by Berbers
-758 Caliph al-Mansur launches the conquest of Tabaristan 
-764 Cancor founds Lorsch Abbey
-765 Three-field crop rotation system in use in medieval Europe
-766 Baghdad completed with three lines of walls
-769 Charlemagne conquers Aquitaine
-770 Danish Hedeby is founded
-772 Charlemagne destroyes Irminsul tree near Paderborn
-773 Charlemagne annexes the Lombard kingdom
-778 Roland killed at the battle of Roncevaux
-781 Charlemagne defines the Papal States
-782 Charlemagna appoints Alcuin
-784 Abd al-Rahman I constructs the Prayer Hall of the Great Mosque of Cordoba
-785 Franks conquer Girona and Urgell and divide Catalonia into fourteen countships
-786 Harun al-Rashid becomes the Abbasid caliph in Baghdad
+---------------------------------------------------------------------------------------------------------------------------------
+Merovingian Age			723 - 768		(45 years)
+---------------------------------------------------------------------------------------------------------------------------------
+723	HISTORIC[ECCLESIASTIC]				Boniface fells oak of Thor at Fritzlar
+726	ECCLESIASTIC		Relics			King Ine of Wessex travels on a pilgrimage to Rome
+730	AGRICULTURE					Hops are cultivated in Hallertau
+731	MONASTIC		Insular Manuscripts	Bede completes his Ecclesiastical History of the English People
+732	CAVALRY			Stirrup			Charles Martel defeats Abdul Rahman Al Ghafiqi near Poitiers
+734	MELEE			Merovingian Sword	Charles Martel defeats Poppo at the battle of the Boarn
+735	ECCLESIASTIC					York receives the pallium from pope Gregory III
+738 	ECCLESIASTIC					Boniface is made papal legate of the Frankish Kingdom
+740	ECCLESIASTIC					Khazars convert to Judaism
+742	MONASTIC					Sturm founds the Abbey of Fulda
+743	REL						Odilo of Bavaria vassalizes and converts Carantania
+748	FEA						Ethelbert II of Kent requests two goshawks for hunting from Boniface
+750	STA						Alfonso I of Asturias establishes the Kingdom of Galicia
+753	MARKET						Scandinavians found Ladoga 
+756	STA						Abd al-Rahman I establishes the Emirate of Cordoba
+757	MARKET						Sijilmasa is founded by Berbers
+758	MIL						Al-Mansur launches the invasion of Tabaristan 
+764	MONASTIC					Cancor founds Lorsch Abbey
+765	AGRICULTURE		Three-field System	Three-field crop rotation system in use in medieval Europe
+766	ARC						Baghdad completes three lines of walls			
+---------------------------------------------------------------------------------------------------------------------------------
+Carolingian Renaissance		768 - 793		(25 years)
+---------------------------------------------------------------------------------------------------------------------------------
+768	HISTORIC[STA]					Charlemagne ascends the throne
+770	MARKET						Hedeby is founded
+772	ECCLESIASTIC					Charlemagne destroys Irminsul tree near Paderborn
+778	COURT			Lyric Poetry		Roland killed at the battle of Roncevaux
+781	STA						Charlemagne defines the Papal States
+782	STA						Charlemagne appoints Alcuin as advisor
+784	ECCLESIASTIC		Ribbed Vault		Abd al-Rahman I constructs the Prayer Hall of the Mosque of Cordoba
+786	STA						Harun al-Rashid ascends the throne
+	ARMOR			Hauberk
+789	STA						Charlemagne issues the Admonitio Generalis
+	MELEE			Carolingian Sword
+	MONASTIC		Carolingian Manuscripts
+---------------------------------------------------------------------------------------------------------------------------------
+Viking Age			793 - 936		(143 years)
+---------------------------------------------------------------------------------------------------------------------------------
+793	HISTORIC[MELEE]		Hafted Axe		Viking assault on the island of Lindisfarne	
+805	PORT			Staple Right		Charlemagne issues Limits on Passage of Merchants
+	CASTLE			Motte-and-Bailey
+843	FEA			Tourney			Louis and Charles hold military games at Worms
+862	MARKET						Varangians settle in Novgorod under the leadership of Rurik
+882	STA						Oleg establishes the Kievan Rus
+910	CAVALRY			Horseshoe
+911	STA						Rollo swears allegiance after the siege of Chartres
+920	AGRICULTURE		Horse Collar		Horse collar in use in medieval Europe
+---------------------------------------------------------------------------------------------------------------------------------
+Ottonian Renaissance		936 - 989		(53 years)
+---------------------------------------------------------------------------------------------------------------------------------
+936	HISTORIC[STA]					Otto I ascends the throne
+	CASTLE			Enceinte
+	MONASTIC		Ottonian Manuscripts
+	CAVALRY			Chevauchee
+---------------------------------------------------------------------------------------------------------------------------------
+Romanesque Age			989 - 1066		(77 years)
+---------------------------------------------------------------------------------------------------------------------------------
+989	HISTORIC[ECCLESIASTIC]	Groin Vault		Trdat commences construction of the cathedral of Ani
+	MELEE			Knightly Sword
+	CASTLE			Donjon
+1001	COMMERCE		Post Mill		Post mill invented in Flanders
+1027	STA						Conrad II the Salian ascends the throne
+1030	COMMERCE		Spinning Wheel		Spinning wheel invented in the Islamic world
+	ARMOR			Chausses
+	MONASTIC		Romanesque Manuscripts
+---------------------------------------------------------------------------------------------------------------------------------
+Norman Age			1066 - 1144		(78 years)
+---------------------------------------------------------------------------------------------------------------------------------
+1066	HISTORIC[MELEE]		Arming Sword		William the Conqueror assembles a fleet in readiness for an invasion
+1067	COURT			Heraldry		William issues an Equestrian Seal
+1080	PORT			Factory			Visby merchants establish Gutagard at Novgorod
+1081	CASTLE			Concentric Castle	Eustathios refortifies Korykos
+1086	COURT			Great Survey		Domesday Book compiled at Winchester
+1088	ECCLESIASTIC		Studium Generale	Guild of students found the university of Bologna
+1096	MONASTIC		Passagium		First Crusade commences
+1098	MONASTIC					Robert of Molesme founds Citeaux Abbey
+	AGRICULTURE		Basket Press
+---------------------------------------------------------------------------------------------------------------------------------
+Gothic Renaissance		1144 - 1280		(136 years)
+---------------------------------------------------------------------------------------------------------------------------------
+1144	HISTORIC[ECCLESIASTIC]	Lancet Window		Abbey of Saint Denis completes construction of its choir
+1145	MONASTIC					Second Crusade commences
+1147	MONASTIC					Wendish Crusade commences
+	MELEE			Routier
+1179	CAVALRY			Chivalry		Saladin captures Hugh II of Saint Omer
+1180	MARKET			Fairs			Count of Champagne guarantees protection of merchants
+	ARMOR			Coat Of Plates
+1185	COURT			Chimney
+1187	SIEGE			Counterpoise Trebuchet	Mardi ibn Ali al-Tarsusi comments on the use of trebuchet
+1189	MONASTIC					Third Crusade commences
+
+1190	MONASTIC					German fraternity founds the Teutonic Order
+1202	MONASTIC					Fourth Crusade commences
+1209	MONASTIC					Albigensian Crusade commences
+1217	MONASTIC					Fifth Crusade commences
+1225	PORT			Treadwheel Crane	Treadwheel crane appears in France
+	ARMOR			Brigandine
+	ARMOR			Great Helm
+1240	SIEGE			Gunpowder		Hasan al-Rammah completes his treatise on gunpowder
+1241	MARKET						Lubeck and Hamburg sign trade treaty
+	MELEE			Bardiche
+1252	MARKET			Anchor Currency		First minting of the Florin
+1274	MONASTIC		Mendicant		Second Council of Lyon establishes mendicant orders
+1275	PORT			Portolan Chart		Carta Pisana is made
+	MONASTIC		Gothic Manuscripts
+---------------------------------------------------------------------------------------------------------------------------------
+Tuscan Renaissance		1280 - 1364		(84 years)
+---------------------------------------------------------------------------------------------------------------------------------
+1280	HISTORIC[ECCLESIASTIC]				Cimabue completes his Maesta painting
+	ARMOR			Bascinet
+1282	MIL						Sicilian Vespers commences
+1285	SKIRMISH		Longbow			Edward I issues statute of Winchester
+	ARMOR			Tabard
+	COURT			Rondel
+1302	MELEE						Battle of the Golden Spurs
+1305	MELEE			Halberd			Battle of Morgarten
+1309	ECCLESIASTIC					Pope Clement V moves Curia to Avignon
+1326	SIEGE			Cannon			Florence obtains cannons
+	MELEE			Longsword
+---------------------------------------------------------------------------------------------------------------------------------
+Italian Renaissance		1364 - 1420		(56 years)
+---------------------------------------------------------------------------------------------------------------------------------
+1364	HISTORIC[ECCLESIASTIC]				Guillaume de Machaut completes his Messe de Nostre Dame
+	COURT			Saltarello
+	MELEE			Poleaxe
+1394	SKIRMISH		Matchlock		Janissary corp incorporates matchlock	
+1415	ECCLESIASTIC					Jan Hus executed for heresy
+1416	MONASTIC		Renaissance Manuscripts	Limbourg Brothers complete The Very Rich Hours of the Duke of Berry
+	
+---------------------------------------------------------------------------------------------------------------------------------
+Florentine Renaissance		1420 - 1453		(33 years)
+---------------------------------------------------------------------------------------------------------------------------------
+1420	HISTORIC[ECCLESIASTIC]				Brunelleschi commences construction of the dome of Santa Maria del Fiore
+	ARMOR			Plate Armor
+1453	HISTORIC[SKIRMISH]				Fall of Constantinople
