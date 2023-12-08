@@ -19,7 +19,7 @@ Merovingian Age			723 - 754		(31 years)
 742	GUILD/MASON			Cloister		Sturm founds the Abbey of Fulda
 743	ART/COURT			Fealty			Odilo of Bavaria vassalizes Carantania
 748	FEAST				Falconry		Ethelbert II of Kent requests two goshawks for hunting from Boniface
-750	ARMOR/HELM			Spangenhelm		Alfonso I of Asturias establishes the Kingdom of Galicia
+750	ART/HEAD			Spangenhelm		Alfonso I of Asturias establishes the Kingdom of Galicia
 753	PORT				Lapstrake		Scandinavians found Ladoga 			
 	MANOR				Two-field System	Two-field crop rotation system in use in medieval Europe		
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -30,12 +30,12 @@ Carolingian Age				754 - 793		(39 years)
 764	ART/ECCLESIASTIC		Carolingian Manuscripts	Cancor founds Lorsch Abbey
 765	MANOR				Three-field System	Three-field crop rotation system in use in medieval Europe
 769	MELEE/BLADE			Carolingian Sword	Charlemagne launches military campaign against Aquitaine
-770	.PORT							Danish merchants found Hedeby
+770	PORT				Portage			Danes found Hedeby
 778	ART/COURT			Lyric Poetry		Roland killed at the battle of Roncevaux
 781	.REL							Charlemagne confirms the Donation of Pepin for the Papal States
 782	GUILD/MONASTIC			Chancery		Charlemagne appoints Alcuin as advisor
 784	GUILD/MASON			Ribbed Vault		Abd al-Rahman I constructs the Prayer Hall of the Mosque of Cordoba
-786	ARMOR/BODY			Hauberk			Harun al-Rashid ascends the throne	
+786	ART/BODY			Hauberk			Harun al-Rashid ascends the throne	
 789	GUILD/SCIENCE			Capitulary		Charlemagne issues the Admonitio Generalis
 -------------------------------------------------------------------------------------------------------------------------------------------
 Viking Age				793 - 919		(126 years)
@@ -44,7 +44,7 @@ Viking Age				793 - 919		(126 years)
 800	GUILD/CRAFT			Horse Collar		Horse collar in use in medieval Europe
 805	PORT				Staple Right		Charlemagne issues Limits on Passage of Merchants				
 843	FEAST				Tourney			Louis and Charles hold military games at Worms
-862	ARMOR/HELM			Nasal Helm		Varangians settle in Novgorod under the leadership of Rurik
+862	ART/HEAD			Nasal Helm		Varangians settle in Novgorod under the leadership of Rurik
 910	CAVALRY				Horseshoe		Hungarians victorious in the first battle of Lechfeld
 911	MANOR				Motte-and-Bailey	Rollo swears allegiance after the siege of Chartres				
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -54,21 +54,21 @@ Ottonian Renaissance			919 - 989		(70 years)
 936	MANOR				Enceinte		Otto I constructs the Pfalz at Quedlinburg
 940	GUILD/MASON			Arabesque		Abd ar-Rahman III commences construction of Medina Azahara					
 973	ART/ECCLESIASTIC		Ottonian Manuscripts	Widukind completes his Deeds of the Saxons
-980	GUILD/CRAFT			Horizontal Loom		Horizontal Loom in use in medieval Europe
+980	ART/BODY			Horizontal Loom		Horizontal Loom in use in medieval Europe
 985	CAVALRY				Chevauchee		Al-Mansur sacks Barcelona
 -------------------------------------------------------------------------------------------------------------------------------------------
 Romanesque Age				989 - 1066		(77 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 989	GUILD/MASON[HISTORIC]		Groin Vault		Trdat commences construction of the cathedral of Ani
-	MELEE/BLADE			Knightly Sword
-	MANOR				Donjon
+991	MANOR				Donjon			Hugh Capet drives Odo I of Blois out of Melun
 992	MELEE/POLEARM			Guisarme		Count of Anjou defeats the forces of Conan I of Brittany
+993	MELEE/BLADE			Knightly Sword		Otto III gifts swords to the convent of Essen
 1001	GUILD/CRAFT			Post Mill		Post mill invented in Flanders
 1020	ART/ECCLESIASTIC		Romanesque Manuscripts	Ethelnoth of Canterbury sponsors the Harley Psalter
 1025	GUILD/SCIENCE			Medicine		Ibn Sina completes his Canon of Medicine
 1028	ART/COURT			Courtly Love		Ibn Sina completes his Treatise on Love
-1030	GUILD/CRAFT			Spinning Wheel		Spinning wheel invented in the Islamic world
-1034	ARMOR/BODY			Chausses		Conrad II the Salian claims dominion over Burgundy
+1030	ART/BODY			Spinning Wheel		Spinning wheel invented in the Islamic world
+1034								Conrad II the Salian claims dominion over Burgundy
 -------------------------------------------------------------------------------------------------------------------------------------------
 Norman Age				1066 - 1144		(78 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,56 +77,58 @@ Norman Age				1066 - 1144		(78 years)
 1071	SIEGE				Springald		Siege of Manzikert
 1080	PORT				Factory			Visby merchants establish Gutagard at Novgorod
 1081	MANOR				Concentric Castle	Eustathios refortifies Korykos
-1086	ART/COURT			Great Survey		Domesday Book compiled at Winchester
+1086	ART/ECCLESIASTIC		Great Survey		Domesday Book compiled at Winchester
 1088	GUILD/SCIENCE			Studium Generale	Guild of students found the university of Bologna
-1090	ARMOR/BODY			Jazerant		Yusuf ibn Tashfin launches expedition in Al-Andalus
+1090	ART/BODY			Jazerant		Yusuf ibn Tashfin launches expedition in Al-Andalus
 1096	GUILD/MONASTIC			Passagium		First Crusade commences
-1098	GUILD/CRAFT			Basket Press		Robert of Molesme founds Citeaux Abbey			
-1118	GUILD/CRAFT			Blast Furnace		Abbey of Fontenay constructs a forge
-	FEAST				Troubadours
+1098	GUILD/CRAFT			Basket Press		Robert of Molesme founds Citeaux Abbey
+1101	FEAST				Troubadours		William IX of Aquitaine composes a lyric on returning from the crusade			
+1118	GUILD/MASON			Blast Furnace		Abbey of Fontenay constructs a forge
 -------------------------------------------------------------------------------------------------------------------------------------------
-Gothic Renaissance			1144 - 1280		(136 years)
+Gothic Renaissance			1144 - 1236		(92 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
-1144	GUILD/MASON[HISTORIC]		Lancet Window		Abbey of Saint Denis completes construction of its choir
-1166	MELEE/POLEARM			Routier			Abbey of Cluny mentions Brabancon mercenaries
+1144	GUILD/MASON[HISTORIC] 		Lancet Window		Abbey of Saint Denis completes construction of its choir
+1160	PORT 				Sternpost Rudder	Henry the Lion grants Lubeck town rights
+1166	MELEE/POLEARM 			Routier			Abbey of Cluny mentions Brabancon mercenaries
 1174	.SAT							Pierre de Saint-Cloud completes his Reynard the Fox
-1179	CAVALRY[COURT]			Chivalry		Saladin captures Hugh II of Saint Omer
-1180	FEAST				Fairs			Count of Champagne guarantees protection of merchants
-	PORT				Sternpost Rudder			
-	MANOR				Chimney
-1185	GUILD/SCIENCE			Studium Liberalia	Herrad of Landsberg completes her Hortus Deliciarum
-1187	SIEGE				Counterpoise Trebuchet	Mardi ibn Ali al-Tarsusi comments on the use of trebuchet
-1190	ARMOR/BODY			Coat Of Plates		German fraternity founds the Teutonic Order
+1179	CAVALRY 			Chivalry		Saladin captures Hugh II of Saint Omer
+1180	FEAST 				Fairs			Count of Champagne guarantees protection of merchants
+	ART/HEAD			Enclosed Helm							
+1184	MANOR 				Chimney			Hamelin rebuilts Conisbrough castle
+1185	GUILD/SCIENCE1			Studium Liberalia	Herrad of Landsberg completes her Hortus Deliciarum
+1187	SIEGE 				Counterpoise Trebuchet	Mardi ibn Ali al-Tarsusi comments on the use of trebuchet
+1190	ART/BODY 			Coat Of Plates		German fraternity founds the Teutonic Order
 1192	SKIRMISH			Pavise			Genoese crossbowmen use pavise at the crusades
 1199	ART/COURT			Charter Rolls		Chancery commences to keep the Charter Rolls
 1209	SKIRMISH			Arbalest		Albigensian Crusade commences
-1225	GUILD/MASON			Treadwheel Crane	Treadwheel crane appears in France
-1235	ART/ECCLESIASTIC		Gothic Manuscripts	Eike of Repgow compiles the Saxon Mirror
-	ARMOR/BODY			Brigandine
-	ARMOR/HELM			Great Helm
-	MANOR				Parlor			
-1240	SIEGE				Gunpowder		Hasan al-Rammah completes his treatise on gunpowder
-1241	.GUILD/CRAFT						Lubeck and Hamburg sign trade treaty
-	MELEE/POLEARM			Bardiche
-1252	GUILD/CRAFT			Anchor Currency		First minting of the Florin
-1266	MELEE/BLADE			Longsword		Charles I of Anjou defeats Manfred of Sicily at the Battle of Benevento
-1274	GUILD/MONASTIC			Mendicant		Second Council of Lyon establishes major mendicant orders
-1275	PORT				Portolan Chart		Carta Pisana is made
-	GUILD/CRAFT			Stagecoach
-	FEAST				Joust
+1216	GUILD/CRAFT 			Merchant Bank		Cahorsins are present at the Champagne Fairs
+1235	ART/ECCLESIASTIC 		Gothic Manuscripts	Eike of Repgow compiles the Saxon Mirror			
 -------------------------------------------------------------------------------------------------------------------------------------------
-Tuscan Renaissance			1280 - 1364		(84 years)
+Rayonnant Age				1236 - 1280		(44 years)
+-------------------------------------------------------------------------------------------------------------------------------------------
+1236	ART/HEAD			Great Helm		Ferdinan III the Saint besieges Cordoba
+1237	MANOR 				Parlor			Teutonic Order absorbs the Livonian Brothers of the Sword			
+1240	SIEGE 				Gunpowder		Hasan al-Rammah completes his treatise on gunpowder
+1241	GUILD/MASON 			Treadwheel Crane	Reims cathedral completes its choir
+1242	ART/BODY 			Brigandine		Mongols besiege Esztergom
+1252	GUILD/CRAFT 			Anchor Currency		First minting of the Florin
+1256	MELEE/POLEARM 			Bardiche		Alexander Nevsky routs the Swedes
+1266	MELEE/BLADE			Longsword		Charles I of Anjou defeats Manfred of Sicily at the Battle of Benevento
+1272	FEAST 				Joust			War of the Cow erupts after a peasant stole a cow during a joust
+1274	GUILD/MONASTIC			Mendicant		Second Council of Lyon establishes major mendicant orders
+1275	PORT 				Portolan Chart		Carta Pisana is made
+-------------------------------------------------------------------------------------------------------------------------------------------
+Flamboyant Age				1280 - 1364		(84 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1280	ART/ECCLESIASTIC[HISTORIC]	Painted Panel Altars	Cimabue completes his Maesta painting
-1281	ARMOR/HELM			Bascinet		Bascinet in use in Padua
-1282	ARMOR/BODY			Tabard			Sicilian Vespers commences
+1281	ART/HEAD			Bascinet		Bascinet in use in Padua
+1282	ART/BODY			Tabard			Sicilian Vespers commences
 1285	SKIRMISH			Longbow			Edward I issues statute of Winchester				
-	ART/COURT			Rondel
 1302	MELEE/POLEARM			Halberd			Flemish militia are victorious in the Battle of the Golden Spurs
 1307	PORT				Lateen Rig		Larger Caravels in use in the Bay of Biscay
 1309	.REL							Pope Clement V moves Curia to Avignon
+1325	FEAST				Hastilude		Order of Saint George founded
 1326	SIEGE				Cannon			Florence obtains cannons
-	FEAST				Hastilude
 1333	GUILD/SCIENCE			Studium Humanitas
 1351	GUILD/MASON			Fan Vault		Gloucester Cathedral completes construction of its cloisters
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,15 +136,16 @@ Italian Renaissance			1364 - 1420		(56 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1364	FEAST[HISTORIC]			Saltarello		Guillaume de Machaut completes his Messe de Nostre Dame			
 	MELEE/POLEARM			Poleaxe
+1387	ART/COURT			Rondel			Geoffrey Chaucer commences his Canterbury Tales	
 1394	SKIRMISH			Arquebus		Janissary corp incorporates matchlock
-1400	.SAT							Geoffrey Chaucer completes his Canterbury Tales	
 1415	.REL							Jan Hus executed for heresy
 1416	ART/ECCLESIASTIC		Renaissance Manuscripts	Limbourg Brothers complete The Very Rich Hours of the Duke of Berry	
 -------------------------------------------------------------------------------------------------------------------------------------------
-Florentine Renaissance			1420 - 1453		(33 years)
+Maritime Age				1420 - 1453		(33 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1420	GUILD/MASON[HISTORIC]		Renaissance Dome	Brunelleschi commences construction of the dome of Santa Maria del Fiore
-1425	ARMOR/BODY			Plate Armor		Plate armor in use in medieval Europe
+1421	GUILD/CRAFT			Stagecoach		Kocs inhabitants make wagons for the daughter of King Zsigmond
+1425	ART/BODY			Plate Armor		Plate armor in use in medieval Europe
 1428	FEAST				Chamber Of Rhetoric	First Chamber of Rhetoric establishes in Bruges
 1439	CAVALRY				Gendarme		Charles VII of France issues an ordinance
 1450	ART/COURT			Blockbooks		Gutenberg invents moveable type printing
