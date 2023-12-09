@@ -15,13 +15,14 @@ Merovingian Age			723 - 754		(31 years)
 732	CAVALRY				Stirrup			Charles Martel defeats Abdul Rahman Al Ghafiqi near Poitiers
 734	MELEE/BLADE			Merovingian Sword	Charles Martel defeats Poppo at the battle of the Boarn
 735	GUILD/SCIENCE			Lay Investiture		Ecgbert of York receives the pallium from pope Gregory III
-737	SIEGE				Mangonel		Siege of Narbonne
+737	SIEGE				Mangonel		Charles Martel besieges the Umayyad at Narbonne
+741	MANOR				Two-field System	Boniface and Odilo of Bavaria sponsor a collection of tribal laws
 742	GUILD/MASON			Cloister		Sturm founds the Abbey of Fulda
 743	ART/COURT			Fealty			Odilo of Bavaria vassalizes Carantania
 748	FEAST				Falconry		Ethelbert II of Kent requests two goshawks for hunting from Boniface
+749	SKIRMISH			Shortbow		Abassids defeat a large Umayad army
 750	ART/HEAD			Spangenhelm		Alfonso I of Asturias establishes the Kingdom of Galicia
-753	PORT				Lapstrake		Scandinavians found Ladoga 			
-	MANOR				Two-field System	Two-field crop rotation system in use in medieval Europe		
+753	PORT				Lapstrake		Scandinavians found Ladoga 					
 -------------------------------------------------------------------------------------------------------------------------------------------
 Carolingian Age				754 - 793		(39 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -32,7 +33,6 @@ Carolingian Age				754 - 793		(39 years)
 769	MELEE/BLADE			Carolingian Sword	Charlemagne launches military campaign against Aquitaine
 770	PORT				Portage			Danes found Hedeby
 778	ART/COURT			Lyric Poetry		Roland killed at the battle of Roncevaux
-781	.REL							Charlemagne confirms the Donation of Pepin for the Papal States
 782	GUILD/MONASTIC			Chancery		Charlemagne appoints Alcuin as advisor
 784	GUILD/MASON			Ribbed Vault		Abd al-Rahman I constructs the Prayer Hall of the Mosque of Cordoba
 786	ART/BODY			Hauberk			Harun al-Rashid ascends the throne	
@@ -42,7 +42,8 @@ Viking Age				793 - 919		(126 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 793	MELEE/BLADE[HISTORIC]		Hafted Axe		Viking assault on the island of Lindisfarne	
 800	GUILD/CRAFT			Horse Collar		Horse collar in use in medieval Europe
-805	PORT				Staple Right		Charlemagne issues Limits on Passage of Merchants				
+805	PORT				Staple Right		Charlemagne issues Limits on Passage of Merchants
+840	ART/COURT			Feudalism		Hilduin completes his Life of Louis				
 843	FEAST				Tourney			Louis and Charles hold military games at Worms
 862	ART/HEAD			Nasal Helm		Varangians settle in Novgorod under the leadership of Rurik
 910	CAVALRY				Horseshoe		Hungarians victorious in the first battle of Lechfeld
@@ -52,7 +53,8 @@ Ottonian Renaissance			919 - 989		(70 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 919	GUILD/SCIENCE[HISTORIC]		Hoftag			German nobles elect Henry the Fowler
 936	MANOR				Enceinte		Otto I constructs the Pfalz at Quedlinburg
-940	GUILD/MASON			Arabesque		Abd ar-Rahman III commences construction of Medina Azahara					
+940	GUILD/MASON			Arabesque		Abd ar-Rahman III commences construction of Medina Azahara
+947	SKIRMISH			Crossbow		Crossbow used during the siege of Senlis					
 973	ART/ECCLESIASTIC		Ottonian Manuscripts	Widukind completes his Deeds of the Saxons
 980	ART/BODY			Horizontal Loom		Horizontal Loom in use in medieval Europe
 985	CAVALRY				Chevauchee		Al-Mansur sacks Barcelona
@@ -69,6 +71,7 @@ Romanesque Age				989 - 1066		(77 years)
 1028	ART/COURT			Courtly Love		Ibn Sina completes his Treatise on Love
 1030	ART/BODY			Spinning Wheel		Spinning wheel invented in the Islamic world
 1034								Conrad II the Salian claims dominion over Burgundy
+1063	GUILD/MONASTIC			Scholasticism		Anselm of Canterbury becomes abbot of Bec
 -------------------------------------------------------------------------------------------------------------------------------------------
 Norman Age				1066 - 1144		(78 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -82,18 +85,19 @@ Norman Age				1066 - 1144		(78 years)
 1090	ART/BODY			Jazerant		Yusuf ibn Tashfin launches expedition in Al-Andalus
 1096	GUILD/MONASTIC			Passagium		First Crusade commences
 1098	GUILD/CRAFT			Basket Press		Robert of Molesme founds Citeaux Abbey
-1101	FEAST				Troubadours		William IX of Aquitaine composes a lyric on returning from the crusade			
+1101	FEAST				Troubadours		William IX of Aquitaine composes a lyric on returning from the crusade
+1105	ART/HEAD			Kettle Hat		Henry I Beauclerc invades Normandy	
 1118	GUILD/MASON			Blast Furnace		Abbey of Fontenay constructs a forge
 -------------------------------------------------------------------------------------------------------------------------------------------
 Gothic Renaissance			1144 - 1236		(92 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1144	GUILD/MASON[HISTORIC] 		Lancet Window		Abbey of Saint Denis completes construction of its choir
+1151	GUILD/MONASTIC			Morality Play		Hildegard of Bingen completes her Ordo Virtutum
 1160	PORT 				Sternpost Rudder	Henry the Lion grants Lubeck town rights
 1166	MELEE/POLEARM 			Routier			Abbey of Cluny mentions Brabancon mercenaries
-1174	.SAT							Pierre de Saint-Cloud completes his Reynard the Fox
 1179	CAVALRY 			Chivalry		Saladin captures Hugh II of Saint Omer
 1180	FEAST 				Fairs			Count of Champagne guarantees protection of merchants
-	ART/HEAD			Enclosed Helm							
+1181	ART/HEAD			Enclosed Helm		Henry the Lion submits to Frederick I							
 1184	MANOR 				Chimney			Hamelin rebuilts Conisbrough castle
 1185	GUILD/SCIENCE1			Studium Liberalia	Herrad of Landsberg completes her Hortus Deliciarum
 1187	SIEGE 				Counterpoise Trebuchet	Mardi ibn Ali al-Tarsusi comments on the use of trebuchet
@@ -111,6 +115,7 @@ Rayonnant Age				1236 - 1280		(44 years)
 1240	SIEGE 				Gunpowder		Hasan al-Rammah completes his treatise on gunpowder
 1241	GUILD/MASON 			Treadwheel Crane	Reims cathedral completes its choir
 1242	ART/BODY 			Brigandine		Mongols besiege Esztergom
+1250	ART/COURT			Fables			William completes his Reynard the Fox
 1252	GUILD/CRAFT 			Anchor Currency		First minting of the Florin
 1256	MELEE/POLEARM 			Bardiche		Alexander Nevsky routs the Swedes
 1266	MELEE/BLADE			Longsword		Charles I of Anjou defeats Manfred of Sicily at the Battle of Benevento
@@ -126,25 +131,25 @@ Flamboyant Age				1280 - 1364		(84 years)
 1285	SKIRMISH			Longbow			Edward I issues statute of Winchester				
 1302	MELEE/POLEARM			Halberd			Flemish militia are victorious in the Battle of the Golden Spurs
 1307	PORT				Lateen Rig		Larger Caravels in use in the Bay of Biscay
-1309	.REL							Pope Clement V moves Curia to Avignon
+1309	GUILD/SCIENCE			Studium Humanitas	Pope Clement V moves Curia to Avignon
 1325	FEAST				Hastilude		Order of Saint George founded
-1326	SIEGE				Cannon			Florence obtains cannons
-1333	GUILD/SCIENCE			Studium Humanitas
+1326	SIEGE				Cannon			Florence obtains cannons		
 1351	GUILD/MASON			Fan Vault		Gloucester Cathedral completes construction of its cloisters
+	CAVALRY				Hobelar
 -------------------------------------------------------------------------------------------------------------------------------------------
 Italian Renaissance			1364 - 1420		(56 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1364	FEAST[HISTORIC]			Saltarello		Guillaume de Machaut completes his Messe de Nostre Dame			
-	MELEE/POLEARM			Poleaxe
 1387	ART/COURT			Rondel			Geoffrey Chaucer commences his Canterbury Tales	
 1394	SKIRMISH			Arquebus		Janissary corp incorporates matchlock
-1415	.REL							Jan Hus executed for heresy
+1410	MELEE/POLEARM			Poleaxe			Vytautas the Great defeats the Teutonic Order at Grunwald
 1416	ART/ECCLESIASTIC		Renaissance Manuscripts	Limbourg Brothers complete The Very Rich Hours of the Duke of Berry	
 -------------------------------------------------------------------------------------------------------------------------------------------
 Maritime Age				1420 - 1453		(33 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1420	GUILD/MASON[HISTORIC]		Renaissance Dome	Brunelleschi commences construction of the dome of Santa Maria del Fiore
 1421	GUILD/CRAFT			Stagecoach		Kocs inhabitants make wagons for the daughter of King Zsigmond
+1424	ART/HEAD			Armet			Visconti of Milan captures Malatesta of Florence at Zagonara
 1425	ART/BODY			Plate Armor		Plate armor in use in medieval Europe
 1428	FEAST				Chamber Of Rhetoric	First Chamber of Rhetoric establishes in Bruges
 1439	CAVALRY				Gendarme		Charles VII of France issues an ordinance
