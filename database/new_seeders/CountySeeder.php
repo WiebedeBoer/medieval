@@ -415,7 +415,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//11
-			//ingolstadt, neuburg, freising
+			//ingolstadt, neuburg, freising, pfaffenhofen, solnhofen, pappenheim, mornsheim, altheim
             DB::table('counties')->insert([
 				'county_name' => 'Westergau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -758,7 +758,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//31
-			//kitzingen, gerolshofen
+			//kitzingen, gerolshofen, seinsheim
             DB::table('counties')->insert([
 				'county_name' => 'Gotzfeld',
 				'county_category' => 'Feudal_Manor',
@@ -2212,7 +2212,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//116
-			//hohenzollern, falkenstein, ulm, hohenstaufen, biberach, buchau, gutenzell, marchtal
+			//hohenzollern, falkenstein, ulm, hohenstaufen, biberach, buchau, gutenzell, marchtal, stauffenberg
             DB::table('counties')->insert([
 				'county_name' => 'Schwerzgau',
 				'county_category' => 'Feudal_Manor',
@@ -3169,7 +3169,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//172
-			//frankfurt, homburg, kransberg, falkenstein, massenheim
+			//frankfurt, homburg, kransberg, falkenstein, massenheim, munzenberg, bellersheim, muschenheim, bettenhausen, arnsburg, grueningen, birklar, holzheim, patershausen, horgern
             DB::table('counties')->insert([
 				'county_name' => 'Wettergau',
 				'county_category' => 'Feudal_Manor',
@@ -3218,7 +3218,7 @@ class CountySeeder extends Seeder
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
-				'marke_poultry' => 'Chickens'				
+				'marke_poultry' => 'Chickens'
             ]);
 			//175
 			//falkenstein, traunstein, baumburg, rosenheim, chiemsee
@@ -7981,7 +7981,7 @@ class CountySeeder extends Seeder
             ]);
 			//Normandy
 			//452
-			//rouen, harcourt, jumieges, heurteauville, saint saens, meslay, saint martin, saint philbert, brionne, wandrille, saint pierre
+			//rouen, harcourt, jumieges, heurteauville, saint saens, meslay, saint martin, saint philbert, brionne, wandrille, saint pierre, bec, bernay
             DB::table('counties')->insert([
 				'county_name' => 'Roumois',
 				'county_category' => 'Feudal_Manor',
@@ -10079,7 +10079,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//574
-			//sheffield, ecclesfield, bradfield, stannington
+			//sheffield, ecclesfield, bradfield, stannington, tickhill, wellingley
             DB::table('counties')->insert([
 				'county_name' => 'Hallamshire',
 				'county_category' => 'Feudal_Manor',
@@ -10091,7 +10091,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Gruit',
 				'banal_chasse' => 'Deer',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -10353,7 +10353,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//590
-			//somerton, sutton, taunton, bath, bruton, wells
+			//somerton, sutton, taunton, bath, bruton, wells, fiddleford
             DB::table('counties')->insert([
 				'county_name' => 'Somersetshire',
 				'county_category' => 'Ecclesiastical_Manor',

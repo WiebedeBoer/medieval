@@ -135,7 +135,7 @@ Flamboyant Age				1280 - 1364		(84 years)
 1325	FEAST				Hastilude		Order of Saint George founded
 1326	SIEGE				Cannon			Florence obtains cannons		
 1351	GUILD/MASON			Fan Vault		Gloucester Cathedral completes construction of its cloisters
-	CAVALRY				Hobelar
+1355	CAVALRY				Hobelar			Edward the Black Prince marches from Bordeaux
 -------------------------------------------------------------------------------------------------------------------------------------------
 Italian Renaissance			1364 - 1420		(56 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
