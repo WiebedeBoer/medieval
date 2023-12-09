@@ -3169,7 +3169,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//172
-			//frankfurt, homburg, kransberg, falkenstein, massenheim, munzenberg, bellersheim, muschenheim, bettenhausen, arnsburg, grueningen, birklar, holzheim, patershausen, horgern
+			//frankfurt, homburg, kransberg, falkenstein, massenheim, munzenberg, bellersheim, muschenheim, bettenhausen, arnsburg, grueningen, birklar, holzheim, patershausen, horgern, ruppertsburg
             DB::table('counties')->insert([
 				'county_name' => 'Wettergau',
 				'county_category' => 'Feudal_Manor',
