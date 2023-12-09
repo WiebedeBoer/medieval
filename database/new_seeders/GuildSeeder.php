@@ -3830,9 +3830,31 @@ class GuildSeeder extends Seeder
 			'county' => '172',
 			'barony' => ''
 		]);
-		//Nordheim
+		//Massenheim
 		DB::table('guilds')->insert([
 			'guild_name' => 'Vintners Guild of Massenheim',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '20',
+			'county' => '172',
+			'barony' => ''
+		]);
+		//Munzenberg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Homburg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Falconer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '20',
+			'county' => '172',
+			'barony' => ''
+		]);
+		//Bettenhausen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Bettenhausen',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Vintner',
 			'empire' => null,
@@ -10399,6 +10421,17 @@ class GuildSeeder extends Seeder
 			'county' => '452',
 			'barony' => ''
 		]);
+		//Bec
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Bec',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Monastic',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => '452',
+			'barony' => ''
+		]);
 		//Alencon
 		//Alencon
 		DB::table('guilds')->insert([
@@ -14585,6 +14618,28 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Forest of Wharncliffe',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '574',
+			'barony' => ''
+		]);
+		//Tickhill
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Tickhill',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '85',
+			'county' => '574',
+			'barony' => ''
+		]);
+		//Wellingley
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Wellingley',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '85',
