@@ -1,15 +1,10 @@
-1 [720], 2 carolingian [770], 3 ottonian [940], 4 romanesque [980], 5 mercantile [1070], 6 gothic [1130], 7 renaissance [1250], 8 flamboyant [1350], 9 imperial [1420]
-	
-court //1 dais, 9 canvas	
-market: //2 mint right, 3 guilds	
-commerce: //1 fabrics I,  3 fabrics II,  8 fabrics III		
 					
 -------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Merovingian Age			723 - 754		(31 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 723	[HISTORIC]						Boniface fells oak of Donar
 725	MELEE/POLEARM			Merovingian Bill	Charles Martel invades Bavaria
-726	GUILD/MONASTIC			Relics			King Ine of Wessex travels on a pilgrimage to Rome
+726	GUILD/MONASTIC			Merovingian Relics	King Ine of Wessex travels on a pilgrimage to Rome
 727	SKIRMISH			Francisca		Liutprand conquers Bologna
 730	GUILD/CRAFT			Hop Cultivation		Hops are cultivated in Hallertau
 731	ART/ECCLESIASTIC		Insular Manuscripts	Bede completes his Ecclesiastical History of the English People
@@ -113,7 +108,7 @@ HIGH	Norman Age			1066 - 1144		(78 years)
 1086	ART/ECCLESIASTIC		Great Survey		Domesday Book compiled at Winchester
 1088	GUILD/SCIENCE			Studium Generale	Guild of students found the university of Bologna
 1090	ART/BODY			Jazerant		Yusuf ibn Tashfin launches expedition in Al-Andalus
-1096	GUILD/MONASTIC			Passagium		First Crusade commences
+1096	GUILD/MONASTIC			Passagium Generale	First Crusade commences
 1098	GUILD/CRAFT			Basket Press		Robert of Molesme founds Citeaux Abbey
 1099	CAVALRY				Turcopole		Crusaders head towards Jerusalem
 1101	FEAST				Troubadours		William IX of Aquitaine composes a lyric on returning from the crusade
@@ -163,7 +158,9 @@ LATE	Flamboyant Age			1280 - 1364		(84 years)
 1280	ART/ECCLESIASTIC[HISTORIC]	Painted Panel Altars	Cimabue completes his Maesta painting
 1281	ART/HEAD			Bascinet		Bascinet in use in Padua
 1282	ART/BODY			Tabard			Sicilian Vespers commences
+1283	ART/COURT			Table Games		Alfonso X the Wise completes his Book of Games
 1285	SKIRMISH			Longbow			Edward I issues statute of Winchester
+1290	GUILD/MONASTIC			Gothic Relics		Duccio completes his Madonna and Child
 1299	GUILD/CRAFT			Bookkeeping		The Farolfi firm from Florence employs Amatino Manucci				
 1302	MELEE/POLEARM			Halberd			Flemish militia are victorious in the Battle of the Golden Spurs
 1307	GUILD/PORT			Portuguese Lateen Rig	Larger Caravels in use in the Bay of Biscay
@@ -171,47 +168,45 @@ LATE	Flamboyant Age			1280 - 1364		(84 years)
 1320	MELEE/BLADE			Fencing Books		Johannes Lichtenauer completes his combat manual		
 1325	FEAST				Hastilude		Order of Saint George founded
 1326	FORT/SIEGE			Cannon			Florence obtains cannons		
+1347	MANOR				Canada System		Mesta charter is supplemented		
 1351	GUILD/MASON			Fan Vault		Gloucester Cathedral completes construction of its cloisters
 1355	CAVALRY				Hobelar			Edward of Woodstock marches from Bordeaux
-	ART/COURT
-	MANOR
-	GUILD/MONASTIC
 -------------------------------------------------------------------------------------------------------------------------------------------
 LATE	Italian Renaissance		1364 - 1420		(56 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1364	FEAST[HISTORIC]			Saltarello		Guillaume de Machaut completes his Messe de Nostre Dame	
+1370	FORT/SIEGE			Zwinger			Buda fortress is remodeled with kill zones
+1375	GUILD/CRAFT			Maiolica		Maiolica workshops spread in Tuscany
 1378	ART/BODY			Damask Fabric		Ciompi wool carders revolt occurs in Florence
+1377	GUILD/PORT			Quarantine		Ragusa implements a waiting period
 1382	GUILD/MASON			Renaissance Arcade	Loggia dei Lanzi is constructed in Florence
 1387	ART/COURT			Rondeau			Geoffrey Chaucer commences his Canterbury Tales	
+1390	CAVALRY				Rowel Spurs		Rowel spurs in use in medieval Europe		
 1394	SKIRMISH			Culverin		Janissary corps incorporates handguns
 1399	MANOR				Tapestry		Philip the Bold of Burgundy orders tapestries from Paris
+1401	GUILD/MONASTIC			Renaissance Relics	Ghibert constructs baptistry doors
 1402	MELEE/BLADE			Claymore		Archibald Douglas clashes with the English at Nesbit Moor
 1407	ART/HEAD			Sallet			Gianfrancesco I Gonzaga inherits the rule of Mantua
 1410	MELEE/POLEARM			Poleaxe			Vytautas the Great defeats the Teutonic Order at Grunwald
 1416	ART/ECCLESIASTIC		Renaissance Manuscripts	Limbourg Brothers complete The Very Rich Hours of the Duke of Berry	
-	CAVALRY
-	FORT/SIEGE
-	GUILD/SCIENCE
-	GUILD/MONASTIC
-	GUILD/CRAFT
-	GUILD/PORT
+1429	GUILD/SCIENCE			Urbanization		Reconstruction of the Basilica of San Lorenzo in Florence
 -------------------------------------------------------------------------------------------------------------------------------------------
 LATE	Maritime Age			1420 - 1453		(33 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1420	GUILD/MASON[HISTORIC]		Renaissance Dome	Brunelleschi commences construction of the dome of Santa Maria del Fiore
 1421	GUILD/CRAFT			Stagecoach		Kocs inhabitants make wagons for the daughter of King Zsigmond
+1422	GUILD/SCIENCE			Mercantilism		Murad II blockades Thessalonica
 1424	ART/HEAD			Armet			Visconti of Milan captures Malatesta of Florence at Zagonara
 1425	ART/BODY			Plate Armor		Plate armor in use in medieval Europe
 1426	FORT/SIEGE			Roundel			Hussites construct Sion castle
 1428	FEAST				Chamber of Rhetoric	First Chamber of Rhetoric establishes in Bruges
 1429	MELEE/BLADE			Great Sword		Joan of Arc enters Orleans with a relief expedition
+1430	GUILD/PORT			Full Rig		William Soper dines onboard the flagship Grace Dieu
+1431	GUILD/MONASTIC			Conversion		The council of Basil is convoked
+1432	ART/COURT			Canvas			Jan van Eyck completes his Portrait of a Man
 1439	CAVALRY				Gendarme		Charles VII of France issues an ordinance at Orleans
 1441	SKIRMISH			Arquebus		John Hunyadi is victorious at Semendria
 1442	MANOR				Cassone			Giovanni di Francesco becomes a master in a Florentine guild
 1448	MELEE/POLEARM			Voulge Guisarme		Charles VII of France issues an ordinance at Montil-les-Tours
-1450	ART/ECCLESIASTIC		Blockbooks		Gutenberg invents moveable type printing
-	ART/COURT			
-	GUILD/SCIENCE
-	GUILD/MONASTIC
-	GUILD/PORT
+1450	ART/ECCLESIASTIC		Blockbooks		Gutenberg invents moveable type printing				
 1453	[HISTORIC]						Fall of Constantinople
