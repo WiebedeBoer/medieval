@@ -1798,6 +1798,17 @@ class GuildSeeder extends Seeder
 			'county' => '78',
 			'barony' => ''
 		]);
+		//Ciney
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Ciney',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '10',
+			'county' => '78',
+			'barony' => ''
+		]);
 		//Lommegau
 		//Namur
 		DB::table('guilds')->insert([

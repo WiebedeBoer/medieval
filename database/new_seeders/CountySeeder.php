@@ -1527,7 +1527,7 @@ class CountySeeder extends Seeder
             ]);
 			//Limburg
 			//76
-			//limburg, liege, rocourt, herstal
+			//limburg, liege, rocourt, herstal, ciney
             DB::table('counties')->insert([
 				'county_name' => 'Luttichgau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -1539,8 +1539,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Cider',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Affer',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//77
@@ -1561,7 +1561,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//78
-			//dinant, poilvache, huy, veves
+			//dinant, poilvache, huy, veves, ciney
             DB::table('counties')->insert([
 				'county_name' => 'Condrustgau',
 				'county_category' => 'Feudal_Manor',
@@ -1573,8 +1573,8 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Sumpter',
-				'marke_animal_husbandry' => 'Pigs',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//79
