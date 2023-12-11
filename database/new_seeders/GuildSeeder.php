@@ -28979,6 +28979,40 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Huelva
+		//Aracena
+		//Aracena
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Aracena',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1284',
+			'barony' => ''
+		]);
+		//Aroche
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Aroche',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1284',
+			'barony' => ''
+		]);
+		//Cala
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Cala',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1284',
+			'barony' => ''
+		]);
 		//Huelva
 		//Huelva
 		DB::table('guilds')->insert([
@@ -28992,13 +29026,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Huelva',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '',
+			'county' => '1285',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29011,12 +29045,66 @@ class GuildSeeder extends Seeder
 			'county' => '1285',
 			'barony' => ''
 		]);
+		//Cartaya
+		DB::table('guilds')->insert([
+			'guild_name' => 'Mariners Guild of Cartaya',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1285',
+			'barony' => ''
+		]);
 		//Niebla
 		//Niebla
 		DB::table('guilds')->insert([
 			'guild_name' => 'Dyers Guild of Niebla',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1286',
+			'barony' => ''
+		]);
+		//Moguer
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Moguer',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1286',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Mariners Guild of Moguer',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1286',
+			'barony' => ''
+		]);
+		//Almonte
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Almonte',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '267',
+			'county' => '1286',
+			'barony' => ''
+		]);
+		//Palos
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Palos',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',

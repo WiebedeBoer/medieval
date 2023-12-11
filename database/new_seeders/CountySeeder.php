@@ -47,10 +47,10 @@ class CountySeeder extends Seeder
 				'tax_feudal' => '',					//minimal, normal, large, maximal; default=normal
 				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=minimal
 				'tax_burgher' => '',				//minimal, normal, large, maximal; default=normal
-				'souvereign' => '1',			(empire); default=1
-				'lord_paramount' => '1',		(kingdom); default=1
-				'tenant_in_chief' => '1',		(duchy); default=1
-				'mesne_lord' => '1'				(county); default=1
+				'souvereign' => '',					//(empire); default=1
+				'lord_paramount' => '',				//(kingdom); default=1
+				'tenant_in_chief' => '',			//(duchy); default=1
+				'mesne_lord' => ''					//(county); default=1
             ]);
 			*/
 
@@ -22391,7 +22391,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -22414,7 +22414,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1286
-			//niebla, moguer, almonte
+			//niebla, moguer, almonte, palos
             DB::table('counties')->insert([
 				'county_name' => 'Niebla',
 				'county_category' => 'Feudal_Manor',
@@ -22423,10 +22423,10 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Dye_Kermes',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);

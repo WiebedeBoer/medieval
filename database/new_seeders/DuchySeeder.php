@@ -30,9 +30,9 @@ class DuchySeeder extends Seeder
 				'tax_feudal' => '',					//minimal, normal, large, maximal; default=minimal
 				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=normal
 				'tax_burgher' => ''					//minimal, normal, large, maximal; default=normal
-				'souvereign' => '1',				(empire); default=1
-				'lord_paramount' => '1',			(kingdom); default=1
-				'tenant_in_chief' => '1'			(duchy); default=1
+				'souvereign' => '',					//(empire); default=1
+				'lord_paramount' => '',				//(kingdom); default=1
+				'tenant_in_chief' => ''				//(duchy); default=1
             ]);			
 			*/
 			
