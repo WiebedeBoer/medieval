@@ -29168,6 +29168,28 @@ class GuildSeeder extends Seeder
 			'county' => '1289',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Alcala',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '268',
+			'county' => '1289',
+			'barony' => ''
+		]);
+		//Medinaceli
+		//Valladares
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Valladares',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '268',
+			'county' => '1290',
+			'barony' => ''
+		]);
 		//Serrania
 		//Alpuente
 		DB::table('guilds')->insert([
@@ -29246,13 +29268,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Palma',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '',
+			'county' => '1294',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29262,7 +29284,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '',
+			'county' => '1294',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29272,7 +29294,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '',
+			'county' => '1294',
 			'barony' => ''
 		]);
 		//Denia

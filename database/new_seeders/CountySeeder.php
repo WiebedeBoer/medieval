@@ -22478,13 +22478,13 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Dye_Kermes',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1290
-			//medinaceli, arcos, somaen
+			//medinaceli, arcos, somaen, valladares
             DB::table('counties')->insert([
 				'county_name' => 'Medinaceli',
 				'county_category' => 'Feudal_Manor',
@@ -22493,11 +22493,11 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Hemp',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Sheep',
+				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1291
@@ -22535,7 +22535,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Baleares
-			//
+			//1293
 			//ibiza
             DB::table('counties')->insert([
 				'county_name' => 'Ibiza',
@@ -22552,7 +22552,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1294
 			//palma
             DB::table('counties')->insert([
 				'county_name' => 'Mallorca',
@@ -22569,7 +22569,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1295
 			//alayor, ciudadela, mahon, mercadal
             DB::table('counties')->insert([
 				'county_name' => 'Menorca',

@@ -3591,7 +3591,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Levante
 			//268
-			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serranos
+			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serrania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alpuente',
 				'duchy_category' => 'Feudal_Estate',
