@@ -29331,6 +29331,41 @@ class GuildSeeder extends Seeder
 			'county' => '1296',
 			'barony' => ''
 		]);
+		//Alcira
+		//Ternils
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Ternils',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1298',
+			'barony' => ''
+		]);
+		//Alcoy
+		//Ibi
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Ibi',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1299',
+			'barony' => ''
+		]);
+		//Favanella
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Favanella',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1299',
+			'barony' => ''
+		]);
 		//Alicante
 		//Biar
 		DB::table('guilds')->insert([
@@ -29341,6 +29376,62 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '270',
 			'county' => '1300',
+			'barony' => ''
+		]);
+		//Almagro
+		//Almagro
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Almagro',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1301',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Almagro',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1301',
+			'barony' => ''
+		]);
+		//Granatula
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Granatula',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1301',
+			'barony' => ''
+		]);
+		//Valenzuela
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Valenzuela',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1301',
+			'barony' => ''
+		]);
+		//Chinchilla
+		//Pozo
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1302',
 			'barony' => ''
 		]);
 		//Denia
@@ -29356,13 +29447,47 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Denia',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '',
+			'county' => '1304',
+			'barony' => ''
+		]);
+		//Pedreguer
+		DB::table('guilds')->insert([
+			'guild_name' => 'Vintners Guild of Pedreguer',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1304',
+			'barony' => ''
+		]);
+		//Jativa
+		//Genoves
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Genoves',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1305',
+			'barony' => ''
+		]);
+		//Estubeny
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Estubeny',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '270',
+			'county' => '1305',
 			'barony' => ''
 		]);
 		//Murcia
