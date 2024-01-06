@@ -29503,6 +29503,40 @@ class GuildSeeder extends Seeder
 			'county' => '1307',
 			'barony' => ''
 		]);
+		//Hellin
+		//Alborajico
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Alborajico',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1309',
+			'barony' => ''
+		]);
+		//Albatana
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Albatana',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1309',
+			'barony' => ''
+		]);
+		//Ontur
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Ontur',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1309',
+			'barony' => ''
+		]);
 		//Murcia
 		//Murcia
 		DB::table('guilds')->insert([
@@ -29543,6 +29577,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '271',
 			'county' => '1311',
+			'barony' => ''
+		]);
+		//Orihuela
+		//Orihuela
+		DB::table('guilds')->insert([
+			'guild_name' => 'Silk Weavers Guild of Orihuela',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Silk_Weaver',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1312',
 			'barony' => ''
 		]);
 		//Valencia

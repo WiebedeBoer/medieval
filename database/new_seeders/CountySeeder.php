@@ -22793,7 +22793,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//1308
-			//cieza
+			//cieza, abaran, blanca
             DB::table('counties')->insert([
 				'county_name' => 'Cieza',
 				'county_category' => 'Feudal_Manor',
@@ -22801,7 +22801,7 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
@@ -22810,7 +22810,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1309
-			//hellin
+			//hellin, tobarra, alborajico, albatana, ontur
             DB::table('counties')->insert([
 				'county_name' => 'Hellin',
 				'county_category' => 'Feudal_Manor',
@@ -22818,8 +22818,8 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -22827,7 +22827,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1310
-			//lorca
+			//lorca, aguilas, nogalte
             DB::table('counties')->insert([
 				'county_name' => 'Lorca',
 				'county_category' => 'Feudal_Manor',
@@ -22840,7 +22840,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_husbandry' => 'Pigs',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1311
@@ -22870,15 +22870,15 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1313
-			//segura
+			//elche, yeste, socovos, lietor
             DB::table('counties')->insert([
 				'county_name' => 'Segura',
 				'county_category' => 'Feudal_Manor',
