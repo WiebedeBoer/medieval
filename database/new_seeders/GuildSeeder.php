@@ -29491,6 +29491,18 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Murcia
+		//Cartagena
+		//Pacheco
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Pacheco',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1307',
+			'barony' => ''
+		]);
 		//Murcia
 		//Murcia
 		DB::table('guilds')->insert([
@@ -29504,13 +29516,13 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Murcia',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '',
+			'county' => '1311',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([

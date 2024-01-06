@@ -22776,7 +22776,7 @@ class CountySeeder extends Seeder
             ]);
 			//Murcia
 			//1307
-			//cartagena
+			//cartagena, mazarron, san javier, alcares, san pedro, pacheco
             DB::table('counties')->insert([
 				'county_name' => 'Cartagena',
 				'county_category' => 'Feudal_Manor',
@@ -22789,7 +22789,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
 			//1308
@@ -22802,7 +22802,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -22856,7 +22856,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
