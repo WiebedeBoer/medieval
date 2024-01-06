@@ -29591,6 +29591,17 @@ class GuildSeeder extends Seeder
 			'county' => '1312',
 			'barony' => ''
 		]);
+		//Rojales
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Rojales',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1312',
+			'barony' => ''
+		]);
 		//Valencia
 		//Valencia
 		//Valencia

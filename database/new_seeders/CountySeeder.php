@@ -22861,7 +22861,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1312
-			//orihuella
+			//orihuella, almoradi, callosa, guardamar, rojales
             DB::table('counties')->insert([
 				'county_name' => 'Orihuela',
 				'county_category' => 'Feudal_Manor',
@@ -22869,12 +22869,12 @@ class CountySeeder extends Seeder
 				'vernacular_religion' => 'Muslim_Sunni',
 				'vernacular_cycle' => 'Matter_Andalus',
 				'vernacular_culture' => 'Moorish',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1313
