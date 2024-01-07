@@ -3657,7 +3657,7 @@ class DuchySeeder extends Seeder
             ]);	
 			//Almohad
 			//Marrakesh
-			//
+			//273
 			//Marrakesh, Safi, Mogador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
@@ -3670,7 +3670,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//274
 			//Khenifra, Mellal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tadla',
@@ -3683,7 +3683,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);
-			//
+			//275
 			//Tafilalt, Merzouga, Erfoud
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sijilmassa',
@@ -3696,7 +3696,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//
+			//276
 			//Ouarzazate, Zagora, Tinghir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ouarzazate',
