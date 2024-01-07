@@ -22844,7 +22844,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1311
-			//murcia
+			//murcia, alcantarilla, alquerias, alguazas, beniel, zeneta, albudeite, alhama
             DB::table('counties')->insert([
 				'county_name' => 'Murcia',
 				'county_category' => 'Feudal_Manor',
@@ -22857,7 +22857,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'Fiber_Silk',
 				'marke_horse_transport' => 'Charger',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1312

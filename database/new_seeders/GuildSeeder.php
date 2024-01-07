@@ -29579,6 +29579,61 @@ class GuildSeeder extends Seeder
 			'county' => '1311',
 			'barony' => ''
 		]);
+		//Alquerias
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Alquerias',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1311',
+			'barony' => ''
+		]);
+		//Alguazas
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forge of Alguazas',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Ironmonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1311',
+			'barony' => ''
+		]);
+		//Beniel
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Beniel',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1311',
+			'barony' => ''
+		]);
+		//Zeneta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Zeneta',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1311',
+			'barony' => ''
+		]);
+		//Albudeite
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Albudeite',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '271',
+			'county' => '1311',
+			'barony' => ''
+		]);
 		//Orihuela
 		//Orihuela
 		DB::table('guilds')->insert([
