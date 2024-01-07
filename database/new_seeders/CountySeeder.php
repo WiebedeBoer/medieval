@@ -22984,7 +22984,7 @@ class CountySeeder extends Seeder
 			//Marrakesh
 			//Marrakesh
 			//1319
-			//marrakesh
+			//marrakesh, takerkoust
             DB::table('counties')->insert([
 				'county_name' => 'Marrakesh',
 				'county_category' => 'Feudal_Manor',
@@ -23001,7 +23001,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//1320
-			//safi
+			//safi, nador
             DB::table('counties')->insert([
 				'county_name' => 'Safi',
 				'county_category' => 'Feudal_Manor',
@@ -23010,7 +23010,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
@@ -23018,7 +23018,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1321
-			//mogador
+			//mogador, baroud
             DB::table('counties')->insert([
 				'county_name' => 'Mogador',
 				'county_category' => 'Feudal_Manor',
@@ -23035,7 +23035,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1322
-			//aghmat
+			//aghmat, aguz
             DB::table('counties')->insert([
 				'county_name' => 'Aghmat',
 				'county_category' => 'Feudal_Manor',
