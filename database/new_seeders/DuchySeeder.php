@@ -3750,7 +3750,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Kairouan
-			//
+			//280
 			//Kairouan, 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',

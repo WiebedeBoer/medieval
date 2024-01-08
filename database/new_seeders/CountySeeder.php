@@ -23193,7 +23193,7 @@ class CountySeeder extends Seeder
 			//Fez
 			//Fez
 			//1331
-			//fez
+			//fez, sefrou, bhalil
             DB::table('counties')->insert([
 				'county_name' => 'Fez',
 				'county_category' => 'Feudal_Manor',
@@ -23202,7 +23202,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Watermill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
@@ -23210,7 +23210,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//1332
-			//meknes
+			//meknes, zerhoun, azrou
             DB::table('counties')->insert([
 				'county_name' => 'Meknes',
 				'county_category' => 'Feudal_Manor',
@@ -23222,12 +23222,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
 			//Rabat
-			//
+			//1333
 			//rabat, sale, temara
             DB::table('counties')->insert([
 				'county_name' => 'Rabat',
@@ -23244,8 +23244,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
-			//mehdya, 
+			//1334
+			//mehdya, kenitra
             DB::table('counties')->insert([
 				'county_name' => 'Mehdya',
 				'county_category' => 'Feudal_Manor',
@@ -23257,12 +23257,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
 			//Tangier
-			//
+			//1335
 			//tangier 
             DB::table('counties')->insert([
 				'county_name' => 'Tangier',
@@ -23279,7 +23279,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1336
 			//tetouan 
             DB::table('counties')->insert([
 				'county_name' => 'Tetouan',
@@ -23296,7 +23296,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
+			//1337
 			//kebir 
             DB::table('counties')->insert([
 				'county_name' => 'Kebir',
@@ -23313,7 +23313,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1338
 			//ouazzane 
             DB::table('counties')->insert([
 				'county_name' => 'Ouazzane',
@@ -23648,6 +23648,23 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Windmill',
 				'banal_pressoir' => 'Sweetener_Sugarcane',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Ducks'
+            ]);
+			//
+			//
+            DB::table('counties')->insert([
+				'county_name' => 'Tinmel',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
