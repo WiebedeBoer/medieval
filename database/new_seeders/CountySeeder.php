@@ -23105,7 +23105,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1326
-			//merzouga, 
+			//merzouga, tamegroute
             DB::table('counties')->insert([
 				'county_name' => 'Merzouga',
 				'county_category' => 'Feudal_Manor',
@@ -23122,7 +23122,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1327
-			//erfoud, 
+			//erfoud, maatalla, guedim, bouziane, abdennabi, mbarek
             DB::table('counties')->insert([
 				'county_name' => 'Erfoud',
 				'county_category' => 'Feudal_Manor',
@@ -23134,13 +23134,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Ouarzazate
 			//1328
-			//ouarzazate
+			//ouarzazate, benhaddou, taznakht
             DB::table('counties')->insert([
 				'county_name' => 'Ouarzazate',
 				'county_category' => 'Feudal_Manor',
@@ -23153,7 +23153,7 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Palfrey',
-				'marke_animal_husbandry' => 'Goats',
+				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1329

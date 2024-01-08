@@ -30091,15 +30091,39 @@ class GuildSeeder extends Seeder
 			'county' => '1325',
 			'barony' => ''
 		]);
-		//
+		//Rissani
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '275',
+			'county' => '1325',
+			'barony' => ''
+		]);
+		//Merzouga
+		//Tamegroute
+		DB::table('guilds')->insert([
+			'guild_name' => 'Potterers Guild of Tamegroute',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Potterer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '275',
+			'county' => '1326',
+			'barony' => ''
+		]);
+		//Erfoud
+		//Erfoud
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Erfoud',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '275',
-			'county' => '',
+			'county' => '1327',
 			'barony' => ''
 		]);
 		//Ouarzazate
@@ -30123,6 +30147,17 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '',
 			'county' => '',
+			'barony' => ''
+		]);
+		//Taznakht
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fullers Guild of Taznakht',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Fuller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '276',
+			'county' => '1328',
 			'barony' => ''
 		]);
 		//Zagora
