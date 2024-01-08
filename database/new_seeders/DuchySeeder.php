@@ -3710,7 +3710,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Fez
-			//
+			//277
 			//Fez, Meknes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fez',
@@ -3723,7 +3723,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//278
 			//Rabat, Mehdya
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rabat',
@@ -3736,7 +3736,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//279
 			//Tangier, Tetouan, Kebir, Ouazzane
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tangier',

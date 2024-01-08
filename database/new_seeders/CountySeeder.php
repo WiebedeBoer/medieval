@@ -23152,12 +23152,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//1329
-			//zagora
+			//zagora, agdz, tamnougalte
             DB::table('counties')->insert([
 				'county_name' => 'Zagora',
 				'county_category' => 'Feudal_Manor',
@@ -23174,7 +23174,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1330
-			//tinghir
+			//tinghir, mgouna, alnif, assoul
             DB::table('counties')->insert([
 				'county_name' => 'Tinghir',
 				'county_category' => 'Feudal_Manor',
@@ -23185,14 +23185,14 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => 'None',
-				'marke_crops' => 'None',
+				'marke_crops' => 'Perfume_Rose',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Fez
 			//Fez
-			//
+			//1331
 			//fez
             DB::table('counties')->insert([
 				'county_name' => 'Fez',
@@ -23209,7 +23209,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
+			//1332
 			//meknes
             DB::table('counties')->insert([
 				'county_name' => 'Meknes',
