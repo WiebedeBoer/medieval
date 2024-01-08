@@ -30000,9 +30000,44 @@ class GuildSeeder extends Seeder
 			'county' => '1321',
 			'barony' => ''
 		]);
+		//Aghmat
+		//Aghmat
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Aghmat',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '273',
+			'county' => '1322',
+			'barony' => ''
+		]);
 		//Tadla
-		//
-		//
+		//Khenifra
+		//Khenifra
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Khenifra',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '274',
+			'county' => '1323',
+			'barony' => ''
+		]);
+		//Mellal
+		//Mellal
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Mellal',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '274',
+			'county' => '1324',
+			'barony' => ''
+		]);
+		//Tadla
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Tadla',
 			'guild_category' => 'Court',
@@ -30011,16 +30046,6 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '274',
 			'county' => null,
-			'barony' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '274',
-			'county' => '',
 			'barony' => ''
 		]);
 		//Sijilmassa

@@ -23053,7 +23053,7 @@ class CountySeeder extends Seeder
             ]);
 			//Tadla
 			//1323
-			//khenifra
+			//khenifra, ait ishak, aguelmous, tighza, bouazza
             DB::table('counties')->insert([
 				'county_name' => 'Khenifra',
 				'county_category' => 'Feudal_Manor',
@@ -23070,7 +23070,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1324
-			//mellal
+			//mellal, ksiba, tadla
             DB::table('counties')->insert([
 				'county_name' => 'Mellal',
 				'county_category' => 'Feudal_Manor',
@@ -23079,7 +23079,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Darija',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
