@@ -23342,7 +23342,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_Ifriqiya',
 				'vernacular_culture' => 'Moorish',
 				'banal_moulin' => 'Horse_Mill',
-				'banal_pressoir' => 'None',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
@@ -23353,6 +23353,40 @@ class CountySeeder extends Seeder
 			//mahdia, monastir
             DB::table('counties')->insert([
 				'county_name' => 'Mahdia',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '280',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1341
+			//susa, upenna, hergla, gurza, msaken
+            DB::table('counties')->insert([
+				'county_name' => 'Susa',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '280',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Olive_Oil',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'Fiber_Silk',
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1342
+			//taparura, bennefa
+            DB::table('counties')->insert([
+				'county_name' => 'Taparura',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '280',
 				'vernacular_religion' => 'Muslim_Sunni',

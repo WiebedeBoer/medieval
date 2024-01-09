@@ -3751,7 +3751,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Kairouan
 			//280
-			//Kairouan, 
+			//Kairouan, Mahdia, Susa, Taparura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',
 				'duchy_category' => 'Feudal_Estate',
@@ -3763,7 +3763,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//281
 			//Tunis, Bizerte
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tunis',
@@ -3776,7 +3776,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//282
 			//Djerid,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djerid',
@@ -3789,7 +3789,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//283
 			//Tripoli,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tripoli',
@@ -3801,8 +3801,8 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
-            ]);		
-			//
+            ]);
+			//284
 			//Sirte,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sirte',

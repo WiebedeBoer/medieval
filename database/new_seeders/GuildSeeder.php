@@ -30470,6 +30470,26 @@ class GuildSeeder extends Seeder
 			'county' => '1339',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Kairouan',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1339',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Cutlers Guild of Kairouan',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Smith',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1339',
+			'barony' => ''
+		]);
 		//Raqqada
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Raqqada',
@@ -30491,6 +30511,60 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '280',
 			'county' => '1340',
+			'barony' => ''
+		]);
+		//Susa
+		//Susa
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1341',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Silk Weavers Guild of Susa',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Silk_Weaver',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1341',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Susa',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1341',
+			'barony' => ''
+		]);
+		//Upenna
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Upenna',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1341',
+			'barony' => ''
+		]);
+		//Msaken
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Msaken',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1341',
 			'barony' => ''
 		]);
 		//Tunis
