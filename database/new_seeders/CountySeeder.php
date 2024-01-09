@@ -23333,7 +23333,7 @@ class CountySeeder extends Seeder
 			//Kairouan
 			//Kairouan
 			//1339
-			//kairouan, raqqada
+			//kairouan, raqqada, lemsa
             DB::table('counties')->insert([
 				'county_name' => 'Kairouan',
 				'county_category' => 'Feudal_Manor',
@@ -23350,7 +23350,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1340
-			//mahdia
+			//mahdia, monastir
             DB::table('counties')->insert([
 				'county_name' => 'Mahdia',
 				'county_category' => 'Feudal_Manor',

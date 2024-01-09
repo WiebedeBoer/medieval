@@ -30481,6 +30481,18 @@ class GuildSeeder extends Seeder
 			'county' => '1339',
 			'barony' => ''
 		]);
+		//Mahdia
+		//Monastir
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1340',
+			'barony' => ''
+		]);
 		//Tunis
 		//Tunis
 		//Tunis
