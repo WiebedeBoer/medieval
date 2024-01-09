@@ -30424,15 +30424,16 @@ class GuildSeeder extends Seeder
 			'county' => '1335',
 			'barony' => ''
 		]);
-		//
+		//Kebir
+		//Kebir
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Kebir',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '',
+			'county' => '1337',
 			'barony' => ''
 		]);
 		//Kingdom of Kairouan
@@ -30445,18 +30446,18 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Major_Kingdom',
 			'empire' => null,
 			'kingdom' => '51',
-			'duchy' => '',
+			'duchy' => '280',
 			'county' => null,
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Kairouan',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '280',
+			'county' => '1339',
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30465,8 +30466,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '280',
+			'county' => '1339',
 			'barony' => ''
 		]);
 		//Tunis
