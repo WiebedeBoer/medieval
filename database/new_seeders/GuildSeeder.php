@@ -30451,9 +30451,9 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of Kairouan',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_name' => 'University of Kairouan',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '280',
@@ -30461,9 +30461,20 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'University of Kairouan',
-			'guild_category' => 'University',
-			'guild_subcategory' => 'Scholar_Bishop',
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '280',
+			'county' => '1339',
+			'barony' => ''
+		]);
+		//Raqqada
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Raqqada',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '280',

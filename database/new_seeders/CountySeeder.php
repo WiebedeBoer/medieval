@@ -23333,7 +23333,7 @@ class CountySeeder extends Seeder
 			//Kairouan
 			//Kairouan
 			//1339
-			//kairouan
+			//kairouan, raqqada
             DB::table('counties')->insert([
 				'county_name' => 'Kairouan',
 				'county_category' => 'Feudal_Manor',
@@ -23346,6 +23346,23 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1340
+			//mahdia
+            DB::table('counties')->insert([
+				'county_name' => 'Mahdia',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '280',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
