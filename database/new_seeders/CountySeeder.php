@@ -23401,8 +23401,8 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Tunis
-			//
-			//tunis
+			//1343
+			//tunis, marsa, bardo
             DB::table('counties')->insert([
 				'county_name' => 'Tunis',
 				'county_category' => 'Feudal_Manor',
@@ -23414,12 +23414,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'None',
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//bizerte
+			//1344
+			//bizerte, tinja, ghar, alia, ras
             DB::table('counties')->insert([
 				'county_name' => 'Bizerte',
 				'county_category' => 'Feudal_Manor',
@@ -23452,6 +23452,23 @@ class CountySeeder extends Seeder
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Ducks'
+            ]);
+			//
+			//tozeur
+            DB::table('counties')->insert([
+				'county_name' => 'Tozeur',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Ifriqiya',
+				'vernacular_culture' => 'Moorish',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
             ]);
 			//Tripoli
 			//

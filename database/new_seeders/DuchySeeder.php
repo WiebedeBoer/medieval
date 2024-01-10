@@ -3777,7 +3777,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//282
-			//Djerid,
+			//Djerid, Tozeur
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djerid',
 				'duchy_category' => 'Feudal_Estate',
