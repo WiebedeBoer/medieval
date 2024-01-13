@@ -56,12 +56,29 @@ class HalfTimberedFachwerk extends Controller
     ): array {
         $appearances = [];
         $appearances['wall'] = 'wattle and daub';
-        $appearances['window'] = 'sash window';
-        $appearances['facade'] = '';
-        $appearances['gallery'] = '';
-        $appearances['support'] = '';
-        $appearances['roof'] = '';
-        $appearances['tiles'] = '';
+        $appearances['facade'] = 'whitewashed';
+        $appearances['support'] = 'crossed timber beams'; 
+        //hoarding and stone keep
+        if($development == 'Romanesque' || $development == 'Norman' || $development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){
+            $appearances['hoarding'] = 'hoarding';
+            $appearances['keep'] = 'donjon';      
+        } else {
+            $appearances['hoarding'] = '';
+            $appearances['keep'] = 'bretasche';
+        }
+        //chimney and lancet
+        if($development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){            
+            $appearances['window'] = 'lancet window';    
+            $appearances['gallery'] = 'balustrade'; 
+            $appearances['roof'] = 'tiled sloped roof';
+            $appearances['tiles'] = 'slate tiles';  
+        } else {          
+            $appearances['window'] = 'sash window';    
+            $appearances['gallery'] = '';
+            $appearances['roof'] = 'tatched sloped roof';
+            $appearances['tiles'] = 'tatch';
+        }         
+
         return $appearances;
     }
 

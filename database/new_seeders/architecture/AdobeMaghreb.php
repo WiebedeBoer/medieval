@@ -56,12 +56,28 @@ class AdobeMaghreb extends Controller
     ): array {
         $appearances = [];
         $appearances['wall'] = 'adobe';
-        $appearances['window'] = '';
-        $appearances['facade'] = '';
-        $appearances['gallery'] = '';
-        $appearances['support'] = '';
-        $appearances['roof'] = '';
-        $appearances['tiles'] = '';
+        $appearances['facade'] = 'adobe';
+        $appearances['support'] = 'lintel'; 
+        //hoarding and stone keep
+        if($development == 'Romanesque' || $development == 'Norman' || $development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){
+            $appearances['hoarding'] = 'hoarding';
+            $appearances['keep'] = 'donjon';      
+        } else {
+            $appearances['hoarding'] = '';
+            $appearances['keep'] = 'bretasche';
+        }
+        //chimney and lancet
+        if($development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){   
+            $appearances['window'] = 'mashrabiya';
+            $appearances['gallery'] = 'mashrabiya';
+            $appearances['roof'] = 'adobe flat roof';
+            $appearances['tiles'] = 'adobe';
+        } else {
+            $appearances['window'] = 'sash window';  
+            $appearances['gallery'] = ''; 
+            $appearances['roof'] = 'adobe flat roof';
+            $appearances['tiles'] = 'adobe';      
+        }     
         return $appearances;
     }
 

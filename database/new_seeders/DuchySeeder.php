@@ -38,22 +38,22 @@ class DuchySeeder extends Seeder
 			
 			/*
 			
-			type					area							wall type			window type		facade type									roof type				roof color
+			type					area						
 			
-			Half_Timbered_Fachwerk 	[Germany,Denmark]			=	wattle daub	wall	sash window		whitewashed, crossed timber beams			tiled sloped roof		grey tiles
-			Half_Timbered_Studded 	[England,France]			=	wattle daub	wall	sash window		whitewashed, studded timber beams			tiled sloped roof		orange tiles
-			Half_Timbered_Khata 	[Kyiv,Poland,Hungary]		=	wattle daub	wall	sash window		whitewashed									tatched sloped roof		tatch
-			Half_Timbered_Konak		[Bulgaria,Trebizond]		=	wattle daub	wall	mashrabiya 		whitewashed	 								tiled sloped roof		orange tiles
-			Log_Chalet	 			[Burgundy,Austria,Croatia]	=	timber logs wall	sash window		timber, loggia								tiled sloped roof		grey tiles
-			Log_Stave				[Norway,Sweden]				=  	timber logs wall	sash window		timber, loggia								tatched sloped roof		tatch
-			Log_Izba				[Novgorod]					= 	timber logs wall	sash window		timber, loggia								wooden sloped roof		brown wood
-			Stone_Croft				[Connacht,Ulster,Scotland]	= 	stone wall			sash window		ashlar										tatched sloped roof		tatch
-			Stone_Mudejar			[Andalucia,Portugal]		=  	stone wall			lancet window	ashlar, loggia, merlons, turquoise tiled	tiled sloped roof		orange tiles
-			Stone_Romanesque 		[Europe Mediterranean]		= 	stone wall			lancet window	ashlar, loggia								tiled sloped roof		orange tiles
-			Stone_Adjar 			[Georgia,Armenia]			= 	stone wall			sash window		ashlar, loggia								wooden sloped roof		brown wood
-			Adobe_Mashriq 			[Arabia,Syria]				= 	adobe wall			mashrabiya 		adobe, balustrade							adobe flat roof			adobe
-			Adobe_Maghreb 			[Maghreb]					=	adobe wall			mashrabiya		adobe, merlons				 				adobe flat roof			adobe
-			Adobe_Persian 			[Persia,Steppes]			=	adobe wall			lancet window	adobe, merlons, turquoise iwan				adobe flat roof			adobe
+			Half_Timbered_Fachwerk 	[Germany,Denmark]			
+			Half_Timbered_Studded 	[England,France]			
+			Half_Timbered_Khata 	[Kyiv,Poland,Hungary]		
+			Half_Timbered_Konak		[Bulgaria,Trebizond]		
+			Log_Chalet	 			[Burgundy,Austria,Croatia]	
+			Log_Stave				[Norway,Sweden]				
+			Log_Izba				[Novgorod]					
+			Stone_Croft				[Connacht,Ulster,Scotland]	
+			Stone_Mudejar			[Andalucia,Portugal]		
+			Stone_Romanesque 		[Europe Mediterranean]		
+			Stone_Adjar 			[Georgia,Armenia]			
+			Adobe_Mashriq 			[Arabia,Syria]				
+			Adobe_Maghreb 			[Maghreb]					
+			Adobe_Persian 			[Persia,Steppes]			
 						
 			*/
 			

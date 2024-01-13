@@ -55,13 +55,30 @@ class StoneCroft extends Controller
         ?string $religion
     ): array {
         $appearances = [];
-        $appearances['wall'] = '';
-        $appearances['window'] = '';
-        $appearances['facade'] = '';
-        $appearances['gallery'] = '';
-        $appearances['support'] = '';
-        $appearances['roof'] = '';
-        $appearances['tiles'] = '';
+        $appearances['wall'] = 'stone ashlar';
+        $appearances['facade'] = 'drystack';
+        $appearances['support'] = 'lintel';
+        //hoarding and stone keep
+        if($development == 'Romanesque' || $development == 'Norman' || $development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){
+            $appearances['hoarding'] = 'hoarding';
+            $appearances['keep'] = 'donjon';      
+        } else {
+            $appearances['hoarding'] = '';
+            $appearances['keep'] = 'bretasche';
+        }
+        //chimney and lancet
+        if($development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){
+            $appearances['window'] = 'lancet window';    
+            $appearances['gallery'] = 'balustrade';
+            $appearances['roof'] = 'wooden sloped roof';
+            $appearances['tiles'] = 'shingles';   
+        } else {
+            $appearances['window'] = 'sash window';    
+            $appearances['gallery'] = '';
+            $appearances['roof'] = 'tatched sloped roof';
+            $appearances['tiles'] = 'tatch';
+        }    
+
         return $appearances;
     }
 
