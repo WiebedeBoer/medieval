@@ -6,7 +6,7 @@ use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
 
-class Castle extends Controller
+class KnightFee extends Controller
 {
     //main construct
     public function __construct()
