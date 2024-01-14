@@ -7,26 +7,26 @@ use Illuminate\Http\Request;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
-use construction\BurgageQuarter;
-use construction\CastleQuarter;
-use construction\CathedralClose;
-use construction\ClericalClose;
-use construction\CrusaderCommandery;
-use construction\FactoryQuarter;
-use construction\GateQuarter;
-use construction\GentryQuarter;
-use construction\HallQuarter;
-use construction\HospitalQuarter;
-use construction\HuntingQuarter;
-use construction\JewryQuarter;
-use construction\KnightFee;
-use construction\MarketQuarter;
-use construction\MonasticGrange;
-use construction\MonasticClose;
-use construction\PortQuarter;
-use construction\Tiltyard;
-use construction\Tithing;
-use construction\UniversityQuarter;
+use App\Http\Controllers\construction\BurgageQuarter;
+use App\Http\Controllers\construction\CastleQuarter;
+use App\Http\Controllers\construction\CathedralClose;
+use App\Http\Controllers\construction\ClericalClose;
+use App\Http\Controllers\construction\CrusaderCommandery;
+use App\Http\Controllers\construction\FactoryQuarter;
+use App\Http\Controllers\construction\GateQuarter;
+use App\Http\Controllers\construction\GentryQuarter;
+use App\Http\Controllers\construction\HallQuarter;
+use App\Http\Controllers\construction\HospitalQuarter;
+use App\Http\Controllers\construction\HuntingQuarter;
+use App\Http\Controllers\construction\JewryQuarter;
+use App\Http\Controllers\construction\KnightFee;
+use App\Http\Controllers\construction\MarketQuarter;
+use App\Http\Controllers\construction\MonasticGrange;
+use App\Http\Controllers\construction\MonasticClose;
+use App\Http\Controllers\construction\PortQuarter;
+use App\Http\Controllers\construction\Tiltyard;
+use App\Http\Controllers\construction\Tithing;
+use App\Http\Controllers\construction\UniversityQuarter;
 
 class ConstructionController extends Controller
 {
@@ -74,7 +74,7 @@ class ConstructionController extends Controller
         ?string $feastSociety
     ): array {
         switch ($category) {
-            case "Burgage Quarter":
+            case "Burgage_Quarter":
                 return $this->burgageQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -92,7 +92,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Castle Quarter":
+            case "Castle_Quarter":
                 return $this->castleQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -110,7 +110,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Cathedral Close":
+            case "Cathedral_Close":
                 return $this->cathedralClose->availableBuildings(
                     $category, 
                     $culture,
@@ -128,7 +128,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Clerical Close":
+            case "Clerical_Close":
                 return $this->clericalClose->availableBuildings(
                     $category, 
                     $culture,
@@ -146,7 +146,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Crusader Commandery":
+            case "Crusader_Commandery":
                 return $this->crusaderCommandery->availableBuildings(
                     $category, 
                     $culture,
@@ -182,7 +182,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Gate Quarter":
+            case "Gate_Quarter":
                 return $this->gateQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -200,7 +200,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Gentry Quarter":
+            case "Gentry_Quarter":
                 return $this->gentryQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -218,7 +218,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Hall Quarter":
+            case "Hall_Quarter":
                 return $this->hallQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -236,7 +236,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Hunting Quarter":
+            case "Hunting_Quarter":
                 return $this->huntingQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -254,7 +254,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Hospital Quarter":
+            case "Hospital_Quarter":
                 return $this->hospitalQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -272,7 +272,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Jewry Quarter":
+            case "Jewry_Quarter":
                 return $this->jewryQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -290,7 +290,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Knight Fee":
+            case "Knight_Fee":
                 return $this->knightFee->availableBuildings(
                     $category, 
                     $culture,
@@ -308,7 +308,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Market Quarter":
+            case "Market_Quarter":
                 return $this->marketQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -326,7 +326,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Monastic Close":
+            case "Monastic_Close":
                 return $this->monasticClose->availableBuildings(
                     $category, 
                     $culture,
@@ -344,7 +344,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Monastic Grange":
+            case "Monastic_Grange":
                 return $this->monasticGrange->availableBuildings(
                     $category, 
                     $culture,
@@ -362,7 +362,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Port Quarter":
+            case "Port_Quarter":
                 return $this->portQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -416,7 +416,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "University Quarter":
+            case "University_Quarter":
                 return $this->universityQuarter->availableBuildings(
                     $category, 
                     $culture,
@@ -457,7 +457,7 @@ class ConstructionController extends Controller
         ?string $feastSociety
     ): array {
         switch ($category) {
-            case "Burgage Quarter":
+            case "Burgage_Quarter":
                 return $this->burgageQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -475,7 +475,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Castle Quarter":
+            case "Castle_Quarter":
                 return $this->castleQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -493,7 +493,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Cathedral Close":
+            case "Cathedral_Close":
                 return $this->cathedralClose->availableUpgrades(
                     $category, 
                     $culture,
@@ -511,7 +511,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Clerical Close":
+            case "Clerical_Close":
                 return $this->clericalClose->availableUpgrades(
                     $category, 
                     $culture,
@@ -529,7 +529,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Crusader Commandery":
+            case "Crusader_Commandery":
                 return $this->crusaderCommandery->availableUpgrades(
                     $category, 
                     $culture,
@@ -565,7 +565,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Gate Quarter":
+            case "Gate_Quarter":
                 return $this->gateQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -583,7 +583,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Gentry Quarter":
+            case "Gentry_Quarter":
                 return $this->gentryQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -601,7 +601,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Hall Quarter":
+            case "Hall_Quarter":
                 return $this->hallQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -619,7 +619,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Hunting Quarter":
+            case "Hunting_Quarter":
                 return $this->huntingQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -637,7 +637,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Hospital Quarter":
+            case "Hospital_Quarter":
                 return $this->hospitalQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -655,7 +655,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Jewry Quarter":
+            case "Jewry_Quarter":
                 return $this->jewryQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -673,7 +673,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Knight Fee":
+            case "Knight_Fee":
                 return $this->knightFee->availableUpgrades(
                     $category, 
                     $culture,
@@ -691,7 +691,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Market Quarter":
+            case "Market_Quarter":
                 return $this->marketQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -709,7 +709,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Monastic Close":
+            case "Monastic_Close":
                 return $this->monasticClose->availableUpgrades(
                     $category, 
                     $culture,
@@ -727,7 +727,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Monastic Grange":
+            case "Monastic_Grange":
                 return $this->monasticGrange->availableUpgrades(
                     $category, 
                     $culture,
@@ -745,7 +745,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "Port Quarter":
+            case "Port_Quarter":
                 return $this->portQuarter->availableUpgrades(
                     $category, 
                     $culture,
@@ -799,7 +799,7 @@ class ConstructionController extends Controller
                     $feastSociety
                 );
               break;
-            case "University Quarter":
+            case "University_Quarter":
                 return $this->universityQuarter->availableUpgrades(
                     $category, 
                     $culture,

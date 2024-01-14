@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Http\Controllers\cultures;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Support\Collection;
@@ -40,9 +42,11 @@ class Flemish extends Controller
         return $features;
     }
 
-    private function determineLiterature(): string 
+    private function determineLiterature(): array 
     {
-        return '';
+      $cycles = [];
+      $cycles[] = 'Matter_Low_German';
+      return $cycles;
     }
 
     private function determineMilitary(): string 

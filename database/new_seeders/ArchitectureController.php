@@ -7,13 +7,39 @@ use Illuminate\Http\Request;
 use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
-use architecture\HalfTimberedFachwerk;
+use App\Http\Controllers\architecture\AdobeMaghreb;
+use App\Http\Controllers\architecture\AdobeMashriq;
+use App\Http\Controllers\architecture\AdobePersian;
+use App\Http\Controllers\architecture\HalfTimberedFachwerk;
+use App\Http\Controllers\architecture\HalfTimberedKhata;
+use App\Http\Controllers\architecture\HalfTimberedKonak;
+use App\Http\Controllers\architecture\HalfTimberedStudded;
+use App\Http\Controllers\architecture\LogChalet;
+use App\Http\Controllers\architecture\LogIzba;
+use App\Http\Controllers\architecture\LogStave;
+use App\Http\Controllers\architecture\StoneAdjar;
+use App\Http\Controllers\architecture\StoneCroft;
+use App\Http\Controllers\architecture\StoneMudejar;
+use App\Http\Controllers\architecture\StoneRomanesque;
 
 class ArchitectureController extends Controller
 {
     //main construct
     public function __construct(
+        private AdobeMaghreb $adobeMaghreb,
+        private AdobeMashriq $adobeMashriq,
+        private AdobePersian $adobePersian,
         private HalfTimberedFachwerk $halfTimberedFachwerk,
+        private HalfTimberedKhata $halfTimberedKhata,
+        private HalfTimberedKonak $halfTimberedKonak,
+        private HalfTimberedStudded $halfTimberedStudded,
+        private LogChalet $logChalet,
+        private LogIzba $logIzba,
+        private LogStave $logStave,
+        private StoneAdjar $stoneAdjar,
+        private StoneCroft $stoneCroft,
+        private StoneMudejar $stoneMudejar,
+        private StoneRomanesque $stoneRomanesque
     ) {
         $this->middleware('auth');
     }
@@ -29,8 +55,8 @@ class ArchitectureController extends Controller
         ?string $religion
     ): array {
         switch ($vernacularArchitecture) {
-            case "HalfTimberedFachwerk":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Adobe_Maghreb":
+                return $this->adobeMaghreb->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -40,7 +66,29 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-            case "HalfTimberedStudded":
+            case "Adobe_Mashriq":
+                return $this->adobeMashriq->availableBuildings(
+                    $vernacularArchitecture, 
+                    $development,
+                    $lawCourt, 
+                    $vegetation,
+                    $transport, 
+                    $altitude,
+                    $religion
+                );
+              break;
+            case "Adobe_Persian":
+                return $this->adobePersian->availableBuildings(
+                    $vernacularArchitecture, 
+                    $development,
+                    $lawCourt, 
+                    $vegetation,
+                    $transport, 
+                    $altitude,
+                    $religion
+                );
+              break;
+            case "Half_Timbered_Fachwerk":
                 return $this->halfTimberedFachwerk->availableBuildings(
                     $vernacularArchitecture,
                     $development, 
@@ -51,8 +99,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-            case "HalfTimberedKhata":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Half_Timbered_Khata":
+                return $this->halfTimberedKhata->availableBuildings(
                     $vernacularArchitecture,
                     $development, 
                     $lawCourt, 
@@ -62,8 +110,19 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-            case "HalfTimberedKonak":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Half_Timbered_Konak":
+                return $this->halfTimberedKonak->availableBuildings(
+                    $vernacularArchitecture,
+                    $development, 
+                    $lawCourt, 
+                    $vegetation,
+                    $transport, 
+                    $altitude,
+                    $religion
+                );
+              break;
+            case "Half_Timbered_Studded":
+                return $this->halfTimberedStudded->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -73,8 +132,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-            case "LogChalet":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Log_Chalet":
+                return $this->logChalet->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -84,8 +143,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-              case "LogStave":
-                return $this->halfTimberedFachwerk->availableBuildings(
+              case "Log_Izba":
+                return $this->logIzba->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -95,8 +154,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-              case "LogIzba":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Log_Stave":
+                return $this->logStave->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -106,8 +165,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-              case "StoneCroft":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Stone_Adjar":
+                return $this->stoneAdjar->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -117,8 +176,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-              case "StoneMudejar":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Stone_Croft":
+                return $this->stoneCroft->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -128,8 +187,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-              case "StoneRomanesque":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Stone_Mudejar":
+                return $this->stoneMudejar->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 
@@ -139,41 +198,8 @@ class ArchitectureController extends Controller
                     $religion
                 );
               break;
-              case "StoneAdjar":
-                return $this->halfTimberedFachwerk->availableBuildings(
-                    $vernacularArchitecture, 
-                    $development,
-                    $lawCourt, 
-                    $vegetation,
-                    $transport, 
-                    $altitude,
-                    $religion
-                );
-              break;
-              case "AdobeMashriq":
-                return $this->halfTimberedFachwerk->availableBuildings(
-                    $vernacularArchitecture, 
-                    $development,
-                    $lawCourt, 
-                    $vegetation,
-                    $transport, 
-                    $altitude,
-                    $religion
-                );
-              break;
-              case "AdobeMaghreb":
-                return $this->halfTimberedFachwerk->availableBuildings(
-                    $vernacularArchitecture, 
-                    $development,
-                    $lawCourt, 
-                    $vegetation,
-                    $transport, 
-                    $altitude,
-                    $religion
-                );
-              break;
-              case "AdobePersian":
-                return $this->halfTimberedFachwerk->availableBuildings(
+            case "Stone_Romanesque":
+                return $this->stoneRomanesque->availableBuildings(
                     $vernacularArchitecture, 
                     $development,
                     $lawCourt, 

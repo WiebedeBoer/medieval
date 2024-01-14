@@ -4057,7 +4057,7 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
-            ])			
+			]);			
 			//Fatimid
 			//Cairo
 			//

@@ -1,18 +1,16 @@
-Culture		Literature		Military
+Culture		Literature		        Military
 
 Franconian	Matter_Low_German
 Frisian		Matter_Low_German	
 Flemish		Matter_Low_German
 Saxon		Matter_Low_German
-Wendish		Matter_Low_German
 Bavarian	Matter_High_German
 Swabian		Matter_High_German
 Lombard		Matter_Lombard
 Arpitan		Matter_France	
 Frankish	Matter_France	
 Norman		Matter_France			
-Occitan		Matter_France	
-Catalan		Matter_Aragon					
+Occitan		Matter_France					
 Breton		Matter_Britain	
 Irish		Matter_Britain		
 English		Matter_Britain		
@@ -22,7 +20,8 @@ Pictish		Matter_Britain
 Norwegian	Matter_Norse	
 Danish		Matter_Norse		
 Swedish		Matter_Norse	
-Finnish		Matter_Norse	
+Finnish		Matter_Norse
+Catalan		Matter_Aragon	
 Navarrese	Matter_Aragon	
 Aragonese	Matter_Aragon	
 Castillian	Matter_Castile	
@@ -32,10 +31,11 @@ Asturian	Matter_Castile
 Cantabrian	Matter_Castile	
 Portuguese	Matter_Portugal
 Polish		Matter_Polish
+Silesian	Matter_Polish
 Lithuanian	Matter_Baltic
 Livonian	Matter_Baltic	
 Prussian	Matter_Baltic
-Silesian	Matter_Sorbia	
+Wendish		Matter_Baltic
 Bohemian	Matter_Bohemia
 Moravian	Matter_Bohemia	
 Hungarian	Matter_Magyar	
@@ -60,4 +60,5 @@ Arabic		Matter_Najd
 Arabic		Matter_Masri
 Arabic		Matter_Hejaz
 Turkic		Matter_Turk		
-Persian		Matter_Persia		
+Persian		Matter_Persia
+Mongolian   Matter_Mongolia		
