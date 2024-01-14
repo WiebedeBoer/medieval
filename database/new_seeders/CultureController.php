@@ -126,27 +126,31 @@ class CultureController extends Controller
         $this->middleware('auth');
     }
 
-    //culture determine
+    //culture features determine
     public function determineCulture(
         string $culture, 
         ?string $building, 
         ?string $holding,
+        ?array $development,
+        ?string $cycle,
         ?string $rank, 
         ?string $title,
         ?string $estate,
         ?string $religion,
-        ?string $chivalricSociety,
-        ?string $monasticSociety,
-        ?string $ecclesiasticalSociety,
-        ?string $courtSociety,
-        ?string $craftSociety,
-        ?string $feastSociety
+        ?array $chivalricSociety,
+        ?array $monasticSociety,
+        ?array $ecclesiasticalSociety,
+        ?array $courtSociety,
+        ?array $craftSociety,
+        ?array $feastSociety
     ): array {
         switch ($culture) {
             case "Franconian":
                 return $this->franconian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -163,6 +167,8 @@ class CultureController extends Controller
                 return $this->frisian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -179,6 +185,8 @@ class CultureController extends Controller
                 return $this->flemish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -195,6 +203,8 @@ class CultureController extends Controller
                 return $this->saxon->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -211,6 +221,8 @@ class CultureController extends Controller
                 return $this->bavarian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -227,6 +239,8 @@ class CultureController extends Controller
                 return $this->swabian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -243,6 +257,8 @@ class CultureController extends Controller
                 return $this->lombard->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -259,6 +275,8 @@ class CultureController extends Controller
                 return $this->arpitan->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -275,6 +293,8 @@ class CultureController extends Controller
                 return $this->frankish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -291,6 +311,8 @@ class CultureController extends Controller
                 return $this->frankish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -307,6 +329,8 @@ class CultureController extends Controller
                 return $this->occitan->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -323,6 +347,8 @@ class CultureController extends Controller
                 return $this->breton->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -339,6 +365,8 @@ class CultureController extends Controller
                 return $this->irish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -355,6 +383,8 @@ class CultureController extends Controller
                 return $this->english->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -371,6 +401,8 @@ class CultureController extends Controller
                 return $this->welsh->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -387,6 +419,8 @@ class CultureController extends Controller
                 return $this->gaelic->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -403,6 +437,8 @@ class CultureController extends Controller
                 return $this->pictish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -419,6 +455,8 @@ class CultureController extends Controller
                 return $this->norwegian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -435,6 +473,8 @@ class CultureController extends Controller
                 return $this->danish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -451,6 +491,8 @@ class CultureController extends Controller
                 return $this->swedish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -467,6 +509,8 @@ class CultureController extends Controller
                 return $this->finnish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -483,6 +527,8 @@ class CultureController extends Controller
                 return $this->catalan->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -499,6 +545,8 @@ class CultureController extends Controller
                 return $this->navarrese->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -515,6 +563,8 @@ class CultureController extends Controller
                 return $this->aragonese->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -531,6 +581,8 @@ class CultureController extends Controller
                 return $this->castillian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -547,6 +599,8 @@ class CultureController extends Controller
                 return $this->leonese->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -563,6 +617,8 @@ class CultureController extends Controller
                 return $this->galician->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -579,6 +635,8 @@ class CultureController extends Controller
                 return $this->asturian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -595,6 +653,8 @@ class CultureController extends Controller
                 return $this->cantabrian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -611,6 +671,8 @@ class CultureController extends Controller
                 return $this->portuguese->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -627,6 +689,8 @@ class CultureController extends Controller
                 return $this->polish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -643,6 +707,8 @@ class CultureController extends Controller
                 return $this->silesian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -659,6 +725,8 @@ class CultureController extends Controller
                 return $this->lithuanian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -675,6 +743,8 @@ class CultureController extends Controller
                 return $this->livonian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -691,6 +761,8 @@ class CultureController extends Controller
                 return $this->prussian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -707,6 +779,8 @@ class CultureController extends Controller
                 return $this->wendish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -723,6 +797,8 @@ class CultureController extends Controller
                 return $this->bohemian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -739,6 +815,8 @@ class CultureController extends Controller
                 return $this->moravian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -755,6 +833,8 @@ class CultureController extends Controller
                 return $this->hungarian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -771,6 +851,8 @@ class CultureController extends Controller
                 return $this->croatian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -787,6 +869,8 @@ class CultureController extends Controller
                 return $this->greek->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -803,6 +887,8 @@ class CultureController extends Controller
                 return $this->sicilian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -819,6 +905,8 @@ class CultureController extends Controller
                 return $this->neapolitan->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -835,6 +923,8 @@ class CultureController extends Controller
                 return $this->sardinian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -851,6 +941,8 @@ class CultureController extends Controller
                 return $this->georgian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -867,6 +959,8 @@ class CultureController extends Controller
                 return $this->armenian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -883,6 +977,8 @@ class CultureController extends Controller
                 return $this->bulgarian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -899,6 +995,8 @@ class CultureController extends Controller
                 return $this->wallachian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -915,6 +1013,8 @@ class CultureController extends Controller
                 return $this->serbian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -931,6 +1031,8 @@ class CultureController extends Controller
                 return $this->russian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -947,6 +1049,8 @@ class CultureController extends Controller
                 return $this->ruthenian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -963,6 +1067,8 @@ class CultureController extends Controller
                 return $this->moorish->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -979,6 +1085,8 @@ class CultureController extends Controller
                 return $this->arabic->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -995,6 +1103,8 @@ class CultureController extends Controller
                 return $this->turkic->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -1011,6 +1121,8 @@ class CultureController extends Controller
                 return $this->persian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,
@@ -1027,6 +1139,8 @@ class CultureController extends Controller
                 return $this->mongolian->determineCultureFeatures(
                     $building,
                     $holding,
+                    $development,
+                    $cycle,
                     $rank,
                     $title,
                     $estate,

@@ -19,7 +19,7 @@ class StoneMudejar extends Controller
     //determine buildings
     public function availableBuildings(
         string $vernacularArchitecture, 
-        ?string $development,
+        ?array $development,
         ?string $lawCourt, 
         ?string $vegetation,
         ?string $transport, 
@@ -34,7 +34,7 @@ class StoneMudejar extends Controller
     //determine upgrades
     public function availableUpgrades(
         string $vernacularArchitecture, 
-        ?string $development,
+        ?array $development,
         ?string $lawCourt, 
         ?string $vegetation,
         ?string $transport, 
@@ -49,7 +49,7 @@ class StoneMudejar extends Controller
     //determine appearances
     public function determineAppearances(
         string $vernacularArchitecture, 
-        ?string $development,
+        ?array $development,
         ?string $lawCourt, 
         ?string $vegetation,
         ?string $transport, 
@@ -61,7 +61,7 @@ class StoneMudejar extends Controller
         $appearances['facade'] = 'drystack';
         $appearances['support'] = 'lintel';
         //hoarding and stone keep
-        if($development == 'Romanesque' || $development == 'Norman' || $development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){
+        if($development['era'] === 'Romanesque' || $development['era'] === 'Norman' || $development['era'] === 'Gothic' || $development['era'] === 'Rayonnant' || $development['era'] === 'Flamboyant' || $development['era'] === 'Italian' || $development['era'] === 'Maritime'){
             $appearances['hoarding'] = 'hoarding';
             $appearances['keep'] = 'donjon';      
         } else {
@@ -69,7 +69,7 @@ class StoneMudejar extends Controller
             $appearances['keep'] = 'bretasche';
         }
         //chimney and lancet
-        if($development == 'Gothic' || $development == 'Rayonnant' || $development == 'Flamboyant' || $development == 'Italian' || $development == 'Maritime'){
+        if($development['era'] === 'Gothic' || $development['era'] === 'Rayonnant' || $development['era'] === 'Flamboyant' || $development['era'] === 'Italian' || $development['era'] === 'Maritime'){
             $appearances['window'] = 'lancet window';
             $appearances['gallery'] = 'loggia';
             $appearances['roof'] = 'tiled sloped roof';

@@ -15672,7 +15672,7 @@ class GuildSeeder extends Seeder
 			'duchy' => '90',
 			'county' => '598',
 			'barony' => ''
-		])
+		]);
 		//Monmouthshire
 		//Abergavenny
 		DB::table('guilds')->insert([

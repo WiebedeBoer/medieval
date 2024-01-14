@@ -66,12 +66,12 @@ class ConstructionController extends Controller
         ?string $title,
         ?string $estate,
         ?string $religion,
-        ?string $chivalricSociety,
-        ?string $monasticSociety,
-        ?string $ecclesiasticalSociety,
-        ?string $courtSociety,
-        ?string $craftSociety,
-        ?string $feastSociety
+        ?array $chivalricSociety,
+        ?array $monasticSociety,
+        ?array $ecclesiasticalSociety,
+        ?array $courtSociety,
+        ?array $craftSociety,
+        ?array $feastSociety
     ): array {
         switch ($category) {
             case "Burgage_Quarter":
@@ -449,12 +449,12 @@ class ConstructionController extends Controller
         ?string $title,
         ?string $estate,
         ?string $religion,
-        ?string $chivalricSociety,
-        ?string $monasticSociety,
-        ?string $ecclesiasticalSociety,
-        ?string $courtSociety,
-        ?string $craftSociety,
-        ?string $feastSociety
+        ?array $chivalricSociety,
+        ?array $monasticSociety,
+        ?array $ecclesiasticalSociety,
+        ?array $courtSociety,
+        ?array $craftSociety,
+        ?array $feastSociety
     ): array {
         switch ($category) {
             case "Burgage_Quarter":

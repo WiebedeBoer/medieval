@@ -47,7 +47,7 @@ class ArchitectureController extends Controller
     //determine buildings
     public function availableBuildings(
         string $vernacularArchitecture,
-        ?string $development, 
+        ?array $development, 
         ?string $lawCourt, 
         ?string $vegetation,
         ?string $transport, 
@@ -217,7 +217,7 @@ class ArchitectureController extends Controller
     //determine upgrades
     public function availableUpgrades(
         string $vernacularArchitecture,
-        ?string $development, 
+        ?array $development, 
         ?string $lawCourt, 
         ?string $vegetation,
         ?string $transport, 
@@ -387,7 +387,7 @@ class ArchitectureController extends Controller
     //determine appearances
     public function determineAppearances(
         string $vernacularArchitecture, 
-        ?string $development,
+        ?array $development,
         ?string $lawCourt, 
         ?string $vegetation,
         ?string $transport, 

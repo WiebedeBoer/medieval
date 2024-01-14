@@ -579,18 +579,18 @@ class LiteratureSeeder extends Seeder
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Serbia'
 		]);
-		//Matter_Rus
+		//Matter_Kiev
 		DB::table('literatures')->insert([
 			'literature_matter' => '',
 			'matter_genre' => '',
 			'matter_religion' => null,
-			'matter_culture' => 'Matter_Rus'
+			'matter_culture' => 'Matter_Kiev'
 		]);
 		DB::table('literatures')->insert([
 			'literature_matter' => '',
 			'matter_genre' => '',
 			'matter_religion' => null,
-			'matter_culture' => 'Matter_Rus'
+			'matter_culture' => 'Matter_Kiev'
 		]);
 		//Matter_Andalus
 		DB::table('literatures')->insert([

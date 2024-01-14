@@ -8,7 +8,7 @@ use App\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
 
-class Finnish extends Controller
+class Mazovian extends Controller
 {
     //main construct
     public function __construct()
@@ -109,19 +109,19 @@ class Finnish extends Controller
 
     private function determineCountry(): string 
     {
-        return 'viking';
+        return 'polish';
     }
 
     private function determineLiterature(): array 
     {
       $cycles = [];
-      $cycles[] = 'Matter_Norse';
+      $cycles[] = 'Matter_Polish';
       return $cycles;
     }
 
     private function determineMilitary(): string 
     {
-        return 'rus';
+        return 'polish';
     }
 
     private function determineClergyUnits(
