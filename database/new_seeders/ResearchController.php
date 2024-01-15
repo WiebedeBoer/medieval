@@ -62,10 +62,10 @@ class ResearchController extends Controller
                 $constableActions = [];
                 $constableActions['charisma'] = 'Adoubement'; //recruit knight
                 $constableActions['organization'] = ''; //
-                $constableActions['agriculture'] = ''; //
+                $constableActions['agriculture'] = 'Ambush'; //enact an ambush
                 $constableActions['industry'] = 'Muster'; //muster cavalry
-                $constableActions['commerce'] = 'Charge'; //cavalry charge                
-                $constableActions['justice'] = 'Guard'; //guard settlement or holding              
+                $constableActions['commerce'] = 'Charge'; //enact a cavalry charge                
+                $constableActions['justice'] = 'Raid'; //launch a raid               
                 $constableActions['defenses'] = ''; //
                 $masters['technologies'] = ['Cavalry'];
                 $masters['actions'] = $constableActions;
@@ -77,7 +77,7 @@ class ResearchController extends Controller
                 $marshallActions['agriculture'] = 'Battle'; //enact a battle
                 $marshallActions['industry'] = 'Arm'; //arm troops
                 $marshallActions['commerce'] = 'Campaign'; //move army and launch army              
-                $marshallActions['justice'] = 'Raid'; //launch a raid              
+                $marshallActions['justice'] = 'Guard'; //guard settlement or holding             
                 $marshallActions['defenses'] = 'Skirmish'; //enact a skirmish
                 $masters['technologies'] = ['Skirmish','Melee_Polearm','Melee_Sword','Helmets','Armor'];
                 $masters['actions'] = $marshallActions;
@@ -142,6 +142,30 @@ class ResearchController extends Controller
                 $masters['technology'] = ['Siegecraft'];
                 $masters['actions'] = ['',''];
               break;
+            case "Lord of the Manor":
+                $armsActions = [];
+                $armsActions['charisma'] = 'Appoint Chamberlain'; //
+                $armsActions['organization'] = 'Appoint Serjeant at Arms'; //
+                $armsActions['agriculture'] = 'Appoint Steward'; //
+                $armsActions['industry'] = 'Appoint Chancellor'; //
+                $armsActions['commerce'] = 'Appoint Admiral'; //               
+                $armsActions['justice'] = 'Appoint Constable'; //                
+                $armsActions['defenses'] = 'Appoint Marshall'; // 
+                $masters['technology'] = [];
+                $masters['actions'] = ['',''];
+              break;
+            case "Serjeant at Arms":
+                $engineerActions = [];
+                $engineerActions['charisma'] = ''; //
+                $engineerActions['organization'] = ''; //
+                $engineerActions['agriculture'] = ''; //
+                $engineerActions['industry'] = 'Appoint Master Mason'; //
+                $engineerActions['commerce'] = 'Appoint Master of the Revels'; //               
+                $engineerActions['justice'] = 'Appoint Chronicler'; //                
+                $engineerActions['defenses'] = 'Appoint Engineer'; // 
+                $masters['technology'] = [];
+                $masters['actions'] = ['',''];
+              break;
             default:
                 return $this->defaultMasters();
         } 
@@ -169,7 +193,7 @@ class ResearchController extends Controller
             case "Monasticism":
                 $technologies['masters'] = ['Chancellor'];
               break;
-            case "Science":
+            case "Scholasticism":
                 $technologies['masters'] = ['Chancellor'];
               break;
             case "Entertainment":
