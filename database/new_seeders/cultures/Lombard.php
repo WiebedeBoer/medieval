@@ -116,6 +116,9 @@ class Lombard extends Controller
     {
       $cycles = [];
       $cycles[] = 'Matter_Lombard';
+      $cycles[] = 'Matter_Tuscan';
+      $cycles[] = 'Matter_Rome';
+      $cycles[] = 'Matter_Venice';
       return $cycles;
     }
 

@@ -2,7 +2,8 @@
 -------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Merovingian Age			723 - 754			(31 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
-723	[HISTORIC]							Boniface fells oak of Donar	
+723	[HISTORIC]							Boniface fells oak of Donar
+724	FINANCE				Emporium			Frisian potters produce wheel turn pottery at Ipswich		
 725	MELEE/POLEARM			Merovingian Bill		Charles Martel invades Bavaria
 726	MONASTICISM			Merovingian Relics		King Ine of Wessex travels on a pilgrimage to Rome
 727	SKIRMISH			Francisca			Liutprand conquers Bologna
@@ -17,7 +18,7 @@ EARLY	Merovingian Age			723 - 754			(31 years)
 739	FORTIFICATION			Ribat				Great Berber Revolt commences
 741	MANORIALISM			Open Field System		Boniface and Odilo of Bavaria sponsor a collection of tribal laws
 742	CONSTRUCTION			Cloister			Sturm founds the Abbey of Fulda
-743	FEUDALISM			Fealty				Odilo of Bavaria vassalizes Carantania
+743	FEUDALISM			Fealty				Odilo of Bavaria vassalizes Carantania	
 748	ENTERTAINMENT			Falconry			Ethelbert II of Kent requests two goshawks for hunting from Boniface		
 750	HELMETS				Merovingian Spangenhelm		Alfonso I of Asturias establishes the Kingdom of Galicia
 753	PORT				Lapstrake			Scandinavians found Ladoga				
@@ -36,12 +37,13 @@ EARLY	Carolingian Age			754 - 793			(39 years)
 770	PORT				Portage				Danes found Hedeby
 772	HELMETS				Carolingian Spangenhelm		Charlemagne launches a campaign against the Saxons
 773	SKIRMISH			Carolingian Shortbow		Charlemagne besieges Pavia
+774	MONASTICISM			Carolingian Relics		Charlemagne confirms the Donation of Pepin
+775	WARDROBE			Damask Fabric			Andalusian merchants set up an emporium
 778	FEUDALISM			Lyric Poetry			Roland killed at the battle of Roncevaux
-782	MONASTICISM			Chancery			Charlemagne appoints Alcuin as advisor
+779	SCHOLASTICISM			Capitulary			The Capitulary of Herstal is issued
+782	FINANCE				Chancery			Charlemagne appoints Alcuin as advisor
 784	CONSTRUCTION			Ribbed Vault			Abd al-Rahman I constructs the Prayer Hall of the Mosque of Cordoba
-786	ARMOR				Carolingian Hauberk		Harun al-Rashid ascends the throne	
-789	SCHOLASTICISM			Capitulary			Charlemagne issues the Admonitio Generalis
-	WARDROBE			Damask Fabric
+786	ARMOR				Carolingian Hauberk		Harun al-Rashid ascends the throne		
 -------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Viking Age			793 - 919		(126 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -51,6 +53,7 @@ EARLY	Viking Age			793 - 919		(126 years)
 805	PORT				Staple Right			Charlemagne issues Limits on Passage of Merchants			
 822	WARDROBE			Velvet Fabric			Ziryab introduces velvet to Al-Andalus
 824	SKIRMISH			Viking Shortbow			Vikings raid Ireland
+828	FINANCE				Urbarium			Pippin I of Aquitaine issues a land register
 833	SCHOLASTICISM			Algebra				Al-Khwarizmi compiles his Book on Calculations
 840	FEUDALISM			Feudalism			Rollo swears allegiance after the siege of Chartres
 842	CONSTRUCTION			Byzantine Arcade		Second Byzantine Iconoclasm ends				
@@ -78,6 +81,7 @@ EARLY	Ottonian Renaissance		919 - 989			(70 years)
 952	FEUDALISM			Imperial Administration		Constantine VII Porphyrogenitus compiles De Administrando Imperio
 959	ENTERTAINMENT			Ceremony			Constantine VII Porphyrogenitus compiles De Ceremoniis
 960	MELEE/POLEARM			Ottonian Bill			Mieszko I becomes prince of Poland
+	FINANCE
 970	HELMETS				Yarm Helm			Vikings sail to England and demand Danegeld				
 973	SCRIPTURES			Ottonian Manuscripts		Widukind completes his Deeds of the Saxons
 976	MONASTICISM			Pharmacy			Al-Hakam II employs Al-Zahrawi
@@ -91,6 +95,7 @@ HIGH	Romanesque Age			989 - 1066			(77 years)
 991	FORTIFICATION			Donjon				Hugh Capet drives Odo I of Blois out of Melun
 992	MELEE/POLEARM			Bill Guisarme			Count of Anjou defeats the forces of Conan I of Brittany
 993	MELEE/SWORD			Knightly Sword			Otto III gifts swords to the convent of Essen
+996	FINANCE				Pancartes			The monk Hemming commences a cartulary
 1001	MANORIALISM			Post Mill			Post mill invented in Flanders
 1018	PORT				Customs Post			Count of Holland defeats an imperial army at the Battle of Vlaardingen
 1019	HELMETS				Vendel Helm			Yaroslav the Wise becomes grand prince of Kiev
@@ -102,8 +107,8 @@ HIGH	Romanesque Age			989 - 1066			(77 years)
 1035	ENTERTAINMENT			Romanesque Fairs		Bremen gains the right to hold a fair
 1038	CAVALRY				Seljuk Sabre			Tughril conquers Nishapur and Merv
 1040	SKIRMISH			Seljuk Bow			Seljuks defeat the Ghaznavids at the battle of Dandanaqan
-	ARMOR				Romanesque Hauberk
-	WARDROBE
+1041	ARMOR				Romanesque Hauberk		The Varangian Guard led by Harald Hardrada defeat the Bulgarians
+1043	WARDROBE			Palas				Henry III the Black marries Agnes of Poitou at the Imperial Palace
 1063	SCHOLASTICISM			Early Scholasticism		Anselm of Canterbury becomes abbot of Bec
 -------------------------------------------------------------------------------------------------------------------------------------------
 HIGH	Norman Age			1066 - 1144			(78 years)
@@ -115,7 +120,7 @@ HIGH	Norman Age			1066 - 1144			(78 years)
 1071	SIEGECRAFT			Springald			Siege of Manzikert
 1080	PORT				Factory				Visby merchants establish Gutagard at Novgorod
 1081	FORTIFICATION			Concentric Castle		Eustathios refortifies Korykos
-1086	SCRIPTURES			Great Survey			Domesday Book compiled at Winchester
+1086	FINANCE				Great Survey			Domesday Book compiled at Winchester
 1088	SCHOLASTICISM			Studium Generale		Guild of students found the university of Bologna
 1090	ARMOR				Jazerant			Yusuf ibn Tashfin launches expedition in Al-Andalus
 1096	MONASTICISM			Passagium Generale		First Crusade commences
@@ -125,15 +130,17 @@ HIGH	Norman Age			1066 - 1144			(78 years)
 1105	HELMETS				Kettle Hat			Henry I Beauclerc invades Normandy	
 1118	CRAFTS				Blast Furnace			Abbey of Fontenay constructs a forge
 	CONSTRUCTION
-	WARDROBE		
+	WARDROBE
+	SCRIPTURES			Norman Manuscripts	
 -------------------------------------------------------------------------------------------------------------------------------------------
 HIGH	Gothic Renaissance		1144 - 1236			(92 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
-1144	CONSTRUCTION[HISTORIC] 		Lancet Window			Abbey of Saint Denis completes construction of its choir
-	MANORIALISM			
+1144	CONSTRUCTION[HISTORIC] 		Lancet Window			Abbey of Saint Denis completes construction of its choir				
 1151	MONASTICISM			Morality Play			Hildegard of Bingen completes her Ordo Virtutum
 1152	MELEE/SWORD			Dagger				Raymond II is assassinated
+1156	CRAFTS				Craft Guild			Augsburg craft guilds are organized
 1160	PORT				Sternpost Rudder		Henry the Lion grants Lubeck town rights
+1162	FEUDALISM			Great Council			King Henry II appoints Thomas Becket
 1166	MELEE/POLEARM 			Routier				Abbey of Cluny mentions Brabancon mercenaries
 1168	FORTIFICATION			Bastide				Patrick of Salisbury is ambushed at Poitiers
 1179	CAVALRY 			Chivalry			Saladin captures Hugh II of Saint Omer
@@ -144,9 +151,9 @@ HIGH	Gothic Renaissance		1144 - 1236			(92 years)
 1187	SIEGECRAFT			Counterpoise Trebuchet		Mardi ibn Ali al-Tarsusi comments on the use of trebuchet
 1190	ARMOR	 			Coat of Plates			German fraternity founds the Teutonic Order
 1192	SKIRMISH			Pavise				Genoese crossbowmen use pavise at the crusades
-1199	FEUDALISM			Charter Rolls			Chancery commences to keep the Charter Rolls
-1209	SKIRMISH			Arbalest			Albigensian Crusade commences
-1216	CRAFTS 				Merchant Bank			Cahorsins are present at the Champagne Fairs
+1199	MANORIALISM			Charter Rolls			Chancery commences to keep the Charter Rolls
+1209	SKIRMISH			Arbalest			Albigensian Crusade commences			
+1216	FINANCE				Merchant Bank			Cahorsins are present at the Champagne Fairs
 1235	SCRIPTURES 			Gothic Manuscripts		Eike of Repgow compiles the Saxon Mirror		
 -------------------------------------------------------------------------------------------------------------------------------------------
 HIH	Rayonnant Age			1236 - 1280			(44 years)
@@ -157,12 +164,13 @@ HIH	Rayonnant Age			1236 - 1280			(44 years)
 1240	SIEGECRAFT			Gunpowder			Hasan al-Rammah completes his treatise on gunpowder	
 1241	CONSTRUCTION 			Treadwheel Crane		Reims cathedral completes its choir
 1242	ARMOR	 			Brigandine			Mongols besiege Esztergom
-1243	FORTIFICATION			Barbican			Henry III bestows the custody of Kenilworth Castle to Simon de Montfort
-	MANORIALISM
+1243	FORTIFICATION			Barbican			Henry III bestows the custody of Kenilworth Castle to Simon de Montfort	
+	CRAFTS
 1250	FEUDALISM			Fables				William completes his Reynard the Fox
-1252	CRAFTS 				Anchor Currency			First minting of the Florin
+1252	FINANCE				Anchor Currency			First minting of the Florin
 1256	MELEE/POLEARM 			Bardiche			Alexander Nevsky routs the Swedes
 1259	SCRIPTURES			Roll of Arms			Matthew Paris completes his Chronica Majora
+1264	MANORIALISM							Second Barons War erupts
 1265	SCHOLASTICISM			High Scholasticism		Thomas Aquinas completes his Summa Theologica
 1266	MELEE/SWORD			Longsword			Charles I of Anjou defeats Manfred of Sicily at the Battle of Benevento
 1272	ENTERTAINMENT 			Joust				War of the Cow erupts after a peasant stole a cow during a joust
@@ -177,10 +185,11 @@ LATE	Flamboyant Age			1280 - 1364			(84 years)
 1283	FEUDALISM			Table Games			Alfonso X the Wise completes his Book of Games
 1285	SKIRMISH			Longbow				Edward I issues statute of Winchester
 1290	MONASTICISM			Gothic Relics			Duccio completes his Madonna and Child
-1299	CRAFTS				Bookkeeping			The Farolfi firm from Florence employs Amatino Manucci				
+1299	FINANCE				Bookkeeping			The Farolfi firm from Florence employs Amatino Manucci				
 1302	MELEE/POLEARM			Halberd				Flemish militia are victorious in the Battle of the Golden Spurs
 1307	PORT				Portuguese Lateen Rig		Larger Caravels in use in the Bay of Biscay
 1309	SCHOLASTICISM			Studium Humanitas		Pope Clement V moves Curia to Avignon
+	CRAFTS
 1317	FORTIFICATION			Kremlin				Tver city wall and fortified complex is constructed
 1320	MELEE/SWORD			Fencing Books			Johannes Lichtenauer completes his combat manual		
 1325	ENTERTAINMENT			Hastilude			Order of Saint George founded
@@ -208,6 +217,7 @@ LATE	Italian Renaissance		1364 - 1420			(56 years)
 1402	MELEE/SWORD			Claymore			Archibald Douglas clashes with the English at Nesbit Moor
 1407	HELMETS				Sallet				Gianfrancesco I Gonzaga inherits the rule of Mantua
 1410	MELEE/POLEARM			Poleaxe				Vytautas the Great defeats the Teutonic Order at Grunwald
+1412	FINANCE				Land Terrier			The Medici Family are made official bankers of the Papacy
 1416	SCRIPTURES			Renaissance Manuscripts		Limbourg Brothers complete The Very Rich Hours of the Duke of Berry	
 1429	SCHOLASTICISM			Renaissance Scholasticism	Reconstruction of the Basilica of San Lorenzo in Florence
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -215,7 +225,7 @@ LATE	Maritime Age			1420 - 1453			(33 years)
 -------------------------------------------------------------------------------------------------------------------------------------------
 1420	CONSTRUCTION[HISTORIC]		Renaissance Dome		Brunelleschi commences construction of the dome of Santa Maria del Fiore
 1421	CRAFTS				Stagecoach			Kocs inhabitants make wagons for the daughter of King Zsigmond
-1422	SCHOLASTICISM			Mercantilism			Murad II blockades Thessalonica
+1422	FINANCE				Mercantilism			Murad II blockades Thessalonica
 1424	HELMETS				Armet				Visconti of Milan captures Malatesta of Florence at Zagonara
 1425	ARMOR				Plate Armor			Plate armor in use in medieval Europe
 1426	FORTIFICATION			Roundel				Hussites construct Sion castle
@@ -229,6 +239,7 @@ LATE	Maritime Age			1420 - 1453			(33 years)
 1441	SKIRMISH			Arquebus			John Hunyadi is victorious at Semendria
 1442	WARDROBE			Cassone				Giovanni di Francesco becomes a master in a Florentine guild
 	MANORIALISM
+	SCHOLASTICISM
 1448	MELEE/POLEARM			Voulge Guisarme			Charles VII of France issues an ordinance at Montil-les-Tours
 1450	SCRIPTURES			Blockbooks			Gutenberg invents moveable type printing				
 1453	[HISTORIC]							Fall of Constantinople

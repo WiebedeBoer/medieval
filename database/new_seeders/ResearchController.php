@@ -22,29 +22,65 @@ class ResearchController extends Controller
         string $masterCategory,
     ): array {
         switch ($masterCategory) {
+              case "Lord of the Manor":
+                $armsActions = [];
+                $armsActions['charisma'] = 'Appoint Chamberlain';
+                $armsActions['organization'] = 'Appoint Serjeant at Arms';
+                $armsActions['agriculture'] = 'Appoint Steward';
+                $armsActions['industry'] = 'Appoint Chancellor';
+                $armsActions['commerce'] = 'Appoint Admiral';               
+                $armsActions['justice'] = 'Appoint Constable';                
+                $armsActions['defenses'] = 'Appoint Marshall';
+                $masters['technology'] = [];
+                $masters['actions'] = $armsActions;
+              break;
+            case "Serjeant at Arms":
+                $serjeantActions = [];
+                $serjeantActions['charisma'] = 'Appoint Master of the Revels';
+                $serjeantActions['organization'] = 'Appoint Engineer';
+                $serjeantActions['agriculture'] = 'Appoint Almoner';
+                $serjeantActions['industry'] = 'Appoint Master Mason';
+                $serjeantActions['commerce'] = 'Appoint Treasurer';              
+                $serjeantActions['justice'] = 'Appoint Chronicler';                
+                $serjeantActions['defenses'] = 'Appoint Castellan'; 
+                $masters['technology'] = [];
+                $masters['actions'] = $serjeantActions;
+              break;
             case "Steward":
                 $stewardActions = [];
-                $stewardActions['charisma'] = ''; //recruit
+                $stewardActions['charisma'] = 'Enfeof'; //recruit peasant
                 $stewardActions['organization'] = 'Collect Taxes'; //collect taxes
-                $stewardActions['agriculture'] = 'Corvee'; //improve agriculture and gather resources
-                $stewardActions['industry'] = 'Craft'; //improve industry and craft items 
-                $stewardActions['commerce'] = 'Trade'; //improve commerce and enact landbound trade                                                         
-                $stewardActions['justice'] = 'Hold Court'; //improve justice and hold court               
+                $stewardActions['agriculture'] = 'Corvee'; //(+agriculture) gather resources
+                $stewardActions['industry'] = 'Craft'; //(+industry) craft items 
+                $stewardActions['commerce'] = 'Trade'; //(+commerce) enact landbound trade                                                         
+                $stewardActions['justice'] = 'Hold Court'; //(+justice) hold court               
                 $stewardActions['defenses'] = '';          
-                $masters['technology'] = ['Crafts','Manorialism'];
+                $masters['technology'] = ['Crafts','Manorialism','Feudalism'];
                 $masters['actions'] = $stewardActions;
               break;
             case "Chancellor":
                 $chancellorActions = [];
                 $chancellorActions['charisma'] = 'Ordain'; //recruit priest
                 $chancellorActions['organization'] = 'Claim'; //claim title
-                $chancellorActions['agriculture'] = 'Heal'; //heal staff or troops or population
-                $chancellorActions['industry'] = '';
-                $chancellorActions['commerce'] = 'Herald'; //enact diplomacy               
-                $chancellorActions['justice'] = 'Proselytize'; //convert population
-                $chancellorActions['defenses'] = ''; 
-                $masters['technology'] = ['Feudalism','Monasticism','Scholasticism'];
+                $chancellorActions['agriculture'] = ''; //
+                $chancellorActions['industry'] = ''; //
+                $chancellorActions['commerce'] = 'Herald'; //(+commerce) enact diplomacy               
+                $chancellorActions['justice'] = 'Proselytize'; //(+justice) convert population
+                $chancellorActions['defenses'] = ''; //
+                $masters['technology'] = ['Scholasticism'];
                 $masters['actions'] = $chancellorActions;
+              break;
+            case "Treasurer":
+                $treasureActions = [];
+                $treasureActions['charisma'] = ''; // 
+                $treasureActions['organization'] = ''; //
+                $treasureActions['agriculture'] = ''; //
+                $treasureActions['industry'] = ''; //
+                $treasureActions['commerce'] = 'Drape'; //(+commerce) clothe and hand out wardrobe             
+                $treasureActions['justice'] = 'Audit'; //(+justice) keep accounts
+                $treasureActions['defenses'] = ''; //
+                $masters['technology'] = ['Finance'];
+                $masters['actions'] = $treasureActions;
               break;
             case "Chamberlain":
                 $chamberlainActions = [];
@@ -52,8 +88,8 @@ class ResearchController extends Controller
                 $chamberlainActions['organization'] = 'Invite Debutante'; //recruit maiden
                 $chamberlainActions['agriculture'] = ''; //
                 $chamberlainActions['industry'] = ''; //
-                $chamberlainActions['commerce'] = 'Network'; //improve spy network           
-                $chamberlainActions['justice'] = 'Plot'; //scheme or plot or assassinate            
+                $chamberlainActions['commerce'] = 'Network'; //(+commerce) increase spy network           
+                $chamberlainActions['justice'] = 'Plot'; //(+justice) scheme or plot or assassinate            
                 $chamberlainActions['defenses'] = ''; //
                 $masters['technology'] = ['Wardrobe'];
                 $masters['actions'] = $chamberlainActions;
@@ -62,10 +98,10 @@ class ResearchController extends Controller
                 $constableActions = [];
                 $constableActions['charisma'] = 'Adoubement'; //recruit knight
                 $constableActions['organization'] = ''; //
-                $constableActions['agriculture'] = 'Ambush'; //enact an ambush
-                $constableActions['industry'] = 'Muster'; //muster cavalry
-                $constableActions['commerce'] = 'Charge'; //enact a cavalry charge                
-                $constableActions['justice'] = 'Raid'; //launch a raid               
+                $constableActions['agriculture'] = 'Ambush'; //(+agriculture) enact an ambush
+                $constableActions['industry'] = 'Muster'; //(+industry) muster cavalry
+                $constableActions['commerce'] = 'Charge'; //(+commerce) enact a cavalry charge                
+                $constableActions['justice'] = 'Raid'; //(+justice) launch a raid               
                 $constableActions['defenses'] = ''; //
                 $masters['technologies'] = ['Cavalry'];
                 $masters['actions'] = $constableActions;
@@ -74,11 +110,11 @@ class ResearchController extends Controller
                 $marshallActions = [];
                 $marshallActions['charisma'] = 'Levy'; //recruit infantry
                 $marshallActions['organization'] = 'Train'; //train troops
-                $marshallActions['agriculture'] = 'Battle'; //enact a battle
-                $marshallActions['industry'] = 'Arm'; //arm troops
-                $marshallActions['commerce'] = 'Campaign'; //move army and launch army              
-                $marshallActions['justice'] = 'Guard'; //guard settlement or holding             
-                $marshallActions['defenses'] = 'Skirmish'; //enact a skirmish
+                $marshallActions['agriculture'] = 'Battle'; //(+agriculture) enact a battle
+                $marshallActions['industry'] = 'Arm'; //(+industry) arm troops
+                $marshallActions['commerce'] = 'Campaign'; //(+commerce) move army and launch army              
+                $marshallActions['justice'] = 'Guard'; //(+justice) guard settlement or holding             
+                $marshallActions['defenses'] = 'Skirmish'; //(+defenses) enact a skirmish
                 $masters['technologies'] = ['Skirmish','Melee_Polearm','Melee_Sword','Helmets','Armor'];
                 $masters['actions'] = $marshallActions;
               break;
@@ -87,9 +123,9 @@ class ResearchController extends Controller
                 $admiralActions['charisma'] = 'Invite Captain'; //recruit navy
                 $admiralActions['organization'] = ''; //
                 $admiralActions['agriculture'] = ''; //
-                $admiralActions['industry'] = 'Launch Ship'; //build vessel
-                $admiralActions['commerce'] = 'Sail'; //enact seabound trade            
-                $admiralActions['justice'] = 'Plunder'; //pirate seabound trade               
+                $admiralActions['industry'] = 'Launch Ship'; //(+industry) build vessel
+                $admiralActions['commerce'] = 'Sail'; //(+commerce) enact seabound trade            
+                $admiralActions['justice'] = 'Plunder'; //(+justice) pirate seabound trade               
                 $admiralActions['defenses'] = 'Blockade'; //blockade port
                 $masters['technology'] = ['Port'];
                 $masters['actions'] = $admiralActions;
@@ -98,11 +134,11 @@ class ResearchController extends Controller
                 $revelActions = [];
                 $revelActions['charisma'] = 'Hire Minstrel'; //recruit entertainer
                 $revelActions['organization'] = ''; //
-                $revelActions['agriculture'] = 'Feast'; //hold feast
-                $revelActions['industry'] = 'Hunt'; //hold hunt 
-                $revelActions['commerce'] = 'Fairs'; //hold trade fairs              
-                $revelActions['justice'] = ''; //             
-                $revelActions['defenses'] = 'Joust'; //hold tournament 
+                $revelActions['agriculture'] = 'Feast'; //(+agriculture) hold feast
+                $revelActions['industry'] = 'Hunt'; //(+industry) hold hunt 
+                $revelActions['commerce'] = 'Fairs'; //(+commerce) hold trade fairs              
+                $revelActions['justice'] = 'Joust'; //(+justice) hold tournament            
+                $revelActions['defenses'] = ''; // 
                 $masters['technology'] = ['Entertainment'];
                 $masters['actions'] = $revelActions;
               break;
@@ -111,59 +147,59 @@ class ResearchController extends Controller
                 $chroniclerActions['charisma'] = 'Tonsure'; //recruit monk
                 $chroniclerActions['organization'] = ''; //
                 $chroniclerActions['agriculture'] = ''; //
-                $chroniclerActions['industry'] = 'Illustrate'; //create great book 
+                $chroniclerActions['industry'] = 'Illustrate'; //(+industry) create great book 
                 $chroniclerActions['commerce'] = ''; //           
-                $chroniclerActions['justice'] = 'Survey'; //create survey
+                $chroniclerActions['justice'] = 'Survey'; //(+justice) create survey
                 $chroniclerActions['defenses'] = ''; // 
                 $masters['technology'] = ['Scriptures'];
                 $masters['actions'] = $chroniclerActions;
               break;
+            case "Almoner":
+                $almonerActions = [];
+                $almonerActions['charisma'] = 'Crusade'; //recruit crusader
+                $almonerActions['organization'] = ''; //
+                $almonerActions['agriculture'] = 'Heal'; //(+agriculture) heal staff or troops or population
+                $almonerActions['industry'] = ''; //
+                $almonerActions['commerce'] = 'Donate'; //(+commerce) donate money to the poor           
+                $almonerActions['justice'] = ''; //
+                $almonerActions['defenses'] = ''; // 
+                $masters['technology'] = ['Monasticism'];
+                $masters['actions'] = $almonerActions;
+              break;
             case "Master Mason":
                 $builderActions = [];
-                $builderActions['charisma'] = ''; //recruit
+                $builderActions['charisma'] = ''; //recruit builder
                 $builderActions['organization'] = ''; //
                 $builderActions['agriculture'] = ''; //
-                $builderActions['industry'] = 'Construct'; //construct buildings and holdings
-                $builderActions['commerce'] = 'Upgrade'; //improve buildings and holdings        
+                $builderActions['industry'] = 'Construct'; //(+industry) construct buildings and holdings
+                $builderActions['commerce'] = 'Upgrade'; //(+commerce) improve buildings and holdings        
                 $builderActions['justice'] = ''; //          
-                $builderActions['defenses'] = 'Fortify'; //construct castles and fortifications 
-                $masters['technologies'] = ['Construction','Fortification'];
+                $builderActions['defenses'] = ''; //
+                $masters['technologies'] = ['Construction'];
                 $masters['actions'] = $builderActions;
+              break;
+            case "Castellan":
+                $castleActions = [];
+                $castleActions['charisma'] = 'Garrison'; //recruit guard
+                $castleActions['organization'] = ''; //
+                $castleActions['agriculture'] = ''; //
+                $castleActions['industry'] = ''; //
+                $castleActions['commerce'] = ''; //      
+                $castleActions['justice'] = ''; //         
+                $castleActions['defenses'] = 'Fortify'; //(+defenses) construct castles and fortifications 
+                $masters['technologies'] = ['Fortification'];
+                $masters['actions'] = $castleActions;
               break;
             case "Engineer":
                 $engineerActions = [];
-                $engineerActions['charisma'] = ''; //recruit
+                $engineerActions['charisma'] = ''; //recruit besieger
                 $engineerActions['organization'] = ''; //
                 $engineerActions['agriculture'] = ''; //
-                $engineerActions['industry'] = 'Besiege'; //create siege equipment
+                $engineerActions['industry'] = 'Besiege'; //(+industry) create siege equipment
                 $engineerActions['commerce'] = ''; //               
                 $engineerActions['justice'] = ''; //                
-                $engineerActions['defenses'] = 'Restore'; //restore fortifications 
+                $engineerActions['defenses'] = 'Restore'; //(+defenses) restore fortifications 
                 $masters['technology'] = ['Siegecraft'];
-                $masters['actions'] = ['',''];
-              break;
-            case "Lord of the Manor":
-                $armsActions = [];
-                $armsActions['charisma'] = 'Appoint Chamberlain'; //
-                $armsActions['organization'] = 'Appoint Serjeant at Arms'; //
-                $armsActions['agriculture'] = 'Appoint Steward'; //
-                $armsActions['industry'] = 'Appoint Chancellor'; //
-                $armsActions['commerce'] = 'Appoint Admiral'; //               
-                $armsActions['justice'] = 'Appoint Constable'; //                
-                $armsActions['defenses'] = 'Appoint Marshall'; // 
-                $masters['technology'] = [];
-                $masters['actions'] = ['',''];
-              break;
-            case "Serjeant at Arms":
-                $engineerActions = [];
-                $engineerActions['charisma'] = ''; //
-                $engineerActions['organization'] = ''; //
-                $engineerActions['agriculture'] = ''; //
-                $engineerActions['industry'] = 'Appoint Master Mason'; //
-                $engineerActions['commerce'] = 'Appoint Master of the Revels'; //               
-                $engineerActions['justice'] = 'Appoint Chronicler'; //                
-                $engineerActions['defenses'] = 'Appoint Engineer'; // 
-                $masters['technology'] = [];
                 $masters['actions'] = ['',''];
               break;
             default:
@@ -184,17 +220,17 @@ class ResearchController extends Controller
             case "Manorialism":
                 $technologies['masters'] = ['Steward'];
               break;
+            case "Feudalism":
+                $technologies['masters'] = ['Steward'];
+              break;
             case "Wardrobe":
                 $technologies['masters'] = ['Chamberlain'];
               break;
-            case "Feudalism":
+            case "Scholasticism":
                 $technologies['masters'] = ['Chancellor'];
               break;
             case "Monasticism":
-                $technologies['masters'] = ['Chancellor'];
-              break;
-            case "Scholasticism":
-                $technologies['masters'] = ['Chancellor'];
+                $technologies['masters'] = ['Almoner'];
               break;
             case "Entertainment":
                 $technologies['masters'] = ['Master of the Revels'];
@@ -206,7 +242,7 @@ class ResearchController extends Controller
                 $technologies['masters'] = ['Engineer'];
               break;
             case "Fortification":
-                $technologies['masters'] = ['Master Mason'];
+                $technologies['masters'] = ['Castellan'];
               break;
             case "Construction":
                 $technologies['masters'] = ['Master Mason'];
