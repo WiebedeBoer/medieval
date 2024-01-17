@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<masters>
+  <vernacular>
+    <region></region>
+    <eras>
+        <early>
+            <wall></wall>
+            <facade></facade>
+            <hoarding></hoarding>
+            <keep></keep>
+            <window></window>
+            <gallery></gallery>
+            <roof></roof>
+            <tiles></tiles>       
+        </early> 
+        <high>
+            <wall></wall>
+            <facade></facade>
+            <hoarding></hoarding>
+            <keep></keep>
+            <window></window>
+            <gallery></gallery>
+            <roof></roof>
+            <tiles></tiles>  
+        </high>
+        <late>
+            <wall></wall>
+            <facade></facade>
+            <hoarding></hoarding>
+            <keep></keep>
+            <window></window>
+            <gallery></gallery>
+            <roof></roof>
+            <tiles></tiles>  
+        </late>   
+    </eras>
+  </vernacular>
+</masters> 

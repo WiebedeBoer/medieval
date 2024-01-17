@@ -21,6 +21,11 @@ class ResearchController extends Controller
     public function determineMaster(
         string $masterCategory,
     ): array {
+
+      $xml=simplexml_load_file("research.xml") or die("Error: Cannot create object");
+      //echo $xml->book[0]->title . "<br>";
+      //echo $xml->book[1]->title; 
+
         switch ($masterCategory) {
               case "Lord of the Manor":
                 $armsActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']

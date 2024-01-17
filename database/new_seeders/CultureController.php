@@ -144,6 +144,9 @@ class CultureController extends Controller
         ?array $craftSociety,
         ?array $feastSociety
     ): array {
+      $xml=simplexml_load_file("culture.xml") or die("Error: Cannot create object");
+      //echo $xml->book[0]->title . "<br>";
+      //echo $xml->book[1]->title; 
         switch ($culture) {
             case "Franconian":
                 return $this->franconian->determineCultureFeatures(
