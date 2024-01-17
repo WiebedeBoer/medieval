@@ -1,7 +1,6 @@
-					
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Merovingian Age			723 - 754			(31 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 723	[HISTORIC]							Boniface fells oak of Donar
 724	FINANCE				Emporium			Frisian potters produce wheel turn pottery at Ipswich		
 725	MELEE/POLEARM			Merovingian Bill		Charles Martel invades Bavaria
@@ -22,9 +21,9 @@ EARLY	Merovingian Age			723 - 754			(31 years)
 748	ENTERTAINMENT			Falconry			Ethelbert II of Kent requests two goshawks for hunting from Boniface		
 750	HELMETS				Merovingian Spangenhelm		Alfonso I of Asturias establishes the Kingdom of Galicia
 753	PORT				Lapstrake			Scandinavians found Ladoga				
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Carolingian Age			754 - 793			(39 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 754	ENTERTAINMENT[HISTORIC]		Coronation Banquet		Pope Stephen II crosses the Alps to anoint Pepin the Short
 756	CAVALRY				Knighthood			Pepin the Short defeats Aistulf
 757	CRAFTS				Caravan				Berbers found Sijilmasa as an Sahara route entrepot
@@ -44,9 +43,9 @@ EARLY	Carolingian Age			754 - 793			(39 years)
 782	FINANCE				Chancery			Charlemagne appoints Alcuin as advisor
 784	CONSTRUCTION			Ribbed Vault			Abd al-Rahman I constructs the Prayer Hall of the Mosque of Cordoba
 786	ARMOR				Carolingian Hauberk		Harun al-Rashid ascends the throne		
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Viking Age			793 - 919		(126 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 793	MELEE/POLEARM[HISTORIC]		Hafted Axe			Viking assault on the island of Lindisfarne
 794	ARMOR				Viking Hauberk			Vikings sack Monkwearmouth	
 800	MANORIALISM			Horse Collar			Horse collar in use in medieval Europe
@@ -66,9 +65,9 @@ EARLY	Viking Age			793 - 919		(126 years)
 902	MONASTICISM			Herbalism			Al-Razi becomes director of a hospital in Baghdad
 910	CAVALRY				Horseshoe			Hungarians victorious in the first battle of Lechfeld
 913	SCRIPTURES			Byzantine Manuscripts		Constantine VII Porphyrogenitus sponsors the Paris Psalter
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EARLY	Ottonian Renaissance		919 - 989			(70 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 919	WARDROBE[HISTORIC]		Hoftag				German nobles elect Henry the Fowler
 936	CONSTRUCTION			Ottonian Arcade			Otto I the Great constructs a Pfalz at Quedlinburg
 937	ARMOR				Ottonian Hauberk		Otto I the Great appoints Gero as margrave of Merseburg	
@@ -88,9 +87,9 @@ EARLY	Ottonian Renaissance		919 - 989			(70 years)
 978	SCHOLASTICISM			Scholae				Dunstan teaches at a cathedral school
 980	CRAFTS				Horizontal Loom			Horizontal Loom in use in medieval Europe
 985	CAVALRY				Chevauchee			Al-Mansur sacks Barcelona
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HIGH	Romanesque Age			989 - 1066			(77 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 989	CONSTRUCTION[HISTORIC]		Groin Vault			Trdat commences construction of the cathedral of Ani
 991	FORTIFICATION			Donjon				Hugh Capet drives Odo I of Blois out of Melun
 992	MELEE/POLEARM			Bill Guisarme			Count of Anjou defeats the forces of Conan I of Brittany
@@ -110,11 +109,11 @@ HIGH	Romanesque Age			989 - 1066			(77 years)
 1041	ARMOR				Romanesque Hauberk		The Varangian Guard led by Harald Hardrada defeat the Bulgarians
 1043	WARDROBE			Palas				Henry III the Black marries Agnes of Poitou at the Imperial Palace
 1063	SCHOLASTICISM			Early Scholasticism		Anselm of Canterbury becomes abbot of Bec
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HIGH	Norman Age			1066 - 1144			(78 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1066	MELEE/SWORD[HISTORIC]		Arming Sword			William the Conqueror assembles a fleet in readiness for an invasion
-1067	FEUDALISM			Heraldry			William issues an Equestrian Seal
+1067	WARDROBE			Heraldry			William issues an Equestrian Seal
 1068	MELEE/POLEARM			Fauchard			Robert Guiscard besieges Bari
 1070	SKIRMISH			Norman Shortbow			William the Conqueror harries northern England
 1071	SIEGECRAFT			Springald			Siege of Manzikert
@@ -130,11 +129,11 @@ HIGH	Norman Age			1066 - 1144			(78 years)
 1105	HELMETS				Kettle Hat			Henry I Beauclerc invades Normandy	
 1118	CRAFTS				Blast Furnace			Abbey of Fontenay constructs a forge
 	CONSTRUCTION
-	WARDROBE
+	FEUDALISM							
 	SCRIPTURES			Norman Manuscripts	
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HIGH	Gothic Renaissance		1144 - 1236			(92 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1144	CONSTRUCTION[HISTORIC] 		Lancet Window			Abbey of Saint Denis completes construction of its choir				
 1151	MONASTICISM			Morality Play			Hildegard of Bingen completes her Ordo Virtutum
 1152	MELEE/SWORD			Dagger				Raymond II is assassinated
@@ -155,9 +154,9 @@ HIGH	Gothic Renaissance		1144 - 1236			(92 years)
 1209	SKIRMISH			Arbalest			Albigensian Crusade commences			
 1216	FINANCE				Merchant Bank			Cahorsins are present at the Champagne Fairs
 1235	SCRIPTURES 			Gothic Manuscripts		Eike of Repgow compiles the Saxon Mirror		
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HIH	Rayonnant Age			1236 - 1280			(44 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1236	HELMETS[HISTORIC]		Great Helm			Ferdinan III the Saint besieges Cordoba
 1237	WARDROBE 			Parlor				Teutonic Order absorbs the Livonian Brothers of the Sword
 1238	CAVALRY				Jinete				James I of Aragon conquers Valencia
@@ -176,9 +175,9 @@ HIH	Rayonnant Age			1236 - 1280			(44 years)
 1272	ENTERTAINMENT 			Joust				War of the Cow erupts after a peasant stole a cow during a joust
 1274	MONASTICISM			Mendicant			Second Council of Lyon establishes major mendicant orders
 1275	PORT				Portolan Chart			Carta Pisana is made
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 LATE	Flamboyant Age			1280 - 1364			(84 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1280	SCRIPTURES[HISTORIC]		Painted Panel Altars		Cimabue completes his Maesta painting
 1281	HELMETS				Bascinet			Bascinet in use in Padua
 1282	WARDROBE			Tabard				Sicilian Vespers commences
@@ -198,9 +197,9 @@ LATE	Flamboyant Age			1280 - 1364			(84 years)
 1347	MANORIALISM			Canada System			Mesta charter is supplemented		
 1351	CONSTRUCTION			Fan Vault			Gloucester Cathedral completes construction of its cloisters
 1355	CAVALRY				Hobelar				Edward of Woodstock marches from Bordeaux
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 LATE	Italian Renaissance		1364 - 1420			(56 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1364	ENTERTAINMENT[HISTORIC]		Saltarello			Guillaume de Machaut completes his Messe de Nostre Dame	
 1370	FORTIFICATION			Zwinger				Buda fortress is remodeled with kill zones
 1371	ARMOR				Faulds				Treaty of Tagilde is signed			
@@ -220,9 +219,9 @@ LATE	Italian Renaissance		1364 - 1420			(56 years)
 1412	FINANCE				Land Terrier			The Medici Family are made official bankers of the Papacy
 1416	SCRIPTURES			Renaissance Manuscripts		Limbourg Brothers complete The Very Rich Hours of the Duke of Berry	
 1429	SCHOLASTICISM			Renaissance Scholasticism	Reconstruction of the Basilica of San Lorenzo in Florence
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 LATE	Maritime Age			1420 - 1453			(33 years)
--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1420	CONSTRUCTION[HISTORIC]		Renaissance Dome		Brunelleschi commences construction of the dome of Santa Maria del Fiore
 1421	CRAFTS				Stagecoach			Kocs inhabitants make wagons for the daughter of King Zsigmond
 1422	FINANCE				Mercantilism			Murad II blockades Thessalonica
@@ -243,3 +242,4 @@ LATE	Maritime Age			1420 - 1453			(33 years)
 1448	MELEE/POLEARM			Voulge Guisarme			Charles VII of France issues an ordinance at Montil-les-Tours
 1450	SCRIPTURES			Blockbooks			Gutenberg invents moveable type printing				
 1453	[HISTORIC]							Fall of Constantinople
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -23,184 +23,184 @@ class ResearchController extends Controller
     ): array {
         switch ($masterCategory) {
               case "Lord of the Manor":
-                $armsActions = [];
-                $armsActions['charisma'] = 'Appoint Chamberlain';
-                $armsActions['organization'] = 'Appoint Serjeant at Arms';
-                $armsActions['agriculture'] = 'Appoint Steward';
-                $armsActions['industry'] = 'Appoint Chancellor';
-                $armsActions['commerce'] = 'Appoint Admiral';               
-                $armsActions['justice'] = 'Appoint Constable';                
-                $armsActions['defenses'] = 'Appoint Marshall';
+                $armsActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $armsActions['charisma'] = ['Appoint Chamberlain','charisma','plus','noble','Chamberlain','','Household','appoint'];
+                $armsActions['organization'] = ['Appoint Serjeant at Arms','organization','plus','peasant','Serjeant at Arms','','','appoint'];
+                $armsActions['agriculture'] = ['Appoint Steward','agriculture','plus','noble','Steward','','Manorial_Court','appoint'];
+                $armsActions['industry'] = ['Appoint Chancellor','industry','plus','clergy','Chancellor','','Chancery','appoint'];
+                $armsActions['commerce'] = ['Appoint Admiral','commerce','plus','noble','Admiral','','Admirality','appoint'];              
+                $armsActions['justice'] = ['Appoint Constable','justice','plus','noble','Constable','','Stables','appoint'];                
+                $armsActions['defenses'] = ['Appoint Marshall','defenses','plus','noble','Marshall','','Armoury','appoint'];
                 $masters['technology'] = [];
                 $masters['actions'] = $armsActions;
               break;
             case "Serjeant at Arms":
-                $serjeantActions = [];
-                $serjeantActions['charisma'] = 'Appoint Master of the Revels';
-                $serjeantActions['organization'] = 'Appoint Engineer';
-                $serjeantActions['agriculture'] = 'Appoint Almoner';
-                $serjeantActions['industry'] = 'Appoint Master Mason';
-                $serjeantActions['commerce'] = 'Appoint Treasurer';              
-                $serjeantActions['justice'] = 'Appoint Chronicler';                
-                $serjeantActions['defenses'] = 'Appoint Castellan'; 
+                $serjeantActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $serjeantActions['charisma'] = ['Appoint Master of the Revels','charisma','plus','peasant','Master of the Revels','','Great_Hall','appoint'];
+                $serjeantActions['organization'] = ['Appoint Engineer','organization','plus','burgher','Engineer','','Siege_Workshop','appoint'];
+                $serjeantActions['agriculture'] = ['Appoint Almoner','agriculture','plus','clergy','Almoner','','Court_Chapel','appoint'];
+                $serjeantActions['industry'] = ['Appoint Master Mason','industry','plus','burgher','Master Mason','','Gallery','appoint'];
+                $serjeantActions['commerce'] = ['Appoint Treasurer','commerce','plus','noble','Treasurer','','Muniment','appoint'];            
+                $serjeantActions['justice'] = ['Appoint Chronicler','justice','plus','clergy','Chronicler','','Scriptorium','appoint'];               
+                $serjeantActions['defenses'] = ['Appoint Castellan','defenses','plus','noble','Castellan','','Gatehouse','appoint'];
                 $masters['technology'] = [];
                 $masters['actions'] = $serjeantActions;
               break;
             case "Steward":
-                $stewardActions = [];
-                $stewardActions['charisma'] = 'Enfeof'; //recruit peasant
-                $stewardActions['organization'] = 'Collect Taxes'; //collect taxes
-                $stewardActions['agriculture'] = 'Corvee'; //(+agriculture) gather resources
-                $stewardActions['industry'] = 'Craft'; //(+industry) craft items 
-                $stewardActions['commerce'] = 'Trade'; //(+commerce) enact landbound trade                                                         
-                $stewardActions['justice'] = 'Hold Court'; //(+justice) hold court               
-                $stewardActions['defenses'] = '';          
+                $stewardActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $stewardActions['charisma'] = ['Enfeof','charisma','plus','peasant','Peasant','','','recruit peasant']; 
+                $stewardActions['organization'] = ['Tax','organization','plus','','','','','collect taxes'];
+                $stewardActions['agriculture'] = ['Corvee','agriculture','plus','','','','','gather resources'];
+                $stewardActions['industry'] = ['Craft','industry','plus','','','','','produce minor items'];  
+                $stewardActions['commerce'] = ['Trade','commerce','plus','','','','Caravan','enact landbound trade'];                                                          
+                $stewardActions['justice'] = ['Moot','justice','plus','','','','','hold court'];             
+                $stewardActions['defenses'] = ['','defenses','plus','','','','',''];         
                 $masters['technology'] = ['Crafts','Manorialism','Feudalism'];
                 $masters['actions'] = $stewardActions;
               break;
             case "Chancellor":
-                $chancellorActions = [];
-                $chancellorActions['charisma'] = 'Ordain'; //recruit priest
-                $chancellorActions['organization'] = 'Claim'; //claim title
-                $chancellorActions['agriculture'] = ''; //
-                $chancellorActions['industry'] = ''; //
-                $chancellorActions['commerce'] = 'Herald'; //(+commerce) enact diplomacy               
-                $chancellorActions['justice'] = 'Proselytize'; //(+justice) convert population
-                $chancellorActions['defenses'] = ''; //
+                $chancellorActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $chancellorActions['charisma'] = ['Ordain','charisma','plus','clergy','Priest','','','recruit priest'];
+                $chancellorActions['organization'] = ['Audience','organization','plus','','','','','enact diplomacy'];
+                $chancellorActions['agriculture'] = ['','agriculture','plus','','','','','']; 
+                $chancellorActions['industry'] = ['','industry','plus','','','','','']; 
+                $chancellorActions['commerce'] = ['Enroll','commerce','plus','','','','University','found higher learning'];              
+                $chancellorActions['justice'] = ['Proselytize','justice','plus','','','','','convert population'];
+                $chancellorActions['defenses'] = ['','defenses','plus','','','','',''];
                 $masters['technology'] = ['Scholasticism'];
                 $masters['actions'] = $chancellorActions;
               break;
             case "Treasurer":
-                $treasureActions = [];
-                $treasureActions['charisma'] = ''; // 
-                $treasureActions['organization'] = ''; //
-                $treasureActions['agriculture'] = ''; //
-                $treasureActions['industry'] = ''; //
-                $treasureActions['commerce'] = 'Drape'; //(+commerce) clothe and hand out wardrobe             
-                $treasureActions['justice'] = 'Audit'; //(+justice) keep accounts
-                $treasureActions['defenses'] = ''; //
+                $treasureActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $treasureActions['charisma'] = ['Design','charisma','plus','burgher','Craftsman','Masterpiece','','design masterpiece'];
+                $treasureActions['organization'] = ['Claim','organization','plus','','','','','claim titles'];
+                $treasureActions['agriculture'] = ['','agriculture','plus','','','','','']; 
+                $treasureActions['industry'] = ['Equip','industry','plus','','','Armor','','equip with armor'];
+                $treasureActions['commerce'] = ['Furnish','commerce','plus','','','Furnishing','','furnish a holding'];          
+                $treasureActions['justice'] = ['Audit','justice','plus','','','','','keep accounts'];
+                $treasureActions['defenses'] = ['','defenses','plus','','','','',''];
                 $masters['technology'] = ['Finance'];
                 $masters['actions'] = $treasureActions;
               break;
             case "Chamberlain":
-                $chamberlainActions = [];
-                $chamberlainActions['charisma'] = 'Ennoblement'; //recruit noble
-                $chamberlainActions['organization'] = 'Invite Debutante'; //recruit maiden
-                $chamberlainActions['agriculture'] = ''; //
-                $chamberlainActions['industry'] = ''; //
-                $chamberlainActions['commerce'] = 'Network'; //(+commerce) increase spy network           
-                $chamberlainActions['justice'] = 'Plot'; //(+justice) scheme or plot or assassinate            
-                $chamberlainActions['defenses'] = ''; //
+                $chamberlainActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $chamberlainActions['charisma'] = ['Ennoblement','charisma','plus','noble','Noble','','','recruit noble'];
+                $chamberlainActions['organization'] = ['Banquet','organization','plus','peasant','Pantler','','','hold banquet'];
+                $chamberlainActions['agriculture'] = ['Provision','agriculture','plus','peasant','Butler','','','store provisions'];
+                $chamberlainActions['industry'] = ['Drape','industry','plus','peasant','Valet','Robe','','clothe and hand out wardrobe'];
+                $chamberlainActions['commerce'] = ['Network','commerce','plus','noble','Wife','','','host wedding'];       
+                $chamberlainActions['justice'] = ['Plot','justice','minus','peasant','Herald','','','scheme or plot or assassinate'];             
+                $chamberlainActions['defenses'] = ['Lodge','defenses','plus','burgher','Innkeeper','','','lodge guests'];
                 $masters['technology'] = ['Wardrobe'];
                 $masters['actions'] = $chamberlainActions;
               break;
             case "Constable":
-                $constableActions = [];
-                $constableActions['charisma'] = 'Adoubement'; //recruit knight
-                $constableActions['organization'] = ''; //
-                $constableActions['agriculture'] = 'Ambush'; //(+agriculture) enact an ambush
-                $constableActions['industry'] = 'Muster'; //(+industry) muster cavalry
-                $constableActions['commerce'] = 'Charge'; //(+commerce) enact a cavalry charge                
-                $constableActions['justice'] = 'Raid'; //(+justice) launch a raid               
-                $constableActions['defenses'] = ''; //
+                $constableActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $constableActions['charisma'] = ['Adoubement','charisma','plus','noble','Knight','','','recruit cavalry'];
+                $constableActions['organization'] = ['','organization','plus','','','','',''];
+                $constableActions['agriculture'] = ['Chevauchee','agriculture','minus','','','','','cavalry charge and raid holding']; 
+                $constableActions['industry'] = ['Muster','industry','plus','','','Horse','','muster cavalry']; 
+                $constableActions['commerce'] = ['Ambush','commerce','minus','','','','','maraud landbound trade'];                
+                $constableActions['justice'] = ['Charge','justice','minus','','','','','enact a charge'];           
+                $constableActions['defenses'] = ['Camp','defenses','plus','','','','Camp','setup camp']; 
                 $masters['technologies'] = ['Cavalry'];
                 $masters['actions'] = $constableActions;
               break;
             case "Marshall":
-                $marshallActions = [];
-                $marshallActions['charisma'] = 'Levy'; //recruit infantry
-                $marshallActions['organization'] = 'Train'; //train troops
-                $marshallActions['agriculture'] = 'Battle'; //(+agriculture) enact a battle
-                $marshallActions['industry'] = 'Arm'; //(+industry) arm troops
-                $marshallActions['commerce'] = 'Campaign'; //(+commerce) move army and launch army              
-                $marshallActions['justice'] = 'Guard'; //(+justice) guard settlement or holding             
-                $marshallActions['defenses'] = 'Skirmish'; //(+defenses) enact a skirmish
+                $marshallActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $marshallActions['charisma'] = ['Levy','charisma','plus','peasant','Sergeant','','','levy troops'];
+                $marshallActions['organization'] = ['Train','organization','plus','','','','','train troops'];
+                $marshallActions['agriculture'] = ['Battle','agriculture','minus','','','','','enact a battle'];
+                $marshallActions['industry'] = ['Arm','industry','plus','','','Arms','','arm troops'];
+                $marshallActions['commerce'] = ['Campaign','commerce','plus','','','','Army','move army and launch army'];            
+                $marshallActions['justice'] = ['Garrison','justice','plus','','','','Garrison','garrison a settlement or holding'];            
+                $marshallActions['defenses'] = ['Skirmish','defenses','minus','','','','','enact a skirmish'];
                 $masters['technologies'] = ['Skirmish','Melee_Polearm','Melee_Sword','Helmets','Armor'];
                 $masters['actions'] = $marshallActions;
               break;
             case "Admiral":
-                $admiralActions = [];
-                $admiralActions['charisma'] = 'Invite Captain'; //recruit navy
-                $admiralActions['organization'] = ''; //
-                $admiralActions['agriculture'] = ''; //
-                $admiralActions['industry'] = 'Launch Ship'; //(+industry) build vessel
-                $admiralActions['commerce'] = 'Sail'; //(+commerce) enact seabound trade            
-                $admiralActions['justice'] = 'Plunder'; //(+justice) pirate seabound trade               
-                $admiralActions['defenses'] = 'Blockade'; //blockade port
+                $admiralActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $admiralActions['charisma'] = ['Captain','charisma','plus','burgher','Captain','','','recruit captain'];
+                $admiralActions['organization'] = ['','organization','plus','','','','',''];
+                $admiralActions['agriculture'] = ['Fish','agriculture','plus','','','','','fishing']; 
+                $admiralActions['industry'] = ['Launch','industry','plus','','','Ship','','build vessel'];
+                $admiralActions['commerce'] = ['Sail','commerce','plus','','','','Convoy','enact seabound trade'];            
+                $admiralActions['justice'] = ['Plunder','justice','minus','','','','','pirate seabound trade'];              
+                $admiralActions['defenses'] =['Blockade','defenses','minus','','','','','blockade port'];
                 $masters['technology'] = ['Port'];
                 $masters['actions'] = $admiralActions;
               break;
             case "Master of the Revels":
-                $revelActions = [];
-                $revelActions['charisma'] = 'Hire Minstrel'; //recruit entertainer
-                $revelActions['organization'] = ''; //
-                $revelActions['agriculture'] = 'Feast'; //(+agriculture) hold feast
-                $revelActions['industry'] = 'Hunt'; //(+industry) hold hunt 
-                $revelActions['commerce'] = 'Fairs'; //(+commerce) hold trade fairs              
-                $revelActions['justice'] = 'Joust'; //(+justice) hold tournament            
-                $revelActions['defenses'] = ''; // 
+                $revelActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $revelActions['charisma'] = ['','charisma','plus','','','','',''];
+                $revelActions['organization'] = ['','organization','plus','','','','',''];
+                $revelActions['agriculture'] = ['Feast','agriculture','plus','peasant','Minstrel','','','hold feast'];
+                $revelActions['industry'] = ['Hunt','industry','plus','peasant','Gamekeeper','','','hold hunt'];''; 
+                $revelActions['commerce'] = ['Fairs','commerce','plus','burgher','Merchant','','','hold trade fair'];              
+                $revelActions['justice'] = ['Joust','justice','plus','peasant','Herald','','','hold tournament'];             
+                $revelActions['defenses'] = ['','defenses','plus','','','','',''];
                 $masters['technology'] = ['Entertainment'];
                 $masters['actions'] = $revelActions;
               break;
             case "Chronicler":
-                $chroniclerActions = [];
-                $chroniclerActions['charisma'] = 'Tonsure'; //recruit monk
-                $chroniclerActions['organization'] = ''; //
-                $chroniclerActions['agriculture'] = ''; //
-                $chroniclerActions['industry'] = 'Illustrate'; //(+industry) create great book 
-                $chroniclerActions['commerce'] = ''; //           
-                $chroniclerActions['justice'] = 'Survey'; //(+justice) create survey
-                $chroniclerActions['defenses'] = ''; // 
+                $chroniclerActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $chroniclerActions['charisma'] = ['Tonsure','charisma','plus','clergy','Monk','','','recruit monk'];
+                $chroniclerActions['organization'] = ['','organization','plus','','','','',''];
+                $chroniclerActions['agriculture'] = ['','agriculture','plus','','','','',''];
+                $chroniclerActions['industry'] = ['Illustrate','industry','plus','','','Book','','illuminate a book']; 
+                $chroniclerActions['commerce'] = ['Survey','commerce','plus','','','','','enact survey'];          
+                $chroniclerActions['justice'] = ['','justice','plus','','','','',''];
+                $chroniclerActions['defenses'] = ['','defenses','plus','','','','','']; 
                 $masters['technology'] = ['Scriptures'];
                 $masters['actions'] = $chroniclerActions;
               break;
             case "Almoner":
-                $almonerActions = [];
-                $almonerActions['charisma'] = 'Crusade'; //recruit crusader
-                $almonerActions['organization'] = ''; //
-                $almonerActions['agriculture'] = 'Heal'; //(+agriculture) heal staff or troops or population
-                $almonerActions['industry'] = ''; //
-                $almonerActions['commerce'] = 'Donate'; //(+commerce) donate money to the poor           
-                $almonerActions['justice'] = ''; //
-                $almonerActions['defenses'] = ''; // 
+                $almonerActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $almonerActions['charisma'] = ['Vow','charisma','plus','noble','Crusader','','','recruit a crusader']; 
+                $almonerActions['organization'] = ['','organization','plus','','','','',''];
+                $almonerActions['agriculture'] = ['Heal','agriculture','plus','','','','Hospital','heal troops or population'];
+                $almonerActions['industry'] = ['Donate','industry','plus','','','','','donate to the poor '];
+                $almonerActions['commerce'] = ['Pilgrimage','commerce','plus','','','','Pilgrimage','go on pilgrimage'];       
+                $almonerActions['justice'] = ['Crusade','justice','plus','','','','Crusade','launch crusade'];
+                $almonerActions['defenses'] = ['','defenses','plus','','','','',''];
                 $masters['technology'] = ['Monasticism'];
                 $masters['actions'] = $almonerActions;
               break;
             case "Master Mason":
-                $builderActions = [];
-                $builderActions['charisma'] = ''; //recruit builder
-                $builderActions['organization'] = ''; //
-                $builderActions['agriculture'] = ''; //
-                $builderActions['industry'] = 'Construct'; //(+industry) construct buildings and holdings
-                $builderActions['commerce'] = 'Upgrade'; //(+commerce) improve buildings and holdings        
-                $builderActions['justice'] = ''; //          
-                $builderActions['defenses'] = ''; //
+                $builderActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $builderActions['charisma'] = ['Architect','charisma','plus','peasant','Architect','','','recruit architect'];
+                $builderActions['organization'] = ['','organization','plus','','','','',''];
+                $builderActions['agriculture'] = ['','agriculture','plus','','','','',''];
+                $builderActions['industry'] = ['Construct','industry','plus','','','','Holding','construct buildings'];
+                $builderActions['commerce'] = ['Upgrade','commerce','plus','','','','','improve buildings and holdings'];         
+                $builderActions['justice'] = ['','justice','plus','','','','',''];         
+                $builderActions['defenses'] = ['Restore','defenses','plus','','','','','restore fortifications'];
                 $masters['technologies'] = ['Construction'];
                 $masters['actions'] = $builderActions;
               break;
             case "Castellan":
-                $castleActions = [];
-                $castleActions['charisma'] = 'Garrison'; //recruit guard
-                $castleActions['organization'] = ''; //
-                $castleActions['agriculture'] = ''; //
-                $castleActions['industry'] = ''; //
-                $castleActions['commerce'] = ''; //      
-                $castleActions['justice'] = ''; //         
-                $castleActions['defenses'] = 'Fortify'; //(+defenses) construct castles and fortifications 
+                $castleActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $castleActions['charisma'] =  ['Guard','charisma','plus','peasant','Guard','','','guard settlement or holding'];
+                $castleActions['organization'] = ['','organization','plus','','','','',''];
+                $castleActions['agriculture'] = ['','agriculture','plus','','','','',''];
+                $castleActions['industry'] = ['','industry','plus','','','','',''];
+                $castleActions['commerce'] = ['','commerce','plus','','','','',''];      
+                $castleActions['justice'] = ['','justice','plus','','','','',''];        
+                $castleActions['defenses'] = ['Fortify','defenses','plus','','','','','construct castles and fortifications'];  
                 $masters['technologies'] = ['Fortification'];
                 $masters['actions'] = $castleActions;
               break;
             case "Engineer":
-                $engineerActions = [];
-                $engineerActions['charisma'] = ''; //recruit besieger
-                $engineerActions['organization'] = ''; //
-                $engineerActions['agriculture'] = ''; //
-                $engineerActions['industry'] = 'Besiege'; //(+industry) create siege equipment
-                $engineerActions['commerce'] = ''; //               
-                $engineerActions['justice'] = ''; //                
-                $engineerActions['defenses'] = 'Restore'; //(+defenses) restore fortifications 
+                $engineerActions = []; //['action','stat','operand','estate','recruit','craft','found','describe']
+                $engineerActions['charisma'] = ['Contract','charisma','plus','peasant','Gynour','','','recruit engineer'];
+                $engineerActions['organization'] = ['Engineer','organization','plus','','','Siege_Engine','','create siege equipment'];
+                $engineerActions['agriculture'] = ['Sap','agriculture','minus','','','','','mine walls'];
+                $engineerActions['industry'] = ['Bombard','industry','minus','','','','','bombard holding'];
+                $engineerActions['commerce'] = ['Investment','commerce','minus','','','','','encircle holding'];               
+                $engineerActions['justice'] = ['','justice','plus','','','','',''];               
+                $engineerActions['defenses'] = ['Besiege','defenses','minus','','','','','besiege walls'];
                 $masters['technology'] = ['Siegecraft'];
-                $masters['actions'] = ['',''];
+                $masters['actions'] = $engineerActions;
               break;
             default:
                 return $this->defaultMasters();
