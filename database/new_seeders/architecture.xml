@@ -1,493 +1,535 @@
 <?xml version="1.0" encoding="utf-8"?>
 <architecture>
   <vernacular>
-    <region></region>
+    <region>AdobeMaghreb</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>mashrabiya</window>
+            <gallery>mashrabiya</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>AdobeMashriq</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>        
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>mashrabiya</window>
+            <gallery>balustrade</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles> 
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>AdobePersian</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>turquoise iwan</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>turquoise iwan</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>adobe</wall>
+            <facade>adobe</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>turquoise iwan</gallery>
+            <roof>adobe flat roof</roof>
+            <tiles>adobe</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>HalfTimberedFachwerk</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>crossed timber beams</support>
             <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>crossed timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>crossed timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>balustrade</gallery>
+            <roof>tiled sloped roof</roof>
+            <tiles>slate tiles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>HalfTimberedKhata</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>crossed timber beams</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>crossed timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>crossed timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>balustrade</gallery>
+            <roof>wooden sloped roof</roof>
+            <tiles>shingles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>HalfTimberedKonak</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>studded timber beams</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>studded timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>studded timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>mashrabiya</window>
+            <gallery>mashrabiya</gallery>
+            <roof>tiled sloped roof</roof>
+            <tiles>terracotta tiles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>HalfTimberedStudded</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>studded timber beams</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>studded timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>wattle and daub</wall>
+            <facade>whitewashed</facade>
+			<support>studded timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>balustrade</gallery>
+            <roof>tiled sloped roof</roof>
+            <tiles>terracotta tiles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>LogChalet</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>loggia</gallery>
+            <roof>tiled sloped roof</roof>
+            <tiles>slate tiles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>LogIzba</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>        
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>   
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>loggia</gallery>
+            <roof>wooden sloped roof</roof>
+            <tiles>shingles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>LogStave</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>     
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>timber logs</wall>
+            <facade>weatherboarding</facade>
+			<support>post timber beams</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>loggia</gallery>
+            <roof>wooden sloped roof</roof>
+            <tiles>shingles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>StoneAdjar</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>       
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>loggia</gallery>
+            <roof>wooden sloped roof</roof>
+            <tiles>shingles</tiles>
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>StoneCroft</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>      
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>balustrade</gallery>
+            <roof>wooden sloped roof</roof>
+            <tiles>shingles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>StoneMudejar</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>      
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>loggia</gallery>
+            <roof>tiled sloped roof</roof>
+            <tiles>terracotta tiles</tiles>  
         </late>   
     </eras>
   </vernacular>
   <vernacular>
-    <region></region>
+    <region>StoneRomanesque</region>
     <eras>
         <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>none</hoarding>
+            <keep>bretasche</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>      
         </early> 
         <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>sash window</window>
+            <gallery>none</gallery>
+            <roof>tatched sloped roof</roof>
+            <tiles>tatch</tiles>  
         </high>
         <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
+            <wall>stone ashlar</wall>
+            <facade>drystack</facade>
+			<support>lintel</support>
+            <hoarding>hoarding</hoarding>
+            <keep>donjon</keep>
+            <window>lancet window</window>
+            <gallery>loggia</gallery>
+            <roof>tiled sloped roof</roof>
+            <tiles>terracotta tiles</tiles> 
         </late>   
     </eras>
   </vernacular>
-</architecture> 
+</architecture>
