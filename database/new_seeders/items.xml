@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <type>Book</type>
+    <settle>none<settler>
+    <estate>clergy</estate>
+    <operator>none</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+  <item>
+    <type>Horse</type>
+    <settle>none<settler>
+    <estate>noble</estate>
+    <operator>Knight</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+  <item>
+    <type>Armor</type>
+    <settle>none<settler>
+    <estate>burgher</estate>
+    <operator>Knight</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+  <item>
+    <type>Weapon</type>
+    <settle>none<settler>
+    <estate>burgher</estate>
+    <operator>Knight</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+  <item>
+    <type>Ship</type>
+    <settle>none<settler>
+    <estate>burgher</estate>
+    <operator>Captain</operator>
+    <holder>none</holder>
+  </item>
+  <item>
+    <type>Furnishing</type>
+    <settle>none<settler>
+    <estate>burgher</estate>
+    <operator>none</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+  <item>
+    <type>Engine</type>
+    <settle>none<settler>
+    <estate>burgher</estate>
+    <operator>Gynour</operator>
+    <holder>none</holder>
+  </item>
+  <item>
+    <type>Masterpiece</type>
+    <settle>Craftsman<settler>
+    <estate>burgher</estate>
+    <operator>none</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+  <item>
+    <type>Robe</type>
+    <settle>Valet<settler>
+    <estate>peasant</estate>
+    <operator>none</operator>
+    <holder>Lord of the Manor</holder>
+  </item>
+</items>

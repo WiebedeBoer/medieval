@@ -257,19 +257,19 @@
 			<appoint>none</appoint>
             <recruit>Priest</recruit>
             <craft>none</craft>
-            <found>none</found>
+            <found>Parish</found>
             <description>Recruit priest</description>       
         </charisma> 
         <organization>
-            <action>Audience</action>
+            <action>Charter</action>
             <stat>organization</stat>
             <operand>plus</operand>
-            <estate>none</estate>
-			<appoint>none</appoint>
+            <estate>burgher</estate>
+			<appoint>Grandmaster</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>Parlour</found>
-            <description>Enact diplomacy</description> 
+            <found>none</found>
+            <description>Setup a guild</description>
         </organization>
         <agriculture>
             <action>none</action>
@@ -283,26 +283,26 @@
             <description>none</description>
 		</agriculture>
         <industry>
-            <action>none</action>
+            <action>Enroll</action>
             <stat>industry</stat>
             <operand>none</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
+            <found>University</found>
+            <description>Found institution of higher learning</description>
 		</industry>
         <commerce>
-            <action>Enroll</action>
+            <action>Audience</action>
             <stat>commerce</stat>
             <operand>plus</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>University</found>
-            <description>Found institution of higher learning</description>
+            <found>Parlour</found>
+            <description>Enact diplomacy</description>
 		</commerce>
         <justice>
             <action>Proselytize</action>
@@ -480,15 +480,15 @@
             <description>Scheme or plot or assassinate</description>
 		</justice>	
         <defenses>
-            <action>Lodge</action>
+            <action>none</action>
             <stat>defenses</stat>
             <operand>plus</operand>
-            <estate>burgher</estate>
+            <estate>none</estate>
 			<appoint>none</appoint>
-            <recruit>Innkeeper</recruit>
+            <recruit>none</recruit>
             <craft>none</craft>
-            <found>Porter_Lodge</found>
-            <description>Lodge guests</description>
+            <found>none</found>
+            <description>none</description>
 		</defenses>		
     </actions>
   </category>
@@ -988,15 +988,15 @@
     <master>Master Mason</master>
     <actions>
         <charisma>
-            <action>Charter</action>
+            <action>none</action>
             <stat>charisma</stat>
-            <operand>plus</operand>
-            <estate>burgher</estate>
-			<appoint>Grandmaster</appoint>
+            <operand>none</operand>
+            <estate>none</estate>
+			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>Setup a guild</description>       
+            <description>none</description>       
         </charisma> 
         <organization>
             <action>none</action>
@@ -1077,19 +1077,19 @@
 			<appoint>none</appoint>
             <recruit>Guard</recruit>
             <craft>none</craft>
-            <found>none</found>
+            <found>Garrison</found>
             <description>Garrison a settlement or holding</description>       
         </charisma> 
         <organization>
-            <action>none</action>
+            <action>Lodge</action>
             <stat>organization</stat>
-            <operand>none</operand>
-            <estate>none</estate>
+            <operand>plus</operand>
+            <estate>burgher</estate>
 			<appoint>none</appoint>
-            <recruit>none</recruit>
+            <recruit>Innkeeper</recruit>
             <craft>none</craft>
-            <found>none</found>
-            <description>none</description> 
+            <found>Porter_Lodge</found>
+            <description>Lodge guests</description>
         </organization>
         <agriculture>
             <action>none</action>
@@ -1103,24 +1103,24 @@
             <description>none</description>
 		</agriculture>
         <industry>
-            <action>none</action>
+            <action>Smith</action>
             <stat>industry</stat>
+            <operand>plus</operand>
+            <estate>none</estate>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>Weapon</craft>
+            <found>none</found>
+            <description>Metals smithed into arms</description>
+		</industry>
+        <commerce>
+            <action>none</action>
+            <stat>commerce</stat>
             <operand>none</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</industry>
-        <commerce>
-            <action></action>
-            <stat>commerce</stat>
-            <operand></operand>
-            <estate></estate>
-			<appoint></appoint>
-            <recruit></recruit>
-            <craft></craft>
             <found>none</found>
             <description>none</description>
 		</commerce>
@@ -1269,7 +1269,7 @@
         <industry>
             <action>Pray</action>
             <stat>industry</stat>
-            <operand></operand>
+            <operand>plus</operand>
             <estate>clergy</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>

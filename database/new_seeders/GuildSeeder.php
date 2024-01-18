@@ -12312,6 +12312,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Vannes',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '70',
+			'county' => '505',
+			'barony' => ''
+		]);
 		//Domnonee
 		//Penthievre
 		//Saint Brieuc

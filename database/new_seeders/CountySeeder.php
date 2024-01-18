@@ -9895,7 +9895,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//505
-			//vannes, ploermel
+			//vannes, ploermel, trecesson, suscinio
             DB::table('counties')->insert([
 				'county_name' => 'Vannais',
 				'county_category' => 'Feudal_Manor',
@@ -9907,7 +9907,7 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Breton',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'None',
-				'banal_chasse' => 'None',
+				'banal_chasse' => 'Deer',
 				'marke_crops' => 'Fiber_Flax',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
