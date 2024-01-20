@@ -3,89 +3,190 @@
   <settler>
     <estate>clergy</estate>
     <type>Priest</type>
-  <settler>
+    <tutalage>
+      <child>Novice</child>
+      <adolescent>Acolyte</adolescent>
+      <adult>Deacon</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>clergy</estate>
     <type>Monk</type>
-  <settler>
+    <tutalage>
+      <child>Novice</child>
+      <adolescent>Acolyte</adolescent>
+      <adult>Monk</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>noble</estate>
     <type>Crusader</type>
-  <settler>
+    <tutalage>
+      <child>Page</child>
+      <adolescent>Squire</adolescent>
+      <adult>Crusader</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>noble</estate>
     <type>Noble</type>
-  <settler>
+    <tutalage>
+      <child>Page</child>
+      <adolescent>Squire</adolescent>
+      <adult>Knight</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>noble</estate>
     <type>Wife</type>
-  <settler>
-  <settler>
-    <estate>burgher</estate>
-    <type>Craftsman</type>
-  <settler>
-  <settler>
-    <estate>burgher</estate>
-    <type>Innkeeper</type>
-  <settler>
-  <settler>
-    <estate>burgher</estate>
-    <type>Captain</type>
-  <settler>
+    <tutalage>
+      <child>Maid</child>
+      <adolescent>Damsel</adolescent>
+      <adult>Lady</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>burgher</estate>
     <type>Merchant</type>
+    <tutalage>
+      <child>Apprentice</child>
+      <adolescent>Journeyman</adolescent>
+      <adult>Merchant</adult>
+    <tutalage>
+  </settler>
   <settler>
+    <estate>burgher</estate>
+    <type>Craftsman</type>
+    <tutalage>
+      <child>Apprentice</child>
+      <adolescent>Journeyman</adolescent>
+      <adult>Master</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>burgher</estate>
+    <type>Innkeeper</type>
+    <tutalage>
+      <child>Apprentice</child>
+      <adolescent>Hostler</adolescent>
+      <adult>Innkeeper</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>burgher</estate>
+    <type>Captain</type>
+    <tutalage>
+      <child>Apprentice</child>
+      <adolescent>Cadet</adolescent>
+      <adult>Captain</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>peasant</estate>
     <type>Farmer</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Pantler</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Butler</type>
-  <settler>
+    <tutalage>
+      <child>Groom</child>
+      <adolescent>Farmhand</adolescent>
+      <adult>Farmer</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>peasant</estate>
-    <type>Valet</type>
-  <settler>
+    <type>Verderer</type>
+    <tutalage>
+      <child>Groom</child>
+      <adolescent>Ranger</adolescent>
+      <adult>Verderer</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>peasant</estate>
     <type>Rogue</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Sergeant</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Quartermaster</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Minstrel</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Gamekeeper</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Herald</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Guard</type>
-  <settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Gynour</type>
-  <settler>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Knave</adolescent>
+      <adult>Rogue</adult>
+    <tutalage>
+  </settler>
   <settler>
     <estate>peasant</estate>
     <type>Miller</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Millhand</adolescent>
+      <adult>Miller</adult>
+    <tutalage>
+  </settler>
   <settler>
+    <estate>peasant</estate>
+    <type>Pantler</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Pantler</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Butler</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Butler</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Minstrel</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Minstrel</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Herald</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Herald</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Sergeant</type>
+    <tutalage>
+      <child>Retainer</child>
+      <adolescent>Huskarl</adolescent>
+      <adult>Sergeant</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Quartermaster</type>
+    <tutalage>
+      <child>Retainer</child>
+      <adolescent>Huskarl</adolescent>
+      <adult>Quartermaster</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Guard</type>
+    <tutalage>
+      <child>Retainer</child>
+      <adolescent>Huskarl</adolescent>
+      <adult>Guard</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <estate>peasant</estate>
+    <type>Gynour</type>
+    <tutalage>
+      <child>Retainer</child>
+      <adolescent>Huskarl</adolescent>
+      <adult>Gynour</adult>
+    <tutalage>
+  </settler>
 </settlers>

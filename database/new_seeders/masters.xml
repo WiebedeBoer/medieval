@@ -234,15 +234,15 @@
             <description>Hold court</description>
 		</justice>	
         <defenses>
-            <action>none</action>
+            <action>Rampart</action>
             <stat>defenses</stat>
-            <operand>none</operand>
+            <operand>plus</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>none</description>
+            <description>Dig ramparts</description>
 		</defenses>		
     </actions>
   </category>
@@ -285,7 +285,7 @@
         <industry>
             <action>Enroll</action>
             <stat>industry</stat>
-            <operand>none</operand>
+            <operand>plus</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
@@ -354,15 +354,15 @@
             <description>Claim title</description> 
         </organization>
         <agriculture>
-            <action>none</action>
+            <action>Assess</action>
             <stat>agriculture</stat>
-            <operand>none</operand>
+            <operand>plus</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>none</description>
+            <description>Assess the land</description>
 		</agriculture>
         <industry>
             <action>Equip</action>
@@ -452,7 +452,7 @@
             <operand>plus</operand>
             <estate>peasant</estate>
 			<appoint>none</appoint>
-            <recruit>Valet</recruit>
+            <recruit>none</recruit>
             <craft>Robe</craft>
             <found>none</found>
             <description>Clothe and hand out wardrobe</description>
@@ -480,7 +480,7 @@
             <description>Scheme or plot or assassinate</description>
 		</justice>	
         <defenses>
-            <action>none</action>
+            <action>Bolster</action>
             <stat>defenses</stat>
             <operand>plus</operand>
             <estate>none</estate>
@@ -488,7 +488,7 @@
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>none</description>
+            <description>Bolster defenses of a holding</description>
 		</defenses>		
     </actions>
   </category>
@@ -780,7 +780,7 @@
             <operand>plus</operand>
             <estate>peasant</estate>
 			<appoint>none</appoint>
-            <recruit>Gamekeeper</recruit>
+            <recruit>Verderer</recruit>
             <craft>none</craft>
             <found>Forest</found>
             <description>Hold a hunt</description>
