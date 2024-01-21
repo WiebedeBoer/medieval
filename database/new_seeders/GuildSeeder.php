@@ -204,6 +204,16 @@ class GuildSeeder extends Seeder
 			'barony' => null
 		]);
 		DB::table('guilds')->insert([
+			'guild_name' => 'Trinitarian Order',
+			'guild_category' => 'Monastic',
+			'guild_subcategory' => 'Monk_Catholic_Mendicant',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => null,
+			'county' => null,
+			'barony' => null
+		]);
+		DB::table('guilds')->insert([
 			'guild_name' => 'Benedictine Order',
 			'guild_category' => 'Monastic',
 			'guild_subcategory' => 'Monk_Catholic_Canon',
