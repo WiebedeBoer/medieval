@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tenures>
+    <tenure>
+        <type>Fee_Simple</type>
+        <category>Allod</category>
+        <hierarchy>Lord_Paramount</hierarchy>
+        <duty>none</duty>
+        <fief>composite</fief>
+        <tax>none</tax>
+        <privilege>Souvereign</privilege>
+        <description>Landholder holds the fief in allod independent of any liege and without conditions</description>
+    </tenure>
+    <tenure>
+        <type>Serjeanty</type>
+        <category>copyhold</category>
+        <hierarchy>Tenant_in_Chief</hierarchy>
+        <duty>Mandate</duty>
+        <fief>composite</fief>
+        <tax>composite</tax>
+        <privilege>Baronage</privilege>
+        <description>Landholder governs the fief and has a duty in the court of the liege and is appointed to said court</description>
+    </tenure>
+    <tenure>
+        <type>Per_Baroniam</type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_in_Chief</hierarchy>
+        <duty>Armament</duty>
+        <fief>Barony</fief>
+        <tax>Scutage</tax>
+        <privilege>Baronage</privilege>
+        <description>Landholder governs the fief and has a duty of providing soldiers for the liege from the caput baroniae or chief seat or chief castle</description>
+    </tenure>
+    <tenure>
+        <type>Castle_Guard</type>
+        <category>Copyhold</category>
+        <hierarchy>Mesne_Lord</hierarchy> 
+        <duty>Armament</duty>
+        <fief>Castellany</fief>
+        <tax>Scutage</tax>
+        <privilege>Lord_of_the_Manor</privilege>
+        <description>Landholder holds the manorial fief and has duty of military service and guards a castle for the liege</description>
+    </tenure>
+    <tenure>
+        <type>Knight_Service</type>
+        <category>Copyhold</category>
+        <hierarchy>Mesne_Lord</hierarchy> 
+        <duty>Armament</duty>
+        <fief>Knight_Fee</fief>
+        <tax>Scutage</tax>
+        <privilege>Lord_of_the_Manor</privilege>
+        <description>Landholder holds the manorial fief in tenure and has duty of military service for the liege</description>
+    </tenure>
+    <tenure>
+        <type>Frankalmoigne</type>
+        <category>Copyhold</category>
+        <hierarchy>Mesne_Lord</hierarchy> 
+        <duty>Benediction</duty>
+        <fief>Parish</fief>
+        <tax>Tithe</tax>
+        <privilege>Lord_of_the_Manor</privilege>
+        <description>Landholder holds the manorial fief in tenure and has duty of religious service for the liege</description>
+    </tenure>
+    <tenure>
+        <type>Burgh</type>
+        <category>Copyhold</category>
+        <hierarchy>Mesne_Lord</hierarchy> 
+        <duty></duty>
+        <fief>Commune</fief>
+        <tax>Scot_and_Lot</tax>
+        <privilege>Lord_of_the_Manor</privilege>
+        <description>Landholder holds the fief in tenure and has duty of pecuniary and military service for the liege</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief>Burgage</fief>
+        <tax>Scot_and_Lot</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief>Hide</fief>
+        <tax>Socage</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege and pays taxes at easter and michaelmas</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief>Hide</fief>
+        <tax>Carucage</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege and pays taxes at easter and michaelmas</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief></fief>
+        <tax>Pavage</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief></fief>
+        <tax>Murage</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief></fief>
+        <tax>Pontage</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege</description>
+    </tenure>
+    <tenure>
+        <type></type>
+        <category>Copyhold</category>
+        <hierarchy>Tenant_Paravail</hierarchy> 
+        <duty></duty>
+        <fief></fief>
+        <tax>Thelony</tax>
+        <privilege></privilege>
+        <description>Landholder holds the fief in tenure and has duty of providing goods and services for the liege</description>
+    </tenure>
+</tenures>

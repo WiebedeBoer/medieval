@@ -179,7 +179,7 @@
             <description>Assign function to a holding</description>       
         </charisma> 
         <organization>
-            <action>Tax</action>
+            <action>Talliage</action>
             <stat>organization</stat>
             <operand>plus</operand>
             <estate>none</estate>
@@ -283,7 +283,7 @@
             <description>none</description>
 		</agriculture>
         <industry>
-            <action>Enroll</action>
+            <action>Teach</action>
             <stat>industry</stat>
             <operand>plus</operand>
             <estate>none</estate>
@@ -406,7 +406,7 @@
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>none</description>
+            <description></description>
 		</defenses>		
     </actions>
   </category>
@@ -917,15 +917,15 @@
             <description>Recruit a crusader</description>       
         </charisma> 
         <organization>
-            <action>none</action>
+            <action>Tithe</action>
             <stat>organization</stat>
-            <operand>none</operand>
+            <operand>plus</operand>
             <estate>none</estate>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>none</description> 
+            <description>Collect religious taxes</description> 
         </organization>
         <agriculture>
             <action>Heal</action>
