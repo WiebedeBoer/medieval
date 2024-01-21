@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<duties>
+    <duty>
+        <type>Patronage</type>
+        <category>Patronage</category>
+        <description>Encouragement or privilege or financial aid that a liege bestows on a vassal</description>
+    </duty>
+    <duty>
+        <type>Livery</type>
+        <category>Livery</category>
+        <description>To be given land as a gift and the right to wear livery of a lord</description>
+    </duty>
+    <duty>
+        <type>Tithe</type>
+        <category>Tithe</category>
+        <description>Tithe paid at easter and michaelmas</description>
+    </duty>
+    <duty>
+        <type>Scutage</type>
+        <category>Geld</category>
+        <description>Land tax paid at easter and michaelmas</description>
+    </duty>
+    <duty>
+        <type>Talliage</type>
+        <category>Geld</category>
+        <description>Land tax paid at easter and michaelmas</description>
+    </duty>
+    <duty>
+        <type>Socage</type>
+        <category>Geld</category>
+        <description>Land tax paid at easter and michaelmas</description>
+    </duty>
+    <duty>
+        <type>Carucage</type>
+        <category>Geld</category>
+        <description>Land tax paid at easter and michaelmas</description>
+    </duty>
+    <duty>
+        <type>Benediction</type>
+        <category>Benediction</category>
+        <description>Religious service and prayer</description>
+    </duty>
+    <duty>
+        <type>Auxilium</type>
+        <category>Host</category>
+        <description>Feudal military service in the army of the liege</description>
+    </duty>
+    <duty>
+        <type>Avera_and_Inward</type>
+        <category>Corvee</category>
+        <description>Carry items by horse and to provision a bodyguard during a visit</description>
+    </duty>
+    <duty>
+        <type>Scot_and_Lot</type>
+        <category>Corvee</category>
+        <description>Obligation to pay or labour for maintenance of walls and defences</description>
+    </duty>
+    <duty>
+        <type>Corvee</type>
+        <category>Corvee</category>
+        <description>Labour to provide goods and maintenance</description>
+    </duty>
+    <duty>
+        <type>Pavage</type>
+        <category>Toll</category>
+        <description>Toll paid upon use of a road</description>
+    </duty>
+    <duty>
+        <type>Murage</type>
+        <category>Toll</category>
+        <description>Toll paid upon entry through a gate</description>
+    </duty>
+    <duty>
+        <type>Pontage</type>
+        <category>Toll</category>
+        <description>Toll paid upon crossing a bridge</description>
+    </duty>
+    <duty>
+        <type>Thelony</type>
+        <category>Toll</category>
+        <description>Toll paid upon use of a market</description>
+    </duty>
+</duties>

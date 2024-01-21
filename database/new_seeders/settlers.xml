@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <settlers>
   <settler>
-    <estate>clergy</estate>
+    <tenure>Frankalmoigne</tenure>
     <type>Priest</type>
     <tutalage>
       <child>Novice</child>
@@ -10,7 +10,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>clergy</estate>
+    <tenure>Frankalmoigne</tenure>
     <type>Monk</type>
     <tutalage>
       <child>Novice</child>
@@ -19,16 +19,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>noble</estate>
-    <type>Crusader</type>
-    <tutalage>
-      <child>Page</child>
-      <adolescent>Squire</adolescent>
-      <adult>Crusader</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>noble</estate>
+    <tenure>Per_Baroniam</tenure>
     <type>Noble</type>
     <tutalage>
       <child>Page</child>
@@ -37,7 +28,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>noble</estate>
+    <tenure>Per_Baroniam</tenure>
     <type>Wife</type>
     <tutalage>
       <child>Maid</child>
@@ -46,7 +37,25 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>burgher</estate>
+    <tenure>Knight_Service</tenure>
+    <type>Crusader</type>
+    <tutalage>
+      <child>Page</child>
+      <adolescent>Squire</adolescent>
+      <adult>Crusader</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Knight_Service</tenure>
+    <type>Crusader</type>
+    <tutalage>
+      <child>Page</child>
+      <adolescent>Squire</adolescent>
+      <adult>Knight</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Burgage</tenure>
     <type>Merchant</type>
     <tutalage>
       <child>Apprentice</child>
@@ -55,7 +64,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>burgher</estate>
+    <tenure>Burgage</tenure>
     <type>Craftsman</type>
     <tutalage>
       <child>Apprentice</child>
@@ -64,7 +73,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>burgher</estate>
+    <tenure>Villeinage</tenure>
     <type>Innkeeper</type>
     <tutalage>
       <child>Apprentice</child>
@@ -73,7 +82,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>burgher</estate>
+    <tenure>Villeinage</tenure>
     <type>Captain</type>
     <tutalage>
       <child>Apprentice</child>
@@ -82,79 +91,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>peasant</estate>
-    <type>Farmer</type>
-    <tutalage>
-      <child>Groom</child>
-      <adolescent>Farmhand</adolescent>
-      <adult>Farmer</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Verderer</type>
-    <tutalage>
-      <child>Groom</child>
-      <adolescent>Ranger</adolescent>
-      <adult>Verderer</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Rogue</type>
-    <tutalage>
-      <child>Carrier</child>
-      <adolescent>Knave</adolescent>
-      <adult>Rogue</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Miller</type>
-    <tutalage>
-      <child>Carrier</child>
-      <adolescent>Millhand</adolescent>
-      <adult>Miller</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Pantler</type>
-    <tutalage>
-      <child>Carrier</child>
-      <adolescent>Valet</adolescent>
-      <adult>Pantler</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Butler</type>
-    <tutalage>
-      <child>Carrier</child>
-      <adolescent>Valet</adolescent>
-      <adult>Butler</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Minstrel</type>
-    <tutalage>
-      <child>Carrier</child>
-      <adolescent>Valet</adolescent>
-      <adult>Minstrel</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
-    <type>Herald</type>
-    <tutalage>
-      <child>Carrier</child>
-      <adolescent>Valet</adolescent>
-      <adult>Herald</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <estate>peasant</estate>
+    <tenure>Villeinage</tenure>
     <type>Sergeant</type>
     <tutalage>
       <child>Retainer</child>
@@ -163,7 +100,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>peasant</estate>
+    <tenure>Villeinage</tenure>
     <type>Quartermaster</type>
     <tutalage>
       <child>Retainer</child>
@@ -172,7 +109,7 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>peasant</estate>
+    <tenure>Villeinage</tenure>
     <type>Guard</type>
     <tutalage>
       <child>Retainer</child>
@@ -181,12 +118,84 @@
     <tutalage>
   </settler>
   <settler>
-    <estate>peasant</estate>
+    <tenure>Villeinage</tenure>
     <type>Gynour</type>
     <tutalage>
       <child>Retainer</child>
       <adolescent>Huskarl</adolescent>
       <adult>Gynour</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Villeinage</tenure>
+    <type>Farmer</type>
+    <tutalage>
+      <child>Groom</child>
+      <adolescent>Farmhand</adolescent>
+      <adult>Farmer</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Villeinage</tenure>
+    <type>Miller</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Millhand</adolescent>
+      <adult>Miller</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Serjeanty</tenure>
+    <type>Rogue</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Knave</adolescent>
+      <adult>Rogue</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Serjeanty</tenure>
+    <type>Pantler</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Pantler</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Serjeanty</tenure>
+    <type>Butler</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Butler</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Serjeanty</tenure>
+    <type>Minstrel</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Minstrel</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Serjeanty</tenure>
+    <type>Herald</type>
+    <tutalage>
+      <child>Carrier</child>
+      <adolescent>Valet</adolescent>
+      <adult>Herald</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <tenure>Serjeanty</tenure>
+    <type>Verderer</type>
+    <tutalage>
+      <child>Groom</child>
+      <adolescent>Ranger</adolescent>
+      <adult>Verderer</adult>
     <tutalage>
   </settler>
 </settlers>
