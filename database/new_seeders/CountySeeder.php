@@ -47,10 +47,10 @@ class CountySeeder extends Seeder
 				'tax_feudal' => '',					//minimal, normal, large, maximal; default=normal
 				'tax_ecclesiastical' => '',			//minimal, normal, large, maximal; default=minimal
 				'tax_burgher' => '',				//minimal, normal, large, maximal; default=normal
-				'imperial_realm' => '1',		(empire); default=null
-				'realm' => '1',					(kingdom); default=null
-				'petty_realm' => '1',			(duchy); default=null
-				'shire' => '1'					(county); default=null
+				'empire' => null,					//(emperor); default=null
+				'kingdom' => null,					//(king); default=null
+				'duchy' => null,					//(duke); default=null
+				'county' => null					//(count); default=null
             ]);
 			*/
 

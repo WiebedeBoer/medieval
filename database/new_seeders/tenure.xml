@@ -1,38 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tenures>
     <tenure>
-        <type>Allod</type>
-        <feudal>
-            <kingdom>Lord_Paramount</kingdom>
-            <duchy>Territorial_Lord</duchy>
-            <county>none</county>
-            <barony>none</barony>
-            <tithing>none</tithing>
-            <hide>none</hide>
-            <virgate>none</virgate>
-        </feudal>
-        <manor>
-            <court>Honour_Court</court>
-            <territory>Crown_Land</territory> 
-        </manor>    
-        <duty>
-            <military>Patronage</military>
-            <tax>none</tax>
-            <service>Livery</service>
-        </duty>
-        <estate>Nobles</estate>
-        <description>Souvereign owns the land in allod independent of any liege and without any conditions of tenure</description>
-    </tenure>
-    <tenure>
         <type>Frankalmoigne</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Clergy</stratification>
+        <description>Landholder governs the fief and has a duty of religious service for the liege</description>
         <feudal>
-            <kingdom>none</kingdom>
-            <duchy>Territorial_Lord</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>Lord_of_the_Manor</tithing>
-            <hide>Vavasour</hide>
-            <virgate>Tenant_Paravail</virgate>
+            <premier>Tenant_in_Chief</premier>
+            <floor>Tenant_Paravail</floor>
         </feudal>
         <manor>
             <court>Ecclesiastical_Court</court>
@@ -43,20 +19,36 @@
             <tax>Tithe</tax>
             <service>Benediction</service>
         </duty>
-        <estate>Clergy</estate>
-        <description>Landholder governs the fief and has a duty of religious service for the liege</description>
+    </tenure>
+    <tenure>
+        <type>Allod</type>
+        <category>Allod</category>
+        <ownership>Allod</ownership>
+        <stratification>Nobles</stratification>
+        <description>Souvereign owns the land in allod independent of any liege and without any conditions of tenure</description>
+        <feudal>
+            <premier>Lord_Paramount</premier>
+            <floor>Lord_Paramount</floor>
+        </feudal>
+        <manor>
+            <court>Honour_Court</court>
+            <territory>Crown_Land</territory> 
+        </manor>    
+        <duty>
+            <military>Patronage</military>
+            <tax>none</tax>
+            <service>Livery</service>
+        </duty>
     </tenure>
     <tenure>
         <type>Capite</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Nobles</stratification>
+        <description>Landholder governs the fief and has a duty of military service directly to a souvereign</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>Territorial_Lord</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>none</barony>
-            <tithing>none</tithing>
-            <hide>none</hide>
-            <virgate>none</virgate>
+            <premier>Tenant_in_Chief</premier>
+            <floor>Tenant_in_Chief</floor>
         </feudal>
         <manor>
             <court>Court_Baron</court> 
@@ -67,19 +59,16 @@
             <tax>Scutage</tax>
             <service>Avera_and_Inward</service>
         </duty>
-        <estate>Nobles</estate>
-        <description>Landholder governs the fief and has a duty of military service directly to a souvereign</description>
     </tenure>
     <tenure>
         <type>Per_Baroniam</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Nobles</stratification>
+        <description>Landholder governs the fief and has a duty to provide soldiers for the army of his liege</description>
         <feudal>
-            <kingdom>none</kingdom>
-            <duchy>Territorial_Lord</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>none</tithing>
-            <hide>none</hide>
-            <virgate>none</virgate>
+            <premier>Mesne_Lord</premier>
+            <floor>Mesne_Lord</floor>
         </feudal>
         <manor>
             <court>Court_Baron</court> 
@@ -90,20 +79,16 @@
             <tax>Scutage</tax>
             <service>Avera_and_Inward</service>
         </duty>
-        <estate>Nobles</estate>
-        <description>Landholder governs the fief and has a duty to provide soldiers for the army of his liege</description>
     </tenure>
     <tenure>
         <type>Castle_Guard</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Nobles</stratification>
+        <description>Landholder governs the fief and has a duty of military service and guards a castle for the liege</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>none</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>none</tithing>
-            <hide>none</hide>
-            <virgate>none</virgate>
+            <premier>Tenant_in_Chief</premier>
+            <floor>Vavasour</floor>
         </feudal>
         <manor>
             <court>Court_Baron</court> 
@@ -114,20 +99,16 @@
             <tax>Scutage</tax>
             <service>Avera_and_Inward</service>
         </duty>
-        <estate>Nobles</estate>
-        <description>Landholder governs the fief and has a duty of military service and guards a castle for the liege</description>
     </tenure>
     <tenure>
         <type>Knight_Service</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Nobles</stratification>
+        <description>Landholder governs the fief and has a duty of military service to the liege</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>none</duchy>
-            <county>none</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>Lord_of_the_Manor</tithing>
-            <hide>Vavasour</hide>
-            <virgate>none</virgate>
+            <premier>Vavasour</premier>
+            <floor>Vavasour</floor>
         </feudal>
         <manor>
             <court>Halmote_Court</court>
@@ -138,20 +119,16 @@
             <tax>Scutage</tax>
             <service>Avera_and_Inward</service>
         </duty>
-        <estate>Nobles</estate>
-        <description>Landholder governs the fief and has a duty of military service to the liege</description>
     </tenure>
     <tenure>
         <type>Burgage</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Burghers</stratification> 
+        <description>Landholder governs the fief and has a duty of monetary and military service to the liege</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>Territorial_Lord</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>Lord_of_the_Manor</tithing>
-            <hide>Vavasour</hide>
-            <virgate>Tenant_Paravail</virgate>
+            <premier>Mesne_Lord</premier>
+            <floor>Tenant_Paravail</floor>
         </feudal>
         <manor>
             <court>Halmote_Court</court>
@@ -162,20 +139,16 @@
             <tax>Talliage</tax>
             <service>Scot_and_Lot</service>
         </duty>
-        <estate>Burghers</estate> 
-        <description>Landholder governs the fief and has a duty of monetary and military service to the liege</description>
     </tenure>
     <tenure>
         <type>Serjeanty</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Peasants</stratification> 
+        <description>Landholder governs the fief and has a duty of petty renders to the liege</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>none</duchy>
-            <county>none</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>Lord_of_the_Manor</tithing>
-            <hide>Vavasour</hide>
-            <virgate>Tenant_Paravail</virgate>
+            <premier>Mesne_Lord</premier>
+            <floor>Tenant_Paravail</floor>
         </feudal>
         <manor>
             <court>Halmote_Court</court>
@@ -186,20 +159,16 @@
             <tax>Scutage</tax>
             <service>Avera_and_Inward</service>
         </duty> 
-        <estate>Peasants</estate> 
-        <description>Landholder governs the fief and has a duty of petty renders to the liege</description>
     </tenure>
     <tenure>
         <type>Socage</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Peasants</stratification> 
+        <description>Landholder governs the fief and has a duty of providing goods and services to the liege</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>none</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>Lord_of_the_Manor</tithing>
-            <hide>Vavasour</hide>
-            <virgate>none</virgate>
+            <premier>Mesne_Lord</premier>
+            <floor>Tenant_Paravail</floor>
         </feudal>
         <manor>
             <court>Halmote_Court</court>
@@ -210,20 +179,16 @@
             <tax>Socage</tax>
             <service>Corvee</service>
         </duty>
-        <estate>Peasants</estate> 
-        <description>Landholder governs the fief and has a duty of providing goods and services to the liege</description>
     </tenure>
     <tenure>
         <type>Villeinage</type>
+        <category>Fief</category>
+        <ownership>Fee_Simple</ownership>
+        <stratification>Peasants</stratification> 
+        <description>Landholder governs the fief and has a duty of providing goods and services to the liege</description>
         <feudal>
-            <empire>none</empire>
-            <kingdom>none</kingdom>
-            <duchy>none</duchy>
-            <county>Tenant_in_Chief</county>
-            <barony>Mesne_Lord</barony>
-            <tithing>Lord_of_the_Manor</tithing>
-            <hide>Vavasour</hide>
-            <virgate>Tenant_Paravail</virgate>
+            <premier>Mesne_Lord</premier>
+            <floor>Tenant_Paravail</floor>
         </feudal>
         <manor>
             <court>Halmote_Court</court>
@@ -234,7 +199,5 @@
             <tax>Chevage</tax>
             <service>Corvee</service>
         </duty>
-        <estate>Peasants</estate> 
-        <description>Landholder governs the fief and has a duty of providing goods and services to the liege</description>
     </tenure>
 </tenures>

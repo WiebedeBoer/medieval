@@ -32,13 +32,14 @@ class TithingSeeder extends Seeder
 				'hide_northwest' => '',			//, , , ; default=Fallow
 				'hide_southeast' => '',			//, , , ; default=Fallow
 				'hide_southwest' => '',			//, , , ; default=Fallow		
-				'imperial_realm' => null,		(empire); default=null
-				'realm' => null,					(kingdom); default=null
-				'petty_realm' => null,			(duchy); default=null
-				'shire' => null,					(county); default=null
-				'barony' => null,				(barony); default=null
-				'tithing' => null,				(tithing); default=null,
-				'allod' => null					(allodial); default=null
+				'empire' => null,				//(emperor); default=null
+				'kingdom' => null,				//(king); default=null
+				'duchy' => null,				//(duke); default=null
+				'county' => null,				//(count); default=null
+				'barony' => null,				//(baron); default=null
+				'tithing' => null,				//(); default=null
+				'allod' => null,				//(allodial); default=null
+				'caput_baroniae' => null		//(caput baroniae); default=null
             ]);
 			*/
 			

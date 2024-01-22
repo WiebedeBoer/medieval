@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <settlers>
   <settler>
-    <tenure>Frankalmoigne</tenure>
     <type>Priest</type>
+    <estates>
+      <first>Clergy</first>
+      <second>none</second>
+      <third>none</third>
+      <fourth>none</fourth>
+    </estates>
     <tutalage>
       <child>Novice</child>
       <adolescent>Acolyte</adolescent>
@@ -10,8 +15,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Frankalmoigne</tenure>
     <type>Monk</type>
+    <estates>
+      <first>Clergy</first>
+      <second>none</second>
+      <third>none</third>
+      <fourth>none</fourth>
+    </estates>
     <tutalage>
       <child>Novice</child>
       <adolescent>Acolyte</adolescent>
@@ -19,8 +29,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Per_Baroniam</tenure>
     <type>Noble</type>
+    <estates>
+      <first>none</first>
+      <second>Nobles</second>
+      <third>none</third>
+      <fourth>none</fourth>
+    </estates>
     <tutalage>
       <child>Page</child>
       <adolescent>Squire</adolescent>
@@ -28,8 +43,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Per_Baroniam</tenure>
     <type>Wife</type>
+    <estates>
+      <first>none</first>
+      <second>Nobles</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Maid</child>
       <adolescent>Damsel</adolescent>
@@ -37,8 +57,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Knight_Service</tenure>
     <type>Crusader</type>
+    <estates>
+      <first>none</first>
+      <second>Nobles</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Page</child>
       <adolescent>Squire</adolescent>
@@ -46,8 +71,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Knight_Service</tenure>
-    <type>Crusader</type>
+    <type>Knight</type>
+    <estates>
+      <first>none</first>
+      <second>Nobles</second>
+      <third>none</third>
+      <fourth>none</fourth>
+    </estates>
     <tutalage>
       <child>Page</child>
       <adolescent>Squire</adolescent>
@@ -55,8 +85,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Burgage</tenure>
     <type>Merchant</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>none</fourth>
+    </estates>
     <tutalage>
       <child>Apprentice</child>
       <adolescent>Journeyman</adolescent>
@@ -64,8 +99,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Burgage</tenure>
     <type>Craftsman</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>none</fourth>
+    </estates>
     <tutalage>
       <child>Apprentice</child>
       <adolescent>Journeyman</adolescent>
@@ -73,8 +113,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
     <type>Innkeeper</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Apprentice</child>
       <adolescent>Hostler</adolescent>
@@ -82,8 +127,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
     <type>Captain</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Apprentice</child>
       <adolescent>Cadet</adolescent>
@@ -91,8 +141,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
     <type>Sergeant</type>
+    <estates>
+      <first>Nobles</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Retainer</child>
       <adolescent>Huskarl</adolescent>
@@ -100,8 +155,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
     <type>Quartermaster</type>
+    <estates>
+      <first>Nobles</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Retainer</child>
       <adolescent>Huskarl</adolescent>
@@ -109,8 +169,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
     <type>Guard</type>
+    <estates>
+      <first>Nobles</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Retainer</child>
       <adolescent>Huskarl</adolescent>
@@ -118,8 +183,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
     <type>Gynour</type>
+    <estates>
+      <first>Nobles</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Retainer</child>
       <adolescent>Huskarl</adolescent>
@@ -127,17 +197,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Villeinage</tenure>
-    <type>Farmer</type>
-    <tutalage>
-      <child>Groom</child>
-      <adolescent>Farmhand</adolescent>
-      <adult>Farmer</adult>
-    <tutalage>
-  </settler>
-  <settler>
-    <tenure>Villeinage</tenure>
     <type>Miller</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Carrier</child>
       <adolescent>Millhand</adolescent>
@@ -145,8 +211,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Serjeanty</tenure>
     <type>Rogue</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Carrier</child>
       <adolescent>Knave</adolescent>
@@ -154,8 +225,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Serjeanty</tenure>
     <type>Pantler</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Carrier</child>
       <adolescent>Valet</adolescent>
@@ -163,8 +239,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Serjeanty</tenure>
     <type>Butler</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Carrier</child>
       <adolescent>Valet</adolescent>
@@ -172,8 +253,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Serjeanty</tenure>
     <type>Minstrel</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Carrier</child>
       <adolescent>Valet</adolescent>
@@ -181,8 +267,13 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Serjeanty</tenure>
     <type>Herald</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>Burghers</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Carrier</child>
       <adolescent>Valet</adolescent>
@@ -190,12 +281,31 @@
     <tutalage>
   </settler>
   <settler>
-    <tenure>Serjeanty</tenure>
     <type>Verderer</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>none</third>
+      <fourth>Peasants</fourth>
+    </estates>
     <tutalage>
       <child>Groom</child>
       <adolescent>Ranger</adolescent>
       <adult>Verderer</adult>
+    <tutalage>
+  </settler>
+  <settler>
+    <type>Farmer</type>
+    <estates>
+      <first>none</first>
+      <second>none</second>
+      <third>none</third>
+      <fourth>Peasants</fourth>
+    </estates>
+    <tutalage>
+      <child>Groom</child>
+      <adolescent>Farmhand</adolescent>
+      <adult>Farmer</adult>
     <tutalage>
   </settler>
 </settlers>

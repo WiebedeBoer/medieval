@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hierarchy>
+    <tier>
+        <title>Lord_Paramount</title>
+        <suzerain>none</suzerain>
+        <vassal>Tenant_in_Chief</vassal>
+        <premier>Empire</premier>
+        <floor>Duchy</floor>
+    </tier>
+    <tier>
+        <title>Tenant_in_Chief</title>
+        <suzerain>Lord_Paramount</suzerain>
+        <vassal>Mesne_Lord</vassal>
+        <premier>Kingdom</premier>
+        <floor>County</floor>
+    </tier>
+    <tier>
+        <title>Mesne_Lord</title>
+        <suzerain>Tenant_in_Chief</suzerain>
+        <vassal>Vavasour</vassal>
+        <premier>Duchy</premier>
+        <floor>Barony</floor>
+    </tier>
+    <tier>
+        <title>Vavasour</title>
+        <suzerain>Mesne_Lord</suzerain>
+        <vassal>Tenant_Paravail</vassal>
+        <premier>Barony</premier>
+        <floor>Tithing</floor>
+    </tier>
+    <tier>
+        <title>Tenant_Paravail</title>
+        <suzerain>Vavasour</suzerain>
+        <vassal>none</vassal>
+        <premier>Tithing</premier>
+        <floor>Tithing</floor>
+    </tier>
+</hierarchy>

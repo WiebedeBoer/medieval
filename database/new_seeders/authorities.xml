@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hierarchy>
+    <authority>
+        <title>Souvereign</title>
+        <rule>Supreme</rule>
+        <residence>Manor_House</residence>
+        <domain>Demesne</domain>
+        <lordship>Seignory</lordship>
+        <retinue>Retainers</retinue>
+    </authority>
+    <authority>
+        <title>Territorial_Lord</title>
+        <rule>Immediate</rule>
+        <residence>Manor_House</residence>
+        <domain>Demesne</domain>
+        <lordship>Seignory</lordship>
+        <retinue>Retainers</retinue>
+    </authority>
+    <authority>
+        <title>Lord_of_the_Manor</title>
+        <rule>Tenure</rule>
+        <residence>Manor_House</residence>
+        <domain>Demesne</domain>
+        <lordship>Seignory</lordship>
+        <retinue>Retainers</retinue>
+    </authority>
+</hierarchy>
