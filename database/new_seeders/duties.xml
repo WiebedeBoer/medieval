@@ -8,32 +8,37 @@
     <duty>
         <type>Livery</type>
         <category>Livery</category>
-        <description>To be given land as a gift and the right to wear livery of a lord</description>
+        <description>To be given land as a gift and the right to wear livery of a liege</description>
     </duty>
     <duty>
         <type>Tithe</type>
         <category>Tithe</category>
-        <description>Tithe paid at easter and michaelmas</description>
+        <description>Tithe paid at easter and michaelmas as contribution to the church</description>
     </duty>
     <duty>
         <type>Scutage</type>
         <category>Geld</category>
-        <description>Land tax paid at easter and michaelmas</description>
+        <description>Land tax paid at easter and michaelmas in lieu of military service</description>
     </duty>
     <duty>
         <type>Talliage</type>
         <category>Geld</category>
-        <description>Land tax paid at easter and michaelmas</description>
+        <description>Land tax paid at easter and michaelmas and assessed on cities and boroughs</description>
     </duty>
     <duty>
         <type>Socage</type>
         <category>Geld</category>
-        <description>Land tax paid at easter and michaelmas</description>
+        <description>Land tax paid at easter and michaelmas and assessed on farmers</description>
     </duty>
     <duty>
         <type>Carucage</type>
         <category>Geld</category>
-        <description>Land tax paid at easter and michaelmas</description>
+        <description>Land tax paid at easter and michaelmas variously calculated of the estate of the taxpayer</description>
+    </duty>
+    <duty>
+        <type>Chevage</type>
+        <category>Geld</category>
+        <description>Land tax paid at easter and michaelmas for tenants living outside the manor or villeins</description>
     </duty>
     <duty>
         <type>Benediction</type>
@@ -48,7 +53,7 @@
     <duty>
         <type>Avera_and_Inward</type>
         <category>Corvee</category>
-        <description>Carry items by horse and to provision a bodyguard during a visit</description>
+        <description>Obligation to carry items by horse and to provision a bodyguard during a visit</description>
     </duty>
     <duty>
         <type>Scot_and_Lot</type>
@@ -58,7 +63,7 @@
     <duty>
         <type>Corvee</type>
         <category>Corvee</category>
-        <description>Labour to provide goods and maintenance</description>
+        <description>Obligation to labour and maintain or to provide goods</description>
     </duty>
     <duty>
         <type>Pavage</type>
