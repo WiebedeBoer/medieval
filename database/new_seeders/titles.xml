@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<titles>
+    <title>
+        <type>emperor</type>
+        <hierarchy>empire</hierarchy>
+    </title>
+    <title>
+        <type>king</type>
+        <hierarchy>kingdom</hierarchy>
+    </title>
+    <title>
+        <type>duke</type>
+        <hierarchy>duchy</hierarchy>
+    </title>
+    <title>
+        <type>count</type>
+        <hierarchy>county</hierarchy>
+    </title>
+    <title>
+        <type>baron</type>
+        <hierarchy>barony</hierarchy>
+    </title>
+    <title>
+        <type>knight</type>
+        <hierarchy>tithing</hierarchy>
+    </title>
+</titles>

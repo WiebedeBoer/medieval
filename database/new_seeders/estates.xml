@@ -34,7 +34,7 @@
         <title>Tithing</title>
         <suzerain>Barony</suzerain>
         <vassal>Hide</vassal>
-        <authority>Lord_of_the_Manor</authority>
+        <authority>Knighthood</authority>
     </tier>
     <tier>
         <title>Hide</title>

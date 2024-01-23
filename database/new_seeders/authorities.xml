@@ -24,4 +24,12 @@
         <lordship>Seignory</lordship>
         <retinue>Retainers</retinue>
     </authority>
+    <authority>
+        <title>Knighthood</title>
+        <rule>Tenure</rule>
+        <residence>Manor_House</residence>
+        <domain>Demesne</domain>
+        <lordship>Seignory</lordship>
+        <retinue>Retainers</retinue>
+    </authority>
 </hierarchy>
