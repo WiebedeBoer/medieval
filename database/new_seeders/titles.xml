@@ -1,27 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <titles>
     <title>
-        <type>emperor</type>
-        <hierarchy>empire</hierarchy>
+        <type>Emperor</type>
+        <fief>Empire</fief>
+        <stratification>Nobles</stratification>
     </title>
     <title>
-        <type>king</type>
-        <hierarchy>kingdom</hierarchy>
+        <type>King</type>
+        <fief>Kingdom</fief>
+        <stratification>Nobles</stratification>
     </title>
     <title>
-        <type>duke</type>
-        <hierarchy>duchy</hierarchy>
+        <type>Grand_Prince</type>
+        <fief>Kingdom</fief>
+        <stratification>Nobles</stratification>
     </title>
     <title>
-        <type>count</type>
-        <hierarchy>county</hierarchy>
+        <type>Grand_Duke</type>
+        <fief>Kingdom</fief>
+        <stratification>Nobles</stratification>
     </title>
     <title>
-        <type>baron</type>
-        <hierarchy>barony</hierarchy>
+        <type>Archduke</type>
+        <fief>Kingdom</fief>
+        <stratification>Nobles</stratification>
     </title>
     <title>
-        <type>knight</type>
-        <hierarchy>tithing</hierarchy>
+        <type>Prince</type>
+        <fief>Duchy</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Duke</type>
+        <fief>Duchy</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Margrave</type>
+        <fief>County</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Count_Palatinate</type>
+        <fief>County</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Count</type>
+        <fief>County</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Castellan</type>
+        <fief>Barony</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Baron</type>
+        <fief>Barony</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Lord</type>
+        <fief>Barony</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Knight_Banneret</type>
+        <fief>Tithing</fief>
+        <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Knight</type>
+        <fief>Tithing</fief>
+        <stratification>Nobles</stratification>
     </title>
 </titles>

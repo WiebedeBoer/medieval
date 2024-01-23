@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<classes>
+    <class>
+        <title>Noble</title>
+        <category>none</category>
+        <stratification>Nobles</stratification>
+    </class>
+    <class>
+        <title>Knight</title>
+        <category>none</category>
+        <stratification>Nobles</stratification>
+    </class>
+    <class>
+        <title>Yeoman</title>
+        <category>none</category>
+        <stratification>Peasants</stratification>
+    </class>
+    <class>
+        <title>Franklin</title>
+        <category>none</category>
+        <stratification>Peasants</stratification>
+    </class>
+    <class>
+        <title>Husbandman</title>
+        <category>none</category>
+        <stratification>Peasants</stratification>
+    </class>
+    <class>
+        <title>Villein</title>
+        <category>none</category>
+        <stratification>Peasants</stratification>
+    </class>
+    <class>
+        <title>Cottar</title>
+        <category>none</category>
+        <stratification>Peasants</stratification>
+    </class>
+    <class>
+        <title>Serf</title>
+        <category>none</category>
+        <stratification>Peasants</stratification>
+    </class>
+</classes>
