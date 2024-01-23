@@ -5,37 +5,37 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Open Field System</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Three Field System</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Horse Collar</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Agronomics</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Post Mill</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Basket Press</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Charter Rolls</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Gothic Urbanization</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Paper Mill</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Renaissance Urbanization</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Renaissance Viticulture</technology> 
         </maritime> 
     </eras>
   </category>
@@ -44,37 +44,37 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Hop Cultivation</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Arab Caravan</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Distillation</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Horizontal Loom</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Spinning Wheel</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Blast Furnace</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Major Guilds</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Lesser Guilds</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Canada System</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Maiolica</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Stagecoach</technology> 
         </maritime> 
     </eras>
   </category>
@@ -83,37 +83,37 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Fealty</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Lyric Poetry</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Viking Fealty</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Lombard Commune</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Courtly Love</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Norman Commune</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Great Council</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Fables</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Table Games</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Rondeau</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Canvas</technology> 
         </maritime> 
     </eras>
   </category>
@@ -122,37 +122,37 @@
     <master>Chancellor</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Lay Investiture</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Capitulary</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Algebra</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Scholae</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Early Scholasticism</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Studium Generale</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Studium Liberalia</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>High Scholasticism</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Studium Humanitas</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Renaissance Scholasticism</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Conciliarism</technology> 
         </maritime> 
     </eras>
   </category>
@@ -161,37 +161,37 @@
     <master>Treasurer</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Emporium</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Chancery</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Urbarium</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Imperial Administration</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Pancartes</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Great Survey</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Merchant Bank</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Anchor Currency</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Bookkeeping</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Land Terrier</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Mercantilism</technology> 
         </maritime> 
     </eras>
   </category>
@@ -200,37 +200,37 @@
     <master>Chamberlain</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Samite Fabric</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Damask Fabric</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Velvet Fabric</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Hoftag</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Palas</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Heraldry</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Chimney</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Parlor</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Tabard</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Tapestry</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Cassone</technology> 
         </maritime> 
     </eras>
   </category>
@@ -239,37 +239,37 @@
     <master>Constable</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Stirrup</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Knighthood</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Horseshoe</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Chevauchee</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Seljuk Sabre</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Turcopole</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Civalry</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Jinete</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Hobelar</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Rowel Spurs</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Gendarme</technology> 
         </maritime> 
     </eras>
   </category>
@@ -278,37 +278,37 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Spangenhelm</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Spangenhelm</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Nasal Helm</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Yarm Helm</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Vendel Helm</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Kettle Hat</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Enclosed Helm</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Great Helm</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Bascinet</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Sallet</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Armet</technology> 
         </maritime> 
     </eras>
   </category>
@@ -317,37 +317,37 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Hauberk</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Hauberk</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Viking Hauberk</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ottonian Hauberk</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Romanesque Hauberk</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Jazerant</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Coat of Plates</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Brigandine</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Breastplates</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Faulds</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Plate Armor</technology> 
         </maritime> 
     </eras>
   </category>
@@ -356,37 +356,37 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Sword</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Sword</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Viking Sword</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ottonian Sword</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Knightly Sword</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Arming Sword</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Dagger</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Longsword</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Fencing Books</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Claymore</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Great Sword</technology> 
         </maritime> 
     </eras>
   </category>
@@ -395,37 +395,37 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Bill</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Bill</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Hafted Axe</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ottonian Bill</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Bill Guisarme</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Fauchard</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Routier</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Bardiche</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Halberd</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Poleaxe</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Voulge Guisarme</technology> 
         </maritime> 
     </eras>
   </category>
@@ -434,37 +434,37 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Francisca</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Shortbow</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Viking Shortbow</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Crossbow</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Seljuk Bow</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Norman Shortbow</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Arbalest</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Pavise</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Longbow</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Culverin</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Arquebus</technology> 
         </maritime> 
     </eras>
   </category>
@@ -473,37 +473,37 @@
     <master>Admiral</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Lapstrake</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Portage</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Staple Right</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Byzantine Lateen Rig</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Customs Post</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Factory</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Sternpost Rudder</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Portolan Chart</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Portuguese Lateen Rig</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Quarantine</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Full Rig</technology> 
         </maritime> 
     </eras>
   </category>
@@ -512,37 +512,37 @@
     <master>Master of the Revels</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Falconry</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Coronation Banquet</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Tourney</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ceremony</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Romanesque Fairs</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Troubadours</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Gothic Fairs</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Joust</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Hastilude</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Saltarello</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Chamber of Rhetoric</technology> 
         </maritime> 
     </eras>
   </category>
@@ -551,37 +551,37 @@
     <master>Castellan</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Ribat</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Albarrana Tower</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Motte and Bailey</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Enceinte</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Donjon</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Concentric Castle</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Bastide</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Barbican</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Kremlin</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Zwinger</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Roundel</technology> 
         </maritime> 
     </eras>
   </category>
@@ -590,37 +590,37 @@
     <master>Master Mason</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Cloister</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Ribbed Vault</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Byzantine Arcade</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ottonian Arcade</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Groin Vault</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Archivolt</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Lancet Window</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Treadwheel Crane</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Fan Vault</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Renaissance Arcade</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Renaissance Dome</technology> 
         </maritime> 
     </eras>
   </category>
@@ -629,37 +629,37 @@
     <master>Siege Engineer</master>
     <eras> 
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Mangonel</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Arab Mangonel</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Viking Mangonel</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ottonian Mangonel</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Hoarding</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Springald</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Counterpoise Trebuchet</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Gunpowder</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Cannon</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Gun Loop</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Bombard</technology> 
         </maritime> 
     </eras>
   </category>
@@ -668,37 +668,37 @@
     <master>Chronicler</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Insular Manuscripts</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Manuscripts</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Byzantine Manuscripts</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Ottonian Manuscripts</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Romanesque Manuscripts</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Norman Manuscripts</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Gothic Manuscripts</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Roll of Arms</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Painted Panel Altars</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Renaissance Manuscripts</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Blockbooks</technology> 
         </maritime> 
     </eras>
   </category>
@@ -707,37 +707,37 @@
     <master>Almoner</master>
     <eras>
         <merovingian>
-            <technology></technology>      
+            <technology>Merovingian Relics</technology>      
         </merovingian> 
         <carolingian>
-            <technology></technology>      
+            <technology>Carolingian Relics</technology>      
         </carolingian> 
         <viking>
-            <technology></technology> 
+            <technology>Herbalism</technology> 
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Pharmacy</technology> 
         </ottonian>
         <romanesque>
-            <technology></technology> 
+            <technology>Medicine</technology> 
         </romanesque>
         <norman>
-            <technology></technology> 
+            <technology>Passagium Generale</technology> 
         </norman>
         <gothic>
-            <technology></technology> 
+            <technology>Morality Play</technology> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
+            <technology>Gothic Mendicant</technology> 
         </rayonnant>
         <flamboyant>
-            <technology></technology> 
+            <technology>Gothic Relics</technology> 
         </flamboyant>
         <italian>
-            <technology></technology> 
+            <technology>Renaissance Mendicant</technology> 
         </italian>
         <maritime>
-            <technology></technology> 
+            <technology>Renaissance Relics</technology> 
         </maritime> 
     </eras>
   </category>
