@@ -5,37 +5,70 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology>Open Field System</technology>      
+            <technology>Open Field System</technology> 
+            <historic>false</historic>
+            <year>741</year>
+            <intro>Boniface and Odilo of Bavaria sponsor a collection of tribal laws</intro>     
         </merovingian> 
         <carolingian>
-            <technology>Three Field System</technology>      
+            <technology>Three Field System</technology>
+            <historic>false</historic>
+            <year>765</year>
+            <intro>Three-field crop rotation system in use in medieval Europe</intro>        
         </carolingian> 
         <viking>
-            <technology>Horse Collar</technology> 
+            <technology>Horse Collar</technology>
+            <historic>false</historic>
+            <year>800</year>
+            <intro>Horse collar in use in medieval Europe</intro>   
         </viking> 
         <ottonian>
-            <technology>Agronomics</technology> 
+            <technology>Hoftag</technology> 
+            <historic>true</historic>
+            <year>919</year>
+            <intro>German nobles elect Henry the Fowler</intro> 
         </ottonian>
         <romanesque>
-            <technology>Post Mill</technology> 
+            <technology>Palas</technology> 
+            <historic>false</historic>
+            <year>1043</year>
+            <intro>Henry III the Black marries Agnes of Poitou at the Imperial Palace</intro> 
         </romanesque>
         <norman>
-            <technology>Basket Press</technology> 
+            <technology>Basket Press</technology>
+            <historic>false</historic>
+            <year>1098</year>
+            <intro>Robert of Molesme founds Citeaux Abbey</intro>  
         </norman>
         <gothic>
-            <technology>Charter Rolls</technology> 
+            <technology>Charter Rolls</technology>
+            <historic>false</historic>
+            <year>1199</year>
+            <intro>Chancery commences to keep the Charter Rolls</intro>  
         </gothic>
         <rayonnant>
-            <technology>Gothic Urbanization</technology> 
+            <technology>Gothic Urbanization</technology>
+            <historic>false</historic>
+            <year>1254</year>
+            <intro>Copenhagen receives its city charter</intro>   
         </rayonnant>
         <flamboyant>
-            <technology>Paper Mill</technology> 
+            <technology>Canada System</technology> 
+            <historic>false</historic>
+            <year>1347</year>
+            <intro>Mesta charter is supplemented</intro>  
         </flamboyant>
         <italian>
-            <technology>Renaissance Urbanization</technology> 
+            <technology>Renaissance Urbanization</technology>
+            <historic>false</historic>
+            <year>1378</year>
+            <intro>Ciompi wool carders revolt occurs in Florence</intro>   
         </italian>
         <maritime>
             <technology>Renaissance Viticulture</technology> 
+            <historic>false</historic>
+            <year>1435</year>
+            <intro>John IV of Katzenelnbogen plants Riesling</intro>  
         </maritime> 
     </eras>
   </category>
@@ -44,37 +77,70 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology>Hop Cultivation</technology>      
+            <technology>Hop Cultivation</technology>
+            <historic>false</historic>
+            <year>730</year>
+            <intro>Hops are cultivated in Hallertau</intro>         
         </merovingian> 
         <carolingian>
-            <technology>Arab Caravan</technology>      
+            <technology>Arab Caravan</technology>  
+            <historic>false</historic>
+            <year>757</year>
+            <intro>Berbers found Sijilmasa as an Sahara route entrepot</intro>      
         </carolingian> 
         <viking>
             <technology>Distillation</technology> 
+            <historic>false</historic>
+            <year>873</year>
+            <intro>Al-Kindi compiles his book on distillation</intro>  
         </viking> 
         <ottonian>
-            <technology>Horizontal Loom</technology> 
+            <technology>Agronomics</technology>
+            <historic>false</historic>
+            <year>950</year>
+            <intro>Constantine VII Porphyrogenitus sponsors the Geoponica</intro>   
         </ottonian>
         <romanesque>
-            <technology>Spinning Wheel</technology> 
+            <technology>Post Mill</technology>
+            <historic>false</historic>
+            <year>1001</year>
+            <intro>Post mill invented in Flanders</intro>   
         </romanesque>
         <norman>
             <technology>Blast Furnace</technology> 
+            <historic>false</historic>
+            <year>1118</year>
+            <intro>Abbey of Fontenay constructs a forge</intro>  
         </norman>
         <gothic>
             <technology>Major Guilds</technology> 
+            <historic>false</historic>
+            <year>1156</year>
+            <intro>Augsburg craft guilds are organized</intro>  
         </gothic>
         <rayonnant>
             <technology>Lesser Guilds</technology> 
+            <historic>false</historic>
+            <year>1246</year>
+            <intro>Florence guilds are reorganized</intro>  
         </rayonnant>
         <flamboyant>
-            <technology>Canada System</technology> 
+            <technology>Paper Mill</technology>
+            <historic>false</historic>
+            <year>1282</year>
+            <intro>Water powered paper mill established in Aragon</intro>  
         </flamboyant>
         <italian>
             <technology>Maiolica</technology> 
+            <historic>false</historic>
+            <year>1375</year>
+            <intro>Maiolica workshops spread in Tuscany</intro>  
         </italian>
         <maritime>
             <technology>Stagecoach</technology> 
+            <historic>false</historic>
+            <year>1421</year>
+            <intro>Kocs inhabitants make wagons for the daughter of King Zsigmond</intro>   
         </maritime> 
     </eras>
   </category>
@@ -83,37 +149,70 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Fealty</technology>      
+            <technology>Merovingian Fealty</technology>  
+            <historic>false</historic>
+            <year>743</year>
+            <intro>Odilo of Bavaria vassalizes Carantania</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Lyric Poetry</technology>      
+            <technology>Lyric Poetry</technology>  
+            <historic>false</historic>
+            <year>778</year>
+            <intro>Roland killed at the battle of Roncevaux</intro>       
         </carolingian> 
         <viking>
             <technology>Viking Fealty</technology> 
+            <historic>false</historic>
+            <year>840</year>
+            <intro>Rollo swears allegiance after the siege of Chartres</intro>  
         </viking> 
         <ottonian>
             <technology>Lombard Commune</technology> 
+            <historic>false</historic>
+            <year>965</year>
+            <intro>King Lothair III captures many cities in Flanders</intro>  
         </ottonian>
         <romanesque>
             <technology>Courtly Love</technology> 
+            <historic>false</historic>
+            <year>1028</year>
+            <intro>Ibn Sina completes his Treatise on Love</intro>  
         </romanesque>
         <norman>
             <technology>Norman Commune</technology> 
+            <historic>false</historic>
+            <year>1112</year>
+            <intro>Laon erupts in revolt</intro>  
         </norman>
         <gothic>
             <technology>Great Council</technology> 
+            <historic>false</historic>
+            <year>1162</year>
+            <intro>King Henry II appoints Thomas Becket</intro>  
         </gothic>
         <rayonnant>
             <technology>Fables</technology> 
+            <historic>false</historic>
+            <year>1250</year>
+            <intro>William completes his Reynard the Fox</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Table Games</technology> 
+            <historic>false</historic>
+            <year>1283</year>
+            <intro>Alfonso X the Wise completes his Book of Games</intro>  
         </flamboyant>
         <italian>
             <technology>Rondeau</technology> 
+            <historic>false</historic>
+            <year>1387</year>
+            <intro>Geoffrey Chaucer commences his Canterbury Tales</intro>  
         </italian>
         <maritime>
             <technology>Canvas</technology> 
+            <historic>false</historic>
+            <year>1432</year>
+            <intro>Jan van Eyck completes his Portrait of a Man</intro>   
         </maritime> 
     </eras>
   </category>
@@ -122,37 +221,70 @@
     <master>Chancellor</master>
     <eras>
         <merovingian>
-            <technology>Lay Investiture</technology>      
+            <technology>Lay Investiture</technology>
+            <historic>false</historic>
+            <year>735</year>
+            <intro>Ecgbert of York receives the pallium from pope Gregory III</intro>        
         </merovingian> 
         <carolingian>
-            <technology>Capitulary</technology>      
+            <technology>Capitulary</technology> 
+            <historic>false</historic>
+            <year>779</year>
+            <intro>The Capitulary of Herstal is issued</intro>      
         </carolingian> 
         <viking>
             <technology>Algebra</technology> 
+            <historic>false</historic>
+            <year>833</year>
+            <intro>Al-Khwarizmi compiles his Book on Calculations</intro> 
         </viking> 
         <ottonian>
-            <technology>Scholae</technology> 
+            <technology>Scholae</technology>
+            <historic>false</historic>
+            <year>978</year>
+            <intro>Dunstan teaches at a cathedral school</intro>  
         </ottonian>
         <romanesque>
             <technology>Early Scholasticism</technology> 
+            <historic>false</historic>
+            <year>1063</year>
+            <intro>Anselm of Canterbury becomes abbot of Bec</intro> 
         </romanesque>
         <norman>
             <technology>Studium Generale</technology> 
+            <historic>false</historic>
+            <year>1088</year>
+            <intro>Guild of students found the university of Bologna</intro> 
         </norman>
         <gothic>
             <technology>Studium Liberalia</technology> 
+            <historic>false</historic>
+            <year>1185</year>
+            <intro>Herrad of Landsberg completes her Hortus Deliciarum</intro> 
         </gothic>
         <rayonnant>
             <technology>High Scholasticism</technology> 
+            <historic>false</historic>
+            <year>1265</year>
+            <intro>Thomas Aquinas completes his Summa Theologica</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Studium Humanitas</technology> 
+            <historic>false</historic>
+            <year>1309</year>
+            <intro>Pope Clement V moves Curia to Avignon</intro> 
         </flamboyant>
         <italian>
             <technology>Renaissance Scholasticism</technology> 
+            <historic>false</historic>
+            <year>1419</year>
+            <intro>Reconstruction of the Basilica of San Lorenzo in Florence</intro> 
         </italian>
         <maritime>
             <technology>Conciliarism</technology> 
+            <historic>false</historic>
+            <year>1431</year>
+            <intro>The council of Basil is convoked</intro> 
         </maritime> 
     </eras>
   </category>
@@ -161,37 +293,70 @@
     <master>Treasurer</master>
     <eras>
         <merovingian>
-            <technology>Emporium</technology>      
+            <technology>Emporium</technology> 
+            <historic>false</historic>
+            <year>724</year>
+            <intro>Frisian potters produce wheel turn pottery at Ipswich</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Chancery</technology>      
+            <technology>Chancery</technology> 
+            <historic>false</historic>
+            <year>782</year>
+            <intro>Charlemagne appoints Alcuin as advisor</intro>      
         </carolingian> 
         <viking>
             <technology>Urbarium</technology> 
+            <historic>false</historic>
+            <year>828</year>
+            <intro>Pippin I of Aquitaine issues a land register</intro> 
         </viking> 
         <ottonian>
             <technology>Imperial Administration</technology> 
+            <historic>false</historic>
+            <year>952</year>
+            <intro>Constantine VII Porphyrogenitus compiles De Administrando Imperio</intro> 
         </ottonian>
         <romanesque>
             <technology>Pancartes</technology> 
+            <historic>false</historic>
+            <year>996</year>
+            <intro>The monk Hemming commences a cartulary</intro> 
         </romanesque>
         <norman>
             <technology>Great Survey</technology> 
+            <historic>false</historic>
+            <year>1086</year>
+            <intro>Domesday Book compiled at Winchester</intro> 
         </norman>
         <gothic>
-            <technology>Merchant Bank</technology> 
+            <technology>Merchant Bank</technology>
+            <historic>false</historic>
+            <year>1216</year>
+            <intro>Cahorsins are present at the Champagne Fairs</intro>  
         </gothic>
         <rayonnant>
-            <technology>Anchor Currency</technology> 
+            <technology>Anchor Currency</technology>
+            <historic>false</historic>
+            <year>1252</year>
+            <intro>First minting of the Florin</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Bookkeeping</technology> 
+            <historic>false</historic>
+            <year>1299</year>
+            <intro>The Farolfi firm from Florence employs Amatino Manucci</intro> 
         </flamboyant>
         <italian>
-            <technology>Land Terrier</technology> 
+            <technology>Land Terrier</technology>
+            <historic>false</historic>
+            <year>1412</year>
+            <intro>The Medici Family are made official bankers of the Papacy</intro>  
         </italian>
         <maritime>
             <technology>Mercantilism</technology> 
+            <historic>false</historic>
+            <year>1422</year>
+            <intro>Murad II blockades Thessalonica</intro> 
         </maritime> 
     </eras>
   </category>
@@ -200,37 +365,70 @@
     <master>Chamberlain</master>
     <eras>
         <merovingian>
-            <technology>Samite Fabric</technology>      
+            <technology>Samite Fabric</technology> 
+            <historic>false</historic>
+            <year>733</year>
+            <intro>Constantine V marries Tzitzak</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Damask Fabric</technology>      
+            <technology>Damask Fabric</technology> 
+            <historic>false</historic>
+            <year>775</year>
+            <intro>Andalusian merchants set up an emporium</intro>      
         </carolingian> 
         <viking>
             <technology>Velvet Fabric</technology> 
+            <historic>false</historic>
+            <year>822</year>
+            <intro>Ziryab introduces velvet to Al-Andalus</intro> 
         </viking> 
         <ottonian>
-            <technology>Hoftag</technology> 
+            <technology>Horizontal Loom</technology> 
+            <historic>false</historic>
+            <year>980</year>
+            <intro>Horizontal Loom in use in medieval Europe</intro>  
         </ottonian>
         <romanesque>
-            <technology>Palas</technology> 
+            <technology>Spinning Wheel</technology> 
+            <historic>false</historic>
+            <year>1030</year>
+            <intro>Spinning wheel invented in the Islamic world</intro>  
         </romanesque>
         <norman>
             <technology>Heraldry</technology> 
+            <historic>false</historic>
+            <year>1067</year>
+            <intro>William issues an Equestrian Seal</intro> 
         </norman>
         <gothic>
             <technology>Chimney</technology> 
+            <historic>false</historic>
+            <year>1184</year>
+            <intro>Hamelin rebuilts Conisbrough castle</intro> 
         </gothic>
         <rayonnant>
             <technology>Parlor</technology> 
+            <historic>false</historic>
+            <year>1237</year>
+            <intro>Teutonic Order absorbs the Livonian Brothers of the Sword</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Tabard</technology> 
+            <historic>false</historic>
+            <year>1300</year>
+            <intro>Tabard in use</intro> 
         </flamboyant>
         <italian>
             <technology>Tapestry</technology> 
+            <historic>false</historic>
+            <year>1399</year>
+            <intro>Philip the Bold of Burgundy orders tapestries from Paris</intro> 
         </italian>
         <maritime>
             <technology>Cassone</technology> 
+            <historic>false</historic>
+            <year>1442</year>
+            <intro></intro> 
         </maritime> 
     </eras>
   </category>
@@ -239,37 +437,70 @@
     <master>Constable</master>
     <eras>
         <merovingian>
-            <technology>Stirrup</technology>      
+            <technology>Stirrup</technology>  
+            <historic>false</historic>
+            <year>732</year>
+            <intro>Charles Martel defeats Abdul Rahman Al Ghafiqi near Poitiers</intro>     
         </merovingian> 
         <carolingian>
-            <technology>Knighthood</technology>      
+            <technology>Knighthood</technology>
+            <historic>false</historic>
+            <year>756</year>
+            <intro>Pepin the Short defeats Aistulf</intro>       
         </carolingian> 
         <viking>
             <technology>Horseshoe</technology> 
+            <historic>false</historic>
+            <year>910</year>
+            <intro>Hungarians victorious in the first battle of Lechfeld</intro> 
         </viking> 
         <ottonian>
             <technology>Chevauchee</technology> 
+            <historic>false</historic>
+            <year>985</year>
+            <intro>Al-Mansur sacks Barcelona</intro> 
         </ottonian>
         <romanesque>
             <technology>Seljuk Sabre</technology> 
+            <historic>false</historic>
+            <year>1038</year>
+            <intro>Tughril conquers Nishapur and Merv</intro> 
         </romanesque>
         <norman>
             <technology>Turcopole</technology> 
+            <historic>false</historic>
+            <year>1099</year>
+            <intro>Crusaders head towards Jerusalem</intro> 
         </norman>
         <gothic>
-            <technology>Civalry</technology> 
+            <technology>Chivalry</technology> 
+            <historic>false</historic>
+            <year>1179</year>
+            <intro>Saladin captures Hugh II of Saint Omer</intro> 
         </gothic>
         <rayonnant>
             <technology>Jinete</technology> 
+            <historic>false</historic>
+            <year>1238</year>
+            <intro>James I of Aragon conquers Valencia</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Hobelar</technology> 
+            <historic>false</historic>
+            <year>1355</year>
+            <intro>Edward of Woodstock marches from Bordeaux</intro> 
         </flamboyant>
         <italian>
             <technology>Rowel Spurs</technology> 
+            <historic>false</historic>
+            <year>1390</year>
+            <intro>Rowel spurs in use in medieval Europe</intro> 
         </italian>
         <maritime>
             <technology>Gendarme</technology> 
+            <historic>false</historic>
+            <year>1439</year>
+            <intro>Charles VII of France issues an ordinance at Orleans</intro> 
         </maritime> 
     </eras>
   </category>
@@ -278,37 +509,70 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Spangenhelm</technology>      
+            <technology>Merovingian Spangenhelm</technology>
+            <historic>false</historic>
+            <year>750</year>
+            <intro>Alfonso I of Asturias establishes the Kingdom of Galicia</intro>       
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Spangenhelm</technology>      
+            <technology>Carolingian Spangenhelm</technology> 
+            <historic>false</historic>
+            <year>772</year>
+            <intro>Charlemagne launches a campaign against the Saxons</intro>      
         </carolingian> 
         <viking>
             <technology>Nasal Helm</technology> 
+            <historic>false</historic>
+            <year>862</year>
+            <intro>Varangians settle in Novgorod under the leadership of Rurik</intro> 
         </viking> 
         <ottonian>
             <technology>Yarm Helm</technology> 
+            <historic>false</historic>
+            <year>970</year>
+            <intro>Vikings sail to England and demand Danegeld</intro> 
         </ottonian>
         <romanesque>
             <technology>Vendel Helm</technology> 
+            <historic>false</historic>
+            <year>1019</year>
+            <intro>Yaroslav the Wise becomes grand prince of Kiev</intro> 
         </romanesque>
         <norman>
             <technology>Kettle Hat</technology> 
+            <historic>false</historic>
+            <year>1105</year>
+            <intro>Henry I Beauclerc invades Normandy</intro> 
         </norman>
         <gothic>
             <technology>Enclosed Helm</technology> 
+            <historic>false</historic>
+            <year>1181</year>
+            <intro>Henry the Lion submits to Frederick I</intro> 
         </gothic>
         <rayonnant>
             <technology>Great Helm</technology> 
+            <historic>true</historic>
+            <year>1236</year>
+            <intro>Ferdinand III the Saint besieges Cordoba</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Bascinet</technology> 
+            <historic>false</historic>
+            <year>1281</year>
+            <intro>Bascinet in use in Padua</intro> 
         </flamboyant>
         <italian>
             <technology>Sallet</technology> 
+            <historic>false</historic>
+            <year>1407</year>
+            <intro>Gianfrancesco I Gonzaga inherits the rule of Mantua</intro> 
         </italian>
         <maritime>
             <technology>Armet</technology> 
+            <historic>false</historic>
+            <year>1424</year>
+            <intro>Visconti of Milan captures Malatesta of Florence at Zagonara</intro> 
         </maritime> 
     </eras>
   </category>
@@ -317,37 +581,70 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Hauberk</technology>      
+            <technology>Merovingian Hauberk</technology> 
+            <historic>false</historic>
+            <year>736</year>
+            <intro>Charles Martel forms an alliance with the Burgundians</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Hauberk</technology>      
+            <technology>Carolingian Hauberk</technology>  
+            <historic>false</historic>
+            <year>786</year>
+            <intro>Harun al-Rashid ascends the throne</intro>     
         </carolingian> 
         <viking>
             <technology>Viking Hauberk</technology> 
+            <historic>false</historic>
+            <year>794</year>
+            <intro>Vikings sack Monkwearmouth</intro> 
         </viking> 
         <ottonian>
             <technology>Ottonian Hauberk</technology> 
+            <historic>false</historic>
+            <year>937</year>
+            <intro>Otto I the Great appoints Gero as margrave of Merseburg</intro> 
         </ottonian>
         <romanesque>
             <technology>Romanesque Hauberk</technology> 
+            <historic>false</historic>
+            <year>1020</year>
+            <intro>Ethelnoth of Canterbury sponsors the Harley Psalter</intro> 
         </romanesque>
         <norman>
             <technology>Jazerant</technology> 
+            <historic>false</historic>
+            <year>1090</year>
+            <intro>Yusuf ibn Tashfin launches expedition in Al-Andalus</intro> 
         </norman>
         <gothic>
             <technology>Coat of Plates</technology> 
+            <historic>false</historic>
+            <year>1190</year>
+            <intro>German fraternity founds the Teutonic Order</intro> 
         </gothic>
         <rayonnant>
             <technology>Brigandine</technology> 
+            <historic>false</historic>
+            <year>1242</year>
+            <intro>Mongols besiege Esztergom</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Breastplates</technology> 
+            <historic>false</historic>
+            <year>1340</year>
+            <intro>Battle of Saint Omer</intro> 
         </flamboyant>
         <italian>
             <technology>Faulds</technology> 
+            <historic>false</historic>
+            <year>1371</year>
+            <intro>Treaty of Tagilde is signed</intro> 
         </italian>
         <maritime>
             <technology>Plate Armor</technology> 
+            <historic>false</historic>
+            <year>1425</year>
+            <intro>Plate armor in use in medieval Europe</intro> 
         </maritime> 
     </eras>
   </category>
@@ -356,37 +653,70 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Sword</technology>      
+            <technology>Merovingian Sword</technology>  
+            <historic>false</historic>
+            <year>734</year>
+            <intro>Charles Martel defeats Poppo at the battle of the Boarn</intro>     
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Sword</technology>      
+            <technology>Carolingian Sword</technology>  
+            <historic>false</historic>
+            <year>769</year>
+            <intro>Charlemagne launches military campaign against Aquitaine</intro>     
         </carolingian> 
         <viking>
             <technology>Viking Sword</technology> 
+            <historic>false</historic>
+            <year>844</year>
+            <intro>Vikings raid Seville</intro> 
         </viking> 
         <ottonian>
             <technology>Ottonian Sword</technology> 
+            <historic>false</historic>
+            <year>948</year>
+            <intro>Henry I of Bavaria defeats an Hungarian army</intro> 
         </ottonian>
         <romanesque>
             <technology>Knightly Sword</technology> 
+            <historic>false</historic>
+            <year>993</year>
+            <intro>Otto III gifts swords to the convent of Essen</intro> 
         </romanesque>
         <norman>
             <technology>Arming Sword</technology> 
+            <historic>true</historic>
+            <year>1066</year>
+            <intro>William the Conqueror assembles a fleet in readiness for an invasion</intro> 
         </norman>
         <gothic>
             <technology>Dagger</technology> 
+            <historic>false</historic>
+            <year>1152</year>
+            <intro>Raymond II is assassinated</intro> 
         </gothic>
         <rayonnant>
             <technology>Longsword</technology> 
+            <historic>false</historic>
+            <year>1266</year>
+            <intro>Charles I of Anjou defeats Manfred of Sicily at the Battle of Benevento</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Fencing Books</technology> 
+            <historic>false</historic>
+            <year>1320</year>
+            <intro>Johannes Lichtenauer completes his combat manual</intro> 
         </flamboyant>
         <italian>
             <technology>Claymore</technology> 
+            <historic>false</historic>
+            <year>1402</year>
+            <intro>Archibald Douglas clashes with the English at Nesbit Moor</intro> 
         </italian>
         <maritime>
             <technology>Great Sword</technology> 
+            <historic>false</historic>
+            <year>1429</year>
+            <intro>Joan of Arc enters Orleans with a relief expedition</intro> 
         </maritime> 
     </eras>
   </category>
@@ -395,37 +725,70 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Bill</technology>      
+            <technology>Merovingian Bill</technology> 
+            <historic>false</historic>
+            <year>725</year>
+            <intro>Charles Martel invades Bavaria</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Bill</technology>      
+            <technology>Carolingian Bill</technology>   
+            <historic>false</historic>
+            <year>760</year>
+            <intro>Pepin the Short launches a campaign in Septimania</intro>    
         </carolingian> 
         <viking>
             <technology>Hafted Axe</technology> 
+            <historic>true</historic>
+            <year>793</year>
+            <intro>Viking assault on the island of Lindisfarne</intro> 
         </viking> 
         <ottonian>
             <technology>Ottonian Bill</technology> 
+            <historic>false</historic>
+            <year>960</year>
+            <intro>Mieszko I becomes prince of Poland</intro> 
         </ottonian>
         <romanesque>
-            <technology>Bill Guisarme</technology> 
+            <technology>Bill Guisarme</technology>
+            <historic>false</historic>
+            <year>992</year>
+            <intro>Count of Anjou defeats the forces of Conan I of Brittany</intro>  
         </romanesque>
         <norman>
             <technology>Fauchard</technology> 
+            <historic>false</historic>
+            <year>1068</year>
+            <intro>Robert Guiscard besieges Bari</intro> 
         </norman>
         <gothic>
             <technology>Routier</technology> 
+            <historic>false</historic>
+            <year>1166</year>
+            <intro>Abbey of Cluny mentions Brabancon mercenaries</intro> 
         </gothic>
         <rayonnant>
             <technology>Bardiche</technology> 
+            <historic>false</historic>
+            <year>1256</year>
+            <intro>Alexander Nevsky routs the Swedes</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Halberd</technology> 
+            <historic>false</historic>
+            <year>1302</year>
+            <intro>Flemish militia are victorious in the Battle of the Golden Spurs</intro> 
         </flamboyant>
         <italian>
             <technology>Poleaxe</technology> 
+            <historic>false</historic>
+            <year>1410</year>
+            <intro>Vytautas the Great defeats the Teutonic Order at Grunwald</intro> 
         </italian>
         <maritime>
             <technology>Voulge Guisarme</technology> 
+            <historic>false</historic>
+            <year>1448</year>
+            <intro>Charles VII of France issues an ordinance at Montil-les-Tours</intro> 
         </maritime> 
     </eras>
   </category>
@@ -434,37 +797,70 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Francisca</technology>      
+            <technology>Francisca</technology>   
+            <historic>false</historic>
+            <year>727</year>
+            <intro>Liutprand conquers Bologna</intro>    
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Shortbow</technology>      
+            <technology>Carolingian Shortbow</technology> 
+            <historic>false</historic>
+            <year>773</year>
+            <intro>Charlemagne besieges Pavia</intro>      
         </carolingian> 
         <viking>
             <technology>Viking Shortbow</technology> 
+            <historic>false</historic>
+            <year>824</year>
+            <intro>Vikings raid Ireland</intro> 
         </viking> 
         <ottonian>
             <technology>Crossbow</technology> 
+            <historic>false</historic>
+            <year>947</year>
+            <intro>Crossbow used during the siege of Senlis</intro> 
         </ottonian>
         <romanesque>
             <technology>Seljuk Bow</technology> 
+            <historic>false</historic>
+            <year>1040</year>
+            <intro>Seljuks defeat the Ghaznavids at the battle of Dandanaqan</intro> 
         </romanesque>
         <norman>
-            <technology>Norman Shortbow</technology> 
+            <technology>Arbalest</technology> 
+            <historic>false</historic>
+            <year>1113</year>
+            <intro>Florence conquers the neighboring city of Montecascioli</intro> 
         </norman>
         <gothic>
-            <technology>Arbalest</technology> 
+            <technology>Mongol Bow</technology> 
+            <historic>false</historic>
+            <year>1226</year>
+            <intro>Kwarezmian forces capture Tiblisi</intro> 
         </gothic>
         <rayonnant>
-            <technology>Pavise</technology> 
+            <technology>Longbow</technology> 
+            <historic>false</historic>
+            <year>1263</year>
+            <intro>The Barons War commences</intro> 
         </rayonnant>
         <flamboyant>
-            <technology>Longbow</technology> 
+            <technology>Pavise</technology> 
+            <historic>false</historic>
+            <year>1284</year>
+            <intro>Aragonese crusade commences</intro> 
         </flamboyant>
         <italian>
-            <technology>Culverin</technology> 
+            <technology>Culverin</technology>
+            <historic>false</historic>
+            <year>1394</year>
+            <intro>Janissary corps incorporates handguns</intro> 
         </italian>
         <maritime>
-            <technology>Arquebus</technology> 
+            <technology>Arquebus</technology>
+            <historic>false</historic>
+            <year>1441</year>
+            <intro>John Hunyadi is victorious at Semendria</intro> 
         </maritime> 
     </eras>
   </category>
@@ -473,37 +869,70 @@
     <master>Admiral</master>
     <eras>
         <merovingian>
-            <technology>Lapstrake</technology>      
+            <technology>Lapstrake</technology> 
+            <historic>false</historic>
+            <year>753</year>
+            <intro>Scandinavians found Ladoga</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Portage</technology>      
+            <technology>Portage</technology> 
+            <historic>false</historic>
+            <year>770</year>
+            <intro>Danes found Hedeby</intro>     
         </carolingian> 
         <viking>
             <technology>Staple Right</technology> 
+            <historic>false</historic>
+            <year>805</year>
+            <intro>Charlemagne issues Limits on Passage of Merchants</intro> 
         </viking> 
         <ottonian>
             <technology>Byzantine Lateen Rig</technology> 
+            <historic>false</historic>
+            <year>941</year>
+            <intro>Byzantine Chelandions repel the Rus fleet with Greek Fire</intro> 
         </ottonian>
         <romanesque>
             <technology>Customs Post</technology> 
+            <historic>false</historic>
+            <year>1018</year>
+            <intro>Count of Holland defeats an imperial army at the Battle of Vlaardingen</intro> 
         </romanesque>
         <norman>
             <technology>Factory</technology> 
+            <historic>false</historic>
+            <year>1080</year>
+            <intro>Visby merchants establish Gutagard at Novgorod</intro> 
         </norman>
         <gothic>
             <technology>Sternpost Rudder</technology> 
+            <historic>false</historic>
+            <year>1160</year>
+            <intro>Henry the Lion grants Lubeck town rights</intro> 
         </gothic>
         <rayonnant>
             <technology>Portolan Chart</technology> 
+            <historic>false</historic>
+            <year>1275</year>
+            <intro>Carta Pisana is made</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Portuguese Lateen Rig</technology> 
+            <historic>false</historic>
+            <year>1307</year>
+            <intro>Larger Caravels in use in the Bay of Biscay</intro> 
         </flamboyant>
         <italian>
             <technology>Quarantine</technology> 
+            <historic>false</historic>
+            <year>1377</year>
+            <intro>Ragusa implements a waiting period</intro> 
         </italian>
         <maritime>
             <technology>Full Rig</technology> 
+            <historic>false</historic>
+            <year>1430</year>
+            <intro>William Soper dines onboard the flagship Grace Dieu</intro> 
         </maritime> 
     </eras>
   </category>
@@ -512,37 +941,70 @@
     <master>Master of the Revels</master>
     <eras>
         <merovingian>
-            <technology>Falconry</technology>      
+            <technology>Falconry</technology> 
+            <historic>false</historic>
+            <year>748</year>
+            <intro>Ethelbert II of Kent requests two goshawks for hunting from Boniface</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Coronation Banquet</technology>      
+            <technology>Coronation Banquet</technology> 
+            <historic>true</historic>
+            <year>754</year>
+            <intro>Pope Stephen II crosses the Alps to anoint Pepin the Short</intro>      
         </carolingian> 
         <viking>
             <technology>Tourney</technology> 
+            <historic>false</historic>
+            <year>843</year>
+            <intro>Louis and Charles hold military games at Worms</intro> 
         </viking> 
         <ottonian>
             <technology>Ceremony</technology> 
+            <historic>false</historic>
+            <year>959</year>
+            <intro>Constantine VII Porphyrogenitus compiles De Ceremoniis</intro> 
         </ottonian>
         <romanesque>
             <technology>Romanesque Fairs</technology> 
+            <historic>false</historic>
+            <year>1035</year>
+            <intro>Bremen gains the right to hold a fair</intro> 
         </romanesque>
         <norman>
             <technology>Troubadours</technology> 
+            <historic>false</historic>
+            <year>1101</year>
+            <intro>William IX of Aquitaine composes a lyric on returning from the crusade</intro> 
         </norman>
         <gothic>
-            <technology>Gothic Fairs</technology> 
+            <technology>Gothic Fairs</technology>
+            <historic>false</historic>
+            <year>1180</year>
+            <intro>Count of Champagne guarantees protection of merchants</intro>  
         </gothic>
         <rayonnant>
             <technology>Joust</technology> 
+            <historic>false</historic>
+            <year>1272</year>
+            <intro>War of the Cow erupts after a peasant stole a cow during a joust</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Hastilude</technology> 
+            <historic>false</historic>
+            <year>1325</year>
+            <intro>Order of Saint George founded</intro> 
         </flamboyant>
         <italian>
             <technology>Saltarello</technology> 
+            <historic>true</historic>
+            <year>1364</year>
+            <intro>Guillaume de Machaut completes his Messe de Nostre Dame</intro> 
         </italian>
         <maritime>
-            <technology>Chamber of Rhetoric</technology> 
+            <technology>Chamber of Rhetoric</technology>
+            <historic>false</historic>
+            <year>1428</year>
+            <intro>First Chamber of Rhetoric establishes in Bruges</intro>  
         </maritime> 
     </eras>
   </category>
@@ -551,37 +1013,70 @@
     <master>Castellan</master>
     <eras>
         <merovingian>
-            <technology>Ribat</technology>      
+            <technology>Ribat</technology> 
+            <historic>false</historic>
+            <year>739</year>
+            <intro>Great Berber Revolt commences</intro>       
         </merovingian> 
         <carolingian>
-            <technology>Albarrana Tower</technology>      
+            <technology>Albarrana Tower</technology>
+            <historic>false</historic>
+            <year>759</year>
+            <intro>Franks besiege Narbonne</intro>        
         </carolingian> 
         <viking>
             <technology>Motte and Bailey</technology> 
+            <historic>false</historic>
+            <year>861</year>
+            <intro>Robert the Strong is appointed count of Anjou</intro>  
         </viking> 
         <ottonian>
             <technology>Enceinte</technology> 
+            <historic>false</historic>
+            <year>945</year>
+            <intro>Abd ar-Rahman III completes the Medina Azahara</intro>  
         </ottonian>
         <romanesque>
             <technology>Donjon</technology> 
+            <historic>false</historic>
+            <year>991</year>
+            <intro>Hugh Capet drives Odo I of Blois out of Melun</intro>  
         </romanesque>
         <norman>
             <technology>Concentric Castle</technology> 
+            <historic>false</historic>
+            <year>1081</year>
+            <intro>Eustathios refortifies Korykos</intro>  
         </norman>
         <gothic>
             <technology>Bastide</technology> 
+            <historic>false</historic>
+            <year>1168</year>
+            <intro>Patrick of Salisbury is ambushed at Poitiers</intro>  
         </gothic>
         <rayonnant>
             <technology>Barbican</technology> 
+            <historic>false</historic>
+            <year>1243</year>
+            <intro>Henry III bestows the custody of Kenilworth Castle to Simon de Montfort	</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Kremlin</technology> 
+            <historic>false</historic>
+            <year>1317</year>
+            <intro>Tver city wall and fortified complex is constructed</intro>  
         </flamboyant>
         <italian>
             <technology>Zwinger</technology> 
+            <historic>false</historic>
+            <year>1370</year>
+            <intro>Buda fortress is remodeled with kill zones</intro>  
         </italian>
         <maritime>
             <technology>Roundel</technology> 
+            <historic>false</historic>
+            <year>1426</year>
+            <intro>Hussites construct Sion castle</intro>  
         </maritime> 
     </eras>
   </category>
@@ -590,37 +1085,70 @@
     <master>Master Mason</master>
     <eras>
         <merovingian>
-            <technology>Cloister</technology>      
+            <technology>Cloister</technology>  
+            <historic>false</historic>
+            <year>742</year>
+            <intro>Sturm founds the Abbey of Fulda</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Ribbed Vault</technology>      
+            <technology>Ribbed Vault</technology> 
+            <historic>false</historic>
+            <year>784</year>
+            <intro>Abd al-Rahman I constructs the Prayer Hall of the Mosque of Cordoba</intro>       
         </carolingian> 
         <viking>
             <technology>Byzantine Arcade</technology> 
+            <historic>false</historic>
+            <year>842</year>
+            <intro>Second Byzantine Iconoclasm ends</intro>  
         </viking> 
         <ottonian>
             <technology>Ottonian Arcade</technology> 
+            <historic>false</historic>
+            <year>936</year>
+            <intro>Otto I the Great constructs a Pfalz at Quedlinburg</intro>  
         </ottonian>
         <romanesque>
             <technology>Groin Vault</technology> 
+            <historic>true</historic>
+            <year>989</year>
+            <intro>Trdat commences construction of the cathedral of Ani</intro>  
         </romanesque>
         <norman>
             <technology>Archivolt</technology> 
+            <historic>false</historic>
+            <year>1135</year>
+            <intro>Abbey of Saint Denis commences construction</intro>  
         </norman>
         <gothic>
             <technology>Lancet Window</technology> 
+            <historic>true</historic>
+            <year>1144</year>
+            <intro>Abbey of Saint Denis completes construction of its choir</intro>  
         </gothic>
         <rayonnant>
             <technology>Treadwheel Crane</technology> 
+            <historic>false</historic>
+            <year>1241</year>
+            <intro>Reims cathedral completes its choir</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Fan Vault</technology> 
+            <historic>false</historic>
+            <year>1351</year>
+            <intro>Gloucester Cathedral completes construction of its cloisters</intro>  
         </flamboyant>
         <italian>
             <technology>Renaissance Arcade</technology> 
+            <historic>false</historic>
+            <year>1382</year>
+            <intro>Loggia dei Lanzi is constructed in Florence</intro>  
         </italian>
         <maritime>
             <technology>Renaissance Dome</technology> 
+            <historic>true</historic>
+            <year>1420</year>
+            <intro>Brunelleschi commences construction of the dome of Santa Maria del Fiore</intro>  
         </maritime> 
     </eras>
   </category>
@@ -629,37 +1157,70 @@
     <master>Siege Engineer</master>
     <eras> 
         <merovingian>
-            <technology>Merovingian Mangonel</technology>      
+            <technology>Merovingian Mangonel</technology>
+            <historic>false</historic>
+            <year>737</year>
+            <intro>Charles Martel besieges the Umayyad at Narbonne</intro>        
         </merovingian> 
         <carolingian>
-            <technology>Arab Mangonel</technology>      
+            <technology>Arab Mangonel</technology> 
+            <historic>false</historic>
+            <year>761</year>
+            <intro>An Abbasid Caliphate army reconquers the city of Kairouan</intro>       
         </carolingian> 
         <viking>
             <technology>Viking Mangonel</technology> 
+            <historic>false</historic>
+            <year>845</year>
+            <intro>Siege of Paris</intro>  
         </viking> 
         <ottonian>
             <technology>Ottonian Mangonel</technology> 
+            <historic>false</historic>
+            <year>938</year>
+            <intro>Otto I the Great besieges Eresburg</intro>  
         </ottonian>
         <romanesque>
             <technology>Hoarding</technology> 
+            <historic>false</historic>
+            <year>1032</year>
+            <intro>Odo II of Champagne invades Burgundy</intro>  
         </romanesque>
         <norman>
             <technology>Springald</technology> 
+            <historic>false</historic>
+            <year>1071</year>
+            <intro>Siege of Manzikert</intro>  
         </norman>
         <gothic>
             <technology>Counterpoise Trebuchet</technology> 
+            <historic>false</historic>
+            <year>1187</year>
+            <intro>Mardi ibn Ali al-Tarsusi comments on the use of trebuchet</intro>  
         </gothic>
         <rayonnant>
             <technology>Gunpowder</technology> 
+            <historic>false</historic>
+            <year>1240</year>
+            <intro>Hasan al-Rammah completes his treatise on gunpowder</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Cannon</technology> 
+            <historic>false</historic>
+            <year>1326</year>
+            <intro>Florence obtains cannons</intro>  
         </flamboyant>
         <italian>
             <technology>Gun Loop</technology> 
+            <historic>false</historic>
+            <year>1385</year>
+            <intro>Bodiam castle is constructed</intro>  
         </italian>
         <maritime>
             <technology>Bombard</technology> 
+            <historic>false</historic>
+            <year>1436</year>
+            <intro>Paris is recaptured by the English</intro>  
         </maritime> 
     </eras>
   </category>
@@ -668,37 +1229,70 @@
     <master>Chronicler</master>
     <eras>
         <merovingian>
-            <technology>Insular Manuscripts</technology>      
+            <technology>Insular Manuscripts</technology>
+            <historic>false</historic>
+            <year>731</year>
+            <intro>Bede completes his Ecclesiastical History of the English People</intro>        
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Manuscripts</technology>      
+            <technology>Carolingian Manuscripts</technology> 
+            <historic>false</historic>
+            <year>764</year>
+            <intro>Cancor founds Lorsch Abbey</intro>       
         </carolingian> 
         <viking>
             <technology>Byzantine Manuscripts</technology> 
+            <historic>false</historic>
+            <year>913</year>
+            <intro>Constantine VII Porphyrogenitus sponsors the Paris Psalter</intro>  
         </viking> 
         <ottonian>
             <technology>Ottonian Manuscripts</technology> 
+            <historic>false</historic>
+            <year>973</year>
+            <intro>Widukind completes his Deeds of the Saxons</intro>  
         </ottonian>
         <romanesque>
             <technology>Romanesque Manuscripts</technology> 
+            <historic>false</historic>
+            <year>1020</year>
+            <intro>Ethelnoth of Canterbury sponsors the Harley Psalter</intro>  
         </romanesque>
         <norman>
             <technology>Norman Manuscripts</technology> 
+            <historic>false</historic>
+            <year>1142</year>
+            <intro>Hildegard of Bingen composes Scivias</intro>  
         </norman>
         <gothic>
             <technology>Gothic Manuscripts</technology> 
+            <historic>false</historic>
+            <year>1235</year>
+            <intro>Eike of Repgow compiles the Saxon Mirror</intro>  
         </gothic>
         <rayonnant>
             <technology>Roll of Arms</technology> 
+            <historic>false</historic>
+            <year>1259</year>
+            <intro>Matthew Paris completes his Chronica Majora</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Painted Panel Altars</technology> 
+            <historic>true</historic>
+            <year>1280</year>
+            <intro>Cimabue completes his Maesta painting</intro>  
         </flamboyant>
         <italian>
             <technology>Renaissance Manuscripts</technology> 
+            <historic>false</historic>
+            <year>1416</year>
+            <intro>Limbourg Brothers complete The Very Rich Hours of the Duke of Berry</intro>  
         </italian>
         <maritime>
             <technology>Blockbooks</technology> 
+            <historic>false</historic>
+            <year>1450</year>
+            <intro>Gutenberg invents moveable type printing</intro>  
         </maritime> 
     </eras>
   </category>
@@ -707,37 +1301,70 @@
     <master>Almoner</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Relics</technology>      
+            <technology>Merovingian Relics</technology> 
+            <historic>false</historic>
+            <year>726</year>
+            <intro>King Ine of Wessex travels on a pilgrimage to Rome</intro>       
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Relics</technology>      
+            <technology>Carolingian Relics</technology>  
+            <historic>false</historic>
+            <year>774</year>
+            <intro>Charlemagne confirms the Donation of Pepin</intro>      
         </carolingian> 
         <viking>
             <technology>Herbalism</technology> 
+            <historic>false</historic>
+            <year>902</year>
+            <intro>Al-Razi becomes director of a hospital in Baghdad</intro>  
         </viking> 
         <ottonian>
             <technology>Pharmacy</technology> 
+            <historic>false</historic>
+            <year>976</year>
+            <intro>Al-Hakam II employs Al-Zahrawi</intro>  
         </ottonian>
         <romanesque>
             <technology>Medicine</technology> 
+            <historic>false</historic>
+            <year>1025</year>
+            <intro>Ibn Sina completes his Canon of Medicine</intro>  
         </romanesque>
         <norman>
             <technology>Passagium Generale</technology> 
+            <historic>false</historic>
+            <year>1096</year>
+            <intro>First Crusade commences</intro>  
         </norman>
         <gothic>
             <technology>Morality Play</technology> 
+            <historic>false</historic>
+            <year>1151</year>
+            <intro>Hildegard of Bingen completes her Ordo Virtutum</intro>  
         </gothic>
         <rayonnant>
             <technology>Gothic Mendicant</technology> 
+            <historic>false</historic>
+            <year>1274</year>
+            <intro>Second Council of Lyon establishes major mendicant orders</intro>  
         </rayonnant>
         <flamboyant>
             <technology>Gothic Relics</technology> 
+            <historic>false</historic>
+            <year>1290</year>
+            <intro>Duccio completes his Madonna and Child</intro>  
         </flamboyant>
         <italian>
             <technology>Renaissance Mendicant</technology> 
+            <historic>false</historic>
+            <year>1384</year>
+            <intro>Florens Radewyns establishes the Brethren of the Common Life</intro>  
         </italian>
         <maritime>
             <technology>Renaissance Relics</technology> 
+            <historic>false</historic>
+            <year>1423</year>
+            <intro>Masaccio travelled to Rome with Masolino</intro>  
         </maritime> 
     </eras>
   </category>

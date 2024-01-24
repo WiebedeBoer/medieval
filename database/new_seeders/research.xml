@@ -1,38 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<masters>
-  <vernacular>
-    <region></region>
-    <eras>
-        <early>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>       
-        </early> 
-        <high>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
-        </high>
-        <late>
-            <wall></wall>
-            <facade></facade>
-            <hoarding></hoarding>
-            <keep></keep>
-            <window></window>
-            <gallery></gallery>
-            <roof></roof>
-            <tiles></tiles>  
-        </late>   
-    </eras>
-  </vernacular>
-</masters> 
+<eras>
+  <merovingian>
+    <period>723 - 754</period>
+    <title>Merovingian Age</title>
+    <start>723</start>
+    <end>754</end>
+    <historic>Boniface fells oak of Donar</historic> 
+    <length>31</length>
+    <category>Early</category>
+  </merovingian>
+  <carolingian>
+    <period>754 - 793</period>
+    <title>Carolingian Age</title>
+    <start>754</start>
+    <end>793</end>
+    <historic>none</historic> 
+    <length>39</length>
+    <category>Early</category> 
+  </carolingian> 
+  <viking>
+    <period>793 - 919</period>
+    <title>Viking Age</title>
+    <start>793</start>
+    <end>919</end>
+    <historic>none</historic> 
+    <length>126</length>
+    <category>Early</category>  
+  </viking> 
+  <ottonian>
+    <period>919 - 989</period>
+    <title>Ottonian Renaissance</title>
+    <start>919</start>
+    <end>989</end>
+    <historic>none</historic> 
+    <length>70</length>
+    <category>Early</category> 
+  </ottonian>
+  <romanesque>
+    <period>989 - 1066</period>
+    <title>Romanesque Age</title>
+    <start>989</start>
+    <end>1066</end>
+    <historic>none</historic> 
+    <length>77</length>
+    <category>High</category> 
+  </romanesque>
+  <norman>
+    <period>1066 - 1144</period>
+    <title>Norman Age</title>
+    <start>1066</start>
+    <end>1144</end>
+    <historic>none</historic> 
+    <length>78</length>
+    <category>High</category>
+  </norman>
+  <gothic>
+    <period>1144 - 1236</period>
+    <title>Gothic Renaissance</title>
+    <start>1144</start>
+    <end>1236</end>
+    <historic>none</historic> 
+    <length>92</length>
+    <category>High</category>
+  </gothic>
+  <rayonnant>
+    <period>1236 - 1280</period>
+    <title>Rayonnant Age</title>
+    <start>1236</start>
+    <end>1280</end>
+    <historic>none</historic> 
+    <length>44</length>
+    <category>High</category>
+  </rayonnant>
+  <flamboyant>
+    <period>1280 - 1364</period>
+    <title>Flamboyant Age</title>
+    <start>1280</start>
+    <end>1364</end>
+    <historic>none</historic> 
+    <length>84</length>
+    <category>Late</category>
+  </flamboyant>
+  <italian>
+    <period>1364 - 1420</period>
+    <title>Italian Renaissance</title>
+    <start>1364</start>
+    <end>1420</end>
+    <historic>none</historic> 
+    <length>56</length>
+    <category>Late</category>  
+  </italian>
+  <maritime>
+    <period>1420 - 1453</period>
+    <title>Maritime Age</title>
+    <start>1420</start>
+    <end>1453</end>
+    <historic>Fall of Constantinople</historic> 
+    <length>33</length>
+    <category>Late</category>
+  </maritime> 
+</eras> 
