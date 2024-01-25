@@ -17,16 +17,16 @@
             <intro>Three-field crop rotation system in use in medieval Europe</intro>        
         </carolingian> 
         <viking>
-            <technology>Horse Collar</technology>
+            <technology>Urbarium</technology> 
             <historic>false</historic>
-            <year>800</year>
-            <intro>Horse collar in use in medieval Europe</intro>   
+            <year>828</year>
+            <intro>Pippin I of Aquitaine issues a land register</intro> 
         </viking> 
         <ottonian>
-            <technology>Hoftag</technology> 
-            <historic>true</historic>
-            <year>919</year>
-            <intro>German nobles elect Henry the Fowler</intro> 
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
         </ottonian>
         <romanesque>
             <technology>Palas</technology> 
@@ -41,16 +41,16 @@
             <intro>Robert of Molesme founds Citeaux Abbey</intro>  
         </norman>
         <gothic>
-            <technology>Charter Rolls</technology>
+            <technology>Chimney</technology> 
             <historic>false</historic>
-            <year>1199</year>
-            <intro>Chancery commences to keep the Charter Rolls</intro>  
+            <year>1184</year>
+            <intro>Hamelin rebuilts Conisbrough castle</intro> 
         </gothic>
         <rayonnant>
-            <technology>Gothic Urbanization</technology>
+            <technology>Parlor</technology> 
             <historic>false</historic>
-            <year>1254</year>
-            <intro>Copenhagen receives its city charter</intro>   
+            <year>1237</year>
+            <intro>Teutonic Order absorbs the Livonian Brothers of the Sword</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Canada System</technology> 
@@ -59,16 +59,88 @@
             <intro>Mesta charter is supplemented</intro>  
         </flamboyant>
         <italian>
-            <technology>Renaissance Urbanization</technology>
+            <technology>Land Terrier</technology>
             <historic>false</historic>
-            <year>1378</year>
-            <intro>Ciompi wool carders revolt occurs in Florence</intro>   
+            <year>1412</year>
+            <intro>The Medici Family are made official bankers of the Papacy</intro>  
         </italian>
         <maritime>
             <technology>Renaissance Viticulture</technology> 
             <historic>false</historic>
             <year>1435</year>
             <intro>John IV of Katzenelnbogen plants Riesling</intro>  
+        </maritime> 
+    </eras>
+  </category>
+  <category>
+    <type>Feudalism</type>
+    <master>Constable</master>
+    <eras>
+        <merovingian>
+            <technology>Merovingian Fealty</technology>  
+            <historic>false</historic>
+            <year>743</year>
+            <intro>Odilo of Bavaria vassalizes Carantania</intro>      
+        </merovingian> 
+        <carolingian>
+            <technology>Chancery</technology> 
+            <historic>false</historic>
+            <year>782</year>
+            <intro>Charlemagne appoints Alcuin as advisor</intro>      
+        </carolingian> 
+        <viking>
+            <technology>Viking Fealty</technology> 
+            <historic>false</historic>
+            <year>840</year>
+            <intro>Rollo swears allegiance after the siege of Chartres</intro>  
+        </viking> 
+        <ottonian>
+            <technology>Hoftag</technology> 
+            <historic>true</historic>
+            <year>919</year>
+            <intro>German nobles elect Henry the Fowler</intro> 
+        </ottonian>
+        <romanesque>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
+        </romanesque>
+        <norman>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
+        </norman>
+        <gothic>
+            <technology>Great Council</technology> 
+            <historic>false</historic>
+            <year>1162</year>
+            <intro>King Henry II appoints Thomas Becket</intro>  
+        </gothic>
+        <rayonnant>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
+        </rayonnant>
+        <flamboyant>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
+        </flamboyant>
+        <italian>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro>  
+        </italian>
+        <maritime>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
         </maritime> 
     </eras>
   </category>
@@ -83,10 +155,10 @@
             <intro>Hops are cultivated in Hallertau</intro>         
         </merovingian> 
         <carolingian>
-            <technology>Arab Caravan</technology>  
+            <technology></technology>  
             <historic>false</historic>
-            <year>757</year>
-            <intro>Berbers found Sijilmasa as an Sahara route entrepot</intro>      
+            <year></year>
+            <intro></intro>     
         </carolingian> 
         <viking>
             <technology>Distillation</technology> 
@@ -137,82 +209,82 @@
             <intro>Maiolica workshops spread in Tuscany</intro>  
         </italian>
         <maritime>
-            <technology>Stagecoach</technology> 
+            <technology>Canvas</technology> 
             <historic>false</historic>
-            <year>1421</year>
-            <intro>Kocs inhabitants make wagons for the daughter of King Zsigmond</intro>   
+            <year>1432</year>
+            <intro>Jan van Eyck completes his Portrait of a Man</intro> 
         </maritime> 
     </eras>
   </category>
   <category>
-    <type>Feudalism</type>
+    <type>Merchantry</type>
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Fealty</technology>  
+            <technology>Emporium</technology> 
             <historic>false</historic>
-            <year>743</year>
-            <intro>Odilo of Bavaria vassalizes Carantania</intro>      
+            <year>724</year>
+            <intro>Frisian potters produce wheel turn pottery at Ipswich</intro>     
         </merovingian> 
         <carolingian>
-            <technology>Lyric Poetry</technology>  
+            <technology>Arab Caravan</technology>  
             <historic>false</historic>
-            <year>778</year>
-            <intro>Roland killed at the battle of Roncevaux</intro>       
+            <year>757</year>
+            <intro>Berbers found Sijilmasa as an Sahara route entrepot</intro>      
         </carolingian> 
         <viking>
-            <technology>Viking Fealty</technology> 
+            <technology>Horse Collar</technology>
             <historic>false</historic>
-            <year>840</year>
-            <intro>Rollo swears allegiance after the siege of Chartres</intro>  
+            <year>800</year>
+            <intro>Horse collar in use in medieval Europe</intro>  
         </viking> 
         <ottonian>
             <technology>Lombard Commune</technology> 
             <historic>false</historic>
             <year>965</year>
-            <intro>King Lothair III captures many cities in Flanders</intro>  
+            <intro>King Lothair III captures many cities in Flanders</intro> 
         </ottonian>
         <romanesque>
-            <technology>Courtly Love</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>1028</year>
-            <intro>Ibn Sina completes his Treatise on Love</intro>  
+            <year></year>
+            <intro></intro> 
         </romanesque>
         <norman>
-            <technology>Norman Commune</technology> 
+            <technology>Factory</technology> 
             <historic>false</historic>
-            <year>1112</year>
-            <intro>Laon erupts in revolt</intro>  
+            <year>1080</year>
+            <intro>Visby merchants establish Gutagard at Novgorod</intro> 
         </norman>
         <gothic>
-            <technology>Great Council</technology> 
+            <technology>Charter Rolls</technology>
             <historic>false</historic>
-            <year>1162</year>
-            <intro>King Henry II appoints Thomas Becket</intro>  
+            <year>1199</year>
+            <intro>Chancery commences to keep the Charter Rolls</intro>  
         </gothic>
         <rayonnant>
-            <technology>Fables</technology> 
+            <technology>Gothic Commune</technology>
             <historic>false</historic>
-            <year>1250</year>
-            <intro>William completes his Reynard the Fox</intro>  
+            <year>1254</year>
+            <intro>Copenhagen receives its city charter</intro> 
         </rayonnant>
         <flamboyant>
-            <technology>Table Games</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>1283</year>
-            <intro>Alfonso X the Wise completes his Book of Games</intro>  
+            <year></year>
+            <intro></intro> 
         </flamboyant>
         <italian>
-            <technology>Rondeau</technology> 
+            <technology>Renaissance Commune</technology>
             <historic>false</historic>
-            <year>1387</year>
-            <intro>Geoffrey Chaucer commences his Canterbury Tales</intro>  
+            <year>1378</year>
+            <intro>Ciompi wool carders revolt occurs in Florence</intro>  
         </italian>
         <maritime>
-            <technology>Canvas</technology> 
+            <technology>Stagecoach</technology> 
             <historic>false</historic>
-            <year>1432</year>
-            <intro>Jan van Eyck completes his Portrait of a Man</intro>   
+            <year>1421</year>
+            <intro>Kocs inhabitants make wagons for the daughter of King Zsigmond</intro> 
         </maritime> 
     </eras>
   </category>
@@ -293,22 +365,22 @@
     <master>Treasurer</master>
     <eras>
         <merovingian>
-            <technology>Emporium</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>724</year>
-            <intro>Frisian potters produce wheel turn pottery at Ipswich</intro>      
+            <year></year>
+            <intro></intro>     
         </merovingian> 
         <carolingian>
-            <technology>Chancery</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>782</year>
-            <intro>Charlemagne appoints Alcuin as advisor</intro>      
+            <year></year>
+            <intro></intro>       
         </carolingian> 
         <viking>
-            <technology>Urbarium</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>828</year>
-            <intro>Pippin I of Aquitaine issues a land register</intro> 
+            <year></year>
+            <intro></intro> 
         </viking> 
         <ottonian>
             <technology>Imperial Administration</technology> 
@@ -347,10 +419,10 @@
             <intro>The Farolfi firm from Florence employs Amatino Manucci</intro> 
         </flamboyant>
         <italian>
-            <technology>Land Terrier</technology>
+            <technology></technology>  
             <historic>false</historic>
-            <year>1412</year>
-            <intro>The Medici Family are made official bankers of the Papacy</intro>  
+            <year></year>
+            <intro></intro> 
         </italian>
         <maritime>
             <technology>Mercantilism</technology> 
@@ -401,16 +473,16 @@
             <intro>William issues an Equestrian Seal</intro> 
         </norman>
         <gothic>
-            <technology>Chimney</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>1184</year>
-            <intro>Hamelin rebuilts Conisbrough castle</intro> 
+            <year></year>
+            <intro></intro> 
         </gothic>
         <rayonnant>
-            <technology>Parlor</technology> 
+            <technology></technology>  
             <historic>false</historic>
-            <year>1237</year>
-            <intro>Teutonic Order absorbs the Livonian Brothers of the Sword</intro> 
+            <year></year>
+            <intro></intro> 
         </rayonnant>
         <flamboyant>
             <technology>Tabard</technology> 
@@ -893,16 +965,16 @@
             <intro>Byzantine Chelandions repel the Rus fleet with Greek Fire</intro> 
         </ottonian>
         <romanesque>
-            <technology>Customs Post</technology> 
+            <technology>Frisian River Toll</technology> 
             <historic>false</historic>
             <year>1018</year>
             <intro>Count of Holland defeats an imperial army at the Battle of Vlaardingen</intro> 
         </romanesque>
         <norman>
-            <technology>Factory</technology> 
+            <technology>Franconian River Toll</technology> 
             <historic>false</historic>
-            <year>1080</year>
-            <intro>Visby merchants establish Gutagard at Novgorod</intro> 
+            <year>1130</year>
+            <intro>Cochem castle is constructed</intro> 
         </norman>
         <gothic>
             <technology>Sternpost Rudder</technology> 
@@ -937,7 +1009,79 @@
     </eras>
   </category>
   <category>
-    <type>Entertainment</type>
+    <type>Regalement</type>
+    <master>Master of the Revels</master>
+    <eras>
+        <merovingian>
+            <technology>Gregorian Chant</technology>  
+            <historic>false</historic>
+            <year>752</year>
+            <intro>Gregorian Chant is introduced</intro>      
+        </merovingian> 
+        <carolingian>
+            <technology>Lyric Poetry</technology>  
+            <historic>false</historic>
+            <year>778</year>
+            <intro>Roland killed at the battle of Roncevaux</intro>     
+        </carolingian> 
+        <viking>
+            <technology>Trope</technology>  
+            <historic>false</historic>
+            <year>850</year>
+            <intro>Tropes are developed</intro>  
+        </viking> 
+        <ottonian>
+            <technology></technology>  
+            <historic>false</historic>
+            <year></year>
+            <intro></intro> 
+        </ottonian>
+        <romanesque>
+            <technology>Courtly Love</technology> 
+            <historic>false</historic>
+            <year>1028</year>
+            <intro>Ibn Sina completes his Treatise on Love</intro>
+        </romanesque>
+        <norman>
+            <technology>Latin Sequence</technology>  
+            <historic>false</historic>
+            <year>1115</year>
+            <intro>Dies Irae sequence introduced</intro> 
+        </norman>
+        <gothic>
+            <technology>Morality Play</technology> 
+            <historic>false</historic>
+            <year>1151</year>
+            <intro>Hildegard of Bingen completes her Ordo Virtutum</intro> 
+        </gothic>
+        <rayonnant>
+            <technology>Fables</technology> 
+            <historic>false</historic>
+            <year>1250</year>
+            <intro>William completes his Reynard the Fox</intro>  
+        </rayonnant>
+        <flamboyant>
+            <technology>Table Games</technology> 
+            <historic>false</historic>
+            <year>1283</year>
+            <intro>Alfonso X the Wise completes his Book of Games</intro>  
+        </flamboyant>
+        <italian>
+            <technology>Rondeau</technology> 
+            <historic>false</historic>
+            <year>1387</year>
+            <intro>Geoffrey Chaucer commences his Canterbury Tales</intro>  
+        </italian>
+        <maritime>
+            <technology>Chamber of Rhetoric</technology>
+            <historic>false</historic>
+            <year>1428</year>
+            <intro>First Chamber of Rhetoric establishes in Bruges</intro> 
+        </maritime> 
+    </eras>
+  </category>
+  <category>
+    <type>Revelry</type>
     <master>Master of the Revels</master>
     <eras>
         <merovingian>
@@ -1001,10 +1145,10 @@
             <intro>Guillaume de Machaut completes his Messe de Nostre Dame</intro> 
         </italian>
         <maritime>
-            <technology>Chamber of Rhetoric</technology>
+            <technology></technology>  
             <historic>false</historic>
-            <year>1428</year>
-            <intro>First Chamber of Rhetoric establishes in Bruges</intro>  
+            <year></year>
+            <intro></intro> 
         </maritime> 
     </eras>
   </category>
@@ -1337,10 +1481,10 @@
             <intro>First Crusade commences</intro>  
         </norman>
         <gothic>
-            <technology>Morality Play</technology> 
+            <technology>Passagium Particulare</technology>  
             <historic>false</historic>
-            <year>1151</year>
-            <intro>Hildegard of Bingen completes her Ordo Virtutum</intro>  
+            <year>1239</year>
+            <intro>Barons Crusade commences</intro> 
         </gothic>
         <rayonnant>
             <technology>Gothic Mendicant</technology> 
