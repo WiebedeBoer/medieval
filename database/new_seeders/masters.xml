@@ -614,14 +614,14 @@
             <description>Recruit captain</description>       
         </charm> 
         <organization>
-            <action>none</action>
+            <action>Pontage</action>
             <stat>organization</stat>
-            <operand>none</operand>
+            <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>none</description> 
+            <description>Collect tolls</description> 
         </organization>
         <agriculture>
             <action>Fish</action>
@@ -914,7 +914,7 @@
             <description>none</description>       
         </charm> 
         <organization>
-            <action>none</action>
+            <action>Grind</action>
             <stat>organization</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
