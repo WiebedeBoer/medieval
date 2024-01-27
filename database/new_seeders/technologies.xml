@@ -23,10 +23,10 @@
             <intro>Pippin I of Aquitaine issues a land register</intro> 
         </viking> 
         <ottonian>
-            <technology></technology>  
+            <technology>Agronomics</technology>
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>950</year>
+            <intro>Constantine VII Porphyrogenitus sponsors the Geoponica</intro>  
         </ottonian>
         <romanesque>
             <technology>Palas</technology> 
@@ -53,10 +53,10 @@
             <intro>Teutonic Order absorbs the Livonian Brothers of the Sword</intro> 
         </rayonnant>
         <flamboyant>
-            <technology>Canada System</technology> 
+            <technology>Custumal</technology>  
             <historic>false</historic>
-            <year>1347</year>
-            <intro>Mesta charter is supplemented</intro>  
+            <year>1295</year>
+            <intro>Sachsenspiegel is copied in Dresden</intro> 
         </flamboyant>
         <italian>
             <technology>Land Terrier</technology>
@@ -83,10 +83,10 @@
             <intro>Odilo of Bavaria vassalizes Carantania</intro>      
         </merovingian> 
         <carolingian>
-            <technology>Chancery</technology> 
+            <technology>Capitulary</technology> 
             <historic>false</historic>
-            <year>782</year>
-            <intro>Charlemagne appoints Alcuin as advisor</intro>      
+            <year>779</year>
+            <intro>The Capitulary of Herstal is issued</intro>         
         </carolingian> 
         <viking>
             <technology>Viking Fealty</technology> 
@@ -101,16 +101,16 @@
             <intro>German nobles elect Henry the Fowler</intro> 
         </ottonian>
         <romanesque>
-            <technology></technology>  
+            <technology>Castellany</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1031</year>
+            <intro>Baldwin IV of Flanders institutes castellanies</intro> 
         </romanesque>
         <norman>
-            <technology></technology>  
+            <technology>Heraldry</technology> 
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1067</year>
+            <intro>William issues an Equestrian Seal</intro> 
         </norman>
         <gothic>
             <technology>Great Council</technology> 
@@ -119,16 +119,16 @@
             <intro>King Henry II appoints Thomas Becket</intro>  
         </gothic>
         <rayonnant>
-            <technology></technology>  
+            <technology>Bailiwick</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1260</year>
+            <intro>System of baillies established in France</intro> 
         </rayonnant>
         <flamboyant>
-            <technology></technology>  
+            <technology>Province</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1330</year>
+            <intro>Province first attested</intro> 
         </flamboyant>
         <italian>
             <technology></technology>  
@@ -149,16 +149,16 @@
     <master>Steward</master>
     <eras>
         <merovingian>
-            <technology>Hop Cultivation</technology>
+            <technology>Panemone Mill</technology>
             <historic>false</historic>
             <year>730</year>
-            <intro>Hops are cultivated in Hallertau</intro>         
+            <intro>Panemone Mill spreads from Sistan</intro>         
         </merovingian> 
         <carolingian>
-            <technology></technology>  
+            <technology>Hop Garden</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro>     
+            <year>768</year>
+            <intro>Hop garden at Saint Denis</intro>     
         </carolingian> 
         <viking>
             <technology>Distillation</technology> 
@@ -167,10 +167,10 @@
             <intro>Al-Kindi compiles his book on distillation</intro>  
         </viking> 
         <ottonian>
-            <technology>Agronomics</technology>
+            <technology>Catalan Forge</technology>  
             <historic>false</historic>
-            <year>950</year>
-            <intro>Constantine VII Porphyrogenitus sponsors the Geoponica</intro>   
+            <year>920</year>
+            <intro>Spread of the Catalan Forge</intro> 
         </ottonian>
         <romanesque>
             <technology>Post Mill</technology>
@@ -209,7 +209,7 @@
             <intro>Maiolica workshops spread in Tuscany</intro>  
         </italian>
         <maritime>
-            <technology>Canvas</technology> 
+            <technology>Oil on Canvas</technology> 
             <historic>false</historic>
             <year>1432</year>
             <intro>Jan van Eyck completes his Portrait of a Man</intro> 
@@ -239,7 +239,7 @@
             <intro>Horse collar in use in medieval Europe</intro>  
         </viking> 
         <ottonian>
-            <technology>Lombard Commune</technology> 
+            <technology>Early Medieval Commune</technology> 
             <historic>false</historic>
             <year>965</year>
             <intro>King Lothair III captures many cities in Flanders</intro> 
@@ -263,19 +263,19 @@
             <intro>Chancery commences to keep the Charter Rolls</intro>  
         </gothic>
         <rayonnant>
-            <technology>Gothic Commune</technology>
+            <technology>High Medieval Commune</technology>
             <historic>false</historic>
             <year>1254</year>
             <intro>Copenhagen receives its city charter</intro> 
         </rayonnant>
         <flamboyant>
-            <technology></technology>  
+            <technology>Mesta</technology> 
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1347</year>
+            <intro>Mesta charter is supplemented</intro>  
         </flamboyant>
         <italian>
-            <technology>Renaissance Commune</technology>
+            <technology>Late Medieval Commune</technology>
             <historic>false</historic>
             <year>1378</year>
             <intro>Ciompi wool carders revolt occurs in Florence</intro>  
@@ -299,10 +299,10 @@
             <intro>Ecgbert of York receives the pallium from pope Gregory III</intro>        
         </merovingian> 
         <carolingian>
-            <technology>Capitulary</technology> 
+            <technology>Chancery</technology> 
             <historic>false</historic>
-            <year>779</year>
-            <intro>The Capitulary of Herstal is issued</intro>      
+            <year>782</year>
+            <intro>Charlemagne appoints Alcuin as advisor</intro>  
         </carolingian> 
         <viking>
             <technology>Algebra</technology> 
@@ -365,22 +365,22 @@
     <master>Treasurer</master>
     <eras>
         <merovingian>
-            <technology></technology>  
+            <technology>Sceat</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro>     
+            <year>740</year>
+            <intro>The Scaet is reissued</intro>     
         </merovingian> 
         <carolingian>
-            <technology></technology>  
+            <technology>Mancus</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro>       
+            <year>781</year>
+            <intro>The Denier is introduced</intro>       
         </carolingian> 
         <viking>
-            <technology></technology>  
+            <technology>Danegeld</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>810</year>
+            <intro>First Danegeld raised in Frisia</intro> 
         </viking> 
         <ottonian>
             <technology>Imperial Administration</technology> 
@@ -413,16 +413,16 @@
             <intro>First minting of the Florin</intro>  
         </rayonnant>
         <flamboyant>
-            <technology>Bookkeeping</technology> 
+            <technology>Ledger Bookkeeping</technology> 
             <historic>false</historic>
             <year>1299</year>
             <intro>The Farolfi firm from Florence employs Amatino Manucci</intro> 
         </flamboyant>
         <italian>
-            <technology></technology>  
+            <technology>Gabelle</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1365</year>
+            <intro>Gabelle introduced by the court of Tortosa</intro> 
         </italian>
         <maritime>
             <technology>Mercantilism</technology> 
@@ -467,22 +467,22 @@
             <intro>Spinning wheel invented in the Islamic world</intro>  
         </romanesque>
         <norman>
-            <technology>Heraldry</technology> 
+            <technology>Tuscan Silk</technology>  
             <historic>false</historic>
-            <year>1067</year>
-            <intro>William issues an Equestrian Seal</intro> 
+            <year>1057</year>
+            <intro>Anselm of Baggio is appointed bishop of Lucca</intro> 
         </norman>
         <gothic>
-            <technology></technology>  
+            <technology>Surcoat</technology>  
             <historic>false</historic>
             <year></year>
             <intro></intro> 
         </gothic>
         <rayonnant>
-            <technology></technology>  
+            <technology>Baldachin</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1247</year>
+            <intro>Matthew Paris records that Henry III of England has a baldachin</intro> 
         </rayonnant>
         <flamboyant>
             <technology>Tabard</technology> 
@@ -578,7 +578,7 @@
   </category>
   <category>
     <type>Helmets</type>
-    <master>Marshall</master>
+    <master>Chamberlain</master>
     <eras>
         <merovingian>
             <technology>Merovingian Spangenhelm</technology>
@@ -650,7 +650,7 @@
   </category>
   <category>
     <type>Armor</type>
-    <master>Marshall</master>
+    <master>Chamberlain</master>
     <eras>
         <merovingian>
             <technology>Merovingian Hauberk</technology> 
@@ -677,7 +677,7 @@
             <intro>Otto I the Great appoints Gero as margrave of Merseburg</intro> 
         </ottonian>
         <romanesque>
-            <technology>Romanesque Hauberk</technology> 
+            <technology>Chausses</technology> 
             <historic>false</historic>
             <year>1020</year>
             <intro>Ethelnoth of Canterbury sponsors the Harley Psalter</intro> 
@@ -721,7 +721,7 @@
     </eras>
   </category>
   <category>
-    <type>Melee_Sword</type>
+    <type>Blades</type>
     <master>Marshall</master>
     <eras>
         <merovingian>
@@ -793,7 +793,7 @@
     </eras>
   </category>
   <category>
-    <type>Melee_Polearm</type>
+    <type>Polearms</type>
     <master>Marshall</master>
     <eras>
         <merovingian>
@@ -859,8 +859,8 @@
         <maritime>
             <technology>Voulge Guisarme</technology> 
             <historic>false</historic>
-            <year>1448</year>
-            <intro>Charles VII of France issues an ordinance at Montil-les-Tours</intro> 
+            <year>1449</year>
+            <intro>Charles VII of France invades Normandy during the Hundred Years War</intro> 
         </maritime> 
     </eras>
   </category>
@@ -875,16 +875,16 @@
             <intro>Liutprand conquers Bologna</intro>    
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Shortbow</technology> 
+            <technology>Shortbow</technology> 
             <historic>false</historic>
             <year>773</year>
             <intro>Charlemagne besieges Pavia</intro>      
         </carolingian> 
         <viking>
-            <technology>Viking Shortbow</technology> 
+            <technology>Tactics</technology> 
             <historic>false</historic>
-            <year>824</year>
-            <intro>Vikings raid Ireland</intro> 
+            <year>908</year>
+            <intro>Tactica treatise is completed</intro> 
         </viking> 
         <ottonian>
             <technology>Crossbow</technology> 
@@ -937,7 +937,7 @@
     </eras>
   </category>
   <category>
-    <type>Port</type>
+    <type>Shipping</type>
     <master>Admiral</master>
     <eras>
         <merovingian>
@@ -995,16 +995,16 @@
             <intro>Larger Caravels in use in the Bay of Biscay</intro> 
         </flamboyant>
         <italian>
-            <technology>Quarantine</technology> 
-            <historic>false</historic>
-            <year>1377</year>
-            <intro>Ragusa implements a waiting period</intro> 
-        </italian>
-        <maritime>
             <technology>Full Rig</technology> 
             <historic>false</historic>
-            <year>1430</year>
-            <intro>William Soper dines onboard the flagship Grace Dieu</intro> 
+            <year>1418</year>
+            <intro>Grace Dieu is launched</intro> 
+        </italian>
+        <maritime>
+            <technology>Navigation</technology> 
+            <historic>false</historic>
+            <year>1427</year>
+            <intro>Diogo de Silves discovers the Azores</intro> 
         </maritime> 
     </eras>
   </category>
@@ -1031,10 +1031,10 @@
             <intro>Tropes are developed</intro>  
         </viking> 
         <ottonian>
-            <technology></technology>  
+            <technology>Anthology</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>944</year>
+            <intro>Greek Anthology is recompiled</intro> 
         </ottonian>
         <romanesque>
             <technology>Courtly Love</technology> 
@@ -1145,10 +1145,10 @@
             <intro>Guillaume de Machaut completes his Messe de Nostre Dame</intro> 
         </italian>
         <maritime>
-            <technology></technology>  
+            <technology>Sumptious Feast</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro> 
+            <year>1430</year>
+            <intro>Philip the Good marries Isabel of Portugal</intro> 
         </maritime> 
     </eras>
   </category>
@@ -1225,7 +1225,7 @@
     </eras>
   </category>
   <category>
-    <type>Construction</type>
+    <type>Architecture</type>
     <master>Master Mason</master>
     <eras>
         <merovingian>

@@ -3,16 +3,16 @@
   <category>
     <master>Lord of the Manor</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Appoint Chamberlain</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>Chamberlain</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>Solar</found>
             <description>Appoint Chamberlain</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Appoint Serjeant at Arms</action>
             <stat>organization</stat>
@@ -78,16 +78,16 @@
   <category>
     <master>Serjeant at Arms</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Appoint Master of the Revels</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>Master of the Revels</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>High_Table</found>
             <description>Appoint Master of the Revels</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Appoint Siege Engineer</action>
             <stat>organization</stat>
@@ -153,16 +153,16 @@
   <category>
     <master>Steward</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Enfeof</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Farmer</recruit>
             <craft>none</craft>
             <found>Muniment</found>
             <description>Assign function to a holding</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Talliage</action>
             <stat>organization</stat>
@@ -228,16 +228,16 @@
   <category>
     <master>Chancellor</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Ordain</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Priest</recruit>
             <craft>none</craft>
             <found>Parish</found>
             <description>Recruit priest</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Charter</action>
             <stat>organization</stat>
@@ -303,16 +303,16 @@
   <category>
     <master>Treasurer</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Design</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Craftsman</recruit>
             <craft>Masterpiece</craft>
             <found>none</found>
             <description>Design masterpiece</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Claim</action>
             <stat>organization</stat>
@@ -378,16 +378,16 @@
   <category>
     <master>Chamberlain</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Ennoblement</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Noble</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>Recruit noble</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Banquet</action>
             <stat>organization</stat>
@@ -453,16 +453,16 @@
   <category>
     <master>Constable</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Adoubement</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Knight</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>Recruit cavalry</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Train</action>
             <stat>organization</stat>
@@ -528,16 +528,16 @@
   <category>
     <master>Marshall</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Levy</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Sergeant</recruit>
             <craft>none</craft>
             <found>Levy</found>
             <description>Levy troops</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Campaign</action>
             <stat>organization</stat>
@@ -603,16 +603,16 @@
   <category>
     <master>Admiral</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Captain</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Captain</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>Recruit captain</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>none</action>
             <stat>organization</stat>
@@ -678,16 +678,16 @@
   <category>
     <master>Master of the Revels</master>
     <actions>
-        <charisma>
+        <charm>
             <action>none</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>none</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>none</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>none</action>
             <stat>organization</stat>
@@ -753,16 +753,16 @@
   <category>
     <master>Chronicler</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Tonsure</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Monk</recruit>
             <craft>none</craft>
             <found>Monastery</found>
             <description>Recruit monk</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>none</action>
             <stat>organization</stat>
@@ -828,16 +828,16 @@
   <category>
     <master>Almoner</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Vow</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Crusader</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>Recruit a crusader</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Tithe</action>
             <stat>organization</stat>
@@ -903,16 +903,16 @@
   <category>
     <master>Master Mason</master>
     <actions>
-        <charisma>
+        <charm>
             <action>none</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>none</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>none</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>none</action>
             <stat>organization</stat>
@@ -978,16 +978,16 @@
   <category>
     <master>Castellan</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Garrison</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Guard</recruit>
             <craft>none</craft>
             <found>Garrison</found>
             <description>Garrison a settlement or holding</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Lodge</action>
             <stat>organization</stat>
@@ -1053,16 +1053,16 @@
   <category>
     <master>Siege Engineer</master>
     <actions>
-        <charisma>
+        <charm>
             <action>Contract</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>Gynour</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>Recruit siege crew</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>Engineer</action>
             <stat>organization</stat>
@@ -1128,16 +1128,16 @@
   <category>
     <master>Grandmaster</master>
     <actions>
-        <charisma>
+        <charm>
             <action>none</action>
-            <stat>charisma</stat>
+            <stat>charm</stat>
             <operand>none</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
             <description>none</description>       
-        </charisma> 
+        </charm> 
         <organization>
             <action>none</action>
             <stat>organization</stat>
