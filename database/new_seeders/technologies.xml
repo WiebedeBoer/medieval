@@ -120,7 +120,7 @@
             <historic>false</historic>
             <year>1031</year>
             <intro>Baldwin IV of Flanders institutes castellanies</intro> 
-            <description>Enables castellany land unit</description> 
+            <description>Enables castellany land unit and enables hoarding architecture</description> 
         </romanesque>
         <norman>
             <technology>Heraldry</technology> 
@@ -635,7 +635,7 @@
             <description>Enables chivalric guild</description> 
         </gothic>
         <rayonnant>
-            <technology>Jinete</technology> 
+            <technology></technology> 
             <historic>false</historic>
             <year>1238</year>
             <intro>James I of Aragon conquers Valencia</intro>
@@ -835,7 +835,7 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Sword</technology>  
+            <technology>Spatha</technology>  
             <historic>false</historic>
             <year>734</year>
             <intro>Charles Martel defeats Poppo at the battle of the Boarn</intro> 
@@ -849,14 +849,14 @@
             <description>Improves sword melee</description>      
         </carolingian> 
         <viking>
-            <technology>Viking Sword</technology> 
+            <technology>Tactics</technology> 
             <historic>false</historic>
-            <year>844</year>
-            <intro>Vikings raid Seville</intro>
-            <description>Improves sword melee</description>  
+            <year>908</year>
+            <intro>Tactica treatise is completed</intro>
+            <description>Expands tactial actions</description>  
         </viking> 
         <ottonian>
-            <technology>Ottonian Sword</technology> 
+            <technology></technology> 
             <historic>false</historic>
             <year>948</year>
             <intro>Henry I of Bavaria defeats an Hungarian army</intro> 
@@ -918,14 +918,14 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Merovingian Bill</technology> 
+            <technology>Bill</technology> 
             <historic>false</historic>
             <year>725</year>
             <intro>Charles Martel invades Bavaria</intro>
             <description>Improves polearms melee</description>       
         </merovingian> 
         <carolingian>
-            <technology>Carolingian Bill</technology>   
+            <technology></technology>   
             <historic>false</historic>
             <year>760</year>
             <intro>Pepin the Short launches a campaign in Septimania</intro> 
@@ -939,10 +939,10 @@
             <description>Improves bludgeon melee</description> 
         </viking> 
         <ottonian>
-            <technology>Ottonian Bill</technology> 
+            <technology>Menaulon</technology> 
             <historic>false</historic>
             <year>960</year>
-            <intro>Mieszko I becomes prince of Poland</intro> 
+            <intro>Battle of Andrassos</intro> 
             <description>Improves polearms melee</description> 
         </ottonian>
         <romanesque>
@@ -1001,25 +1001,25 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Francisca</technology>   
+            <technology>Grenade</technology>   
             <historic>false</historic>
-            <year>727</year>
-            <intro>Liutprand conquers Bologna</intro> 
-            <description>Enables francisca thrower recruitment</description>    
+            <year>744</year>
+            <intro>Grenades appear after the reign of Leo III</intro> 
+            <description>Improves skirmish effect</description>    
         </merovingian> 
         <carolingian>
-            <technology>Shortbow</technology> 
+            <technology>Staff Sling</technology> 
             <historic>false</historic>
             <year>773</year>
             <intro>Charlemagne besieges Pavia</intro>
-            <description>Improves skirmish</description>       
+            <description>Improves skirmish effect</description>       
         </carolingian> 
         <viking>
-            <technology>Tactics</technology> 
+            <technology>Naffatin</technology> 
             <historic>false</historic>
-            <year>908</year>
-            <intro>Tactica treatise is completed</intro>
-            <description>Expands tactial actions</description>  
+            <year>837</year>
+            <intro>Fire archers in use</intro>
+            <description>Enables fire archer actions</description>  
         </viking> 
         <ottonian>
             <technology>Crossbow</technology> 
@@ -1499,39 +1499,39 @@
     <master>Siege Engineer</master>
     <eras> 
         <merovingian>
-            <technology>Merovingian Mangonel</technology>
+            <technology>Mangonel</technology>
             <historic>false</historic>
             <year>737</year>
             <intro>Charles Martel besieges the Umayyad at Narbonne</intro>
             <description>Improves siege action effects</description>        
         </merovingian> 
         <carolingian>
-            <technology>Arab Mangonel</technology> 
+            <technology></technology> 
             <historic>false</historic>
             <year>761</year>
             <intro>An Abbasid Caliphate army reconquers the city of Kairouan</intro>
             <description>Improves siege action effects</description>        
         </carolingian> 
         <viking>
-            <technology>Viking Mangonel</technology> 
+            <technology>Fire Ship</technology> 
             <historic>false</historic>
             <year>845</year>
             <intro>Siege of Paris</intro> 
             <description>Improves siege action effects</description>  
         </viking> 
         <ottonian>
-            <technology>Ottonian Mangonel</technology> 
+            <technology></technology> 
             <historic>false</historic>
             <year>938</year>
             <intro>Otto I the Great besieges Eresburg</intro>
             <description>Improves siege action effects</description>   
         </ottonian>
         <romanesque>
-            <technology>Hoarding</technology> 
+            <technology></technology> 
             <historic>false</historic>
             <year>1032</year>
             <intro>Odo II of Champagne invades Burgundy</intro> 
-            <description>Improves countersiege action effects and enaables hoardings architecture</description>  
+            <description></description>  
         </romanesque>
         <norman>
             <technology>Springald</technology> 
@@ -1562,11 +1562,11 @@
             <description>Enables cannon construction</description> 
         </flamboyant>
         <italian>
-            <technology>Gun Loop</technology> 
+            <technology>Couillard</technology> 
             <historic>false</historic>
             <year>1385</year>
-            <intro>Bodiam castle is constructed</intro> 
-            <description>Improves countersiege action effects</description> 
+            <intro>Couillard technique spreads</intro> 
+            <description>Improves siege action effects</description> 
         </italian>
         <maritime>
             <technology>Bombard</technology> 

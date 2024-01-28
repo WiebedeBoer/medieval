@@ -3,7 +3,6 @@
   <unit>
     <type>Mangonel</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
@@ -19,7 +18,6 @@
   <unit>
     <type>Springald</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
@@ -35,7 +33,6 @@
   <unit>
     <type>Trebuchet</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
@@ -51,7 +48,6 @@
   <unit>
     <type>Cannon</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
@@ -67,7 +63,6 @@
   <unit>
     <type>Bombard</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
@@ -81,9 +76,8 @@
     <recruitment>Siege</recruitment>
   </unit>
   <unit>
-    <type>Knight_Crusader</type>
+    <type>Crusader_Knight</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -97,9 +91,23 @@
     <recruitment>Crusader</recruitment>
   </unit>
   <unit>
+    <type>Ghazi</type>
+    <weapons>
+      <skirmish>Shortbow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Camel_Armor<armor>
+    <shield>none</shield>
+    <transport>Camel</transport>
+    <recruitment>Crusader</recruitment>
+  </unit>
+  <unit>
     <type>Turcopole</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>Arbalest</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
@@ -113,25 +121,8 @@
     <recruitment>Auxiliary</recruitment>
   </unit>
   <unit>
-    <type>Ghazi</type>
-    <weapons>
-      <projectile>none</projectile>
-      <skirmish>Shortbow</skirmish>
-      <matchlock>none</matchlock>
-      <polearm>none</polearm>
-      <bludgeon>none</bludgeon>
-      <blade>none</blade>
-      <siege>none</siege>
-    </weapons>
-    <armor>Militia_Armor<armor>
-    <shield>Round_Shield</shield>
-    <transport>Camel</transport>
-    <recruitment>Auxiliary</recruitment>
-  </unit>
-  <unit>
     <type>Condottiero</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -147,7 +138,6 @@
   <unit>
     <type>Mamluk</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -161,9 +151,53 @@
     <recruitment>Mercenary</recruitment>
   </unit>
   <unit>
+    <type>Gendarme</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Lance</polearm>
+      <bludgeon>Bludgeon</bludgeon>
+      <blade>Sword</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Plate_Armor<armor>
+    <shield>Heater_Shield</shield>
+    <transport>Horse</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Routier</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Lance</polearm>
+      <bludgeon>Bludgeon</bludgeon>
+      <blade>Sword</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Knightly_Armor<armor>
+    <shield>Heater_Shield</shield>
+    <transport>Horse</transport>
+    <recruitment>Mercenary</recruitment>
+  </unit>
+  <unit>
+    <type>Horseman_Kipchak</type>
+    <weapons>
+      <skirmish>Seljuk_Bow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Horseman_Armor<armor>
+    <shield>none</shield>
+    <transport>Horse</transport>
+    <recruitment>Mercenary</recruitment>
+  </unit>
+  <unit>
     <type>Knight_Occidental</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -179,7 +213,6 @@
   <unit>
     <type>Knight_Byzantine</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -193,17 +226,31 @@
     <recruitment>Levy</recruitment>
   </unit>
   <unit>
-    <type>Knight_Rus</type>
+    <type>Horseman_Cossack</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
       <bludgeon>Bludgeon</bludgeon>
-      <blade>Sword</blade>
+      <blade>Kilij</blade>
       <siege>none</siege>
     </weapons>
-    <armor>Knightly_Armor<armor>
+    <armor>Horseman_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Horse</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Horseman_Hussar</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Lance</polearm>
+      <bludgeon>Bludgeon</bludgeon>
+      <blade>Kilij</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Horseman_Armor<armor>
     <shield>Round_Shield</shield>
     <transport>Horse</transport>
     <recruitment>Levy</recruitment>
@@ -211,7 +258,6 @@
   <unit>
     <type>Faris_Nimcha</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -227,7 +273,6 @@
   <unit>
     <type>Faris_Saif</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -241,9 +286,38 @@
     <recruitment>Levy</recruitment>
   </unit>
   <unit>
+    <type>Knight_Sipahi</type>
+    <weapons>
+      <skirmish>Seljuk_Bow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Lance</polearm>
+      <bludgeon>Bludgeon</bludgeon>
+      <blade>Kilij</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Knightly_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Horse</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Horseman_Kilij</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Lance</polearm>
+      <bludgeon>Bludgeon</bludgeon>
+      <blade>Kilij</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Horseman_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Horse</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
     <type>Horseman_Lancer</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Lance</polearm>
@@ -259,8 +333,37 @@
   <unit>
     <type>Horseman_Archer</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>Shortbow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Horseman_Armor<armor>
+    <shield>none</shield>
+    <transport>Horse</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Horseman_Seljuk</type>
+    <weapons>
+      <skirmish>Seljuk_Bow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Horseman_Armor<armor>
+    <shield>none</shield>
+    <transport>Horse</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Horseman_Mongol</type>
+    <weapons>
+      <skirmish>Mongol_Bow</skirmish>
       <matchlock>none</matchlock>
       <polearm>none</polearm>
       <bludgeon>none</bludgeon>
@@ -275,7 +378,6 @@
   <unit>
     <type>Almogavar</type>
     <weapons>
-      <projectile>none</projectile>
       <skirmish>none</skirmish>
       <matchlock>none</matchlock>
       <polearm>Spear</polearm>
@@ -287,5 +389,395 @@
     <shield>Round_Shield</shield>
     <transport>Foot</transport>
     <recruitment>Mercenary</recruitment>
+  </unit>
+  <unit>
+    <type>Farfanes</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Spear</polearm>
+      <bludgeon>Bludgeon</bludgeon>
+      <blade>Falchion</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Mercenary</recruitment>
+  </unit>
+  <unit>
+    <type>Galloglass</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>Hafted_Axe</bludgeon>
+      <blade>Claymore</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Mercenary</recruitment>
+  </unit>
+  <unit>
+    <type>Rabble_Francisca</type>
+    <weapons>
+      <skirmish>Francisca</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Pitchfork</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Rabble_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Rabble_Javelin</type>
+    <weapons>
+      <skirmish>Javelin</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Pitchfork</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Rabble_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Archer</type>
+    <weapons>
+      <skirmish>Shortbow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Longbowman</type>
+    <weapons>
+      <skirmish>Longbow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Crossbowman</type>
+    <weapons>
+      <skirmish>Crossbow</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Arbalester</type>
+    <weapons>
+      <skirmish>Arbalest</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Pavisier</type>
+    <weapons>
+      <skirmish>Arbalest</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>Pavise</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Culveriner</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>Culverin</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Arquebusier</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>Arquebus</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Skirmisher_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Footman_Voulgier</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Voulge</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Footman_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Footman_Poleaxe</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Poleaxe</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Footman_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Footman_Halberdier</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Halberd</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Footman_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Bardiche</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Bardiche</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Fauchard</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Fauchard</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Guisarme</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Guisarme</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Billman</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Bill</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Phoulkon</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Phoulkon</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Menaulon</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Menaulon</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Sword</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>Voulge</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Falchion</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>none</bludgeon>
+      <blade>Falchion</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Berserker</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>Hafted_Axe</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Berserker_Armor<armor>
+    <shield>none</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Janissary</type>
+    <weapons>
+      <skirmish>Seljuk_Bow</skirmish>
+      <matchlock>Arquebus</matchlock>
+      <polearm>Halberd</polearm>
+      <bludgeon>Tabar</bludgeon>
+      <blade>Kilij</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Militia_Tabar</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>Tabar</bludgeon>
+      <blade>none</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Militia_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
+  </unit>
+  <unit>
+    <type>Footman_Goedendag</type>
+    <weapons>
+      <skirmish>none</skirmish>
+      <matchlock>none</matchlock>
+      <polearm>none</polearm>
+      <bludgeon>Goedendag</bludgeon>
+      <blade>Longsword</blade>
+      <siege>none</siege>
+    </weapons>
+    <armor>Footman_Armor<armor>
+    <shield>Round_Shield</shield>
+    <transport>Foot</transport>
+    <recruitment>Levy</recruitment>
   </unit>
 </units>

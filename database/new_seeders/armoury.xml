@@ -3,221 +3,325 @@
     <item>
         <title>Plate_Armor</title>
         <category>Armor</category>
-        <technology>Gendarme</technology>
+        <technology>Plate Armor</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Knightly_Armor</title>
         <category>Armor</category>
-        <technology>Knighthood</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Horseman_Armor</title>
         <category>Armor</category>
-        <technology>Banality</technology>
-    </item>
-    <item>
-        <title>Turcopole_Armor</title>
-        <category>Armor</category>
-        <technology>Banality</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Camel_Armor</title>
         <category>Armor</category>
-        <technology>Banality</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Footman_Armor</title>
         <category>Armor</category>
-        <technology>Banality</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Berserker_Armor</title>
         <category>Armor</category>
-        <technology>Banality</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Militia_Armor</title>
         <category>Armor</category>
-        <technology>Banality</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Skirmisher_Armor</title>
         <category>Armor</category>
-        <technology>Banality</technology>
+        <technology>Merovingian Hauberk</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Rabble_Armor</title>
+        <category>Armor</category>
+        <technology>Open Field System</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Round_Shield</title>
         <category>Shield</category>
         <technology>Banality</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Heater_Shield</title>
         <category>Shield</category>
         <technology>Banality</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Pavise_Shield</title>
         <category>Shield</category>
         <technology>Pavise</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Mangonel</title>
         <category>Siege</category>
-        <technology></technology>
+        <technology>Merovingian Mangonel</technology>
+        <projectile>Stone</projectile>
     </item>
     <item>
         <title>Springald</title>
         <category>Siege</category>
         <technology>Springald</technology>
+        <projectile>Stone</projectile>
     </item>
     <item>
         <title>Trebuchet</title>
         <category>Siege</category>
         <technology>Counterpoise Trebuchet</technology>
+        <projectile>Stone</projectile>
     </item>
     <item>
         <title>Cannon</title>
         <category>Siege</category>
         <technology>Cannon</technology>
+        <projectile>Ammunition</projectile>
     </item>
     <item>
         <title>Bombard</title>
         <category>Siege</category>
         <technology>Bombard</technology>
+        <projectile>Ammunition</projectile>
     </item>
     <item>
         <title>Great_Sword</title>
         <category>Weapon</category>
         <technology>Great Sword</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Claymore</title>
         <category>Weapon</category>
         <technology>Claymore</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Longsword</title>
         <category>Weapon</category>
         <technology>Longsword</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Sword</title>
         <category>Weapon</category>
         <technology>Banality</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Falchion</title>
+        <category>Weapon</category>
+        <technology>Banality</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Dagger</title>
         <category>Weapon</category>
         <technology>Dagger</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Kilij</title>
         <category>Weapon</category>
         <technology>Seljuk Sabre</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Nimcha</title>
         <category>Weapon</category>
         <technology>Seljuk Sabre</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Saif</title>
         <category>Weapon</category>
         <technology>Seljuk Sabre</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Culverin</title>
+        <category>Weapon</category>
+        <technology>Culverin</technology>
+        <projectile>Ammunition</projectile>
+    </item>
+    <item>
+        <title>Arquebus</title>
+        <category>Weapon</category>
+        <technology>Arquebus</technology>
+        <projectile>Ammunition</projectile>
     </item>
     <item>
         <title>Arbalest</title>
         <category>Weapon</category>
         <technology>Arbalest</technology>
+        <projectile>Arrow</projectile>
     </item>
     <item>
         <title>Crossbow</title>
         <category>Weapon</category>
         <technology>Crossbow</technology>
+        <projectile>Arrow</projectile>
     </item>
     <item>
         <title>Mongol_Bow</title>
         <category>Weapon</category>
         <technology>Mongol Bow</technology>
+        <projectile>Arrow</projectile>
     </item>
     <item>
         <title>Seljuk_Bow</title>
         <category>Weapon</category>
         <technology>Seljuk Bow</technology>
+        <projectile>Arrow</projectile>
     </item>
     <item>
         <title>Longbow</title>
         <category>Weapon</category>
         <technology>Longbow</technology>
+        <projectile>Arrow</projectile>
     </item>
     <item>
         <title>Shortbow</title>
         <category>Weapon</category>
         <technology>Banality</technology>
+        <projectile>Arrow</projectile>
     </item>
     <item>
         <title>Francisca</title>
-        <category>Weapon</category>
-        <technology>Francisca</technology>
+        <category>Projectile</category>
+        <technology>Banality</technology>
+        <projectile>Francisca</projectile>
     </item>
     <item>
         <title>Javelin</title>
-        <category>Weapon</category>
+        <category>Projectile</category>
         <technology>Banality</technology>
+        <projectile>Javelin</projectile>
+    </item>
+    <item>
+        <title>Arrow</title>
+        <category>Projectile</category>
+        <technology>Banality</technology>
+        <projectile>Arrow</projectile>
+    </item>
+    <item>
+        <title>Stone</title>
+        <category>Projectile</category>
+        <technology>Banality</technology>
+        <projectile>Stone</projectile>
+    </item>
+    <item>
+        <title>Ammunition</title>
+        <category>Projectile</category>
+        <technology>Gunpowder</technology>
+        <projectile>Ammunition</projectile>
     </item>
     <item>
         <title>Hafted_Axe</title>
         <category>Weapon</category>
         <technology>Hafted Axe</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Tabar</title>
         <category>Weapon</category>
-        <technology>Hafted Axe</technology>
+        <technology>Banality</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Bludgeon</title>
+        <category>Weapon</category>
+        <technology>Banality</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Goedendag</title>
+        <category>Weapon</category>
+        <technology>Banality</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Pitchfork</title>
+        <category>Weapon</category>
+        <technology>Open Field System</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Lance</title>
         <category>Weapon</category>
         <technology>Banality</technology>
+        <projectile>none</projectile>
     </item>
     <item>
-        <title>Spear</title>
+        <title>Phoulkon</title>
         <category>Weapon</category>
         <technology>Banality</technology>
+        <projectile>none</projectile>
+    </item>
+    <item>
+        <title>Menaulon</title>
+        <category>Weapon</category>
+        <technology>Bill</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Bill</title>
         <category>Weapon</category>
-        <technology>Banality</technology>
+        <technology>Bill</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Guisarme</title>
         <category>Weapon</category>
         <technology>Bill Guisarme</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Fauchard</title>
         <category>Weapon</category>
         <technology>Fauchard</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Bardiche</title>
         <category>Weapon</category>
         <technology>Bardiche</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Halberd</title>
         <category>Weapon</category>
         <technology>Halberd</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Poleaxe</title>
         <category>Weapon</category>
         <technology>Poleaxe</technology>
+        <projectile>none</projectile>
     </item>
     <item>
         <title>Voulge</title>
         <category>Weapon</category>
         <technology>Voulge Guisarme</technology>
+        <projectile>none</projectile>
     </item>
 </equipment>

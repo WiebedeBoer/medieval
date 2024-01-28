@@ -4,10 +4,10 @@
     <type>german</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Occidental</cavalry_melee>
@@ -18,10 +18,10 @@
             <type>german</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -32,10 +32,10 @@
             <type>german</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -46,10 +46,10 @@
             <type>german</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -60,8 +60,8 @@
             <type>german</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -74,8 +74,8 @@
             <type>german</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -88,71 +88,71 @@
             <type>german</type> 
         </norman>
         <gothic>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>german</type> 
         </gothic>
         <rayonnant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>german</type>  
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Footman_Halberd</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_melee>Footman_Halberdier</infantry_melee>
+            <infantry_shock>Footman_Goedendag</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Cannon</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>german</type> 
         </flamboyant>
         <italian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Footman_Poleaxe</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Footman_Goedendag</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Cannon</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>german</type> 
         </italian>
         <maritime>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
-            <infantry_melee>Footman_Voulge</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Footman_Voulgier</infantry_melee>
+            <infantry_shock>Footman_Goedendag</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Gendarme</cavalry_melee>
             <siege>Bombard</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>german</type>  
@@ -163,10 +163,10 @@
     <type>lombard</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Occidental</cavalry_melee>
@@ -177,10 +177,10 @@
             <type>lombard</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -191,10 +191,10 @@
             <type>lombard</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -205,10 +205,10 @@
             <type>lombard</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -219,8 +219,8 @@
             <type>lombard</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -233,8 +233,8 @@
             <type>lombard</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -247,8 +247,8 @@
             <type>lombard</type> 
         </norman>
         <gothic>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -261,8 +261,8 @@
             <type>lombard</type> 
         </gothic>
         <rayonnant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -275,10 +275,10 @@
             <type>lombard</type>  
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Footman_Halberd</infantry_melee>
+            <infantry_melee>Footman_Halberdier</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -289,9 +289,9 @@
             <type>lombard</type> 
         </flamboyant>
         <italian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Footman_Poleaxe</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -303,10 +303,10 @@
             <type>lombard</type> 
         </italian>
         <maritime>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
-            <infantry_melee>Footman_Voulge</infantry_melee>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Footman_Voulgier</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Gendarme</cavalry_melee>
@@ -319,13 +319,172 @@
     </eras>
   </military>
   <military>
+    <type>sicilian</type>
+    <eras>
+        <merovingian>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Billman</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Occidental</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>sicilian</type>      
+        </merovingian> 
+        <carolingian>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Billman</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>
+            <type>sicilian</type>    
+        </carolingian> 
+        <viking>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Billman</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>sicilian</type>
+        </viking> 
+        <ottonian>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Billman</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>sicilian</type>
+        </ottonian>
+        <romanesque>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Guisarme</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>sicilian</type>
+        </romanesque>
+        <norman>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Fauchard</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Springald</siege>
+            <company>none</company>
+            <auxiliary>Turcopole</auxiliary>
+            <crusader>Crusader_Knight</crusader>
+            <type>sicilian</type> 
+        </norman>
+        <gothic>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Fauchard</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Trebuchet</siege>
+            <company>Condottiero</company>
+            <auxiliary>Turcopole</auxiliary>
+            <crusader>Crusader_Knight</crusader>
+            <type>sicilian</type> 
+        </gothic>
+        <rayonnant>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Bardiche</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Trebuchet</siege>
+            <company>Condottiero</company>
+            <auxiliary>Turcopole</auxiliary>
+            <crusader>Crusader_Knight</crusader>
+            <type>sicilian</type>  
+        </rayonnant>
+        <flamboyant>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Footman_Halberdier</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Cannon</siege>
+            <company>Condottiero</company>
+            <auxiliary>Turcopole</auxiliary>
+            <crusader>Crusader_Knight</crusader>
+            <type>sicilian</type> 
+        </flamboyant>
+        <italian>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
+            <infantry_melee>Footman_Poleaxe</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Occidental</cavalry_melee>
+            <siege>Cannon</siege>
+            <company>Condottiero</company>
+            <auxiliary>Turcopole</auxiliary>
+            <crusader>Crusader_Knight</crusader>
+            <type>sicilian</type> 
+        </italian>
+        <maritime>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Footman_Voulgier</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Gendarme</cavalry_melee>
+            <siege>Bombard</siege>
+            <company>Condottiero</company>
+            <auxiliary>Turcopole</auxiliary>
+            <crusader>Crusader_Knight</crusader>
+            <type>sicilian</type>  
+        </maritime>
+    </eras>
+  </military>
+  <military>
     <type>viking</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
@@ -336,10 +495,10 @@
             <type>viking</type>       
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -350,10 +509,10 @@
             <type>viking</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -364,10 +523,10 @@
             <type>viking</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -378,8 +537,8 @@
             <type>viking</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
@@ -392,8 +551,8 @@
             <type>viking</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
@@ -406,8 +565,8 @@
             <type>viking</type>
         </norman>
         <gothic>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
@@ -420,8 +579,8 @@
             <type>viking</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
@@ -434,8 +593,8 @@
             <type>viking</type> 
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
@@ -448,9 +607,9 @@
             <type>viking</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -462,9 +621,9 @@
             <type>viking</type>
         </italian>
         <maritime>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>Militia_Berserker</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -481,10 +640,10 @@
     <type>frankish</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
@@ -495,10 +654,10 @@
             <type>frankish</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -509,10 +668,10 @@
             <type>frankish</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -523,10 +682,10 @@
             <type>frankish</type> 
         </viking> 
         <ottonian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -537,8 +696,8 @@
             <type>frankish</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -551,8 +710,8 @@
             <type>frankish</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -565,71 +724,71 @@
             <type>frankish</type> 
         </norman>
         <gothic>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader> 
             <type>frankish</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>frankish</type>
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Footman_Halberd</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_melee>Footman_Halberdier</infantry_melee>
+            <infantry_shock>Footman_Goedendag</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Cannon</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader> 
             <type>frankish</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Footman_Poleaxe</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Footman_Goedendag</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Cannon</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader> 
             <type>frankish</type>
         </italian>
         <maritime>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
-            <infantry_melee>Footman_Voulge</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Footman_Voulgier</infantry_melee>
+            <infantry_shock>Footman_Goedendag</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Gendarme</cavalry_melee>
             <siege>Bombard</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader> 
             <type>frankish</type> 
@@ -640,10 +799,10 @@
     <type>iberian</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
@@ -654,10 +813,10 @@
             <type>iberian</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -668,10 +827,10 @@
             <type>iberian</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -682,10 +841,10 @@
             <type>iberian</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -696,8 +855,8 @@
             <type>iberian</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -710,8 +869,8 @@
             <type>iberian</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -724,8 +883,8 @@
             <type>iberian</type>
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -738,8 +897,8 @@
             <type>iberian</type> 
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Arbalester</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -752,10 +911,10 @@
             <type>iberian</type>  
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Footman_Halberd</infantry_melee>
+            <infantry_melee>Footman_Halberdier</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -766,9 +925,9 @@
             <type>iberian</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Footman_Poleaxe</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -780,10 +939,10 @@
             <type>iberian</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Pavisier</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
-            <infantry_melee>Footman_Voulge</infantry_melee>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Footman_Voulgier</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Gendarme</cavalry_melee>
@@ -799,10 +958,10 @@
     <type>english</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
@@ -813,10 +972,10 @@
             <type>english</type>       
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -827,10 +986,10 @@
             <type>english</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -841,10 +1000,10 @@
             <type>english</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -855,8 +1014,8 @@
             <type>english</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -869,8 +1028,8 @@
             <type>english</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -883,71 +1042,71 @@
             <type>english</type>
         </norman>
         <gothic>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader> 
             <type>english</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>english</type>  
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Footman_Halberd</infantry_melee>
+            <infantry_melee>Footman_Halberdier</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Cannon</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>english</type> 
         </flamboyant>
         <italian>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Footman_Poleaxe</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
             <siege>Cannon</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader>
             <type>english</type> 
         </italian>
         <maritime>
-            <infantry_projectile>Francisca_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
-            <infantry_melee>Footman_Voulge</infantry_melee>
+            <rabble_projectile>Rabble_Francisca</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Footman_Voulgier</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Gendarme</cavalry_melee>
             <siege>Bombard</siege>
-            <company>none</company>
+            <company>Routier</company>
             <auxiliary>Turcopole</auxiliary>
             <crusader>Crusader_Knight</crusader> 
             <type>english</type> 
@@ -958,10 +1117,10 @@
     <type>celtic</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
@@ -972,10 +1131,10 @@
             <type>celtic</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -986,10 +1145,10 @@
             <type>celtic</type>   
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -1000,10 +1159,10 @@
             <type>celtic</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Crossbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Occidental</cavalry_melee>
@@ -1014,8 +1173,8 @@
             <type>celtic</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -1028,8 +1187,8 @@
             <type>celtic</type> 
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -1042,8 +1201,8 @@
             <type>celtic</type> 
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -1056,8 +1215,8 @@
             <type>celtic</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -1070,8 +1229,8 @@
             <type>celtic</type> 
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
@@ -1084,9 +1243,9 @@
             <type>celtic</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -1098,9 +1257,9 @@
             <type>celtic</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Longbowman</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Longbowman</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -1117,10 +1276,10 @@
     <type>rus</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
@@ -1131,13 +1290,13 @@
             <type>rus</type>       
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
             <siege>Mangonel</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1145,13 +1304,13 @@
             <type>rus</type>   
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
             <siege>Mangonel</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1159,13 +1318,13 @@
             <type>rus</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Bill</infantry_melee>
+            <infantry_melee>Militia_Billman</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Mangonel</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1173,13 +1332,13 @@
             <type>rus</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Guisarme</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Mangonel</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1187,13 +1346,13 @@
             <type>rus</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Springald</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1201,13 +1360,13 @@
             <type>rus</type>
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Fauchard</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Trebuchet</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1215,13 +1374,13 @@
             <type>rus</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Trebuchet</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1229,13 +1388,13 @@
             <type>rus</type> 
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Cannon</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1243,13 +1402,13 @@
             <type>rus</type> 
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Cannon</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1257,13 +1416,13 @@
             <type>rus</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Bardiche</infantry_melee>
             <infantry_shock>none</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
-            <cavalry_melee>Knight_Rus</cavalry_melee>
+            <cavalry_melee>Horseman_Cossack</cavalry_melee>
             <siege>Bombard</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
@@ -1276,11 +1435,11 @@
     <type>byzantine</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Spear</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
             <siege>Mangonel</siege>
@@ -1290,11 +1449,11 @@
             <type>byzantine</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Spear</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Mangonel</siege>
@@ -1304,11 +1463,11 @@
             <type>byzantine</type>  
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
-            <infantry_melee>Militia_Spear</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Mangonel</siege>
@@ -1318,11 +1477,11 @@
             <type>byzantine</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Mangonel</siege>
@@ -1332,11 +1491,11 @@
             <type>byzantine</type> 
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Mangonel</siege>
@@ -1346,11 +1505,11 @@
             <type>byzantine</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Springald</siege>
@@ -1360,11 +1519,11 @@
             <type>byzantine</type>
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Trebuchet</siege>
@@ -1374,11 +1533,11 @@
             <type>byzantine</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Trebuchet</siege>
@@ -1388,11 +1547,11 @@
             <type>byzantine</type> 
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Cannon</siege>
@@ -1402,11 +1561,11 @@
             <type>byzantine</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Cannon</siege>
@@ -1416,11 +1575,11 @@
             <type>byzantine</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Menaulon</infantry_melee>
-            <infantry_shock>none</infantry_shock>
+            <infantry_shock>Militia_Sword</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Knight_Byzantine</cavalry_melee>
             <siege>Bombard</siege>
@@ -1432,11 +1591,329 @@
     </eras>
   </military>
   <military>
+    <type>balkan</type>
+    <eras>
+        <merovingian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>      
+        </merovingian> 
+        <carolingian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>  
+            <type>balkan</type>  
+        </carolingian> 
+        <viking>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>
+        </viking> 
+        <ottonian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>
+            <type>balkan</type> 
+        </ottonian>
+        <romanesque>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Crossbowman</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>
+        </romanesque>
+        <norman>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Springald</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>
+        </norman>
+        <gothic>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Trebuchet</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>
+        </gothic>
+        <rayonnant>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Arbalester</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Trebuchet</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type> 
+        </rayonnant>
+        <flamboyant>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Cannon</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>
+        </flamboyant>
+        <italian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Hussar</cavalry_melee>
+            <siege>Cannon</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>balkan</type>
+        </italian>
+        <maritime>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Pavisier</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>Militia_Sword</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Hussar</cavalry_melee>
+            <siege>Bombard</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>  
+            <type>balkan</type>
+        </maritime>
+    </eras>
+  </military>
+  <military>
+    <type>georgian</type>
+    <eras>
+        <merovingian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Horseman_Lancer</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>      
+        </merovingian> 
+        <carolingian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>  
+            <type>georgian</type>  
+        </carolingian> 
+        <viking>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Phoulkon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>
+        </viking> 
+        <ottonian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>
+            <type>georgian</type> 
+        </ottonian>
+        <romanesque>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Mangonel</siege>
+            <company>none</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>
+        </romanesque>
+        <norman>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Springald</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>
+        </norman>
+        <gothic>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Trebuchet</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>
+        </gothic>
+        <rayonnant>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Trebuchet</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type> 
+        </rayonnant>
+        <flamboyant>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>none</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Cannon</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>
+        </flamboyant>
+        <italian>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Cannon</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader> 
+            <type>georgian</type>
+        </italian>
+        <maritime>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
+            <infantry_melee>Militia_Menaulon</infantry_melee>
+            <infantry_shock>none</infantry_shock>
+            <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
+            <cavalry_melee>Knight_Byzantine</cavalry_melee>
+            <siege>Bombard</siege>
+            <company>Horseman_Kipchak</company>
+            <auxiliary>none</auxiliary>
+            <crusader>none</crusader>  
+            <type>georgian</type>
+        </maritime>
+    </eras>
+  </military>
+  <military>
     <type>arab</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1449,8 +1926,8 @@
             <type>arab</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1463,8 +1940,8 @@
             <type>arab</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1477,8 +1954,8 @@
             <type>arab</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1491,8 +1968,8 @@
             <type>arab</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1505,8 +1982,8 @@
             <type>arab</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1519,8 +1996,8 @@
             <type>arab</type>
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1533,8 +2010,8 @@
             <type>arab</type> 
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1547,8 +2024,8 @@
             <type>arab</type> 
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1561,9 +2038,9 @@
             <type>arab</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -1575,9 +2052,9 @@
             <type>arab</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
@@ -1594,8 +2071,8 @@
     <type>moorish</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1608,8 +2085,8 @@
             <type>moorish</type>       
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1622,8 +2099,8 @@
             <type>moorish</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1636,113 +2113,113 @@
             <type>moorish</type>
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Horseman_Lancer</cavalry_melee>
             <siege>Mangonel</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Mangonel</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Springald</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type>
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Trebuchet</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader>
             <type>moorish</type>  
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Cannon</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Cannon</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Archer</cavalry_skirmisher>
             <cavalry_melee>Faris_Nimcha</cavalry_melee>
             <siege>Bombard</siege>
-            <company>Almogavar</company>
+            <company>Farfanes</company>
             <auxiliary>none</auxiliary>
             <crusader>Ghazi</crusader> 
             <type>moorish</type> 
@@ -1753,8 +2230,8 @@
     <type>turkic</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1767,8 +2244,8 @@
             <type>turkic</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1781,8 +2258,8 @@
             <type>turkic</type>    
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1795,8 +2272,8 @@
             <type>turkic</type>  
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1809,8 +2286,8 @@
             <type>turkic</type> 
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1823,8 +2300,8 @@
             <type>turkic</type> 
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1837,8 +2314,8 @@
             <type>turkic</type>  
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1851,8 +2328,8 @@
             <type>turkic</type> 
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1865,11 +2342,11 @@
             <type>turkic</type>  
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
-            <infantry_shock>Militia_Tabar</infantry_shock>
+            <infantry_shock>Militia_Janissary</infantry_shock>
             <cavalry_skirmisher>Horseman_Seljuk</cavalry_skirmisher>
             <cavalry_melee>Horseman_Kilij</cavalry_melee>
             <siege>Cannon</siege>
@@ -1879,13 +2356,13 @@
             <type>turkic</type>  
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
-            <infantry_shock>Militia_Tabar</infantry_shock>
+            <infantry_shock>Militia_Janissary</infantry_shock>
             <cavalry_skirmisher>Horseman_Seljuk</cavalry_skirmisher>
-            <cavalry_melee>Horseman_Kilij</cavalry_melee>
+            <cavalry_melee>Knight_Sipahi</cavalry_melee>
             <siege>Cannon</siege>
             <company>Mamluk</company>
             <auxiliary>Turcopole</auxiliary>
@@ -1893,13 +2370,13 @@
             <type>turkic</type>  
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
-            <infantry_shock>Militia_Tabar</infantry_shock>
+            <infantry_shock>Militia_Janissary</infantry_shock>
             <cavalry_skirmisher>Horseman_Seljuk</cavalry_skirmisher>
-            <cavalry_melee>Horseman_Kilij</cavalry_melee>
+            <cavalry_melee>Knight_Sipahi</cavalry_melee>
             <siege>Bombard</siege>
             <company>Mamluk</company>
             <auxiliary>Turcopole</auxiliary>
@@ -1912,8 +2389,8 @@
     <type>mongol</type>
     <eras>
         <merovingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1926,8 +2403,8 @@
             <type>mongol</type>      
         </merovingian> 
         <carolingian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1940,8 +2417,8 @@
             <type>mongol</type>   
         </carolingian> 
         <viking>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1954,8 +2431,8 @@
             <type>mongol</type> 
         </viking> 
         <ottonian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1968,8 +2445,8 @@
             <type>mongol</type>
         </ottonian>
         <romanesque>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1982,8 +2459,8 @@
             <type>mongol</type>
         </romanesque>
         <norman>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -1996,8 +2473,8 @@
             <type>mongol</type>
         </norman>
         <gothic>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -2010,8 +2487,8 @@
             <type>mongol</type>
         </gothic>
         <rayonnant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -2024,8 +2501,8 @@
             <type>mongol</type> 
         </rayonnant>
         <flamboyant>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
             <infantry_matchlock>none</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
@@ -2038,9 +2515,9 @@
             <type>mongol</type>
         </flamboyant>
         <italian>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Culveriner</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Culveriner</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Mongol</cavalry_skirmisher>
@@ -2052,9 +2529,9 @@
             <type>mongol</type>
         </italian>
         <maritime>
-            <infantry_projectile>Javelin_Thrower</infantry_projectile>
-            <infantry_skirmisher>Archer</infantry_skirmisher>
-            <infantry_matchlock>Arquebusier</infantry_matchlock>
+            <rabble_projectile>Rabble_Javelin</rabble_projectile>
+            <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
+            <infantry_matchlock>Militia_Arquebusier</infantry_matchlock>
             <infantry_melee>Militia_Falchion</infantry_melee>
             <infantry_shock>Militia_Tabar</infantry_shock>
             <cavalry_skirmisher>Horseman_Mongol</cavalry_skirmisher>

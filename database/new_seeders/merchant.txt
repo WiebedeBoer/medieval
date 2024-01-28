@@ -1,0 +1,29 @@
+<merchant>
+<venice>venetian</venice>
+<genoa>genoese</genoa>
+<florence>florentine</florence>
+<cahors>cahorsin</cahors>
+<lubeck>hanseatic</lubeck>
+<nuremberg>bavarian</nuremberg>
+<lincoln>english</lincoln>
+<hedeby>norsemen</hedeby>
+<byzantium>byzantine</byzantium>
+<kiev>varangian</kiev>
+<baghdad>radhanite</baghdad>
+</merchant>
+
+    <merchant>
+      <venice>none</venice>
+      <genoa>none</genoa>
+      <florence>none</florence>
+      <cahors>none</cahors>
+      <lubeck>none</lubeck>
+      <nuremberg>none</nuremberg>
+      <lincoln>none</lincoln>
+      <hedeby>none</hedeby>
+      <byzantium>none</byzantium>
+      <kiev>none</kiev>
+      <baghdad>none</baghdad>
+    </merchant>
+
+
