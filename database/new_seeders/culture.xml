@@ -19,22 +19,6 @@
           <banderole>arab</banderole>
           <gonfalon>arab</gonfalon>    
         </military>
-        <merchant>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Muslim_Sunni</religion>
@@ -59,15 +43,6 @@
           <banderole>aragon</banderole>
           <gonfalon>aragon</gonfalon>    
         </military>
-        <merchant>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -92,29 +67,6 @@
           <banderole>armenian</banderole>
           <gonfalon>armenian</gonfalon>    
         </military>
-        <merchant>
-          <byzantium>
-            <caparison>byzantine</caparison>
-            <tabard>byzantine</tabard>
-            <banner>byzantine</banner>
-            <banderole>byzantine</banderole>
-            <gonfalon>byzantine</gonfalon> 
-          </byzantium>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <kiev>
-            <caparison>varangian</caparison>
-            <tabard>varangian</tabard>
-            <banner>varangian</banner>
-            <banderole>varangian</banderole>
-            <gonfalon>varangian</gonfalon> 
-          </kiev>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Orthodox_Greek</religion>
@@ -139,43 +91,6 @@
           <banderole>frankish</banderole>
           <gonfalon>frankish</gonfalon>    
         </military>
-        <merchant>
-          <augsburg>
-            <caparison>bavarian</caparison>
-            <tabard>bavarian</tabard>
-            <banner>bavarian</banner>
-            <banderole>bavarian</banderole>
-            <gonfalon>bavarian</gonfalon>  
-          </augsburg>
-          <cahors>
-            <caparison>cahorsin</caparison>
-            <tabard>cahorsin</tabard>
-            <banner>cahorsin</banner>
-            <banderole>cahorsin</banderole>
-            <gonfalon>cahorsin</gonfalon> 
-          </cahors>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -200,22 +115,6 @@
           <banderole>castillian</banderole>
           <gonfalon>castillian</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -240,22 +139,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>    
         </military>
-        <merchant>
-          <augsburg>
-            <caparison>bavarian</caparison>
-            <tabard>bavarian</tabard>
-            <banner>bavarian</banner>
-            <banderole>bavarian</banderole>
-            <gonfalon>bavarian</gonfalon> 
-          </augsburg>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -280,15 +163,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>    
         </military>
-        <merchant>
-          <augsburg>
-            <caparison>bavarian</caparison>
-            <tabard>bavarian</tabard>
-            <banner>bavarian</banner>
-            <banderole>bavarian</banderole>
-            <gonfalon>bavarian</gonfalon>  
-          </augsburg>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -313,29 +187,6 @@
           <banderole>frankish</banderole>
           <gonfalon>frankish</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <lincoln>
-            <caparison>english</caparison>
-            <tabard>english</tabard>
-            <banner>english</banner>
-            <banderole>english</banderole>
-            <gonfalon>english</gonfalon> 
-          </lincoln>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -360,15 +211,6 @@
           <banderole>bulgarian</banderole>
           <gonfalon>bulgarian</gonfalon>    
         </military>
-        <merchant>
-          <byzantium>
-            <caparison>byzantine</caparison>
-            <tabard>byzantine</tabard>
-            <banner>byzantine</banner>
-            <banderole>byzantine</banderole>
-            <gonfalon>byzantine</gonfalon> 
-          </byzantium>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Orthodox_Bulgarian</religion>
@@ -393,22 +235,6 @@
           <banderole>castillian</banderole>
           <gonfalon>castillian</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -433,15 +259,6 @@
           <banderole>castillian</banderole>
           <gonfalon>castillian</gonfalon>    
         </military>
-        <merchant>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -466,29 +283,6 @@
           <banderole>aragon</banderole>
           <gonfalon>aragon</gonfalon>    
         </military>
-        <merchant>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -513,15 +307,6 @@
           <banderole>croatian</banderole>
           <gonfalon>croatian</gonfalon>    
         </military>
-        <merchant>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -546,22 +331,6 @@
           <banderole>viking</banderole>
           <gonfalon>viking</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -586,57 +355,6 @@
           <banderole>english</banderole>
           <gonfalon>english</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <cahors>
-            <caparison>cahorsin</caparison>
-            <tabard>cahorsin</tabard>
-            <banner>cahorsin</banner>
-            <banderole>cahorsin</banderole>
-            <gonfalon>cahorsin</gonfalon> 
-          </cahors>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-          <lincoln>
-            <caparison>english</caparison>
-            <tabard>english</tabard>
-            <banner>english</banner>
-            <banderole>english</banderole>
-            <gonfalon>english</gonfalon> 
-          </lincoln>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -661,22 +379,6 @@
           <banderole>rus</banderole>
           <gonfalon>rus</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <kiev>
-            <caparison>varangian</caparison>
-            <tabard>varangian</tabard>
-            <banner>varangian</banner>
-            <banderole>varangian</banderole>
-            <gonfalon>varangian</gonfalon> 
-          </kiev>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -701,50 +403,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <cahors>
-            <caparison>cahorsin</caparison>
-            <tabard>cahorsin</tabard>
-            <banner>cahorsin</banner>
-            <banderole>cahorsin</banderole>
-            <gonfalon>cahorsin</gonfalon> 
-          </cahors>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-          <lincoln>
-            <caparison>english</caparison>
-            <tabard>english</tabard>
-            <banner>english</banner>
-            <banderole>english</banderole>
-            <gonfalon>english</gonfalon> 
-          </lincoln>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -769,29 +427,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>    
         </military>
-        <merchant>
-          <augsburg>
-            <caparison>bavarian</caparison>
-            <tabard>bavarian</tabard>
-            <banner>bavarian</banner>
-            <banderole>bavarian</banderole>
-            <gonfalon>bavarian</gonfalon> 
-          </augsburg>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -816,36 +451,6 @@
           <banderole>frankish</banderole>
           <gonfalon>frankish</gonfalon>    
         </military>
-        <merchant>
-          <cahors>
-            <caparison>cahorsin</caparison>
-            <tabard>cahorsin</tabard>
-            <banner>cahorsin</banner>
-            <banderole>cahorsin</banderole>
-            <gonfalon>cahorsin</gonfalon> 
-          </cahors>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-          <lincoln>
-            <caparison>english</caparison>
-            <tabard>english</tabard>
-            <banner>english</banner>
-            <banderole>english</banderole>
-            <gonfalon>english</gonfalon> 
-          </lincoln>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -870,22 +475,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -910,19 +499,10 @@
           <banderole>celtic</banderole>
           <gonfalon>celtic</gonfalon>    
         </military>
-        <merchant>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
-    <region>none</region>
+    <region>Scotland</region>
   </culture>
   <culture>
     <type>Galician</type>
@@ -943,22 +523,6 @@
           <banderole>castillian</banderole>
           <gonfalon>castillian</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -983,29 +547,6 @@
           <banderole>georgian</banderole>
           <gonfalon>georgian</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <byzantium>
-            <caparison>byzantine</caparison>
-            <tabard>byzantine</tabard>
-            <banner>byzantine</banner>
-            <banderole>byzantine</banderole>
-            <gonfalon>byzantine</gonfalon> 
-          </byzantium>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Orthodox_Greek</religion>
@@ -1030,47 +571,10 @@
           <banderole>byzantine</banderole>
           <gonfalon>byzantine</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <byzantium>
-            <caparison>byzantine</caparison>
-            <tabard>byzantine</tabard>
-            <banner>byzantine</banner>
-            <banderole>byzantine</banderole>
-            <gonfalon>byzantine</gonfalon> 
-          </byzantium>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <kiev>
-            <caparison>varangian</caparison>
-            <tabard>varangian</tabard>
-            <banner>varangian</banner>
-            <banderole>varangian</banderole>
-            <gonfalon>varangian</gonfalon> 
-          </kiev>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Orthodox_Greek</religion>
-    <region>none</region>
+    <region>Byzantium</region>
   </culture>
   <culture>
     <type>Hungarian</type>
@@ -1091,15 +595,6 @@
           <banderole>hungarian</banderole>
           <gonfalon>hungarian</gonfalon>    
         </military>
-        <merchant>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -1124,15 +619,6 @@
           <banderole>celtic</banderole>
           <gonfalon>celtic</gonfalon>    
         </military>
-        <merchant>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -1157,15 +643,6 @@
           <banderole>castillian</banderole>
           <gonfalon>castillian</gonfalon>    
         </military>
-        <merchant>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners>
     </heraldry>
     <religion>Catholic</religion>
@@ -1190,22 +667,6 @@
           <banderole>polish</banderole>
           <gonfalon>polish</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -1230,29 +691,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-          <kiev>
-            <caparison>varangian</caparison>
-            <tabard>varangian</tabard>
-            <banner>varangian</banner>
-            <banderole>varangian</banderole>
-            <gonfalon>varangian</gonfalon> 
-          </kiev>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1277,29 +715,6 @@
           <banderole>italian</banderole>
           <gonfalon>italian</gonfalon>   
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1324,15 +739,6 @@
           <banderole>polish</banderole>
           <gonfalon>polish</gonfalon>      
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -1357,19 +763,10 @@
           <banderole>mongolian</banderole>
           <gonfalon>mongolian</gonfalon>    
         </military>
-        <merchant>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Pagan</religion>
-    <region>none</region>
+    <region>Mongolia</region>
   </culture>
   <culture>
     <type>Moorish</type>
@@ -1390,33 +787,10 @@
           <banderole>arab</banderole>
           <gonfalon>arab</gonfalon>   
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Muslim_Sunni</religion>
-    <region>none</region>
+    <region>Maghreb</region>
   </culture>
   <culture>
     <type>Moravian</type>
@@ -1437,15 +811,6 @@
           <banderole>german</banderole>
           <gonfalon>german</gonfalon>     
         </military>
-        <merchant>
-          <augsburg>
-            <caparison>bavarian</caparison>
-            <tabard>bavarian</tabard>
-            <banner>bavarian</banner>
-            <banderole>bavarian</banderole>
-            <gonfalon>bavarian</gonfalon> 
-          </augsburg>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1470,22 +835,6 @@
           <banderole>aragon</banderole>
           <gonfalon>aragon</gonfalon>     
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1510,40 +859,10 @@
           <banderole>trinacrian</banderole>
           <gonfalon>trinacrian</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
-    <region>none</region>
+    <region>Napels</region>
   </culture>
   <culture>
     <type>Norman</type>
@@ -1564,43 +883,6 @@
           <banderole>frankish</banderole>
           <gonfalon>frankish</gonfalon>    
         </military>
-        <merchant>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <cahors>
-            <caparison>cahorsin</caparison>
-            <tabard>cahorsin</tabard>
-            <banner>cahorsin</banner>
-            <banderole>cahorsin</banderole>
-            <gonfalon>cahorsin</gonfalon> 
-          </cahors>
-          <lincoln>
-            <caparison>english</caparison>
-            <tabard>english</tabard>
-            <banner>english</banner>
-            <banderole>english</banderole>
-            <gonfalon>english</gonfalon> 
-          </lincoln>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1625,22 +907,6 @@
           <banderole>viking</banderole>
           <gonfalon>viking</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1665,43 +931,6 @@
           <banderole>frankish</banderole>
           <gonfalon>frankish</gonfalon>     
         </military>
-        <merchant>
-          <cahors>
-            <caparison>cahorsin</caparison>
-            <tabard>cahorsin</tabard>
-            <banner>cahorsin</banner>
-            <banderole>cahorsin</banderole>
-            <gonfalon>cahorsin</gonfalon> 
-          </cahors>
-          <lincoln>
-            <caparison>english</caparison>
-            <tabard>english</tabard>
-            <banner>english</banner>
-            <banderole>english</banderole>
-            <gonfalon>english</gonfalon> 
-          </lincoln>
-          <genoa>
-            <caparison>genoese</caparison>
-            <tabard>genoese</tabard>
-            <banner>genoese</banner>
-            <banderole>genoese</banderole>
-            <gonfalon>genoese</gonfalon> 
-          </genoa>
-          <venice>
-            <caparison>venetian</caparison>
-            <tabard>venetian</tabard>
-            <banner>venetian</banner>
-            <banderole>venetian</banderole>
-            <gonfalon>venetian</gonfalon> 
-          </venice>
-          <florence>
-            <caparison>florentine</caparison>
-            <tabard>florentine</tabard>
-            <banner>florentine</banner>
-            <banderole>florentine</banderole>
-            <gonfalon>florentine</gonfalon> 
-          </florence>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
@@ -1726,22 +955,6 @@
           <banderole>turkic</banderole>
           <gonfalon>turkic</gonfalon>    
         </military>
-        <merchant>
-          <baghdad>
-            <caparison>radhanite</caparison>
-            <tabard>radhanite</tabard>
-            <banner>radhanite</banner>
-            <banderole>radhanite</banderole>
-            <gonfalon>radhanite</gonfalon> 
-          </baghdad>
-          <kiev>
-            <caparison>varangian</caparison>
-            <tabard>varangian</tabard>
-            <banner>varangian</banner>
-            <banderole>varangian</banderole>
-            <gonfalon>varangian</gonfalon> 
-          </kiev>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Muslim_Shia</religion>
@@ -1766,19 +979,10 @@
           <banderole>celtic</banderole>
           <gonfalon>celtic</gonfalon>      
         </military>
-        <merchant>
-          <hedeby>
-            <caparison>norsemen</caparison>
-            <tabard>norsemen</tabard>
-            <banner>norsemen</banner>
-            <banderole>norsemen</banderole>
-            <gonfalon>norsemen</gonfalon> 
-          </hedeby>
-        </merchant>
       </banners>  
     </heraldry>
     <religion>Catholic</religion>
-    <region>Scotland</region>
+    <region>Pictland</region>
   </culture>
   <culture>
     <type>Polish</type>
@@ -1799,15 +1003,6 @@
           <banderole>polish</banderole>
           <gonfalon>polish</gonfalon>    
         </military>
-        <merchant>
-          <lubeck>
-            <caparison>hanseatic</caparison>
-            <tabard>hanseatic</tabard>
-            <banner>hanseatic</banner>
-            <banderole>hanseatic</banderole>
-            <gonfalon>hanseatic</gonfalon> 
-          </lubeck>
-        </merchant>
       </banners> 
     </heraldry>
     <religion>Catholic</religion>
@@ -1834,19 +1029,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>venetian</venice>
-      <genoa>genoese</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Portugal</region>
   </culture>
@@ -1871,19 +1053,6 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>hanseatic</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>norsemen</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Prussia</region>
   </culture>
@@ -1908,21 +1077,8 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>genoese</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>hanseatic</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>norsemen</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>varangian</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Orthodox_Greek</religion>
-    <region>none</region>
+    <region>Russia</region>
   </culture>
   <culture>
     <type>Ruthenian</type>
@@ -1945,19 +1101,6 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>varangian</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Orthodox_Greek</religion>
     <region>Ruthenia</region>
   </culture>
@@ -1982,19 +1125,6 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>venetian</venice>
-      <genoa>genoese</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Sardinia</region>
   </culture>
@@ -2019,19 +1149,6 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>hanseatic</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>norsemen</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Saxony</region>
   </culture>
@@ -2056,19 +1173,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Orthodox_Serbian</religion>
     <region>Serbia</region>
   </culture>
@@ -2093,19 +1197,6 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>venetian</venice>
-      <genoa>genoese</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Sicilia</region>
   </culture>
@@ -2130,19 +1221,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>bavarian</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Silesia</region>
   </culture>
@@ -2167,19 +1245,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>bavarian</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Swabia</region>
   </culture>
@@ -2204,19 +1269,6 @@
         </military>
       </banners>  
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>hanseatic</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>norsemen</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>varangian</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Sweden</region>
   </culture>
@@ -2241,21 +1293,8 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>byzantine</byzantium>
-      <kiev>varangian</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Muslim_Sunni</religion>
-    <region>none</region>
+    <region>Khazaria</region>
   </culture>
   <culture>
     <type>Wallachian</type>
@@ -2278,19 +1317,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>none</hedeby>
-      <byzantium>byzantine</byzantium>
-      <kiev>none</kiev>
-      <baghdad>radhanite</baghdad>
-    </merchant>
     <religion>Orthodox_Bulgarian</religion>
     <region>Wallachia</region>
   </culture>
@@ -2315,19 +1341,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>none</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>english</lincoln>
-      <hedeby>norsemen</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Wales</region>
   </culture>
@@ -2352,19 +1365,6 @@
         </military>
       </banners> 
     </heraldry>
-    <merchant>
-      <venice>none</venice>
-      <genoa>none</genoa>
-      <florence>none</florence>
-      <cahors>none</cahors>
-      <lubeck>hanseatic</lubeck>
-      <nuremberg>none</nuremberg>
-      <lincoln>none</lincoln>
-      <hedeby>norsemen</hedeby>
-      <byzantium>none</byzantium>
-      <kiev>none</kiev>
-      <baghdad>none</baghdad>
-    </merchant>
     <religion>Catholic</religion>
     <region>Vendland</region>
   </culture>

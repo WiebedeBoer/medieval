@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routes>
+   <place>
+      <hub>Venice</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Italian</group>
+      <route>Imperial Road</route>
+      <region>Lombardy</region>
+    </place>
+   <place>
+      <hub>Genoa</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Italian</group>
+      <route>Mediterranean Sea Trade</route>
+      <region>Lombardy</region>
+    </place>
+   <place>
+      <hub>Florence</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Italian</group>
+      <route>Frankish Road</route>
+      <region>Lombardy</region>
+    </place>
+   <place>
+      <hub>Rome</hub>
+      <merchant>none</merchant>
+      <pilgrim>Horse</pilgrim>
+      <group>Italian</group>
+      <route>Frankish Road</route>
+      <region>Lombardy</region>
+    </place>
+   <place>
+      <hub>Amalfi</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Italian</group>
+      <route>Mediterranean Sea Trade</route>
+      <region>Napels</region>
+    </place>
+   <place>
+      <hub>Ragusa</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Italian</group>
+      <route>Mediterranean Sea Trade</route>
+      <region>Croatia</region>
+    </place>
+   <place>
+      <hub>Narbonne</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Italian</group>
+      <route>Aquitanian Road</route>
+      <region>Occitania</region>
+    </place>
+   <place>
+      <hub>Bruges</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Royal Road</route>
+      <region>Flanders</region>
+    </place>
+   <place>
+      <hub>Paris</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Royal Road</route>
+      <region>Francia</region>
+    </place>
+   <place>
+      <hub>Tours</hub>
+      <merchant>none</merchant>
+      <pilgrim>Horse</pilgrim>
+      <group>Flemish</group>
+      <route>Royal Road</route>
+      <region>Francia</region>
+    </place>
+   <place>
+      <hub>Poitiers</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Royal Road</route>
+      <region>Francia</region>
+    </place>
+   <place>
+      <hub>Bordeaux</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Royal Road</route>
+      <region>Occitania</region>
+    </place>
+   <place>
+      <hub>Cahors</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Aquitanian Road</route>
+      <region>Occitania</region>
+    </place>
+   <place>
+      <hub>Toulouse</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Aquitanian Road</route>
+      <region>Occitania</region>
+    </place>
+   <place>
+      <hub>Canterbury</hub>
+      <merchant>none</merchant>
+      <pilgrim>Horse</pilgrim>
+      <group>Flemish</group>
+      <route>Frankish Road</route>
+      <region>England</region>
+    </place>
+   <place>
+      <hub>Provins</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Frankish Road</route>
+      <region>Francia</region>
+    </place>
+   <place>
+      <hub>Lincoln</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Old North Road</route>
+      <region>England</region>
+    </place>
+   <place>
+      <hub>Winchester</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Old North Road</route>
+      <region>England</region>
+    </place>
+   <place>
+      <hub>London</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Old North Road</route>
+      <region>England</region>
+    </place>
+   <place>
+      <hub>Calais</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Flemish</group>
+      <route>Frankish Road</route>
+      <region>Francia</region>
+    </place>
+   <place>
+      <hub>Nuremberg</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Swabian</group>
+      <route>Imperial Road</route>
+      <region>Bavaria</region>
+    </place>
+   <place>
+      <hub>Innsbruck</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Swabian</group>
+      <route>Imperial Road</route>
+      <region>Bavaria</region>
+    </place>
+   <place>
+      <hub>Augsburg</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Swabian</group>
+      <route>Imperial Road</route>
+      <region>Swabia</region>
+    </place>
+   <place>
+      <hub>Krakow</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Swabian</group>
+      <route>Royal Road</route>
+      <region>Poland</region>
+    </place>
+   <place>
+      <hub>Hedeby</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Norse</group>
+      <route>North Sea Trade</route>
+      <region>Denmark</region>
+    </place>
+   <place>
+      <hub>Trondheim</hub>
+      <merchant>none</merchant>
+      <pilgrim>Sail</pilgrim>
+      <group>Norse</group>
+      <route>North Sea Trade</route>
+      <region>Norway</region>
+    </place>
+   <place>
+      <hub>Novgorod</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Norse</group>
+      <route>Varangian Portage</route>
+      <region>Russia</region>
+    </place>
+   <place>
+      <hub>Kyiv</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Norse</group>
+      <route>Varangian Portage</route>
+      <region>Russia</region>
+    </place>
+   <place>
+      <hub>Lubeck</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Hanseatic</group>
+      <route>Baltic Sea Trade</route>
+      <region>Vendland</region>
+    </place>
+   <place>
+      <hub>Aachen</hub>
+      <merchant>none</merchant>
+      <pilgrim>Horse</pilgrim>
+      <group>Hanseatic</group>
+      <route>Royal Road</route>
+      <region>Franconia</region>
+    </place>
+   <place>
+      <hub>Visby</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Hanseatic</group>
+      <route>Baltic Sea Trade</route>
+      <region>Sweden</region>
+    </place>
+   <place>
+      <hub>Riga</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Hanseatic</group>
+      <route>Baltic Sea Trade</route>
+      <region>Livonia</region>
+    </place>
+   <place>
+      <hub>Danzig</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Hanseatic</group>
+      <route>Baltic Sea Trade</route>
+      <region>Vendland</region>
+    </place>
+   <place>
+      <hub>Cologne</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>Horse</pilgrim>
+      <group>Hanseatic</group>
+      <route>Royal Road</route>
+      <region>Franconia</region>
+    </place>
+   <place>
+      <hub>Frankfurt</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Hanseatic</group>
+      <route>Royal Road</route>
+      <region>Franconia</region>
+    </place>
+   <place>
+      <hub>Mainz</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Hanseatic</group>
+      <route>Royal Road</route>
+      <region>Franconia</region>
+    </place>
+   <place>
+      <hub>Burgos</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Castillian</group>
+      <route>Royal Road</route>
+      <region>Castile</region>
+    </place>
+   <place>
+      <hub>Segovia</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Castillian</group>
+      <route>Royal Road</route>
+      <region>Castile</region>
+    </place>
+   <place>
+      <hub>Soria</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Castillian</group>
+      <route>Royal Road</route>
+      <region>Castile</region>
+    </place>
+   <place>
+      <hub>Leon</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Castillian</group>
+      <route>Royal Road</route>
+      <region>Leon</region>
+    </place>
+   <place>
+      <hub>Santiago</hub>
+      <merchant>none</merchant>
+      <pilgrim>Horse</pilgrim>
+      <group>Castillian</group>
+      <route>Royal Road</route>
+      <region>Galicia</region>
+    </place>
+   <place>
+      <hub>Constantinople</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Byzantine</group>
+      <route>Egnatian Road</route>
+      <region>Byzantium</region>
+    </place>
+   <place>
+      <hub>Thessalonica</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Byzantine</group>
+      <route>Egnatian Road</route>
+      <region>Byzantium</region>
+    </place>
+   <place>
+      <hub>Caesarea</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Byzantine</group>
+      <route>Galatian Road</route>
+      <region>Byzantium</region>
+    </place>
+   <place>
+      <hub>Trapezus</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Byzantine</group>
+      <route>Mediterranean Sea Trade</route>
+      <region>Byzantium</region>
+    </place>
+   <place>
+      <hub>Baghdad</hub>
+      <merchant>Camel</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Antioch</hub>
+      <merchant>Camel</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Cairo</hub>
+      <merchant>Camel</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Alexandria</hub>
+      <merchant>Sail</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Mediterranean Sea Trade</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Karbala</hub>
+      <merchant>none</merchant>
+      <pilgrim>Camel</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Najaf</hub>
+      <merchant>none</merchant>
+      <pilgrim>Camel</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Jerusalem</hub>
+      <merchant>none</merchant>
+      <pilgrim>Camel</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Mecca</hub>
+      <merchant>none</merchant>
+      <pilgrim>Camel</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Medina</hub>
+      <merchant>none</merchant>
+      <pilgrim>Camel</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Arabia</region>
+    </place>
+   <place>
+      <hub>Qom</hub>
+      <merchant>none</merchant>
+      <pilgrim>Camel</pilgrim>
+      <group>Radhanite</group>
+      <route>Arabian Caravan</route>
+      <region>Persia</region>
+    </place>
+   <place>
+      <hub>Kairouan</hub>
+      <merchant>Camel</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Saharan Caravan</route>
+      <region>Maghreb</region>
+    </place>
+   <place>
+      <hub>Sijilmassa</hub>
+      <merchant>Camel</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Saharan Caravan</route>
+      <region>Maghreb</region>
+    </place>
+   <place>
+      <hub>Cordoba</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Andalusian Caravan</route>
+      <region>Maghreb</region>
+    </place>
+   <place>
+      <hub>Cuenca</hub>
+      <merchant>Horse</merchant>
+      <pilgrim>none</pilgrim>
+      <group>Radhanite</group>
+      <route>Andalusian Caravan</route>
+      <region>Maghreb</region>
+    </place>
+</routes>
