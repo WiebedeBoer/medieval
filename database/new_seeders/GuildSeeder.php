@@ -1361,6 +1361,17 @@ class GuildSeeder extends Seeder
 			'county' => '50',
 			'barony' => ''
 		]);
+		//Rotterdam
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Rotterdam',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '50',
+			'barony' => ''
+		]);
 		//Nifterlake
 		//Utrecht
 		DB::table('guilds')->insert([
@@ -1392,6 +1403,16 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '7',
 			'county' => null,
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Dorestadt',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '51',
 			'barony' => ''
 		]);
 		//Norderland
@@ -10790,6 +10811,16 @@ class GuildSeeder extends Seeder
 			'county' => '460',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Honfleur',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '65',
+			'county' => '460',
+			'barony' => ''
+		]);
 		//Saint Michel
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -12231,6 +12262,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Quimper',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '70',
+			'county' => '500',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Quimper',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '70',
@@ -17481,6 +17522,16 @@ class GuildSeeder extends Seeder
 			'county' => '664',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Tarragona',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '105',
+			'county' => '664',
+			'barony' => ''
+		]);
 		//Tortosa
 		//Tortosa
 		DB::table('guilds')->insert([
@@ -18399,6 +18450,16 @@ class GuildSeeder extends Seeder
 			'county' => '710',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Toledo',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '117',
+			'county' => '710',
+			'barony' => ''
+		]);
 		//Consuegra
 		DB::table('guilds')->insert([
 			'guild_name' => 'Dyers Guild of Consuegra',
@@ -19114,6 +19175,16 @@ class GuildSeeder extends Seeder
 			'county' => '763',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Oviedo',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '127',
+			'county' => '763',
+			'barony' => ''
+		]);
 		//Proaza
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -19293,6 +19364,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Vintners Guild of Porto',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Vintner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '129',
+			'county' => '770',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Porto',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '129',
@@ -27147,9 +27228,19 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of Keksholm',
+			'guild_name' => 'Tournament of Ladoga',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '241',
+			'county' => '1189',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Ladoga',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
@@ -27844,6 +27935,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Cadiz',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '258',
+			'county' => '1240',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Cadiz',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
@@ -28878,6 +28979,16 @@ class GuildSeeder extends Seeder
 			'county' => '1271',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sevilla',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '264',
+			'county' => '1271',
+			'barony' => ''
+		]);
 		//Utrera
 		DB::table('guilds')->insert([
 			'guild_name' => 'Silk Weavers Guild of Utrera',
@@ -29088,6 +29199,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Dyers Guild of Merida',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Dyer_Kermes',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '266',
+			'county' => '1280',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Merida',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '266',
@@ -30146,6 +30267,16 @@ class GuildSeeder extends Seeder
 			'county' => '1319',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Marrakesh',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '273',
+			'county' => '1319',
+			'barony' => ''
+		]);
 		//Safi
 		//Safi
 		DB::table('guilds')->insert([
@@ -30569,6 +30700,16 @@ class GuildSeeder extends Seeder
 			'county' => '1333',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sale',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '278',
+			'county' => '1333',
+			'barony' => ''
+		]);
 		//Mehdya
 		//Kenitra
 		DB::table('guilds')->insert([
@@ -30794,6 +30935,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Mariners Guild of Tunis',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Mariner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '281',
+			'county' => '1343',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Tunis',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
