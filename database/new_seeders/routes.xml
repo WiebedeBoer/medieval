@@ -120,6 +120,18 @@
 				</route>
 			</routes>
 		</place>
+		<place>
+			<hub>Damascus</hub>
+			<merchant>Camel</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Camel</category>
+					<waypoint>Arabian Caravan</waypoint>
+				</route>
+			</routes>
+		</place>
 	</places>
   </culture>
   <culture>
@@ -145,7 +157,55 @@
     <region>Armenia</region>
 	<places>
 		<place>
-			<hub></hub>
+			<hub>Van</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Kars</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Ani</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Baku</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Rasht</hub>
 			<merchant></merchant>
 			<pilgrim></pilgrim>
 			<group></group>
@@ -163,7 +223,67 @@
     <region>Arpitania</region>
 	<places>
 		<place>
-			<hub></hub>
+			<hub>Vezelay</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Citeaux</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Chalon</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Lyon</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Besancon</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Aosta</hub>
 			<merchant></merchant>
 			<pilgrim></pilgrim>
 			<group></group>
@@ -285,7 +405,31 @@
     <region>Bulgaria</region>
 	<places>
 		<place>
-			<hub></hub>
+			<hub>Preslav</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Tarnovo</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Ohrid</hub>
 			<merchant></merchant>
 			<pilgrim></pilgrim>
 			<group></group>
@@ -303,14 +447,14 @@
     <region>Cantabria</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Santander</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Castillian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Atlantic Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1405,6 +1549,30 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Aquitanian Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Arles</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Marseille</hub>
+			<merchant></merchant>
+			<pilgrim></pilgrim>
+			<group></group>
+			<routes>
+				<route>
+					<category></category>
+					<waypoint></waypoint>
 				</route>
 			</routes>
 		</place>
