@@ -20930,7 +20930,7 @@ class CountySeeder extends Seeder
             ]);
 			//Armeniac
 			//1077
-			//amasia, virasia
+			//amasia, virasia, sebasteia
             DB::table('counties')->insert([
 				'county_name' => 'Amasia',
 				'county_category' => 'Feudal_Manor',

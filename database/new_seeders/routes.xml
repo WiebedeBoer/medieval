@@ -12,7 +12,15 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Iraqi Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Khorasan Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -24,7 +32,11 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Coastal Road</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Galatian Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -36,11 +48,11 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Egyptian Pilgrim Road</waypoint>
 				</route>
 				<route>
 					<category>Camel</category>
-					<waypoint>Saharan Caravan</waypoint>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -52,7 +64,11 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Coastal Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 				<route>
 					<category>Sail</category>
@@ -68,7 +84,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -80,7 +96,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -92,7 +108,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -104,7 +120,15 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Egyptian Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Iraqi Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -116,7 +140,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -128,7 +152,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -157,62 +181,50 @@
     <region>Armenia</region>
 	<places>
 		<place>
-			<hub>Van</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
-			<routes>
-				<route>
-					<category></category>
-					<waypoint></waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Kars</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
-			<routes>
-				<route>
-					<category></category>
-					<waypoint></waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
 			<hub>Ani</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
 				</route>
 			</routes>
 		</place>
 		<place>
-			<hub>Baku</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Yerevan</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Karapet</hub>
+			<merchant>none</merchant>
+			<pilgrim>Feretrum</pilgrim>
+			<group>Byzantine</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
 				</route>
 			</routes>
 		</place>
 		<place>
 			<hub>Rasht</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -224,13 +236,13 @@
 	<places>
 		<place>
 			<hub>Vezelay</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>none</merchant>
+			<pilgrim>Feretrum</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Frankish Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -260,37 +272,37 @@
 		</place>
 		<place>
 			<hub>Lyon</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>River</category>
+					<waypoint>River Rhone Trade</waypoint>
 				</route>
 			</routes>
 		</place>
 		<place>
 			<hub>Besancon</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Frankish Road</waypoint>
 				</route>
 			</routes>
 		</place>
 		<place>
 			<hub>Aosta</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Frankish Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -998,6 +1010,38 @@
 				</route>
 			</routes>
 		</place>
+		<place>
+			<hub>Sebasteia</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Galatian Road</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Smyrna</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Galatian Road</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+			</routes>
+		</place>
 	</places>
   </culture>
   <culture>
@@ -1228,7 +1272,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Saharan Caravan</waypoint>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1240,7 +1284,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Saharan Caravan</waypoint>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 				<route>
 					<category>Sail</category>
@@ -1256,7 +1300,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Saharan Caravan</waypoint>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1268,7 +1312,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Saharan Caravan</waypoint>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1280,7 +1324,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Saharan Caravan</waypoint>
+					<waypoint>Maghrebi Pilgrim Road</waypoint>
 				</route>
 				<route>
 					<category>Sail</category>
@@ -1554,13 +1598,17 @@
 		</place>
 		<place>
 			<hub>Arles</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>River</category>
+					<waypoint>River Rhone Trade</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Reshef Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1590,7 +1638,35 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Arabian Caravan</waypoint>
+					<waypoint>Khorasan Road</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Merv</hub>
+			<merchant>none</merchant>
+			<pilgrim>Camel</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Camel</category>
+					<waypoint>Khorasan Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Khiva</hub>
+			<merchant>none</merchant>
+			<pilgrim>Camel</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Camel</category>
+					<waypoint>Khorasan Road</waypoint>
 				</route>
 			</routes>
 		</place>
