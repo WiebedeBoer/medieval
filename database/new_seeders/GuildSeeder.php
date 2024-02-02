@@ -6262,6 +6262,16 @@ class GuildSeeder extends Seeder
 			'county' => '264',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Brunn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '37',
+			'county' => '264',
+			'barony' => ''
+		]);	
 		//Iglau
 		//Iglau
 		DB::table('guilds')->insert([
@@ -8417,6 +8427,16 @@ class GuildSeeder extends Seeder
 			'county' => '358',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Koningsberg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '52',
+			'county' => '358',
+			'barony' => ''
+		]);	
 		//Pomerelia
 		//Danzig
 		//Danzig
@@ -12814,6 +12834,18 @@ class GuildSeeder extends Seeder
 			'county' => '519',
 			'barony' => ''
 		]);
+		//Waterford
+		//Waterford
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Waterford',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '74',
+			'county' => '521',
+			'barony' => ''
+		]);
 		//Wexford
 		//Wexford
 		DB::table('guilds')->insert([
@@ -15739,16 +15771,6 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		//Tenby
-		DB::table('guilds')->insert([
-			'guild_name' => 'Skinners Guild of Tenby',
-			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Tanner',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '89',
-			'county' => '597',
-			'barony' => ''
-		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Skinners Guild of Tenby',
 			'guild_category' => 'Craft',
@@ -20711,6 +20733,16 @@ class GuildSeeder extends Seeder
 			'county' => '835',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Turku',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '146',
+			'county' => '835',
+			'barony' => ''
+		]);
 		//Karelia
 		//Viborg
 		DB::table('guilds')->insert([
@@ -22369,6 +22401,16 @@ class GuildSeeder extends Seeder
 			'county' => '917',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Vilnius',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '164',
+			'county' => '917',
+			'barony' => ''
+		]);
 		//Crown of Hungary
 		//Kingdom of Hungary
 		//Balaton
@@ -22619,6 +22661,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Armorers Guild of Buda',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Armorer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '166',
+			'county' => '931',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Buda',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '166',
@@ -24681,6 +24733,16 @@ class GuildSeeder extends Seeder
 			'county' => '1039',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Cagliari',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '194',
+			'county' => '1039',
+			'barony' => ''
+		]);	
 		//Monastir
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
@@ -25557,6 +25619,16 @@ class GuildSeeder extends Seeder
 			'county' => '1082',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Chersonesus',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '208',
+			'county' => '1082',
+			'barony' => ''
+		]);
 		//Kingdom of Anatolia
 		//Samos
 		//Samos
@@ -26259,6 +26331,16 @@ class GuildSeeder extends Seeder
 			'county' => '1112',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Phasis',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '219',
+			'county' => '1112',
+			'barony' => ''
+		]);
 		//Guria
 		//Macharadze
 		DB::table('guilds')->insert([
@@ -26401,6 +26483,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Tiblisi',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '221',
+			'county' => '1121',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Tiblisi',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '221',
@@ -26834,6 +26926,16 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Halych',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '38',
+			'county' => '231',
+			'barony' => ''
+		]);	
 		//Peremyshl
 		//Peremyshl
 		DB::table('guilds')->insert([
@@ -27408,6 +27510,16 @@ class GuildSeeder extends Seeder
 			'county' => '1195',
 			'barony' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Preslav',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '244',
+			'county' => '1195',
+			'barony' => ''
+		]);
 		//Karvuna
 		//Varna
 		DB::table('guilds')->insert([
@@ -27437,6 +27549,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Tarnovo',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '245',
+			'county' => '1199',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Tarnovo',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '245',
@@ -27637,6 +27759,18 @@ class GuildSeeder extends Seeder
 			'county' => '1211',
 			'barony' => ''
 		]);
+		//Akkerman
+		//Akkerman
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Akkerman',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '249',
+			'county' => '1212',
+			'barony' => ''
+		]);
 		//Serbian Empire
 		//Principality of Serbia
 		//Rashka
@@ -27656,6 +27790,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Ras',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '250',
+			'county' => '1218',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Ras',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '250',
@@ -32581,9 +32725,19 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Aqtobe',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Aqtobe',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -32604,9 +32758,19 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Sarkel',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sarkel',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',
@@ -32627,9 +32791,19 @@ class GuildSeeder extends Seeder
 			'barony' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Atil',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '',
+			'county' => '',
+			'barony' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Atil',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '',

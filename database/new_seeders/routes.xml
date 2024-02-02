@@ -20,7 +20,11 @@
 				</route>
 				<route>
 					<category>Camel</category>
-					<waypoint>Khorasan Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -35,8 +39,12 @@
 					<waypoint>Coastal Road</waypoint>
 				</route>
 				<route>
-					<category>Horse</category>
-					<waypoint>Galatian Road</waypoint>
+					<category>Camel</category>
+					<waypoint>Major Silk Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -53,6 +61,10 @@
 				<route>
 					<category>Camel</category>
 					<waypoint>Maghrebi Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -74,6 +86,10 @@
 					<category>Sail</category>
 					<waypoint>Mediterranean Sea Trade</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -85,6 +101,10 @@
 				<route>
 					<category>Camel</category>
 					<waypoint>Syrian Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -98,6 +118,10 @@
 					<category>Camel</category>
 					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -109,6 +133,10 @@
 				<route>
 					<category>Camel</category>
 					<waypoint>Syrian Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -130,6 +158,10 @@
 					<category>Camel</category>
 					<waypoint>Iraqi Pilgrim Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -142,6 +174,10 @@
 					<category>Camel</category>
 					<waypoint>Syrian Pilgrim Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -153,6 +189,10 @@
 				<route>
 					<category>Camel</category>
 					<waypoint>Syrian Pilgrim Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Bedouin</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -171,6 +211,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Tarragona Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -247,30 +291,6 @@
 			</routes>
 		</place>
 		<place>
-			<hub>Citeaux</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
-			<routes>
-				<route>
-					<category></category>
-					<waypoint></waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Chalon</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
-			<routes>
-				<route>
-					<category></category>
-					<waypoint></waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
 			<hub>Lyon</hub>
 			<merchant>Emporium</merchant>
 			<pilgrim>none</pilgrim>
@@ -291,6 +311,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Frankish Road</waypoint>
+				</route>
+				<route>
+					<category>River</category>
+					<waypoint>River Rhone Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -321,6 +345,14 @@
 				<route>
 					<category>Sail</category>
 					<waypoint>Atlantic Trade</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Asturian Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -370,6 +402,10 @@
 					<category>Horse</category>
 					<waypoint>Royal Road</waypoint>
 				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Military Road</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -418,37 +454,37 @@
 	<places>
 		<place>
 			<hub>Preslav</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Military Road</waypoint>
 				</route>
 			</routes>
 		</place>
 		<place>
 			<hub>Tarnovo</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Military Road</waypoint>
 				</route>
 			</routes>
 		</place>
 		<place>
 			<hub>Ohrid</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<merchant>none</merchant>
+			<pilgrim>Feretrum</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Egnatian Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -468,6 +504,14 @@
 					<category>Sail</category>
 					<waypoint>Atlantic Trade</waypoint>
 				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Asturian Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -486,6 +530,10 @@
 					<category>Horse</category>
 					<waypoint>Royal Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -498,6 +546,10 @@
 					<category>Horse</category>
 					<waypoint>Royal Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -509,6 +561,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Royal Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -535,6 +591,10 @@
 				<route>
 					<category>Sail</category>
 					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -602,6 +662,14 @@
 					<category>Horse</category>
 					<waypoint>Old North Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Long Acre</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Frankish Road</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -614,6 +682,10 @@
 					<category>Horse</category>
 					<waypoint>Old North Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Long Acre</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -625,6 +697,14 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Old North Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Long Acre</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>North Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -642,6 +722,10 @@
 					<category>Horse</category>
 					<waypoint>Old North Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Long Acre</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -651,14 +735,14 @@
     <region>Finland</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Turku</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Varangian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Baltic Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -835,7 +919,7 @@
     <region>Frisia</region>
 	<places>
 		<place>
-			<hub>Rotterdam</hub>
+			<hub>Dorestadt</hub>
 			<merchant>Emporium</merchant>
 			<pilgrim>none</pilgrim>
 			<group>Hanseatic</group>
@@ -847,18 +931,6 @@
 				<route>
 					<category>Sail</category>
 					<waypoint>North Sea Trade</waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Dorestadt</hub>
-			<merchant>Emporium</merchant>
-			<pilgrim>none</pilgrim>
-			<group>Hanseatic</group>
-			<routes>
-				<route>
-					<category>River</category>
-					<waypoint>River Rhine Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -894,6 +966,10 @@
 					<category>Horse</category>
 					<waypoint>Cualu Road</waypoint>
 				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Atlantic Trade</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -909,6 +985,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Old North Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Long Acre</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -928,6 +1008,14 @@
 					<category>Horse</category>
 					<waypoint>Royal Road</waypoint>
 				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Asturian Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>				
 			</routes>
 		</place>
 	</places>
@@ -937,14 +1025,26 @@
     <region>Georgia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Phasis</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Black Sea Trade</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Tiblisi</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Armenian Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -963,6 +1063,10 @@
 				<route>
 					<category>Sail</category>
 					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Black Sea Trade</waypoint>
 				</route>
 				<route>
 					<category>Horse</category>
@@ -994,7 +1098,7 @@
 			<routes>
 				<route>
 					<category>Horse</category>
-					<waypoint>Galatian Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1006,7 +1110,7 @@
 			<routes>
 				<route>
 					<category>Sail</category>
-					<waypoint>Mediterranean Sea Trade</waypoint>
+					<waypoint>Black Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1018,7 +1122,7 @@
 			<routes>
 				<route>
 					<category>Horse</category>
-					<waypoint>Galatian Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
 				</route>
 				<route>
 					<category>Horse</category>
@@ -1034,11 +1138,27 @@
 			<routes>
 				<route>
 					<category>Horse</category>
-					<waypoint>Galatian Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
 				</route>
 				<route>
 					<category>Sail</category>
 					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Chersonesus</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
+			<routes>
+				<route>
+					<category>Sail</category>
+					<waypoint>Black Sea Trade</waypoint>
+				</route>
+				<route>
+					<category>River</category>
+					<waypoint>Varangian Portage</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1049,14 +1169,14 @@
     <region>Hungaria</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Buda</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Military Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1075,6 +1195,22 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Cualu Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Waterford</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Norse</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Cualu Road</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Atlantic Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1098,6 +1234,10 @@
 					<category>Horse</category>
 					<waypoint>Silver Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -1107,14 +1247,14 @@
     <region>Lithuania</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Vilnius</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Varangian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Royal Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1220,6 +1360,10 @@
 					<category>Horse</category>
 					<waypoint>Frankish Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Dogana</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -1229,14 +1373,14 @@
     <region>Mazovia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Losice</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Varangian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Royal Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1247,14 +1391,14 @@
     <region>Mongolia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>none</hub>
+			<merchant>none</merchant>
+			<pilgrim>none</pilgrim>
+			<group>none</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>none</category>
+					<waypoint>none</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1328,7 +1472,7 @@
 				</route>
 				<route>
 					<category>Sail</category>
-					<waypoint>Mediterranean Sea Trade</waypoint>
+					<waypoint>Atlantic Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1350,6 +1494,10 @@
 					<category>Sail</category>
 					<waypoint>Atlantic Trade</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -1361,6 +1509,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Silver Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1378,6 +1530,10 @@
 					<category>Horse</category>
 					<waypoint>Reshef Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -1389,6 +1545,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Reshef Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1402,6 +1562,10 @@
 					<category>Horse</category>
 					<waypoint>Reshef Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -1411,14 +1575,14 @@
     <region>Moravia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Brunn</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Royal Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1442,6 +1606,14 @@
 					<category>Horse</category>
 					<waypoint>Royal Road</waypoint>
 				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Asturian Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -1459,6 +1631,10 @@
 				<route>
 					<category>Sail</category>
 					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Dogana</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1550,6 +1726,10 @@
 					<category>Horse</category>
 					<waypoint>Reshef Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Drailles</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -1582,6 +1762,10 @@
 					<category>Horse</category>
 					<waypoint>Aquitanian Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Drailles</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
@@ -1593,6 +1777,10 @@
 				<route>
 					<category>Horse</category>
 					<waypoint>Aquitanian Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Drailles</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1610,17 +1798,33 @@
 					<category>Horse</category>
 					<waypoint>Reshef Road</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Drailles</waypoint>
+				</route>
 			</routes>
 		</place>
 		<place>
 			<hub>Marseille</hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
 			<group></group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+				<route>
+					<category>River</category>
+					<waypoint>River Rhone Trade</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Reshef Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Drailles</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1638,7 +1842,7 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Khorasan Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
 				</route>
 				<route>
 					<category>Horse</category>
@@ -1654,7 +1858,11 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Khorasan Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Northern Silk Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1666,7 +1874,11 @@
 			<routes>
 				<route>
 					<category>Camel</category>
-					<waypoint>Khorasan Road</waypoint>
+					<waypoint>Major Silk Road</waypoint>
+				</route>
+				<route>
+					<category>Camel</category>
+					<waypoint>Northern Silk Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1726,6 +1938,10 @@
 					<category>Sail</category>
 					<waypoint>Atlantic Trade</waypoint>
 				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
 			</routes>
 		</place>
 	</places>
@@ -1735,14 +1951,14 @@
     <region>Prussia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Koningsberg</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Hanseatic</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Baltic Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1803,14 +2019,14 @@
     <region>Ruthenia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Halych</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Varangian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Royal Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1821,14 +2037,14 @@
     <region>Sardinia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Cagliari</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Italian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Mediterranean Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1861,14 +2077,14 @@
     <region>Serbia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Ras</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Military Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1879,14 +2095,14 @@
     <region>Sicilia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Palermo</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Italian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Sail</category>
+					<waypoint>Mediterranean Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1897,14 +2113,14 @@
     <region>Silesia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Leipzig</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Swabian</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Royal Road</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1951,14 +2167,30 @@
     <region>Khazaria</region>
 	<places>
 		<place>
-			<hub></hub>
+			<hub>Aqtobe</hub>
 			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Camel</category>
+					<waypoint>Northern Silk Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Atil</hub>
+			<merchant></merchant>
+			<pilgrim>none</pilgrim>
+			<group>Varangian</group>
+			<routes>
+				<route>
+					<category>Camel</category>
+					<waypoint>Northern Silk Road</waypoint>
+				</route>
+				<route>
+					<category>River</category>
+					<waypoint>Varangian Portage</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1969,14 +2201,30 @@
 	 <region>Wallachia</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Bistrita</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Horse</category>
+					<waypoint>Military Road</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Akkerman</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Byzantine</group>
+			<routes>
+				<route>
+					<category>River</category>
+					<waypoint>Varangian Portage</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Black Sea Trade</waypoint>
 				</route>
 			</routes>
 		</place>
@@ -1987,14 +2235,14 @@
     <region>Wales</region>
 	<places>
 		<place>
-			<hub></hub>
-			<merchant></merchant>
-			<pilgrim></pilgrim>
-			<group></group>
+			<hub>Tavistock</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Flemish</group>
 			<routes>
 				<route>
-					<category></category>
-					<waypoint></waypoint>
+					<category>Drover</category>
+					<waypoint>Long Acre</waypoint>
 				</route>
 			</routes>
 		</place>
