@@ -16,6 +16,11 @@
         <stratification>Nobles</stratification>
     </class>
     <class>
+        <title>Burgher</title>
+        <category>none</category>
+        <stratification>Burghers</stratification>
+    </class>
+    <class>
         <title>Yeoman</title>
         <category>none</category>
         <stratification>Peasants</stratification>

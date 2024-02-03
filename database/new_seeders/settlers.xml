@@ -13,7 +13,7 @@
       <adolescent>Acolyte</adolescent>
       <adult>Deacon</adult>
     <tutalage>
-    <zoning>Religious</zoning>
+    <plot>Ecclesiastical</plot>
   </settler>
   <settler>
     <type>Monk</type>
@@ -28,7 +28,7 @@
       <adolescent>Acolyte</adolescent>
       <adult>Monk</adult>
     <tutalage>
-    <zoning>Religious</zoning>
+    <plot>Monastical</plot>
   </settler>
   <settler>
     <type>Wife</type>
@@ -43,7 +43,7 @@
       <adolescent>Damsel</adolescent>
       <adult>Lady</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Noble</type>
@@ -58,7 +58,7 @@
       <adolescent>Squire</adolescent>
       <adult>Knight</adult>
     <tutalage>
-    <zoning>Martial</zoning>
+    <plot>Martial</plot>
   </settler>
   <settler>
     <type>Crusader</type>
@@ -73,7 +73,7 @@
       <adolescent>Squire</adolescent>
       <adult>Crusader</adult>
     <tutalage>
-    <zoning>Martial</zoning>
+    <plot>Martial</plot>
   </settler>
   <settler>
     <type>Knight</type>
@@ -88,7 +88,7 @@
       <adolescent>Squire</adolescent>
       <adult>Knight</adult>
     <tutalage>
-    <zoning>Martial</zoning>
+    <plot>Martial</plot>
   </settler>
   <settler>
     <type>Merchant</type>
@@ -103,7 +103,7 @@
       <adolescent>Journeyman</adolescent>
       <adult>Merchant</adult>
     <tutalage>
-    <zoning>Commercial</zoning>
+    <plot>Commercial</plot>
   </settler>
   <settler>
     <type>Craftsman</type>
@@ -119,7 +119,7 @@
       <adult>Master</adult>
     <tutalage>
   </settler>
-  <zoning>Residential</zoning>
+  <plot>Residential</plot>
   <settler>
     <type>Innkeeper</type>
     <estates>
@@ -133,7 +133,7 @@
       <adolescent>Hostler</adolescent>
       <adult>Innkeeper</adult>
     <tutalage>
-    <zoning>Transportational</zoning>
+    <plot>Transitional</plot>
   </settler>
   <settler>
     <type>Captain</type>
@@ -148,7 +148,7 @@
       <adolescent>Cadet</adolescent>
       <adult>Captain</adult>
     <tutalage>
-    <zoning>Naval</zoning>
+    <plot>Naval</plot>
   </settler>
   <settler>
     <type>Sergeant</type>
@@ -163,7 +163,7 @@
       <adolescent>Huskarl</adolescent>
       <adult>Sergeant</adult>
     <tutalage>
-    <zoning>Martial</zoning>
+    <plot>Martial</plot>
   </settler>
   <settler>
     <type>Quartermaster</type>
@@ -178,7 +178,7 @@
       <adolescent>Huskarl</adolescent>
       <adult>Quartermaster</adult>
     <tutalage>
-    <zoning>Martial</zoning>
+    <plot>Martial</plot>
   </settler>
   <settler>
     <type>Guard</type>
@@ -193,7 +193,7 @@
       <adolescent>Huskarl</adolescent>
       <adult>Guard</adult>
     <tutalage>
-    <zoning>Transportational</zoning>
+    <plot>Transportational</plot>
   </settler>
   <settler>
     <type>Gynour</type>
@@ -208,7 +208,7 @@
       <adolescent>Huskarl</adolescent>
       <adult>Gynour</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Miller</type>
@@ -223,7 +223,7 @@
       <adolescent>Millhand</adolescent>
       <adult>Miller</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Rogue</type>
@@ -238,7 +238,7 @@
       <adolescent>Knave</adolescent>
       <adult>Rogue</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Pantler</type>
@@ -253,7 +253,7 @@
       <adolescent>Valet</adolescent>
       <adult>Pantler</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Butler</type>
@@ -268,7 +268,7 @@
       <adolescent>Valet</adolescent>
       <adult>Butler</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Minstrel</type>
@@ -283,7 +283,7 @@
       <adolescent>Valet</adolescent>
       <adult>Minstrel</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Herald</type>
@@ -298,7 +298,7 @@
       <adolescent>Valet</adolescent>
       <adult>Herald</adult>
     <tutalage>
-    <zoning>none</zoning>
+    <plot>none</plot>
   </settler>
   <settler>
     <type>Verderer</type>
@@ -313,7 +313,7 @@
       <adolescent>Ranger</adolescent>
       <adult>Verderer</adult>
     <tutalage>
-    <zoning>Recreational</zoning>
+    <plot>Recreational</plot>
   </settler>
   <settler>
     <type>Farmer</type>
@@ -328,6 +328,6 @@
       <adolescent>Farmhand</adolescent>
       <adult>Farmer</adult>
     <tutalage>
-    <zoning>Agricultural</zoning>
+    <plot>Agricultural</plot>
   </settler>
 </settlers>
