@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <classes>
     <class>
+        <title>Clergy</title>
+        <category>none</category>
+        <stratification>Clergy</stratification>
+    </class>
+    <class>
         <title>Noble</title>
         <category>none</category>
         <stratification>Nobles</stratification>
