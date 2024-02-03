@@ -4,114 +4,160 @@
     <title>Clerical Close</title>
     <stratification>Clergy</stratification>
     <tenure>Frankalmoigne</tenure>
-    <zoning>Religious</zoning>
+    <zoning>Ecclesiastical</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Cathedral Close</title>
     <stratification>Clergy</stratification>
     <tenure>Frankalmoigne</tenure>
-    <zoning>Religious</zoning>
+    <zoning>Ecclesiastical</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Monastic Close</title>
     <stratification>Clergy</stratification>
     <tenure>Frankalmoigne</tenure>
-    <zoning>Religious</zoning>
+    <zoning>Monastical</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Monastic Grange</title>
     <stratification>Clergy</stratification>
     <tenure>Frankalmoigne</tenure>
-    <zoning>Religious</zoning>
+    <zoning>Monastical</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Hospital Locale</title>
     <stratification>Clergy</stratification>
     <tenure>Frankalmoigne</tenure>
-    <zoning>Religious</zoning>
+    <zoning>Medical</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>University Locale</title>
     <stratification>Clergy</stratification>
     <tenure>Frankalmoigne</tenure>
-    <zoning>Religious</zoning>
+    <zoning>Educational</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Crusader Commandery</title>
     <stratification>Clergy</stratification>
     <tenure>Knight_Service</tenure>
     <zoning>Martial</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Castle Close</title>
     <stratification>Nobles</stratification>
     <tenure>Castle_Guard</tenure>
     <zoning>Martial</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Knight Fee</title>
     <stratification>Nobles</stratification>
     <tenure>Knight_Service</tenure>
     <zoning>Martial</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Gentry Locale</title>
     <stratification>Nobles</stratification>
     <tenure>Knight_Service</tenure>
     <zoning>Martial</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Hall Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
-    <zoning>Commercial</zoning>
+    <zoning>Governmental</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Factory Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
     <zoning>Commercial</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Market Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
     <zoning>Commercial</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Jewry Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
     <zoning>Residential</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Burgage Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
     <zoning>Residential</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Gate Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
-    <zoning>Transportational</zoning>
+    <zoning>Transitional</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Port Locale</title>
     <stratification>Burghers</stratification>
     <tenure>Burgage</tenure>
-    <zoning>Naval</zoning>
+    <zoning>Transitional</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Hunting Locale</title>
     <stratification>Peasants</stratification>
     <tenure>Serjeanty</tenure>
     <zoning>Recreational</zoning>
+    <hides>
+    </hides>
+  </quarter>
+  <quarter>
+    <title>Tiltyard</title>
+    <stratification>Nobles</stratification>
+    <tenure>Serjeanty</tenure>
+    <zoning>Recreational</zoning>
+    <hides>
+    </hides>
   </quarter>
   <quarter>
     <title>Tithing</title>
     <stratification>Peasants</stratification>
     <tenure>Villeinage</tenure>
     <zoning>Agricultural</zoning>
+    <hides>
+    </hides>
   </quarter>
 </construction> 

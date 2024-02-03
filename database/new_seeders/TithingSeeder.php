@@ -23,15 +23,17 @@ class TithingSeeder extends Seeder
 			//example
             DB::table('tithings')->insert([
 				'tithing_name' => '',
-				'tithing_category' => ' ',		//Feudal, Ecclesiastical, Monastic_Order, Crusader_Order, Knightly_Estate, Burgher, Villager, Monastic_Grange
+				
 				'de_jure_barony' => '',			
 				'position' => '',				
-				'manor_court' => '',			//Court_Royal, Court_Ducal, Court_County, Court_Baron, Court_Knight, Court_University, Court_Chancellery, Court_Advocate
-				'tithing_quarter' => '',		//Ecclesiastical_Liberty, Monastic_Liberty, Commandery, Knight_Fee, Gentry_Quarter, Hall_Quarter, Market_Quarter, Tithing, Monastic_Grange
-				'hide_northeast' => '',			//, , , ; default=Fallow
-				'hide_northwest' => '',			//, , , ; default=Fallow
-				'hide_southeast' => '',			//, , , ; default=Fallow
-				'hide_southwest' => '',			//, , , ; default=Fallow		
+				'manor_court' => '',			//
+				'tithing_category' => ' ',		//
+				'tithing_quarter' => '',		//
+				'casale' => '',					//
+				'arpent_northeast' => '',		//, , , ; default=Fallow
+				'arpent_northwest' => '',		//, , , ; default=Fallow
+				'arpent_southeast' => '',		//, , , ; default=Fallow
+				'arpent_southwest' => '',		//, , , ; default=Fallow		
 				'empire' => null,				//(emperor); default=null
 				'kingdom' => null,				//(king); default=null
 				'duchy' => null,				//(duke); default=null
@@ -42,32 +44,54 @@ class TithingSeeder extends Seeder
 				'caput_baroniae' => null		//(caput baroniae); default=null
             ]);
 			*/
+
+
 			
 			/*
-			tithing_quarter:				hide_type:			hide_quarter:
-			
-			* Castle_Quarter			=						Castle_Keep, Stables_Plot, Gatehouse, Armoury
-			* Knight_Fee				=						Manor_House, Stables_Plot
-			* Gentry_Quarter			=						Husting, Stables_Plot
-			
-			* Ecclesiastical_Liberty	=						Diocese, Parish, Chapelry, Cloister, Palace, Rectory, Chancellery
-			* University_Quarter		=						Parish, Chapelry, Cloister, Porter_Lodge, College_Plot
-			* Hospital_Quarter			=						Parish, Chapelry, Cloister, Almshouse, Infirmary_Plot
-			* Monastic_Liberty 			=						Parish, Chapelry, Cloister, Infirmary_Plot, Cartulary, Scriptorium
-			* Monastic_Grange			=						Chapelry, Tithe_Barn, Burgage_Plot, Mill
-			* Commandery				=						Parish, Chapelry, Cloister, Chapterhouse, Stables_Plot
-							
-			* Hunting_Quarter			=						Hunting_Lodge, Kingswood
-			* Tiltyard					=						Grandstand, Stables_Plot, Guild_Hall
-			
-			* Market_Quarter			=						Market_Hall, Trade_Fair, Guild_Hall, Cloth_Hall, Merchant_Bank
-			* Port_Quarter				=						Wharf, Fishery_Plot, Arsenal, Coaching_Inn, Tavern_Plot
-			* Gate_Quarter				=						Gatehouse, Coaching_Inn, Tavern_Plot, Stables_Plot, Workshop_Plot
-			* Factory					=						Warehouse_Plot, Granary, Stables_Plot, Workshop_Plot, Mill
-			* Jewry_Quarter				=						Bathhouse, Burgage_Plot, Merchant_Bank, Workshop_Plot
-			* Burgage_Quarter			=						Patrician_House, Burgage_Plot, Workshop_Plot
-			* Hall_Quarter				=						Town_Hall, Moot_Hall, Mint, Armoury, Coaching_Inn, Tavern_Plot
-			* Tithing					=						Cottage_Plot, Claypit, Mine, Quarry, Woodland, Coppice, Moorland, Paddock, Field, Stables_Plot
+			//
+			//manor_court:
+			//
+			//Court_Royal
+			//Court_Ducal
+			//Court_County
+			//Court_Baron
+			//Court_Knight
+			//Court_University
+			//Court_Chancellery
+			//Court_Advocate
+			//
+			//tithing_quarter:			tithing_category:		hide casale / arpent:			
+			//
+			//Castle_Close				Martial 			=	Castle_Keep, Stables_Plot, Gatehouse, Armoury
+			//Commandery				Martial 			=	Parish, Chapelry, Cloister, Chapterhouse, Stables_Plot
+			//Knight_Fee				Martial 			=	Manor_House, Stables_Plot
+			//Gentry_Quarter			Martial 			=	Husting, Stables_Plot
+			//
+			//Clerical_Close			Ecclesiastical 		=	Diocese, Parish, Chapelry, Cloister, Palace, Rectory, Chancellery
+			//Cathedral_Close			Ecclesiastical		=	Diocese, Parish, Chapelry, Cloister, Palace, Rectory, Chancellery
+			//
+			//University_Locale			Educational 		=	Parish, Chapelry, Cloister, Porter_Lodge, College_Plot
+			//
+			//Hospital_Locale			Medical 			=	Parish, Chapelry, Cloister, Almshouse, Infirmary_Plot
+			//
+			//Monastic_Close 			Monastical 			=	Parish, Chapelry, Cloister, Infirmary_Plot, Cartulary, Scriptorium
+			//Monastic_Grange			Monastical 			=	Chapelry, Tithe_Barn, Burgage_Plot, Mill
+			// 				
+			//Hunting_Locale			Recreational		=	Hunting_Lodge, Kingswood
+			//Tiltyard					Recreational		=	Grandstand, Stables_Plot, Guild_Hall
+			//
+			//Hall_Locale				Governmental		=	Town_Hall, Moot_Hall, Mint, Armoury, Coaching_Inn, Tavern_Plot
+			//
+			//Market_Locale				Commercial			=	Market_Hall, Trade_Fair, Guild_Hall, Cloth_Hall, Merchant_Bank
+			//Factory_Locale			Commercial			=	Warehouse_Plot, Granary, Stables_Plot, Workshop_Plot, Mill
+			//
+			//Port_Locale				Transitional		=	Wharf, Fishery_Plot, Arsenal, Coaching_Inn, Tavern_Plot
+			//Gate_Locale				Transitional		=	Gatehouse, Coaching_Inn, Tavern_Plot, Stables_Plot, Workshop_Plot
+			//
+			//Jewry_Quarter				Residential			=	Bathhouse, Merchant_Bank, Burgage_Plot, Workshop_Plot
+			//Burgage_Quarter			Residential			=	Patrician_House, Burgage_Plot, Workshop_Plot
+			//
+			//Tithing					Agricultural		=	Cottage_Plot, Stables_Plot, Paddock, Field, Claypit, Mine, Quarry, Woodland, Coppice, Moorland 
 			
 			*/
 			
@@ -102,10 +126,11 @@ class TithingSeeder extends Seeder
 				'position' => '',
 				'manor_court' => '',
 				'tithing_quarter' => '',
-				'hide_northeast' => '',
-				'hide_northwest' => '',
-				'hide_southeast' => '',
-				'hide_southwest' => ''
+				'casale' => '',
+				'arpent_northeast' => '',
+				'arpent_northwest' => '',
+				'arpent_southeast' => '',
+				'arpent_southwest' => ''
 			]);
 			DB::table('tithings')->insert([
 				'tithing_name' => '',
@@ -114,10 +139,11 @@ class TithingSeeder extends Seeder
 				'position' => '',
 				'manor_court' => '',
 				'tithing_quarter' => '',
-				'hide_northeast' => '',
-				'hide_northwest' => '',
-				'hide_southeast' => '',
-				'hide_southwest' => ''
+				'casale' => '',
+				'arpent_northeast' => '',
+				'arpent_northwest' => '',
+				'arpent_southeast' => '',
+				'arpent_southwest' => ''
 			]);
 	}
 }
