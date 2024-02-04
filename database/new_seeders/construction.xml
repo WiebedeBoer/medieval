@@ -18,11 +18,11 @@
                 <building>Belfort</building>
               </virgate>
               <virgate>
-                <plot></plot>
+                <plot>Moneyer</plot>
                 <building>Mint</building>
               </virgate>
               <virgate>
-                <plot></plot>
+                <plot>Armoury</plot>
                 <building>Armoury</building>
               </virgate>
             </acres>
@@ -43,7 +43,7 @@
                 <building>Inn</building>
               </virgate>
               <virgate>
-                <plot>Warehouse</plot>
+                <plot>Barn</plot>
                 <building>Warehouse</building>
               </virgate>
             </acres>
@@ -53,11 +53,11 @@
             <acres>
               <virgate>
                 <plot>Cloister</plot>
-                <building>Almshouse</building>
+                <building>Refectory</building>
               </virgate>
               <virgate>
-                <plot>Library</plot>
-                <building>Scriptorium</building>
+                <plot>Beguinage</plot>
+                <building>Almshouse</building>
               </virgate>
               <virgate>
                 <plot>Hospital</plot>
@@ -101,15 +101,15 @@
             <type>Diocese</type>
             <acres>
               <virgate>
-                <plot></plot>
+                <plot>Diocese</plot>
                 <building>Cathedral</building>
               </virgate>
               <virgate>
-                <plot></plot>
+                <plot>Glebe</plot>
                 <building>Episcopal Palace</building>
               </virgate>
               <virgate>
-                <plot></plot>
+                <plot>Treasury</plot>
                 <building>Treasury</building>
               </virgate>
               <virgate>
@@ -154,6 +154,10 @@
                 <plot>Paddock</plot>
                 <building>Stables</building>
               </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
             </acres>
           </hide>
         </plots>
@@ -165,7 +169,7 @@
             <type>Parish</type>
             <acres>
               <virgate>
-                <plot></plot>
+                <plot>Parish</plot>
                 <building>Church</building>
               </virgate>
               <virgate>
@@ -192,6 +196,10 @@
               <virgate>
                 <plot>Paddock</plot>
                 <building>Stables</building>
+              </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
               </virgate>
             </acres>
           </hide>
@@ -262,6 +270,10 @@
                 <plot>Paddock</plot>
                 <building>Stables</building>
               </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
             </acres>
           </hide>
         </plots>
@@ -304,6 +316,10 @@
               <virgate>
                 <plot>Barn</plot>
                 <building>Tithe Barn</building>
+              </virgate>
+              <virgate>
+                <plot>Mill</plot>
+                <building>Mill</building>
               </virgate>
               <virgate>
                 <plot>Yard</plot>
@@ -398,6 +414,10 @@
                 <plot>Paddock</plot>
                 <building>Stables</building>
               </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
             </acres>
           </hide>
         </plots>
@@ -465,6 +485,10 @@
                 <plot>Paddock</plot>
                 <building>Stables</building>
               </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
             </acres>
           </hide>
           <hide>
@@ -530,7 +554,7 @@
                 <building>Inn</building>
               </virgate>
               <virgate>
-                <plot>Warehouse</plot>
+                <plot>Barn</plot>
                 <building>Warehouse</building>
               </virgate>
             </acres>
@@ -551,7 +575,7 @@
                 <building>Inn</building>
               </virgate>
               <virgate>
-                <plot>Warehouse</plot>
+                <plot>Barn</plot>
                 <building>Warehouse</building>
               </virgate>
             </acres>
@@ -590,6 +614,10 @@
                 <plot>Paddock</plot>
                 <building>Stables</building>
               </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
             </acres>
           </hide>
         </plots>
@@ -612,6 +640,10 @@
                 <plot>Gate</plot>
                 <building>Gatehouse</building>
               </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
             </acres>
           </hide>
         </plots>
@@ -632,6 +664,63 @@
               </virgate>
               <virgate>
                 <plot>Chase</plot>
+                <building>none</building>
+              </virgate>
+            </acres>
+          </hide>
+          <hide>
+            <type>Husting</type>
+            <acres>
+              <virgate>
+                <plot>Casale</plot>
+                <building>Cottage</building>
+              </virgate>
+              <virgate>
+                <plot>Paddock</plot>
+                <building>Stables</building>
+              </virgate>
+              <virgate>
+                <plot>Yard</plot>
+                <building>Coop</building>
+              </virgate>
+              <virgate>
+                <plot>Field</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Vineyard</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Orchard</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Plantation</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Apiary</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Coppice</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Gorse</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Meadow</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Moorland</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Mast</plot>
                 <building>none</building>
               </virgate>
             </acres>
@@ -684,6 +773,27 @@
               <virgate>
                 <plot>Apiary</plot>
                 <building>none</building>
+              </virgate>
+            </acres>
+          </hide>
+          <hide>
+            <type>Burgage</type>
+            <acres>
+              <virgate>
+                <plot>Logis</plot>
+                <building>Townhouse</building>
+              </virgate>
+              <virgate>
+                <plot>Industry</plot>
+                <building>Workshop</building>
+              </virgate>
+              <virgate>
+                <plot>Lodging</plot>
+                <building>Inn</building>
+              </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
               </virgate>
             </acres>
           </hide>
@@ -746,6 +856,27 @@
               <virgate>
                 <plot>Gorse</plot>
                 <building>none</building>
+              </virgate>
+            </acres>
+          </hide>
+          <hide>
+            <type>Burgage</type>
+            <acres>
+              <virgate>
+                <plot>Logis</plot>
+                <building>Townhouse</building>
+              </virgate>
+              <virgate>
+                <plot>Industry</plot>
+                <building>Workshop</building>
+              </virgate>
+              <virgate>
+                <plot>Lodging</plot>
+                <building>Inn</building>
+              </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
               </virgate>
             </acres>
           </hide>
