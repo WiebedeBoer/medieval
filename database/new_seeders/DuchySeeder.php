@@ -3816,7 +3816,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Tlemcen
-			//
+			//285
 			//Tlemcen,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tlemcen',
@@ -3829,7 +3829,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//286
 			//Oujda,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oujda',
@@ -3842,7 +3842,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//287
 			//Oran,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oran',
@@ -3855,7 +3855,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//288
 			//Algiers,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algiers',
@@ -3868,7 +3868,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//289
 			//Tiaret,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tiaret',
@@ -3881,7 +3881,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//290
 			//Mzab,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mzab',
@@ -3894,7 +3894,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//
+			//291
 			//Laghouat,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Laghouat',
@@ -3907,7 +3907,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//292
 			//Djelfa,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djelfa',
@@ -3921,7 +3921,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Ifni
-			//
+			//293
 			//Ifni, Tiznit
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ifni',
@@ -3934,7 +3934,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//294
 			//Taroudant, Agadir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taroudant',
@@ -3948,7 +3948,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Figuig
-			//
+			//295
 			//Figuig, Bechar, Moghrar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Figuig',
@@ -3961,7 +3961,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
-			//
+			//296
 			//Tuat, Tademait
             DB::table('duchies')->insert([
 				'duchy_name' => 'Adrar',
