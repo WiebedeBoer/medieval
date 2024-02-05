@@ -744,6 +744,10 @@
                 <plot>Pannage</plot>
                 <building>none</building>
               </virgate>
+              <virgate>
+                <plot>Agistment</plot>
+                <building>none</building>
+              </virgate>
             </acres>
           </hide>
         </plots>
@@ -863,6 +867,10 @@
             <acres>
               <virgate>
                 <plot>Pannage</plot>
+                <building>none</building>
+              </virgate>
+              <virgate>
+                <plot>Agistment</plot>
                 <building>none</building>
               </virgate>
             </acres>

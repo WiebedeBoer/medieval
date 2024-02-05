@@ -42,6 +42,7 @@ class HideSeeder extends Seeder
         //      11       Burgage                     Townhouse           urban        Market Locale, Commons, Farmer Marke, Port Locale
         //      16       Husting (Farmer)            Cottage             rural        Farmer Marke 
         //      6        Husting (Verderer)          Cottage             rural        Fauxburg
+        //      4        Husting (Port)              Cottage             rural        Port Locale
         //
         //total:
         //
@@ -55,10 +56,10 @@ class HideSeeder extends Seeder
             'position' => 'centre',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -66,10 +67,10 @@ class HideSeeder extends Seeder
             'position' => 'east',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -77,10 +78,10 @@ class HideSeeder extends Seeder
             'position' => 'west',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -88,10 +89,10 @@ class HideSeeder extends Seeder
             'position' => 'north',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -99,10 +100,10 @@ class HideSeeder extends Seeder
             'position' => 'south',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -110,10 +111,10 @@ class HideSeeder extends Seeder
             'position' => 'southwest',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -121,10 +122,10 @@ class HideSeeder extends Seeder
             'position' => 'southeast',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -132,10 +133,10 @@ class HideSeeder extends Seeder
             'position' => 'northwest',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
         DB::table('hides')->insert([
             'hide_name' => '',
@@ -143,10 +144,10 @@ class HideSeeder extends Seeder
             'position' => 'northeast',
             'hide_category' => '',
             'hide_plot' => '',
-            'logis' => 'None',
-            'casale' => 'None',
-            'virgate' => 'None',	
-            'oxgang' => 'None'
+            'logis' => 'Waste',
+            'casale' => 'Waste',
+            'virgate' => 'Waste',	
+            'oxgang' => 'Waste'
         ]);
     }
 }
