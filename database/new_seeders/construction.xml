@@ -589,6 +589,27 @@
               </virgate>
             </acres>
           </hide>
+          <hide>
+            <type>Burgage</type>
+            <acres>
+              <virgate>
+                <plot>Logis</plot>
+                <building>Townhouse</building>
+              </virgate>
+              <virgate>
+                <plot>Industry</plot>
+                <building>Workshop</building>
+              </virgate>
+              <virgate>
+                <plot>Lodging</plot>
+                <building>Inn</building>
+              </virgate>
+              <virgate>
+                <plot>Barn</plot>
+                <building>Warehouse</building>
+              </virgate>
+            </acres>
+          </hide>
         </plots>
       </quarter>
     </quarters>
@@ -720,7 +741,7 @@
                 <building>none</building>
               </virgate>
               <virgate>
-                <plot>Mast</plot>
+                <plot>Pannage</plot>
                 <building>none</building>
               </virgate>
             </acres>
@@ -841,7 +862,7 @@
             <type>Pannage</type>
             <acres>
               <virgate>
-                <plot>Mast</plot>
+                <plot>Pannage</plot>
                 <building>none</building>
               </virgate>
             </acres>

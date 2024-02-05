@@ -124,20 +124,74 @@ class TithingSeeder extends Seeder
 		//
 		DB::table('tithings')->insert([
 			'tithing_name' => '',
-			'tithing_category' => '',
 			'de_jure_hundred' => '',
-			'position' => '',
+			'position' => 'centre',
 			'manor_court' => '',
-			'tithing_category' => '',
+			'tithing_category' => 'Market Locale',
 			'tithing_quarter' => ''
 		]);
 		DB::table('tithings')->insert([
 			'tithing_name' => '',
-			'tithing_category' => '',
 			'de_jure_hundred' => '',
-			'position' => '',
+			'position' => 'east',
 			'manor_court' => '',
-			'tithing_category' => '',
+			'tithing_category' => 'Castle Locale',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'west',
+			'manor_court' => '',
+			'tithing_category' => 'Monastical Locale',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'north',
+			'manor_court' => '',
+			'tithing_category' => 'Ecclesiastical Locale',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'south',
+			'manor_court' => '',
+			'tithing_category' => 'Port Locale',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'southwest',
+			'manor_court' => '',
+			'tithing_category' => 'Commons',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'southeast',
+			'manor_court' => '',
+			'tithing_category' => 'Fauxburg',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'northwest',
+			'manor_court' => '',
+			'tithing_category' => 'Farmer Marke',
+			'tithing_quarter' => ''
+		]);
+		DB::table('tithings')->insert([
+			'tithing_name' => '',
+			'de_jure_hundred' => '',
+			'position' => 'northeast',
+			'manor_court' => '',
+			'tithing_category' => 'Farmer Marke',
 			'tithing_quarter' => ''
 		]);
 	}
