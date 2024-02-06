@@ -26243,7 +26243,7 @@ class CountySeeder extends Seeder
 			//Tlemcen
 			//Tlemcen
 			//1351
-			//tlemcen
+			//tlemcen, mansourah
             DB::table('counties')->insert([
 				'county_name' => 'Tlemcen',
 				'county_category' => 'Feudal_Manor',
@@ -26258,6 +26258,25 @@ class CountySeeder extends Seeder
 				'banal_chasse' => 'None',
 				'marke_crops' => 'None',
 				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Goats',
+				'marke_poultry' => 'Chickens'
+            ]);
+			//1352
+			//rachgoun, honaine
+            DB::table('counties')->insert([
+				'county_name' => 'Tlemcen',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '285',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Darija',
+				'vernacular_culture' => 'Moorish',
+				'current_culture' => 'Moorish',
+				'banal_moulin' => 'Horse_Mill',
+				'banal_pressoir' => 'None',
+				'banal_chasse' => 'None',
+				'marke_crops' => 'None',
+				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);

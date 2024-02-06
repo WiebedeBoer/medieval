@@ -1,5 +1,7 @@
 <?php
 
+namespace Illuminate\Database;
+
 use Illuminate\Database\Seeder;
 
 class EmpireSeeder extends Seeder

@@ -31310,15 +31310,25 @@ class GuildSeeder extends Seeder
 			'county' => '1351',
 			'hundred' => ''
 		]);
-		//
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Fair of Tlemcen',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '285',
+			'county' => '1351',
+			'hundred' => ''
+		]);
+		//Mansourah
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Mansourah',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '285',
-			'county' => '',
+			'county' => '1351',
 			'hundred' => ''
 		]);
 		//Oujda

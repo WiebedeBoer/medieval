@@ -3817,7 +3817,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Tlemcen
 			//285
-			//Tlemcen,
+			//Tlemcen, Rachgoun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tlemcen',
 				'duchy_category' => 'Feudal_Estate',
