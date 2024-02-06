@@ -102,18 +102,18 @@
             <description>Enables capitularies</description>          
         </carolingian> 
         <viking>
-            <technology>Fealty</technology> 
+            <technology>March</technology> 
             <historic>false</historic>
-            <year>840</year>
-            <intro>Rollo swears allegiance after the siege of Chartres</intro> 
-            <description>Expands feudal actions</description>  
+            <year>795</year>
+            <intro>Spanish March is established as a buffer zone</intro> 
+            <description>Enables march land unit</description>  
         </viking> 
         <ottonian>
             <technology>Hoftag</technology> 
             <historic>true</historic>
             <year>919</year>
             <intro>German nobles elect Henry the Fowler</intro> 
-            <description></description> 
+            <description>Expands court actions</description> 
         </ottonian>
         <romanesque>
             <technology>Castellany</technology>  
@@ -134,7 +134,7 @@
             <historic>false</historic>
             <year>1162</year>
             <intro>King Henry II appoints Thomas Becket</intro> 
-            <description></description>  
+            <description>Enables a great council</description>  
         </gothic>
         <rayonnant>
             <technology>Bailiwick</technology>  
@@ -146,16 +146,16 @@
         <flamboyant>
             <technology>Province</technology>  
             <historic>false</historic>
-            <year>1330</year>
+            <year>1331</year>
             <intro>Province first attested</intro> 
             <description>Enables province land unit</description> 
         </flamboyant>
         <italian>
-            <technology></technology>  
+            <technology>Fellowship</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro>
-            <description></description>   
+            <year>1393</year>
+            <intro>Sempacherbrief as a contract or Pfaffenbrief is signed</intro>
+            <description>Enables contracts between states</description>   
         </italian>
         <maritime>
             <technology>Lieutenancy</technology>  
@@ -196,7 +196,7 @@
             <historic>false</historic>
             <year>920</year>
             <intro>Spread of the Catalan Forge</intro> 
-            <description>Improves iron yield from mines</description> 
+            <description>Improves iron yield from mines and improves blades production</description> 
         </ottonian>
         <romanesque>
             <technology>Post Mill</technology>
@@ -632,21 +632,21 @@
             <historic>false</historic>
             <year>1179</year>
             <intro>Saladin captures Hugh II of Saint Omer</intro>
-            <description>Enables chivalric guild</description> 
+            <description>Enables chivalric guild and enables muntator</description> 
         </gothic>
         <rayonnant>
-            <technology></technology> 
-            <historic>false</historic>
-            <year>1238</year>
-            <intro>James I of Aragon conquers Valencia</intro>
-            <description></description> 
-        </rayonnant>
-        <flamboyant>
             <technology>Hobelar</technology> 
             <historic>false</historic>
-            <year>1355</year>
-            <intro>Edward of Woodstock marches from Bordeaux</intro>
+            <year>1276</year>
+            <intro>Edward I of England invades Wales and Llywelyn surrenders</intro>
             <description>Improves light cavalry charge</description> 
+        </rayonnant>
+        <flamboyant>
+            <technology>Pedigree</technology> 
+            <historic>false</historic>
+            <year>1330</year>
+            <intro>First use of horse records</intro>
+            <description>Improves horse breeding</description> 
         </flamboyant>
         <italian>
             <technology>Rowel Spurs</technology> 
@@ -835,7 +835,7 @@
     <master>Marshall</master>
     <eras>
         <merovingian>
-            <technology>Spatha</technology>  
+            <technology>Vendel Sword</technology>  
             <historic>false</historic>
             <year>734</year>
             <intro>Charles Martel defeats Poppo at the battle of the Boarn</intro> 
@@ -853,14 +853,14 @@
             <historic>false</historic>
             <year>908</year>
             <intro>Tactica treatise is completed</intro>
-            <description>Expands tactial actions</description>  
+            <description>Expands tactial actions such as shield wall and flying wedge</description>  
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Damask Steel</technology>  
             <historic>false</historic>
-            <year>948</year>
-            <intro>Henry I of Bavaria defeats an Hungarian army</intro> 
-            <description>Improves sword melee</description> 
+            <year>930</year>
+            <intro>Spread of Damask Steel</intro> 
+            <description>Improves blades strength</description> 
         </ottonian>
         <romanesque>
             <technology>Knightly Sword</technology> 
@@ -877,7 +877,7 @@
             <description>Improves sword melee</description>  
         </norman>
         <gothic>
-            <technology>Dagger</technology> 
+            <technology>Knightly Dagger</technology> 
             <historic>false</historic>
             <year>1152</year>
             <intro>Raymond II is assassinated</intro> 
@@ -925,7 +925,7 @@
             <description>Improves polearms melee</description>       
         </merovingian> 
         <carolingian>
-            <technology></technology>   
+            <technology>Winged Lance</technology>   
             <historic>false</historic>
             <year>760</year>
             <intro>Pepin the Short launches a campaign in Septimania</intro> 
@@ -1499,14 +1499,14 @@
     <master>Siege Engineer</master>
     <eras> 
         <merovingian>
-            <technology>Mangonel</technology>
+            <technology>Onager</technology>
             <historic>false</historic>
             <year>737</year>
             <intro>Charles Martel besieges the Umayyad at Narbonne</intro>
             <description>Improves siege action effects</description>        
         </merovingian> 
         <carolingian>
-            <technology></technology> 
+            <technology>Mangonel</technology> 
             <historic>false</historic>
             <year>761</year>
             <intro>An Abbasid Caliphate army reconquers the city of Kairouan</intro>
