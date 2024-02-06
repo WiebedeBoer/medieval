@@ -284,8 +284,8 @@
         <romanesque>
             <technology>Ghorfa</technology>  
             <historic>false</historic>
-            <year></year>
-            <intro></intro>
+            <year>990</year>
+            <intro>Multi level and fortified granaries appear</intro>
             <description>Expands granaries construction</description>  
         </romanesque>
         <norman>
@@ -307,21 +307,21 @@
             <historic>false</historic>
             <year>1254</year>
             <intro>Copenhagen receives its city charter</intro> 
-            <description>Expands available borough actions</description> 
+            <description>Expands available borough actions and improves borough actions</description> 
         </rayonnant>
         <flamboyant>
             <technology>Mesta</technology> 
             <historic>false</historic>
             <year>1347</year>
             <intro>Mesta charter is supplemented</intro> 
-            <description></description>  
+            <description>Improves wool trade</description>  
         </flamboyant>
         <italian>
             <technology>Late Medieval Commune</technology>
             <historic>false</historic>
             <year>1378</year>
             <intro>Ciompi wool carders revolt occurs in Florence</intro>
-            <description></description>   
+            <description>Expands available borough actions and improves borough actions</description>   
         </italian>
         <maritime>
             <technology>Stagecoach</technology> 
@@ -533,7 +533,7 @@
         <romanesque>
             <technology>Spinning Wheel</technology> 
             <historic>false</historic>
-            <year>1030</year>
+            <year>1032</year>
             <intro>Spinning wheel invented in the Islamic world</intro>
             <description>Improves yield of wool and cotton</description>  
         </romanesque>
@@ -1520,25 +1520,25 @@
             <description>Improves siege action effects</description>  
         </viking> 
         <ottonian>
-            <technology></technology> 
+            <technology>Military Expedition</technology> 
             <historic>false</historic>
-            <year>938</year>
-            <intro>Otto I the Great besieges Eresburg</intro>
+            <year>961</year>
+            <intro>Siege of Chandax</intro>
             <description>Improves siege action effects</description>   
         </ottonian>
         <romanesque>
-            <technology></technology> 
-            <historic>false</historic>
-            <year>1032</year>
-            <intro>Odo II of Champagne invades Burgundy</intro> 
-            <description></description>  
-        </romanesque>
-        <norman>
             <technology>Springald</technology> 
             <historic>false</historic>
-            <year>1071</year>
+            <year>1030</year>
+            <intro>Siege of Azaz</intro> 
+            <description>Enables springald construction</description>  
+        </romanesque>
+        <norman>
+            <technology>War Strategy</technology> 
+            <historic>false</historic>
+            <year>1075</year>
             <intro>Siege of Manzikert</intro>
-            <description>Enables springald construction</description>   
+            <description>Strategikon manual is completed</description>   
         </norman>
         <gothic>
             <technology>Counterpoise Trebuchet</technology> 
