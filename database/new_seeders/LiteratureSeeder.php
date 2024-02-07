@@ -362,7 +362,7 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Venice'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Divine Comedy',
 			'matter_genre' => 'Satire',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Venice'
@@ -405,7 +405,7 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Tuscan'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Divine Comedy',
 			'matter_genre' => 'Satire',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Tuscan'
@@ -448,7 +448,7 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Rome'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Divine Comedy',
 			'matter_genre' => 'Satire',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Rome'
@@ -1791,6 +1791,12 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Andalus'
 		]);
 		DB::table('literatures')->insert([
+			'literature_matter' => 'Method of Medicine',
+			'matter_genre' => 'Treatise',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Andalus'
+		]);	
+		DB::table('literatures')->insert([
 			'literature_matter' => 'Nabataean Agriculture',
 			'matter_genre' => 'Treatise',
 			'matter_religion' => null,
@@ -1964,6 +1970,24 @@ class LiteratureSeeder extends Seeder
 		]);
 		DB::table('literatures')->insert([
 			'literature_matter' => 'Book of Wonders',
+			'matter_genre' => 'Treatise',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Jazira'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Doubts about Galen',
+			'matter_genre' => 'Treatise',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Jazira'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Book on Medicine',
+			'matter_genre' => 'Treatise',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Jazira'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Book of Secrets',
 			'matter_genre' => 'Treatise',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Jazira'
@@ -2178,19 +2202,43 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Persia'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Masnavi',
+			'matter_genre' => 'Epic',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Persia'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Seven Sessions',
+			'matter_genre' => 'Epic',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Persia'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Divan of Hafez',
+			'matter_genre' => 'Epic',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Persia'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Mouse and Cat',
 			'matter_genre' => 'Satire',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Persia'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Compendium of Chronicles',
 			'matter_genre' => 'Chronicle',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Persia'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Book of Healing',
+			'matter_genre' => 'Treatise',
+			'matter_religion' => null,
+			'matter_culture' => 'Matter_Persia'
+		]);	
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Canon of Medicine',
 			'matter_genre' => 'Treatise',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Persia'
