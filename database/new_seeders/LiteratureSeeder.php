@@ -618,6 +618,18 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Britain'
 		]);
 		DB::table('literatures')->insert([
+			'literature_matter' => 'Life of Saint Patrick',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Christian',
+			'matter_culture' => 'Matter_Britain'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Life of Saint Columba',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Christian',
+			'matter_culture' => 'Matter_Britain'
+		]);
+		DB::table('literatures')->insert([
 			'literature_matter' => 'Book of Armagh',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Christian',
@@ -1755,13 +1767,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Andalus'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Andalus'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Andalus'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Andalus'
@@ -1810,13 +1828,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Darija'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Darija'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Darija'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Darija'
@@ -1853,13 +1877,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Ifriqiya'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Ifriqiya'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Ifriqiya'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Ifriqiya'
@@ -1896,13 +1926,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Masri'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Masri'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Masri'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Masri'
@@ -1939,13 +1975,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Jazira'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Jazira'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Jazira'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Jazira'
@@ -2000,13 +2042,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Levant'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Levant'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Levant'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Levant'
@@ -2043,13 +2091,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Hejaz'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Hejaz'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Hejaz'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Hejaz'
@@ -2086,13 +2140,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Najd'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Najd'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Najd'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Najd'
@@ -2129,13 +2189,19 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Turk'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Abi Talib',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Turk'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Virtues of Saqib',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Turk'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Turk'
@@ -2172,13 +2238,25 @@ class LiteratureSeeder extends Seeder
 			'matter_culture' => 'Matter_Persia'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Revelation of the Veiled Realities',
 			'matter_genre' => 'Hagiography',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Persia'
 		]);
 		DB::table('literatures')->insert([
-			'literature_matter' => '',
+			'literature_matter' => 'Generations of the Sufis',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Persia'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Virtues of the Gnostics',
+			'matter_genre' => 'Hagiography',
+			'matter_religion' => 'Muslim',
+			'matter_culture' => 'Matter_Persia'
+		]);
+		DB::table('literatures')->insert([
+			'literature_matter' => 'Companions of the Prophet',
 			'matter_genre' => 'Gospel',
 			'matter_religion' => 'Muslim',
 			'matter_culture' => 'Matter_Persia'
