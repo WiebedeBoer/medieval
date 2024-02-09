@@ -456,7 +456,7 @@
 			<hub>Preslav</hub>
 			<merchant>Fair</merchant>
 			<pilgrim>none</pilgrim>
-			<group>Byzantine</group>
+			<group>Ragusan</group>
 			<routes>
 				<route>
 					<category>Horse</category>
@@ -468,7 +468,7 @@
 			<hub>Tarnovo</hub>
 			<merchant>Fair</merchant>
 			<pilgrim>none</pilgrim>
-			<group>Byzantine</group>
+			<group>Ragusan</group>
 			<routes>
 				<route>
 					<category>Horse</category>
@@ -480,7 +480,7 @@
 			<hub>Ohrid</hub>
 			<merchant>none</merchant>
 			<pilgrim>Feretrum</pilgrim>
-			<group>Byzantine</group>
+			<group>Ragusan</group>
 			<routes>
 				<route>
 					<category>Horse</category>
@@ -608,7 +608,7 @@
 			<hub>Ragusa</hub>
 			<merchant>Emporium</merchant>
 			<pilgrim>none</pilgrim>
-			<group>Italian</group>
+			<group>Ragusan</group>
 			<routes>
 				<route>
 					<category>Sail</category>
@@ -2080,7 +2080,7 @@
 			<hub>Ras</hub>
 			<merchant>Fair</merchant>
 			<pilgrim>none</pilgrim>
-			<group>Byzantine</group>
+			<group>Ragusan</group>
 			<routes>
 				<route>
 					<category>Horse</category>
