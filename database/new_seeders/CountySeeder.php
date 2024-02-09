@@ -21981,7 +21981,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1131
-			//karapet, noravank
+			//karapet, noravank, mush, arakelots
             DB::table('counties')->insert([
 				'county_name' => 'Karapet',
 				'county_category' => 'Feudal_Manor',
