@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <eras>
   <merovingian>
+    <period>476 - 723</period>
+    <title>Merovingian Age</title>
+    <start>476</start>
+    <end>723</end>
+    <historic>Romulus Augustulus is deposed</historic> 
+    <length>247</length>
+    <category>Early</category>
+  </merovingian>
+  <merovingian>
     <period>723 - 754</period>
     <title>Merovingian Age</title>
     <start>723</start>

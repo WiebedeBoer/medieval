@@ -4,8 +4,15 @@
     <type>Manorialism</type>
     <master>Steward</master>
     <eras>
-        <merovingian>
+        <migration>
             <technology>Open Field System</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Open field system in use</intro>
+            <description>Enables farms and settlers</description>       
+        </migration> 
+        <merovingian>
+            <technology></technology> 
             <historic>false</historic>
             <year>741</year>
             <intro>Boniface and Odilo of Bavaria sponsor a collection of tribal laws</intro>
@@ -84,92 +91,16 @@
     </eras>
   </category>
   <category>
-    <type>Feudalism</type>
-    <master>Constable</master>
-    <eras>
-        <merovingian>
-            <technology>Banality</technology>  
-            <historic>false</historic>
-            <year>743</year>
-            <intro>Odilo of Bavaria vassalizes Carantania</intro>
-            <description>Enables banalities</description>     
-        </merovingian> 
-        <carolingian>
-            <technology>Capitulary</technology> 
-            <historic>false</historic>
-            <year>779</year>
-            <intro>The Capitulary of Herstal is issued</intro>
-            <description>Enables capitularies</description>          
-        </carolingian> 
-        <viking>
-            <technology>March</technology> 
-            <historic>false</historic>
-            <year>795</year>
-            <intro>Spanish March is established as a buffer zone</intro> 
-            <description>Enables march land unit</description>  
-        </viking> 
-        <ottonian>
-            <technology>Hoftag</technology> 
-            <historic>true</historic>
-            <year>919</year>
-            <intro>German nobles elect Henry the Fowler</intro> 
-            <description>Expands court actions</description> 
-        </ottonian>
-        <romanesque>
-            <technology>Castellany</technology>  
-            <historic>false</historic>
-            <year>1031</year>
-            <intro>Baldwin IV of Flanders institutes castellanies</intro> 
-            <description>Enables castellany land unit and enables hoarding architecture</description> 
-        </romanesque>
-        <norman>
-            <technology>Heraldry</technology> 
-            <historic>false</historic>
-            <year>1067</year>
-            <intro>William issues an Equestrian Seal</intro> 
-            <description>Enables heraldic devices and herald settlers</description> 
-        </norman>
-        <gothic>
-            <technology>Great Council</technology> 
-            <historic>false</historic>
-            <year>1162</year>
-            <intro>King Henry II appoints Thomas Becket</intro> 
-            <description>Enables a great council</description>  
-        </gothic>
-        <rayonnant>
-            <technology>Bailiwick</technology>  
-            <historic>false</historic>
-            <year>1260</year>
-            <intro>System of baillies established in France</intro>
-            <description>Enables bailiwick land unit</description>  
-        </rayonnant>
-        <flamboyant>
-            <technology>Province</technology>  
-            <historic>false</historic>
-            <year>1331</year>
-            <intro>Province first attested</intro> 
-            <description>Enables province land unit</description> 
-        </flamboyant>
-        <italian>
-            <technology>Fellowship</technology>  
-            <historic>false</historic>
-            <year>1393</year>
-            <intro>Sempacherbrief as a contract or Pfaffenbrief is signed</intro>
-            <description>Enables contracts between states</description>   
-        </italian>
-        <maritime>
-            <technology>Lieutenancy</technology>  
-            <historic>false</historic>
-            <year>1433</year>
-            <intro>Philip III the Good appoints Lannoy as captain general</intro>
-            <description>Enables lieutenancy</description>  
-        </maritime> 
-    </eras>
-  </category>
-  <category>
     <type>Crafts</type>
     <master>Steward</master>
     <eras>
+        <migration>
+            <technology>Water Wheel</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Water wheelis introduced</intro>
+            <description>Enables watermill</description>       
+        </migration> 
         <merovingian>
             <technology>Panemone Mill</technology>
             <historic>false</historic>
@@ -253,12 +184,19 @@
     <type>Merchantry</type>
     <master>Steward</master>
     <eras>
-        <merovingian>
-            <technology>Emporium</technology> 
+        <migration>
+            <technology>Mansio</technology> 
             <historic>false</historic>
-            <year>724</year>
-            <intro>Frisian potters produce wheel turn pottery at Ipswich</intro>
-            <description>Enables trade emporium</description>      
+            <year>476</year>
+            <intro>Way stations in use</intro>
+            <description>Enables trade and merchants and taverns</description>       
+        </migration> 
+        <merovingian>
+            <technology>Ribat</technology> 
+            <historic>false</historic>
+            <year>739</year>
+            <intro>Great Berber Revolt commences</intro>
+            <description>Improves hostels and fortifications</description>      
         </merovingian> 
         <carolingian>
             <technology>Caravanserai</technology>  
@@ -336,6 +274,13 @@
     <type>Scholasticism</type>
     <master>Chancellor</master>
     <eras>
+        <migration>
+            <technology>Philosophy</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Medieval philosophy in use</intro>
+            <description>Enables science and academies</description>       
+        </migration> 
         <merovingian>
             <technology>Lay Investiture</technology>
             <historic>false</historic>
@@ -419,8 +364,15 @@
     <type>Finance</type>
     <master>Treasurer</master>
     <eras>
+        <migration>
+            <technology>Dinar</technology> 
+            <historic>false</historic>
+            <year>696</year>
+            <intro>The Dinar is introduced</intro>
+            <description>Enables taxes</description>       
+        </migration> 
         <merovingian>
-            <technology>Sceat</technology>  
+            <technology>Fisc</technology>  
             <historic>false</historic>
             <year>740</year>
             <intro>The Scaet is reissued</intro> 
@@ -502,6 +454,13 @@
     <type>Wardrobe</type>
     <master>Chamberlain</master>
     <eras>
+        <migration>
+            <technology>Byzantine Silk</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Byzantines smuggle silk worms</intro>
+            <description>Enables silk manufacturing and fabrics</description>       
+        </migration> 
         <merovingian>
             <technology>Samite Fabric</technology> 
             <historic>false</historic>
@@ -582,11 +541,108 @@
     </eras>
   </category>
   <category>
+    <type>Feudalism</type>
+    <master>Constable</master>
+    <eras>
+        <migration>
+            <technology>Banality</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Medieval levies in use</intro>
+            <description>Enables levies and feudal tenures and banalities</description>       
+        </migration> 
+        <merovingian>
+            <technology>Fealty</technology>  
+            <historic>false</historic>
+            <year>743</year>
+            <intro>Odilo of Bavaria vassalizes Carantania</intro>
+            <description>Expands feudal tenures</description>     
+        </merovingian> 
+        <carolingian>
+            <technology>Capitulary</technology> 
+            <historic>false</historic>
+            <year>779</year>
+            <intro>The Capitulary of Herstal is issued</intro>
+            <description>Enables capitularies</description>          
+        </carolingian> 
+        <viking>
+            <technology>March</technology> 
+            <historic>false</historic>
+            <year>795</year>
+            <intro>Spanish March is established as a buffer zone</intro> 
+            <description>Enables march land unit</description>  
+        </viking> 
+        <ottonian>
+            <technology>Hoftag</technology> 
+            <historic>true</historic>
+            <year>919</year>
+            <intro>German nobles elect Henry the Fowler</intro> 
+            <description>Expands court actions</description> 
+        </ottonian>
+        <romanesque>
+            <technology>Castellany</technology>  
+            <historic>false</historic>
+            <year>1031</year>
+            <intro>Baldwin IV of Flanders institutes castellanies</intro> 
+            <description>Enables castellany land unit and enables hoarding architecture</description> 
+        </romanesque>
+        <norman>
+            <technology>Heraldry</technology> 
+            <historic>false</historic>
+            <year>1067</year>
+            <intro>William issues an Equestrian Seal</intro> 
+            <description>Enables heraldic devices and herald settlers</description> 
+        </norman>
+        <gothic>
+            <technology>Great Council</technology> 
+            <historic>false</historic>
+            <year>1162</year>
+            <intro>King Henry II appoints Thomas Becket</intro> 
+            <description>Enables a great council</description>  
+        </gothic>
+        <rayonnant>
+            <technology>Bailiwick</technology>  
+            <historic>false</historic>
+            <year>1260</year>
+            <intro>System of baillies established in France</intro>
+            <description>Enables bailiwick land unit</description>  
+        </rayonnant>
+        <flamboyant>
+            <technology>Province</technology>  
+            <historic>false</historic>
+            <year>1331</year>
+            <intro>Province first attested</intro> 
+            <description>Enables province land unit</description> 
+        </flamboyant>
+        <italian>
+            <technology>Fellowship</technology>  
+            <historic>false</historic>
+            <year>1393</year>
+            <intro>Sempacherbrief as a contract or Pfaffenbrief is signed</intro>
+            <description>Enables contracts between states</description>   
+        </italian>
+        <maritime>
+            <technology>Lieutenancy</technology>  
+            <historic>false</historic>
+            <year>1433</year>
+            <intro>Philip III the Good appoints Lannoy as captain general</intro>
+            <description>Enables lieutenancy</description>  
+        </maritime> 
+    </eras>
+  </category>
+  <category>
     <type>Cavalry</type>
     <master>Constable</master>
     <eras>
+        <migration>
+            <technology>Stirrup</technology> 
+            <historic>false</historic>
+            <year>575</year>
+            <intro>Stirrup introduced into Europe by the Avars</intro>
+            <description>Enables cavalry units</description>       
+        </migration> 
         <merovingian>
-            <technology>Stirrup</technology>  
+            <technology></technology>  
             <historic>false</historic>
             <year>732</year>
             <intro>Charles Martel defeats Abdul Rahman Al Ghafiqi near Poitiers</intro>
@@ -668,6 +724,13 @@
     <type>Helmets</type>
     <master>Chamberlain</master>
     <eras>
+        <migration>
+            <technology>Lamellenhelm</technology> 
+            <historic>false</historic>
+            <year>568</year>
+            <intro>Lombards introduce the helm into Europe</intro>
+            <description>Enables head armor</description>       
+        </migration> 
         <merovingian>
             <technology>Merovingian Spangenhelm</technology>
             <historic>false</historic>
@@ -751,6 +814,13 @@
     <type>Armor</type>
     <master>Chamberlain</master>
     <eras>
+        <migration>
+            <technology>Maille</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Maille is in use</intro>
+            <description>Enables body armor</description>       
+        </migration> 
         <merovingian>
             <technology>Merovingian Hauberk</technology> 
             <historic>false</historic>
@@ -834,6 +904,13 @@
     <type>Blades</type>
     <master>Marshall</master>
     <eras>
+        <migration>
+            <technology>Spatha</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Spatha is in use</intro>
+            <description>Enables blades units</description>       
+        </migration> 
         <merovingian>
             <technology>Vendel Sword</technology>  
             <historic>false</historic>
@@ -917,6 +994,13 @@
     <type>Polearms</type>
     <master>Marshall</master>
     <eras>
+        <migration>
+            <technology>Spear</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Spear is in use</intro>
+            <description>Enables polearm units</description>       
+        </migration> 
         <merovingian>
             <technology>Bill</technology> 
             <historic>false</historic>
@@ -1000,6 +1084,13 @@
     <type>Skirmish</type>
     <master>Marshall</master>
     <eras>
+        <migration>
+            <technology>Angon</technology> 
+            <historic>false</historic>
+            <year>554</year>
+            <intro>Battle of Capua</intro>
+            <description>Enables skirmishers and archers</description>       
+        </migration> 
         <merovingian>
             <technology>Grenade</technology>   
             <historic>false</historic>
@@ -1083,6 +1174,13 @@
     <type>Shipping</type>
     <master>Admiral</master>
     <eras>
+        <migration>
+            <technology>Emporium</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Early medieval emporium emerges</intro>
+            <description>Enables trade emporium and dockyard and ships</description>       
+        </migration> 
         <merovingian>
             <technology>Lapstrake</technology> 
             <historic>false</historic>
@@ -1166,6 +1264,13 @@
     <type>Regalement</type>
     <master>Master of the Revels</master>
     <eras>
+        <migration>
+            <technology>Lute</technology> 
+            <historic>false</historic>
+            <year>711</year>
+            <intro>Moors introduce the lute into Andalusia</intro>
+            <description>Enables minstrels and feasts and revelry</description>       
+        </migration> 
         <merovingian>
             <technology>Gregorian Chant</technology>  
             <historic>false</historic>
@@ -1249,12 +1354,19 @@
     <type>Revelry</type>
     <master>Master of the Revels</master>
     <eras>
+        <migration>
+            <technology>Horse Excercises</technology> 
+            <historic>false</historic>
+            <year>476</year>
+            <intro>Horse excercises in use</intro>
+            <description>Enables tournaments and hunts and fairs</description>       
+        </migration> 
         <merovingian>
             <technology>Falconry</technology> 
             <historic>false</historic>
             <year>748</year>
             <intro>Ethelbert II of Kent requests two goshawks for hunting from Boniface</intro> 
-            <description>Enables falconry</description>     
+            <description>Improves falconry</description>     
         </merovingian> 
         <carolingian>
             <technology>Coronation Banquet</technology> 
@@ -1268,7 +1380,7 @@
             <historic>false</historic>
             <year>843</year>
             <intro>Louis and Charles hold military games at Worms</intro> 
-            <description>Enables jousts</description>
+            <description>Expands jousts</description>
         </viking> 
         <ottonian>
             <technology>Ceremony</technology> 
@@ -1332,15 +1444,22 @@
     <type>Fortification</type>
     <master>Castellan</master>
     <eras>
-        <merovingian>
-            <technology>Ribat</technology> 
+        <migration>
+            <technology>Ringfort</technology> 
             <historic>false</historic>
-            <year>739</year>
-            <intro>Great Berber Revolt commences</intro> 
+            <year>476</year>
+            <intro>Ringforts are in use</intro>
+            <description>Enables fortifications</description>       
+        </migration> 
+        <merovingian>
+            <technology>Tower House</technology> 
+            <historic>false</historic>
+            <year>724</year>
+            <intro>Tower house introduced in Navarre</intro> 
             <description>Expands castle construction</description>       
         </merovingian> 
         <carolingian>
-            <technology>Albarrana Tower</technology>
+            <technology></technology>
             <historic>false</historic>
             <year>759</year>
             <intro>Franks besiege Narbonne</intro>
@@ -1415,8 +1534,15 @@
     <type>Architecture</type>
     <master>Master Mason</master>
     <eras>
+        <migration>
+            <technology>Cloister</technology> 
+            <historic>false</historic>
+            <year>530</year>
+            <intro>Rule of Benedict is introduced</intro>
+            <description>Enables cloisters and monastic orders</description>       
+        </migration> 
         <merovingian>
-            <technology>Cloister</technology>  
+            <technology></technology>  
             <historic>false</historic>
             <year>742</year>
             <intro>Sturm founds the Abbey of Fulda</intro>
@@ -1498,8 +1624,15 @@
     <type>Siegecraft</type>
     <master>Siege Engineer</master>
     <eras> 
+        <migration>
+            <technology>Onager</technology> 
+            <historic>false</historic>
+            <year>500</year>
+            <intro>Onager is introduced to Europe</intro>
+            <description>Enables sieges and siege equipment</description>       
+        </migration> 
         <merovingian>
-            <technology>Onager</technology>
+            <technology></technology>
             <historic>false</historic>
             <year>737</year>
             <intro>Charles Martel besieges the Umayyad at Narbonne</intro>
@@ -1581,6 +1714,13 @@
     <type>Scriptures</type>
     <master>Chronicler</master>
     <eras>
+        <migration>
+            <technology>Codex</technology> 
+            <historic>false</historic>
+            <year>600</year>
+            <intro>Codex is in use</intro>
+            <description>Enables libraries and books and chronicles</description>       
+        </migration> 
         <merovingian>
             <technology>Insular Manuscripts</technology>
             <historic>false</historic>
@@ -1664,6 +1804,13 @@
     <type>Monasticism</type>
     <master>Almoner</master>
     <eras>
+        <migration>
+            <technology>Holy War</technology> 
+            <historic>false</historic>
+            <year>722</year>
+            <intro>Reconquest of Andalus commences</intro>
+            <description>Enables crusades and pilgrimages</description>       
+        </migration> 
         <merovingian>
             <technology>Merovingian Relics</technology> 
             <historic>false</historic>
