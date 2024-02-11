@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cultures>
   <culture>
+    <type>Andalusian</type>
+    <recruitment>moorish</recruitment>
+    <heraldry>
+      <banners>
+        <country>
+          <caparison>arab</caparison>
+          <tabard>arab</tabard>
+          <banner>arab</banner>
+          <banderole>arab</banderole>
+          <gonfalon>arab</gonfalon>    
+        </country>
+        <military>
+          <caparison>arab</caparison>
+          <tabard>arab</tabard>
+          <banner>arab</banner>
+          <banderole>arab</banderole>
+          <gonfalon>arab</gonfalon>   
+        </military>
+      </banners> 
+    </heraldry>
+    <religion>Muslim_Sunni</religion>
+    <region>Andalusia</region>
+  </culture>
+  <culture>
     <type>Arabic</type>
     <recruitment>arab</recruitment>
     <heraldry>

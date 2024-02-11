@@ -3,265 +3,5577 @@
   <cycle>
     <culture>Arabic</culture>
     <type>Matter_Jazira</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Tales from Baghdad</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Thousand Entertaining Tales</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Arabic</culture>
     <type>Matter_Levant</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Tales from Aleppo</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Fadil</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Thousand Entertaining Tales</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Prophets and Kings</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Arabic</culture>
     <type>Matter_Najd</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Life of Iskander</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Thousand Entertaining Tales</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Prophets and Kings</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Arabic</culture>
     <type>Matter_Masri</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Life of Baybars</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Prophets and Kings</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Arabic</culture>
     <type>Matter_Hejaz</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Life of Iskander</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Thousand Entertaining Tales</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Prophets and Kings</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Aragonese</culture>
     <type>Matter_Aragon</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Armenian</culture>
     <type>Matter_Armenia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Arpitan</culture>
     <type>Matter_France</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Asturian</culture>
     <type>Matter_Castile</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Bavarian</culture>
     <type>Matter_High_German</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Arnulf</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lorsch Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Echternach Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Saint Gall</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Mainz</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Bern</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ada Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lay of Hildebrand</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Ludwig</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Ezzo</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Anno</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Alexander</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of the Nibelungs</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Muspili</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Manesse</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Jena Song</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Weingarten Song</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Battle of Ravenna</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Rose Garden at Worms</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Ambras Book of Heroes</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>William Tell</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Ecke</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Verona</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Nuremberg Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Imperial Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Aachen Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Royal Chronicle of Cologne</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Worms Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Virgo</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Bohemian</culture>
     <type>Matter_Bohemia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Breton</culture>
     <type>Matter_Britain</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Bulgarian</culture>
     <type>Matter_Bulgaria</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Cantabrian</culture>
     <type>Matter_Castile</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Castillian</culture>
     <type>Matter_Castile</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Catalan</culture>
     <type>Matter_Aragon</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Croatian</culture>
     <type>Matter_Croat</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Danish</culture>
     <type>Matter_Norse</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>English</culture>
     <type>Matter_Britain</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Finnish</culture>
     <type>Matter_Norse</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Flemish</culture>
     <type>Matter_Low_German</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Servatius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Egmond Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Wurzburg</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Fulda</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Utrecht Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Children of Limburg</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Pied Piper of Hamelin</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon World Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Quedlinburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Hamburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Halberstadt</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon Mirror</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Care of the State</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>How to Govern a City</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Logic</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Nature</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Franconian</culture>
     <type>Matter_Low_German</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Servatius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Egmond Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Wurzburg</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Fulda</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Utrecht Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Children of Limburg</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Pied Piper of Hamelin</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon World Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Quedlinburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Hamburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Halberstadt</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon Mirror</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Care of the State</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>How to Govern a City</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Logic</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Nature</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Frankish</culture>
     <type>Matter_France</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Frisian</culture>
     <type>Matter_Low_German</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Servatius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Egmond Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Wurzburg</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Fulda</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Utrecht Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Children of Limburg</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Pied Piper of Hamelin</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon World Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Quedlinburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Hamburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Halberstadt</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon Mirror</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Care of the State</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>How to Govern a City</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Logic</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Nature</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Gaelic</culture>
     <type>Matter_Fenian</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Galician</culture>
     <type>Matter_Portugal</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Georgian</culture>
     <type>Matter_Georgia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Greek</culture>
     <type>Matter_Byzantine</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Hungarian</culture>
     <type>Matter_Magyar</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Irish</culture>
     <type>Matter_Fenian</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Leonese</culture>
     <type>Matter_Castile</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Lithuanian</culture>
     <type>Matter_Baltic</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Livonian</culture>
     <type>Matter_Baltic</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Lombard</culture>
     <type>Matter_Lombard</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Cetheus of Pescara</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Vigilius of Trent</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Golden Legend</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Verona Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Brescia Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Milan</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Entry to Spain</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Decameron</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Chronicle of Fredegar</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Princes</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>From Mathematical Games</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Lombard</culture>
     <type>Matter_Tuscan</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Lombard</culture>
     <type>Matter_Rome</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Lombard</culture>
     <type>Matter_Venice</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Athanasius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Decameron</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Bishops of Salona and Split</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Chronicle of Venice and Graz</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Princes</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Flower of Battle</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Mazovian</culture>
     <type>Matter_Polish</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Mongolian</culture>
     <type>Matter_Mongolia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Moorish</culture>
     <type>Matter_Andalus</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Alive Son of Awake</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Kings of al Andalus</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Method of Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Nabataean Agriculture</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Moorish</culture>
     <type>Matter_Darija</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Life of Iskander</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Almoravids and Almohads</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Maghreb</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Moorish</culture>
     <type>Matter_Ifriqiya</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Strory of the Hilalis</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Almoravids and Almohads</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Maghreb</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Wonders</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Doubts about Galen</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book on Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Swords and Their Kinds</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Moravian</culture>
     <type>Matter_Bohemia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Navarrese</culture>
     <type>Matter_Aragon</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Neapolitan</culture>
     <type>Matter_Napels</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Norman</culture>
     <type>Matter_France</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Norwegian</culture>
     <type>Matter_Norse</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Occitan</culture>
     <type>Matter_France</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Persian</culture>
     <type>Matter_Persia</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Revelation of the Veiled Realities</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Generations of the Sufis</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of the Gnostics</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Seven Wise Men</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Tales from Tabriz</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Tales of Timur</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Masnavi</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Seven Sessions</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Divan of Hafez</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Kings</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Garshasp</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Faramarz</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Borza</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Thousand Entertaining Tales</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mouse and Cat</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Compendium of Chronicles</title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Healing</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Canon of Medicine</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Pictish</culture>
     <type>Matter_Fenian</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Polish</culture>
     <type>Matter_Polish</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Portuguese</culture>
     <type>Matter_Portugal</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Prussian</culture>
     <type>Matter_Baltic</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Russian</culture>
     <type>Matter_Kiev</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Ruthenian</culture>
     <type>Matter_Kiev</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Sardinian</culture>
     <type>Matter_Sardinia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Saxon</culture>
     <type>Matter_Low_German</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Servatius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Egmond Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Wurzburg</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Fulda</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Utrecht Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Children of Limburg</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Pied Piper of Hamelin</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon World Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Quedlinburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Hamburg</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Deeds of the Bishops of Halberstadt</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saxon Mirror</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Care of the State</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>How to Govern a City</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Logic</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Questions on Nature</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Serbian</culture>
     <type>Matter_Serbia</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Sicilian</culture>
     <type>Matter_Sicily</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Silesian</culture>
     <type>Matter_Polish</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Swabian</culture>
     <type>Matter_High_German</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Arnulf</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lorsch Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Echternach Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Saint Gall</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Mainz</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Bern</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ada Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lay of Hildebrand</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Ludwig</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Ezzo</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Anno</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Alexander</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of the Nibelungs</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Muspili</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Manesse</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Jena Song</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Weingarten Song</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Battle of Ravenna</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Rose Garden at Worms</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Ambras Book of Heroes</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>William Tell</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Song of Ecke</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Verona</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Nuremberg Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Imperial Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Aachen Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Royal Chronicle of Cologne</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Worms Chronicle</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Virgo</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Swedish</culture>
     <type>Matter_Norse</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Turkic</culture>
     <type>Matter_Turk</type>
+    <literature>
+      <book>
+        <title>Koran</title>
+        <genre>Scriptures</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Abi Talib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Virtues of Saqib</title>
+        <genre>Hagiography</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Companions of the Prophet</title>
+        <genre>Gospel</genre>
+        <religion>Muslim</religion>
+      </book>
+      <book>
+        <title>Epic of Koroghlu</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Masnavi</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Alpamysh</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Dede Korkut</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Saying on Mules</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the House of Seljuk</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Politics</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Travels</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Wallachian</culture>
     <type>Matter_Vlach</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Welsh</culture>
     <type>Matter_Britain</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
   <cycle>
     <culture>Wendish</culture>
     <type>Matter_Baltic</type>
+    <literature>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title></title>
+        <genre></genre>
+        <religion>none</religion>
+      </book>
+    </literature>
   <cycle>
 </cycles>

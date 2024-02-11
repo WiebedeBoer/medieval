@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trade>
   <culture>
+    <type>Andalusian</type>
+    <region>Andalusia</region>
+	<places>
+		<place>
+			<hub>Cadiz</hub>
+			<merchant>Emporium</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Reshef Road</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Mediterranean Sea Trade</waypoint>
+				</route>
+				<route>
+					<category>Sail</category>
+					<waypoint>Atlantic Trade</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Merida</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Silver Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Sevilla</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Silver Road</waypoint>
+				</route>
+				<route>
+					<category>Horse</category>
+					<waypoint>Reshef Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Cordoba</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Reshef Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
+			</routes>
+		</place>
+		<place>
+			<hub>Cuenca</hub>
+			<merchant>Fair</merchant>
+			<pilgrim>none</pilgrim>
+			<group>Radhanite</group>
+			<routes>
+				<route>
+					<category>Horse</category>
+					<waypoint>Reshef Road</waypoint>
+				</route>
+				<route>
+					<category>Drover</category>
+					<waypoint>Mesta</waypoint>
+				</route>
+			</routes>
+		</place>
+	</places>
+  </culture>
+  <culture>
     <type>Arabic</type>
     <region>Arabia</region>
 	<places>
@@ -1473,98 +1571,6 @@
 				<route>
 					<category>Sail</category>
 					<waypoint>Atlantic Trade</waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Cadiz</hub>
-			<merchant>Emporium</merchant>
-			<pilgrim>none</pilgrim>
-			<group>Radhanite</group>
-			<routes>
-				<route>
-					<category>Horse</category>
-					<waypoint>Reshef Road</waypoint>
-				</route>
-				<route>
-					<category>Sail</category>
-					<waypoint>Mediterranean Sea Trade</waypoint>
-				</route>
-				<route>
-					<category>Sail</category>
-					<waypoint>Atlantic Trade</waypoint>
-				</route>
-				<route>
-					<category>Drover</category>
-					<waypoint>Mesta</waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Merida</hub>
-			<merchant>Fair</merchant>
-			<pilgrim>none</pilgrim>
-			<group>Radhanite</group>
-			<routes>
-				<route>
-					<category>Horse</category>
-					<waypoint>Silver Road</waypoint>
-				</route>
-				<route>
-					<category>Drover</category>
-					<waypoint>Mesta</waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Sevilla</hub>
-			<merchant>Fair</merchant>
-			<pilgrim>none</pilgrim>
-			<group>Radhanite</group>
-			<routes>
-				<route>
-					<category>Horse</category>
-					<waypoint>Silver Road</waypoint>
-				</route>
-				<route>
-					<category>Horse</category>
-					<waypoint>Reshef Road</waypoint>
-				</route>
-				<route>
-					<category>Drover</category>
-					<waypoint>Mesta</waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Cordoba</hub>
-			<merchant>Fair</merchant>
-			<pilgrim>none</pilgrim>
-			<group>Radhanite</group>
-			<routes>
-				<route>
-					<category>Horse</category>
-					<waypoint>Reshef Road</waypoint>
-				</route>
-				<route>
-					<category>Drover</category>
-					<waypoint>Mesta</waypoint>
-				</route>
-			</routes>
-		</place>
-		<place>
-			<hub>Cuenca</hub>
-			<merchant>Fair</merchant>
-			<pilgrim>none</pilgrim>
-			<group>Radhanite</group>
-			<routes>
-				<route>
-					<category>Horse</category>
-					<waypoint>Reshef Road</waypoint>
-				</route>
-				<route>
-					<category>Drover</category>
-					<waypoint>Mesta</waypoint>
 				</route>
 			</routes>
 		</place>
