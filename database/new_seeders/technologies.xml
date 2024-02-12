@@ -7,16 +7,16 @@
         <migration>
             <technology>Open Field System</technology> 
             <historic>false</historic>
-            <year>476</year>
-            <intro>Open field system in use</intro>
-            <description>Enables farms and settlers</description>       
+            <year>642</year>
+            <intro>Law of the Visigoths first promulgated by king Chindasuinth</intro>
+            <description>Enables farms and settlers and manorial court and two field system</description>       
         </migration> 
         <merovingian>
-            <technology></technology> 
+            <technology>Hop Garden</technology> 
             <historic>false</historic>
-            <year>741</year>
-            <intro>Boniface and Odilo of Bavaria sponsor a collection of tribal laws</intro>
-            <description>Sets up closes in an open field system</description>     
+            <year>736</year>
+            <intro>Hops first cultivated</intro>
+            <description>Enables hop cultivation</description>     
         </merovingian> 
         <carolingian>
             <technology>Three Field System</technology>
@@ -95,10 +95,10 @@
     <master>Steward</master>
     <eras>
         <migration>
-            <technology>Water Wheel</technology> 
+            <technology>Ship Mill</technology> 
             <historic>false</historic>
-            <year>476</year>
-            <intro>Water wheelis introduced</intro>
+            <year>537</year>
+            <intro>Ship mill is introduced</intro>
             <description>Enables watermill</description>       
         </migration> 
         <merovingian>
@@ -109,11 +109,11 @@
             <description>Enables windmill</description>         
         </merovingian> 
         <carolingian>
-            <technology>Hop Garden</technology>  
+            <technology>Geared Gristmill</technology>  
             <historic>false</historic>
-            <year>768</year>
-            <intro>Hop garden at Saint Denis</intro> 
-            <description>Enables hop cultivation</description>     
+            <year>780</year>
+            <intro>Large scale gristmills spreads from the islamic world</intro> 
+            <description>Improves milling of cereals</description>     
         </carolingian> 
         <viking>
             <technology>Distillation</technology> 
@@ -642,18 +642,18 @@
             <description>Enables cavalry units</description>       
         </migration> 
         <merovingian>
-            <technology></technology>  
+            <technology>Early Pedigree</technology>  
             <historic>false</historic>
             <year>732</year>
-            <intro>Charles Martel defeats Abdul Rahman Al Ghafiqi near Poitiers</intro>
-            <description>Improves cavalry charge</description>     
+            <intro>Merovingians maintain a horse breeding centre</intro>
+            <description>Improves horse breeding</description>     
         </merovingian> 
         <carolingian>
             <technology>Knighthood</technology>
             <historic>false</historic>
             <year>756</year>
             <intro>Pepin the Short defeats Aistulf</intro> 
-            <description>Enables knight</description>      
+            <description>Enables knight and paladin</description>      
         </carolingian> 
         <viking>
             <technology>Horseshoe</technology> 
@@ -698,7 +698,7 @@
             <description>Improves light cavalry charge</description> 
         </rayonnant>
         <flamboyant>
-            <technology>Pedigree</technology> 
+            <technology>Late Pedigree</technology> 
             <historic>false</historic>
             <year>1330</year>
             <intro>First use of horse records</intro>
@@ -824,8 +824,8 @@
         <merovingian>
             <technology>Merovingian Hauberk</technology> 
             <historic>false</historic>
-            <year>736</year>
-            <intro>Charles Martel forms an alliance with the Burgundians</intro>  
+            <year>738</year>
+            <intro>Charles Martel commences a campaign against the Saxons</intro>  
             <description>Improves body armor</description>     
         </merovingian> 
         <carolingian>
@@ -1445,7 +1445,7 @@
     <master>Castellan</master>
     <eras>
         <migration>
-            <technology>Ringfort</technology> 
+            <technology>Byzantine Enceinte</technology> 
             <historic>false</historic>
             <year>476</year>
             <intro>Ringforts are in use</intro>
@@ -1459,21 +1459,21 @@
             <description>Expands castle construction</description>       
         </merovingian> 
         <carolingian>
-            <technology></technology>
+            <technology>Saracen Enceinte</technology>
             <historic>false</historic>
             <year>759</year>
             <intro>Franks besiege Narbonne</intro>
-            <description>Expands castle construction</description>         
+            <description>Expands walls construction</description>         
         </carolingian> 
         <viking>
-            <technology>Motte and Bailey</technology> 
+            <technology>Motte Castle</technology> 
             <historic>false</historic>
             <year>861</year>
             <intro>Robert the Strong is appointed count of Anjou</intro>
             <description>Expands castle construction</description>   
         </viking> 
         <ottonian>
-            <technology>Enceinte</technology> 
+            <technology>Andalusian Enceinte</technology> 
             <historic>false</historic>
             <year>945</year>
             <intro>Abd ar-Rahman III completes the Medina Azahara</intro> 
@@ -1508,10 +1508,10 @@
             <description>Expands walls construction</description>  
         </rayonnant>
         <flamboyant>
-            <technology>Kremlin</technology> 
+            <technology>Bascule Drawbridge</technology> 
             <historic>false</historic>
             <year>1317</year>
-            <intro>Tver city wall and fortified complex is constructed</intro> 
+            <intro>Tver city wall and kremlin is constructed</intro> 
             <description>Expands walls construction</description>  
         </flamboyant>
         <italian>
@@ -1542,7 +1542,7 @@
             <description>Enables cloisters and monastic orders</description>       
         </migration> 
         <merovingian>
-            <technology></technology>  
+            <technology>Merovingian Arcade</technology>  
             <historic>false</historic>
             <year>742</year>
             <intro>Sturm founds the Abbey of Fulda</intro>
@@ -1632,18 +1632,18 @@
             <description>Enables sieges and siege equipment</description>       
         </migration> 
         <merovingian>
-            <technology></technology>
+            <technology>Mangonel</technology>
             <historic>false</historic>
             <year>737</year>
             <intro>Charles Martel besieges the Umayyad at Narbonne</intro>
             <description>Improves siege action effects</description>        
         </merovingian> 
         <carolingian>
-            <technology>Mangonel</technology> 
+            <technology>Logistics</technology> 
             <historic>false</historic>
-            <year>761</year>
-            <intro>An Abbasid Caliphate army reconquers the city of Kairouan</intro>
-            <description>Improves siege action effects</description>        
+            <year>777</year>
+            <intro>Charlemagne crosses the Rhine</intro>
+            <description>Improves baggage trains for sieges</description>        
         </carolingian> 
         <viking>
             <technology>Fire Ship</technology> 
@@ -1671,7 +1671,7 @@
             <historic>false</historic>
             <year>1075</year>
             <intro>Siege of Manzikert</intro>
-            <description>Strategikon manual is completed</description>   
+            <description>Strategikon manual is compiled</description>   
         </norman>
         <gothic>
             <technology>Counterpoise Trebuchet</technology> 
