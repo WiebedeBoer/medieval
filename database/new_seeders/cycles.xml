@@ -355,78 +355,53 @@
     <type>Matter_Aragon</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Roland and Sarraguce</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of the Goths</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Roda</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Muntaner</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Rule of Princes</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -517,78 +492,183 @@
     <type>Matter_France</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Paris Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Autun Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Tours</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Rouen</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ebbo Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Very Rich Hours of the Duke of Berry</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Garin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Doolin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Guillaume</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Voyage of Charlemagne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Bordeaux</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Auvergne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Raoul of Cambrai</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Antioch</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Jerusalem</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Franks</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Life of Charlemagne</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Aquitaine</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Gentle and Wild Beasts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Nature and Care of Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Instructions for Hunting with Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Hunting with Traps, Snares, and Crossbow</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Judges</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Management of the Palace</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Christian Rulers</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Method of Learning</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Good Wife Guide</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -598,78 +678,73 @@
     <type>Matter_Castile</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Leon</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Cid</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Fernan</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tales of Count Lucanor</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Youths of Rodrigo</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of the Seven Lara Princes</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of Spain</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Alfonso the Emperor</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of the Kings of Castile</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Sahagun</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Knowledge</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -931,78 +1006,153 @@
     <type>Matter_Britain</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cuthbert</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Cambridge</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Exeter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Oxford</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Durham Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lindisfarne Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Harley Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Eadwine Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Canterbury Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Legend of King Arthur</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lancelot or the Knight and the Cart</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Yvain or the Knight of the Lion</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Parcival and the Story of the Grail</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Merlin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Gawain and the Green Knight</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Beowulf</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Havelock the Dane</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Gest of Robyn Hood</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Piers Plowman</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Canterbury Tales</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Madness of Tristan</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Wales</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ecclesiastical History of the English People</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Kings of Britain</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Hawking, Hunting, and Blasing of Arms</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Master of Game</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror of the Church</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror of Alchemy</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1093,78 +1243,73 @@
     <type>Matter_Castile</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Leon</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Cid</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Fernan</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tales of Count Lucanor</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Youths of Rodrigo</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of the Seven Lara Princes</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of Spain</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Alfonso the Emperor</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of the Kings of Castile</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Sahagun</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Knowledge</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1174,78 +1319,73 @@
     <type>Matter_Castile</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Leon</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Cid</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Fernan</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tales of Count Lucanor</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Youths of Rodrigo</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of the Seven Lara Princes</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of Spain</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Alfonso the Emperor</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of the Kings of Castile</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Sahagun</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Knowledge</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1255,78 +1395,53 @@
     <type>Matter_Aragon</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Roland and Sarraguce</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of the Goths</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Roda</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Muntaner</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Rule of Princes</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1417,78 +1532,103 @@
     <type>Matter_Norse</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cnut</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of Saint Olaf</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Copenhagen Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ingeborg Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of the Earls of Orkney</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Saga about Certain Ancient Kings</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of the Sons of Ragnar</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Hamoir</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Circle of the World</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Gudrun</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Atli</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Hvessinge Guild Speech</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tremendous Crow</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Moody Men and Malicious Maidens</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danes of the Middle Ages</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Questions about Ancient Art</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Supreme Good</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1498,78 +1638,153 @@
     <type>Matter_Britain</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cuthbert</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Cambridge</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Exeter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Oxford</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Durham Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lindisfarne Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Harley Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Eadwine Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Canterbury Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Legend of King Arthur</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lancelot or the Knight and the Cart</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Yvain or the Knight of the Lion</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Parcival and the Story of the Grail</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Merlin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Gawain and the Green Knight</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Beowulf</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Havelock the Dane</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Gest of Robyn Hood</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Piers Plowman</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Canterbury Tales</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Madness of Tristan</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Wales</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ecclesiastical History of the English People</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Kings of Britain</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Hawking, Hunting, and Blasing of Arms</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Master of Game</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror of the Church</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror of Alchemy</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1579,78 +1794,103 @@
     <type>Matter_Norse</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cnut</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of Saint Olaf</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Copenhagen Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ingeborg Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of the Earls of Orkney</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Saga about Certain Ancient Kings</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of the Sons of Ragnar</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Hamoir</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Circle of the World</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Gudrun</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Atli</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Hvessinge Guild Speech</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tremendous Crow</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Moody Men and Malicious Maidens</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danes of the Middle Ages</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Questions about Ancient Art</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Supreme Good</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1902,78 +2142,183 @@
     <type>Matter_France</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Paris Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Autun Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Tours</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Rouen</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ebbo Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Very Rich Hours of the Duke of Berry</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Garin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Doolin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Guillaume</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Voyage of Charlemagne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Bordeaux</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Auvergne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Raoul of Cambrai</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Antioch</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Jerusalem</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Franks</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Life of Charlemagne</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Aquitaine</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Gentle and Wild Beasts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Nature and Care of Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Instructions for Hunting with Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Hunting with Traps, Snares, and Crossbow</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Judges</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Management of the Palace</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Christian Rulers</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Method of Learning</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Good Wife Guide</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2104,78 +2449,78 @@
     <type>Matter_Fenian</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Patrick</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Columba</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Brigit</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Armagh</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Kells</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Pursuit of Diarmuid and Grainne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Triads of Ireland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Boyhood Deeds of Finn</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Piers Plowman</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of the Four Masters</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Leinster</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Testament of Morand</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Instruction of Cormac</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Instruction of Cuscraid</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2185,78 +2530,58 @@
     <type>Matter_Portugal</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Golden Legend</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Alcobaca Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Canticles of Holy Mary</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ajuda Songbook</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Amadis of Gaul</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Vatican Songbook</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Compostela</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Saint Tirso</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Alphonse King of Portugal</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Birds</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2347,78 +2672,118 @@
     <type>Matter_Byzantine</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Miracles of Saint Demetrius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of the Desert Fathers</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Chludov Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Rabbula Gospel</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Joshua Roll</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Digenes Akritas</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Amouris</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Timarion</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of Quadrupeds</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Souda</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Basil</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of the Wars</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Reign of Justinian</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Madrid Skylitzes</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicon Paschale</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tactica</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Hippiatrica</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Strategikon</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On Ceremony</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Military Expeditions</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Geoponica</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2509,78 +2874,78 @@
     <type>Matter_Fenian</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Patrick</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Columba</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Brigit</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Armagh</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Kells</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Pursuit of Diarmuid and Grainne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Triads of Ireland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Boyhood Deeds of Finn</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Piers Plowman</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of the Four Masters</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Leinster</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Testament of Morand</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Instruction of Cormac</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Instruction of Cuscraid</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2590,78 +2955,73 @@
     <type>Matter_Castile</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Leon</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Cid</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Fernan</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tales of Count Lucanor</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Youths of Rodrigo</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of the Seven Lara Princes</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of Spain</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Alfonso the Emperor</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of the Kings of Castile</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Sahagun</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Knowledge</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2919,78 +3279,98 @@
     <type>Matter_Tuscan</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Apollinaris</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Florence</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Damsel of Scalot</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Attached to my Heart</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of John of Procida</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Hundred Ancient Tales</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Golden Eagle</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Triumphs</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Decameron</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>New Chronicles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Art of Silk</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On Famous Men</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On Religious Leisure</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Guide to the Holy Land</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3000,78 +3380,48 @@
     <type>Matter_Rome</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Golden Legend</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Latin Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Alexander</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Seven Wise Masters</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Decameron</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Rome</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Translation of the Relics of Saints Gold and Silver</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3578,78 +3928,53 @@
     <type>Matter_Aragon</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Miracles worked by Mary</title>
+        <genre>Hagiography</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Roland and Sarraguce</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Celestina</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of the Goths</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Roda</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Muntaner</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Rule of Princes</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3740,78 +4065,183 @@
     <type>Matter_France</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Paris Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Autun Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Tours</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Rouen</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ebbo Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Very Rich Hours of the Duke of Berry</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Garin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Doolin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Guillaume</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Voyage of Charlemagne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Bordeaux</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Auvergne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Raoul of Cambrai</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Antioch</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Jerusalem</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Franks</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Life of Charlemagne</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Aquitaine</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Gentle and Wild Beasts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Nature and Care of Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Instructions for Hunting with Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Hunting with Traps, Snares, and Crossbow</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Judges</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Management of the Palace</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Christian Rulers</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Method of Learning</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Good Wife Guide</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3821,78 +4251,103 @@
     <type>Matter_Norse</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cnut</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of Saint Olaf</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Copenhagen Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ingeborg Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of the Earls of Orkney</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Saga about Certain Ancient Kings</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of the Sons of Ragnar</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Hamoir</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Circle of the World</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Gudrun</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Atli</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Hvessinge Guild Speech</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tremendous Crow</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Moody Men and Malicious Maidens</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danes of the Middle Ages</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Questions about Ancient Art</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Supreme Good</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3902,78 +4357,183 @@
     <type>Matter_France</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Paris Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Autun Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Tours</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Rouen</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ebbo Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Very Rich Hours of the Duke of Berry</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of Roland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Knight with the White Shield</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Four Brethren</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Garin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Doolin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Guillaume</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Voyage of Charlemagne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Bordeaux</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Houn of Auvergne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Raoul of Cambrai</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Antioch</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Jerusalem</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Franks</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Life of Charlemagne</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Annals of Aquitaine</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Gentle and Wild Beasts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Nature and Care of Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Instructions for Hunting with Dogs</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Hunting with Traps, Snares, and Crossbow</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Judges</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Management of the Palace</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On Christian Rulers</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>On the Method of Learning</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Good Wife Guide</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -4089,78 +4649,78 @@
     <type>Matter_Fenian</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Patrick</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Columba</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Brigit</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Armagh</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Kells</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Pursuit of Diarmuid and Grainne</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Triads of Ireland</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Boyhood Deeds of Finn</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Piers Plowman</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of the Four Masters</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Leinster</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Testament of Morand</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Instruction of Cormac</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Instruction of Cuscraid</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -4251,78 +4811,58 @@
     <type>Matter_Portugal</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Golden Legend</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Alcobaca Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Canticles of Holy Mary</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ajuda Songbook</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Amadis of Gaul</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Vatican Songbook</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Compostela</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Saint Tirso</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Alphonse King of Portugal</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Birds</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5191,78 +5731,103 @@
     <type>Matter_Norse</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cnut</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of Saint Olaf</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Copenhagen Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ingeborg Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saga of the Earls of Orkney</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Saga about Certain Ancient Kings</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of the Sons of Ragnar</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Hamoir</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Circle of the World</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Song of Gudrun</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Atli</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Hvessinge Guild Speech</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tremendous Crow</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Moody Men and Malicious Maidens</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danes of the Middle Ages</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Questions about Ancient Art</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Regale Mirror</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Supreme Good</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5419,78 +5984,153 @@
     <type>Matter_Britain</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cuthbert</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Cambridge</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Exeter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Oxford</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Durham Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lindisfarne Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Harley Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Eadwine Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Canterbury Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Legend of King Arthur</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lancelot or the Knight and the Cart</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Yvain or the Knight of the Lion</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Parcival and the Story of the Grail</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Merlin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Gawain and the Green Knight</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Beowulf</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Lay of Havelock the Dane</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Gest of Robyn Hood</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Piers Plowman</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Canterbury Tales</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Madness of Tristan</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Annals of Wales</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ecclesiastical History of the English People</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>History of the Kings of Britain</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Book of Hawking, Hunting, and Blasing of Arms</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Master of Game</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror of the Church</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror of Alchemy</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>

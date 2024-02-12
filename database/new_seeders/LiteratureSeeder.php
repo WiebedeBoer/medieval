@@ -1506,7 +1506,7 @@ class LiteratureSeeder extends Seeder
 		]);
 		DB::table('literatures')->insert([
 			'literature_matter' => 'Questions about Ancient Art',
-			'matter_genre' => 'Chronicle',
+			'matter_genre' => 'Treatise',
 			'matter_religion' => null,
 			'matter_culture' => 'Matter_Norse'
 		]);

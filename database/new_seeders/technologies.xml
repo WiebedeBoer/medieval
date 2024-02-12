@@ -189,7 +189,7 @@
             <historic>false</historic>
             <year>476</year>
             <intro>Way stations in use</intro>
-            <description>Enables trade and merchants and taverns</description>       
+            <description>Enables trade and merchants and taverns and guilds</description>       
         </migration> 
         <merovingian>
             <technology>Ribat</technology> 
