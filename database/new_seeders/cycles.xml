@@ -5398,78 +5398,78 @@
     <type>Matter_Sicily</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Athanasius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Palermo Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Entry to Spain</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Fresh and Very Perfumed Rose</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Attached to my Heart</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Love Has Often Reclaimed Their Mantles</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of the destruction of Troy</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Decameron</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Sicilian Rebellion against King Charles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Art of Hunting with Birds</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Acient Medicine</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Revolutions</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Flowers of Astronomy</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
