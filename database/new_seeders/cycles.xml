@@ -357,17 +357,17 @@
       <book>
         <title>Bible</title>
         <genre>Scriptures</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Miracles worked by Mary</title>
         <genre>Hagiography</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Melisende Psalter</title>
         <genre>Gospel</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Song of Roland and Sarraguce</title>
@@ -411,78 +411,53 @@
     <type>Matter_Armenia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Mashtots</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>History of Rhipsime and Her Companions</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Zeytun Gospel</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Gospel of the Translators</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Daredevils of Sassoon</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Timarion</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of the Armenians</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of Lewond</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Explanations of Armenian Church Offices</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -879,6 +854,11 @@
         <religion>none</religion>
       </book>
       <book>
+        <title>King Rother</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
         <title>Reynard the Fox</title>
         <genre>Satire</genre>
         <religion>none</religion>
@@ -925,78 +905,63 @@
     <type>Matter_Bohemia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Ludmilla</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Wenceslas</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Procopius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Cyril and Methodius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Adalbert</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Psalter of Bonne de Luxembourg</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Legend of Christian</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bohemian Chronicle</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Dalimil</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1162,78 +1127,48 @@
     <type>Matter_Bulgaria</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Cyril and Saint Methodius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Sofia Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Tomic Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Four Gospels of Ivan Alexander</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Timarion</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bulgarian Chronicle</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Sermon of Saint Cosmas Presbyter Against the Heretics</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1397,17 +1332,17 @@
       <book>
         <title>Bible</title>
         <genre>Scriptures</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Miracles worked by Mary</title>
         <genre>Hagiography</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Melisende Psalter</title>
         <genre>Gospel</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Song of Roland and Sarraguce</title>
@@ -1451,78 +1386,48 @@
     <type>Matter_Croat</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Duje</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Anastasius</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Cajnice Gospel</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Gospel of Cividale</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Judita</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Satyrica</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Venice and Graz</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Flower of Battle</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -1607,7 +1512,7 @@
         <religion>none</religion>
       </book>
       <book>
-        <title>Danes of the Middle Ages</title>
+        <title>Deeds of the Danes</title>
         <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
@@ -1628,6 +1533,11 @@
       </book>
       <book>
         <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Code of Jutland</title>
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
@@ -1869,7 +1779,7 @@
         <religion>none</religion>
       </book>
       <book>
-        <title>Danes of the Middle Ages</title>
+        <title>Deeds of the Danes</title>
         <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
@@ -1890,6 +1800,11 @@
       </book>
       <book>
         <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Code of Jutland</title>
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
@@ -2014,6 +1929,11 @@
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
+      <book>
+        <title>Law Code of the Frisians</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
     </literature>
   <cycle>
   <cycle>
@@ -2132,6 +2052,11 @@
       </book>
       <book>
         <title>Questions on Nature</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Law Code of the Frisians</title>
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
@@ -2442,6 +2367,11 @@
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
+      <book>
+        <title>Law Code of the Frisians</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
     </literature>
   <cycle>
   <cycle>
@@ -2591,78 +2521,63 @@
     <type>Matter_Georgia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Georgian Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Knight in the Panther Skin</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Thou Art a Vineyard</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Barlaam and Josaphat</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Timarion</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Conversion of Kartli</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Divan of the Abkhazian Kings</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Georgian Chronicles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Regulations of the Royal Court</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>On the beloved Georgian spiritual fathers and brothers</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -2713,6 +2628,11 @@
       </book>
       <book>
         <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Barlaam and Josaphat</title>
         <genre>Epic</genre>
         <religion>none</religion>
       </book>
@@ -2793,78 +2713,48 @@
     <type>Matter_Magyar</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Esztergom Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of Songs</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Satyrica</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of King Stephen of Hungary</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>History of Hungary</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Admonitions</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Mirror of Music</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3031,78 +2921,43 @@
     <type>Matter_Baltic</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Nibelungs</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ysengrimus</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Livonian Chronicle of Henry</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danish Census Book</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Letters of Gediminas</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3112,78 +2967,43 @@
     <type>Matter_Baltic</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Nibelungs</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ysengrimus</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Livonian Chronicle of Henry</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danish Census Book</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Letters of Gediminas</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3492,78 +3312,53 @@
     <type>Matter_Polish</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Hedwiga</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Salomea</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Kinga</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saint Florian Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On Lazy Peasants</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Deeds of the Princes of the Poles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Greater Poland</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>On Hunting and Fishing</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3573,78 +3368,33 @@
     <type>Matter_Mongolia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Praise of Mahakala</title>
+        <genre>Gospel</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Alexander</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Secret History of the Mongols</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Compendium of Chronicles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Campaigns of Genghis Khan</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Golden Summary of the Principles of Statecraft</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3847,78 +3597,63 @@
     <type>Matter_Bohemia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Ludmilla</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Wenceslas</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Procopius</title>
+        <genre>Hagiography</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Cyril and Methodius</title>
+        <genre>Hagiography</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Saint Adalbert</title>
+        <genre>Hagiography</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Psalter of Bonne de Luxembourg</title>
+        <genre>Gospel</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Legend of Christian</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Reynard the Fox</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bohemian Chronicle</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Dalimil</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Secrets</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -3930,17 +3665,17 @@
       <book>
         <title>Bible</title>
         <genre>Scriptures</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Miracles worked by Mary</title>
         <genre>Hagiography</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Melisende Psalter</title>
         <genre>Gospel</genre>
-        <religion>none</religion>
+        <religion>Christian</religion>
       </book>
       <book>
         <title>Song of Roland and Sarraguce</title>
@@ -3984,78 +3719,48 @@
     <type>Matter_Napels</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Felix</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Naples</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Fresh and Very Perfumed Rose</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Attached to my Heart</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Decameron</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Bari</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Art of Hunting with Birds</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -4326,7 +4031,7 @@
         <religion>none</religion>
       </book>
       <book>
-        <title>Danes of the Middle Ages</title>
+        <title>Deeds of the Danes</title>
         <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
@@ -4347,6 +4052,11 @@
       </book>
       <book>
         <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Code of Jutland</title>
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
@@ -4730,78 +4440,53 @@
     <type>Matter_Polish</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Hedwiga</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Salomea</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Kinga</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saint Florian Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On Lazy Peasants</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Deeds of the Princes of the Poles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Greater Poland</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>On Hunting and Fishing</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -4872,78 +4557,43 @@
     <type>Matter_Baltic</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Nibelungs</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ysengrimus</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Livonian Chronicle of Henry</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danish Census Book</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Letters of Gediminas</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -4953,78 +4603,73 @@
     <type>Matter_Kiev</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Great Menaion Reader</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Kiev Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ilya of Murom</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Sadko the Merchant</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Nikita the Tanner</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Nightingale the Robber</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of the Campaign of Igor</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Oration of Daniel the Exile</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of Bygone Years</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Nestor</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Dynastic Chronicle of the Romanovichi</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Novgorod</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Calculus of Time</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5034,78 +4679,73 @@
     <type>Matter_Kiev</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Great Menaion Reader</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Kiev Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Ilya of Murom</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Sadko the Merchant</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Nikita the Tanner</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Nightingale the Robber</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of the Campaign of Igor</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Oration of Daniel the Exile</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Tale of Bygone Years</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Nestor</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Dynastic Chronicle of the Romanovichi</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Novgorod</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>On the Calculus of Time</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5115,78 +4755,53 @@
     <type>Matter_Sardinia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Senzius of Blera</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Decameron</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Saint Peter of Silki</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Saint Nicola of Trullas</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Book of Saint Mary of Bonarcado</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Art of Hunting with Birds</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5310,6 +4925,11 @@
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
+      <book>
+        <title>Law Code of the Frisians</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
     </literature>
   <cycle>
   <cycle>
@@ -5317,78 +4937,58 @@
     <type>Matter_Serbia</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Sava</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Miroslav Gospel</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Vukan Gospel</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Prince Marko</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Praise to Prince Lazar</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Maiden of Kosovo</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Milan from Toplica</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Satyrica</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Stefan Nemanja</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Law on Mines</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5479,78 +5079,53 @@
     <type>Matter_Polish</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Hedwiga</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Salomea</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Saint Kinga</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Saint Florian Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>On Lazy Peasants</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Deeds of the Princes of the Poles</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Chronicle of Greater Poland</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>On Hunting and Fishing</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -5685,6 +5260,11 @@
         <religion>none</religion>
       </book>
       <book>
+        <title>King Rother</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
         <title>Reynard the Fox</title>
         <genre>Satire</genre>
         <religion>none</religion>
@@ -5806,7 +5386,7 @@
         <religion>none</religion>
       </book>
       <book>
-        <title>Danes of the Middle Ages</title>
+        <title>Deeds of the Danes</title>
         <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
@@ -5827,6 +5407,11 @@
       </book>
       <book>
         <title>Little Book of Culinary Arts</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Code of Jutland</title>
         <genre>Treatise</genre>
         <religion>none</religion>
       </book>
@@ -5903,78 +5488,43 @@
     <type>Matter_Vlach</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Gospel of Horezu</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Barlaam and Josaphat</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Life of Alexander</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Satyrica</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Deeds of the Hungarians</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Sermon of Saint Cosmas Presbyter Against the Heretics</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
@@ -6140,78 +5690,43 @@
     <type>Matter_Baltic</type>
     <literature>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Lives of Saints</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Melisende Psalter</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Song of the Nibelungs</title>
+        <genre>Epic</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Ysengrimus</title>
+        <genre>Satire</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Livonian Chronicle of Henry</title>
+        <genre>Chronicle</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
+        <title>Danish Census Book</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
       <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
-        <religion>none</religion>
-      </book>
-      <book>
-        <title></title>
-        <genre></genre>
+        <title>Letters of Gediminas</title>
+        <genre>Treatise</genre>
         <religion>none</religion>
       </book>
     </literature>
