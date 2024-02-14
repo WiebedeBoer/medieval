@@ -5,6 +5,7 @@
     <master>Steward</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Open Field System</technology> 
             <historic>false</historic>
             <year>642</year>
@@ -12,6 +13,7 @@
             <description>Enables farms and settlers and manorial court and two field system</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Hop Garden</technology> 
             <historic>false</historic>
             <year>736</year>
@@ -19,6 +21,7 @@
             <description>Enables hop cultivation</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Three Field System</technology>
             <historic>false</historic>
             <year>765</year>
@@ -26,6 +29,7 @@
             <description>Halves waste land</description>        
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Urbarium</technology> 
             <historic>false</historic>
             <year>828</year>
@@ -33,6 +37,7 @@
             <description>Register of fiefs</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Agronomics</technology>
             <historic>false</historic>
             <year>950</year>
@@ -40,6 +45,7 @@
             <description>Enables construction of cortijo and granges and improves agricultural yield of corvee</description>   
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Palas</technology> 
             <historic>false</historic>
             <year>1043</year>
@@ -47,6 +53,7 @@
             <description>Enables great halls and expands palatial construction</description> 
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Basket Press</technology>
             <historic>false</historic>
             <year>1098</year>
@@ -54,6 +61,7 @@
             <description>Increases wine yield from corvee</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Chimney</technology> 
             <historic>false</historic>
             <year>1184</year>
@@ -61,6 +69,7 @@
             <description>Enables upstairs rooms such as solars</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Parlor</technology> 
             <historic>false</historic>
             <year>1237</year>
@@ -68,6 +77,7 @@
             <description>Enables parlour rooms and expands diplomatic actions available</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Custumal</technology>  
             <historic>false</historic>
             <year>1295</year>
@@ -75,6 +85,7 @@
             <description>Enables custumal and expands legal actions and tenures available</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Land Terrier</technology>
             <historic>false</historic>
             <year>1412</year>
@@ -82,6 +93,7 @@
             <description>Internal register</description>   
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Renaissance Viticulture</technology> 
             <historic>false</historic>
             <year>1435</year>
@@ -95,6 +107,7 @@
     <master>Steward</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Ship Mill</technology> 
             <historic>false</historic>
             <year>537</year>
@@ -102,6 +115,7 @@
             <description>Enables watermill</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Panemone Mill</technology>
             <historic>false</historic>
             <year>730</year>
@@ -109,6 +123,7 @@
             <description>Enables windmill</description>         
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Geared Gristmill</technology>  
             <historic>false</historic>
             <year>780</year>
@@ -116,6 +131,7 @@
             <description>Improves milling of cereals</description>     
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Distillation</technology> 
             <historic>false</historic>
             <year>873</year>
@@ -123,6 +139,7 @@
             <description>Enables perfume</description>   
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Catalan Forge</technology>  
             <historic>false</historic>
             <year>920</year>
@@ -130,6 +147,7 @@
             <description>Improves iron yield from mines and improves blades production</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Post Mill</technology>
             <historic>false</historic>
             <year>1001</year>
@@ -137,6 +155,7 @@
             <description>Improves yield from windmill</description>    
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Blast Furnace</technology> 
             <historic>false</historic>
             <year>1118</year>
@@ -144,6 +163,7 @@
             <description>Improves iron yield from mines</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Major Guilds</technology> 
             <historic>false</historic>
             <year>1156</year>
@@ -151,6 +171,7 @@
             <description>Expands available craft guilds</description>   
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Lesser Guilds</technology> 
             <historic>false</historic>
             <year>1246</year>
@@ -158,6 +179,7 @@
             <description>Expands available craft guilds</description>   
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Paper Mill</technology>
             <historic>false</historic>
             <year>1282</year>
@@ -165,6 +187,7 @@
             <description>Enables paper and cheapens book production</description>  
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Maiolica</technology> 
             <historic>false</historic>
             <year>1375</year>
@@ -172,6 +195,7 @@
             <description>Improves luxury from ceramics</description>   
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Oil on Canvas</technology> 
             <historic>false</historic>
             <year>1432</year>
@@ -185,6 +209,7 @@
     <master>Steward</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Mansio</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -192,6 +217,7 @@
             <description>Enables trade and merchants and taverns and guilds</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Ribat</technology> 
             <historic>false</historic>
             <year>739</year>
@@ -199,6 +225,7 @@
             <description>Improves hostels and fortifications</description>      
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Caravanserai</technology>  
             <historic>false</historic>
             <year>757</year>
@@ -206,6 +233,7 @@
             <description>Enables roadside inns and sugar plantations</description>       
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Horse Collar</technology>
             <historic>false</historic>
             <year>800</year>
@@ -213,6 +241,7 @@
             <description>Improves agricultural yield and enables wagons</description>  
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Early Medieval Commune</technology> 
             <historic>false</historic>
             <year>965</year>
@@ -220,6 +249,7 @@
             <description>Enables mayor and expands available borough actions</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Ghorfa</technology>  
             <historic>false</historic>
             <year>990</year>
@@ -227,6 +257,7 @@
             <description>Expands granaries construction</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Factory</technology> 
             <historic>false</historic>
             <year>1080</year>
@@ -234,6 +265,7 @@
             <description>Enables trade kontor</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Charter Rolls</technology>
             <historic>false</historic>
             <year>1199</year>
@@ -241,6 +273,7 @@
             <description>Enables charters for communities and guilds and corporations and fairs</description>   
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>High Medieval Commune</technology>
             <historic>false</historic>
             <year>1254</year>
@@ -248,6 +281,7 @@
             <description>Expands available borough actions and improves borough actions</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Mesta</technology> 
             <historic>false</historic>
             <year>1347</year>
@@ -255,6 +289,7 @@
             <description>Improves wool trade</description>  
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Late Medieval Commune</technology>
             <historic>false</historic>
             <year>1378</year>
@@ -262,6 +297,7 @@
             <description>Expands available borough actions and improves borough actions</description>   
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Stagecoach</technology> 
             <historic>false</historic>
             <year>1421</year>
@@ -275,6 +311,7 @@
     <master>Chancellor</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Philosophy</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -282,6 +319,7 @@
             <description>Enables science and academies</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Lay Investiture</technology>
             <historic>false</historic>
             <year>735</year>
@@ -289,6 +327,7 @@
             <description>Enables lay investiture</description>        
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Chancery</technology> 
             <historic>false</historic>
             <year>782</year>
@@ -296,6 +335,7 @@
             <description>Enables chancery office</description>  
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Algebra</technology> 
             <historic>false</historic>
             <year>833</year>
@@ -303,6 +343,7 @@
             <description>Improves science yield</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Scholae</technology>
             <historic>false</historic>
             <year>978</year>
@@ -310,6 +351,7 @@
             <description>Enables cathedral school and monastic school</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Early Scholasticism</technology> 
             <historic>false</historic>
             <year>1063</year>
@@ -317,6 +359,7 @@
             <description>Improves science yield</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Studium Generale</technology> 
             <historic>false</historic>
             <year>1088</year>
@@ -324,6 +367,7 @@
             <description>Enables university</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Studium Liberalia</technology> 
             <historic>false</historic>
             <year>1185</year>
@@ -331,6 +375,7 @@
             <description>Improves science yield</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>High Scholasticism</technology> 
             <historic>false</historic>
             <year>1265</year>
@@ -338,6 +383,7 @@
             <description>Improves science yield</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Studium Humanitas</technology> 
             <historic>false</historic>
             <year>1309</year>
@@ -345,6 +391,7 @@
             <description>Improves science yield</description>
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Renaissance Scholasticism</technology> 
             <historic>false</historic>
             <year>1419</year>
@@ -352,6 +399,7 @@
             <description>Improves science yield</description>
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Conciliarism</technology> 
             <historic>false</historic>
             <year>1431</year>
@@ -365,6 +413,7 @@
     <master>Treasurer</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Dinar</technology> 
             <historic>false</historic>
             <year>696</year>
@@ -372,6 +421,7 @@
             <description>Enables taxes</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Fisc</technology>  
             <historic>false</historic>
             <year>740</year>
@@ -379,6 +429,7 @@
             <description>Improves tax yield</description>    
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Mancus</technology>  
             <historic>false</historic>
             <year>781</year>
@@ -386,6 +437,7 @@
             <description>Improves tax yield</description>       
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Danegeld</technology>  
             <historic>false</historic>
             <year>810</year>
@@ -393,6 +445,7 @@
             <description>Improves tax yield</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Imperial Administration</technology> 
             <historic>false</historic>
             <year>952</year>
@@ -400,6 +453,7 @@
             <description>Improves tax yield</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Pancartes</technology> 
             <historic>false</historic>
             <year>996</year>
@@ -407,6 +461,7 @@
             <description>Enables cartulary</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Great Survey</technology> 
             <historic>false</historic>
             <year>1086</year>
@@ -414,6 +469,7 @@
             <description>Improves tax yield</description>
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Merchant Bank</technology>
             <historic>false</historic>
             <year>1216</year>
@@ -421,6 +477,7 @@
             <description>Expands trade actions and improves fairs effect</description>  
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Anchor Currency</technology>
             <historic>false</historic>
             <year>1252</year>
@@ -428,6 +485,7 @@
             <description>Expands trade actions and improves fairs effect</description>    
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Ledger Bookkeeping</technology> 
             <historic>false</historic>
             <year>1299</year>
@@ -435,6 +493,7 @@
             <description>Improves tax yield</description>
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Gabelle</technology>  
             <historic>false</historic>
             <year>1365</year>
@@ -442,6 +501,7 @@
             <description>Improves tax yield</description> 
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Mercantilism</technology> 
             <historic>false</historic>
             <year>1422</year>
@@ -455,6 +515,7 @@
     <master>Chamberlain</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Byzantine Silk</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -462,6 +523,7 @@
             <description>Enables silk manufacturing and fabrics</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Samite Fabric</technology> 
             <historic>false</historic>
             <year>733</year>
@@ -469,6 +531,7 @@
             <description>Improves luxury yield of fabric</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Damask Fabric</technology> 
             <historic>false</historic>
             <year>775</year>
@@ -476,6 +539,7 @@
             <description>Improves luxury yield of fabric</description>      
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Velvet Fabric</technology> 
             <historic>false</historic>
             <year>822</year>
@@ -483,6 +547,7 @@
             <description>Improves luxury yield of fabric</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Horizontal Loom</technology> 
             <historic>false</historic>
             <year>980</year>
@@ -490,6 +555,7 @@
             <description>Improves yield of fabric</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Spinning Wheel</technology> 
             <historic>false</historic>
             <year>1032</year>
@@ -497,6 +563,7 @@
             <description>Improves yield of wool and cotton</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Tuscan Silk</technology>  
             <historic>false</historic>
             <year>1057</year>
@@ -504,6 +571,7 @@
             <description>Improves yield of silk</description>
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Surcoat</technology>  
             <historic>false</historic>
             <year>1225</year>
@@ -511,6 +579,7 @@
             <description>Improves yield of fabric</description>
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Baldachin</technology>  
             <historic>false</historic>
             <year>1247</year>
@@ -518,6 +587,7 @@
             <description>Improves luxury yield of fabric</description>
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Tabard</technology> 
             <historic>false</historic>
             <year>1300</year>
@@ -525,6 +595,7 @@
             <description>Improves luxury yield of fabric and enables tabard</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Tapestry</technology> 
             <historic>false</historic>
             <year>1399</year>
@@ -532,6 +603,7 @@
             <description>Improves luxury yield of tapestry</description>
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Cassone</technology> 
             <historic>false</historic>
             <year>1442</year>
@@ -545,6 +617,7 @@
     <master>Constable</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Banality</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -552,6 +625,7 @@
             <description>Enables levies and feudal tenures and banalities</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Fealty</technology>  
             <historic>false</historic>
             <year>743</year>
@@ -559,6 +633,7 @@
             <description>Expands feudal tenures</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Capitulary</technology> 
             <historic>false</historic>
             <year>779</year>
@@ -566,6 +641,7 @@
             <description>Enables capitularies</description>          
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>March</technology> 
             <historic>false</historic>
             <year>795</year>
@@ -573,6 +649,7 @@
             <description>Enables march land unit</description>  
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Hoftag</technology> 
             <historic>true</historic>
             <year>919</year>
@@ -580,6 +657,7 @@
             <description>Expands court actions</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Castellany</technology>  
             <historic>false</historic>
             <year>1031</year>
@@ -587,6 +665,7 @@
             <description>Enables castellany land unit and enables hoarding architecture</description> 
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Heraldry</technology> 
             <historic>false</historic>
             <year>1067</year>
@@ -594,6 +673,7 @@
             <description>Enables heraldic devices and herald settlers</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Great Council</technology> 
             <historic>false</historic>
             <year>1162</year>
@@ -601,6 +681,7 @@
             <description>Enables a great council</description>  
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Bailiwick</technology>  
             <historic>false</historic>
             <year>1260</year>
@@ -608,6 +689,7 @@
             <description>Enables bailiwick land unit</description>  
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Province</technology>  
             <historic>false</historic>
             <year>1331</year>
@@ -615,6 +697,7 @@
             <description>Enables province land unit</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Fellowship</technology>  
             <historic>false</historic>
             <year>1393</year>
@@ -622,6 +705,7 @@
             <description>Enables contracts between states</description>   
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Lieutenancy</technology>  
             <historic>false</historic>
             <year>1433</year>
@@ -635,6 +719,7 @@
     <master>Constable</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Stirrup</technology> 
             <historic>false</historic>
             <year>575</year>
@@ -642,6 +727,7 @@
             <description>Enables cavalry units</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Early Pedigree</technology>  
             <historic>false</historic>
             <year>732</year>
@@ -649,6 +735,7 @@
             <description>Improves horse breeding</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Knighthood</technology>
             <historic>false</historic>
             <year>756</year>
@@ -656,6 +743,7 @@
             <description>Enables knight and paladin</description>      
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Horseshoe</technology> 
             <historic>false</historic>
             <year>910</year>
@@ -663,6 +751,7 @@
             <description>Improves cavalry charge</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Chevauchee</technology> 
             <historic>false</historic>
             <year>985</year>
@@ -670,6 +759,7 @@
             <description>Enables chevauchee action</description>
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Seljuk Sabre</technology> 
             <historic>false</historic>
             <year>1038</year>
@@ -677,6 +767,7 @@
             <description>Improves cavalry charge and improves turkic sword cavalry</description> 
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Turcopole</technology> 
             <historic>false</historic>
             <year>1099</year>
@@ -684,6 +775,7 @@
             <description>Enables turcopole unit recruitment</description>
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Chivalry</technology> 
             <historic>false</historic>
             <year>1179</year>
@@ -691,6 +783,7 @@
             <description>Enables chivalric guild and enables muntator</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Hobelar</technology> 
             <historic>false</historic>
             <year>1276</year>
@@ -698,6 +791,7 @@
             <description>Improves light cavalry charge</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Late Pedigree</technology> 
             <historic>false</historic>
             <year>1330</year>
@@ -705,6 +799,7 @@
             <description>Improves horse breeding</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Rowel Spurs</technology> 
             <historic>false</historic>
             <year>1390</year>
@@ -712,6 +807,7 @@
             <description>Improves cavalry charge</description>
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Gendarme</technology> 
             <historic>false</historic>
             <year>1439</year>
@@ -725,6 +821,7 @@
     <master>Chamberlain</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Lamellenhelm</technology> 
             <historic>false</historic>
             <year>568</year>
@@ -732,6 +829,7 @@
             <description>Enables head armor</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Merovingian Spangenhelm</technology>
             <historic>false</historic>
             <year>750</year>
@@ -739,6 +837,7 @@
             <description>Improves head armor</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Carolingian Spangenhelm</technology> 
             <historic>false</historic>
             <year>772</year>
@@ -746,6 +845,7 @@
             <description>Improves head armor</description>       
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Nasal Helm</technology> 
             <historic>false</historic>
             <year>862</year>
@@ -753,6 +853,7 @@
             <description>Improves head armor</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Yarm Helm</technology> 
             <historic>false</historic>
             <year>970</year>
@@ -760,6 +861,7 @@
             <description>Improves head armor</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Vendel Helm</technology> 
             <historic>false</historic>
             <year>1019</year>
@@ -767,6 +869,7 @@
             <description>Improves head armor</description> 
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Kettle Hat</technology> 
             <historic>false</historic>
             <year>1105</year>
@@ -774,6 +877,7 @@
             <description>Improves head armor</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Enclosed Helm</technology> 
             <historic>false</historic>
             <year>1181</year>
@@ -781,13 +885,15 @@
             <description>Improves head armor</description> 
         </gothic>
         <rayonnant>
-            <technology>Great Helm</technology> 
+			<science>9</science>
+            <technology>Heaume</technology> 
             <historic>true</historic>
             <year>1236</year>
             <intro>Ferdinand III the Saint besieges Cordoba</intro> 
             <description>Improves head armor</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Bascinet</technology> 
             <historic>false</historic>
             <year>1281</year>
@@ -795,6 +901,7 @@
             <description>Improves head armor</description>  
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Sallet</technology> 
             <historic>false</historic>
             <year>1407</year>
@@ -802,6 +909,7 @@
             <description>Improves head armor</description> 
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Armet</technology> 
             <historic>false</historic>
             <year>1424</year>
@@ -815,6 +923,7 @@
     <master>Chamberlain</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Maille</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -822,6 +931,7 @@
             <description>Enables body armor</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Merovingian Hauberk</technology> 
             <historic>false</historic>
             <year>738</year>
@@ -829,6 +939,7 @@
             <description>Improves body armor</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Carolingian Hauberk</technology>  
             <historic>false</historic>
             <year>786</year>
@@ -836,6 +947,7 @@
             <description>Improves body armor</description>     
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Viking Hauberk</technology> 
             <historic>false</historic>
             <year>794</year>
@@ -843,6 +955,7 @@
             <description>Improves body armor</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Ottonian Hauberk</technology> 
             <historic>false</historic>
             <year>937</year>
@@ -850,6 +963,7 @@
             <description>Improves body armor</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Chausses</technology> 
             <historic>false</historic>
             <year>1020</year>
@@ -857,6 +971,7 @@
             <description>Improves body armor</description> 
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Jazerant</technology> 
             <historic>false</historic>
             <year>1090</year>
@@ -864,6 +979,7 @@
             <description>Improves body armor</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Coat of Plates</technology> 
             <historic>false</historic>
             <year>1190</year>
@@ -871,6 +987,7 @@
             <description>Improves body armor</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Brigandine</technology> 
             <historic>false</historic>
             <year>1242</year>
@@ -878,6 +995,7 @@
             <description>Improves body armor</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Breastplates</technology> 
             <historic>false</historic>
             <year>1340</year>
@@ -885,6 +1003,7 @@
             <description>Improves body armor</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Faulds</technology> 
             <historic>false</historic>
             <year>1371</year>
@@ -892,6 +1011,7 @@
             <description>Improves body armor</description>  
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Plate Armor</technology> 
             <historic>false</historic>
             <year>1425</year>
@@ -905,6 +1025,7 @@
     <master>Marshall</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Spatha</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -912,6 +1033,7 @@
             <description>Enables blades units</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Vendel Sword</technology>  
             <historic>false</historic>
             <year>734</year>
@@ -919,6 +1041,7 @@
             <description>Improves sword melee</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Carolingian Sword</technology>  
             <historic>false</historic>
             <year>769</year>
@@ -926,6 +1049,7 @@
             <description>Improves sword melee</description>      
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Tactics</technology> 
             <historic>false</historic>
             <year>908</year>
@@ -933,6 +1057,7 @@
             <description>Expands tactial actions such as shield wall and flying wedge</description>  
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Damask Steel</technology>  
             <historic>false</historic>
             <year>930</year>
@@ -940,6 +1065,7 @@
             <description>Improves blades strength</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Knightly Sword</technology> 
             <historic>false</historic>
             <year>993</year>
@@ -947,6 +1073,7 @@
             <description>Improves sword melee</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Arming Sword</technology> 
             <historic>true</historic>
             <year>1066</year>
@@ -954,6 +1081,7 @@
             <description>Improves sword melee</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Knightly Dagger</technology> 
             <historic>false</historic>
             <year>1152</year>
@@ -961,6 +1089,7 @@
             <description>Increases assassination changes</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Longsword</technology> 
             <historic>false</historic>
             <year>1266</year>
@@ -968,6 +1097,7 @@
             <description>Improves sword melee</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Fencing Books</technology> 
             <historic>false</historic>
             <year>1320</year>
@@ -975,6 +1105,7 @@
             <description>Improves sword melee</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Claymore</technology> 
             <historic>false</historic>
             <year>1402</year>
@@ -982,6 +1113,7 @@
             <description>Improves sword melee</description>  
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Great Sword</technology> 
             <historic>false</historic>
             <year>1429</year>
@@ -995,6 +1127,7 @@
     <master>Marshall</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Spear</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -1002,6 +1135,7 @@
             <description>Enables polearm units</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Bill</technology> 
             <historic>false</historic>
             <year>725</year>
@@ -1009,6 +1143,7 @@
             <description>Improves polearms melee</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Winged Lance</technology>   
             <historic>false</historic>
             <year>760</year>
@@ -1016,6 +1151,7 @@
             <description>Improves polearms melee</description>    
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Hafted Axe</technology> 
             <historic>true</historic>
             <year>793</year>
@@ -1023,6 +1159,7 @@
             <description>Improves bludgeon melee</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Menaulon</technology> 
             <historic>false</historic>
             <year>960</year>
@@ -1030,6 +1167,7 @@
             <description>Improves polearms melee</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Bill Guisarme</technology>
             <historic>false</historic>
             <year>992</year>
@@ -1037,6 +1175,7 @@
             <description>Improves polearms melee</description>   
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Fauchard</technology> 
             <historic>false</historic>
             <year>1068</year>
@@ -1044,6 +1183,7 @@
             <description>Improves polearms melee</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Routier</technology> 
             <historic>false</historic>
             <year>1166</year>
@@ -1051,6 +1191,7 @@
             <description>Expands available mercernaries</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Bardiche</technology> 
             <historic>false</historic>
             <year>1256</year>
@@ -1058,6 +1199,7 @@
             <description>Improves polearms melee</description>  
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Halberd</technology> 
             <historic>false</historic>
             <year>1302</year>
@@ -1065,6 +1207,7 @@
             <description>Improves polearms melee</description>  
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Poleaxe</technology> 
             <historic>false</historic>
             <year>1410</year>
@@ -1072,6 +1215,7 @@
             <description>Improves polearms melee</description>  
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Voulge Guisarme</technology> 
             <historic>false</historic>
             <year>1449</year>
@@ -1085,6 +1229,7 @@
     <master>Marshall</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Angon</technology> 
             <historic>false</historic>
             <year>554</year>
@@ -1092,6 +1237,7 @@
             <description>Enables skirmishers and archers</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Grenade</technology>   
             <historic>false</historic>
             <year>744</year>
@@ -1099,6 +1245,7 @@
             <description>Improves skirmish effect</description>    
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Staff Sling</technology> 
             <historic>false</historic>
             <year>773</year>
@@ -1106,6 +1253,7 @@
             <description>Improves skirmish effect</description>       
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Naffatin</technology> 
             <historic>false</historic>
             <year>837</year>
@@ -1113,6 +1261,7 @@
             <description>Enables fire archer actions</description>  
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Crossbow</technology> 
             <historic>false</historic>
             <year>947</year>
@@ -1120,6 +1269,7 @@
             <description>Enables crossbow unit recruitment</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Seljuk Bow</technology> 
             <historic>false</historic>
             <year>1040</year>
@@ -1127,6 +1277,7 @@
             <description>Improves skirmish for composite bow</description>
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Arbalest</technology> 
             <historic>false</historic>
             <year>1113</year>
@@ -1134,6 +1285,7 @@
             <description>Expands crossbow unit recruitment</description>
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Mongol Bow</technology> 
             <historic>false</historic>
             <year>1226</year>
@@ -1141,6 +1293,7 @@
             <description>Improves skirmish for composite bow</description>
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Longbow</technology> 
             <historic>false</historic>
             <year>1263</year>
@@ -1148,6 +1301,7 @@
             <description>Expands longbow unit recruitment</description>
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Pavise</technology> 
             <historic>false</historic>
             <year>1284</year>
@@ -1155,6 +1309,7 @@
             <description>Expands crossbow unit recruitment</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Culverin</technology>
             <historic>false</historic>
             <year>1394</year>
@@ -1162,6 +1317,7 @@
             <description>Enables matchlock unit recruitment</description>
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Arquebus</technology>
             <historic>false</historic>
             <year>1441</year>
@@ -1175,6 +1331,7 @@
     <master>Admiral</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Emporium</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -1182,6 +1339,7 @@
             <description>Enables trade emporium and dockyard and ships</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Lapstrake</technology> 
             <historic>false</historic>
             <year>753</year>
@@ -1189,6 +1347,7 @@
             <description>Improves sailing and expands ship types</description>      
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Portage</technology> 
             <historic>false</historic>
             <year>770</year>
@@ -1196,6 +1355,7 @@
             <description>Enables fur trade</description>    
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Staple Right</technology> 
             <historic>false</historic>
             <year>805</year>
@@ -1203,6 +1363,7 @@
             <description>Improves sea trade yield</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Byzantine Lateen Rig</technology> 
             <historic>false</historic>
             <year>941</year>
@@ -1210,6 +1371,7 @@
             <description>Improves sailing and expands ship types</description> 
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Frisian River Toll</technology> 
             <historic>false</historic>
             <year>1018</year>
@@ -1217,6 +1379,7 @@
             <description>Increases trade toll yields</description> 
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Franconian River Toll</technology> 
             <historic>false</historic>
             <year>1130</year>
@@ -1224,6 +1387,7 @@
             <description>Increases trade toll yields</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Sternpost Rudder</technology> 
             <historic>false</historic>
             <year>1160</year>
@@ -1231,6 +1395,7 @@
             <description>Improves sailing and expands ship types</description>
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Portolan Chart</technology> 
             <historic>false</historic>
             <year>1275</year>
@@ -1238,6 +1403,7 @@
             <description>Improves sailing and expands ship types</description>
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Portuguese Lateen Rig</technology> 
             <historic>false</historic>
             <year>1307</year>
@@ -1245,6 +1411,7 @@
             <description>Improves sailing and expands ship types</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Full Rig</technology> 
             <historic>false</historic>
             <year>1418</year>
@@ -1252,6 +1419,7 @@
             <description>Improves sailing and expands ship types</description>
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Navigation</technology> 
             <historic>false</historic>
             <year>1427</year>
@@ -1265,6 +1433,7 @@
     <master>Master of the Revels</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Lute</technology> 
             <historic>false</historic>
             <year>711</year>
@@ -1272,6 +1441,7 @@
             <description>Enables minstrels and feasts and revelry</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Gregorian Chant</technology>  
             <historic>false</historic>
             <year>752</year>
@@ -1279,6 +1449,7 @@
             <description>Improves revelry from feasts</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Lyric Poetry</technology>  
             <historic>false</historic>
             <year>778</year>
@@ -1286,6 +1457,7 @@
             <description>Improves revelry from feasts and improves minstrels effects</description>      
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Trope</technology>  
             <historic>false</historic>
             <year>850</year>
@@ -1293,6 +1465,7 @@
             <description>Improves revelry from feasts</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Anthology</technology>  
             <historic>false</historic>
             <year>944</year>
@@ -1300,6 +1473,7 @@
             <description>Improves revelry from feasts</description>
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Courtly Love</technology> 
             <historic>false</historic>
             <year>1028</year>
@@ -1307,6 +1481,7 @@
             <description>Improves revelry from feasts and revelry from troubadours</description>
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Latin Sequence</technology>  
             <historic>false</historic>
             <year>1115</year>
@@ -1314,6 +1489,7 @@
             <description>Improves revelry from feasts</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Morality Play</technology> 
             <historic>false</historic>
             <year>1151</year>
@@ -1321,6 +1497,7 @@
             <description>Improves revelry from feasts</description>
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Fables</technology> 
             <historic>false</historic>
             <year>1250</year>
@@ -1328,6 +1505,7 @@
             <description>Improves revelry from feasts</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Table Games</technology> 
             <historic>false</historic>
             <year>1283</year>
@@ -1335,6 +1513,7 @@
             <description>Improves revelry from feasts</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Rondeau</technology> 
             <historic>false</historic>
             <year>1387</year>
@@ -1342,6 +1521,7 @@
             <description>Improves revelry from feasts</description>
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Chamber of Rhetoric</technology>
             <historic>false</historic>
             <year>1428</year>
@@ -1355,6 +1535,7 @@
     <master>Master of the Revels</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Horse Excercises</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -1362,6 +1543,7 @@
             <description>Enables tournaments and hunts and fairs</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Falconry</technology> 
             <historic>false</historic>
             <year>748</year>
@@ -1369,6 +1551,7 @@
             <description>Improves falconry</description>     
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Coronation Banquet</technology> 
             <historic>true</historic>
             <year>754</year>
@@ -1376,6 +1559,7 @@
             <description>Enables banquets and high table</description>      
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Tourney</technology> 
             <historic>false</historic>
             <year>843</year>
@@ -1383,6 +1567,7 @@
             <description>Expands jousts</description>
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Ceremony</technology> 
             <historic>false</historic>
             <year>959</year>
@@ -1390,6 +1575,7 @@
             <description>Improves revelry from feasts</description>
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Romanesque Fairs</technology> 
             <historic>false</historic>
             <year>1035</year>
@@ -1397,6 +1583,7 @@
             <description>Improves revelry from fairs and expands fairs actions</description>
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Troubadours</technology> 
             <historic>false</historic>
             <year>1101</year>
@@ -1404,6 +1591,7 @@
             <description>Upgrades minstrels to troubadours</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Gothic Fairs</technology>
             <historic>false</historic>
             <year>1180</year>
@@ -1411,6 +1599,7 @@
             <description>Improves revelry from fairs and expands fairs actions</description>  
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Joust</technology> 
             <historic>false</historic>
             <year>1272</year>
@@ -1418,6 +1607,7 @@
             <description>Improves revelry from jousts and expands joust actions</description>
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Hastilude</technology> 
             <historic>false</historic>
             <year>1325</year>
@@ -1425,6 +1615,7 @@
             <description>Improves revelry from jousts and expands joust actions</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Saltarello</technology> 
             <historic>true</historic>
             <year>1364</year>
@@ -1432,6 +1623,7 @@
             <description>Improves revelry from feasts</description> 
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Sumptious Feast</technology>  
             <historic>false</historic>
             <year>1430</year>
@@ -1445,6 +1637,7 @@
     <master>Castellan</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Byzantine Enceinte</technology> 
             <historic>false</historic>
             <year>476</year>
@@ -1452,6 +1645,7 @@
             <description>Enables fortifications</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Tower House</technology> 
             <historic>false</historic>
             <year>724</year>
@@ -1459,6 +1653,7 @@
             <description>Expands castle construction</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Saracen Enceinte</technology>
             <historic>false</historic>
             <year>759</year>
@@ -1466,6 +1661,7 @@
             <description>Expands walls construction</description>         
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Motte Castle</technology> 
             <historic>false</historic>
             <year>861</year>
@@ -1473,6 +1669,7 @@
             <description>Expands castle construction</description>   
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Andalusian Enceinte</technology> 
             <historic>false</historic>
             <year>945</year>
@@ -1480,6 +1677,7 @@
             <description>Expands walls construction</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Donjon</technology> 
             <historic>false</historic>
             <year>991</year>
@@ -1487,6 +1685,7 @@
             <description>Expands castle construction</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Concentric Castle</technology> 
             <historic>false</historic>
             <year>1081</year>
@@ -1494,6 +1693,7 @@
             <description>Expands castle construction</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Bastide</technology> 
             <historic>false</historic>
             <year>1168</year>
@@ -1501,6 +1701,7 @@
             <description>Expands walls construction</description>  
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Barbican</technology> 
             <historic>false</historic>
             <year>1243</year>
@@ -1508,6 +1709,7 @@
             <description>Expands walls construction</description>  
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Bascule Drawbridge</technology> 
             <historic>false</historic>
             <year>1317</year>
@@ -1515,6 +1717,7 @@
             <description>Expands walls construction</description>  
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Zwinger</technology> 
             <historic>false</historic>
             <year>1370</year>
@@ -1522,6 +1725,7 @@
             <description>Expands walls construction</description>  
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Roundel</technology> 
             <historic>false</historic>
             <year>1426</year>
@@ -1535,6 +1739,7 @@
     <master>Master Mason</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Cloister</technology> 
             <historic>false</historic>
             <year>530</year>
@@ -1542,6 +1747,7 @@
             <description>Enables cloisters and monastic orders</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Merovingian Arcade</technology>  
             <historic>false</historic>
             <year>742</year>
@@ -1549,6 +1755,7 @@
             <description>Expands clerical construction</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Ribbed Vault</technology> 
             <historic>false</historic>
             <year>784</year>
@@ -1556,6 +1763,7 @@
             <description>Expands clerical construction</description>        
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Byzantine Arcade</technology> 
             <historic>false</historic>
             <year>842</year>
@@ -1563,6 +1771,7 @@
             <description>Expands clerical construction</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Ottonian Arcade</technology> 
             <historic>false</historic>
             <year>936</year>
@@ -1570,6 +1779,7 @@
             <description>Expands clerical construction</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Groin Vault</technology> 
             <historic>true</historic>
             <year>989</year>
@@ -1577,6 +1787,7 @@
             <description>Expands clerical construction</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Archivolt</technology> 
             <historic>false</historic>
             <year>1135</year>
@@ -1584,6 +1795,7 @@
             <description>Expands clerical construction</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Lancet Window</technology> 
             <historic>true</historic>
             <year>1144</year>
@@ -1591,6 +1803,7 @@
             <description>Expands clerical construction and enables oriel window architecture</description>  
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Treadwheel Crane</technology> 
             <historic>false</historic>
             <year>1241</year>
@@ -1598,6 +1811,7 @@
             <description>Improves construction speed</description>  
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Fan Vault</technology> 
             <historic>false</historic>
             <year>1351</year>
@@ -1605,6 +1819,7 @@
             <description>Expands clerical construction</description>  
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Renaissance Arcade</technology> 
             <historic>false</historic>
             <year>1382</year>
@@ -1612,6 +1827,7 @@
             <description>Expands clerical construction</description> 
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Renaissance Dome</technology> 
             <historic>true</historic>
             <year>1420</year>
@@ -1625,6 +1841,7 @@
     <master>Siege Engineer</master>
     <eras> 
         <migration>
+			<science>1</science>
             <technology>Onager</technology> 
             <historic>false</historic>
             <year>500</year>
@@ -1632,6 +1849,7 @@
             <description>Enables sieges and siege equipment</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Mangonel</technology>
             <historic>false</historic>
             <year>737</year>
@@ -1639,6 +1857,7 @@
             <description>Improves siege action effects</description>        
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Logistics</technology> 
             <historic>false</historic>
             <year>777</year>
@@ -1646,6 +1865,7 @@
             <description>Improves baggage trains for sieges</description>        
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Fire Ship</technology> 
             <historic>false</historic>
             <year>845</year>
@@ -1653,6 +1873,7 @@
             <description>Improves siege action effects</description>  
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Military Expedition</technology> 
             <historic>false</historic>
             <year>961</year>
@@ -1660,6 +1881,7 @@
             <description>Improves siege action effects</description>   
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Springald</technology> 
             <historic>false</historic>
             <year>1030</year>
@@ -1667,6 +1889,7 @@
             <description>Enables springald construction</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>War Strategy</technology> 
             <historic>false</historic>
             <year>1075</year>
@@ -1674,6 +1897,7 @@
             <description>Strategikon manual is compiled</description>   
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Counterpoise Trebuchet</technology> 
             <historic>false</historic>
             <year>1187</year>
@@ -1681,6 +1905,7 @@
             <description>Enables springald construction</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Gunpowder</technology> 
             <historic>false</historic>
             <year>1240</year>
@@ -1688,6 +1913,7 @@
             <description>Improves siege action effects</description>  
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Cannon</technology> 
             <historic>false</historic>
             <year>1326</year>
@@ -1695,6 +1921,7 @@
             <description>Enables cannon construction</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Couillard</technology> 
             <historic>false</historic>
             <year>1385</year>
@@ -1702,6 +1929,7 @@
             <description>Improves siege action effects</description> 
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Bombard</technology> 
             <historic>false</historic>
             <year>1436</year>
@@ -1715,6 +1943,7 @@
     <master>Chronicler</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Codex</technology> 
             <historic>false</historic>
             <year>600</year>
@@ -1722,6 +1951,7 @@
             <description>Enables libraries and books and chronicles</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Insular Manuscripts</technology>
             <historic>false</historic>
             <year>731</year>
@@ -1729,6 +1959,7 @@
             <description>Improves manuscript yields</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Carolingian Manuscripts</technology> 
             <historic>false</historic>
             <year>764</year>
@@ -1736,6 +1967,7 @@
             <description>Improves manuscript yields</description>        
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Byzantine Manuscripts</technology> 
             <historic>false</historic>
             <year>913</year>
@@ -1743,6 +1975,7 @@
             <description>Improves manuscript yields</description>   
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Ottonian Manuscripts</technology> 
             <historic>false</historic>
             <year>973</year>
@@ -1750,6 +1983,7 @@
             <description>Improves manuscript yields</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Romanesque Manuscripts</technology> 
             <historic>false</historic>
             <year>1020</year>
@@ -1757,6 +1991,7 @@
             <description>Improves manuscript yields</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Norman Manuscripts</technology> 
             <historic>false</historic>
             <year>1142</year>
@@ -1764,6 +1999,7 @@
             <description>Improves manuscript yields</description>  
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Gothic Manuscripts</technology> 
             <historic>false</historic>
             <year>1235</year>
@@ -1771,6 +2007,7 @@
             <description>Improves manuscript yields</description>  
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Roll of Arms</technology> 
             <historic>false</historic>
             <year>1259</year>
@@ -1778,6 +2015,7 @@
             <description>Enables roll of arms</description>  
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Painted Panel Altars</technology> 
             <historic>true</historic>
             <year>1280</year>
@@ -1785,6 +2023,7 @@
             <description>Enables panel alters</description>   
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Renaissance Manuscripts</technology> 
             <historic>false</historic>
             <year>1416</year>
@@ -1792,6 +2031,7 @@
             <description>Improves manuscript yields</description>  
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Blockbooks</technology> 
             <historic>false</historic>
             <year>1450</year>
@@ -1805,6 +2045,7 @@
     <master>Almoner</master>
     <eras>
         <migration>
+			<science>1</science>
             <technology>Holy War</technology> 
             <historic>false</historic>
             <year>722</year>
@@ -1812,6 +2053,7 @@
             <description>Enables crusades and pilgrimages</description>       
         </migration> 
         <merovingian>
+			<science>2</science>
             <technology>Merovingian Relics</technology> 
             <historic>false</historic>
             <year>726</year>
@@ -1819,6 +2061,7 @@
             <description>Improves pilgrimage effects</description>       
         </merovingian> 
         <carolingian>
+			<science>3</science>
             <technology>Carolingian Relics</technology>  
             <historic>false</historic>
             <year>774</year>
@@ -1826,6 +2069,7 @@
             <description>Improves pilgrimage effects</description>      
         </carolingian> 
         <viking>
+			<science>4</science>
             <technology>Herbalism</technology> 
             <historic>false</historic>
             <year>902</year>
@@ -1833,6 +2077,7 @@
             <description>Improves healing effects</description> 
         </viking> 
         <ottonian>
+			<science>5</science>
             <technology>Pharmacy</technology> 
             <historic>false</historic>
             <year>976</year>
@@ -1840,6 +2085,7 @@
             <description>Improves healing effects</description>  
         </ottonian>
         <romanesque>
+			<science>6</science>
             <technology>Medicine</technology> 
             <historic>false</historic>
             <year>1025</year>
@@ -1847,6 +2093,7 @@
             <description>Improves healing effects</description>  
         </romanesque>
         <norman>
+			<science>7</science>
             <technology>Passagium Generale</technology> 
             <historic>false</historic>
             <year>1096</year>
@@ -1854,6 +2101,7 @@
             <description>Enables crusades</description> 
         </norman>
         <gothic>
+			<science>8</science>
             <technology>Passagium Particulare</technology>  
             <historic>false</historic>
             <year>1239</year>
@@ -1861,6 +2109,7 @@
             <description>Expands crusades</description> 
         </gothic>
         <rayonnant>
+			<science>9</science>
             <technology>Gothic Mendicant</technology> 
             <historic>false</historic>
             <year>1274</year>
@@ -1868,6 +2117,7 @@
             <description>Enables mendicant orders</description> 
         </rayonnant>
         <flamboyant>
+			<science>10</science>
             <technology>Gothic Relics</technology> 
             <historic>false</historic>
             <year>1290</year>
@@ -1875,6 +2125,7 @@
             <description>Improves pilgrimage effects</description> 
         </flamboyant>
         <italian>
+			<science>11</science>
             <technology>Renaissance Mendicant</technology> 
             <historic>false</historic>
             <year>1384</year>
@@ -1882,6 +2133,7 @@
             <description>Expands mendicant actions</description> 
         </italian>
         <maritime>
+			<science>12</science>
             <technology>Renaissance Relics</technology> 
             <historic>false</historic>
             <year>1423</year>
