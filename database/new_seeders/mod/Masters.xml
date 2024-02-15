@@ -89,14 +89,14 @@
             <description>Appoint Master of the Revels</description>       
         </charm> 
         <organization>
-            <action>Appoint Siege Engineer</action>
+            <action>Charter</action>
             <stat>organization</stat>
             <operand>plus</operand>
-			<appoint>Siege Engineer</appoint>
+			<appoint>Grandmaster</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>Siege_Workshop</found>
-            <description>Appoint Siege Engineer</description> 
+            <found>none</found>
+            <description>Setup a guild</description>
         </organization>
         <agriculture>
             <action>Appoint Almoner</action>
@@ -139,14 +139,14 @@
             <description>Appoint Chronicler</description>
 		</justice>	
         <defenses>
-            <action>Appoint Castellan</action>
+            <action>Appoint Siege Engineer</action>
             <stat>defenses</stat>
             <operand>plus</operand>
-			<appoint>Castellan</appoint>
+			<appoint>Siege Engineer</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>Gatehouse</found>
-            <description>Appoint Castellan</description>
+            <found>Siege_Workshop</found>
+            <description>Appoint Siege Engineer</description>
 		</defenses>		
     </actions>
   </category>
@@ -239,14 +239,14 @@
             <description>Recruit priest</description>       
         </charm> 
         <organization>
-            <action>Charter</action>
+            <action>none</action>
             <stat>organization</stat>
-            <operand>plus</operand>
-			<appoint>Grandmaster</appoint>
+            <operand>none</operand>
+			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
             <found>none</found>
-            <description>Setup a guild</description>
+            <description>none</description>
         </organization>
         <agriculture>
             <action>none</action>
@@ -564,7 +564,7 @@
             <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
-            <craft>none</craft>
+            <craft>Weapon</craft>
             <found>none</found>
             <description>Arm troops with weapons</description>
 		</industry>
@@ -751,6 +751,156 @@
     </actions>
   </category>
   <category>
+    <master>Master Mason</master>
+    <actions>
+        <charm>
+            <action>Lodge</action>
+            <stat>charm</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>Inkeeper</recruit>
+            <craft>none</craft>
+            <found>Porter_Lodge</found>
+            <description>Lodge guests</description>       
+        </charm> 
+        <organization>
+            <action>Grind</action>
+            <stat>organization</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>Miller</recruit>
+            <craft>none</craft>
+            <found>Mill</found>
+            <description>Setup a mill and grind corn or hammer plates</description> 
+        </organization>
+        <agriculture>
+            <action>none</action>
+            <stat>agriculture</stat>
+            <operand>none</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>none</description>
+		</agriculture>
+        <industry>
+            <action>Construct</action>
+            <stat>industry</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>Holding</found>
+            <description>Construct holdings or buildings</description>
+		</industry>
+        <commerce>
+            <action>Upgrade</action>
+            <stat>commerce</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>Improve holdings or buildings</description>
+		</commerce>
+        <justice>
+            <action>none</action>
+            <stat>justice</stat>
+            <operand>none</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>none</description>
+		</justice>	
+        <defenses>
+            <action>Fortify</action>
+            <stat>defenses</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>Construct fortifications or castles</description>
+		</defenses>		
+    </actions>
+  </category>
+  <category>
+    <master>Siege Engineer</master>
+    <actions>
+        <charm>
+            <action>Contract</action>
+            <stat>charm</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>Gynour</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>Recruit siege crew</description>       
+        </charm> 
+        <organization>
+            <action>Engineer</action>
+            <stat>organization</stat>
+            <operand>plus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>Engine</craft>
+            <found>none</found>
+            <description>Create siege equipment</description> 
+        </organization>
+        <agriculture>
+            <action>Sap</action>
+            <stat>agriculture</stat>
+            <operand>minus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>Mine walls</description>
+		</agriculture>
+        <industry>
+            <action>Bombard</action>
+            <stat>industry</stat>
+            <operand>minus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>Bombard a holding</description>
+		</industry>
+        <commerce>
+            <action>Invest</action>
+            <stat>commerce</stat>
+            <operand>minus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>Investment</found>
+            <description>Encircle a holding</description>
+		</commerce>
+        <justice>
+            <action>none</action>
+            <stat>justice</stat>
+            <operand>none</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>none</description>
+		</justice>	
+        <defenses>
+            <action>Besiege</action>
+            <stat>defenses</stat>
+            <operand>minus</operand>
+			<appoint>none</appoint>
+            <recruit>none</recruit>
+            <craft>none</craft>
+            <found>none</found>
+            <description>Besiege walls</description>
+		</defenses>		
+    </actions>
+  </category>
+  <category>
     <master>Chronicler</master>
     <actions>
         <charm>
@@ -901,231 +1051,6 @@
     </actions>
   </category>
   <category>
-    <master>Master Mason</master>
-    <actions>
-        <charm>
-            <action>none</action>
-            <stat>charm</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>       
-        </charm> 
-        <organization>
-            <action>Grind</action>
-            <stat>organization</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>Miller</recruit>
-            <craft>none</craft>
-            <found>Mill</found>
-            <description>Setup a mill and grind corn or hammer plates</description> 
-        </organization>
-        <agriculture>
-            <action>none</action>
-            <stat>agriculture</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</agriculture>
-        <industry>
-            <action>Construct</action>
-            <stat>industry</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>Holding</found>
-            <description>Construct holdings or buildings</description>
-		</industry>
-        <commerce>
-            <action>Upgrade</action>
-            <stat>commerce</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Improve holdings or buildings</description>
-		</commerce>
-        <justice>
-            <action>none</action>
-            <stat>justice</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</justice>	
-        <defenses>
-            <action>Restore</action>
-            <stat>defenses</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Restore fortifications</description>
-		</defenses>		
-    </actions>
-  </category>
-  <category>
-    <master>Castellan</master>
-    <actions>
-        <charm>
-            <action>Garrison</action>
-            <stat>charm</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>Guard</recruit>
-            <craft>none</craft>
-            <found>Garrison</found>
-            <description>Garrison a settlement or holding</description>       
-        </charm> 
-        <organization>
-            <action>Lodge</action>
-            <stat>organization</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>Innkeeper</recruit>
-            <craft>none</craft>
-            <found>Porter_Lodge</found>
-            <description>Lodge guests</description>
-        </organization>
-        <agriculture>
-            <action>none</action>
-            <stat>agriculture</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</agriculture>
-        <industry>
-            <action>Smith</action>
-            <stat>industry</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>Weapon</craft>
-            <found>none</found>
-            <description>Metals smithed into arms</description>
-		</industry>
-        <commerce>
-            <action>none</action>
-            <stat>commerce</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</commerce>
-        <justice>
-            <action>none</action>
-            <stat>justice</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</justice>	
-        <defenses>
-            <action>Fortify</action>
-            <stat>defenses</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Construct fortifications or castles</description>
-		</defenses>		
-    </actions>
-  </category>
-  <category>
-    <master>Siege Engineer</master>
-    <actions>
-        <charm>
-            <action>Contract</action>
-            <stat>charm</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>Gynour</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Recruit siege crew</description>       
-        </charm> 
-        <organization>
-            <action>Engineer</action>
-            <stat>organization</stat>
-            <operand>plus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>Engine</craft>
-            <found>none</found>
-            <description>Create siege equipment</description> 
-        </organization>
-        <agriculture>
-            <action>Sap</action>
-            <stat>agriculture</stat>
-            <operand>minus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Mine walls</description>
-		</agriculture>
-        <industry>
-            <action>Bombard</action>
-            <stat>industry</stat>
-            <operand>minus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Bombard a holding</description>
-		</industry>
-        <commerce>
-            <action>Invest</action>
-            <stat>commerce</stat>
-            <operand>minus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>Investment</found>
-            <description>Encircle a holding</description>
-		</commerce>
-        <justice>
-            <action>none</action>
-            <stat>justice</stat>
-            <operand>none</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>none</description>
-		</justice>	
-        <defenses>
-            <action>Besiege</action>
-            <stat>defenses</stat>
-            <operand>minus</operand>
-			<appoint>none</appoint>
-            <recruit>none</recruit>
-            <craft>none</craft>
-            <found>none</found>
-            <description>Besiege walls</description>
-		</defenses>		
-    </actions>
-  </category>
-  <category>
     <master>Grandmaster</master>
     <actions>
         <charm>
@@ -1139,14 +1064,14 @@
             <description>none</description>       
         </charm> 
         <organization>
-            <action>none</action>
+            <action>Pray</action>
             <stat>organization</stat>
-            <operand>none</operand>
+            <operand>plus</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>none</found>
-            <description>none</description> 
+            <found>Monastic_Order</found>
+            <description>Setup a monastic order</description> 
         </organization>
         <agriculture>
             <action>none</action>
@@ -1159,14 +1084,14 @@
             <description>none</description>
 		</agriculture>
         <industry>
-            <action>Pray</action>
+            <action>none</action>
             <stat>industry</stat>
-            <operand>plus</operand>
+            <operand>none</operand>
 			<appoint>none</appoint>
             <recruit>none</recruit>
             <craft>none</craft>
-            <found>Monastic_Order</found>
-            <description>Setup a monastic order</description>
+            <found>none</found>
+            <description>none</description>
 		</industry>
         <commerce>
             <action>Vend</action>
