@@ -1634,7 +1634,7 @@
   </category>
   <category>
     <type>Fortification</type>
-    <master>Castellan</master>
+    <master>Master Mason</master>
     <eras>
         <migration>
 			<science>1</science>

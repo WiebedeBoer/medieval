@@ -36,6 +36,11 @@
         <stratification>Nobles</stratification>
     </title>
     <title>
+        <type>Prince_Archbishop</type>
+        <fief>Duchy</fief>
+        <stratification>Clergy</stratification>
+    </title>
+    <title>
         <type>Margrave</type>
         <fief>County</fief>
         <stratification>Nobles</stratification>
@@ -49,6 +54,11 @@
         <type>Count</type>
         <fief>County</fief>
         <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Prince_Bishop</type>
+        <fief>County</fief>
+        <stratification>Clergy</stratification>
     </title>
     <title>
         <type>Castellan</type>
@@ -66,6 +76,16 @@
         <stratification>Nobles</stratification>
     </title>
     <title>
+        <type>Lord_Bishop</type>
+        <fief>Barony</fief>
+        <stratification>Clergy</stratification>
+    </title>
+    <title>
+        <type>Lord_Mayor</type>
+        <fief>Barony</fief>
+        <stratification>Burghers</stratification>
+    </title>
+    <title>
         <type>Knight_Banneret</type>
         <fief>Tithing</fief>
         <stratification>Nobles</stratification>
@@ -74,5 +94,15 @@
         <type>Knight</type>
         <fief>Tithing</fief>
         <stratification>Nobles</stratification>
+    </title>
+    <title>
+        <type>Priest</type>
+        <fief>Tithing</fief>
+        <stratification>Clergy</stratification>
+    </title>
+    <title>
+        <type>Patrician</type>
+        <fief>Tithing</fief>
+        <stratification>Burghers</stratification>
     </title>
 </titles>

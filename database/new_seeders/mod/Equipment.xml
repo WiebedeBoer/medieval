@@ -3545,7 +3545,7 @@
 	<title>barrel</title>
 	<science>none</science>
 	<level>1<level>
-	<category>containers</category>
+	<category>container</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3565,7 +3565,7 @@
 	<title>basket</title>
 	<science>none</science>
 	<level>1<level>
-	<category>containers</category>
+	<category>container</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3585,7 +3585,7 @@
 	<title>pottery</title>
 	<science>none</science>
 	<level>1<level>
-	<category>containers</category>
+	<category>container</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3605,7 +3605,7 @@
 	<title>meat</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3625,7 +3625,7 @@
 	<title>fish</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3645,7 +3645,7 @@
 	<title>bread</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3665,7 +3665,7 @@
 	<title>cake</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3685,7 +3685,7 @@
 	<title>cheese</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3705,7 +3705,7 @@
 	<title>vegetables</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3725,7 +3725,7 @@
 	<title>fruit</title>
 	<science>none</science>
 	<level>1<level>
-	<category>food</category>
+	<category>provision</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3865,7 +3865,7 @@
 	<title>clothing</title>
 	<science>none</science>
 	<level>1<level>
-	<category>wardrobe</category>
+	<category>robe</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3885,7 +3885,7 @@
 	<title>notable clothing</title>
 	<science>surcoat</science>
 	<level>2<level>
-	<category>wardrobe</category>
+	<category>robe</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3905,7 +3905,7 @@
 	<title>masterpiece clothing</title>
 	<science>tabard</science>
 	<level>3<level>
-	<category>wardrobe</category>
+	<category>robe</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3945,7 +3945,7 @@
 	<title>furniture</title>
 	<science>none</science>
 	<level>1<level>
-	<category>household</category>
+	<category>furnishing</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -3965,47 +3965,7 @@
 	<title>centerpiece furniture</title>
 	<science>cassone</science>
 	<level>2<level>
-	<category>household</category>
-	<riding>none</riding>
-	<charge>none</charge>
-	<manouver>none</manouver>
-	<draught>none</draught>
-	<armor>none</armor>
-	<accuracy>none</accuracy>
-	<range>none</range>
-	<swing>none</swing>
-	<thrust>none</thrust>
-	<cargo>none</cargo>
-	<load>none</load>
-	<provision>none</provision>
-	<prestige>2</prestige>
-	<piety>none</piety>
-  </equipment>
-  <equipment>
-	<title>paintings</title>
-	<science>none</science>
-	<level>1<level>
-	<category>household</category>
-	<riding>none</riding>
-	<charge>none</charge>
-	<manouver>none</manouver>
-	<draught>none</draught>
-	<armor>none</armor>
-	<accuracy>none</accuracy>
-	<range>none</range>
-	<swing>none</swing>
-	<thrust>none</thrust>
-	<cargo>none</cargo>
-	<load>none</load>
-	<provision>none</provision>
-	<prestige>1</prestige>
-	<piety>none</piety>
-  </equipment>
-  <equipment>
-	<title>centerpiece paintings</title>
-	<science>oil on canvas</science>
-	<level>2<level>
-	<category>household</category>
+	<category>furnishing</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -4025,7 +3985,7 @@
 	<title>tableware</title>
 	<science>none</science>
 	<level>1<level>
-	<category>household</category>
+	<category>furnishing</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -4045,87 +4005,7 @@
 	<title>centerpiece tableware</title>
 	<science>maiolica</science>
 	<level>2<level>
-	<category>household</category>
-	<riding>none</riding>
-	<charge>none</charge>
-	<manouver>none</manouver>
-	<draught>none</draught>
-	<armor>none</armor>
-	<accuracy>none</accuracy>
-	<range>none</range>
-	<swing>none</swing>
-	<thrust>none</thrust>
-	<cargo>none</cargo>
-	<load>none</load>
-	<provision>none</provision>
-	<prestige>2</prestige>
-	<piety>none</piety>
-  </equipment>
-  <equipment>
-	<title>jewelry</title>
-	<science>none</science>
-	<level>1<level>
-	<category>household</category>
-	<riding>none</riding>
-	<charge>none</charge>
-	<manouver>none</manouver>
-	<draught>none</draught>
-	<armor>none</armor>
-	<accuracy>none</accuracy>
-	<range>none</range>
-	<swing>none</swing>
-	<thrust>none</thrust>
-	<cargo>none</cargo>
-	<load>none</load>
-	<provision>none</provision>
-	<prestige>1</prestige>
-	<piety>none</piety>
-  </equipment>
-  <equipment>
-	<title>centerpiece jewelry</title>
-	<science>none</science>
-	<level>2<level>
-	<category>household</category>
-	<riding>none</riding>
-	<charge>none</charge>
-	<manouver>none</manouver>
-	<draught>none</draught>
-	<armor>none</armor>
-	<accuracy>none</accuracy>
-	<range>none</range>
-	<swing>none</swing>
-	<thrust>none</thrust>
-	<cargo>none</cargo>
-	<load>none</load>
-	<provision>none</provision>
-	<prestige>2</prestige>
-	<piety>none</piety>
-  </equipment>
-  <equipment>
-	<title>silverwork</title>
-	<science>none</science>
-	<level>1<level>
-	<category>household</category>
-	<riding>none</riding>
-	<charge>none</charge>
-	<manouver>none</manouver>
-	<draught>none</draught>
-	<armor>none</armor>
-	<accuracy>none</accuracy>
-	<range>none</range>
-	<swing>none</swing>
-	<thrust>none</thrust>
-	<cargo>none</cargo>
-	<load>none</load>
-	<provision>none</provision>
-	<prestige>1</prestige>
-	<piety>none</piety>
-  </equipment>
-  <equipment>
-	<title>centerpiece silverwork</title>
-	<science>none</science>
-	<level>2<level>
-	<category>household</category>
+	<category>furnishing</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -4145,7 +4025,7 @@
 	<title>carpet</title>
 	<science>none</science>
 	<level>1<level>
-	<category>household</category>
+	<category>furnishing</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
@@ -4165,7 +4045,127 @@
 	<title>centerpiece carpet</title>
 	<science>tapestry</science>
 	<level>2<level>
-	<category>household</category>
+	<category>furnishing</category>
+	<riding>none</riding>
+	<charge>none</charge>
+	<manouver>none</manouver>
+	<draught>none</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>none</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>2</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>silverwork</title>
+	<science>none</science>
+	<level>1<level>
+	<category>furnishing</category>
+	<riding>none</riding>
+	<charge>none</charge>
+	<manouver>none</manouver>
+	<draught>none</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>none</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>1</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>centerpiece silverwork</title>
+	<science>none</science>
+	<level>2<level>
+	<category>furnishing</category>
+	<riding>none</riding>
+	<charge>none</charge>
+	<manouver>none</manouver>
+	<draught>none</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>none</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>2</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>paintings</title>
+	<science>none</science>
+	<level>1<level>
+	<category>ornament</category>
+	<riding>none</riding>
+	<charge>none</charge>
+	<manouver>none</manouver>
+	<draught>none</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>none</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>1</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>centerpiece paintings</title>
+	<science>oil on canvas</science>
+	<level>2<level>
+	<category>ornament</category>
+	<riding>none</riding>
+	<charge>none</charge>
+	<manouver>none</manouver>
+	<draught>none</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>none</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>2</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>jewelry</title>
+	<science>none</science>
+	<level>1<level>
+	<category>ornament</category>
+	<riding>none</riding>
+	<charge>none</charge>
+	<manouver>none</manouver>
+	<draught>none</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>none</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>1</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>centerpiece jewelry</title>
+	<science>none</science>
+	<level>2<level>
+	<category>ornament</category>
 	<riding>none</riding>
 	<charge>none</charge>
 	<manouver>none</manouver>
