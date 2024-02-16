@@ -3790,7 +3790,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//283
-			//Tripoli,
+			//Tripoli, Misrata
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tripoli',
 				'duchy_category' => 'Feudal_Estate',
@@ -3803,7 +3803,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//284
-			//Sirte,
+			//Sirte, Cyrene
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sirte',
 				'duchy_category' => 'Feudal_Estate',
@@ -3830,7 +3830,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//286
-			//Oujda,
+			//Oujda, Nador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oujda',
 				'duchy_category' => 'Feudal_Estate',
@@ -3843,7 +3843,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//287
-			//Oran,
+			//Oran, Mostaganem, Mascara
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oran',
 				'duchy_category' => 'Feudal_Estate',
@@ -3856,7 +3856,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//288
-			//Algiers,
+			//Algiers, Hadjar, Lamdia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algiers',
 				'duchy_category' => 'Feudal_Estate',
