@@ -86,6 +86,66 @@
 	<level>3<level>
 	<category>horse</category>
 	<riding>12</riding>
+	<charge>36</charge>
+	<manouver>55</manouver>
+	<draught>8</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>2</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>none</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>spirited destrier</title>
+	<science>early pedigree</science>
+	<level>2<level>
+	<category>horse</category>
+	<riding>12</riding>
+	<charge>35</charge>
+	<manouver>53</manouver>
+	<draught>8</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>2</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>none</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>destrier</title>
+	<science>none</science>
+	<level>1<level>
+	<category>horse</category>
+	<riding>12</riding>
+	<charge>34</charge>
+	<manouver>50</manouver>
+	<draught>8</draught>
+	<armor>none</armor>
+	<accuracy>none</accuracy>
+	<range>none</range>
+	<swing>none</swing>
+	<thrust>none</thrust>
+	<cargo>2</cargo>
+	<load>none</load>
+	<provision>none</provision>
+	<prestige>none</prestige>
+	<piety>none</piety>
+  </equipment>
+  <equipment>
+	<title>champion courser</title>
+	<science>late pedigree</science>
+	<level>3<level>
+	<category>horse</category>
+	<riding>12</riding>
 	<charge>34</charge>
 	<manouver>48</manouver>
 	<draught>8</draught>
@@ -101,7 +161,7 @@
 	<piety>none</piety>
   </equipment>
   <equipment>
-	<title>spirited destrier</title>
+	<title>spirited courser</title>
 	<science>early pedigree</science>
 	<level>2<level>
 	<category>horse</category>
@@ -121,7 +181,7 @@
 	<piety>none</piety>
   </equipment>
   <equipment>
-	<title>destrier</title>
+	<title>courser</title>
 	<science>none</science>
 	<level>1<level>
 	<category>horse</category>

@@ -3869,7 +3869,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//289
-			//Tiaret,
+			//Tiaret, Saida
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tiaret',
 				'duchy_category' => 'Feudal_Estate',
@@ -3882,7 +3882,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//290
-			//Mzab,
+			//Mzab, Bounoura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mzab',
 				'duchy_category' => 'Feudal_Estate',
@@ -3895,7 +3895,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//291
-			//Laghouat,
+			//Laghouat, Madhi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Laghouat',
 				'duchy_category' => 'Feudal_Estate',
@@ -3908,7 +3908,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);	
 			//292
-			//Djelfa,
+			//Djelfa, Airene
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djelfa',
 				'duchy_category' => 'Feudal_Estate',
@@ -3920,8 +3920,21 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//Ifni
 			//293
+			//Tuggert, Ouargla
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Tuggert',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '52',
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Maghreb',
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
+				'transport' => 'Camel_Caravan',
+				'altitude' => 'Montane'
+            ]);
+			//Ifni
+			//294
 			//Ifni, Tiznit
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ifni',
@@ -3934,8 +3947,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
-			//294
-			//Taroudant, Agadir
+			//295
+			//Taroudant, Agadir, Tinmel
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taroudant',
 				'duchy_category' => 'Feudal_Estate',
@@ -3948,7 +3961,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Figuig
-			//295
+			//296
 			//Figuig, Bechar, Moghrar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Figuig',
@@ -3961,7 +3974,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);	
-			//296
+			//297
 			//Tuat, Tademait
             DB::table('duchies')->insert([
 				'duchy_name' => 'Adrar',
@@ -3976,7 +3989,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Abbasid
 			//Baghdad
-			//
+			//298
 			//Baghdad, Karbala, Najaf
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
@@ -3986,6 +3999,32 @@ class DuchySeeder extends Seeder
 				'vernacular_architecture' => 'Adobe_Mashriq',
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
+				'transport' => 'Camel_Caravan',
+				'altitude' => 'Montane'
+            ]);
+			//299
+			//Mosul,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Mosul',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '53',
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
+				'transport' => 'Camel_Caravan',
+				'altitude' => 'Montane'
+            ]);
+			//300
+			//Erbil,
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Erbil',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '53',
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Mashriq',
+				'law_court' => 'Palatial',
+				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);

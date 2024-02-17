@@ -660,7 +660,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Divan'
             ]);
 			//Tlemcen
-			//Tlemcen, Oujda, Oran, Algiers, Tiaret, Mzab, Laghouat, Djelfa
+			//Tlemcen, Oujda, Oran, Algiers, Tiaret, Mzab, Laghouat, Djelfa, Tuggert
 			//52
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Tlemcen',
@@ -697,7 +697,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Abbasid
 			//Baghdad
-			//Baghdad,
+			//Baghdad, Mosul, Erbil
 			//55
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Baghdad',
