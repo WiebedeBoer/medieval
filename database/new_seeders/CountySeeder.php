@@ -254,7 +254,7 @@ class CountySeeder extends Seeder
 			//Germany
 			//Austria
 			//1
-			//melk, gottweig, sankt polten
+			//melk, gottweig, sankt polten, rastenberg
             DB::table('counties')->insert([
 				'county_name' => 'Grunsweit',
 				'county_category' => 'Feudal_Manor',
@@ -8184,7 +8184,7 @@ class CountySeeder extends Seeder
             ]);
 			//Berry
 			//415
-			//bourges, meillant, massay, saint gildas, chateauroux, issoudun
+			//bourges, meillant, massay, saint gildas, chateauroux, issoudun, chazelet
             DB::table('counties')->insert([
 				'county_name' => 'Berry',
 				'county_category' => 'Feudal_Manor',
@@ -9751,7 +9751,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//497
-			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets, rudelle
+			//cahors, montauban, gourdon, figeac, aujols, arcambal, cabrerets, rudelle, bonaguil
             DB::table('counties')->insert([
 				'county_name' => 'Quercy',
 				'county_category' => 'Ecclesiastical_Manor',
