@@ -26838,9 +26838,47 @@ class CountySeeder extends Seeder
 			//Abbasid
 			//Baghdad
 			//1381
-			//baghdad
+			//baghdad, karkh, kadhimiya
             DB::table('counties')->insert([
 				'county_name' => 'Baghdad',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '298',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Jazira',
+				'vernacular_culture' => 'Arabic',
+				'current_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Sweetener_Sugarcane',
+				'banal_chasse' => null,
+				'marke_crops' => 'Fiber_Cotton',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Ducks'
+            ]);
+			//1382
+			//shareban, baqubah, khanaqin
+            DB::table('counties')->insert([
+				'county_name' => 'Shareban',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '298',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Jazira',
+				'vernacular_culture' => 'Arabic',
+				'current_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Beverage_Cider',
+				'banal_chasse' => null,
+				'marke_crops' => null,
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Ducks'
+            ]);
+			//1383
+			//anbar, pumbedita
+            DB::table('counties')->insert([
+				'county_name' => 'Anbar',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '298',
 				'vernacular_religion' => 'Muslim_Sunni',
@@ -26856,8 +26894,27 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
-			//
+			//1384
+			//basra, zubayr, qurnah, samawah
+            DB::table('counties')->insert([
+				'county_name' => 'Basra',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '298',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Jazira',
+				'vernacular_culture' => 'Arabic',
+				'current_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => null,
+				'marke_crops' => null,
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Ducks'
+            ]);
+			//1385
+			//karbala, hillah
             DB::table('counties')->insert([
 				'county_name' => 'Karbala',
 				'county_category' => 'Feudal_Manor',
@@ -26875,8 +26932,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
-			//
+			//1386
+			//najaf, kufah
             DB::table('counties')->insert([
 				'county_name' => 'Najaf',
 				'county_category' => 'Feudal_Manor',
@@ -26888,14 +26945,15 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Arabic',
 				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Sweetener_Sugarcane',
-				'banal_chasse' => null,
+				'banal_chasse' => 'Deer',
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
 			//Mosul
-			//
+			//1387
+			//mosul
             DB::table('counties')->insert([
 				'county_name' => 'Mosul',
 				'county_category' => 'Feudal_Manor',
@@ -26909,13 +26967,14 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1388
+			//tikrit
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Tikrit',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '299',
 				'vernacular_religion' => 'Muslim_Sunni',
@@ -26933,6 +26992,7 @@ class CountySeeder extends Seeder
             ]);
 			//Erbil
 			//
+			//erbil
             DB::table('counties')->insert([
 				'county_name' => 'Erbil',
 				'county_category' => 'Feudal_Manor',
@@ -26946,13 +27006,14 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
 			//
+			//kirkuk
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Kirkuk',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '300',
 				'vernacular_religion' => 'Muslim_Sunni',

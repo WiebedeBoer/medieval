@@ -3990,7 +3990,7 @@ class DuchySeeder extends Seeder
 			//Abbasid
 			//Baghdad
 			//298
-			//Baghdad, Karbala, Najaf
+			//Baghdad, Shareban, Anbar, Basra, Karbala, Najaf
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
 				'duchy_category' => 'Feudal_Estate',
@@ -4003,7 +4003,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//299
-			//Mosul,
+			//Mosul, Tikrit
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mosul',
 				'duchy_category' => 'Feudal_Estate',
@@ -4016,7 +4016,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//300
-			//Erbil,
+			//Erbil, Kirkuk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Erbil',
 				'duchy_category' => 'Feudal_Estate',

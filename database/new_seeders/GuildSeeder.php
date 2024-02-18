@@ -32189,16 +32189,96 @@ class GuildSeeder extends Seeder
 			'county' => '1381',
 			'hundred' => ''
 		]);
-		//
-		//
+		//Shareban
+		//Shareban
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Shareban',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '298',
+			'county' => '1382',
+			'hundred' => ''
+		]);
+		//Baqubah
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1382',
+			'hundred' => ''
+		]);
+		//Khanaqin
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1382',
+			'hundred' => ''
+		]);
+		//Anbar
+		//Pumbedita
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Pumbedita',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1383',
+			'hundred' => ''
+		]);
+		//Basra
+		//Basra
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Basra',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1384',
+			'hundred' => ''
+		]);
+		//Karbala
+		//Hillah
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Hillah',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1385',
+			'hundred' => ''
+		]);
+		//Najaf
+		//Kufah
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Kufah',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Monastic',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1386',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Kufah',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Deer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '298',
+			'county' => '1386',
 			'hundred' => ''
 		]);
 		//Mosul
@@ -32221,7 +32301,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '',
+			'county' => '1387',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32231,7 +32311,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '',
+			'county' => '1387',
 			'hundred' => ''
 		]);
 		//Erbil
