@@ -930,17 +930,6 @@ class GuildSeeder extends Seeder
 			'county' => '16',
 			'hundred' => ''
 		]);
-		//Waalwick
-		DB::table('guilds')->insert([
-			'guild_name' => 'Skinners Guild of Waalwick',
-			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Tanner',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '3',
-			'county' => '16',
-			'hundred' => ''
-		]);
 		//Bosch
 		DB::table('guilds')->insert([
 			'guild_name' => 'Cutlers Guild of Bosch',
@@ -1330,6 +1319,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Cheesemongers Guild Waarderhof',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Cheesemonger',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '47',
+			'hundred' => ''
+		]);
+		//Waalwick
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Waalwick',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',

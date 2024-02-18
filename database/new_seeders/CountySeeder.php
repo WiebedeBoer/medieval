@@ -541,7 +541,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//16
-			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, waalwick, besoyen, bosch, orthen, bokhoven, ravenstein
+			//antwerp, breda, tilburg, turnhout, stryen, geldrop, mierlo, heeswick, herlaar, bosch, orthen, bokhoven, ravenstein
             DB::table('counties')->insert([
 				'county_name' => 'Toxandria',
 				'county_category' => 'Feudal_Manor',
@@ -1132,7 +1132,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//47
-			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede
+			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede,waalwick, besoyen
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal_Manor',
