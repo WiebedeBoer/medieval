@@ -4,15 +4,60 @@
     <title>Andalusian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abdallah</forename>
+            <forename>Abu</forename>
+            <forename>Ahmad</forename>
+            <forename>Ali</forename>
+            <forename>Idris</forename>
+            <forename>Ismail</forename>
+            <forename>Hasan</forename>
+            <forename>Hisham</forename>
+            <forename>Khayran</forename>
+            <forename>Muhammad</forename>
+            <forename>Sabur</forename>
+            <forename>Sayf</forename>
+            <forename>Sulayman</forename>
+            <forename>Tashfin</forename>
+            <forename>Yahya</forename>
+            <forename>Yusuf</forename>
+            <forename>Zayyan</forename>
+            <forename>Zuhayr</forename>
         </masculine>
         <feminine>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
             <forename></forename>
             <forename></forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>al Abbad</surname>
+        <surname>al Aftas</surname>
+        <surname>al Ahmar</surname>
+        <surname>al Andalusi</surname>
+        <surname>al Aziz</surname>
+        <surname>ibn Bassam</surname>
+        <surname>ibn Ishaq</surname>
+        <surname>al Hakam</surname>
+        <surname>ibn Hammud</surname>
+        <surname>ibn Hayan</surname>
+        <surname>ibn Hud</surname>
+        <surname>al Mahdi</surname>
+        <surname>al Mansur</surname>
+        <surname>al Mufassar</surname>
+        <surname>al Musta</surname>
+        <surname>al Rahman</surname>
+        <surname>al Saqlabi</surname>
+        <surname>al Zahir</surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
         <surname></surname>
         <surname></surname>
     </surnames>
@@ -21,8 +66,24 @@
     <title>Arabic</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abdallah</forename>
+            <forename>Abu</forename>
+            <forename>Ahmad</forename>
+            <forename>Ali</forename>
+            <forename>Idris</forename>
+            <forename>Ismail</forename>
+            <forename>Hasan</forename>
+            <forename>Hisham</forename>
+            <forename>Khayran</forename>
+            <forename>Muhammad</forename>
+            <forename>Sabur</forename>
+            <forename>Sayf</forename>
+            <forename>Sulayman</forename>
+            <forename>Tashfin</forename>
+            <forename>Yahya</forename>
+            <forename>Yusuf</forename>
+            <forename>Zayyan</forename>
+            <forename>Zuhayr</forename>
         </masculine>
         <feminine>
             <forename></forename>
@@ -410,6 +471,11 @@
             <forename></forename>
             <forename></forename>
             <forename></forename>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
+            <forename></forename>
         </feminine>
     </forenames>
     <surnames>
@@ -666,8 +732,24 @@
     <title>Moorish</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abdallah</forename>
+            <forename>Abu</forename>
+            <forename>Ahmad</forename>
+            <forename>Ali</forename>
+            <forename>Idris</forename>
+            <forename>Ismail</forename>
+            <forename>Hasan</forename>
+            <forename>Hisham</forename>
+            <forename>Khayran</forename>
+            <forename>Muhammad</forename>
+            <forename>Sabur</forename>
+            <forename>Sayf</forename>
+            <forename>Sulayman</forename>
+            <forename>Tashfin</forename>
+            <forename>Yahya</forename>
+            <forename>Yusuf</forename>
+            <forename>Zayyan</forename>
+            <forename>Zuhayr</forename>
         </masculine>
         <feminine>
             <forename></forename>
@@ -995,10 +1077,49 @@
     <title>Swabian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Albrecht</forename>
+            <forename>Bernhard</forename>
+            <forename>Burchard</forename>
+            <forename>Eberhard</forename>
+            <forename>Ernst</forename>
+            <forename>Friedrich</forename>
+            <forename>Gebhardt</forename>
+            <forename>Georg</forename>
+            <forename>Gerhard</forename>
+            <forename>Heinrich</forename>
+            <forename>Jakob</forename>
+            <forename>Joachim</forename>
+            <forename>Jobst</forename>
+            <forename>Johann</forename>
+            <forename>Karl</forename>
+            <forename>Konrad</forename>
+            <forename>Lothar</forename>
+            <forename>Ludwig</forename>
+            <forename>Meinhard</forename>
+            <forename>Rudolf</forename>
+            <forename>Ruprecht</forename>
+            <forename>Sighard</forename>
+            <forename>Sigismund</forename>
+            <forename>Ulrich</forename>
+            <forename>Walram</forename>
+            <forename>Wenzel</forename>
+            <forename>Wilhelm</forename>
+            <forename>Wolfgang</forename>
         </masculine>
         <feminine>
+            <forename>Agnes</forename>
+            <forename>Anna</forename>
+            <forename>Barbara</forename>
+            <forename>Beatrix</forename>
+            <forename>Elisabeth</forename>
+            <forename>Ermesinde</forename>
+            <forename>Henriette</forename>
+            <forename>Ida</forename>
+            <forename>Maria</forename>
+            <forename>Mechthild</forename>
+            <forename>Sibylle</forename>
+            <forename>Sophie</forename>
+            <forename>Rosine</forename>
             <forename></forename>
             <forename></forename>
         </feminine>
@@ -1008,6 +1129,8 @@
         <surname>Hochstetter</surname>
         <surname>Hohenstaufen</surname>
         <surname>Hohenzollern</surname>
+        <surname>von Rosenberg</surname>
+        <surname>von Schwanberg</surname>
         <surname>Welf</surname>
         <surname>Welser</surname>
         <surname></surname>
