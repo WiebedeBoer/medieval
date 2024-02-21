@@ -24,14 +24,29 @@
             <forename>Zuhayr</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
-            <forename></forename>
-            <forename></forename>
-            <forename></forename>
-            <forename></forename>
-            <forename></forename>
-            <forename></forename>
+			<forename>Afira</forename>
+            <forename>Aisha</forename>
+			<forename>Aliyah</forename>
+			<forename>Amra</forename>
+			<forename>Buthaina</forename>
+			<forename>Fadl</forename>
+            <forename>Faridah</forename>
+			<forename>Fatima</forename>
+            <forename>Hafsa</forename>
+            <forename>Hamda</forename>
+			<forename>Hind</forename>
+			<forename>Inan</forename>
+			<forename>Jalila</forename>
+			<forename>Laila</forename>
+			<forename>Mariam</forename>
+            <forename>Lubna</forename>
+			<forename>Qasmuna</forename>
+            <forename>Shariyah</forename>
+            <forename>Ulayya</forename>
+			<forename>Umm</forename>
+			<forename>Wallada</forename>
+            <forename>Zaida</forename>
+			<forename>Zaynab</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -86,8 +101,29 @@
             <forename>Zuhayr</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+			<forename>Afira</forename>
+            <forename>Aisha</forename>
+			<forename>Aliyah</forename>
+			<forename>Amra</forename>
+			<forename>Buthaina</forename>
+			<forename>Fadl</forename>
+            <forename>Faridah</forename>
+			<forename>Fatima</forename>
+            <forename>Hafsa</forename>
+            <forename>Hamda</forename>
+			<forename>Hind</forename>
+			<forename>Inan</forename>
+			<forename>Jalila</forename>
+			<forename>Laila</forename>
+            <forename>Lubna</forename>
+			<forename>Mariam</forename>
+			<forename>Qasmuna</forename>
+            <forename>Shariyah</forename>
+            <forename>Ulayya</forename>
+			<forename>Umm</forename>
+			<forename>Wallada</forename>
+            <forename>Zaida</forename>
+			<forename>Zaynab</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -752,8 +788,29 @@
             <forename>Zuhayr</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+			<forename>Afira</forename>
+            <forename>Aisha</forename>
+			<forename>Aliyah</forename>
+			<forename>Amra</forename>
+			<forename>Buthaina</forename>
+			<forename>Fadl</forename>
+            <forename>Faridah</forename>
+			<forename>Fatima</forename>
+            <forename>Hafsa</forename>
+            <forename>Hamda</forename>
+			<forename>Hind</forename>
+			<forename>Inan</forename>
+			<forename>Jalila</forename>
+			<forename>Laila</forename>
+            <forename>Lubna</forename>
+			<forename>Mariam</forename>
+			<forename>Qasmuna</forename>
+            <forename>Shariyah</forename>
+            <forename>Ulayya</forename>
+			<forename>Umm</forename>
+			<forename>Wallada</forename>
+            <forename>Zaida</forename>
+			<forename>Zaynab</forename>
         </feminine>
     </forenames>
     <surnames>
