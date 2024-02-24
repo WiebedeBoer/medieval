@@ -209,6 +209,7 @@
         <surname>al Umawiyyun</surname>
         <surname>al Uyuniyun</surname>
         <surname>al Zahir</surname>
+        <surname>ibn Zayd</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -2449,17 +2450,56 @@
     <title>Mongolian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Ariq</forename>
+            <forename>Baidar</forename>
+            <forename>Batu</forename>
+            <forename>Berke</forename>
+            <forename>Chagatai</forename>
+            <forename>Genghis</forename>
+            <forename>Hulegu</forename>
+            <forename>Jochi</forename>
+            <forename>Kublai</forename>
+            <forename>Mongke</forename>
+            <forename>Ogedei</forename>
+            <forename>Sartaq</forename>
+            <forename>Timur</forename>
+            <forename>Toghrul</forename>
+            <forename>Tolui</forename>
+            <forename>Yesugei</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alaltun</forename>
+            <forename>Borakchin</forename>
+            <forename>Borte</forename>
+            <forename>Checheikhen</forename>
+            <forename>Doquz</forename>
+            <forename>Ibaqa</forename>
+            <forename>Khulan</forename>
+            <forename>Kokejin</forename>
+            <forename>Moge</forename>
+            <forename>Oghul</forename>
+            <forename>Orghana</forename>
+            <forename>Sorkaktani</forename>
+            <forename>Toregene</forename>
+            <forename>Uljay</forename>
+            <forename>Yesugen</forename>
+            <forename>Yesui</forename>  
+            <forename>Zibeline</forename>        
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Barlas</surname>
+        <surname>Bayad</surname>
+        <surname>Chonos</surname>
+        <surname>Kerait</surname>
+        <surname>Khongirad</surname>
+        <surname>Kiyat</surname>
+        <surname>Merkit</surname>
+        <surname>Naiman</surname>
+        <surname>Olkhunut</surname>
+        <surname>Sunud</surname>
+        <surname>Tatar</surname>
+        <surname>Uriankhat</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -3037,41 +3077,61 @@
     <title>Persian</title>
     <forenames>
         <masculine>          
-            <forename>Arslan</forename>
-            <forename>Atsiz</forename>
-            <forename>Bayezid</forename>
-            <forename>Ertugrul</forename>
-            <forename>Jalal</forename>
-            <forename>Kaya</forename>
-            <forename>Kaytun</forename>
-            <forename>Khalil</forename>
-            <forename>Kizil</forename>
-            <forename>Mahmud</forename>
-            <forename>Osman</forename>
-            <forename>Suleyman</forename>
-            <forename>Sunkur</forename>
-            <forename>Tekish</forename>
-            <forename>Timur</forename>
-            <forename>Togar</forename>
+            <forename>Anushirvan</forename>
+            <forename>Bahram</forename>
+            <forename>Bavand</forename>
+            <forename>Bisutun</forename>
+            <forename>Garshasp</forename>
+            <forename>Golon</forename>
+            <forename>Gorduya</forename>
+            <forename>Isfandiyadh</forename>
+            <forename>Iskandar</forename>
+            <forename>Keikavus</forename>
+            <forename>Koshrow</forename>
+            <forename>Langar</forename>
+            <forename>Manuchihr</forename>
+            <forename>Mardavij</forename>
+            <forename>Mazayr</forename>
+            <forename>Mihransitad</forename>
+            <forename>Perozes</forename>
+            <forename>Qabus</forename>
+            <forename>Quhayr</forename>
+            <forename>Rustam</forename>
+            <forename>Salar</forename>
+            <forename>Saman</forename>
+            <forename>Shapur</forename>
+            <forename>Sharwin</forename>
+            <forename>Ziyar</forename>
         </masculine>
         <feminine>
-            <forename>Cicek</forename>
-            <forename>Emine</forename>
-            <forename>Gevherhan</forename>
-            <forename>Gulbahar</forename>
-            <forename>Gulsah</forename>
-            <forename>Halime</forename>
-            <forename>Hatice</forename>
-            <forename>Huma</forename>
-            <forename>Mahun</forename>
-            <forename>Nilufer</forename>
-            <forename>Rabia</forename>
-            <forename>Sittisah</forename>
+            <forename>Bahar</forename>
+            <forename>Borandokht</forename>
+            <forename>Denaq</forename>
+            <forename>Dilshad</forename>
+            <forename>Eshter</forename>
+            <forename>Faraya</forename>
+            <forename>Fariba</forename>
+            <forename>Gordiya</forename>
+            <forename>Sambice</forename>
+            <forename>Sayyida</forename>
+            <forename>Shirin</forename>
+            <forename>Yasmin</forename>
+            <forename>Zahra</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Chobin</surname>
+        <surname>Fasanjas</surname>
         <surname>Gharchai</surname>
         <surname>Ghaznavi</surname>
+        <surname>Khudat</surname>
+        <surname>Ispahbudhan</surname>
+        <surname>Mihran</surname>
+        <surname>Qarenvand</surname>
+        <surname>Spandiyadh</surname>
+        <surname>Suren</surname>
+        <surname>Varaz</surname>
+        <surname>Zik</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -4053,8 +4113,10 @@
     <forenames>
         <masculine>          
             <forename>Arslan</forename>
+            <forename>Artuk</forename>
             <forename>Atsiz</forename>
             <forename>Bayezid</forename>
+            <forename>Danishmend</forename>
             <forename>Ertugrul</forename>
             <forename>Jalal</forename>
             <forename>Kaya</forename>
@@ -4062,14 +4124,19 @@
             <forename>Khalil</forename>
             <forename>Kizil</forename>
             <forename>Mahmud</forename>
+            <forename>Mengujek</forename>
             <forename>Osman</forename>
+            <forename>Saltuk</forename>
             <forename>Suleyman</forename>
             <forename>Sunkur</forename>
             <forename>Tekish</forename>
             <forename>Timur</forename>
             <forename>Togar</forename>
+            <forename>Tzachas</forename>
+            <forename>Umur</forename>
         </masculine>
         <feminine>
+            <forename>Altuncan</forename>
             <forename>Cicek</forename>
             <forename>Emine</forename>
             <forename>Gevherhan</forename>
@@ -4082,14 +4149,28 @@
             <forename>Nilufer</forename>
             <forename>Rabia</forename>
             <forename>Sittisah</forename>
+            <forename>Terken</forename>
+            <forename>Zubayda</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Afrasiab</surname>
         <surname>Barlas</surname>
-        <surname>Gharchai</surname>
-        <surname>Ghaznavi</surname>
+        <surname>Chigil</surname>
+        <surname>Chowdur</surname>
+        <surname>Doger</surname>   
+        <surname>Karluk</surname>
+        <surname>Kayi</surname>  
+        <surname>Khalaj</surname>
+        <surname>Kimek</surname>
+        <surname>Kipchak</surname>
         <surname>Mirza</surname>
-        <surname>Osmanoglu</surname>      
+        <surname>Qiniq</surname>   
+        <surname>Salur</surname>        
+        <surname>Tuhsi</surname>
+        <surname>Turgesh</surname>
+        <surname>Yagmas</surname> 
+        <surname>Yomud</surname> 
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
