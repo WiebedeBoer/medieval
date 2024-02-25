@@ -783,7 +783,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Khazar
 			//Khazaria
-			//Aqtobe, Sarkel, Atil, Bolghar, Bilar
+			//Aqtobe, Sarkel, Khazaran, Tatar
 			//62
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Khazaria',
@@ -795,7 +795,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Sarai'
             ]);
 			//Alania
-			//Derbent, Azov, Maghas
+			//Derbent, Alania
 			//63
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Alania',
