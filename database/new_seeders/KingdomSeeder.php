@@ -697,7 +697,7 @@ class KingdomSeeder extends Seeder
             ]);
 			//Abbasid
 			//Baghdad
-			//Baghdad, Mosul, Erbil
+			//Baghdad, Erbil
 			//55
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Baghdad',
@@ -709,7 +709,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Divan'
             ]);
 			//Syria
-			//Damascus, Aleppo, Homs
+			//Damascus, Aleppo, Homs, Rabia, Bakr
 			//56
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Syria',
@@ -721,7 +721,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Divan'
             ]);
 			//Najd
-			//Najd,
+			//Najd, Khatt
 			//57
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Najd',
@@ -733,7 +733,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Divan'
             ]);
 			//Antioch
-			//Antioch,
+			//Antioch, Mudar
 			//58
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Principality of Antioch',
@@ -758,7 +758,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Divan'
             ]);
 			//Jerusalem
-			//Jerusalem,
+			//Jerusalem, Galilee
 			//60
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Jerusalem',
