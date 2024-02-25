@@ -763,7 +763,7 @@ class KingdomSeeder extends Seeder
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Jerusalem',
 				'kingdom_category' => 'Feudal',
-				'flag' => '',
+				'flag' => 'fatimid',
 				'de_jure_empire' => '17',
 				'law_succession' => 'Shura',
 				'law_assembly' => 'medium',

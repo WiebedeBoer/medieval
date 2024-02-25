@@ -27770,7 +27770,7 @@ class CountySeeder extends Seeder
             ]);
 			//Minya
 			//1429
-			//minya
+			//minya, samalut
             DB::table('counties')->insert([
 				'county_name' => 'Minya',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -27784,13 +27784,32 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',
 				'banal_chasse' => null,
 				'marke_crops' => 'Fiber_Cotton',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
+			//1430
+			//mallawi, deir mawas, deir abu
+            DB::table('counties')->insert([
+				'county_name' => 'Mallawi',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '313',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Masri',
+				'vernacular_culture' => 'Arabic',
+				'current_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => null,
+				'marke_crops' => 'Fiber_Cotton',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Asyut
-			//
-			//asyut
+			//1431
+			//asyut, cusae
             DB::table('counties')->insert([
 				'county_name' => 'Asyut',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -27808,8 +27827,46 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
+			//1432
+			//abnub, fateh
+            DB::table('counties')->insert([
+				'county_name' => 'Abnub',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '314',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Masri',
+				'vernacular_culture' => 'Arabic',
+				'current_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Sweetener_Sugarcane',
+				'banal_chasse' => null,
+				'marke_crops' => 'Fiber_Cotton',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_poultry' => 'Ducks'
+            ]);
+			//1433
+			//abu tig, ghanayem, manfalut
+            DB::table('counties')->insert([
+				'county_name' => 'Abnub',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '314',
+				'vernacular_religion' => 'Muslim_Sunni',
+				'current_religion' => 'Muslim_Sunni',
+				'vernacular_cycle' => 'Matter_Masri',
+				'vernacular_culture' => 'Arabic',
+				'current_culture' => 'Arabic',
+				'banal_moulin' => 'Watermill',
+				'banal_pressoir' => 'Sweetener_Sugarcane',
+				'banal_chasse' => null,
+				'marke_crops' => 'Fiber_Cotton',
+				'marke_horse_transport' => 'Palfrey',
+				'marke_animal_husbandry' => 'Cattle',
+				'marke_poultry' => 'Ducks'
+            ]);
 			//Kharga
-			//
+			//1434
 			//kharga, wahat, mahariq, munira, dabadib
             DB::table('counties')->insert([
 				'county_name' => 'Kharga',
@@ -27828,7 +27885,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1435
 			//dakhla, masara
             DB::table('counties')->insert([
 				'county_name' => 'Dakhla',
@@ -27848,7 +27905,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Baritun
-			//
+			//1436
 			//baritun, negila
             DB::table('counties')->insert([
 				'county_name' => 'Baritun',
@@ -27867,7 +27924,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1437
 			//siwa, shali, aghurmi
             DB::table('counties')->insert([
 				'county_name' => 'Siwa',
@@ -27882,11 +27939,11 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1438
 			//nitria, scetis, kellia
             DB::table('counties')->insert([
 				'county_name' => 'Natrun',
@@ -27906,7 +27963,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Boula
-			//
+			//1439
 			//deir anba, deir mar
             DB::table('counties')->insert([
 				'county_name' => 'Boula',
@@ -27925,7 +27982,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1440
 			//qoseir, banat
             DB::table('counties')->insert([
 				'county_name' => 'Hammamat',
@@ -27946,7 +28003,7 @@ class CountySeeder extends Seeder
             ]);
 			//Jerusalem
 			//Jerusalem
-			//
+			//1441
 			//jerusalem
             DB::table('counties')->insert([
 				'county_name' => 'Jerusalem',
@@ -27961,11 +28018,11 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1442
 			//ascolon, jura, majdal
             DB::table('counties')->insert([
 				'county_name' => 'Ascolon',
@@ -27984,7 +28041,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1443
 			//jericho
             DB::table('counties')->insert([
 				'county_name' => 'Jericho',
@@ -28004,7 +28061,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Galilee
-			//
+			//1444
 			//tiberias, hattin, nazareth
             DB::table('counties')->insert([
 				'county_name' => 'Tiberias',
@@ -28023,7 +28080,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1445
 			//banias, qeruh, qanatir
             DB::table('counties')->insert([
 				'county_name' => 'Banias',
@@ -28042,7 +28099,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1446
 			//haifa, carmel
             DB::table('counties')->insert([
 				'county_name' => 'Haifa',
@@ -28057,13 +28114,13 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
 			//Hejaz
 			//Mecca
-			//
+			//1447
 			//mecca
             DB::table('counties')->insert([
 				'county_name' => 'Mecca',
@@ -28082,7 +28139,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1448
 			//jeddah, asfan
             DB::table('counties')->insert([
 				'county_name' => 'Jeddah',
@@ -28101,7 +28158,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1449
 			//taif
             DB::table('counties')->insert([
 				'county_name' => 'Taif',
@@ -28121,7 +28178,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Medina
-			//
+			//1450
 			//medina
             DB::table('counties')->insert([
 				'county_name' => 'Medina',
@@ -28140,7 +28197,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1451
 			//yanbu
             DB::table('counties')->insert([
 				'county_name' => 'Yanbu',
@@ -28159,7 +28216,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1452
 			//khaybar, tayma
             DB::table('counties')->insert([
 				'county_name' => 'Khaybar',
@@ -28179,7 +28236,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Tabuk
-			//
+			//1453
 			//tabuk
             DB::table('counties')->insert([
 				'county_name' => 'Tabuk',
@@ -28198,7 +28255,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1454
 			//aqaba, muan
             DB::table('counties')->insert([
 				'county_name' => 'Sharat',
@@ -28217,7 +28274,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1455
 			//hegra
             DB::table('counties')->insert([
 				'county_name' => 'Hegra',
@@ -28239,7 +28296,7 @@ class CountySeeder extends Seeder
 			//Khazar
 			//Khazaria
 			//Aqtobe
-			//
+			//1456
 			//aqtobe
             DB::table('counties')->insert([
 				'county_name' => 'Aqtobe',

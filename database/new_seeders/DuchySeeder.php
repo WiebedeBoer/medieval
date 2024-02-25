@@ -4191,7 +4191,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//313
-			//Minya,
+			//Minya, Mallawi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minya',
 				'duchy_category' => 'Feudal_Estate',
@@ -4204,7 +4204,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//314
-			//Asyut,
+			//Asyut, Abnub, Abu
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asyut',
 				'duchy_category' => 'Ecclesiastical_Estate',
