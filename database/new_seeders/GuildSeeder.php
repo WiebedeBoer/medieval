@@ -34705,18 +34705,8 @@ class GuildSeeder extends Seeder
 			'county' => '1487',
 			'hundred' => ''
 		]);
-		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '335',
-			'county' => '',
-			'hundred' => ''
-		]);
-		//
-		//
+		//Fasa
+		//Fasa
 		DB::table('guilds')->insert([
 			'guild_name' => 'Drapers Guild of Fasa',
 			'guild_category' => 'Craft',
@@ -34725,6 +34715,29 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '335',
 			'county' => '1488',
+			'hundred' => ''
+		]);
+		//Darab
+		//Darab
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Darab',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '335',
+			'county' => '1489',
+			'hundred' => ''
+		]);
+		//Pashkan
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '335',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		//Daylam
@@ -34747,7 +34760,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '',
+			'county' => '1490',
 			'hundred' => ''
 		]);
 		//Abaskun
@@ -34758,7 +34771,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '',
+			'county' => '1490',
 			'hundred' => ''
 		]);
 		//Amol
@@ -34770,7 +34783,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '',
+			'county' => '1491',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34780,7 +34793,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '',
+			'county' => '1491',
 			'hundred' => ''
 		]);
 		//Principality of Hormuz
@@ -34797,6 +34810,8 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'hundred' => ''
 		]);
+		//
+		//
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
@@ -34818,16 +34833,6 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '338',
 			'county' => null,
-			'hundred' => ''
-		]);
-		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
-			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
-			'empire' => null,
-			'kingdom' => null,
-			'duchy' => '338',
-			'county' => '',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34854,6 +34859,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'University of Kerman',
 			'guild_category' => 'University',
 			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '338',
+			'county' => '',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of ',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '338',

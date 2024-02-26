@@ -28903,7 +28903,7 @@ class CountySeeder extends Seeder
             ]);
 			//Fars
 			//1487
-			//shiraz
+			//shiraz, kavar, sarvestan
             DB::table('counties')->insert([
 				'county_name' => 'Shiraz',
 				'county_category' => 'Feudal_Manor',
@@ -28914,7 +28914,7 @@ class CountySeeder extends Seeder
 				'vernacular_culture' => 'Persian',
 				'current_culture' => 'Persian',
 				'banal_moulin' => 'Windmill',
-				'banal_pressoir' => 'Sweetener_Date',
+				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => null,
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Palfrey',
@@ -28922,7 +28922,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1488
-			//fasa
+			//fasa, zahedan, sarvestan
             DB::table('counties')->insert([
 				'county_name' => 'Fasa',
 				'county_category' => 'Feudal_Manor',
@@ -28940,8 +28940,27 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
+			//1489
+			//darab, paskhan
+            DB::table('counties')->insert([
+				'county_name' => 'Fasa',
+				'county_category' => 'Feudal_Manor',
+				'de_jure_duchy' => '335',
+				'vernacular_religion' => 'Muslim_Shia',
+				'current_religion' => 'Muslim_Shia',
+				'vernacular_cycle' => 'Matter_Persia',
+				'vernacular_culture' => 'Persian',
+				'current_culture' => 'Persian',
+				'banal_moulin' => 'Windmill',
+				'banal_pressoir' => 'Sweetener_Date',
+				'banal_chasse' => null,
+				'marke_crops' => null,
+				'marke_horse_transport' => 'Charger',
+				'marke_animal_husbandry' => 'Sheep',
+				'marke_poultry' => 'Chickens'
+            ]);
 			//Daylam
-			//
+			//1490
 			//gorgan, abaskun
             DB::table('counties')->insert([
 				'county_name' => 'Gorgan',
@@ -28960,8 +28979,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//amol
+			//1491
+			//amol, verne
             DB::table('counties')->insert([
 				'county_name' => 'Amol',
 				'county_category' => 'Feudal_Manor',
@@ -28981,7 +29000,7 @@ class CountySeeder extends Seeder
             ]);
 			//Hormuz
 			//Hormuz
-			//
+			//1492
 			//hormuz
             DB::table('counties')->insert([
 				'county_name' => 'Hormuz',
