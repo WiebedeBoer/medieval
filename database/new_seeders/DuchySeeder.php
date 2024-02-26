@@ -4364,7 +4364,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//326
-			//Bolghar, Bilar
+			//Bolghar, Suar, Bilar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tatar',
 				'duchy_category' => 'Feudal_Estate',
@@ -4405,9 +4405,9 @@ class DuchySeeder extends Seeder
             ]);
 			//Cumania
 			//329
-			//Sighnaq,
+			//Sighnaq, Sozak
             DB::table('duchies')->insert([
-				'duchy_name' => 'Sighnaq',
+				'duchy_name' => 'Kazakh',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
@@ -4418,20 +4418,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//330
-			//Sozak,
-            DB::table('duchies')->insert([
-				'duchy_name' => 'Sozak',
-				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
-				'law_succession' => 'Shura',
-				'vernacular_architecture' => 'Adobe_Persian',
-				'law_court' => 'Palatial',
-				'vegetation' => 'Steppe',
-				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
-            ]);
-			//331
-			//Sibir, Ufa
+			//Sibir, Bashkor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sibir',
 				'duchy_category' => 'Feudal_Estate',
@@ -4445,7 +4432,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Seljuk
 			//Kwarezm
-			//332
+			//331
 			//Gurganj, Khorezm
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gurganj',
@@ -4458,7 +4445,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//333
+			//332
 			//Khiva, Durghan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khiva',
@@ -4471,7 +4458,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//334
+			//333
 			//Merv, Sarakhs, Bereket
             DB::table('duchies')->insert([
 				'duchy_name' => 'Merv',
@@ -4485,7 +4472,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Isfahan
-			//335
+			//334
 			//Isfahan, Kashan, Qom, Yazd, Karaj, Qazvin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Isfahan',
@@ -4498,7 +4485,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//336
+			//335
 			//Shiraz,
             DB::table('duchies')->insert([
 				'duchy_name' => 'Shiraz',
@@ -4512,7 +4499,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//Hormuz
-			//337
+			//336
 			//Hormuz, Minab, Bandar, Lengeh
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hormuz',
@@ -4525,7 +4512,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//338
+			//337
 			//Kerman, Bam, Rafsinjan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kerman',

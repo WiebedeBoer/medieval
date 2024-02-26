@@ -807,7 +807,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Sarai'
             ]);
 			//Cumania
-			//Sighnaq, Sozak, Sibir
+			//Kazakh, Sibir
 			//64
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Cumania',
