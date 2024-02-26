@@ -4329,7 +4329,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aqtobe',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '62',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4342,7 +4342,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sarkel',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '62',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4355,7 +4355,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khazaran',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '62',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4368,7 +4368,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tatar',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '62',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4382,7 +4382,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Derbent',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '63',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4395,7 +4395,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alania',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '63',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4409,7 +4409,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kazakh',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '64',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4422,7 +4422,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sibir',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '64',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4437,7 +4437,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gurganj',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '65',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4450,7 +4450,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khiva',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '65',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4463,7 +4463,7 @@ class DuchySeeder extends Seeder
             DB::table('duchies')->insert([
 				'duchy_name' => 'Merv',
 				'duchy_category' => 'Feudal_Estate',
-				'de_jure_kingdom' => '',
+				'de_jure_kingdom' => '65',
 				'law_succession' => 'Shura',
 				'vernacular_architecture' => 'Adobe_Persian',
 				'law_court' => 'Palatial',
@@ -4475,7 +4475,7 @@ class DuchySeeder extends Seeder
 			//334
 			//Isfahan, Kashan, Qom, Yazd, Karaj, Qazvin
             DB::table('duchies')->insert([
-				'duchy_name' => 'Isfahan',
+				'duchy_name' => 'Jibal',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
@@ -4488,7 +4488,7 @@ class DuchySeeder extends Seeder
 			//335
 			//Shiraz,
             DB::table('duchies')->insert([
-				'duchy_name' => 'Shiraz',
+				'duchy_name' => 'Fars',
 				'duchy_category' => 'Feudal_Estate',
 				'de_jure_kingdom' => '',
 				'law_succession' => 'Shura',
@@ -4498,8 +4498,21 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//Hormuz
 			//336
+			//Gorgan, Amol
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Daylam',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '',
+				'law_succession' => 'Shura',
+				'vernacular_architecture' => 'Adobe_Persian',
+				'law_court' => 'Palatial',
+				'vegetation' => 'Mediterranean_Woodland',
+				'transport' => 'Donkey_Train',
+				'altitude' => 'Montane'
+            ]);
+			//Hormuz
+			//337
 			//Hormuz, Minab, Bandar, Lengeh
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hormuz',
@@ -4512,7 +4525,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Camel_Caravan',
 				'altitude' => 'Montane'
             ]);
-			//337
+			//338
 			//Kerman, Bam, Rafsinjan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kerman',

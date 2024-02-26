@@ -832,7 +832,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Sarai'
             ]);
 			//Isfahan
-			//Isfahan, Shiraz
+			//Jibal, Fars, Daylam
 			//66
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Isfahan',
