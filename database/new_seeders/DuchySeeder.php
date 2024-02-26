@@ -4486,7 +4486,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane'
             ]);
 			//335
-			//Shiraz,
+			//Shiraz, Fasa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fars',
 				'duchy_category' => 'Feudal_Estate',

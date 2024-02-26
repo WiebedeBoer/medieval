@@ -28922,9 +28922,9 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//1488
-			//
+			//fasa
             DB::table('counties')->insert([
-				'county_name' => '',
+				'county_name' => 'Fasa',
 				'county_category' => 'Feudal_Manor',
 				'de_jure_duchy' => '335',
 				'vernacular_religion' => 'Muslim_Shia',

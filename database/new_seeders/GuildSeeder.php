@@ -34696,6 +34696,16 @@ class GuildSeeder extends Seeder
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
+			'guild_name' => 'Drapers Guild of Shiraz',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Draper',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '335',
+			'county' => '1487',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of ',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
@@ -34703,6 +34713,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '335',
 			'county' => '',
+			'hundred' => ''
+		]);
+		//
+		//
+		DB::table('guilds')->insert([
+			'guild_name' => 'Drapers Guild of Fasa',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Draper',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '335',
+			'county' => '1488',
 			'hundred' => ''
 		]);
 		//Daylam
