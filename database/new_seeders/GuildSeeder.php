@@ -54,53 +54,53 @@ class GuildSeeder extends Seeder
 		//
 		//												(328)
 		//Royal_Court & (Empire):						Court		Empire						(19)
-		//Royal_Court & (!Empire):						Court		Major_Kingdom				(45)
+		//Royal_Court & (!Empire):						Court		Major_Kingdom				(51)
 		//Chancellery & (!Court) & (Church State):		Court		Church_Kingdom				(1)
 		//Chancellery & (!Court) & (Monastic State):	Court		Monastic_Kingdom			(1)
-		//Ducal_Court:									Court		Petty_Kingdom				(234)
-		//Chancellery & (!Court) & (Archbishop):		Court		Bishopric					(16)
+		//Ducal_Court:									Court		Petty_Kingdom				(236)
+		//Chancellery & (!Court) & (Archbishop):		Court		Bishopric					(18)
 		//Signoria:										Court		Republic					(14)
 		//
 		//												(152)
-		//Cathedral_School:								University	Scholar_Bishop				(114)
-		//Monastic_School:								University	Scholar_Monastic			(50)
+		//Cathedral_School:								University	Scholar_Bishop				(120)									*
+		//Monastic_School:								University	Scholar_Monastic			(52)									*
 		//
 		//												(769)													name:
-		//Guild_Potter:									Craft		Master_Potterer				(107)			Potterers
-		//Guild_Smith:									Craft		Master_Smith				(88)			Cutlers
-		//Guild_Tanner:									Craft		Master_Tanner				(123)			Skinners
-		//Guild_Furrier:								Craft		Master_Furrier				(15)			Furriers
-		//Guild_Silk:									Craft		Master_Silk_Weaver			(50)			Silk Weavers
-		//Guild_Cloth:									Craft		Master_Draper				(38)			Drapers
-		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad			(58)			Dyers
-		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes			(28)			Dyers
-		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(10)			Dyers
-		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron			(37)			Dyers
-		//Guild_Perfume_Lavender:						Craft		Master_Perfumer_Lavender	(80)			Perfumers
-		//Guild_Perfume_Incense:						Craft		Master_Perfumer_Incense		(12)			Perfumers
-		//Guild_Perfume_Rose:							Craft		Master_Perfumer_Rose		(7)				Perfumers
-		//Guild_Perfume_Cedar:							Craft		Master_Perfumer_Cedar		(4)				Perfumers
+		//Guild_Potter:									Craft		Master_Potterer				(113)			Potterers				*
+		//Guild_Smith:									Craft		Master_Smith				(90)			Cutlers					*
+		//Guild_Tanner:									Craft		Master_Tanner				(124)			Skinners				*
+		//Guild_Furrier:								Craft		Master_Furrier				(20)			Furriers				*
+		//Guild_Silk:									Craft		Master_Silk_Weaver			(52)			Silk Weavers			*
+		//Guild_Cloth:									Craft		Master_Draper				(41)			Drapers					*
+		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad			(58)			Dyers					*
+		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes			(28)			Dyers					*
+		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(10)			Dyers					*
+		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron			(37)			Dyers					*
+		//Guild_Perfume_Lavender:						Craft		Master_Perfumer_Lavender	(80)			Perfumers				*
+		//Guild_Perfume_Incense:						Craft		Master_Perfumer_Incense		(12)			Perfumers				*
+		//Guild_Perfume_Rose:							Craft		Master_Perfumer_Rose		(11)			Perfumers				*
+		//Guild_Perfume_Cedar:							Craft		Master_Perfumer_Cedar		(4)				Perfumers				*
 		//
-		//Arsenal:										Craft		Master_Mariner				(99)			Mariners
-		//Armoury_Mill:									Craft		Master_Platner				(32)			Platners
-		//Armoury:										Craft		Master_Armorer				(138)			Armorers
+		//Arsenal:										Craft		Master_Mariner				(99)			Mariners				*
+		//Armoury_Mill:									Craft		Master_Platner				(32)			Platners				*
+		//Armoury:										Craft		Master_Armorer				(139)			Armorers				*
 		//
-		//Guild_Thatcher:								Craft		Master_Thatcher				(17)			Thatchers
-		//Guild_Joiner:									Craft		Master_Joiner				(19)			Joiners
-		//Guild_Miller:									Craft		Master_Miller				(87)			Millers
-		//Guild_Fuller:									Craft		Master_Fuller				(74)			Fullers
-		//Guild_Vintner:								Craft		Master_Vintner				(61)			Vintners
-		//Guild_Cheesemonger:							Craft		Master_Cheesemonger			(39)			Cheesemongers
-		//Guild_Chandler:								Craft		Master_Chandler				(29)			Chandlers
-		//Guild_Ironworks:								Craft		Master_Ironmonger			(43)			Forge
+		//Guild_Thatcher:								Craft		Master_Thatcher				(17)			Thatchers				*
+		//Guild_Joiner:									Craft		Master_Joiner				(18)			Joiners					*
+		//Guild_Miller:									Craft		Master_Miller				(87)			Millers					*
+		//Guild_Fuller:									Craft		Master_Fuller				(76)			Fullers					*
+		//Guild_Vintner:								Craft		Master_Vintner				(62)			Vintners				*
+		//Guild_Cheesemonger:							Craft		Master_Cheesemonger			(39)			Cheesemongers			*
+		//Guild_Chandler:								Craft		Master_Chandler				(29)			Chandlers				*
+		//Guild_Ironworks:								Craft		Master_Ironmonger			(43)			Forge					*
 		//
 		//												(1079)
-		//Tiltyard:										Feast		Tournament					(562)
-		//Trade_Fair:									Feast		Fair						(293)
-		//Coaching_Inn:									Feast		Tavern						(195)
-		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(64)
-		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(92)
-		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer				(19)
+		//Tiltyard:										Feast		Tournament					(570)			Tourney:	570			558 haifa?
+		//Trade_Fair:									Feast		Fair						(298)			Fairs:		298			293?
+		//Coaching_Inn:									Feast		Tavern						(194)			Inns:		194			217?
+		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(64)			Hunting:	176			*
+		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(93)									*
+		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer				(20)									*
 		*/
 		
 		//faiths
@@ -20258,9 +20258,9 @@ class GuildSeeder extends Seeder
 		//Halland
 		//Falkenberg
 		DB::table('guilds')->insert([
-			'guild_name' => 'Inn',
+			'guild_name' => 'Forest of Falkenberg',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tavern',
+			'guild_subcategory' => 'Hunt_Falconer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '134',
@@ -22826,7 +22826,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Armorers Guild of Vezprem',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Joiner',
+			'guild_subcategory' => 'Master_Armorer',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '165',
@@ -23491,7 +23491,7 @@ class GuildSeeder extends Seeder
 		//Szeben
 		//Nagydisznod
 		DB::table('guilds')->insert([
-			'guild_name' => 'Furriers Guild of Nagydisznod',
+			'guild_name' => 'Cutlers Guild of Nagydisznod',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Smith',
 			'empire' => null,
@@ -23502,9 +23502,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Nagyszeben
 		DB::table('guilds')->insert([
-			'guild_name' => 'Skinners Guild of Nagyszeben',
+			'guild_name' => 'Cutlers Guild of Nagyszeben',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Tanner',
+			'guild_subcategory' => 'Master_Smith',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '170',
@@ -26339,6 +26339,16 @@ class GuildSeeder extends Seeder
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Caesarea',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '213',
+			'county' => '1095',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Caesarea',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
@@ -28597,6 +28607,17 @@ class GuildSeeder extends Seeder
 			'county' => null,
 			'hundred' => ''
 		]);
+		//Ubrique
+		DB::table('guilds')->insert([
+			'guild_name' => 'Skinners Guild of Ubrique',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '258',
+			'county' => '1240',
+			'hundred' => ''
+		]);
 		//Jerez
 		//Jerez
 		DB::table('guilds')->insert([
@@ -30303,9 +30324,9 @@ class GuildSeeder extends Seeder
 		]);
 		//Favanella
 		DB::table('guilds')->insert([
-			'guild_name' => 'Millers Guild of Favanella',
+			'guild_name' => 'Fullers Guild of Favanella',
 			'guild_category' => 'Craft',
-			'guild_subcategory' => 'Master_Miller',
+			'guild_subcategory' => 'Master_Fuller',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
@@ -32817,6 +32838,18 @@ class GuildSeeder extends Seeder
 			'county' => '1409',
 			'hundred' => ''
 		]);
+		//Turaif
+		//Muzahmiyya
+		DB::table('guilds')->insert([
+			'guild_name' => 'Millers Guild of Muzahmiyya',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Miller',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '305',
+			'county' => '1410',
+			'hundred' => ''
+		]);
 		//Khatt
 		//Uqair
 		//Uqair
@@ -33543,6 +33576,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Perfumers Guild of Taif',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Incense',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '320',
+			'county' => '1449',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Taif',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '320',
