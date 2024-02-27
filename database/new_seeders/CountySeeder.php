@@ -29001,7 +29001,7 @@ class CountySeeder extends Seeder
 			//Hormuz
 			//Hormuz
 			//1492
-			//hormuz
+			//hormuz, naderi, ramkan
             DB::table('counties')->insert([
 				'county_name' => 'Hormuz',
 				'county_category' => 'Feudal_Manor',
@@ -29015,12 +29015,12 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//minab
+			//1493
+			//minab, tirur, kargan
             DB::table('counties')->insert([
 				'county_name' => 'Minab',
 				'county_category' => 'Feudal_Manor',
@@ -29038,8 +29038,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
-			//
-			//bandar
+			//1494
+			//bandar, amaj, siba
             DB::table('counties')->insert([
 				'county_name' => 'Bandar',
 				'county_category' => 'Feudal_Manor',
@@ -29057,8 +29057,8 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
-			//lengeh
+			//1495
+			//lengeh, charak
             DB::table('counties')->insert([
 				'county_name' => 'Lengeh',
 				'county_category' => 'Feudal_Manor',
@@ -29077,7 +29077,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//Kerman
-			//
+			//1496
 			//kerman, mahan, baghin
             DB::table('counties')->insert([
 				'county_name' => 'Kerman',
@@ -29092,11 +29092,11 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => null,
 				'marke_crops' => 'Dye_Saffron',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1497
 			//bam, rayen
             DB::table('counties')->insert([
 				'county_name' => 'Bam',
@@ -29115,7 +29115,7 @@ class CountySeeder extends Seeder
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
             ]);
-			//
+			//1498
 			//rafsinjan, bayaz, kuhbanan, behabad
             DB::table('counties')->insert([
 				'county_name' => 'Rafsinjan',
