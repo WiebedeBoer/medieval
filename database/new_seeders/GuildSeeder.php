@@ -95,8 +95,8 @@ class GuildSeeder extends Seeder
 		//Guild_Ironworks:								Craft		Master_Ironmonger			(43)			Forge					*
 		//
 		//												(1079)
-		//Tiltyard:										Feast		Tournament					(570)			Tourney:	570			558 haifa?
-		//Trade_Fair:									Feast		Fair						(298)			Fairs:		298			293?
+		//Tiltyard:										Feast		Tournament					(575)			Tourney:	575			*
+		//Trade_Fair:									Feast		Fair						(296)			Fairs:		296			*
 		//Coaching_Inn:									Feast		Tavern						(194)			Inns:		194			217?
 		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(64)			Hunting:	176			*
 		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(93)									*
@@ -2336,7 +2336,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Innsbruck',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Fair',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '14',
@@ -2377,7 +2377,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Kufstein',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Fair',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '14',
@@ -4255,7 +4255,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Milano',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Fair',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '23',
@@ -14516,7 +14516,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Hereford',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Hereford',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '83',
@@ -21951,7 +21951,7 @@ class GuildSeeder extends Seeder
 		//Olkusz
 		//Olkusz
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of Wolbrom',
+			'guild_name' => 'Tournament of Olkusz',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
@@ -25889,7 +25889,7 @@ class GuildSeeder extends Seeder
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Carsamba',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '206',
@@ -27614,7 +27614,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '238',
-			'county' => '',
+			'county' => '1176',
 			'hundred' => ''
 		]);
 		//Gnezdovo
@@ -27831,19 +27831,20 @@ class GuildSeeder extends Seeder
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of Ladoga',
+			'guild_name' => 'Fair of Ladoga',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Tournament',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
 			'county' => '1189',
 			'hundred' => ''
 		]);
+		//Keksholm
 		DB::table('guilds')->insert([
-			'guild_name' => 'Fair of Ladoga',
+			'guild_name' => 'Tournament of Keksholm',
 			'guild_category' => 'Feast',
-			'guild_subcategory' => 'Fair',
+			'guild_subcategory' => 'Tournament',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
@@ -28849,6 +28850,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '260',
 			'county' => '1248',
+			'hundred' => ''
+		]);
+		//Baena
+		//Qasira
+		DB::table('guilds')->insert([
+			'guild_name' => 'Tournament of Qasira',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '260',
+			'county' => '1249',
 			'hundred' => ''
 		]);
 		//Cordobesa
@@ -33257,7 +33270,7 @@ class GuildSeeder extends Seeder
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of ',
+			'guild_name' => 'Tournament of Asyut',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,

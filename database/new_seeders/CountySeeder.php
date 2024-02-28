@@ -26344,7 +26344,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => null,
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
             ]);
@@ -27745,7 +27745,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',
 				'banal_chasse' => null,
 				'marke_crops' => 'Fiber_Cotton',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
@@ -27823,7 +27823,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Sweetener_Sugarcane',
 				'banal_chasse' => null,
 				'marke_crops' => 'Fiber_Cotton',
-				'marke_horse_transport' => 'Palfrey',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
             ]);
