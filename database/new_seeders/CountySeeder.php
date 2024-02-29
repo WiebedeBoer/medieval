@@ -200,11 +200,11 @@ class CountySeeder extends Seeder
 			//marke_crops:											type:						amount:
 			//(Perfume; Incense)									Perfume_Incense				(10)
 			//(Perfume; Lavender)									Perfume_Lavender			(58)
-			//(Perfume; Rose)										Perfume_Rose				(6)
-			//(Perfume; Cedar)										Perfume_Cedar				(4)
+			//(Perfume; Rose)										Perfume_Rose				(7)
+			//(Perfume; Cedar)										Perfume_Cedar				(10)
 			//(Textile) & (Sails) & (Oil; Linseed)					Fiber_Flax					(61)
 			//(Textile) & (Sails)									Fiber_Hemp					(18)
-			//(Textile)												Fiber_Cotton				(23)
+			//(Textile)												Fiber_Cotton				(22)
 			//(Textile) & (Silk)									Fiber_Silk					(37)
 			//(Dye; Yellow) & (Spices)								Dye_Saffron					(32)
 			//(Dye; Yellow)											Dye_Madder					(8)
@@ -20953,7 +20953,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -21283,7 +21283,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -21593,7 +21593,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -27217,7 +27217,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -27236,7 +27236,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -27490,7 +27490,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Olive_Oil',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Chickens'
@@ -27783,7 +27783,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Sweetener_Sugarcane',
 				'banal_chasse' => null,
-				'marke_crops' => 'Fiber_Cotton',
+				'marke_crops' => 'Perfume_Rose',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'

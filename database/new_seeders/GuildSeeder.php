@@ -78,8 +78,8 @@ class GuildSeeder extends Seeder
 		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron			(37)			Dyers					
 		//Guild_Perfume_Lavender:						Craft		Master_Perfumer_Lavender	(80)			Perfumers				
 		//Guild_Perfume_Incense:						Craft		Master_Perfumer_Incense		(12)			Perfumers				
-		//Guild_Perfume_Rose:							Craft		Master_Perfumer_Rose		(11)			Perfumers				
-		//Guild_Perfume_Cedar:							Craft		Master_Perfumer_Cedar		(4)				Perfumers				
+		//Guild_Perfume_Rose:							Craft		Master_Perfumer_Rose		(13)			Perfumers				
+		//Guild_Perfume_Cedar:							Craft		Master_Perfumer_Cedar		(12)			Perfumers				
 		//
 		//Arsenal:										Craft		Master_Mariner				(99)			Mariners				
 		//Armoury_Mill:									Craft		Master_Platner				(32)			Platners				
@@ -25916,6 +25916,16 @@ class GuildSeeder extends Seeder
 			'county' => '1077',
 			'hundred' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Sebasteia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '206',
+			'county' => '1077',
+			'hundred' => ''
+		]);
 		//Amisos
 		//Carsamba
 		DB::table('guilds')->insert([
@@ -26326,11 +26336,31 @@ class GuildSeeder extends Seeder
 			'county' => '1094',
 			'hundred' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Laranda',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '212',
+			'county' => '1094',
+			'hundred' => ''
+		]);
 		//Sidivre
 		DB::table('guilds')->insert([
 			'guild_name' => 'Inn',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '212',
+			'county' => '1094',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Sidivre',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '212',
@@ -26726,6 +26756,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Attaleia',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '218',
+			'county' => '1110',
+			'hundred' => ''
+		]);
+		//Cibyrrha
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Cibyrrha',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '218',
@@ -32712,12 +32753,33 @@ class GuildSeeder extends Seeder
 			'county' => '1399',
 			'hundred' => ''
 		]);
+		//Jubail
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Jubail',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '302',
+			'county' => '1399',
+			'hundred' => ''
+		]);
 		//Beirut
 		//Beirut
 		DB::table('guilds')->insert([
 			'guild_name' => 'Tournament of Beirut',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '302',
+			'county' => '1400',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Beirut',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
@@ -32744,6 +32806,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '302',
 			'county' => '1400',
+			'hundred' => ''
+		]);
+		//Sidon
+		//Sidon
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Sidon',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '302',
+			'county' => '1401',
 			'hundred' => ''
 		]);
 		//Tyre
@@ -33003,6 +33077,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '307',
 			'county' => '1413',
+			'hundred' => ''
+		]);
+		//Alexandretta
+		//Alexandretta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Alexandretta',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '307',
+			'county' => '1414',
 			'hundred' => ''
 		]);
 		//Mudar
@@ -33286,6 +33372,16 @@ class GuildSeeder extends Seeder
 			'county' => '1429',
 			'hundred' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Minya',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Rose',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '313',
+			'county' => '1429',
+			'hundred' => ''
+		]);	
 		//Mallawi
 		//Mallawi
 		DB::table('guilds')->insert([
