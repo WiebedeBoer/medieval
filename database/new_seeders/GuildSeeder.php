@@ -62,7 +62,7 @@ class GuildSeeder extends Seeder
 		//Signoria:										Court		Republic					(14)
 		//
 		//												(152)
-		//Cathedral_School:								University	Scholar_Bishop				(120)									
+		//Cathedral_School:								University	Scholar_Bishop				(121)									
 		//Monastic_School:								University	Scholar_Monastic			(52)									
 		//
 		//												(769)													name:
@@ -79,7 +79,7 @@ class GuildSeeder extends Seeder
 		//Guild_Perfume_Lavender:						Craft		Master_Perfumer_Lavender	(80)			Perfumers				
 		//Guild_Perfume_Incense:						Craft		Master_Perfumer_Incense		(12)			Perfumers				
 		//Guild_Perfume_Rose:							Craft		Master_Perfumer_Rose		(13)			Perfumers				
-		//Guild_Perfume_Cedar:							Craft		Master_Perfumer_Cedar		(12)			Perfumers				
+		//Guild_Perfume_Cedar:							Craft		Master_Perfumer_Cedar		(15)			Perfumers				
 		//
 		//Arsenal:										Craft		Master_Mariner				(99)			Mariners				
 		//Armoury_Mill:									Craft		Master_Platner				(32)			Platners				
@@ -97,7 +97,7 @@ class GuildSeeder extends Seeder
 		//												(1079)
 		//Tiltyard:										Feast		Tournament					(575)			Tourney:	575			
 		//Trade_Fair:									Feast		Fair						(296)			Fairs:		296			
-		//Coaching_Inn:									Feast		Tavern						(217)			Inns:		217			
+		//Coaching_Inn:									Feast		Tavern						(218)			Inns:		218			
 		//Hunting_Lodge_Boar:							Feast		Hunt_Boar					(64)			Hunting:	177			
 		//Hunting_Lodge_Deer:							Feast		Hunt_Deer					(93)									
 		//Hunting_Lodge_Hare:							Feast		Hunt_Falconer				(20)									
@@ -25918,6 +25918,59 @@ class GuildSeeder extends Seeder
 		]);
 		DB::table('guilds')->insert([
 			'guild_name' => 'Perfumers Guild of Sebasteia',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '206',
+			'county' => '1077',
+			'hundred' => ''
+		]);
+		//Maras
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Maras',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '206',
+			'county' => '1077',
+			'hundred' => ''
+		]);
+		//Melitene
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Melitene',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Perfumer_Cedar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '206',
+			'county' => '1077',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'University of Melitene',
+			'guild_category' => 'University',
+			'guild_subcategory' => 'Scholar_Bishop',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '206',
+			'county' => '1077',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '206',
+			'county' => '1077',
+			'hundred' => ''
+		]);	
+		//Ablasta
+		DB::table('guilds')->insert([
+			'guild_name' => 'Perfumers Guild of Ablasta',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Perfumer_Cedar',
 			'empire' => null,

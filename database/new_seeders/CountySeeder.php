@@ -201,7 +201,7 @@ class CountySeeder extends Seeder
 			//(Perfume; Incense)									Perfume_Incense				(10)
 			//(Perfume; Lavender)									Perfume_Lavender			(58)
 			//(Perfume; Rose)										Perfume_Rose				(7)
-			//(Perfume; Cedar)										Perfume_Cedar				(10)
+			//(Perfume; Cedar)										Perfume_Cedar				(11)
 			//(Textile) & (Sails) & (Oil; Linseed)					Fiber_Flax					(61)
 			//(Textile) & (Sails)									Fiber_Hemp					(18)
 			//(Textile)												Fiber_Cotton				(22)
@@ -27339,7 +27339,7 @@ class CountySeeder extends Seeder
             ]);
 			//Bakr
 			//1407
-			//amida, zuqnin, yedi, keci, karahan
+			//amida, zuqnin, yedi, keci, karahan, maras, melitene, ablasta
             DB::table('counties')->insert([
 				'county_name' => 'Amida',
 				'county_category' => 'Feudal_Manor',
@@ -27352,7 +27352,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Sweetener_Honey',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Perfume_Cedar',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
