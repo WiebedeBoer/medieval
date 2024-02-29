@@ -74,7 +74,7 @@ class GuildSeeder extends Seeder
 		//Guild_Cloth:									Craft		Master_Draper				(41)			Drapers					
 		//Guild_Dyer_Woad:								Craft		Master_Dyer_Woad			(59)			Dyers					
 		//Guild_Dyer_Kermes:							Craft		Master_Dyer_Kermes			(40)			Dyers					
-		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(10)			Dyers					
+		//Guild_Dyer_Madder:							Craft		Master_Dyer_Madder			(17)			Dyers					
 		//Guild_Dyer_Saffron:							Craft		Master_Dyer_Saffron			(36)			Dyers					
 		//Guild_Perfume_Lavender:						Craft		Master_Perfumer_Lavender	(80)			Perfumers				
 		//Guild_Perfume_Incense:						Craft		Master_Perfumer_Incense		(12)			Perfumers				
@@ -1393,11 +1393,32 @@ class GuildSeeder extends Seeder
 			'county' => '50',
 			'hundred' => ''
 		]);
+		//Vlaardingen
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Vlaardingen',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '50',
+			'hundred' => ''
+		]);
 		//Rotterdam
 		DB::table('guilds')->insert([
 			'guild_name' => 'Fair of Rotterdam',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Fair',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '50',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Rotterdam',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '7',
@@ -1512,8 +1533,8 @@ class GuildSeeder extends Seeder
 			'guild_subcategory' => 'Master_Draper',
 			'empire' => null,
 			'kingdom' => null,
-			'duchy' => '',
-			'county' => '',
+			'duchy' => '7',
+			'county' => '55',
 			'hundred' => ''
 		]);
 		//Haag
@@ -1630,6 +1651,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '7',
 			'county' => '62',
+			'hundred' => ''
+		]);
+		//Walcheren
+		//Middelburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Middelburg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '7',
+			'county' => '63',
 			'hundred' => ''
 		]);
 		//Westergau
@@ -2693,6 +2726,17 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Skinners Guild of Strassburg',
 			'guild_category' => 'Craft',
 			'guild_subcategory' => 'Master_Tanner',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '15',
+			'county' => '114',
+			'hundred' => ''
+		]);
+		//Hohenburg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Hohenburg',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '15',
@@ -3957,6 +4001,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '20',
 			'county' => '169',
+			'hundred' => ''
+		]);
+		//Speyergau
+		//Speyer
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Speyer',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '20',
+			'county' => '170',
 			'hundred' => ''
 		]);
 		//Wettergau
@@ -10657,6 +10713,17 @@ class GuildSeeder extends Seeder
 			'hundred' => ''
 		]);
 		//Senlis
+		//Senlis
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Senlis',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '64',
+			'county' => '448',
+			'hundred' => ''
+		]);
 		//Compiegne
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Compiegne',
@@ -32146,6 +32213,18 @@ class GuildSeeder extends Seeder
 			'kingdom' => null,
 			'duchy' => '284',
 			'county' => '1349',
+			'hundred' => ''
+		]);
+		//Cyrene
+		//Cyrene
+		DB::table('guilds')->insert([
+			'guild_name' => 'Dyers Guild of Cyrene',
+			'guild_category' => 'Craft',
+			'guild_subcategory' => 'Master_Dyer_Madder',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '284',
+			'county' => '1350',
 			'hundred' => ''
 		]);
 		//Kingdom of Tlemcen

@@ -207,7 +207,7 @@ class CountySeeder extends Seeder
 			//(Textile)												Fiber_Cotton				(22)
 			//(Textile) & (Silk)									Fiber_Silk					(37)
 			//(Dye; Yellow) & (Spices)								Dye_Saffron					(32)
-			//(Dye; Yellow)											Dye_Madder					(8)
+			//(Dye; Yellow)											Dye_Madder					(14)
 			//(Dye; Blue)											Dye_Woad					(38)
 			//(Dye; Red)											Dye_Kermes					(34)
 			//
@@ -1132,7 +1132,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//47
-			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede,waalwick, besoyen
+			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede, waalwick, besoyen
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal_Manor',
@@ -1202,7 +1202,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Windmill',
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Ducks'
@@ -1449,7 +1449,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -2426,7 +2426,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -3495,7 +3495,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -8828,7 +8828,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
 				'banal_chasse' => 'Deer',
-				'marke_crops' => null,
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
@@ -26244,7 +26244,7 @@ class CountySeeder extends Seeder
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Sweetener_Date',
 				'banal_chasse' => null,
-				'marke_crops' => null,
+				'marke_crops' => 'Dye_Madder',
 				'marke_horse_transport' => 'Palfrey',
 				'marke_animal_husbandry' => 'Goats',
 				'marke_poultry' => 'Chickens'
