@@ -292,7 +292,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//3
-			//vienna, klosterneuburg, kreuzenstein
+			//vienna, klosterneuburg, kreuzenstein, korneuburg, purchartesdorf
             DB::table('counties')->insert([
 				'county_name' => 'Vienna',
 				'county_category' => 'Feudal_Manor',
@@ -304,7 +304,7 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Bavarian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => null,
+				'banal_chasse' => 'Boar',
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
@@ -555,7 +555,7 @@ class CountySeeder extends Seeder
 				'banal_pressoir' => 'Beverage_Hops',
 				'banal_chasse' => 'Deer',
 				'marke_crops' => null,
-				'marke_horse_transport' => 'Affer',
+				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Sheep',
 				'marke_poultry' => 'Ducks'
             ]);
@@ -10715,7 +10715,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//547
-			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, stepney, westminster, clerkenwell, twickenham
+			//london, ruislip, kensington, finsbury, paddington, hampstead, hackney, stepney, westminster, clerkenwell, twickenham, southwark
             DB::table('counties')->insert([
 				'county_name' => 'Middlesex',
 				'county_category' => 'Feudal_Manor',
@@ -11521,7 +11521,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//589
-			//winchester, southampton
+			//winchester, southampton, hyde
             DB::table('counties')->insert([
 				'county_name' => 'Hampshire',
 				'county_category' => 'Feudal_Manor',
