@@ -324,7 +324,7 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Bavarian',
 				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => null,
-				'banal_chasse' => null,
+				'banal_chasse' => 'Boar',
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Sumpter',
 				'marke_animal_husbandry' => 'Pigs',
@@ -1398,7 +1398,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//61
-			//elburg, harderwick, barnefeld, scherpenzeel, koldenhof, hall, woest hoef
+			//elburg, harderwick, barnefeld, scherpenzeel, koldenhof, hall, woest hoef, apeldoorn
             DB::table('counties')->insert([
 				'county_name' => 'Veluwe',
 				'county_category' => 'Feudal_Manor',
