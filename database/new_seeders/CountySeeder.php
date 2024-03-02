@@ -1132,7 +1132,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//47
-			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede, waalwick, besoyen
+			//dordrecht, gouda, zuidewyn, ridderkerk, waarderhof, merwede, waalwick, besoyen, almkerk, dussen
             DB::table('counties')->insert([
 				'county_name' => 'Holtland',
 				'county_category' => 'Feudal_Manor',
