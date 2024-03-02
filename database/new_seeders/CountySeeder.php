@@ -1696,7 +1696,7 @@ class CountySeeder extends Seeder
 				'vernacular_cycle' => 'Matter_High_German',
 				'vernacular_culture' => 'Franconian',
 				'current_culture' => 'Franconian',
-				'banal_moulin' => 'Horse_Mill',
+				'banal_moulin' => 'Watermill',
 				'banal_pressoir' => 'Beverage_Cider',
 				'banal_chasse' => null,
 				'marke_crops' => null,
@@ -1908,7 +1908,7 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Franconian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => 'Beverage_Wine',
-				'banal_chasse' => null,
+				'banal_chasse' => 'Deer',
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
@@ -1928,7 +1928,7 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Franconian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
-				'banal_chasse' => null,
+				'banal_chasse' => 'Boar',
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Charger',
 				'marke_animal_husbandry' => 'Cattle',
@@ -1966,14 +1966,14 @@ class CountySeeder extends Seeder
 				'current_culture' => 'Franconian',
 				'banal_moulin' => 'Horse_Mill',
 				'banal_pressoir' => null,
-				'banal_chasse' => null,
+				'banal_chasse' => 'Boar',
 				'marke_crops' => null,
 				'marke_horse_transport' => 'Affer',
 				'marke_animal_husbandry' => 'Cattle',
 				'marke_poultry' => 'Chickens'
             ]);
 			//91
-			//verdun, recicourt
+			//verdun, recicourt, chauvency
             DB::table('counties')->insert([
 				'county_name' => 'Verdungau',
 				'county_category' => 'Feudal_Manor',

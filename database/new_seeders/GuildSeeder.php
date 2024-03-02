@@ -2138,6 +2138,16 @@ class GuildSeeder extends Seeder
 			'county' => '80',
 			'hundred' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '10',
+			'county' => '80',
+			'hundred' => ''
+		]);
 		//Valkenburg
 		DB::table('guilds')->insert([
 			'guild_name' => 'Forest of Raven',
@@ -2172,6 +2182,16 @@ class GuildSeeder extends Seeder
 			'county' => '81',
 			'hundred' => ''
 		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '11',
+			'county' => '81',
+			'hundred' => ''
+		]);
 		//Chaumontois
 		//Luneville
 		DB::table('guilds')->insert([
@@ -2190,6 +2210,16 @@ class GuildSeeder extends Seeder
 			'guild_name' => 'Tournament of Sarrebourg',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '11',
+			'county' => '84',
+			'hundred' => ''
+		]);
+		DB::table('guilds')->insert([
+			'guild_name' => 'Fair of Sarrebourg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Fair',
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '11',
@@ -2220,6 +2250,17 @@ class GuildSeeder extends Seeder
 			'hundred' => ''
 		]);
 		//Toullois
+		//Toul
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Lorraine',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Falconer',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '11',
+			'county' => '87',
+			'hundred' => ''
+		]);
 		//Nancy
 		DB::table('guilds')->insert([
 			'guild_name' => 'Court of Lorraine',
@@ -2264,6 +2305,52 @@ class GuildSeeder extends Seeder
 			'county' => '88',
 			'hundred' => ''
 		]);
+		//Bettembourg
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Bettembourg',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '12',
+			'county' => '88',
+			'hundred' => ''
+		]);
+		//Barrois
+		//Ligny
+		DB::table('guilds')->insert([
+			'guild_name' => 'Inn',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Tavern',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '12',
+			'county' => '89',
+			'hundred' => ''
+		]);
+		//Moselgau
+		//Sedan
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Sedan',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '12',
+			'county' => '90',
+			'hundred' => ''
+		]);
+		//Mouzon
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Sedan',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '12',
+			'county' => '90',
+			'hundred' => ''
+		]);
 		//Verdungau
 		//Verdun
 		DB::table('guilds')->insert([
@@ -2276,9 +2363,20 @@ class GuildSeeder extends Seeder
 			'county' => '91',
 			'hundred' => ''
 		]);
+		//Recicourt
+		DB::table('guilds')->insert([
+			'guild_name' => 'Forest of Argonne',
+			'guild_category' => 'Feast',
+			'guild_subcategory' => 'Hunt_Boar',
+			'empire' => null,
+			'kingdom' => null,
+			'duchy' => '12',
+			'county' => '91',
+			'hundred' => ''
+		]);
 		//Chauvency
 		DB::table('guilds')->insert([
-			'guild_name' => 'Tournament of Verdun',
+			'guild_name' => 'Tournament of Chauvency',
 			'guild_category' => 'Feast',
 			'guild_subcategory' => 'Tournament',
 			'empire' => null,
