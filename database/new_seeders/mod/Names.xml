@@ -265,15 +265,54 @@
     <title>Aragonese</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Aragon</surname>
+        <surname>Barcelona</surname>
+        <surname>Jimenez</surname>
+        <surname>Pamplona</surname>
+        <surname>Moncada</surname>
+        <surname>Urgell</surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
         <surname></surname>
         <surname></surname>
     </surnames>
@@ -397,16 +436,58 @@
     <title>Arpitan</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abelard</forename>
+            <forename>Bohemond</forename>
+            <forename>Carloman</forename>
+            <forename>Charles</forename>
+            <forename>Claude</forename>
+            <forename>Clotaire</forename>
+            <forename>Clovis</forename>
+            <forename>Dagobert</forename>
+            <forename>Drogo</forename>
+            <forename>Eudes</forename>
+            <forename>Francois</forename>
+            <forename>Guillaume</forename>
+            <forename>Henri</forename>
+            <forename>Hugues</forename>
+            <forename>Jean</forename>
+            <forename>Lothaire</forename>
+            <forename>Louis</forename>
+            <forename>Odo</forename>
+            <forename>Onfroi</forename>
+            <forename>Pepin</forename>
+            <forename>Philippe</forename>
+            <forename>Pierre</forename>
+            <forename>Raoul</forename>
+            <forename>Richard</forename>
+            <forename>Robert</forename>
+            <forename>Roger</forename>
+            <forename>Simon</forename>
+            <forename>Tancrede</forename>
+            <forename>Thierry</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelaide</forename>
+            <forename>Anne</forename>
+            <forename>Beatrice</forename>
+            <forename>Bertrade</forename>
+            <forename>Blanche</forename>
+            <forename>Constance</forename>
+            <forename>Eleanore</forename>
+            <forename>Emma</forename>
+            <forename>Ermentrude</forename>
+            <forename>Francoise</forename>
+            <forename>Gerberga</forename>
+            <forename>Germaine</forename>
+            <forename>Isabella</forename>
+            <forename>Jeanne</forename>
+            <forename>Marguerite</forename>
+            <forename>Maria</forename>
+            <forename>Richilde</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
+        <surname>Burgundy</surname>
         <surname></surname>
     </surnames>
     <nicknames>
@@ -463,12 +544,42 @@
     <title>Asturian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -710,12 +821,52 @@
     <title>Breton</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abelard</forename>
+            <forename>Carloman</forename>
+            <forename>Charles</forename>
+            <forename>Claude</forename>
+            <forename>Clotaire</forename>
+            <forename>Clovis</forename>
+            <forename>Dagobert</forename>
+            <forename>Drogo</forename>
+            <forename>Eudes</forename>
+            <forename>Francois</forename>
+            <forename>Guillaume</forename>
+            <forename>Henri</forename>
+            <forename>Hugues</forename>
+            <forename>Jean</forename>
+            <forename>Lothaire</forename>
+            <forename>Louis</forename>
+            <forename>Onfroi</forename>
+            <forename>Pepin</forename>
+            <forename>Philippe</forename>
+            <forename>Pierre</forename>
+            <forename>Raoul</forename>
+            <forename>Richard</forename>
+            <forename>Robert</forename>
+            <forename>Roger</forename>
+            <forename>Simon</forename>
+            <forename>Tancrede</forename>
+            <forename>Thierry</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelaide</forename>
+            <forename>Anne</forename>
+            <forename>Beatrice</forename>
+            <forename>Bertrade</forename>
+            <forename>Blanche</forename>
+            <forename>Constance</forename>
+            <forename>Eleanore</forename>
+            <forename>Emma</forename>
+            <forename>Ermentrude</forename>
+            <forename>Francoise</forename>
+            <forename>Gerberga</forename>
+            <forename>Germaine</forename>
+            <forename>Isabella</forename>
+            <forename>Jeanne</forename>
+            <forename>Marguerite</forename>
+            <forename>Maria</forename>
+            <forename>Richilde</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -908,15 +1059,52 @@
     <title>Castillian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Alvarez</surname>
+        <surname>Enriquez</surname>
+        <surname>Guzman</surname>
+        <surname>Oropesa</surname>
+        <surname>de Silva</surname>
+        <surname>Trastamara</surname>
+        <surname></surname>
         <surname></surname>
         <surname></surname>
     </surnames>
@@ -1318,6 +1506,7 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>Artois</surname>
         <surname>van Bokhoven</surname>
         <surname>van den Bosch</surname>
         <surname>van Gavere</surname>
@@ -1398,6 +1587,7 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>Bar</surname>
         <surname>Bentinck</surname>
 		<surname>Beyer</surname>
         <surname>van Boetselaer</surname>
@@ -1474,15 +1664,78 @@
     <title>Frankish</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abelard</forename>
+            <forename>Bohemond</forename>
+            <forename>Carloman</forename>
+            <forename>Charles</forename>
+            <forename>Claude</forename>
+            <forename>Clotaire</forename>
+            <forename>Clovis</forename>
+            <forename>Dagobert</forename>
+            <forename>Drogo</forename>
+            <forename>Eudes</forename>
+            <forename>Francois</forename>
+            <forename>Guillaume</forename>
+            <forename>Henri</forename>
+            <forename>Hugues</forename>
+            <forename>Jean</forename>
+            <forename>Lothaire</forename>
+            <forename>Louis</forename>
+            <forename>Odo</forename>
+            <forename>Onfroi</forename>
+            <forename>Pepin</forename>
+            <forename>Philippe</forename>
+            <forename>Pierre</forename>
+            <forename>Raoul</forename>
+            <forename>Richard</forename>
+            <forename>Robert</forename>
+            <forename>Roger</forename>
+            <forename>Simon</forename>
+            <forename>Tancrede</forename>
+            <forename>Thierry</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelaide</forename>
+            <forename>Anne</forename>
+            <forename>Beatrice</forename>
+            <forename>Bertrade</forename>
+            <forename>Blanche</forename>
+            <forename>Constance</forename>
+            <forename>Eleanore</forename>
+            <forename>Emma</forename>
+            <forename>Ermentrude</forename>
+            <forename>Francoise</forename>
+            <forename>Gerberga</forename>
+            <forename>Germaine</forename>
+            <forename>Isabella</forename>
+            <forename>Jeanne</forename>
+            <forename>Marguerite</forename>
+            <forename>Maria</forename>
+            <forename>Richilde</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>de Anjou</surname>
+        <surname>de Blois</surname>
+        <surname>Bourbon</surname>
+        <surname>Capet</surname>
+        <surname>de Champagne</surname>
+        <surname>de Dunois</surname>
+        <surname>de Evreux</surname>
+        <surname>de Lusignan</surname>
+        <surname>de Orleans</surname>
+        <surname>Plantagenet</surname>
+        <surname>de Poitiers</surname>
+        <surname>Valois</surname>
+        <surname>Vermandois</surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
+        <surname></surname>
         <surname></surname>
         <surname></surname>
     </surnames>
@@ -1795,12 +2048,42 @@
     <title>Galician</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -2231,15 +2514,47 @@
     <title>Leonese</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Leon</surname>
+        <surname></surname>
         <surname></surname>
         <surname></surname>
     </surnames>
@@ -2444,6 +2759,7 @@
         <surname>Bardi</surname>
         <surname>Boccaccio</surname>
         <surname>Este</surname>
+        <surname>Ivrea</surname>
         <surname>Machiavelli</surname>
         <surname>Medici</surname>
         <surname>Pazzi</surname>
@@ -2869,16 +3185,50 @@
     <title>Navarrese</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
+        <surname>Abarca</surname>
+        <surname>Garces</surname>
+        <surname>Iniguez</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
         <surname></surname>
     </surnames>
     <nicknames>
@@ -3001,17 +3351,59 @@
     <title>Norman</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abelard</forename>
+            <forename>Bohemond</forename>
+            <forename>Carloman</forename>
+            <forename>Charles</forename>
+            <forename>Claude</forename>
+            <forename>Clotaire</forename>
+            <forename>Clovis</forename>
+            <forename>Dagobert</forename>
+            <forename>Drogo</forename>
+            <forename>Eudes</forename>
+            <forename>Francois</forename>
+            <forename>Guillaume</forename>
+            <forename>Henri</forename>
+            <forename>Hugues</forename>
+            <forename>Jean</forename>
+            <forename>Lothaire</forename>
+            <forename>Louis</forename>
+            <forename>Odo</forename>
+            <forename>Onfroi</forename>
+            <forename>Pepin</forename>
+            <forename>Philippe</forename>
+            <forename>Pierre</forename>
+            <forename>Raoul</forename>
+            <forename>Richard</forename>
+            <forename>Robert</forename>
+            <forename>Roger</forename>
+            <forename>Simon</forename>
+            <forename>Tancrede</forename>
+            <forename>Thierry</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelaide</forename>
+            <forename>Anne</forename>
+            <forename>Beatrice</forename>
+            <forename>Bertrade</forename>
+            <forename>Blanche</forename>
+            <forename>Constance</forename>
+            <forename>Eleanore</forename>
+            <forename>Emma</forename>
+            <forename>Ermentrude</forename>
+            <forename>Francoise</forename>
+            <forename>Gerberga</forename>
+            <forename>Germaine</forename>
+            <forename>Isabella</forename>
+            <forename>Jeanne</forename>
+            <forename>Marguerite</forename>
+            <forename>Maria</forename>
+            <forename>Richilde</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>de Heauteville</surname>
+        <surname>de Normandie</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -3133,15 +3525,65 @@
     <title>Occitan</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abelard</forename>
+            <forename>Bohemond</forename>
+            <forename>Carloman</forename>
+            <forename>Charles</forename>
+            <forename>Claude</forename>
+            <forename>Clotaire</forename>
+            <forename>Clovis</forename>
+            <forename>Dagobert</forename>
+            <forename>Drogo</forename>
+            <forename>Eudes</forename>
+            <forename>Francois</forename>
+            <forename>Guillaume</forename>
+            <forename>Henri</forename>
+            <forename>Hugues</forename>
+            <forename>Jean</forename>
+            <forename>Lothaire</forename>
+            <forename>Louis</forename>
+            <forename>Odo</forename>
+            <forename>Onfroi</forename>
+            <forename>Pepin</forename>
+            <forename>Philippe</forename>
+            <forename>Pierre</forename>
+            <forename>Raoul</forename>
+            <forename>Richard</forename>
+            <forename>Robert</forename>
+            <forename>Roger</forename>
+            <forename>Simon</forename>
+            <forename>Tancrede</forename>
+            <forename>Thierry</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelaide</forename>
+            <forename>Anne</forename>
+            <forename>Beatrice</forename>
+            <forename>Bertrade</forename>
+            <forename>Blanche</forename>
+            <forename>Constance</forename>
+            <forename>Eleanore</forename>
+            <forename>Emma</forename>
+            <forename>Ermentrude</forename>
+            <forename>Francoise</forename>
+            <forename>Gerberga</forename>
+            <forename>Germaine</forename>
+            <forename>Isabella</forename>
+            <forename>Jeanne</forename>
+            <forename>Marguerite</forename>
+            <forename>Maria</forename>
+            <forename>Richilde</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Albret</surname>
+        <surname>de Angouleme</surname>
+        <surname>de Aquitaine</surname>
+        <surname>de Bigorre</surname>
+        <surname>de Foix</surname>
+        <surname>de Gascony</surname>
+        <surname>de Roucy</surname>
+        <surname></surname>
         <surname></surname>
         <surname></surname>
     </surnames>
