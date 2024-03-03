@@ -305,9 +305,7 @@
     </forenames>
     <surnames>
         <surname>Aragon</surname>
-        <surname>Barcelona</surname>
         <surname>Jimenez</surname>
-        <surname>Pamplona</surname>
         <surname>Moncada</surname>
         <surname>Urgell</surname>
         <surname></surname>
@@ -1162,17 +1160,48 @@
     <title>Catalan</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename> 
+            <forename>Antonio</forename>          
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename> 
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Entenca</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -3227,9 +3256,9 @@
         <surname>Abarca</surname>
         <surname>Garces</surname>
         <surname>Iniguez</surname>
+        <surname>Pamplona</surname>
         <surname>Ramirez</surname>
         <surname>Sanchez</surname>
-        <surname></surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -3402,8 +3431,24 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>de Beauchamp</surname>
+        <surname>de Beaumont</surname>
+        <surname>de Clare</surname>
+        <surname>Courtenay</surname>
+        <surname>de Harcourt</surname>
         <surname>de Heauteville</surname>
+        <surname>de Lacey</surname>
+        <surname>de Mandeville</surname>
+        <surname>de Montagu</surname>
+        <surname>de Montfort</surname>
+        <surname>de Mortimer</surname>
         <surname>de Normandie</surname>
+        <surname>de Ros</surname>
+        <surname>de Valognes</surname>
+        <surname>de Vaux</surname>
+        <surname>de Vere</surname>
+        <surname>de Vesci</surname>
+        <surname>de Warenne</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
